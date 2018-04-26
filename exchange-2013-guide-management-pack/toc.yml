@@ -1,0 +1,19 @@
+- name: Handbuch zum Exchange Server 2013-Management Pack
+  href: exchange-server-2013-management-pack-guide.md
+  items:
+  - name: Importieren des Exchange Server 2013-Management Packs
+    href: import-the-exchange-server-2013-management-pack.md
+  - name: Erste Schritte mit Exchange Server 2013 Management Pack
+    href: getting-started-with-exchange-server-2013-management-pack.md
+  - name: Verwenden des Exchange Server 2013-Management Packs für die Problembehandlung
+    href: using-the-exchange-server-2013-management-pack-for-troubleshooting.md
+  - name: Verfahren in Verbindung mit der Bereitstellung
+    href: procedures-related-to-deployment.md
+  - name: Procedures related to post-deployment operation
+    href: procedures-related-to-post-deployment-operation.md
+  - name: Übermitteln der Systemintegrität durch das Exchange Server 2013 Management Pack
+    href: understanding-how-exchange-server-2013-management-pack-reports-system-health.md
+  - name: 'Appendix A: Exchange health sets'
+    href: appendix-a-exchange-health-sets.md
+  - name: 'Anhang B: Weitere Ressourcen'
+    href: appendix-b-additional-resources.md
