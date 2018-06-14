@@ -4,7 +4,7 @@ TOCTitle: Verwenden des Exchange Server 2013-Management Packs für die Problembe
 ms:assetid: c9672dad-1e67-4f07-bad9-539a67f2ac70
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn195913(v=EXCHG.150)
 ms:contentKeyID: 53181887
-ms.author:dstrome
+ms.author: dstrome
 ms.date: 04/03/2015
 mtps_version: v=EXCHG.150
 ms.translationtype: HT

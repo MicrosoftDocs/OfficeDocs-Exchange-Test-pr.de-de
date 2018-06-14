@@ -4,7 +4,7 @@ TOCTitle: Übermitteln der Systemintegrität durch das Exchange Server 2013 Mana
 ms:assetid: 6ca8847f-93fe-458d-bd43-7afad7fdd2f4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn195910(v=EXCHG.150)
 ms:contentKeyID: 53181886
-ms.author:dstrome
+ms.author: dstrome
 ms.date: 04/03/2015
 mtps_version: v=EXCHG.150
 ms.translationtype: HT
