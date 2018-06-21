@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2018-05-22_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2018-05-22_
 
 **Zusammenfassung:** Befolgen Sie die Schritte in diesem Artikel, um öffentliche Ordner zwischen Office 365 und Ihrer lokalen Exchange 2007- oder Exchange Server 2010-Bereitstellung zu synchronisieren.
 

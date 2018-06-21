@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Dieses Thema ist in Bearbeitung.  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 Durch Einrichten einer Hybridbereitstellung können Sie die Funktionsvielfalt und die administrativen Möglichkeiten, die Ihre vorhandene lokale Exchange Server-Organisation bietet, auf die Cloud ausdehnen. Eine Hybridbereitstellung bietet außerdem Unterstützung für eine cloudbasierte Archivierungslösung für Ihre lokalen Postfächer mit Exchange Online-Archivierung und kann als Zwischenschritt in Richtung einer vollständigen Migration Ihrer lokalen Postfächer zu Exchange Online fungieren.
 

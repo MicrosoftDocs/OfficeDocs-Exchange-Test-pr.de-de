@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 In Hybridbereitstellungen können Sie Postfächer verwenden, die sich in der lokalen Exchange-Organisation und auch in einer Exchange Online-Organisation befinden. Damit diese beiden separaten Organisationen als eine kombinierte Organisation für Benutzer und zwischen ihnen ausgetauschte Nachrichten angezeigt werden, ist der Hybridtransport unabdingbar. Der Hybridtransport ermöglicht es, dass zwischen Empfängern in den Organisationen gesendete Nachrichten mithilfe von TLS (Transport Layer Security) authentifiziert, verschlüsselt und übertragen werden. Diese Nachrichten werden gegenüber Exchange-Komponenten wie Transportregeln, Journaling und Antispamrichtlinien als „intern“ angezeigt werden. Der Hybridtransport wird vom Assistenten für die Hybridkonfiguration automatisch konfiguriert
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Dieses Thema ist in Bearbeitung.  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 Wenn Sie eine Hybridbereitstellung in einer Exchange 2007-Organisation konfigurieren, müssen Sie in Ihrer vorhandenen Exchange 2007-Organisation mindestens einen Exchange 2013-Server mit den Clientzugriffs- und Postfachserverrollen installieren. Die Exchange 2013-Clientzugriffs- und Postfachserver koordinieren die Kommunikation zwischen der vorhandenen lokalen Exchange 2007-Organisation und der Exchange Online-Organisation. Diese Kommunikation beinhaltet auch den Nachrichtentransport zwischen der lokalen und der Exchange Online-Organisation sowie Messagingfunktionen.
 

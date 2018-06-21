@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 **Zusammenfassung:** Anweisungen dazu, wie Benutzern von Exchange Online ermöglicht werden kann, auf lokale öffentliche Ordner in Ihrer Exchange 2013-Umgebung zuzugreifen.
 

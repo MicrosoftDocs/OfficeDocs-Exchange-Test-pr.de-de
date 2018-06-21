@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 Sie können anhand von Exchange 2013 und Exchange 2016 Hybridbereitstellungen konfigurieren. Die zum Unterstützen einer Hybridbereitstellung zu konfigurierenden Rollen hängen von der von Ihnen verwendeten Version von Exchange ab.
 

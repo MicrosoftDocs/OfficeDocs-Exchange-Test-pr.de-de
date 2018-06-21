@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 In einer Hybridbereitstellung sind digitale Zertifikate ein wichtiger Bestandteil zur Gewährleistung einer sicheren Kommunikation zwischen der lokalen Exchange-Organisation und Office 365. Zertifikate machen es möglich, dass eine Exchange-Organisation der Identität einer anderen Organisation vertrauen kann. Zertifikate können auch sicherstellen, dass jede Exchange-Organisation mit der richtigen Quelle kommuniziert.
 

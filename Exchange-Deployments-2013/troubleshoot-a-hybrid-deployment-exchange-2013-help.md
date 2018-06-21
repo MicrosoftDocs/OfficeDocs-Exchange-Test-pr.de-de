@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-04-29_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-04-29_
 
 Durch die Konfiguration einer Hybridbereitstellung in Exchange mit dem Assistenten für die Hybridkonfiguration wird das Risiko von Problemen in der Hybridbereitstellung minimiert. Es gibt jedoch einige typische Bereiche, die den Rahmen des Assistenten für die Hybridkonfiguration übersteigen. Sofern dieser fehlerhaft konfiguriert ist, kann dies zu Problemen in der Hybridbereitstellung führen. In diesem Thema werden die folgenden gängigen Bereiche erläutert, in denen Probleme auftreten können. Ferner werden grundlegende Schritte beschrieben, um die Probleme zu überprüfen und zu korrigieren:
 

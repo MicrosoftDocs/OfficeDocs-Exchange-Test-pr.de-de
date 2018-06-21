@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2017-07-27_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2017-07-27_
 
 Lesen Sie diesen Artikel, wenn Sie bereit sind, von einer Exchange-Hybridbereitstellung zu einer vollständigen Cloud-Implementierung zu wechseln.
 

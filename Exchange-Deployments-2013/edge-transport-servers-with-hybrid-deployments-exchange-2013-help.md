@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2018-04-16_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2018-04-16_
 
 Die Edge-Transport-Serverrolle ist eine optionale Rolle, die in der Regel auf einem Computer im Umkreisnetzwerk der Exchange-Organisation bereitgestellt wird und darauf ausgelegt ist, die Angriffsfläche der Organisation auf ein Mindestmaß zu reduzieren. Die Edge-Transport-Serverrolle verarbeitet den gesamten Internetnachrichtenfluss, der SMTP-Relay- und Smarthost-Dienste für die internen lokalen Exchange-Server in Ihrer Organisation bereitstellt.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-07-29_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-07-29_
 
 In diesem Thema werden die verschiedenen Weiterleitungsoptionen für eingehende Nachrichten aus dem Internet und ausgehende Nachrichten ins Internet erläutert.
 

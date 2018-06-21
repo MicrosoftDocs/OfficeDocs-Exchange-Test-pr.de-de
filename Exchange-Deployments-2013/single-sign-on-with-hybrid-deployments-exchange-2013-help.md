@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-01-29_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-01-29_
 
 Mit der einmaligen Anmeldung (Single Sign-On, SSO) können Benutzer unter Verwendung derselben Anmeldeinformationen sowohl auf die lokale Organisation als auch auf Office 365-Organisationen zugreifen. Die einmalige Anmeldung bietet Benutzern ein vertrautes Anmeldeerlebnis und ermöglicht Administratoren das problemlose Steuern von Kontorichtlinien für Postfächer in der Exchange Online-Organisation über die lokalen Active Directory-Verwaltungstools. Sie müssen eine Hybridbereitstellung zwar nicht mit aktiviertem einmaligen Anmelden konfigurieren, allerdings wird dies dringend empfohlen. Ohne einmaliges Anmelden müssen sich die Benutzer zwei unterschiedliche Sätze von Anmeldeinformationen merken, einen für Ihre lokale Organisation und einen für Office 365. Es folgen einige weitere Vorteile des einmaligen Anmeldens:
 

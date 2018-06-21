@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2017-01-20_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2017-01-20_
 
 In einer Exchange-Hybridbereitstellung können Sie ein lokales primäres Postfach mit einem cloudbasierten Archivpostfach in Exchange Online konfigurieren.
 
