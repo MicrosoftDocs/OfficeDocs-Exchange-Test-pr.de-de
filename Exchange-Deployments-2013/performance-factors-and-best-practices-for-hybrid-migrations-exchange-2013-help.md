@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2016_
+_**Gilt für:** Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Es gibt viele Wege für die Migration von Daten aus einer lokalen E-Mail-Organisation zu Office 365. Bei der Planung einer Migration zu Office 365 stellt sich häufig die Frage nach einer Verbesserung der Datenmigrationsleistung sowie nach einer Optimierung der Migrationsgeschwindigkeit. In diesem Artikel wird die Migrationsleistung für Exchange-Hybridbereitstellungen erläutert. Leistungsinformationen zu anderen Migrationsmethoden finden Sie unter [Office 365-Migrationsleistung und bewährte Methoden](http://go.microsoft.com/fwlink/p/?linkid=623651).
 
