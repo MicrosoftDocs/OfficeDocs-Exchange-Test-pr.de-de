@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Leistungsfaktoren und bewährte Methoden für Hybridmigrationen: Exchange 2013 Help'
 TOCTitle: Leistungsfaktoren und bewährte Methoden für Hybridmigrationen
 ms:assetid: 120a7832-d2d3-47d7-b305-918360c2ef66
@@ -12,6 +12,7 @@ ms.translationtype: HT
 # Leistungsfaktoren und bewährte Methoden für Hybridmigrationen
 
  
+
 
 _<strong>Gilt für:</strong>Exchange Server 2016_
 
