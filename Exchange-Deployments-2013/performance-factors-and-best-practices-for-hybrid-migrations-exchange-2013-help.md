@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Leistungsfaktoren und bewährte Methoden für Hybridmigrationen: Exchange 2013 Help'
 TOCTitle: Leistungsfaktoren und bewährte Methoden für Hybridmigrationen
 ms:assetid: 120a7832-d2d3-47d7-b305-918360c2ef66
@@ -82,7 +82,7 @@ Neben den oben beschriebenen bewährten Methoden wurden folgende bewährte Metho
 
 So wurde beispielsweise bei tatsächlichen Kundenmigrationen mit der folgenden Konfiguration ein konstanter Durchsatz von 30 GB/Stunde erreicht:
 
-  - **Netzwerk **  Ausgehende Pipe an das Internet mit 500 MB; internes Netzwerk mit 1 GB und Glasfaser-Backbone mit 10 GB.
+  - **Netzwerk**  Ausgehende Pipe an das Internet mit 500 MB; internes Netzwerk mit 1 GB und Glasfaser-Backbone mit 10 GB.
 
   - **Hardware**   Spezifikationen für die beiden Clientzugriffsserver/HUB-Server (physisch):
     
