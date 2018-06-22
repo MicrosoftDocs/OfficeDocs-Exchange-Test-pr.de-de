@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2016_
+_**Gilt für:** Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Es gibt viele Wege für die Migration von Daten aus einer lokalen E-Mail-Organisation zu Office 365. Bei der Planung einer Migration zu Office 365 stellt sich häufig die Frage nach einer Verbesserung der Datenmigrationsleistung sowie nach einer Optimierung der Migrationsgeschwindigkeit. In diesem Artikel wird die Migrationsleistung für Exchange-Hybridbereitstellungen erläutert. Leistungsinformationen zu anderen Migrationsmethoden finden Sie unter [Office 365-Migrationsleistung und bewährte Methoden](http://go.microsoft.com/fwlink/p/?linkid=623651).
 
@@ -82,7 +82,7 @@ Neben den oben beschriebenen bewährten Methoden wurden folgende bewährte Metho
 
 So wurde beispielsweise bei tatsächlichen Kundenmigrationen mit der folgenden Konfiguration ein konstanter Durchsatz von 30 GB/Stunde erreicht:
 
-  - **Netzwerk **  Ausgehende Pipe an das Internet mit 500 MB; internes Netzwerk mit 1 GB und Glasfaser-Backbone mit 10 GB.
+  - **Netzwerk**  Ausgehende Pipe an das Internet mit 500 MB; internes Netzwerk mit 1 GB und Glasfaser-Backbone mit 10 GB.
 
   - **Hardware**   Spezifikationen für die beiden Clientzugriffsserver/HUB-Server (physisch):
     
