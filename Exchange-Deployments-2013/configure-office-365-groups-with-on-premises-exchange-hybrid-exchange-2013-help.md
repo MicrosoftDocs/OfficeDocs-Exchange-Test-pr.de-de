@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:**2016-12-06_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-06_
 
 Erfahren Sie, wie Sie lokalen Exchange-Benutzern die Verwendung von Office 365-Gruppen in einer Hybridbereitstellung ermöglichen.
 
@@ -103,7 +103,7 @@ Die primäre SMTP-Domäne einer Office 365-Gruppe wird als *Gruppendomäne* beze
     <td><p>MX</p></td>
     <td><p>groups-contoso-com.mail.protection.outlook.com</p>
 
-    > [!NOTE]
+    > [!NOTE]  
     > Das Format dieses DNS-Datensatzwerts lautet <EM>&lt;domain key&gt;</EM>.mail.protection.outlook.com. Informationen zum Ermitteln des Domänenschlüssels finden Sie unter <A href="https://support.office.com/de-de/article/gather-the-information-you-need-to-create-office-365-dns-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67?ui=en-us%26rs=en-us%26ad=us">Sammeln der zum Erstellen von Office 365-DNS-Einträgen erforderlichen Informationen</A>.
 
 
@@ -118,8 +118,8 @@ Die primäre SMTP-Domäne einer Office 365-Gruppe wird als *Gruppendomäne* beze
     </table>
     
 
-    > [!WARNING]
-    > Wenn der MX-DNS-Eintrag für die Gruppendomäne auf den lokalen Exchange-Server festgelegt ist, funktioniert der E-Mail-Fluss zwischen Benutzern in der lokalen Exchange-Organisation und der Office 365-Gruppe nicht ordnungsgemäß.
+   > [!WARNING]  
+   > Wenn der MX-DNS-Eintrag für die Gruppendomäne auf den lokalen Exchange-Server festgelegt ist, funktioniert der E-Mail-Fluss zwischen Benutzern in der lokalen Exchange-Organisation und der Office 365-Gruppe nicht ordnungsgemäß.
 
 
 
@@ -128,7 +128,7 @@ Die primäre SMTP-Domäne einer Office 365-Gruppe wird als *Gruppendomäne* beze
         Set-SendConnector -Identity "Outbound to Office 365" -AddressSpaces "contoso.mail.onmicrosoft.com","groups.contoso.com"
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Wenn der Sendeconnector nicht aktualisiert oder die Gruppendomäne nicht als akzeptierte Domäne in der lokalen Exchange-Organisation hinzugefügt wird, wird aus einem lokalen Postfach gesendete Mail nicht an die Gruppe übermittelt, sofern die Gruppe nicht für den Empfang von Mail von externen Absendern konfiguriert ist.
 
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2018-04-16_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2018-04-16_
 
 **Zusammenfassung:** Wissenswertes zum Planen einer Exchange-Hybridbereitstellung
 

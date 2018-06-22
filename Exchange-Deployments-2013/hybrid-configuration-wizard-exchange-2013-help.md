@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 In diesem Thema finden Sie eine Übersicht über die Konfiguration von Exchange-Hybridbereitstellungen, verfügbare Hybridbereitstellungsfeatures und -optionen und das Modul für die Hybridkonfiguration, mit dem die Hauptaktionen beim Konfigurieren und Aktualisieren einer Hybridbereitstellung ausgeführt werden.
 

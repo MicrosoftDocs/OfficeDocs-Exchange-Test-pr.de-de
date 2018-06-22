@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2018-05-02_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2018-05-02_
 
 Die Organisation mit Exchange Online in Office 365 basiert auf Exchange Server und verwendet, ähnlich wie lokale Organisationen, ebenfalls die rollenbasierte Zugriffssteuerung (Role Based Access Control, RBAC), um Berechtigungen zu steuern. Administratoren werden Berechtigungen über Verwaltungsrollengruppen erteilt, während Endbenutzern Berechtigungen über Zuweisungsrichtlinien für Verwaltungsrollen erteilt werden.
 

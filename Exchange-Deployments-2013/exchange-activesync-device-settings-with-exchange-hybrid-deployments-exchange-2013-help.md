@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-01-27_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-01-27_
 
 Exchange ActiveSync-Geräte werden automatisch erneut konfiguriert, wenn ein Postfach von einer lokalen Exchange-Organisation zu Office 365 verschoben wird. Exchange ActiveSync sucht nach dem neuen Postfachort in Office 365 und aktualisiert seine Konfiguration, um direkt mit Office 365 zu kommunizieren. Das Exchange ActiveSync-Gerät versucht keine Verbindung zum lokalen Exchange-Server herzustellen, nachdem es erfolgreich an Office 365 umgeleitet wurde. Abgesehen von einigen wenigen Ausnahmen (im Folgenden dazu mehr) muss der Benutzer sein Gerät nicht mehr manuell einrichten, damit die E-Mails funktionieren.
 

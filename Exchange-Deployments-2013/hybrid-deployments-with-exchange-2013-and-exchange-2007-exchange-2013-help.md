@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Dieses Thema ist in Bearbeitung.  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-07-07_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2015-07-07_
 
 Die Konfiguration und Verwaltung von Exchange 2013-basierten Hybridbereitstellungen mit Exchange 2007 ist einfacher als je zuvor dank der neuesten Verbesserungen am Assistenten für die Hybridkonfiguration und der Architekturänderungen, die in Microsoft Exchange Server 2013 eingeführt wurden. Unabhängig davon, ob Sie Ihre lokale Exchange 2007-Organisation und Ihre Exchange Online-Organisation für eine langfristige Koexistenz oder als Teil einer Cloudmigrationsstrategie verbinden möchten, ist es wichtig, dass Sie die Konzepte einer Hybridbereitstellung verstehen.
 

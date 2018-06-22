@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 Microsoft hat einen neuen Assistenten für die Hybridkonfiguration veröffentlicht, der die Konfiguration einer Hybridbereitstellung vereinfacht, eine flexiblere Hybridkonfiguration ermöglicht und sicherstellt, dass stets die aktuelle Benutzerumgebung verwendet wird. Diese Version des Hybridassistenten ist ab dem kumulativen Update 10 in Exchange 2016 und Releases von Exchange 2013 integriert. Sie können den neuen Assistenten jedoch auch dann herunterladen, wenn Sie ein älteres kumulatives Update (CU) von Exchange 2013 oder Exchange 2010 Service Pack 3 (SP3) verwenden.
 

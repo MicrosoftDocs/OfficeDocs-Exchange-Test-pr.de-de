@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-04-29_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-04-29_
 
 Die Freigabe von Frei/Gebucht-Informationen (Kalenderverfügbarkeitsinformationen) durch lokale Benutzer und Benutzer in der Exchange Online-Organisation ist einer der wesentlichen Vorteile einer Hybridbereitstellung. Benutzer in beiden Organisationen können gegenseitig die Kalender anzeigen, als befänden sie sich in derselben physikalischen Organisation. Dies ermöglicht eine einfache und effiziente Planung von Sitzungen und Ressourcen.
 

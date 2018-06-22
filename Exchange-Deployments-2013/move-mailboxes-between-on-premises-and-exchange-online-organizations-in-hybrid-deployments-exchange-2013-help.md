@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2017-10-02_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2017-10-02_
 
 Mit einer Exchange-basierten Hybridbereitstellung können Sie entweder lokale Exchange-Postfächer in die Exchange Online-Organisation oder Exchange Online-Postfächer in die lokale Exchange-Organisation verschieben. Verwenden Sie beim Verschieben von Postfächern zwischen den lokalen und Exchange Online-Organisationen Migrationsbatches zum Ausführen der Verschiebungsanforderung für Remotepostfächer. Dieser Ansatz ermöglicht es, vorhandene Postfächer zu verschieben, statt neue Benutzerpostfächer zu erstellen und Benutzerinformationen zu importieren. Dieser Ansatz unterscheidet sich von der Migration von Benutzerpostfächern von einer lokalen Exchange-Organisation zu Exchange Online, die im Rahmen einer vollständigen Exchange-Migration in die Cloud ausgeführt wird. Die in diesem Thema erläuterte Postfachverschiebung wird im Rahmen der Exchange-Verwaltung in einer längerfristigen Koexistenzbeziehung zwischen lokalen Exchange- und Exchange Online-Organisationen ausgeführt.
 
@@ -49,7 +49,7 @@ Weitere Informationen über die Migration von lokalen Exchange-Organisationen zu
 
 Vor dem Onboarding und Offboarding von remote ausgeführten Verschiebungsmigrationen in einer Exchange-Hybridbereitstellung sollten Sie Endpunkte für die Exchange-Remotemigration erstellen. Der Migrationsendpunkt enthält die Verbindungseinstellungen für einen lokalen Exchange-Server, auf dem der MRS-Proxydienst ausgeführt wird, der zum Ausführen von Remoteverschiebungsmigrationen zu und von Exchange Online erforderlich ist.
 
-Schritt-für-Schritt-Verfahren finden Sie unter [Erstellen von Migrationsendpunkten](https://technet.microsoft.com/de-de/library/jj874458\(v=exchg.150\)).
+Schritt-für-Schritt-Verfahren finden Sie unter Erstellen von Migrationsendpunkten.
 
 ## Schritt 2: Aktivieren des MRSProxy-Diensts
 

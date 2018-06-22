@@ -13,7 +13,7 @@ ms.translationtype: MT
 
  
 
-_**Letztes Änderungsdatum des Themas:**2018-01-30_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2018-01-30_
 
 Mit delegierten Postfachberechtigungen wird Benutzern das Verwalten eines Teils eines anderen Benutzerpostfachs ermöglicht. Ein allgemeines Beispiel hierfür stellen Verwaltungsassistenten dar, die das Postfach und den Kalender einer Führungskraft verwalten müssen. Hybridbereitstellungen zwischen einer lokalen Exchange-Organisation und Office 365 unterstützen die delegierten Postfachberechtigungen **Vollzugriff** und **Senden im Auftrag von**. Je nach der installierten Exchange-Version in der lokalen Organisation müssen Sie möglicherweise zusätzliche Konfigurationsschritte ausführen, um delegierte Berechtigungen in einer Hybridbereitstellung zu verwenden. Im Folgenden werden die Versionen von Exchange aufgeführt, die delegierte Postfachberechtigungen in einer Hybridbereitstellung unterstützen, sowie die erforderlichen zusätzlichen Konfigurationsschritte für die jeweilige Version.
 

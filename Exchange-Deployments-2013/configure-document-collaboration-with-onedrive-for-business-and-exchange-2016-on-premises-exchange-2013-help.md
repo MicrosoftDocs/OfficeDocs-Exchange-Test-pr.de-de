@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 **Zusammenfassung:** Informationen dazu, wie Sie Ihren lokalen Exchange Server 2016-Benutzern die Zusammenarbeit an Dokumenten mit OneDrive for Business und SharePoint Online in einer Hybridkonfiguration ermöglichen.
 

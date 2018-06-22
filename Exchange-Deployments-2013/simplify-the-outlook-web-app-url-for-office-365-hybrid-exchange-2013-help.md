@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:**2016-11-11_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-11-11_
 
 Erfahren Sie, wie Sie eine URL für Outlook im Web (Outlook Web App) für Benutzer mit Cloudpostfach in einer Hybridumgebung konfigurieren.
 
