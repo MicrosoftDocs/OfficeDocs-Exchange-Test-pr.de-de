@@ -82,7 +82,7 @@ Neben den oben beschriebenen bewährten Methoden wurden folgende bewährte Metho
 
 So wurde beispielsweise bei tatsächlichen Kundenmigrationen mit der folgenden Konfiguration ein konstanter Durchsatz von 30 GB/Stunde erreicht:
 
-  - **Netzwerk **  Ausgehende Pipe an das Internet mit 500 MB; internes Netzwerk mit 1 GB und Glasfaser-Backbone mit 10 GB.
+  - **Netzwerk**  Ausgehende Pipe an das Internet mit 500 MB; internes Netzwerk mit 1 GB und Glasfaser-Backbone mit 10 GB.
 
   - **Hardware**   Spezifikationen für die beiden Clientzugriffsserver/HUB-Server (physisch):
     
