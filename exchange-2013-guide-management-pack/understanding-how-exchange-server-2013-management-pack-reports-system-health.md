@@ -1,6 +1,6 @@
 ﻿---
-title: Übermitteln der Systemintegrität durch das Exchange Server 2013 Management Pack
-TOCTitle: Übermitteln der Systemintegrität durch das Exchange Server 2013 Management Pack
+title: Systemzustandsberichte in Exchange Server 2013 Management Pack
+TOCTitle: Systemzustandsberichte in Exchange Server 2013 Management Pack
 ms:assetid: 6ca8847f-93fe-458d-bd43-7afad7fdd2f4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn195910(v=EXCHG.150)
 ms:contentKeyID: 53181886
