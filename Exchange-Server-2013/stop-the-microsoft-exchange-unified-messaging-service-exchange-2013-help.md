@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-16_
+_**Letztes Änderungsdatum des Themas:** 2012-11-16_
 
 Zum Beenden des MicrosoftExchange Unified Messaging-Diensts auf einem Postfachserver können Sie das Dienste-Snap-In in Microsoft Management Console (MMC) oder den Befehl "cmd.exe" an einer Eingabeaufforderung verwenden. Mitunter kann es notwendig sein, diesen Dienst zu beenden, z. B. wenn Sie den Postfachserver offline schalten. Wenn Sie den MicrosoftExchange Unified Messaging-Dienst beenden, kann der Postfachserver eingehende Anrufe nicht annehmen und verarbeiten.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-16_
+_**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 Eine globale Adressliste ist ein Verzeichnis, das Einträge für alle Gruppen, Benutzer und Kontakte in der Microsoft Exchange-Implementierung einer Organisation enthält. Wenn in Ihrer Organisation Adressbuchrichtlinien verwendet werden, möchten Sie vielleicht zusätzliche globale Adresslisten (GALs) erstellen. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](address-book-policies-exchange-2013-help.md).
 

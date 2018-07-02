@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-09-11_
+_**Letztes Änderungsdatum des Themas:** 2014-09-11_
 
 Wenn in Ihrem Unternehmen Formulare zur Zusammenfassung vertraulicher Informationen verwendet werden, kann es passieren, dass Benutzer diese Formulare an Kontakte außerhalb des Unternehmens senden, was ein Sicherheitsrisiko darstellt. Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange hilft Ihnen, diese Informationen zu schützen, indem sie an ihrem [Dokumentfingerabdrücke](overview-of-document-fingerprinting-in-exchange.md) erkannt werden. Wenn Sie Dokumentfingerabdrücke verwenden möchten, laden Sie einfach ein leeres Formular hoch, z. B. ein Dokument zu geistigem Eigentum, ein Behördenformular oder ein anderes in Ihrem Unternehmen verwendetes Formular. Fügen Sie dann dessen Dokumentfingerabdruck zu einer DLP-Richtlinie oder Transportregeln hinzu. Vorgehensweise:
 

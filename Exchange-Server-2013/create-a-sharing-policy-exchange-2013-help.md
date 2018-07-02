@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Mithilfe von Freigaberichtlinien können Sie steuern, wie Benutzer in Ihrer Exchange-Organisation Kalenderinformationen mit Benutzern außerhalb Ihrer Organisation teilen können. Freigaberichtlinien ermöglichen das durch den Benutzer eingerichtete personenbezogene Teilen von Kalenderinformationen mit verschiedenen Typen von externen Benutzern. Sie unterstützen das Teilen von Kalenderinformationen mit externen Verbundorganisationen (wie z. B. Office 365 oder einer anderen lokalen Exchange-Organisation), externen Nicht-Verbundorganisationen und einzelnen Benutzern mit Internetzugang. Informationen zum Anwenden einer bestimmten Freigaberichtlinie auf Benutzer finden Sie unter [Anwenden von Freigaberichtlinien für Postfächer](apply-a-sharing-policy-to-mailboxes-exchange-2013-help.md).
 

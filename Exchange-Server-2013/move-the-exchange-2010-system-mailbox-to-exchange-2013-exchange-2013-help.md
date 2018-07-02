@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 In Exchange 2010 ist das Microsoft Exchange-Systempostfach ein Vermittlungspostfach, das zum Speichern von organisationsweiten Daten verwendet wird, wie Administrator-Überwachungsprotokollen, eDiscovery-Suchmetadaten und Unified Messaging-Daten wie Menüs, Wähleinstellungen und benutzerdefinierten Begrüßungen. Das Microsoft Exchange-Systempostfach hat den Namen **SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}**; der Anzeigename ist **Microsoft Exchange**.
 

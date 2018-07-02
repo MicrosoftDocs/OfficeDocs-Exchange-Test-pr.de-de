@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-08-22_
+_**Letztes Änderungsdatum des Themas:** 2016-08-22_
 
 Die folgenden Hinweise unterstützen Sie beim Konfigurieren der SSL-Abladung für die Protokolle und zugehörigen Dienste auf Exchange 2013-Clientzugriffsservern mit installiertem Service Pack 1 (SP1). Wenn Sie mehrere Clientzugriffsserver verwenden, müssen Sie die erforderlichen Schritte für jedes Protokoll bzw. jeden Dienst auf jedem Clientzugriffsserver mit installiertem SP1 in Ihrer lokalen Organisation ausführen. Alle Clientzugriffsserver in der Organisation müssen gleich konfiguriert sein. Wenn Sie ein Upgrade auf neuere kumulative Updates oder Service Packs vornehmen und weiterhin SSL-Abladung verwenden möchten, müssen Sie die folgenden Schritte nach dem Upgrade bzw. der Anwendung dieser Updates auf die Exchange 2013-Clientzugriffsserver erneut ausführen.
 

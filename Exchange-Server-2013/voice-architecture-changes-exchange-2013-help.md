@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Microsoft Exchange Server 2013-Architektur unterscheidet sich von der Architektur in Exchange Server 2007 und Exchange Server 2010. In Exchange 2007 und Exchange 2010 wurden die Servertypen in mehrere Serverrollen unterteilt: Clientzugriff, Postfach, Hub-Transport und Unified Messaging. In Exchange 2013 werden die Serverrollen in zwei Servertypen kombiniert, und alle Komponenten oder Dienste dieser Serverrollen werden auf demselben physischen Server oder auf zwei getrennten Servern ausgeführt – dem Clientzugriffs- und dem Postfachserver. In diesem neuen Modell leitet der Clientzugriffsserver, auf dem der Microsoft Exchange Unified Messaging-Anrufrouterdienst ausgeführt wird, den SIP-Datenverkehr (Session Initialization Protocol), der durch einen eingehenden Anruf generiert wird, an einen Postfachserver um. Anschließend wird ein Medienkanal (RTP \[Realtime Transport Protocol\] oder SRTP \[Secure RTP\]) zwischen dem VoIP-Gateway oder der IP-Nebenstellenanlage (Private Branch eXchange, PBX) und dem Postfachserver eingerichtet, der das Benutzerpostfach hostet. In Exchange 2013 führt der Postfachserver dieselben Prozesse aus wie die Unified Messaging-Serverrolle in Exchange 2007 und Exchange 2010. Auf dem Postfachserver werden sowohl der Microsoft Exchange Unified Messaging-Dienst als auch UM-Arbeitsprozesse ausgeführt. Der Clientzugriffsserver führt den Microsoft Exchange Unified Messaging-Anrufrouterdienst aus, der einen eingehenden Anruf empfängt und diesen an den Postfachserver weiterleitet.
 

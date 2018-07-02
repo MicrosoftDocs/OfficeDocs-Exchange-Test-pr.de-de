@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können für Outlook Voice Access-Benutzer das Weiterleiten von Anrufen an Benutzer, die einem Unified Messaging-Wählplan (UM) zugeordnet sind, aktivieren oder deaktivieren. Standardmäßig sind sowohl diese Option als auch die Option **Sprachnachrichten ohne Klingeln des Telefons des Benutzers hinterlassen** aktiviert, sodass Outlook Voice Access-Benutzer Anrufe an Benutzer im selben UM-Wählplan weiterleiten und Sprachnachrichten für sie hinterlassen können. Diese Einstellung gilt nur für Outlook Voice Access-Benutzer, die ihre PIN eingegeben und sich authentifiziert haben.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-05-03_
+_**Letztes Änderungsdatum des Themas:** 2013-05-03_
 
 [Aktivieren Sie ausgehende Anrufe für UM-IP-gateways](enable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md)
 

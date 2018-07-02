@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-11-15_
+_**Letztes Änderungsdatum des Themas:** 2017-11-15_
 
 In verschiedenen Szenarien ist der Export oder Import von Aufbewahrungstags erforderlich:
 

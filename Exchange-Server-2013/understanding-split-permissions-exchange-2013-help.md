@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Organisationen, in denen die Verwaltung von Microsoft Exchange Server 2013-Objekten und Active Directory-Objekten getrennt wird, verwenden ein sogenanntes *Modell mit geteilten Berechtigungen*. Über geteilte Berechtigungen können Organisationen bestimmte Berechtigungen und zugehörige Aufgaben bestimmten Gruppen innerhalb der Organisationen zuweisen. Diese Arbeitsteilung hilft, Standards zu wahren und Workflows aufrechtzuerhalten sowie Änderungen in der Organisation zu steuern.
 

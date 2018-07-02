@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-06-15_
+_**Letztes Änderungsdatum des Themas:** 2016-06-15_
 
 In Microsoft Exchange Server 2013 können Ihrer Organisation ganz leicht mehrere autoritative Domänen hinzugefügt werden. Nach dem Hinzufügen der autoritativen Domäne müssen Sie jedoch entscheiden, wie diese in Ihrer Organisation verwendet werden soll. Beispiel:
 

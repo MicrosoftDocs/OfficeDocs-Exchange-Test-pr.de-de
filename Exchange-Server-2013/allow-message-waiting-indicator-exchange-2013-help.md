@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 MWI (Message Waiting Indicator) ist eine Funktion, die sich bei den meisten Voicemail-Legacysystemen findet. Benutzer erfahren so, ob sie neue oder nicht abgehörte Sprachnachrichten haben. In der Regel wird dabei durch eine Leuchtanzeige am Telefon eines Benutzers signalisiert, dass eine neue oder nicht abgehörte Sprachnachricht vorliegt.
 

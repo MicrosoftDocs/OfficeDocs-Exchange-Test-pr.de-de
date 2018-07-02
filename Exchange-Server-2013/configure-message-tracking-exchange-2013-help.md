@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-18_
+_**Letztes Änderungsdatum des Themas:** 2013-02-18_
 
 Die Nachrichtenverfolgung zeichnet die SMTP-Transportaktivitäten aller Nachrichten auf, die an den oder vom Transportdienst bzw. an oder von Postfächern auf einem Microsoft Exchange Server 2013-Postfachserver übertragen werden. Sie können Nachrichtenverfolgungsprotokolle für forensische Nachrichtenanalysen, Nachrichtenübermittlungsanalysen, die Berichterstellung und die Problembehandlung verwenden.
 

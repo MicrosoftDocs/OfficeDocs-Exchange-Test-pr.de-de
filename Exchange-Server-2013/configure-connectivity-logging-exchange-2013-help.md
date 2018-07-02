@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-18_
+_**Letztes Änderungsdatum des Themas:** 2013-02-18_
 
 Bei der Konnektivitätsprotokollierung wird die Aktivität ausgehender Verbindungen für die Übermittlung von Nachrichten von einem Transportdienst auf einem Exchange-Server aufgezeichnet. Im Rahmen der Konnektivitätsprotokollierung werden die Verbindungsquelle, das Ziel, die Anzahl von Nachrichten und übermittelten Bytes sowie Informationen zu Verbindungsfehlern erfasst.
 

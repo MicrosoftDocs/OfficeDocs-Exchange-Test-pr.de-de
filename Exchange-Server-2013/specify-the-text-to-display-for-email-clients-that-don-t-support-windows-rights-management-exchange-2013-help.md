@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können den an Benutzer gesendeten Text angeben, wenn dieser eine geschützte Sprachnachricht empfängt, ihr E-Mail-Client aber die Verwaltung von Informationsrechten (IRM) oder Windows-Rechteverwaltung nicht unterstützt.
 

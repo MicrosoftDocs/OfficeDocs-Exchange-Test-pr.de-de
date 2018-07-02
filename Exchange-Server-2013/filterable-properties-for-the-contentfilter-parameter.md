@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-09-10_
+_**Letztes Änderungsdatum des Themas:** 2015-09-10_
 
 In diesem Thema werden die filterbaren Eigenschaften für den Parameter *ContentFilter* beschrieben. Der Parameter *ContentFilter* wird zum Exportieren von Nachrichten in eine PST-Datei verwendet, die mit den Filtereinstellungen übereinstimmen. Der Parameter *ContentFilter* wird im Cmdlet [New-MailboxExportRequest](https://technet.microsoft.com/de-de/library/ff607299\(v=exchg.150\)) verwendet.
 

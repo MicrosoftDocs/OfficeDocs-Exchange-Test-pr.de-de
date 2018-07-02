@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema wird erklärt, wie Exchange 2013 in einer gesamtstrukturübergreifenden Topologie mithilfe von Microsoft Forefront Identity Manager 2010 R2 SP1 bereitgestellt wird. Zum Bereitstellen von Exchange 2013 in einer gesamtstrukturübergreifenden Topologie müssen Sie zuerst Exchange 2013 in jeder Gesamtstruktur installieren und die Gesamtstrukturen dann so verbinden, dass die Benutzer Adressen und Verfügbarkeitsdaten gesamtstrukturübergreifend anzeigen können.
 

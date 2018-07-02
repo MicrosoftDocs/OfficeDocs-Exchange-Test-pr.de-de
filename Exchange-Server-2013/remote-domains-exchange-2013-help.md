@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Sie können Remotedomäneneinträge erstellen, um die Einstellungen für die Nachrichtenübermittlung zwischen der Microsoft Exchange Server 2013-Organisation und Domänen außerhalb Ihrer Exchange-Organisation zu definieren. Durch das Erstellen eines Remotedomäneneintrags steuern Sie die Nachrichtentypen, die an diese Domäne gesendet werden. Sie können zudem auch Nachrichtenformatrichtlinien anwenden und zulässige Zeichensätze für Nachrichten angeben, die von Benutzer Ihrer Organisation an die Remotedomäne gesendet werden. Bei den Einstellungen für Remotedomänen handelt es sich um globale Konfigurationseinstellungen für die Exchange-Organisation.
 

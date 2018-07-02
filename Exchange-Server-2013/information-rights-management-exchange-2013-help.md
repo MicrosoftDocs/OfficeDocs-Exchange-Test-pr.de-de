@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Tagtäglich tauschen Information-Worker sensible Informationen, wie beispielsweise Finanzberichte und -daten, juristische Verträge, vertrauliche Produktinformationen, Verkaufsberichte und -planungen, Wettbewerbsanalysen, Forschungsdaten und patentrechtlich geschützte Informationen sowie Kunden- und Mitarbeiterdaten, über E-Mail aus. Da jeder von nahezu überall auf seine E-Mails zugreifen kann, sind aus Postfächern sogenannte Repositorys (d. h. Datenspeicher) geworden, die große Mengen potenziell vertraulicher Daten enthalten. Daher können Informationslecks eine ernste Bedrohung für Organisationen darstellen. Um Informationslecks zu verhindern, schließt Microsoft Exchange Server 2013 Funktionen für die Verwaltung von Informationsrechten (Information Rights Management, IRM) ein, mit denen dauerhafter Online- und Offlineschutz von E-Mail-Nachrichten und Anlagen bereitgestellt wird.
 

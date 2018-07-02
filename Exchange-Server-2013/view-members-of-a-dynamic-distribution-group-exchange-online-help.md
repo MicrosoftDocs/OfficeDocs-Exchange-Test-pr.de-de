@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-03-02_
+_**Letztes Änderungsdatum des Themas:** 2018-03-02_
 
 Dynamische Verteilergruppen sind Verteilergruppen, deren Mitgliedschaft auf bestimmten Empfängerfiltern und nicht auf einer definierten Empfängergruppe basiert. MicrosoftExchange stellt Musterfilter zur Verfügung, um das Erstellen von Empfängerfiltern für dynamische Verteilergruppen zu vereinfachen. Bei einem *Musterfilter* handelt es sich um einen häufig verwendeten Filter, mit dem verschiedene Kriterien der Empfängerfilterung erfüllt werden. Sie können die Empfängertypen angeben, die in die dynamische Verteilergruppe aufgenommen werden sollen. Außerdem können Sie eine Liste mit Bedingungen angeben, die die Empfänger erfüllen müssen. Sie können mit der Shell eine Vorschau der Empfängerliste für eine dynamische Verteilergruppe anzeigen, die Musterfilter verwendet.
 

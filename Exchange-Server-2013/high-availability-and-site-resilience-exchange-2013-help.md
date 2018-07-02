@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-15_
+_**Letztes Änderungsdatum des Themas:** 2016-12-15_
 
 Sie können Ihre Exchange Server 2013-Postfachdatenbanken und die darin enthaltenen Daten schützen, indem Sie Ihre Postfachdatenbanken für hohe Verfügbarkeit und Ausfallsicherheit für Standorte konfigurieren. Exchange 2013 senkt die Kosten und Komplexität für die Bereitstellung einer hochverfügbaren und ausfallsicheren Messaginglösung auf ein Minimum und bietet gleichzeitig hohe Dienst- und Datenverfügbarkeit sowie Unterstützung für sehr große Postfächer.
 

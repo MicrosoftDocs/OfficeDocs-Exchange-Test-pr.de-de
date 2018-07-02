@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Das grundlegende Verständnis der Speicheroptionen und Anforderungen für die Postfachserverrolle in Microsoft Exchange Server 2013 ist ein wichtiger Aspekt Ihrer Speicherentwurfslösung für den Postfachserver.
 

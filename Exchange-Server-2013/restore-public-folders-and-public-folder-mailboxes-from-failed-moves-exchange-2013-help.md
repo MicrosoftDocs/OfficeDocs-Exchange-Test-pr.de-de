@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-13_
+_**Letztes Änderungsdatum des Themas:** 2013-02-13_
 
 Wenn eine Verschiebungsanforderung für einen öffentlichen Ordner oder für ein Postfach für öffentliche Ordner einen Fehler verursacht, können Sie den Ordner oder das Postfach wiederherstellen, sofern die folgenden Bedingungen zutreffen:
 

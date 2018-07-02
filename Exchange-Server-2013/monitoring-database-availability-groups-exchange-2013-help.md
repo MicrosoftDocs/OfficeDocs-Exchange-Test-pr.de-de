@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Sie können die Informationen in diesem Thema verwenden, um die Integrität und den Status von Postfachdatenbankkopien für Datenbankverfügbarkeitsgruppen (DAGs, Database Availability Groups) zu überwachen und Diagnoseinformationen zu sammeln sowie um einen Schwellenwert zur Überwachung geringen Speicherplatzes zu konfigurieren.
 

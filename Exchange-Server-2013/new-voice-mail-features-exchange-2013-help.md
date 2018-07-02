@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Unified Messaging (UM) umfasst in Microsoft Exchange Server 2013 den gleichen Funktionssatz wie Exchange 2010 und Exchange 2007, jedoch mit einigen Erweiterungen und Architekturänderungen. Bei Unified Messaging handelt es sich allerdings nicht länger um eine separate Serverrolle. Es handelt sich hierbei nun um eine Komponente der sprachbezogenen Funktionen in Exchange 2013.
 

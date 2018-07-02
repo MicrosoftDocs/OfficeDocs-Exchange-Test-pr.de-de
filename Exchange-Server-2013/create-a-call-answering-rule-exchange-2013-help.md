@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Mit der Shellkönnen Sie eine oder mehr Mailboxansageregeln für einen Benutzer erstellen. Sie können auch mit dem Cmdlet **New-UMCallAnsweringRule** in einem Exchange-Verwaltungsshellskript Mailboxansageregeln für mehrere Benutzer erstellen.
 

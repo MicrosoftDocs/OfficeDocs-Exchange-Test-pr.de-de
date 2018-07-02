@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mithilfe der Verbundfreigabe können Benutzer in einer lokalen Exchange-Organisation Frei/Gebucht-Kalenderinformationen mit Empfängern in anderen Exchange-Organisationen, die ebenfalls für die Verbundfreigabe konfiguriert sind, gemeinsam nutzen. Die gemeinsame Nutzung von Frei/Gebucht-Informationen kann zwischen zwei Organisationen mit Exchange 2013 und zwischen Organisationen in einer gemischten Exchange-Bereitstellung aktiviert werden. Weitere Informationen zu Verbundfreigaben finden Sie unter [Freigabe](sharing-exchange-2013-help.md).
 

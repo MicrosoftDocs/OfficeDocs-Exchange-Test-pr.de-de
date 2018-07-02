@@ -17,7 +17,7 @@ _<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Serv
 
 _<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
-**Zusammenfassung:** Funktionsweise von IRM in einer Exchange-Hybridumgebung und Konfigurieren von IRM für die Funktion zwischen Exchange Online und Ihren lokalen Exchange-Servern.
+**Zusammenfassung:**  Funktionsweise von IRM in einer Exchange-Hybridumgebung und Konfigurieren von IRM für die Funktion zwischen Exchange Online und Ihren lokalen Exchange-Servern.
 
 Die Verwaltung von Informationsrechten (Information Rights Management, IRM) unterstützt Sie beim Schutz vor dem Verlust vertraulicher Daten, indem ein dauerhafter Online- und Offlineschutz von E-Mail-Nachrichten und -Anlagen bereitgestellt wird. Sowohl Exchange in Ihrer lokalen Organisation und Exchange Online in Office 365 für Unternehmen unterstützen die Verwaltung von Verwaltungsrechten. Es gibt jedoch Unterschiede zwischen den beiden Implementierungen, und Sie müssen die Verwaltung von Informationsrechten in der Exchange Online-Organisation konfigurieren, bevor diese von Benutzern in dieser Organisation verwendet werden kann.
 

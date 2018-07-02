@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-30_
+_**Letztes Änderungsdatum des Themas:** 2012-11-30_
 
 Nach dem Löschen einer Telefonzentrale von Unified Messaging (UM) werden die eingehenden Anrufe, die von der automatischen UM-Telefonzentrale beantwortet wurden, von einem Mitarbeiter der Vermittlungsstelle beantwortet. Eine automatische UM-Telefonzentrale kann nicht gelöscht werden, wenn ihr als standardmäßige automatische UM-Telefonzentrale ein Satz UM-Wähleinstellungen zugeordnet wurde.
 

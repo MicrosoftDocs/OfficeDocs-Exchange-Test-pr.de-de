@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-14_
+_**Letztes Änderungsdatum des Themas:** 2015-01-14_
 
 Mit der Exchange-Verwaltungskonsole oder der Exchange-Verwaltungsshell können Sie vorhandene Richtlinien zur Verhinderung von Datenverlusten (Data Loss Prevention, DLP) in Microsoft Exchange anzeigen, ändern oder entfernen.
 

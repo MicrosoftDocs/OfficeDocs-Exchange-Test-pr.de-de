@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 *Outdialing* wird der Vorgang genannt, bei dem sich Benutzer über eine Outlook Voice Access-Nummer in einen UM-Wählplan einwählen und einen Anruf einer internen oder externen Telefonnummer einleiten oder diesen weiterleiten. Unified Messaging verwendet viele Outdialingeinstellungen, um Anrufe für Benutzer zu tätigen. Zum Konfigurieren des Outdialings müssen Sie Wählregeln, Wählregelgruppen und Wählautorisierungen für Unified Messaging-Wählpläne (UM) konfigurieren und anschließend das Outdialing für UM-Wählpläne, UM-Postfachrichtlinien und automatische Telefonzentralen autorisieren. Darüber hinaus können Sie UM-Wählpläne so konfigurieren, dass sie über Kurzwahlnummern oder Zugriffscodes, ein nationales Rufnummernpräfix und ein nationales/regionales bzw. internationales Nummernformat verfügen, mit deren Hilfe Sie das Outdialing in Ihrer Organisation steuern können. In diesem Thema werden Wählregeln, Wählregelgruppen und Wählautorisierungen sowie deren Verwendung zur Autorisierung und Steuerung des Outdialings in Ihrer Organisation behandelt.
 

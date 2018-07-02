@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 MicrosoftExchange 2013 Unified Messaging (UM) erfordert die Verwendung mehrerer TCP- und UDP-Ports (User Datagram Protocol) zum Herstellen von Verbindungen zwischen Servern mit Exchange 2013 und anderen Geräten. Durch das Zulassen des Zugriffs über diese IP-Ports ermöglichen Sie die ordnungsgemäße Funktionsweise von Unified Messaging. In diesem Thema werden die TCP- und UDP-Ports erläutert, die in Exchange 2013 Unified Messaging verwendet werden.
 

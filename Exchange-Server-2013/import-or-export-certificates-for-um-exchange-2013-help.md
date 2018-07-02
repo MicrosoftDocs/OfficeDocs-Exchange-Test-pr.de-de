@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-12-18_
+_**Letztes Änderungsdatum des Themas:** 2013-12-18_
 
 Sie können selbstsignierte, interne PKI-Zertifikate (Public Key Infrastructure) oder kommerzielle Drittanbieterzertifikate über die Exchange-Verwaltungskonsole oder die Shell importieren oder exportieren. Für Unified Messaging (UM) können Sie eines dieser Zertifikate für den Microsoft Exchange Unified Messaging-Dienst und den Microsoft Exchange Unified Messaging Call Router-Dienst verwenden. Sie können für beide Dienste das gleiche Zertifikat oder jeweils unterschiedliche Zertifikate verwenden.
 

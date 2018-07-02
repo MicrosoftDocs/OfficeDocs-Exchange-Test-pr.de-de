@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-02-23_
+_**Letztes Änderungsdatum des Themas:** 2017-02-23_
 
 In Ihrer Organisation müssen möglicherweise bestimmte Arten von Nachrichten blockiert oder abgelehnt werden, um rechtliche Anforderungen zu erfüllen, Vorschriften einzuhalten oder einen bestimmten Geschäftsworkflow zu implementieren. Nachfolgend finden Sie einige Beispiele für gängige Szenarien beim Blockieren aller Anlagen, die Sie mithilfe von Transportregeln in Exchange einrichten können:
 
@@ -51,7 +51,7 @@ Führen Sie die folgenden Aktionen durch, um mit dem Implementieren eines dieser
 
 5.  Wählen Sie die gewünschten Bedingungen und Aktionen aus.
 
-**Hinweis:** In der Exchange-Verwaltungskonsole (EAC) beträgt die kleinste Größe von Anlagen, die Sie eingeben können, 1 Kilobyte. Hiermit sollten die meisten Anlagen erkannt werden. Wenn Sie jedoch jede Anlage beliebiger Größe erkennen möchten, müssen Sie PowerShell verwenden, um die Analgengröße auf 1 Byte zu erhöhen, nachdem Sie die Regel in der Exchange-Verwaltungskonsole erstellt haben. Wie eine Exchange-Verwaltungsshell in Ihrer lokalen Exchange-Organisation geöffnet wird, erfahren Sie unter [Öffnen der Shell](https://technet.microsoft.com/de-de/library/dd638134\(v=exchg.150\)).Wie Sie mit Windows PowerShell eine Verbindung mit Exchange Online herstellen, können Sie unter [Herstellen einer Verbindung mit Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554) nachlesen.Wie Sie mit Windows PowerShell eine Verbindung mit Exchange Online Protection herstellen, können Sie unter [Verbinden mit PowerShell in Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290) nachlesen.
+**Hinweis:**  In der Exchange-Verwaltungskonsole (EAC) beträgt die kleinste Größe von Anlagen, die Sie eingeben können, 1 Kilobyte. Hiermit sollten die meisten Anlagen erkannt werden. Wenn Sie jedoch jede Anlage beliebiger Größe erkennen möchten, müssen Sie PowerShell verwenden, um die Analgengröße auf 1 Byte zu erhöhen, nachdem Sie die Regel in der Exchange-Verwaltungskonsole erstellt haben. Wie eine Exchange-Verwaltungsshell in Ihrer lokalen Exchange-Organisation geöffnet wird, erfahren Sie unter [Öffnen der Shell](https://technet.microsoft.com/de-de/library/dd638134\(v=exchg.150\)).Wie Sie mit Windows PowerShell eine Verbindung mit Exchange Online herstellen, können Sie unter [Herstellen einer Verbindung mit Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554) nachlesen.Wie Sie mit Windows PowerShell eine Verbindung mit Exchange Online Protection herstellen, können Sie unter [Verbinden mit PowerShell in Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290) nachlesen.
 
 Ersetzen Sie *\<Rule Name\>* durch den Namen der vorhandenen Regel, und führen Sie den folgenden Befehl aus, um die Größe von Anlagen auf 1 Byte festzulegen:
 

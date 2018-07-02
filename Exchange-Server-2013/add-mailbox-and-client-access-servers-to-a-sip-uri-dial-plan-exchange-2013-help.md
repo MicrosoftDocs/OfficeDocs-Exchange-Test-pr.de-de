@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-16_
+_**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
 Sie können Clientzugriffs- und Postfachserver zu SIP-URI-Wählplänen hinzufügen. Clientzugriffs- und Postfachserver können keinen Telefondurchwahlnummern oder E.164-Wählplänen zugewiesen werden, der Server wird jedoch alle eingehenden Anrufe beantworten.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema wird eine Übersicht über die Bereitstellung von Microsoft Exchange Server 2013 in Topologien mit mehreren Gesamtstrukturen bereitgestellt. Es enthält Informationen zu den folgenden Themen:
 

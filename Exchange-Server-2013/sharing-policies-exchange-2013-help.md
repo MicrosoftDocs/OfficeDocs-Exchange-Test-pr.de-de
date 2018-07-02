@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-15_
+_**Letztes Änderungsdatum des Themas:** 2014-02-15_
 
 Freigaberichtlinien sind ein Teil der Verbundfreigabe und ermöglichen die durch den Benutzer eingerichtete personenbezogene Freigabe von Kalenderinformationen für verschiedene Typen von externen Benutzern. Freigaberichtlinien werden Benutzerpostfächern zugewiesen und ermöglichen den Benutzern, ihre Frei/Gebucht-Informationen (einschließlich Kalenderordner) selbst zu verwalten und an Empfänger in externen Office 365-Organisationen oder anderen lokalen Exchange-Verbundorganisationen freizugeben. Wenn Sie Kalender für Empfänger freigeben möchten, die nicht zu diesen Arten von Organisationen gehören, haben Sie mittels Freigaberichtlinien die Möglichkeit, über die Internet-Kalenderveröffentlichung personenbezogen Kalenderinformationen für beliebige Empfänger freizugeben.
 

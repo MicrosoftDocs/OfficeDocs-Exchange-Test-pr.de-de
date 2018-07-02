@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-15_
+_**Letztes Änderungsdatum des Themas:** 2013-04-15_
 
 AutoReseed ist eine Funktion für die schnelle Wiederherstellung der Datenbankredundanz nach einem Datenträgerausfall. Wenn ein Datenträger ausfällt, wird für die auf diesem Datenträger gespeicherten Datenbankkopien automatisch ein erneutes Seeding auf einen vorkonfigurierten Ersatzdatenträger auf dem Postfachserver durchgeführt. Sie können die Schritte in diesem Thema ausführen, um die AutoReseed-Funktion für eine Database Availability Group (DAG) zu konfigurieren.
 

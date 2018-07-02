@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-01-31_
+_**Letztes Änderungsdatum des Themas:** 2014-01-31_
 
 In Microsoft Exchange Server 2013 können Sie die Warteschlangenanzeige in der Exchange-Toolbox oder in der Exchange-Verwaltungsshell zur Verwaltung von Warteschlangen verwenden. Weitere Informationen zur Verwendung der Cmdlets zur Warteschlangenverwaltung in der Exchange-Verwaltungsshell finden Sie unter [Verwenden der Exchange-Verwaltungsshell zum Verwalten von Warteschlangen](use-the-exchange-management-shell-to-manage-queues-exchange-2013-help.md).
 

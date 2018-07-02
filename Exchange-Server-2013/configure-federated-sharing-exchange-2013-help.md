@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Mit der Verbundfreigabe in Exchange Server 2013 können Benutzer Informationen für Empfänger in externen Verbundorganisationen freigeben. Dazu gehört das Freigeben ihrer Frei/Gebucht-Informationen (die sogenannte "Kalenderverfügbarkeit") für die Terminplanung oder, je nach Art der Geschäftsbeziehung, das Freigeben von ausführlicheren Kalenderinformationen. Weitere Informationen zur Verbundfreigabe finden Sie unter [Freigabe](sharing-exchange-2013-help.md).
 

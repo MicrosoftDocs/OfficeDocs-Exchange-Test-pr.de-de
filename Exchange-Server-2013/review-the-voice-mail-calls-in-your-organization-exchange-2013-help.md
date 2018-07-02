@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Mithilfe des Berichts "Anrufstatistik" können Sie Informationen zu Typ und Status von eingehenden Anrufen anzeigen, die von den Exchange-Servern in Ihrer Organisation verarbeitet wurden. Der Bericht enthält statistische Informationen zu den Anrufen, die an UM weitergeleitet oder von UM für die Organisation erfasst wurden. Anhand dieser Informationen können Sie für die Kapazitätsplanung, Überwachung und Behandlung von UM-Verfügbarkeits- und Audioqualitätsproblemen sowie nicht erfolgreicher Anrufe die Nutzung nachverfolgen.
 

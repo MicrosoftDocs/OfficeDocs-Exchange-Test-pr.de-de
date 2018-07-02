@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-04_
+_**Letztes Änderungsdatum des Themas:** 2015-01-04_
 
 Mithilfe einer Organisationsbeziehung können Benutzer in der Exchange-Organisation Kalenderinformationen, Frei-/Gebucht-Daten mit einer Office 365-Organisation oder mit anderen lokalen Exchange-Organisationen teilen. Sie können eine Organisationsbeziehung entfernen, um Kalender nicht weiter mit der anderen Organisation zu teilen.
 

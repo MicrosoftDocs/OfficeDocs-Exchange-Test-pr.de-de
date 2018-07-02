@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2018-04-17_
+_**Letztes Änderungsdatum des Themas:** 2018-04-17_
 
 Sie können den Benutzerzugriff auf Add-Ins für Outlook mithilfe des Exchange Admin Center (EAC) oder der Exchange PowerShell verwalten.
 

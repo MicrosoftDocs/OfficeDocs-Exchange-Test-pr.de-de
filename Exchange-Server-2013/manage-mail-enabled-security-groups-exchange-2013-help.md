@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-10-04_
+_**Letztes Änderungsdatum des Themas:** 2017-10-04_
 
 Eine E-Mail-aktivierte Sicherheitsgruppe kann zum Verteilen von Nachrichten sowie zur Erteilung von Zugriffsberechtigungen für Ressourcen in Active Directory verwendet werden. Weitere Informationen finden Sie unter [Empfänger](recipients-exchange-2013-help.md).
 

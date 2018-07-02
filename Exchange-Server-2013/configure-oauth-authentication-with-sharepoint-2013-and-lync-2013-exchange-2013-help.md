@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-03-03_
+_**Letztes Änderungsdatum des Themas:** 2014-03-03_
 
 In Exchange Server 2013 können andere Anwendungen OAuth für die Authentifizierung bei Exchange verwenden. Die Anwendungen müssen als Partneranwendungen in Exchange 2013 konfiguriert werden.
 

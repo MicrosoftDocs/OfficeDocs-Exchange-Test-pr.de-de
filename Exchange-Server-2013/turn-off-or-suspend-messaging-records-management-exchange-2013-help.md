@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Gilt für:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-14_
+_**Letztes Änderungsdatum des Themas:** 2013-02-14_
 
 Bei einzelnen, informationstechnischen oder geschäftlichen Anforderungen muss möglicherweise die Messaging-Datensatzverwaltung (Messaging Records Management, MRM) für einen einzelnen Benutzer oder einen Postfachserver deaktiviert bzw. vorübergehend angehalten werden. Die Messaging-Datensatzverwaltung wird u. a. aus den folgenden Gründen deaktiviert bzw. angehalten:
 

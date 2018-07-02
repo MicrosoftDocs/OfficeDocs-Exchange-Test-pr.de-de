@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-14_
+_**Letztes Änderungsdatum des Themas:** 2015-01-14_
 
 In diesem Thema werden Lösungen und Informationen zu häufigen Fehlern bereitgestellt, die bei der Verwendung des Skripts "RollAlternateServiceAccountPassword.ps1" auftreten können.
 

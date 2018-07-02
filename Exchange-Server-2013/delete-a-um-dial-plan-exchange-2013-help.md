@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-11_
+_**Letztes Änderungsdatum des Themas:** 2012-11-11_
 
 Sie können einen vorhandenen Unified Messaging-Wählplan (UM) löschen. Wenn Sie den UM-Wählplan löschen, steht er nicht mehr für UM-IP-Gateways, UM-Postfachrichtlinien und UM-Sammelanschlüsse zur Verfügung. Sie können einen UM-Wählplan nicht löschen, wenn er von UM-Postfachrichtlinien, automatischen UM-Telefonzentralen, UM-IP-Gateways oder UM-Sammelanschlüssen verwendet wird bzw. damit verknüpft ist.
 

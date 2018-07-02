@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-07-25_
+_**Letztes Änderungsdatum des Themas:** 2017-07-25_
 
 Nach der Installation des Exchange 2013-Clientzugriffsservers können Sie verschiedene Konfigurationsaufgaben ausführen. Wenngleich der Clientzugriffsserver in Exchange 2013 nicht für die Verarbeitung der Clientprotokolle eingesetzt wird, müssen eine Reihe von Einstellungen auf den Clientzugriffsserver angewendet werden. Dazu zählen u. a. Einstellungen für das virtuelle Verzeichnis sowie Zertifikateinstellungen.
 

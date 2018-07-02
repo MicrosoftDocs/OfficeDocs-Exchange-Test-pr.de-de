@@ -18,9 +18,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-20_
+_**Letztes Änderungsdatum des Themas:** 2013-02-20_
 
 Microsoft Exchange Server 2013 verwendet Benachrichtigungen über den Zustellungsstatus (Delivery Status Notifications, DSN), um Unzustellbarkeitsberichte und andere Statusnachrichten an die Nachrichtenabsender zu übermitteln. Sie können die integrierten DSN-Meldungen verwenden oder in Übereinstimmung mit den Anforderungen Ihrer Organisation benutzerdefinierte DSN-Meldungen erstellen.
 

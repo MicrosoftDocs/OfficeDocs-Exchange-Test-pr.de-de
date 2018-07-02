@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-11-16_
+_**Letztes Änderungsdatum des Themas:** 2016-11-16_
 
 Wenn der Umfang des Inhalts eines Postfachs für öffentliche Ordner beginnt, die geltenden Postfachkontingente zu überschreiten, können Sie öffentliche Ordner in ein andere Postfach für öffentliche Ordner verschieben. Hierfür gibt es mehrere Möglichkeiten. Zum Verschieben eines oder mehrerer öffentlicher Ordner ohne Unterordner können Sie die Cmdlets **PublicFolderMoveRequest** verwenden. Wenn Sie eine gesamte Verzweigung öffentlicher Ordner (mit dem übergeordneten öffentlichen Ordner und allen Unterordnern) verschieben müssen, können Sie dazu das Skript `Move-PublicFolderBranch.ps1` verwenden, das zur Standardinstallation von Exchange 2013 gehört.
 

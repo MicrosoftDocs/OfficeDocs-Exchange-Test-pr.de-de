@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verbindungsfilterung ist ein Antispamfeature in Microsoft Exchange Server 2013, das E-Mail basierend auf der Nachrichtenquelle zulässt oder blockiert. Die Verbindungsfilterung erfolgt durch den Verbindungsfilter-Agent, der nur auf Edge-Transport-Servern verfügbar ist. Der Verbindungsfilter-Agent verwendet die IP-Adresse der Mailservers, der die Verbindung herzustellen versucht, um ggf. die Aktion zu bestimmen, die auf eine eingehende Nachricht angewendet werden soll.
 

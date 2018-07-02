@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Sie können in einer automatischen UM-Telefonzentrale (Unified Messaging) eine oder mehrere Durchwahlnummern konfigurieren. Wenn Sie einer automatischen UM-Telefonzentrale eine Durchwahlnummer hinzufügen, kann diese Nummer von Anrufern zum Anrufen der automatischen Telefonzentrale verwendet werden. Außerdem müssen Sie mitunter Durchwahlnummern hinzufügen, weil Anrufer mehr als eine Durchwahlnummer für den Zugriff auf eine automatische Telefonzentrale verwenden können. Standardmäßig werden bei der Erstellung einer automatischen Telefonzentrale keine Durchwahlnummern konfiguriert.
 

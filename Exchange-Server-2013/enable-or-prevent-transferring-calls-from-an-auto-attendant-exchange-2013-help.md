@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können für Anrufer das Weiterleiten von Anrufen an Benutzer über eine automatische Telefonzentrale aktivieren oder deaktivieren. Diese Option ist standardmäßig aktiviert und ermöglicht die Weiterleitung von Anrufern an UM-aktivierte Benutzer im Unified Messaging-Wählplan (UM), der der automatischen UM-Telefonzentrale zugeordnet ist.
 

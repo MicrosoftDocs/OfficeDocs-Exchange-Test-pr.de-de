@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Die Funktion der Sender ID wird durch den Sender ID-Agent bereitgestellt. Die Sender ID bestätigt den Ursprung von E-Mails, indem die IP-Adresse des Absenders mit dem vorgeblichen Besitzer der Absenderdomäne verglichen wird. Die Sender ID-Filterung wird für eingehende Nachrichten durchgeführt, die aus dem Internet gesendet, aber nicht authentifiziert wurden. Diese Nachrichten werden als externe Nachrichten behandelt.
 

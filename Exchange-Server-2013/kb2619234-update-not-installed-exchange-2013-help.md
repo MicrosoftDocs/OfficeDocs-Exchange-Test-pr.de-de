@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-15_
+_**Letztes Änderungsdatum des Themas:** 2016-12-15_
 
 Microsoft Exchange Server 2013-Setup kann nicht fortgesetzt werden, da für den lokalen Computer ein Softwareupdate erforderlich ist. Sie müssen dieses Update installieren, bevor das Exchange 2013-Setup fortgesetzt werden kann.
 

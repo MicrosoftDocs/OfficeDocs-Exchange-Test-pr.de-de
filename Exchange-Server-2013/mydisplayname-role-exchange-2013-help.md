@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-17_
+_**Letztes Änderungsdatum des Themas:** 2012-10-17_
 
 Die Verwaltungsrolle `MyDisplayName` ermöglicht einzelnen Benutzern das Anzeigen und Ändern ihres Anzeigenamens. Bei dieser Rolle handelt es sich um eine benutzerdefinierte Rolle, die basierend auf der übergeordneten Rolle [Rolle „MyProfileInformation\&quot;](myprofileinformation-role-exchange-2013-help.md) erstellt wird.
 

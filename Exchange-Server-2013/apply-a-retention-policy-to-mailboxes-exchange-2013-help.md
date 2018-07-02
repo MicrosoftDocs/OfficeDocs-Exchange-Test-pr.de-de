@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-10-01_
+_**Letztes Änderungsdatum des Themas:** 2014-10-01_
 
 Aufbewahrungsrichtlinien ermöglichen Ihnen das Gruppieren eines oder mehrerer Aufbewahrungstags, um diese zur Durchsetzung von Nachrichtenaufbewahrungseinstellungen auf Postfächer anzuwenden. Ein Postfach kann nur eine Aufbewahrungsrichtlinie aufweisen.
 

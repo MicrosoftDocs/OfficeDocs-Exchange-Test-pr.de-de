@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-03-20_
+_**Letztes Änderungsdatum des Themas:** 2017-03-20_
 
 In diesem Thema werden die Schritte zum Installieren der erforderlichen Komponenten der Betriebssysteme Windows Server 2012 R2, Windows Server 2012 und Windows Server 2008 R2 mit Service Pack 1 (SP1) für die Postfach-, Clientzugriffs- und Edge-Transport-Serverrollen in Microsoft Exchange 2013 erläutert. Sie finden außerdem Informationen zu den Voraussetzungen für die Installation der Exchange 2013-Verwaltungstools auf Clientcomputern mit Windows 8, Windows 8.1 und Windows 7.
 

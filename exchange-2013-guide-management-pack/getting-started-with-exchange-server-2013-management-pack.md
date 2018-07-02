@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2013-04-08_
+_**Letztes Änderungsdatum des Themas:**  2013-04-08_
 
 Das Exchange Server 2013 Management Pack fügt einen Container in den Bereich **Überwachung** der SCOM-Konsole ein. Wenn Sie den Exchange Server 2013-Container erweitern, sehen Sie dort lediglich drei Ansichten.
 

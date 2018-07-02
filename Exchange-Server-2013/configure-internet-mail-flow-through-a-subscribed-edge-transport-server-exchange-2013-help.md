@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Zum Einrichten der Internetnachrichtenübermittlung über einen Edge-Transport-Server abonnieren Sie den Edge-Transport-Server für einen Active Directory-Standort. Dabei werden die beiden erforderlichen Sendeconnectors für den Internetnachrichtenfluss automatisch erstellt.
 

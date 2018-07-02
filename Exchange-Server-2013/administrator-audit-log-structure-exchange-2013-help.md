@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Administratorüberwachungsprotokolle enthalten eine Aufzeichnung aller Cmdlets und Parameter, die in der Exchange-Verwaltungsshell und von der Exchange-Verwaltungskonsole ausgeführt wurden. Sie werden bei Bedarf beim Ausführen des Berichts "Administratorüberwachungsprotokoll" in der Exchange-Verwaltungskonsole oder des Cmdlets **New-AdminAuditLogSearch** in der Shell erstellt. Weitere Informationen zu Überwachungsprotokollen finden Sie unter [Administratorüberwachungsprotokollierung](administrator-audit-logging-exchange-2013-help.md).
 

@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016, Office 365_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016, Office 365_
 
-_**Letztes Änderungsdatum des Themas:**2017-05-19_
+_**Letztes Änderungsdatum des Themas:** 2017-05-19_
 
-**Zusammenfassung:** Dieser Artikel führt die neuesten unterstützten Exchange-Topologien auf, in denen Benutzer mit Outlook 2016 für Mac auf öffentliche Ordner zugreifen können.
+**Zusammenfassung:**  Dieser Artikel führt die neuesten unterstützten Exchange-Topologien auf, in denen Benutzer mit Outlook 2016 für Mac auf öffentliche Ordner zugreifen können.
 
 Mit der Veröffentlichung des [Updates vom April 2016](https://go.microsoft.com/fwlink/?linkid=82920) für Outlook 2016 für Mac-Clients, des [kumulativen Updates 14 (CU14)](https://go.microsoft.com/fwlink/?linkid=84943) für Exchange 2013 und des [kumulativen Updates 2 (CU 2)](https://go.microsoft.com/fwlink/p/?linkid=84979) für Exchange 2016 für Mac können Benutzer von Outlook 2016 für Mac jetzt in mehr Topologien als zuvor auf öffentliche Ordner zugreifen.
 
@@ -25,9 +25,9 @@ Mit der Veröffentlichung des [Updates vom April 2016](https://go.microsoft.com
 
 Grundsätzlich können alle Versionen von Outlook für Mac auf öffentliche Exchange-Ordner zugreifen. Bis vor Kurzem konnten diese Clients jedoch in den folgenden Bereitstellungsszenarien nicht auf öffentliche Ordner zugreifen:
 
-  - **Koexistenz mit öffentlichen Ordnern in Legacy-Versionen:** Befand sich das Postfach eines Benutzers auf einem Exchange 2013- oder Exchange 2016-Server, konnte der Benutzer mit Outlook für Mac nicht auf öffentliche Ordner zugreifen, die auf Servern mit 2010 SP3 oder höher bereitgestellt waren. Andere Clients können in einem solchen Szenario auf öffentliche Ordner in der Legacy-Version zugreifen.
+  - **Koexistenz mit öffentlichen Ordnern in Legacy-Versionen:**  Befand sich das Postfach eines Benutzers auf einem Exchange 2013- oder Exchange 2016-Server, konnte der Benutzer mit Outlook für Mac nicht auf öffentliche Ordner zugreifen, die auf Servern mit 2010 SP3 oder höher bereitgestellt waren. Andere Clients können in einem solchen Szenario auf öffentliche Ordner in der Legacy-Version zugreifen.
 
-  - **Hybridtopologien:** Lokale Benutzer mit einem Exchange Online-Postfach konnten mit Outlook für Mac nicht auf lokale moderne öffentliche Ordner zugreifen. Ebenso konnten Benutzer mit einem lokalen Exchange 2013- oder Exchange 2016-Postfach mit Outlook für Mac nicht auf öffentliche Ordner in Exchange Online zugreifen.
+  - **Hybridtopologien:**  Lokale Benutzer mit einem Exchange Online-Postfach konnten mit Outlook für Mac nicht auf lokale moderne öffentliche Ordner zugreifen. Ebenso konnten Benutzer mit einem lokalen Exchange 2013- oder Exchange 2016-Postfach mit Outlook für Mac nicht auf öffentliche Ordner in Exchange Online zugreifen.
 
 ## Outlook 2016 für Mac
 

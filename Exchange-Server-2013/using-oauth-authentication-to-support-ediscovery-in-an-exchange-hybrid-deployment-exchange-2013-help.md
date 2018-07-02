@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Um in einer Exchange 2013-Hybridorganisation eine erfolgreiche standortübergreifende eDiscovery-Suche durchführen zu können, müssen Sie die OAuth-Authentifizierung (Open Authorization) zwischen Ihrer lokalen Exchange-Organisation und der Exchange Online-Organisation einrichten, damit Sie Compliance-eDiscovery zum Durchsuchen der lokalen und cloudbasierten Postfächer verwenden können. Die OAuth-Authentifizierung wird in den folgenden eDiscovery-Szenarien in einer Exchange-Hybridbereitstellung unterstützt:
 

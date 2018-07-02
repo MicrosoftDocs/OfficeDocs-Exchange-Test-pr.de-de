@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Sie können Optionen in der Warteschlangenanzeige festlegen, um die Anzahl der auf der Seite angezeigten Elemente und das Intervall für die automatische Aktualisierung anzupassen. Das Intervall für die automatische Aktualisierung bestimmt, wie häufig die Ergebnisse in der Warteschlangenanzeige aktualisiert werden.
 

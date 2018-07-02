@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-19_
+_**Letztes Änderungsdatum des Themas:** 2014-06-19_
 
 In diesem Thema wird erläutert, wie die Exchange 2013-Postfachrolle und -Clientzugriffsrolle mithilfe des Microsoft Exchange Server 2013-Setup-Assistenten auf einem Computer installiert werden. Weitere Informationen zur Planung und Bereitstellung von Exchange 2013 finden Sie unter [Planung und Bereitstellung](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

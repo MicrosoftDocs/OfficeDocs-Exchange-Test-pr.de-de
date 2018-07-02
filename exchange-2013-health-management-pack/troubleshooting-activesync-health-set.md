@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit dem Exchange ActiveSync-Integritätssatz wird die Gesamtintegrität des ActiveSync-Diensts für mobile Clients in Ihrer Organisation überwacht. Der ActiveSync-Integritätssatz steht in enger Beziehung mit den folgenden Integritätssätzen:
 

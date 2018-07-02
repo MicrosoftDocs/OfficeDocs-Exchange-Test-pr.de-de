@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Exchange Server 2013-Leistungsoptimierung und -Problembehandlung sind am effektivsten, wenn Ihre Umgebung ordnungsgemäß dimensioniert und geplant wurde. Obwohl Exchange 2013 darauf ausgelegt ist, die zugrunde liegende Ressourceninfrastruktur zu vereinfachen, kann dennoch eine große Menge an Systemressourcen belegt werden, z. B. Arbeitsspeicher, Speicherkapazität und CPU-Kapazität.
 

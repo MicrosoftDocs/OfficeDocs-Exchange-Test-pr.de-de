@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Bei der Planung Ihrer Unified Messaging (UM)-Bereitstellung müssen Sie viele Faktoren berücksichtigen. Sie müssen die verschiedenen Elemente von Unified Messaging sowie jede Komponente und jede Funktion verstehen, damit Sie die Unified Messaging-Infrastruktur und -Bereitstellung entsprechend planen können. Wenn Sie Zeit für die Planung und die Analyse von Einzelaspekten vorsehen, können Sie Probleme bei der Bereitstellung von Unified Messaging in Ihrer Organisation verhindern.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-11-01_
+_**Letztes Änderungsdatum des Themas:** 2013-11-01_
 
 [Aktivieren oder Deaktivieren von IRM für interne Nachrichten](enable-or-disable-irm-for-internal-messages-exchange-2013-help.md)
 

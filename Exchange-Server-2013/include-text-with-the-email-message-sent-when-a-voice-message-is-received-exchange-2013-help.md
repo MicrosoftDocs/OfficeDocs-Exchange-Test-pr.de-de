@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-16_
+_**Letztes Änderungsdatum des Themas:** 2012-12-16_
 
 Sie können zur E-Mail-Nachricht, die beim Empfang einer Voicemailnachricht durch für Unified Messaging (UM) aktivierte Benutzer gesendet wird, zusätzlichen Text hinzufügen. Standardmäßig gibt der E-Mail-Nachrichtentext beim Empfang einer Sprachnachricht nur an, dass der Benutzer eine Sprachnachricht empfangen hat. Sie können jedoch auch eine benutzerdefinierte Nachricht durch Hinzufügen von Text im Textfeld **Wenn ein Benutzer eine Sprachnachricht empfängt** für eine UM-Postfachrichtlinie erstellen. Dieser Text kann z. B. Informationen zu Systemsicherheitsrichtlinien enthalten und das ordnungsgemäße Verfahren für den Umgang mit Sprachnachrichten in Ihrer Organisation beschreiben. Nachdem Sie den Text hinzugefügt haben, wird dieser jeder E-Mail-Nachricht hinzugefügt, die gesendet wird, wenn der UM-Postfachrichtlinie zugeordnete UM-aktivierte Benutzer eine Sprachnachricht empfangen.
 

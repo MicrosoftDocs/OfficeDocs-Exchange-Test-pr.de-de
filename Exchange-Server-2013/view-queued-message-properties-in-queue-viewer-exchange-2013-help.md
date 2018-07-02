@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-01-17_
+_**Letztes Änderungsdatum des Themas:** 2013-01-17_
 
 Verwenden Sie die Warteschlangenanzeige in der Exchange Toolbox, um die Eigenschaften einer Nachricht anzuzeigen, die sich zurzeit in der Warteschlange für die Zustellung befindet.
 

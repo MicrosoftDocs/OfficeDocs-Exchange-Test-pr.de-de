@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft hat es sich zur Aufgabe gemacht, die Handhabung der Produkte  und Dienste für jeden möglichst einfach zu gestalten. Die folgenden Abschnitte enthalten Informationen zu Tastenkombinationen, mit denen Microsoft Exchange und andere Microsoft-Produkte und -Dienste für Personen mit Behinderungen einfacher einzusetzen sind.
 

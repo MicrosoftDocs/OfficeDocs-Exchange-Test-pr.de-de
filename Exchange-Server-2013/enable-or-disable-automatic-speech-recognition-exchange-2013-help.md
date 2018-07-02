@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-12_
+_**Letztes Änderungsdatum des Themas:** 2012-12-12_
 
 Sie können die automatische Unified Messaging-Telefonzentrale (UM) für die automatische Spracherkennung aktivieren. Durch die Sprachaktivierung einer automatischen UM-Telefonanlage können Benutzer verbal auf die Ansagen der automatischen Telefonzentrale antworten bzw. durch das Menüsystem der automatischen Telefonzentrale navigieren. Eine automatische Telefonzentrale ist bei ihrer Erstellung standardmäßig nicht sprachaktiviert. Nachdem Sie die automatische Telefonzentrale sprachaktiviert haben, können die Anrufer nur Sprachbefehle und keine Tonwahleingaben verwenden, um durch das Menüsystem der automatischen Telefonzentrale zu navigieren.
 

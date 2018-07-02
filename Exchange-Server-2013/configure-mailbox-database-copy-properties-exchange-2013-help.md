@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-01_
+_**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
 Jede Postfachdatenbankkopie verfügt über eigene Eigenschaften, die konfiguriert werden können. Dazu zählen gegebenenfalls die Dauer von Wiedergabeverzögerung und Abschneideverzögerung sowie die Aktivierungseinstellungsnummer. Weitere Informationen zu Wiedergabeverzögerung, Abschneideverzögerung und Aktivierungseinstellungsnummer finden Sie unter [Verwalten von Postfachdatenbankkopien](managing-mailbox-database-copies-exchange-2013-help.md).
 

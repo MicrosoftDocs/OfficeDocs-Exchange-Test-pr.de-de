@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013 SP1_
+_**Gilt für:** Exchange Server 2013 SP1_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Exchange 2013 verwendet DAGs, Postfachdatenbankkopien und weitere Funktionen, wie z. B. die Wiederherstellung einzelner Elemente, Aufbewahrungsrichtlinien und verzögerte Datenbankkopien, um Hochverfügbarkeit, Ausfallsicherheit für Standorte und einen systemeigenen Exchange-Datenschutz bereitzustellen. Sowohl die Hochverfügbarkeitsplattform als auch der Exchange-Informationsspeicher und das ESE-Modul (Extensible Storage Engine) wurden erweitert und bieten mehr Verfügbarkeit, eine vereinfachte Verwaltung und die Möglichkeit zur Kosteneinsparung. Diese Verbesserungen umfassen:
 

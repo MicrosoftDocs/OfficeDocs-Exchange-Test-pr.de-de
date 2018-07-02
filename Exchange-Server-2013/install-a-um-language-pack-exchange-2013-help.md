@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Wenn Sie eine Sprache in der Liste der verfügbaren Unified Messaging-Sprachen für einen UM-Wählplan oder eine UM-Telefonzentrale verfügbar machen möchten, müssen Sie zunächst das geeignete UM-Sprachpaket installieren. Sie installieren das Sprachpaket mithilfe der sprachspezifischen, selbstextrahierenden Datei oder über den Befehl **setup.exe /AddUmLanguagePack** auf einem Postfachserver mit aktivem Microsoft Exchange Unified Messaging-Dienst. Bevor Sie ein UM-Sprachpaket installieren können, müssen Sie es zunächst in einen lokalen Ordner auf dem Postfachserver herunterladen. Sie können UM-Sprachpakete auf der Seite [Exchange Server 2013 UM Language Packs – Deutsch](https://go.microsoft.com/fwlink/p/?linkid=266542) herunterladen. Es gibt für jede Sprache eine eigene ausführbare Datei.
 

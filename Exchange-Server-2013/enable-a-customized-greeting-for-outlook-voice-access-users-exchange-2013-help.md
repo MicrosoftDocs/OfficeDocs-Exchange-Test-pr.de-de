@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Standardmäßig gehört zu jedem UM-Wählplan (Unified Messaging) eine WAV-Standarddatei mit der Begrüßung, die Anrufern wiedergegeben wird, einschließlich Outlook Voice Access-Benutzern, die eine konfigurierte Outlook Voice Access-Nummer anrufen. Sie können jedoch für die Begrüßung eine WAV- oder WMA-Datei erstellen und diese für den UM-Wählplan aktivieren.
 

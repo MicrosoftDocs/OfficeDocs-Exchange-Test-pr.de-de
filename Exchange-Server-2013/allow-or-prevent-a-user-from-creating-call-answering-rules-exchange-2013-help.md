@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können angeben, ob einzelne Benutzer in der Lage sein sollen, ihre eigenen Regeln für die Mailboxansage zu erstellen und zu verwalten, indem sie ihre Postfacheigenschaften konfigurieren. Standardmäßig können diese Benutzer Anrufbeantwortungsregeln erstellen.
 

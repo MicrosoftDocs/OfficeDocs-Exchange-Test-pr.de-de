@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-30_
+_**Letztes Änderungsdatum des Themas:** 2013-04-30_
 
 Nach der Erstellung einer automatischen Unified Messaging-Telefonzentrale (UM) können Sie eine Reihe von Einstellungen anzeigen oder konfigurieren. Sie können beispielsweise der automatischen Telefonzentrale zugeordnete Durchwahlnummern hinzufügen, entfernen und ändern. Sie können außerdem die automatische Spracherkennung (Automatic Speech Recognition, ASR) für die automatische Telefonzentrale aktivieren oder deaktivieren und die Begrüßungen ändern, die innerhalb und außerhalb der Geschäftszeiten verwendet werden.
 

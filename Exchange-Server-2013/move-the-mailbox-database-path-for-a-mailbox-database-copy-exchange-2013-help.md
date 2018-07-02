@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-05-07_
+_**Letztes Änderungsdatum des Themas:** 2014-05-07_
 
 Nachdem eine Postfachdatenbank erstellt wurde, können Sie sie auf ein anderes Volume, in einen anderen Ordner, an einen anderen Standort oder in einen anderen Pfad verschieben, indem Sie entweder die Exchange-Verwaltungskonsole oder die Shell verwenden. Schrittanleitungen zum Verschieben eines Postfachdatenbankpfads für eine nicht replizierte Postfachdatenbank finden Sie unter [Move a mailbox database path](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md).
 

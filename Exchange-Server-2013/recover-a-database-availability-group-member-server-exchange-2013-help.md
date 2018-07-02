@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Wenn ein Postfachserver, der Mitglied einer Database Availability Group (DAG) ist, ausfällt oder ein anderer Fehler auftritt, sodass er nicht wiederhergestellt werden kann und ersetzt werden muss, können Sie eine Serverwiederherstellung durchführen. Microsoft Exchange Server 2013-Setup bietet die Option */m:RecoverServer*, die zum Durchführen der Serverwiederherstellung verwendet werden kann. Wenn Setup mit der Option */m:RecoverServer* ausgeführt wird, werden die Konfigurationsinformationen eines Servers mit dem gleichen Namen wie dem des Servers, auf Setup ausgeführt wird, aus Active Directory gelesen. Nachdem die Konfigurationsinformationen des Servers aus Active Directory erfasst wurden, werden die ursprünglichen Exchange-Dateien und -Dienste auf dem Server installiert, und die in Active Directory gespeicherten Rollen und Einstellungen werden auf den Server angewendet.
 

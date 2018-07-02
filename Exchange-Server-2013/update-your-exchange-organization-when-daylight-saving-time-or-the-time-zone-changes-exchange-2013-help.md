@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2010, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server, Exchange Server 2010, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Wenn in dem Land oder der Region, in dem bzw. der sich Ihre Organisation oder einige Ihrer Benutzer befinden, die Regelungen in Bezug auf die Sommerzeit oder die Zeitverschiebung der lokalen Zone zur UTC-Zeit (Coordinated Universal Time, koordinierte Weltzeit) geändert wird, müssen Sie möglicherweise Microsoft Windows, Microsoft Exchange, Microsoft Outlook oder andere Programme aktualisieren, um diesen Änderungen Rechnung zu tragen.
 
@@ -39,7 +39,7 @@ Da das Office 365-Authentifizierungssystem bei Sommerzeit- oder Zeitzonenänderu
 
 2.  Wenn Sie Office 365 ausführen, aktualisieren Sie alle Server, die mit dem Office 365-Authentifizierungssystem kommunizieren, z. B. DirSync- oder AD FS-Server. Diese Server müssen aktualisiert werden, um die Betriebsbereitschaft sicherzustellen.
 
-**Hinweis:** Befolgen Sie bei der Aktualisierung von Serverclustern unbedingt den regulären Prozess zur Clusteraktualisierung. Sie aktualisieren zunächst den passiven Server, führen anschließend ein Failover auf den passiven Server durch (der somit aktiv wird) und aktualisieren dann den bisher aktiven (und nun passiven) Server. Weitere Informationen zur Aktualisierung von Serverclustern und Serverclustern mit Hochverfügbarkeit finden Sie unter [Aktualisieren von Exchange-Serverclustern und Servern für hohe Verfügbarkeit](https://technet.microsoft.com/de-de/library/hh530052\(v=exchg.150\)) und [How to update Windows Server failover clusters](https://support.microsoft.com/en-us/kb/174799).
+**Hinweis:**  Befolgen Sie bei der Aktualisierung von Serverclustern unbedingt den regulären Prozess zur Clusteraktualisierung. Sie aktualisieren zunächst den passiven Server, führen anschließend ein Failover auf den passiven Server durch (der somit aktiv wird) und aktualisieren dann den bisher aktiven (und nun passiven) Server. Weitere Informationen zur Aktualisierung von Serverclustern und Serverclustern mit Hochverfügbarkeit finden Sie unter [Aktualisieren von Exchange-Serverclustern und Servern für hohe Verfügbarkeit](https://technet.microsoft.com/de-de/library/hh530052\(v=exchg.150\)) und [How to update Windows Server failover clusters](https://support.microsoft.com/en-us/kb/174799).
 
 ## Schritt 3: Aktualisieren von Exchange und Outlook auf Client- und Desktopcomputern (falls nötig)
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 S/MIME (Secure/Multipurpose Internet Mail Extensions) ist eine weitgehend akzeptierte Methode, genauer gesagt ein Protokoll, zum Senden digital signierter und verschlüsselter Nachrichten. S/MIME ermöglicht Ihnen das Verschlüsseln und digitale Signieren von E-Mails. Wenn Sie S/MIME mit einer E-Mail verwenden, können die Empfänger sicher sein, dass sie genau die Nachricht im Postfach haben, die der Absender abgeschickt hat. Zudem können Empfänger von Nachrichten sicher sein, dass die Nachricht von dem spezifischen Absender stammt und nicht von jemanden, der vorgibt, der Absender zu sein. Dafür bietet S/MIME kryptografische Sicherheitsdienste, wie Authentifizierung, Nachrichtenintegrität und Ursprungszulassung (anhand von digitalen Signaturen). Es sorgt auch für mehr Datenschutz und -sicherheit (anhand von Verschlüsselung) für die elektronische Nachrichtenübermittlung. Genauere Hintergrundinformationen zur Geschichte und Architektur von S/MIME im Kontext von E-Mails finden Sie unter [Informationen zu S/MIME](https://go.microsoft.com/fwlink/?linkid=393948).
 

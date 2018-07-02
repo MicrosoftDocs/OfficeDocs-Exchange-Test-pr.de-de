@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-07-21_
+_**Letztes Änderungsdatum des Themas:** 2015-07-21_
 
 In MicrosoftExchange Server 2013 und Exchange Online bietet die Exchange-Suche Filter für die Indizierung der gängigsten Typen von Dateiformaten, die als Nachrichtenanlagen angefügt werden. Sie können auch Filter installieren, um zusätzliche Dateitypen zu indizieren.
 

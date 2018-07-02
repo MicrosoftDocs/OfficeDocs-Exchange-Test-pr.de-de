@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Wenn eine Unified Messaging-Postfachrichtlinie (UM) gelöscht wird, kann diese UM-Postfachrichtlinie nicht mehr Empfängern zugeordnet werden, die für UM aktiviert sind. Sie können keine UM-Postfachrichtlinie löschen, auf die von UM-aktivierten Postfächern verwiesen wird. Und Sie können einen UM-Wählplan nicht löschen, wenn diesem eine UM-Postfachrichtlinie zugeordnet ist.
 

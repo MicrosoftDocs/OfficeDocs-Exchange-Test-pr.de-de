@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-13_
+_**Letztes Änderungsdatum des Themas:** 2012-12-13_
 
 Sie können Anrufern das Senden von Sprachnachrichten an Benutzer von einer automatischen UM-Telefonzentrale ermöglichen oder das Senden solcher Sprachnachrichten verhindern. Diese Option ist standardmäßig aktiviert und ermöglicht Anrufern das Senden von Sprachnachrichten an Benutzer in einem Satz mit UM-Wähleinstellungen (Unified Messaging), der der automatischen UM-Telefonzentrale zugeordnet ist. Wenn Sie diese Option deaktivieren, stellt die automatische Telefonzentrale Anrufern während einer Systemansage nicht das Senden einer Sprachnachricht zur Wahl.
 

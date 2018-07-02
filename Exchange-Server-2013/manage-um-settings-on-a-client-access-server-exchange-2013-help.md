@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-09_
+_**Letztes Änderungsdatum des Themas:** 2013-04-09_
 
 Nach der Installation eines Clientzugriffsservers, auf dem der Microsoft Exchange Unified Messaging-Dienst für die Anrufweiterleitung ausgeführt wird, können Sie verschiedene Optionen konfigurieren. Dazu gehören die Anzahl gleichzeitiger Anrufe, die TCP- und TLS-Überwachungsports (Transport Layer Security), der Status und der Startmodus.
 

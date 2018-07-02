@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-08-13_
+_**Letztes Änderungsdatum des Themas:** 2014-08-13_
 
 Wenn einer Database Availability Group (DAG) ein Server hinzugefügt wird, wird dieser mit den anderen Servern in der Database Availability Group eingesetzt, um eine automatische Wiederherstellung auf Datenbankebene nach Datenbank-, Server- oder Netzwerkausfällen zu bieten. Wenn Sie einen Server aus einer DAG entfernen, ist der Server nicht länger automatisch vor Ausfällen geschützt.
 

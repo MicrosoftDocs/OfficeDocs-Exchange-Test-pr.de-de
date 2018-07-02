@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-23_
+_**Letztes Änderungsdatum des Themas:** 2015-01-23_
 
 Standardmäßig lässt Microsoft Exchange Server 2013 kein Senden von E-Mails außerhalb Ihrer Domäne zu. Sie müssen einen Sendeconnector erstellen, damit E-Mails an Empfänger außerhalb Ihrer Domäne gesendet werden zu können. Die folgende Grafik veranschaulicht den Nachrichtenfluss, wenn Sie einen Sendeconnector erstellen, um Nachrichten an das Internet zu senden.
 

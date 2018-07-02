@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013 SP1_
+_**Gilt für:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Letztes Änderungsdatum des Themas:**2013-12-02_
+_**Letztes Änderungsdatum des Themas:** 2013-12-02_
 
 Mithilfe der integrierten Cmdlets für die Integritätsberichterstellung können Sie verschiedene Aufgaben im Zusammenhang mit verwalteter Verfügbarkeit ausführen wie z. B.:
 

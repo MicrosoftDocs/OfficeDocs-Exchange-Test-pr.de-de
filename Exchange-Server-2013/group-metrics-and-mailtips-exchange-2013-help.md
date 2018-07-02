@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-16_
+_**Letztes Änderungsdatum des Themas:** 2012-10-16_
 
 Bei der Gruppenmetrik handelt es sich um eine Sammlung der folgenden Informationen zu Verteilergruppen und dynamischen Verteilergruppen in Ihrer Organisation:
 

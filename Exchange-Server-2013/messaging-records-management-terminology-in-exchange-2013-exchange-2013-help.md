@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-30_
+_**Letztes Änderungsdatum des Themas:** 2012-10-30_
 
 In der folgenden Tabelle sind die wichtigsten Komponenten im Zusammenhang mit der Messaging-Datensatzverwaltung (MRM) in Microsoft Exchange Server 2013 definiert. MRM ist eine Technologie für die Verwaltung von Datensätzen in Exchange 2013, die Organisationen dabei unterstützt, die mit E-Mail und anderen Kommunikationsformen einhergehenden Risiken zu verringern. MRM vereinfacht die zum Erfüllen der Anforderungen von Unternehmensrichtlinien, amtlichen Vorschriften oder rechtlichen Vorgaben notwendige Aufbewahrung von Nachrichten, sowie das Entfernen von Inhalten, die keinen juristischen oder geschäftlichen Nutzen mehr haben.
 

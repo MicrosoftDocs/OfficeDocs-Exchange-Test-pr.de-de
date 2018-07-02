@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-19_
+_**Letztes Änderungsdatum des Themas:** 2013-04-19_
 
 Sie können eine Informationsansage für eine automatische Unified Messaging-Telefonzentrale (UM) aktivieren. Wenn eine Informationsansage aktiviert wird, erfolgt die Wiedergabe unmittelbar nach der Begrüßung während oder außerhalb der Geschäftszeiten. Standardmäßig ist keine Informationsansage konfiguriert. Wenn Sie eine Informationsansage aktivieren möchten, erstellen Sie eine WAV- oder WMA-Datei, die als Informationsansage verwendet werden soll. Konfigurieren Sie die automatische Telefonzentrale dann für die Verwendung dieser Audiodatei.
 

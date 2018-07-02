@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Outlook 2013_
+_**Gilt für:** Exchange Server 2013, Outlook 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-02-27_
+_**Letztes Änderungsdatum des Themas:** 2015-02-27_
 
 Es kann vorkommen, dass Sie Terminpläne mit Mitarbeitern verschiedener Organisationen oder mit Freunden oder Familienmitgliedern koordinieren müssen, um zusammen an Projekten arbeiten oder Unternehmungen planen zu können. Mit Exchange 2013 können Administratoren verschiedene Stufen von Kalenderzugriffen einrichten, über die Unternehmen mit anderen Unternehmen zusammenarbeiten oder Anwender ihre Terminpläne mit anderen teilen können. Die unternehmensübergreifende Kalenderfreigabe wird durch Anlegen von *Organisationsbeziehungen* eingerichtet. Kalenderfreigaben zwischen Benutzern werden durch Anwendung von *Freigaberichtlinien* eingerichtet.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können zusätzlichen Text in die E-Mail-Nachricht aufnehmen, die Benutzer erhalten, wenn ihre UM (Unified Messaging)- oder Voicemail-PIN zurückgesetzt wird. Geben Sie dazu in einer UM-Postfachrichtlinie in das Feld **Wenn die Outlook Voice Access-PIN eines Benutzers zurückgesetzt wird** benutzerdefinierten Text ein. Der benutzerdefinierte Text kann z. B. sicherheitsrelevante Informationen für UM-aktivierte Benutzer enthalten.
 

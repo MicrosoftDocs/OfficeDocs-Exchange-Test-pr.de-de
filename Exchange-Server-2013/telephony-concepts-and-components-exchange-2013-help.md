@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-25_
+_**Letztes Änderungsdatum des Themas:** 2013-04-25_
 
 Wenn Sie MicrosoftExchange 2013 Unified Messaging (UM) für Ihr Netzwerk planen und bereitstellen möchten, müssen Sie mit den Konzepten von Unified Messaging und Telefonienetzwerken vertraut sein. In diesem Thema erhalten Sie einen Überblick über Telefonieinfrastrukturkonzepte und -komponenten sowie Hilfestellungen bei der Planung und Bereitstellung von Servern mit Exchange 2013 Unified Messaging.
 

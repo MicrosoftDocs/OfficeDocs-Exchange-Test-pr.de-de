@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-24_
+_**Letztes Änderungsdatum des Themas:** 2014-06-24_
 
 Sie können die Exchange-Verwaltungskonsole oder die Shell verwenden, um die Eigenschaften einer Database Availability Group (DAG) zu konfigurieren, einschließlich der IP-Adresskonfiguration und des für die DAG verwendeten Zeugenservers und Zeugenverzeichnisses. Mit der Shell können Sie DAG-Eigenschaften konfigurieren, die nicht in der Exchange-Verwaltungskonsole zur Verfügung stehen, z. B. den alternativen Zeugenserver und das Zeugenverzeichnis, den für die Replikation verwendeten TCP-Port und den DAC-Modus (Datacenter Activation Coordination).
 

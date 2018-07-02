@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-05-17_
+_**Letztes Änderungsdatum des Themas:** 2013-05-17_
 
 Die Administrator-Überwachungsprotokollierung in Microsoft Exchange Server 2013 ermöglicht es Ihnen, bei jeder Ausführung eines angegebenen Cmdlets einen Protokolleintrag zu erstellen. In Protokolleinträgen finden Sie Informationen darüber, welches Cmdlet ausgeführt wurde, welche Parameter verwendet wurden, wer das Cmdlet ausgeführt hat und welche Objekte betroffen sind. Weitere Informationen zur Administrator-Überwachungsprotokollierung finden Sie unter [Administratorüberwachungsprotokollierung](administrator-audit-logging-exchange-2013-help.md).
 

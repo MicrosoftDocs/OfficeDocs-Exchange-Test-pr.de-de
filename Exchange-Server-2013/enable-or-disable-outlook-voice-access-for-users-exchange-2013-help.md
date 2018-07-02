@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-12_
+_**Letztes Änderungsdatum des Themas:** 2012-12-12_
 
 Der Zugriff auf Outlook Voice Access kann für UM-aktivierte Benutzer, die einer UM-Postfachrichtlinie (Unified Messaging) zugeordnet sind, aktiviert oder deaktiviert werden. Mit Outlook Voice Access können UM-aktivierte Benutzer über ein Telefon auf ihr Postfach zugreifen. Diese Einstellung ist standardmäßig aktiviert.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-24_
+_**Letztes Änderungsdatum des Themas:** 2014-02-24_
 
 Nachdem Sie eine Compliance-eDiscovery-Suche erstellt haben, können Sie die Suchergebnisse mithilfe der EAC in ein Zielpostfach kopieren. Sie können auch die Shell verwenden, um eine eDiscovery-Suche zu starten, die mithilfe des Cmdlets **New-MailboxSearch** erstellt wurde. Dieses kopiert die Ergebnisse in das Discoverypostfach, das Sie bei der Erstellung der Suche angegeben haben.
 

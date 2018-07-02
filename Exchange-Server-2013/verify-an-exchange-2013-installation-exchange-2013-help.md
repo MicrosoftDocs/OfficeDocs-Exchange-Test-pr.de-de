@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Nachdem Sie Microsoft Exchange Server 2013 installiert haben, wird empfohlen, die Installation zu überprüfen, indem Sie das Cmdlet **Get-ExchangeServer** ausführen und die Setupprotokolldatei durchgehen. Sollten beim Installationsprozess Fehler auftreten, können Sie anhand des Setupprotokolls die Quelle des Problems isolieren.
 

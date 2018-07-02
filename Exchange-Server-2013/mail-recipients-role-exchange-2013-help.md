@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Mail Recipients` ermöglicht Administratoren das Verwalten vorhandener Postfächer, E-Mail-Benutzer und E-Mail-Kontakte in einer Organisation. Das Erstellen solcher Empfänger ist mit dieser Rolle nicht möglich. Zum Erstellen muss die Rolle `Mail Recipient Creation` verwendet werden.
 

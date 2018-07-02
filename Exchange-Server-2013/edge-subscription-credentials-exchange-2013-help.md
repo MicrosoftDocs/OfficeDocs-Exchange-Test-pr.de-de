@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In diesem Thema wird erläutert, wie der Edge-Abonnementprozess die Anmeldeinformationen bereitstellt, die zum Sichern des EdgeSync-Synchronisierungsprozesses verwendet werden, und wie der EdgeSync-Dienst diese Anmeldeinformationen zum Herstellen einer sicheren LDAP-Verbindung zwischen einem Exchange 2013-Postfachserver und einem Edge-Transport-Server verwendet Weitere Informationen zum Edge-Abonnementprozess finden Sie unter [Edge-Abonnements](edge-subscriptions-exchange-2013-help.md).
 

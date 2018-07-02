@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-01-09_
+_**Letztes Änderungsdatum des Themas:** 2014-01-09_
 
 Der Routing-Agent für Adressbuchrichtlinien ist ein Transport-Agent, der auf dem Postfachserver ausgeführt wird, der die Auflösung von Empfängern in Ihrer Organisation steuert. Wenn der Routing-Agent für Adressbuchrichtlinien installiert und konfiguriert wird, werden Benutzer, die verschiedenen GALs zugeordnet sind, insofern als externe Empfänger angezeigt, als sie die Visitenkarten externer Empfänger nicht anzeigen können.
 

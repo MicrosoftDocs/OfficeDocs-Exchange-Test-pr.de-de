@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013 Setup kann nicht fortgesetzt werden, da festgestellt wurde, dass die Funktionsebene der Gesamtstruktur der aktuellen Active Directory-Struktur nicht Windows Server 2003 oder höher entspricht. Vor der Installation von Exchange 2013 müssen Sie die Funktionsebene der Struktur in Windows Server 2003 oder höher ändern.
 

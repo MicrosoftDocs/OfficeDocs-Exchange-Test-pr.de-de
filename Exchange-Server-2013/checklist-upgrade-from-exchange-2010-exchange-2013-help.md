@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Führen Sie anhand dieser Prüfliste das Upgrade von Microsoft Exchange 2010 auf Exchange 2013 durch. Machen Sie sich mit den Konzepten in folgenden Themen vertraut, bevor Sie diese Prüfliste durchgehen:
 

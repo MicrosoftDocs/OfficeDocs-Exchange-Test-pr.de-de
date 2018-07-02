@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-16_
+_**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
 In einem Unified Messaging (UM)-Wählplan sind die Konfigurationsinformationen enthalten, die Ihr Telefonienetzwerk betreffen. UM-Wähleinstellungen richten eine Verknüpfung zwischen der Telefon-Durchwahlnummer eines Voicemail-aktivierten Benutzers und seinem Postfach ein. Wenn Sie UM-Wähleinstellungen erstellen, können Sie die Anzahl der Ziffern in den Durchwahlnummern, den URI-Typ (Uniform Resource Identifier) und die VoIP-Sicherheitseinstellung (Voice over IP) für die Wähleinstellungen konfigurieren.
 

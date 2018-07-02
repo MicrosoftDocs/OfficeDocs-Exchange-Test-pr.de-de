@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Verwenden Sie diese Prüfliste für das Upgrade von Exchange 2007 Unified Messaging (UM) auf Exchange 2013 UM. Nutzen Sie die Informationen unbedingt beim Upgrade Ihrer Exchange 2007-Organisation und Ihrer UM-Bereitstellung auf Exchange 2013. Schrittweise Anleitungen für das Upgrade auf Exchange 2013 UM finden Sie unter [Aktualisieren von Exchange 2007 Unified MESSAGING auf Exchange 2013 UM](upgrade-exchange-2007-um-to-exchange-2013-um-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Ein Active Directory-Standort ist eine logische Konfigurationskomponente, die auf den physischen Aspekten des Netzwerks basiert. Der Hauptzweck, dem die Erstellung eines Active Directory-Standorts dient, ist die Definition, welche Subnetze im Netzwerk so verbunden sind, dass die Steuerung des Active Directory-Replikationsdatenverkehrs optimiert wird. Microsoft Exchange Server 2013 erkennt sowohl Database Availability Groups (DAGs) und Active Directory-Standorte als Routinggrenzen, und Exchange 2013-Server treffen Routingentscheidungen basierend auf der Active Directory-Standorttopologie.
 

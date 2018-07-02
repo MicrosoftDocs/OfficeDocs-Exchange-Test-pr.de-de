@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Messaging-Datensatzverwaltung (Messaging Records Management, MRM) generiert Ereignisse, die Sie in der Ereignisanzeige anzeigen können. Sie ermöglichen Ihnen die Problembehandlung und Leistungsüberprüfung für den Assistenten für verwaltete Ordner. Die Ereignisanzeige verfolgt die folgenden Arten von Ereignissen in der Reihenfolge ihrer Wichtigkeit:
 

@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-03-08_
+_**Letztes Änderungsdatum des Themas:** 2013-03-08_
 
 Sie können eine Unified Messaging-Postfachrichtlinie (UM) erstellen, um einen allgemeinen Satz von UM-Richtlinieneinstellungen, z. B. PIN-Richtlinieneinstellungen oder Wähleinschränkungen, auf eine Sammlung von UM-aktivierten Postfächern anzuwenden. UM-Postfachrichtlinien verknüpfen einen UM-aktivierten Benutzer mit einer UM-Wähleinstellung und wenden einen allgemeinen Satz von Richtlinien oder Sicherheitseinstellungen auf eine Sammlung von UM-aktivierten Postfächern an. UM-Postfachrichtlinien sind hilfreich beim Anwenden und Standardisieren von Unified Messaging-Konfigurationseinstellungen für UM-aktivierte Benutzer.
 

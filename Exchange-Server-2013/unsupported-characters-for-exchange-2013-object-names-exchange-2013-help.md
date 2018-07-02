@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Dieser Artikel beschreibt die Zeichen, die in Objektnamen oder Komponentennamen in Exchange 2013 nicht verwendet werden können. Wenn Sie Namen für Objekte oder Komponenten in Exchange 2013 erstellen, dürfen die Namen nur unterstützten Zeichen enthalten, selbst wenn Sie Objekte mit nicht unterstützten Zeichen erstellen können. Auch wenn Sie versuchen, Objekte zu importieren oder damit eine Verbindung herzustellen, deren Namen Zeichen enthalten, die nicht unterstützt werden, erhalten Sie möglicherweise eine Fehlermeldung, oder es kann zu unerwartetem Verhalten kommen.
 

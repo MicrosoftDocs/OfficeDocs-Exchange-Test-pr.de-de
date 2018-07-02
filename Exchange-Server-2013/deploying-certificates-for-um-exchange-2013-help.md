@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-29_
+_**Letztes Änderungsdatum des Themas:** 2013-04-29_
 
 Sie können MTLS (Mutual Transport Layer Security) verwenden, um Unified Messaging (UM) das Verschlüsseln von Daten zu ermöglichen, die zwischen Ihren Microsoft Exchange 2013-Servern und VoIP-Gateways, IP-Nebenstellenanlagen und Session Border Controllers (SBCs) und Microsoft Lync Server gesendet wurden. Zertifikate dienen zum Binden der Identität des Zertifikatbesitzers an ein Paar elektronischer Schlüssel (öffentlich und privat), die zum Verschlüsseln und digitalen Signieren von Informationen verwendet werden.
 

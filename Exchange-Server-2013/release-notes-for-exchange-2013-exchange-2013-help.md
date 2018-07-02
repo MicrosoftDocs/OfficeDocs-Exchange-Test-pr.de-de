@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-04-16_
+_**Letztes Änderungsdatum des Themas:** 2018-04-16_
 
 Willkommen bei Microsoft Exchange Server 2013\! Dieses Thema enthält wichtige Informationen, die Sie für eine erfolgreiche Bereitstellung von Exchange 2013 benötigen. Bitte lesen Sie dieses Thema vollständig, bevor Sie mit der Bereitstellung beginnen.
 

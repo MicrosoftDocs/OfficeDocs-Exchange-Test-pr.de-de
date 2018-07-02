@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-06-24_
+_**Letztes Änderungsdatum des Themas:** 2016-06-24_
 
 Im Outlook-Client können Benutzer in Ihrer Organisation Ihren **Favoriten**-Ordnern öffentliche Ordner hinzufügen. Danach können sie je nach den Richtlinien Ihrer Organisation Outlook im Web verwenden, um diese öffentlichen Ordner zu ihren Favoriten hinzuzufügen und bestimmte Funktionen in Outlook im Web auszuführen, die sie im Outlook-Client verwenden.
 

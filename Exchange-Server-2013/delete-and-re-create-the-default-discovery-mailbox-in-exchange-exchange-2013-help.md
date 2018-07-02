@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-05-04_
+_**Letztes Änderungsdatum des Themas:** 2016-05-04_
 
 Mithilfe der Exchange-Verwaltungsshell können Sie das Standarddiscoverypostfach löschen und neu erstellen und dem Postfach Berechtigungen zuweisen.
 

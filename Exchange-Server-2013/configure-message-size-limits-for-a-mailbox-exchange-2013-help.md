@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-12_
+_**Letztes Änderungsdatum des Themas:** 2012-11-12_
 
 Sie können mithilfe der Exchange-Verwaltungskonsole oder Shell für ein Benutzerpostfach Größenlimits für Nachrichten festlegen. Mithilfe dieser Limits wird die Größe von Nachrichten bestimmt, die ein Benutzer senden und empfangen darf. Wenn ein Postfach erstellt wird, gilt standardmäßig keine Größenbeschränkung für gesendete und empfangene Nachrichten.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-01-17_
+_**Letztes Änderungsdatum des Themas:** 2018-01-17_
 
 Compliance-eDiscovery verwendet ein Systempostfach zum Speichern von Compliance-eDiscovery-Suchmetadaten. Dieses Discoverysystempostfach verwendet den Anzeigenamen **SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}**. Da Systempostfächer in der Exchange-Verwaltungskonsole oder in Exchange-Adresslisten nicht angezeigt werden, werden sie selten versehentlich gelöscht.
 

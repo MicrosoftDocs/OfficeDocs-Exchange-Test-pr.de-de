@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-08-08_
+_**Letztes Änderungsdatum des Themas:** 2017-08-08_
 
 Sie können Microsoft Exchange Server 2013 in einer virtualisierten Umgebung bereitstellen. In diesem Thema erhalten Sie einen Überblick über die unterstützten Szenarien zur Bereitstellung von Exchange 2013 auf Hardwarevirtualisierungssoftware.
 

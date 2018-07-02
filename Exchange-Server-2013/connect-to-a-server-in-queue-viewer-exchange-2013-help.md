@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Wenn Sie die Warteschlangenanzeige in der Exchange Toolbox auf einem Microsoft Exchange Server 2013-Server verwenden, der sich innerhalb der Exchange-Organisation befindet, können Sie eine Verbindung mit anderen Postfachservern herstellen. Standardmäßig stellt die Warteschlangenanzeige beim Öffnen auf einem Postfachserver eine Verbindung mit der Warteschlangendatenbank auf dem lokalen Server her. Sie können jedoch mehrere Instanzen der Warteschlangenanzeige öffnen, sodass jede Instanz auf einen anderen Server fokussiert. Die Fenster der Warteschlangenanzeige lassen sich überlappend anordnen. So können Sie problemlos mehrere Postfachserver gleichzeitig überwachen.
 

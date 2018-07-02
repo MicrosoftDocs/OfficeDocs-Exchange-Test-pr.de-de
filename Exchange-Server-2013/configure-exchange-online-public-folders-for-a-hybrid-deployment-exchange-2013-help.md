@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-15_
+_**Letztes Änderungsdatum des Themas:** 2016-12-15_
 
-**Zusammenfassung:** In diesem Artikel erfahren Sie, wie Sie lokalen Exchange 2013-Benutzern den Zugriff auf öffentliche Ordner in Exchange Online ermöglichen können.
+**Zusammenfassung:**  In diesem Artikel erfahren Sie, wie Sie lokalen Exchange 2013-Benutzern den Zugriff auf öffentliche Ordner in Exchange Online ermöglichen können.
 
 In einer Hybridbereitstellung können Ihre Benutzer in Exchange Online und/oder lokal sein, und Ihre öffentlichen Ordner sind entweder in Exchange Online oder lokal gespeichert. Manchmal müssen Ihre Onlinebenutzer auf öffentliche Ordner in Ihrer lokalen Exchange Server 2013-Umgebung zugreifen. Ebenso müssen Exchange 2013-Benutzer möglicherweise auf öffentliche Ordner in Office 365 oder Exchange Online zugreifen.
 

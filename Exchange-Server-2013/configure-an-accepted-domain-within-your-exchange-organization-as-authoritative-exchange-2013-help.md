@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-17_
+_**Letztes Änderungsdatum des Themas:** 2014-02-17_
 
 Wenn eine zu Ihrer Organisation gehörende Domäne Postfächer für alle Empfänger in einem SMTP-Namespace hostet, wird diese Domäne als autoritative Domäne eingestuft. Eine akzeptierte Domäne wird standardmäßig als autoritative Domäne für die Exchange-Organisation konfiguriert. Wenn Ihre Organisation mehrere SMTP-Namespaces aufweist, können Sie mehrere akzeptierte Domänen als autoritative Domänen konfigurieren.
 

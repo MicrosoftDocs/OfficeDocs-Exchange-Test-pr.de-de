@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2010, Exchange Server 2013_
+_**Gilt für:** Exchange Server 2010, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-11-16_
+_**Letztes Änderungsdatum des Themas:** 2014-11-16_
 
 Ein Offlineadressbuch (OAB) ist die Kopie einer Adresslistensammlung, die heruntergeladen wurde, damit ein Benutzer von Microsoft Outlook auf das Adressbuch zugreifen kann, wenn keine Verbindung zum Server besteht. Microsoft Exchange generiert die neuen OAB-Dateien, komprimiert die Dateien und speichert die Dateien dann auf einer lokalen Freigabe. Sie können entscheiden, welche Adresslisten Benutzern zur Verfügung gestellt werden, die offline arbeiten, und auch die Methode konfigurieren, mit der die Adressbücher verteilt werden.
 

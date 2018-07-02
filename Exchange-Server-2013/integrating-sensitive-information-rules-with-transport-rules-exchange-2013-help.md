@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-14_
+_**Letztes Änderungsdatum des Themas:** 2015-01-14_
 
 In Microsoft Exchange können Sie DLP-Richtlinien erstellen, die nicht nur Regeln für herkömmliche Nachrichtenklassifikationen und vorhandene Transportregeln enthalten, sondern diese Regeln zum Schutz vertraulicher Informationen in Nachrichten auch kombinieren. Das vorhandene Transportregelframework stellt zahlreiche Funktionen für die Definition von Nachrichtenrichtlinien bereit, die das gesamte Spektrum weicher bis harter Steuerungsmöglichkeiten abdecken. Beispiele sind:
 

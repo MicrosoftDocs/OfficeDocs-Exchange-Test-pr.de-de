@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Für Benutzer, die geschützte Voicemailnachrichten empfangen, kann für das Abhören der Nachrichten die Verwendung der Funktion "Wiedergabe über Telefon" erzwungen werden. Falls die Clientsoftware keine Rechteverwaltung unterstützt, müssen die Benutzer Outlook Voice Access zum Abhören von Nachrichten verwenden.
 

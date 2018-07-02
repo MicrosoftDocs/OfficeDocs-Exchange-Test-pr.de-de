@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Eine *Warteschlange* ist ein temporärer Speicherort für Nachrichten, die auf den Eintritt in die nächste Verarbeitungsphase oder die Zustellung an ihr jeweiliges Ziel warten. Jede Warteschlange stellt einen logischen Satz von Nachrichten dar, die von einem Exchange-Server in einer bestimmten Reihenfolge verarbeitet werden. In Microsoft Exchange Server 2013 werden Nachrichten vor, während und nach der Zustellung in Warteschlangen gehalten. Warteschlangen sind auf Postfachservern und Edge-Transport-Servern vorhanden. Postfachserver und Edge-Transport-Server werden in diesem Thema als *Transportserver* bezeichnet.
 

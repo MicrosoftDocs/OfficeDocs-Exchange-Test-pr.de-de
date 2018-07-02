@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Mit geteilten Berechtigungen können zwei verschiedene Gruppen wie Active Directory-Administratoren und Microsoft Exchange Server 2013-Administratoren ihre jeweiligen Dienste, Objekte und Attribute verwalten. Dabei verwalten Active Directory-Administratoren Sicherheitsprinzipale wie beispielsweise Benutzer, die Berechtigungen für den Zugriff auf eine Active Directory-Gesamtstruktur bereitstellen, während Exchange-Administratoren die Exchange-Attribute für Active Directory-Objekte und die Exchange-spezifische Objekterstellung und -verwaltung verwalten.
 

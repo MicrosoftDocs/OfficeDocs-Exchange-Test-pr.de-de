@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-13_
+_**Letztes Änderungsdatum des Themas:** 2012-11-13_
 
 Beim Erstellen eines UM-IP-Gateways (Unified Messaging) wird dessen Status standardmäßig auf "Aktiviert" festgelegt. Nachdem Sie das UM-IP-Gateway erstellt haben, können Sie dessen Betrieb deaktivieren, indem Sie seinen Status auf "Deaktiviert" festlegen. Nachdem Sie das UM-IP-Gateway deaktiviert haben, können das VoIP-Gateway (Voice over IP), die IP-Nebenstellenanlage (Private Branch eXchange, PBX) bzw. der Session Border Controller (SBC) eingehende Unified Messaging-Anrufe nicht länger verarbeiten.
 

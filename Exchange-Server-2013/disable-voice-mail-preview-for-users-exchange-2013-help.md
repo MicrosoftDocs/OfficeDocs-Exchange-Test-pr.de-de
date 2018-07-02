@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Sie können die Funktion "Voicemailvorschau" für Benutzer deaktivieren, die mit einer UM-Postfachrichtlinie verknüpft sind. Bei Deaktivierung dieser Einstellung wird verhindert, dass Benutzer den Text einer Voicemailnachricht im Nachrichtentext einer E-Mail- oder Textnachricht empfangen. Die Standardeinstellung ist "Aktiviert".
 

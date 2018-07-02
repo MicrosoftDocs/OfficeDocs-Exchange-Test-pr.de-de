@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-30_
+_**Letztes Änderungsdatum des Themas:** 2012-10-30_
 
 Wenn Sie eine Kopie einer Postfachdatenbank hinzufügen, wird automatisch die fortlaufende Replikation zwischen der vorhandenen Datenbank und der Datenbankkopie aktiviert. Datenbankkopien wird automatisch eine Identität im Format \<*Datenbankname*\>\\\<*PostfachHostServerName*\> zugewiesen. Beispielsweise erhält die Kopie der Datenbank "DB1", die auf dem Server "MBX3" gehostet wird, den Namen "DB1\\MBX3".
 

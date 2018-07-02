@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Nachdem Sie eine Microsoft Exchange Server 2013-Lösung für hohe Verfügbarkeit oder Ausfallsicherheit für Standorte erstellt, überprüft und bereitgestellt haben, wird die Lösung von der Bereitstellungsphase in die operative Phase des Gesamtlebenszyklus der Lösung überführt. Die operative Phase umfasst verschiedene Tasks, die alle in Zusammenhang mit einem der folgenden Bereiche stehen: Database Availability Groups (DAGs), Postfachdatenbankkopien, Durchführen einer proaktiven Überwachung und Verwalten von Switchover- und Failovervorgängen.
 

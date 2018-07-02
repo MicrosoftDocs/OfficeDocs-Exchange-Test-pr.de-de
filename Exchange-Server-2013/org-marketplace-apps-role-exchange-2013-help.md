@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle "Marketplace-Apps einer Organisation" ermöglicht Administratoren die Anzeige und Bearbeitung der Organisations-Apps und das Hinzufügen von Apps aus dem Microsoft Office Store.
 

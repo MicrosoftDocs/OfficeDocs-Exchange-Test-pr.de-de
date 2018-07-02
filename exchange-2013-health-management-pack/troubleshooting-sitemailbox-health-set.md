@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Project Server 2013_
+_**Gilt für:** Exchange Server 2013, Project Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-11_
+_**Letztes Änderungsdatum des Themas:** 2013-02-11_
 
 Mit dem SiteMailbox-Integritätssatz werden die Gesamtintegrität und Zugänglichkeit der Websitepostfächer in Ihrer Organisation überwacht.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-08-05_
+_**Letztes Änderungsdatum des Themas:** 2014-08-05_
 
 Sie können steuern, wie Ressourcen von einzelnen Benutzern in Ihrer Exchange-Organisation genutzt werden, indem Sie die standardmäßigen Einschränkungseinstellungen ändern.
 

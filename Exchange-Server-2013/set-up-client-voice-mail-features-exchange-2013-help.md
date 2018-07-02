@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-20_
+_**Letztes Änderungsdatum des Themas:** 2013-02-20_
 
 In diesem Thema werden die Clientfeatures beschrieben, die Exchange Unified Messaging-aktivierten Benutzern den Zugriff auf ihre E-Mails und Voicemailnachrichten in ihrem Postfach ermöglichen. Mithilfe dieser Features können Sie den Benutzern einen vereinfachten Voicemail- und E-Mail-Zugriff und eine bessere Benutzerfreundlichkeit bieten.
 

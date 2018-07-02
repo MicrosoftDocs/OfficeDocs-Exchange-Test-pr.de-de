@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2016, Office 365_
+_**Gilt für:** Exchange Online, Exchange Server 2016, Office 365_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Verwenden Sie das Exchange Admin Center (EAC) oder die Exchange-Verwaltungsshell, um in der Exchange-Organisation eine neue Verteilergruppe zu erstellen oder in Active Directory eine vorhandene Gruppe für E-Mails zu aktivieren.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mithilfe von Transportschutzregeln können Sie den dauerhaften Rechteschutz auf Basis von Eigenschaften, z. B. Absender, Empfänger, Nachrichtenbetreff und Inhalt, auf Nachrichten anwenden.
 
@@ -66,9 +66,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf die Verwaltung von In
         > Wenn Sie beim Erstellen einer Transportschutzregel keine Bedingungen auswählen, werden alle Nachrichten in Ihrer Organisation, die von Exchange&nbsp;2013-Servern mit Transportdienst verarbeitet werden, mithilfe von IRM geschützt. Der Schutz aller Nachrichten mithilfe von IRM erfordert weitere Ressourcen. Daher wird empfohlen, dass Sie Ihre Postfachserver und die AD&nbsp;RMS-Bereitstellung entsprechend planen.
 
     
-      - **Gehen Sie wie folgt vor:**   Aktivieren Sie die Option **Rechteschutz auf Nachrichten anwenden mit**, und verwenden Sie dann das Dialogfeld **RMS-Vorlage auswählen**, um eine Vorlage auszuwählen.
+      - **Gehen Sie wie folgt vor:**    Aktivieren Sie die Option **Rechteschutz auf Nachrichten anwenden mit**, und verwenden Sie dann das Dialogfeld **RMS-Vorlage auswählen**, um eine Vorlage auszuwählen.
     
-      - **Außer wenn:**   (Optional) Klicken Sie auf **Ausnahme hinzufügen**, um eine Ausnahme von der Regel anzugeben.
+      - **Außer wenn:**    (Optional) Klicken Sie auf **Ausnahme hinzufügen**, um eine Ausnahme von der Regel anzugeben.
 
 4.  Klicken Sie auf **Speichern**, um die Transportregel zu erstellen.
 

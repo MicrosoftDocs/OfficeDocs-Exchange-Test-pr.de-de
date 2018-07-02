@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Communications Server 2007 R2 und Lync Server bieten Benutzern zahlreichen Funktionen wie Chat (auch mit mehreren Teilnehmern), Anwesenheitsinformationen und Voicemailfunktionalität, die mit Exchange Unified Messaging (UM) integriert werden können. Bei Bereitstellungen mit integriertem Lync Server 2010 oder 2013 können Benutzer, die für Enterprise-VoIP aktiviert sind, über Lync Server-Komponenten auf ihre Voicemail zugreifen.
 

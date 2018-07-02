@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Sie können die Audiodateien mit den benutzerdefinierten Begrüßungen, Ansagen, Menüs und Eingaben aus Exchange 2007 Unified Messaging (UM) in Exchange 2013 Unified Messaging importieren. Die Eingaben werden mittels Shell-Skripten in ein Exchange-Systempostfach mit dem Namen {e0dc1c29-89c3-4034-b678-e6c29d823ed9} importiert, das bei der Installation von Microsoft Exchange 2013 erstellt wird. Dieses Systempostfach dient in Unified Messaging zum Speichern von Begrüßungen, Ansagen, Menüs, Eingaben und UM-Berichten für den Wählplan und die automatischer Telefonzentrale.
 

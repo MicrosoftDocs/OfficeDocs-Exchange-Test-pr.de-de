@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-17_
+_**Letztes Änderungsdatum des Themas:** 2012-10-17_
 
 Die Verwaltungsrolle `MyMobileInformation` ermöglicht es den einzelnen Benutzern, ihre Mobiltelefon- und Pagernummern anzuzeigen und zu ändern. Bei dieser Rolle handelt es sich um eine benutzerdefinierte Rolle, die basierend auf der übergeordneten Rolle [Rolle „MyContactInformation\&quot;](mycontactinformation-role-exchange-2013-help.md) erstellt wird.
 

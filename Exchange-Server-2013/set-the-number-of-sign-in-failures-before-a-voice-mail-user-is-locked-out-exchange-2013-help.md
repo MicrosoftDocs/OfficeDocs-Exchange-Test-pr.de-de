@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können konfigurieren, welche Anzahl fehlerhafter Anmeldeversuchen zulässig ist, bevor das Postfach eines Outlook Voice Access-Benutzers gesperrt wird. Die maximal zulässige Anzahl fehlerhafter Anmeldeversuche vor dem Sperren eines Postfachs wird in einer UM-Postfachrichtlinie konfiguriert und gilt für alle UM-aktivierten Benutzer, die der UM-Postfachrichtlinie unterliegen. Die Standardeinstellung ist 15.
 

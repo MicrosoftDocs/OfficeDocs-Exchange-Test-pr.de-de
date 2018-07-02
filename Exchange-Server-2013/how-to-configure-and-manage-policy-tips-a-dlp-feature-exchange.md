@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Richtlinientipps sind informative Hinweise, die E-Mail-Absendern beim Verfassen einer Nachricht angezeigt werden. Der Zweck von Richtlinientipps ist es, Benutzern zu vermitteln, dass sie möglicherweise Unternehmenspraktiken oder -richtlinien verletzen, die Sie mit den von Ihnen eingerichteten DLP-Richtlinien (Data Loss Prevention, Verhinderung von Datenverlust) durchsetzen möchten. Die folgenden Verfahren helfen Ihnen, mit dem Einsatz von Richtlinientipps zu beginnen. Schauen Sie dieses Video, um mehr zu erfahren.
 

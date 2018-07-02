@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Sie können die Exchange-Verwaltungsshell auf einem Edge-Transport-Server für alle Verwaltungsaufgaben in Bezug auf das Umschreiben von Adressen und Adressumschreibungs-Agents verwenden. Weitere Informationen zum Umschreiben von Adressen finden Sie unter [Adressumschreibung auf Edge-Transport-Servern](address-rewriting-on-edge-transport-servers-exchange-2013-help.md).
 

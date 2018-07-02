@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-03-15_
+_**Letztes Änderungsdatum des Themas:** 2013-03-15_
 
 Protokollaufzeichnungen enthalten SMTP-Unterhaltungen, die zwischen Sende- und Empfangsconnectors als Teil der Nachrichtenübermittlung stattfinden.
 

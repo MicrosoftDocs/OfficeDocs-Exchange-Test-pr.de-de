@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Wenn Sie einen Edge-Transport-Server bereitstellen, hat er keinen Zugriff auf das Active Directory. Zum Ausführen der Empfängersuche und der Aggregation von Listen sicherer Empfänger und zum Implementieren von Domänensicherheit mithilfe von MTLS (Mutual Transport Layer Security) mit gegenseitiger Authentifizierung benötigt der Edge-Transport-Server Daten aus dem Active Directory. Diese Daten werden auf den Edge-Transport-Server mithilfe des EdgeSync-Vorgangs repliziert. Der Edge-Transport-Server speichert alle replizierten Informationen in Active Directory Lightweight Directory Services (AD LDS).
 

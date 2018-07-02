@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-08-09_
+_**Letztes Änderungsdatum des Themas:** 2016-08-09_
 
 Sie können vertrauliche Daten mithilfe von DLP-Richtlinien verwalten, indem Sie eine Datei mit Einstellungen für die Richtlinieninformationen importieren. Richtlinien können unabhängig von Exchange als XML-Dateien entwickelt werden. Sie müssen jedoch bestimmte Formatanforderungen erfüllen, damit sie ordnungsgemäß funktionieren. Alternativ dazu können Sie auch Richtlinien in Microsoft Exchange Server 2013 importieren, die aus einer früheren Exchange-Version exportiert wurden.
 

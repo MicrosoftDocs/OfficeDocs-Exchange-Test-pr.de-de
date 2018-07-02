@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können Lync Online-Inhalte wie Chatunterhaltungen im Exchange Online-Postfach eines Benutzers archivieren. In lokalen Bereitstellungen können Sie Lync 2013-Inhalte in Exchange 2013-Postfächern archivieren. Sowohl in Onlineumgebungen als auch in lokalen Umgebungen müssen Sie dazu das betreffende Benutzerpostfach in ein Beweissicherungsverfahren einbinden oder einen In-Situ-Speicher für das Postfach einrichten. Löscht ein Benutzer, dessen Postfach in ein Beweissicherungsverfahren eingebunden oder mit einem In-Situ-Speicher konfiguriert wurde, Lync-Inhalte endgültig, werden die archivierten Lync-Inhalte im Ordner „Wiederherstellbare Elemente“ in seinem Postfach aufbewahrt. Dieser Ordner ist für den Benutzer unsichtbar, wird aber in eDiscovery-Suchen einbezogen.
 

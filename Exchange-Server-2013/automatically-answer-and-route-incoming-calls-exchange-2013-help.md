@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-08-26_
+_**Letztes Änderungsdatum des Themas:** 2013-08-26_
 
 Microsoft Exchange Unified Messaging (UM) ermöglicht je nach den Anforderungen Ihrer Organisation die Einrichtung einer oder mehrerer automatischer UM-Telefonzentralen. Im Gegensatz zu anderen Unified Messaging-Komponenten, z. B. UM-Wähleinstellungen und UM-IP-Gateways, ist die Einrichtung automatischer UM-Telefonzentralen nicht unbedingt erforderlich. Automatische Telefonzentralen helfen internen und externen Anrufern jedoch beim Auffinden von Benutzern oder Abteilungen in einer Organisation, um Anrufe an diese weiterzuleiten. In diesem Thema wird das automatische UM-Telefonzentralenfeature in Unified Messaging erläutert.
 

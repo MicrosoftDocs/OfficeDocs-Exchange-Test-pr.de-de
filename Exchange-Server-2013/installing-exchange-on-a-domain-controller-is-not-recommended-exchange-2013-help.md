@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2013-03-22_
+_**Letztes Änderungsdatum des Themas:** 2013-03-22_
 
 Microsoft Exchange Server 2013-Setup hat ermittelt, dass es sich bei dem Computer, auf dem Exchange 2013 installiert werden soll, um einen Active Directory-Domänencontroller handelt. Die Installation von Exchange 2013 auf einem Domänencontroller wird nicht empfohlen.
 

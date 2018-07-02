@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Verwaltungsrollenzuweisungen weisen einem Rollenempfänger eine Verwaltungsrolle zu. Indem Sie die Rollenzuweisung ändern, können Sie steuern, welche Objekte Rollenempfänger ändern können, denen eine Rolle zugewiesen ist. Auf Rollenzuweisungen angewendete Verwaltungsrollenbereiche setzen den impliziten Schreibbereich der Rolle außer Kraft. Der implizite Lesebereich der Rolle hat jedoch weiterhin Gültigkeit. Bereiche, die Sie anwenden, können keine Objekte zurückgeben, die sich außerhalb des impliziten Lesebereichs der Rolle befinden.
 

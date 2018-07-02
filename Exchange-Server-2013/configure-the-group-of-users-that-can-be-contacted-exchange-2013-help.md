@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-09_
+_**Letztes Änderungsdatum des Themas:** 2012-12-09_
 
 Sie können die Gruppe der Benutzer angeben, die Anrufer erreichen können, wenn sie eine Verbindung mit einer automatischen Unified Messaging-Telefonzentrale (UM) herstellen. Standardmäßig können Anrufer Benutzer innerhalb desselben Satzes Wähleinstellungen kontaktieren, der der automatischen UM-Telefonzentrale zugeordnet ist. Sie können die Gruppierung von Benutzern jedoch ändern, um Anrufern die Übergabe von Anrufen oder das Senden von Sprachnachrichten an Benutzer, die im Adressbuch der Organisation enthalten sind, bzw. an eine bestimmte Auswahl von Benutzern zu ermöglichen.
 

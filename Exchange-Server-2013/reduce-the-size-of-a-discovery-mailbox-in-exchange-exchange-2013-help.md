@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Haben Sie ein Discoverypostfach, das die Größenbeschränkung von 50 GB überschritten hat? Sie können dieses Problem beheben, indem Sie neue Discoverypostfächer erstellen und die Suchergebnisse aus dem großen Discoverypostfach in die neuen Postfächer kopieren.
 
@@ -100,23 +100,23 @@ Der nächste Schritt besteht darin, die Suchergebnisse aus dem vorhandenen Disco
 
 2.  Nachdem die Suche erstellt ist, starten Sie sie über die Shell oder das Exchange Admin Center (EAC).
     
-      - **Verwenden der Shell:** Führen Sie den folgenden Befehl aus, um die im vorherigen Schritt erstellte Suche zu starten. Da der Switch *EstimateOnly* bei der Erstellung der Suche eingeschlossen wurde, werden die Suchergebnisse nicht an das Zieldiscoverypostfach kopiert.
+      - **Verwenden der Shell:**  Führen Sie den folgenden Befehl aus, um die im vorherigen Schritt erstellte Suche zu starten. Da der Switch *EstimateOnly* bei der Erstellung der Suche eingeschlossen wurde, werden die Suchergebnisse nicht an das Zieldiscoverypostfach kopiert.
         
             Start-MailboxSearch "Search results from 2010"
     
-      - **Verwenden des EAC:** Navigieren Sie zu **Verwaltung der Richtlinientreue** \> **Compliance-eDiscovery und -Archiv**. Wählen Sie die im vorherigen Schritt erstellte Suche aus, klicken Sie auf **Suchen**![Suchen (Symbol)](images/Dn624163.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "Suchen (Symbol)"), und klicken Sie dann auf **Suchergebnisse schätzen**.
+      - **Verwenden des EAC:**  Navigieren Sie zu **Verwaltung der Richtlinientreue** \> **Compliance-eDiscovery und -Archiv**. Wählen Sie die im vorherigen Schritt erstellte Suche aus, klicken Sie auf **Suchen**![Suchen (Symbol)](images/Dn624163.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "Suchen (Symbol)"), und klicken Sie dann auf **Suchergebnisse schätzen**.
 
 3.  Passen Sie bei Bedarf den Datumsbereich an, um die Menge der zurückgegebenen Suchergebnisse zu vergrößern oder zu verkleinern. Wenn Sie den Datumsbereich ändern, führen Sie die Suche erneut aus, um eine neue Schätzung der Ergebnisse zu erhalten. Ziehen Sie eine Änderung des Namens für die Suche in Betracht, um den neuen Datumsbereich darzustellen.
 
 4.  Wenn Sie das Testen der Suche abgeschlossen haben, kopieren Sie die Suchergebnisse über die Shell oder das EAC an das Zieldiscoverypostfach.
     
-      - **Verwenden der Shell:** Führen Sie die folgenden Befehle aus, um die Suchergebnisse zu kopieren. Sie müssen den Switch *EstimateOnly* entfernen, bevor Sie die Suchergebnisse kopieren können.
+      - **Verwenden der Shell:**  Führen Sie die folgenden Befehle aus, um die Suchergebnisse zu kopieren. Sie müssen den Switch *EstimateOnly* entfernen, bevor Sie die Suchergebnisse kopieren können.
         
             Set-MailboxSearch "Search results from 2010" -EstimateOnly $false
         
             Start-MailboxSearch "Search results from 2010"
     
-      - **Verwenden des EAC:** Navigieren Sie zu **Verwaltung der Richtlinientreue** \> **Compliance-eDiscovery und -Archiv**. Wählen Sie die Suche aus, klicken Sie auf **Suchen**![Suchen (Symbol)](images/Dn624163.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "Suchen (Symbol)"), und klicken Sie dann auf **Suchergebnisse kopieren**.
+      - **Verwenden des EAC:**  Navigieren Sie zu **Verwaltung der Richtlinientreue** \> **Compliance-eDiscovery und -Archiv**. Wählen Sie die Suche aus, klicken Sie auf **Suchen**![Suchen (Symbol)](images/Dn624163.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "Suchen (Symbol)"), und klicken Sie dann auf **Suchergebnisse kopieren**.
     
     Weitere Informationen finden Sie unter [Kopieren der eDiscovery-Suchergebnisse in ein Discoverypostfach](copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md).
 
@@ -132,11 +132,11 @@ Bevor Sie eine Suche löschen, können Sie den folgenden Befehl ausführen, um d
 
 Sie können zum Löschen einer eDiscovery-Suche die Shell oder das EAC verwenden.
 
-  - **Verwenden der Shell:** Führen Sie den folgenden Befehl aus.
+  - **Verwenden der Shell:**  Führen Sie den folgenden Befehl aus.
     
         Remove-MailboxSearch -Identity <name of search>
 
-  - **Verwenden des EAC:** Navigieren Sie zu **Verwaltung der Richtlinientreue** \> **Compliance-eDiscovery und -Archiv**. Wählen Sie die Suche aus, die Sie löschen möchten, und klicken Sie dann auf **Löschen**![Löschen (Symbol)](images/JJ657511.14f639f6-61e8-4418-bbfb-0db14de9d2f5(EXCHG.150).gif "Löschen (Symbol)").
+  - **Verwenden des EAC:**  Navigieren Sie zu **Verwaltung der Richtlinientreue** \> **Compliance-eDiscovery und -Archiv**. Wählen Sie die Suche aus, die Sie löschen möchten, und klicken Sie dann auf **Löschen**![Löschen (Symbol)](images/JJ657511.14f639f6-61e8-4418-bbfb-0db14de9d2f5(EXCHG.150).gif "Löschen (Symbol)").
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

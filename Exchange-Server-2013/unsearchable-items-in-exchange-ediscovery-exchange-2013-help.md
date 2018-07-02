@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In Compliance-eDiscover für Exchange Server 2013 und Exchange Online sind nicht durchsuchbare Elemente Postfachelemente, die von der Exchange-Suche nicht indiziert werden können oder die nur teilweise indiziert wurden. Ein nicht durchsuchbares Element enthält in der Regel eine Datei, die nicht indiziert werden kann, als Anlage zu einer E-Mail-Nachricht. Dies sind einige Gründe, warum Dateien nicht für die Suche indiziert werden können und als nicht durchsuchbares Element zurückgegeben werden, wenn sie an eine E-Mail-Nachricht angehängt sind.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In Microsoft Exchange Server 2013 ist das Nachrichtenverfolgungsprotokoll eine detaillierte Aufzeichnung aller Nachrichtenaktivitäten, d. h. Übertragungen in und aus dem Transportdienst auf Postfachservern, Postfächern auf Postfachservern und Edge-Transport-Servern. Sie können Nachrichtenverfolgungsprotokolle für forensische Nachrichtenanalysen, Nachrichtenübermittlungsanalysen, die Berichterstellung und die Problembehandlung verwenden.
 
@@ -103,15 +103,15 @@ In jede Protokolldatei werden Informationen geschrieben, bis die Dateigröße de
 
 Bei den Protokolldateien der Nachrichtenverfolgung handelt es sich um Textdateien, die Daten im CSV-Format (Comma Separated Value, durch Komma getrennte Werte) enthalten. Jede Datei enthält eine Kopfzeile mit den folgenden Informationen:
 
-  - **\#Software:**   Name der Software, mit der die Nachrichtenverfolgungs-Protokolldatei erstellt wurde. In der Regel lautet der Wert "Microsoft Exchange Server".
+  - **\#Software:**    Name der Software, mit der die Nachrichtenverfolgungs-Protokolldatei erstellt wurde. In der Regel lautet der Wert "Microsoft Exchange Server".
 
-  - **\#Version:**   Versionsnummer der Software, mit der die Nachrichtenverfolgungs-Protokolldatei erstellt wurde. Der aktuelle Wert lautet 15.0.0.0.
+  - **\#Version:**    Versionsnummer der Software, mit der die Nachrichtenverfolgungs-Protokolldatei erstellt wurde. Der aktuelle Wert lautet 15.0.0.0.
 
   - **\#Log-Type**   Wert des Protokolltyps, in diesem Fall Message Tracking Log.
 
-  - **\#Date:**   Datum und Uhrzeit (UTC) der Erstellung der Protokolldatei. Datum und Uhrzeit (UTC) werden im ISO-8601-Datums-/Uhrzeitformat dargestellt: *yyyy-mm-dd*T*hh:mm:ss.fff*Z, wobei *yyyy* = Jahr, *mm* = Monat, *dd* = Tag. T gibt an, dass eine Zeitangabe folgt. *hh* = Stunde,*mm* = Minute, *ss* = Sekunde, *fff* = Bruchteile einer Sekunde. Und Z steht für Zulu, eine weitere Möglichkeit zur Angabe von UTC.
+  - **\#Date:**    Datum und Uhrzeit (UTC) der Erstellung der Protokolldatei. Datum und Uhrzeit (UTC) werden im ISO-8601-Datums-/Uhrzeitformat dargestellt: *yyyy-mm-dd*T*hh:mm:ss.fff*Z, wobei *yyyy* = Jahr, *mm* = Monat, *dd* = Tag. T gibt an, dass eine Zeitangabe folgt. *hh* = Stunde,*mm* = Minute, *ss* = Sekunde, *fff* = Bruchteile einer Sekunde. Und Z steht für Zulu, eine weitere Möglichkeit zur Angabe von UTC.
 
-  - **\#Fields:**   Durch Trennzeichen getrennte Feldnamen, die in den Protokolldateien für die Nachrichtenverfolgung verwendet werden.
+  - **\#Fields:**    Durch Trennzeichen getrennte Feldnamen, die in den Protokolldateien für die Nachrichtenverfolgung verwendet werden.
 
 Zurück zum Seitenanfang
 

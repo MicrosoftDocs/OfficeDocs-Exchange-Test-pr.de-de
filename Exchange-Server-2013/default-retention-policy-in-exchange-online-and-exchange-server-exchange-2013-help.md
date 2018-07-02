@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Exchange erstellt die Aufbewahrungsrichtlinie "MRM-Standardrichtlinie" in Exchange Online und der lokalen Exchange-Organisation. Die Richtlinie wird automatisch auf neue Benutzer in Exchange Online angewendet. In lokalen Organisationen wird die Richtlinie angewendet, wenn Sie ein Archiv für das Postfach erstellen. Sie können die auf einen Benutzer angewendete Aufbewahrungsrichtlinie jederzeit ändern.
 

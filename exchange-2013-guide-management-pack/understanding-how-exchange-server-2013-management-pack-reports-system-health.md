@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+_**Letztes Änderungsdatum des Themas:**  2015-03-09_
 
 In diesem Abschnitt finden Sie Informationen zur Art und Weise, wie das Exchange Server 2013 Management Pack die Systemintegrität von Exchange überwacht und meldet. Im Exchange 2013-Management Pack wird ein einfaches Rollup der Informationen zum Integritätsstatus durchgeführt. Immer dann, wenn ein Integritätssatz einen fehlerhaften Status meldet und der Antwortdienst für die Eskalation ausgelöst wird, wird folgendes Ereignis in die Windows-Ereignisanzeige geschrieben.
 

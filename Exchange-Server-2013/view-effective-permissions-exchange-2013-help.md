@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-09_
+_**Letztes Änderungsdatum des Themas:** 2012-10-09_
 
 Berechtigungen werden in Microsoft Exchange Server 2013 unter Verwendung von Verwaltungsrollen gewährt, die Verwaltungsrollengruppen, Zuweisungsrichtlinien für Verwaltungsrollen, universellen Sicherheitsgruppen oder Benutzern direkt zugewiesen werden. Benutzern werden Berechtigungen erteilt, wenn sie Mitglieder der entsprechenden Rollengruppen oder universellen Sicherheitsgruppen sind oder ihnen Rollenzuweisungsrichtlinien zugewiesen wurden.
 

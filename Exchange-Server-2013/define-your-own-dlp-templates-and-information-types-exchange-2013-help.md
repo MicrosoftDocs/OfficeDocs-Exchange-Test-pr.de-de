@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-14_
+_**Letztes Änderungsdatum des Themas:** 2015-01-14_
 
 Sie können von Microsoft Exchange Server 2013 unabhängige Richtlinienvorlagen für die Verhinderung von Datenverlusten (Data Loss Prevention, DLP) als XML-Dateien entwickeln und diese dann mithilfe der Exchange-Verwaltungskonsole oder der Exchange-Verwaltungsshell importieren. In diesem Abschnitt werden das Verfahren und die Details der Erstellung und Feinabstimmung von XML-Dateien für die Verhinderung von Datenverlusten zur Verwendung in einer DLP-Lösung beschrieben. Sie müssen keine eigenen XML-Dateien für die Verhinderung von Datenverlusten entwickeln. In der Exchange-Verwaltungskonsole können Sie vorhandene DLP-Richtlinienvorlagen und Transportregeln zur Überprüfung von Nachrichten anpassen.
 

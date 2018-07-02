@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Das PICKUP-Verzeichnis und das Wiedergabeverzeichnis sind standardmäßig auf jedem Microsoft Exchange Server 2013-Postfachserver oder Edge-Transport-Server vorhanden. Ordnungsgemäß formatierte E-Mails, die in das PICKUP- oder Wiedergabeverzeichnis kopiert werden, werden zur Zustellung übermittelt. Das PICKUP-Verzeichnis wird von Administratoren zum Testen der Nachrichtenübermittlung oder von Anwendungen verwendet, die ihre eigenen Nachrichten erstellen und senden müssen. Das Wiedergabeverzeichnis empfängt Nachrichten von fremden Gatewayservern und kann dazu verwendet, Nachrichten erneut zu übermitteln, die von Administratoren aus den Warteschlangen von Exchange-Servern exportiert werden.
 

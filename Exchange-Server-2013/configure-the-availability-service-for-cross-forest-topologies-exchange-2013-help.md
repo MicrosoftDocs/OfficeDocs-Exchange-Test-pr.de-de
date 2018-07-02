@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-10-22_
+_**Letztes Änderungsdatum des Themas:** 2014-10-22_
 
 Der Verfügbarkeitsdienst verbessert die Frei/Gebucht-Informationen für Information-Worker, indem Clients mit Microsoft Outlook sichere, konsistente und aktuelle Frei/Gebucht-Informationen zur Verfügung gestellt werden. Dieser Dienst wird standardmäßig zusammen mit Exchange Server 2013 installiert. In gesamtstrukturübergreifenden Topologien, in denen auf allen verbundenen Clients Outlook ausgeführt wird, stellt der Verfügbarkeitsdienst die einzige Methode zum Abrufen von Frei/Gebucht-Informationen dar. Der Verfügbarkeitsdienst für gesamtstrukturübergreifende Topologien kann mithilfe der Shell konfiguriert werden.
 

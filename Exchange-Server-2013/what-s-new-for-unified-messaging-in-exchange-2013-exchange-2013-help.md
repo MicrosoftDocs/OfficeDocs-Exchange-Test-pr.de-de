@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In Microsoft Exchange Server 2013 wurden neue Funktionen hinzugefügt und Änderungen an der Architektur vorgenommen, um frühere Exchange-Versionen zu erweitern. Unified Messaging (UM) in Exchange 2013 umfasst den gleichen Funktionssatz wie in Exchange 2010 und Exchange 2007, ist jedoch keine separate Serverrolle mehr. Es handelt sich hierbei nun um eine Komponente der sprachbezogenen Funktionen in Exchange 2013.
 

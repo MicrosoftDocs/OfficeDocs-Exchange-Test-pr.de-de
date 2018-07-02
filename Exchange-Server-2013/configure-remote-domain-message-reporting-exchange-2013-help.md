@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Sie können die Exchange-Verwaltungsshell verwenden, um zu konfigurieren, wie E-Mails über Remotedomänen gesendet und empfangen werden. Nachfolgend wird veranschaulicht, wie Sie mithilfe der Exchange-Verwaltungsshell konfigurieren, auf welche Weise Exchange Zustellungs- und Unzustellbarkeitsberichte verarbeitet.
 

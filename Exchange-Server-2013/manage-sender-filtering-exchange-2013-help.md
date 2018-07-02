@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
-Die Absenderfilterung wird durch den Absenderfilter-Agent bereitgestellt. Der Absenderfilter-Agent ist abhängig von der **MAIL FROM:**- SMTP-Kopfzeile, um die Aktion festzulegen, die ggf. auf eine eingehende E-Mail angewendet werden soll.
+Die Absenderfilterung wird durch den Absenderfilter-Agent bereitgestellt. Der Absenderfilter-Agent ist abhängig von der **MAIL FROM:** - SMTP-Kopfzeile, um die Aktion festzulegen, die ggf. auf eine eingehende E-Mail angewendet werden soll.
 
 Wenn auf einem Exchange-Server die Absenderfilterungsfunktion aktiviert ist, filtert diese alle Nachrichten, die über alle Empfangsconnectors auf dem betreffenden Computer eingehen.
 

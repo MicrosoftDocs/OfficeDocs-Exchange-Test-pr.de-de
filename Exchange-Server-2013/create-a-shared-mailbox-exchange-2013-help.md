@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Office 365 Enterprise_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Office 365 Enterprise_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 **Geschätzte Zeit bis zum Abschließen des Vorgangs: 5 Minuten**
 

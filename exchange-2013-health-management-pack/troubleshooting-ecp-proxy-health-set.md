@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit dem ECP.Proxy-Integritätssatz wird die Verfügbarkeit der Proxyinfrastruktur der Exchange-Verwaltungskonsole auf dem Clientzugriffsserver überwacht. Der ECP.Proxy-Integritätssatz steht in enger Beziehung mit dem folgenden Integritätssatz:
 

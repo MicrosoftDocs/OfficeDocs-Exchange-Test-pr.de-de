@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-16_
+_**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
 Ein UM-Sammelanschluss ist eine logische Darstellung eines Nebenstellenanlagen- oder IP-Nebenstellenanlagen-Sammelanschlusses. UM-Sammelanschlüsse fungieren als Verbindung oder Verknüpfung zwischen einem UM-IP-Gateway und einem UM-Wählplan.
 

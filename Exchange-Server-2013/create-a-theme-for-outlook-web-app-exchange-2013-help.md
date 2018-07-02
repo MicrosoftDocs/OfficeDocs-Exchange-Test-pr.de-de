@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Ein *Design* definiert die Hintergrundfarbe, die Schriftarten, die Farben für Hervorhebungen sowie die Symbole und Kopfzeilen, die von MicrosoftOutlook Web App verwendet werden. Jedes Design ist eine Sammlung von Mediendateien und CSS-Dateien (Cascading Style Sheets), die auf dem MicrosoftExchange-Server im Installationsverzeichnis unter „\\Client Access\\OWA\\prem\\*version*\\resources\\themes\&quot; gespeichert werden. Jedes Design wird in einem eigenen Unterverzeichnis von „\\themes\&quot; gespeichert.
 

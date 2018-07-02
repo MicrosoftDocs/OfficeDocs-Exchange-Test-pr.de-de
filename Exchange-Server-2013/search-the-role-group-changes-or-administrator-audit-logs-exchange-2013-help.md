@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-12-02_
+_**Letztes Änderungsdatum des Themas:** 2013-12-02_
 
 Anhand der Administratorüberwachungsprotokolle können Sie ermitteln, welche Benutzer Änderungen an der Organisations-, Server- und Empfängerkonfiguration vorgenommen haben. Dies kann nützlich sein, um die Ursache eines unerwarteten Verhaltens oder einen böswilligen Administrator zu ermitteln bzw. die Einhaltung von Vorschriften zu überprüfen. Weitere Informationen zur Administrator-Überwachungsprotokollierung finden Sie unter [Administratorüberwachungsprotokollierung](administrator-audit-logging-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-05-21_
+_**Letztes Änderungsdatum des Themas:** 2013-05-21_
 
 Microsoft Exchange Server 2013 erkennt Active Directory-Standorte und Database Availability Groups (DAGs) als Routinggrenzen. Exchange 2013 verwendet jedoch noch immer die Active Directory-Standorttopologie, um festzulegen, wie Nachrichten zwischen Exchange-Servern in verschiedenen DAGs oder Standorten innerhalb der Organisation übermittelt werden. Weitere Informationen finden Sie unter [E-Mail-Routing](mail-routing-exchange-2013-help.md).
 

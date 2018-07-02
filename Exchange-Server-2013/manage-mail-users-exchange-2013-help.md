@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 E-Mail-Benutzer ähneln E-Mail-Kontakten. Beide verfügen über externe E-Mail-Adressen und können Informationen zu Personen außerhalb Ihrer Exchange- oder Exchange Online-Organisation enthalten, und beide können im freigegebenen Adressbuch und in anderen Adresslisten angezeigt werden. Im Gegensatz zu E-Mail-Kontakten verfügen E-Mail-Benutzer jedoch über Anmeldeinformationen in Ihrer Exchange- oder Office 365-Organisation und können auf Ressourcen zugreifen. Weitere Informationen finden Sie unter [Empfänger](recipients-exchange-2013-help.md).
 

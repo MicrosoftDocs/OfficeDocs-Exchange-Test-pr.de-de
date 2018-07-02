@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `WorkloadManagement` ermöglicht Administratoren das Verwalten von Richtlinien für die Arbeitslastverwaltung. Administratoren können Definitionen für die Ressourcenintegrität sowie Klassifikationen für die Arbeitsauslastung konfigurieren und die Verwaltung der Arbeitsauslastung aktivieren oder deaktivieren. Änderungen sollten nur unter Anleitung des Microsoft-Kundendiensts und -Supports ausgeführt werden.
 

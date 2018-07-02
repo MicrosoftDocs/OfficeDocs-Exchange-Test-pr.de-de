@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit der DLP-Verwaltungsrolle (Data Loss Prevention, Verhinderung von Datenverlust) können Administratoren DLP-Richtlinien sowie Regeln innerhalb dieser Richtlinien erstellen und verwalten, die sich auf die E-Mail-Übermittlung für die gesamte Organisation auswirken können. Darüber hinaus können Administratoren mit dieser Rolle Richtlinientipps konfigurieren, die in E-Mail-Clients angezeigt werden, und Berichte zur Verletzung von DLP-Richtlinien verwalten. Außerdem ermöglicht die DLP-Rolle einen Zugriff auf Microsoft Exchange-Transportregeln. Weitere Informationen zu Transportregeln in Exchange finden Sie in den folgenden Themen:
 

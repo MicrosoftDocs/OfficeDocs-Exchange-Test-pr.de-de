@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange 2013 unterstützt Postfachverschiebungen und -migrationen mithilfe der Cmdlets **New-MoveRequest** und **New-MigrationBatch**. Sie können das Postfach auch über die Exchange-Verwaltungskonsole verschieben. Sie können ein Postfach aus einer Exchange-Quellgesamtstruktur in eine Exchange 2010-Zielgesamtstruktur verschieben.
 

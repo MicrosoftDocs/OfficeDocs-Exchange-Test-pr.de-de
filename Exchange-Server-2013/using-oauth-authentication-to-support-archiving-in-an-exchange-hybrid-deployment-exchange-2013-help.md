@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Wenn Sie in einer Exchange 2013-Hybridbereitstellung die Exchange Online-Archivierung (EOA) für Exchange Server verwenden, müssen Sie nach dem Aktualisieren auf das kumulative Update 5 (CU5) Exchange 2013 die OAuth-Authentifizierung zwischen Ihren lokalen und Exchange Online-Organisationen konfigurieren. Dank der EOA können Sie ein cloudbasiertes Archiv für Ihre Benutzer mit lokalen Postfächern haben. In diesem Szenario wendet der Assistent für die Verwaltung von Nachrichtendatensätzen (Messaging Records Management, MRM) Archivierungsrichtlinien auf Ihrem lokalen Postfachserver an und verschiebt die Nachrichten automatisch von einem Postfach eines Benutzers in dessen cloudbasiertes Archiv. In Exchange 2013 CU5 wird die OAuth-Authentifizierung verwendet.
 

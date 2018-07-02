@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-12-20_
+_**Letztes Änderungsdatum des Themas:** 2017-12-20_
 
 Mithilfe des Cmdlets **Search-Mailbox** können Administratoren Benutzerpostfächer durchsuchen und anschließend Nachrichten aus Postfächern löschen.
 

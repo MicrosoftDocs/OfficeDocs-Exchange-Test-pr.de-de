@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-02_
+_**Letztes Änderungsdatum des Themas:** 2012-11-02_
 
 Als Aktualisieren oder *Seeding* wird der Vorgang bezeichnet, bei dem eine Kopie einer Postfachdatenbank einem anderen Postfachserver in einer Database Availability Group (DAG) hinzugefügt wird. Die neu hinzugefügte Kopie wird zur Grunddatenbank für die passive Kopie, in die Protokolldateien aus der aktiven Kopie übertragen werden. Seeding ist unter folgenden Bedingungen erforderlich:
 

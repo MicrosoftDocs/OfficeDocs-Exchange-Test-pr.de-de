@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-09_
+_**Letztes Änderungsdatum des Themas:** 2012-11-09_
 
 Sie können die zulässige Anzahl von aufeinander folgenden Anmeldefehlversuchen angeben, bevor eine Verbindung getrennt wird. Der Wertbereich dieser Einstellung ist 1 bis 20. Bei einem zu niedrigen Wert reagieren Benutzer unter Umständen verärgert. Für die meisten Organisationen sollte dieser Wert auf die Standardeinstellung von drei Versuchen festgelegt werden.
 

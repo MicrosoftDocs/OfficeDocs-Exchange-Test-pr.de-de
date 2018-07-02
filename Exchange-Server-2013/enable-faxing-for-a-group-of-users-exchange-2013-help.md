@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können eingehende Faxe für Benutzer aktivieren, die einer Unified Messaging-Postfachrichtlinie (UM) zugeordnet sind. Beim Aktivieren von Benutzern für Unified Messaging können Benutzer Faxnachrichten standardmäßig erst empfangen, nachdem Sie den URI für den Server des Faxpartners angegeben, einen Server des Faxpartners für die Organisation bereitgestellt und den Faxbetrieb in einer UM-Postfachrichtlinie aktiviert haben. Wenn die Option zum Zulassen eingehender Faxnachrichten im UM-Wählplan deaktiviert ist, können Benutzer, die der UM-Postfachrichtlinie zugeordnet sind, keine Faxnachrichten empfangen. Wenn die Option zum Zulassen eingehender Faxnachrichten für einen einzelnen Benutzer deaktiviert ist, kann dieser Benutzer keine Faxnachrichten empfangen.
 

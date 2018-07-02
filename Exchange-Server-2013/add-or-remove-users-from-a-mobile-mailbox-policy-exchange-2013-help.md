@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-07-16_
+_**Letztes Änderungsdatum des Themas:** 2015-07-16_
 
 Mit einer Postfachrichtlinie für mobile Geräte können Sie allgemeine Sicherheitseinstellungen und Einstellungen für mobile Geräte auf eine Gruppe von Benutzern anwenden. Sie können mehrere Postfachrichtlinien für mobile Geräte erstellen.
 

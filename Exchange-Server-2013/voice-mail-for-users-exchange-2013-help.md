@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-19_
+_**Letztes Änderungsdatum des Themas:** 2013-02-19_
 
 Mit Unified Messaging (UM) können Benutzer in einer Exchange-Organisation ihre gesamten E-Mail- und Sprachnachrichten in einem einzigen Postfach empfangen. Die Unified Messaging- und Voicemailfunktionen steigern die Benutzerproduktivität erheblich und ermöglichen ein flexibleres Messaging in der gesamten Organisation.
 
@@ -83,7 +83,7 @@ Nachdem Sie ein Exchange-Postfach für den Benutzer erstellt haben, können Sie 
     
     Sie müssen eine gültige Durchwahlnummer für den Benutzer angeben, die mit der in den Wähleinstellungen angegebenen Anzahl von Stellen übereinstimmt. Sie können nur Zahlenwerte von 1 bis 20 eingeben. Eine typische Durchwahlnummer umfasst 3 bis 7 Ziffern und wird in dem Wählplan konfiguriert, der die UM-Postfachrichtlinie zugeordnet ist, die dem Benutzer zugewiesen ist.
 
-3.  **PIN-Einstellungen für den Benutzer:**
+3.  **PIN-Einstellungen für den Benutzer:** 
     
       - **PIN automatisch generieren**   Bei Auswahl dieser Einstellung wird automatisch eine PIN für den UM-aktivierten Benutzer generiert, die für den Voicemailzugriff über Outlook Voice Access verwendet werden kann. Dies ist die Standardeinstellung. Wenn Sie auf diese Schaltfläche klicken wird automatisch eine PIN basierend auf den PIN-Richtlinien erstellt, die in der dem Empfänger zugeordneten UM-Postfachrichtlinie konfiguriert sind. Es wird empfohlen, diese Einstellung zum Schutz der Benutzer-PIN zu verwenden. Die PIN wird in der Begrüßungsnachricht an den Benutzer gesendet, die er nach der Aktivierung für UM erhält. Standardmäßig muss diese PIN bei der ersten Anmeldung beim Postfach zum Abrufen der Voicemail geändert werden.
     

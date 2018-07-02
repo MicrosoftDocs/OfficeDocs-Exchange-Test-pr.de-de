@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-03-26_
+_**Letztes Änderungsdatum des Themas:** 2018-03-26_
 
-**Zusammenfassung:** Verwenden Sie diese Verfahren, um Ihre öffentlichen Exchange 2007- und Exchange 2010-Ordner in Office 365 zu verschieben.
+**Zusammenfassung:**  Verwenden Sie diese Verfahren, um Ihre öffentlichen Exchange 2007- und Exchange 2010-Ordner in Office 365 zu verschieben.
 
 Dieses Thema beschreibt das Migrieren Ihrer öffentlichen Ordner in einer ein- oder mehrstufigen Migration vom Updaterollup 8 für Exchange Server 2010 Service Pack 3 (SP3) oder Updaterollup 15 für Exchange 2007 SP3 zu Office 365 oder Exchange Online.
 

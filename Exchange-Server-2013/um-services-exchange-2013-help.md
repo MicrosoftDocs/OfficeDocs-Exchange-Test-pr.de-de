@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-18_
+_**Letztes Änderungsdatum des Themas:** 2012-11-18_
 
 Clientzugriffsserver mit dem Microsoft Exchange Unified Messaging-Anrufrouterdienst sowie Postfachserver mit dem Microsoft Exchange Unified Messaging-Dienst ermöglichen die Bereitstellung von Unified Messaging (UM)- und Voicemailfunktionen für die Benutzer in Ihrer Organisation.
 

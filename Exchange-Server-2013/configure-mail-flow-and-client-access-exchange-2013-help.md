@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Aufgaben nach der Installation für Exchange Server 2013-E-Mail-Fluss und -Clientzugriff, einschließlich Konfigurieren eines SSL-Zertifikats
 

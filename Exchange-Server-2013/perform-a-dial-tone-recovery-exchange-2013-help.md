@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-27_
+_**Letztes Änderungsdatum des Themas:** 2014-06-27_
 
 Durch die Dial Tone-Portabilität erhalten Benutzer die Möglichkeit, ein temporäres Postfach zum Senden und Empfangen von E-Mails zu nutzen, während ihr ursprüngliches Postfach wiederhergestellt oder repariert wird. Das temporäre Postfach kann sich auf demselben Exchange 2013-Postfachserver oder auf einem beliebigen anderen Exchange 2013-Postfachserver in der Organisation befinden. Der Vorgang der Verwendung der Dial Tone-Portabilität wird als Dial Tone-Wiederherstellung bezeichnet. Zu diesem Vorgang gehört auch das Erstellen einer leeren Datenbank auf einem Postfachserver, durch die eine fehlerhafte Datenbank ersetzt wird. Weitere Informationen finden Sie unter [Dial Tone-Portabilität](dial-tone-portability-exchange-2013-help.md).
 

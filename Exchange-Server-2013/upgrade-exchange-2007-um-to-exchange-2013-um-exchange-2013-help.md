@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Beim Aktualisieren von einer Microsoft Exchange 2007-Organisation mit Unified Messaging (UM) auf Exchange 2013 Unified Messaging sind erforderlichen Schritte und weitere Schritte aus, die bereits im Rahmen Ihrer Exchange 2007 Unified MESSAGING-Bereitstellung abgeschlossen wurden. Je nach Ihrer Umgebung Telefonie und die UM-Komponenten, die erstellt und die Unterstützung in Exchange 2007 Unified Messaging konfiguriert wurden, ist möglicherweise müssen Sie zusätzliche telephonieausrüstung Voice over IP (VoIP)-Gateways, Nebenstellenanlagen IP Private Branch Exchange (Exchange, PBX), einschließlich bereitstellen oder traditionellen oder SIP-aktivierte Nebenstellenanlagen, erstellen und konfigurieren Sie zusätzlichen UM Komponenten, die für Exchange 2013 UM benötigt werden.
 

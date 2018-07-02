@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 In Active Directory stellt die *Gesamtstruktur* die äußere Begrenzung Ihres Verzeichnisdiensts dar. Sie können Sendeconnectors zum Aktivieren der Kommunikation zwischen Gesamtstrukturen erstellen. In diesem Beispiel verwenden die Connectors die Standardauthentifizierung.
 

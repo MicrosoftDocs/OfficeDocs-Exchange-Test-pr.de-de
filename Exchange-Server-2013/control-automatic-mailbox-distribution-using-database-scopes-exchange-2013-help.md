@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Die automatische Postfachverteilung ist eine Funktion in Microsoft Exchange Server 2013, die eine Postfachdatenbank zufällig auswählt, um ein neues oder verschobenes Postfach darin zu speichern, wenn Sie nicht explizit eine Datenbank angeben. Diese Funktion kann nützlich sein, wenn unerfahrene Administratoren oder Helpdeskmitarbeiter Postfächer erstellen sollen, ohne unbedingt wissen zu müssen, in welcher Postfachdatenbank sie erstellt werden sollten.
 

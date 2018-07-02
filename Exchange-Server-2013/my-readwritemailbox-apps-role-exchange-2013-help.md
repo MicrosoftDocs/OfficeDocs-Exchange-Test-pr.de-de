@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:**2017-02-08_
+_**Letztes Änderungsdatum des Themas:** 2017-02-08_
 
 Die Rolle „Eigene ReadWriteMailbox Apps“ ermöglicht einzelnen Benutzern das Hinzufügen von Add-Ins, für die die ReadWriteMailbox-Berechtigung im Manifest erforderlich ist.
 

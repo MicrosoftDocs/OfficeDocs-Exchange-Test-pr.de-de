@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-10_
+_**Letztes Änderungsdatum des Themas:** 2012-12-10_
 
 E-Mail-Adressrichtlinien generieren die primären und sekundären E-Mail-Adressen für Ihre Empfänger (einschließlich Benutzern, Kontakten und Gruppen), damit diese E-Mails empfangen und senden können.
 

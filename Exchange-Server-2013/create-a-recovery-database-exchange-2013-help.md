@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-01-21_
+_**Letztes Änderungsdatum des Themas:** 2013-01-21_
 
 Sie können mithilfe der Shell eine Wiederherstellungsdatenbank erstellen, eine besondere Form von Postfachdatenbank, die im Rahmen eines Wiederherstellungsvorgangs zum Einbinden und Extrahieren von Daten aus der wiederhergestellten Datenbank verwendet wird. Nachdem Sie eine Wiederherstellungsdatenbank erstellt haben, können Sie eine wiederhergestellte Postfachdatenbank in die Wiederherstellungsdatenbank verschieben und dann das Cmdlet [New-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829875\(v=exchg.150\)) verwenden, um Daten aus der wiederhergestellten Datenbank zu extrahieren. Nach dem Extrahieren können die Daten in einen Ordner exportiert oder in einem vorhandenen Postfach zusammengeführt werden. Mithilfe von Wiederherstellungsdatenbanken können Sie Daten aus einer Sicherung oder Kopie der Datenbank wiederherstellen, ohne den Benutzerzugriff auf aktuelle Daten zu unterbrechen.
 

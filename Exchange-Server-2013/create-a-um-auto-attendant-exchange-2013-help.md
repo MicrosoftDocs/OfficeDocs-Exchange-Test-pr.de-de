@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-03-08_
+_**Letztes Änderungsdatum des Themas:** 2013-03-08_
 
 Nachdem Sie eine automatische Telefonzentrale für Unified Messaging (UM) erstellt haben, werden an der externen Rufnummer eines Unternehmens eingehende Anrufe, die normalerweise von einem Telefonisten angenommen würden, von der automatischen Telefonzentrale beantwortet. Im Gegensatz zu anderen Unified Messaging-Komponenten, z. B. UM-Wählplänen und UM-IP-Gateways, ist die Einrichtung automatischer UM-Telefonzentralen nicht unbedingt erforderlich. Automatische Telefonzentralen helfen in- und externen Anrufern jedoch beim Auffinden von Benutzern oder Abteilungen in einer Organisation und leiten Anrufe an diese weiter.
 

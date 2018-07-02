@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Bei der Aktualisierung einer Microsoft Exchange 2010-Organisation mit Unified Messaging (UM) auf Exchange 2013 Unified Messaging gibt es notwendige Schritte und Schritte, die bereits im Rahmen Ihrer Exchange 2010 UM-Bereitstellung durchgeführt wurden. Abhängig von Ihrer Telefonieumgebung und den für die Unterstützung von Unified Messaging in Exchange 2010 erstellten und konfigurierten UM-Komponenten müssen Sie möglicherweise zusätzliche Telefoniegeräte wie VoIP-Gateways (Voice over IP), IP Private Branch eXchanges (PBXs) oder herkömmliche beziehungsweise SIP-fähige PBXs bereitstellen und anschließend alle zusätzlichen UM-Komponenten erstellen und konfigurieren, die für Exchange 2013 UM benötigt werden.
 

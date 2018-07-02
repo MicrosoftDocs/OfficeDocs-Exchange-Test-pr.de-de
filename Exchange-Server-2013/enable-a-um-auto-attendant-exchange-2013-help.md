@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Beim Erstellen einer automatischen UM-Telefonzentrale wird deren Status standardmäßig auf "Deaktiviert" festgelegt. Nach der Erstellung können Sie den Status der automatischen UM-Telefonzentrale ändern, damit eingehende Anrufe über die Telefonzentrale entgegengenommen werden können.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Bereitstellungsrichtlinien für Websitepostfächer gelten für E-Mails, die an Websitepostfächer und von einem Websitepostfach gesendet werden, und wirken sich auf die Größe des Websitepostfachs auf dem Exchange-Server aus.
 

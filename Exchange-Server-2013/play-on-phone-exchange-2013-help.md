@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-25_
+_**Letztes Änderungsdatum des Themas:** 2013-04-25_
 
 Nachdem eine Voicemailnachricht eingegangen ist, können Benutzer die Voicemailnachricht über die Lautsprecher oder den Kopfhörer Ihres Computers wiedergeben oder die Funktion zur Wiedergabe über Telefon verwenden. Die Funktion zur Wiedergabe über Telefon ist in Microsoft Outlook und Outlook Web App enthalten, und Einstellungen für Wiedergabe über Telefon sind im Abschnitte **Wiedergabe über Telefon** unter den Optionen für **Voicemail** verfügbar. In diesem Thema wird erläutert, wie ein UM-aktivierter Benutzer die Funktion zur Wiedergabe über Telefon verwenden kann.
 

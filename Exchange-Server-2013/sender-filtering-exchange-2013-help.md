@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-12_
+_**Letztes Änderungsdatum des Themas:** 2012-10-12_
 
 Die Absenderfilterung stützt sich auf die MAIL FROM: SMTP-Kopfzeile, um die Aktion festzulegen, die ggf. auf eine eingehende E-Mail angewendet werden soll. Die Absenderfilterung wird durch den Absenderfilter-Agent bereitgestellt.
 

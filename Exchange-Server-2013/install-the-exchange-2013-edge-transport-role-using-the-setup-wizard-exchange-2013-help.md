@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-19_
+_**Letztes Änderungsdatum des Themas:** 2014-06-19_
 
 In diesem Thema wird erläutert, wie die Exchange 2013-Edge-Transport-Serverrolle mithilfe des Microsoft Exchange Server 2013-Setup-Assistenten auf einem Computer installiert wird. Die Edge-Transportrolle ist mit Exchange 2013 Service Pack 1 (SP1) oder höher verfügbar. Weitere Informationen zur Planung und Bereitstellung von Exchange 2013 finden Sie unter [Planung und Bereitstellung](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Informationen zu Exchange 2013-Anforderungen, die Sie kennen müssen, bevor Sie Exchange 2013 installieren. Sie erhalten z. B. Informationen zu den Hardware-, Netzwerk- und Betriebssystemanforderungen.
 

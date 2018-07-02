@@ -13,15 +13,15 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Office 365 Enterprise_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Office 365 Enterprise_
 
-_**Letztes Änderungsdatum des Themas:**2017-06-19_
+_**Letztes Änderungsdatum des Themas:** 2017-06-19_
 
 Mit dem Compliance-Archiv, dem Beweissicherungsverfahren und [Office 365-Aufbewahrungsrichtlinien](http://go.microsoft.com/fwlink/?linkid=827811) (erstellt in Office 365 Security & Compliance Center) können Sie Postfachinhalte speichern, um rechtliche Vorschriften einzuhalten und eDiscovery-Anforderungen zu erfüllen. Informationen über Empfänger, die direkt in den Feldern "An" und "Cc" einer Nachricht adressiert werden, sind standardmäßig in allen Nachrichten enthalten, aber in Ihrer Organisation kann es erforderlich sein, nach detaillierten Informationen über alle Empfänger einer Nachricht zu suchen und sie zu reproduzieren. Dazu gehört Folgendes:
 
-  - **Empfänger, die im Feld "Bcc" einer Nachricht adressiert werden:** Bcc-Empfänger werden in der Nachricht im Postfach des Absenders gespeichert, aber sind nicht in den Kopfzeilen der Nachricht enthalten, die an die Empfänger gesendet wird.
+  - **Empfänger, die im Feld "Bcc" einer Nachricht adressiert werden:**  Bcc-Empfänger werden in der Nachricht im Postfach des Absenders gespeichert, aber sind nicht in den Kopfzeilen der Nachricht enthalten, die an die Empfänger gesendet wird.
 
-  - **Empfänger in erweiterten Verteilergruppen:** Empfänger, die die Nachricht erhalten, weil sie Mitglieder einer Verteilergruppe sind, an die die Nachricht adressiert war, entweder im Feld "An", "CC", oder "Bcc".
+  - **Empfänger in erweiterten Verteilergruppen:**  Empfänger, die die Nachricht erhalten, weil sie Mitglieder einer Verteilergruppe sind, an die die Nachricht adressiert war, entweder im Feld "An", "CC", oder "Bcc".
 
 Exchange Online und Exchange Server 2013 (kumulatives Update 7 und höher) behalten Informationen zu Bcc-Empfängern und Empfängern in erweiterten Verteilergruppen bei. Sie können mithilfe einer Compliance-eDiscovery-Suche in der Exchange-Verwaltungskonsole oder einer Inhaltssuche in der Security & Compliance Center nach diesen Informationen suchen.
 

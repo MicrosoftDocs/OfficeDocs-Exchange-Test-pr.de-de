@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-16_
+_**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
 [Erstellen eines UM-Wählplans](create-a-um-dial-plan-exchange-2013-help.md)
 

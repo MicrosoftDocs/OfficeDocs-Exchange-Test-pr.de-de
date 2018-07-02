@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-07-28_
+_**Letztes Änderungsdatum des Themas:** 2016-07-28_
 
 In diesem Thema werden Verfahren beschrieben, um einen Abgleich für Muster- und Nachweiselemente innerhalb einer DLP-XML-Datei (Data Loss Prevention) durchzuführen, die Ihr benutzerdefiniertes Regelpaket für vertrauliche Informationen enthält. Nachdem Sie eine ordnungsgemäß formatierte XML-Datei erstellt haben, können Sie die Datei über die Exchange-Verwaltungskonsole oder die Exchange-Verwaltungsshell importieren, um Ihre Microsoft Exchange Server 2013-DLP-Lösung zu erstellen. Sie sollten bereits mit der Erstellung einer DLP-XML-Datei begonnen haben, um die hier beschriebenen Methoden für den Abgleich zu verwenden. Weitere Informationen zum Definieren eigener DLP-Vorlagen und XML-Dateien finden Sie unter [Definition eigener DLP-Vorlagen und Informationstypen](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 

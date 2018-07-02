@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `User Options` ermöglicht Administratoren die Anzeige der Outlook Web App-Optionen eines Benutzers in einer Organisation. Diese Rolle kann zur Diagnose von Konfigurationsproblemen verwendet werden.
 

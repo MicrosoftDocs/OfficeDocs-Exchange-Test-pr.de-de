@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In Microsoft Exchange Server 2013 erfolgt die Nachrichtenübermittlung über die Transportpipeline. Die *Transportpipeline* besteht aus einer Sammlung von Diensten, Verbindungen, Komponenten und Warteschlangen, die gemeinsam eingesetzt werden, um alle Nachrichten an ein Kategorisierungsmodul im Transportdienst auf einem Postfachserver innerhalb der Organisation weiterzuleiten.
 

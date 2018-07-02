@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können konfigurieren, welche Anzahl von Anmeldefehlern vor dem Zurücksetzen der PIN für einen Outlook Voice Access-Benutzer zulässig ist. Die möglichen Werte liegen in einem Bereich von 1 bis 998, der Standardwert ist 5. Die maximal zulässige Anzahl von fehlerhaften Anmeldeversuchen vor dem Zurücksetzen eines Postfachs wird in einer UM-Postfachrichtlinie konfiguriert und gilt für alle Outlook Voice Access-Benutzer, die der UM-Postfachrichtlinie zugeordnet sind.
 
@@ -55,7 +55,7 @@ Informationen zu weiteren Aufgaben im Zusammenhang mit der Sicherheit der Outloo
 
 3.  Wählen Sie auf der Seite **UM-Wählplan** unter **UM-Postfachrichtlinien** eine UM-Postfachrichtlinie aus, die Sie ändern möchten, und klicken Sie dann auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
 
-4.  Klicken Sie auf **PIN-Richtlinien** und dann auf **Anzahl der Anmeldefehler vor dem Zurücksetzen der PIN:**, und geben Sie einen Wert zwischen 0 und 999 ein.
+4.  Klicken Sie auf **PIN-Richtlinien** und dann auf **Anzahl der Anmeldefehler vor dem Zurücksetzen der PIN:** , und geben Sie einen Wert zwischen 0 und 999 ein.
 
 5.  Klicken Sie auf **Speichern**.
 

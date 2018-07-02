@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Internetprotokoll, Version 6, (IPv6) ist die aktuelle Version des Internetprotokolls (IP). Mit IPv6 sollen zahlreiche der Defizite von IPv4, der vorherigen IP-Version, korrigiert werden. In Microsoft Exchange Server 2010 wird IPv6 nur dann unterstützt, wenn auch IPv4 verwendet wird. Eine reine IPv6-Exchange-Umgebung wird nicht unterstützt. Die Verwendung von IPv6-Adressen und IP-Adressbereichen wird nur unterstützt, wenn auf dem Computer mit Exchange 2010 sowohl IPv6 als auch IPv4 aktiviert sind und wenn das Netzwerk beide IP-Adressversionen unterstützt. Da es sich bei IPv4 und IPv6 um vollständig unterschiedliche Protokolle handelt, kann ein IPv4-Netzwerk jedoch nicht direkt mit einem IPv6-Netzwerk kommunizieren und umgekehrt. Um dieses Manko auszugleichen, müssen Netzwerkadministratoren Geräte wie Router bereitstellen, die Informationen zwischen IPv4- und IPv6-Netzwerken weiterleiten können. Wenn Exchange 2010 mit IPv4 und IPv6 bereitgestellt wurde, können alle Serverrollen außer Unified Messaging (UM) Daten an Geräte, Server und Clients senden bzw. von diesen empfangen, die IPv6-Adressen verwenden. Mit Exchange 2013 ist Unified Messaging keine separate Serverrolle mehr, wie die Serverrollen Transport, Clientzugriff und Postfach in Exchange 2007 und Exchange 2010. Komponenten im Zusammenhang mit UM sowie Sprachdienste werden ausschließlich auf Clientzugriffs- und Postfachservern ausgeführt.
 

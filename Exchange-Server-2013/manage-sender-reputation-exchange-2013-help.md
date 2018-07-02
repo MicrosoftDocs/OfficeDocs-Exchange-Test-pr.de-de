@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Die Absenderzuverlässigkeit wird durch den Protokollanalyse-Agent bereitgestellt. Die Absenderzuverlässigkeit blockiert Nachrichten aufgrund verschiedener Merkmale des Absenders. Die Absenderzuverlässigkeit verwendet gespeicherte Daten über den Absender, um die Aktion zu bestimmen, die ggf. für eine eingehende Nachricht ausgeführt werden soll.
 

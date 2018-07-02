@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In dieser Übersicht werden die Komponenten einer XML-Schemadefinition für Richtlinienvorlagendateien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) erläutert, und es wird eine Beispielrichtliniendatei im XML-Format bereitgestellt. Bevor Sie beginnen, sollten Sie sich mit den Grundlagen der DLP-Architektur und der Regelentwicklung vertraut machen. Weitere Informationen finden Sie unter [Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md) und [Definition eigener DLP-Vorlagen und Informationstypen](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 

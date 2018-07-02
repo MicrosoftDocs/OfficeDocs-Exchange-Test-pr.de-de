@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Organization Transport Settings` ermöglicht Administratoren das Verwalten von organisationsweiten Transporteinstellungen wie Systemmeldungen, der Active Directory-Standortkonfiguration und Transportkonfigurationseinstellungen für die gesamte Exchange-Organisation.
 

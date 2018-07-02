@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-17_
+_**Letztes Änderungsdatum des Themas:** 2012-10-17_
 
 Es kann Szenarien geben, in denen Nachrichten an ein Faxgateway gesendet und von diesem empfangen werden, das nicht SMTP als primären Transportmechanismus verwendet. Führen Sie die in diesem Verfahren beschriebenen Schritte aus, um einen fremden Connector zu erstellen, der den Nachrichtenversand an das und den Empfang von Nachrichten durch das fremde System ermöglicht.
 

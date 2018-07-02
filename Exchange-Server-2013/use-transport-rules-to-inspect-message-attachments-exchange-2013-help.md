@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-27_
+_**Letztes Änderungsdatum des Themas:** 2015-03-27_
 
 Sie können E-Mail-Anlagen in Ihrer Organisation überprüfen, indem Sie Transportregeln einrichten. Exchange bietet Transportregeln, mit denen E-Mail-Anhänge im Rahmen Ihrer Messaging-bezogenen Sicherheits- und Compliance-Anforderungen überprüft werden können. Wenn Sie Anlagen überprüfen, können Sie basierend auf deren Inhalten oder Merkmalen für die überprüften Nachrichten Aktionen durchführen. Hier einige anlagenbezogene Aufgaben, die Sie mit Transportregeln durchführen können:
 

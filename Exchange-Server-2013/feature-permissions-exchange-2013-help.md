@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-12_
+_**Letztes Änderungsdatum des Themas:** 2012-10-12_
 
 In Microsoft Exchange Server 2013 werden Berechtigungen mithilfe des Berechtigungsmodells der rollenbasierten Zugriffssteuerung (Role Based Access Control, RBAC) verwaltet. In den folgenden Themen werden die Verwaltungsrollengruppen aufgeführt, die für die Verwaltung der jedem Funktionsbereich in Exchange 2013 zugeordneten Funktionen erforderlich sind.
 

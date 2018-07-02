@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2017-03-27_
+_**Letztes Änderungsdatum des Themas:** 2017-03-27_
 
 Informationen zum Aktivieren von Exchange 2013 oder Exchange 2016 Benutzer Zugriff auf Exchange 2010 oder früheren öffentlichen Ordnern (auch bekannt als ältere öffentliche Ordner).
 

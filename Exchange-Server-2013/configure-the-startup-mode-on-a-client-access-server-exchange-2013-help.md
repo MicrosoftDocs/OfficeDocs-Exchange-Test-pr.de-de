@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-15_
+_**Letztes Änderungsdatum des Themas:** 2013-02-15_
 
 Sie können den Startmodus für den Microsoft Exchange Unified Messaging-Anrufrouterdienst auf einem Clientzugriffsserver angeben. Standardmäßig wird der Clientzugriffsserver im TCP-Modus gestartet. Wenn Sie jedoch TLS (Transport Layer Security) zum Verschlüsseln von VoIP-Datenverkehr (Voice over IP) verwenden, müssen Sie den Clientzugriffsserver so konfigurieren, dass TLS oder der Dualmodus verwendet wird. Es wird empfohlen, Clientzugriffsserver für den Startmodus "Dual" zu konfigurieren. Der Grund ist, dass alle Clientzugriffs- und Postfachserver alle eingehenden Anrufe für alle UM-Wählpläne beantworten, diese Wählpläne aber unterschiedliche Sicherheitseinstellungen aufweisen können. Wenn Sie den Startmodus ändern, müssen Sie den Microsoft Exchange Unified Messaging-Anrufrouterdienst erneut starten, damit die Änderung wirksam wird.
 

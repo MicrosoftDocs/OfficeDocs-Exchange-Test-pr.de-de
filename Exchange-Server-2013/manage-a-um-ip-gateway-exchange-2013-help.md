@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Nachdem Sie ein UM-IP-Gateway erstellt haben, können Sie verschiedene Einstellungen anzeigen bzw. konfigurieren. Sie können beispielsweise die IP-Adresse oder einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) sowie Einstellungen für ausgehende Anrufe konfigurieren und die MWI-Funktion (Message Waiting Indicator) aktivieren bzw. deaktivieren.
 

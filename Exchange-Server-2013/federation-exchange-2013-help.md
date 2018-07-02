@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Information-Worker müssen häufig mit externen Empfängern, Lieferanten, Partnern und Kunden zusammenarbeiten und ihre Frei/Gebucht-Informationen (die sogenannte "Kalenderverfügbarkeit") freigeben. Die Verbundfunktion von Microsoft Exchange Server 2013 unterstützt die Zusammenarbeit in diesem Bereich. *Verbundfunktion* bezieht sich auf die zugrunde liegende Vertrauensstellungsinfrastruktur, die die *Verbundfreigabe* unterstützt, eine einfache Methode für Benutzer, die Kalenderinformationen für Empfänger in anderen externen Verbundorganisationen freigeben möchten. Weitere Informationen zu Verbundfreigaben finden Sie unter [Freigabe](sharing-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-16_
+_**Letztes Änderungsdatum des Themas:** 2012-10-16_
 
 Sie können mithilfe der Shell eine E-Mail-Adressrichtlinie mit Empfängerfilterung erstellen. Weitere Informationen zu E-Mail-Adressrichtlinien finden Sie unter [E-Mail-Adressrichtlinien](email-address-policies-exchange-2013-help.md).
 

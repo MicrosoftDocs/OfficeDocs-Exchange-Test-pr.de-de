@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-03-27_
+_**Letztes Änderungsdatum des Themas:** 2017-03-27_
 
 Exchange 2013 beansprucht mehr Systemressourcen als frühere Versionen von Exchange. Durch eine ordnungsgemäße Dimensionierung Ihrer Exchange 2013-Infrastruktur und anschließender empfohlener Konfiguration von Exchange-bezogenen Komponenten in dieser Infrastruktur können Sie die Grundlage für eine Bereitstellung mit optimaler Leistung bilden.
 

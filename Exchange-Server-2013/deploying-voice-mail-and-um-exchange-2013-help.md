@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mit Exchange Unified Messaging (UM) können Sie den Benutzern in der Organisation Voicemaildienste bereitstellen. Wenn Sie Unified Messaging bereitstellen, müssen Sie die Exchange Server-Bereitstellung in das vorhandene Telefoniesystem Ihrer Organisation oder in Microsoft Lync Server integrieren. Für eine erfolgreiche Bereitstellung und die Durchführung der richtigen Planungsschritte für die Bereitstellung und Verwaltung von Voicemail in Unified Messaging ist eine sorgfältige Analyse Ihrer vorhandenen Telefonieinfrastruktur erforderlich. Wenn Sie eine Integration von Exchange in Lync Server anstreben, müssen Sie sich auch mit diesem Produkt vertraut machen.
 

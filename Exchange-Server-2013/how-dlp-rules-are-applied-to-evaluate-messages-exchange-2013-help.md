@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Sie können in Ihren Microsoft Exchange-Richtlinien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) Regeln für vertrauliche Informationen einrichten, um ganz spezielle Daten in E-Mail-Nachrichten zu erkennen. In diesem Thema wird erklärt, wie diese Regeln angewendet werden und wie die Auswertung der Nachrichten erfolgt. Sie können Workflowunterbrechungen für Ihre E-Mail-Benutzer vermeiden und ein hohes Maß an Präzision bei Ihren DLP-Erkennungen erzielen, wenn Sie wissen, wie Ihre Regeln durchgesetzt werden. Wir verwenden hier als Beispiel die von Microsoft bereitgestellte Regel für Kreditkarteninformationen. Wenn Sie eine Transportregel oder DLP-Richtlinie aktivieren, vergleicht der Exchange-Transportregel-Agent sämtliche von Ihren Benutzern gesendeten Nachrichten mit den von Ihnen erstellten Regelsätzen.
 

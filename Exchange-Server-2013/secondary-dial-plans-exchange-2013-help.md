@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Wenn Sie einen Benutzer für Unified Messaging (UM) aktivieren, müssen Sie eine Durchwahl und eine UM-Postfachrichtlinie zuweisen, die den Benutzer mit einem UM-Wählplan verknüpft. Nachdem der Benutzer für UM aktiviert wurde, können Sie für diesen Benutzer im gleichen Wählplan weitere Durchwahlnummern zuweisen. Die Durchwahlen in diesem Wählplan müssen allerdings eindeutig sein. In einigen Bereitstellungen muss einem Benutzer möglicherweise in zwei unterschiedlichen Wählplänen die gleiche Durchwahlnummer zugewiesen werden. Ist dies der Fall, können Sie den Benutzer mit einem sekundären UM-Wählplan verknüpfen. Dies kann beispielsweise dann hilfreich sein, wenn der Benutzer über zwei Telefone verfügt oder zwischen verschiedenen Standorten wechselt.
 

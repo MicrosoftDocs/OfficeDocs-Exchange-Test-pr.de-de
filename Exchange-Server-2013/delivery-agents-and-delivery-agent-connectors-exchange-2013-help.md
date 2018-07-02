@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Ein Zustellungs-Agent kann Nachrichten aus Ihrer SMTP-Exchange-Serverumgebung an ein System zustellen, in dem das SMTP-Protokoll nicht verwendet wird. Jeder Zustellungs-Agent ist einem Zustellungs-Agent-Connector zugeordnet, der an den Zustellungs-Agent weitergeleitete Nachrichten für die Verarbeitung und Zustellung an das Nicht-SMTP-Gerät oder -System in eine Warteschlange einreiht.
 

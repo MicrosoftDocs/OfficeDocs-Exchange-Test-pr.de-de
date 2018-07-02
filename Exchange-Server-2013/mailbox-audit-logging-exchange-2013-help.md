@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Da Postfächer vertrauliche und für das Unternehmen zentrale Informationen sowie Informationen zur persönlichen Identifizierung enthalten können, ist es wichtig zu verfolgen, wer sich an den Postfächern in Ihrer Organisation anmeldet und welche Aktionen ausgeführt werden. Eine besondere Rolle spielt hierbei die Verfolgung des Postfachzugriffs durch Benutzer, die nicht mit dem Postfachbesitzer identisch sind. Diese Benutzer werden als *Stellvertretungsbenutzer* bezeichnet.
 

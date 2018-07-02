@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-03-26_
+_**Letztes Änderungsdatum des Themas:** 2018-03-26_
 
-**Zusammenfassung:** In diesem Artikel erfahren Sie, wie Sie öffentliche Ordner von Exchange 2007 oder Exchange Server 2010 zu Exchange 2013 verschieben.
+**Zusammenfassung:**  In diesem Artikel erfahren Sie, wie Sie öffentliche Ordner von Exchange 2007 oder Exchange Server 2010 zu Exchange 2013 verschieben.
 
 In diesem Artikel wird die Migration öffentlicher Ordner von Exchange Server 2010 SP3 RU8 oder Exchange 2007 SP3 RU15 zu Microsoft Exchange Server 2013 CU7 oder höher in derselben Gesamtstruktur beschrieben.
 

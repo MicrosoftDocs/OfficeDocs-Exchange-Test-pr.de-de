@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:**2017-03-20_
+_**Letztes Änderungsdatum des Themas:** 2017-03-20_
 
-**Zusammenfassung:** Führen Sie die hier beschriebenen Schritte durch, um ein Rollback Ihrer Infrastruktur von öffentlichen Ordnern in Ihre lokale Exchange 2013-Organisation auszuführen, mit einer Zurücksetzung in den Zustand vor der Migration.
+**Zusammenfassung:**  Führen Sie die hier beschriebenen Schritte durch, um ein Rollback Ihrer Infrastruktur von öffentlichen Ordnern in Ihre lokale Exchange 2013-Organisation auszuführen, mit einer Zurücksetzung in den Zustand vor der Migration.
 
 Befolgen Sie die Anleitung unten, wenn Sie bei der Migration Ihrer öffentlichen Ordner zu Exchange Online auf Probleme stoßen oder Ihre Exchange 2013-basierten öffentlichen Ordner aus einem anderen Grund reaktivieren müssen.
 

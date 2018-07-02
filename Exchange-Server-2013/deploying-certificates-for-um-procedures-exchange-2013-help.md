@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-19_
+_**Letztes Änderungsdatum des Themas:** 2013-04-19_
 
 [Erstellen von Zertifikaten für UM](create-certificates-for-um-exchange-2013-help.md)
 

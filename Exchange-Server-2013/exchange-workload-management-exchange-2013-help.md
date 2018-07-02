@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-11-16_
+_**Letztes Änderungsdatum des Themas:** 2014-11-16_
 
 Bei Exchange-Arbeitsauslastungen handelt es sich um Exchange Server-Funktionen, -Protokolle oder -Dienste, die explizit zum Zweck der Exchange-Systemressourcenverwaltung definiert wurden. Jede Exchange-Arbeitsauslastung nutzt Systemressourcen (z. B. CPU, Vorgänge der Postfachdatenbank oder Active Directory-Anforderungen), um Benutzeranforderungen oder Hintergrundaufgaben auszuführen. Beispiele für Exchange-Arbeitsauslastungen sind Outlook Web App, Exchange ActiveSync, Postfachmigrationen und Postfach-Assistenten.
 

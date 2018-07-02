@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013 SP1_
+_**Gilt für:** Exchange Server 2013 SP1_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Sie können EAC oder die Shell zum Deaktivieren oder Löschen eines Postfachs in Exchange 2013 verwenden. Wenn ein Postfach deaktiviert oder gelöscht wird, behält Exchange das Postfach in der Postfachdatenbank bei und wechselt den Status des Postfachs zu deaktiviert. Deaktivierte und gelöschte Postfächer verbleiben in der Postfachdatenbank, bis der Aufbewahrungszeitraum für gelöschte Postfächer abläuft. Das ist standardmäßig nach 30 Tagen der Fall. Nach Ablauf des Aufbewahrungszeitraums wird das Postfach endgültig gelöscht*gespülten*.
 

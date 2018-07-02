@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-01-28_
+_**Letztes Änderungsdatum des Themas:** 2013-01-28_
 
 Mithilfe der Microsoft Exchange Server 2013-Verwaltungstools können Sie Ihre Exchange-Organisation remote verwalten. Zu den Exchange 2013-Verwaltungstools zählen die Exchange-Verwaltungshell und die Exchange Toolbox. In diesem Thema wird erläutert, wie Sie entweder Setup.exe oder den unbeaufsichtigten Installationsmodus zur Installation der Exchange 2013-Verwaltungstools verwenden können.
 

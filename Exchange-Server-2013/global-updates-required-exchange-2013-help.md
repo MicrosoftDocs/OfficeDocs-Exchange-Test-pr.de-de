@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-02_
+_**Letztes Änderungsdatum des Themas:** 2014-12-02_
 
 Microsoft Exchange Server 2013-Setup kann nicht fortgesetzt werden, da der angemeldete Benutzer keine Berechtigungen zur Durchführung von globalen Änderungen an Active Directory besitzt.
 

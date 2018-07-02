@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-10-02_
+_**Letztes Änderungsdatum des Themas:** 2014-10-02_
 
 Wenn Sie Benutzern die Verwendung der Microsoft Exchange Server 2013 Compliance-eDiscovery ermöglichen möchten, müssen Sie die Benutzer erst dazu autorisieren, indem Sie sie zur Rollengruppe "Discoveryverwaltung" hinzufügen. Mitglieder der Rollengruppe Discoveryverwaltung verfügen über vollständige Postfachzugriffsberechtigungen für das von Exchange-Setup erstellte Discoverypostfach.
 

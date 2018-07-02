@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-06_
+_**Letztes Änderungsdatum des Themas:** 2013-02-06_
 
 Ihre Benutzer tragen vertrauliche Unternehmensinformationen jeden Tag mit sich herum. Wenn einer von ihnen sein Mobiltelefon verliert, können Ihre Daten in die Hände einer anderen Person gelangen. Sollte einer Ihrer Benutzer sein Mobiltelefon verlieren, können Sie mithilfe der Exchange-Verwaltungskonsole oder Exchange-Verwaltungsshell sämtliche Unternehmens- und Benutzerdaten vom Mobiltelefon löschen, was als Zurücksetzen bezeichnet wird.
 

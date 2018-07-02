@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-13_
+_**Letztes Änderungsdatum des Themas:** 2012-09-13_
 
 Mithilfe der in den folgenden Abschnitten beschriebenen Verfahren können Sie für Ihre Organisation erweiterte Berechtigungsmodelle konfigurieren. Für die erweiterte Anpassung Ihres Berechtigungsmodells müssen Sie über gründliche Kenntnisse in Bezug auf rollenbasierte Zugriffssteuerung (Role Based Access Control, RBAC) verfügen.
 

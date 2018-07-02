@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Dieses Thema enthält Informationen zu den von MicrosoftExchange Server 2013 für die Kommunikation mit E-Mail-Clients, Internet-E-Mail-Servern und anderen externen Diensten Ihrer lokalen Exchange-Organisation verwendeten Netzwerkports. Bevor wir dies vertiefen, möchten wir Sie zunächst mit den folgenden Grundregeln vertraut machen:
 
@@ -41,7 +41,7 @@ Für Unified Messaging erforderliche Netzwerkports
 
 Die Netzwerkports, die E-Mail-Clients für den Zugriff auf Postfächer und andere Dienste in der Exchange-Organisation benötigen, werden in der nachstehenden Abbildung und Tabelle beschrieben.
 
-**Hinweise:**
+**Hinweise:** 
 
   - Das Ziel dieser Clients und Dienste ist ein Clientzugriffsserver. Dabei kann es sich um einen eigenständigen Clientzugriffsserver oder einen Clientzugriffsserver und Postfachserver handeln, die auf demselben Computer installiert sind.
 

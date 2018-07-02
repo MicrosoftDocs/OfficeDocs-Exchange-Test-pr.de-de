@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-02_
+_**Letztes Änderungsdatum des Themas:** 2014-12-02_
 
 Eine *Adressliste* ist eine Sammlung von Empfänger- und anderen Active Directory-Objekten. Jede Adressliste kann einen oder mehrere Objekttypen beinhalten (z. B. Benutzer, Kontakte, Gruppen, öffentliche Ordner sowie Raum- und Geräteressourcen). Sie können Adresslisten zum Organisieren von Empfängern und Ressourcen verwenden und auf diese Weise das Auffinden gewünschter Empfänger und Ressourcen vereinfachen. Adresslisten werden dynamisch aktualisiert. Beim Hinzufügen neuer Benutzer zur Organisation werden diese daher automatisch allen entsprechenden Adresslisten hinzugefügt.
 

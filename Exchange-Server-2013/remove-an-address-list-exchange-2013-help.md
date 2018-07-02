@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-14_
+_**Letztes Änderungsdatum des Themas:** 2012-10-14_
 
 In diesem Thema wird das Entfernen einer Adressliste erläutert. Sie können die standardmäßige globale Adressliste (GAL) nicht entfernen.
 

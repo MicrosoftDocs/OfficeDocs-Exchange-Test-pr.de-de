@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Die Pipelineablaufverfolgung erfasst Kopien von E-Mails, während diese die Transportpipeline im Transportdienst oder im Postfachtransportdienst auf Postfachservern und auf Edge-Transport-Servern durchlaufen.
 

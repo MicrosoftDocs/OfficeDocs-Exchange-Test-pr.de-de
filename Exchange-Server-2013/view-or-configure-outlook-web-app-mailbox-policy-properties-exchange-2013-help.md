@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-04-13_
+_**Letztes Änderungsdatum des Themas:** 2016-04-13_
 
 Nach Erstellen einer Outlook Web App-Postfachrichtlinie können Sie verschiedene Optionen konfigurieren, um die Funktionen zu steuern, die Benutzern in Outlook Web App zur Verfügung stehen sollen. Sie können beispielsweise Posteingangsregeln aktivieren oder deaktivieren oder eine Liste mit zulässigen Dateitypen für Anlagen erstellen.
 

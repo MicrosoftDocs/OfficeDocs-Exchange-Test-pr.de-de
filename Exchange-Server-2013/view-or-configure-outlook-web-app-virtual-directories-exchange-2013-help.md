@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-08-12_
+_**Letztes Änderungsdatum des Themas:** 2013-08-12_
 
 Sie können die Exchange-Verwaltungskonsole oder die Shell verwenden, um die Eigenschaften eines virtuellen Outlook Web App-Verzeichnisses anzuzeigen oder zu konfigurieren.
 

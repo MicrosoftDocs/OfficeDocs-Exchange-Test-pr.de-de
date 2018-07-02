@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Aktivieren journalberichtentschlüsselung ermöglicht den Journal-Agent So fügen Sie eine verschlüsselte Kopie einer durch Rechte geschützten Nachricht an den Journalbericht an. Bevor Sie journalberichtentschlüsselung aktiviert haben, müssen Sie der Administratorengruppe auf dem [Active Directory-Rechteverwaltungsdienste (AD RMS)](https://technet.microsoft.com/en-us/library/hh831364.aspx) Server konfiguriert das Zustellung Federated Postfach hinzufügen.
 

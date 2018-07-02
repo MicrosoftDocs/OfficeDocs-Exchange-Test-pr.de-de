@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-07-31_
+_**Letztes Änderungsdatum des Themas:** 2014-07-31_
 
 Mit Exchange Server 2013 können Sie die Installation von Exchange-Servern an Personen delegieren, die keine Mitglieder der Rollengruppe "Exchange 2013-Organisationsverwaltung" sind. Dies hilft oft in großen Firmen, in denen die Mitarbeiter, die Server installieren und einrichten, nicht dieselben Personen sind, die Dienste wie Exchange verwalten. Wenn dies eine Option ist, die Sie nutzen möchten, ist dieses Thema genau für Sie geeignet.
 

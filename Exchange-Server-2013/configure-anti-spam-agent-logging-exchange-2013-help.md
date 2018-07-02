@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Die Agent-Protokollierung zeichnet die Aktionen auf, die von bestimmten Exchange-Antispam-Agents ausgeführt werden. Welche Informationen in das Agent-Protokoll geschrieben werden, hängt vom Agent, vom SMTP-Ereignis und von der für die Nachricht ausgeführten Aktion ab.
 

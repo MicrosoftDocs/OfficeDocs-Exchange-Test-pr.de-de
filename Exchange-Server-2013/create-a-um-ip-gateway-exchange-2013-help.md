@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-16_
+_**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
 Wenn Sie ein Unified Messaging-IP-Gateway erstellen, ermöglichen Sie Exchange-Servern das Herstellen einer Verbindung mit einem neuen VoIP-Gateway (Voice over IP), einer SIP-fähigen (Session Initiation Protocol) Nebenstellenanlage, einer IP-Nebenstellenanlage oder einem SBC (Session Border Controller). Unmittelbar nach dem Erstellen eines UM-IP-Gateways sollten Sie einen UM-Sammelanschluss erstellen und den UM-Sammelanschluss dann dem UM-IP-Gateway zuordnen. Das UM-IP-Gateway kann mehreren UM-Wähleinstellungen zugeordnet werden, indem ein oder mehrere UM-Sammelanschlüsse erstellt werden.
 

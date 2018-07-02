@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Eine Datenbankverfügbarkeitsgruppe ist ein Satz aus bis zu 16 Microsoft Exchange Server 2013-Postfachservern, die eine automatische Wiederherstellung auf Datenbankebene nach einem Datenbank-, Server- oder Netzwerkfehler bieten. Wenn einer Datenbankverfügbarkeitsgruppe ein Postfachserver hinzugefügt wird, wird dieser mit den anderen Servern in der Datenbankverfügbarkeitsgruppe eingesetzt, um eine automatische Wiederherstellung auf Datenbankebene nach Datenbank-, Server- oder Netzwerkausfällen zu bieten.
 

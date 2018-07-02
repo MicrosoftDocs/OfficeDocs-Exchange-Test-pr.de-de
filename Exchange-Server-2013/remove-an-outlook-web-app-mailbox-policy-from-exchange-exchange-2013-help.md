@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-03-15_
+_**Letztes Änderungsdatum des Themas:** 2013-03-15_
 
 Sie können eine MicrosoftOutlook Web App-Postfachrichtlinie aus einer Exchange-Organisation entfernen, indem Sie entweder die Exchange-Verwaltungskonsole oder die Shell verwenden.
 

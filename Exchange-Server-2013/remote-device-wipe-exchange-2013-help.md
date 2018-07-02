@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-19_
+_**Letztes Änderungsdatum des Themas:** 2012-09-19_
 
 Mobiltelefone, Tablets und andere Geräte können vertrauliche Geschäftsdaten speichern und bieten den Zugriff auf viele Unternehmensressourcen. Wenn ein mobiles Gerät verloren geht oder gestohlen wird, sind die Daten gefährdet. Sie können dem mobilen Gerät mithilfe der Microsoft Exchange-Postfachrichtlinien für mobile Geräte eine Kennwortanforderung hinzufügen. Dann muss der Benutzer ein Kennwort eingeben, um auf das mobile Gerät zugreifen zu können. Es wird empfohlen, dass Sie zusätzlich zum Anfordern eines Gerätekennworts Ihre mobilen Geräte auch so konfigurieren, dass diese nach einer Phase der Inaktivität automatisch zur Eingabe eines Kennworts auffordern. Die Kombination aus Gerätekennwort und Sperrung bei Inaktivität bietet eine erhöhte Sicherheit für die Geschäftsdaten.
 

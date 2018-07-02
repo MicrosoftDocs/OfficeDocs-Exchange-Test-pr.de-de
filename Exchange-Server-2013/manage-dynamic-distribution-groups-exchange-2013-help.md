@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Dynamische Verteilergruppen sind E-Mail-aktivierte Active Directory-Gruppenobjekte, die erstellt werden, um den Massenversand von E-Mail-Nachrichten und sonstigen Informationen innerhalb einer Microsoft Exchange-Organisation zu beschleunigen.
 

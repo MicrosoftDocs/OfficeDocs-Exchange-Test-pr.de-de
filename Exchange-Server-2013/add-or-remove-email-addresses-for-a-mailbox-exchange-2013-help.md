@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können Sie können mehr als eine E-Mail-Adresse für dasselbe Postfach konfigurieren. Diese zusätzlichen Adressen werden als *Proxyadressen* bezeichnet. Eine Proxyadresse ermöglicht einem Benutzer das Empfangen von E-Mails, die an eine andere E-Mail-Adresse gesendet wurde. E-Mail-Nachrichten, die an die Proxyadresse des Betriebssystems gesendet wurden, werden der primären E-Mail-Adresse zugestellt, die auch als *primäre SMTP-Adresse* oder *Standardantwortadresse* bezeichnet wird.
 

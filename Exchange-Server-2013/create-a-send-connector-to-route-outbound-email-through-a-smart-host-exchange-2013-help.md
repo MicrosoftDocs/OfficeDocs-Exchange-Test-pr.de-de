@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-07_
+_**Letztes Änderungsdatum des Themas:** 2013-02-07_
 
 In einigen Situationen ist es vielleicht erforderlich, E-Mails über einen Smarthost eines Drittanbieters zu routen. Dies kann beispielsweise der Fall sein, wenn Sie ein Netzwerkgerät verwenden, mit dem Sie Richtlinienprüfungen für ausgehende Nachrichten durchführen.
 

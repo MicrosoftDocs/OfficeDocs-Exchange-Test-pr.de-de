@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In Microsoft Exchange Server 2013 ist der primäre Mechanismus für hohe Verfügbarkeit von Postfächern die Database Availability Group (DAG). Weitere Informationen zu Database Availability Groups finden Sie unter [Verwalten von Datenbankverfügbarkeitsgruppen](managing-database-availability-groups-exchange-2013-help.md). Der *Transportdumpster* wurde mit Exchange 2007 eingeführt und in Exchange 2010 weiter verbessert. Jetzt unterstützt er redundante Kopien von Nachrichten, nachdem sie erfolgreich an die Postfächer in DAGs zugestellt wurden. In Exchange 2010 diente der Transportdumpster zum Schutz vor Datenverlusten. Dazu wurde eine Warteschlange erfolgreich zugestellter Nachrichten beibehalten, die noch nicht in passiven Postfachdatenbankkopien in der DAG repliziert wurden. Wenn aufgrund eines Ausfalls einer Postfachdatenbank oder eines Servers eine veraltete Kopie der Postfachdatenbank höher gestuft werden musste, wurden die Nachrichten im Transportdumpster automatisch an die neue aktive Kopie der Postfachdatenbank erneut übermittelt.
 

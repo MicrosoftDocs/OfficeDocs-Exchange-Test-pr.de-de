@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Sie können die Shell verwenden, um eine oder mehrere Mailboxansageregeln für einen Benutzer anzuzeigen oder zu konfigurieren. Sie können auch die Cmdlets **Get-UMCallAnsweringRule** oder **Set-UMCallAnsweringRule** in einem Exchange-Verwaltungsshellskript verwenden, um Mailboxansageregeln für mehrere Benutzer anzuzeigen oder zu verwalten.
 

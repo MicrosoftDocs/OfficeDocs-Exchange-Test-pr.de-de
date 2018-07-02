@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:**2017-02-28_
+_**Letztes Änderungsdatum des Themas:** 2017-02-28_
 
 In diesem Artikel wird erläutert, wie Sie das selbstsignierte Verbundzertifikat aktualisieren können, das in einer Verbundvertrauensstellung verwendet wird:
 
@@ -75,7 +75,7 @@ In diesem Beispiel wird der Zertifikat-Fingerabdruckwert `6A99CED2E4F2B5BE96C5D1
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-FederationTrust](https://technet.microsoft.com/de-de/library/dd298034\(v=exchg.150\)).
 
-**Hinweis:** Die Ausgabe des Befehls enthält eine Warnung, dass Sie den als Nachweis des Domänenbesitzes im DNS hinterlegten TXT-Eintrag aktualisieren müssen. Das erledigen Sie im nächsten Schritt.
+**Hinweis:**  Die Ausgabe des Befehls enthält eine Warnung, dass Sie den als Nachweis des Domänenbesitzes im DNS hinterlegten TXT-Eintrag aktualisieren müssen. Das erledigen Sie im nächsten Schritt.
 
 ## Schritt 3: Aktualisieren des als Nachweis des Domänenbesitzes im externen DNS hinterlegten Verbund-TXT-Eintrags
 
@@ -111,7 +111,7 @@ Führen Sie den folgenden Befehl aus, um mithilfe der Exchange-Verwaltungsshell 
 
     $Servers = Get-ExchangeServer; $Servers | foreach {Get-ExchangeCertificate -Server $_ | Where {$_.Services -match 'Federation'}} | Format-List Identity,Thumbprint,Services,Subject
 
-**Hinweis:** In Exchange 2010 enthält die Ausgabe des Cmdlets **Test-FederationCertificate** Servernamen. In Exchange 2013 oder höher enthält die Ausgabe des Cmdlets keine Servernamen.
+**Hinweis:**  In Exchange 2010 enthält die Ausgabe des Cmdlets **Test-FederationCertificate** Servernamen. In Exchange 2013 oder höher enthält die Ausgabe des Cmdlets keine Servernamen.
 
 ## Schritt 5: Aktivieren des neuen Verbundzertifikats
 
@@ -121,7 +121,7 @@ Führen Sie den folgenden Befehl aus, um das neue Verbundzertifikat mithilfe der
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-FederationTrust](https://technet.microsoft.com/de-de/library/dd298034\(v=exchg.150\)).
 
-**Hinweis:** Die Ausgabe des Befehls enthält eine Warnung, dass Sie den als Nachweis des Domänenbesitzes im DNS hinterlegten TXT-Eintrag aktualisieren müssen. (Das haben Sie in Schritt 3 bereits getan.)
+**Hinweis:**  Die Ausgabe des Befehls enthält eine Warnung, dass Sie den als Nachweis des Domänenbesitzes im DNS hinterlegten TXT-Eintrag aktualisieren müssen. (Das haben Sie in Schritt 3 bereits getan.)
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

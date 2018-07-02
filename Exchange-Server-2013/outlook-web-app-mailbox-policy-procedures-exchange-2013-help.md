@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-22_
+_**Letztes Änderungsdatum des Themas:** 2012-09-22_
 
 [Erstellen einer Outlook Web App-Postfachrichtlinie](create-an-outlook-web-app-mailbox-policy-exchange-2013-help.md)
 

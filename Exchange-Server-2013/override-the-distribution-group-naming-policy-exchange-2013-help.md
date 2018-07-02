@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-13_
+_**Letztes Änderungsdatum des Themas:** 2012-10-13_
 
 Die Gruppenbenennungsrichtlinie für Verteilergruppen wird nur auf Gruppen angewendet, die von Benutzern erstellt werden. Wenn Sie oder andere Administratoren mithilfe der Exchange-Verwaltungskonsole Verteilergruppen erstellen, wird die Gruppenbenennungsrichtlinie ignoriert und nicht auf den Gruppennamen angewendet.
 

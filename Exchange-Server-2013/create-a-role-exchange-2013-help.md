@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-17_
+_**Letztes Änderungsdatum des Themas:** 2012-10-17_
 
 Sie können eine Verwaltungsrolle erstellen, die Verwaltungsrolleneinträge ändern, bei Bedarf einen Bereich hinzufügen und die Rolle anschließend einem Rollenempfänger zuweisen. Dieses Verfahren muss nur selten durchgeführt werden. Statt eine Verwaltungsrolle zu erstellen, empfiehlt es sich zu überprüfen, ob eine integrierte Verwaltungsrolle verwendet werden kann. Eine Liste mit integrierten Verwaltungsrollen finden Sie unter [Integrierte Verwaltungsrollen](built-in-management-roles-exchange-2013-help.md).
 

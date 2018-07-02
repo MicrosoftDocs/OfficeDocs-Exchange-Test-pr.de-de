@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Rolle "Meine benutzerdefinierten Apps" ermöglicht einzelnen Benutzer das Hinzufügen von Apps aus einer Datei oder über eine URL.
 

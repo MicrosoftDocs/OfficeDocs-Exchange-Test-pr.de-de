@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-08-16_
+_**Letztes Änderungsdatum des Themas:** 2016-08-16_
 
 Dieser Artikel enthält Informationen zu Unterschieden zwischen POP3- und IMAP4-Protokollen in Exchange Server 2013 und zum Konfigurieren von Optionen für den Zugriff auf Exchange 2013-Postfächer über verschiedene E-Mail-Programme.
 

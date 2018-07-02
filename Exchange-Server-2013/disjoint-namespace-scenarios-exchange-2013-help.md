@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema erhalten Sie Informationen zum Konzept nicht zusammenhängender Namespaces und zu den unterstützten Szenarien für die Bereitstellung von Microsoft Exchange 2013 in einer Domäne mit einem nicht zusammenhängenden Namespace.
 

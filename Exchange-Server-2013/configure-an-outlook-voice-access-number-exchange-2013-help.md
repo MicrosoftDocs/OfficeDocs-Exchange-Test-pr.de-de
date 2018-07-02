@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Eine Outlook Voice Access-Nummer ermöglicht es einem für Unified Messaging (UM) und Voicemailzugriff aktivierten Benutzer, mithilfe von Outlook Voice Access auf sein Postfach zuzugreifen. Wenn Sie eine Outlook Voice Access- oder Teilnehmerzugriffsnummer für einen Wählplan konfigurieren, können UM-aktivierte Benutzer die Teilnehmerzugriffsnummer anrufen, sich bei ihrem Postfach anmelden und dann auf E-Mails und Voicemailnachrichten, ihren Kalender und persönliche Kontaktinformationen zugreifen.
 

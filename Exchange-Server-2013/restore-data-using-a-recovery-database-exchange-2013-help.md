@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-10-01_
+_**Letztes Änderungsdatum des Themas:** 2014-10-01_
 
 Eine Wiederherstellungsdatenbank ist eine spezielle Art von Postfachdatenbank, mit der Sie eine wiederhergestellte Postfachdatenbank einbinden und im Rahmen einer Wiederherstellung Daten daraus extrahieren können. Mithilfe von Wiederherstellungsdatenbanken können Sie Daten aus einer Sicherung oder Kopie der Datenbank wiederherstellen, ohne den Benutzerzugriff auf aktuelle Daten zu unterbrechen.
 

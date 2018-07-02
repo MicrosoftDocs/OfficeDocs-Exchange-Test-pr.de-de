@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Die *Compliance-Archivierung* unterstützt Sie dabei, die Kontrolle über die Messagingdaten Ihrer Organisation zurückzuerhalten, da keine PST-Dateien mehr benötigt werden. Außerdem gestattet sie es Benutzern, Nachrichten in einem *Archivpostfach* zu speichern, auf das in MicrosoftOutlook 2010 und Microsoft OfficeOutlook Web App zugegriffen werden kann.
 

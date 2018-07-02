@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-07-14_
+_**Letztes Änderungsdatum des Themas:** 2014-07-14_
 
 Sie können eine Compliance-eDiscovery-Suche jederzeit beenden oder neu starten. Wenn Sie beispielsweise Sucheigenschaften ändern möchten, z. B. Schlüsselwörter oder durchsuchte Postfächer, müssen Sie zuerst einen Suchvorgang beenden. Anschließend können Sie die Suche neu starten, nachdem Sie die erforderlichen Änderungen vorgenommen haben.
 

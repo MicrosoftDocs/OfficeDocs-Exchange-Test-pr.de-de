@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Es kann notwendig sein, einen Benutzer, der für Unified Messaging (UM) aktiviert wurde, in einen anderen UM-Wählplan zu verschieben oder die Wähleinstellungen zu ändern, die dem zugeordnet sind. Beispielsweise könnten Sie einen UM-aktivierten Benutzer aus einem Wählplan mit Telefondurchwahlen in einen SIP-URI-Wählplan verschieben.
 

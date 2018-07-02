@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-25_
+_**Letztes Änderungsdatum des Themas:** 2013-02-25_
 
 Als Verschiebungsanforderung wird das Verschieben eines Postfachs von einer Postfachdatenbank in eine andere bezeichnet. Eine lokale Verschiebungsanforderung ist eine Postfachverschiebung, die in einer einzelnen Gesamtstruktur erfolgt. In Microsoft Exchange Server 2013 können Postfächer und persönliche Archivpostfächer in unterschiedlichen Datenbanken gespeichert werden. Mithilfe der Funktion für Verschiebungsanforderungen können Sie das primäre Postfach und das zugeordnete Archiv in dieselbe Datenbank oder in unterschiedliche Datenbanken verschieben. Die Verfahren in diesem Thema helfen Ihnen beim Verschieben lokaler Postfächer.
 

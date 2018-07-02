@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-11-17_
+_**Letztes Änderungsdatum des Themas:** 2016-11-17_
 
 
 > [!NOTE]

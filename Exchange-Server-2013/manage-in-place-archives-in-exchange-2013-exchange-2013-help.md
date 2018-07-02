@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-02-01_
+_**Letztes Änderungsdatum des Themas:** 2016-02-01_
 
 In-Situ-Archive unterstützten Sie dabei, die Kontrolle über die Messagingdaten in Ihrer Organisation zurückzuerlangen, da keine PST-Dateien mehr benötigt werden und Sie den Organisationsanforderungen in Bezug auf Nachrichtenaufbewahrung und eDiscovery gerecht werden können. Mit aktivierter Archivierung können Benutzer Nachrichten in einem Archivpostfach speichern, auf das mithilfe von MicrosoftOutlook und Outlook Web App zugegriffen werden kann.
 

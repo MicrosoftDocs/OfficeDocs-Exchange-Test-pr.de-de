@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013 speichert alle Konfigurations- und Empfängerinformationen in der Active Directory-Verzeichnisdienstdatenbank. Wenn ein Computer mit Exchange 2013 Informationen zu den Empfängern sowie zur Konfiguration der Exchange-Organisation benötigt, muss er Active Directory abfragen, um auf diese Informationen zugreifen zu können. Active Directory-Server müssen verfügbar sein, um eine ordnungsgemäße Funktionsweise von Exchange 2013 sicherstellen zu können.
 

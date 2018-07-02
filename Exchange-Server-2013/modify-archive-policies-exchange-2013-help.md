@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-02-01_
+_**Letztes Änderungsdatum des Themas:** 2016-02-01_
 
 In Exchange Server 2013 und Exchange Online können Sie Archivrichtlinien zum automatischen Verschieben von Postfachelementen in persönliche (lokale) oder cloudbasierte Archive verwenden. Archivrichtlinien sind Aufbewahrungstags, die die Aufbewahrungsaktion **In Archiv verschieben** verwenden.
 
@@ -25,9 +25,9 @@ Sie können die in der Standardrichtlinie enthaltenen Aufbewahrungstags an Ihre 
 
 Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Archive finden Sie unter:
 
-  - **Exchange Server 2013:** [Verwalten von In-Situ-Archiven in Exchange 2013](manage-in-place-archives-in-exchange-2013-exchange-2013-help.md)
+  - **Exchange Server 2013:**  [Verwalten von In-Situ-Archiven in Exchange 2013](manage-in-place-archives-in-exchange-2013-exchange-2013-help.md)
 
-  - **Exchange Online:** [Aktivieren oder Deaktivieren eines Archivpostfachs in Exchange Online](https://technet.microsoft.com/de-de/library/jj984357\(v=exchg.150\))
+  - **Exchange Online:**  [Aktivieren oder Deaktivieren eines Archivpostfachs in Exchange Online](https://technet.microsoft.com/de-de/library/jj984357\(v=exchg.150\))
 
 
 > [!NOTE]

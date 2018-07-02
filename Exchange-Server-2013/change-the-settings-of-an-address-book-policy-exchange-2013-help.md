@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-03-30_
+_**Letztes Änderungsdatum des Themas:** 2016-03-30_
 
 Nach der Erstellung einer Adressbuchrichtlinie (Address Book Policy, ABP) können Sie deren Namen und die zugewiesene globale Adressliste (GAL), das Offlineadressbuch (OAB), die Raumliste und die Adresslisten anzeigen oder ändern.
 

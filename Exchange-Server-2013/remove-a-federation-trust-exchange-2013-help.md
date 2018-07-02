@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-04_
+_**Letztes Änderungsdatum des Themas:** 2015-01-04_
 
 Eine Verbundvertrauensstellung richtet eine Vertrauensstellung zwischen einer Microsoft Exchange 2013-Organisation und dem Azure Active Directory-Authentifizierungssystem ein und unterstützt eine Freigabe mit anderen Exchange-Organisationen im Partnerverbund. Durch das Entfernen einer Verbundvertrauensstellung aus Ihrer lokalen Exchange-Organisation wird die Verbundfreigabe mit anderen Exchange-Verbundorganisationen und Office 365-Organisationen deaktiviert, die im Rahmen einer Hybridbereitstellung mit Ihrer Organisation verbunden sind. Wägen Sie daher im Vorfeld alle Auswirkungen ab, die das Entfernen einer Verbundvertrauensstellung für Ihre Organisation hat.
 

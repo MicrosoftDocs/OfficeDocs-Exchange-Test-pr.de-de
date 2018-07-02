@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-13_
+_**Letztes Änderungsdatum des Themas:** 2012-10-13_
 
 [Erstellen einer E-Mail-Adressrichtlinie](create-an-email-address-policy-exchange-2013-help.md)
 

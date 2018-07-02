@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-02_
+_**Letztes Änderungsdatum des Themas:** 2012-11-02_
 
 Bei Bedarf können Sie zusätzliche Netzwerke erstellen, die in einer Database Availability Group (DAG) verwendet werden. Sie können ein DAG-Netzwerk mithilfe der Exchange-Verwaltungskonsole oder der Shell erstellen.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 E-Mails sind für Information-Worker in Organisationen aller Größen ein zuverlässiges und allgegenwärtiges Kommunikationsmedium. Nachrichtenspeicher und Postfächer sind heute Repositorys mit wertvollen Daten. Organisationen müssen Messagingrichtlinien formulieren, die die regelkonforme Verwendung ihrer Nachrichtensysteme vorschreiben, den Benutzern Anleitungen zur Umsetzung der Richtlinien bereitstellen und ggf. Details zu den Kommunikationsarten bereitstellen, die nicht zulässig sind.
 

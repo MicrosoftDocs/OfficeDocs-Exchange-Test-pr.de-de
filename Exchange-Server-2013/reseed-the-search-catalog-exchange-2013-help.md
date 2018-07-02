@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Wenn der Inhaltsindexkatalog für eine Postfachdatenbank beschädigt ist, müssen Sie ggf. ein erneutes Seeding für den Katalog ausführen. Beschädigte Inhaltsindizes werden im Anwendungsereignisprotokoll durch das folgende Ereignis angezeigt.
 

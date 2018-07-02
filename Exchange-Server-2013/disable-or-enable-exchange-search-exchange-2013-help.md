@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-05-07_
+_**Letztes Änderungsdatum des Themas:** 2014-05-07_
 
 Standardmäßig ist die Exchange-Suche für alle neuen Postfachdatenbanken aktiviert und benötigt keine zusätzliche Konfiguration. Wenn die Exchange-Suche jedoch keinen Postfachinhalt indizieren soll, können Sie sie für einzelne Postfachdatenbanken oder einen ganzen Postfachserver deaktivieren.
 

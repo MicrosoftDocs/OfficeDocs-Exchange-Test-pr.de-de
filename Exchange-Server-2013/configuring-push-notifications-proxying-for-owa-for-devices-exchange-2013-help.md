@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Durch das Aktivieren von Pushbenachrichtigungen für OWA für Geräte (OWA für iPhone und OWA für iPad) einer lokalen Bereitstellung von Microsoft Exchange 2013 kann der Benutzer Updates für das Outlook Web App-Symbol in OWA für iPhone und OWA für iPad empfangen, sodass es die Anzahl ungelesener Nachrichten im Posteingang des Benutzers anzeigt. Wenn Pushbenachrichtigungen nicht konfiguriert und aktiviert sind, ist ein OWA für Geräte-Benutzer nicht in der Lage, ungelesene Nachrichten in seinem Posteingang zu erkennen, ohne die App zu starten. Wenn eine neue Nachricht verfügbar ist, wird das OWA für Geräte-Badge auf dem Gerät des Benutzers aktualisiert und sieht folgendermaßen aus.
 
@@ -218,7 +218,7 @@ Das erwartete Ergebnis sollte der folgenden Ausgabe ähnlich sein.
 
 Nachdem Sie die zuvor aufgeführten Schritte abgeschlossen haben, können Sie die Pushbenachrichtigungsfunktion folgendermaßen testen:
 
-  - **Senden einer e-Mail-Testnachricht an das Postfach des Benutzers:**
+  - **Senden einer e-Mail-Testnachricht an das Postfach des Benutzers:** 
     
     1.  Richten Sie auf einem mobilen Gerät ein Konto in OWA for Devices ein, um die Benachrichtigungen zu abonnieren.
     

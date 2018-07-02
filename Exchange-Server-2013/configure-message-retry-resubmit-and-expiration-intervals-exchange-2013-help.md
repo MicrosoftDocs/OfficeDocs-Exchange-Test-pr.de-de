@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-16_
+_**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 In Microsoft Exchange Server 2013 können Sie die Intervalle für das Wiederholen, das erneute Übermitteln und den Ablauf von Nachrichten im Transportdienst auf Postfachservern und auf Edge-Transport-Servern konfigurieren. Beschreibungen dieser Einstellungen finden Sie unter [Wiederholungsintervalle, Intervalle für die erneute Übermittlung und Ablaufintervalle für Nachrichten](message-retry-resubmit-and-expiration-intervals-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-04_
+_**Letztes Änderungsdatum des Themas:** 2013-02-04_
 
 Da es sich bei der Exchange-Verwaltungskonsole um eine webbasierte Verwaltungskonsole in Exchange Server 2013 handelt, greifen Sie darauf zu, indem Sie die URL des virtuellen ECP-Verzeichnisses in einem Webbrowser eingeben. In diesem Thema wird gezeigt, wie Sie die URL des virtuellen ECP-Verzeichnisses ermitteln.
 

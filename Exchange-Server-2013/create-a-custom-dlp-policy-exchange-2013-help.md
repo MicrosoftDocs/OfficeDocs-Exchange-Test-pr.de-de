@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-03-18_
+_**Letztes Änderungsdatum des Themas:** 2016-03-18_
 
 Mit einer benutzerdefinierten Richtlinie zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) können Sie Bedingungen, Regeln und Aktionen einrichten, mit denen Sie bestimmte Anforderungen Ihrer Organisation erfüllen können, die von keiner der vorhandenen DLP-Vorlagen abgedeckt werden.
 

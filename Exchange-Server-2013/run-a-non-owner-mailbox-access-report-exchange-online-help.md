@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online_
+_**Gilt für:** Exchange Online_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Im Bericht zum Postfachzugriff durch Nichtbesitzer werden in der Exchange-Verwaltungskonsole die Postfächer aufgeführt, auf die von irgendeiner Person zugegriffen wurde, die nicht der Besitzer des Postfachs ist. Wenn auf ein Postfach von einem Nicht-Besitzer zugegriffen wird, werden Informationen zu dieser Aktion in einem Postfachüberwachungsprotokoll protokolliert, das als E-Mail in einem ausgeblendeten Ordner des überwachten Postfachs gespeichert wird. Die Einträge aus diesem Protokoll werden als Suchergebnisse angezeigt und enthalten eine Liste mit Postfächern, auf die von einem Nicht-Besitzer zugegriffen wurde, sowie Angaben zur zugreifenden Person und zur Zugriffszeit, zu den Aktionen, die der Nicht-Besitzer ausgeführt hat, sowie zum Status der Aktion. Einträge im Postfachüberwachungsprotokoll werden standardmäßig für 90 Tage aufbewahrt.
 

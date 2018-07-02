@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-10-20_
+_**Letztes Änderungsdatum des Themas:** 2017-10-20_
 
 Während der Installation von Exchange Server 2013 führt Setup eine Reihe von Tasks aus, von denen neue Dienste Microsoft Windows installiert werden. Ein Dienst ist ein Hintergrundprozess, der vom Dienststeuerungs-Manager in Windows während des Starts des Servers gestartet werden kann. Dienste sind ausführbare Dateien, die unabhängig und ohne administratives Eingreifen arbeiten. Ein Dienst kann im GUI- oder im Konsolenmodus ausgeführt werden.
 

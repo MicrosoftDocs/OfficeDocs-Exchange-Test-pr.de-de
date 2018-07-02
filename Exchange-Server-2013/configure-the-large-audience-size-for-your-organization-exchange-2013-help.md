@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Mithilfe der Exchange-Verwaltungsshell können Sie verschiedene Einstellungen konfigurieren, die festlegen, wie Sie E-Mail-Infos in Ihrer Organisation verwenden.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-08_
+_**Letztes Änderungsdatum des Themas:** 2012-11-08_
 
 Microsoft Exchange Server 2013-Setup zeigt diese Warnung an, da keine Exchange Server 2010- oder Exchange Server 2007-Serverrollen in der Organisation vorhanden sind.
 

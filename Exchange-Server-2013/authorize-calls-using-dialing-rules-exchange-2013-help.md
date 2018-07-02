@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Benutzer können standardmäßig keine ausgehenden Anrufe tätigen. Um die Arten von Anrufen festzulegen, die von Benutzern getätigt werden können, erstellen Sie zunächst Wählregeln, und autorisieren Sie dann Gruppen dieser Wählregeln in UM-Wählplänen, UM-Postfachrichtlinien oder automatischen UM-Telefonzentralen. Damit Sie Wählregelgruppen autorisieren können, müssen Wählregeln in einem UM-Wählplan definiert werden. Weitere Informationen finden Sie unter [Erstellen von Wählregeln für Benutzer](create-dialing-rules-for-users-exchange-2013-help.md).
 
