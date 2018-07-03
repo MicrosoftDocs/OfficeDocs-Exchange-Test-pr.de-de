@@ -65,7 +65,7 @@ Um eine Server-zu-Server-Authentifizierung für eine lokale Implementierung von 
 
   - **Schritt 1 – Weisen Sie dem integrierten Aussteller des Tokens des lokalen Exchange Servers ein Zertifikat zu.** Zunächst muss der lokale Exchange-Administrator zum Erstellen eines Zertifikats folgendes Exchange-Verwaltungsshellskript verwenden, falls noch keines erstellt wurde und es dem Aussteller des integrierten Tokens des lokalen Exchange Servers zuweisen. Hierbei handelt es sich um einen einmaligen Prozess; nachdem das Zertifikat erstellt wurde, sollte das Zertifikat erneut für weitere Authentifizierungsszenarios verwendet und nicht ersetzt werden. Stellen Sie sicher, den Wert der *$tenantDomain* entsprechend des Namens Ihrer Domäne zu aktualisieren. Dazu kopieren Sie und fügen Sie den folgenden Code ein.
 
-    > [!WARNING]
+    > [!WARNING]  
     > Kopieren und Fügen Sie den Code in einen Text-Editor wie Notepad ein, speichern Sie die Datei dann mit der Erweiterung .PS1, so wird das Ausführen von Shellskripts vereinfacht.
 
     
@@ -136,7 +136,7 @@ Um eine Server-zu-Server-Authentifizierung für eine lokale Implementierung von 
         Complete.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Bevor Sie fortfahren, sind die Cmdlets Azure Active Directory-Modul für Windows PowerShell erforderlich. Wenn die Cmdlets Azure Active Directory-Modul für Windows PowerShell (früher bekannt als Microsoft Online Services-Modul für Windows PowerShell) nicht installiert wurden, können Sie sie unter <A href="http://aka.ms/aadposh">Verwalten von Azure AD mit Windows PowerShell</A> herunterladen.
 
 

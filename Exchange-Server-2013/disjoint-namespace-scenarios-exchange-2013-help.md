@@ -101,7 +101,7 @@ Darüber hinaus muss die Suchliste für jeden Computer in der disjunkten Domäne
 
   - [Group Policy Frequently Asked Questions (FAQ)](https://go.microsoft.com/fwlink/p/?linkid=100128)
 
-  - [Neue Gruppenrichtlinien für DNS in Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=294785)
+  - [Neue Gruppenrichtlinien für DNS in Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=294785)
 
   - [Gruppenrichtlinien](https://go.microsoft.com/fwlink/p/?linkid=268043)
 

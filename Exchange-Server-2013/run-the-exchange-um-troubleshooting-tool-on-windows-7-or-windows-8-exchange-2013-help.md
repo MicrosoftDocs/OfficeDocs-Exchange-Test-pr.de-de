@@ -41,7 +41,7 @@ Das Microsoft Exchange 2010 UM-Problembehandlungstool ist ein Cmdlet der Exchang
     
       - Wenn das Tool auf einem Computer Windows, Vista oder Windows Server 2008 ausgeführt werden wird, finden Sie unter [Update der Microsoft .NET Framework 3.5-Familie für Windows Vista X64, und Windows Server 2008 X64](https://go.microsoft.com/fwlink/p/?linkid=178998).
     
-      - Windows-Remoteverwaltung (WinRM) 2.0 und Windows PowerShell V2 (Windows6.0-KB968930.msu). Informationen finden Sie im Microsoft Knowledge Base-Artikel 968930, [Windows-Verwaltungsframework-Kernpaket (Windows PowerShell 2.0 und WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+      - Windows-Remoteverwaltung (WinRM) 2.0 und Windows PowerShell V2 (Windows6.0-KB968930.msu). Informationen finden Sie im Microsoft Knowledge Base-Artikel 968930, [Windows-Verwaltungsframework-Kernpaket (Windows PowerShell 2.0 und WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
     
       - Microsoft Unified Communications Managed API 2.0 Core Runtime (UcmaRuntimeWebDownloadX64.msi). Finden Sie unter [Unified Communications Managed API 2.0, Core Runtime (64-Bit)](https://go.microsoft.com/fwlink/p/?linkid=198175).
 

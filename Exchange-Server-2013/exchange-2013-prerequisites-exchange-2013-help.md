@@ -191,11 +191,11 @@ Nach der Installation der Betriebssystemrollen und -features installieren Sie fo
 
 3.  [Microsoft Unified Communications Managed API 4.0, Core Runtime 64-Bit](https://go.microsoft.com/fwlink/p/?linkid=258269)
 
-4.  [Microsoft Knowledge Base-Artikel KB974405: Beschreibung des Windows Identity Foundation (maschinelle Übersetzung)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=974405)
+4.  [Microsoft Knowledge Base-Artikel KB974405: Beschreibung des Windows Identity Foundation (maschinelle Übersetzung)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=974405)
 
-5.  [Knowledge Base-Artikel KB2619234: Ein Hotfix ist verfügbar, um die Zuordnung Cookie/GUID zu ermöglichen, die von RPC über HTTP verwendet wird, auch in der RPC-Schicht in Windows 7 und Windows Server 2008 R2 verwendet werden (maschinelle Übersetzung)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2619234)
+5.  [Knowledge Base-Artikel KB2619234: Ein Hotfix ist verfügbar, um die Zuordnung Cookie/GUID zu ermöglichen, die von RPC über HTTP verwendet wird, auch in der RPC-Schicht in Windows 7 und Windows Server 2008 R2 verwendet werden (maschinelle Übersetzung)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=2619234)
 
-6.  [Knowledge Base-Artikel KB2533623: Microsoft-Sicherheitsempfehlung: Unsichere Bibliothekladevorgänge können eine Codeausführung von Remotestandorten aus ermöglichen](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2533623)
+6.  [Knowledge Base-Artikel KB2533623: Microsoft-Sicherheitsempfehlung: Unsichere Bibliothekladevorgänge können eine Codeausführung von Remotestandorten aus ermöglichen](http://go.microsoft.com/fwlink/?linkid=3052&kbid=2533623)
     
 
     > [!NOTE]
@@ -251,7 +251,7 @@ Nach der Installation der Betriebssystemfeatures installieren Sie folgende Softw
 
 2.  [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=390234)
 
-3.  [Knowledge Base-Artikel KB974405: Beschreibung des Windows Identity Foundation (maschinelle Übersetzung)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=974405)
+3.  [Knowledge Base-Artikel KB974405: Beschreibung des Windows Identity Foundation (maschinelle Übersetzung)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=974405)
 
 ## Voraussetzungen für Windows 8 und Windows 8.1 (nur Verwaltungstools)
 

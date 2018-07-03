@@ -221,7 +221,7 @@ Wenn Sie das UM-Problembehandlungstool unter einer 64-Bit-Version von Windows 7 
 
 
 
-  - Windows-Remoteverwaltung (WinRM) 2.0 und Windows PowerShell V2 (Windows6.0-KB968930.msu).   Informationen finden Sie im Microsoft Knowledge Base-Artikel 968930, [Windows-Verwaltungsframework-Kernpaket (Windows PowerShell 2.0 und WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - Windows-Remoteverwaltung (WinRM) 2.0 und Windows PowerShell V2 (Windows6.0-KB968930.msu).   Informationen finden Sie im Microsoft Knowledge Base-Artikel 968930, [Windows-Verwaltungsframework-Kernpaket (Windows PowerShell 2.0 und WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Microsoft Unified Communications Managed API 2.0 Core Runtime (UcmaRuntimeWebDownloadX64.msi). Informationen finden Sie unter [Unified Communications Managed API 2.0, Core Runtime (64-Bit)](https://go.microsoft.com/fwlink/p/?linkid=198175).
 

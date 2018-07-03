@@ -77,7 +77,7 @@ Von Exchange 2003 können öffentliche Ordner nicht direkt migriert werden. Wen
 
   - In Exchange 2007 muss Ihnen die Rolle "Exchange-Organisationsadministrator" oder "Exchange-Serveradministrator" zugewiesen sein. Darüber hinaus muss Ihnen die Rolle "Administrator für Öffentliche Ordner" zugewiesen sein, und Sie müssen Mitglied der lokalen Administratorengruppe für den Zielserver sein. Nähere Informationen finden Sie unter [Hinzufügen eines Benutzers oder einer Gruppe zu einer Administratorrolle](https://go.microsoft.com/fwlink/p/?linkid=81779).
 
-  - Führen Sie auf dem Exchange 2007-Server ein Upgrade auf [Windows PowerShell 2.0 und WinRM 2.0 für Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930) durch.
+  - Führen Sie auf dem Exchange 2007-Server ein Upgrade auf [Windows PowerShell 2.0 und WinRM 2.0 für Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930) durch.
 
   - Wenn es in Ihrer Organisation Öffentliche Ordner gibt, die größer als 2 GB sind, empfehlen wir, vor der Migration entweder Inhalte aus diesem Ordner zu löschen oder ihn in mehrere Öffentliche Ordner aufzuteilen. Wenn keine dieser Möglichkeiten infrage kommt, wird empfohlen, die öffentlichen Ordner nicht zu Office 365 und Exchange Online zu verschieben.
 

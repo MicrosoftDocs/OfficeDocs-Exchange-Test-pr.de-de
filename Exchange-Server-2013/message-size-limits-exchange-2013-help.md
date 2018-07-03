@@ -117,18 +117,8 @@ In der folgenden Tabelle sind die Nachrichtenbeschränkungen samt Informationen 
 </tr>
 <tr class="odd">
 <td><p>Maximale Anzahl von Empfängern pro Nachricht</p>
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ126640.note(EXCHG.150).gif" title="Hinweis" alt="Hinweis" />Hinweis:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]]  
 
 </td>
 <td><p>5000</p></td>
