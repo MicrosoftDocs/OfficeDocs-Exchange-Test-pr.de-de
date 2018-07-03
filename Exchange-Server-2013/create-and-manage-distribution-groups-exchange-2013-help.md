@@ -51,19 +51,14 @@ Beachten Sie, dass sich die Terminologie zwischen Active Directory und Exchange 
 
 2.  Klicken Sie auf **Neu**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)") \> **Verteilergruppe**.
 
-3.  
-    
-
-    > [!TIP]
+3.  > [!TIP]
     > <IMG title="Neue Office 365-Testgruppen" alt="Neue Office 365-Testgruppen" src="images/Bb124513.3ea82c95-9dda-450f-823b-cd0772249d81(EXCHG.150).png"><BR>Sie können nun eine Office 365-Gruppe statt einer Verteilergruppe erstellen, wenn Sie über einen Office 365-Plan für Unternehmen oder ein Exchange Online-Plan verfügen. Office 365-Gruppen verfügen über die Features von Verteilergruppen und vieles mehr. Mit Office 365-Gruppen können Sie E-Mails an eine Gruppe senden, einen gemeinsamen Kalender freigeben, eine Bibliothek zum Speichern und Bearbeiten von Gruppendateien und -Ordnern verwenden. Klicken Sie zum Einstieg auf <STRONG>Neu</STRONG><IMG title="Hinzufügen (Symbol)" alt="Hinzufügen (Symbol)" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif">&nbsp;&gt;&nbsp;<STRONG>Office 365-Gruppe</STRONG>, und lesen Sie die Informationen unter <A href="https://go.microsoft.com/fwlink/p/?linkid=800653">Administratorhilfe zu Office 365-Gruppen</A>.<BR>Wenn Sie vorhandene Verteilergruppen haben, die Sie zu Office 365-Gruppen migrieren möchten, lesen Sie <A href="https://go.microsoft.com/fwlink/p/?linkid=824756">Migrieren von Verteilerlisten zu Office 365-Gruppen – Administratorhilfe</A>.<BR>Wenn Sie weiterhin eine Verteilergruppe erstellen möchten, klicken oder tippen Sie auf den Assistenten für <STRONG>Neue Verteilergruppe</STRONG>.
 
 
 
-4.  
+4.  Füllen Sie auf der Seite **Neue Verteilergruppe** die folgenden Felder aus:
     
-    Füllen Sie auf der Seite **Neue Verteilergruppe** die folgenden Felder aus:
-    
-      - **\* Anzeigename**   Verwenden Sie dieses Feld, um den Anzeigenamen einzugeben. Dieser Name wird im Adressbuch der Organisation in der Zeile "An:" angezeigt, wenn eine E-Mail an diese Gruppe gesendet wird. Außerdem wird er in der Gruppenliste in der Exchange-Verwaltungskonsole angezeigt. Der Anzeigename ist erforderlich und muss aussagekräftig sein, damit andere Personen den Zweck der Gruppe erkennen können. Dieser Name muss auch in der Gesamtstruktur eindeutig sein.
+      - \* **Anzeigename**   Verwenden Sie dieses Feld, um den Anzeigenamen einzugeben. Dieser Name wird im Adressbuch der Organisation in der Zeile "An:" angezeigt, wenn eine E-Mail an diese Gruppe gesendet wird. Außerdem wird er in der Gruppenliste in der Exchange-Verwaltungskonsole angezeigt. Der Anzeigename ist erforderlich und muss aussagekräftig sein, damit andere Personen den Zweck der Gruppe erkennen können. Dieser Name muss auch in der Gesamtstruktur eindeutig sein.
     
       - **\* Alias**   Verwenden Sie dieses Feld, um den Aliasnamen der Gruppe einzugeben. Der Alias darf höchstens 64 Zeichen umfassen und muss in der Gesamtstruktur eindeutig sein. Wenn ein Benutzer den Alias in der Zeile "An:" einer E-Mail eingibt, wird er in den Anzeigenamen der Gruppe aufgelöst.
     
@@ -91,7 +86,7 @@ Beachten Sie, dass sich die Terminologie zwischen Active Directory und Exchange 
         
           - **Offen: Jeder kann diese Gruppe ohne Genehmigung durch die Gruppenbesitzer verlassen**   Dies ist die Standardeinstellung.
         
-          - **Geschlossen: Mitglieder können nur von den Gruppenbesitzern entfernt werden. Alle Anforderungen zum Verlassen werden automatisch zurückgewiesen   **
+          - **Geschlossen: Mitglieder können nur von den Gruppenbesitzern entfernt werden. Alle Anforderungen zum Verlassen werden automatisch zurückgewiesen**   
 
 5.  Wenn Sie fertig sind, klicken Sie auf **Speichern**, um die Verteilergruppe erstellen.
 
@@ -161,7 +156,7 @@ Verwenden Sie diesen Abschnitt, um grundlegende Informationen zur Gruppe anzuzei
     
     Wenn Sie eine Gruppenbenennungsrichtlinie implementiert haben, muss der Anzeigename dem von der Richtlinie definierten Namensformat entsprechen.
 
-  - **\* Alias**   Dies ist der Teil der E-Mail-Adresse, der link neben dem @-Symbol´angezeigt wird. Wenn Sie den Alias ändern, wird die primäre SMTP-Adresse für die Gruppe ebenfalls geändert, die dann den neuen Alias enthält. Zusätzlich bleibt die E-Mail-Adresse mit dem vorherigen Alias als Proxyadresse für die Gruppe erhalten.
+  - \* **Alias**   Dies ist der Teil der E-Mail-Adresse, der link neben dem @-Symbol´angezeigt wird. Wenn Sie den Alias ändern, wird die primäre SMTP-Adresse für die Gruppe ebenfalls geändert, die dann den neuen Alias enthält. Zusätzlich bleibt die E-Mail-Adresse mit dem vorherigen Alias als Proxyadresse für die Gruppe erhalten.
 
   - **Beschreibung**   Verwenden Sie dieses Feld, um die Gruppe zu beschreiben, damit der Zweck der Gruppe ersichtlich wird. Diese Beschreibung wird im Adressbuch und im Detailbereich der Exchange-Verwaltungskonsole angezeigt.
 
@@ -197,11 +192,11 @@ In diesem Abschnitt können Sie angeben, ob eine Genehmigung erforderlich ist, d
     
       - **Genehmigung durch Besitzer: Alle Anforderungen werden von den Gruppenbesitzern genehmigt oder abgelehnt**   Wenn Sie diese Option auswählen, erhalten die Gruppenbesitzer eine E-Mail, in der die Genehmigung für den Beitritt zur Gruppe angefordert wird.
 
-  - **Wählen Sie aus, ob die Gruppe zum Verlassen geöffnet ist   **Wählen Sie eine der folgenden Einstellungen aus:
+  - **Wählen Sie aus, ob die Gruppe zum Verlassen geöffnet ist**   Wählen Sie eine der folgenden Einstellungen aus:
     
-      - **Offen: Jeder Benutzer kann die Gruppe ohne Genehmigung durch die Gruppenbesitzer verlassen   **
+      - **Offen: Jeder Benutzer kann die Gruppe ohne Genehmigung durch die Gruppenbesitzer verlassen**   
     
-      - **Geschlossen: Mitglieder können nur von den Gruppenbesitzern entfernt werden. Alle Anforderungen zum Verlassen werden automatisch zurückgewiesen   **
+      - **Geschlossen: Mitglieder können nur von den Gruppenbesitzern entfernt werden. Alle Anforderungen zum Verlassen werden automatisch zurückgewiesen**   
 
 ## Zustellungsverwaltung
 
@@ -231,7 +226,7 @@ In diesem Abschnitt können Sie Optionen zum Moderieren der Gruppe festlegen. Mo
 
   - **Absender, die keine Nachrichtengenehmigung benötigen**    Klicken Sie zum Hinzufügen von Personen oder Gruppen, die die Moderation dieser Gruppe umgehen können, auf **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)"). Um eine Person oder Gruppe zu entfernen, wählen Sie das Element aus, und klicken Sie dann auf **Entfernen**![Entfernen (Symbol)](images/JJ657492.479b6ced-8d64-4277-a725-f17fea202b28(EXCHG.150).gif "Entfernen (Symbol)").
 
-  - **Moderationsbenachrichtigungen auswählen   **In diesem Abschnitt können Sie festlegen, wie Benutzer über Nachrichtengenehmigungen benachrichtigt werden.
+  - **Moderationsbenachrichtigungen auswählen**   In diesem Abschnitt können Sie festlegen, wie Benutzer über Nachrichtengenehmigungen benachrichtigt werden.
     
       - **Alle Absender bei Nichtgenehmigung ihrer Nachrichten benachrichtigen**   Dies ist die Standardeinstellung. Mit dieser Option werden alle Absender innerhalb und außerhalb der Organisation benachrichtigt, wenn ihre Nachricht nicht genehmigt wurde.
     
@@ -243,16 +238,16 @@ In diesem Abschnitt können Sie Optionen zum Moderieren der Gruppe festlegen. Mo
 
 In diesem Abschnitt können Sie die E-Mail-Adressen anzeigen und ändern, die der Gruppe zugeordnet sind. Dazu gehören die primären SMTP-Adressen der Gruppe sowie alle zugeordneten Proxyadressen. Die primäre SMTP-Adresse (auch als *Antwortadresse* bezeichnet) wird fettgedruckt in der Adressliste angezeigt. Der Wert **SMTP** in der Spalte **Typ** wird dabei in Großbuchstaben angegeben.
 
-  - **Hinzufügen **  Klicken Sie auf **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)"), um eine neue E-Mail-Adresse für dieses Postfach hinzuzufügen. Wählen Sie einen der folgenden Adresstypen aus:
+  - **Hinzufügen**  Klicken Sie auf **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)"), um eine neue E-Mail-Adresse für dieses Postfach hinzuzufügen. Wählen Sie einen der folgenden Adresstypen aus:
     
-      - **SMTP**   Dies ist der Standardadresstyp. Klicken Sie auf diese Schaltfläche, und geben Sie dann die neue SMTP-Adresse in das Feld **\* E-Mail-Adresse** ein.
+      - **SMTP**   Dies ist der Standardadresstyp. Klicken Sie auf diese Schaltfläche, und geben Sie dann die neue SMTP-Adresse in das Feld \* **E-Mail-Adresse** ein.
         
 
         > [!NOTE]
         > Damit die neue Adresse die primäre SMTP-Adresse der Gruppe wird, aktivieren Sie das Kontrollkästchen <STRONG>Diese Adresse als Antwortadresse verwenden</STRONG>.
 
     
-      - **Benutzerdefinierter Adresstyp**   Klicken Sie auf diese Schaltfläche, und geben Sie einen der unterstützten Nicht-SMTP-E-Mail-Adresstypen in das Feld **\* E-Mail-Adresse** ein.
+      - **Benutzerdefinierter Adresstyp**   Klicken Sie auf diese Schaltfläche, und geben Sie einen der unterstützten Nicht-SMTP-E-Mail-Adresstypen in das Feld \* **E-Mail-Adresse** ein.
         
 
         > [!NOTE]

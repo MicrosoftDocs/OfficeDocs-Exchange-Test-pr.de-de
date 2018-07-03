@@ -53,9 +53,7 @@ In-Situ-Archive unterstützten Sie dabei, die Kontrolle über die Messagingdaten
 
 
 
-4.  
-    
-    Wählen Sie eine der folgenden Optionen aus:
+4.  Wählen Sie eine der folgenden Optionen aus:
     
       - **Vorhandener Benutzer**   Klicken Sie auf diese Schaltfläche, und klicken Sie dann auf **Durchsuchen**, um das Dialogfeld **Benutzer auswählen – Vollständige Gesamtstruktur** zu öffnen. Dieses Dialogfeld enthält eine Liste mit Active Directory-Benutzerkonten in der Gesamtstruktur, die nicht E-Mail-aktiviert sind bzw. nicht über Exchange-Postfächer verfügen. Wählen Sie das Benutzerkonto aus, das für E-Mail aktiviert werden soll, und klicken Sie auf **OK**. Wenn Sie diese Option auswählen, brauchen Sie keine Informationen zum Benutzerkonto anzugeben, da diese Informationen bereits in Active Directory vorhanden sind.
     
@@ -67,9 +65,7 @@ In-Situ-Archive unterstützten Sie dabei, die Kontrolle über die Messagingdaten
 
 
 
-5.  
-    
-    Klicken Sie auf **Weitere Optionen**, um die folgenden Einstellungen zu konfigurieren.
+5.  Klicken Sie auf **Weitere Optionen**, um die folgenden Einstellungen zu konfigurieren.
     
       - **Postfachdatenbank**   Klicken Sie auf **Durchsuchen**, um eine Postfachdatenbank für die Speicherung des Postfachs auszuwählen. Wenn Sie keine Datenbank auswählen, weist Exchange automatisch eine zu.
     
@@ -81,9 +77,7 @@ In-Situ-Archive unterstützten Sie dabei, die Kontrolle über die Messagingdaten
     
       - **Adressbuchrichtlinie**   Verwenden Sie diese Liste, um eine Adressbuchrichtlinie für das Postfach anzugeben. Adressbuchrichtlinien enthalten eine globale Adressbuchline (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Wenn sie Postfachbenutzern zugewiesen wird, kann diesen über die Adressbuchrichtlinie Zugriff auf eine angepasste GAL in Outlook und Outlook Web App bereitgestellt werden. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](address-book-policies-exchange-2013-help.md).
 
-6.  
-    
-    Klicken Sie nach Abschluss dieses Vorgangs auf **Speichern**, um das Postfach zu erstellen.
+6.  Klicken Sie nach Abschluss dieses Vorgangs auf **Speichern**, um das Postfach zu erstellen.
 
 ## Verwenden der Shell
 
