@@ -29,7 +29,7 @@ Wenn Sie Exchange 2013 Setup ausführen, wird Exchange beendet und der Windows-V
 
 Damit Setup fortfahren kann, müssen Sie zeitweilig die Definition von **MachinePolicy** bzw. **UserPolicy** aus dem Gruppenrichtlinienobjekt **ExecutionPolicy** entfernen.
 
-Informationen dazu, wie Sie Definitionen von **MachinePolicy** oder **UserPolicy** aus dem Gruppenrichtlinienobjekt **ExecutionPolicy** entfernen, finden Sie im [Knowledge Base-Artikel KB981474](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=981474).
+Informationen dazu, wie Sie Definitionen von **MachinePolicy** oder **UserPolicy** aus dem Gruppenrichtlinienobjekt **ExecutionPolicy** entfernen, finden Sie im [Knowledge Base-Artikel KB981474](https://go.microsoft.com/fwlink/?linkid=3052&kbid=981474).
 
 
 > [!NOTE]

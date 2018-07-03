@@ -126,7 +126,7 @@ Standardmäßig können Sie diese Felder in Microsoft Outlook nicht auswählen. 
         
           - *\<OfficeVersion\>*   Für Outlook 2007 lautet der Wert `Office12`. Für Outlook 2010 lautet der Wert `Office14`. Für Outlook 2013 lautet der Wert `Office15`.
         
-          - *\<LCID\>*   Dies ist der Wert für Ihre Gebietsschema-ID (LCID). Beispielsweise ist die LCID für US-Englisch 1033. Weitere Informationen finden Sie unter [KB221435: Liste der unterstützten Gebietsschemabezeichner in Word](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=221435).
+          - *\<LCID\>*   Dies ist der Wert für Ihre Gebietsschema-ID (LCID). Beispielsweise ist die LCID für US-Englisch 1033. Weitere Informationen finden Sie unter [KB221435: Liste der unterstützten Gebietsschemabezeichner in Word](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=221435).
     
       - **Name**   Nehmen Sie für den Rest dieses Verfahrens an, dass der Dateiname `QTNE.cfg` lautet. Der Name der Datei ist nicht von Bedeutung; schließen Sie den Wert jedoch unbedingt in Anführungszeichen ein, damit die Datei als QTNE.cfg und nicht als QTNE.cfg.txt gespeichert wird.
     

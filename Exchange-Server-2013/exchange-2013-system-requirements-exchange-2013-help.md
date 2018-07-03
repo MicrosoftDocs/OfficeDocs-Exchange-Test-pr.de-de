@@ -155,7 +155,7 @@ In der folgenden Tabelle werden die Anforderungen für die Netzwerk- und Verzeic
 <li><p>Einteilige Domänen</p></li>
 <li><p>Separat</p></li>
 </ul>
-<p>Weitere Informationen zu den von Exchange unterstützten DNS-Namespaces finden Sie im Microsoft Knowledge Base-Artikel 2269838 <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2269838">Microsoft Exchange-Kompatibilität mit Domänen mit einfacher Bezeichnung, separaten Namespaces und unterbrochenen Namespaces</a>.</p></td>
+<p>Weitere Informationen zu den von Exchange unterstützten DNS-Namespaces finden Sie im Microsoft Knowledge Base-Artikel 2269838 <a href="http://go.microsoft.com/fwlink/?linkid=3052&kbid=2269838">Microsoft Exchange-Kompatibilität mit Domänen mit einfacher Bezeichnung, separaten Namespaces und unterbrochenen Namespaces</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>IPv6-Unterstützung</p></td>
@@ -175,7 +175,7 @@ Durch die Verwendung von Active Directory-Domänencontrollern mit 64 Bit kann di
 
 
 > [!NOTE]
-> Auf Windows Server 2008-Domänencontrollern in Umgebungen mit mehreren Domänen, auf denen das Active Directory-Gebietsschema auf Japanisch festgelegt ist, übernehmen die Server ggf. einige Attribute nicht, die während der eingehenden Replikation in einem Objekt gespeichert werden. Weitere Informationen finden Sie im Microsoft Knowledge Base-Artikel 949189, <A href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=949189">Ein Windows Server 2008-Domänencontroller, der mit dem japanischen Gebietsschema konfiguriert, gelten möglicherweise nicht Updates für Attribute für ein Objekt während der eingehenden Replikation</A> (maschinelle Übersetzung).
+> Auf Windows Server 2008-Domänencontrollern in Umgebungen mit mehreren Domänen, auf denen das Active Directory-Gebietsschema auf Japanisch festgelegt ist, übernehmen die Server ggf. einige Attribute nicht, die während der eingehenden Replikation in einem Objekt gespeichert werden. Weitere Informationen finden Sie im Microsoft Knowledge Base-Artikel 949189, <A href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=949189">Ein Windows Server 2008-Domänencontroller, der mit dem japanischen Gebietsschema konfiguriert, gelten möglicherweise nicht Updates für Attribute für ein Objekt während der eingehenden Replikation</A> (maschinelle Übersetzung).
 
 
 

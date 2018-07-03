@@ -29,7 +29,7 @@ Laden Sie das 64-Bit-Update über die folgende URL herunter, installieren Sie da
 
 
 
-Microsoft Knowledge Base-Artikel KB2619234: [Ein Hotfix zur Aktivierung der von RPC über HTTP verwendeten Cookie/GUID-Zuordnung ist verfügbar, damit diese auch in der RPC-Schicht von Windows 7 und in Windows Server 2008 R2 verwendet werden kann](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2619234)
+Microsoft Knowledge Base-Artikel KB2619234: [Ein Hotfix zur Aktivierung der von RPC über HTTP verwendeten Cookie/GUID-Zuordnung ist verfügbar, damit diese auch in der RPC-Schicht von Windows 7 und in Windows Server 2008 R2 verwendet werden kann](https://go.microsoft.com/fwlink/?linkid=3052&kbid=2619234)
 
 Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542) oder [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=285351).
 
