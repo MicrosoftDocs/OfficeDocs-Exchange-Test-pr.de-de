@@ -19,17 +19,13 @@ _**Letztes Änderungsdatum des Themas:** 2017-02-23_
 
 In Ihrer Organisation müssen möglicherweise bestimmte Arten von Nachrichten blockiert oder abgelehnt werden, um rechtliche Anforderungen zu erfüllen, Vorschriften einzuhalten oder einen bestimmten Geschäftsworkflow zu implementieren. Nachfolgend finden Sie einige Beispiele für gängige Szenarien beim Blockieren aller Anlagen, die Sie mithilfe von Transportregeln in Exchange einrichten können:
 
-  -  
-    Example 1: Block messages with attachments, and notify the sender
+  -  Example 1: Block messages with attachments, and notify the sender
 
-  -  
-    Example 2: Notify intended recipients when an inbound message is blocked
+  -  Example 2: Notify intended recipients when an inbound message is blocked
 
-  -  
-    Example 3: Modify the subject line for notifications
+  -  Example 3: Modify the subject line for notifications
 
-  -  
-    Example 4: Apply a rule with a time limit
+  -  Example 4: Apply a rule with a time limit
 
 Weitere Beispiele für das Blockieren bestimmter Anlagen finden Sie unter:
 

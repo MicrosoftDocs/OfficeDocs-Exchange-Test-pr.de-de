@@ -520,14 +520,11 @@ Wenn Sie auf Exchange 2013-UM aktualisieren, müssen Sie bereits mindestens ein 
 
 Der letzte Schritt in der Aktualisierung auf Exchange 2013-UM ist die Konfiguration Ihrer VoIP-Gateways, IP-PBX-Anlagen oder SIP-fähigen PBX-Anlagen für das Senden eingehender Anrufe, einschließlich Anrufer, die Voicemail für einen Benutzer hinterlassen möchten, Anrufe von UM-aktivierten Benutzern, die Outlook Voice Access anrufen, und Anrufe von Anrufern, die sich in eine automatische UM-Telefonzentrale einwählen, an Ihre Exchange 2013-Clientzugriffsserver. Diese Anrufe gehen zunächst an einem VoIP-Gateway, einer IP-PBX-Anlage oder einer SIP-fähigen PBX-Anlage ein und werden dann an die Exchange 2013-Clientzugriffsserver in Ihrer Exchange 2013-Organisation weitergeleitet. Weitere Informationen hierzu finden Sie in den folgenden Ressourcen:
 
-  -  
-    [UM-Dienste](um-services-exchange-2013-help.md)
+  -  [UM-Dienste](um-services-exchange-2013-help.md)
 
-  -  
-    [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
 
-  -  
-    [Telefonieratgeber für Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Telefonieratgeber für Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
 
 ## Schritt 14: Deaktivieren der Anrufbeantwortung auf einem Exchange 2007 Unified Messaging-server
 

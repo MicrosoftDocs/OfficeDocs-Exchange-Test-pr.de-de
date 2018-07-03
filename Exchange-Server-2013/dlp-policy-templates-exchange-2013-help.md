@@ -47,24 +47,19 @@ Sie können Definitionen vertraulicher Inhalte und Richtlinienvorlagen von Micro
 
 Sie können eine DLP-Richtlinienvorlagendatei unabhängig von Exchange erstellen, die der speziellen von Microsoft bereitgestellten XML-Schemadefinition entspricht, und dann die Datei in Ihr System importieren, um daraus DLP-Richtlinien zu erstellen. Indem Sie Ihre eigenen Vorlagendateien erstellen, können Sie ein eigenes Modell für DLP-Richtlinien erstellen, das von Microsoft noch nicht zur Verfügung gestellt wurde. Dies unterscheidet sich von der Erstellung einer DLP-Richtlinie mit der Exchange-Verwaltungskonsole, bei der üblicherweise verfügbare Richtlinienvorlagen verwendet werden. Wenn Sie eine Richtlinienvorlage unabhängig von Exchange erstellen, müssen Sie sie importieren, bevor Sie damit Nachrichten überprüfen können. Sie können auch eigene Definitionen vertraulicher Informationen erstellen, um die von Microsoft in Exchange definierten zu ergänzen. Es gibt eine gesonderte XML-Schemadefinition für DLP-Richtlinienvorlagendateien und Klassifikationsregelpakete. Lesen Sie für einen Einstieg in die Thematik folgende Informationen:
 
-  -  
-    [Definition eigener DLP-Vorlagen und Informationstypen](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
+  -  [Definition eigener DLP-Vorlagen und Informationstypen](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 
-  -  
-    [Importieren einer benutzerdefinierten DLP-Richtlinienvorlage aus einer Datei](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)
+  -  [Importieren einer benutzerdefinierten DLP-Richtlinienvorlage aus einer Datei](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)
 
 ## Einbinden der DLP-Funktionalität in vorhandene Transportregeln
 
 Sie können die DLP-Erkennungsfunktionen in herkömmliche Transportregeln einbinden, ohne eine neue DLP-Richtlinie zu erstellen. Wenn Sie in einer früheren Version von Exchange einen komplexen Regelsatz erstellt haben und ihn in Exchange 2013 duplizieren oder die Erkennung vertraulicher Informationen hinzufügen möchten, können Sie den Editor für Transportregeln in der Exchange-Verwaltungskonsole oder der Exchange-Verwaltungsshell zum Einbinden dieser beiden Features verwenden. Lesen Sie für einen Einstieg in die Thematik folgende Informationen:
 
-  -  
-    [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md) (Exchange Server 2013)
+  -  [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md) (Exchange Server 2013)
 
-  -  
-    [Nachrichtenflussregeln (Transportregeln) in Exchange Online](https://technet.microsoft.com/de-de/library/jj919238\(v=exchg.150\)) (Exchange Online)
+  -  [Nachrichtenflussregeln (Transportregeln) in Exchange Online](https://technet.microsoft.com/de-de/library/jj919238\(v=exchg.150\)) (Exchange Online)
 
-  -  
-    [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md)
+  -  [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md)
     
     [Richtlinien- und Richtlinientreue-Cmdlets](https://technet.microsoft.com/de-de/library/dd298082\(v=exchg.150\))
 

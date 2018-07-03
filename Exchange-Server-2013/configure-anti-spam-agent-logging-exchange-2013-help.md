@@ -45,17 +45,13 @@ Führen Sie den folgenden Befehl aus:
 
 In diesem Beispiel werden folgende Agent-Protokolleinstellungen auf dem Postfachserver "Mailbox01" festgelegt:
 
-  -  
-    Legt den Speicherort der Agent-Protokolldateien auf "D:\\Anti-Spam Agent Log" fest. Beachten Sie, dass der Ordner für Sie erstellt wird, wenn er nicht vorhanden ist.
+  -  Legt den Speicherort der Agent-Protokolldateien auf "D:\\Anti-Spam Agent Log" fest. Beachten Sie, dass der Ordner für Sie erstellt wird, wenn er nicht vorhanden ist.
 
-  -  
-    Legt die maximale Größe einer Agent-Protokolldatei auf 20 MB fest.
+  -  Legt die maximale Größe einer Agent-Protokolldatei auf 20 MB fest.
 
-  -  
-    Legt die maximale Größe des Agent-Protokollverzeichnisses auf 400 MB fest.
+  -  Legt die maximale Größe des Agent-Protokollverzeichnisses auf 400 MB fest.
 
-  -  
-    Legt das Höchstalter einer Agent-Protokolldatei auf 14 Tage fest.
+  -  Legt das Höchstalter einer Agent-Protokolldatei auf 14 Tage fest.
 
 <!-- end list -->
 

@@ -72,11 +72,9 @@ Sie können die Transportregelbedingungen in der folgenden Tabelle verwenden, um
 
 Die Exchange-Verwaltungsshell-Namen für die hier aufgeführten Bedingungen sind Parameter, für die das `TransportRule`-Cmdlet benötigt wird.
 
-  -  
-    Weitere Informationen zum Cmdlet erhalten Sie unter [New-TransportRule](https://technet.microsoft.com/de-de/library/bb125138\(v=exchg.150\)).
+  -  Weitere Informationen zum Cmdlet erhalten Sie unter [New-TransportRule](https://technet.microsoft.com/de-de/library/bb125138\(v=exchg.150\)).
 
-  -  
-    Weitere Informationen zu Eigenschaftstypen für diese Bedingungen finden Sie unter [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
+  -  Weitere Informationen zu Eigenschaftstypen für diese Bedingungen finden Sie unter [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
 
 Mit Transportregeln wird nur der Inhalt von unterstützten Dateitypen überprüft. Wenn der Transportregel-Agent eine Anlage ermittelt, die nicht in der Liste der unterstützten Dateitypen aufgeführt ist, wird die Bedingung `AttachmentIsUnsupported` ausgelöst. Die unterstützten Dateitypen werden im folgenden Abschnitt aufgelistet. Jede nicht aufgeführte Datei löst die Bedingung `AttachmentIsUnsupported` aus.
 
@@ -213,11 +211,9 @@ Die folgende Transportregelbedingung überprüft die Eigenschaften einer an eine
 
 Die Exchange-Verwaltungsshell-Namen für die hier aufgeführten Bedingungen sind Parameter, für die das `TransportRule`-Cmdlet benötigt wird.
 
-  -  
-    Weitere Informationen zum Cmdlet erhalten Sie unter [New-TransportRule](https://technet.microsoft.com/de-de/library/bb125138\(v=exchg.150\)).
+  -  Weitere Informationen zum Cmdlet erhalten Sie unter [New-TransportRule](https://technet.microsoft.com/de-de/library/bb125138\(v=exchg.150\)).
 
-  -  
-    Weitere Informationen zu Eigenschaftstypen für diese Bedingungen finden Sie unter [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
+  -  Weitere Informationen zu Eigenschaftstypen für diese Bedingungen finden Sie unter [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
 
 ## Unterstützte ausführbare Dateitypen für die Überprüfung mit Transportregeln
 
