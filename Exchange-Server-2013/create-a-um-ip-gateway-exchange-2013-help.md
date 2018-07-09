@@ -43,9 +43,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit UM-IP-Gateways finden Sie unte
 
 ## Erstellen eines UM-IP-Gateways mithilfe der Exchange-Verwaltungskonsole
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-IP-Gateways**, und klicken Sie dann auf **Neu**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-IP-Gateways**, und klicken Sie dann auf **Neu**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
 
 2.  Geben Sie auf der Seite **Neues UM-IP-Gateway** die folgenden Informationen ein:
     
@@ -59,9 +57,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit UM-IP-Gateways finden Sie unte
     
       - **UM-Wählplan**   Klicken Sie auf **Durchsuchen**, um den UM-Wählplan auszuwählen, den Sie dem UM-IP-Gateway zuordnen möchten. Wenn Sie UM-Wähleinstellungen für die Zuordnung zu einem UM-IP-Gateway auswählen, wird außerdem ein UM-Sammelanschluss erstellt und diesen UM-Wähleinstellungen zugeordnet. Wenn Sie keine UM-Wähleinstellungen auswählen, müssen Sie einen UM-Sammelanschluss manuell erstellen und diesen dann dem erstellten UM-IP-Gateway zuordnen.
 
-3.  
-    
-    Klicken Sie auf **Speichern**.
+3.  Klicken Sie auf **Speichern**.
 
 ## Erstellen eines UM-IP-Gateways mit der Shell
 

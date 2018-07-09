@@ -61,9 +61,7 @@ Wenn Sie die Exchange-Verwaltungskonsole zum Anzeigen der Eigenschaften eines vi
 
 2.  Wählen Sie im Ergebnisbereich das virtuelle Verzeichnis aus, das Sie anzeigen oder bearbeiten möchten, und klicken Sie dann auf **Bearbeiten**.
 
-3.  
-    
-    Auf der Registerkarte **Allgemein** können Sie die Eigenschaften der Standardwebsite von Outlook Web App anzeigen und eine externe sowie eine interne URL angeben. Zeigen Sie die folgenden Optionen an, oder wählen Sie sie aus:
+3.  Auf der Registerkarte **Allgemein** können Sie die Eigenschaften der Standardwebsite von Outlook Web App anzeigen und eine externe sowie eine interne URL angeben. Zeigen Sie die folgenden Optionen an, oder wählen Sie sie aus:
     
       - **Server**   (schreibgeschützt) **Server** zeigt den Namen des Servers an, der als Host für das virtuelle Outlook Web App-Verzeichnis dient.
     
@@ -79,9 +77,7 @@ Wenn Sie die Exchange-Verwaltungskonsole zum Anzeigen der Eigenschaften eines vi
     
       - **Externe URL**   Geben Sie in diesem Textfeld die URL an, über die vom Internet aus auf diese Website zugegriffen werden kann. Standardmäßig ist das Feld **Externe URL** leer. Für Clientzugriffsserver mit Internetverbindung sollte die **Externe URL** auf den im DNS für diesen Active Directory-Standort veröffentlichten Wert festgelegt werden. Bei Exchange 2013-Servern, die nicht über eine Internetverbindung verfügen, sollte die Einstellung **Externe URL** leer bleiben.
 
-4.  
-    
-    Geben Sie auf der Registerkarte **Authentifizierung** die Authentifizierungsverfahren, das Anmeldeformat und die Anmeldedomäne an.
+4.  Geben Sie auf der Registerkarte **Authentifizierung** die Authentifizierungsverfahren, das Anmeldeformat und die Anmeldedomäne an.
     
       - **Mindestens ein Standardauthentifizierungsverfahren verwenden**   Wählen Sie diese Option aus, wenn mindestens eines der folgenden Standardauthentifizierungsverfahren verwendet werden soll:
         
@@ -106,9 +102,7 @@ Wenn Sie die Exchange-Verwaltungskonsole zum Anzeigen der Eigenschaften eines vi
         
         **Nur Benutzername** Der Benutzer gibt nur seinen Benutzernamen ein, den Domänennamen jedoch nicht. Beispiel: Kweku. Bei Verwendung der Anmeldeaufforderung **Nur Benutzername** bei der formularbasierten Authentifizierung müssen Sie auch die Eigenschaft **Anmeldedomäne** angeben. Die Eigenschaft **Anmeldedomäne** legt die Standarddomäne fest, die verwendet wird, wenn ein Benutzer versucht, auf Outlook Web App zuzugreifen. Wenn beispielsweise die Standarddomäne "Contoso" ist und sich der Domänenbenutzer Kweku bei Outlook Web App anmeldet, muss nur "Kweku" als Benutzername eingegeben werden. Der Server verwendet dann die Standarddomäne "Contoso". Wenn der Benutzer kein Mitglied der Contoso-Domäne ist, müssen Domäne und Benutzername eingegeben werden.
 
-5.  
-    
-    Auf der Registerkarte **Funktionen** können Sie die Funktionen angeben, die für Outlook Web App-Benutzer in einem virtuellen Verzeichnis aktiviert bzw. deaktiviert werden sollen.
+5.  Auf der Registerkarte **Funktionen** können Sie die Funktionen angeben, die für Outlook Web App-Benutzer in einem virtuellen Verzeichnis aktiviert bzw. deaktiviert werden sollen.
     
 
     > [!NOTE]
@@ -123,9 +117,7 @@ Wenn Sie die Exchange-Verwaltungskonsole zum Anzeigen der Eigenschaften eines vi
 
 
 
-6.  
-    
-    Verwenden Sie die Kontrollkästchen auf der Registerkarte **Dateizugriff**, um die Dateizugriffs- und Anzeigeoptionen für Benutzer zu konfigurieren. Mit der Dateizugriffsoption kann ein Benutzer alle an eine E-Mail-Nachricht angehängten Dateien öffnen oder anzeigen.
+6.  Verwenden Sie die Kontrollkästchen auf der Registerkarte **Dateizugriff**, um die Dateizugriffs- und Anzeigeoptionen für Benutzer zu konfigurieren. Mit der Dateizugriffsoption kann ein Benutzer alle an eine E-Mail-Nachricht angehängten Dateien öffnen oder anzeigen.
     
     Der Dateizugriff kann basierend darauf gesteuert werden, ob sich ein Benutzer bei einem öffentlichen oder privaten Computer angemeldet hat. Die Option, mit der Benutzer zwischen Zugriff über einen öffentlichen oder privaten Computer auswählen können, stehen nur bei Verwendung der formularbasierten Authentifizierung zur Verfügung. Bei allen weiteren Formen der Authentifizierung wird von einem Zugriff auf einen privaten Computer ausgegangen.
     

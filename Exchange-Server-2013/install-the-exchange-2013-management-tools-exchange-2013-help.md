@@ -61,21 +61,13 @@ Weitere Informationen zum Verwalten von Exchange 2013 finden Sie unter [Exchange
 
 4.  Legen Sie auf der Seite **Soll nach Updates gesucht werden?** fest, ob eine Verbindung mit dem Internet hergestellt werden soll und Produkt- und Sicherheitsupdates für Exchange 2013 heruntergeladen werden sollen. Wenn Sie **Verbindung mit dem Internet herstellen und nach Updates suchen** auswählen, werden Updates heruntergeladen und angewendet, bevor der Vorgang fortgesetzt wird. Wenn Sie die Option **Jetzt nicht nach Updates suchen** auswählen, können Sie die Updates später manuell herunterladen und installieren. Wir empfehlen, die Updates jetzt herunterzuladen und zu installieren. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 
-5.  
-    
-    Die Installation von Exchange in Ihrer Organisation beginnt mit der Seite **Einführung**. Sie werden durch die Installation geleitet. Es werden mehrere Links zu hilfreichem Inhalt zu Bereitstellungen aufgelistet. Es wird empfohlen, dass Sie diese Links aufrufen, bevor Sie Setup fortsetzen. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
+5.  Die Installation von Exchange in Ihrer Organisation beginnt mit der Seite **Einführung**. Sie werden durch die Installation geleitet. Es werden mehrere Links zu hilfreichem Inhalt zu Bereitstellungen aufgelistet. Es wird empfohlen, dass Sie diese Links aufrufen, bevor Sie Setup fortsetzen. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 
-6.  
-    
-    Lesen Sie die auf der Seite **Lizenzvertrag** angezeigten Lizenzbedingungen für die Software. Wenn Sie den Bedingungen zustimmen, wählen Sie **Ich stimme den Bedingungen des Lizenzvertrags zu**, und klicken Sie auf **Weiter**.
+6.  Lesen Sie die auf der Seite **Lizenzvertrag** angezeigten Lizenzbedingungen für die Software. Wenn Sie den Bedingungen zustimmen, wählen Sie **Ich stimme den Bedingungen des Lizenzvertrags zu**, und klicken Sie auf **Weiter**.
 
-7.  
-    
-    Legen Sie auf der Seite **Empfohlene Einstellungen** fest, ob die empfohlenen Einstellungen verwendet werden sollen. Wenn Sie **Empfohlene Einstellungen verwenden** auswählen, werden automatisch Fehlerberichte und Informationen zu Ihrer Computerhardware sowie zur Verwendung von Exchange an Microsoft gesendet. Wenn Sie **Empfohlene Einstellungen nicht verwenden** auswählen, bleiben diese Einstellungen deaktiviert; Sie können sie jedoch jederzeit nach Abschluss von Setup aktivieren. Weitere Informationen zu diesen Einstellungen und dazu, wie an Microsoft gesendete Informationen verwendet werden, erhalten Sie durch Klicken auf **?**.
+7.  Legen Sie auf der Seite **Empfohlene Einstellungen** fest, ob die empfohlenen Einstellungen verwendet werden sollen. Wenn Sie **Empfohlene Einstellungen verwenden** auswählen, werden automatisch Fehlerberichte und Informationen zu Ihrer Computerhardware sowie zur Verwendung von Exchange an Microsoft gesendet. Wenn Sie **Empfohlene Einstellungen nicht verwenden** auswählen, bleiben diese Einstellungen deaktiviert; Sie können sie jedoch jederzeit nach Abschluss von Setup aktivieren. Weitere Informationen zu diesen Einstellungen und dazu, wie an Microsoft gesendete Informationen verwendet werden, erhalten Sie durch Klicken auf **?**.
 
-8.  
-    
-    Vergewissern Sie sich auf der Seite **Auswahl von Serverrollen**, dass **Verwaltungstools** ausgewählt ist.
+8.  Vergewissern Sie sich auf der Seite **Auswahl von Serverrollen**, dass **Verwaltungstools** ausgewählt ist.
     
     Wählen Sie **Für die Installation von Exchange Server erforderliche Windows Server-Rollen und -Funktionen automatisch installieren** aus, damit alle erforderlichen Windows-Voraussetzungen installiert werden. Möglicherweise müssen Sie den Computer neu starten, um die Installation einiger Windows-Funktionen abzuschließen. Wenn Sie diese Option nicht aktivieren, müssen Sie die Windows-Funktionen manuell installieren.
     
@@ -88,9 +80,7 @@ Weitere Informationen zum Verwalten von Exchange 2013 finden Sie unter [Exchange
 
 9.  Übernehmen Sie auf der Seite **Speicherplatz und Speicherort der Installation** den vorgegebenen Installationspfad, oder klicken Sie auf **Durchsuchen**, um einen anderen Installationspfad auszuwählen. Vergewissern Sie sich, dass der Pfad, unter dem Sie Exchange installieren möchten, ausreichend Speicherplatz aufweist. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 
-10. 
-    
-    Wenn es sich um die erste Ausführung des Exchange 2013-Setups in Ihrer Organisation handelt, geben Sie auf der Seite **Exchange-Organisation** einen Namen für Ihre Exchange-Organisation ein. Der Name der Exchange-Organisation darf nur die folgenden Zeichen enthalten:
+10. Wenn es sich um die erste Ausführung des Exchange 2013-Setups in Ihrer Organisation handelt, geben Sie auf der Seite **Exchange-Organisation** einen Namen für Ihre Exchange-Organisation ein. Der Name der Exchange-Organisation darf nur die folgenden Zeichen enthalten:
     
       - A bis Z
     
@@ -116,13 +106,9 @@ Weitere Informationen zum Verwalten von Exchange 2013 finden Sie unter [Exchange
     
     Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 
-11. 
-    
-    Überprüfen Sie auf der Seite **Abschließende Überprüfung** den Status, um zu ermitteln, ob die Überprüfung der Voraussetzungen für die Organisation und die Serverrollen erfolgreich abgeschlossen wurde. Wenn sie nicht erfolgreich abgeschlossen wurden, müssen Sie gemeldete Fehler beheben, bevor Sie Exchange 2013 installieren können. Sie müssen die Installation beim Beheben dieser Voraussetzungsfehler nicht beenden. Klicken Sie nach dem Beheben eines gemeldeten Fehlers auf **Zurück**, und klicken Sie dann auf **Weiter**, um die Überprüfung der Voraussetzungen erneut auszuführen. Stellen Sie sicher, dass Sie alle Warnungen überprüfen, die gemeldet werden. Wenn alle Überprüfungen der Bereitschaft erfolgreich abgeschlossen wurden, klicken Sie auf **Weiter**, um die Installation von Exchange 2013 zu starten.
+11. Überprüfen Sie auf der Seite **Abschließende Überprüfung** den Status, um zu ermitteln, ob die Überprüfung der Voraussetzungen für die Organisation und die Serverrollen erfolgreich abgeschlossen wurde. Wenn sie nicht erfolgreich abgeschlossen wurden, müssen Sie gemeldete Fehler beheben, bevor Sie Exchange 2013 installieren können. Sie müssen die Installation beim Beheben dieser Voraussetzungsfehler nicht beenden. Klicken Sie nach dem Beheben eines gemeldeten Fehlers auf **Zurück**, und klicken Sie dann auf **Weiter**, um die Überprüfung der Voraussetzungen erneut auszuführen. Stellen Sie sicher, dass Sie alle Warnungen überprüfen, die gemeldet werden. Wenn alle Überprüfungen der Bereitschaft erfolgreich abgeschlossen wurden, klicken Sie auf **Weiter**, um die Installation von Exchange 2013 zu starten.
 
-12. 
-    
-    Klicken Sie auf der Seite **Fertigstellung** auf **Fertig stellen**.
+12. Klicken Sie auf der Seite **Fertigstellung** auf **Fertig stellen**.
 
 13. Starten Sie den Computer nach Abschluss der Exchange 2013-Installation neu.
 

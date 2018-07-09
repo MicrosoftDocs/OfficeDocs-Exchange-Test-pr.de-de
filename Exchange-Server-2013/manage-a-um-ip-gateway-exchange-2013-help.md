@@ -47,9 +47,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit UM-IP-Gateways finden Sie unte
 
 1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-IP-Gateways**. Wählen Sie in der Listenansicht das UM-IP-Gateway aus, den Sie verwalten möchten, und klicken Sie auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
 
-2.  
-    
-    Verwenden Sie die Seite **UM-IP-Gateway**, um die Einstellungen für das UM-IP-Gateway anzuzeigen und zu konfigurieren. Sie können außerdem die folgenden Einstellungen anzeigen oder konfigurieren:
+2.  Verwenden Sie die Seite **UM-IP-Gateway**, um die Einstellungen für das UM-IP-Gateway anzuzeigen und zu konfigurieren. Sie können außerdem die folgenden Einstellungen anzeigen oder konfigurieren:
     
       - **Status**   Dieses schreibgeschützte Feld zeigt den Status des UM-IP-Gateways an.
     

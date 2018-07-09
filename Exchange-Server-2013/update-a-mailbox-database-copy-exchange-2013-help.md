@@ -87,9 +87,7 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit K
 
 4.  Klicken Sie im Detailbereich unter **Datenbankkopien** für die passive Datenbankkopie, für die das Seeding erfolgen soll, auf **Aktualisieren**.
 
-5.  
-    
-    Die aktive Kopie der Datenbank dient standardmäßig als Quelldatenbank für das Seeding. Wenn Sie lieber eine passive Kopie der Datenbank für das Seeding verwenden möchten, klicken Sie auf **Durchsuchen**, um den Server auszuwählen, der die passive Kopie der Datenbank enthält, die Sie als Quelle verwenden möchten.
+5.  Die aktive Kopie der Datenbank dient standardmäßig als Quelldatenbank für das Seeding. Wenn Sie lieber eine passive Kopie der Datenbank für das Seeding verwenden möchten, klicken Sie auf **Durchsuchen**, um den Server auszuwählen, der die passive Kopie der Datenbank enthält, die Sie als Quelle verwenden möchten.
 
 6.  Klicken Sie zum Aktualisieren der passiven Datenbankkopie auf **Speichern**.
 

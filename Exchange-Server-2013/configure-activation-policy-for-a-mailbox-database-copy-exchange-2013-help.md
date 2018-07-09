@@ -39,15 +39,11 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit P
 
 ## Konfigurieren der Aktivierungsrichtlinie für eine Postfachdatenbankkopie mithilfe der Exchange-Verwaltungskonsole
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Server** \> **Datenbanken**.
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Server** \> **Datenbanken**.
 
 2.  Wählen Sie die Datenbank aus, die Sie konfigurieren möchten.
 
-3.  
-    
-    Suchen Sie im Detailbereich unter **Datenbankkopien** die Datenbankkopie, die Sie konfigurieren möchten, und klicken Sie auf **Anhalten**.
+3.  Suchen Sie im Detailbereich unter **Datenbankkopien** die Datenbankkopie, die Sie konfigurieren möchten, und klicken Sie auf **Anhalten**.
 
 4.  Fügen Sie optional einen Kommentar hinzu, und aktivieren Sie das Kontrollkästchen **Diese Kopie kann nur durch manuellen Eingriff aktiviert werden**.
 

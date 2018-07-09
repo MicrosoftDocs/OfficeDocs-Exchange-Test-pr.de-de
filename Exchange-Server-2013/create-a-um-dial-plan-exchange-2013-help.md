@@ -43,9 +43,7 @@ Zusätzliche Verwaltungsaufgaben im Zusammenhang mit UM-Wählplänen finden Sie 
 
 ## Erstellen von UM-Wähleinstellungen mithilfe der Exchange-Verwaltungskonsole
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wählpläne**, und klicken Sie dann auf **Neu**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wählpläne**, und klicken Sie dann auf **Neu**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
 
 2.  Füllen Sie auf der Seite **Neue UM-Wähleinstellungen** folgende Felder aus:
     

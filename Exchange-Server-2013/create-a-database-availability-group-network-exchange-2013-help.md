@@ -47,9 +47,7 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
 
 2.  Wählen Sie die DAG aus, die Sie konfigurieren möchten, und klicken Sie dann auf ![Hinzufügen von DAG-Netzwerken](images/Dd298051.befcdc4e-7f7a-451d-a0a8-608c79f5d186(EXCHG.150).gif "Hinzufügen von DAG-Netzwerken").
 
-3.  
-    
-    Stellen Sie auf der Seite **Neues Netzwerk der Database Availability Group** folgende Informationen bereit:
+3.  Stellen Sie auf der Seite **Neues Netzwerk der Database Availability Group** folgende Informationen bereit:
     
       - **Name des Netzwerks der Database Availability Group**   Geben Sie in diesem Feld einen Namen für das Netzwerk ein, der in der DAG eindeutig ist.
     

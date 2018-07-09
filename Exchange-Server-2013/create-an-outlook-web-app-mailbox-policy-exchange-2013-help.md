@@ -41,13 +41,9 @@ Sie können eine Outlook Web App-Postfachrichtlinie erstellen, um eine Reihe all
 
 2.  Klicken Sie auf die Schaltfläche **Neu**.
 
-3.  
-    
-    Geben Sie einen Namen für die Richtlinie ein.
+3.  Geben Sie einen Namen für die Richtlinie ein.
 
-4.  
-    
-    Verwenden Sie die Kontrollkästchen, um Funktionen zu aktivieren oder zu deaktivieren. Standardmäßig werden die gängigsten Funktionen angezeigt. Klicken Sie auf **Weitere Optionen**, um alle Funktionen anzuzeigen, die aktiviert oder deaktiviert werden können.
+4.  Verwenden Sie die Kontrollkästchen, um Funktionen zu aktivieren oder zu deaktivieren. Standardmäßig werden die gängigsten Funktionen angezeigt. Klicken Sie auf **Weitere Optionen**, um alle Funktionen anzuzeigen, die aktiviert oder deaktiviert werden können.
     
 
     > [!NOTE]

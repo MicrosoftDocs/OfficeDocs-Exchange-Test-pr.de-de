@@ -43,9 +43,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentra
 
 ## Erstellen einer automatischen UM-Telefonzentrale mithilfe der Exchange-Verwaltungskonsole
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wähleinstellungen**, wählen Sie die UM-Wähleinstellungen aus, für die Sie eine automatische Telefonzentrale hinzufügen möchten, und klicken Sie auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wähleinstellungen**, wählen Sie die UM-Wähleinstellungen aus, für die Sie eine automatische Telefonzentrale hinzufügen möchten, und klicken Sie auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
 
 2.  Klicken Sie auf der Seite **UM-Wähleinstellungen** unterhalb von **Automatische UM-Telefonzentralen** auf **Neu**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
 

@@ -73,9 +73,7 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit UM-Sammelansch
         
         In diesem Feld können eine Durchwahlnummer oder ein SIP-URI (Session Initiation-Protokoll - Uniform Resource Identifier) verwendet werden. Alphanumerische Zeichen sind in diesem Feld zulässig. Für ältere Nebenstellenanlagen wird ein numerischer Wert als Pilot-ID verwendet. Einige IP-Nebenstellenanlagen können jedoch SIP-URIs verwenden.
 
-4.  
-    
-    Klicken Sie auf **Speichern**.
+4.  Klicken Sie auf **Speichern**.
 
 ## Erstellen eines UM-Sammelanschlusses mit der Shell
 

@@ -63,9 +63,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Archive finden Sie un
 
 
 
-3.  
-    
-    Bearbeiten Sie in **Aufbewahrungstag** gegebenenfalls die folgenden Einstellungen, und klicken Sie auf **Speichern**:
+3.  Bearbeiten Sie in **Aufbewahrungstag** gegebenenfalls die folgenden Einstellungen, und klicken Sie auf **Speichern**:
     
       - **Name**   Verwenden Sie dieses Feld am oberen Rand der Seite, um den Tagnamen anzuzeigen oder zu ändern.
     

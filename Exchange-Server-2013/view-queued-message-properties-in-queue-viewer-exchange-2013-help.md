@@ -49,9 +49,7 @@ Verwenden Sie die Warteschlangenanzeige in der Exchange Toolbox, um die Eigensch
 
 4.  Klicken Sie mit der rechten Maustaste auf die Nachricht, deren Eigenschaften angezeigt werden sollen, und wählen Sie dann **Eigenschaften** aus.
 
-5.  
-    
-    Auf der Registerkarte **Allgemein** werden die folgenden Angaben zu dieser Nachricht angezeigt:
+5.  Auf der Registerkarte **Allgemein** werden die folgenden Angaben zu dieser Nachricht angezeigt:
     
       - **Identität**   Dieses Feld zeigt die ganze Zahl an, die für eine bestimmte Nachricht steht. Die Nachrichtenidentität wird von der Warteschlangendatenbank zugewiesen, wenn die Nachricht zur Verarbeitung empfangen wird. Sie können eine optionale Server- und Warteschlangenidentität mit aufnehmen, um eine Instanz der Nachricht eindeutig zu identifizieren.
     
@@ -95,9 +93,7 @@ Verwenden Sie die Warteschlangenanzeige in der Exchange Toolbox, um die Eigensch
     
       - **Anzahl von Wiederholungen** Dieses Feld zeigt die Anzahl der Zustellungsversuche für eine Nachricht an ein Ziel an.
 
-6.  
-    
-    Auf der Registerkarte **Empfängerinformationen** werden die folgenden Angaben zu den Empfängern dieser Nachricht angezeigt:
+6.  Auf der Registerkarte **Empfängerinformationen** werden die folgenden Angaben zu den Empfängern dieser Nachricht angezeigt:
     
       - **Adresse**   Dieses Feld zeigt die SMTP-Adresse des Nachrichtenempfängers an. Dieser Wert wird dem Feld `RCPT TO:` im Nachrichtenumschlag entnommen.
     

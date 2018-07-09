@@ -49,9 +49,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf E-Mail-Adressrichtlin
 
 2.  Wählen Sie in der Listenansicht die E-Mail-Adressrichtlinie aus, die Sie ändern möchten, und klicken Sie dann auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
 
-3.  
-    
-    Klicken Sie in **E-Mail-Adressrichtlinie** auf **Anwenden auf**, und ändern Sie die Einstellungen.
+3.  Klicken Sie in **E-Mail-Adressrichtlinie** auf **Anwenden auf**, und ändern Sie die Einstellungen.
 
 ## Ändern der Priorität der E-Mail-Adressrichtlinie mithilfe der Exchange-Verwaltungskonsole
 
