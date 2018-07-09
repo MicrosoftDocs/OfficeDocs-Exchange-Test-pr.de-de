@@ -103,9 +103,13 @@ Informationen zum Erstellen einer Freigaberichtlinie finden Sie unter [Erstellen
 
   - Im ersten Beispiel wird die Freigaberichtlinie "Contoso" entfernt. Im zweiten Beispiel wird die Freigaberichtlinie "Contoso" entfernt und die Bestätigung unterdrückt, dass die Richtlinie wirklich entfernt werden soll.
     
-        Remove-SharingPolicy -Identity Contoso
-    
-        Remove-SharingPolicy -Identity Contoso -Confirm
+```
+    Remove-SharingPolicy -Identity Contoso
+```
+
+```
+    Remove-SharingPolicy -Identity Contoso -Confirm
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-SharingPolicy](https://technet.microsoft.com/de-de/library/dd297931\(v=exchg.150\)) und [Remove-SharingPolicy](https://technet.microsoft.com/de-de/library/dd351071\(v=exchg.150\)).
 

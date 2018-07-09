@@ -39,9 +39,13 @@ Dynamische Verteilergruppen sind Verteilergruppen, deren Mitgliedschaft auf best
 
 In diesem Beispiel wird die Mitgliederliste für die dynamische Verteilergruppe mit dem Namen "Full Time Employees" zurückgegeben. Mit dem ersten Befehl wird das dynamische Verteilergruppenobjekt in der Variablen `$FTE` gespeichert. Beim zweiten Befehl wird das Cmdlet **Get-Recipient** zum Auflisten der Empfänger verwendet, die die für die dynamische Verteilergruppe definierten Kriterien erfüllen.
 
+```
     $FTE = Get-DynamicDistributionGroup "Full Time Employees"
+```
 
+```
     Get-Recipient -RecipientPreviewFilter $FTE.RecipientFilter -OrganizationalUnit $FTE.RecipientContainer
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-DynamicDistributionGroup](https://technet.microsoft.com/de-de/library/bb124762\(v=exchg.150\)) und [Get-Recipient](https://technet.microsoft.com/de-de/library/aa996921\(v=exchg.150\)).
 

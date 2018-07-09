@@ -272,9 +272,13 @@ So konfigurieren Sie Active Directory-Verbunddienste:
 
 Die folgenden Windows PowerShell-Befehle führen Sie dieselben Schritte wie die vorangegangenen Schritte.
 
+```
     Import-Module ADFS
+```
 
+```
     Install-AdfsFarm -CertificateThumbprint 0E0C205D252002D535F6D32026B6AB074FB840E7 -FederationServiceDisplayName "Contoso Corporation" -FederationServiceName adfs.contoso.com -GroupServiceAccountIdentifier "contoso\FSgmsa`$"
+```
 
 Weitere Informationen und die Syntax finden Sie unter [Install-AdfsFarm](https://go.microsoft.com/fwlink/?linkid=392704).
 

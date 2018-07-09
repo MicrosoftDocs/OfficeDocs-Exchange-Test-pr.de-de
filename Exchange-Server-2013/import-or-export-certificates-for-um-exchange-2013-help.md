@@ -79,9 +79,13 @@ In diesem Beispiel werden folgende Schritte ausgeführt:
 
 <!-- end list -->
 
+```
     $file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
+```
 
+```
     Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding Byte
+```
 
 ## Importieren eines Zertifikats mithilfe der Exchange-Verwaltungskonsole
 

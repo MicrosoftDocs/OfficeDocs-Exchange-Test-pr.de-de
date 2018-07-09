@@ -214,10 +214,13 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
         > [!NOTE]
         > Alle in den öffentlichen Ordnern enthaltenen Informationen werden dauerhaft gelöscht, wenn Sie sie entfernen.
 
-        
+        ```
             Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+		```
         
+		```
             Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+		```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden Themen:
 
@@ -286,9 +289,13 @@ Die Schritte für die Migration von öffentlichen Exchange 2007-Ordnern untersch
 
 1.  Öffentliche Ordner des Legacysystems wie OWAScratchPad und die Schemastammordner-Unterstruktur in Exchange 2007 werden nicht von Exchange 2013 erkannt und als ungültige Elemente behandelt. Dies führt dazu, dass die Migration nicht erfolgreich ist. Im Rahmen der Migrationsanforderung müssen Sie einen Wert für den `BadItemLimit`-Parameter angeben. Dieser Wert variiert je nach Anzahl der vorhandenen Datenbanken für Öffentliche Ordner. Die folgenden Befehle bestimmen, über wie viele Datenbanken für öffentliche Ordner Sie verfügen, und sie berechnen den `BadItemLimit`-Parameter für die Migrationsanforderung.
     
-        $PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
+    ```
+		$PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
+	```
     
+	```
         $BadItemLimitCount = 5 + ($PublicFolderDatabasesInOrg.Count -1)
+	```
 
 2.  Führen Sie auf dem Exchange 2013-Server den folgenden Befehl aus:
     

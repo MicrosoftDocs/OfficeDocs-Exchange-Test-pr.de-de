@@ -73,9 +73,12 @@ Sie müssen folgende Befehle ausführen, um die virtuellen Verzeichnisse für Ex
     
     Führen Sie an einer Eingabeaufforderung die folgenden Befehle aus, nachdem Sie das virtuelle Outlook Web App-Verzeichnis festgelegt haben.
     
-        Net stop IISAdmin /y
-    
-        Net start W3SVC
+```
+    Net stop IISAdmin /y
+	
+```
+    Net start W3SVC
+```
 
 2.  Führen Sie zum Konfigurieren des externen Zugriffs auf die Exchange-Verwaltungskonsole den folgenden Befehl in der Exchange-Verwaltungsshell aus.
     

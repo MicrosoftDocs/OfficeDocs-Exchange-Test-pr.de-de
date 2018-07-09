@@ -49,9 +49,13 @@ Führen Sie beispielsweise den folgenden Befehl aus, um die Postfachüberwachung
 
 Führen Sie folgende Befehle aus, um die Postfachüberwachung für alle Benutzerpostfächer in Ihrer Organisation zu aktivieren.
 
+```
     $UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
+```
 
+```
     $UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

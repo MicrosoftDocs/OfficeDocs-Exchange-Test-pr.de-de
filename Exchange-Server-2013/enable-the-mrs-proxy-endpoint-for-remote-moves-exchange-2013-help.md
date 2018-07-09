@@ -101,9 +101,13 @@ Eine andere Möglichkeit, die Aktivierung des MRS-Proxyendpunkts zu überprüfen
 
 Im folgenden Beispiel wird die Verbindung mit einem Server in der Gesamtstruktur **corp.contoso.com** getestet.
 
+```
     $Credentials = Get-Credential
+```
 
+```
     Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
+```
 
 Damit dieser Befehl erfolgreich ausgeführt werden kann, muss der MRS-Proxyendpunkt aktiviert sein.
 

@@ -139,11 +139,17 @@ Wenn Sie diesen Befehl ausführen, müssen Sie in einer Meldung bestätigen, das
 
 Im Folgenden finden Sie einige Beispiele für Befehle zum Deaktivieren von Postfächern.
 
+```
     Disable-Mailbox danj
+```
 
+```
     Disable-Mailbox "Conf Room 31/1234 (12)"
+```
 
+```
     Disable-Mailbox sharedmbx@contoso.com
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -197,11 +203,17 @@ Wenn Sie diesen Befehl ausführen, müssen Sie in einer Meldung bestätigen, das
 
 Im Folgenden finden Sie einige Beispiele für Befehle zum Löschen von Postfächern.
 
+```
     Remove-Mailbox pilarp@contoso.com
+```
 
+```
     Remove-Mailbox "Fleet Van (16)"
+```
 
+```
     Remove-Mailbox corpprint
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

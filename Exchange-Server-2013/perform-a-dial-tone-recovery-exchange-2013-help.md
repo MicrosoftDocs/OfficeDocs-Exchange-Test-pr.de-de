@@ -86,9 +86,13 @@ Durch die Dial Tone-Portabilität erhalten Benutzer die Möglichkeit, ein tempor
 
 13. Verwenden Sie die Cmdlets [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)) und [New-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829875\(v=exchg.150\)), um die Daten aus der RDB zu exportieren und in die wiederhergestellte Datenbank zu importieren, wie im folgenden Beispiel dargestellt. Durch diesen Vorgang werden alle mithilfe der Dial Tone-Datenbank gesendeten und empfangenen Nachrichten in die Produktionsdatenbank importiert.
     
-        $mailboxes = Get-Mailbox -Database DTDB1
-    
-        $mailboxes | %{ New-MailboxRestoreRequest -SourceStoreMailbox $_.ExchangeGuid -SourceDatabase RDB1 -TargetMailbox $_ }
+```
+    $mailboxes = Get-Mailbox -Database DTDB1
+```
+
+```
+    $mailboxes | %{ New-MailboxRestoreRequest -SourceStoreMailbox $_.ExchangeGuid -SourceDatabase RDB1 -TargetMailbox $_ }
+```
 
 14. Sobald der Wiederherstellungsvorgang beendet ist, können Sie die Einbindung der RDB aufheben und sie entfernen, wie im folgenden Beispiel dargestellt.
     

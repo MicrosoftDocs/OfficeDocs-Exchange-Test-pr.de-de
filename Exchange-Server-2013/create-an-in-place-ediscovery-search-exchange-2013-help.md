@@ -168,11 +168,17 @@ Sie können den *EstimateOnly*-Switch verwenden, um eine Schätzung der Sucherge
 
 Sie würden z. B. die folgenden Befehle ausführen, um eine neue eDiscovery-Suche zu erstellen und anschließend eine Schätzung der Suchergebnisse anzuzeigen:
 
+```
     New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeKeywordStatistics
+```
 
+```
     Start-MailboxSearch "FY13 Q2 Financial Results"
+```
 
+```
     Get-MailboxSearch "FY13 Q2 Financial Results"
+```
 
 Um die Informationen der geschätzten Suchergebnisse anzuzeigen können Sie den folgenden Befehl ausführen:
 

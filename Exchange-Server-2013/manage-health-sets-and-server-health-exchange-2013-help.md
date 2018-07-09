@@ -49,17 +49,27 @@ Mithilfe der integrierten Cmdlets für die Integritätsberichterstellung können
 
 Führen Sie einen der folgenden Befehle aus, um die Integritätssätze und Integritätsinformationen zu einem Server anzuzeigen, auf dem Exchange 2013 ausgeführt wird.
 
+```
     Get-HealthReport -Identity <ServerName>
+```
 
+```
     Get-ServerHealth -Identity <ServerName> | Format-Table Server,CurrentHealthSetState,Name,HealthSetName,AlertValue,HealthGroupName -Auto
+```
 
 Führen Sie einen der folgenden Befehle aus, um die Integritätssätze zu einem Server oder einer Database Availability Group anzuzeigen, auf dem/in der Exchange 2013 ausgeführt wird.
 
+```
     Get-ExchangeServer | Get-HealthReport -RollupGroup
+```
 
+```
     Get-ExchangeServer | Get-HealthReport -RollupGroup -HealthSetName <HealthSet>
+```
 
+```
     (Get-DatabaseAvailabiltyGroup <DAGName>).Servers | Get-HealthReport -RollupGroup
+```
 
 ## Anzeigen einer Liste von Integritätssätzen
 

@@ -112,9 +112,13 @@ Der nächste Schritt besteht darin, die Suchergebnisse aus dem vorhandenen Disco
     
       - **Verwenden der Shell:**  Führen Sie die folgenden Befehle aus, um die Suchergebnisse zu kopieren. Sie müssen den Switch *EstimateOnly* entfernen, bevor Sie die Suchergebnisse kopieren können.
         
-            Set-MailboxSearch "Search results from 2010" -EstimateOnly $false
-        
-            Start-MailboxSearch "Search results from 2010"
+        ```
+		Set-MailboxSearch "Search results from 2010" -EstimateOnly $false
+		```
+		
+        ```
+        Start-MailboxSearch "Search results from 2010"
+		```
     
       - **Verwenden des EAC:**  Navigieren Sie zu **Verwaltung der Richtlinientreue** \> **Compliance-eDiscovery und -Archiv**. Wählen Sie die Suche aus, klicken Sie auf **Suchen**![Suchen (Symbol)](images/Dn624163.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "Suchen (Symbol)"), und klicken Sie dann auf **Suchergebnisse kopieren**.
     

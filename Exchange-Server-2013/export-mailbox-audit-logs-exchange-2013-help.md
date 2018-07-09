@@ -65,9 +65,13 @@ Führen Sie den folgenden Befehl in der Shell aus, um die Postfachüberwachungsp
 
 Führen Sie folgende Befehle aus, um die Postfachüberwachungsprotokollierung für alle Benutzerpostfächer in Ihrer Organisation zu aktivieren.
 
+```
     $UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
+```
 
+```
     $UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
 
 ## Schritt 2: Konfigurieren von Outlook Web App, um XML-Anlagen zuzulassen
 

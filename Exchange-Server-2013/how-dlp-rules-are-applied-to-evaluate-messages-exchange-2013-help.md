@@ -147,9 +147,13 @@ Sie können eine benutzerdefinierte Regel einsetzen, mit der ein Muster ohne zus
 
 Das Beispiel der Kreditkartennummern in diesem Artikel kann auch auf andere Regeln für vertrauliche Informationen ausgeweitet werden. Um die vollständige Liste der von Microsoft in Exchange bereitgestellten Regeln anzuzeigen, können Sie das Cmdlet[Get-ClassificationRuleCollection](https://technet.microsoft.com/de-de/library/jj218696\(v=exchg.150\)) in der Exchange-Verwaltungsshell folgendermaßen verwenden:
 
+```
     $rule_collection = Get-ClassificationRuleCollection
+```
 
+```
     $rule_collection[0].SerializedClassificationRuleCollection | Set-Content oob_classifications.xml -Encoding byte
+```
 
 ## Weitere Informationen
 

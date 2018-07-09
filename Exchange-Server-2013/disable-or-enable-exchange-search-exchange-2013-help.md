@@ -89,13 +89,21 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 Führen Sie die folgenden Befehle aus, um den Microsoft Exchange-Suchdienst anzuhalten und zu deaktivieren.
 
+```
     Stop-Service MSExchangeFastSearch
+```
 
+```
     Set-Service MSExchangeFastSearch -StartupType Disabled
+```
 
 Führen Sie die folgenden Befehle aus, um den Exchange-Suchdienst für den automatischen Start zu konfigurieren und den Dienst anschließend zu starten.
 
+```
     Set-Service MSExchangeFastSearch -StartupType Automatic
+```
 
+```
     Start-Service MSExchangeFastSearch
+```
 

@@ -107,9 +107,13 @@ Melden Sie sich bei der Exchange-Verwaltungskonsole an, und führen Sie die folg
 
 In diesem Beispiel wird ein Migrationsbatch für eine lokale Verschiebung erstellt, bei der die Postfächer in der angegebenen CSV-Datei in eine andere Postfachdatenbank verschoben werden. Diese CSV-Datei enthält eine einzige Spalte mit den E-Mail-Adressen der Postfächer, die verschoben werden sollen. Die Kopfzeile dieser Spalte muss **EmailAddress** lauten. Der Migrationsbatch in diesem Beispiel muss manuell mithilfe des Cmdlets **Start-MigrationBatch** oder über die Exchange-Verwaltungskonsole gestartet werden. Alternativ dazu können Sie auch den Parameter *AutoStart* verwenden, um den Batch automatisch zu starten.
 
+```
     New-MigrationBatch -Local -Name LocalMove1 -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\LocalMove1.csv")) -TargetDatabases MBXDB2 -TimeZone "Pacific Standard Time"
+```
 
+```
     Start-MigrationBatch -Identity LocalMove1
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MigrationBatch](https://technet.microsoft.com/de-de/library/jj219166\(v=exchg.150\)) und [Start-MigrationBatch](https://technet.microsoft.com/de-de/library/jj219165\(v=exchg.150\)).
 

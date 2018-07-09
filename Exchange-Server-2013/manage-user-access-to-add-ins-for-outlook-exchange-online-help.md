@@ -105,9 +105,13 @@ Wenn Sie die Verfügbarkeit eines Add-Ins auf bestimmte Benutzer beschränken m�
 
 Bei diesem Beispiel wird das LinkedIn-Add-In mit dem hypothetischen **AppId**-Wert `ac83a9d5-5af2-446f-956a-c583adc94d5e` auf die Mitglieder der Verteilergruppe namens Marketing beschränkt.
 
+```
     $a = Get-DistributionGroupMember Marketing
+```
 
+```
     Set-App -Identity ac83a9d5-5af2-446f-956a-c583adc94d5e -OrganizationApp -ProvidedTo SpecificUsers -UserList $a.Identity -DefaultStateForUser Enabled
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-App](https://technet.microsoft.com/de-de/library/jj218630\(v=exchg.150\)).
 

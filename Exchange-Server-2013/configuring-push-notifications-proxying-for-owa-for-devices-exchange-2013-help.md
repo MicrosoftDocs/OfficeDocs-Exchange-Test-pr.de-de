@@ -68,117 +68,122 @@ Um eine Server-zu-Server-Authentifizierung für eine lokale Implementierung von 
     > [!WARNING]  
     > Kopieren und Fügen Sie den Code in einen Text-Editor wie Notepad ein, speichern Sie die Datei dann mit der Erweiterung .PS1, so wird das Ausführen von Shellskripts vereinfacht.
 
+    ```   
+    # Make sure to update the following $tenantDomain with your Office 365 tenant domain.
     
-        # Make sure to update the following $tenantDomain with your Office 365 tenant domain.
-        
-        $tenantDomain = "Fabrikam.com"
-        
-        # Check whether the cert returned from Get-AuthConfig is valid and keysize must be >= 2048
-        
-        $c = Get-ExchangeCertificate | ?{$_.CertificateDomains -eq $env:USERDNSDOMAIN -and $_.Services -ge "SMTP" -and $_.PublicKeySize -ge 2048 -and $_.FriendlyName -match "OAuth"}
-        If ($c.Count -eq 0)
-        {
-            Write-Host "Creating certificate for oAuth..."
-            $ski = [System.Guid]::NewGuid().ToString("N")
-            $friendlyName = "Exchange S2S OAuth"
-            New-ExchangeCertificate -FriendlyName $friendlyName -DomainName $env:USERDNSDOMAIN -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
-            $c = Get-ExchangeCertificate | ?{$_.friendlyname -eq $friendlyName}
-        }
-        ElseIf ($c.Count -gt 1)
-        {
-            $c = $c[0]
-        }
-        
-        $a = $c | ?{$_.Thumbprint -eq (get-authconfig).CurrentCertificateThumbprint}
-        If ($a.Count -eq 0)
-        {
-            Set-AuthConfig -CertificateThumbprint $c.Thumbprint
-        }
-        Write-Host "Configured Certificate Thumbprint is:"(get-authconfig).CurrentCertificateThumbprint
-        
-        # Export the certificate
-        
-        Write-Host "Exporting certificate..."
-        if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
-        {
-            md $env:SYSTEMDRIVE\OAuthConfig
-        }
-        cd $env:SYSTEMDRIVE\OAuthConfig
-        
-        $oAuthCert = (dir Cert:\LocalMachine\My) | where {$_.FriendlyName -match "OAuth"}
-        $certType = [System.Security.Cryptography.X509Certificates.X509ContentType]::Cert
-        $certBytes = $oAuthCert.Export($certType)
-        $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
-        [System.IO.File]::WriteAllBytes($CertFile, $certBytes)
-        
-        # Set AuthServer
-        $authServer = Get-AuthServer MicrosoftSts;
-        if ($authServer.Length -eq 0)
-        {
-            Write-Host "Creating AuthServer Config..."
-            New-AuthServer MicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/metadata/json/1/?realm=$tenantDomain
-        }
-        elseif ($authServer.AuthMetadataUrl -ne "https://accounts.accesscontrol.windows.net/metadata/json/1/?realm=$tenantDomain")
-        {
-            Write-Warning "AuthServer config already exists but the AuthMetdataUrl doesn't match the appropriate value. Updating..."
-            Set-AuthServer MicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/metadata/json/1/?realm=$tenantDomain
-        }
-        else
-        {
-            Write-Host "AuthServer Config already exists."
-        }
-        Write-Host "Complete."
+    $tenantDomain = "Fabrikam.com"
+    
+    # Check whether the cert returned from Get-AuthConfig is valid and keysize must be >= 2048
+    
+    $c = Get-ExchangeCertificate | ?{$_.CertificateDomains -eq $env:USERDNSDOMAIN -and $_.Services -ge "SMTP" -and $_.PublicKeySize -ge 2048 -and $_.FriendlyName -match "OAuth"}
+    If ($c.Count -eq 0)
+    {
+        Write-Host "Creating certificate for oAuth..."
+        $ski = [System.Guid]::NewGuid().ToString("N")
+        $friendlyName = "Exchange S2S OAuth"
+        New-ExchangeCertificate -FriendlyName $friendlyName -DomainName $env:USERDNSDOMAIN -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
+        $c = Get-ExchangeCertificate | ?{$_.friendlyname -eq $friendlyName}
+    }
+    ElseIf ($c.Count -gt 1)
+    {
+        $c = $c[0]
+    }
+    
+    $a = $c | ?{$_.Thumbprint -eq (get-authconfig).CurrentCertificateThumbprint}
+    If ($a.Count -eq 0)
+    {
+        Set-AuthConfig -CertificateThumbprint $c.Thumbprint
+    }
+    Write-Host "Configured Certificate Thumbprint is:"(get-authconfig).CurrentCertificateThumbprint
+    
+    # Export the certificate
+    
+    Write-Host "Exporting certificate..."
+    if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
+    {
+        md $env:SYSTEMDRIVE\OAuthConfig
+    }
+    cd $env:SYSTEMDRIVE\OAuthConfig
+    
+    $oAuthCert = (dir Cert:\LocalMachine\My) | where {$_.FriendlyName -match "OAuth"}
+    $certType = [System.Security.Cryptography.X509Certificates.X509ContentType]::Cert
+    $certBytes = $oAuthCert.Export($certType)
+    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
+    [System.IO.File]::WriteAllBytes($CertFile, $certBytes)
+    
+    # Set AuthServer
+    $authServer = Get-AuthServer MicrosoftSts;
+    if ($authServer.Length -eq 0)
+    {
+        Write-Host "Creating AuthServer Config..."
+        New-AuthServer MicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/metadata/json/1/?realm=$tenantDomain
+    }
+    elseif ($authServer.AuthMetadataUrl -ne "https://accounts.accesscontrol.windows.net/metadata/json/1/?realm=$tenantDomain")
+    {
+        Write-Warning "AuthServer config already exists but the AuthMetdataUrl doesn't match the appropriate value. Updating..."
+        Set-AuthServer MicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/metadata/json/1/?realm=$tenantDomain
+    }
+    else
+    {
+        Write-Host "AuthServer Config already exists."
+    }
+    Write-Host "Complete."
+    ```
     
     Das erwartete Ergebnis sollte der folgenden Ausgabe ähnlich sein.
     
+    ```
         Configured Certificate Thumbprint is: 7595DBDEA83DACB5757441D44899BCDB9911253C
         Exporting certificate...
         Complete.
+    ```
     
-
     > [!WARNING]  
     > Bevor Sie fortfahren, sind die Cmdlets Azure Active Directory-Modul für Windows PowerShell erforderlich. Wenn die Cmdlets Azure Active Directory-Modul für Windows PowerShell (früher bekannt als Microsoft Online Services-Modul für Windows PowerShell) nicht installiert wurden, können Sie sie unter <A href="http://aka.ms/aadposh">Verwalten von Azure AD mit Windows PowerShell</A> herunterladen.
 
 
-
   - **Schritt 2 – Konfigurieren von Office 365 zum Kommunizieren mit lokalem Exchange 2013.** Den Office 365-Server so konfigurieren, dass er als Partneranwendung mit Exchange Server 2013 kommuniziert. Wenn beispielsweise ein lokaler Exchange Server 2013 mit Office 365 kommuniziert, müssen Sie den lokalen Exchange-Server als Partneranwendung konfigurieren. Bei einer Partneranwendung handelt es sich um eine Anwendung, die direkt Sicherheitstoken mit Exchange 2013 austauscht, ohne dafür einen Sicherheitstokenserver eines Drittanbieters verwenden zu müssen. Ein Administrator eines lokalen Exchange 2013-Servers muss folgendes Exchange-Verwaltungsshellskript verwenden, um den Office 365-Mandanten so zu konfigurieren, dass als Partneranwendung mit Exchange 2013 kommuniziert. Während der Ausführung erscheint eine Aufforderung zur Eingabe des Administrator-Benutzernamens und des Kennworts der Office 365-Mandantendomäne—z. B. administrator@fabrikam.com. Stellen Sie sicher, den Wert der *$CertFile* auf den Speicherort des Zertifikats zu aktualisieren, falls dies noch nicht mit dem vorherigen Skript geschehen ist. Dazu kopieren Sie und fügen Sie den folgenden Code ein.
     
-        # Make sure to update the following $CertFile with the path to the cert if not using the previous script.
-        
-        $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
-        
-        If (Test-Path $CertFile)
-        {
-            $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
-        
-            $objFSO = New-Object -ComObject Scripting.FileSystemObject;
-            $CertFile = $objFSO.GetAbsolutePathName($CertFile);
-        
-            $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
-            $cer.Import($CertFile);
-            $binCert = $cer.GetRawCertData();
-            $credValue = [System.Convert]::ToBase64String($binCert);
-        
-            Write-Host "Please enter the administrator user name and password of the Office 365 tenant domain..."
-        
-            Connect-MsolService;
-            Import-Module msonlineextended;
-        
-            Write-Host "Adding a key to Service Principal..."
-        
-            $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
-            New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue -StartDate $cer.GetEffectiveDateString() -EndDate $cer.GetExpirationDateString()
-        }
-        Else
-        {
-            Write-Error "Cannot find certificate."
-        } 
+    ```
+    # Make sure to update the following $CertFile with the path to the cert if not using the previous script.
+    
+    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
+    
+    If (Test-Path $CertFile)
+    {
+        $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+    
+        $objFSO = New-Object -ComObject Scripting.FileSystemObject;
+        $CertFile = $objFSO.GetAbsolutePathName($CertFile);
+    
+        $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
+        $cer.Import($CertFile);
+        $binCert = $cer.GetRawCertData();
+        $credValue = [System.Convert]::ToBase64String($binCert);
+    
+        Write-Host "Please enter the administrator user name and password of the Office 365 tenant domain..."
+    
+        Connect-MsolService;
+        Import-Module msonlineextended;
+    
+        Write-Host "Adding a key to Service Principal..."
+    
+        $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
+        New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue -StartDate $cer.GetEffectiveDateString() -EndDate $cer.GetExpirationDateString()
+    }
+    Else
+    {
+        Write-Error "Cannot find certificate."
+    }
+    ``` 
     
     Das erwartete Ergebnis sollte wie folgt aussehen.
     
-        Please enter the administrator user name and password of the Office 365 tenant domain...
-        Adding a key to Service Principal...
-        Complete.
+    ```
+    Please enter the administrator user name and password of the Office 365 tenant domain...
+    Adding a key to Service Principal...
+    Complete.
+    ```
 
 ## Aktivieren der Proxyfunktion für Pushbenachrichtigungen
 

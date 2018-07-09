@@ -88,9 +88,13 @@ Wenn nur eine Kopie der Postfachdatenbank vorhanden ist, müssen Sie ein erneute
 
 1.  Führen Sie die folgenden Befehle aus, um den Microsoft Exchange-Such- und den Microsoft Exchange-Suchhost-Controllerdienst anzuhalten.
     
-        Stop-Service MSExchangeFastSearch
-    
-        Stop-Service HostControllerService
+    ```
+    Stop-Service MSExchangeFastSearch
+	```
+	
+    ```
+    Stop-Service HostControllerService
+	```
 
 2.  Löschen oder verschieben Sie den Ordner, der den Exchange-Inhaltsindexkatalog enthält, oder benennen Sie diesen um. Dieser Ordner heißt `%ExchangeInstallPath\Mailbox\<name of mailbox database>_Catalog\<GUID>12.1.Single`. Sie können den Ordner z. B. in `C:\Program Files\Microsoft\Exchange Server\V15\Mailbox\Mailbox Database 0657134726_Catalog\F0627A72-9F1D-494A-839A-D7C915C279DB12.1.Single_OLD` umbenennen.
     
@@ -102,9 +106,13 @@ Wenn nur eine Kopie der Postfachdatenbank vorhanden ist, müssen Sie ein erneute
 
 3.  Führen Sie die folgenden Befehle aus, um den Microsoft Exchange-Such- und den Microsoft Exchange-Suchhost-Controllerdienst neu zu starten.
     
-        Start-Service MSExchangeFastSearch
-    
-        Start-Service HostControllerService
+    ```
+    Start-Service MSExchangeFastSearch
+    ```
+	
+	```
+    Start-Service HostControllerService
+	```
     
     Nachdem Sie diese Dienste neu gestartet haben, wird der Inhaltsindexkatalog von der Exchange-Suche neu erstellt.
 

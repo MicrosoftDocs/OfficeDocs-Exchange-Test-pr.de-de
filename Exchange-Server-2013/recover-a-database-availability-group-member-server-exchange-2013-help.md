@@ -89,9 +89,13 @@ Gehen Sie wie folgt vor, um sich zu vergewissern, dass Sie das DAG-Mitglied erfo
 
   - Führen Sie in der Shell folgenden Befehl aus, um die Integrität und den Status des wiederhergestellten DAG-Mitglieds zu überprüfen:
     
-        Test-ReplicationHealth <ServerName>
+```
+    Test-ReplicationHealth <ServerName>
+```
     
-        Get-MailboxDatabaseCopyStatus -Server <ServerName>
+```
+    Get-MailboxDatabaseCopyStatus -Server <ServerName>
+```
     
-    Sämtliche Statustests für die Replikation müssen erfolgreich ausgeführt werden, und die Statusangaben der Datenbanken und ihrer Inhaltsindizes müssen fehlerfrei sein.
+Sämtliche Statustests für die Replikation müssen erfolgreich ausgeführt werden, und die Statusangaben der Datenbanken und ihrer Inhaltsindizes müssen fehlerfrei sein.
 
