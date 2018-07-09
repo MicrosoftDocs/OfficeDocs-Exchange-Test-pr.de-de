@@ -61,17 +61,13 @@ Führen Sie den folgenden Befehl aus, um die Konnektivitätsprotokollierung zu k
 
 In diesem Beispiel werden die Einstellungen für die Konnektivitätsprotokollierung im Transportdienst auf dem Postfachserver "Mailbox01" festgelegt:
 
-  -  
-    Legt den Speicherort der Konnektivitätsprotokolldateien auf "D:\\Hub Connectivity Log" fest. Beachten Sie, dass der Ordner für Sie erstellt wird, wenn er nicht vorhanden ist.
+  -  Legt den Speicherort der Konnektivitätsprotokolldateien auf "D:\\Hub Connectivity Log" fest. Beachten Sie, dass der Ordner für Sie erstellt wird, wenn er nicht vorhanden ist.
 
-  -  
-    Legt die maximale Größe einer Konnektivitätsprotokolldatei auf 20 MB fest.
+  -  Legt die maximale Größe einer Konnektivitätsprotokolldatei auf 20 MB fest.
 
-  -  
-    Legt die maximale Größe des Konnektivitätsprotokollverzeichnisses auf 1,5 GB fest.
+  -  Legt die maximale Größe des Konnektivitätsprotokollverzeichnisses auf 1,5 GB fest.
 
-  -  
-    Legt das maximale Alter einer Konnektivitätsprotokolldatei auf 45 Tage fest.
+  -  Legt das maximale Alter einer Konnektivitätsprotokolldatei auf 45 Tage fest.
 
 <!-- end list -->
 

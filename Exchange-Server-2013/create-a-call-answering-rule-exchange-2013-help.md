@@ -71,14 +71,11 @@ In diesem Beispiel wird die Mailboxansageregel `MyCallAnsweringRule` im Postfach
 
 In diesem Beispiel wird die Mailboxansageregel `MyCallAnsweringRule` im Postfach für "Tony Smith" erstellt, und folgende Aktionen werden durchgeführt:
 
-  -  
-    Die Priorität der Mailboxansageregel wird auf 2 festgelegt.
+  -  Die Priorität der Mailboxansageregel wird auf 2 festgelegt.
 
-  -  
-    Für die Mailboxansageregel werden Tastenzuordnungen erstellt.
+  -  Für die Mailboxansageregel werden Tastenzuordnungen erstellt.
 
-  -  
-    Wenn der Anrufer die Voicemail des Benutzers erreicht und der Status des Benutzers auf "Gebucht" gesetzt ist, hat der Anrufer folgende Möglichkeiten:
+  -  Wenn der Anrufer die Voicemail des Benutzers erreicht und der Status des Benutzers auf "Gebucht" gesetzt ist, hat der Anrufer folgende Möglichkeiten:
     
       - Er drückt die Taste 1 und wird an den Empfang mit der Durchwahl 45678 weitergeleitet.
     

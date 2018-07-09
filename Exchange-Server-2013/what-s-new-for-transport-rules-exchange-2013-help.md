@@ -35,40 +35,29 @@ Einzelheiten zur Verwendung dieser neuen Prädikate und Aktionen finden Sie unte
 
 ## Neue Prädikate
 
-  -  
-    **AttachmentExtensionMatchesWords**   Dieses Prädikat wird zum Ermitteln von Anlagen mit bestimmten Erweiterungen verwendet.
+  -  **AttachmentExtensionMatchesWords**   Dieses Prädikat wird zum Ermitteln von Anlagen mit bestimmten Erweiterungen verwendet.
 
-  -  
-    **AttachmentHasExecutableContent**   Dieses Prädikat wird zum Ermitteln von Anlagen mit bestimmten ausführbaren Inhalten verwendet.
+  -  **AttachmentHasExecutableContent**   Dieses Prädikat wird zum Ermitteln von Anlagen mit bestimmten ausführbaren Inhalten verwendet.
 
-  -  
-    **HasSenderOverride** Dieses Prädikat wird zum Ermitteln von Nachrichten verwendet, deren Absender eine DLP-Richtlinieneinschränkung außer Kraft gesetzt hat.
+  -  **HasSenderOverride** Dieses Prädikat wird zum Ermitteln von Nachrichten verwendet, deren Absender eine DLP-Richtlinieneinschränkung außer Kraft gesetzt hat.
 
-  -  
-    **MessageContainsDataClassifications**   Dieses Prädikat wird zum Ermitteln vertraulicher Informationen im Nachrichtentext und in den Anlagen verwendet. Eine Liste mit den verfügbaren Datenklassifikationen finden Sie unter [Wonach die Typen von vertraulichen Informationen in Exchange suchen](what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md).
+  -  **MessageContainsDataClassifications**   Dieses Prädikat wird zum Ermitteln vertraulicher Informationen im Nachrichtentext und in den Anlagen verwendet. Eine Liste mit den verfügbaren Datenklassifikationen finden Sie unter [Wonach die Typen von vertraulichen Informationen in Exchange suchen](what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md).
 
-  -  
-    **MessageSizeOver**   Dieses Prädikat wird zum Ermitteln von Nachrichten verwendet, deren Gesamtgröße mit dem angegebenen Grenzwert identisch ist bzw. diesen überschreitet.
+  -  **MessageSizeOver**   Dieses Prädikat wird zum Ermitteln von Nachrichten verwendet, deren Gesamtgröße mit dem angegebenen Grenzwert identisch ist bzw. diesen überschreitet.
 
-  -  
-    **SenderIPRanges**   Dieses Prädikat wird zum Ermitteln von Nachrichten verwendet, die von einer bestimmten Gruppe aus IP-Adressbereichen gesendet wurden.
+  -  **SenderIPRanges**   Dieses Prädikat wird zum Ermitteln von Nachrichten verwendet, die von einer bestimmten Gruppe aus IP-Adressbereichen gesendet wurden.
 
 ## Neue Aktionen
 
-  -  
-    **GenerateIncidentReport**   Diese Aktion generiert einen Vorfallsbericht, der an eine angegebene SMTP-Adresse gesendet wird. Die Aktion verfügt zudem über den Parameter *IncidentReportOriginalMail*, für den zwei Werte zulässig sind: "IncludeOriginalMail" oder "DoNotIncludeOriginalMail".
+  -  **GenerateIncidentReport**   Diese Aktion generiert einen Vorfallsbericht, der an eine angegebene SMTP-Adresse gesendet wird. Die Aktion verfügt zudem über den Parameter *IncidentReportOriginalMail*, für den zwei Werte zulässig sind: "IncludeOriginalMail" oder "DoNotIncludeOriginalMail".
 
-  -  
-    **NotifySender**   Diese Aktion steuert, wie der Absender einer Nachricht benachrichtigt wird, die gegen eine DLP-Richtlinie verstößt. Sie können den Absender lediglich informieren und die Nachricht weiterleiten, oder Sie können die Nachricht zurückweisen und den Absender entsprechend benachrichtigen.
+  -  **NotifySender**   Diese Aktion steuert, wie der Absender einer Nachricht benachrichtigt wird, die gegen eine DLP-Richtlinie verstößt. Sie können den Absender lediglich informieren und die Nachricht weiterleiten, oder Sie können die Nachricht zurückweisen und den Absender entsprechend benachrichtigen.
 
-  -  
-    **StopRuleProcessing**   Diese Aktion hält die Verarbeitung aller nachfolgenden Regeln für die Nachricht an.
+  -  **StopRuleProcessing**   Diese Aktion hält die Verarbeitung aller nachfolgenden Regeln für die Nachricht an.
 
-  -  
-    **ReportSeverityLevel**   Diese Aktion legt den angegebenen Schweregrad im Vorfallsbericht fest. Für diese Aktion sind die folgenden Werte zulässig: "Informational", "Low", "Medium", "High" und "Off".
+  -  **ReportSeverityLevel**   Diese Aktion legt den angegebenen Schweregrad im Vorfallsbericht fest. Für diese Aktion sind die folgenden Werte zulässig: "Informational", "Low", "Medium", "High" und "Off".
 
-  -  
-    **RouteMessageOutboundRequireTLS**   Bei dieser Aktion ist eine TLS-Verschlüsselung (Transport Layer Security) erforderlich, wenn die Nachricht an einen externen Empfänger weitergeleitet wird. Wenn die TLS-Verschlüsselung nicht unterstützt wird, wird die Nachricht zurückgewiesen und nicht übermittelt.
+  -  **RouteMessageOutboundRequireTLS**   Bei dieser Aktion ist eine TLS-Verschlüsselung (Transport Layer Security) erforderlich, wenn die Nachricht an einen externen Empfänger weitergeleitet wird. Wenn die TLS-Verschlüsselung nicht unterstützt wird, wird die Nachricht zurückgewiesen und nicht übermittelt.
 
 ## Weitere Änderungen bei Transportregeln
 

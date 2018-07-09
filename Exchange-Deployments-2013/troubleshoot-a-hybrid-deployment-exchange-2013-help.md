@@ -124,12 +124,11 @@ Wenn bei der Ausführung des Assistenten für die Hybridkonfiguration ein Fehler
 
   - **Meldung: „Default Receive Connector cannot be found on server \<Server Name\>“**. Diese Meldung wird angezeigt, wenn der Empfangsconnector auf einem im folgenden Attribut aufgeführten Exchange 25-Exchange-Server sowohl bei IPv4- als auch bei IPv6-Protokollen den TCP-Port 25 nicht überwacht: `(Get-HybridConfiguration).ReceivingTransportServers.`
     
-      -  
-        Führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um zu überprüfen, ob die auf den Exchange-Servern aufgelisteten Empfangsconnectors beim Ausführen von `(Get-HybridConfiguration).ReceivingTransportServers.` über die richtigen Verbindungen verfügen.
+      -    Führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um zu überprüfen, ob die auf den Exchange-Servern aufgelisteten Empfangsconnectors beim Ausführen von `(Get-HybridConfiguration).ReceivingTransportServers.` über die richtigen Verbindungen verfügen.
         
-            Get-ReceiveConnector -Server <Server Name> | FT Identity, Bindings
+      Get-ReceiveConnector -Server <Server Name> | FT Identity, Bindings
         
-        Der folgende Eintrag sollte für Ihre Exchange-Server aufgeführt werden: `{[::]:25, 0.0.0.0:25}`
+      Der folgende Eintrag sollte für Ihre Exchange-Server aufgeführt werden: `{[::]:25, 0.0.0.0:25}`
         
-        Wenn diese Anschlussbindung nicht aufgeführt wird, müssen Sie sie mithilfe des Parameters *Bindings* des Cmdlets **Set-ReceiveConnector** zur Ihrem Empfangsconnector hinzufügen. Weitere Informationen finden Sie unter [Set-ReceiveConnector](https://technet.microsoft.com/de-de/library/bb125140\(v=exchg.150\)).
+      Wenn diese Anschlussbindung nicht aufgeführt wird, müssen Sie sie mithilfe des Parameters *Bindings* des Cmdlets **Set-ReceiveConnector** zur Ihrem Empfangsconnector hinzufügen. Weitere Informationen finden Sie unter [Set-ReceiveConnector](https://technet.microsoft.com/de-de/library/bb125140\(v=exchg.150\)).
 

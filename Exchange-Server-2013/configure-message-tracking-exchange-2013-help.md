@@ -61,17 +61,13 @@ Führen Sie den folgenden Befehl aus, um die Nachrichtenverfolgung zu konfigurie
 
 In diesem Beispiel werden folgende Einstellungen für das Nachrichtenverfolgungsprotokoll auf dem Postfachserver "Mailbox01" festgelegt:
 
-  -  
-    Legt den Speicherort für die Protokolldateien der Nachrichtenverfolgung auf "D:\\Message Tracking Log" fest. Beachten Sie, dass der Ordner für Sie erstellt wird, wenn er nicht vorhanden ist.
+  -  Legt den Speicherort für die Protokolldateien der Nachrichtenverfolgung auf "D:\\Message Tracking Log" fest. Beachten Sie, dass der Ordner für Sie erstellt wird, wenn er nicht vorhanden ist.
 
-  -  
-    Legt die maximale Größe einer Protokolldatei der Nachrichtenverfolgung auf 20 MB fest.
+  -  Legt die maximale Größe einer Protokolldatei der Nachrichtenverfolgung auf 20 MB fest.
 
-  -  
-    Legt die maximale Größe des Verzeichnisses für das Nachrichtenverfolgungsprotokoll auf 1,5 GB fest.
+  -  Legt die maximale Größe des Verzeichnisses für das Nachrichtenverfolgungsprotokoll auf 1,5 GB fest.
 
-  -  
-    Legt das maximale Alter einer Protokolldatei für die Nachrichtenverfolgung auf 45 Tage fest.
+  -  Legt das maximale Alter einer Protokolldatei für die Nachrichtenverfolgung auf 45 Tage fest.
 
 <!-- end list -->
 
