@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Beschränkungen der Nachrichtengröße: Exchange 2013 Help'
 TOCTitle: Beschränkungen der Nachrichtengröße
 ms:assetid: b6a3840d-b821-4e53-877b-59c16be77206
