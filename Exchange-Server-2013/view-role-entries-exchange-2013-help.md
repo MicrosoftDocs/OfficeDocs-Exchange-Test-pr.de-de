@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Jeder Verwaltungsrolleneintrag repräsentiert ein Cmdlet oder Skript. Die Parameter eines Rolleneintrags bestimmen, auf welche Cmdlet- oder Skriptparameter ein Benutzer zugreifen kann.
 

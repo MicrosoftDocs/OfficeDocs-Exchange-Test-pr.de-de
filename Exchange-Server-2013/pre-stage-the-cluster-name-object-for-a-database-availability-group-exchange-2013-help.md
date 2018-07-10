@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-08-14_
+_**Letztes Änderungsdatum des Themas:** 2014-08-14_
 
 In Umgebungen, in denen die Erstellung von Computerkonten eingeschränkt ist oder in denen Computerkonten nicht im Standardcontainer für Computer, sondern in einem anderen Container erstellt werden, können Sie das Clusternamenobjekt (CNO) zuerst provisorisch und anschließend durch Zuweisen von Berechtigungen endgültig bereitstellen. Die provisorische Bereitstellung des Clusternetzwerkobjekts ist außerdem für DAG-Mitglieder unter Windows Server 2012 und Windows Server 2012 R2 aufgrund von Berechtigungsänderungen unter Windows für Computerobjekte erforderlich. Beim Bereitstellen einer Database Availability Group (DAG) mithilfe von Postfachservern unter Windows Server 2012 oder Windows Server 2012 R2 müssen Sie das Clusternetzwerkobjekt zuerst provisorisch und anschließend endgültig bereitstellen. Das trifft nicht zu, wenn Sie eine DAG ohne einen Cluster-Administratorzugriffspunkt bereitstellen. DAGs ohne Administratorzugriffspunkte verwenden keine CNOs. Daher ist für diese DAGs keine provisorische Bereitstellung erforderlich.
 

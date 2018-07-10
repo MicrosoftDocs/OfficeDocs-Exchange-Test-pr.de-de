@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können eine Informationsansage für einen UM-Wählplan (Unified Messaging) aktivieren. Die Informationsansagen werden für allgemeine Ankündigungen, die sich häufiger ändern als die Begrüßung, oder für Ankündigungen verwendet, die zur Einhaltung von Unternehmensrichtlinien erforderlich sind.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Clientprotokolle von Exchange ActiveSync, Outlook Web App, POP3, IMAP4, dem AutoErmittlungsdienst, den Exchange-Webdiensten und dem Verfügbarkeitsdienst werden in drei verschiedenen Bereichen verwaltet: in der Exchange-Verwaltungskonsole, in der Exchange-Verwaltungsshell und im Internetinformationsdienste-Manager (Internet Information Services, IIS). Die Einstellungen, die an den einzelnen Stellen verwaltet werden, unterscheiden sich je nach Clientprotokoll.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können die PIN-Gültigkeitsdauer für UM-aktivierte (Unified Messaging) Benutzer konfigurieren. Die PIN-Gültigkeitsdauer ist der maximale Zeitraum, den eine Outlook Voice Access-PIN für UM-aktivierte Empfänger gültig ist. Die PIN-Gültigkeitsdauereinstellung wird für eine UM-Postfachrichtlinie konfiguriert und gilt für alle UM-aktivierten Benutzer, die der UM-Postfachrichtlinie zugeordnet sind.
 

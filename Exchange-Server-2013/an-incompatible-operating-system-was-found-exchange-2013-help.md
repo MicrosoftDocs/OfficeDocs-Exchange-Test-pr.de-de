@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2014-01-30_
+_**Letztes Änderungsdatum des Themas:** 2014-01-30_
 
 Setup von Microsoft Exchange Server 2013 kann nicht fortgesetzt werden, da ein inkompatibles Betriebssystem erkannt wurde. Sie müssen auf diesem Computer ein kompatibles Betriebssystem installieren, bevor Sie Exchange 2013 installieren. In der folgenden Tabelle sind die Betriebssysteme aufgeführt, die mit Exchange 2013 kompatibel sind.
 

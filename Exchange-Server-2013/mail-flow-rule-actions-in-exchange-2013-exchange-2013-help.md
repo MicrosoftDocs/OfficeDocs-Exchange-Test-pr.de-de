@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-05-03_
+_**Letztes Änderungsdatum des Themas:** 2017-05-03_
 
 Aktionen in Nachrichtenflussregeln (auch als Transportregeln bekannt) geben an, was mit Nachrichten geschehen soll, die den Bedingungen der Regel entsprechen. Sie können beispielsweise eine Regel erstellen, die eine Nachricht eines bestimmten Absenders an einen Moderator weiterleitet oder allen ausgehenden Nachrichten einen Haftungsausschluss oder eine personalisierte Signatur hinzugefügt.
 
@@ -31,7 +31,7 @@ Weitere Informationen zu Aktionen in Nachrichtenflussregeln in Exchange Online o
 
 Die Aktionen, die in den Nachrichtenflussregeln auf Postfachservern verfügbar sind, werden in der folgenden Tabelle beschrieben. Gültige Werte für die Eigenschaften werden in Eigenschaftswerte beschrieben.
 
-**Hinweise:**
+**Hinweise:** 
 
   - Nach dem Auswählen einer Aktion in der Exchange-Verwaltungskonsole (EAC) unterscheidet sich der Wert, der letztendlich im Feld **Gehen Sie wie folgt vor** angezeigt wird, häufig vom ausgewählten Klickpfad. Wenn Sie zudem neue Regeln erstellen, können Sie manchmal (je nach vorgenommener Auswahl) einen kurzen Aktionsnamen aus einer Vorlage (eine gefilterte Liste von Aktionen) wählen anstatt dem vollständigen Klickpfad zu folgen. Die kurzen Namen und vollständigen Klickpfadwerte werden in der Spalte „EAC“ in der Tabelle angezeigt.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können mit der Shell oder der Exchange-Remoteverbindungsuntersuchung (Exchange Remote Connectivity Analyzer, ExRCA) die komplette Outlook Anywhere-Konnektivität von Clients testen. Dies umfasst das Testen der Konnektivität über den AutoErmittlungsdienst, das Erstellen eines Benutzerprofils und das Anmelden am Postfach des Benutzers. Alle erforderlichen Werte werden vom AutoErmittlungsdienst abgerufen.
 

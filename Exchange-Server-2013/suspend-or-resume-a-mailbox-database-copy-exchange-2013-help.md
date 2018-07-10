@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-02_
+_**Letztes Änderungsdatum des Themas:** 2012-11-02_
 
 Es gibt unterschiedliche Gründe für das Anhalten oder Fortsetzen einer Datenbankkopie, wie z. B. Wartungsarbeiten am Datenträger mit der Datenbankkopie oder das Anhalten einer einzelnen Datenbankkopie von der Aktivierung zur Notfallwiederherstellung.
 

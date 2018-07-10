@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Wie in früheren Versionen von Exchange können Sie mithilfe der Exchange-Verwaltungsshell in Microsoft Exchange Server 2013 Informationen zu Warteschlangen und zu den darin enthaltenen Nachrichten anzeigen und Verwaltungsaktionen für Warteschlangen und Nachrichten durchführen. In Exchange 2013 sind Warteschlangen auf Postfachservern und Edge-Transport-Servern vorhanden. In diesem Thema werden diese Server als *Transportserver* bezeichnet.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-06_
+_**Letztes Änderungsdatum des Themas:** 2013-02-06_
 
 Mit dem ActiveSync.Protocol-Integritätssatz wird die Gesamtintegrität des Exchange ActiveSync-Kommunikationsprotokolls auf Ihren Postfachservern überwacht. Wenn Sie eine Warnung erhalten, dass Integritätsfehler im ActiveSync.Protocol-Integritätssatz vorliegen, weist dies auf ein Problem hin, das eventuell die ActiveSync-Komponenten auf dem Postfachserver betrifft, der in der Warnung angegeben ist.
 

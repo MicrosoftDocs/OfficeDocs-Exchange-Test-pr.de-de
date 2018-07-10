@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2014-01-15_
+_**Letztes Änderungsdatum des Themas:** 2014-01-15_
 
 Microsoft Exchange Server 2013 Setup kann nicht fortgesetzt werden, da das primäre DNS-Suffix (Domänennamensystem, Domain Name System) für den Computer, auf dem Sie Exchange installieren, nicht konfiguriert wurde.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mithilfe von E-Mail-Flussregeln, die auch als Transportregeln bezeichnet werden, können Sie Nachrichten, die Ihre Organisation durchlaufen, auf bestimmte Bedingungen prüfen und entsprechende Aktionen ausführen. In diesem Thema wird gezeigt, wie Sie Regeln erstellen, kopieren, aktivieren bzw. deaktivieren, löschen oder importieren bzw. exportieren, deren Reihenfolge ändern, und wie Sie die Regelnutzung überwachen.
 
@@ -144,9 +144,9 @@ Im EAC können Sie E-Mail-Flussregeln erstellen, indem Sie eine Vorlage verwende
     
     3.  Klicken Sie zum Angeben von Ausnahmen auf **Ausnahme hinzufügen**, und wählen Sie anschließend die Ausnahmen in der Dropdownliste **Außer wenn...** aus. Sie können beliebige Ausnahmen aus der Regel entfernen, indem Sie neben der jeweiligen Ausnahme auf **X entfernen** klicken.
     
-    4.  Wenn diese Regel nach einem bestimmten Datum wirksam werden soll, klicken Sie auf **Diese Regel an folgendem Datum aktivieren:** Geben Sie anschließend ein Datum an. Beachten Sie, dass die Regel vor diesem Datum weiterhin aktiviert ist, aber nicht verarbeitet wird.
+    4.  Wenn diese Regel nach einem bestimmten Datum wirksam werden soll, klicken Sie auf **Diese Regel an folgendem Datum aktivieren:**  Geben Sie anschließend ein Datum an. Beachten Sie, dass die Regel vor diesem Datum weiterhin aktiviert ist, aber nicht verarbeitet wird.
         
-        Ebenso können Sie festlegen, dass die Regel an einem bestimmten Datum nicht verarbeitet wird. Klicken Sie hierzu auf **Diese Regel an folgendem Datum deaktivieren:** Geben Sie anschließend ein Datum an. Beachten Sie, dass die Regel aktiviert bleibt, aber nicht verarbeitet wird.
+        Ebenso können Sie festlegen, dass die Regel an einem bestimmten Datum nicht verarbeitet wird. Klicken Sie hierzu auf **Diese Regel an folgendem Datum deaktivieren:**  Geben Sie anschließend ein Datum an. Beachten Sie, dass die Regel aktiviert bleibt, aber nicht verarbeitet wird.
     
     5.  Sie können auswählen, dass keine weiteren Regeln angewendet werden, nachdem diese Regel auf eine Nachricht angewendet wurde. Klicken Sie hierzu auf **Keine weiteren Regeln anwenden**. Wenn Sie diese Option aktivieren und eine Nachricht von dieser Regel verarbeitet wird, werden auf diese Nachricht keine nachfolgenden Regeln angewendet.
     

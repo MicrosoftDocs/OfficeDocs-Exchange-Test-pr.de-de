@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-15_
+_**Letztes Änderungsdatum des Themas:** 2014-02-15_
 
 Freigaberichtlinien ermöglichen es Benutzern in Ihrer Exchange-Organisation, Frei/Gebucht-Informationen für Benutzer in anderen Exchange-Verbundorganisationen, in Exchange-Organisationen außerhalb des Verbunds sowie für einzelne Internetbenutzer freizugeben. Während des normalen Betriebs ist es möglicherweise erforderlich, Eigenschaften von Freigaberichtlinien zu ändern, um z. B. Freigaberegeln zu bearbeiten, die Zugriffsebene für Frei/Gebucht-Informationen zu ändern, eine Freigaberichtlinie temporär zu deaktivieren oder eine Freigaberichtlinie ganz zu entfernen.
 
@@ -103,9 +103,13 @@ Informationen zum Erstellen einer Freigaberichtlinie finden Sie unter [Erstellen
 
   - Im ersten Beispiel wird die Freigaberichtlinie "Contoso" entfernt. Im zweiten Beispiel wird die Freigaberichtlinie "Contoso" entfernt und die Bestätigung unterdrückt, dass die Richtlinie wirklich entfernt werden soll.
     
-        Remove-SharingPolicy -Identity Contoso
-    
-        Remove-SharingPolicy -Identity Contoso -Confirm
+```
+    Remove-SharingPolicy -Identity Contoso
+```
+
+```
+    Remove-SharingPolicy -Identity Contoso -Confirm
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-SharingPolicy](https://technet.microsoft.com/de-de/library/dd297931\(v=exchg.150\)) und [Remove-SharingPolicy](https://technet.microsoft.com/de-de/library/dd351071\(v=exchg.150\)).
 

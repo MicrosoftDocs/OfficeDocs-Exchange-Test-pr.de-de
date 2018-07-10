@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-07-31_
+_**Letztes Änderungsdatum des Themas:** 2014-07-31_
 
 Bevor Sie mit der Installation von MicrosoftExchange Server 2013 beginnen, lesen Sie den Abschnitt [Planung und Bereitstellung](planning-and-deployment-for-exchange-2013-installation-instructions.md) mit wichtigen Informationen zur Planung sowie zu Systemanforderungen und anderen Voraussetzungen.
 

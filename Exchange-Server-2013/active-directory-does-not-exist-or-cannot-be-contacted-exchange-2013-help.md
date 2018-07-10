@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013-Setup kann nicht fortgesetzt werden, da kein gültiger Active Directory-Verzeichnisdienststandort kontaktiert werden kann. Der Server, auf dem Sie Exchange installieren, muss auf den Konfigurationsnamenskontext in Active Directory zugreifen können.
 

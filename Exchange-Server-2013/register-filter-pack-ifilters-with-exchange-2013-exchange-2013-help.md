@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Transportregeln mit Bedingungen für die Anlagenprüfung extrahieren den Text bei der Analyse des Inhalts von Anlagen. Exchange 2013 verfügt über systemeigene Funktionen zum Überprüfen der am häufigsten verwendeten Anlagentypen. Weitere Anlagentypen können durch die Registrierung von IFiltern für Exchange 2013 aufgenommen werden. In diesem Thema wird gezeigt, wie die von Microsoft und Drittanbietern veröffentlichten IFilter registriert werden.
 

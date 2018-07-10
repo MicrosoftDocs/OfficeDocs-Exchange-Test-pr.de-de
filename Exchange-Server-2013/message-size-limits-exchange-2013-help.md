@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-08-20_
+_**Letztes Änderungsdatum des Themas:** 2015-08-20_
 
 Sie können Beschränkungen auf Nachrichten anwenden, die die Exchange Server 2013-Organisation durchlaufen. Sie können die Gesamtgröße einer Nachricht oder die Größe der einzelnen Komponenten einer Nachricht beschränken, z. B. den Nachrichtenkopf, die Nachrichtenanlagen und die Anzahl der Empfänger. Sie können die Beschränkungen global für die gesamte Exchange-Organisation oder speziell auf einen Connector oder ein Benutzerobjekt anwenden.
 
@@ -117,18 +117,8 @@ In der folgenden Tabelle sind die Nachrichtenbeschränkungen samt Informationen 
 </tr>
 <tr class="odd">
 <td><p>Maximale Anzahl von Empfängern pro Nachricht</p>
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ126640.note(EXCHG.150).gif" title="Hinweis" alt="Hinweis" />Hinweis:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]]  
 
 </td>
 <td><p>5000</p></td>

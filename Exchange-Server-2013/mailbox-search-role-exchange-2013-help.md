@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Mailbox Search` ermöglicht Administratoren das Durchsuchen des Inhalt eines oder mehrerer Postfächer in einer Organisation.
 

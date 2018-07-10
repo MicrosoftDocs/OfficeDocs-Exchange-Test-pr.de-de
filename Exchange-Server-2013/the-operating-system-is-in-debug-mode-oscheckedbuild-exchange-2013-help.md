@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-15_
+_**Letztes Änderungsdatum des Themas:** 2016-12-15_
 
 Der Inhalt dieses Themas wurde für Microsoft Exchange Server 2013 nicht aktualisiert. Dennoch kann er für Exchange 2013 gültig sein. Weitere Hilfe finden Sie in den Community-Ressourcen weiter unten.
 
@@ -41,5 +41,5 @@ Um diesen Fehler zu beheben, bearbeiten Sie die Datei „Boot.ini“, und lösch
 
 5.  Speichern Sie die Datei, und schließen Sie sie. Starten Sie dann den Exchange Server-Computer neu, damit die Änderung wirksam wird.
 
-Weitere Informationen zu den Parametern, die in der Datei „Boot.ini“ verwendet werden können, finden Sie im Microsoft Knowledge Base-Artikel 833721 „Verfügbare Befehlszeilenoptionen für die Boot.ini-Dateien von Windows XP und Windows Server 2003“ ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=833721](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=833721)).
+Weitere Informationen zu den Parametern, die in der Datei „Boot.ini“ verwendet werden können, finden Sie im Microsoft Knowledge Base-Artikel 833721 „Verfügbare Befehlszeilenoptionen für die Boot.ini-Dateien von Windows XP und Windows Server 2003“ ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=833721](https://go.microsoft.com/fwlink/?linkid=3052&kbid=833721)).
 

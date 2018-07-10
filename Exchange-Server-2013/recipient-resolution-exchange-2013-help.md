@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-03-17_
+_**Letztes Änderungsdatum des Themas:** 2016-03-17_
 
 *Empfängerauflösung* ist der Vorgang des Aufgliederns und Auflösens aller Empfänger in einer Nachricht. Beim Auflösen von Empfängern wird ein Empfänger dem entsprechenden Active Directory-Objekt in der Microsoft Exchange-Organisation zugeordnet. Beim Aufgliedern von Empfängern werden alle Verteilergruppen in eine Liste einzelner Empfänger aufgegliedert. Mithilfe der Empfängerauflösung können Nachrichtenbeschränkungen und alternative Empfänger ordnungsgemäß auf die einzelnen Empfänger angewendet werden.
 
@@ -37,7 +37,7 @@ Empfängerauflösungsdiagnose
 
 ## Empfänger-E-Mail-Adressen
 
-Die Auflösung auf oberster Ebene beginnt mit einer Nachricht und der ursprünglichen, nicht aufgegliederten Liste der Empfänger aus dem *Nachrichtenumschlag*. Der Nachrichtenumschlag enthält die Befehle, die zum Übertragen von Nachrichten zwischen SMTP-Messagingservern verwendet werden. Die E-Mail-Adresse des Absenders ist im Befehl **MAIL FROM:** enthalten. Die E-Mail-Adressen der einzelnen Empfänger befinden sich in einem getrennten Befehl **RCPT TO:** . Der Umschlagabsender und der Umschlagempfänger werden normalerweise aus dem Absender und dem Empfänger in den Kopfzeilenfeldern `To:`, `From:`, `Cc:` und `Bcc:` im Nachrichtenkopf erstellt. Dies trifft jedoch nicht immer zu. Die Kopfzeilenfelder `To:`, `From:`, `Cc:` und `Bcc:` in einer Nachricht sind leicht zu fälschen und stimmen möglicherweise nicht mit den tatsächlichen Absender- oder Empfänger-E-Mail-Adressen überein, die zum Übertragen der Nachricht verwendet wurden.
+Die Auflösung auf oberster Ebene beginnt mit einer Nachricht und der ursprünglichen, nicht aufgegliederten Liste der Empfänger aus dem *Nachrichtenumschlag*. Der Nachrichtenumschlag enthält die Befehle, die zum Übertragen von Nachrichten zwischen SMTP-Messagingservern verwendet werden. Die E-Mail-Adresse des Absenders ist im Befehl **MAIL FROM:**  enthalten. Die E-Mail-Adressen der einzelnen Empfänger befinden sich in einem getrennten Befehl **RCPT TO:**  . Der Umschlagabsender und der Umschlagempfänger werden normalerweise aus dem Absender und dem Empfänger in den Kopfzeilenfeldern `To:`, `From:`, `Cc:` und `Bcc:` im Nachrichtenkopf erstellt. Dies trifft jedoch nicht immer zu. Die Kopfzeilenfelder `To:`, `From:`, `Cc:` und `Bcc:` in einer Nachricht sind leicht zu fälschen und stimmen möglicherweise nicht mit den tatsächlichen Absender- oder Empfänger-E-Mail-Adressen überein, die zum Übertragen der Nachricht verwendet wurden.
 
 ## Gekapselte E-Mail-Adressen
 
@@ -148,11 +148,11 @@ Der für die Adressauflösung verwendete LDAP-Filter wird wie folgt beschrieben:
 
   - Für alle anderen E-Mail-Adresstypen wird das Active Directory-Empfängerattribut **proxyAddresses** als LDAP-Filter verwendet.
 
-Wenn die in der Nachricht verwendete E-Mail-Adresse nicht mit der primären SMTP-Adresse des entsprechenden Active Directory-Objekts übereinstimmt, schreibt das Kategorisierungsmodul die E-Mail-Adresse in der Nachricht so um, dass sie der primären SMTP-Adresse entspricht. Die ursprüngliche E-Mail-Adresse wird im `ORCPT=`-Eintrag im Befehl **RCPT TO:** im Nachrichtenumschlag gespeichert.
+Wenn die in der Nachricht verwendete E-Mail-Adresse nicht mit der primären SMTP-Adresse des entsprechenden Active Directory-Objekts übereinstimmt, schreibt das Kategorisierungsmodul die E-Mail-Adresse in der Nachricht so um, dass sie der primären SMTP-Adresse entspricht. Die ursprüngliche E-Mail-Adresse wird im `ORCPT=`-Eintrag im Befehl **RCPT TO:**  im Nachrichtenumschlag gespeichert.
 
 ## Nachrichtenbeschränkungen für Absender
 
-Der Wert, der für die Beschränkung der Nachrichtengröße für Absender verwendet wird, entspricht dem Wert des Kopfzeilenfelds **X-MS-Exchange-Organization-OriginalSize:** im Nachrichtenkopf. Exchange verwendet dieses Kopfzeilenfeld zum Aufzeichnen der ursprünglichen Größe der Nachricht zu dem Zeitpunkt, zu dem sie in der Exchange-Organisation eingegangen ist. Bei jeder Überprüfung der Nachricht im Vergleich zu den angegebenen Beschränkungen der Nachrichtengröße wird der niedrigere Wert der aktuellen Nachrichtengröße oder die ursprüngliche Größe der Nachrichtenkopfzeile verwendet. Die Größe der Nachricht kann sich aufgrund von Inhaltskonvertierung, Codierung sowie Agent-Verarbeitung ändern. Wenn dieses Kopfzeilenfeld nicht vorhanden ist, wird es anhand des aktuellen Werts für die Nachrichtengröße erstellt. Wenn die Nachricht zu umfangreich ist, wird ein NDR erstellt, und die weitere Nachrichtenverarbeitung wird eingestellt.
+Der Wert, der für die Beschränkung der Nachrichtengröße für Absender verwendet wird, entspricht dem Wert des Kopfzeilenfelds **X-MS-Exchange-Organization-OriginalSize:**  im Nachrichtenkopf. Exchange verwendet dieses Kopfzeilenfeld zum Aufzeichnen der ursprünglichen Größe der Nachricht zu dem Zeitpunkt, zu dem sie in der Exchange-Organisation eingegangen ist. Bei jeder Überprüfung der Nachricht im Vergleich zu den angegebenen Beschränkungen der Nachrichtengröße wird der niedrigere Wert der aktuellen Nachrichtengröße oder die ursprüngliche Größe der Nachrichtenkopfzeile verwendet. Die Größe der Nachricht kann sich aufgrund von Inhaltskonvertierung, Codierung sowie Agent-Verarbeitung ändern. Wenn dieses Kopfzeilenfeld nicht vorhanden ist, wird es anhand des aktuellen Werts für die Nachrichtengröße erstellt. Wenn die Nachricht zu umfangreich ist, wird ein NDR erstellt, und die weitere Nachrichtenverarbeitung wird eingestellt.
 
 Der Empfängergrenzwert für Absender wird nur im Transportdienst auf dem ersten Postfachserver durchgesetzt, der die Nachricht verarbeitet. Die ursprüngliche, nicht aufgegliederte Empfängeranzahl des Nachrichtenumschlags wird mit dem Empfängergrenzwert für gesendete Nachrichten verglichen. Die ursprüngliche, nicht aufgegliederte Empfängeranzahl des Nachrichtenumschlags wird verwendet, um die in Microsoft Exchange Server 2003 teilweise bestehenden Übermittlungsprobleme für Nachrichten zu vermeiden, deren geschachtelte Verteilerlisten Remoteserver für die Aufgliederung verwendeten.
 
@@ -220,7 +220,7 @@ In der folgenden Liste werden die verfügbaren Zustellungsberichtnachrichten bes
 
   - **Benachrichtigung über den Zustellungsstatus (Delivery Status Notification, DSN)**   Dieser Bericht beschreibt das Ergebnis eines Versuchs, eine Nachricht zuzustellen. Weitere Informationen zu DSN-Nachrichten finden Sie unter [DSNs und NDRs in Exchange 2013](dsns-and-ndrs-in-exchange-2013-exchange-2013-help.md).
 
-  - **Benachrichtigung über den Nachrichtenstatus (Message Disposition Notification, MDN)**   In diesem Bericht wird der Status einer Nachricht beschrieben, nachdem sie einem Empfänger erfolgreich zugestellt wurde. Eine Lesebenachrichtigung (Read Notification, RN) und eine Nichtlesebenachrichtigung (Non-Read Notification, NRN) sind beide Beispiele für eine MDN-Nachricht. MDN-Nachrichten werden in RFC 2298 definiert und durch das Kopfzeilenfeld **Disposition-Notification-To:** im Nachrichtenkopf gesteuert. MDN-Einstellungen, die das Kopfzeilenfeld `Disposition-Notification-To:` verwenden, sind mit vielen verschiedenen Nachrichtenservern kompatibel. MDN-Einstellungen können auch mithilfe von MAPI-Eigenschaften in Microsoft Outlook und Exchange definiert werden.
+  - **Benachrichtigung über den Nachrichtenstatus (Message Disposition Notification, MDN)**   In diesem Bericht wird der Status einer Nachricht beschrieben, nachdem sie einem Empfänger erfolgreich zugestellt wurde. Eine Lesebenachrichtigung (Read Notification, RN) und eine Nichtlesebenachrichtigung (Non-Read Notification, NRN) sind beide Beispiele für eine MDN-Nachricht. MDN-Nachrichten werden in RFC 2298 definiert und durch das Kopfzeilenfeld **Disposition-Notification-To:**  im Nachrichtenkopf gesteuert. MDN-Einstellungen, die das Kopfzeilenfeld `Disposition-Notification-To:` verwenden, sind mit vielen verschiedenen Nachrichtenservern kompatibel. MDN-Einstellungen können auch mithilfe von MAPI-Eigenschaften in Microsoft Outlook und Exchange definiert werden.
 
   - **Unzustellbarkeitsbericht (Non-Delivery Report, NDR)**   Dieser Bericht zeigt dem Absender der Nachricht an, dass die Nachricht nicht an die angegebenen Empfänger zugestellt werden konnte.
 
@@ -244,7 +244,7 @@ Wenn eine Nachricht, die keine Zustellungsberichtnachricht ist, an eine Verteile
 
   - Wenn die Berichtsumleitung auf den Absender der Nachricht festgelegt ist, werden die Einstellungen für die Berichtsanforderung nicht geändert.
 
-  - Wenn keine Berichtsumleitung festgelegt ist, werden alle Einstellungen für die Berichtsanforderung unterdrückt. Der Eintrag `NOTIFY=NEVER` wird dem Befehl **RCPT TO:** für jeden Empfänger im Nachrichtenumschlag hinzugefügt.
+  - Wenn keine Berichtsumleitung festgelegt ist, werden alle Einstellungen für die Berichtsanforderung unterdrückt. Der Eintrag `NOTIFY=NEVER` wird dem Befehl **RCPT TO:**  für jeden Empfänger im Nachrichtenumschlag hinzugefügt.
 
   - Wenn die Berichtsumleitung auf den Verteilergruppenleiter festgelegt ist, werden alle Einstellungen zur Berichtsanforderung unterdrückt, mit Ausnahme von NDR-Nachrichten, die an den Leiter der Verteilergruppe gesendet werden.
 
@@ -340,13 +340,13 @@ Da die gesamte Liste der Nachrichtenempfänger von der Empfängerauflösung aufg
 
 Die Empfängerauflösung verzweigt eine Nachricht, wenn die folgenden Bedingungen erfüllt sind:
 
-  - Wenn der Nachrichtenabsender in **MAIL FROM:** im Nachrichtenumschlag aktualisiert wird. Dies ist beispielsweise der Fall, wenn der Parameter *ReportToManagerEnabled* für eine Verteilergruppe den Wert `$true` aufweist.
+  - Wenn der Nachrichtenabsender in **MAIL FROM:**  im Nachrichtenumschlag aktualisiert wird. Dies ist beispielsweise der Fall, wenn der Parameter *ReportToManagerEnabled* für eine Verteilergruppe den Wert `$true` aufweist.
 
   - Wenn Nachrichten für die automatische Antwort, wie etwa DSNs, OOF-Nachrichten und Rückrufberichte, unterdrückt werden müssen.
 
   - Wenn alternative Empfänger aufgegliedert werden.
 
-  - Wenn dem Nachrichtenkopf ein Kopfzeilenfeld **Resent-From:** hinzugefügt werden muss. "Resent"-Kopfzeilenfelder sind Informationskopfzeilenfelder, die zum Bestimmen verwendet werden können, ob eine Nachricht von einem Benutzer weitergeleitet wurde. Resent-Kopfzeilenfelder werden verwendet, damit die Nachricht dem Empfänger so erscheint, als wäre sie direkt vom ursprünglichen Absender gesendet worden. Der Empfänger kann den Nachrichtenkopf anzeigen und ermitteln, wer die Nachricht weitergeleitet hat. Resent-Kopfzeilenfelder sind im Abschnitt 3.6.6 von RFC 2822 definiert.
+  - Wenn dem Nachrichtenkopf ein Kopfzeilenfeld **Resent-From:**  hinzugefügt werden muss. "Resent"-Kopfzeilenfelder sind Informationskopfzeilenfelder, die zum Bestimmen verwendet werden können, ob eine Nachricht von einem Benutzer weitergeleitet wurde. Resent-Kopfzeilenfelder werden verwendet, damit die Nachricht dem Empfänger so erscheint, als wäre sie direkt vom ursprünglichen Absender gesendet worden. Der Empfänger kann den Nachrichtenkopf anzeigen und ermitteln, wer die Nachricht weitergeleitet hat. Resent-Kopfzeilenfelder sind im Abschnitt 3.6.6 von RFC 2822 definiert.
 
   - Wenn der Verlauf der Aufgliederung der Verteilergruppe übermittelt werden muss.
 

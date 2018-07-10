@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-22_
+_**Letztes Änderungsdatum des Themas:** 2015-01-22_
 
 Der Ordner **Wiederherstellbare Elemente** enthält von Microsoft Outlook- und Microsoft OfficeOutlook Web App-Benutzern oder vom Postfach-Assistenten gelöschte Elemente. Die Zeitdauer, während der gelöschte Elemente in diesem Ordner beibehalten werden, basiert auf den Einstellungen für die Aufbewahrungszeit gelöschter Elemente, die für die Postfachdatenbank oder das Postfach konfiguriert sind. Für Postfachdatenbanken ist standardmäßig eine Aufbewahrungszeit für gelöschte Elemente von 14 Tagen konfiguriert. Für die Anzeige einer Warnung zum Kontingent für wiederherstellbare Elemente und für das Kontingent für wiederherstellbare Elemente sind 20 GB bzw. 30 GB festgelegt. Wenn für das Postfach jedoch ein Compliance-Archiv oder Beweissicherungsverfahren aktiv ist, können im Ordner Wiederherstellbare Elemente für eine längere Zeitdauer als die angegebene Aufbewahrungszeit gelöschte Elemente gespeichert werden. Zudem können unterschiedliche Versionen geänderter Postfachelemente verwaltet werden.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Organization Configuration` ermöglicht Administratoren das Verwalten organisationsweiter Einstellungen. Die Konfigurationseinstellungen für eine Organisation, die über diese Rolle gesteuert werden können, umfassen u. a. Folgendes:
 

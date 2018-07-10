@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-02_
+_**Letztes Änderungsdatum des Themas:** 2014-12-02_
 
 Microsoft Exchange Server 2013 Setup kann nicht fortgesetzt werden, da festgestellt wurde, dass das aktuelle Konto an keiner Active Directory-Domäne angemeldet ist. Sie müssen sich an einem Active Directory-Konto anmelden, das über die notwendigen Berechtigungen für die Installation von Exchange Server 2013 verfügt.
 

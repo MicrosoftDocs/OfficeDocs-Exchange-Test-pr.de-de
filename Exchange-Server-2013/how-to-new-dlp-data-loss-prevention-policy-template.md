@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-14_
+_**Letztes Änderungsdatum des Themas:** 2015-01-14_
 
 In Microsoft Exchange Server 2013 können Sie Richtlinienvorlagen zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) verwenden, um den Anforderungen in Bezug auf Messagingrichtlinien und deren Einhaltung gerecht zu werden, die in Ihrer Organisation gelten. Diese Vorlagen enthalten vordefinierte Sätze an Regeln, mit denen Sie Nachrichtendaten verwalten können, für die verschiedene rechtliche und regulatorische Auflagen gelten. Eine Liste aller von Microsoft bereitgestellten Vorlagen finden Sie unter [In Exchange bereitgestellte DLP-Richtlinienvorlagen](dlp-policy-templates-supplied-in-exchange-exchange-2013-help.md). Die bereitgestellten DLP-Beispielvorlagen unterstützen Sie bei der Datenverwaltung in Bezug auf folgende Vorgaben und Standards:
 

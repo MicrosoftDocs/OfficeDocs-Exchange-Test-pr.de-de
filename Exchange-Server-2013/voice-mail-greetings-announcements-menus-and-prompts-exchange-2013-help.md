@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Wenn Sie Unified Messaging (UM) installieren, wird eine allgemeine Sammlung von Standardaudiodateien installiert, die für das Voicemailsystem und für Menüansagen, Begrüßungen und Informationsansagen verwendet wird. Zwar ist es möglich, eine vollständig funktionsfähige automatische UM-Telefonzentrale oder einen Wählplan zu erstellen, die bzw. der nur die Standardtelefonansagen verwendet, sind diese Ansagen für viele Unternehmen zu allgemein, als dass sie als Schnittstelle zur Öffentlichkeit eingesetzt werden könnten. In diesem Thema werden die System- und Menüansagen, Begrüßungen und Informationsansagen behandelt, die von UM-Wählplänen und automatischen Telefonzentralen verwendet werden, sowie deren Verwendung beim Zugriff auf das Voicemailsystem durch Anrufer.
 

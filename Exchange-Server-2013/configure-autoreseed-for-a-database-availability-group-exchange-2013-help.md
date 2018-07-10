@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-15_
+_**Letztes Änderungsdatum des Themas:** 2013-04-15_
 
 AutoReseed ist eine Funktion für die schnelle Wiederherstellung der Datenbankredundanz nach einem Datenträgerausfall. Wenn ein Datenträger ausfällt, wird für die auf diesem Datenträger gespeicherten Datenbankkopien automatisch ein erneutes Seeding auf einen vorkonfigurierten Ersatzdatenträger auf dem Postfachserver durchgeführt. Sie können die Schritte in diesem Thema ausführen, um die AutoReseed-Funktion für eine Database Availability Group (DAG) zu konfigurieren.
 
@@ -122,13 +122,21 @@ Die bereitgestellten Volumes sollten in der Ausgabeliste angezeigt werden.
 
 Im nächsten Schritt erstellen Sie die Datenbankverzeichnisse unterhalb des Stammpfads "C:\\ExchangeDatabases". Mit diesem Beispiel wird veranschaulicht, wie in jedem Datenträger Verzeichnisse für eine Speicherkonfiguration mit vier Datenbanken erstellt werden können.
 
+```
     md c:\ExchangeDatabases\db001
+```
 
+```
     md c:\ExchangeDatabases\db002
+```
 
+```
     md c:\ExchangeDatabases\db003
+```
 
+```
     md c:\ExchangeDatabases\db004
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 
@@ -162,21 +170,37 @@ C:\\\< *Datenbankordnername*\>\\*Datenbankname*\\\<*Datenbankname*\>.db
 
 In diesem Beispiel wird gezeigt, wie Sie Verzeichnisse für 4 Datenbanken erstellen, die auf Volume 1 gespeichert werden:
 
+```
     md c:\ExchangeDatabases\db001\db001.db
+```
 
+```
     md c:\ExchangeDatabases\db001\db001.log
+```
 
+```
     md c:\ExchangeDatabases\db002\db002.db
+```
 
+```
     md c:\ExchangeDatabases\db002\db002.log
+```
 
+```
     md c:\ExchangeDatabases\db003\db003.db
+```
 
+```
     md c:\ExchangeDatabases\db003\db003.log
+```
 
+```
     md c:\ExchangeDatabases\db004\db004.db
+```
 
+```
     md c:\ExchangeDatabases\db004\db004.log
+```
 
 Führen Sie die obigen Befehle für die Datenbanken auf jedem Volume aus.
 
@@ -212,7 +236,11 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Konfiguration der AutoReseed-
 
 2.  Führen Sie den folgenden Befehl aus, um die ordnungsgemäße Konfiguration der Verzeichnisstruktur zu überprüfen (nachfolgend werden die Standardpfade angezeigt; ersetzen Sie die Pfade ggf. durch die von Ihnen verwendeten Pfade):
     
-        Dir c:\ExchangeDatabases /s
-    
-        Dir c:\ExchangeVolumes /s
+```
+	Dir c:\ExchangeDatabases /s
+```
+
+```
+	Dir c:\ExchangeVolumes /s
+```
 

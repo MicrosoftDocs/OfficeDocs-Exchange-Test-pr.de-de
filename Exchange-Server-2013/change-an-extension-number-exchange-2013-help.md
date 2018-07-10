@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-14_
+_**Letztes Änderungsdatum des Themas:** 2012-11-14_
 
 Wenn Sie einen Benutzer für UM aktivieren und mit einem Wählplan vom Typ "Telefondurchwahl" verknüpfen, wird für den Benutzer eine Exchange Unified Messaging-Proxyadresse (EUM) erstellt, die die Durchwahlnummer des Benutzers enthält. Sie müssen mindestens eine Durchwahlnummer für UM definieren, damit Voicemail an das Postfach des Benutzers gesendet werden kann. Die Durchwahlnummer wird auch verwendet, wenn der Benutzer eine Outlook Voice Access-Nummer anruft.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Durch Filtern werden verschiedene Ansichten der Nachrichten in Warteschlangen generiert. Durch Angeben von Filterkriterien können Nachrichten schnell gefunden und entsprechende Aktionen für sie eingeleitet werden. Wenn eine E-Mail-Nachricht an mehrere Empfänger gesendet wird, kann sie sich in mehreren Warteschlangen befinden. Beim Filtern nach Nachrichteneigenschaften können Nachrichten in allen Warteschlangen gefunden werden. Die folgenden Szenarien stellen Beispiele für die Verwendung der Nachrichtenfilterung zum Verwalten der Nachrichtenübermittlung dar:
 

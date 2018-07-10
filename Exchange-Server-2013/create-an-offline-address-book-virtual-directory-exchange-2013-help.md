@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-16_
+_**Letztes Änderungsdatum des Themas:** 2012-10-16_
 
 Das virtuelle OAB-Verzeichnis ist der Verteilungspunkt für das OAB. Bei der Installation von Microsoft Exchange Server 2013 wird standardmäßig ein neues virtuelles Verzeichnis mit dem Namen "OAB" auf der internen Standardwebsite von IIS (Internet Information Services, Internetinformationsdienste) erstellt. Wenn clientseitige Benutzer außerhalb der Firewall Ihrer Organisation eine Verbindung mit MicrosoftOutlook herstellen, können Sie eine externe Website hinzufügen. Alternativ dazu wird ein neues virtuelles Verzeichnis mit dem Namen "OAB" auf der IIS-Standardwebsite auf dem lokalen Exchange-Server erstellt, wenn Sie das Cmdlet **New-OABVirtualDirectory** in der Shell ausführen.
 

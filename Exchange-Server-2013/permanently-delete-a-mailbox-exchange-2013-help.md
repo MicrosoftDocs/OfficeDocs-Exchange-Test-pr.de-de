@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-16_
+_**Letztes Änderungsdatum des Themas:** 2012-11-16_
 
 Wenn Sie aktive und getrennte Postfächer endgültig löschen, werden sämtliche Postfachinhalte aus der Exchange-Postfachdatenbank unwiederbringlich entfernt. Wenn Sie ein aktives endgültig dauerhaft löschen, wird das dazugehörige Active Directory-Benutzerkonto ebenfalls gelöscht.
 

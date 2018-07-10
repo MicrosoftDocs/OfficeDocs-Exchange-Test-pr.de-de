@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-14_
+_**Letztes Änderungsdatum des Themas:** 2012-10-14_
 
 Adresslisten sind eine Sammlung von Empfänger- und anderen Active Directory-Objekten. Eine Adressliste wird angewendet, wenn die Filterregel für Adresslisten bearbeitet wurde. Um die Mitgliedschaft der Adressliste so zu aktualisieren, dass neue Empfänger aufgenommen und die Empfänger, die die Filterkriterien nicht mehr erfüllen, entfernt werden, müssen Sie die Adressliste anwenden.
 

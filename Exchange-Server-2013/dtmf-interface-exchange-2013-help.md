@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In Unified Messaging (UM) können Anrufer DTMF (Dual Tone Multi-Frequency), auch als Tonwahl bezeichnet, und Spracheingaben für die Interaktion mit dem System verwenden. Welches Verfahren Benutzer verwenden können, hängt davon ab, wie der UM-Wählplan und automatischen Telefonzentralen konfiguriert sind.
 

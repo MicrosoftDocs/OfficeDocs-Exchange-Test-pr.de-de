@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2009-12-09_
+_**Letztes Änderungsdatum des Themas:** 2009-12-09_
 
 Mithilfe der Windows-Zuverlässigkeits- und Leistungsüberwachung (**Perfmon.exe**) können Leistungsindikatoren für die Messaging-Datensatzverwaltung (Messaging Records Management, MRM) ausgewählt und angezeigt werden. Anhand von Leistungsindikatoren können Sie den Assistenten für verwaltete Ordner während der Ausführung ressourcenintensiver MRM-Prozesse überwachen.
 

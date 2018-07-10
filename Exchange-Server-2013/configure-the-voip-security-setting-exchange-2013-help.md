@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2014-10-16_
+_**Letztes Änderungsdatum des Themas:** 2014-10-16_
 
 Sie können VoIP-Sicherheit (Voice over IP) für einen UM-Wählplan (Unified Messaging) aktivieren. Beim Erstellen von UM-Wählplänen verwenden diese standardmäßig den ungesicherten Modus und keine Verschlüsselung. Exchange-Server können Anrufe für einzelne oder mehrere UM-Wählpläne sowie für Wählpläne annehmen, die andere VoIP-Sicherheitseinstellungen haben. In Office 365 und Exchange Online ist der abgesicherte Modus erforderlich und kann nicht deaktiviert werden.
 

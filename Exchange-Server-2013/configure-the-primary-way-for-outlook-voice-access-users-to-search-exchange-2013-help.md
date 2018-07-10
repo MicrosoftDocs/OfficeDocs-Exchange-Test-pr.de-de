@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Beim Erstellen eines Unified Messaging-Wählplans (UM) können Sie die primäre und sekundäre Methode konfigurieren, mit der Anrufer nach Namen suchen können, um einen Benutzer zu ermitteln, wenn sie eine Outlook Voice Access-Nummer oder die Nummer einer automatischen UM-Telefonzentrale anrufen, die dem Wählplan zugeordnet ist. Anrufer können Tonwahleingaben für die Suche nach einem UM-aktivierten Benutzer verwenden.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-30_
+_**Letztes Änderungsdatum des Themas:** 2012-11-30_
 
 Sie können für eine automatische Unified Messaging-Telefonzentrale (Unified Messaging) eine benutzerdefinierte Begrüßung außerhalb der Geschäftszeit aktivieren. Wenn eine automatische UM-Telefonzentrale außerhalb der Geschäftszeit einen Anruf beantwortet, hört der Anrufer als Erstes die Begrüßung. Sie können die Begrüßung nach Wunsch anpassen.
 

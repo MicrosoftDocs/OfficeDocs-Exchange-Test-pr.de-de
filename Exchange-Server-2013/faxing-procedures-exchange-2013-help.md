@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-15_
+_**Letztes Änderungsdatum des Themas:** 2013-02-15_
 
 [Festlegen des Partners Faxserver URI zum Senden von Faxen zulassen](set-the-partner-fax-server-uri-to-allow-faxing-exchange-2013-help.md)
 

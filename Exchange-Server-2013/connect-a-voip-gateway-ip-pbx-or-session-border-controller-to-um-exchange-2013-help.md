@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie müssen die Voice over IP-Gateways (VoIP) und IP-Nebenstellenanlagen (PBXs) korrekt konfigurieren, wenn Sie Unified Messaging (UM) für Ihre Organisation bereitstellen. Wenn Sie UM in einer Hybridumgebung bereitstellen, müssen Sie auch Ihre Session Border Controller (SBC) korrekt konfigurieren. Dafür müssen Sie die IP-Schnittstelle der VoIP-Gateways, IP-Nebenstellenanlagen und SBCs konfigurieren, die Sie für die Kommunikation mit den Clientzugriffsservern verwenden, die den Microsoft Exchange Unified Messaging-Call-Router-Dienst ausführen, sowie mit den Postfachservern, die den Microsoft Exchange Unified Messaging-Dienst ausführen.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-04-28_
+_**Letztes Änderungsdatum des Themas:** 2017-04-28_
 
 Bei E-Mail-Infos handelt es sich um informative Meldungen, die Benutzern beim Erstellen einer Nachricht angezeigt werden. Microsoft Exchange Server 2013 analysiert die Nachricht, einschließlich der Liste der Empfänger, an die sie gerichtet ist. Wird ein potenzielles Problem erkannt, wird der Benutzer vor dem Senden der Nachricht mithilfe von E-Mail-Infos benachrichtigt. Mithilfe der durch E-Mail-Infos bereitgestellten Informationen können Absender die verfasste Nachricht korrigieren, um unerwünschte Situationen oder Unzustellbarkeitsberichte (Non-Delivery Reports, NDRs) zu vermeiden.
 

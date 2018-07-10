@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 In Exchange Server 2013 können Sie eine Aktion zum Erstellen eines Schadensberichts innerhalb eines DLP-Richtlinienregelsatzes einrichten. Außerdem können Sie angeben, an wen der Bericht gesendet werden und was mit der ursprünglichen Nachricht geschehen soll. Der Schadensbericht kann folgende Informationen enthalten.
 

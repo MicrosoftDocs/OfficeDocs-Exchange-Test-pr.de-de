@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-13_
+_**Letztes Änderungsdatum des Themas:** 2012-11-13_
 
 Sie können mithilfe der Exchange-Verwaltungskonsole oder Shell ein deaktiviertes Postfach mit einem Active Directory-Benutzerkonto verbinden. Wenn Sie ein Postfach deaktivieren, behält Exchange das Postfach in der Postfachdatenbank bei und schaltet es in einen deaktivierten Status. Die Exchange-Attribute werden aus dem dazugehörigen Active Directory-Benutzerkonto entfernt, doch das Benutzerkonto bleibt erhalten. Das Postfach wird aufbewahrt, bis der Aufbewahrungszeitraum für gelöschte Postfächer abgelaufen ist, der standardmäßig 30 Tage beträgt. Danach wird es aus der Postfachdatenbank *endgültig gelöscht*.
 

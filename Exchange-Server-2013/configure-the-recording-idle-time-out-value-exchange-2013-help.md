@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-11_
+_**Letztes Änderungsdatum des Themas:** 2012-11-11_
 
 Sie können die Anzahl von Sekunden festlegen, in denen beim Aufzeichnen einer Sprachnachricht geschwiegen werden darf, bevor das Telefonat beendet wird. Für die meisten Organisationen sollte dieser Wert auf die Standardeinstellung von 5 Sekunden festgelegt werden.
 

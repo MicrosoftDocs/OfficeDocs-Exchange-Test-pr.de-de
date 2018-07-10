@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-13_
+_**Letztes Änderungsdatum des Themas:** 2013-02-13_
 
 Sie können eine Voicemailvorschau-Partner-ID für eine Unified Messaging-Postfachrichtlinie (UM) festlegen. Nach dem Festlegen der Voicemailvorschau-Partner-ID für eine UM-Postfachrichtlinie wird die Einstellung auf alle UM-aktivierten Benutzer angewendet, die dieser UM-Postfachrichtlinie zugeordnet sind.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Es kann vorkommen, dass Sie Nachrichten von einem System empfangen möchten, auf dem kein Exchange ausgeführt wird. Beispielsweise könnten Sie ein Netzwerkgerät verwenden, das Richtlinienprüfungen durchführt und anschließend Nachrichten an Ihren Exchange-Server sendet. In diesem Fall wird davon ausgegangen, dass das Gerät SMTP verwendet. Andernfalls sollten Sie einen fremden Connector oder einen Zustellungs-Agent-Connector einsetzen.
 

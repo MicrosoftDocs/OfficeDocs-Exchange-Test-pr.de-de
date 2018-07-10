@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-27_
+_**Letztes Änderungsdatum des Themas:** 2012-11-27_
 
 Mithilfe der Shell können Sie Kalenderzugriffseinstellungen für Benutzer konfigurieren, die über POP3-Verbindungen eine Verbindung mit ihrem Postfach herstellen. Die festgelegten Einstellungen bestimmen, wie POP3-Benutzer auf ihren Kalender zugreifen und Kalenderinformationen mit anderen Benutzer austauschen können (z. B. beim Senden oder Beantworten einer Besprechungsanfrage).
 

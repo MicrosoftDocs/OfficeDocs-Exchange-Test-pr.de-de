@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Exchange-Verwaltungsshell bietet verschiedene Methoden zum Formatieren der Befehlsausgabe. In diesem Thema werden die folgenden Punkte behandelt:
 

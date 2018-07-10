@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In diesem Thema werden die am häufigsten verwendeten Cmdlets beschrieben, die in der RTM-Version (Release to Manufacturing) und höheren Versionen von Microsoft Exchange Server 2013 verfügbar sind, und es werden Beispiele zu deren Verwendung bereitgestellt.
 

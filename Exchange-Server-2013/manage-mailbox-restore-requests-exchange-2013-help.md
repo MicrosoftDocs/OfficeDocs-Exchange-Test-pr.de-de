@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mithilfe von Postfachwiederherstellungsanforderungen werden getrennte Postfächer wiederhergestellt. Bei einem getrennten Postfach handelt es sich um ein Postfach in der Exchange-Postfachdatenbank, das keinem Active Directory-Benutzerkonto zugeordnet ist. Postfächer werden getrennt, wenn sie deaktiviert, gelöscht oder in eine andere Datenbank verschoben werden. Weitere Informationen finden Sie unter [Getrennte Postfächer](disconnected-mailboxes-exchange-2013-help.md).
 

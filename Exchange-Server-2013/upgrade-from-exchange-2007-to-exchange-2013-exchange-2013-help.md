@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Microsoft Exchange Server 2010 und Exchange Server 2007 haben zahlreiche Serverrollen: ClientAccess, Mailbox, Hub-Transport, UnifiedMessaging und Edge-Transport. Bei Exchange Server 2013 wurde die Anzahl der Serverrollen von fünf auf drei reduziert: ClientAccess, Mailbox und Edge-Transport. Unified Messaging wird nun als Komponente oder Teilfunktion der sprachbezogenen Funktionen betrachtet, die in Exchange 2013 verfügbar sind. (Weitere Details zu den Änderungen finden Sie unter "Exchange 2013-Architektur" in [Neuerungen in Exchange 2013](what-s-new-in-exchange-2013-exchange-2013-help.md).)
 

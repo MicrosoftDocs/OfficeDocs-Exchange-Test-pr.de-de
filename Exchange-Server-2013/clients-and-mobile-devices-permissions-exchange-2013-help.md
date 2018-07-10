@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-11-10_
+_**Letztes Änderungsdatum des Themas:** 2015-11-10_
 
 Die zum Ausführen von Aufgaben für Clients und mobile Geräte erforderlichen Berechtigungen richten sich nach dem durchzuführenden Vorgang bzw. nach dem auszuführenden Cmdlet. Weitere Informationen zu Funktionen für Clients und mobile Geräte finden Sie unter [Clients und mobile Funktionen](clients-and-mobile-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-04-28_
+_**Letztes Änderungsdatum des Themas:** 2017-04-28_
 
 Mithilfe von Nachrichtenflussregeln (auch bekannt als Transportregeln) können Sie Nachrichten, die über Ihre Exchange 2013-Organisation fließen, identifizieren und Maßnahmen dafür ergreifen. Nachrichtenflussregeln sind mit den Posteingangsregeln vergleichbar, die in Outlook und Outlook Web App zur Verfügung stehen. Der Hauptunterschied besteht darin, dass Nachrichtenflussregeln Nachrichten während der Übertragung behandeln und nicht nach der Übermittlung der Nachricht an das Postfach. Nachrichtenflussregeln enthalten einen reichhaltigeren Satz an Bedingungen, Ausnahmen und Aktionen, sodass Sie über die Flexibilität verfügen, viele Arten von Nachrichtenrichtlinien zu implementieren.
 
@@ -253,7 +253,7 @@ In Exchange 2013 sind dieses Intervall und weitere Parameter in Verbindung mit d
 
 Nachrichtenflussregeln, die Sie auf Postfachservern erstellen und konfigurieren, werden in Active Directory gespeichert und vom Transportdienst auf allen Postfachservern in der Organisation gelesen und angewendet. Wenn Sie eine Nachrichtenflussregel erstellen, ändern oder entfernen, wird diese Änderung zwischen den Domänencontrollern in der Organisation repliziert. Damit ist Exchange in der Lage, eine konsistente Gruppe von Nachrichtenflussregeln für die gesamte Organisation bereitzustellen.
 
-**Hinweise:**
+**Hinweise:** 
 
   - Die Replikation zwischen Domänencontrollern hängt von Faktoren ab, die nicht von Exchange gesteuert werden (z. B. von der Anzahl der Active Directory-Websites und der Geschwindigkeit der Netzwerkverbindungen). Berücksichtigen Sie daher beim Implementieren von Nachrichtenflussregeln in Ihrer Organisation Replikationsverzögerungen. Weitere Informationen zur Active Directory-Replikation finden Sie unter [Active Directory-Replikation und Topologieverwaltung mithilfe von Windows PowerShell](https://go.microsoft.com/fwlink/p/?linkid=274904).
 

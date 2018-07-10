@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Wenn ein UM-aktivierter (Unified Messaging) Voicemailbenutzer sein Postfach durch mehrfache Anmeldeversuche bei Outlook Voice Access mit einer falschen PIN gesperrt oder seine PIN vergessen hat, kann seine PIN mithilfe eines der folgenden Verfahren zurückgesetzt werden. Beim Zurücksetzen der Outlook Voice Access-PIN eines Benutzers können Sie Unified Messaging für die automatische PIN-Generierung konfigurieren oder die PIN manuell angeben. Die neue PIN wird per E-Mail an den Benutzer gesendet. Sie können weitere PIN-Optionen angeben, z. B. den Benutzer auffordern, bei der ersten Anmeldung seine PIN zurückzusetzen. Benutzer können außerdem ihre UM-PIN mithilfe von Outlook oder Outlook Web App zurücksetzen.
 

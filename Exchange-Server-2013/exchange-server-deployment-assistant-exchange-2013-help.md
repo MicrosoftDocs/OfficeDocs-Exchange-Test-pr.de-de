@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Der Exchange Server-Bereitstellungs-Assistent ist ein webbasiertes Tool, das Sie bei der Bereitstellung von Microsoft Exchange Server 2016 und Exchange Server 2013unterstützt. Sie müssen im Bereitstellungs-Assistenten einige Fragen zu Ihrer aktuellen Umgebung beantworten, anschließend wird eine benutzerdefinierte Prüfliste sowie eine Auflistung der Verfahren generiert, die Bereitstellung vereinfachen. Informationen zum Zugriff auf den Bereitstellungs-Assistenten finden Sie unter [Exchange Server-Bereitstellungsassistent](https://go.microsoft.com/fwlink/p/?linkid=277105).
 

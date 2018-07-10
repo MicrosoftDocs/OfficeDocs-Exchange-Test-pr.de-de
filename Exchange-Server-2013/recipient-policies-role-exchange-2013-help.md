@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Recipient Policies` ermöglicht Administratoren die Verwaltung von Empfängerrichtlinien in einer Organisation, wie z. B. Einschränkungsrichtlinien, Microsoft Office Outlook Web App-Postfachrichtlinien und Richtlinien für mobile Geräte.
 

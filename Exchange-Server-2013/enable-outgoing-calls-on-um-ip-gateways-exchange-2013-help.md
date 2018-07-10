@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-13_
+_**Letztes Änderungsdatum des Themas:** 2012-11-13_
 
 Sie können ausgehende Anrufe für ein UM-IP-Gateway (Unified Messaging) aktivieren, wenn ausgehende Anrufe deaktiviert worden sind. Wenn Sie in den Eigenschaften des UM-IP-Gateways die Option **Ausgehende Anrufe über dieses UM-IP-Gateway zulassen** aktivieren, konfigurieren Sie das UM-IP-Gateway für das Annehmen und Senden von ausgehenden Anrufen von einem/an ein VoIP-Gateway (Voice over IP), von einer/an eine Nebenstellenanlage, die für SIP (Session Initiation Protocol) aktiviert ist, von einer/an eine IP-Nebenstellenanlage oder von einem/an einen SBC (Session Border Controller). Obwohl die Einstellung **Ausgehende Anrufe über dieses UM-IP-Gateway zulassen** steuert, ob das UM-IP-Gateway ausgehende Anrufe für Benutzer initiieren kann, wirkt sie sich nicht auf Anrufübergaben oder eingehende Anrufe von einem VoIP-Gateway, einer für SIP aktivierten Nebenstellenanlage, einer IP-Nebenstellenanlage oder einem SBC aus.
 

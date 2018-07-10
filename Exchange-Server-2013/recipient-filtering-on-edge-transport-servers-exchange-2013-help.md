@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-05-07_
+_**Letztes Änderungsdatum des Themas:** 2014-05-07_
 
 Die Empfängerfilterung ist eine Antispamfunktion in Microsoft Exchange Server 2013, die den RCPT TO SMTP-Header verwendet, um zu bestimmen, welche Aktion ggf.auf eine eingehende Nachricht angewendet werden soll. Die Empfängerfilterung wird vom Empfängerfilter-Agent ausgeführt.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-20_
+_**Letztes Änderungsdatum des Themas:** 2014-02-20_
 
 Richten Sie eine Organisationsbeziehung ein, um Kalenderinformationen für externe Geschäftspartner freizugeben. Exchange-Administratoren können eine Organisationsbeziehung mit einer Office 365-Organisation oder mit einer anderen lokalen Exchange-Organisation einrichten. Wenn Sie Kalender für eine andere lokale Exchange-Organisation freigeben möchten, müssen die Administratoren der beiden lokalen Exchange-Organisationen eine Authentifizierungsbeziehung mit der Cloud (auch "Verbund" genannt) einrichten und die Mindestsoftwareanforderungen erfüllen.
 

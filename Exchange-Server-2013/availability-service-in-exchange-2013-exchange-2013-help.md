@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Der Exchange 2013-Verfügbarkeitsdienst wird verwendet, um Microsoft Outlook- und Outlook Web App-Clients Frei/Gebucht-Informationen zur Verfügung zu stellen. Der Verfügbarkeitsdienst verbessert die Benutzererfahrung der Information-Worker bei Kalenderfunktionen und bei der Besprechungsplanung, indem sichere, konsistente und aktuelle Frei/Gebucht-Informationen zur Verfügung gestellt werden.
 

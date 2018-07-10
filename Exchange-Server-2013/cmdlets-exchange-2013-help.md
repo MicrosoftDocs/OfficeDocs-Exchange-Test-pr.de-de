@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Ein *Cmdlet*, gesprochen "Commandlet", ist die kleinste Funktionseinheit der Exchange-Verwaltungsshell. Cmdlets sind mit den Befehlen vergleichbar, die in andere Shells integriert sind, z. B. der `dir`-Befehl, der von `cmd.exe` bereitgestellt wird. Wie diese bekannten Befehle können auch Cmdlets direkt über die Befehlszeile der Shell aufgerufen werden. Hier werden sie im Kontext der Shell und nicht als separater Prozess ausgeführt.
 

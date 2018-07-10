@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:**2016-09-15_
+_**Letztes Änderungsdatum des Themas:** 2016-09-15_
 
-**Zusammenfassung:** In diesem Artikel erfahren Sie Details zu den Verbindungslimits für den verwalteten Speicher sowie zu deren Konfiguration.
+**Zusammenfassung:**  In diesem Artikel erfahren Sie Details zu den Verbindungslimits für den verwalteten Speicher sowie zu deren Konfiguration.
 
 In MicrosoftExchange Server 2013 wurden Verbindungs- und Nutzungslimits für den verwalteten Speicher von Exchange festgelegt, um zu verhindern, dass eine einzelne Anwendung oder ein einzelner Benutzer alle verfügbaren Verbindungen zum verwalteten Speicher belegt. Wenn ein einzelner Benutzer oder eine einzelne Anwendung alle Verbindungen verwenden darf, können andere Benutzer oder Anwendungen nicht auf den verwalteten Speicher zugreifen. Das kann zu Downtime führen.
 
@@ -49,9 +49,9 @@ In früheren Exchange-Versionen wurden die Limits für Verbindungen zum verwalte
 
 Es gibt die folgenden Typen von Verbindungslimits in Exchange 2013:
 
-  - **Maximale Anzahl von Sitzungen pro Prozess:** Gibt die maximale Anzahl Sitzungen an, die ein Exchange-Dienst gleichzeitig zu einer Postfachdatenbank haben darf.
+  - **Maximale Anzahl von Sitzungen pro Prozess:**  Gibt die maximale Anzahl Sitzungen an, die ein Exchange-Dienst gleichzeitig zu einer Postfachdatenbank haben darf.
 
-  - **Maximale Anzahl von Benutzersitzungen pro Prozess:** Gibt die maximale Anzahl von Sitzungen mit einem bestimmten Protokoll für einen einzelnen Benutzer an.
+  - **Maximale Anzahl von Benutzersitzungen pro Prozess:**  Gibt die maximale Anzahl von Sitzungen mit einem bestimmten Protokoll für einen einzelnen Benutzer an.
 
 Im Abschnitt "Konfigurieren von Sitzungslimits" unten wird beschrieben, wie diese Limits angepasst werden können.
 

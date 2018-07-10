@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-06-15_
+_**Letztes Änderungsdatum des Themas:** 2016-06-15_
 
 In Microsoft Exchange Server 2013 können Ihrer Organisation ganz leicht mehrere autoritative Domänen hinzugefügt werden. Nach dem Hinzufügen der autoritativen Domäne müssen Sie jedoch entscheiden, wie diese in Ihrer Organisation verwendet werden soll. Beispiel:
 
@@ -179,9 +179,7 @@ Führen Sie diese Schritte aus, um weitere E-Mail-Adressen zu erstellen, die als
 
 6.  Klicken Sie auf **Vorschau auf Empfänger anzeigen, für die die Richtlinie gilt**, um die Empfänger anzuzeigen, auf die diese Richtlinie angewendet wird.
 
-7.  
-    
-    Klicken Sie auf **OK**, um Ihre Änderungen zu speichern und die Richtlinie zu erstellen.
+7.  Klicken Sie auf **OK**, um Ihre Änderungen zu speichern und die Richtlinie zu erstellen.
 
 8.  Es wird eine Warnung angezeigt, dass die E-Mail-Adressrichtlinie nicht angewendet wird, bevor sie aktualisiert wurde. Nach der Erstellung wählen Sie sie aus und klicken anschließend im Detailbereich auf **Anwenden**.
 

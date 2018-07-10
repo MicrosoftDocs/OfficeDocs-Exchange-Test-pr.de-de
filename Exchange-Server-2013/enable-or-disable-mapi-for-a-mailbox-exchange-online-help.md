@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-12-31_
+_**Letztes Änderungsdatum des Themas:** 2017-12-31_
 
 Sie können MAPI für ein Benutzerpostfach mithilfe der Exchange-Verwaltungskonsole oder Exchange-Verwaltungsshell aktivieren oder deaktivieren. Wenn MAPI aktiviert ist, kann der Zugriff auf das Postfach eines Benutzers über Outlook oder andere MAPI-E-Mail-Clients erfolgen. Wenn MAPI deaktiviert ist, kann der Zugriff nicht über Outlook oder andere MAPI-Clients erfolgen. Das Postfach empfängt jedoch weiter E-Mail-Nachrichten. Ein Benutzer hat Zugriff darauf, um E-Mail mithilfe eines MAPI-Clients wie Outlook Web App oder eines POP- oder IMAP-E-Mail-Clients zu senden und zu empfangen. Voraussetzung ist, dass das Postfach für den Zugriff durch diese Clients aktiviert ist.
 

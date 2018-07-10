@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-06_
+_**Letztes Änderungsdatum des Themas:** 2012-11-06_
 
 Diese Verfahren zeigen, wie Sie die Kopie einer Postfachdatenbank entfernen. Mithilfe dieser Schritte können Sie nicht die letzte Kopie einer Postfachdatenbank entfernen. Genaue Anweisungen zum Entfernen der letzen Kopie einer Postfachdatenbank finden Sie unter [Remove a mailbox database](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md) oder [Remove-MailboxDatabase](https://technet.microsoft.com/de-de/library/aa997931\(v=exchg.150\)).
 

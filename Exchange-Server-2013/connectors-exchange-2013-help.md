@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-12_
+_**Letztes Änderungsdatum des Themas:** 2012-10-12_
 
 Connectors werden zur Steuerung ein- und ausgehender Nachrichten in Microsoft Exchange Server 2013 verwendet. Mit Connectors können Sie E-Mails von Absendern und an Empfänger außerhalb Ihrer Organisation, von und an Partner über einen sicheren Kanal oder von einem bzw. an ein Gerät zur Nachrichtenverarbeitung weiterleiten.
 

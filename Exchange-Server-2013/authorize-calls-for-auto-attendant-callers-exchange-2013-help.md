@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Sie können Wählautorisierungen für eine automatische Unified Messaging-Telefonzentrale (UM) aktivieren. Wählautorisierungen für eine automatische Telefonzentrale dienen zum Unterbinden, dass Benutzer, die sich in die automatische Telefonzentrale einwählen, Fern- oder Auslandsgespräche bzw. *Outdialing*-Telefonate führen. Outdialing erfolgt, wenn Unified Messaging einen ausgehenden Anruf für einen Benutzer tätigt, nachdem dieser sich bei einer Telefonnummer eingewählt hat, die für eine automatische UM-Telefonzentrale konfiguriert ist.
 

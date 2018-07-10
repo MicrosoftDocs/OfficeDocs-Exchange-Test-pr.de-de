@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2013-03-22_
+_**Letztes Änderungsdatum des Themas:** 2013-03-22_
 
 Microsoft Exchange Server 2013-Setup kann nicht fortgesetzt werden, da festgestellt wurde, dass der lokale Computer keiner Active Directory-Domäne angehört. Sie müssen den lokalen Computer einer Active Directory-Domäne hinzufügen, bevor Sie Exchange Server 2013 installieren können. Diese Meldung wird möglicherweise auch angezeigt, wenn Sie sich auf dem Computer mit einem lokalen Benutzerkonto anstatt einem Domänenbenutzerkonto mit ausreichenden Berechtigungen zur Installation von Exchange 2013 anmelden.
 

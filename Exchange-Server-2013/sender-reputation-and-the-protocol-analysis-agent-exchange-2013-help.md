@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-16_
+_**Letztes Änderungsdatum des Themas:** 2012-10-16_
 
 Die Absenderzuverlässigkeit ist Teil der Exchange-Antispamfunktion, die Nachrichten anhand zahlreicher Eigenschaften des Absenders blockiert. Die Absenderzuverlässigkeit verwendet gespeicherte Daten über den Absender, um die Aktion zu bestimmen, die ggf. für eine eingehende Nachricht ausgeführt werden soll. Der Protokollanalyse-Agent ist der zugrunde liegende Agent für die Funktion der Absenderzuverlässigkeit.
 

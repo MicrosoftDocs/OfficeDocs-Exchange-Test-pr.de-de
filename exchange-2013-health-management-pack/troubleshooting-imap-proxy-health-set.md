@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-07_
+_**Letztes Änderungsdatum des Themas:** 2013-02-07_
 
 Mit dem IMAP.Proxy-Integritätssatz wird die Verfügbarkeit der IMAP4-Proxyinfrastruktur auf dem Clientzugriffsserver überwacht. Wenn Sie eine Warnung erhalten, dass Integritätsfehler im IMAP.Proxy-Integritätssatz vorliegen, weist dies auf ein Problem hin, das eventuell die IMAP-Komponenten auf dem Clientzugriffsserver betrifft, der in der Warnung angegeben ist.
 

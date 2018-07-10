@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2014-09-17_
+_**Letztes Änderungsdatum des Themas:** 2014-09-17_
 
 Mithilfe der Shell können Sie die Aufzeichnung benutzerdefinierter Ansagen und Begrüßungen für UM-Wählpläne (Unified Messaging) und automatische UM-Telefonzentralen über die Benutzerschnittstelle für Telefoneingabe (Telephone User Interface, TUI) aktivieren. Dies kann hilfreich sein, wenn Sie eine benutzerdefinierte Begrüßung mithilfe der Exchange-Verwaltungskonsole oder der Shell ändern möchten oder wenn ein Notfall eintritt, z. B. eine Schließung der Organisation aufgrund extremer Wetterbedingungen. Wenn Sie eine benutzerdefinierte Begrüßung oder Ansage in einer automatischen UM-Telefonzentrale ändern, müssen Sie für den Wählplan, mit dem die automatische UM-Telefonzentrale verknüpft ist, TUI-Ansagenaufzeichnung aktivieren.
 

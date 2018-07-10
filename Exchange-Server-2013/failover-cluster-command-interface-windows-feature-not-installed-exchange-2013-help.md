@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-03_
+_**Letztes Änderungsdatum des Themas:** 2014-12-03_
 
 Das Microsoft Exchange Server 2013-Setup kann nicht fortgesetzt werden, da auf dem lokalen Computer eine erforderliche Windows-Funktion nicht vorhanden ist. Sie müssen diese Windows-Funktion installieren, bevor Exchange 2013 fortgesetzt werden kann.
 

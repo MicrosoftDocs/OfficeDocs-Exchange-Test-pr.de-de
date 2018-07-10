@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-30_
+_**Letztes Änderungsdatum des Themas:**  2013-03-30_
 
 Beginnen wir mit dem Importieren des Management Pack in die SCOM-Bereitstellung.
 

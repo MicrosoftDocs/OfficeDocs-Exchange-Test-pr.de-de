@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-11_
+_**Letztes Änderungsdatum des Themas:** 2013-02-11_
 
 Nach der Installation eines Postfachservers, auf dem Microsoft Exchange Unified Messaging-Dienst ausgeführt wird, können Sie mehrere Optionen, einschließlich der Anzahl gleichzeitiger Anrufe, die TCP und Sicherheit TLS (Transport Layer) überwacht Ports, den Status und der UM-Startmodus konfigurieren.
 

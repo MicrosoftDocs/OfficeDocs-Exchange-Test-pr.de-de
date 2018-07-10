@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Durch Adressumschreibungen werden E-Mail-Adressen von Senden und Empfängern in Nachrichten geändert, die über einen Edge-Transport-Server in Ihrer Organisation ankommen oder diese verlassen. Zwei Transport-Agents auf dem Edge-Transport-Server stellen die Umschreibungsfunktion bereit: der Adressumschreibungs-Agent für eingehende Nachrichten und der Adressumschreibungs-Agent für ausgehende Nachrichten. Der Hauptgrund für die Adressumschreibung in ausgehenden Nachrichten ist, dass externen Empfängern eine einzelne konsistente E-Mail-Domäne präsentiert werden soll. Der Hauptgrund für die Adressumschreibung in eingehenden Nachrichten ist, dass die Nachrichten an den korrekten Empfänger geleitet werden sollen.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Bevor Sie Microsoft Exchange Server 2013 installieren, müssen Sie Ihre Active Directory-Gesamtstruktur und deren Domänen vorbereiten. Exchange muss Active Directory so vorbereiten, dass Informationen über die Postfächer Ihrer Benutzer und die Konfiguration der Exchange-Server in der Organisation gespeichert werden können. Wenn Sie mit Active Directory-Gesamtstrukturen oder -Domänen nicht vertraut sind, finden Sie weitere Informationen unter [Übersicht über Active Directory-Domänendienste](https://go.microsoft.com/fwlink/p/?linkid=399226).
 

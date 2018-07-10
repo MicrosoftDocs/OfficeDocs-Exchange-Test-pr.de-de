@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-04_
+_**Letztes Änderungsdatum des Themas:** 2012-10-04_
 
 Wenn Sie Zugriff auf ein Cmdlet erteilen möchten, müssen Sie den zugehörigen Verwaltungsrolleneintrag zu einer Verwaltungsrolle hinzufügen. Wenn Sie einer Rolle den Rolleneintrag hinzugefügt haben, können die Benutzer, denen die Rolle zugewiesen wurde, auf das Cmdlet zugreifen. Weitere Informationen zu Verwaltungsrolleneinträgen in Microsoft Exchange Server 2013 finden Sie unter [Grundlegendes zu Verwaltungsrollen](understanding-management-roles-exchange-2013-help.md).
 

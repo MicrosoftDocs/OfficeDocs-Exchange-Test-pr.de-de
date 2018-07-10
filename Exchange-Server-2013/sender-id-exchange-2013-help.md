@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Der Sender ID-Agent ist ein in Microsoft Exchange Server 2013 verfügbarer Antispam-Agent. Der Sender ID-Agent verwendet die SMTP-Kopfzeile RECEIVED sowie eine Abfrage des DNS-Diensts des sendenden Systems, um die Aktion zu ermitteln, die ggf. für eine eingehende Nachricht ausgeführt werden soll.
 

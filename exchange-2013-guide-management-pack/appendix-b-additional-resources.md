@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-14_
+_**Letztes Änderungsdatum des Themas:**  2012-11-14_
 
 Die folgenden Ressourcen bieten Informationen zu gängigen Aufgaben in Zusammenhang mit System Center-Management Packs:
 

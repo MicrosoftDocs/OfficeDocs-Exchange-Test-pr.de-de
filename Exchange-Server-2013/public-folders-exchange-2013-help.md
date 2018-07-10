@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-03-27_
+_**Letztes Änderungsdatum des Themas:** 2017-03-27_
 
 Öffentliche Ordner ermöglichen den gemeinsamen Zugriff und stellen ein einfaches und effektives Mittel zum Erfassen, Organisieren und Freigeben von Informationen für andere Personen in der Arbeitsgruppe oder Organisation dar. Dieser Inhalt wird mithilfe öffentlicher Ordner in einer Hierarchie angeordnet, die einfach zu durchsuchen ist. Benutzern wird die vollständige Hierarchie in Outlook angezeigt, sodass sie sie leicht nach den Inhalten durchsuchen können, an denen sie interessiert sind.
 

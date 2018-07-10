@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-22_
+_**Letztes Änderungsdatum des Themas:** 2013-04-22_
 
 In der folgenden Tabelle sind die Begriffe und Definitionen enthalten, die beim Microsoft  Unified Messaging verwendet werden.
 

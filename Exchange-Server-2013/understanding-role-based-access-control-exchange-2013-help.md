@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-01-31_
+_**Letztes Änderungsdatum des Themas:** 2018-01-31_
 
 Bei der rollenbasierten Zugriffssteuerung (*Role Based Access Control*, RBAC) handelt es sich um das in Microsoft Exchange Server 2013 verwendete Berechtigungsmodell. Mit RBAC ist eine Änderung und Verwaltung der Zugriffssteuerungslisten (Access Control Lists, ACLs) wie in Exchange Server 2007 nicht länger erforderlich. ACLs boten in Exchange 2007 einige Herausforderungen, z. B. das Ändern der ACLs ohne unvorhersehbare Folgen, die Verwaltung von ACL-Änderungen bei Upgrades und die Behandlung von Problemen, die durch eine nicht standardmäßige Verwendung von ACLs verursacht wurden.
 

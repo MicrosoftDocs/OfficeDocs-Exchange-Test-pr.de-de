@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Outlook Voice Access enthält zwei Schnittstellen: die Benutzerschnittstelle für Telefoneingabe (Telephone User Interface, TUI) und die Benutzerschnittstelle für Spracheingabe (Voice User Interface, VUI). Wenn sich ein Benutzer in Outlook Voice Access eingewählt hat, kann er standardmäßig auf seinen Kalender, seine E-Mails und seine persönlichen Kontakte zugreifen sowie das Verzeichnis durchsuchen. Sie können die Shell dazu verwenden, die Benutzer am Zugriff auf eines oder mehrere dieser Features zu hindern, wenn sie Outlook Voice Access für den Zugriff auf ihre Postfächer nutzen. Wenn Sie Outlook Voice Access-Funktionen in einer Unified Messaging-Postfachrichtlinie (UM) ändern, wirken sich die Änderungen auf alle Benutzer aus, denen die UM-Postfachrichtlinie zugeordnet ist.
 

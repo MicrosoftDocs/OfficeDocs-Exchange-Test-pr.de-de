@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die zum Ausführen von Konfigurationsaufgaben zur Verwaltung von Empfängern erforderlichen Berechtigungen richten sich nach dem verwendeten Verfahren bzw. nach dem Cmdlet, das Sie ausführen möchten.
 
@@ -28,7 +28,7 @@ Führen Sie folgende Aktionen aus, um herauszufinden, welche Berechtigungen Sie 
 3.  Führen Sie jetzt das Cmdlet **Get-ManagementRoleAssignment** aus, um in den Ihnen zugewiesenen Rollengruppen oder Verwaltungsrollen nachzusehen, ob Sie über die zum Verwalten der Funktion erforderlichen Berechtigungen verfügen.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Ihnen muss die Verwaltungsrolle "Rollenverwaltung" zugewiesen sein, um das Cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG> ausführen zu können. Wenn Sie nicht über die Berechtigungen zum Ausführen des Cmdlets <STRONG>Get-ManagementRoleAssignment</STRONG> verfügen, wenden Sie sich den Exchange-Administrator, um die Ihnen zugewiesenen Rollengruppen oder Verwaltungsgruppen zu erfahren.
 
 
@@ -78,7 +78,7 @@ Benutzer, denen die Verwaltungsrollengruppe mit Leserechten zugewiesen ist, kön
 <p><a href="view-only-organization-management-exchange-2013-help.md">Organisationsverwaltung mit Leserechten</a></p>
 <p>Rolle &quot;Diagnoseunterstützung&quot;</p>
 
-> [!NOTE]
+> [!NOTE]  
 > Die Rolle "Diagnoseunterstützung" ist keiner Rollengruppe zugewiesen. Weitere Informationen finden Sie unter <A href="add-a-role-to-a-user-or-usg-exchange-2013-help.md">Hinzufügen einer Rolle zu einem Benutzer oder einer universellen Sicherheitsgruppe</A>.
 
 
@@ -93,7 +93,7 @@ Benutzer, denen die Verwaltungsrollengruppe mit Leserechten zugewiesen ist, kön
 <td><p>Import/Export</p></td>
 <td><p>Rolle &quot;Postfachimport/-export&quot;</p>
 
-> [!NOTE]
+> [!NOTE]  
 > Die Rolle "Postfachimport/-export" ist keiner Rollengruppe zugewiesen. Weitere Informationen finden Sie unter <A href="mailbox-import-export-role-exchange-2013-help.md">Rolle „Postfachimport/-export“</A>.
 
 

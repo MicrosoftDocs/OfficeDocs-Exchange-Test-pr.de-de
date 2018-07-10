@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-12_
+_**Letztes Änderungsdatum des Themas:** 2012-12-12_
 
 Die Funktion **Wiedergabe über Telefon** kann für Benutzer, die einer UM-Postfachrichtlinie (Unified Messaging) zugeordnet sind, aktiviert oder deaktiviert werden. Diese Option ist standardmäßig aktiviert und ermöglicht es Benutzern, ihre Voicemailnachrichten über ein beliebiges Telefon wiederzugeben. Für UM-aktivierte Benutzer mit einem Postfach auf einem Microsoft Microsoft Exchange Server 2007-Server steht diese Option nicht zur Verfügung.
 

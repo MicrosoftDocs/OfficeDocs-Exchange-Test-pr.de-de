@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Sie können Verwaltungsrollen, die nicht länger benötigt werden, aus Ihrer Organisation entfernen. Sie können nur Verwaltungsrollen entfernen, die Sie erstellt haben. Integrierte Verwaltungsrollen können nicht entfernt werden. Weitere Informationen zu Verwaltungsrollen in Microsoft Exchange Server 2013 finden Sie unter [Grundlegendes zu Verwaltungsrollen](understanding-management-roles-exchange-2013-help.md).
 

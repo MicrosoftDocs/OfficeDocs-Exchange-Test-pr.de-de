@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Outlook Voice Access enthält zwei Schnittstellen: eine Benutzerschnittstelle für Telefoneingaben (Telephone User Interface, TUI) und eine Benutzerschnittstelle für Spracheingaben (Voice User Interface, VUI). Sie können die TUI-Einstellungen eines UM-aktivierten Benutzers konfigurieren, wenn der Benutzer mithilfe des Unified Messaging-Systems (UM) in Exchange 2013 auf ein Postfach zugreift. Wenn Sie die TUI-Einstellungen eines UM-aktivierten Benutzers für eine UM-Postfachrichtlinie ändern, wirken sich die Änderungen auf alle Benutzer aus, die der UM-Postfachrichtlinie zugeordnet sind. Sie können die folgenden TUI-Einstellungen für eine UM-Postfachrichtlinie ändern:
 

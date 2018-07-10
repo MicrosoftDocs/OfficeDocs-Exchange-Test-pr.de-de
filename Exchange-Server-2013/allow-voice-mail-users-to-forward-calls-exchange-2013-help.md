@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Das Feature für Mailboxansageregeln wurde erstmals in Exchange 2010 vorgestellt. Mit diesem Feature können für Voicemail aktivierte Benutzer steuern, wie eingehende Anrufe behandelt werden sollen. Mailboxansageregeln werden auf ähnliche Weise auf eingehende Anrufe angewendet wie Posteingangsregeln auf eingehende E-Mails.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2007, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2007, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2018-03-20_
+_**Letztes Änderungsdatum des Themas:** 2018-03-20_
 
 Die Exchange Server-Unterstützbarkeitsmatrix stellt für Microsoft Exchange-Administratoren eine zentrale Quelle mit Informationen zur Unterstützung bereit, die für beliebige Konfigurationen oder eine erforderliche Komponente für unterstützte Versionen von Microsoft Exchange verfügbar ist.
 

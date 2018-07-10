@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Microsoft Exchange Server 2013-Administratoren können manuell das Antischadsoftware-Modul sowie Updates der Definitionen (Signaturen) herunterladen. Es wird dringend empfohlen, das Modul und die Definitionsupdates auf den Exchange-Server herunterzuladen, bevor er in der Produktion verwendet wird.
 

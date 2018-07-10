@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-01-28_
+_**Letztes Änderungsdatum des Themas:** 2014-01-28_
 
 Eine verzögerte Postfachdatenbankkopie ist eine Postfachdatenbankkopie, für die ein Wiedergabeverzögerungswert von mehr als 0 konfiguriert wurde. Die Aktivierung und Wiederherstellung einer verzögerten Postfachdatenbankkopie ist ein einfacher Vorgang, wenn Sie möchten, dass alle Protokolldateien für die Datenbank wiedergegeben werden sollen und die Datenbankkopie auf den neuesten Stand gebracht werden soll. Wenn Sie die Protokolldateien nur bis zu einem bestimmten Zeitpunkt wiedergeben möchten, ist der Vorgang komplizierter, da Sie die Protokolldateien manuell bearbeiten und "Eseutil" ausführen müssen.
 

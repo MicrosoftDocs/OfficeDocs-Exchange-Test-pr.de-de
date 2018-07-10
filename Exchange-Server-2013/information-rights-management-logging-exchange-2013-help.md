@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In Microsoft Exchange Server 2013 werden IRM-Vorgänge (Verwaltung von Informationsrechten) in IRM-Protokollen erfasst. IRM-Protokolle ermöglichen Ihnen die Überwachung und Problembehandlung von Interaktionen zwischen dem RMS-Client (Rights Management Services, Rechteverwaltungsdienste) auf einem Exchange 2013-Server und dem Active Directory-Rechteverwaltungsdienste-Cluster (AD RMS) in Ihrer Organisation.
 
@@ -103,7 +103,7 @@ Zurück zum Seitenanfang
 
 IRM-Protokolldateien sind Textdateien, die Daten im CSV-Format (Comma Separated Value) enthalten. Jede IRM-Protokolldatei enthält eine Kopfzeile mit den folgenden Informationen:
 
-  - **\#Software:**   Der Name der Software, von der die IRM-Protokolldatei erstellt wurde. Üblicherweise ist dies der Wert `Microsoft Exchange Server`.
+  - **\#Software:**    Der Name der Software, von der die IRM-Protokolldatei erstellt wurde. Üblicherweise ist dies der Wert `Microsoft Exchange Server`.
 
   - **\#Version**   Die Versionsnummer der Software, von der die IRM-Protokolldatei erstellt wurde.
 

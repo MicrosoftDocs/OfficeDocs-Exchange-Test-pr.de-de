@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-05-05_
+_**Letztes Änderungsdatum des Themas:** 2014-05-05_
 
 Beim Exportieren einer Nachricht aus einer Warteschlange in eine Datei wird die Nachricht nicht aus der Warteschlange entfernt. Im angegebenen Verzeichnis wird eine Kopie der Nachricht in Form einer Nur-Text-Datei erstellt. Die erstellte Datei kann in einer Anwendung, beispielsweise in einem Text-Editor oder in einer E-Mail-Clientanwendung, angezeigt werden. Die Nachrichtendatei kann auch mithilfe des Wiedergabeverzeichnisses auf jedem anderen Postfach- oder Edge-Transport-Server innerhalb oder außerhalb der Exchange-Organisation erneut übermittelt werden.
 

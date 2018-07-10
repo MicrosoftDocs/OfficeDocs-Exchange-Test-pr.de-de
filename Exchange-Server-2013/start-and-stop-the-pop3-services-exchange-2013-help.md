@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-03-13_
+_**Letztes Änderungsdatum des Themas:** 2013-03-13_
 
 Standardmäßig werden die zwei POP3-Dienste, der Microsoft Exchange-POP3-Dienst und der Microsoft Exchange-POP3-Back-End-Dienst, auf Computern mit MicrosoftExchange Server 2013 nicht gestartet. Sie müssen diese zwei Dienste starten, damit Ihre E-Mail-Clients über POP3 eine Verbindung mit Exchange herstellen können. Wenn diese Dienste ausgeführt werden, akzeptiert Exchange 2013 ungesicherte POP3-Clientverbindungen an Port 110 und über Port 995 mithilfe von SSL (Secure Sockets Layer).
 

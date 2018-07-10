@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-17_
+_**Letztes Änderungsdatum des Themas:** 2014-02-17_
 
 Es kann vorkommen, dass Sie eine akzeptierte Domäne für eine unabhängige Geschäftseinheit mit E-Mail-Servern außerhalb Ihrer Exchange-Organisation konfigurieren möchten. In solchen Szenarien können Sie die akzeptierte Domäne als externe Relaydomäne konfigurieren.
 

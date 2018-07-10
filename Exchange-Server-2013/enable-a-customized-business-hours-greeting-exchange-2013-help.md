@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-19_
+_**Letztes Änderungsdatum des Themas:** 2013-04-19_
 
 Sie können für eine automatische UM-Telefonzentrale eine benutzerdefinierte Begrüßung während der Geschäftszeit aktivieren. Wenn eine automatische UM-Telefonzentrale während der Geschäftszeit einen Anruf beantwortet, hört der Anrufer als Erstes die Begrüßung. Sie können die Begrüßung nach Wunsch anpassen.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-09_
+_**Letztes Änderungsdatum des Themas:** 2013-04-09_
 
 Sie können den TCP-Port konfigurieren, der für die Überwachung auf SIP-Anforderungen für einen Clientzugriffsserver mit dem Microsoft Exchange Unified Messaging-Anrufrouterdienst verwendet wird. Standardmäßig wird beim Installieren eines Clientzugriffsservers die Nummer des SIP-TCP-Überwachungsports auf 5060 festgelegt, und der Clientzugriffsserver wird im TCP-Modus gestartet. Der SIP-TCP-Überwachungsport kann nicht mithilfe der Exchange-Verwaltungskonsole konfiguriert werden. Sie müssen die Nummer des SIP-TCP-Überwachungsports mithilfe des Cmdlets **Set-UMCallRouterSettings** konfigurieren.
 

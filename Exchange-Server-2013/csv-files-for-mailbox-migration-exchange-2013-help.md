@@ -13,32 +13,32 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-11-16_
+_**Letztes Änderungsdatum des Themas:** 2017-11-16_
 
 Sie können eine CSV-Datei verwenden, um eine große Anzahl von Benutzerpostfächern gleichzeitig zu migrieren. Sie können eine CSV-Datei angeben, wenn Sie die Exchange-Verwaltungskonsole oder das Cmdlet **New-MigrationBatch** in der Exchange-Verwaltungsshell verwenden, um einen Migrationsbatch zu erstellen. Die Verwendung einer CSV-Datei, um mehrere Benutzer festzulegen, die in einem Migrationsbatch migriert werden, wird in den folgenden Migrationsszenarios unterstützt:
 
   - **Verschiebungen in lokalen Exchange-Organisationen**
     
-      - **Lokale Verschiebung:** Bei einer lokalen Verschiebung werden Postfächer von einer Postfachdatenbank in eine andere verschoben. Eine lokale Verschiebung erfolgt innerhalb einer einzigen Gesamtstruktur.
+      - **Lokale Verschiebung:**  Bei einer lokalen Verschiebung werden Postfächer von einer Postfachdatenbank in eine andere verschoben. Eine lokale Verschiebung erfolgt innerhalb einer einzigen Gesamtstruktur.
     
-      - **Gesamtstrukturübergreifende Unternehmensverschiebung:** Bei einer gesamtstrukturübergreifenden Unternehmensverschiebung werden Postfächer in eine andere Gesamtstruktur verschoben. Gesamtstrukturübergreifende Verschiebungen werden entweder in der Zielgesamtstruktur initiiert, bei der es sich um die Gesamtstruktur handelt, in welche die Postfächer verschoben werden sollen, oder in der Quellgesamtstruktur, bei der es sich um die Gesamtstruktur handelt, in der die Postfächer gegenwärtig gehostet werden.
+      - **Gesamtstrukturübergreifende Unternehmensverschiebung:**  Bei einer gesamtstrukturübergreifenden Unternehmensverschiebung werden Postfächer in eine andere Gesamtstruktur verschoben. Gesamtstrukturübergreifende Verschiebungen werden entweder in der Zielgesamtstruktur initiiert, bei der es sich um die Gesamtstruktur handelt, in welche die Postfächer verschoben werden sollen, oder in der Quellgesamtstruktur, bei der es sich um die Gesamtstruktur handelt, in der die Postfächer gegenwärtig gehostet werden.
 
   - **Onboarding und Offboarding in Exchange Online**
     
-      - **Onboarding-Remoteverschiebungsmigration:** In einer Exchange-Hybridbereitstellung können Sie Postfächer von einer lokalen Exchange-Organisation zu Exchange Online verschieben. Dies wird auch als *Onboarding*-Remoteverschiebungsmigration bezeichnet, da Postfächer zu Exchange Online hinzugefügt werden.
+      - **Onboarding-Remoteverschiebungsmigration:**  In einer Exchange-Hybridbereitstellung können Sie Postfächer von einer lokalen Exchange-Organisation zu Exchange Online verschieben. Dies wird auch als *Onboarding*-Remoteverschiebungsmigration bezeichnet, da Postfächer zu Exchange Online hinzugefügt werden.
     
-      - **Offboarding-Remoteverschiebungsmigration:** Sie können auch eine *Offboarding*-Remoteverschiebungsmigration ausführen, bei der Exchange Online-Postfächer in die lokale Exchange-Organisation verschoben werden.
+      - **Offboarding-Remoteverschiebungsmigration:**  Sie können auch eine *Offboarding*-Remoteverschiebungsmigration ausführen, bei der Exchange Online-Postfächer in die lokale Exchange-Organisation verschoben werden.
         
 
         > [!NOTE]
         > Sowohl Onboarding- als auch Offboarding-Remoteverschiebungsmigrationen werden von der Exchange Online-Organisation initiiert.
 
     
-      - **Mehrstufige Exchange-Migration:** Sie können auch eine Teilmenge von Postfächern aus einer lokalen Exchange-Organisation zu Exchange Online migrieren. Dies ist eine andere Art der Onboardingmigration. Bei einer mehrstufigen Exchange-Migration können nur Exchange 2003- und Exchange 2007-Postfächer migriert werden. Bei der Migration von Exchange 2010- und Exchange 2013-Postfächern wird keine mehrstufige Migration unterstützt. Vor einer mehrstufigen Migration müssen Sie eine Verzeichnissynchronisierung durchführen oder eine andere Methode verwenden, um die E-Mail-Benutzer in Ihrer Exchange Online-Organisation bereitzustellen.
+      - **Mehrstufige Exchange-Migration:**  Sie können auch eine Teilmenge von Postfächern aus einer lokalen Exchange-Organisation zu Exchange Online migrieren. Dies ist eine andere Art der Onboardingmigration. Bei einer mehrstufigen Exchange-Migration können nur Exchange 2003- und Exchange 2007-Postfächer migriert werden. Bei der Migration von Exchange 2010- und Exchange 2013-Postfächern wird keine mehrstufige Migration unterstützt. Vor einer mehrstufigen Migration müssen Sie eine Verzeichnissynchronisierung durchführen oder eine andere Methode verwenden, um die E-Mail-Benutzer in Ihrer Exchange Online-Organisation bereitzustellen.
     
-      - **IMAP-Migration:** Diese Art der Onboardingmigration dient dazu, Postfachdaten von einem IMAP-Server (einschließlich Exchange) zu Exchange Online zu migrieren. Bei einer IMAP-Migration müssen Sie die Postfächer in Exchange Online bereitstellen, bevor Sie Postfachdaten migrieren können.
+      - **IMAP-Migration:**  Diese Art der Onboardingmigration dient dazu, Postfachdaten von einem IMAP-Server (einschließlich Exchange) zu Exchange Online zu migrieren. Bei einer IMAP-Migration müssen Sie die Postfächer in Exchange Online bereitstellen, bevor Sie Postfachdaten migrieren können.
 
 
 > [!NOTE]

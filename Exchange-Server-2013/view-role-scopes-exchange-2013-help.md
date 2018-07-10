@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Verwaltungsrollenbereiche bestimmen, welche Objekte einem Benutzer zur Verfügung gestellt werden, damit die Objekte mithilfe der ihm zugeordneten Cmdlets und Parameter geändert werden können. Sie können Bereiche anzeigen, um zu bestimmen, welche Bereiche Ihrer Organisation hinzugefügt wurden, welche Konfiguration ein bestimmter Bereich aufweist und welche Bereiche verwaist sind.
 

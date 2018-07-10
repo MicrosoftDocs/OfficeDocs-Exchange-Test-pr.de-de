@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Der Test auf dieser Seite hilft bei der Identifikation einiger der häufigsten Konnektivitätsprobleme. Mit dem automatischen Test unten können Sie Ihre Konnektivität überprüfen oder die eigentliche Ursache Ihres Konnektivitätsproblems bestimmen.
 

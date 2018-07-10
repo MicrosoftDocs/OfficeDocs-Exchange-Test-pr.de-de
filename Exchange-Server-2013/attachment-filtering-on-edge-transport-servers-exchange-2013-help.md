@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-10_
+_**Letztes Änderungsdatum des Themas:** 2014-02-10_
 
 In Microsoft Exchange Server 2013 können Sie mit der Anlagenfilterung auf Edge-Transport-Servern die Anlagen kontrollieren, die Benutzer mit ihren E-Mail-Nachrichten erhalten. Die Anlagenfilterung wird vom Anlagenfilter-Agent durchgeführt, der nur auf Edge-Transport-Servern zur Verfügung steht.
 

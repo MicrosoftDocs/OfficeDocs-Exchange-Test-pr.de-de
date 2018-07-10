@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-03-28_
+_**Letztes Änderungsdatum des Themas:** 2017-03-28_
 
 Informationen zum Aktivieren von POP3-Clientverbindungen in Exchange 2016 mithilfe von Microsoft Management Console (MMC) oder Exchange-Verwaltungsshell (EMS)
 

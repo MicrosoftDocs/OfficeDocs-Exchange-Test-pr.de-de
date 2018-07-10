@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Informationen zu Outlook Web App, in Microsoft Exchange-Versionen vor 2010 Outlook Web Access genannt. Dieser Artikel enthält eine kurze Übersicht mit Links zu hilfreichen Informationen.
 

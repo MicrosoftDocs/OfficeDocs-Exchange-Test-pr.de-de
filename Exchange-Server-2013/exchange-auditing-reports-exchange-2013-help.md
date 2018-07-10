@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Verwenden Sie die Überwachungsprotokollierung zum Beheben von Konfigurationsproblemen, indem Sie bestimmte Änderungen von Administratoren nachverfolgen, sowie zum Einhalten gesetzlicher Bestimmungen und zum Aufbewahren von Daten, die für Rechtsstreitigkeiten erforderlich sind. Von Microsoft Exchange werden zwei Arten der Überwachungsprotokollierung bereitgestellt:
 

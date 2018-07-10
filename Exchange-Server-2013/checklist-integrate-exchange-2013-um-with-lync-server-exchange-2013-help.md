@@ -13,24 +13,13 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Verwenden Sie diese Prüfliste für die Installation und Bereitstellung von Unified Messaging (UM) und Microsoft Lync Server 2013. In diesem Thema bezieht "Lync Server" sich auch auf Lync Server 2010. Microsoft Office Communications Server 2007 R2 kann jedoch auch mit Unified Messaging bereitgestellt werden.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ126640.note(EXCHG.150).gif" title="Hinweis" alt="Hinweis" />Hinweis:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
 
 
 Bevor Sie mit dieser Prüfliste arbeiten, machen Sie sich mit den Konzepten in folgenden Themen vertraut:

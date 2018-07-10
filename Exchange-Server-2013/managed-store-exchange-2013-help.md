@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-07-14_
+_**Letztes Änderungsdatum des Themas:** 2014-07-14_
 
 Alle vorherigen Exchange Server-Versionen, von Exchange Server 4.0 bis Exchange Server 2010, haben die Ausführung einer einzelnen Instanz des Prozesses des Microsoft Exchange-Informationsspeichers (Store.exe) in der Serverrolle "Mailbox" unterstützt. Diese einzelne Speicherinstanz hostet alle Datenbanken auf diesem Server: aktive, passive, verzögerte und wiederhergestellte. In den bisherigen Exchange-Architekturen gibt es, wenn überhaupt, nur eine kleine Isolation zwischen den verschiedenen auf einem Mailbox-Server gehosteten Datenbanken. Ein Problem mit einer einzelnen Postfachdatenbank hat das Potenzial, sich auf alle anderen Datenbanken auszuwirken, und Ausfälle aufgrund der Beschädigung einer Datenbank können den Dienst für alle Benutzer, deren Datenbanken auf diesem Server gehostet werden, beeinträchtigen.
 

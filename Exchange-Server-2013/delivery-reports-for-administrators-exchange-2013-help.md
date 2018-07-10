@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mit Zustellungsberichten für Administratoren können Sie Übermittlungsinformationen zu Nachrichten nachverfolgen, die von einem bestimmten Postfach in Ihrer Organisation gesendet oder empfangen wurden. Für Zustellungsberichte für Administratoren wird insbesondere die Exchange-Verwaltungskonsole genutzt, um eine zielgerichtete Durchsuchung der Nachrichtenverfolgungsprotokolle durchzuführen. Die Suche ist immer auf ein bestimmtes Postfach beschränkt. Sie können Nachrichten suchen, die vom oder an das Postfach gesendet wurden, und Suchergebnisse nach dem Nachrichtenbetreff filtern.
 

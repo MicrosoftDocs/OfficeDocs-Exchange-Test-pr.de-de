@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-13_
+_**Letztes Änderungsdatum des Themas:** 2012-10-13_
 
 Nachdem Sie Ihr Telefonienetz verbunden oder Microsoft Lync Server in Exchange Unified Messaging (UM) integriert und die erforderlichen UM-Komponenten erstellt und konfiguriert haben, müssen Sie die Voicemailfunktion für Ihre Benutzer einrichten.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2014-11-05_
+_**Letztes Änderungsdatum des Themas:** 2014-11-05_
 
 Microsoft Exchange Server 2013-Setup kann nicht fortgesetzt werden, da der angemeldete Benutzer nicht über die Kontoberechtigungen verfügt, die zum Schreiben in den Organisationscontainer im Active Directory-Verzeichnisdienst benötigt werden.
 

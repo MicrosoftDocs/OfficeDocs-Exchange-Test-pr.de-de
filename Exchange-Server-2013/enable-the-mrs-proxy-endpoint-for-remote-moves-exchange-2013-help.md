@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-07-02_
+_**Letztes Änderungsdatum des Themas:** 2013-07-02_
 
 Der Proxy für den Postfachreplikationsdienst (Mailbox Replication Service Proxy, MRS-Proxy) unterstützt gesamtstrukturübergreifende Postfachverschiebungen und Remoteverschiebungsmigrationen zwischen der lokalen Exchange-Organisation und Exchange Online. In Exchange 2013 ist der MRS-Proxy in der Postfachserverrolle (auch als *Postfachserver* bezeichnet) enthalten. Bei gesamtstrukturübergreifenden und Remoteverschiebungsmigrationen dient ein Clientzugriffsserver als Proxy für eingehende Verschiebungsanforderungen für den Postfachserver. Die Fähigkeit eines Clientzugriffsservers zur Annahme dieser Anforderungen ist standardmäßig deaktiviert. Um dem Clientzugriffsserver die Annahme eingehender Verschiebungsanforderungen zu ermöglichen, müssen Sie den MRS-Proxyendpunkt aktivieren.
 
@@ -101,9 +101,13 @@ Eine andere Möglichkeit, die Aktivierung des MRS-Proxyendpunkts zu überprüfen
 
 Im folgenden Beispiel wird die Verbindung mit einem Server in der Gesamtstruktur **corp.contoso.com** getestet.
 
+```
     $Credentials = Get-Credential
+```
 
+```
     Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
+```
 
 Damit dieser Befehl erfolgreich ausgeführt werden kann, muss der MRS-Proxyendpunkt aktiviert sein.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-16_
+_**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 Sichere Domänendaten sind eine komplette Domäne (z. B. @contoso.com), die in der Liste sicherer Absender eines Benutzers gespeichert ist. Standardmäßig verwendet der Inhaltsfilter-Agent sichere Domänendaten nicht, um Absender zu identifizieren, die die Inhaltsfilterung von Nachrichten umgehen dürfen.
 

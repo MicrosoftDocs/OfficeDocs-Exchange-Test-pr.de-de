@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mithilfe der Option **Setup /m:RecoverServer** von Microsoft Exchange Server 2013 können Sie einen ausgefallenen Server wiederherstellen. Die meisten der Einstellungen für einen Computer mit Exchange 2013 sind in Active Directory gespeichert. Mit der Option */m:RecoverServer* wird anhand der Informationen und Einstellungen in Exchange ein neuer Active Directory-Server mit dem gleichen Namen erstellt.
 

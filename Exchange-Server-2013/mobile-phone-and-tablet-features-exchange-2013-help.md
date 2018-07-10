@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Benutzer können über Microsoft Exchange ActiveSync auf Mobiltelefonen, Tablets und anderen tragbaren Geräten auf ihre E-Mail-, Kalender-, Kontakt- und Aufgabeninformationen zugreifen. Sie können mithilfe von ActiveSync auch ihre Signatur und automatische Antworten einrichten. Eine Vielzahl von Mobiltelefonen und -geräten unterstützt Exchange ActiveSync.
 

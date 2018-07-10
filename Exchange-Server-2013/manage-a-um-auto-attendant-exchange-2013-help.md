@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-30_
+_**Letztes Änderungsdatum des Themas:** 2013-04-30_
 
 Nach der Erstellung einer automatischen Unified Messaging-Telefonzentrale (UM) können Sie eine Reihe von Einstellungen anzeigen oder konfigurieren. Sie können beispielsweise der automatischen Telefonzentrale zugeordnete Durchwahlnummern hinzufügen, entfernen und ändern. Sie können außerdem die automatische Spracherkennung (Automatic Speech Recognition, ASR) für die automatische Telefonzentrale aktivieren oder deaktivieren und die Begrüßungen ändern, die innerhalb und außerhalb der Geschäftszeiten verwendet werden.
 
@@ -49,9 +49,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentra
 
 2.  Wählen Sie auf der Seite **UM-Wählplan** unterhalb von **Automatische UM-Telefonzentralen** die automatische UM-Telefonzentrale aus, die Sie anzeigen oder konfigurieren möchten, und klicken Sie dann auf der Symbolleiste auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
 
-3.  
-    
-    Klicken Sie auf der Seite **Automatische UM-Telefonzentrale** auf **Allgemein**, um schreibgeschützte Informationen zur automatischen UM-Telefonzentrale anzuzeigen und Verwaltungsaufgaben für eine automatische UM-Telefonzentrale auszuführen:
+3.  Klicken Sie auf der Seite **Automatische UM-Telefonzentrale** auf **Allgemein**, um schreibgeschützte Informationen zur automatischen UM-Telefonzentrale anzuzeigen und Verwaltungsaufgaben für eine automatische UM-Telefonzentrale auszuführen:
     
       - **UM-Wählplan**   In diesem Feld wird der UM-Wählplan angezeigt, dem die automatische Telefonzentrale zugeordnet ist. Nach dem Erstellen einer automatischen Telefonzentrale können die der automatischen Telefonzentrale zugeordneten Wähleinstellungen nicht geändert werden. Wenn einer automatischen Telefonzentrale andere Wähleinstellungen zugeordnet werden sollen, müssen Sie die Wähleinstellungen löschen und der automatischen Telefonzentrale die gewünschten Wähleinstellungen zuordnen, nachdem Sie diese neu erstellt haben.
     
@@ -81,13 +79,11 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentra
         
         Obwohl eine andere Sprache ausgewählt werden kann als die, die in den der automatischen Telefonzentrale zugeordneten UM-Wähleinstellungen ausgewählt ist, empfehlen wir, dass die Spracheinstellungen in den Wähleinstellungen und in der automatischen Telefonzentrale übereinstimmen. Wenn die Spracheinstellungen nicht übereinstimmen und Anrufer eine in den Wähleinstellungen angegebene Durchwahlnummer anrufen, erhalten Sie Ansagen in einer Sprache. Wenn die Anrufer eine der automatischen Telefonzentrale zugeordnete Durchwahlnummer anrufen, werden Sie mit Ansagen in einer anderen Sprache begrüßt.
     
-      - **Firmenname   **Verwenden Sie dieses Feld, um den Namen des Unternehmens einzugeben. Standardmäßig ist kein Firmenname eingegeben. Wenn Sie in dieses Feld einen Firmennamen eingeben, wird Anrufern statt der Standardbegrüßung eine Ansage mit dem Firmennamen abgespielt.
+      - **Firmenname**   Verwenden Sie dieses Feld, um den Namen des Unternehmens einzugeben. Standardmäßig ist kein Firmenname eingegeben. Wenn Sie in dieses Feld einen Firmennamen eingeben, wird Anrufern statt der Standardbegrüßung eine Ansage mit dem Firmennamen abgespielt.
     
-      - **Unternehmensstandort   **Verwenden Sie dieses Feld, um den Standort des Unternehmens einzugeben. Standardmäßig ist kein Unternehmensstandort eingegeben. Wenn Sie den Standort des Unternehmens in dieses Feld eingeben, wird er Anrufern wiedergegeben.
+      - **Unternehmensstandort**   Verwenden Sie dieses Feld, um den Standort des Unternehmens einzugeben. Standardmäßig ist kein Unternehmensstandort eingegeben. Wenn Sie den Standort des Unternehmens in dieses Feld eingeben, wird er Anrufern wiedergegeben.
 
-4.  
-    
-    Verwenden Sie die Einstellung **Begrüßungen** in der automatischen Telefonzentrale, um aufgezeichnete Begrüßungen zu verwalten. Sie können Standardbegrüßungen oder zuvor aufgezeichnete benutzerdefinierte Begrüßungen für Zeiten während und außerhalb der Geschäftszeit auswählen. Sie können Folgendes konfigurieren:
+4.  Verwenden Sie die Einstellung **Begrüßungen** in der automatischen Telefonzentrale, um aufgezeichnete Begrüßungen zu verwalten. Sie können Standardbegrüßungen oder zuvor aufgezeichnete benutzerdefinierte Begrüßungen für Zeiten während und außerhalb der Geschäftszeit auswählen. Sie können Folgendes konfigurieren:
     
       - **Begrüßung während der Geschäftszeit**   Dies ist die Eingangsbegrüßung, die ein Anrufer hört, wenn der Anruf während der Geschäftszeiten Ihrer Organisation mit der automatischen Telefonzentrale verbunden wird. Die Geschäftszeit ist standardmäßig auf einen Zeitraum von 00:00 Uhr bis 24:00 Uhr festgelegt, und es sind keine Zeiten außerhalb der Geschäftszeit konfiguriert. Wenn Sie keine benutzerdefinierte Begrüßung festlegen, hören Anrufer die Systemansage "Willkommen bei der automatischen Exchange-Telefonzentrale". Die Zeiten während und außerhalb der Geschäftszeit werden im Abschnitt **Geschäftszeiten** der automatischen Telefonzentrale konfiguriert.
         
@@ -250,9 +246,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentra
         
         Diese Option sollte aktiviert werden, damit Anrufer eine Sprachnachricht hinterlassen bzw. bei der Vermittlung anrufen können, falls Sie den gewünschten Teilnehmer außerhalb der Geschäftszeit weder über Menüansagen noch über die Verzeichnissuche erreichen können. Nach dem Aktivieren dieser Option können Sie die Durchwahlnummer für die Vermittlungsstelle festlegen, die in einem überwachten UM-fähigen Postfach konfiguriert ist. Der Anrufer kann eine Sprachnachricht hinterlassen oder die Hilfe eines Telefonisten in Anspruch nehmen, der die Durchwahlnummer kennt.
 
-9.  
-    
-    Verwenden Sie die Einstellung **Wählautorisierung**, um Wählregeln für Anrufer zu konfigurieren, die bei einer automatischen UM-Telefonzentrale anrufen. Mithilfe dieser Einstellungen können Sie die Durchwahlnummern steuern, die über eine automatische Telefonzentrale erreichbar sind, oder die Rufnummern, die von Anrufern gewählt werden können, die eine automatische Telefonzentrale angewählt haben. Sie können Folgendes konfigurieren:
+9.  Verwenden Sie die Einstellung **Wählautorisierung**, um Wählregeln für Anrufer zu konfigurieren, die bei einer automatischen UM-Telefonzentrale anrufen. Mithilfe dieser Einstellungen können Sie die Durchwahlnummern steuern, die über eine automatische Telefonzentrale erreichbar sind, oder die Rufnummern, die von Anrufern gewählt werden können, die eine automatische Telefonzentrale angewählt haben. Sie können Folgendes konfigurieren:
     
       - **Anrufe in denselben Wähleinstellungen**   Aktivieren Sie dieses Kontrollkästchen, damit Benutzer, die eine Verbindung mit einer automatischen Telefonzentrale herstellen, eine Durchwahlnummer anrufen oder einen Anruf an diese Durchwahlnummer weiterleiten können. Die Durchwahlnummer muss hierbei einem UM-aktivierten Benutzer zugeordnet sein, dem dieselben Wähleinstellungen zugeordnet sind wie die der automatischen Telefonzentrale. Diese Einstellung ist standardmäßig aktiviert.
         

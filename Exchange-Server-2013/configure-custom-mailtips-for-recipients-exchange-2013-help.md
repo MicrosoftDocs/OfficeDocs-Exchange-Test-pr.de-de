@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-01_
+_**Letztes Änderungsdatum des Themas:** 2014-06-01_
 
 Bei der *E-Mail-Info* handelt es sich um informative Meldungen, die auf der Infoleiste in Outlook Web App und Microsoft Outlook 2010 oder höher Benutzern angezeigt werden, wenn sie beim Verfassen einer E-Mail eine der folgenden Aktionen ausführen:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Exchange Virtual Directories` ermöglicht Administratoren das Verwalten der virtuellen Verzeichnisse für Microsoft Office Outlook Web App, Microsoft ActiveSync, Offlineadressbücher, AutoErmittlung, Windows PowerShell und die Webverwaltungsoberfläche auf einzelnen Servern.
 

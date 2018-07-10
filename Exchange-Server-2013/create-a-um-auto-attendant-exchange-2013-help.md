@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-03-08_
+_**Letztes Änderungsdatum des Themas:** 2013-03-08_
 
 Nachdem Sie eine automatische Telefonzentrale für Unified Messaging (UM) erstellt haben, werden an der externen Rufnummer eines Unternehmens eingehende Anrufe, die normalerweise von einem Telefonisten angenommen würden, von der automatischen Telefonzentrale beantwortet. Im Gegensatz zu anderen Unified Messaging-Komponenten, z. B. UM-Wählplänen und UM-IP-Gateways, ist die Einrichtung automatischer UM-Telefonzentralen nicht unbedingt erforderlich. Automatische Telefonzentralen helfen in- und externen Anrufern jedoch beim Auffinden von Benutzern oder Abteilungen in einer Organisation und leiten Anrufe an diese weiter.
 
@@ -43,9 +43,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentra
 
 ## Erstellen einer automatischen UM-Telefonzentrale mithilfe der Exchange-Verwaltungskonsole
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wähleinstellungen**, wählen Sie die UM-Wähleinstellungen aus, für die Sie eine automatische Telefonzentrale hinzufügen möchten, und klicken Sie auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wähleinstellungen**, wählen Sie die UM-Wähleinstellungen aus, für die Sie eine automatische Telefonzentrale hinzufügen möchten, und klicken Sie auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
 
 2.  Klicken Sie auf der Seite **UM-Wähleinstellungen** unterhalb von **Automatische UM-Telefonzentralen** auf **Neu**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
 

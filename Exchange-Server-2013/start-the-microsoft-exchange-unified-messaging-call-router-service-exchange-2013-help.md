@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-16_
+_**Letztes Änderungsdatum des Themas:** 2012-11-16_
 
 Zum Starten des MicrosoftExchange Unified Messaging-Anrufrouterdiensts auf einem Clientzugriffsserver können Sie das Snap-In Dienste in Microsoft Management Console (MMC) oder den Befehl cmd.exe an einer Eingabeaufforderung verwenden. Standardmäßig wird der MicrosoftExchange Unified Messaging-Dienst gestartet, nachdem ein Clientzugriffsserver installiert wurde. Es kann jedoch vorkommen, dass der Microsoft Exchange Unified Messaging-Dienst manuell neu gestartet oder beendet werden muss, z. B. wenn der Clientzugriffsserver offline geschaltet wurde und nun wieder online geschaltet werden soll.
 

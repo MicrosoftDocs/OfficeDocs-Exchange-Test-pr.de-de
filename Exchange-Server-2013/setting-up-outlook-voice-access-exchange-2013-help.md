@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Microsoft Outlook Voice Access ermöglicht Exchange Unified Messaging-aktivierten Benutzern den Zugriff auf ihr Postfach über analoge, digitale oder mobile Telefone.
 

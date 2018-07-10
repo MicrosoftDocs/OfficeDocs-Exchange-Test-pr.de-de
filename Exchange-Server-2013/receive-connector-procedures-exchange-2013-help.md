@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-23_
+_**Letztes Änderungsdatum des Themas:** 2012-09-23_
 
 [Erstellen eines Empfangsconnectors zum Empfang von E-Mails aus dem Internet](create-a-receive-connector-to-receive-email-from-the-internet-exchange-2013-help.md)
 

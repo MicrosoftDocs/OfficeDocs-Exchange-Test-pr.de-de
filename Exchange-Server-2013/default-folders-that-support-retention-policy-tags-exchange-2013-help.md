@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-04-20_
+_**Letztes Änderungsdatum des Themas:** 2017-04-20_
 
 Sie können [Aufbewahrungstags und Aufbewahrungsrichtlinien](retention-tags-and-retention-policies-exchange-2013-help.md) verwenden, um den E-Mail-Lebenszyklus zu verwalten. Aufbewahrungsrichtlinien enthalten Aufbewahrungstags, die Einstellungen darstellen, mit denen Sie festlegen können, wann eine Nachricht automatisch in das Archiv verschoben und wann es gelöscht werden soll.
 

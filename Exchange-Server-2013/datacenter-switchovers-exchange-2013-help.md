@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013 SP1_
+_**Gilt für:** Exchange Server 2013 SP1_
 
-_**Letztes Änderungsdatum des Themas:**2016-03-17_
+_**Letztes Änderungsdatum des Themas:** 2016-03-17_
 
 In einer Konfiguration mit Ausfallsicherheit für Standorte kann in einer DAG in Reaktion auf einen Ausfall auf Standortebene eine automatische Wiederherstellung erfolgen, sodass das Messaging-System weiterhin funktioniert. Für diese Konfiguration sind mindestens drei Standorte erforderlich, da dafür DAG-Mitglieder an zwei Standorten und der Zeugenserver der DAG an einem dritten Standort bereitgestellt werden müssen.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Sie können Microsoft Outlook zum Anzeigen von Antispamstempeln verwenden, die von Microsoft Exchange einer E-Mail zugewiesen wurden. Antispamstempel helfen Ihnen bei der Diagnose spambezogener Probleme, indem Diagnosemetadaten oder Stempel (z. B. absenderspezifische Informationen, Ergebnisse der Poststempelüberprüfung und Ergebnisse der Inhaltsfilterung) auf Nachrichten angewendet werden, während die Nachrichten die Antispam-Agents passieren, die aus dem Internet eingehende Nachrichten filtern.
 

@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2013-04-09_
+_**Letztes Änderungsdatum des Themas:**  2013-04-09_
 
 [Erste Schritte mit Exchange Server 2013 Management Pack](getting-started-with-exchange-server-2013-management-pack.md) bietet eine Übersicht über das Management Pack-Dashboard. In diesem Thema wird schrittweise erläutert, wie Sie damit ein Problem beheben können. Der Vorgang lässt sich am besten mit einem Beispiel erläutern. Betrachten Sie das folgende Szenario:
 

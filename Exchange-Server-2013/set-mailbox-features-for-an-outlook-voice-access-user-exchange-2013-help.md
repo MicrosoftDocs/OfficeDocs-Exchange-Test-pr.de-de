@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 TUI-Einstellungen (Telephone User Interface, Telefonbenutzerschnittstelle) werden verwendet, wenn ein Benutzer unter Verwendung von Outlook Voice Access auf das Unified Messaging-System zugreift. Wenn Sie TUI-Konfigurationseinstellungen eines UM-aktivierten Benutzers ändern, ändern Sie Eigenschaften des Postfachs des UM-aktivierten Benutzers zusammen mit deren Werten.
 

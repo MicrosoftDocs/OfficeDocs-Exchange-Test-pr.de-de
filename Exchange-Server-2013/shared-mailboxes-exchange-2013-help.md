@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-06-04_
+_**Letztes Änderungsdatum des Themas:** 2015-06-04_
 
 Informationen zum freigegebenen Exchange-Postfach in Microsoft Exchange Server 2013, Gründe für die Verwendung und das Konvertieren eines delegierten Postfachs in ein freigegebenes Exchange-Postfach.
 
@@ -35,9 +35,9 @@ Freigegebene Postfächer werden auf mobilen Geräten nicht unterstützt.
 
 Ein freigegebenes Postfach ist eine Art Benutzerpostfach, das keinen eigenen Benutzernamen und kein Kennwort aufweist. Also können die Benutzer sich nicht direkt bei ihnen anmelden. Für den Zugriff auf ein freigegebenes Postfach muss den Benutzern erst die Berechtigung "Senden als" oder die Berechtigung "Vollzugriff" erteilt werden. Anschließend können sich die Benutzer bei ihren eigenen Postfächern anmelden und dann auf das freigegebene Postfach zugreifen, indem sie es ihrem Outlook-Profil hinzufügen. In Exchange 2003 und früheren Versionen waren freigegebene Postfächer einfach normale Postfächer, für die ein Administrator Stellvertretungszugriff erteilen konnte. Seit Exchange 2007 sind freigegebene Postfächer ein eigener Empfängertyp:
 
-  - **RecipientType:** UserMailbox
+  - **RecipientType:**  UserMailbox
 
-  - **RecipientTypeDetails:** SharedMailbox
+  - **RecipientTypeDetails:**  SharedMailbox
 
 In früheren Versionen von Exchange mussten zum Erstellen eines freigegebenen Postfachs mehrere Schritte ausgeführt werden. Dabei mussten einige Aufgaben über die Exchange-Verwaltungsshell erledigt werden. In Exchange 2013 können Sie die Exchange-Verwaltungskonsole verwenden, um ein freigegebenes Postfach in einem Schritt zu erstellen. Weitere Informationen finden Sie unter [Erstellen eines freigegebenen Postfachs](create-a-shared-mailbox-exchange-2013-help.md). Die Exchange-Verwaltungskonsole verfügt über einen eigenen Funktionsbereich für freigegebene Postfächer. Navigieren Sie einfach zu **Empfänger** \> **Freigegebene Postfächer**, um alle Verwaltungsaufgaben für freigegebene Postfächer anzuzeigen.
 

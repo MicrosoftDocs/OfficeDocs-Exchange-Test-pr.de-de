@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-19_
+_**Letztes Änderungsdatum des Themas:** 2013-04-19_
 
 Sie können für eine automatische UM-Telefonzentrale in das Feld **Firmenname** den Namen Ihres Unternehmens eingeben. Standardmäßig ist kein Firmenname eingegeben. Wenn Sie einen Firmennamen eingeben, wird Anrufern, die die automatische UM-Telefonzentrale anrufen, die standardmäßige Begrüßungsansage mit dem Firmennamen wiedergegeben.
 

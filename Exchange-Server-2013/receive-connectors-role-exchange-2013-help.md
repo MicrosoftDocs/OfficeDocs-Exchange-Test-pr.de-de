@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Receive Connectors` ermöglicht Administratoren das Verwalten der Transportkonfiguration für einen Empfangsconnector, beispielsweise die Festlegung von Größenbeschränkungen für einen einzelnen Server.
 

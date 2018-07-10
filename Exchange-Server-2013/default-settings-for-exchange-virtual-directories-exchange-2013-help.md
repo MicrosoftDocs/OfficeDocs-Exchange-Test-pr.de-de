@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Exchange Server 2013 konfiguriert bei der Installation automatisch mehrere virtuelle IIS-Verzeichnisse (Internet Information Services). In diesem Thema finden Sie Informationen zu den Standardeinstellungen für die IIS-Authentifizierung und SSL (Secure Sockets Layer) für die Clientzugriffs- und Postfachserver.
 

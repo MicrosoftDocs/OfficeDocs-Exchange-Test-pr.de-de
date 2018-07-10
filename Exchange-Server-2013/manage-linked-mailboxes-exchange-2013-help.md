@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-27_
+_**Letztes Änderungsdatum des Themas:** 2012-11-27_
 
 Verknüpfte Postfächer sind Postfächer, auf die Benutzer in einer getrennten, vertrauenswürdigen Gesamtstruktur zugreifen. Verknüpfte Postfächer sind ggf. für Organisationen erforderlich, die Exchange in einer Ressourcengesamtstruktur bereitstellen. Mit dem Szenario für Ressourcengesamtstrukturen kann eine Organisation Exchange in einer Einzelgesamtstruktur zentralisieren und dabei den Zugriff auf die Exchange-Organisation mit Benutzerkonten in mindestens einer vertrauenswürdigen Gesamtstruktur (einer sogenannten *Kontogesamtstruktur*) zur Verfügung stellen. Das Benutzerpostfach, das auf das verknüpfte Postfach zugreift, ist nicht in der Gesamtstruktur vorhanden, in der Exchange bereitgestellt wird. Aus diesem Grund wird ein deaktiviertes Benutzerkonto, das in der gleichen Gesamtstruktur wie Exchange vorhanden ist, erstellt und jedem verknüpften Postfach zugeordnet.
 
@@ -278,7 +278,7 @@ Im Abschnitt **Postfachfeatures** können Sie die folgenden Postfachfeatures und
     
       - **Aufbewahrungsdatum**   Dieses schreibgeschützte Feld gibt mit Datum und Uhrzeit an, wann das Beweissicherungsverfahren für das Postfach aktiviert wurde.
     
-      - **In den Haltenmodus gesetzt von:**   Dieses schreibgeschützte Feld gibt den Benutzer an, der das Beweissicherungsverfahren für das Postfach aktiviert hat.
+      - **In den Haltenmodus gesetzt von:**    Dieses schreibgeschützte Feld gibt den Benutzer an, der das Beweissicherungsverfahren für das Postfach aktiviert hat.
     
       - **Hinweis**   Informieren Sie den Benutzer mithilfe dieses Felds über das Beweissicherungsverfahren, erläutern Sie, warum das Beweissicherungsverfahren für das Postfach aktiviert wurde, oder geben Sie ausführlichere Informationen für den Benutzer an. Teilen Sie dem Benutzer beispielsweise mit, dass die Verwendung von E-Mails durch das Beweissicherungsverfahren nicht beeinträchtigt wird.
     
@@ -358,7 +358,7 @@ Verwenden Sie den Abschnitt **Stellvertretung für Postfächer**, um es anderen 
 
   - **Senden als**   Diese Berechtigung ermöglicht es Benutzern, bei denen es sich nicht um den Postfachbesitzer handelt, das Postfach zum Senden von Nachrichten zu verwenden. Nachdem diese Berechtigung einer Stellvertretung zugewiesen wurde, werden alle Nachrichten, die eine Stellvertretung von diesem Postfach sendet, so angezeigt, als würden sie vom Postfachbesitzer gesendet. Diese Berechtigung ermöglicht es einer Stellvertretung jedoch nicht, sich am Benutzerpostfach anzumelden.
 
-  - **Senden im Auftrag von**   Diese Berechtigung ermöglicht es einer Stellvertretung ebenfalls, das Postfach zum Senden von Nachrichten zu verwenden. Nachdem diese Berechtigung einer Stellvertretung zugewiesen wurde, zeigt die Zeile **Von:** in allen von der Stellvertretung gesendeten Nachrichten an, dass die Nachricht im Auftrag des Postfachbesitzers von der Stellvertretung gesendet wurde.
+  - **Senden im Auftrag von**   Diese Berechtigung ermöglicht es einer Stellvertretung ebenfalls, das Postfach zum Senden von Nachrichten zu verwenden. Nachdem diese Berechtigung einer Stellvertretung zugewiesen wurde, zeigt die Zeile **Von:**  in allen von der Stellvertretung gesendeten Nachrichten an, dass die Nachricht im Auftrag des Postfachbesitzers von der Stellvertretung gesendet wurde.
 
   - **Vollzugriff**   Diese Berechtigung ermöglicht es einer Stellvertretung, sich am Postfach des Benutzers anzumelden und die Inhalte des Postfachs anzuzeigen. Nach der Zuweisung dieser Berechtigung kann die Stellvertretung jedoch keine Nachrichten von diesem Postfach aus senden. Wenn Sie einer Stellvertretung das Senden von E-Mails aus dem Benutzerpostfach erlauben möchten, müssen Sie der Stellvertretung die Berechtigung Senden als oder die Berechtigung Senden im Auftrag von zuweisen.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013 SP1_
+_**Gilt für:** Exchange Server 2013 SP1_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-23_
+_**Letztes Änderungsdatum des Themas:** 2014-06-23_
 
 Ein Serverswitchover ist eine Aufgabe, die Sie durchführen, um alle aktiven Postfachdatenbankkopien vom aktuellen Postfachserver auf einen oder mehrere Postfachserver in einer Datenbankverfügbarkeitsgruppe zu verschieben. Diese Aufgabe wird typischerweise im Rahmen der Vorbereitung für einen geplanten Ausfall des aktuellen Postfachservers ausgeführt.
 

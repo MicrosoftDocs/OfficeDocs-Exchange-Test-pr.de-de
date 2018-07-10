@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-16_
+_**Letztes Änderungsdatum des Themas:** 2014-06-16_
 
 Mithilfe von Datenbankportabilität können Sie eine Microsoft Exchange Server 2013-Postfachdatenbank zwischen Exchange 2013-Postfachservern innerhalb derselben Organisation verschieben. Auf diese Weise können allgemeine Wiederherstellungszeiten für einige Fehlerszenarien reduziert werden. Weitere Informationen finden Sie unter [Datenbankportabilität](database-portability-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Protokollaufzeichnungen enthalten SMTP-Unterhaltungen, die zwischen Messagingservern als Teil der Nachrichtenübermittlung stattfinden. Diese SMTP-Kommunikation erfolgt auf Sende- und Empfangsconnectors, die im Front-End-Transport-Dienst auf den Clientzugriffsservern, dem Transportdienst auf den Postfachservern und dem Postfachtransportdienst auf Postfachservern vorliegen. Sie können Protokolle zur Diagnose von Problemen bei der E-Mail-Nachrichtenübermittlung verwenden.
 
@@ -83,15 +83,15 @@ Die Daten werden solange in die Protokolldatei geschrieben, bis die Dateigröße
 
 Bei den Protokolldateien handelt es sich um Textdateien, die Daten im CSV-Dateiformat enthalten. Jede Protokolldatei enthält eine Kopfzeile mit den folgenden Informationen:
 
-  - **\#Software:**   Der Name der Software, mit der die Protokolldatei erstellt wurde. In der Regel lautet der Wert "Microsoft Exchange Server".
+  - **\#Software:**    Der Name der Software, mit der die Protokolldatei erstellt wurde. In der Regel lautet der Wert "Microsoft Exchange Server".
 
-  - **\#Version:**   Die Versionsnummer der Software, mit der die Protokolldatei erstellt wurde. Der aktuelle Wert lautet 15.0.0.0.
+  - **\#Version:**    Die Versionsnummer der Software, mit der die Protokolldatei erstellt wurde. Der aktuelle Wert lautet 15.0.0.0.
 
   - **\#Log-Type**   Dieses Feld gibt an, ob es sich um das Protokoll für das SMTP-Empfangsprotokoll oder das SMTP-Sendeprotokoll handelt.
 
-  - **\#Date:**   Datum und Uhrzeit (UTC) der Erstellung der Protokolldatei. Datum und Uhrzeit (UTC) werden im ISO-8601-Datums-/Uhrzeitformat dargestellt: *yyyy-mm-dd*T*hh:mm:ss.fff*Z, wobei *yyyy* = Jahr, *mm* = Monat, *dd* = Tag. T gibt an, dass eine Zeitangabe folgt. *hh* = Stunde,*mm* = Minute, *ss* = Sekunde, *fff* = Bruchteile einer Sekunde. Und Z steht für Zulu, eine weitere Möglichkeit zur Angabe von UTC.
+  - **\#Date:**    Datum und Uhrzeit (UTC) der Erstellung der Protokolldatei. Datum und Uhrzeit (UTC) werden im ISO-8601-Datums-/Uhrzeitformat dargestellt: *yyyy-mm-dd*T*hh:mm:ss.fff*Z, wobei *yyyy* = Jahr, *mm* = Monat, *dd* = Tag. T gibt an, dass eine Zeitangabe folgt. *hh* = Stunde,*mm* = Minute, *ss* = Sekunde, *fff* = Bruchteile einer Sekunde. Und Z steht für Zulu, eine weitere Möglichkeit zur Angabe von UTC.
 
-  - **\#Fields:**   Durch Trennzeichen getrennte Feldnamen, die in den Protokolldateien verwendet werden.
+  - **\#Fields:**    Durch Trennzeichen getrennte Feldnamen, die in den Protokolldateien verwendet werden.
 
 Zurück zum Seitenanfang
 

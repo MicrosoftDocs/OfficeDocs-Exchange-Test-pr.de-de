@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-15_
+_**Letztes Änderungsdatum des Themas:** 2013-02-15_
 
 Wenn Sie in Ihrer Organisation mehrere Offlineadressbücher (OABs) verwenden, haben Sie mehrere Möglichkeiten anzugeben, welche Empfänger welche OABs herunterladen:
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Wenn Sie sicherstellen möchten, dass Sie bestimmte Nachrichten erhalten, können Sie eine Exchange-Transportregel erstellen, die sicherstellt, dass diese Nachrichten Ihren Ordner für unwichtige Elemente umgehen. Weitere Informationen über unwichtige Elemente finden Sie unter [Verwenden der Funktion „Unwichtige Elemente“ zum Sortieren von Nachrichten mit niedriger Priorität in Outlook Web App](https://go.microsoft.com/fwlink/p/?linkid=528411).
 

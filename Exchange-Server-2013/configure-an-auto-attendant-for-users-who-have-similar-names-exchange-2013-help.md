@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-16_
+_**Letztes Änderungsdatum des Themas:** 2012-12-16_
 
 In den Optionen **Zugriff auf Adressbuch und Vermittlungsstelle** der automatischen Telefonzentrale können Sie die Methode konfigurieren, die für Benutzer mit ähnlichen Namen verwendet wird, oder Sie können die Standardeinstellung der automatischen Telefonzentrale beibehalten und diese Einstellung in dem Wählplan konfigurieren, der der automatischen Telefonzentrale zugeordnet ist. Standardmäßig kann eine automatische Telefonzentrale zwischen mehreren Benutzern mit demselben oder ähnlichen Namen unterscheiden, weil die Standardeinstellung der automatischen Telefonzentrale **Vererbung von Wählplan** lautet.
 

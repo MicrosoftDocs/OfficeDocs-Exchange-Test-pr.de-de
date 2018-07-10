@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können ein hierarchisches Adressbuch konfigurieren, eine Funktion, die Benutzern in Microsoft Outlook 2010 oder höher zur Verfügung steht. Mit einem hierarchischen Adressbuch können Benutzer anhand einer auf Rang- oder Führungsstruktur basierenden Organisationshierarchie nach Empfängern in ihrer Exchange-Organisation suchen. Weitere Informationen zu hierarchischen Adressbüchern finden Sie unter [Hierarchische Adressbücher](hierarchical-address-books-exchange-2013-help.md).
 

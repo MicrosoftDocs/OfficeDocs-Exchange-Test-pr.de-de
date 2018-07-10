@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Microsoft Exchange Unified Messaging (UM) ermöglicht die Zustellung von Voicemailnachrichten an das Postfach eines Benutzers sowie den Empfang von Faxnachrichten im Benutzerpostfach. Bei UM wird ein Fax in Form einer E-Mail-Nachricht an das Postfach des Benutzers geschickt, an die eine Bilddatei mit der Endung TIF angefügt ist. Der Benutzer kann die angefügte Datei mit einer Software öffnen, die Bilddateien mit der Erweiterung TIF verarbeiten kann. In diesem Thema wird die Faxfunktion und deren Funktionsweise in UM behandelt.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-14_
+_**Letztes Änderungsdatum des Themas:** 2012-11-14_
 
 Sie können mithilfe der Exchange-Verwaltungskonsole oder Shell Outlook Web App für ein Benutzerpostfach aktivieren oder deaktivieren. Sofern Outlook Web App aktiviert ist, kann ein Benutzer über Outlook Web App E-Mail senden und empfangen. Wenn Outlook Web App deaktiviert ist, empfängt das Postfach weiter E-Mail-Nachrichten. Ein Benutzer hat Zugriff darauf, um E-Mail mithilfe eines MAPI-Clients wie Microsoft Outlook oder eines POP- oder IMAP-E-Mail-Clients zu senden und zu empfangen. Voraussetzung ist, dass das Postfach für den Zugriff durch diese Clients aktiviert ist.
 

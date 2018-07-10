@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013 SP1_
+_**Gilt für:** Exchange Server 2013 SP1_
 
-_**Letztes Änderungsdatum des Themas:**2015-12-02_
+_**Letztes Änderungsdatum des Themas:** 2015-12-02_
 
 Switchover und Failover sind die beiden Arten von Ausfällen in Microsoft Exchange Server 2013:
 

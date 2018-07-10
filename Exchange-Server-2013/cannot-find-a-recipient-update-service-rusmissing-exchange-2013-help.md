@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-15_
+_**Letztes Änderungsdatum des Themas:** 2016-12-15_
 
 Der Inhalt dieses Themas wurde für Microsoft Exchange Server 2013 nicht aktualisiert. Dennoch kann er für Exchange 2013 gültig sein. Weitere Hilfe finden Sie in den Community-Ressourcen weiter unten.
 
@@ -54,11 +54,11 @@ Um dieses Problem zu beheben, stellen Sie sicher, dass eine Instanz des Empfäng
 
 Weitere Informationen zum Empfängerupdatesdienst finden Sie in den folgenden Microsoft Knowledge Base-Artikeln:
 
-  - „Wie wendet der Empfängeraktualisierungsdienst Empfängerrichtlinien“ ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=328738](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=328738)).
+  - „Wie wendet der Empfängeraktualisierungsdienst Empfängerrichtlinien“ ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=328738](https://go.microsoft.com/fwlink/?linkid=3052&kbid=328738)).
 
-  - „Wie der Empfängeraktualisierungsdienst Adresslisten aufgefüllt“ ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253828](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=253828)).
+  - „Wie der Empfängeraktualisierungsdienst Adresslisten aufgefüllt“ ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253828](https://go.microsoft.com/fwlink/?linkid=3052&kbid=253828)).
 
-  - „Gewusst wie: Überprüfen Sie den Status der Exchange-Empfängeraktualisierungsdienst“ ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=246127](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=246127)).
+  - „Gewusst wie: Überprüfen Sie den Status der Exchange-Empfängeraktualisierungsdienst“ ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=246127](https://go.microsoft.com/fwlink/?linkid=3052&kbid=246127)).
 
-  - „Aufgaben, die Exchange-Empfängeraktualisierungsdienst“ ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253770](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=253770)).
+  - „Aufgaben, die Exchange-Empfängeraktualisierungsdienst“ ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253770](https://go.microsoft.com/fwlink/?linkid=3052&kbid=253770)).
 

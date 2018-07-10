@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-10-30_
+_**Letztes Änderungsdatum des Themas:** 2017-10-30_
 
 Damit Benutzer die E-Mail-Richtlinien Ihrer Organisation einhalten können, können Sie Exchange-Transportregeln verwenden, die festlegen, wie E-Mails mit bestimmten Wörtern oder Mustern weitergeleitet werden. Für eine kurze Liste von Wörtern oder Ausdrücken können Sie das Exchange-Verwaltungskonsole verwenden. Für eine längere Liste, müssen Sie ggf. das Exchange-Modul für Windows PowerShell verwenden, um die Liste aus einer Datei zu laden.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Verwaltungsrollen sind ein Teil des Berechtigungsmodells für rollenbasierte Zugriffssteuerung (Role Based Access Control, RBAC), das in Microsoft Exchange Server 2013 verwendet wird. Rollen fungieren als eine logische Gruppierung von Cmdlets, die kombiniert werden, um auf die Konfiguration von Exchange 2013-Komponenten wie Postfächern, Transportregeln und Empfängern zuzugreifen, sie anzuzeigen oder zu ändern. Verwaltungsrollen können in größere Gruppierungen weiter zusammengefasst werden, die als Verwaltungsrollengruppen und Verwaltungsrollen-Zuweisungsrichtlinien bezeichnet werden. Diese ermöglichen die Verwaltung von Funktionsbereichen und die Empfängerkonfiguration. Rollengruppen und Rollenzuweisungsrichtlinien weisen Administratoren und Benutzern Berechtigungen zu. Weitere Informationen zu Verwaltungsrollengruppen und Zuweisungsrichtlinien für Verwaltungsrollen finden Sie unter [Grundlegendes zur rollenbasierten Zugriffssteuerung](understanding-role-based-access-control-exchange-2013-help.md).
 

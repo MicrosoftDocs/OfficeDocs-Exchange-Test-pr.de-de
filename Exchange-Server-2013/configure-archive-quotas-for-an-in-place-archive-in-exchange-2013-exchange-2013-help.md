@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-04_
+_**Letztes Änderungsdatum des Themas:** 2012-12-04_
 
 Bei lokalen Bereitstellungen werden Compliance-Archive standardmäßig mit unbegrenzten Speicherkontingenten erstellt. Demzufolge müssen Sie die Eigenschaften eines Postfachs bearbeiten, um für das Archiv Speicherkontingente festzulegen. Sie können die folgenden Kontingente für ein Archiv festlegen:
 

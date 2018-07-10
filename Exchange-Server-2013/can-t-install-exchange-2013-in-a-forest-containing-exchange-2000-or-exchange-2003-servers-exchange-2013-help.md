@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013 kann nicht fortgesetzt werden, da ein oder mehrere Computer mit Exchange 2000 Server oder Exchange Server 2003 in der Active Directory-Gesamtstruktur gefunden wurden. Vor der Installation von Exchange 2013 müssen alle Exchange 2000- und Exchange 2003-Server aus der Gesamtstruktur entfernt werden. Postfächer, öffentliche Ordner und alle anderen Exchange-Objekte oder -Komponenten müssen entweder auf Exchange Server 2007 oder auf Exchange Server 2010 aktualisiert werden. Sie können kein direktes Upgrade von Exchange 2000 oder Exchange 2003 auf Exchange 2013 ausführen.
 

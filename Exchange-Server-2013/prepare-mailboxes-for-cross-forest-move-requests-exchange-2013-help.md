@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-11-22_
+_**Letztes Änderungsdatum des Themas:** 2017-11-22_
 
-**Zusammenfassung:** erfahren Sie mehr über vorbereiten Postfächer für gesamtstrukturübergreifende in Exchange 2013 verschoben.
+**Zusammenfassung:**  erfahren Sie mehr über vorbereiten Postfächer für gesamtstrukturübergreifende in Exchange 2013 verschoben.
 
 Microsoft Exchange 2013 unterstützt das Verschieben von Postfächern und Migrationen mithilfe der Exchange-Verwaltungsshell, insbesondere die **New-MoveRequest** und **New-MigrationBatch** -Cmdlets. Sie können auch das Postfach über Exchange Administration Center (EAC) verschieben. Beachten Sie, dass Sie Exchange 2010 und Exchange 2013-Postfächer in einer Gesamtstruktur Exchange 2013 verschieben können.
 

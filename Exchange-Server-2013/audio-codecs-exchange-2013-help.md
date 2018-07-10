@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In Unified Messaging (UM) wird ein Audiocodec zum Speichern von Voicemailnachrichten verwendet. Ein weiterer Codec wird zwischen einem VoIP-Gateway oder einer IP-Festnetztelefonanlage (IP Private Branch eXchange) und dem Postfachserver, der den Microsoft Exchange Unified Messaging-Dienst ausführt, beziehungsweise dem Clientzugriffsserver, der den Microsoft Exchange Unified Messaging Call Router-Dienst ausführt, verwendet. Unified Messaging kann Sprachnachrichten mithilfe der folgenden vier Audiocodecs erstellen und speichern:
 

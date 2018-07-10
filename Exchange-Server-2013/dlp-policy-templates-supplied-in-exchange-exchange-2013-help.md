@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In Microsoft Exchange Server 2013 und Exchange Online können Sie DLP-Richtlinienvorlagen (Data Loss Prevention, Verhinderung von Datenverlust) als Ausgangspunkt verwenden, um eigene DLP-Richtlinien zu erstellen, die die spezifischen rechtlichen und geschäftlichen Anforderungen Ihrer Organisation erfüllen. Sie können diese Vorlagen entsprechend den Anforderungen Ihrer Organisation bearbeiten.
 

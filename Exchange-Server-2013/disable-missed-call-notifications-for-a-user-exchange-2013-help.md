@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-09_
+_**Letztes Änderungsdatum des Themas:** 2012-12-09_
 
 Sie können über die Shell oder Exchange-Verwaltungskonsole Benachrichtigungen über verpasste Anrufe für eine Unified Messaging-Postfachrichtlinie (UM) aktivieren oder deaktivieren. Bei einer Benachrichtigung über verpasste Anrufe handelt es sich um eine E-Mail, die an einen Benutzer gesendet wird, wenn der Benutzer einen eingehenden Anruf nicht annimmt und der Anrufer keine Sprachnachricht hinterlässt. Dies ist jedoch nicht die E-Mail-Nachricht, die die für einen Benutzer hinterlassene Sprachnachricht enthält.
 

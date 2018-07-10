@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-13_
+_**Letztes Änderungsdatum des Themas:** 2012-12-13_
 
 Sie können für Outlook Voice Access-Benutzer das Senden von Voicemailnachrichten an andere UM-aktivierte Benutzer, die demselben Wählplan zugeordnet sind, aktivieren oder deaktivieren.
 

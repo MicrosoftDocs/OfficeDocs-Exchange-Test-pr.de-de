@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Sie können Voicemailbenachrichtigungen an Benutzer für Anrufe verhindern, die von einem UM-IP-Gateway (Unified Messaging) empfangen werden. Wenn Sie diese Einstellung aktivieren, kann das UM-IP-Gateway SIP-NOTIFY-Nachrichten für Benutzer empfangen und senden. Der MWI (Message Waiting Indicator) ist standardmäßig aktiviert und ermöglicht es, dass Benachrichtigungen über wartende Nachrichten an Benutzer gesendet werden. Diese Einstellung kann jedoch gemäß Ihren Anforderungen deaktiviert werden.
 

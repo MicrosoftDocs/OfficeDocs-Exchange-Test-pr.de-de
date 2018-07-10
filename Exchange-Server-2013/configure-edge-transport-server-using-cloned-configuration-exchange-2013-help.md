@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-13_
+_**Letztes Änderungsdatum des Themas:** 2015-04-13_
 
 Sie können die vorhandenen Exchange Management Shell-Skripts (zu finden unter %ExchangeInstallPath%Scripts) verwenden, um die Konfiguration eines Edge-Transport-Servers zu duplizieren. Dieser Vorgang wird als *geklonte Konfiguration* bezeichnet. *Geklonte Konfiguration* bedeutet, neue Edge-Transport-Server basierend auf den Konfigurationsinformationen eines zuvor konfigurierten Quellservers bereitzustellen. Die Konfigurationsinformationen des zuvor konfigurierten Quellservers werden kopiert und in eine XML-Datei exportiert, die dann auf den Zielserver importiert wird. Einen Überblick über diesen Vorgang finden Sie unter [Geklonte Edge-Transport-Server-Konfiguration](edge-transport-server-cloned-configuration-exchange-2013-help.md).
 

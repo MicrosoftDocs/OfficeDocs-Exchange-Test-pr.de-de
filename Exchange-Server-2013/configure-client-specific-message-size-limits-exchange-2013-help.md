@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-01-26_
+_**Letztes Änderungsdatum des Themas:** 2017-01-26_
 
 In Microsoft Exchange Server 2013 gelten für die Übertragung von Nachrichten über die Exchange-Organisation verschiedene Größenbeschränkungen. Weitere Informationen finden Sie unter [Beschränkungen der Nachrichtengröße](message-size-limits-exchange-2013-help.md).
 
@@ -258,7 +258,7 @@ Sie müssen für alle Nachrichtengrößenbeschränkungen Werte festlegen, die gr
 
 Statt mit dem Editor können Sie die clientspezifischen Nachrichtengrößenbegrenzungen über die Befehlszeile konfigurieren. Öffnen Sie die Eingabeaufforderung mit erhöhten Rechten auf dem Exchange-Server (ein Eingabeaufforderungsfenster, das Sie durch Auswählen von **Als Administrator ausführen** öffnen), und führen Sie die entsprechenden Befehle für die Grenzwerte aus, die Sie konfigurieren möchten.
 
-**Hinweise:**
+**Hinweise:** 
 
   - Die Größenwerte in den Befehlen sind die Standardwerte, daher müssen Sie diese ändern.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Mit der Shellkönnen Sie eine oder mehr Mailboxansageregeln für einen Benutzer erstellen. Sie können auch mit dem Cmdlet **New-UMCallAnsweringRule** in einem Exchange-Verwaltungsshellskript Mailboxansageregeln für mehrere Benutzer erstellen.
 
@@ -71,14 +71,11 @@ In diesem Beispiel wird die Mailboxansageregel `MyCallAnsweringRule` im Postfach
 
 In diesem Beispiel wird die Mailboxansageregel `MyCallAnsweringRule` im Postfach für "Tony Smith" erstellt, und folgende Aktionen werden durchgeführt:
 
-  -  
-    Die Priorität der Mailboxansageregel wird auf 2 festgelegt.
+  -  Die Priorität der Mailboxansageregel wird auf 2 festgelegt.
 
-  -  
-    Für die Mailboxansageregel werden Tastenzuordnungen erstellt.
+  -  Für die Mailboxansageregel werden Tastenzuordnungen erstellt.
 
-  -  
-    Wenn der Anrufer die Voicemail des Benutzers erreicht und der Status des Benutzers auf "Gebucht" gesetzt ist, hat der Anrufer folgende Möglichkeiten:
+  -  Wenn der Anrufer die Voicemail des Benutzers erreicht und der Status des Benutzers auf "Gebucht" gesetzt ist, hat der Anrufer folgende Möglichkeiten:
     
       - Er drückt die Taste 1 und wird an den Empfang mit der Durchwahl 45678 weitergeleitet.
     

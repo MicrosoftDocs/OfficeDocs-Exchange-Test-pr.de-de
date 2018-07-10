@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit den Filtern für Verwaltungsrollenbereiche können in hohem Maße anpassbare Verwaltungsbereiche definiert werden. Mithilfe von Bereichsfiltern können Sie einen Bereich erstellen, der die Segmentierung Ihrer Empfänger, Datenbanken und Server widerspiegelt. Auf diese Weise können Administratoren nur die Objekte verwalten, auf die sie auch Zugriff haben sollen. Bereichsfilter können nahezu alle Empfänger-, Datenbank-, oder Serverobjekteigenschaften verwenden.
 

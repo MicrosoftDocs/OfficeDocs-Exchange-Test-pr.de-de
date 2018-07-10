@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Project Server 2013_
+_**Gilt für:** Exchange Server 2013, Project Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Der Integritätssatz **MailboxTransport** überwacht die Gesamtintegrität der Postfachtransportübergabe- und Postfachtransportzustellungs-Dienste auf Postfachservern. Diese Dienste sind für das Senden zu und aus Postfachdatenbanken verantwortlich. Weitere Informationen finden Sie unter [Nachrichtenübermittlung](https://technet.microsoft.com/de-de/library/aa996349\(v=exchg.150\)).
 

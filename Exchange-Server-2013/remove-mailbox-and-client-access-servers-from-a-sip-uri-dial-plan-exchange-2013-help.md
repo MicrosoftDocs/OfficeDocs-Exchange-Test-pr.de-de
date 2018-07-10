@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-16_
+_**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
 Sie können Clientzugriffs- und Postfachserver aus SIP-URI-Wählplänen entfernen. Wenn Sie Microsoft Lync Server bereitstellen, müssen Sie den für Lync Server erstellten SIP-URI-Wählplänen alle Clientzugriffs- und Postfachserver manuell hinzufügen, damit ausgehende Anrufe einwandfrei funktionieren. Sie müssen jedoch möglicherweise einen Clientzugriffs- oder Postfachserver aus Ihrer Lync -Bereitstellung entfernen, beispielsweise dann, wenn Sie Wartungsarbeiten vornehmen oder den Server in den Offline-Betrieb wechseln.
 

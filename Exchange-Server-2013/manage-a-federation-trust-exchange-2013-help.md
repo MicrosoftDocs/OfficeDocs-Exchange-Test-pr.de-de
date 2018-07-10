@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-01_
+_**Letztes Änderungsdatum des Themas:** 2015-01-01_
 
 Eine Verbundvertrauensstellung richtet eine Vertrauensstellung zwischen einer Microsoft Exchange 2013-Organisation und dem Azure Active Directory-Authentifizierungssystem ein und unterstützt eine Verbundfreigabe mit anderen Exchange-Organisationen im Partnerverbund. Die Verbundvertrauensstellung muss nach ihrer Erstellung normalerweise nicht verwaltet oder geändert werden. In bestimmten Situationen müssen Sie jedoch möglicherweise Verbunddomänen hinzufügen oder entfernen bzw. die zur Konfiguration der Organisations-ID (OrgID) für die Verbundvertrauensstellung verwendete Domäne zurücksetzen.
 

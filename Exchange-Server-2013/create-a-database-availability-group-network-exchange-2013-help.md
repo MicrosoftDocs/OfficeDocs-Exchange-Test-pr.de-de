@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-02_
+_**Letztes Änderungsdatum des Themas:** 2012-11-02_
 
 Bei Bedarf können Sie zusätzliche Netzwerke erstellen, die in einer Database Availability Group (DAG) verwendet werden. Sie können ein DAG-Netzwerk mithilfe der Exchange-Verwaltungskonsole oder der Shell erstellen.
 
@@ -47,9 +47,7 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
 
 2.  Wählen Sie die DAG aus, die Sie konfigurieren möchten, und klicken Sie dann auf ![Hinzufügen von DAG-Netzwerken](images/Dd298051.befcdc4e-7f7a-451d-a0a8-608c79f5d186(EXCHG.150).gif "Hinzufügen von DAG-Netzwerken").
 
-3.  
-    
-    Stellen Sie auf der Seite **Neues Netzwerk der Database Availability Group** folgende Informationen bereit:
+3.  Stellen Sie auf der Seite **Neues Netzwerk der Database Availability Group** folgende Informationen bereit:
     
       - **Name des Netzwerks der Database Availability Group**   Geben Sie in diesem Feld einen Namen für das Netzwerk ein, der in der DAG eindeutig ist.
     

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mit Unified Messaging (UM) können Benutzer Voicemail- und andere Funktionen wie u. a. Outlook Voice Access und Mailboxansageregeln verwenden. Unified Messaging kombiniert Voicemessaging und E-Mails in einem Postfach, auf das über verschiedene Geräte zugegriffen werden kann. Benutzer können die Nachrichten über ihren E-Mail-Posteingang oder mit Outlook Voice Access auf einem beliebigen Telefon abhören. Sie können steuern, wie Benutzer ausgehende Anrufe über UM tätigen, und festlegen, wie Anrufe bei der Organisation behandelt werden.
 

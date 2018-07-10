@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit dem IMAP-Integritätssatz wird die Verfügbarkeit der IMAP4-Proxyinfrastruktur auf dem Clientzugriffsserver überwacht. Der IMAP-Integritätssatz steht in enger Beziehung mit den folgenden Integritätssätzen:
 

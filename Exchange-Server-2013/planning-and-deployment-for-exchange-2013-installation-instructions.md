@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie suchen Hilfestellung für die Installation von Exchange? In diesem Artikel finden Sie Richtlinien für die Planung einer Microsoft Exchange Server 2013-Bereitstellung sowie Links zu Artikeln, die Sie während der Bereitstellung benötigen.
 

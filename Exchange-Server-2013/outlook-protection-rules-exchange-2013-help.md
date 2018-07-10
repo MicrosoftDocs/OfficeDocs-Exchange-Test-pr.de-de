@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Jeden Tag tauschen Information-Worker sicherheitsrelevante Informationen per E-Mail aus, wozu Finanzberichte und -daten ebenso gehören wie Informationen zu Kunden und Mitarbeitern sowie vertrauliche Produktinformationen und -spezifikationen. In Microsoft Exchange Server 2013, Microsoft Outlook und Microsoft OfficeOutlook Web App können Benutzer ihre Nachrichten mit der Verwaltung von Informationsrechten (IRM) schützen, indem sie eine Vorlage für Benutzerrechterichtlinien für den Active Directory-Rechteverwaltungsdienst (AD RMS) anwenden. Hierfür ist eine AD RMS-Bereitstellung in der Organisation erforderlich. Weitere Informationen zu AD RMS finden Sie unter [Active Directory-Rechteverwaltungsdienste](https://go.microsoft.com/fwlink/p/?linkid=129823).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-28_
+_**Letztes Änderungsdatum des Themas:** 2012-11-28_
 
 Sie können über die Exchange-Verwaltungskonsole und Shell die Microsoft Exchange POP3- und IMAP4-Dienste für die Verwendung von IP-Adressen und Ports konfigurieren, die sich von den Standardeinstellungen unterscheiden.
 

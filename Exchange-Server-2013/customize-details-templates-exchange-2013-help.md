@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-25_
+_**Letztes Änderungsdatum des Themas:** 2012-09-25_
 
 Mit dem Detailvorlagen-Editor können Sie die clientseitige Darstellung von Objekteigenschaften, auf die mithilfe von Adresslisten in MicrosoftOutlook zugegriffen wird, in der grafischen Benutzeroberfläche (Graphical User Interface, GUI) anpassen. Wenn ein Benutzer beispielsweise in Outlook eine Adressliste öffnet, werden die Eigenschaften eines bestimmten Objekts entsprechend der Definition in der Detailvorlage der Exchange-Organisation dargestellt. Die Objekte können durch Ändern der Feldgröße, Hinzufügen oder Entfernen von Feldern, Hinzufügen oder Entfernen von Registerkarten oder durch Neuanordnen von Feldern angepasst werden. Das Layout dieser Vorlagen richtet sich nach der jeweiligen Sprache.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 *Nachrichteneinschränkungen* beziehen sich auf eine Gruppe von Grenzwerten, die für die Anzahl Nachrichten und Verbindungen festgelegt wurden, die von einem Microsoft Exchange Server 2013-Computer verarbeitet werden können. Diese Grenzwerte verhindern die zufällige oder absichtliche Auslastung der Systemressourcen auf dem Exchange-Server.
 
@@ -75,13 +75,13 @@ Zur Unterstützung dieser neuen Funktionalität verwendet Exchange 2013 die folg
 
   - **Einschränkung gleichzeitiger Verbindungen basierend auf dem Status der Messagingdatenbank** Dieser Mechanismus überwacht den Status der Exchange-Messagingdatenbank (MDB) und schränkt gleichzeitige Verbindungen mit Exchange-Transportservern basierend auf einer zugewiesenen Statuskennzahl ein. Die MDB wird von der Ressourcenstatusmonitor-API im Transportdienst auf dem Postfachserver überwacht und erhält eine Statuskennzahl zwischen -1 und 100. Dieser Wert basiert auf der RPC-Leistungsstatistik, die mit jeder RPC-Antwort vom Prozess "Store.exe" im Postfachtransportdienst gesendet wird. Das Framework für die Ressourcenintegrität verwendet sowohl den Leistungsindikator **Anforderungen/s** als auch den Leistungsindikator **Durchschnittliche RPC-Wartezeit**, um eine Statuskennzahl für die Datenbank zu berechnen. Zur Aufrechterhaltung eines konsistenten Benutzererlebnisses bei der Interaktion mit dem Postfach senkt Exchange die Anzahl von gleichzeitigen Verbindungen, wenn die Statuskennzahl abnimmt. Die folgenden Statuswertebereiche stehen zur Verfügung:
     
-      - **-1:** Dieser Wert gibt an, dass der MDB-Status unbekannt ist. Dieser Wert wird beim Start der Datenbank zugewiesen. In diesem Szenario wird die Datenbank als fehlerfrei betrachtet.
+      - **-1:**  Dieser Wert gibt an, dass der MDB-Status unbekannt ist. Dieser Wert wird beim Start der Datenbank zugewiesen. In diesem Szenario wird die Datenbank als fehlerfrei betrachtet.
     
-      - **0:** Dieser Wert wird zugewiesen, wenn die Datenbank sich in einem fehlerhaften Zustand befindet. In diesem Zustand sollte die Datenbank nicht abgefragt werden.
+      - **0:**  Dieser Wert wird zugewiesen, wenn die Datenbank sich in einem fehlerhaften Zustand befindet. In diesem Zustand sollte die Datenbank nicht abgefragt werden.
     
-      - **1 bis 99:** Diese Werte repräsentieren einen Zustand mittlerer Integrität. Ein niedrigerer Wert steht für eine Datenbank niedrigerer Integrität.
+      - **1 bis 99:**  Diese Werte repräsentieren einen Zustand mittlerer Integrität. Ein niedrigerer Wert steht für eine Datenbank niedrigerer Integrität.
     
-      - **100:** Dieser Wert steht für eine fehlerfreie Datenbank.
+      - **100:**  Dieser Wert steht für eine fehlerfreie Datenbank.
 
 Der Microsoft Exchange-Einschränkungsdienst stellt das Framework für die Einschränkung des Nachrichtenflusses bereit. Der Microsoft Exchange-Einschränkungsdienst verfolgt die Einschränkungseinstellungen für den Nachrichtenfluss für einen bestimmten Benutzer und speichert die Einschränkungsinformationen im Arbeitsspeicher zwischen. Die Einschränkungseinstellungen für den Nachrichtenfluss werden auch als *Budget* bezeichnet. Ein Neustart des Microsoft Exchange-Einschränkungsdiensts führt auch dazu, dass die Budgets zur Einschränkung des Nachrichtenflusses zurückgesetzt werden.
 
@@ -89,9 +89,9 @@ Sie können die in Exchange 2013 verfügbaren Cmdlets für Einschränkungsrichtl
 
 Zeiteinstellungen für ein Budget werden als Prozentsatz einer Minute festgelegt. Daher repräsentiert ein Schwellenwert von 100 einen Zeitraum von 60 Sekunden. Angenommen, Sie möchten Outlook Web App-Richtlinieneinstellungen festlegen, um die Zeitdauer einzuschränken, für die ein Benutzer Outlook Web App-Code auf einem Clientzugriffsserver ausführen kann, und Sie möchten die Zeit, die der Benutzer mit dem Clientzugriffsserver kommunizieren kann, auf 600 Millisekunden pro Minute einschränken. Hierzu müssen Sie den Wert der beiden folgenden Parameter auf 1 Prozent pro Minute (600 Millisekunden) festlegen:
 
-  - **OWAPercentTimeInCAS:** 1
+  - **OWAPercentTimeInCAS:**  1
 
-  - **OWAPercentTimeInMailboxRPC:** 1
+  - **OWAPercentTimeInMailboxRPC:**  1
 
 Einem Benutzer, auf den diese Richtlinie angewendet wird, wird ein OWAPercentTimeInCAS-Budget von 600 Millisekunden und ein OWAPercentageTimeInMailboxRPC-Budget von 600 Millisekunden zugewiesen. In diesem Szenario kann der Benutzer bei Anmeldung an Outlook Web App bis zu 600 Millisekunden lang Clientzugriffscode ausführen. Nach Ablauf der 600 Millisekunden wird die Verbindung als "Über Budget" eingestuft, und der Exchange-Server lässt nach Überschreitung des Budgetgrenzwerts für eine Minute keine weitere Outlook Web App-Aktion zu. Nach Ablauf einer Minute kann der Benutzer für weitere 600 Millisekunden Outlook Web App-Clientzugriffscode ausführen.
 

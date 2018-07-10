@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Können Sie der Seite **neue menünavigationseintrags** zum Erstellen von einzelnen oder mehreren tastenzuordnungen Business oder Hauptmenü außerhalb der Geschäftszeiten für automatische Telefonzentralen aufgefordert wird. Sie können die Aktion definieren, die ausgeführt wird, wenn eine Taste auf der Telefontastatur den Aufruf von einer Durchwahlnummer oder eine andere automatische Telefonzentrale übertragen gedrückt wird, beispielsweise.
 

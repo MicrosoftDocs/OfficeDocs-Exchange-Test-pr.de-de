@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Sie können das Skript „RollAlternateserviceAccountCredential.ps1“ in Exchange Server 2013 verwenden, um die Anmeldeinformationen für das alternative Dienstkonto (ASA-Anmeldeinformationen) zu aktualisieren und das Update an bestimmte Clientzugriffsserver zu verteilen.
 

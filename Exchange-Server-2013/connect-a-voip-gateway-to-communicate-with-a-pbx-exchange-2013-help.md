@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-15_
+_**Letztes Änderungsdatum des Themas:** 2016-12-15_
 
 Wenn Sie Ihr Telefon- und Datennetzwerk in Microsoft Exchange Server 2013 für Unified Messaging (UM) konfigurieren, müssen Sie die VoIP-Gateways für die Kommunikation mit Clientzugriffsservern, auf denen der Microsoft Exchange Unified Messaging-Anrufrouterdienst ausgeführt wird, oder Postfachservern konfigurieren, auf denen der Microsoft Exchange Unified Messaging-Dienst ausgeführt wird. Sie müssen auch die VoIP-Gateways für die Kommunikation mit den Nebenstellenanlagen in Ihrer Organisation konfigurieren. Verwenden Sie zum Konfigurieren eines VoIP-Gateways für die Kommunikation mit einer Nebenstellenanlage die folgenden Informationen und Links.
 

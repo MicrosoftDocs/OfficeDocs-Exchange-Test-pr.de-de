@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2010, Exchange Server 2013_
+_**Gilt für:** Exchange Server 2010, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-04-01_
+_**Letztes Änderungsdatum des Themas:** 2018-04-01_
 
-**Zusammenfassung:** In diesem Artikel erfahren Sie, wie Sie mit Exchange Aktive Sync Mobilgeräte mit Outlook für iOS und Android in Ihrer lokalen Exchange-Organisation mithilfe der Standardauthentifizierung über das Exchange ActiveSync-Protokoll verwalten können.
+**Zusammenfassung:**  In diesem Artikel erfahren Sie, wie Sie mit Exchange Aktive Sync Mobilgeräte mit Outlook für iOS und Android in Ihrer lokalen Exchange-Organisation mithilfe der Standardauthentifizierung über das Exchange ActiveSync-Protokoll verwalten können.
 
 Microsoft empfiehlt Exchange ActiveSync für die Verwaltung von Mobilgeräten, mit denen auf Exchange-Postfächer in Ihrer lokalen Umgebung zugegriffen wird. Exchange ActiveSync ist ein Microsoft Exchange-Synchronisierungsprotokoll, über das Mobiltelefone auf organisationsinterne Informationen zugreifen können, die auf Microsoft Exchange-Servern gespeichert sind.
 
@@ -53,9 +53,9 @@ Da Outlook für iOS und Android in Exchange unter den Mobilgeräten des Benu
 
 Aufgrund der cloudbasierten Architektur von Outlook für iOS und Android erscheinen sämtliche Outlook-Verbindungen eines Exchange-Benutzers unter einem einzigen Mobilgerätebezeichner (ID). Alle für den Benutzer geltenden Zugriffssteuerungsregeln für den Zugriff über Mobilgeräte werden auf alle Geräte angewendet, die dieser Geräte-ID zugeordnet sind. Diese Implementierung bedingt zwei Unterschiede zur Funktionsweise der herkömmlichen Exchange ActiveSync-Gerätezugriffssteuerung:
 
-  - **Blockierung:** Eine Blockierungsregel blockiert Outlook auf allen Geräten und unter allen unterstützten Betriebssystemen. Die Blockierung lässt sich nicht auf einzelne Geräte oder Betriebssysteme beschränken.
+  - **Blockierung:**  Eine Blockierungsregel blockiert Outlook auf allen Geräten und unter allen unterstützten Betriebssystemen. Die Blockierung lässt sich nicht auf einzelne Geräte oder Betriebssysteme beschränken.
 
-  - **Quarantäne:** Der Quarantäneprozess arbeitet auf Benutzerbasis, nicht auf Gerätebasis. Wurde ein Gerät eines Benutzers aus der Quarantäne entlassen, kann der Benutzer Outlook auf beliebig vielen weiteren Geräten installieren und konfigurieren. Da der Benutzer aus der Quarantäne entlassen wurde, werden neue ihm zugewiesene Geräte nicht unter Quarantäne gestellt.
+  - **Quarantäne:**  Der Quarantäneprozess arbeitet auf Benutzerbasis, nicht auf Gerätebasis. Wurde ein Gerät eines Benutzers aus der Quarantäne entlassen, kann der Benutzer Outlook auf beliebig vielen weiteren Geräten installieren und konfigurieren. Da der Benutzer aus der Quarantäne entlassen wurde, werden neue ihm zugewiesene Geräte nicht unter Quarantäne gestellt.
 
 Existieren Mobilgeräte-Postfachrichtlinien, gelten sie für alle Geräte, die einem Benutzer zugeordnet sind. Wenn Sie also beispielsweise für ein bestimmtes Postfach eine PIN-Sperre erzwingen, ist auf allen Geräten, die sich mit dem Postfach verbinden, die Eingabe einer PIN erforderlich.
 

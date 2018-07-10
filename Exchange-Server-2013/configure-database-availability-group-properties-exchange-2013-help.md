@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-24_
+_**Letztes Änderungsdatum des Themas:** 2014-06-24_
 
 Sie können die Exchange-Verwaltungskonsole oder die Shell verwenden, um die Eigenschaften einer Database Availability Group (DAG) zu konfigurieren, einschließlich der IP-Adresskonfiguration und des für die DAG verwendeten Zeugenservers und Zeugenverzeichnisses. Mit der Shell können Sie DAG-Eigenschaften konfigurieren, die nicht in der Exchange-Verwaltungskonsole zur Verfügung stehen, z. B. den alternativen Zeugenserver und das Zeugenverzeichnis, den für die Replikation verwendeten TCP-Port und den DAC-Modus (Datacenter Activation Coordination).
 
@@ -51,9 +51,7 @@ Sie können die Exchange-Verwaltungskonsole oder die Shell verwenden, um die Eig
 
 2.  Wählen Sie die DAG aus, die Sie konfigurieren möchten, und klicken Sie auf ![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
 
-3.  
-    
-    Verwenden Sie die Seite **Allgemein**, um DAG-Mitgliedschaft und Betriebsstatus anzuzeigen sowie den Zeugenserver, das Zeugenverzeichnis und die automatische Netzwerkkonfiguration für die DAG zu konfigurieren:
+3.  Verwenden Sie die Seite **Allgemein**, um DAG-Mitgliedschaft und Betriebsstatus anzuzeigen sowie den Zeugenserver, das Zeugenverzeichnis und die automatische Netzwerkkonfiguration für die DAG zu konfigurieren:
     
       - **Zeugenserver**   Der Hostname oder vollqualifizierte Domänenname (FQDN) des Zeugenservers für die DAG. Auch wenn es sich um eine erforderliche Eigenschaft für alle DAGs handelt, wird der Zeugenserver nur verwendet, wenn eine gerade Anzahl von DAG-Mitgliedern vorliegt und das verwendete Quorummodell "Knoten- und Dateifreigabemehrheit" lautet.
     
@@ -63,9 +61,7 @@ Sie können die Exchange-Verwaltungskonsole oder die Shell verwenden, um die Eig
     
       - **Database Availability Group-Netzwerke manuell konfigurieren**   Ein Kontrollkästchen, dass Sie aktivieren, wenn Sie alle DAG-Netzwerke manuell konfigurieren möchten. Wenn Sie dieses Kontrollkästchen nicht aktivieren, konfiguriert das System DAG-Netzwerke automatisch basierend auf der Netzwerkschnittstellenkonfiguration. Wenn das Kontrollkästchen nicht aktiviert ist, sind die Cmdlets **Set-DatabaseAvailabilityGroupNetwork** und **New-DatabaseAvailabilityGroupNetwork** zur Durchführung administrativer Aufgaben bezüglich der DAG deaktiviert.
 
-4.  
-    
-    Auf der Seite **IP-Adressen** können Sie die IP-Adressen anzeigen und ändern, die der DAG zugewiesen sind:
+4.  Auf der Seite **IP-Adressen** können Sie die IP-Adressen anzeigen und ändern, die der DAG zugewiesen sind:
     
       - Wählen Sie eine vorhandene IP-Adresse aus, und klicken Sie auf ![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol"), um sie zu ändern.
     
@@ -73,9 +69,7 @@ Sie können die Exchange-Verwaltungskonsole oder die Shell verwenden, um die Eig
     
       - Geben Sie eine IP-Adresse ein, und klicken Sie auf ![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)"), um sie zur DAG hinzuzufügen.
 
-5.  
-    
-    Klicken Sie auf **Speichern**, um alle vorgenommenen Änderungen zu speichern.
+5.  Klicken Sie auf **Speichern**, um alle vorgenommenen Änderungen zu speichern.
 
 ## Konfigurieren von Eigenschaften einer DAG mit der Shell
 

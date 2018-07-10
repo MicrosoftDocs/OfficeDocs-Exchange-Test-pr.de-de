@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Zum Schutz vor versehentlichen oder schädlichen Löschvorgängen und zum Erleichtern der Suche nach Daten zur Vorbereitung auf Rechtsstreitigkeiten oder Untersuchungen verwenden Microsoft Exchange Server 2013 und Exchange Online den Ordner „Wiederherstellbare Elemente“. Der Ordner "Wiederherstellbare Elemente" ersetzt die Funktion, die in früheren Versionen von Exchange als *Dumpster* bezeichnet wurde. Der Ordner "Wiederherstellbare Elemente" wird von den folgenden Exchange-Funktionen verwendet:
 

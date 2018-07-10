@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-03-27_
+_**Letztes Änderungsdatum des Themas:** 2017-03-27_
 
 In diesem Thema finden Sie eine Liste häufig gestellter Fragen zu öffentlichen Ordnern in Exchange Server 2013. Weitere Informationen zu Öffentlichen Ordnern finden Sie unter [Öffentliche Ordner](public-folders-exchange-2013-help.md).
 

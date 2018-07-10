@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Wenn Sie eine Sprache in der Liste der verfügbaren Unified Messaging-Sprachen für einen UM-Wählplan oder eine UM-Telefonzentrale verfügbar machen möchten, müssen Sie zunächst das geeignete UM-Sprachpaket installieren. Sie installieren das Sprachpaket mithilfe der sprachspezifischen, selbstextrahierenden Datei oder über den Befehl **setup.exe /AddUmLanguagePack** auf einem Postfachserver mit aktivem Microsoft Exchange Unified Messaging-Dienst. Bevor Sie ein UM-Sprachpaket installieren können, müssen Sie es zunächst in einen lokalen Ordner auf dem Postfachserver herunterladen. Sie können UM-Sprachpakete auf der Seite [Exchange Server 2013 UM Language Packs – Deutsch](https://go.microsoft.com/fwlink/p/?linkid=266542) herunterladen. Es gibt für jede Sprache eine eigene ausführbare Datei.
 
@@ -53,13 +53,9 @@ Weitere Informationen zu Aufgaben im Zusammenhang mit UM-Sprachen finden Sie unt
 
 2.  Doppelklicken Sie auf die Datei "UMLanguagePack.*\<CultureCode\>.exe*". Um beispielsweise das deutsche UM-Sprachpaket herunterzuladen, laden Sie die Datei "UMLanguagePack.de-DE.exe" herunter.
 
-3.  
-    
-    Lesen Sie im Exchange 2013 Setup-Assistenten auf der Seite **Lizenzvertrag** die Bedingungen des Lizenzvertrags, aktivieren Sie das Kontrollkästchen **Ich stimme den Bedingungen des Lizenzvertrags zu**, und klicken Sie auf **Weiter**.
+3.  Lesen Sie im Exchange 2013 Setup-Assistenten auf der Seite **Lizenzvertrag** die Bedingungen des Lizenzvertrags, aktivieren Sie das Kontrollkästchen **Ich stimme den Bedingungen des Lizenzvertrags zu**, und klicken Sie auf **Weiter**.
 
-4.  
-    
-    Stellen Sie auf der Seite **Unified Messaging-Sprachpaket** sicher, dass im Fenster **Die folgenden Unified Messaging-Sprachpakete werden installiert** die richtige Sprache aufgelistet ist, und klicken Sie anschließend auf **Installieren**.
+4.  Stellen Sie auf der Seite **Unified Messaging-Sprachpaket** sicher, dass im Fenster **Die folgenden Unified Messaging-Sprachpakete werden installiert** die richtige Sprache aufgelistet ist, und klicken Sie anschließend auf **Installieren**.
 
 5.  Klicken Sie auf **Fertig stellen**, um die Installation des UM-Sprachpakets abzuschließen.
 

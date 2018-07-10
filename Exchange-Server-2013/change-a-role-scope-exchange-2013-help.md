@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Verwaltungsrollenbereiche bestimmen, welche Objekte einem Benutzer zur Verfügung gestellt werden, damit die Objekte mithilfe der ihm zugeordneten Cmdlets und Parameter geändert werden können. Durch Ändern eines Bereichs können Sie festlegen, welche Objekte den Benutzern zum Erstellen, Ändern oder Entfernen zur Verfügung gestellt werden.
 

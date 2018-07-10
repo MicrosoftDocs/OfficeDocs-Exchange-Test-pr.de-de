@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-05-04_
+_**Letztes Änderungsdatum des Themas:** 2016-05-04_
 
 Sie können mehrere Kurzwahlnummern konfigurieren, die dann von einem Unified Messaging-Server (UM) zur Anwahl interner und externer Rufnummern für UM-aktivierte Benutzer verwendet werden. In vielen Fällen möchten Sie Wähleinstellungen in Verbindung mit den Kurzwahl- oder Zugriffscodes, einem nationalen Nummernpräfix oder den nationalen/regionalen oder internationalen Nummernformaten konfigurieren, damit Sie das Outdialing für Benutzer in Ihrer Organisation steuern können. Dieses Thema befasst sich mit Kurzwahlnummern, Nummernpräfixen und Nummernformaten und erläutert, wie diese zum Steuern des Outdialings in Ihrer Organisation verwendet werden können.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-19_
+_**Letztes Änderungsdatum des Themas:** 2014-06-19_
 
 Zur Durchführung einer unbeaufsichtigten Installation müssen Sie Exchange Server 2013 über eine Eingabeaufforderung installieren. Weitere Informationen zur Planung und Bereitstellung von Exchange 2013 finden Sie unter [Planung und Bereitstellung](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

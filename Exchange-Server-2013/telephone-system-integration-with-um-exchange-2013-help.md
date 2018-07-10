@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Für die Bereitstellung eines Unified Messaging-Servers (UM) benötigen Sie ein solides Verständnis grundlegender Telefoniekonzepte und -komponenten. Nachdem Sie sich mit den Grundlagen der Telefonie vertraut gemacht haben, können Sie UM in eine Exchange-Organisation integrieren. Die grundlegenden Konzepte und Komponenten umfassen Folgendes:
 

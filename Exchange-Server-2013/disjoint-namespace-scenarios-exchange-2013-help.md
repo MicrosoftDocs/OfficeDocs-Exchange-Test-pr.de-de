@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema erhalten Sie Informationen zum Konzept nicht zusammenhängender Namespaces und zu den unterstützten Szenarien für die Bereitstellung von Microsoft Exchange 2013 in einer Domäne mit einem nicht zusammenhängenden Namespace.
 
@@ -101,7 +101,7 @@ Darüber hinaus muss die Suchliste für jeden Computer in der disjunkten Domäne
 
   - [Group Policy Frequently Asked Questions (FAQ)](https://go.microsoft.com/fwlink/p/?linkid=100128)
 
-  - [Neue Gruppenrichtlinien für DNS in Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=294785)
+  - [Neue Gruppenrichtlinien für DNS in Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=294785)
 
   - [Gruppenrichtlinien](https://go.microsoft.com/fwlink/p/?linkid=268043)
 

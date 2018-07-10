@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-29_
+_**Letztes Änderungsdatum des Themas:** 2012-11-29_
 
 Verwenden Sie die Shell, um ein vorläufig gelöschtes Postfach mit einem Active Directory-Benutzerkonto zu verbinden. Ein Postfach wird aus der Quellpostfachdatenbank *vorläufig gelöscht*, wenn es in eine andere Postfachdatenbank verschoben wird. Exchange löscht das Postfach nach Abschluss des Vorgangs nicht vollständig aus der Quell-Postfachdatenbank. Stattdessen wird das Postfach der Quellpostfachdatenbank in einen Zustand vorläufiger Löschung versetzt. So können Sie das Quellpostfach wiederherstellen, falls während der Verschiebung ein Fehler oder eine Beschädigung des Postfachs in der Zieldatenbank auftritt. In diesem Fall können Sie das Quellpostfach wiederherstellen und die Verschiebung wiederholen.
 

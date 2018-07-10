@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-15_
+_**Letztes Änderungsdatum des Themas:** 2014-02-15_
 
 Das Deaktivieren der Veröffentlichung von Kalenderinformationen, hängt davon ab, wie die Aktivierung erfolgt ist. Wenn Sie für das Veröffentlichung von Kalenderinformationen dediziert eine Freigaberichtlinie erstellt haben, können Sie die Richtlinie entweder deaktivieren oder ganz löschen. Wenn Sie die Veröffentlichung von Kalenderinformationen als Freigaberegel in der standardmäßigen Freigaberichtlinie konfiguriert haben, können Sie die Freigaberegel für die Domäne **Anonym** entfernen.
 

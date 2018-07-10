@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-28_
+_**Letztes Änderungsdatum des Themas:** 2012-11-28_
 
 Sie können mithilfe der Exchange-Verwaltungskonsole oder Shell für ein Benutzerpostfach IMAP4-Verbindungslimits für Ihre Organisation festlegen.
 

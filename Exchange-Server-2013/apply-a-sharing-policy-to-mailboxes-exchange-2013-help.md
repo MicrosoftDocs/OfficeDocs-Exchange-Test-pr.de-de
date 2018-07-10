@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-15_
+_**Letztes Änderungsdatum des Themas:** 2014-02-15_
 
 Freigaberichtlinien sind Bestandteil der Verbundfreigabe und ermöglichen die durch den Benutzer eingerichtete personenbezogene Freigabe von Kalenderinformationen für verschiedene Typen von externen Benutzern. Die Freigaberichtlinie, die ein Administrator auf das Postfach des Benutzers anwendet, legt die Zugriffsebene fest, auf der Daten für bestimmte Personen freigegeben werden können. Wenn Sie hier keine Änderungen vornehmen, gilt die vorgegebene Freigaberichtlinie für sämtliche Benutzer. Wenn Sie eine neue Freigaberichtlinie erstellen, müssen Sie diese zunächst auf die betreffenden Postfächer anwenden, bevor sie wirksam werden kann. Eine Freigaberichtlinie kann auf ein einzelnes Benutzerpostfach oder gleichzeitig auf mehrere Benutzerpostfächer angewendet werden. Ein Administrator kann die Freigaberichtlinie eines Benutzers auch deaktivieren, um einen Zugriff auf Kalenderdaten von außen zu unterbinden.
 

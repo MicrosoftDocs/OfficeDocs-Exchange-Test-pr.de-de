@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Beim Erstellen eines UM-IP-Gateways (Unified Messaging) wird dessen Status standardmäßig auf "Aktiviert" festgelegt. Möglicherweise müssen Sie das UM-IP-Gateway jedoch deaktivieren, um es offline zu schalten und zu verhindern, dass es eingehende und ausgehende Anrufe annimmt. Nach dem Erstellen eines UM-IP-Gateways können Sie die Funktionalität über seine Statusvariable aktivieren oder deaktivieren.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-21_
+_**Letztes Änderungsdatum des Themas:** 2014-02-21_
 
 In diesem Thema werden Verfahren zum Durchführen manueller Konfigurationsänderungen beschrieben, um die Art und Weise festzulegen, wie ein Edge-Transport-Server die Nachrichtenübermittlung verwaltet. Diese Verfahren beziehen sich auf bestimmte Szenarien. Falls Ihre Organisation keine spezifischen Anforderungen zum Durchführen manueller Konfigurationsänderungen hat, wird die Standardkonfiguration beim Abonnieren von Edge-Transport-Servern bevorzugt verwendet.
 

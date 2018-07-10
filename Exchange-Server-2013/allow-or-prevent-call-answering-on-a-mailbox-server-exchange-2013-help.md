@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-18_
+_**Letztes Änderungsdatum des Themas:** 2012-11-18_
 
 Sie können den Microsoft Exchange Unified Messaging-Dienst auf einem Postfachserver zu neuen Anrufe entgegennehmen oder verhindern, dass Sie auf diese Weise erlauben. Standardmäßig wird ein Postfachserver in einem aktivierten Status nach der Installation. Beim Festlegen von des Postfachserver eingehende Sprach-, Fax-, automatische Telefonzentrale und Outlook Voice Access-Anrufe annehmen kann, verwenden Sie das Cmdlet **Set-ServerComponentState** .
 

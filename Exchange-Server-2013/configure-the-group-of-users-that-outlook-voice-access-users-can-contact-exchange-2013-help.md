@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-09_
+_**Letztes Änderungsdatum des Themas:** 2012-11-09_
 
 Sie können angeben, welche Benutzer weitergeleitete Anrufe oder Voicemailnachrichten von Outlook Voice Access-Benutzern empfangen können. Standardmäßig ist die Option **Nur in diesem Wählplan** aktiviert. Sie können diese Einstellung ändern, um Outlook Voice Access-Benutzern die Weiterleitung von Anrufen oder das Senden von Sprachnachrichten an Benutzer, die sich in der gesamten Organisation befinden, an eine automatische UM-Telefonzentrale oder an eine bestimmte Durchwahlnummer zu ermöglichen.
 

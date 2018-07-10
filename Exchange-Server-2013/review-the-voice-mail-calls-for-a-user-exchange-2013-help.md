@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Mithilfe von Benutzeranrufprotokollen können die folgenden Informationen zu bestimmten UM-Benutzern (Unified Messaging) angezeigt werden:
 
@@ -39,13 +39,13 @@ Informationen zu weiteren Aufgaben im Zusammenhang mit UM-Berichten finden Sie u
 
 Das Benutzeranrufprotokoll enthält zu jedem Anruf folgende Informationen:
 
-  - **DATUM UND UHRZEIT:**   Das Datum und die Uhrzeit des Anrufs in der Zeitzone, die der ausgewählte Benutzer in Microsoft Outlook Web App festgelegt hat.
+  - **DATUM UND UHRZEIT:**    Das Datum und die Uhrzeit des Anrufs in der Zeitzone, die der ausgewählte Benutzer in Microsoft Outlook Web App festgelegt hat.
 
   - **DAUER**   Die Dauer des Anrufs in Minuten (MM) und Sekunden (SS) im folgenden Format: MM:SS.
 
   - **ANRUFTYP**   Der Typ des Anrufs:
     
-      - **Mailboxansage:**   Der Anruf wurde nicht angenommen und an die Postfachserver weitergeleitet, und der Anrufer hat eine Sprachnachricht hinterlassen.
+      - **Mailboxansage:**    Der Anruf wurde nicht angenommen und an die Postfachserver weitergeleitet, und der Anrufer hat eine Sprachnachricht hinterlassen.
     
       - **Mailboxansage: Verpasste Anrufe**   Der Anruf wurde nicht angenommen und wurde an die Postfachserver weitergeleitet, und der Anrufer hat keine Sprachnachricht hinterlassen.
     

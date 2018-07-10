@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-04_
+_**Letztes Änderungsdatum des Themas:** 2012-10-04_
 
 [Erstellen eines Offlineadressbuchs](create-an-offline-address-book-exchange-2013-help.md)
 

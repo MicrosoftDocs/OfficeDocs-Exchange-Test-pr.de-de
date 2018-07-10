@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Empfangsconnectors steuern den Fluss eingehender Nachrichten, die an Ihre Exchange-Organisation gesendet werden. Diese Connectors werden auf Computern konfiguriert, auf denen Microsoft Exchange Server 2013 mit dem Transportdienst ausgeführt wird, oder im Front-End-Dienst auf einem Clientzugriffsserver. Sie können in der Exchange-Verwaltungskonsole oder in der Exchange-Verwaltungsshell erstellt werden.
 

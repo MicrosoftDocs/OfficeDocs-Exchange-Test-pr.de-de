@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-03-02_
+_**Letztes Änderungsdatum des Themas:** 2018-03-02_
 
 Dynamische Verteilergruppen sind Verteilergruppen, deren Mitgliedschaft auf bestimmten Empfängerfiltern und nicht auf einer definierten Empfängergruppe basiert. MicrosoftExchange stellt Musterfilter zur Verfügung, um das Erstellen von Empfängerfiltern für dynamische Verteilergruppen zu vereinfachen. Bei einem *Musterfilter* handelt es sich um einen häufig verwendeten Filter, mit dem verschiedene Kriterien der Empfängerfilterung erfüllt werden. Sie können die Empfängertypen angeben, die in die dynamische Verteilergruppe aufgenommen werden sollen. Außerdem können Sie eine Liste mit Bedingungen angeben, die die Empfänger erfüllen müssen. Sie können mit der Shell eine Vorschau der Empfängerliste für eine dynamische Verteilergruppe anzeigen, die Musterfilter verwendet.
 
@@ -39,9 +39,13 @@ Dynamische Verteilergruppen sind Verteilergruppen, deren Mitgliedschaft auf best
 
 In diesem Beispiel wird die Mitgliederliste für die dynamische Verteilergruppe mit dem Namen "Full Time Employees" zurückgegeben. Mit dem ersten Befehl wird das dynamische Verteilergruppenobjekt in der Variablen `$FTE` gespeichert. Beim zweiten Befehl wird das Cmdlet **Get-Recipient** zum Auflisten der Empfänger verwendet, die die für die dynamische Verteilergruppe definierten Kriterien erfüllen.
 
+```
     $FTE = Get-DynamicDistributionGroup "Full Time Employees"
+```
 
+```
     Get-Recipient -RecipientPreviewFilter $FTE.RecipientFilter -OrganizationalUnit $FTE.RecipientContainer
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-DynamicDistributionGroup](https://technet.microsoft.com/de-de/library/bb124762\(v=exchg.150\)) und [Get-Recipient](https://technet.microsoft.com/de-de/library/aa996921\(v=exchg.150\)).
 

@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-08-02_
+_**Letztes Änderungsdatum des Themas:** 2017-08-02_
 
-**Zusammenfassung:** Erstellen und Verwalten von öffentlichen Ordnern mit einem oder mehreren der folgenden Artikel.
+**Zusammenfassung:**  Erstellen und Verwalten von öffentlichen Ordnern mit einem oder mehreren der folgenden Artikel.
 
 Verwenden Sie eine oder mehrere der unten aufgeführten Vorgehensweisen, um Ihre Infrastruktur aus öffentlichen Ordnern zum Laufen zu bringen und um andere notwendige Aufgaben zum Verwalten von öffentlichen Ordnern durchzuführen.
 

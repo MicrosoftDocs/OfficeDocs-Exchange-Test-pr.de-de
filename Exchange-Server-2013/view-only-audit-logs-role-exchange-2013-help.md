@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit der Verwaltungsrolle `View-Only Audit Logs` können Administratoren und spezialisierte Benutzer die Administratorüberwachungsprotolle in einer Organisation durchsuchen.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Für eine automatische UM-Telefonzentrale (Unified Messaging) können Sie Tastenzuordnungen für Geschäftszeiten aktivieren. Nachdem Sie eine automatische UM-Telefonzentrale erstellt haben, wird für Anrufer eine Standardsystemansage als Begrüßungsansage für das Hauptmenü während der Geschäftszeiten wiedergegeben, nachdem die Begrüßung während der Geschäftszeiten wiedergegeben wurde. Die standardmäßige Hauptmenüansage während der Geschäftszeiten lautet "Willkommen bei der automatischen Telefonzentrale von Microsoft Exchange." Da standardmäßig keine Tastenzuordnungen definiert sind, stehen den Anrufern keine Menüoptionen zur Verfügung, und sie hören nur die standardmäßige Hauptmenüansage.
 

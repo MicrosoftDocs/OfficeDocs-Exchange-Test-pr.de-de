@@ -17,7 +17,7 @@ _<strong>Gilt für:</strong>Exchange Server 2016_
 
 _<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
-**Zusammenfassung:** Informationen dazu, wie Sie Ihren lokalen Exchange Server 2016-Benutzern die Zusammenarbeit an Dokumenten mit OneDrive for Business und SharePoint Online in einer Hybridkonfiguration ermöglichen.
+**Zusammenfassung:**  Informationen dazu, wie Sie Ihren lokalen Exchange Server 2016-Benutzern die Zusammenarbeit an Dokumenten mit OneDrive for Business und SharePoint Online in einer Hybridkonfiguration ermöglichen.
 
 Vor kurzem wurde in Office 365 eine neue Anlageoption zur Verfügung gestellt. In Exchange 2016 ermöglicht diese als *Zusammenarbeit an Dokumenten* bezeichnete Option lokalen Benutzern, in OneDrive for Business gespeicherte Anlagen direkt in ihre Outlook im Web-Clients zu integrieren.
 

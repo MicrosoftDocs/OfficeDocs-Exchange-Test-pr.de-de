@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Viele der Cmdlets für Unified Messaging (UM) aus Exchange Server 2010 wurden in Exchange Server 2013 übernommen, einige der Cmdlets wurden jedoch geändert. Darüber hinaus wurden für Exchange 2013 neue Cmdlets hinzugefügt.
 

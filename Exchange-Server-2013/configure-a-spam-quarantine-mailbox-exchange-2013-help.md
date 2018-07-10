@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-19_
+_**Letztes Änderungsdatum des Themas:** 2013-02-19_
 
 Nachrichten, die vom Inhaltsfilter-Agent als Spam erkannt werden, können in ein Spam-Quarantänepostfach umgeleitet werden. Wenn der SCL-Isolierungsschwellenwert (Spam Confidence Level) aktiviert ist, werden alle isolierten Nachrichten als Unzustellbarkeitsberichte (NDR) zusammengefasst und an die SMTP-Adresse gesendet, die von Ihnen als Quarantänepostfach für Spam angegeben wurde. Sie können isolierte Nachrichten überprüfen und an die Empfänger senden, für die sie gedacht waren, indem Sie die Funktion "Erneut Senden" in Microsoft Outlook verwenden.
 

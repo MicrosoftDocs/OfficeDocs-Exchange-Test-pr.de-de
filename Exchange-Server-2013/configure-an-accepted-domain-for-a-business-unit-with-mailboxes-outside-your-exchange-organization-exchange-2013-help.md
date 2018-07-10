@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-08-06_
+_**Letztes Änderungsdatum des Themas:** 2014-08-06_
 
 In manchen Fällen möchten Sie möglicherweise eine akzeptierte Domäne für einen Geschäftsbereich konfigurieren, in dem einige oder alle Empfänger in der Domäne keine Postfächer in Ihrer Exchange-Organisation haben. Dies kann der Fall sein, wenn eine Organisation dieselbe SMTP-Adresse für zwei oder mehr verschiedene E-Mail-Systeme verwendet. In solchen Szenarios können Sie eine akzeptierte Domäne als interne Relaydomäne konfigurieren.
 

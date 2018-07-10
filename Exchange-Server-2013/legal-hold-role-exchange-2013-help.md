@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Legal Hold` ermöglicht Administratoren das Konfigurieren der Einstellung, ob Daten innerhalb eines Postfachs für eventuelle Rechtsstreitigkeiten in einer Organisation aufbewahrt werden sollen.
 

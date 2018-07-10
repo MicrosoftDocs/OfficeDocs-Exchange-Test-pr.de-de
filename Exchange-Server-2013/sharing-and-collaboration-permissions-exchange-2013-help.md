@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die zum Konfigurieren von Freigabe- und Zusammenarbeitsfeatures erforderlichen Berechtigungen richten sich nach dem verwendeten Verfahren bzw. nach dem Cmdlet, das Sie ausführen möchten. Weitere Informationen zu Freigabe und Zusammenarbeit finden Sie unter [Zusammenarbeit](collaboration-exchange-2013-help.md) und [Freigabe](sharing-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-11_
+_**Letztes Änderungsdatum des Themas:** 2012-10-11_
 
 [Erstellen einer Adressbuchrichtlinie](create-an-address-book-policy-exchange-2013-help.md)
 

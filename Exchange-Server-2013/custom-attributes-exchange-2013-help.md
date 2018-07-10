@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-17_
+_**Letztes Änderungsdatum des Themas:** 2012-10-17_
 
 Microsoft Exchange Server 2013 umfasst 15 Erweiterungsattribute. Sie können diese Attribute verwenden, um Informationen über einen Empfänger hinzuzufügen, z. B. eine Mitarbeiter-ID, eine Organisationseinheit (Organizational Unit, OU) oder einen anderen benutzerdefinierten Wert, für den kein Attribut vorhanden ist. Diese benutzerdefinierten Attribute haben in Active Directory die Bezeichnungen von **ms-Exch-Extension-Attribute1** bis **ms-Exch-Extension-Attribute15**. In der Exchange-Verwaltungsshell sind die entsprechenden Parameter *CustomAttribute1* bis *CustomAttribute15*. Diese Attribute werden von Exchange-Komponenten nicht verwendet. Sie können zum Speichern von Active Directory-Daten verwendet werden, ohne dass dabei das Active Directory-Schema erweitert werden muss.
 

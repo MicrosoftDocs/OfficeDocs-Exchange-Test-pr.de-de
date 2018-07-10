@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-04-21_
+_**Letztes Änderungsdatum des Themas:** 2014-04-21_
 
 Die Verwaltung von Zertifikaten in einer Exchange Server-Bereitstellung ist eine der wichtigsten Verwaltungsaufgaben. Die Sicherstellung, dass Zertifikate ordnungsgemäß eingerichtet und konfiguriert sind, ist der Schlüssel zu einer sicheren Messaginginfrastruktur für das Unternehmen. In Exchange 2010 war die Exchange-Verwaltungskonsole das Hauptinstrument zum Verwalten von Zertifikaten. In Exchange 2013 erfolgt die Zertifikatverwaltung über die Exchange-Verwaltungskonsole, die neue Exchange 2013-Benutzeroberfläche für die Verwaltung. In Exchange 2013 liegt der Fokus auf der Minimierung der Anzahl von Zertifikaten, die ein Administrator verwalten muss, und der Interaktion des Administrators mit Zertifikaten sowie dem Ermöglichen einer zentralen Zertifikatverwaltung.
 

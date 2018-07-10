@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-16_
+_**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 Sie können die Shell verwenden, um eine globale Adressliste (Global Address List, GAL) zu aktualisieren. Eine globale Adressliste ist ein Verzeichnis, das Einträge für alle Gruppen, Benutzer und Kontakte in der Microsoft Exchange-Implementierung einer Organisation enthält.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Cmdlet Extension Agents` ermöglicht Administratoren das Aktivieren, Deaktivieren und Festlegen der Priorität von Cmdlet-Erweiterungs-Agents in einer Organisation.
 

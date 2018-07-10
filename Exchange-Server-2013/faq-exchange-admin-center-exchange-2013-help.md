@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In diesem Thema wird eine Liste mit häufig gestellten Fragen zur neuen Exchange-Verwaltungskonsole in Microsoft Exchange Server 2013 bereitgestellt. Haben Sie weitere Fragen zur Exchange-Verwaltungskonsole, die hier nicht beantwortet wurden? Senden Sie uns eine E-Mail an [Ex2013HelpFeedback@microsoft.com](mailto:ex2013helpfeedback@microsoft.com).
 

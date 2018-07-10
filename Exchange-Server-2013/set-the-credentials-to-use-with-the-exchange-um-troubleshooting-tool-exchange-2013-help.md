@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Das Microsoft Exchange 2010 UM-Problembehandlungstool ist ein Cmdlet der Exchange-Verwaltungsshell mit dem Namen **Test-ExchangeUMCallFlow**. Sie können das Cmdlet zur Diagnose von Konfigurationsfehlern in Szenarien mit Mailboxansage oder zum Testen der Voicemailfunktion verwenden, sowohl für lokale als auch für standortübergreifende UM-Bereitstellungen mit Microsoft Exchange Server 2010 Service Pack 1 (SP1) oder höher. Sie können dieses Cmdlet in Bereitstellungen mit Microsoft Office , Microsoft Lync Server 2010 oder später oder in UM-Bereitstellungen mit VoIP-Gateways, IP/PBX-Anlagen oder SBCs (Session Border Controller) verwenden.
 

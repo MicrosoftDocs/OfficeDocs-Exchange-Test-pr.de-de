@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Sie können Adressumschreibungsinformationen per Massenvorgang erstellen oder in einen Edge-Transport-Server importieren, indem Sie eine Datei mit kommagetrennten Werten (CSV-Datei) verwenden. In der folgenden Liste sind einige häufige Szenarien aufgeführt, bei denen dies notwendig ist:
 

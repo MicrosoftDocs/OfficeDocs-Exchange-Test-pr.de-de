@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle **Überwachung** ermöglicht Administratoren das Überwachen der Exchange-Dienste und -Komponentenverfügbarkeit in einer Organisation. Diese Rolle kann auch mit Dienstkonten eingesetzt werden, die von Überwachungsanwendungen zum Erfassen von Zustandsinformationen für Exchange-Server verwendet werden.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-09_
+_**Letztes Änderungsdatum des Themas:** 2012-11-09_
 
 Sie können die maximale Anzahl der Minuten angeben, für die bei einem eingehenden Anruf die Verbindung mit dem System ohne Umleitung auf eine zulässige Durchwahl erhalten bleibt, bevor der Anruf abgebrochen wird. Für die meisten Organisationen sollte dieser Wert auf die Standardeinstellung festgelegt werden: 30 Minuten. Diese Einstellung gilt für alle Anrufe, u. a. eingehende Outlook Voice Access-Anrufe, interne Sprachanrufe innerhalb der Organisation, Sprachanrufe an automatische UM-Telefonzentralen (Unified Messaging) sowie Faxanrufe von außerhalb der Organisation.
 

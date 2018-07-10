@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Transport-Agents verwenden SMTP-Ereignisse, um Nachrichten zu bearbeiten, während die Nachrichten die Transportpipeline durchlaufen. Die meisten integrierten Transport-Agents in Microsoft Exchange Server 2013 sind nicht sichtbar und nicht verwaltbar. Sie können in Ihrer Organisation jedoch Transport-Agents von Drittanbietern auf Exchange-Servern installieren und konfigurieren. Weitere Informationen zu Transport-Agents finden Sie unter [Transport-Agents](transport-agents-exchange-2013-help.md).
 

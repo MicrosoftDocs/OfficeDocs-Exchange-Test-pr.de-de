@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Information-Worker verwenden zum Austausch vertraulicher Informationen zunehmend E-Mail-Nachrichten. Zur besseren Sicherung dieser Informationen können Organisationen die Verwaltung von Informationsrechten (IRM) verwenden und Nachrichteninhalte dauerhaft schützen. Vor Microsoft Exchange Server 2010 war die effektive Nutzung des IRM-Schutzes auf Outlook-Clients beschränkt. In Exchange Server 2007 mussten die Benutzer von Microsoft Outlook Web Access das Rechteverwaltungs-Add-In für Microsoft Internet Explorer herunterladen, um auf IRM-geschützte Inhalte zugreifen zu können.
 

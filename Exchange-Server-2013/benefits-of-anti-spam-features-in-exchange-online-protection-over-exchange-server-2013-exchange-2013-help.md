@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-05-26_
+_**Letztes Änderungsdatum des Themas:** 2016-05-26_
 
 Im Folgenden sind die Vorteile bei Verwendung des Exchange-Antispamschutzes in der Cloud (Microsoft Exchange Online oder Microsoft Exchange Online Protection) im Vergleich zu Microsoft Exchange Server 2013 aufgeführt. Microsoft Exchange Server 2013 verfügt über dieselben integrierten Antispamfunktionen wie Exchange Server 2010:
 

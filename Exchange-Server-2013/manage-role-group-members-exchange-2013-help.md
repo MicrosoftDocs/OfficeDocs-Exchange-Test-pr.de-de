@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-08_
+_**Letztes Änderungsdatum des Themas:** 2012-10-08_
 
 In diesem Thema wird erläutert, wie Sie Mitglieder einer Verwaltungsrollengruppe in Microsoft Exchange Server 2013 hinzufügen, entfernen oder anzeigen können. Weitere Informationen zu Rollengruppen in Exchange 2013 finden Sie unter [Grundlegendes zu Verwaltungsrollengruppen](understanding-management-role-groups-exchange-2013-help.md).
 

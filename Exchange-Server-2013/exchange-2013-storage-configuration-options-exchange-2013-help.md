@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Das grundlegende Verständnis der Speicheroptionen und Anforderungen für die Postfachserverrolle in Microsoft Exchange Server 2013 ist ein wichtiger Aspekt Ihrer Speicherentwurfslösung für den Postfachserver.
 
@@ -109,7 +109,7 @@ In der folgenden Tabelle finden Sie eine Liste unterstützter physischer Datentr
 </ul></td>
 <td><p>Unterstützt:  Festplatten mit 512-Byte-Sektoren für Windows Server 2008 und Windows Server 2008 R2. Außerdem werden 512e-Festplatten für Windows Server 2008 R2 mit Folgendem unterstützt:</p>
 <ul>
-<li><p>Bei dem im folgenden Artikel beschriebenen <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">Microsoft Knowledge Base-Artikel 982018</a> Hotfix handelt es sich um ein Update, das die Kompatibilität von Windows 7 und Windows Server 2008 R2 mit Advanced Format-Datenträgern verbessert.</p></li>
+<li><p>Bei dem im folgenden Artikel beschriebenen <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">Microsoft Knowledge Base-Artikel 982018</a> Hotfix handelt es sich um ein Update, das die Kompatibilität von Windows 7 und Windows Server 2008 R2 mit Advanced Format-Datenträgern verbessert.</p></li>
 <li><p>Windows Server 2008 R2 mit Service Pack 1 (SP1) und Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 und höher unterstützt Festplatten mit 4-KB-Sektoren und 512e-Festplatten. Für die Unterstützung müssen sich alle Kopien einer Datenbank auf demselben physischen Datenträgertyp befinden. Beispielsweise wird eine Konfiguration, bei der eine Kopie einer bestimmten Datenbank auf einer Festplatte mit 512-Byte-Sektoren und eine weitere Kopie derselben Datenbank auf einer 512e- oder 4K-Festplatte gespeichert ist, nicht unterstützt.</p>
@@ -126,7 +126,7 @@ In der folgenden Tabelle finden Sie eine Liste unterstützter physischer Datentr
 </ul></td>
 <td><p>Unterstützt:  Festplatten mit 512-Byte-Sektoren für Windows Server 2008 und Windows Server 2008 R2. Außerdem werden 512e-Festplatten für Windows Server 2008 R2 mit Folgendem unterstützt:</p>
 <ul>
-<li><p>Bei dem im folgenden Artikel beschriebenen <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">Microsoft Knowledge Base-Artikel 982018</a> Hotfix handelt es sich um ein Update, das die Kompatibilität von Windows 7 und Windows Server 2008 R2 mit Advanced Format-Datenträgern verbessert.</p></li>
+<li><p>Bei dem im folgenden Artikel beschriebenen <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">Microsoft Knowledge Base-Artikel 982018</a> Hotfix handelt es sich um ein Update, das die Kompatibilität von Windows 7 und Windows Server 2008 R2 mit Advanced Format-Datenträgern verbessert.</p></li>
 <li><p>Windows Server 2008 R2 mit Service Pack 1 (SP1) und Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 und höher unterstützt Festplatten mit 4-KB-Sektoren und 512e-Festplatten. Für die Unterstützung müssen sich alle Kopien einer Datenbank auf demselben physischen Datenträgertyp befinden. Beispielsweise wird eine Konfiguration, bei der eine Kopie einer bestimmten Datenbank auf einer Festplatte mit 512-Byte-Sektoren und eine weitere Kopie derselben Datenbank auf einer 512e- oder 4K-Festplatte gespeichert ist, nicht unterstützt.</p>
@@ -143,7 +143,7 @@ In der folgenden Tabelle finden Sie eine Liste unterstützter physischer Datentr
 </ul></td>
 <td><p>Unterstützt:  Festplatten mit 512-Byte-Sektoren für Windows Server 2008 und Windows Server 2008 R2. Außerdem werden 512e-Festplatten für Windows Server 2008 R2 mit Folgendem unterstützt:</p>
 <ul>
-<li><p>Bei dem im folgenden Artikel beschriebenen <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">Microsoft Knowledge Base-Artikel 982018</a> Hotfix handelt es sich um ein Update, das die Kompatibilität von Windows 7 und Windows Server 2008 R2 mit Advanced Format-Datenträgern verbessert.</p></li>
+<li><p>Bei dem im folgenden Artikel beschriebenen <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">Microsoft Knowledge Base-Artikel 982018</a> Hotfix handelt es sich um ein Update, das die Kompatibilität von Windows 7 und Windows Server 2008 R2 mit Advanced Format-Datenträgern verbessert.</p></li>
 <li><p>Windows Server 2008 R2 mit Service Pack 1 (SP1) und Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 und höher unterstützt Festplatten mit 4-KB-Sektoren und 512e-Festplatten. Für die Unterstützung müssen sich alle Kopien einer Datenbank auf demselben physischen Datenträgertyp befinden. Beispielsweise wird eine Konfiguration, bei der eine Kopie einer bestimmten Datenbank auf einer Festplatte mit 512-Byte-Sektoren und eine weitere Kopie derselben Datenbank auf einer 512e- oder 4K-Festplatte gespeichert ist, nicht unterstützt.</p>
@@ -159,7 +159,7 @@ In der folgenden Tabelle finden Sie eine Liste unterstützter physischer Datentr
 </ul></td>
 <td><p>Unterstützt:  Festplatten mit 512-Byte-Sektoren für Windows Server 2008 und Windows Server 2008 R2. Außerdem werden 512e-Festplatten für Windows Server 2008 R2 mit Folgendem unterstützt:</p>
 <ul>
-<li><p>Bei dem im folgenden Artikel beschriebenen <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">Microsoft Knowledge Base-Artikel 982018</a> Hotfix handelt es sich um ein Update, das die Kompatibilität von Windows 7 und Windows Server 2008 R2 mit Advanced Format-Datenträgern verbessert.</p></li>
+<li><p>Bei dem im folgenden Artikel beschriebenen <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">Microsoft Knowledge Base-Artikel 982018</a> Hotfix handelt es sich um ein Update, das die Kompatibilität von Windows 7 und Windows Server 2008 R2 mit Advanced Format-Datenträgern verbessert.</p></li>
 <li><p>Windows Server 2008 R2 mit Service Pack 1 (SP1) und Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 und höher unterstützt Festplatten mit 4-KB-Sektoren und 512e-Festplatten. Für die Unterstützung müssen sich alle Kopien einer Datenbank auf demselben physischen Datenträgertyp befinden. Beispielsweise wird eine Konfiguration, bei der eine Kopie einer bestimmten Datenbank auf einer Festplatte mit 512-Byte-Sektoren und eine weitere Kopie derselben Datenbank auf einer 512e- oder 4K-Festplatte gespeichert ist, nicht unterstützt.</p>
@@ -695,7 +695,7 @@ Die folgende Tabelle enthält Anleitungen zu Volumekonfigurationen.
 <td><p>Windows BitLocker (Volumeverschlüsselung)</p></td>
 <td><p>Windows BitLocker ist eine Datenschutzfunktion in Windows Server 2008. BitLocker schützt Daten vor Diebstahl oder Offenlegung auf Computern, die verloren oder gestohlen wurden und bietet einen sichereren Löschvorgang für Daten, wenn Computer außer Betrieb genommen werden.</p></td>
 <td><p>Unterstützt: Alle Exchange-Datenbank- und Protokolldateien.</p></td>
-<td><p>Unterstützt: Sämtliche Exchange-Datenbank- und Protokolldateien. Für Windows-Failovercluster sind Windows Server 2008 R2 oder Windows Server 2008 R2 SP1 sowie der folgende Hotfix erforderlich: <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2446607">In Windows Server 2008 R2 ist es nicht möglich, BitLocker auf einem Datenträgervolume zu aktivieren, wenn der Computer ein Failoverclusterknoten ist</a>. Exchange-Volumes mit Bitlocker-Aktivierung werden auf Windows-Failoverclustern unter früheren Windows-Versionen nicht unterstützt.</p>
+<td><p>Unterstützt: Sämtliche Exchange-Datenbank- und Protokolldateien. Für Windows-Failovercluster sind Windows Server 2008 R2 oder Windows Server 2008 R2 SP1 sowie der folgende Hotfix erforderlich: <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=2446607">In Windows Server 2008 R2 ist es nicht möglich, BitLocker auf einem Datenträgervolume zu aktivieren, wenn der Computer ein Failoverclusterknoten ist</a>. Exchange-Volumes mit Bitlocker-Aktivierung werden auf Windows-Failoverclustern unter früheren Windows-Versionen nicht unterstützt.</p>
 <p>Weitere Informationen zur Windows 7-BitLocker-Verschlüsselung finden Sie unter <a href="https://go.microsoft.com/fwlink/p/?linkid=220898">BitLocker-Laufwerksverschlüsselung in Windows 7: Häufig gestellte Fragen</a>.</p></td>
 </tr>
 <tr class="odd">

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-06-15_
+_**Letztes Änderungsdatum des Themas:** 2016-06-15_
 
 Öffentliche Ordner ermöglichen den gemeinsamen Zugriff und stellen ein einfaches und effektives Mittel zum Erfassen, Organisieren und Freigeben von Informationen für andere Personen in der Arbeitsgruppe oder Organisation dar. Die E-Mail-Aktivierung eines öffentlichen Ordners ermöglicht es Benutzern, Nachrichten in diesem öffentlichen Ordner zu posten, indem sie eine E-Mail an den öffentlichen Ordner senden. Wenn ein öffentlicher Ordner E-Mail-aktiviert wird, stehen in der Exchange-Verwaltungskonsole zusätzliche Einstellungen für den öffentlichen Ordner zur Verfügung, beispielsweise E-Mail-Adressen und E-Mail-Kontingente. In der Shell verwenden Sie vor der E-Mail-Aktivierung eines öffentlichen Ordners das Cmdlet **Set-PublicFolder**, um sämtliche dieser Einstellungen zu verwalten. Nach der E-Mail-Aktivierung des öffentlichen Ordners verwenden Sie die Cmdlets **Set-PublicFolder** und **Set-MailPublicFolder** zum Verwalten der Einstellungen.
 

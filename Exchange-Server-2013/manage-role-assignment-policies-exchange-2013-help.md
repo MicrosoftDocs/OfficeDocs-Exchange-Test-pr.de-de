@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-09_
+_**Letztes Änderungsdatum des Themas:** 2012-10-09_
 
 Wenn Sie die Berechtigungen anpassen möchten, Sie einer Gruppe von Endbenutzern zugewiesen sind, erstellen Sie eine neue benutzerdefinierte Zuweisungsrichtlinie für Verwaltungsrollen. Die erstellte Zuweisungsrichtlinie kann an die spezifischen Anforderungen der Endbenutzer angepasst werden. Weitere Informationen zu Zuweisungsrichtlinien in Microsoft Exchange Server 2013 finden Sie unter [Grundlegendes zu Verwaltungsrollen-Zuweisungsrichtlinien](understanding-management-role-assignment-policies-exchange-2013-help.md).
 

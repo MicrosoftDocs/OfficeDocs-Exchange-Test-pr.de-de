@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-06-16_
+_**Letztes Änderungsdatum des Themas:** 2016-06-16_
 
 Eine akzeptierte Domäne ist jeder SMTP-Namespace, für den eine Microsoft Exchange Server 2013-Organisation E-Mail sendet oder empfängt. Akzeptierte Domänen enthalten die Domänen, für die die Exchange-Organisation autorisierend ist. Eine Exchange-Organisation ist autorisierend, wenn sie die Nachrichtenübermittlung für Empfänger in der akzeptierten Domäne ausführt. Akzeptierte Domänen enthalten auch Domänen, für welche die Exchange-Organisation E-Mail empfängt und dann zur Zustellung an den Empfänger an einen E-Mail-Server weiterleitet, der sich außerhalb der Organisation befindet.
 

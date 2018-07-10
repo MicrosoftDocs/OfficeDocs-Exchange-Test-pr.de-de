@@ -53,7 +53,7 @@ Führen Sie die folgenden Schritte aus, um diese Probleme für Benutzer mit Clou
     
         Set-OrganizationRelationship -TargetOWAUrl http://cloudowa.contoso.com/owa
     
-    **Hinweise:**
+    **Hinweise:** 
     
       - Verwenden Sie „http“, nicht „https“.
     
@@ -110,5 +110,5 @@ Die Authentifizierungsaufforderungen, die Benutzer erwarten können, werden in d
 </table>
 
 
-**Hinweis:** Für einen Identitätsverbund muss der AD FS-Endpunkt in der Intranetzone von Internet Explorer konfiguriert sein, wie im Thema <https://go.microsoft.com/fwlink/p/?linkid=834460> beschrieben, und AD FS muss entsprechend der allgemeinen Office 365-Anleitung konfiguriert sein.
+**Hinweis:**  Für einen Identitätsverbund muss der AD FS-Endpunkt in der Intranetzone von Internet Explorer konfiguriert sein, wie im Thema <https://go.microsoft.com/fwlink/p/?linkid=834460> beschrieben, und AD FS muss entsprechend der allgemeinen Office 365-Anleitung konfiguriert sein.
 

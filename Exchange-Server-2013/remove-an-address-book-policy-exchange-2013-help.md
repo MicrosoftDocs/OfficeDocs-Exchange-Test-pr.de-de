@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-03-25_
+_**Letztes Änderungsdatum des Themas:** 2014-03-25_
 
 Verwenden Sie dieses Verfahren, um eine Adressbuchrichtlinie (ABP) zu entfernen.
 
