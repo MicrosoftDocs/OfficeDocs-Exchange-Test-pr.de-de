@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-16_
+_**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 Mithilfe der Shell können Sie einem Offlineadressbuch (OAB) eine Adressliste hinzufügen bzw. daraus entfernen. In der Standardeinstellung ist ein OAB mit der Bezeichnung "Standard-Offlineadressbuch" vorhanden, das die globale Adressliste (GAL) enthält. OABs werden auf der Grundlage der Adresslisten generiert, die sie enthalten. Um benutzerdefinierte OABs zu erstellen, die von Benutzern heruntergeladen werden können, können Sie OABs Adresslisten hinzufügen oder Adresslisten aus OABs entfernen. 
 

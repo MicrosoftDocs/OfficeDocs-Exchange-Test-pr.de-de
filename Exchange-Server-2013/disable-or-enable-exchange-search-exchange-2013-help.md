@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-05-07_
+_**Letztes Änderungsdatum des Themas:** 2014-05-07_
 
 Standardmäßig ist die Exchange-Suche für alle neuen Postfachdatenbanken aktiviert und benötigt keine zusätzliche Konfiguration. Wenn die Exchange-Suche jedoch keinen Postfachinhalt indizieren soll, können Sie sie für einzelne Postfachdatenbanken oder einen ganzen Postfachserver deaktivieren.
 
@@ -89,13 +89,21 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 Führen Sie die folgenden Befehle aus, um den Microsoft Exchange-Suchdienst anzuhalten und zu deaktivieren.
 
+```
     Stop-Service MSExchangeFastSearch
+```
 
+```
     Set-Service MSExchangeFastSearch -StartupType Disabled
+```
 
 Führen Sie die folgenden Befehle aus, um den Exchange-Suchdienst für den automatischen Start zu konfigurieren und den Dienst anschließend zu starten.
 
+```
     Set-Service MSExchangeFastSearch -StartupType Automatic
+```
 
+```
     Start-Service MSExchangeFastSearch
+```
 

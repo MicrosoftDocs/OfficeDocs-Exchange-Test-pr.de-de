@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Sie können Skripts und Exchange-fremde Cmdlets zu Verwaltungsrollen oberster Ebene ohne Bereichseinschränkung hinzufügen, wenn Sie neue Skripts oder Exchange-fremde Cmdlets für vorhandene Rollen ohne Bereichseinschränkung verfügbar machen möchten. Diese Skripts und Exchange-fremden Cmdlets werden in Form von Verwaltungsrolleneinträgen zu Verwaltungsrollen oberster Ebene ohne Bereichseinschränkung hinzugefügt. Anschließend können sie von diesen Rolleinträgen oberster Ebene ohne Bereichseinschränkung oder von allen Rollen ohne Bereichseinschränkung verwendet werden, die von den Rollen oberster Ebene abgeleitet werden. Weitere Informationen zu Rolleneinträgen ohne Bereichseinschränkung finden Sie unter [Grundlegendes zu Verwaltungsrollen](understanding-management-roles-exchange-2013-help.md).
 

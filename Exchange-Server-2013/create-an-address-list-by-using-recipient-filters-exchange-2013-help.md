@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-16_
+_**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 In diesem Thema wird das Erstellen einer Adressliste mithilfe von Empfängerfiltern erläutert. Weitere Informationen zu Adresslisten finden Sie unter [Adresslisten](address-lists-exchange-2013-help.md).
 

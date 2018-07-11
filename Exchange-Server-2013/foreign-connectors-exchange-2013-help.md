@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-25_
+_**Letztes Änderungsdatum des Themas:** 2012-09-25_
 
 Ein fremder Connector übermittelt Nachrichten an einen Server oder ein fremdes System, der bzw. das als primären Transportmechanismus nicht SMTP verwendet. Ein Beispiel ist ein Faxgatewayserver. Ein fremder Connector verwendet ein lokales oder freigegebenes Ablageverzeichnis, um ausgehende Nachrichten mittels Dateiübertragung an das fremde System zu übermitteln. Fremde Connectors werden im Transportdienst eines Microsoft Exchange Server 2013-Postfachservers erstellt.
 

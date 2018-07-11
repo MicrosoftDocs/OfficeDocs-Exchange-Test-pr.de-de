@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 E-Mail-Infos, die Angaben zur Größe von Verteilergruppen und dynamischen Verteilergruppen bereitstellen, stützen sich auf Gruppenmetrikdaten. Gruppenmetrikdaten werden auf designierten Postfachservern generiert. Weitere Informationen zu Gruppenmetrikdaten finden Sie unter [Gruppe Metriken und e-Mail-Infos](group-metrics-and-mailtips-exchange-2013-help.md).
 

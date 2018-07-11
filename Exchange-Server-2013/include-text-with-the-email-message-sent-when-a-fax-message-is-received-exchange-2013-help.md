@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können zusätzlichen Text in die zu sendende E-Mail einschließen, wenn eine Faxnachricht von einem Benutzer empfangen wird, der für UM-Voicemail (Unified Messaging) und auch für den Faxempfang aktiviert ist, und wenn die UM-Postfachrichtlinie ordnungsgemäß für die Verwendung eines Faxpartneranbieters konfiguriert wurde. Standardmäßig gibt der Text, der verwendet wird, wenn ein UM-aktivierter Benutzer eine Faxnachricht empfängt, nur an, dass der Benutzer eine Faxnachricht empfangen hat. Sie können jedoch auch eine benutzerdefinierte Nachricht erstellen, indem Sie für eine UM-Postfachrichtlinie Text im Textfeld **Wenn ein Benutzer eine Faxnachricht empfängt** hinzufügen. Dieser Text kann z. B. Informationen zu Systemsicherheitsrichtlinien enthalten und das ordnungsgemäße Verfahren für den Umgang mit Faxnachrichten in Ihrer Organisation beschreiben. Nachdem Sie den Text hinzugefügt haben, wird er in jede E-Mail eingefügt, die gesendet wird, wenn UM-aktivierte Benutzer, die der UM-Postfachrichtlinie zugeordnet sind, eine Faxnachricht empfangen.
 

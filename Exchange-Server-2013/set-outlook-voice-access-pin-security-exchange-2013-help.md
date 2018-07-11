@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-16_
+_**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
 Wenn Unified Messaging-Benutzer (UM) sich per Telefon mit dem Voicemailsystem verbinden, nutzen sie für die Navigation durch das Menüsystem Outlook Voice Access. Bevor Benutzer jedoch auf das Voicemailsystem zugreifen können, werden sie vom System zur Eingabe ihrer PIN aufgefordert. Als Administrator können Sie PIN-Einstellungen und -Vorgaben konfigurieren sowie PIN-Verwaltungsaufgaben durchführen. Nachdem ein Benutzer für Voicemail aktiviert und eine PIN für ihn generiert wurde, wird diese PIN verschlüsselt im Postfach des Benutzers gespeichert.
 

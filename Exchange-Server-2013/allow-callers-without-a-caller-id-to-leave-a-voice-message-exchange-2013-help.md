@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können es zulassen oder unterbinden, dass UM-aktivierte Benutzer Voicemailnachrichten von anonymen Anrufern empfangen. Wenn Benutzer für Unified Messaging (UM) und Voicemail aktiviert sind, können sie standardmäßig Anrufe empfangen, die anonym sind und keine Anrufer-ID-Informationen enthalten.
 

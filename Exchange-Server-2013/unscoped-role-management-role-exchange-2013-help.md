@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Unscoped Role Management` ermöglicht Administratoren das Erstellen und Verwalten von Verwaltungsrollen oberster Ebene ohne Bereichseinschränkung in einer Organisation.
 

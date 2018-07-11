@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Outlook Voice Access ermöglicht UM-aktivierten Benutzern (Unified Messaging) den Zugriff auf ihr Postfach über analoge, digitale oder Mobiltelefone. Mithilfe des Menüsystems in Outlook Voice Access können UM-aktivierte Benutzer E-Mail lesen, Sprachnachrichten abhören, mit dem Outlook-Kalender arbeiten, auf ihre persönlichen Kontakte zugreifen und persönliche Konfigurationsoptionen wie ihre Outlook Voice Access-PIN oder das Aufzeichnen von Voicemails verwalten. Dieses Thema enthält eine Liste der Outlook Voice Access-Befehle und eine Beschreibung, wie Benutzer damit auf ihr Postfach zugreifen können, wenn sie eine Outlook Voice Access-Nummer anrufen.
 

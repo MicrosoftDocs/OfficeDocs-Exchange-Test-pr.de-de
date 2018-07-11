@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Letztes Änderungsdatum des Themas:**2018-01-17_
+_**Letztes Änderungsdatum des Themas:** 2018-01-17_
 
-**Zusammenfassung:** Informationen zu Vermittlungspostfächern in Exchange 2013 und ihrer Neuerstellung.
+**Zusammenfassung:**  Informationen zu Vermittlungspostfächern in Exchange 2013 und ihrer Neuerstellung.
 
 Exchange 2013 enthält fünf Systempostfächer, die als *Vermittlungspostfächer* bezeichnet werden. Vermittlungspostfächer werden zum Speichern unterschiedlicher Typen von Systemdaten und für die Verwaltung des Nachrichtengenehmigungsworkflows verwendet. Im folgenden Diagramm werden die verschiedenen Vermittlungspostfächer und ihre Aufgaben aufgeführt.
 

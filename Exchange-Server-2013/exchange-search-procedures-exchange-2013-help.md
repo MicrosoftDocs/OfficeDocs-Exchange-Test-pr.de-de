@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-05_
+_**Letztes Änderungsdatum des Themas:** 2013-02-05_
 
 [Aktivieren oder Deaktivieren der Exchange-Suche](disable-or-enable-exchange-search-exchange-2013-help.md)
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Sie können das Nachrichtenabrufformat für Benutzer konfigurieren, die mithilfe von POP3 und IMAP4 eine Verbindung mit ihrem E-Mail-Konto herstellen möchten. Nachrichtenabrufoptionen können auf Serverebene mithilfe der Exchange-Verwaltungskonsole oder der Shell konfiguriert werden. Auf Benutzerebene können sie mithilfe der Shell konfiguriert werden.
 

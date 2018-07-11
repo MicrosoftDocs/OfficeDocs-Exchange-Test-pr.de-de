@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Agent-Protokolle zeichnen die Aktionen auf, die von bestimmten Antispam-Agents in Microsoft Exchange Server 2013 für eine Nachricht ausgeführt werden. Nur die folgenden Agents können Informationen in das Agent-Protokoll schreiben:
 

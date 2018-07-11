@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2010, Exchange Server 2013_
+_**Gilt für:** Exchange Server 2010, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-04-02_
+_**Letztes Änderungsdatum des Themas:** 2018-04-02_
 
-**Zusammenfassung:** Dieser Artikel richtet sich an Administratoren und enthält Architektur- sowie Sicherheitsinformationen zu Outlook für iOS und Android in einer lokalen Exchange 2013-Umgebung, wenn die App die Standardauthentifizierung verwendet.
+**Zusammenfassung:**  Dieser Artikel richtet sich an Administratoren und enthält Architektur- sowie Sicherheitsinformationen zu Outlook für iOS und Android in einer lokalen Exchange 2013-Umgebung, wenn die App die Standardauthentifizierung verwendet.
 
 Die Outlook-App für iOS und Android ermöglicht den Zugriff auf E-Mails, Kalender, Kontakte und andere Dateien, sodass die Benutzer in Ihrer Organisation mehr Aufgaben über ihre Mobilgeräte erledigen können. Dieser Artikel gibt einen Überblick über die Architektur und das Speicherdesign der App. Mit diesen Informationen können Exchange-Administratoren Outlook für iOS und Android in ihren Exchange-Organisationen bereitstellen und warten.
 

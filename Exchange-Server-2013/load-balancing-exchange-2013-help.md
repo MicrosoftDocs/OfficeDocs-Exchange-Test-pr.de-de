@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Über den Lastenausgleich können Sie verwalten, welche Ihrer Server Datenverkehr empfangen. Mithilfe von Lastenausgleich können eingehende Clientverbindungen auf verschiedene Endpunkte (z. B. Clientzugriffsserver) verteilt werden, um sicherzustellen, dass die Last an jedem Endpunkt gleich ist. Außerdem kann Lastenausgleich beim Ausfall eines oder mehrerer Endpunkte Failoverredundanz gewährleisten. Durch Verwendung von Lastenausgleich mit Exchange Server 2013 können Sie sicherstellen, dass Benutzern der Exchange-Dienst bei einem Computerausfall weiterhin zur Verfügung steht. Darüber hinaus kann die Bereitstellung durch Lastenausgleich mehr Datenverkehr abwickeln, als von einem Server verarbeitet werden kann, und zwar unter Verwendung eines einzelnen Hostnamens für die Clients.
 

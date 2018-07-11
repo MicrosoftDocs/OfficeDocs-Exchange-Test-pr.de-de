@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013 SP1_
+_**Gilt für:** Exchange Server 2013 SP1_
 
-_**Letztes Änderungsdatum des Themas:**2017-04-14_
+_**Letztes Änderungsdatum des Themas:** 2017-04-14_
 
-**Zusammenfassung:**
+**Zusammenfassung:** 
 
 Bei lokalen Bereitstellungen von Exchange 2013 Service Pack 1 (SP1) bedeutet die Installation und Konfiguration von Active Directory-Verbunddiensten (AD FS), dass Sie nun die anspruchsbasierte AD FS-Authentifizierung zum Herstellen einer Verbindung mit Outlook Web App und EAC verwenden können. Sie können AD FS und anspruchsbasierte Authentifizierung mit Exchange 2013 SP1 integrieren. Die anspruchsbasierte Authentifizierung ersetzt die herkömmlichen Authentifizierungsmethoden, einschließlich der folgenden:
 
@@ -272,9 +272,13 @@ So konfigurieren Sie Active Directory-Verbunddienste:
 
 Die folgenden Windows PowerShell-Befehle führen Sie dieselben Schritte wie die vorangegangenen Schritte.
 
+```
     Import-Module ADFS
+```
 
+```
     Install-AdfsFarm -CertificateThumbprint 0E0C205D252002D535F6D32026B6AB074FB840E7 -FederationServiceDisplayName "Contoso Corporation" -FederationServiceName adfs.contoso.com -GroupServiceAccountIdentifier "contoso\FSgmsa`$"
+```
 
 Weitere Informationen und die Syntax finden Sie unter [Install-AdfsFarm](https://go.microsoft.com/fwlink/?linkid=392704).
 
@@ -372,17 +376,17 @@ Alternativ können Sie Vertrauensstellungen und Anspruchsregeln mithilfe von Win
 
 3.  Führen Sie zum Erstellen der Vertrauensstellungen die folgenden zwei Cmdlets aus. In diesem Beispiel werden dadurch auch die Anspruchsregeln konfiguriert.
 
-**IssuanceAuthorizationRules.txt enthält:**
+**IssuanceAuthorizationRules.txt enthält:** 
 
     @RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");
 
-**IssuanceTransformRules.txt enthält:**
+**IssuanceTransformRules.txt enthält:** 
 
     @RuleName = "ActiveDirectoryUserSID" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"), query = ";objectSID;{0}", param = c.Value); 
     
     @RuleName = "ActiveDirectoryUPN" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"), query = ";userPrincipalName;{0}", param = c.Value);
 
-**Führen Sie die folgenden Befehle aus:**
+**Führen Sie die folgenden Befehle aus:** 
 
     [string]$IssuanceAuthorizationRules=Get-Content -Path C:\IssuanceAuthorizationRules.txt
     

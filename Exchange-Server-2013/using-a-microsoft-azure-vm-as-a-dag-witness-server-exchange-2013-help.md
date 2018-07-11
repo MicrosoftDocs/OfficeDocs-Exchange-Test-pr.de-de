@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mit Exchange Server 2013 können Sie Ihre Postfachdatenbanken in einer Database Availability Group (DAG) für ein automatisches Failover von Rechenzentren konfigurieren. Für diese Konfiguration sind drei separate physische Standorte erforderlich: zwei Rechenzentren für Postfachserver und ein dritter Standort zum Platzieren des Zeugenservers für die DAG. Organisationen mit nur zwei physischen Standorten können jetzt ebenfalls vom automatischen Failover von Rechenzentren profitieren, indem sie einen virtuellen Microsoft Azure-Dateiservercomputer verwenden, der als Zeugenserver der DAG agiert.
 

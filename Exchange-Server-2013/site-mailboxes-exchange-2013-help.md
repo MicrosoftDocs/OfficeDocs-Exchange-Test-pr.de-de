@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 E-Mails und Dokumente werden herkömmlicherweise in zwei voneinander getrennten Datenrepositorys gespeichert. Die meisten Organisationen arbeiten über beide Medien zusammen. Die Herausforderung liegt darin, dass auf E-Mails und Dokumente mit unterschiedlichen Clients zugegriffen wird. Dies reduziert üblicherweise sowohl die Benutzerfreundlichkeit als auch die Benutzerproduktivität.
 
@@ -87,7 +87,7 @@ Wie funktionieren Websitepostfächer?
 
 Der Lebenszyklus eines Websitepostfachs wird über eine SharePoint-Website verwaltet. Über diese SharePoint-Website sollten Sie alle Aufgaben in Bezug auf Websitepostfächer verwalten, wie z. B. die Erstellung und Entfernung eines Websitepostfachs. Darüber hinaus können Sie in der SharePoint-Website eine Lebenszyklusrichtlinie erstellen, um den Lebenszyklus eines Websitepostfachs zu verwalten. Sie können z. B. in SharePoint eine Lebenszyklusrichtlinie erstellen, die alle Websitepostfächer automatisch nach 6 Monaten schließt. Wenn ein Benutzer ein solches Websitepostfach weiterhin nutzen möchten, kann er das Postfach über SharePoint erneut aktivieren. Es empfiehlt sich, die Lebenszyklusanwendung in der Farm zu verwenden. Durch manuelles Löschen aktiver Websitepostfächer aus Exchange entstehen verwaiste Websitepostfächer. .
 
-Wenn eine Lebenszyklusanwendung in SharePoint ein Websitepostfach schließt, wird dieses Postfach so lange im geschlossenen Status beibehalten, wie in der Lebenszyklusrichtlinie angegeben. Während dieses Zeitraums kann das Postfach durch einen Endbenutzer oder einen Administrator über SharePoint erneut aktiviert werden. Nach Ablauf des Aufbewahrungszeitraums wird dem Namen des Exchange-Websitepostfachs, das in der Postfachdatenbank gespeichert ist, die Zeichenfolge **MDEL:** vorangestellt: um anzugeben, dass es zum Löschen markiert wurde. Sie müssen diese Websitepostfächer manuell aus der Postfachdatenbank entfernen, um den Speicherplatz und den Aliasnamen freizugeben. Wenn Sie keine SharePoint-Lebenszyklusrichtlinie eingerichtet haben, können Sie nicht bestimmen, welche Websitepostfächer zum Löschen markiert sind. Sofern das Websitepostfach nicht durch einen Administrator entfernt wurde, lässt sich der Postfachinhalt weiterhin wiederherstellen.
+Wenn eine Lebenszyklusanwendung in SharePoint ein Websitepostfach schließt, wird dieses Postfach so lange im geschlossenen Status beibehalten, wie in der Lebenszyklusrichtlinie angegeben. Während dieses Zeitraums kann das Postfach durch einen Endbenutzer oder einen Administrator über SharePoint erneut aktiviert werden. Nach Ablauf des Aufbewahrungszeitraums wird dem Namen des Exchange-Websitepostfachs, das in der Postfachdatenbank gespeichert ist, die Zeichenfolge **MDEL:**  vorangestellt: um anzugeben, dass es zum Löschen markiert wurde. Sie müssen diese Websitepostfächer manuell aus der Postfachdatenbank entfernen, um den Speicherplatz und den Aliasnamen freizugeben. Wenn Sie keine SharePoint-Lebenszyklusrichtlinie eingerichtet haben, können Sie nicht bestimmen, welche Websitepostfächer zum Löschen markiert sind. Sofern das Websitepostfach nicht durch einen Administrator entfernt wurde, lässt sich der Postfachinhalt weiterhin wiederherstellen.
 
 Mit folgendem Befehl können Sie nach Websitepostfächern suchen, die zum Löschen markiert wurden, und diese entfernen.
 

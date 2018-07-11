@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mithilfe der Verwaltungsrolle `Migration` können Administratoren Postfächer sowie den Inhalt von Postfächern auf einen Server oder aus einem Server verschieben.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-01-18_
+_**Letztes Änderungsdatum des Themas:** 2013-01-18_
 
 Sie können IMAP4 für einen Benutzer aktivieren oder deaktivieren.
 

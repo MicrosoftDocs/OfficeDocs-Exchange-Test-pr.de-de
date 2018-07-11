@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Befolgen Sie diese empfohlenen bewährten Methoden für Exchange-Transportregeln, um allgemeine Konfigurationsfehler zu vermeiden. Jede Empfehlung enthält einen Link zum Thema mit einem Beispiel und schrittweisen Anleitungen.
 

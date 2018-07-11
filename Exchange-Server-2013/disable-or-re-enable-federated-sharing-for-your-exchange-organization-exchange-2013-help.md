@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-17_
+_**Letztes Änderungsdatum des Themas:** 2014-02-17_
 
 In bestimmten Situationen müssen Sie möglicherweise vorübergehend die Verbundfreigabe für Ihre Organisation deaktivieren. Statt die vorhandene Verbundvertrauensstellung bzw. Organisationsbeziehungen und Freigaberichtlinien zu löschen, die Sie in Zukunft vielleicht noch benötigen, können Sie einfach die Organisations-ID (OrgID) für die Verbundvertrauensstellung deaktivieren.
 

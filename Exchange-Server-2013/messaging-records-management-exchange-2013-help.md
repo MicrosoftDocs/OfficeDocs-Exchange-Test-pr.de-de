@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-02-01_
+_**Letztes Änderungsdatum des Themas:** 2016-02-01_
 
 Benutzer senden und empfangen jeden Tag E-Mails. Wenn diese große Menge an E-Mails, die jeden Tag verfasst und empfangen werden, nicht verwaltet wird, kann dies Benutzer belasten, ihre Produktivität beeinträchtigen und zu Risiken für Ihre Organisation führen. Daher ist die Verwaltung des E-Mail-Lebenszyklus eine entscheidende Komponente für die meisten Organisationen.
 
@@ -47,9 +47,9 @@ Mithilfe von Aufbewahrungsrichtlinien können Sie grundlegende Einstellungen fü
 
 **Nachrichten in Archivierungspostfächer verschieben**   Bei dieser Strategie implementieren Sie MRM-Richtlinien, die Elemente zum Archivierungspostfach des Benutzers verschieben. Ein Archivpostfach bietet zusätzlichen Speicherplatz, sodass Benutzer ältere Inhalte oder Inhalte, auf die selten zugegriffen wird, aufbewahren können. Aufbewahrungstags, mit denen Elemente verschoben werden, werden auch als *Archivrichtlinien* bezeichnet. Zum Verschieben oder Löschen von Elementen in derselben Aufbewahrungsrichtlinie können Sie ein Standardrichtlinientag und persönliche Tags bzw. ein Standardrichtlinientag, Aufbewahrungsrichtlinientags und persönliche Tags kombinieren. Weitere Informationen zu Archivrichtlinien finden Sie unter:
 
-  - **Exchange Server 2013:** [In-Situ-Archivierung in Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md)
+  - **Exchange Server 2013:**  [In-Situ-Archivierung in Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md)
 
-  - **Exchange Online:** [Archivieren von Postfächern in Exchange Online](https://technet.microsoft.com/de-de/library/dn922147\(v=exchg.150\))
+  - **Exchange Online:**  [Archivieren von Postfächern in Exchange Online](https://technet.microsoft.com/de-de/library/dn922147\(v=exchg.150\))
 
 
 > [!NOTE]

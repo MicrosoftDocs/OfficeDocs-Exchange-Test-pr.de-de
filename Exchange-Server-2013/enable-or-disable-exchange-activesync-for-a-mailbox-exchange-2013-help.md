@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-13_
+_**Letztes Änderungsdatum des Themas:** 2012-11-13_
 
 Über die Exchange-Verwaltungskonsole oder Shell können Sie Microsoft Exchange ActiveSync für ein Benutzerpostfach aktivieren oder deaktivieren. Exchange ActiveSync ist ein Clientprotokoll, über das Benutzer ein Mobilgerät mit ihrem Exchange-Postfach synchronisieren können. Exchange ActiveSync wird standardmäßig aktiviert, wenn ein Benutzerpostfach erstellt wird. Weitere Informationen finden Sie unter [Exchange ActiveSync](exchange-activesync-exchange-2013-help.md).
 

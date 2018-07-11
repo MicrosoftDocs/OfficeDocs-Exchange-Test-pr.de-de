@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-29_
+_**Letztes Änderungsdatum des Themas:** 2012-11-29_
 
 Sie können Einschränkungen mithilfe der Exchange-Verwaltungskonsole oder Shell dahingehend einrichten, ob Nachrichten einzelnen Empfängern zugestellt werden. Einschränkungen für die Nachrichtenzustellung eignen sich zum Bestimmen, wer an Benutzer in Ihrer Organisation Nachrichten senden darf. Sie können beispielsweise ein Postfach so konfigurieren, dass von bestimmten Benutzern gesendete Nachrichten akzeptiert oder abgelehnt oder nur Nachrichten von Benutzern in Ihrer Exchange-Organisation akzeptiert werden.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Unter Verwendung von Microsoft Outlook-Schutzregeln können Sie Nachrichten durch IRM (Information Rights Management, Verwaltung von Informationsrechten) schützen, indem Sie vor dem Senden der Nachrichten eine Active Directory RMS-Vorlage (Rights Management Services, Rechteverwaltungsdienste) in Outlook 2010 anwenden.
 

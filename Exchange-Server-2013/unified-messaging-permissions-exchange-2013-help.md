@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die zum Ausführen von Aufgaben auf Clientzugriffsservern, auf denen der Microsoft Exchange Unified Messaging-Dienst für die Anrufweiterleitung ausgeführt wird, und auf Postfachservern, auf denen der Microsoft Exchange Unified Messaging-Dienst ausgeführt wird, richten sich nach dem durchzuführenden Vorgang bzw. nach dem auszuführenden Cmdlet.
 

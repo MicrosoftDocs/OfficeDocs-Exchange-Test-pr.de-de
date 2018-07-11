@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-09-30_
+_**Letztes Änderungsdatum des Themas:** 2015-09-30_
 
 Die Überwachungsprotokollierung ermöglicht das Nachverfolgen von Anmeldevorgängen für ein Postfach sowie von ausgeführten Aktionen, während der Benutzer angemeldet ist. Wenn die Überwachungsprotokollierung für ein Postfach aktiviert wird, werden einige von Administratoren und Stellvertretern ausgeführte Aktionen standardmäßig protokolliert. Keine der vom Postfachbesitzer ausgeführten Aktionen werden protokolliert. Weitere Informationen zur Postfachüberwachungsprotokollierung finden Sie unter [Überwachungsprotokollierung von Postfächern](mailbox-audit-logging-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-30_
+_**Letztes Änderungsdatum des Themas:** 2012-11-30_
 
 Sie können eine sprachaktivierte automatische UM-Telefonzentrale (Unified Messaging) konfigurieren, die über eine automatische DTMF-Fallback-Telefonzentrale (Dual Tone Multi-Frequency) verfügt. Eine automatische DTMF-Fallback-Telefonzentrale wird verwendet, wenn die sprachaktivierte automatische UM-Telefonzentrale die Spracheingaben des Anrufers nicht verstehen oder erkennen kann. Wenn eine automatische DTMF-Fallback-Telefonzentrale konfiguriert wurde, muss der Anrufer DTMF-Eingaben (auch als Tonwahleingaben bezeichnet) verwenden, um durch das Menüsystem der Telefonzentrale zu navigieren, den Namen eines Benutzers zu buchstabieren oder eine benutzerdefinierte Menüansage zu verwenden. Wenn keine automatische DTMF-Fallback-Telefonzentrale konfiguriert und die maximale Anzahl von Spracheingaben überschritten wurde, da das System den Anrufer nicht verstanden hat, antwortet das System mit folgender Ansage: "Leider kann ich Ihnen nicht helfen. Versuchen Sie es später noch einmal."
 

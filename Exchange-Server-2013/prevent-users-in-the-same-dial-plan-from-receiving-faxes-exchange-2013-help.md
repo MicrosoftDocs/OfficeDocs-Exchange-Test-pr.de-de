@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können verhindern, dass UM-aktivierte Benutzer, die mit einem Unified Messaging-Wählplan (UM) verknüpft sind, Faxnachrichten empfangen. Standardmäßig können Benutzer, die für Unified Messaging aktiviert und mit einem UM-Wählplan verknüpft sind, Faxnachrichten empfangen. Unter gewissen Umständen kann es jedoch notwendig sein, den Empfang von Faxnachrichten für Benutzer, die bestimmten UM-Wähleinstellungen zugeordneten sind, zu unterbinden.
 

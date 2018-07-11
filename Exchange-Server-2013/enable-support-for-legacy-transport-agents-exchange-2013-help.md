@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In Microsoft Exchange Server 2013 werden Transport-Agents, die unter Verwendung von Microsoft .NET Framework 4.0 erstellt wurden, standardmäßig unterstützt. Exchange 2013 unterstützt auch Transport-Agents, die unter Verwendung früherer Versionen von .NET Framework erstellt wurden, diese Unterstützung ist jedoch nicht standardmäßig aktiviert. Zum Aktivieren der Unterstützung älterer Transport-Agents muss die entsprechende XML-Anwendungskonfigurationsdatei geändert werden. Welche Dateien geändert werden müssen, hängt vom Installationsort des Transport-Agents ab:
 

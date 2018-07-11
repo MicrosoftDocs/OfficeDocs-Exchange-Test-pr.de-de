@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-11-15_
+_**Letztes Änderungsdatum des Themas:** 2017-11-15_
 
 
 > [!NOTE]
@@ -229,7 +229,7 @@ In Exchange Online wird das Kontingent für den Ordner „Wiederherstellbare Ele
 
   - **Aktivieren des Archivpostfachs und Aktivieren der sich automatisch erweiternden Archivierung** Sie können eine unbegrenzte Speicherkapazität für den Ordner „Wiederherstellbare Elemente“ aktivieren, indem Sie einfach das Archivpostfach aktivieren und dann das Feature für die sich automatisch erweiternde Archivierung in ExchangeOnline aktivieren. Dies führt zu 100 GB für den Ordner „Wiederherstellbare Elemente“ im primären Postfach und zu einer unbegrenzten Speicherkapazität für den Ordner „Wiederherstellbare Elemente“ im Archiv des Benutzers. Weitere Informationen finden Sie unter: [Aktivieren von Archivpostfächern im Office 365 Security & Compliance Center](https://go.microsoft.com/fwlink/p/?linkid=863320) and [Aktivieren Sie die unbegrenzte Archivierung in Office 365 - Administratorhilfe](https://go.microsoft.com/fwlink/p/?linkid=844569).
     
-    **Hinweise:**
+    **Hinweise:** 
     
       - Nachdem Sie das Archiv für ein Postfach aktiviert haben, das bald sein Speicherkontingent für den Ordner „Wiederherstellbare Elemente“ erreicht, können Sie den Assistenten für verwaltete Ordner ausführen, um den Assistenten manuell dazu zu veranlassen, das Postfach zu verarbeiten, damit abgelaufene Elemente in den Ordner „Wiederherstellbare Elemente“ im Archivpostfach verschoben werden. Anweisungen finden Sie unter Schritt 4 [Erhöhen des Speicherkontingents des Ordners "Wiederherstellbare Elemente" für im In-Situ-Speicher abgelegte Postfächer](https://go.microsoft.com/fwlink/p/?linkid=786479).
     

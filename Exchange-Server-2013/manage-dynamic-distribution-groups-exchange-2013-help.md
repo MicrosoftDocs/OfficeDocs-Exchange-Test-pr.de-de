@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Dynamische Verteilergruppen sind E-Mail-aktivierte Active Directory-Gruppenobjekte, die erstellt werden, um den Massenversand von E-Mail-Nachrichten und sonstigen Informationen innerhalb einer Microsoft Exchange-Organisation zu beschleunigen.
 
@@ -51,9 +51,7 @@ Im Gegensatz zu normalen Verteilergruppen mit einer festgelegten Anzahl an Mitgl
 
 1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Empfänger** \> **Gruppen** \> **Neu** \> **Dynamische Verteilergruppe**.
 
-2.  
-    
-    Füllen Sie auf der Seite **Neue dynamische Verteilergruppe** die folgenden Felder aus:
+2.  Füllen Sie auf der Seite **Neue dynamische Verteilergruppe** die folgenden Felder aus:
     
       - **\* Anzeigename**   Verwenden Sie dieses Feld, um den Anzeigenamen einzugeben. Dieser Name wird im freigegebenen Adressbuch in der Zeile "An:" angezeigt, wenn eine E-Mail an diese Gruppe gesendet wird. Außerdem wird er in der Gruppenliste in der Exchange-Verwaltungskonsole angezeigt. Der Anzeigename ist erforderlich und muss aussagekräftig sein, damit andere Personen den Zweck der Gruppe erkennen können. Dieser Name muss auch in der Gesamtstruktur eindeutig sein.
         
@@ -72,9 +70,7 @@ Im Gegensatz zu normalen Verteilergruppen mit einer festgelegten Anzahl an Mitgl
     
       - **Besitzer**  Ein Besitzer für eine dynamische Verteilergruppe ist optional. Sie können Besitzer hinzufügen, indem Sie auf **Durchsuchen** klicken und anschließend Benutzer aus der Liste auswählen.
 
-3.  
-    
-    Im Abschnitt **Mitglieder** geben Sie die Empfängertypen für die Gruppe an und richten Regeln zum Festlegen der Mitgliedschaft ein. Wählen Sie eines der folgenden Felder aus:
+3.  Im Abschnitt **Mitglieder** geben Sie die Empfängertypen für die Gruppe an und richten Regeln zum Festlegen der Mitgliedschaft ein. Wählen Sie eines der folgenden Felder aus:
     
       - **Alle Empfängertypen**   Wählen Sie diese Option, um Nachrichten, die den für diese Gruppe definierten Kriterien entsprechen, an alle Empfängertypen zu senden.
     
@@ -90,9 +86,7 @@ Im Gegensatz zu normalen Verteilergruppen mit einer festgelegten Anzahl an Mitgl
         
           - **E-Mail-aktivierte Gruppen**   Aktivieren Sie dieses Kontrollkästchen, um E-Mail-aktivierte Sicherheitsgruppen oder Verteilergruppen einzubeziehen. E-Mail-aktivierte Gruppen ähneln Verteilergruppen. E-Mail-Nachrichten, die an ein E-Mail-aktiviertes Gruppenkonto gesendet werden, werden an mehrere Empfänger geschickt.
 
-4.  
-    
-    Klicken Sie auf **Regel hinzufügen**, um die Kriterien für die Mitgliedschaft in dieser Gruppe zu definieren.
+4.  Klicken Sie auf **Regel hinzufügen**, um die Kriterien für die Mitgliedschaft in dieser Gruppe zu definieren.
 
 5.  Wählen Sie eines der folgenden Empfängerattribute aus der Dropdownliste aus, und geben Sie einen Wert an. Wenn der Wert für das ausgewählte Attribut dem von Ihnen definierten Wert entspricht, erhält der Empfänger eine Nachricht, die an diese Gruppe gesendet wird.
     

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Die Empfängerfilterung wird durch den Empfängerfilter-Agent bereitgestellt. Wenn die Empfängerfilterung auf einem Exchange-Server aktiviert ist, werden eingehende Nachrichten gefiltert, die aus dem Internet stammen und nicht authentifiziert sind. Diese Nachrichten werden als externe Nachrichten behandelt.
 

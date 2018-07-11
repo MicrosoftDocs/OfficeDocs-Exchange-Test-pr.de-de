@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-06-11_
+_**Letztes Änderungsdatum des Themas:** 2013-06-11_
 
 Wenn Sie Microsoft Lync Server in Exchange Unified Messaging (UM) integrieren, müssen Sie das Skript "ExchUcUtil.ps1" in der Shell ausführen. Das Skript "ExchUcUtil.ps1" führt Folgendes aus:
 

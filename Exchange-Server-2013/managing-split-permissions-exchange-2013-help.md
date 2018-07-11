@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-13_
+_**Letztes Änderungsdatum des Themas:** 2012-09-13_
 
 Mithilfe der folgenden Verfahren können Sie die Verwaltung erweiterter Berechtigungen durchführen. Sie sollten diese Verfahren nur verwenden, wenn die Verwaltungsrollengruppen und Zuweisungsrichtlinien für Verwaltungsrollen nicht den Anforderungen in Ihrem Unternehmen entsprechen.
 

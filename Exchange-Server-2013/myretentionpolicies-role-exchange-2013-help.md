@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `MyRetentionPolicies` ermöglicht es den einzelnen Benutzern, ihre Aufbewahrungstags anzuzeigen und die Einstellungen und Standardwerte für die Aufbewahrungstags anzuzeigen und zu ändern.
 

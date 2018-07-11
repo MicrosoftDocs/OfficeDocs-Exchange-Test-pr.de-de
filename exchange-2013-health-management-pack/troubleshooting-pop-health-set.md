@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit dem POP-Integritätssatz werden die Gesamtintegrität und Verfügbarkeit des Microsoft Exchange-POP3-Diensts sowie die POP3-Clientkonnektivität überwacht. Der POP-Integritätssatz steht in enger Beziehung mit den folgenden Integritätssätzen:
 

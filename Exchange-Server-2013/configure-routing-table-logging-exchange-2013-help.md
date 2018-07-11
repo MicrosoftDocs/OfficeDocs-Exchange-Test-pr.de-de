@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 In Routingtabellenprotokollen wird regelmäßig eine Momentaufnahme der Routingtabelle erfasst, die von Microsoft Exchange Server 2013 zum Weiterleiten von Nachrichten an ihre Ziele verwendet wird.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2010-07-16_
+_**Letztes Änderungsdatum des Themas:** 2010-07-16_
 
 [Aktivieren oder Deaktivieren der Überwachungsprotokollierung für ein Postfach](enable-or-disable-mailbox-audit-logging-for-a-mailbox-exchange-2013-help.md)
 

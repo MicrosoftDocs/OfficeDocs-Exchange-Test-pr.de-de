@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 E-Mail-Nachrichten und Anlagen enthalten in zunehmendem Maß geschäftswichtige Informationen wie Produktspezifikationen, Dokumente zur Unternehmensstrategie und Finanzdaten oder persönlich identifizierbare Informationen wie Kontaktdetails, Sozialversicherungsnummern, Kreditkartennummern und Personalakten. In zahlreichen Teilen der Welt existiert eine Vielzahl branchenspezifischer und lokaler Bestimmungen, die das Sammeln, Speichern und Veröffentlichen von Informationen, die eine persönliche Identifizierung ermöglichen, regeln.
 

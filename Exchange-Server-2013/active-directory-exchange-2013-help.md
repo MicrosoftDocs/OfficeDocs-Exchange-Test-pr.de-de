@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013 verwendet Active Directory zum Speichern und Freigeben von Verzeichnisinformationen für Windows. Das Active Directory-Gesamtstrukturdesign für Exchange 2013 ähnelt Exchange Server 2010 mit wenigen Ausnahmen, die im Folgenden erläutert werden.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie lesen eine Zusammenstellung von konzeptuellen Themen und Vorgehensweisen, die nach Thema oder von Microsoft Exchange verwendeten Technologien organisiert sind. Sie können jedes Thema im Inhaltsverzeichnis im linken Fensterbereich, über einen Link in einem anderen Hilfethema, in den Ergebnissen eines Suchvorgangs oder in Ihrer benutzerdefinierten Favoritenliste direkt aufrufen.
 

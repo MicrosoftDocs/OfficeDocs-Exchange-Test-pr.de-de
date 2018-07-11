@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2014-09-17_
+_**Letztes Änderungsdatum des Themas:** 2014-09-17_
 
 Sie können den Betrieb von Unified Messaging (UM) und dazugehöriger, angeschlossener Telefoniegeräte testen. Beim folgenden Verfahren testet der Clientzugriffs- und der Postfachserver den vollständigen End-to-End-Betrieb des Voicemailsystems. Dies schließt die mit den Clientzugriffs- und der Postfachservern verbundenen Telefoniekomponenten, einschließlich VoIP-Gateways, PBX-Ressourcen (Private Branch eXchanges, Nebenstellenanlagen), IP-PBXs und Verkabelung ein.
 

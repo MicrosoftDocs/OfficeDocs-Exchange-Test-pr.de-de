@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013-Funktionen wurden entwickelt, um die Sicherheit der Messagingumgebung zu verbessern. Im Allgemeinen sind für Exchange 2013 die folgenden Bedingungen erfüllt:
 

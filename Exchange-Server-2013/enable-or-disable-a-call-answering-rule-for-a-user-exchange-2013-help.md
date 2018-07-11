@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Sie können die Shell verwenden, um eine oder mehrere Mailboxansageregeln für einen Benutzer zu aktivieren oder zu deaktivieren. Sie können auch die Cmdlets **Enable-UMCallAnsweringRule** oder **Disable-UMCallAnsweringRule** in einem Exchange-Verwaltungsshellskript verwenden, um Mailboxansageregeln für einen oder mehrere Benutzer zu aktivieren oder zu deaktivieren.
 

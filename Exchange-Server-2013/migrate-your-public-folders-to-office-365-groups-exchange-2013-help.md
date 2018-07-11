@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2010, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2010, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-09-25_
+_**Letztes Änderungsdatum des Themas:** 2017-09-25_
 
-**Zusammenfassung:** Gründe für und gegen eine Migration Ihrer öffentlichen Exchange-Ordner zu Office 365-Gruppen.
+**Zusammenfassung:**  Gründe für und gegen eine Migration Ihrer öffentlichen Exchange-Ordner zu Office 365-Gruppen.
 
 Dieser Artikel bietet einen Vergleich von öffentlichen Ordnern und Office 365-Gruppen und erklärt, welche Lösung sich jeweils am besten für Ihre Organisation eignet. Öffentliche Ordner gibt es bereits ebenso lange wie Exchange, während Gruppen erst kürzlich eingeführt wurden. Wenn Sie einige oder alle Ihre öffentlichen Ordner zu Gruppen migrieren möchten, erfahren Sie in diesem Artikel mehr über die Vorgehensweise. Er enthält Links zu Artikeln, die Sie Schritt für Schritt durch den Prozess führen.
 
@@ -89,15 +89,15 @@ Hauptvorteile von Stapelmigrationen:
 
 Die folgenden Schritte beschreiben den Prozess der Migration von Inhalten öffentlicher Ordner zu Office 365-Gruppen in einer Stapelmigration. Die Einzelheiten finden Sie in den unten aufgeführten Artikeln.
 
-1.  **Quelle wählen:** Wählen Sie die öffentlichen Ordner, die Sie migrieren möchten. Sie können alle Ordner mit E-Mail- oder Kalenderinhalten auswählen.
+1.  **Quelle wählen:**  Wählen Sie die öffentlichen Ordner, die Sie migrieren möchten. Sie können alle Ordner mit E-Mail- oder Kalenderinhalten auswählen.
 
-2.  **Ziel erstellen:** Erstellen Sie entsprechende Gruppen für Ihre Ordner mit den gewünschten Konfigurationen, z. B. Mitglieder, Datenschutz und Klassifizierung von Daten.
+2.  **Ziel erstellen:**  Erstellen Sie entsprechende Gruppen für Ihre Ordner mit den gewünschten Konfigurationen, z. B. Mitglieder, Datenschutz und Klassifizierung von Daten.
 
-3.  **Daten kopieren:** Verwenden Sie die Migrationsbatch-Cmdlets, um Daten aus öffentlichen Ordnern in Gruppen zu kopieren.
+3.  **Daten kopieren:**  Verwenden Sie die Migrationsbatch-Cmdlets, um Daten aus öffentlichen Ordnern in Gruppen zu kopieren.
 
-4.  **Quelle sperren:** Sperren Sie die öffentlichen Ordner, nachdem Sie die Daten in Gruppen überprüft haben.
+4.  **Quelle sperren:**  Sperren Sie die öffentlichen Ordner, nachdem Sie die Daten in Gruppen überprüft haben.
 
-5.  **Übernahme:** Kopieren Sie die neuen Daten, die in den Schritten 3 und 4 erstellt wurden.
+5.  **Übernahme:**  Kopieren Sie die neuen Daten, die in den Schritten 3 und 4 erstellt wurden.
 
 Beachten Sie, dass Ihre öffentlichen Ordnern und die entsprechenden Gruppen während der Schritte 1 bis 3 online bleiben. Nach Schritt 3 können Sie basierend auf der Gruppenerfahrung und der Meinung der Benutzer abwägen, ob die Lösung zu Ihrem Unternehmen passt, und die Migration ggf. fortsetzen. Zu diesem Zeitpunkt können Sie ein Rollback zu den öffentlichen Ordnern durchführen. Wenn Sie nach Abschluss von Schritt 5 mit der Migration fortfahren, können Sie die ursprünglichen öffentlichen Ordner löschen. Selbst nach der Migration ist es möglich, ein Rollback zu den öffentlichen Ordnern durchzuführen, wenn Sie während der Migration Sicherungsdateien gespeichert und Ihre ursprünglichen öffentlichen Ordner nicht gelöscht haben.
 

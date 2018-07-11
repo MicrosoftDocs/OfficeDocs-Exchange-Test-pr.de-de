@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-18_
+_**Letztes Änderungsdatum des Themas:** 2014-06-18_
 
 Mithilfe der Windows Server-Sicherung können Sie Exchange-Datenbanken sichern und wiederherstellen. Exchange enthält ein Plug-In für die Windows Server-Sicherung, mit der Sie VSS-basierte Sicherungen (Volume Shadow Copy Service, Volumenschattenkopie-Dienst) von Exchange-Daten erstellen können.
 

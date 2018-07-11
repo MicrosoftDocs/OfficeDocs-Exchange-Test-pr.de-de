@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Wenn ein Benutzer zum Löschen von Elementen aus dem Ordner **Gelöschte Elemente** die ENTF-Taste oder die Umschalttaste und die ENTF-Taste drückt bzw. die Option **Ordner "Gelöschte Elemente" leeren** wählt, werden die Elemente in den Ordner **Wiederherstellbare Elemente\\Löschvorgänge** verschoben. Die Zeitdauer, während der gelöschte Elemente in diesem Ordner beibehalten werden, basiert auf den Einstellungen für die Aufbewahrungszeit gelöschter Elemente, die für die Postfachdatenbank oder das Postfach konfiguriert sind. Für Postfachdatenbanken ist standardmäßig eine Aufbewahrungszeit für gelöschte Elemente von 14 Tagen konfiguriert. Für die Anzeige einer Warnung zum Kontingent für wiederherstellbare Elemente und für das Kontingent für wiederherstellbare Elemente sind 20 GB bzw. 30 GB festgelegt.
 

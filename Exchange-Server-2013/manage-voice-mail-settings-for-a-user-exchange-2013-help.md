@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können Unified Messaging- und Voicemailfunktionen sowie Konfigurationseinstellungen für einen Benutzer anzeigen und festlegen, der für UM und Voicemail aktiviert wurde. Sie können beispielsweise folgende Aufgaben ausführen:
 

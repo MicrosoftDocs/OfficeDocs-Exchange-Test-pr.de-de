@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Standardmäßig referenziert Microsoft Exchange Server 2013 die IP-Standortlinkobjekte in Active Directory, um den kostengünstigsten Routingpfad zu bestimmen. Wenn Sie jedoch feststellen, dass die IP-Standortverknüpfungskosten in Active Directory und die Datenverkehrsmuster nicht optimal für das Nachrichtenrouting in Exchange sind, können Sie Einstellungen in Active Directory konfigurieren, die nur von Exchange zur Optimierung des Nachrichtenflusses verwendet werden.
 

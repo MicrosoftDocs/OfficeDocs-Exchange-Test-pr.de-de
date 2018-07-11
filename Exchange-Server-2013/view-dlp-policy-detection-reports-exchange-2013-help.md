@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-16_
+_**Letztes Änderungsdatum des Themas:** 2016-12-16_
 
 Die DLP-Richtlinienerkennungsverwaltung (Data Loss Prevention, Verhinderung von Datenverlust) definiert die Maßnahmen, die eine Organisation ergreift, um Verstöße gegen DLP-Richtlinien zu identifizieren, zu untersuchen und zu beheben. Zum Verwalten von Vorfällen müssen Sie auf die Informationen zugreifen, welche die von den DLP-Richtlinien erkannten Verstöße identifizieren. Diese Erkennungsinformationen ist in vorhandene Microsoft Exchange Server 2013-Daten- und Protokollformate integriert, sodass Sie auf ein vorhandenes, umfangreiches Datensystem zur Verwaltung von Vorfällen im Zusammenhang mit dem E-Mail-Fluss zurückgreifen können.
 

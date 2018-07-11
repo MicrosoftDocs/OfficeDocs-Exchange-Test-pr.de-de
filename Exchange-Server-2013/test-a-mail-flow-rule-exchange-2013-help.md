@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Immer wenn Sie eine Exchange-E-Mail-Flussregel erstellen, die auch als Transportregel bezeichnet wird, sollten Sie sie zunächst testen, bevor Sie sie aktivieren. Wenn Sie versehentlich eine Bedingung erstellen, die nicht exakt das Gewünschte macht oder mit anderen Regeln auf unerwartete Weise interagiert, vermeiden Sie dadurch unvorhersehbare Folgen.
 

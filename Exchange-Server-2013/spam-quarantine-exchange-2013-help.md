@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-12_
+_**Letztes Änderungsdatum des Themas:** 2012-10-12_
 
 Viele Unternehmen sind durch gesetzliche Bestimmungen oder Vorschriften verpflichtet, alle rechtlich relevanten E-Mail-Nachrichten aufzubewahren oder zuzustellen. In Microsoft Exchange Server 2013 ist die Spamquarantäne eine Funktion des Inhaltsfilter-Agents, durch die das Risiko reduziert wird, dass legitime Nachrichten verloren gehen. Die Spamquarantäne stellt einen temporären Speicherort für Nachrichten bereit, die als Spam erkannt wurden und nicht an ein Benutzerpostfach in der Organisation gesendet werden sollen.
 

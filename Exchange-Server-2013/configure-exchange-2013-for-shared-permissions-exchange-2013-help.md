@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Mithilfe von gemeinsamen Berechtigungen können Sie als Administrator von Microsoft Exchange Server 2013Active Directory-Sicherheitsprinzipale (beispielsweise Benutzer) erstellen und diese als Exchange-Empfänger konfigurieren. Anders als bei geteilten Berechtigungen, bei denen Verwaltungsaufgaben zwischen den Gruppen der Exchange-Administratoren und der Active Directory-Administratoren aufgeteilt sind, gibt es bei gemeinsamen Berechtigungen keine Aufgabenteilung.
 

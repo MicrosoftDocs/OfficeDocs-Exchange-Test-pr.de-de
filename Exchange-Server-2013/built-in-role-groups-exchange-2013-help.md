@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-08-21_
+_**Letztes Änderungsdatum des Themas:** 2012-08-21_
 
 Microsoft Exchange Server 2013 enthält standardmäßig mehrere Verwaltungsrollengruppen. Die folgenden integrierten Rollengruppen stellen Ihnen einen vorkonfigurierten Satz Rollen bereit, die Sie verschiedenen Administratoren und spezialisierten Benutzern in Ihrer Organisation zuweisen können.
 

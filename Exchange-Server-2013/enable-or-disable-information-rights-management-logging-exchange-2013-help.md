@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-12_
+_**Letztes Änderungsdatum des Themas:** 2012-10-12_
 
 In Exchange Server 2013 können Sie die Protokolle der Verwaltung von Informationsrechten (Information Rights Management, IRM) verwenden, um IRM-Vorgänge zu überwachen und Probleme zu beheben. Die IRM-Protokollierung ist standardmäßig aktiviert.
 

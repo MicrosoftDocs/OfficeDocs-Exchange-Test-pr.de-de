@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-16_
+_**Letztes Änderungsdatum des Themas:** 2012-12-16_
 
 Wenn das Postfach eines Benutzers für UM-Voicemail (Unified Messaging) aktiviert wird, wird eine E-Mail-Nachricht gesendet, die den Benutzer bei Unified Messaging begrüßt. Diese Nachricht enthält die PIN-Informationen, die der Benutzer für den ersten Zugriff auf das Voicemailsystem verwendet.
 

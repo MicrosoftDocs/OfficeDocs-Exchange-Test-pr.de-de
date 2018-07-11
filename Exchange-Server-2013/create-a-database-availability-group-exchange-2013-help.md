@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Eine Datenbankverfügbarkeitsgruppe ist ein Satz aus bis zu 16 Microsoft Exchange Server 2013-Postfachservern, die eine automatische Wiederherstellung auf Datenbankebene nach einem Datenbank-, Server- oder Netzwerkfehler bieten. Wenn einer Datenbankverfügbarkeitsgruppe ein Postfachserver hinzugefügt wird, wird dieser mit den anderen Servern in der Datenbankverfügbarkeitsgruppe eingesetzt, um eine automatische Wiederherstellung auf Datenbankebene nach Datenbank-, Server- oder Netzwerkausfällen zu bieten.
 
@@ -65,9 +65,7 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
 
 2.  Klicken Sie auf ![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)"), um eine DAG zu erstellen.
 
-3.  
-    
-    Geben Sie auf der Seite **Neue Database Availability Group** die folgenden Informationen für die DAG an:
+3.  Geben Sie auf der Seite **Neue Database Availability Group** die folgenden Informationen für die DAG an:
     
       - **Database Availability Group-Name**   Geben Sie in diesem Feld einen gültigen und eindeutigen Namen für die DAG mit bis zu 15 Zeichen ein. Der Name entspricht einem Computernamen, und in Active Directory wird ein entsprechendes Clusternetzwerkobjekt (Cluster Network Object, CNO) mit diesem Namen erstellt. Dieser Name wird als Name der DAG und als Name des zugrunde liegenden Clusters verwendet.
     

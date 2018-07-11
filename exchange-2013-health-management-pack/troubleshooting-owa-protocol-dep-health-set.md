@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Project Server 2013_
+_**Gilt für:** Exchange Server 2013, Project Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-11-10_
+_**Letztes Änderungsdatum des Themas:** 2015-11-10_
 
 Der **OWA.Protocol.DEP**-Integritätssatz überwacht die Gesamtintegrität der Chatdienste in Outlook Web App, die zwischen Lync 2013 und Exchange 2013 integriert sind. Weitere Informationen über das Aktivieren von Chats in Outlook Web App finden Sie unter [Integrieren von Microsoft Lync Server 2013 und Microsoft Outlook Web App 2013](http://go.microsoft.com/fwlink/p/?linkid=280418).
 

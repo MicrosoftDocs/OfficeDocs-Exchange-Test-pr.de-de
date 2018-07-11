@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-05_
+_**Letztes Änderungsdatum des Themas:** 2012-12-05_
 
 Ein Offlineadressbuch (OAB) ist eine Kopie eines Adressbuchs, das heruntergeladen wurde, damit ein Outlook-Benutzer auf die darin enthaltenen Informationen zugreifen kann, während keine Verbindung mit dem Server besteht. Sie können mit den Parametern *OABGeneratorWorkCycle* und *OABGeneratorWorkCycleCheckpoint* für das Cmdlet "Set-MailboxServer" konfigurieren, wie oft das OAB erstellt wird.
 

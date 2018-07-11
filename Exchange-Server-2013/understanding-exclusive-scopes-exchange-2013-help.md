@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 *Exklusive Bereiche* bezeichnen einen besonderen Typ von Verwaltungsbereich, der Verwaltungsrollenzuweisungen zugeordnet werden kann. Exklusive Bereiche sind für Situationen konzipiert, in denen Sie über Objekte mit hohen Sicherheitsanforderungen, z. B. ein Postfach des Geschäftsführers, verfügen und den Zugriff auf dieses Objekt streng kontrollieren möchten.
 

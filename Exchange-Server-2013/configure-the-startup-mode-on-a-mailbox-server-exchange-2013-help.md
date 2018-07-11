@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-15_
+_**Letztes Änderungsdatum des Themas:** 2013-02-15_
 
 Sie können den Startmodus für den Microsoft Exchange Unified Messaging-Dienst auf einem Postfachserver angeben. Standardmäßig wird der Postfachserver im TCP-Modus gestartet. Wenn Sie jedoch TLS (Transport Layer Security) zum Verschlüsseln von VoIP-Datenverkehr (Voice over IP) verwenden, müssen Sie den Postfachserver so konfigurieren, dass TLS oder der Dualmodus verwendet wird. Es empfiehlt sich, die Postfachserver zur Verwendung des Dualmodus als Startmodus zu konfigurieren. Grund hierfür ist, dass Clientzugriffs- und Postfachserver alle eingehenden Anrufe für alle UM-Wählpläne beantworten und diese Wählpläne unterschiedliche Sicherheitseinstellungen aufweisen können ("Ungesichert", "SIP-gesichert" oder "Gesichert"). Wenn Sie den Startmodus ändern, müssen Sie den Microsoft Exchange Unified Messaging-Dienst erneut starten, damit die Änderung wirksam wird.
 

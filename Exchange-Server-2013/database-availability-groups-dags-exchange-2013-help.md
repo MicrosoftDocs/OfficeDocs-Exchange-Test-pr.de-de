@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-06-04_
+_**Letztes Änderungsdatum des Themas:** 2015-06-04_
 
 Informationen zu Exchange DAG in Exchange Server 2013. Dieser Artikel beschreibt den DAG-Lebenszyklus (Database Availability Group) sowie das Verwenden einer DAG für hohe Verfügbarkeit und Ausfallsicherheit.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mithilfe der Verwaltungsrolle `MyDistributionGroups` können einzelne Benutzer Verteilergruppen erstellen, ändern und anzeigen sowie in Verteilergruppen, deren Besitzer sie sind, Mitglieder ändern, anzeigen, entfernen und hinzufügen.
 

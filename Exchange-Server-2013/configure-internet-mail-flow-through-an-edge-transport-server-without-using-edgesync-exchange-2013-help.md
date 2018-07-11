@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-01-23_
+_**Letztes Änderungsdatum des Themas:** 2017-01-23_
 
 Es wird empfohlen, den Edge-Abonnementprozess zum Einrichten der Nachrichtenübermittlung zwischen der Exchange-Organisation und einem Edge Transport-Server zu verwenden. Allerdings kann es in bestimmten Situationen nicht möglich sein, den Edge-Transport-Server unter Verwendung des Edge-Abonnementprozesses für die Exchange-Organisation zu abonnieren. Um die Nachrichtenübermittlung zwischen der Exchange-Organisation und einem Edge-Transport-Server manuell einzurichten, müssen Sie die Sende- und Empfangsconnectors auf dem Edge-Transport-Server und den Hub-Transport-Servern in der Exchange-Organisation erstellen und konfigurieren.
 

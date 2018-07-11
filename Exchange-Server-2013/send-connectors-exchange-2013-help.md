@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-15_
+_**Letztes Änderungsdatum des Themas:** 2012-10-15_
 
 In Microsoft Exchange Server 2013 steuert ein Sendeconnector die Übermittlung von ausgehenden Nachrichten an den empfangenden Server. Dieser wird auf Postfachservern konfiguriert, auf denen der Transportdienst ausgeführt wird. In den meisten Fällen wird ein Sendeconnector so konfiguriert, dass ausgehende E-Mails an einen Smarthost oder unter Verwendung von DNS direkt an einen Empfänger gesendet werden.
 

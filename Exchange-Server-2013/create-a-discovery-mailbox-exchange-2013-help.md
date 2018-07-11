@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013-Setup erstellt standardmäßig ein Discoverypostfach. In Exchange Online wird ebenfalls standardmäßig ein Discoverypostfach erstellt. Discoverypostfächer sind als Zielpostfächer für [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md)-Suchvorgänge im Exchange-Verwaltungskonsole (EAC) verfügbar. Sie können nach Bedarf zusätzliche Discoverypostfächer erstellen. Nachdem Sie ein neues Discoverypostfach erstellt haben, müssen Sie den betreffenden Benutzern Vollzugriff gewähren, damit sie auf die eDiscovery-Suchergebnisse zugreifen können, die in das Discoverypostfach kopiert werden.
 

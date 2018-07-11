@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-04-16_
+_**Letztes Änderungsdatum des Themas:** 2018-04-16_
 
 In diesem Thema erhalten Sie detaillierte Informationen über verschiedene Aufgaben zur Verwaltung von Edge-Abonnements.
 

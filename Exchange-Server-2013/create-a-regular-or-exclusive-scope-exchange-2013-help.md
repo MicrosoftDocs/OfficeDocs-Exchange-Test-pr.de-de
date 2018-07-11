@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Verwaltungsrollenbereiche bestimmen, welche Objekte einem Benutzer zur Verfügung gestellt werden, damit die Objekte mithilfe der ihm zugeordneten Cmdlets und Parameter geändert werden können. Durch das Hinzufügen eines Verwaltungsbereichs können Sie Verwaltungsrollenzuweisungen konfigurieren, sodass Benutzer bestimmte Server, Datenbanken, Empfänger und andere Objekte in Ihrer Organisation verwalten, jedoch keine anderen Objekte ändern können.
 

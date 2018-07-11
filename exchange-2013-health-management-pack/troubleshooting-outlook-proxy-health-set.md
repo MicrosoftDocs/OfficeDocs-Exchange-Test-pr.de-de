@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Project Server 2013_
+_**Gilt für:** Exchange Server 2013, Project Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit dem Outlook.Proxy-Integritätssatz wird die Verfügbarkeit der Proxyinfrastruktur von Outlook Anywhere auf dem Clientzugriffsserver überwacht.
 

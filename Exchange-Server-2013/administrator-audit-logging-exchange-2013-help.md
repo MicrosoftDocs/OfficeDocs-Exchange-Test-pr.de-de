@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-03-05_
+_**Letztes Änderungsdatum des Themas:** 2018-03-05_
 
 Mit der Administrator-Überwachungsprotokollierung in Microsoft Exchange Server 2013 können Sie protokollieren, wann ein Benutzer oder ein Administrator eine Änderung an der Organisation vornimmt. Indem Sie ein Protokoll der Änderungen führen, können Sie u. a. Änderungen der Person zuordnen, die sie vorgenommen hat, Änderungsprotokollen ausführliche Datensätze der implementierten Änderung hinzufügen, rechtliche Bestimmungen einhalten und Auskunftserteilungsanforderungen erfüllen.
 

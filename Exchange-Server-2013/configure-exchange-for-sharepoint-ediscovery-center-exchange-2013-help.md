@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013 umfasst Funktionen für die Arbeit mit Microsoft SharePoint Server 2013 und Microsoft Lync Server 2013, diese werden als *Partneranwendungen* bezeichnet. Damit diese Partneranwendungen gegenseitig auf Ressourcen zugreifen können, müssen Sie die Server-zu-Server-Authentifizierung konfigurieren.
 

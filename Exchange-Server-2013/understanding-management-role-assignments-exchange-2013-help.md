@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-04_
+_**Letztes Änderungsdatum des Themas:** 2012-10-04_
 
 Eine *Verwaltungsrollenzuweisung* gehört zum Berechtigungsmodell der rollenbasierten Zugriffssteuerung (Role Based Access Control, RBAC) in Microsoft Exchange Server 2013. Sie stellt die Verknüpfung zwischen einer Verwaltungsrolle und einem Rollenempfänger her. Ein *Rollenempfänger* ist eine Rollengruppe, eine Rollenzuweisungsrichtlinie, ein Benutzer oder eine universelle Sicherheitsgruppe (Universal Security Group, USG). Eine Rolle muss einem Rollenempfänger zugewiesen werden, um wirksam zu werden. Weitere Informationen zu RBAC finden Sie unter [Grundlegendes zur rollenbasierten Zugriffssteuerung](understanding-role-based-access-control-exchange-2013-help.md).
 

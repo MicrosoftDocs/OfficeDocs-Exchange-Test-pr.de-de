@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-02_
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
 
 Über Verwaltungsrollenzuweisungen wird einem Benutzer oder einer universellen Sicherheitsgruppe (Universal Security Group, USG) eine Verwaltungsrolle zugewiesen. Wenn Sie eine Verwaltungsrolle entfernen, können die der Rolle zugewiesenen Benutzer nicht mehr auf die für diese Rolle verfügbaren Cmdlets zugreifen. Weitere Informationen zu Verwaltungsrollenzuweisungen in Microsoft Exchange Server 2013 finden Sie unter [Grundlegendes zu Verwaltungsrollenzuweisungen](understanding-management-role-assignments-exchange-2013-help.md).
 

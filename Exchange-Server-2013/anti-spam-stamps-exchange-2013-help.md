@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Antispamstempel helfen Ihnen bei der Diagnose spambezogener Probleme, indem Diagnosemetadaten oder Stempel (z. B. absenderspezifische Informationen, Ergebnisse der Poststempelüberprüfung und Ergebnisse der Inhaltsfilterung) auf Nachrichten angewendet werden, während sie die Antispamfeatures passieren, die aus dem Internet eingehende Nachrichten filtern. Es gibt drei Antispamstempel: PCL-Stempel (Phishing Confidence Level), SCL-Stempel (Spam Confidence Level) und Sender ID-Stempel.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013-Setup kann nicht fortgesetzt werden, da beim Versuch, die Active Directory Lightweight Directory Services (AD LDS) zu installieren, ein Fehler aufgetreten ist.
 

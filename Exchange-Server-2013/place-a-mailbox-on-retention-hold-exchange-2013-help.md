@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-14_
+_**Letztes Änderungsdatum des Themas:** 2012-10-14_
 
 Wenn Sie für ein Postfach die Aufbewahrungszeit anhalten, wird die Verarbeitung einer Aufbewahrungsrichtlinie oder einer Postfachrichtlinie für verwalteten Ordner für dieses Postfach angehalten. Das Anhalten der Aufbewahrungszeit ist für Situationen gedacht, bei denen ein Benutzer z. B. im Urlaub oder vorübergehend abwesend ist.
 

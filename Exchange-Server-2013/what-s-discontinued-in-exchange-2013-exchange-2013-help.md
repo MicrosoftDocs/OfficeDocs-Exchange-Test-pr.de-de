@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema werden die Komponenten, Features oder Funktionen erläutert, die in Microsoft Exchange Server 2013 entfernt, eingestellt oder ersetzt wurden.
 
@@ -381,7 +381,7 @@ In diesem Abschnitt sind die Exchange Server 2007-Funktionen aufgeführt, die in
 </tr>
 <tr class="odd">
 <td><p>UDP-Benachrichtigungen (User Datagram-Protokoll)</p></td>
-<td><p>Die Unterstützung für UDP-Benachrichtigungen (User Datagram Protocol) wurde aus Exchange 2013 entfernt. Dies beeinträchtigt das Benutzererlebnis, wenn Outlook 2003-Clients eine Verbindung mit ihren Postfächern auf einem Exchange 2013-Server herstellen. Weitere Informationen finden Sie im Microsoft Knowledge Base-Artikel 2009942, <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2009942">Das Aktualisieren von Ordnern dauert sehr lange, wenn ein Exchange Server 2010-Benutzer Outlook 2003 im Onlinemodus verwendet</a>.</p></td>
+<td><p>Die Unterstützung für UDP-Benachrichtigungen (User Datagram Protocol) wurde aus Exchange 2013 entfernt. Dies beeinträchtigt das Benutzererlebnis, wenn Outlook 2003-Clients eine Verbindung mit ihren Postfächern auf einem Exchange 2013-Server herstellen. Weitere Informationen finden Sie im Microsoft Knowledge Base-Artikel 2009942, <a href="http://go.microsoft.com/fwlink/?linkid=3052&kbid=2009942">Das Aktualisieren von Ordnern dauert sehr lange, wenn ein Exchange Server 2010-Benutzer Outlook 2003 im Onlinemodus verwendet</a>.</p></td>
 </tr>
 </tbody>
 </table>

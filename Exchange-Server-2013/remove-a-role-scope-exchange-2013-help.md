@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-02_
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
 
 Verwaltungsrollenbereiche legen fest, welche Objekte für einen Benutzer verfügbar gemacht werden, und der die Objekte anschließend unter Verwendung der Cmdlets und Parameter ändern kann, die dem Benutzer zugewiesen sind. Wenn Sie einen Bereich nicht mehr verwenden, kann dieser entfernt werden. Weitere Informationen zu Verwaltungsrollenbereichen in Microsoft Exchange Server 2013 finden Sie unter [Grundlegendes zu Verwaltungsrollenbereichen](understanding-management-role-scopes-exchange-2013-help.md).
 

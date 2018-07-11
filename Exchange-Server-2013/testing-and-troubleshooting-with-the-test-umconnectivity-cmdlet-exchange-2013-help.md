@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-06-25_
+_**Letztes Änderungsdatum des Themas:** 2013-06-25_
 
 Nachdem Sie den Clientzugriffsserver und den Postfachserver installiert haben sowie Unified Messaging (UM) konfiguriert haben, können Sie mehrere Diagnosetests und eine softwarebasierte Telefonieanwendung verwenden, um die Telefonieverbindungen und den Betrieb des Unified Messaging-Dienstes zu testen.
 

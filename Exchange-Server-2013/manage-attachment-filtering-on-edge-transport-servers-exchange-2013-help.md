@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Anlagenfilterung wird vom Anlagenfilter-Agent bereitgestellt, der nur auf Edge-Transport-Servern verfügbar ist. Mit der Anlagenfilterung wird verhindert, dass an E-Mail-Nachrichten angehängte Dateien in Ihre Organisation gelangen. Sie können einen oder mehrere Anlagenfiltereinträge konfigurieren, um Anlagen nach Inhaltstyp oder Dateiname zu filtern.
 

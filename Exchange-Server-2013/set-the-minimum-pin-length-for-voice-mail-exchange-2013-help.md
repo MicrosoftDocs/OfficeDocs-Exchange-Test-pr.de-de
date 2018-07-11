@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können die minimale PIN-Länge für Ihre Outlook Voice Access-Benutzer konfigurieren, die für Unified Messaging (UM) aktiviert sind. Die PIN-Einstellungen, die Sie für eine UM-Postfachrichtlinie konfigurieren, gelten für alle UM-aktivierten Benutzer, die der UM-Postfachrichtlinie zugeordnet sind.
 

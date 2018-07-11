@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Aktivieren transportentschlüsselung ermöglicht Transportregel-Agent auf Microsoft Exchange Server 2013 Postfachservern Zugriff auf die Inhalte in Nachrichten von Information Rights Management (IRM) geschützt. Daher andere Transport-Agents Nachrichteninhalt zugreifen und möglicherweise ändern Sie es. Transportregel-Agent müssen möglicherweise zum Prüfen der Nachrichteninhalt und Anwenden von Transportregeln (wie Regeln, die einen Haftungsausschluss auf die Nachricht angewendet). Zum Entschlüsseln von IRM-geschützte Nachrichten müssen Sie der Administratorengruppe auf dem [Active Directory-Rechteverwaltungsdienste (AD RMS)](https://technet.microsoft.com/en-us/library/hh831364.aspx) Server konfiguriert das Zustellung Federated Postfach hinzufügen.
 

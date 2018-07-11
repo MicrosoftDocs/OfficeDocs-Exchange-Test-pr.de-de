@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-08_
+_**Letztes Änderungsdatum des Themas:** 2012-10-08_
 
 Sie können die Richtlinie für die Verwaltungsrollenzuweisung für ein Postfach ändern. Wenn Sie die Zuweisungsrichtlinie eines Postfachs ändern, werden die Änderungen wirksam, sobald der Benutzer die Verbindung aktualisiert, z. B. wenn er sich das nächste Mal bei seinem Postfach anmeldet oder die Seite mit den Postfachoptionen öffnet. Weitere Informationen zu Zuweisungsrichtlinien in Microsoft Exchange Server 2013 finden Sie unter [Grundlegendes zu Verwaltungsrollen-Zuweisungsrichtlinien](understanding-management-role-assignment-policies-exchange-2013-help.md).
 

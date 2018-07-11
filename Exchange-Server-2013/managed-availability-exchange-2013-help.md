@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013 SP1_
+_**Gilt für:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Letztes Änderungsdatum des Themas:**2017-03-29_
+_**Letztes Änderungsdatum des Themas:** 2017-03-29_
 
 Die Hauptaufgabe der Administratoren eines Messagingsystems besteht darin, Benutzern eine reibungslose E-Mail-Erfahrung zu ermöglichen. Um die Verfügbarkeit und Zuverlässigkeit einer Microsoft Exchange Server 2013-Organisation sicherzustellen, müssen sämtliche Aspekte des Systems aktiv überwacht und erkannte Probleme schnell gelöst werden. In früheren Versionen von Exchange erforderte die Überwachung wichtiger Systemkomponenten in der Regel eine externe Anwendung, wie Microsoft System Center 2012 Operations Manager, um Daten zu sammeln und Wiederherstellungsaktionen für durch die Datenanalyse erkannte Probleme bereitzustellen. Exchange 2010 und frühere Versionen enthielten Statusmanifeste und Korrelationsmodule in Form von Verwaltungspaketen. Mithilfe dieser Komponenten wurde von Operations Manager entschieden, ob sich eine bestimmte Komponente in einem fehlerhaften oder fehlerfreien Zustand befindet. Darüber hinaus wurden von Operations Manager mithilfe der integrierten Diagnose-Cmdlets von Exchange 2010 synthetische Transaktionen für verschiedene Systemaspekte ausgeführt.
 

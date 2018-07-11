@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Wählregelgruppen bestehen aus Wählregeleinträgen. Wählregeln werden verwendet, um eine Telefonnummer zu ändern, bevor sie an die lokale Telefonanlage oder IP-Nebenstellenanlage für ausgehende Anrufe gesendet wird. Wählregeln dienen zwei Zwecken:
 

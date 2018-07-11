@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema wird erläutert, wie Sie die Farbe und die Grafiken der Seiten für Anmeldung, Sprachauswahl und Fehler für Outlook Web App anpassen können.
 

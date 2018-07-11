@@ -17,7 +17,7 @@ _<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Serv
 
 _<strong>Letztes Änderungsdatum des Themas:</strong>2017-07-25_
 
-**Zusammenfassung:** Anforderungen an Ihre Exchange-Umgebung vor dem Einrichten einer Hybridbereitstellung.
+**Zusammenfassung:**  Anforderungen an Ihre Exchange-Umgebung vor dem Einrichten einer Hybridbereitstellung.
 
 Vor dem Erstellen und Konfigurieren einer Hybridbereitstellung mithilfe des Assistenten für die Hybridkonfiguration muss die vorhandene lokale Exchange-Organisation bestimmte Anforderungen erfüllen. Wenn diese Anforderungen nicht erfüllt sind, können Sie die Schritte des Assistenten für die Hybridkonfiguration nicht abschließen, und Sie können keine Hybridbereitstellung zwischen Ihrer lokalen Exchange-Organisation und Exchange Online konfigurieren.
 
@@ -90,7 +90,7 @@ Für die Konfiguration einer Hybridbereitstellung müssen die folgenden Vorausse
     
     Hybridbereitstellungen unterstützen auch die Exchange-Server, auf denen die Edge-Transport-Serverrolle ausgeführt wird. Edge-Transport-Server müssen auf das neueste kumulative Update oder Updaterollup aktualisiert werden, die für die installierte Exchange-Version verfügbar sind. Es wird dringend empfohlen, Edge-Transport-Server in einem Umkreisnetzwerk bereitzustellen. Postfach- und Clientzugriffsserver können nicht in einem Umkreisnetzwerk bereitgestellt werden.
 
-  - **Office 365:** Hybridbereitstellungen werden in allen Office 365-Plänen unterstützt, die Azure Active Directory-Synchronisierung unterstützen. Alle Pläne für Office 365 Enterprise, Government, Academic und Midsize unterstützen Hybridbereitstellungen. Pläne für Office 365 Small Business und Home unterstützen keine Hybridbereitstellungen.
+  - **Office 365:**  Hybridbereitstellungen werden in allen Office 365-Plänen unterstützt, die Azure Active Directory-Synchronisierung unterstützen. Alle Pläne für Office 365 Enterprise, Government, Academic und Midsize unterstützen Hybridbereitstellungen. Pläne für Office 365 Small Business und Home unterstützen keine Hybridbereitstellungen.
     
     Weitere Informationen finden Sie unter [Registrieren bei Office 365](https://go.microsoft.com/fwlink/p/?linkid=203981).
 
@@ -98,19 +98,19 @@ Für die Konfiguration einer Hybridbereitstellung müssen die folgenden Vorausse
     
     Weitere Informationen finden Sie unter [Hinzufügen Ihrer Domäne zu Office 365](https://go.microsoft.com/fwlink/p/?linkid=229238).
 
-  - **Active Directory-Synchronisierung:** Stellen Sie das Azure Active Directory Connect-Tool für die Active Directory-Synchronisierung in Ihrer lokalen Organisation bereit.
+  - **Active Directory-Synchronisierung:**  Stellen Sie das Azure Active Directory Connect-Tool für die Active Directory-Synchronisierung in Ihrer lokalen Organisation bereit.
     
     Weitere Informationen finden Sie unter [Azure AD Connect-Optionen für die Benutzeranmeldung](http://go.microsoft.com/fwlink/p/?linkid=723514).
 
   - **DNS-Einträge für die AutoErmittlung**   Konfigurieren Sie die öffentlichen DNS-Einträge für die AutoErmittlung für Ihre vorhandenen SMTP-Domänen so, dass sie auf einen lokalen Exchange 2013-Clientzugriffsserver zeigen.
 
-  - **Office 365-Organisationen in der Exchange-Verwaltungskonsole (EAC):** Der Office 365-Organisationsknoten ist standardmäßig in der lokalen Verwaltungskonsole enthalten. Sie können den Assistenten für die Hybridkonfiguration jedoch erst verwenden, wenn Sie der Office 365-Organisation die Verwaltungskonsole mit den Anmeldeinformationen für den Office 365-Administrator hinzugefügt haben. So können Sie sowohl die lokale als auch die Exchange Online-Organisation über eine einzige Verwaltungskonsole verwalten.
+  - **Office 365-Organisationen in der Exchange-Verwaltungskonsole (EAC):**  Der Office 365-Organisationsknoten ist standardmäßig in der lokalen Verwaltungskonsole enthalten. Sie können den Assistenten für die Hybridkonfiguration jedoch erst verwenden, wenn Sie der Office 365-Organisation die Verwaltungskonsole mit den Anmeldeinformationen für den Office 365-Administrator hinzugefügt haben. So können Sie sowohl die lokale als auch die Exchange Online-Organisation über eine einzige Verwaltungskonsole verwalten.
     
     Weitere Informationen finden Sie unter [Hybridverwaltung in Exchange-Hybridbereitstellungen](hybrid-management-in-exchange-hybrid-deployments-exchange-2013-help.md).
 
   - 
     
-    **Zertifikate:** Installieren Sie Exchange-Dienste, und weisen Sie sie einem gültigen digitalen Zertifikat zu, das Sie von einer vertrauenswürdigen öffentlichen Zertifizierungsstelle erworben haben. Wenngleich für die lokale Verbundvertrauensstellung mit Microsoft Federation Gateway selbstsignierte Zertifikate verwendet werden sollen, können diese Zertifikate nicht für Exchange-Dienste in einer Hybridbereitstellung verwendet werden. Die IIS-Instanz (Internet Information Services, Internetinformationsdienste) auf den Exchange-Servern, die in der Hybridbereitstellung konfiguriert sind, muss über ein gültiges digitales Zertifikat verfügen, das von einer vertrauenswürdigen Zertifizierungsstelle erworben wurde. Zusätzlich müssen die externe URL der Exchange-Webdienste und der in Ihren öffentlichen DNS-Einträgen angegebene AutoErmittlungsendpunkt als alternativer Antragstellername des Zertifikats aufgeführt sein. Die auf den Exchange-Servern installierten Zertifikate, die für den E-Mail-Transport in der Hybridbereitstellung verwendet werden, müssen dieselben Eigenschaften aufweisen (d. h., sie müssen von derselben Zertifizierungsstelle stammen und denselben Antragstellernamen enthalten).
+    **Zertifikate:**  Installieren Sie Exchange-Dienste, und weisen Sie sie einem gültigen digitalen Zertifikat zu, das Sie von einer vertrauenswürdigen öffentlichen Zertifizierungsstelle erworben haben. Wenngleich für die lokale Verbundvertrauensstellung mit Microsoft Federation Gateway selbstsignierte Zertifikate verwendet werden sollen, können diese Zertifikate nicht für Exchange-Dienste in einer Hybridbereitstellung verwendet werden. Die IIS-Instanz (Internet Information Services, Internetinformationsdienste) auf den Exchange-Servern, die in der Hybridbereitstellung konfiguriert sind, muss über ein gültiges digitales Zertifikat verfügen, das von einer vertrauenswürdigen Zertifizierungsstelle erworben wurde. Zusätzlich müssen die externe URL der Exchange-Webdienste und der in Ihren öffentlichen DNS-Einträgen angegebene AutoErmittlungsendpunkt als alternativer Antragstellername des Zertifikats aufgeführt sein. Die auf den Exchange-Servern installierten Zertifikate, die für den E-Mail-Transport in der Hybridbereitstellung verwendet werden, müssen dieselben Eigenschaften aufweisen (d. h., sie müssen von derselben Zertifizierungsstelle stammen und denselben Antragstellernamen enthalten).
     
     Weitere Informationen finden Sie unter [Zertifikatanforderungen für Hybridbereitstellungen](certificate-requirements-for-hybrid-deployments-exchange-2013-help.md).
 
@@ -270,7 +270,7 @@ Features und Komponenten von Hybridbereitstellungen erfordern für einen ordnung
 
 Zusätzlich zu den oben aufgeführten Voraussetzungen sind weitere Tools und Dienste von Vorteil, wenn Sie Hybridbereitstellungen mit dem Assistenten für die Hybridkonfiguration konfigurieren:
 
-  - **Bereitstellungs-Assistent für Exchange Server:** Der Bereitstellungs-Assistent für Exchange Server ist ein kostenloses webbasiertes Tool, mit dem Sie Exchange in Ihrer lokalen Organisation bereitstellen, eine Hybridbereitstellung zwischen Ihrer lokalen Organisation und Office 365 konfigurieren oder eine vollständige Migration zu Office 365 vornehmen können. Der Assistent stellt Ihnen einige einfache Fragen und erstellt dann anhand Ihrer Antworten eine angepasste Checkliste mit Anweisungen bereit, um Exchange Server bereitzustellen und zu konfigurieren. Der Bereitstellungs-Assistent liefert Ihnen genau die Informationen, die Sie zum Konfigurieren Ihrer Hybridumgebung benötigen.
+  - **Bereitstellungs-Assistent für Exchange Server:**  Der Bereitstellungs-Assistent für Exchange Server ist ein kostenloses webbasiertes Tool, mit dem Sie Exchange in Ihrer lokalen Organisation bereitstellen, eine Hybridbereitstellung zwischen Ihrer lokalen Organisation und Office 365 konfigurieren oder eine vollständige Migration zu Office 365 vornehmen können. Der Assistent stellt Ihnen einige einfache Fragen und erstellt dann anhand Ihrer Antworten eine angepasste Checkliste mit Anweisungen bereit, um Exchange Server bereitzustellen und zu konfigurieren. Der Bereitstellungs-Assistent liefert Ihnen genau die Informationen, die Sie zum Konfigurieren Ihrer Hybridumgebung benötigen.
     
     Weitere Informationen finden Sie unter [Bereitstellungs-Assistent für Exchange Server](https://technet.microsoft.com/exdeploy2013).
     
@@ -282,7 +282,7 @@ Zusätzlich zu den oben aufgeführten Voraussetzungen sind weitere Tools und Die
     
      
 
-  - **Einmaliges Anmelden:** Benutzer können mithilfe der einmaligen Anmeldung unter Verwendung derselben Anmeldeinformationen sowohl auf die lokale als auch auf die Exchange Online-Organisation zugreifen. Sie bietet Benutzern ein vertrautes Anmeldeerlebnis und ermöglicht Administratoren das problemlose Steuern von Kontorichtlinien für Postfächer in der Exchange Online-Organisation über die lokalen Active Directory-Verwaltungstools.
+  - **Einmaliges Anmelden:**  Benutzer können mithilfe der einmaligen Anmeldung unter Verwendung derselben Anmeldeinformationen sowohl auf die lokale als auch auf die Exchange Online-Organisation zugreifen. Sie bietet Benutzern ein vertrautes Anmeldeerlebnis und ermöglicht Administratoren das problemlose Steuern von Kontorichtlinien für Postfächer in der Exchange Online-Organisation über die lokalen Active Directory-Verwaltungstools.
     
     Beim Bereitstellen des einmaligen Anmeldens haben Sie zwei Optionen: Synchronisierung von Kennwörtern und Active Directory-Verbunddienste (AD FS). Beide Optionen werden von Azure Active Directory Connect bereitgestellt. Die Kennwortsynchronisierung ermöglicht nahezu jeder Organisation (unabhängig von der jeweiligen Größe), die einmalige Anmeldung einfach zu implementieren. Daher und weil die Benutzerfreundlichkeit in einer Hybridbereitstellung mit aktivierter einmaliger Anmeldung wesentlich besser ist, sollten Sie sie implementieren. Bei äußerst großen Organisationen (die beispielsweise mehrere Active Directory-Gesamtstrukturen aufweisen, die mit der Hybridbereitstellung verbunden werden müssen) sind die Active Directory-Verbunddienste (AD FS) erforderlich.
     

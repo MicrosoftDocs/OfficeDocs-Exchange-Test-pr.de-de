@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die zum Konfigurieren von E-Mail-Adressen und Adressbuchfunktionen erforderlichen Berechtigungen richten sich nach dem verwendeten Verfahren bzw. nach dem Cmdlet, das Sie ausführen möchten. Weitere Informationen zu E-Mail-Adressen und Adressbüchern finden Sie unter [E-Mail-Adressen und Adressbücher](email-addresses-and-address-books-exchange-2013-help.md).
 

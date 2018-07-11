@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-02_
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
 
 Die Delegierung von Verwaltungsrollen ermöglicht Rollenempfängern die Zuweisung einer bestimmten Verwaltungsrolle zu anderen Verwaltungsrollengruppen, Richtlinien für Verwaltungsrollenzuweisungen, Benutzern oder universellen Sicherheitsgruppen. Standardmäßig können nur Mitglieder der Verwaltungsrollengruppe Organisationsverwaltung Rollenzuweisungen delegieren. Wenn eine neue Installation von Microsoft Exchange Server 2013 bereitgestellt wird, ist nur das Benutzerkonto Mitglied der Rollengruppe Organisationsverwaltung, das Exchange 2013 installiert hat.
 

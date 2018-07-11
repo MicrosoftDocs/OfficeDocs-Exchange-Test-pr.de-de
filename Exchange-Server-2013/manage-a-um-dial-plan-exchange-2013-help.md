@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2018-04-26_
+_**Letztes Änderungsdatum des Themas:** 2018-04-26_
 
 Nach Erstellen von Unified Messaging-Wähleinstellungen (UM) können Sie verschiedene Einstellungen anzeigen und konfigurieren. Sie können beispielsweise den Grad der VoIP-Sicherheit (Unified Messaging), den Audiocodec und Wähleinschränkungen konfigurieren. Die von Ihnen konfigurierten UM-Wählplaneinstellungen wirken sich auf alle Benutzer aus, die diesen Einstellungen über eine UM-Postfachrichtlinie zugeordnet sind.
 

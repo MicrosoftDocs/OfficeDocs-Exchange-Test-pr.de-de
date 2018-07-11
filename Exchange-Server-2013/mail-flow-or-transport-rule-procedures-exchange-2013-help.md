@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-13_
+_**Letztes Änderungsdatum des Themas:** 2015-04-13_
 
 Sie können mit der Verwendung von Transportregeln beginnen, indem Sie die folgenden Verfahren anwenden. Informationen zu Konzepten und Zielen für Transportregeln finden Sie unter [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md).
 

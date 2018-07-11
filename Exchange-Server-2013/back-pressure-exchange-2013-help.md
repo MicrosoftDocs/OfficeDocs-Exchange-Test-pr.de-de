@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Rückstaufunktion ist ein Feature des Microsoft Exchange-Transportdiensts zum Überwachen der Systemressourcen. Dieses Feature ist auf Microsoft Exchange 2013-Postfachservern und -Edge-Transport-Servern enthalten.
 

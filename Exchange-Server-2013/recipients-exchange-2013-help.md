@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Personen und Ressource, die Nachrichten senden und empfangen, bilden den Kern jedes Systems für Messaging und Collaboration. In einer Exchange-Organisation werden diese Personen und Ressourcen als *Empfänger* bezeichnet. Ein Empfänger ist ein beliebiges E-Mail-aktiviertes Objekt in Active Directory, an das Microsoft Exchange Nachrichten übermitteln oder weiterleiten kann.
 
@@ -171,7 +171,7 @@ Exchange unterstützt die folgenden Postfachtypen:
 
   - **Ressourcenpostfächer**   Ressourcenpostfächer sind besondere Postfächer, die zum Planen von Ressourcen konzipiert wurden. Ebenso wie alle anderen Postfachtypen besitzt ein Ressourcenpostfach ein zugehöriges Active Directory-Benutzerkonto. Es muss sich jedoch um ein deaktiviertes Konto handeln. Es gibt die folgenden Typen von Ressourcenpostfächern:
     
-      - **Raumpostfächer:**   Diese Postfächer sind Besprechungsorten zugewiesen, z. B. Konferenzräumen, Hörsälen und Schulungsräumen.
+      - **Raumpostfächer:**    Diese Postfächer sind Besprechungsorten zugewiesen, z. B. Konferenzräumen, Hörsälen und Schulungsräumen.
     
       - **Gerätepostfächer**   Hierbei handelt es sich um Postfächer, die ortsunabhängigen Ressourcen zugewiesen sind, wie z. B. tragbaren Computern, Projektoren, Mikrofonen oder Firmenwagen.
     

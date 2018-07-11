@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013 SP1_
+_**Gilt für:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Letztes Änderungsdatum des Themas:**2015-11-30_
+_**Letztes Änderungsdatum des Themas:** 2015-11-30_
 
 Die verwaltete Verfügbarkeit führt fortlaufend Messungen durch, um mögliche Probleme mit Exchange-Komponenten oder deren Abhängigkeiten zu erkennen. Außerdem führt sie Wiederherstellungsaktionen durch, um so sicherzustellen, dass die Anwenderfreundlichkeit aufgrund von Problemen mit einer dieser Komponenten nicht beeinträchtigt wird. Es können jedoch Szenarien auftreten, in denen die vorgegebenen Einstellungen für Ihre Umgebung möglicherweise nicht geeignet sind. Tastköpfe, Monitore und Antwortsender für die verwaltete Verfügbarkeit können durch die Erstellung von Überschreibungen angepasst werden.
 

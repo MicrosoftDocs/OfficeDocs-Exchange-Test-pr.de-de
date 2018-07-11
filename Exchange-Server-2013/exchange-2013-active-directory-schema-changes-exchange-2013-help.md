@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-05-18_
+_**Letztes Änderungsdatum des Themas:** 2016-05-18_
 
 Microsoft Exchange Server 2013 fügt neue Active Directory-Schemaklassen und -attribute hinzu und modifiziert vorhandene Klassen und Attribute. In diesem Thema erhalten Sie eine Übersicht über die Active Directory-Schemaänderungen, die beim Installieren der RTM-Version (Release to Manufacturing) von Exchange 2013 oder beliebiger kumulativer Updates oder Services Packs vorgenommen werden können. Weitere Informationen zu Änderungen am Active Directory-Schema finden Sie in den LDF-Dateien. Die LDF-Dateien befinden sich im Verzeichnis "\\amd64\\Setup\\Data\\" in den Exchange-Installationsdateien.
 

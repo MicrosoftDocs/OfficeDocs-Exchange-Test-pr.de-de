@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Information-Worker verwenden zum Austausch vertraulicher Informationen häufig E-Mail-Nachrichten. Zur besseren Sicherung dieser Informationen können Organisationen die Verwaltung von Informationsrechten (Information Rights Management, IRM) verwenden und Nachrichteninhalte dauerhaft schützen. Da mobile Geräte immer häufiger für den Zugriff auf E-Mail verwendet werden, ist es wichtig, dass die Benutzer mobiler Geräte durch IRM geschützte Inhalte erstellen und nutzen können.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-13_
+_**Letztes Änderungsdatum des Themas:** 2012-10-13_
 
 Die Gruppenbenennungsrichtlinie für Verteilergruppen wird nur auf Gruppen angewendet, die von Benutzern erstellt werden. Wenn Sie oder andere Administratoren mithilfe der Exchange-Verwaltungskonsole Verteilergruppen erstellen, wird die Gruppenbenennungsrichtlinie ignoriert und nicht auf den Gruppennamen angewendet.
 
@@ -69,9 +69,12 @@ Ein Beispiel: Sie haben kurz vor Feierabend eine Gruppenbenennungsrichtlinie ers
 
 Führen Sie die folgenden Befehle aus, um zu überprüfen, ob eine Verteilergruppe, in der die Gruppenbenennungsrichtlinie ignoriert wird, erfolgreich erstellt oder umbenannt wurde.
 
+```
     Get-DistributionGroup <Name> | FL DisplayName
+```
 
+```
     Get-OrganizationConfig | FL DistributionGroupNamingPolicy
-
+```
 Wenn sich das Format des Anzeigenamens für die Gruppe von dem Format unterscheidet, das durch die Gruppenbenennungsrichtlinie Ihrer Organisation erzwungen wird, war der Vorgang erfolgreich.
 

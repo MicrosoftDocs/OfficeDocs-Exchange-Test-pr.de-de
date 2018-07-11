@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Unified Messaging-Anrufberichte (UM) enthalten Informationen zu den Anrufen, die an UM weitergeleitet oder von UM durchgeführt wurden. Verwenden Sie diese Berichte zur Überwachung, Fehlerbehebung und Berichterstellung zu UM für die Organisation. Sie können auf Berichte mit Unified Messaging-Anrufstatistiken über das Tool "Anrufstatistik" und auf Anrufprotokolle für UM-aktivierte Benutzer über das Tool "Benutzeranrufprotokolle" zugreifen.
 

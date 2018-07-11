@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-05-03_
+_**Letztes Änderungsdatum des Themas:** 2013-05-03_
 
 [MWI (Message Waiting Indicator) für ein UM-IP-Gateway unterstützen](allow-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md)
 

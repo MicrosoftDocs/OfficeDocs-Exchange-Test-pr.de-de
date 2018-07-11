@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Die externe Postmasteradresse wird als Absender für vom System generierte Nachrichten und Benachrichtigungen verwendet, die an Nachrichtenabsender außerhalb Ihrer Microsoft Exchange Server 2013-Organisation gesendet werden. Ein externer Absender ist ein beliebiger Absender mit einer E-Mail-Adresse in einer Domäne, die in Ihrer Organisation nicht als akzeptierte Domäne konfiguriert ist.
 

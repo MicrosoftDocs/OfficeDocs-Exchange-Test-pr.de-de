@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In Microsoft Exchange Server 2013 und Exchange Online unterstützt die Messaging-Datensatzverwaltung (Messaging Records Management, MRM) Organisationen dabei, den E-Mail-Lebenszyklus zu verwalten und die rechtlichen Risiken zu verringern, die mit der E-Mail-Kommunikation und anderen Kommunikationsmethoden einhergehen. MRM vereinfacht die Aufbewahrung von Nachrichten, die zum Erfüllen der Anforderungen von Unternehmensrichtlinien, amtlichen Vorschriften oder rechtlichen Vorgaben notwendig sind, sowie das Entfernen von Inhalten, die keinen juristischen oder geschäftlichen Nutzen mehr haben.
 

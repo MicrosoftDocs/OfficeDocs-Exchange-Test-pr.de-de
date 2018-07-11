@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-05_
+_**Letztes Änderungsdatum des Themas:** 2012-10-05_
 
 Standardmäßig werden die beiden IMAP4 -Dienste, der Microsoft Exchange-IMAP4-Dienst und der Microsoft Exchange-IMAP4-Back-End-Dienst, auf Computern mit MicrosoftExchange Server 2013 nicht gestartet. Sie müssen diese zwei Dienste starten, damit Ihre E-Mail-Clients über IMAP4 eine Verbindung mit Exchange herstellen können. Wenn diese Dienste ausgeführt werden, akzeptiert Exchange 2013 ungesicherte IMAP4-Clientverbindungen auf Port 143 und über Port 993 mithilfe von SSL (Secure Sockets Layer).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-05-03_
+_**Letztes Änderungsdatum des Themas:** 2013-05-03_
 
 [Erstellen eines UM-IP-Gateways](create-a-um-ip-gateway-exchange-2013-help.md)
 

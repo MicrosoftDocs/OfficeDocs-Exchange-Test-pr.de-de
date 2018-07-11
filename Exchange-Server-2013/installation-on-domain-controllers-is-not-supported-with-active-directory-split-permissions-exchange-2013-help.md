@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-12_
+_**Letztes Änderungsdatum des Themas:** 2012-11-12_
 
 Microsoft Exchange Server 2013-Setup hat ermittelt, dass Sie Setup auf einem Active Directory-Domänencontroller ausführen und eine der folgenden Bedingungen erfüllt ist:
 

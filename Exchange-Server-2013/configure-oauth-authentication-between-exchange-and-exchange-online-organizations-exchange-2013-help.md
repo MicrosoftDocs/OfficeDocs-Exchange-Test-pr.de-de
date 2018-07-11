@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In reinen Exchange 2013-Hybridbereitstellungen wird bei Verwendung des Assistenten für die Hybridkonfiguration die OAuth-Authentifizierung konfiguriert. Bei gemischten Exchange 2013/2010- und Exchange 2013/2007-Hybridbereitstellungen wird die neue OAuth-basierte Authentifizierungsverbindung zwischen Office 365 und lokalen Exchange-Organisationen für Hybridbereitstellungen nicht vom Assistenten für die Hybridkonfiguration konfiguriert. In diesen Bereitstellungen wird standardmäßig weiterhin der Verbundvertrauensstellungsprozess verwendet. Bestimmte Exchange 2013-Funktionen sind jedoch nur vollständig in Ihrer gesamten Organisation verfügbar, wenn das neue Exchange OAuth-Authentifizierungsprotokoll benutzt wird.
 

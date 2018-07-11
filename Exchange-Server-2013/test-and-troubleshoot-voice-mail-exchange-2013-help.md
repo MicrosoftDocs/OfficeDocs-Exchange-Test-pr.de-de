@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-06-25_
+_**Letztes Änderungsdatum des Themas:** 2013-06-25_
 
 Nachdem Sie Clientzugriffs- und Postfachserver in Ihrer Organisation installiert haben, sollten Sie die Funktionalität von Unified Messaging (UM) testen. In den folgenden Fällen können Sie die Diagnosetools und Cmdlets verwenden, die mit Exchange 2013 oder dem UM-Problembehandlungstool bereitgestellt werden:
 

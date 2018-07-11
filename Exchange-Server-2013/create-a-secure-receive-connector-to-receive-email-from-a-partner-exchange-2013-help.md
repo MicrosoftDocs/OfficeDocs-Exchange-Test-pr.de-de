@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 In diesem Thema wird gezeigt, wie Sie einen Empfangsconnector für den Empfang sicherer E-Mails von einem Partner konfigurieren. Führen Sie diese Schritte aus, wenn Sie die Kommunikation zwischen Ihrer eigenen Organisation und einem vertrauenswürdigen Partner verschlüsseln müssen. Der Connector wird so konfiguriert, dass ausschließlich Verbindungen von Servern akzeptiert werden, die sich über Transport Layer Security (TLS) authentifizieren.
 

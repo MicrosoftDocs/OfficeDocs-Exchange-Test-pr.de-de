@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Einige ältere Nebenstellenanlagen und IP-Nebenstellenanlagen ermöglichen dem Anrufer, eine Voicemailnachricht als privat zu kennzeichnen, wodurch der vorgesehene Empfänger der Nachricht daran gehindert wird, die Nachricht beim Abhören an andere Personen weiterzuleiten. In integrierten Voicemailsystemen kann auf eine Sprachnachricht in verschiedener Weise zugegriffen werden. Dies erschwert es, als privat gekennzeichnete Sprachnachrichten vor einem Zugriff durch nicht autorisierte Personen zu schützen.
 

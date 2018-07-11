@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-17_
+_**Letztes Änderungsdatum des Themas:** 2015-03-17_
 
 Die Exchange-Verwaltungskonsole (Exchange Administration Center, EAC) ist die webbasierte Verwaltungskonsole in Microsoft Exchange Server 2013, die für lokale, Online- oder Hybridbereitstellungen von Exchange optimiert ist. Die EAC ersetzt die bisherige Exchange-Verwaltungskonsole (Exchange Management Console, EMC) und Exchange-Systemsteuerung (Exchange Control Panel, ECP), die zur Verwaltung von Exchange Server 2010 verwendet wurden.
 
@@ -185,11 +185,11 @@ Für die beste Benutzererfahrung mit der Exchange-Verwaltungskonsole sollten Sie
 
 
 
-  - **Premium:** Alle Funktionalitäten werden unterstützt und wurden umfassend getestet.
+  - **Premium:**  Alle Funktionalitäten werden unterstützt und wurden umfassend getestet.
 
-  - **Unterstützt:** Bietet dieselbe Unterstützung der Funktionalitäten wie "Premium". Unterstützte Browser enthalten jedoch die Features nicht, die von der Kombination aus Browser und Betriebssystem nicht unterstützt werden.
+  - **Unterstützt:**  Bietet dieselbe Unterstützung der Funktionalitäten wie "Premium". Unterstützte Browser enthalten jedoch die Features nicht, die von der Kombination aus Browser und Betriebssystem nicht unterstützt werden.
 
-  - **Nicht unterstützt:** Der Browser und das Betriebssystem werden nicht unterstützt oder wurden nicht getestet.
+  - **Nicht unterstützt:**  Der Browser und das Betriebssystem werden nicht unterstützt oder wurden nicht getestet.
 
 
 <table style="width:100%;">

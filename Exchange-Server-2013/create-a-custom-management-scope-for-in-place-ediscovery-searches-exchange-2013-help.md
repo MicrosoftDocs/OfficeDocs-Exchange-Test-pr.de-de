@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-21_
+_**Letztes Änderungsdatum des Themas:** 2015-01-21_
 
 Sie können einen benutzerdefinierten Verwaltungsbereich verwenden, damit bestimmte Personen oder Gruppen Compliance-eDiscovery verwenden können, um eine Teilmenge der Postfächer in Ihrer Exchange 2013- oder Exchange Online-Organisation zu durchsuchen. Beispielsweise können Sie einen Discovery-Manager nur die Postfächer der Benutzer an einem bestimmten Standort oder in einer bestimmten Abteilung durchsuchen lassen. Zu diesem Zweck können Sie einen benutzerdefinierten Verwaltungsbereich erstellen. In diesem benutzerdefinierten Verwaltungsbereich wird über einen Empfängerfilter gesteuert, welche Postfächer durchsucht werden können. In Bereichen mit Empfängerfiltern werden Filter verwendet, um bestimmte Empfänger basierend auf dem Empfängertyp oder anderen Eigenschaften zu erfassen.
 

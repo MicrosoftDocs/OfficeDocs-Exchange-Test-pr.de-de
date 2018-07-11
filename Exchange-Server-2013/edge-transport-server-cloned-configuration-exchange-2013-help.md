@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Edge-Transport-Servers speichern ihre Konfigurationsinformationen in Active Directory Lightweight Directory Services (AD LDS). Sie können mehrere Edge-Transport-Server im Umkreisnetzwerk installieren und Roundrobin-DNS verwenden, um einen Lastenausgleich des Netzwerkverkehrs unter allen Edge-Transport-Servern durchzuführen. Roundrobin ist ein einfacher Mechanismus, der von DNS-Servern verwendet wird, um Lasten für Netzwerkressourcen freizugeben und zu verteilen.
 

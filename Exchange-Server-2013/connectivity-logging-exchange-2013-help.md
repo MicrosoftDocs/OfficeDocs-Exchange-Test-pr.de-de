@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit der Konnektivitätsprotokollierung wird die ausgehende Verbindungsaktivität bei der Übermittlung von Nachrichten von einem Transportdienst an den Exchange-Server protokolliert. Der Zweck der Konnektivitätsprotokollierung ist nicht das Verfolgen der Übertragung einzelner E-Mails. Stattdessen wird mit der Konnektivitätsprotokollierung die Verbindungsaktivität von der Quelle zum Ziel nachverfolgt, ganz gleich, wie viele Nachrichten übermittelt werden. Die Konnektivitätsprotokollierung ist im Front-End-Transport-Dienst auf Clientzugriffsservern, im Transportdienst auf Postfachservern und im Postfachtransportdienst auf Postfachservern verfügbar. In der folgenden Liste wird der im Konnektivitätsprotokoll aufgezeichnete Informationstyp erläutert:
 

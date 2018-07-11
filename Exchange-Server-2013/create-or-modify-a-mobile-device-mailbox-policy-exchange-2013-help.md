@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-16_
+_**Letztes Änderungsdatum des Themas:** 2012-10-16_
 
 Mit einer Postfachrichtlinie für mobile Geräte können Sie allgemeine Sicherheitseinstellungen und Einstellungen für mobile Geräte auf eine Gruppe von Benutzern anwenden. Sie können mehrere Postfachrichtlinien für mobile Geräte erstellen. Jedem Empfänger in Ihrer Organisation muss eine Postfachrichtlinie für mobile Geräte zugewiesen sein. Wenn Sie Microsoft Exchange Server 2013 installieren, wird eine Standardpostfachrichtlinie für mobile Geräte erstellt. Neue Benutzer werden automatisch dieser Richtlinie zugewiesen. Informationen, wie Sie einer Postfachrichtlinie für mobile Geräte bestimmte Benutzer zuweisen, finden Sie unter [Hinzufügen oder Entfernen von Benutzern zu bzw. aus einer Postfachrichtlinie für mobile Geräte](add-or-remove-users-from-a-mobile-mailbox-policy-exchange-2013-help.md).
 

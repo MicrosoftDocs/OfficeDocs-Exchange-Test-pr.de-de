@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-07-26_
+_**Letztes Änderungsdatum des Themas:** 2017-07-26_
 
 Um eine Verbundvertrauensstellung zwischen Ihrer Microsoft Exchange Server 2013-Organisation und dem [Azure Active Directory-Authentifizierungssystem](https://go.microsoft.com/fwlink/p/?linkid=135986) zu erstellen, muss auf dem zum Erstellen der Vertrauensstellung verwendeten Exchange-Server ein digitales Zertifikat installiert sein. Es empfiehlt sich dringend, ein selbstsigniertes Zertifikat zu verwenden. Beim Verwenden des Assistenten **Verbundvertrauensstellung aktivieren** in der Exchange-Verwaltungskonsole (EAC) wird automatisch ein selbstsigniertes Zertifikat erstellt und installiert.
 

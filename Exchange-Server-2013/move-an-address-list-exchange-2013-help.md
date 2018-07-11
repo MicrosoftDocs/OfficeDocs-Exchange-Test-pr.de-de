@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-14_
+_**Letztes Änderungsdatum des Themas:** 2012-10-14_
 
 In diesem Thema wird erklärt, wie Sie eine vorhandene Adressliste in einen neuen Container unterhalb der Stammadressliste verschieben können.
 

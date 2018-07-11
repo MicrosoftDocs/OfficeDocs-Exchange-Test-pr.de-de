@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Microsoft Exchange Server 2013 verwendet Windows PowerShell-Befehlszeilenschnittstellen-Remoting zum Herstellen einer Verbindung zwischen dem Server oder Computer zum Verwalten von Exchange und dem Server mit Exchange 2013, den Sie verwalten. In Exchange 2013 wird dies als Exchange-Remoteverwaltungshell oder Remoteshell bezeichnet. Selbst wenn Sie den lokalen Exchange 2013-Server verwalten, wird die Remoteshell zum Herstellen der Verbindung verwendet. Weitere Informationen zur lokalen und die Remoteshell finden Sie unter [Verwenden von Powershell mit Exchange 2013 (Exchange-Verwaltungsshell)](https://technet.microsoft.com/de-de/library/bb123778\(v=exchg.150\)).
 

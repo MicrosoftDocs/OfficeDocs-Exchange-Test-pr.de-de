@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-01-28_
+_**Letztes Änderungsdatum des Themas:** 2013-01-28_
 
 Transportprotokolle enthalten Informationen über die Geschehnisse in der Transportpipeline. Die folgenden Transportprotokolle stehen in Microsoft Exchange Server 2013 zur Verfügung:
 

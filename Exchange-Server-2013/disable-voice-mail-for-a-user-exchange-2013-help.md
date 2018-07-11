@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Sie können die Unified Messaging (UM) für einen UM-aktivierten Benutzer deaktivieren. Wenn Sie dies tun, kann der Benutzer die Voicemailfunktionen in Unified Messaging nicht mehr verwenden. Wenn Sie bevorzugen, wenn Sie, UM für einen Benutzer deaktivieren, können Sie die UM-Einstellungen für den Benutzer belassen.
 

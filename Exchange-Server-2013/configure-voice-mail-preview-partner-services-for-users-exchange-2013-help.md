@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können einen Voicemailvorschau-Partner für eine Unified Messaging-Postfachrichtlinie (UM) konfigurieren. Nachdem Sie die Einstellungen für den Voicemailvorschau-Partner konfiguriert haben, z. B. die ID und Adresse des Voicemailvorschau-Partners, gelten die von Ihnen konfigurierten Einstellungen für eine UM-Postfachrichtlinie für alle UM-aktivierten Benutzer, die dieser Postfachrichtlinie zugeordnet sind.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Beim Aktualisieren von einer Microsoft Exchange 2007-Organisation mit Unified Messaging (UM) auf Exchange 2013 Unified Messaging sind erforderlichen Schritte und weitere Schritte aus, die bereits im Rahmen Ihrer Exchange 2007 Unified MESSAGING-Bereitstellung abgeschlossen wurden. Je nach Ihrer Umgebung Telefonie und die UM-Komponenten, die erstellt und die Unterstützung in Exchange 2007 Unified Messaging konfiguriert wurden, ist möglicherweise müssen Sie zusätzliche telephonieausrüstung Voice over IP (VoIP)-Gateways, Nebenstellenanlagen IP Private Branch Exchange (Exchange, PBX), einschließlich bereitstellen oder traditionellen oder SIP-aktivierte Nebenstellenanlagen, erstellen und konfigurieren Sie zusätzlichen UM Komponenten, die für Exchange 2013 UM benötigt werden.
 
@@ -338,9 +338,7 @@ In kleinere Bereitstellungen können Sie nur UM bereitstellen möchten, damit An
 
 Sie können gegebenenfalls eine automatische UM-Telefonzentrale mit der Exchange-Verwaltungskonsole erstellen:
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wählpläne**. Wählen Sie den UM-Wählplan aus, für den eine automatische Telefonzentrale hinzugefügt werden soll, und klicken Sie dann auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wählpläne**. Wählen Sie den UM-Wählplan aus, für den eine automatische Telefonzentrale hinzugefügt werden soll, und klicken Sie dann auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
 
 2.  Klicken Sie auf der Seite **UM-Wählplan** unterhalb von **Automatische UM-Telefonzentralen** auf **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
 
@@ -520,14 +518,11 @@ Wenn Sie auf Exchange 2013-UM aktualisieren, müssen Sie bereits mindestens ein 
 
 Der letzte Schritt in der Aktualisierung auf Exchange 2013-UM ist die Konfiguration Ihrer VoIP-Gateways, IP-PBX-Anlagen oder SIP-fähigen PBX-Anlagen für das Senden eingehender Anrufe, einschließlich Anrufer, die Voicemail für einen Benutzer hinterlassen möchten, Anrufe von UM-aktivierten Benutzern, die Outlook Voice Access anrufen, und Anrufe von Anrufern, die sich in eine automatische UM-Telefonzentrale einwählen, an Ihre Exchange 2013-Clientzugriffsserver. Diese Anrufe gehen zunächst an einem VoIP-Gateway, einer IP-PBX-Anlage oder einer SIP-fähigen PBX-Anlage ein und werden dann an die Exchange 2013-Clientzugriffsserver in Ihrer Exchange 2013-Organisation weitergeleitet. Weitere Informationen hierzu finden Sie in den folgenden Ressourcen:
 
-  -  
-    [UM-Dienste](um-services-exchange-2013-help.md)
+  -  [UM-Dienste](um-services-exchange-2013-help.md)
 
-  -  
-    [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
 
-  -  
-    [Telefonieratgeber für Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Telefonieratgeber für Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
 
 ## Schritt 14: Deaktivieren der Anrufbeantwortung auf einem Exchange 2007 Unified Messaging-server
 

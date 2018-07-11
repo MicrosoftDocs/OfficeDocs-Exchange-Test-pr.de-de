@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-28_
+_**Letztes Änderungsdatum des Themas:** 2012-09-28_
 
 Unter Microsoft Exchange Server 2013 ist die TLS-Verschlüsselung (Transport Layer Security) für die gesamte SMTP-Kommunikation im Transportdienst zwischen Postfachservern zwingend erforderlich. Dadurch wird die Gesamtsicherheit der Transportdienstkommunikation zwischen Postfachservern erhöht. In bestimmten Topologien, in denen WOC-Geräte (WAN Optimization Controller) eingesetzt werden, ist die TLS-Verschlüsselung des SMTP-Datenverkehrs jedoch möglicherweise nicht gewünscht. Sie können TLS für die Transportdienstkommunikation zwischen Postfachservern für diese spezifischen Szenarios deaktivieren.
 

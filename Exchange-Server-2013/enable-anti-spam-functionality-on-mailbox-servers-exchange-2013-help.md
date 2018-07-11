@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-01-23_
+_**Letztes Änderungsdatum des Themas:** 2014-01-23_
 
 In Microsoft Exchange Server 2013 stehen die folgenden Antispam-Agents im Transportdienst auf Postfachservern zur Verfügung, diese werden jedoch nicht standardmäßig installiert:
 

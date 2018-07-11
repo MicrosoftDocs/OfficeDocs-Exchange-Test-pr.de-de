@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-28_
+_**Letztes Änderungsdatum des Themas:** 2012-11-28_
 
 Wenn Sie Benutzer haben, die über POP3 oder IMAP4 eine Verbindung zu ihren Microsoft Exchange Server 2013-Postfächern herstellen, müssen diese dazu die richtigen Servereinstellungen kennen. Nach einer Standardinstallation von Exchange 2013 können Ihre Benutzer nicht ihre eigenen eingehenden POP3- oder IMAP4-Servereinstellungen bzw. ausgehenden SMTP-Servereinstellungen nachschlagen. Sie können jedoch Exchange so konfigurieren, dass die Benutzer ihre eigenen Einstellungen mithilfe von MicrosoftOutlook Web App nachschlagen können.
 

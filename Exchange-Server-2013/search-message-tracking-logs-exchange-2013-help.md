@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-25_
+_**Letztes Änderungsdatum des Themas:** 2013-02-25_
 
 In Microsoft Exchange Server 2013 ist das Nachrichtenverfolgungsprotokoll eine detaillierte Aufzeichnung aller Nachrichtenaktivitäten, d. h. Übertragungen in und aus dem Transportdienst auf Postfachservern, Postfächern auf Postfachservern und Edge-Transport-Servern.
 
@@ -91,7 +91,7 @@ In diesem Beispiel werden die Nachrichtenverfolgungsprotokolle mithilfe der folg
 
 ## Verwenden der Shell zum Durchsuchen der Nachrichtenverfolgungsprotokolle nach Nachrichteneinträgen auf mehreren Servern
 
-In der Regel bleibt der Wert im Kopfzeilenfeld **MessageID:** unverändert, während die Nachricht die Exchange-Organisation durchläuft. Diese Eigenschaft heißt **InternetMessageId** in Hilfsprogrammen zum Anzeigen von Warteschlagen und **MessageId** in Hilfsprogrammen zum Anzeigen von Nachrichtenverfolgungsprotokollen. Nachdem Sie den `MessageID:`-Wert einer bestimmten Nachricht ermittelt haben, können Sie Informationen zu dieser Nachricht in den Nachrichtenverfolgungsprotokollen auf allen Postfachservern in Ihrer Exchange-Produkt suchen.
+In der Regel bleibt der Wert im Kopfzeilenfeld **MessageID:**  unverändert, während die Nachricht die Exchange-Organisation durchläuft. Diese Eigenschaft heißt **InternetMessageId** in Hilfsprogrammen zum Anzeigen von Warteschlagen und **MessageId** in Hilfsprogrammen zum Anzeigen von Nachrichtenverfolgungsprotokollen. Nachdem Sie den `MessageID:`-Wert einer bestimmten Nachricht ermittelt haben, können Sie Informationen zu dieser Nachricht in den Nachrichtenverfolgungsprotokollen auf allen Postfachservern in Ihrer Exchange-Produkt suchen.
 
 Wählen Sie zum Durchsuchen aller Einträge in den Nachrichtenverfolgungsprotokollen nach einer bestimmten Nachricht auf allen Postfachservern die folgende Syntax.
 
@@ -99,7 +99,7 @@ Wählen Sie zum Durchsuchen aller Einträge in den Nachrichtenverfolgungsprotoko
 
 In diesem Beispiel werden die Nachrichtenverfolgungsprotokolle auf allen Exchange 2013-Postfachservern mithilfe der folgenden Suchkriterien durchsucht:
 
-  - Einträge in Bezug auf eine Nachricht finden, die den **MessageID:** -Wert `<ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com>` hat. Sie können die eckigen Klammern weglassen (`<``>`). Falls nicht, müssen Sie den gesamten **MessageID:**-Wert in Anführungszeichen setzen. -Wert in Anführungszeichen setzen.
+  - Einträge in Bezug auf eine Nachricht finden, die den **MessageID:**  -Wert `<ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com>` hat. Sie können die eckigen Klammern weglassen (`<``>`). Falls nicht, müssen Sie den gesamten **MessageID:** -Wert in Anführungszeichen setzen. -Wert in Anführungszeichen setzen.
 
   - Für jeden Eintrag die Felder **date-time**, **server-hostname**, **client-hostname**, **source**, **event-id** und **recipient-address** anzeigen.
 

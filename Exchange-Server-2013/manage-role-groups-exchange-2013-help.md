@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-08_
+_**Letztes Änderungsdatum des Themas:** 2012-10-08_
 
 In diesem Thema wird erläutert, wie Verwaltungsrollengruppen in Microsoft Exchange Server 2013 hinzugefügt, entfernt, kopiert und angezeigt werden können. Außerdem wird erläutert, wie Verwaltungsrollen zu Rollengruppen hinzugefügt, aus diesen entfernt sowie für sie aufgelistet und wie Verwaltungsbereiche und Stellvertretungen für Rollengruppen geändert werden können. Weitere Informationen zu Rollengruppen in Exchange 2013 finden Sie unter [Grundlegendes zu Verwaltungsrollengruppen](understanding-management-role-groups-exchange-2013-help.md).
 

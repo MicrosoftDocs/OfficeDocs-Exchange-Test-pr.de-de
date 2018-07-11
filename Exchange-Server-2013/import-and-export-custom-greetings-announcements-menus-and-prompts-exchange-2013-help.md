@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Sie können die Audiodateien, die Sie aufgezeichnet haben, importieren und exportieren, um sie für UM-Wählpläne und automatische Telefonzentralen zu verwenden. Sie möchten beispielsweise vielleicht eine Kopie einer Audiodatei exportieren und speichern, wenn Sie ein Upgrade von einer früheren Version von Exchange durchführen. Es kann auch sein, dass Sie eine Kopie einer aufgezeichneten Telefonansage importieren müssen, bevor Sie einen Wählplan oder eine automatische Telefonzentrale konfigurieren.
 

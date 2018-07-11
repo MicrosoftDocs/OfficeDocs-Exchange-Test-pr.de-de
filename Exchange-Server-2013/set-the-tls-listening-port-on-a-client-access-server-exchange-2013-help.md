@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-17_
+_**Letztes Änderungsdatum des Themas:** 2013-02-17_
 
 Sie können den TLS (Transport Layer Security)-Port konfigurieren, der für die Überwachung auf SIP-Anforderungen auf einem Clientzugriffsserver verwendet wird, auf dem der Microsoft Exchange Unified Messaging-Anrufrouterdienst ausgeführt wird. Beim Installieren eines Clientzugriffsservers wird die Nummer des SIP-TLS-Überwachungsports standardmäßig auf 5061 gesetzt.
 

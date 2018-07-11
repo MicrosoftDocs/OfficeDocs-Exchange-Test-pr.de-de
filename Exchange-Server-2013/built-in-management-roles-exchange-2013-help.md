@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-08-21_
+_**Letztes Änderungsdatum des Themas:** 2012-08-21_
 
 Microsoft Exchange Server 2013 enthält standardmäßig zahlreiche Verwaltungsrollen. Die folgenden Rollen werden Verwaltungsrollengruppen oder Richtlinien für die Verwaltungsrollenzuweisung in unterschiedlichen Kombinationen zugewiesen, mit denen Berechtigungen zum Verwalten und Verwenden der von Exchange 2013 bereitgestellten Funktionen erteilt werden. Weitere Informationen zu Rollen finden Sie unter [Grundlegendes zu Verwaltungsrollen](understanding-management-roles-exchange-2013-help.md).
 

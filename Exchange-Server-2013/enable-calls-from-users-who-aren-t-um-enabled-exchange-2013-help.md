@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Sie können Anrufe von Benutzern aktivieren bzw. deaktivieren, die nicht für Unified Messaging (UM) aktiviert sind. Standardmäßig erlaubt Unified Messaging eingehende Anrufe von nicht authentifizierten Anrufern über eine automatische Telefonzentrale für UM-aktivierte Benutzer. Wenn diese Option aktiviert ist, können Benutzer außerhalb einer Organisation Anrufe an UM-aktivierte Benutzer weiterleiten.
 

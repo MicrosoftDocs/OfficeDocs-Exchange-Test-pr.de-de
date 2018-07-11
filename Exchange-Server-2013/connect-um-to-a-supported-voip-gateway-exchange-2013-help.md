@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-19_
+_**Letztes Änderungsdatum des Themas:** 2013-04-19_
 
 Wenn Sie Unified Messaging (UM) einrichten, müssen Sie die VoIP-Gateways (Voice over IP), IP-Nebenstellenanlagen, SIP-fähigen Nebenstellenanlagen oder Session Border Controllers (SBCs) in Ihrem Netzwerk für die Kommunikation mit den Clientzugriffsservern, auf denen der Microsoft Exchange Unified Messaging-Anrufrouterdienst ausgeführt wird, und den Postfachserver konfigurieren, auf denen der Microsoft Exchange Unified Messaging-Dienst in Ihrer Exchange-Organisation ausgeführt wird. Sie müssen Clientzugriffs- und Postfachserver auch für die Kommunikation mit den VoIP-Gateways, IP-Nebenstellenanlagen, SIP-fähigen Nebenstellenanlagen oder SBCs konfigurieren.
 

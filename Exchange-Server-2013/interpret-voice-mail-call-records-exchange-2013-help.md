@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Um ausführliche Informationen zu Anrufen anzuzeigen, die an einem bestimmten Tag von den Exchange-Servern behandelt wurden, exportieren Sie die Anrufdaten für diesen Tag aus dem Anrufstatistikbericht. Tägliche Anrufdaten, die für die vergangenen 90 Tage verfügbar sind, helfen Ihnen beim Diagnostizieren von Problemen mit der Audioqualität oder abgelehnten Anrufen und stellen Informationen für Überwachungen oder Berichte zu Exchange-Servern in der Organisation bereit.
 

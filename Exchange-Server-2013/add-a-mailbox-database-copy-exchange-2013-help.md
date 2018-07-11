@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-30_
+_**Letztes Änderungsdatum des Themas:** 2012-10-30_
 
 Wenn Sie eine Kopie einer Postfachdatenbank hinzufügen, wird automatisch die fortlaufende Replikation zwischen der vorhandenen Datenbank und der Datenbankkopie aktiviert. Datenbankkopien wird automatisch eine Identität im Format \<*Datenbankname*\>\\\<*PostfachHostServerName*\> zugewiesen. Beispielsweise erhält die Kopie der Datenbank "DB1", die auf dem Server "MBX3" gehostet wird, den Namen "DB1\\MBX3".
 
@@ -49,15 +49,11 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit K
 
 ## Hinzufügen einer Postfachdatenbankkopie mithilfe der Exchange-Verwaltungskonsole
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Server** \> **Datenbanken**.
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Server** \> **Datenbanken**.
 
 2.  Wählen Sie die Datenbank aus, die Sie kopieren möchten, und klicken Sie dann auf ![Hinzufügen von Datenbankkopien](images/Dd298080.435c15ff-abf2-4de8-b280-f053db1afa13(EXCHG.150).gif "Hinzufügen von Datenbankkopien").
 
-3.  
-    
-    Klicken Sie auf der Seite **Postfachdatenbankkopie hinzufügen** auf **Durchsuchen...**, wählen Sie den Postfachserver aus, der die Datenbankkopie hosten soll, und klicken Sie dann auf **OK**.
+3.  Klicken Sie auf der Seite **Postfachdatenbankkopie hinzufügen** auf **Durchsuchen...**, wählen Sie den Postfachserver aus, der die Datenbankkopie hosten soll, und klicken Sie dann auf **OK**.
 
 4.  Konfigurieren Sie optional die **Aktivierungseinstellungsnummer** für die Datenbankkopie.
 

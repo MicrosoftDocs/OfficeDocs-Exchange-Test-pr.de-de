@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Als Mandantenadministrator müssen Sie eine virtuelle Zertifikatauflistung konfigurieren, die zur Überprüfung von S/MIME-Zertifikaten verwendet wird. Die virtuelle Zertifikatauflistung wird als Datei vom Typ Zertifikatspeicher mit der Dateinamenerweiterung SST eingerichtet. Die SST-Datei enthält alle Stamm- und Zwischenzertifikate, die bei der Überprüfung eines S/MIME-Zertifikats verwendet werden.
 

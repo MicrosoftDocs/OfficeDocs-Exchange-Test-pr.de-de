@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-09_
+_**Letztes Änderungsdatum des Themas:** 2012-11-09_
 
 [Überprüfen Sie die e-Mail-Sprachanrufe in Ihrer Organisation](review-the-voice-mail-calls-in-your-organization-exchange-2013-help.md)
 

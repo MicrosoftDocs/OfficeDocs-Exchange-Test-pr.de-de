@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mit den Nachrichtencodierungsoptionen, die in den Exchange zur Verfügung stehen, werden nachrichtenspezifische Eigenschaften wie MIME- und Nicht-MIME-Zeichensätze, Binärcodierung und Anlagenformate angegeben. Sie können Nachrichtencodierungsoptionen an folgenden Speicherorten angeben:
 

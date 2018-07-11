@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-07-16_
+_**Letztes Änderungsdatum des Themas:** 2015-07-16_
 
-**Zusammenfassung:** Verwenden Sie die Verfahren in diesem Artikel, um die URL zu vereinfachen, über die Benutzer in ihrer Organisation auf OWA in Exchange 2013 zugreifen.
+**Zusammenfassung:**  Verwenden Sie die Verfahren in diesem Artikel, um die URL zu vereinfachen, über die Benutzer in ihrer Organisation auf OWA in Exchange 2013 zugreifen.
 
 Sie können die MicrosoftOutlook Web App-URL vereinfachen, über die Benutzer auf ihre Exchange Server 2013-Postfächer zugreifen.
 

@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-08-22_
+_**Letztes Änderungsdatum des Themas:** 2016-08-22_
 
-**Zusammenfassung:** Verwenden Sie diese Verfahren, um OWA-Benutzern in Ihrer Exchange 2013-Organisation das Freigeben von Frei/Gebucht-Informationen im Kalender für externe Organisationen zu ermöglichen.
+**Zusammenfassung:**  Verwenden Sie diese Verfahren, um OWA-Benutzern in Ihrer Exchange 2013-Organisation das Freigeben von Frei/Gebucht-Informationen im Kalender für externe Organisationen zu ermöglichen.
 
 Benutzer in Microsoft Exchange Server 2013-Organisationen können Verfügbarkeitsinformationen aus Kalendern (Frei/Gebucht-Informationen) für Benutzer in Organisationen, bei denen es sich nicht um Exchange-Organisationen handelt, oder andere Personen mit Internetzugriff freigeben. Die Kalenderveröffentlichung im Internet sorgt für mehr Flexibilität und erhöht die Anzahl der Benutzer, die die Verfügbarkeitsinformationen im Kalender gemeinsam nutzen können.
 

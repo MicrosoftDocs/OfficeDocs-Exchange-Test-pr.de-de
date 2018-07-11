@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-14_
+_**Letztes Änderungsdatum des Themas:** 2012-10-14_
 
 Für jeden OAB-Verteilungspunkt (Offlineadressbuch) in Exchange können zwei URLs konfiguriert werden: eine interne URL, auf die nur aus dem internen Unternehmensnetzwerk heraus zugegriffen werden kann, und eine externe URL, auf die über das Internet zugegriffen werden kann.
 

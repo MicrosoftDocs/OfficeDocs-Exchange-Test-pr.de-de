@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-13_
+_**Letztes Änderungsdatum des Themas:** 2012-10-13_
 
 Wenn Ihre Organisation in ein Rechtsverfahren involviert ist, müssen Sie möglicherweise Schritte unternehmen, um relevante Daten zu sichern – beispielsweise E-Mails, die als Beweis dienen können. In einer solchen Situation können Sie alle von bestimmten Personen gesendeten und empfangenen E-Mails bzw. alle in Ihrer Organisation gesendeten und empfangenen E-Mails mithilfe der Beweissicherung für einen bestimmten Zeitraum aufbewahren. Weitere Informationen dazu, was passiert, wenn ein Postfach einem Beweissicherungsverfahren unterliegt, sowie zur Aktivierung und Deaktivierung der Beweissicherung für ein Postfach finden Sie im Abschnitt "Postfachfunktionen "unter [Verwalten von Benutzerpostfächern](manage-user-mailboxes-exchange-2013-help.md).
 

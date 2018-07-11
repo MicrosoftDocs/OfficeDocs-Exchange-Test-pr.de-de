@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-04-20_
+_**Letztes Änderungsdatum des Themas:** 2018-04-20_
 
 Sie können mithilfe der Exchange-Verwaltungskonsole oder Shell Benutzern oder Gruppen (*Stellvertretungen* genannte) Berechtigungen zuweisen, die diesen das Öffnen und Senden von Nachrichten aus anderen Postfächern erlauben. Berechtigungen können Benutzerpostfächern, verknüpften Postfächern, Ressourcenpostfächern und freigegebenen Postfächern zugewiesen werden. Sie können Berechtigungen auch Verteilergruppen, dynamischen Verteilergruppen und für E-Mail aktivierten Sicherheitsgruppen zuweisen, damit Stellvertretungen Nachrichten im Auftrag der Gruppe senden können. Sie können Stellvertretungen die folgenden Berechtigungen für den Zugriff auf Postfächer und das Senden von Nachrichten im Auftrag von Postfächern oder Gruppen zuweisen:
 

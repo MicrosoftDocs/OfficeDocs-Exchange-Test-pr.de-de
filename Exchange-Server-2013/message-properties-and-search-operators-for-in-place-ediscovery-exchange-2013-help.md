@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema werden die Eigenschaften von Exchange-E-Mails beschrieben, nach denen Sie mithilfe von In-Situ-eDiscovery & -Speicher in Exchange Server 2013 und Exchange Online suchen können. Außerdem werden in diesem Thema Boolesche Suchoperatoren und andere Suchabfragetechniken beschrieben, die Sie verwenden können, um eDiscovery-Suchergebnisse zu verfeinern.
 
@@ -317,7 +317,7 @@ Im Folgenden finden Sie eine Liste der nicht unterstützten Zeichen für eine In
 
   - Ein Leerzeichen zwischen zwei Schlüsselwörtern oder zwei `property:value`-Ausdrücken hat dieselbe Bedeutung wie die Verwendung des Operators **AND**. `from:"Sara Davis" subject:reorganization` gibt z. B. alle Nachrichten zurück, die von Sara David gesendet wurden und deren "Betreff"-Zeile das Wort **Reorganisation** enthält.
 
-  - Verwenden Sie eine Syntax, die dem `property:value`-Format entspricht. Für die Werte ist die Groß- und Kleinschreibung unerheblich, aber es darf kein Leerzeichen hinter dem Operator stehen. Wenn dort ein Leerzeichen steht, wird eine Volltextsuche nach dem gewünschten Wert durchgeführt. Beispiel:**An: pilarp** wird z B. nach "pilarp" als Schlüsselwort gesucht statt nach Nachrichten, die an pilarp gesendet wurden.
+  - Verwenden Sie eine Syntax, die dem `property:value`-Format entspricht. Für die Werte ist die Groß- und Kleinschreibung unerheblich, aber es darf kein Leerzeichen hinter dem Operator stehen. Wenn dort ein Leerzeichen steht, wird eine Volltextsuche nach dem gewünschten Wert durchgeführt. Beispiel:** An: pilarp** wird z B. nach "pilarp" als Schlüsselwort gesucht statt nach Nachrichten, die an pilarp gesendet wurden.
 
   - Wenn Sie nach einer Empfängereigenschaft wie An, Von, Cc oder Empfänger suchen, können Sie eine SMTP-Adresse, einen Alias oder einen Anzeigenamen verwenden, um einen Empfänger anzugeben. Sie können z. B. pilarp@contoso.com, pilarp oder "Pilar Pinilla" verwenden.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Sie können in Ihren Microsoft Exchange-Richtlinien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) Regeln für vertrauliche Informationen einrichten, um ganz spezielle Daten in E-Mail-Nachrichten zu erkennen. In diesem Thema wird erklärt, wie diese Regeln angewendet werden und wie die Auswertung der Nachrichten erfolgt. Sie können Workflowunterbrechungen für Ihre E-Mail-Benutzer vermeiden und ein hohes Maß an Präzision bei Ihren DLP-Erkennungen erzielen, wenn Sie wissen, wie Ihre Regeln durchgesetzt werden. Wir verwenden hier als Beispiel die von Microsoft bereitgestellte Regel für Kreditkarteninformationen. Wenn Sie eine Transportregel oder DLP-Richtlinie aktivieren, vergleicht der Exchange-Transportregel-Agent sämtliche von Ihren Benutzern gesendeten Nachrichten mit den von Ihnen erstellten Regelsätzen.
 
@@ -147,9 +147,13 @@ Sie können eine benutzerdefinierte Regel einsetzen, mit der ein Muster ohne zus
 
 Das Beispiel der Kreditkartennummern in diesem Artikel kann auch auf andere Regeln für vertrauliche Informationen ausgeweitet werden. Um die vollständige Liste der von Microsoft in Exchange bereitgestellten Regeln anzuzeigen, können Sie das Cmdlet[Get-ClassificationRuleCollection](https://technet.microsoft.com/de-de/library/jj218696\(v=exchg.150\)) in der Exchange-Verwaltungsshell folgendermaßen verwenden:
 
+```
     $rule_collection = Get-ClassificationRuleCollection
+```
 
+```
     $rule_collection[0].SerializedClassificationRuleCollection | Set-Content oob_classifications.xml -Encoding byte
+```
 
 ## Weitere Informationen
 

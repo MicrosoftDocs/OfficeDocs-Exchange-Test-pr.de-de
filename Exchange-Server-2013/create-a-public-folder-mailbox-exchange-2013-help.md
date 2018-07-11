@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2014-10-23_
+_**Letztes Änderungsdatum des Themas:** 2014-10-23_
 
 Bevor Sie einen öffentlichen Ordner erstellen können, müssen Sie zunächst ein Postfach für öffentliche Ordner erstellen. Postfächer für öffentliche Ordner enthalten die Hierarchieinformationen sowie den Inhalt öffentlicher Ordner. Das erste Postfach für öffentliche Ordner, das Sie erstellen, wird zum primären Hierarchiepostfach, das die einzige beschreibbare Kopie der Hierarchie enthält. Alle weiteren Postfächer für öffentliche Ordner, die Sie erstellen, werden sekundäre Postfächer, die eine schreibgeschützte Kopie der Hierarchie enthalten.
 

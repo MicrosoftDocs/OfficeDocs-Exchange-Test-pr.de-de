@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-13_
+_**Letztes Änderungsdatum des Themas:** 2015-04-13_
 
 Bei Remotedomänen handelt es sich um SMTP-Domänen, die sich außerhalb Ihrer Microsoft Exchange-Organisation befinden. Sie können Remotedomäneneinträge erstellen, um die Einstellungen für die Nachrichtenübergabe zwischen Ihrer Exchange-Organisation und bestimmten externen Domänen festzulegen. Die Einstellungen im Remotedomäneneintrag für eine bestimmte externe Domäne setzen die Einstellungen in der Standardremotedomäne außer Kraft, die normalerweise für alle externen Empfänger gelten. Die Remotedomäneneinstellungen gelten global für die Exchange-Organisation.
 

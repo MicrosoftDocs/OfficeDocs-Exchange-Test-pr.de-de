@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Das Senden oder Beantworten einer S/MIME-verschlüsselten Nachricht in Outlook verläuft sehr ähnlich wie bei einer unverschlüsselten Nachricht. Weitere Informationen über das Lesen oder Senden S/MIME-verschlüsselter Nachrichten mit einem E-Mail-Programm wie Outlook Web App finden Sie unter [Verwenden von Outlook zum Senden und Beantworten S/MIME-verschlüsselter Nachrichten](https://go.microsoft.com/fwlink/p/?linkid=392520).
 

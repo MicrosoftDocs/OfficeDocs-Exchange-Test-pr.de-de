@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-02_
+_**Letztes Änderungsdatum des Themas:** 2015-03-02_
 
 Sie können Aufbewahrungstags zu einer Aufbewahrungsrichtlinie hinzufügen, wenn die Richtlinie erstellt wird, oder zu einem beliebigen späteren Zeitpunkt. Genaue Anweisungen zum Erstellen einer Aufbewahrungsrichtlinie, einschließlich des gleichzeitigen Hinzufügens von Aufbewahrungstags, finden Sie unter [Erstellen einer Aufbewahrungsrichtlinie](create-a-retention-policy-exchange-2013-help.md).
 

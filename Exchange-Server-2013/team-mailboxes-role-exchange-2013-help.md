@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Team Mailboxes` ermöglicht es Administratoren, Bereitstellungsrichtlinien für Websitepostfächer zu definieren sowie Websitepostfächer in der Organisation zu verwalten. Administratoren, denen diese Rolle zugewiesen ist, können Websitepostfächer verwalten, deren Besitzer sie nicht sind.
 

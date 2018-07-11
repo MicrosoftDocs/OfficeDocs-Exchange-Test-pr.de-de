@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-04_
+_**Letztes Änderungsdatum des Themas:** 2012-10-04_
 
 Der Parameter *Identity* ist ein besonderer Parameter, den Sie mit den meisten Cmdlets verwenden können. Der Parameter *Identity* ermöglicht den Zugriff auf die eindeutigen Bezeichner, die auf ein bestimmtes Objekt in MicrosoftExchange Server 2013 verweisen. Auf diese Weise können Sie Aktionen für ein bestimmtes Exchange 2013-Objekt ausführen.
 

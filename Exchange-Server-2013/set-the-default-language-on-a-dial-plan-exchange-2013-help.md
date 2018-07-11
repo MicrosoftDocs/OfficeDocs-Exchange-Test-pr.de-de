@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können die Standardsprache für einen UM-Wählplan (Unified Messaging) festlegen. Für alle Wählpläne, die Sie erstellen, wird als Standardsprache Englisch (en-US) verwendet. Das Sprachpaket Englisch (en-US) wird in allen Versionen von Microsoft Exchange Server 2013 installiert und kann nicht entfernt werden.
 

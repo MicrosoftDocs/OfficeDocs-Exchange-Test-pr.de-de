@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2017-03-27_
+_**Letztes Änderungsdatum des Themas:** 2017-03-27_
 
 Informationen zum Aktivieren von Exchange 2013 oder Exchange 2016 Benutzer Zugriff auf Exchange 2010 oder früheren öffentlichen Ordnern (auch bekannt als ältere öffentliche Ordner).
 
@@ -57,9 +57,13 @@ Benutzer, deren Postfächer auf Exchange Server 2013 oder Exchange Server 2016 s
 
 3.  Erstellen Sie in der neuen Postfachdatenbank ein Proxypostfach, und blenden Sie das Postfach im Adressbuch aus. Das SMTP dieses Postfachs wird von der AutoErmittlung als das *DefaultPublicFolderMailbox*-SMTP zurückgegeben, sodass der Client durch Auflösung dieses SMTP den Exchange-Legacyserver erreichen kann, um Zugriff auf öffentliche Ordner zu erhalten.
     
-        New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
-    
-        Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+	```
+		New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
+	```
+
+	```
+		Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+	```
 
 4.  Aktivieren Sie bei Exchange 2010 die AutoErmittlung, um die Proxypostfächer für öffentliche Ordner zurückzugeben. Dieser Schritt ist bei Exchange 2007 nicht erforderlich.
     

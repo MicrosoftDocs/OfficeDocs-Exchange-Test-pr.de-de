@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Mithilfe verknüpfter Verwaltungsrollengruppen in Microsoft Exchange Server 2013 können Sie eine Rollengruppe in einer Exchange 2013-Ressourcengesamtstruktur mit einer universellen Sicherheitsgruppe in einer fremden Benutzergesamtstruktur verknüpfen. Dies ist hilfreich, wenn Administratoren mit Konten in der Benutzergesamtstruktur die Server, auf denen Exchange aktiv ist, in der Ressourcengesamtstruktur verwalten sollen. Weitere Informationen zu verknüpften Rollengruppen finden Sie unter [Grundlegendes zu Verwaltungsrollengruppen](understanding-management-role-groups-exchange-2013-help.md).
 

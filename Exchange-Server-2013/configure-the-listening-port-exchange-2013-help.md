@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können den TCP-Port konfigurieren, der für die Überwachung auf SIP-Anforderungen (Session Initiation-Protokoll) für ein UM-IP-Gateway (Unified Messaging) verwendet wird. Beim Erstellen eines UM-IP-Gateways wird die Nummer des TCP-Ports für die Überwachung auf SIP-Anforderungen standardmäßig auf 5060 festgelegt. Der TCP-SIP-Überwachungsport kann nicht mithilfe der Exchange-Verwaltungskonsole konfiguriert oder geändert werden. Sie müssen die Nummer des TCP-SIP-Überwachungsports mithilfe des Cmdlets **Set-UMIPGateway** konfigurieren.
 

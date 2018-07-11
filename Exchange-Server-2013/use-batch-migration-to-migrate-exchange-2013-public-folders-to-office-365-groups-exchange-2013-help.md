@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-03-26_
+_**Letztes Änderungsdatum des Themas:** 2018-03-26_
 
-**Zusammenfassung:** Verschieben von öffentlichen Exchange 2013-Ordnern in Office 365-Gruppen.
+**Zusammenfassung:**  Verschieben von öffentlichen Exchange 2013-Ordnern in Office 365-Gruppen.
 
 Mit einem Prozess, der auch *Stapelmigration* genannt wird, können Sie einige oder alle Ihre öffentlichen Exchange 2013-Ordner in Office 365-Gruppen verschieben. Gruppen sind ein neues Angebot von Microsoft für die Zusammenarbeit, das bestimmte Vorteile für öffentliche Ordner bietet. Unter [Migrieren Ihrer öffentlichen Ordner zu Office 365-Gruppen](migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md) finden Sie einen Überblick über die Unterschiede zwischen öffentlichen Ordnern und Gruppen sowie Gründe, warum Ihre Organisation möglicherweise von einem Wechsel zu Gruppen profitieren kann.
 
@@ -69,7 +69,7 @@ Die Batchmigration zu Office 365-Gruppen erfordert, wie unten in diesem Artikel 
 
   - **LockAndSavePublicFolderProperties.ps1**. Dieses Skript versetzt öffentliche Ordner in den schreibgeschützten Modus, um jegliche Änderungen zu verhindern, und es überträgt die E-Mail-bezogenen Eigenschaften der öffentlichen Ordner (vorausgesetzt, die öffentlichen Ordner sind E-Mail-aktiviert) auf die Zielgruppen, die E-Mails von den öffentlichen Ordnern zu den Zielgruppen umleiten. Mit diesem Skript werden zudem die Berechtigungseinträge und die E-Mail-Eigenschaften vor der Änderung gesichert.
 
-  - **LockAndSavePublicFolderProperties.strings.psd1:** Diese Support-Datei wird vom Skript `LockAndSavePublicFolderProperties.ps1` verwendet.
+  - **LockAndSavePublicFolderProperties.strings.psd1:**  Diese Support-Datei wird vom Skript `LockAndSavePublicFolderProperties.ps1` verwendet.
 
   - **UnlockAndRestorePublicFolderProperties.ps1**. Mit diesem Skript werden Zugriffsrechte und E-Mail-Eigenschaften der öffentlichen Ordner mit von `LockandSavePublicFolderProperties.ps1` erstellten Sicherungsdateien wiederhergestellt.
 
@@ -264,7 +264,7 @@ Mit diesem Skript werden die Berechtigungen der öffentlichen Ordner migriert, a
 
   - Benutzer mit folgenden Berechtigungsrollen werden als Mitglieder zu einer Gruppe in Office 365 hinzugefügt. **Berechtigungsrollen** Besitzer, PublishingEditor, Editor, PublishingAuthor, Autor
 
-  - Darüber hinaus werden Benutzer mit den Mindestzugriffsrechten ebenfalls als Mitglieder zu einer Gruppe in Office 365 hinzugefügt. **Zugriffsrechte:** ReadItems, CreateItems, FolderVisible, EditOwnedItems, DeleteOwnedItems
+  - Darüber hinaus werden Benutzer mit den Mindestzugriffsrechten ebenfalls als Mitglieder zu einer Gruppe in Office 365 hinzugefügt. **Zugriffsrechte:**  ReadItems, CreateItems, FolderVisible, EditOwnedItems, DeleteOwnedItems
 
   - Benutzer mit der Zugriffsberechtigung „Besitzer“ werden als Besitzer einer Gruppe hinzugefügt, und Benutzer mit anderen berechtigten Zugriffsrechten werden als Mitglieder hinzugefügt.
 

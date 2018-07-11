@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Verhindern Sie, dass einen Benutzer für Unified Messaging (UM) empfangen von Faxnachrichten. Erfahren Sie, wie Sie für neue und vorhandene UM-Benutzer Fax modifizieren.
 

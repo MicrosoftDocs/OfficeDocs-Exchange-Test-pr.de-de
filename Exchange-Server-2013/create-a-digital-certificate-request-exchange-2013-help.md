@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 In Exchange Server 2013 können Sie Zertifikate mithilfe der Exchange-Verwaltungskonsole oder der Shell verwalten. Die Exchange-Verwaltungskonsole umfasst eine neue Benutzeroberfläche für die Zertifikatverwaltung. Über diese neue Benutzeroberfläche können Sie neue Zertifikate erstellen und vorhandene Zertifikate bearbeiten oder löschen.
 
@@ -63,9 +63,13 @@ Falls Sie kein selbstsigniertes Zertifikat ausgewählt haben, müssen Sie die Ze
 
 Führen Sie die folgenden Befehle aus:
 
+```
     $reqfile = New-ExchangeCertificate -GenerateRequest -SubjectName "C=US,o=Contoso,cn=contosotocert" -DomainName "contoso.com" -PrivateKeyExportable $true
+```
 
+```
     $reqfile | out-file c:\certreq.txt
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

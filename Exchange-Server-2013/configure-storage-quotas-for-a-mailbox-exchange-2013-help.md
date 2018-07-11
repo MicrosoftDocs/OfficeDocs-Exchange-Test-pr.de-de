@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-07-07_
+_**Letztes Änderungsdatum des Themas:** 2015-07-07_
 
-**Zusammenfassung:** Verwenden Sie die Exchange-Verwaltungskonsole oder die Shell, um Speicherkontingente für bestimmte Postfächer festzulegen.
+**Zusammenfassung:**  Verwenden Sie die Exchange-Verwaltungskonsole oder die Shell, um Speicherkontingente für bestimmte Postfächer festzulegen.
 
 Speicherkontingente ermöglichen es Ihnen, die Größe von Postfächern zu steuern und das Wachstum von Postfachdatenbanken zu verwalten. Wenn die Postfachgröße eine angegebene Kontingentgrenze erreicht oder überschreitet, sendet Exchange eine beschreibende Benachrichtigung an den Postfachbesitzer.
 

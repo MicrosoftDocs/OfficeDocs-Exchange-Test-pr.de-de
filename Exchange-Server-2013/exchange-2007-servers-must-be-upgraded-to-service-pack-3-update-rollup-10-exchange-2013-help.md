@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013-Setup kann nicht fortgesetzt werden, da mindestens ein Exchange Server 2007-Server noch nicht auf Service Pack 3 (SP3) Rollup 10 (RU10) für Exchange Server 2007 aktualisiert wurde. Voraussetzung für die Installation von Exchange 2013 ist, dass alle Exchange 2007-Server in Ihrer Organisation auf Exchange 2007 SP3 RU10 aktualisiert wurden. Diese Voraussetzung gilt auch für die Edge-Transport-Server von Exchange 2007. Weitere Informationen finden Sie unter [Aktualisieren von Exchange 2007 auf Exchange 2013](upgrade-from-exchange-2007-to-exchange-2013-exchange-2013-help.md).
 

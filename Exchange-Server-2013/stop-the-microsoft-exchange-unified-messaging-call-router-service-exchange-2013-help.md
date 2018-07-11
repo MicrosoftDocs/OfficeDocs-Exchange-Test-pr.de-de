@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-16_
+_**Letztes Änderungsdatum des Themas:** 2012-11-16_
 
 Zum Beenden des MicrosoftExchange Unified Messaging-Anrufrouterdiensts auf einem Clientzugriffsserver können Sie das Snap-In "Dienste" in Microsoft Management Console (MMC) oder den Befehl "cmd.exe" an einer Eingabeaufforderung verwenden. Mitunter kann es notwendig sein, diesen Dienst zu beenden, z. B. wenn Sie den Clientzugriffsserver offline schalten müssen. Wenn Sie den Microsoft Exchange Unified Messaging-Anrufrouterdienst beenden, kann der Clientzugriffsserver eingehende Anrufe nicht annehmen und verarbeiten.
 

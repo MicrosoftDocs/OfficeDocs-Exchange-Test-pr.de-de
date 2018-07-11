@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-05-10_
+_**Letztes Änderungsdatum des Themas:** 2016-05-10_
 
 Sie können Verzeichnissuchen aktivieren, damit Anrufer, die bei einer automatischen Unified Messaging-Telefonzentrale (UM) anrufen, über die Tastatur ihres Telefons Namen im Verzeichnis nachschlagen können, ohne das Verzeichnis mithilfe von Spracheingaben durchsuchen zu können. Diese Einstellung ist standardmäßig aktiviert. Wenn diese Einstellung deaktiviert wird, können Anrufer nicht mithilfe der Tonwahl oder mithilfe von Spracheingaben im Verzeichnis nach einer bestimmten Person suchen.
 

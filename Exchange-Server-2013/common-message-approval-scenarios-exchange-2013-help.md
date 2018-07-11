@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-09-29_
+_**Letztes Änderungsdatum des Themas:** 2014-09-29_
 
 In Ihrer Organisation müssen möglicherweise bestimmte Arten von Nachrichten genehmigt werden, um rechtliche Anforderungen zu erfüllen, Vorschriften einzuhalten oder einen bestimmten Geschäftsworkflow zu implementieren. Nachfolgend finden Sie einige Beispiele für gängige Szenarien, die Sie mithilfe von Exchange einrichten können:
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Sie können Überwachungsprotokolleinträge für Postfächer durchsuchen und gleichzeitig die Ergebnisse in der Shell anzeigen lassen.
 

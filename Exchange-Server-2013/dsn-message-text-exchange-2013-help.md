@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Sie können Text zu einer benutzerdefinierten DSN-Nachricht (Delivery Status Notification, Benachrichtigung über den Zustellungsstatus) in Microsoft Exchange Server 2013 hinzufügen, und Sie können diesen Text in HTML formatieren.
 

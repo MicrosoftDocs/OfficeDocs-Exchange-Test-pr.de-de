@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-05-21_
+_**Letztes Änderungsdatum des Themas:** 2013-05-21_
 
 Wenn Sie die Postfachüberwachungsprotokollierung für ein Postfach aktivieren, werden bestimmte Postfachzugriffsereignisse (z. B. das Zugreifen auf einen Ordner oder eine Nachricht oder das dauerhafte Löschen einer Nachricht) protokolliert. Der Zugriff durch einige autorisierte Konten, z. B. Konten, die von Drittanbietertools oder für die legale Überwachung verwendet werden, kann jedoch zu einer hohen Anzahl von Einträgen im Postfachüberwachungsprotokoll führen und ist für Ihre Organisation möglicherweise nicht erforderlich.
 

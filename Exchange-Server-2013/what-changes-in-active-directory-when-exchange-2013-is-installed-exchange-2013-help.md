@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-05-26_
+_**Letztes Änderungsdatum des Themas:** 2014-05-26_
 
 Wenn Sie Exchange 2013 installieren, werden Änderungen an Ihrer Active Directory-Gesamtstruktur und den zugehörigen Domänen vorgenommen. Exchange führt diese Änderungen durch, damit Informationen über die Exchange-Server, -Postfächer und weitere Objekte im Zusammenhang mit Exchange in Ihrer Organisation gespeichert werden können. Diese Änderungen werden für Sie vorgenommen, wenn Sie den Setup-Assistenten für Exchange 2013 ausführen oder wenn Sie die Befehle *PrepareSchema*, *PrepareAD* und *PrepareDomains* (Informationen zur Verwendung dieser Befehle finden Sie unter [Vorbereitung von Active Directory und Domänen](prepare-active-directory-and-domains-exchange-2013-help.md)) während der Ausführung der Befehlszeilenversion des Exchange 2013-Setups ausführen. Wenn Sie sich für die Änderungen interessieren, die Exchange an Active Directory durchführt, ist dies das richtige Thema für Sie. Hierin wird erläutert, wie Exchange bei jedem Schritt der Active Directory-Vorbereitung verfährt.
 

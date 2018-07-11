@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Sie können einen E-Mail-Haftungsausschluss, eine Verzichtserklärung, eine Offenlegungspflicht, eine Signatur oder andere Informationen an den Anfang oder das Ende der E-Mail-Nachrichten platzieren, die aus Ihrer Organisation verschickt oder von ihr empfangen werden. Dies kann erforderlich sein, um rechtliche, geschäftliche oder regulatorische Anforderungen zu erfüllen und potenziell unsichere E-Mails zu identifizieren - oder aus Gründen, die nur für Ihre Organisation gelten.
 

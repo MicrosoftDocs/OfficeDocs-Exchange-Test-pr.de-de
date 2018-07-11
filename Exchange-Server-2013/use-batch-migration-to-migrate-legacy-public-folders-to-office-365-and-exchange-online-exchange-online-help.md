@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-03-26_
+_**Letztes Änderungsdatum des Themas:** 2018-03-26_
 
-**Zusammenfassung:** Verwenden Sie diese Verfahren, um Ihre öffentlichen Exchange 2007- und Exchange 2010-Ordner in Office 365 zu verschieben.
+**Zusammenfassung:**  Verwenden Sie diese Verfahren, um Ihre öffentlichen Exchange 2007- und Exchange 2010-Ordner in Office 365 zu verschieben.
 
 Dieses Thema beschreibt das Migrieren Ihrer öffentlichen Ordner in einer ein- oder mehrstufigen Migration vom Updaterollup 8 für Exchange Server 2010 Service Pack 3 (SP3) oder Updaterollup 15 für Exchange 2007 SP3 zu Office 365 oder Exchange Online.
 
@@ -77,7 +77,7 @@ Von Exchange 2003 können öffentliche Ordner nicht direkt migriert werden. Wen
 
   - In Exchange 2007 muss Ihnen die Rolle "Exchange-Organisationsadministrator" oder "Exchange-Serveradministrator" zugewiesen sein. Darüber hinaus muss Ihnen die Rolle "Administrator für Öffentliche Ordner" zugewiesen sein, und Sie müssen Mitglied der lokalen Administratorengruppe für den Zielserver sein. Nähere Informationen finden Sie unter [Hinzufügen eines Benutzers oder einer Gruppe zu einer Administratorrolle](https://go.microsoft.com/fwlink/p/?linkid=81779).
 
-  - Führen Sie auf dem Exchange 2007-Server ein Upgrade auf [Windows PowerShell 2.0 und WinRM 2.0 für Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930) durch.
+  - Führen Sie auf dem Exchange 2007-Server ein Upgrade auf [Windows PowerShell 2.0 und WinRM 2.0 für Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930) durch.
 
   - Wenn es in Ihrer Organisation Öffentliche Ordner gibt, die größer als 2 GB sind, empfehlen wir, vor der Migration entweder Inhalte aus diesem Ordner zu löschen oder ihn in mehrere Öffentliche Ordner aufzuteilen. Wenn keine dieser Möglichkeiten infrage kommt, wird empfohlen, die öffentlichen Ordner nicht zu Office 365 und Exchange Online zu verschieben.
 

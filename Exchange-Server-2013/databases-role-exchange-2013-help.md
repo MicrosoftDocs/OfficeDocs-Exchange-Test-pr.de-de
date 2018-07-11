@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Databases` ermöglicht Administratoren das Erstellen, Verwalten und Einbinden von Postfachdatenbanken auf einzelnen Servern sowie das Aufheben deren Einbindung.
 

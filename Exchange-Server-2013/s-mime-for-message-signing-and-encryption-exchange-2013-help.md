@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 S/MIME (Secure/Multipurpose Internet Mail Extensions) ist eine weitgehend akzeptierte Methode, genauer gesagt ein Protokoll, zum Senden digital signierter und verschlüsselter Nachrichten. S/MIME ermöglicht Ihnen das Verschlüsseln und digitale Signieren von E-Mails. Wenn Sie S/MIME mit einer E-Mail verwenden, können die Empfänger sicher sein, dass sie genau die Nachricht im Postfach haben, die der Absender abgeschickt hat. Zudem können Empfänger von Nachrichten sicher sein, dass die Nachricht von dem spezifischen Absender stammt und nicht von jemanden, der vorgibt, der Absender zu sein. Dafür bietet S/MIME kryptografische Sicherheitsdienste, wie Authentifizierung, Nachrichtenintegrität und Ursprungszulassung (anhand von digitalen Signaturen). Es sorgt auch für mehr Datenschutz und -sicherheit (anhand von Verschlüsselung) für die elektronische Nachrichtenübermittlung. Genauere Hintergrundinformationen zur Geschichte und Architektur von S/MIME im Kontext von E-Mails finden Sie unter [Informationen zu S/MIME](https://go.microsoft.com/fwlink/?linkid=393948).
 
@@ -59,14 +59,11 @@ Das Einrichten von S/MIME für Exchange 2013 SP1 oder Exchange Online mit Outlo
 
 Da die Nachrichtensicherheit einen immer größeren Stellenwert einnimmt, müssen Administratoren die Prinzipien und Konzepte eines sicheren Messaging verstehen. Dieses Verständnis ist aufgrund der zunehmenden Zahl an verfügbaren sicherheitsbezogenen Technologien, wie etwa S/MIME, von besonderer Wichtigkeit. Weitere Informationen zu S/MIME und seiner Funktionsweise im Kontext von E-Mails finden Sie unter [Informationen zu S/MIME](https://go.microsoft.com/fwlink/?linkid=393948). Eine Vielzahl von Verschlüsselungstechnologien arbeiten im Verbund zusammen, um sowohl im Postfach gespeicherte Nachrichten als auch Nachrichten während des Übertragungsvorgangs zu schützen. S/MIME kann gleichzeitig mit den folgenden Technologien zusammenarbeiten, ist aber nicht von diesen abhängig:
 
-  -  
-    **Transport Layer Security (TLS)** verschlüsselt den Tunnel oder die Route zwischen E-Mail-Servern, um ein Ausspionieren oder Ausspähen zu verhindern.
+  -  **Transport Layer Security (TLS)** verschlüsselt den Tunnel oder die Route zwischen E-Mail-Servern, um ein Ausspionieren oder Ausspähen zu verhindern.
 
-  -  
-    **Secure Sockets Layer (SSL)** verschlüsselt die Verbindung zwischen E-Mail-Clients und Office 365-Servern.
+  -  **Secure Sockets Layer (SSL)** verschlüsselt die Verbindung zwischen E-Mail-Clients und Office 365-Servern.
 
-  -  
-    **BitLocker** verschlüsselt die Daten auf den Festplatten in einem Datacenter, so dass Personen, die sich unbefugt Zugang verschaffen, die Daten dennoch nicht lesen können.
+  -  **BitLocker** verschlüsselt die Daten auf den Festplatten in einem Datacenter, so dass Personen, die sich unbefugt Zugang verschaffen, die Daten dennoch nicht lesen können.
 
 ## S/MIME-im Vergleich zur Office 365-Nachrichtenverschlüsselung
 

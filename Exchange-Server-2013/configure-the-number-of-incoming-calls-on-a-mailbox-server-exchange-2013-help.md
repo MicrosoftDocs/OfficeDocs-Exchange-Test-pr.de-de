@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-23_
+_**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
 Sie können die Anzahl eingehender gleichzeitiger Verbindungen konfigurieren, die ein Postfachserver akzeptiert, auf dem der Microsoft Exchange Unified Messaging-Anrufrouterdienst ausgeführt wird. Hierzu gehören alle eingehenden Anrufe, einschließlich Outlook Voice Access, Mailboxansage, automatische Telefonzentralen und Faxanrufe. Wenn Sie die Anzahl gleichzeitiger Verbindungen auf einem Postfachserver erhöhen, sind mehr Systemressourcen erforderlich, als wenn Sie die Anzahl gleichzeitiger Anrufe verringern. Das Verringern der Anzahl gleichzeitiger Anrufe ist besonders auf langsamen Computern wichtig, auf denen Unified Messaging-Dienste installiert sind. Der Bereich für die Anzahl gleichzeitiger Sprachanrufe liegt zwischen 0 und 200; der Standardwert ist 100.
 

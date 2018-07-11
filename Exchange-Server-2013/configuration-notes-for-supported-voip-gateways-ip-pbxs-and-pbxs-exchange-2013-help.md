@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Auf dieser Seite finden Sie Links zu Konfigurationshinweisen, die von Microsoft oder einem Partner für VoIP-Gateways erstellt und getestet wurden. Wenn Microsoft oder ein Partner Unified Messaging mit einem neuen VoIP-Gateway und einer Konfiguration aus Nebenstellenanlage oder IP-Nebenstellenanlage bereitstellt, werden die Voraussetzungen und Konfigurationseinstellungen dokumentiert. Diese Informationen werden zum Erstellen von Konfigurationshinweisen verwendet.
 

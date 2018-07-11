@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Gilt für:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-08-13_
+_**Letztes Änderungsdatum des Themas:** 2013-08-13_
 
 Beim Erstellen oder Verschieben eines Postfachs oder Aktivieren eines vorhandenen Benutzers für E-Mail muss das Postfach in einer Postfachdatenbank gespeichert werden. In Microsoft Exchange Server 2013 können Sie festlegen, dass Exchange die Datenbank mithilfe der automatischen Postfachverteilung ausgewählt wird.
 

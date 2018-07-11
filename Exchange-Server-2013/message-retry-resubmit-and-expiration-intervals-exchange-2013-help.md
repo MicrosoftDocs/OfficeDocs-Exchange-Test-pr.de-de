@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In Microsoft Exchange Server 2013 werden auf Nachrichten, die nicht erfolgreich zugestellt werden können, basierend auf der Quelle und dem Ziel der Nachricht verschiedene Fristen für die Wiederholung, die erneute Übermittlung und den Ablauf angewendet. *Wiederholen* bezeichnet einen erneuten Verbindungsversuch mit dem Ziel. *Erneut übermitteln* bezeichnet das Zurücksenden von Nachrichten an die Übermittlungswarteschlange, damit das Kategorisierungsmodul diese Nachrichten erneut verarbeitet. Die Nachricht wird als *abgelaufen* bezeichnet, nachdem alle Zustellungsversuche innerhalb eines bestimmten Zeitraums gescheitert sind. Wenn eine Nachricht abgelaufen ist, wird der Absender über den Zustellungsfehler informiert. Anschließend wird die Nachricht aus der Warteschlange gelöscht.
 

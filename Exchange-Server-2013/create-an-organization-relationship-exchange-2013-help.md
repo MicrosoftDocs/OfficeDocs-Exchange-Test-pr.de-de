@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Richten Sie eine Organisationsbeziehung ein, um Kalenderinformationen für externe Geschäftspartner freizugeben. Sie können eine Organisationsbeziehung zwischen zwei Exchange 2013-Verbundorganisationen oder zwischen einer Exchange 2013-Verbundorganisation und Exchange 2010-Verbundorganisationen einrichten. Außerdem können Sie eine Organisationsbeziehung zwischen der lokalen Exchange-Organisation und einer Office 365-Organisation einrichten.
 

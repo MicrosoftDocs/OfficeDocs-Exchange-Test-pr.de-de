@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-05_
+_**Letztes Änderungsdatum des Themas:** 2012-10-05_
 
 Verwenden Sie MicrosoftOutlook Web App-Postfachrichtlinien, um Richtlinien auf Organisationsebene zur Verwaltung des Zugriffs auf Funktionen in Outlook Web App zu erstellen.
 

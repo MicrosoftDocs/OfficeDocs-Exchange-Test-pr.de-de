@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-09_
+_**Letztes Änderungsdatum des Themas:** 2012-10-09_
 
 Sie können mit einer verknüpften Verwaltungsrollengruppe Mitglieder einer universellen Sicherheitsgruppe (USG) in einer fremden Active Directory-Gesamtstruktur dazu ermächtigen, eine Microsoft Exchange Server 2013-Organisation in einer Active Directory-Ressourcenstruktur zu verwalten. Wenn Sie eine universelle Sicherheitsgruppe in einer fremden Gesamtstruktur einer verknüpften Rollengruppe zuordnen, werden den Mitgliedern der Sicherheitsgruppe die Berechtigungen der Verwaltungsrollen gewährt, die der verknüpften Rollengruppe zugewiesen sind. Weitere Informationen zu verknüpften Rollengruppen finden Sie unter [Grundlegendes zu Verwaltungsrollengruppen](understanding-management-role-groups-exchange-2013-help.md).
 

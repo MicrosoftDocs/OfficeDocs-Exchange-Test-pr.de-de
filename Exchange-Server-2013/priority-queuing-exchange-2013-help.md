@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Bei der *Prioritätswarteschlange* handelt es sich um eine Funktion von Microsoft Exchange Server 2013, durch die die vom Absender definierte Priorität einer Nachricht Einfluss auf deren Verarbeitung durch den Transportdienst auf dem Postfachserver hat.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-07-26_
+_**Letztes Änderungsdatum des Themas:** 2017-07-26_
 
 Mit einer Verbundvertrauensstellung wird eine Vertrauensstellung zwischen einer Microsoft Exchange 2013-Organisation und dem Azure Active Directory-Authentifizierungssystem erstellt. Durch Konfigurieren einer Verbundvertrauensstellung können Sie Verbundfreigaben mit anderen Exchange-Verbundorganisationen erstellen, damit Benutzer Frei/Gebucht-Informationen gemeinsam nutzen können. Verbundfreigaben können zwischen zwei Exchange 2013-Verbundorganisationen oder zwischen einer Exchange 2013-Verbundorganisation und Exchange 2010-Verbundorganisationen konfiguriert werden. Sie können die gemeinsame Nutzung auch mit einer Office 365-Organisation einrichten.
 
@@ -143,7 +143,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
     
         Get-FederatedDomainProof -DomainName contoso.com
     
-    **Hinweise:**
+    **Hinweise:** 
     
       - Für jede für die Verbundvertrauensstellung konfigurierte Domäne oder Unterdomäne ist ein Nachweis des Domänenbesitzes anhand eines TXT-Eintrags erforderlich. Daher müssen Sie diesen Befehl möglicherweise mehrmals mit verschiedenen *DomainName*-Werten ausführen.
     

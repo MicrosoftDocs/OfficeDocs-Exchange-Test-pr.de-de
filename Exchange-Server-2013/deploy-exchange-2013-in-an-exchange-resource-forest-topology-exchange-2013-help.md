@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema wird erläutert, wie Microsoft Exchange 2013 in einer Exchange-Ressourcengesamtstruktur-Topologie bereitgestellt wird. Eine Exchange-Ressourcengesamtstruktur wird auch als dedizierte Exchange-Gesamtstruktur bezeichnet. In diesem Thema wird davon ausgegangen, dass Sie nicht über eine vorhandene Exchange 2013-Topologie verfügen.
 

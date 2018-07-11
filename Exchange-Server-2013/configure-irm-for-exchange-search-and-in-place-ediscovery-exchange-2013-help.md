@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-16_
+_**Letztes Änderungsdatum des Themas:** 2012-11-16_
 
 In Microsoft Exchange Server 2013 können Sie die Verwaltung von Informationsrechten (Information Rights Management, IRM) so konfigurieren, dass Exchange-Suche IRM-geschützte Nachrichten indizieren kann.
 

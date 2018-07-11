@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-20_
+_**Letztes Änderungsdatum des Themas:** 2013-04-20_
 
 Nachdem Sie die gesamte Telefonieausrüstung für Ihre Organisation bereitgestellt haben (einschließlich VoIP-Gateways, IP-Nebenstellenanlagen und SIP-aktivierten PBX-Anlagen oder Microsoft Lync Server), müssen Sie alle UM-Komponenten (Unified Messaging) erstellen, über die die Telefoniegeräte mit Servern in Ihrer Organisation kommunizieren können.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-01_
+_**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
 Eine *Benennungsrichtlinie für Gruppen* ermöglicht das Standardisieren und Verwalten der Namen von Verteilergruppen, die von Benutzern in der Organisation erstellt werden. Sie können festlegen, dass dem Namen der Verteilergruppe bei der Erstellung ein bestimmtes Präfix und Suffix hinzugefügt werden muss, und Sie können die Verwendung bestimmter Wörter unterbinden. Dadurch können Sie die Verwendung ungeeigneter Wörter in Gruppennamen verringern.
 

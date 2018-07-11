@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-15_
+_**Letztes Änderungsdatum des Themas:** 2016-12-15_
 
 Microsoft Exchange Server 2013 Setup kann nicht fortfahren, weil erkannt wurde, dass das Gruppenrichtlinienobjekt **ExecutionPolicy** mindestens eine der beiden folgenden Richtlinien definiert:
 
@@ -29,7 +29,7 @@ Wenn Sie Exchange 2013 Setup ausführen, wird Exchange beendet und der Windows-V
 
 Damit Setup fortfahren kann, müssen Sie zeitweilig die Definition von **MachinePolicy** bzw. **UserPolicy** aus dem Gruppenrichtlinienobjekt **ExecutionPolicy** entfernen.
 
-Informationen dazu, wie Sie Definitionen von **MachinePolicy** oder **UserPolicy** aus dem Gruppenrichtlinienobjekt **ExecutionPolicy** entfernen, finden Sie im [Knowledge Base-Artikel KB981474](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=981474).
+Informationen dazu, wie Sie Definitionen von **MachinePolicy** oder **UserPolicy** aus dem Gruppenrichtlinienobjekt **ExecutionPolicy** entfernen, finden Sie im [Knowledge Base-Artikel KB981474](https://go.microsoft.com/fwlink/?linkid=3052&kbid=981474).
 
 
 > [!NOTE]

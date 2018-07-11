@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-06-16_
+_**Letztes Änderungsdatum des Themas:** 2016-06-16_
 
 In MicrosoftExchange Server 2013 können Sie Postfachrichtlinien für mobile Geräte erstellen, um eine allgemeine Zusammenstellung von Richtlinien oder Sicherheitseinstellungen auf eine Gruppe von Benutzern anzuwenden. Nach der Bereitstellung von Exchange ActiveSync in Ihrer Exchange 2013-Organisation können Sie neue Postfachrichtlinien für mobile Geräte erstellen oder vorhandene Richtlinien ändern. Beim Installieren von Exchange 2013 wird eine standardmäßige Postfachrichtlinie für mobile Geräte erstellt. Allen Benutzern wird automatisch diese standardmäßige Postfachrichtlinie für mobile Geräte zugeordnet.
 

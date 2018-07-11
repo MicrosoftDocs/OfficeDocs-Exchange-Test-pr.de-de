@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Database Copies` ermöglicht Administratoren das Hinzufügen, Entfernen, Anhalten, Fortsetzen, Anzeigen und Aktualisieren von Datenbankkopien auf einzelnen Servern.
 

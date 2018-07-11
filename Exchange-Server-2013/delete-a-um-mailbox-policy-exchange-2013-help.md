@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Wenn eine Unified Messaging-Postfachrichtlinie (UM) gelöscht wird, kann diese UM-Postfachrichtlinie nicht mehr Empfängern zugeordnet werden, die für UM aktiviert sind. Sie können keine UM-Postfachrichtlinie löschen, auf die von UM-aktivierten Postfächern verwiesen wird. Und Sie können einen UM-Wählplan nicht löschen, wenn diesem eine UM-Postfachrichtlinie zugeordnet ist.
 
@@ -41,9 +41,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf UM-Postfachrichtlinie
 
 ## Löschen einer UM-Postfachrichtlinie mithilfe der Exchange-Verwaltungskonsole
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wählpläne**. Wählen Sie in der Listenansicht den UM-Wählplan aus, den Sie ändern möchten, und klicken Sie dann auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wählpläne**. Wählen Sie in der Listenansicht den UM-Wählplan aus, den Sie ändern möchten, und klicken Sie dann auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
 
 2.  Klicken Sie auf der Seite **UM-Wählplan** unter **UM-Postfachrichtlinien** auf der Symbolleiste auf **Löschen**![Löschen (Symbol)](images/JJ657511.14f639f6-61e8-4418-bbfb-0db14de9d2f5(EXCHG.150).gif "Löschen (Symbol)").
 

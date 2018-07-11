@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-07-02_
+_**Letztes Änderungsdatum des Themas:** 2014-07-02_
 
 Bei Microsoft Exchange 2013 wurden größere Änderungen an der Architektur von Exchange-Serverrollen vorgenommen. Anstelle der fünf Serverrollen, die in Exchange 2010 und Exchange 2007 vorhanden waren, wurde die Anzahl von Serverrollen in Exchange 2013 auf drei verringert: die Serverrollen "Clientzugriff", "Postfach" und, mit Service Pack 1, die Serverrolle "Edge-Transport".
 

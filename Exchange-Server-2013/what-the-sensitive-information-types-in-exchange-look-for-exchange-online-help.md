@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-05-03_
+_**Letztes Änderungsdatum des Themas:** 2018-05-03_
 
 Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange beinhaltet 80 vertrauliche Informationstypen, die Sie in Ihren DLP-Richtlinien verwenden können. In diesem Thema sind sämtliche dieser vertraulichen Informationstypen aufgeführt. Außerdem wird gezeigt, wonach eine DLP-Richtlinie sucht, wenn sie einen Typ erkennt. Ein vertraulicher Informationstyp wird anhand eines Musters definiert, das durch einen regulären Ausdruck oder eine Funktion identifiziert werden kann. Darüber hinaus können beständige Nachweise wie Schlüsselwörter und Prüfsummen verwendet werden, um einen vertraulichen Informationstyp zu identifizieren. Die Sicherheitswahrscheinlichkeit und Nähe werden im Bewertungsprozess ebenfalls berücksichtigt.
 

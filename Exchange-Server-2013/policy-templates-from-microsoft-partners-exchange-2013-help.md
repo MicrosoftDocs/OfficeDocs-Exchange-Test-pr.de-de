@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-01-31_
+_**Letztes Änderungsdatum des Themas:** 2013-01-31_
 
 Mithilfe von DLP-Funktionen (Data Loss Prevention, Verhinderung von Datenverlust) können Sie eine Vielzahl von Kategorien vertraulicher Informationen identifizieren und überwachen. Bei der Konfiguration Ihrer DLP-Richtlinien haben Sie die Möglichkeit, eine Datei aus einer Quelle außerhalb von Microsoft Exchange zu importieren und als DLP-Richtlinienvorlage zu verwenden. Microsoft-Partnerfirmen können diese Arten von Vorlagen entwickeln und verteilen. Dieses Thema wird durch einen Link aktualisiert, damit Sie diese Firmen finden können, sobald sie zur Verfügung stehen.
 

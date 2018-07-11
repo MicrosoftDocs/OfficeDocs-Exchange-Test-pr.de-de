@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-16_
+_**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 Wenn Sie die Postfachserverrolle installieren, wird standardmäßig das webbasierte Standard-Offlineadressbuch (Offline Address Book, OAB) "Standard-Offlineadressbuch" erstellt. Sie können jedoch jedes beliebige OAB in Ihrer Exchange-Organisation als Standard-OAB festlegen. Dieses neue Standard-OAB wird allen neu erstellten Postfachdatenbanken zugeordnet. In einer Organisation kann es nur ein Standard-OAB geben. Wenn Sie das Standard-OAB löschen, wird von MicrosoftExchange nicht automatisch ein anderes OAB als Standard-OAB zugewiesen. Sie müssen manuell ein anderes OAB als Standard-OAB zuweisen.
 

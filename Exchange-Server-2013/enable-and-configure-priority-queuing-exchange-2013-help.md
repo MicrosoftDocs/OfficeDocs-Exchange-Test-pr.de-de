@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-16_
+_**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 *Prioritätswarteschlange* ist ein Feature von Microsoft Exchange Server 2013, mit dem die Nachrichtenpriorität, die vom Absender in Microsoft Outlook oder Outlook Web Access konfiguriert wird, die Verarbeitung der Nachrichten durch den Transportdienst auf dem Postfachserver beeinflussen kann. Bei aktivierter Prioritätswarteschlange werden Nachrichten mit hoher Priorität vor Nachrichten mit normaler Priorität und Nachrichten mit normaler Priorität vor Nachrichten mit niedriger Priorität an das jeweilige Ziel übermittelt. Weitere Informationen finden Sie unter [Prioritätswarteschlangen](priority-queuing-exchange-2013-help.md).
 

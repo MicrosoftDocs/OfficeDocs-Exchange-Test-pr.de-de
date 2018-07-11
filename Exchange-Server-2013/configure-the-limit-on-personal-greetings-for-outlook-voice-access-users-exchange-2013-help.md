@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Über die Einstellung **Beschränkung der persönlichen Begrüßungstexte (Minuten)** können Sie die maximale Dauer in Minuten angeben, die Benutzer, die der Unified Messaging-Postfachrichtlinie (UM) unterliegen, zum Aufzeichnen von Voicemailbegrüßungen verwenden können. Diese Einstellung gilt sowohl für die Standardvoicemail- als auch für Abwesenheitsansagen. Standardmäßig ist die maximale Dauer der Begrüßung auf fünf Minuten festgelegt. Sie können jedoch nach Wunsch einen Wert von 1 bis 10 Minuten festlegen.
 

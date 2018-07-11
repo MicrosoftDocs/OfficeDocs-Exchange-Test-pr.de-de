@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Die Verwaltungsrolleneinträge einer Verwaltungsrolle legen fest, welche Cmdlets und Parameter für die Verwaltungsrolle zur Verfügung stehen. Durch das Entfernen von Rolleneinträgen oder Parametern aus einem Rolleneintrag können Sie einschränken, welche Aufgaben die einer Verwaltungsrolle zugewiesenen Benutzer ausführen können. Weitere Informationen zu Verwaltungsrolleneinträgen in Microsoft Exchange Server 2013 finden Sie unter [Grundlegendes zu Verwaltungsrollen](understanding-management-roles-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Sollten in der Organisation Probleme mit der Audioqualität von UM-Anrufen und Voicemailnachrichten auftreten, verwenden Sie den Bericht Anrufstatistik, um die Ursache der Probleme zu ermitteln.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Der Inhalt dieses Themas wurde für Microsoft Exchange Server 2013 nicht aktualisiert. Dennoch kann er für Exchange 2013 gültig sein. Weitere Hilfe finden Sie in den Community-Ressourcen weiter unten.
 
@@ -103,7 +103,7 @@ Stellen Sie zum Beheben dieses Problems sicher, dass die Einstellung für die Ve
 <li><p>Wählen Sie die Registerkarte <strong>Sicherheit</strong> aus, und klicken Sie dann auf <strong>Erweitert</strong>.</p></li>
 <li><p>Wählen Sie <strong>Berechtigungen übergeordneter Objekte, sofern vererbbar, über alle untergeordneten Objekte verbreiten</strong> aus, um die Vererbung von Berechtigungen erneut zu aktivieren.</p></li>
 <li><p>Klicken Sie zweimal auf <strong>OK</strong>, um die Änderung zu übernehmen.</p></li>
-<li><p>Warten Sie, bis die Active Directory-Replikation die Änderungen verteilt hat, oder erzwingen Sie die Active Directory-Replikation, indem Sie die Anweisungen im Microsoft Knowledge Base-Artikel 232072 „Einleiten der Replikation zwischen direkten Replikationspartnern&amp;quot; (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=232072" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=232072</a>) befolgen.</p></li>
+<li><p>Warten Sie, bis die Active Directory-Replikation die Änderungen verteilt hat, oder erzwingen Sie die Active Directory-Replikation, indem Sie die Anweisungen im Microsoft Knowledge Base-Artikel 232072 „Einleiten der Replikation zwischen direkten Replikationspartnern&amp;quot; (<a href="http://go.microsoft.com/fwlink/?linkid=3052&kbid=232072" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=232072</a>) befolgen.</p></li>
 </ol></td>
 </tr>
 </tbody>

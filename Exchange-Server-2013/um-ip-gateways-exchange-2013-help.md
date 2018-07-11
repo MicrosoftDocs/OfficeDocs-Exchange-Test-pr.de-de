@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-24_
+_**Letztes Änderungsdatum des Themas:** 2014-06-24_
 
 Ein Unified Messaging-IP-Gateway (UM) repräsentiert ein physisches VoIP-Gateway (Voice over IP), eine IP-Nebenstellenanlage oder SBC-Hardwaregerät (Session Border Controller). Ehe ein VoIP-Gateway, eine IP-Nebenstellenanlage oder ein SBC zum Annehmen eingehender Anrufe und zum Senden ausgehender Anrufe für Voicemailbenutzer genutzt werden kann, muss im Verzeichnisdienst ein UM-IP-Gateway erstellt werden.
 

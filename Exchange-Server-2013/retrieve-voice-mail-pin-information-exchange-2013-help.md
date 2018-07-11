@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-03_
+_**Letztes Änderungsdatum des Themas:** 2013-04-03_
 
 Sie können PIN-Informationen für einen Benutzer abrufen, der für Unified Messaging (UM) aktiviert ist. Nachdem ein Benutzer für UM aktiviert wurde und eine PIN generiert oder erstellt wurde, wird die PIN verschlüsselt und im Postfach des Benutzers gespeichert.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema werden die Berechtigungen beschrieben, die zum Einrichten einer Microsoft Exchange Server 2013-Organisation erforderlich sind. Die Verwaltungsrollengruppen zugeordneten universellen Sicherheitsgruppen (Universal Security Groups, USGs) sowie andere Windows-Sicherheitsgruppen und -Sicherheitsprinzipale werden den Zugriffssteuerungslisten (Access Control Lists, ACLs) verschiedener Active Directory-Objekte hinzugefügt. Mit Zugriffssteuerungslisten wird gesteuert, welche Vorgänge für jedes Objekt ausgeführt werden können. Wenn Sie wissen, welche Berechtigungen den einzelnen Rollengruppen, Sicherheitsgruppen oder Sicherheitsprinzipalen zugewiesen werden, können Sie die zum Installieren von Exchange 2013 erforderlichen Mindestberechtigungen ermitteln.
 

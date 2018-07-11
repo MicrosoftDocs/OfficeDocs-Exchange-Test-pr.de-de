@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-30_
+_**Letztes Änderungsdatum des Themas:** 2012-11-30_
 
 Unified Messaging (UM) kombiniert Sprachnachrichten und E-Mails in einem Postfach, auf das über verschiedene Geräte zugegriffen werden kann. Benutzer können die Voicemailnachrichten in ihrem E-Mail-Posteingang oder mit Outlook Voice Access auf einem beliebigen Telefon abhören.
 

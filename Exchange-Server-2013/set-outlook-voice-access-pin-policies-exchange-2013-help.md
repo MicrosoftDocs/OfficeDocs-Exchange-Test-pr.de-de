@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können PIN-Richtlinien für eine Unified Messaging-Postfachrichtlinie (UM) festlegen. UM-Postfachrichtlinien können konfiguriert werden, um die Sicherheitsstufe für UM-aktivierte Benutzer zu erhöhen, die Outlook Voice Access verwenden, indem von Benutzern verlangt wird, dass sie die vordefinierten PIN-Richtlinien für Ihre Organisation einhalten.
 

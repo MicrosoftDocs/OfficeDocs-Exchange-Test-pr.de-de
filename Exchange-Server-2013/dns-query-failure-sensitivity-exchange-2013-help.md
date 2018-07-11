@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-02_
+_**Letztes Änderungsdatum des Themas:** 2014-12-02_
 
 Sie können in Microsoft Exchange Server 2013 die DNS-Abfrageempfindlichkeit anpassen, um beim Erkennen von DNS-Fehlern für die Zieldomäne eine etwas schnellere Nachrichtenzustellung zu erreichen. In Abhängigkeit von den DNS-Fehlern kann diese Anpassung unter Umständen jedoch zu Zustellungsfehlern führen.
 

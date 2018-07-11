@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-03-26_
+_**Letztes Änderungsdatum des Themas:** 2014-03-26_
 
 Das hierarchische Adressbuch (HAB) ermöglicht es Endbenutzern, in ihrem Adressbuch über eine Organisationshierarchie nach Empfängern zu suchen. In der Regel sind die Benutzer auf die standardmäßige globale Adressliste und die dazugehörigen Empfängereigenschaften begrenzt, und die Struktur der globalen Adressliste gibt häufig die Hierarchie unter den Empfängern in Ihrer Organisation nicht wieder. Dadurch, dass ein hierarchisches Adressbuch entsprechend den besonderen geschäftlichen Strukturen Ihrer Organisation angepasst werden kann, können Sie den Benutzern eine effiziente Möglichkeit zum Auffinden interner Empfänger bieten.
 

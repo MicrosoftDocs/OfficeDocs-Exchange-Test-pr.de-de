@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-09-17_
+_**Letztes Änderungsdatum des Themas:** 2015-09-17_
 
 Angesichts immer größer werdender Postfächer und Datenmengen, die in Postfächern in Form von Nachrichten und Anlagen gespeichert werden, ist es für Benutzer entscheidend, dass sie in der Lage sind, die erforderlichen Nachrichten schnell zu suchen und zu finden. Die [In-Situ-Archivierung in Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md) hilft Ihnen, die Verwendung von PST-Dateien zu verringern oder einzustellen, indem alte Elemente oder Elemente, auf die selten zugegriffen wird, in das Archiv verschoben werden. Dies führt dazu, dass ein Benutzer mehr Postfachdaten speichert. Außerdem wird dadurch die Suche über die primären und Archivpostfächer des Benutzers zu einem wichtigen Produktivitätstool. Die [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md) ermöglicht autorisierten Benutzern das Durchsuchen von Inhalten in Postfächern in sowohl lokalen als auch cloudbasierten Exchange-Organisationen, um eDiscovery-Anforderungen erfüllen und Überprüfungen von Vorschriften sowie interne Untersuchungen durchführen zu können. Für die Compliance-eDiscovery-Suche werden auch die von der Exchange-Suche erstellten Inhaltsindizes verwendet.
 

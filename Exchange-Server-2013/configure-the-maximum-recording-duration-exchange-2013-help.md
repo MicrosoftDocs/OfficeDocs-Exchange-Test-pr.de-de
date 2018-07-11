@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-09_
+_**Letztes Änderungsdatum des Themas:** 2012-11-09_
 
 Sie können die maximale Anzahl an Minuten festlegen, die pro Sprachaufzeichnung zulässig ist, wenn ein Anrufer eine Sprachnachricht hinterlässt. Dieser Wert kann auf eine Zahl von 1 bis 100 festgelegt werden. In den meisten Organisationen kann die Standardeinstellung von 20 Minuten verwendet werden. Wenn Sie diesen Wert zu niedrig ansetzen, werden lange Sprachnachrichten möglicherweise vor ihrem Abschluss unterbrochen. Wird dieser Wert zu hoch eingestellt, können Benutzer übermäßig lange Sprachnachrichten im Posteingang speichern.
 

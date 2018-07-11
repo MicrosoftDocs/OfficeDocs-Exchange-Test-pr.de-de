@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Sie können Wählautorisierungen für einen UM-Wählplan (Unified Messaging) aktivieren. Wählautorisierungen für einen Wählplan dienen zum Unterbinden, dass nicht authentifizierte Outlook Voice Access-Benutzer Fern- oder Auslandsgespräche bzw. *Outdialing*-Telefonate führen. Outdialing erfolgt, wenn Unified Messaging einen ausgehenden Anruf für einen Benutzer einleitet, nachdem dieser sich bei einer Outlook Voice Access-Telefonnummer eingewählt hat, die für einen UM-Wählplan konfiguriert ist. Wenn Sie eine Einstellung für einen UM-Wählplan konfigurieren, gilt diese für alle nicht authentifizierten Benutzer, die sich bei einer Outlook Voice Access-Nummer einwählen.
 

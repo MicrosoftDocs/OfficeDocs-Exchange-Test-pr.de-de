@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Sie können einen UM-Wählplan (Unified Messaging) zum Angeben von Informationen konfigurieren, die für Anrufer bereitgestellt werden, wenn Benutzer denselben oder ähnliche Namen besitzen. Anhand dieser Einstellung unterscheidet UM zwischen Benutzern mit demselben oder ähnlichen Namen und stellt diese Information den Anrufern bereit. Wenn ein Anrufer oder ein Benutzer von Outlook Voice Access aufgefordert wird, Buchstaben einzugeben, um einen bestimmten Benutzer zu suchen, entsprechen manchmal mehrere Namen der Eingabe des Anrufers. Anhand einer der verfügbaren Optionen können Sie dem Anrufer weitere Informationen bereitstellen und ihm beim Auffinden des gewünschten Benutzers behilflich sein.
 

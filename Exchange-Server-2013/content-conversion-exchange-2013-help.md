@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 *Inhaltskonvertierung* ist der Vorgang des richtigen Formatierens einer Nachricht für jeden Empfänger. Die Entscheidung, eine Inhaltskonvertierung für eine Nachricht durchzuführen, ist vom Ziel und Format der Nachricht abhängig, die verarbeitet wird. In Microsoft Exchange Server 2013 gibt es zwei verschiedene Arten der Inhaltskonvertierung:
 

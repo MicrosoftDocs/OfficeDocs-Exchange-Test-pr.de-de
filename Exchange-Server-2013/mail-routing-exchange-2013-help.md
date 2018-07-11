@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Hauptaufgabe des Transportdiensts, der auf allen Postfachservern in Ihrer Microsoft Exchange Server 2013-Organisation vorhanden ist, besteht im Routing (d. h. im Weiterleiten) von Nachrichten, die von Benutzern und externen Quellen empfangen werden, an ihre endgültigen Bestimmungsorte. Routingentscheidungen werden während der Nachrichtenkategorisierung getroffen. Das Kategorisierungsmodul ist eine Komponente des Transportdiensts auf einem Postfachserver, die alle eingehenden Nachrichten verarbeitet und basierend auf Informationen zu ihren Zielen bestimmt, was mit den Nachrichten geschehen soll.
 

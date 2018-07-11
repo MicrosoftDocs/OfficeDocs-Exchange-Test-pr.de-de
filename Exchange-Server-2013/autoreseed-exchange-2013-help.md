@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013 SP1_
+_**Gilt für:** Exchange Server 2013 SP1_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Das automatische erneute Seeding, auch AutoReseed genannt, ist ein Feature zur Ersetzung der Aufgaben, die – als Reaktion auf einen Datenträgerfehler, eine Datenbankbeschädigung oder andere Probleme, die ein erneutes Seeding einer Datenbankkopie erforderlich machen – normalerweise von einem Administrator ausgeführt werden. Die AutoReseed-Funktion ist für die automatische Wiederherstellung der Datenbankredundanz nach einem Datenträgerfehler konzipiert. Hierbei wird auf Ersatzdatenträger zurückgegriffen, die im System bereitgestellt wurden.
 

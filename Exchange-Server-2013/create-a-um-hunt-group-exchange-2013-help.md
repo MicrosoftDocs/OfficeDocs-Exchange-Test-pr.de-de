@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-16_
+_**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
 Ein UM-Sammelanschluss ist eine logische Darstellung eines Nebenstellenanlagen- oder IP-Nebenstellenanlagen-Sammelanschlusses. UM-Sammelanschlüsse fungieren als Verbindung oder Verknüpfung zwischen einem UM-IP-Gateway und einem UM-Wählplan.
 
@@ -73,9 +73,7 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit UM-Sammelansch
         
         In diesem Feld können eine Durchwahlnummer oder ein SIP-URI (Session Initiation-Protokoll - Uniform Resource Identifier) verwendet werden. Alphanumerische Zeichen sind in diesem Feld zulässig. Für ältere Nebenstellenanlagen wird ein numerischer Wert als Pilot-ID verwendet. Einige IP-Nebenstellenanlagen können jedoch SIP-URIs verwenden.
 
-4.  
-    
-    Klicken Sie auf **Speichern**.
+4.  Klicken Sie auf **Speichern**.
 
 ## Erstellen eines UM-Sammelanschlusses mit der Shell
 

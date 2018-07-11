@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013 ist in zwei Servereditionen verfügbar: Standard Edition und Enterprise Edition. Enterprise Edition kann bis auf 50 Datenbanken pro Server in der RTM-Version und den kumulativen Update 1 (CU1) Versionen sowie bis auf 100 Datenbanken pro Server in den kumulativen Update 2 (CU2) und höheren Versionen erweitert werden; die Standard Edition ist auf 5 Datenbanken pro Server beschränkt. Bei einer bereitgestellten Datenbank handelt es sich um eine Datenbank, die bereits in Betrieb ist. Eine bereitgestellte Datenbank kann eine aktive Postfachdatenbank sein, die für die Verwendung durch Clients bereitgestellt wird oder eine passive Postfachdatenbank, die zur Wiederherstellung von Replikations- und Wiedergabeprotokollen bereitgestellt wird. Obwohl Sie mehrere Datenbanken als oben angegeben erstellen können, können Sie nur die oben angegebene maximale Anzahl an Datenbanken bereitstellen. Für die Datenbankwiederherstellung gilt diese Einschränkung nicht.
 

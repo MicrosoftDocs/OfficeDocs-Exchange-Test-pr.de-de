@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-08-26_
+_**Letztes Änderungsdatum des Themas:** 2016-08-26_
 
 Nachdem eine Database Availability Group (DAG) erstellt, konfiguriert und mit den Mitgliedern eines Postfachservers gefüllt wurde, können Sie die Exchange-Verwaltungskonsole oder die Exchange-Verwaltungsshell verwenden, um auf flexible und präzise Weise Kopien einer Postfachdatenbank hinzuzufügen.
 

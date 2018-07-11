@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-25_
+_**Letztes Änderungsdatum des Themas:** 2012-09-25_
 
 Die Ablaufverfolgung für die Inhaltskonvertierung erfasst Fehler der MAPI-Inhaltskonvertierung, die vom Postfachtransportdienst für eingehende und ausgehende Nachrichten auf einem Microsoft Exchange Server 2013-Postfachserver ausgeführt wird.
 

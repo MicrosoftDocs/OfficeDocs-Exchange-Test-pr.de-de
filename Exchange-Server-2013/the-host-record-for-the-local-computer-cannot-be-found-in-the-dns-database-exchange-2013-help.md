@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Das Setup von Microsoft Exchange Server 2013 kann nicht fortgesetzt werden, da der "Host (A)"-Eintrag für diesen Computer nicht in der DNS-Datenbank (Domain Name System) gefunden wurde.
 

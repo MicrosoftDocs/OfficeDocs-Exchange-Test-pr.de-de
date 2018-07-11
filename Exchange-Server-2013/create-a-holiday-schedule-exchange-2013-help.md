@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-19_
+_**Letztes Änderungsdatum des Themas:** 2013-04-19_
 
 Sie können die Datums- und Zeitangaben definieren, zu denen Ihre Organisation an Feiertagen oder zu anderen Gelegenheiten geschlossen ist. Innerhalb der von Ihnen festgelegten Start- und Enddatumsangaben erreichen Anrufer die automatische Unified Messaging (UM)-Telefonzentrale und hören die entsprechende Feiertagsansage, die Sie beim Konfigurieren des Feiertagszeitplans angeben. Nach der von Ihnen angegebenen Feiertagsansage werden die Begrüßungen und Menüansagen außerhalb der Geschäftszeiten zur Information für den Anrufer wiedergegeben.
 

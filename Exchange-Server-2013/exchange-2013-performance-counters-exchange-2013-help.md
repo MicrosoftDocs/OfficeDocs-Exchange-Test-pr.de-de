@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-02-06_
+_**Letztes Änderungsdatum des Themas:** 2017-02-06_
 
 ## Exchange 2013-Leistungsindikatoren
 

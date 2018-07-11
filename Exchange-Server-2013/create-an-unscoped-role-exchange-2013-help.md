@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-09_
+_**Letztes Änderungsdatum des Themas:** 2014-06-09_
 
 Mithilfe einer Verwaltungsrolle ohne Bereichseinschränkung können Sie Administratoren und Benutzern mit besonderen Aufgaben den Zugriff auf Windows PowerShell-Skripts und Exchange-fremde Cmdlets ermöglichen. Sie können entweder eine Rolle oberster Ebene ohne Bereichseinschränkung erstellen und dieser Rolle dann Skripts oder Exchange-fremde Cmdlets hinzufügen oder eine Rolle erstellen, die auf einer vorhandenen Rolle oberster Ebene ohne Bereichseinschränkung basiert. Nachdem eine Rolle ohne Bereichseinschränkung erstellt und angepasst wurde, kann die Rolle Verwaltungsrollengruppen, Benutzern und universellen Sicherheitsgruppen (universal security groups, USGs) zugewiesen werden. Es ist nicht möglich, Rollen ohne Bereichseinschränkung zu Verwaltungsrollen-Zuweisungsrichtlinien zuzuweisen. Weitere Informationen zu Rollen ohne Bereichseinschränkung finden Sie unter [Grundlegendes zu Verwaltungsrollen](understanding-management-roles-exchange-2013-help.md).
 

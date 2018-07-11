@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 In Microsoft Exchange Server 2013 wird das Konzept der Datenbankmobilität genutzt, bei dem es sich um von Exchange verwaltete Failover auf Datenbankebene handelt. Im Rahmen der Datenbankmobilität werden Datenbanken von Servern getrennt, die Unterstützung für bis zu 16 Kopien einer einzelnen Datenbank hinzugefügt und eine einheitliche Vorgehensweise beim Hinzufügen von Datenbankkopien zu einer Datenbank bereitgestellt.
 

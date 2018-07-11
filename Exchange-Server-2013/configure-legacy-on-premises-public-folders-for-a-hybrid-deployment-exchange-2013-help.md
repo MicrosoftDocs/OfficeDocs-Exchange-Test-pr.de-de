@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2018-05-22_
+_**Letztes Änderungsdatum des Themas:** 2018-05-22_
 
-**Zusammenfassung:** Befolgen Sie die Schritte in diesem Artikel, um öffentliche Ordner zwischen Office 365 und Ihrer lokalen Exchange 2007- oder Exchange Server 2010-Bereitstellung zu synchronisieren.
+**Zusammenfassung:**  Befolgen Sie die Schritte in diesem Artikel, um öffentliche Ordner zwischen Office 365 und Ihrer lokalen Exchange 2007- oder Exchange Server 2010-Bereitstellung zu synchronisieren.
 
 In einer Hybridbereitstellung können Ihre Benutzer in Exchange Online und/oder lokal sein, und Ihre öffentlichen Ordner sind entweder in Exchange Online oder lokal gespeichert. öffentliche Ordner können sich nur an einem Ort befinden. Sie müssen daher entscheiden, ob Sie Ihre öffentlichen Ordner in Exchange Online oder lokal speichern möchten. Sie können nicht an beiden Speicherorten abgelegt werden. Postfächer für Öffentliche Ordner werden über den Verzeichnissynchronisierungsdienst mit Exchange Online synchronisiert. E-Mail-aktivierte öffentliche Ordner werden allerdings nicht standortübergreifend synchronisiert.
 
@@ -104,7 +104,7 @@ Eine Hybridkonfiguration mit Öffentlichen Ordnern in Exchange 2003 wird nicht 
 
 7.  In Exchange 2007 muss Ihnen die Rolle "Exchange Organization Administrator" oder "Exchange Server Administrator" zugewiesen sein. Zudem müssen Sie für den Zielserver über die Rolle "Public Folder Administrator" verfügen und Mitglied der lokalen Administratorgruppe sein. Nähere Informationen finden Sie unter [Hinzufügen eines Benutzers oder einer Gruppe zu einer Administratorrolle](https://go.microsoft.com/fwlink/p/?linkid=81779).
 
-8.  Wenn bei Ihnen Exchange Server 2007 unter Windows Server 2008 x64 ausgeführt wird, müssen Sie ein Upgrade auf [Windows PowerShell 2.0 und WinRM 2.0 für Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930) durchführen. Wenn bei Ihnen Exchange Server 2007 unter Windows Server 2003 x64 ausgeführt wird, müssen Sie ein Upgrade auf Windows PowerShell 2.0 durchführen. Weitere Informationen finden Sie unter [Update für Windows Server 2003 x64 Edition](https://www.microsoft.com/en-us/download/details.aspx?id=10512).
+8.  Wenn bei Ihnen Exchange Server 2007 unter Windows Server 2008 x64 ausgeführt wird, müssen Sie ein Upgrade auf [Windows PowerShell 2.0 und WinRM 2.0 für Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930) durchführen. Wenn bei Ihnen Exchange Server 2007 unter Windows Server 2003 x64 ausgeführt wird, müssen Sie ein Upgrade auf Windows PowerShell 2.0 durchführen. Weitere Informationen finden Sie unter [Update für Windows Server 2003 x64 Edition](https://www.microsoft.com/en-us/download/details.aspx?id=10512).
 
 9.  Um standortübergreifend auf Öffentliche Ordner zuzugreifen, müssen Benutzer ihre Outlook-Clients auf das Outlook-Update vom November 2012 oder höher aktualisieren.
     
@@ -144,9 +144,13 @@ Eine Hybridkonfiguration mit Öffentlichen Ordnern in Exchange 2003 wird nicht 
 
 3.  Erstellen Sie in der neuen Postfachdatenbank ein Proxypostfach, und blenden Sie das Postfach im Adressbuch aus. Das SMTP dieses Postfachs wird von der AutoErmittlung als das *DefaultPublicFolderMailbox*-SMTP zurückgegeben, sodass der Client durch Auflösung dieses SMTP den Exchange-Legacyserver erreichen kann, um Zugriff auf öffentliche Ordner zu erhalten.
     
-        New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs>
-    
-        Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+	```
+		New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs>
+	```
+
+	```
+		Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+	```
 
 4.  Aktivieren Sie bei Exchange 2010 die AutoErmittlung, um die Proxypostfächer für öffentliche Ordner zurückzugeben. Dieser Schritt ist bei Exchange 2007 nicht erforderlich.
     

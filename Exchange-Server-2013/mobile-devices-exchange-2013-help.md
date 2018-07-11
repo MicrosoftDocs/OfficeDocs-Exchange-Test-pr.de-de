@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-24_
+_**Letztes Änderungsdatum des Themas:** 2012-09-24_
 
 Mit mobilen Geräten, die für MicrosoftExchange ActiveSync aktiviert sind, können Benutzer jederzeit und von jedem beliebigen Ort aus auf einen Großteil ihrer Microsoft Exchange-Postfachdaten zugreifen. Es gibt viele verschiedene Mobiltelefone und mobile Geräte, die für Exchange ActiveSync aktiviert sind. Hierzu gehören Windows Phone, Mobiltelefone von Nokia, Android-Mobiltelefone und -Tablets sowie Apple iPhone, iPod und iPad.
 

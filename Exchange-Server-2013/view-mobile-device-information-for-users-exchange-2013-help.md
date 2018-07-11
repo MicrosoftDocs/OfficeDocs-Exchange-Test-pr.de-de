@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-29_
+_**Letztes Änderungsdatum des Themas:** 2012-11-29_
 
 Benutzer können mehrere mobile Geräte für die Synchronisierung mit MicrosoftExchange Server 2013 konfigurieren. Mithilfe der Exchange-Verwaltungskonsole oder der Shell können Sie eine Liste der mobilen Geräte anzeigen, die einem bestimmten Benutzer zugeordnet sind.
 

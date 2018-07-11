@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-15_
+_**Letztes Änderungsdatum des Themas:** 2012-10-15_
 
 In Microsoft Exchange Server 2013 ist die hohe Verfügbarkeit des Transports dafür zuständig, redundante Kopien von Nachrichten vor und nach dem erfolgreichen Zustellen von Nachrichten beizubehalten. Exchange 2013 optimiert die Features für die hohe Verfügbarkeit des Transports, die in Exchange Server 2010 eingeführt wurden, z. B. die Shadow-Redundanz und der Transportdumpster, die sicherzustellen, dass beim Transport keine Nachrichten verloren gehen.
 

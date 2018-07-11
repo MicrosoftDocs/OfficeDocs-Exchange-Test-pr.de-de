@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-17_
+_**Letztes Änderungsdatum des Themas:** 2015-04-17_
 
 Die Exchange-Suche indiziert zahlreiche Elementeigenschaften wie Absender, Empfänger, Nachrichtentext und E-Mail-Anlagen.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Mit der Shell können Sie eine oder mehr Mailboxansageregeln für einen Benutzer entfernen. Sie können auch mit dem Cmdlet **Remove-UMCallAnsweringRule** in einem Exchange-Verwaltungsshellskript eine oder mehrere Mailboxansageregeln für mehrere Benutzer entfernen.
 

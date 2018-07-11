@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-04_
+_**Letztes Änderungsdatum des Themas:** 2012-10-04_
 
 Sowohl für erfahrene Administratoren und Skriptschreiber als auch für Administratoren, die sich erstmals mit Exchange und der Skripterstellung befassen, können die Optionen *WhatIf*, *Confirm* und *ValidateOnly* von Nutzen sein. Mit ihrer Hilfe können Sie die Ausführung von Befehlen steuern und exakt anzeigen, welches Ergebnis ein Befehl liefert, bevor dieser auf Daten angewendet wird. Diese Funktionalität ist besonders wichtig beim Wechsel von der Testumgebung zur Produktionsumgebung und beim Bereitstellen neuer Skripts oder Befehle.
 

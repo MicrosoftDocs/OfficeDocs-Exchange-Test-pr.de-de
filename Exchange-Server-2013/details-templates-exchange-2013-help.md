@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-12_
+_**Letztes Änderungsdatum des Themas:** 2012-10-12_
 
 Durch Detailvorlagen wird die Darstellung von Objekteigenschaften gesteuert, auf die in einem E-Mail-Client (z. B. Microsoft Outlook) mithilfe von Adresslisten zugegriffen wird. Wenn ein Benutzer beispielsweise in Outlook eine Adressliste öffnet, werden die Eigenschaften der Empfänger in dieser Adressliste entsprechend der Definition in der Detailvorlage der Exchange-Organisation dargestellt. Die folgende Abbildung zeigt die Eigenschaften des Empfängers "Kim Akers" so, wie diese in Outlook 2013 angezeigt werden. Mithilfe des Detailvorlagen-Editors in der Exchange 2013-Toolbox können Sie die Organisation und den Inhalt der verschiedenen Objekte ändern, die auf dieser Eigenschaftenseite angezeigt werden.
 

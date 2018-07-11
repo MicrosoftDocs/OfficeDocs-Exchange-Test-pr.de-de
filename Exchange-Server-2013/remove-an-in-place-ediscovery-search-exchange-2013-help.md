@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-07-14_
+_**Letztes Änderungsdatum des Themas:** 2014-07-14_
 
 In Microsoft Exchange Server 2013 können Sie die Compliance-eDiscovery zum Durchsuchen von Postfachinhalten verwenden. Sie können eine Compliance-eDiscovery-Suche jederzeit entfernen. Wenn Sie eine Compliance-eDiscovery-Suche entfernen, werden die Suchergebnisse aus dem Discoverypostfach entfernt.
 
