@@ -119,8 +119,6 @@ Um die SSL-Abladung für die Exchange-Verwaltungskonsole zu aktivieren, müssen 
         
             appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
         
-        ``` 
-        ```
 
   - **Schritt 2**   Sie müssen mit einer der folgenden Methoden den richtigen Anwendungspool wiederverwenden oder die Internetinformationsdienste neu starten:
     
