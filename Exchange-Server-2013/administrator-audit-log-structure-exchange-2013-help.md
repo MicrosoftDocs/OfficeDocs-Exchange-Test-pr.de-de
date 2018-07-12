@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:** Exchange Server 2013_
+_**Gilt für:**Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+_**Letztes Änderungsdatum des Themas:**2015-03-09_
 
 Administratorüberwachungsprotokolle enthalten eine Aufzeichnung aller Cmdlets und Parameter, die in der Exchange-Verwaltungsshell und von der Exchange-Verwaltungskonsole ausgeführt wurden. Sie werden bei Bedarf beim Ausführen des Berichts "Administratorüberwachungsprotokoll" in der Exchange-Verwaltungskonsole oder des Cmdlets **New-AdminAuditLogSearch** in der Shell erstellt. Weitere Informationen zu Überwachungsprotokollen finden Sie unter [Administratorüberwachungsprotokollierung](administrator-audit-logging-exchange-2013-help.md).
 
@@ -53,42 +53,42 @@ Möchten Sie wissen, welche Verwaltungsaufgaben es im Zusammenhang mit Administr
 </tr>
 <tr class="odd">
 <td><p><code>Event</code></p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p>Dieses Tag enthält den Überwachungsprotokolleintrag für ein einzelnes Cmdlet. Dieses Tag enthält die Attribute <code>Caller</code>, <code>Cmdlet</code>, <code>ObjectModified</code>, <code>RunDate</code>, <code>Succeeded</code>, <code>Error</code> und <code>OriginatingServer</code>. Die Tags <code>CmdletParameters</code> und <code>ModifiedProperties</code> sind untergeordnete Elemente dieses Tags.</p>
 <p>Es gibt ein <code>Event</code>-Tag pro Überwachungsprotokolleintrag.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Caller</code></p></td>
 <td><p>Dieses Attribut enthält das Benutzerkonto des Benutzers, der das Cmdlet im Attribut <code>Cmdlet</code> ausgeführt hat.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Cmdlet</code></p></td>
 <td><p>Das Attribut enthält den Namen des Cmdlets, das vom Benutzer im Attribut <code>Caller</code> ausgeführt wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>ObjectModified</code></p></td>
 <td><p>Dieses Attribut enthält das Objekt, das von dem im Attribut <code>Cmdlet</code> angegebenen Cmdlet geändert wurde. Das Tag <code>ModifiedProperties</code> zeigt an, welche Eigenschaften auf diesem Objekt geändert wurden.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>RunDate</code></p></td>
 <td><p>Dieses Attribut enthält das Datum und die Uhrzeit, zu dem/der das Cmdlet im Attribut <code>Cmdlet</code> ausgeführt wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Succeeded</code></p></td>
 <td><p>Dieses Attribut gibt an, ob das Cmdlet im Attribut <code>Cmdlet</code> erfolgreich ausgeführt wurde. Mögliche Werte sind <code>True</code> und <code>False</code>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Error</code></p></td>
 <td><p>Dieses Attribut enthält die generierte Fehlermeldung, wenn das Cmdlet im Attribut <code>Cmdlet</code> nicht erfolgreich ausgeführt wurde. Wenn kein Fehler aufgetreten ist, wird der Wert auf <code>None</code> festgelegt.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>OriginatingServer</code></p></td>
 <td><p>Dieses Attribut enthält den Server, auf dem das im Attribut <code>Cmdlet</code> angegebene Cmdlet ausgeführt wurde.</p></td>
 </tr>
@@ -100,17 +100,17 @@ Möchten Sie wissen, welche Verwaltungsaufgaben es im Zusammenhang mit Administr
 </tr>
 <tr class="even">
 <td><p><code>Parameter</code></p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p>Dieses Tag enthält jeden einzelnen Parameter, der beim Ausführen des Cmdlets angegeben wurde. Dieses Tag enthält die Attribute <code>Name</code> und <code>Value</code>.</p>
 <p>Es kann mehrere <code>Parameter</code>-Tags pro <code>CmdletParameters</code>-Tag geben.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Name</code></p></td>
 <td><p>Dieses Attribut enthält den Namen des Parameters, der im ausgeführten Cmdlet angegeben wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Value</code></p></td>
 <td><p>Dieses Attribut enthält den Wert, der von dem im Attribut <code>Name</code> angegebenen Parameter bereitgestellt wurde.</p></td>
 </tr>
@@ -128,22 +128,22 @@ Möchten Sie wissen, welche Verwaltungsaufgaben es im Zusammenhang mit Administr
 </tr>
 <tr class="even">
 <td><p><code>Property</code></p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p>Dieses Tag enthält eine einzelne Eigenschaft, die beim Ausführen des Cmdlets angegeben wurde. Dieses Tag enthält die Attribute <code>Name</code>, <code>OldValue</code> und <code>NewValue</code>.</p>
 <p>Es kann mehrere <code>Property</code>-Tags pro <code>ModifiedProperties</code>-Tag geben.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Name</code></p></td>
 <td><p>Dieses Attribut enthält den Namen der Eigenschaft, die beim Ausführen des Cmdlets geändert wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>OldValue</code></p></td>
 <td><p>Dieses Attribut enthält den Wert, der in der im Attribut <code>Name</code> angegebenen Eigenschaft vor der Änderung enthalten war.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>NewValue</code></p></td>
 <td><p>Dieses Attribut enthält den Wert, in den die Eigenschaft im Attribut <code>Name</code> geändert wurde.</p></td>
 </tr>

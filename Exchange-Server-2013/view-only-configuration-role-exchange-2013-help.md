@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:** Exchange Server 2013_
+_**Gilt für:**Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+_**Letztes Änderungsdatum des Themas:**2015-03-09_
 
 Die Verwaltungsrolle `View-Only Configuration` ermöglicht Administratoren die Anzeige aller nicht empfängerbezogenen Exchange-Konfigurationseinstellungen in einer Organisation. Beispiele für anzeigbare Konfigurationen sind Serverkonfigurationen, Transportkonfigurationen, Datenbankkonfigurationen und unternehmensweite Konfigurationen.
 
@@ -139,7 +139,7 @@ Diese Rolle verfügt über Rollenzuweisungen für einen oder mehrere Rollenempf�
 <tr class="even">
 <td><p><a href="delegated-setup-exchange-2013-help.md">Delegiertes Setup</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>
@@ -148,7 +148,7 @@ Diese Rolle verfügt über Rollenzuweisungen für einen oder mehrere Rollenempf�
 <tr class="odd">
 <td><p><a href="hygiene-management-exchange-2013-help.md">Verwaltung von Nachrichtenschutz</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>
@@ -166,7 +166,7 @@ Diese Rolle verfügt über Rollenzuweisungen für einen oder mehrere Rollenempf�
 <tr class="odd">
 <td><p><a href="view-only-organization-management-exchange-2013-help.md">Organisationsverwaltung mit Leserechten</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>
