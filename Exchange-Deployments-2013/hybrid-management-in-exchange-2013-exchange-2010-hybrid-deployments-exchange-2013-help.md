@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Dieses Thema ist in Bearbeitung.  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 Bei der Installation Servers mit Microsoft Exchange Server 2013in Ihrer lokalen Exchange 2010-Organisation werden automatisch die Exchange 2013-Verwaltungstools auf dem Server installiert. Mit den folgenden Tools konfigurieren und verwalten Sie Hybridfunktionen für die lokale Exchange und die Exchange Online-Organisation:
 

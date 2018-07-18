@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Project Server 2013_
+_**Gilt für:** Exchange Server 2013, Project Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit dem UM-Integritätssatz (Unified Messaging) wird die Gesamtintegrität des UM-Diensts in Ihrer Organisation überwacht.
 
@@ -158,7 +158,7 @@ Wenn die Ereignisprotokolle keine ausreichenden Informationen enthalten, müssen
 
 Erneuern Sie das UM-Dienstzertifikat auf dem Postfachserver.
 
-**Zusätzliche Schritte zur Problembehandlung:**
+**Zusätzliche Schritte zur Problembehandlung:** 
 
 1.  Starten Sie den IIS-Manager, und stellen Sie eine Verbindung mit dem Server her, von dem das Problem gemeldet wird, um zu bestimmen, ob der Anwendungspool **MSExchangeServicesAppPool** ausgeführt wird.
 

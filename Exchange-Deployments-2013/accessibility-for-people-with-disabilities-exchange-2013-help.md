@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-15_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-15_
 
 Microsoft hat es sich zur Aufgabe gemacht, die Handhabung der Produkte  und Dienste für jeden möglichst einfach zu gestalten. Die folgenden Abschnitte enthalten Informationen zu den folgenden Funktionen, Produkten und Diensten, mit denen Microsoft Exchange für Personen mit Behinderungen einfacher einzusetzen ist:
 

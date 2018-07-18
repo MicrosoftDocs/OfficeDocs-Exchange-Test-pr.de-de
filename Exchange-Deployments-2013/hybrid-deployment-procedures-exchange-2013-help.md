@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2017-06-14_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2017-06-14_
 
 Die Konfiguration und Verwaltung von Hybridbereitstellungen ist dank der neuesten Verbesserungen am Assistenten für die Hybridkonfiguration einfacher als je zuvor. Unabhängig davon, ob Sie eine Verbindung mit der lokalen Exchange- oder Exchange Online-Organisation für eine langfristige Koexistenz oder als Teil einer Cloudmigrationsstrategie herstellen möchten, ist die Konfiguration einer Hybridbereitstellung der erste Schritt für Ihre Exchange-Organisation.
 

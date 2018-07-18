@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-11_
+_**Letztes Änderungsdatum des Themas:** 2013-02-11_
 
 Mit dem POP.Proxy-Integritätssatz wird die Verfügbarkeit der POP3-Proxyinfrastruktur von Microsoft Exchange auf dem Clientzugriffsserver überwacht. Wenn Sie eine Warnung erhalten, dass Integritätsfehler im POP.Proxy-Integritätssatz vorliegen, weist dies auf ein Problem hin, das eventuell die POP-Komponenten auf dem Clientzugriffsserver betrifft, der in der Warnung angegeben ist.
 

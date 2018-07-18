@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 Sie können anhand von Exchange 2013 und Exchange 2016 Hybridbereitstellungen konfigurieren. Die zum Unterstützen einer Hybridbereitstellung zu konfigurierenden Rollen hängen von der von Ihnen verwendeten Version von Exchange ab.
 
@@ -69,7 +69,7 @@ Ein Exchange-Server stellt in einer Hybridbereitstellung viele wichtige Funktion
     
     Weitere Informationen finden Sie unter [Grundlegendes zur Domänensicherheit](http://go.microsoft.com/fwlink/p/?linkid=266581).
 
-  - **Outlook im Web (auch Outlook Web App in Exchange 2013):** Exchange 2013-Server mit Clientzugriffsrolle und Exchange 2016-Server mit der Postfachrolle unterstützen die Konfiguration eines einzelnen URL-Endpunkts für externe Verbindungen mit lokalen und Exchange Online-Postfächern. Für lokale Postfächer werden Exchange-Server zur Verarbeitung von Outlook im Web-Anforderungen konfiguriert. Für Postfächer in Exchange Online-Organisationen werden Exchange-Server so konfiguriert, dass sie automatisch einen Link zum Outlook im Web-Endpunkt in der Exchange Online-Organisation anzeigen.
+  - **Outlook im Web (auch Outlook Web App in Exchange 2013):**  Exchange 2013-Server mit Clientzugriffsrolle und Exchange 2016-Server mit der Postfachrolle unterstützen die Konfiguration eines einzelnen URL-Endpunkts für externe Verbindungen mit lokalen und Exchange Online-Postfächern. Für lokale Postfächer werden Exchange-Server zur Verarbeitung von Outlook im Web-Anforderungen konfiguriert. Für Postfächer in Exchange Online-Organisationen werden Exchange-Server so konfiguriert, dass sie automatisch einen Link zum Outlook im Web-Endpunkt in der Exchange Online-Organisation anzeigen.
     
     Weitere Informationen finden Sie unter [Outlook Web App](https://technet.microsoft.com/de-de/library/jj657718\(v=exchg.150\)).
 

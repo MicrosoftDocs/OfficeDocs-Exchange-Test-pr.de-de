@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 Bei der Installation eines Exchange-Servers werden automatisch die Exchange-Verwaltungstools auf dem Server installiert. Mit den folgenden Tools konfigurieren und verwalten Sie sowohl die lokale Exchange als auch die Exchange Online-Organisation:
 

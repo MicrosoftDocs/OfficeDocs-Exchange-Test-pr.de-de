@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Project Server 2013_
+_**Gilt für:** Exchange Server 2013, Project Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Der **FIPS**-Integritätssatz überwacht die Gesamtintegrität der FIPS-Einstellungen (Federal Information Processing Standards, Bundesstandard für Informationsverarbeitung) auf Exchange-Servern. Weitere Informationen über FIPS 140 finden Sie im Thema zur [FIPS 140-Überprüfung](http://go.microsoft.com/fwlink/p/?linkid=521913).
 

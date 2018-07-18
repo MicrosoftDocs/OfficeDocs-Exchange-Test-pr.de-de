@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit dem EWS.Proxy-Integritätssatz wird die Verfügbarkeit der Proxyinfrastruktur der Exchange-Webdienste (EWS) auf dem Clientzugriffsserver überwacht. Der EWS.Proxy-Integritätssatz steht in enger Beziehung mit dem folgenden Integritätssatz:
 

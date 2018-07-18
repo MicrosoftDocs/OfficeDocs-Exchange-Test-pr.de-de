@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Project Server 2013_
+_**Gilt für:** Exchange Server 2013, Project Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-11_
+_**Letztes Änderungsdatum des Themas:** 2012-10-11_
 
 Vielen Dank, dass Sie auf den Link geklickt haben, der Sie zu dieser Seite gebracht hat. Obwohl aktuell keine Anleitungen zur Problembehandlung für diesen Integritätssatz vorhanden sind, hilft Ihr Versuch, die Anleitungsartikel zur Problembehandlung für das Exchange 2013 Management Pack zu priorisieren. Hier sind einige empfohlene Aktionen, die Ihnen die Problembehandlung bei diesem Integritätssatz erleichtern können:
 

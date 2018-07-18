@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Dieses Thema ist in Bearbeitung.  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-12-09_
 
 Mit Microsoft Exchange bereitgestellte Edge-Transport-Server werden im lokalen Umkreisnetzwerk Ihrer Organisation bereitgestellt. Sie sind keine der Domäne beigetretenen Computer, die den internetseitigen Nachrichtenfluss verarbeiten und als SMTP-Relay und Smarthost für Exchange-Server im internen Netzwerk fungieren.
 

@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:**2013-05-17_
+_**Letztes Änderungsdatum des Themas:** 2013-05-17_
 
 Das Exchange Server 2013-Management Pack baut auf der Funktion für verwaltete Verfügbarkeit in Microsoft Exchange Server 2013 auf. Bei dieser Funktion überwacht sich jede Exchange Server 2013-Komponente mithilfe von Tests, Monitoren und Antwortdiensten selbst. Jede Komponente, die die Funktion für verwaltete Verfügbarkeit implementiert, wird als *Integritätssatz* bezeichnet. Die folgende Tabelle bietet Hilfestellung bei der Problembehandlung für alle in Exchange 2013 verfügbaren Integritätssätze:
 

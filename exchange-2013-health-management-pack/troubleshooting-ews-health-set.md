@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Project Server 2013_
+_**Gilt für:** Exchange Server 2013, Project Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit dem EWS-Integritätssatz (Exchange-Webdienste) wird die Gesamtintegrität des EWS-Diensts überwacht. Der EWS-Integritätssatz steht in enger Beziehung mit den folgenden Integritätssätzen:
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-04-29_
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-04-29_
 
 Durch die Konfiguration einer Hybridbereitstellung in Exchange mit dem Assistenten für die Hybridkonfiguration wird das Risiko von Problemen in der Hybridbereitstellung minimiert. Es gibt jedoch einige typische Bereiche, die den Rahmen des Assistenten für die Hybridkonfiguration übersteigen. Sofern dieser fehlerhaft konfiguriert ist, kann dies zu Problemen in der Hybridbereitstellung führen. In diesem Thema werden die folgenden gängigen Bereiche erläutert, in denen Probleme auftreten können. Ferner werden grundlegende Schritte beschrieben, um die Probleme zu überprüfen und zu korrigieren:
 
@@ -92,7 +92,7 @@ Die Konfiguration von Zertifikaten, die auf lokalen Exchange-Servern installiert
 
   - **Zugewiesene Dienste**   IIS- (Internetinformationsdienste) und SMTP-Dienste (Simple Mail Transport Protocol) müssen dem digitalen Zertifikat zugewiesen werden, das für den Hybridtransport verwendet wird. Wenn diese Dienste nicht zugewiesen werden, funktioniert der sichere E-Mail-Transport zwischen der Exchange Online-Organisation und der lokalen Organisation nicht ordnungsgemäß.
 
-  - **Installation:** Das für den sicheren E-Mail-Transport zwischen der lokalen und der Exchange Online-Organisation verwendete digitale Zertifikat muss auf allen lokalen Exchange-Servern installiert sein. Wenn Sie eine Hybridbereitstellung mit lokalen Edge-Transport-Servern einrichten, muss das digitale Zertifikat auch auf den Edge-Transport-Servern installiert werden. Wenn das Zertifikat nicht auf den lokalen Servern installiert ist, funktioniert der sichere E-Mail-Transport zwischen der Exchange Online-Organisation und der lokalen Organisation nicht ordnungsgemäß.
+  - **Installation:**  Das für den sicheren E-Mail-Transport zwischen der lokalen und der Exchange Online-Organisation verwendete digitale Zertifikat muss auf allen lokalen Exchange-Servern installiert sein. Wenn Sie eine Hybridbereitstellung mit lokalen Edge-Transport-Servern einrichten, muss das digitale Zertifikat auch auf den Edge-Transport-Servern installiert werden. Wenn das Zertifikat nicht auf den lokalen Servern installiert ist, funktioniert der sichere E-Mail-Transport zwischen der Exchange Online-Organisation und der lokalen Organisation nicht ordnungsgemäß.
 
   - **Ablauf**   Das digitale Zertifikat, das für den sicheren E-Mail-Transport zwischen der lokalen und der Exchange Online-Organisation verwendet wird, darf nicht ablaufen. Wenn das Zertifikat abläuft, funktioniert der sichere E-Mail-Transport zwischen der Exchange Online-Organisation und der lokalen Organisation nicht ordnungsgemäß.
 
@@ -124,12 +124,11 @@ Wenn bei der Ausführung des Assistenten für die Hybridkonfiguration ein Fehler
 
   - **Meldung: „Default Receive Connector cannot be found on server \<Server Name\>“**. Diese Meldung wird angezeigt, wenn der Empfangsconnector auf einem im folgenden Attribut aufgeführten Exchange 25-Exchange-Server sowohl bei IPv4- als auch bei IPv6-Protokollen den TCP-Port 25 nicht überwacht: `(Get-HybridConfiguration).ReceivingTransportServers.`
     
-      -  
-        Führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um zu überprüfen, ob die auf den Exchange-Servern aufgelisteten Empfangsconnectors beim Ausführen von `(Get-HybridConfiguration).ReceivingTransportServers.` über die richtigen Verbindungen verfügen.
+      -    Führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um zu überprüfen, ob die auf den Exchange-Servern aufgelisteten Empfangsconnectors beim Ausführen von `(Get-HybridConfiguration).ReceivingTransportServers.` über die richtigen Verbindungen verfügen.
         
-            Get-ReceiveConnector -Server <Server Name> | FT Identity, Bindings
+      Get-ReceiveConnector -Server <Server Name> | FT Identity, Bindings
         
-        Der folgende Eintrag sollte für Ihre Exchange-Server aufgeführt werden: `{[::]:25, 0.0.0.0:25}`
+      Der folgende Eintrag sollte für Ihre Exchange-Server aufgeführt werden: `{[::]:25, 0.0.0.0:25}`
         
-        Wenn diese Anschlussbindung nicht aufgeführt wird, müssen Sie sie mithilfe des Parameters *Bindings* des Cmdlets **Set-ReceiveConnector** zur Ihrem Empfangsconnector hinzufügen. Weitere Informationen finden Sie unter [Set-ReceiveConnector](https://technet.microsoft.com/de-de/library/bb125140\(v=exchg.150\)).
+      Wenn diese Anschlussbindung nicht aufgeführt wird, müssen Sie sie mithilfe des Parameters *Bindings* des Cmdlets **Set-ReceiveConnector** zur Ihrem Empfangsconnector hinzufügen. Weitere Informationen finden Sie unter [Set-ReceiveConnector](https://technet.microsoft.com/de-de/library/bb125140\(v=exchg.150\)).
 

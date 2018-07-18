@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Der Integritätssatz **HubTransport** überwacht die Gesamtintegrität der Transportpipeline auf Postfachservern, die für die Weiterleitung von E-Mails in Ihrer Organisation verantwortlich ist. Weitere Informationen finden Sie unter [Nachrichtenübermittlung](https://technet.microsoft.com/de-de/library/aa996349\(v=exchg.150\)).
 

@@ -13,9 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-07-29_
+_<strong>Gilt für:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
+
+_<strong>Letztes Änderungsdatum des Themas:</strong>2016-07-29_
+
 
 In diesem Thema werden die verschiedenen Weiterleitungsoptionen für eingehende Nachrichten aus dem Internet und ausgehende Nachrichten ins Internet erläutert.
 
@@ -37,9 +39,9 @@ Während der Planung und Konfiguration der Hybridbereitstellung müssen Sie ents
 
 Der Pfad von Nachrichten, die an Empfänger in Ihrer lokalen Organisation und der Exchange Online-Organisation gesendet werden, hängt davon ab, wie Sie den MX-Eintrag in Ihrer Hybridbereitstellung konfigurieren. Es wird empfohlen, dass der MX-Eintrag auf Exchange Online Protection (EOP) in Office 365 verweist, da diese Konfiguration die genaueste Spamfilterung bietet. Der Assistent für die Hybridkonfiguration konfiguriert nicht die Weiterleitung von eingehenden Internet-Nachrichten für die lokale oder die Exchange Online-Organisation. Wenn Sie die Zustellung der eingehenden Internet-E-Mails ändern möchten, müssen Sie den MX-Eintrag manuell konfigurieren.
 
-  - **Falls Sie den MX-Eintrag so ändern, dass er auf den EOP-Dienst (Exchange Online Protection) in Office 365 verweist: **  Dies ist die empfohlene Konfiguration für Hybridbereitstellungen. Alle Nachrichten an Empfänger in den Organisationen werden zunächst über Ihre Exchange Online-Organisation weitergeleitet. Eine an einen Empfänger in der lokalen Organisation adressierte Nachricht wird zunächst über die Exchange Online-Organisation weitergeleitet und dann an den Empfänger in der lokalen Organisation zugestellt. Diese Route wird auch empfohlen, wenn in der Exchange Online-Organisation mehr Empfänger vorhanden sind als in der lokalen Organisation und wenn Nachrichten von EOP gefiltert werden sollen. Diese Konfigurationsoption ist erforderlich, damit Exchange Online Protection Nachrichten auf Spam prüfen und danach filtern kann.
+  - **Falls Sie den MX-Eintrag so ändern, dass er auf den EOP-Dienst (Exchange Online Protection) in Office 365 verweist:**   Dies ist die empfohlene Konfiguration für Hybridbereitstellungen. Alle Nachrichten an Empfänger in den Organisationen werden zunächst über Ihre Exchange Online-Organisation weitergeleitet. Eine an einen Empfänger in der lokalen Organisation adressierte Nachricht wird zunächst über die Exchange Online-Organisation weitergeleitet und dann an den Empfänger in der lokalen Organisation zugestellt. Diese Route wird auch empfohlen, wenn in der Exchange Online-Organisation mehr Empfänger vorhanden sind als in der lokalen Organisation und wenn Nachrichten von EOP gefiltert werden sollen. Diese Konfigurationsoption ist erforderlich, damit Exchange Online Protection Nachrichten auf Spam prüfen und danach filtern kann.
 
-  - **Falls Sie den MX-Eintrag auf Ihre lokale Organisation ausgerichtet lassen: **   Alle Nachrichten an Empfänger in den Organisationen werden zunächst über Ihre lokale Organisation weitergeleitet. Eine an einen Empfänger in Exchange Online adressierte Nachricht wird zunächst über die lokale Organisation weitergeleitet und dann an den Empfänger in Exchange Online zugestellt. Diese Route kann für Organisationen mit Richtlinien zur Kompatibilität hilfreich sein, denen zufolge an eine und von einer Organisation gesendete Nachrichten von einer Lösung zur Journalerstellung geprüft werden müssen. Wenn Sie diese Option wählen, kann Exchange Online Protection Nachrichten nicht effektiv auf Spam prüfen und nicht nach diesen filtern.
+  - **Falls Sie den MX-Eintrag auf Ihre lokale Organisation ausgerichtet lassen:**    Alle Nachrichten an Empfänger in den Organisationen werden zunächst über Ihre lokale Organisation weitergeleitet. Eine an einen Empfänger in Exchange Online adressierte Nachricht wird zunächst über die lokale Organisation weitergeleitet und dann an den Empfänger in Exchange Online zugestellt. Diese Route kann für Organisationen mit Richtlinien zur Kompatibilität hilfreich sein, denen zufolge an eine und von einer Organisation gesendete Nachrichten von einer Lösung zur Journalerstellung geprüft werden müssen. Wenn Sie diese Option wählen, kann Exchange Online Protection Nachrichten nicht effektiv auf Spam prüfen und nicht nach diesen filtern.
 
 Weitere Informationen finden Sie unter [Bewährte Methoden für die Nachrichtenübermittlung für Exchange Online und Office 365 (Übersicht)](https://technet.microsoft.com/de-de/library/jj937232\(v=exchg.150\)).
 
