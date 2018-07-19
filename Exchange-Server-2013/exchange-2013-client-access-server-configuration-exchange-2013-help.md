@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Konfiguration des Exchange 2013-Clientzugriffsservers: Exchange 2013 Help'
 TOCTitle: Konfiguration des Exchange 2013-Clientzugriffsservers
 ms:assetid: 01432ae4-2a00-44a4-a4dd-4eb8d7e6cfae
@@ -73,17 +73,25 @@ Sie müssen folgende Befehle ausführen, um die virtuellen Verzeichnisse für Ex
     
     Führen Sie an einer Eingabeaufforderung die folgenden Befehle aus, nachdem Sie das virtuelle Outlook Web App-Verzeichnis festgelegt haben.
     
-        Net stop IISAdmin /y
+    ```
+    Net stop IISAdmin /y
+    ```
     
-        Net start W3SVC
+    ```
+    Net start W3SVC
+    ```
 
 2.  Führen Sie zum Konfigurieren des externen Zugriffs auf die Exchange-Verwaltungskonsole den folgenden Befehl in der Exchange-Verwaltungsshell aus.
     
-        Set-EcpVirtualDirectory "<CAS2013>\ECP (Default Web Site)" -ExternalUrl https://mail.contoso.com/ECP -InternalURL https://mail.contoso.com/ECP 
+    ```
+    Set-EcpVirtualDirectory "<CAS2013>\ECP (Default Web Site)" -ExternalUrl https://mail.contoso.com/ECP -InternalURL https://mail.contoso.com/ECP 
+    ```
 
 3.  Führen Sie zum Konfigurieren des Verfügbarkeitsdiensts den folgenden Befehl in der Exchange-Verwaltungsshell aus.
     
-        Set-WebServicesVirtualDirectory -Identity "<CAS2013>\EWS (Default Web Site)" -ExternalURL https://mail.contoso.com/EWS/Exchange.asmx
+    ```
+    Set-WebServicesVirtualDirectory -Identity "<CAS2013>\EWS (Default Web Site)" -ExternalURL https://mail.contoso.com/EWS/Exchange.asmx
+    ```
 
 Mit der Remoteverbindungsuntersuchung, einem kostenlosen webbasierten Tool von Microsoft, können Sie prüfen, ob die externe URL ordnungsgemäß für Exchange ActiveSync oder Outlook Web App konfiguriert wurde. Sie finden die Remoteverbindungsuntersuchung [hier](http://go.microsoft.com/fwlink/?linkid=154308).
 
@@ -102,4 +110,3 @@ Sie müssen folgende Befehle ausführen, um die virtuellen Verzeichnisse für Ex
   - Zum Konfigurieren der externen URL im virtuellen Outlook Web App-Verzeichnis führen Sie in der Exchange-Verwaltungsshell den folgenden Befehl aus.
     
         Set-OwaVirtualDirectory -Identity "<CAS2007>\owa (Default Web Site)" -ExternalUrl https://legacy.contoso.com/owa
-
