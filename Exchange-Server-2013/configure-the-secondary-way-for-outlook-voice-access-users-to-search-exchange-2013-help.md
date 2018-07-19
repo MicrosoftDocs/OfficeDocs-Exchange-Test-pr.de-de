@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Bei der Erstellung eines Wählplans können Sie die primäre und die sekundäre *Wahlmethode nach Namen* oder Möglichkeiten konfigurieren, mit denen Anrufer nach Namen suchen können. Mithilfe dieser Methoden für die Wahl nach Namen können Anrufer Namen nachschlagen, um einen Benutzer zu ermitteln und zu kontaktieren, wenn sie eine Outlook Voice Access-Nummer oder eine automatische UM-Telefonzentrale anrufen, die dem Wählplan zugeordnet ist. Anrufer können Tonwahleingaben für die Suche nach einem UM-aktivierten Benutzer verwenden.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Werden von einem Benutzer Probleme mit der Audioqualität der UM-Anrufe (Unified Messaging) gemeldet, können Sie den Bericht für Benutzeranrufprotokolle verwenden, um die Ursache der Probleme zu klären.
 

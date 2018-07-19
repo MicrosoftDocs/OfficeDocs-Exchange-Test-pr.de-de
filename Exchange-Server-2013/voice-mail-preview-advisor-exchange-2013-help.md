@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Unified Messaging (UM) umfasst ein Feature namens Voicemailvorschau, das Voicemailnachrichten mithilfe der automatischen Spracherkennung eine Textversion der Voicemailaudiodatei hinzufügt. Die automatische Spracherkennung ist nicht immer exakt, insbesondere wenn sie für die Aufzeichnung von Ton mit unbekannten Stimmen und Geräuschen über ein Telefon verwendet wird. Einige Organisationen benötigen konsistent fehlerfreie (oder nahezu fehlerfreie) Abschriften von Sprachnachrichten. Das Voicemailvorschau-Partnerprogramm unterstützt diese Organisationen bei der Erfüllung dieser Anforderungen.
 

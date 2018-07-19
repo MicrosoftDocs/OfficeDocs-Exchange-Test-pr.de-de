@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Mit den Cmdlet-Sätzen **MailboxImportRequest** oder **MailboxExportRequest** der Exchange-Verwaltungsshell können Sie Daten aus PST-Dateien importieren oder in das PST-Format exportieren. Nach dem Initiieren einer Postfachimport- oder -exportanforderung wird der Vorgang vom Microsoft Exchange-Postfachreplikationsdienst asynchron ausgeführt. Der Postfachreplikationsdienst ist auf allen Exchange 2010-Clientzugriffsservern vorhanden und wird zum Verschieben von Postfächern sowie für den Import und Export von PST-Dateien eingesetzt.
 

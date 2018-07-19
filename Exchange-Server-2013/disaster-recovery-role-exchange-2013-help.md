@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Disaster Recovery` ermöglicht Administratoren das Wiederherstellen von Postfächern und Postfachdatenbanken, das Erstellen von Postfachdatenbanken und das Durchführen von Switchover- und Switchbackvorgängen für Database Availability Groups in einer Organisation.
 

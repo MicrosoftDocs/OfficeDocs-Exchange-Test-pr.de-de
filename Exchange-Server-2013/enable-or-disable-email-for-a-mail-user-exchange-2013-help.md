@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-14_
+_**Letztes Änderungsdatum des Themas:** 2012-11-14_
 
 Sie können E-Mails für einen vorhandenen E-Mail-Benutzer in der Exchange-Organisation deaktivieren. Wenn Sie E-Mails für einen E-Mail-Benutzer deaktivieren, wird er aus Exchange und dem Adressbuch der Organisation entfernt. Wenn der E-Mail-Benutzer Mitglied einer Verteilergruppe ist, erhält der Benutzer keine E-Mails mehr, die an die Gruppe gesendet werden. Zudem werden die Exchange-Attribute vom Benutzerobjekt in Active Directory entfernt, aber das Benutzerobjekt und seine Attribute, die sich nicht auf Exchange beziehen (wie Kontakt- und Organisationsinformationen), bleiben in Active Directory erhalten.
 

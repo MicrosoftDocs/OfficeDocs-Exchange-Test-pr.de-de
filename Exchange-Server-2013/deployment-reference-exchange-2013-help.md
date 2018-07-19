@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-08-02_
+_**Letztes Änderungsdatum des Themas:** 2013-08-02_
 
 [Exchange 2013: Editionen und Versionen](exchange-2013-editions-and-versions-exchange-2013-help.md)
 

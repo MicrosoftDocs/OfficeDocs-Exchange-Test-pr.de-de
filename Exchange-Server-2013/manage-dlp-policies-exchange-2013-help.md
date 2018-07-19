@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-14_
+_**Letztes Änderungsdatum des Themas:** 2015-01-14_
 
 Mit der Exchange-Verwaltungskonsole oder der Exchange-Verwaltungsshell können Sie vorhandene Richtlinien zur Verhinderung von Datenverlusten (Data Loss Prevention, DLP) in Microsoft Exchange anzeigen, ändern oder entfernen.
 
@@ -31,14 +31,11 @@ Weitere Informationen zur Exchange-Verwaltungsshell finden Sie unter [Verwenden 
 
   - Für jede DLP-Richtlinie können Sie einen von drei Modi auswählen:
     
-      -  
-        **Erzwingen**   Regeln in der Richtlinie werden für alle Nachrichten und unterstützten Dateitypen ausgewertet. Der Nachrichtfluss kann unterbrochen werden, wenn Daten gefunden werden, die die Bedingungen der Richtlinie erfüllen. Alle in der Richtlinie beschriebenen Aktionen werden ausgeführt.
+      -    **Erzwingen**   Regeln in der Richtlinie werden für alle Nachrichten und unterstützten Dateitypen ausgewertet. Der Nachrichtfluss kann unterbrochen werden, wenn Daten gefunden werden, die die Bedingungen der Richtlinie erfüllen. Alle in der Richtlinie beschriebenen Aktionen werden ausgeführt.
     
-      -  
-        **DLP-Richtlinie mit Richtlinientipps testen**   Regeln in der Richtlinie werden für alle Nachrichten und unterstützten Dateitypen ausgewertet. Der Nachrichtfluss wird nicht unterbrochen, wenn Daten gefunden werden, die die Bedingungen der Richtlinie erfüllen. Das heißt, Nachrichten werden nicht blockiert. Wenn Richtlinientipps konfiguriert sind, werden sie den Benutzern angezeigt.
+      -    **DLP-Richtlinie mit Richtlinientipps testen**   Regeln in der Richtlinie werden für alle Nachrichten und unterstützten Dateitypen ausgewertet. Der Nachrichtfluss wird nicht unterbrochen, wenn Daten gefunden werden, die die Bedingungen der Richtlinie erfüllen. Das heißt, Nachrichten werden nicht blockiert. Wenn Richtlinientipps konfiguriert sind, werden sie den Benutzern angezeigt.
     
-      -  
-        **DLP-Richtlinie ohne Richtlinientipps testen**   Regeln in der Richtlinie werden für alle Nachrichten und unterstützten Dateitypen ausgewertet. Der Nachrichtfluss wird nicht unterbrochen, wenn Daten gefunden werden, die die Bedingungen der Richtlinie erfüllen. Das heißt, Nachrichten werden nicht blockiert. Wenn Richtlinientipps konfiguriert sind, werden sie den Benutzern nicht angezeigt.
+      -    **DLP-Richtlinie ohne Richtlinientipps testen**   Regeln in der Richtlinie werden für alle Nachrichten und unterstützten Dateitypen ausgewertet. Der Nachrichtfluss wird nicht unterbrochen, wenn Daten gefunden werden, die die Bedingungen der Richtlinie erfüllen. Das heißt, Nachrichten werden nicht blockiert. Wenn Richtlinientipps konfiguriert sind, werden sie den Benutzern nicht angezeigt.
 
   - Eine einzelne Regel in einer DLP-Richtlinie kann eigene Moduseinstellungen haben. Wenn der Modus einer Richtlinie und der Modus einer Regel in dieser Richtlinie unterschiedlich sind, hat die Regeleinstellung Vorrang und wird entsprechend ihrem Modus ausgewertet.
 

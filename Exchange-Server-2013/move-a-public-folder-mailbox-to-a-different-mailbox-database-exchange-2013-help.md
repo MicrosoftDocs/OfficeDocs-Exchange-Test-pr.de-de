@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-07-21_
+_**Letztes Änderungsdatum des Themas:** 2015-07-21_
 
 Sie müssen ein Postfach für öffentliche Ordner ggf. in eine andere Postfachdatenbank verschieben, wenn Sie den Lastenausgleich verbessern oder Ressourcen näher an ihren geografischen Standort verschieben möchten. Ähnlich wie zum Verschieben eines herkömmlichen Postfachs verwenden Sie die **MoveRequest**-Cmdlets zum Verschieben eines Postfachs für öffentliche Ordner. Weitere Informationen zum Verschieben von Postfächern finden Sie unter [Postfachverschiebungen in Exchange 2013](mailbox-moves-in-exchange-2013-exchange-2013-help.md).
 

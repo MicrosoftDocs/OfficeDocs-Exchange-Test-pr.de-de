@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Distribution Groups` ermöglicht Administratoren das Erstellen, Ändern, Anzeigen und Entfernen von Verteilergruppen sowie das Hinzufügen oder Entfernen von Mitgliedern in Verteilergruppen in einer Organisation.
 

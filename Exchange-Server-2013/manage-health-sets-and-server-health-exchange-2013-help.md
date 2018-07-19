@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013 SP1_
+_**Gilt für:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Letztes Änderungsdatum des Themas:**2013-12-02_
+_**Letztes Änderungsdatum des Themas:** 2013-12-02_
 
 Mithilfe der integrierten Cmdlets für die Integritätsberichterstellung können Sie verschiedene Aufgaben im Zusammenhang mit verwalteter Verfügbarkeit ausführen wie z. B.:
 
@@ -49,17 +49,27 @@ Mithilfe der integrierten Cmdlets für die Integritätsberichterstellung können
 
 Führen Sie einen der folgenden Befehle aus, um die Integritätssätze und Integritätsinformationen zu einem Server anzuzeigen, auf dem Exchange 2013 ausgeführt wird.
 
+```
     Get-HealthReport -Identity <ServerName>
+```
 
+```
     Get-ServerHealth -Identity <ServerName> | Format-Table Server,CurrentHealthSetState,Name,HealthSetName,AlertValue,HealthGroupName -Auto
+```
 
 Führen Sie einen der folgenden Befehle aus, um die Integritätssätze zu einem Server oder einer Database Availability Group anzuzeigen, auf dem/in der Exchange 2013 ausgeführt wird.
 
+```
     Get-ExchangeServer | Get-HealthReport -RollupGroup
+```
 
+```
     Get-ExchangeServer | Get-HealthReport -RollupGroup -HealthSetName <HealthSet>
+```
 
+```
     (Get-DatabaseAvailabiltyGroup <DAGName>).Servers | Get-HealthReport -RollupGroup
+```
 
 ## Anzeigen einer Liste von Integritätssätzen
 

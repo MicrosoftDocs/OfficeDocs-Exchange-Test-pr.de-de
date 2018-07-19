@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-03-15_
+_**Letztes Änderungsdatum des Themas:** 2013-03-15_
 
 Protokollaufzeichnungen enthalten SMTP-Unterhaltungen, die zwischen Sende- und Empfangsconnectors als Teil der Nachrichtenübermittlung stattfinden.
 
@@ -155,17 +155,13 @@ Führen Sie den folgenden Befehl aus, um die Protokolleinstellungen zu konfiguri
 
 In diesem Beispiel werden die folgenden Protokolleinstellungen im Transportdienst auf dem Postfachserver "Mailbox01" festgelegt:
 
-  -  
-    Der Speicherort aller Empfangsconnectorprotokolle wird auf "D:\\Hub Receive SMTP Log" festgelegt, und für alle Sendeconnectorprotokolle wird er auf "D:\\Hub Send SMTP Log" festgelegt. Beachten Sie, dass der Ordner für Sie erstellt wird, wenn er nicht vorhanden ist.
+  -  Der Speicherort aller Empfangsconnectorprotokolle wird auf "D:\\Hub Receive SMTP Log" festgelegt, und für alle Sendeconnectorprotokolle wird er auf "D:\\Hub Send SMTP Log" festgelegt. Beachten Sie, dass der Ordner für Sie erstellt wird, wenn er nicht vorhanden ist.
 
-  -  
-    Die maximale Größe einer Empfangsconnector-Protokolldatei und einer Sendeconnector-Protokolldatei wird auf 20 MB festgelegt.
+  -  Die maximale Größe einer Empfangsconnector-Protokolldatei und einer Sendeconnector-Protokolldatei wird auf 20 MB festgelegt.
 
-  -  
-    Die maximale Größe eines Empfangsconnector-Protokollordners und eines Sendeconnector-Protokollordners wird auf 400 MB festgelegt.
+  -  Die maximale Größe eines Empfangsconnector-Protokollordners und eines Sendeconnector-Protokollordners wird auf 400 MB festgelegt.
 
-  -  
-    Das maximale Alter einer Empfangsconnector-Protokolldatei und einer Sendeconnector-Protokolldatei wird auf 45 Tage festgelegt.
+  -  Das maximale Alter einer Empfangsconnector-Protokolldatei und einer Sendeconnector-Protokolldatei wird auf 45 Tage festgelegt.
 
 <!-- end list -->
 

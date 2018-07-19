@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit dem Microsoft Exchange Unified Messaging-Anrufrouter-Integritätssatz (UM) wird die Gesamtintegrität des UM-Anrufrouterdiensts überwacht.
 
@@ -122,7 +122,7 @@ Wenn die Ereignisprotokolle keine ausreichenden Informationen enthalten, müssen
 
 Erneuern Sie das UM-Anrufrouterdienst-Zertifikat auf dem Clientzugriffsserver.
 
-**Zusätzliche Schritte zur Problembehandlung:**
+**Zusätzliche Schritte zur Problembehandlung:** 
 
 1.  Starten Sie den IIS-Manager, und stellen Sie eine Verbindung mit dem Server her, von dem das Problem gemeldet wird, um zu bestimmen, ob der Anwendungspool **MSExchangeServicesAppPool** ausgeführt wird.
 

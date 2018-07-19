@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2017-02-03_
+_**Letztes Änderungsdatum des Themas:** 2017-02-03_
 
 Sie können Add-Ins für Outlook für Ihre Organisation über die Exchange-Verwaltungskonsole oder über die Shell installieren und entfernen.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Bei Ihrer Planung des Schutzes von Daten müssen Sie Kenntnisse darüber besitzen, wie Daten geschützt werden können und wie Sie die für die Anforderungen Ihrer Organisation am besten geeignete Methode auswählen. Die Planung des Schutzes von Daten ist ein komplexer Vorgang, der auf zahlreichen Entscheidungen beruht, die Sie in der Planungsphase Ihrer Bereitstellung treffen.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Project Server 2013_
+_**Gilt für:** Exchange Server 2013, Project Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit dem ECP-Integritätssatz (Exchange-Systemsteuerung) wird die Gesamtintegrität der Exchange-Verwaltungskonsole und des Outlook Web App-Benutzereinstellungsdiensts (OWA) überwacht. Der ECP-Integritätssatz steht in enger Beziehung mit dem folgenden Integritätssatz:
 

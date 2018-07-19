@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-13_
+_**Letztes Änderungsdatum des Themas:** 2015-03-13_
 
 Mithilfe der Shell können Sie die Wiederherstellung einzelner Elemente für ein Postfach aktivieren oder deaktivieren. In Exchange Online ist die Wiederherstellung einzelner Elemente standardmäßig aktiviert, wenn ein neues Postfach erstellt wird. Standardmäßig ist die Wiederherstellung einzelner Elemente in Exchange 2013 bei der Erstellung eines Postfachs deaktiviert. Ist die Wiederherstellung einzelner Elemente aktiviert, werden vom Benutzer dauerhaft gelöschte Nachrichten im Ordner „Wiederherstellbare Elemente“ des Postfachs beibehalten, bis die Aufbewahrungszeit für gelöschte Elemente abgelaufen ist. Dadurch kann ein Administrator durch den Benutzer gelöschte Nachrichten wiederherstellen, bevor deren Aufbewahrungszeit für gelöschte Elemente abläuft. Zudem werden Kopien des ursprünglichen Elements, wenn die Wiederherstellung einzelner Elemente aktiviert ist, beibehalten, sofern die Nachricht durch einen Benutzer oder Prozess geändert wird.
 

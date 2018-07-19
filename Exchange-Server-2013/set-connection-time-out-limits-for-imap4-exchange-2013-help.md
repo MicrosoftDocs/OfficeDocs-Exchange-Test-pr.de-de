@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-28_
+_**Letztes Änderungsdatum des Themas:** 2012-11-28_
 
 Mithilfe der Exchange-Verwaltungskonsole oder der Shell können Sie Grenzwerte für Verbindungstimeouts für inaktive authentifizierte oder nicht authentifizierte IMAP4-Verbindungen konfigurieren.
 

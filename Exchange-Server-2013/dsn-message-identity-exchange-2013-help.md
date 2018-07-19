@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Sie können eine benutzerdefinierte DSN-Nachricht (Delivery Status Notification, Benachrichtigung über den Zustellungsstatus) anhand ihrer Syntax identifizieren. Die Identität ist die GUID der angepassten DSN-Nachricht für eine Zeichenfolge, die aus den folgenden Werten besteht:
 

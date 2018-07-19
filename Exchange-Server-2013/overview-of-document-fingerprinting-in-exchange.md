@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-09-11_
+_**Letztes Änderungsdatum des Themas:** 2014-09-11_
 
 Information-Worker in Ihrer Organisation verarbeiten im Lauf eines Arbeitstags viele Arten von vertraulichen Informationen. *Dokumentfingerabdrücke* erleichtern Ihnen den Schutz dieser Informationen durch Identifikation von Standardformularen, die in Ihrer gesamten Organisation verwendet werden. Dieses Thema beschreibt die Konzepte für Dokumentfingerabdrücke. Informationen zum Erstellen eines Dokumentfingerabdrucks finden Sie unter [Schutz von Formulardaten durch Dokumentfingerabdrücke](protect-form-data-with-document-fingerprinting-exchange-2013-help.md).
 

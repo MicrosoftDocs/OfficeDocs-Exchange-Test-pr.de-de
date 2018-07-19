@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-10-01_
+_**Letztes Änderungsdatum des Themas:** 2014-10-01_
 
 Der *Assistent für verwaltete Ordner* ist ein MicrosoftExchange-Postfach-Assistent, mit dem Einstellungen für die Aufbewahrung von Nachrichten angewendet werden, die in Aufbewahrungsrichtlinien konfiguriert sind.
 

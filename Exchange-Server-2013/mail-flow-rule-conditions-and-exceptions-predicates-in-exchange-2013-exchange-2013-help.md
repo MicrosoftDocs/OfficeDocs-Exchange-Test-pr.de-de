@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-12-20_
+_**Letztes Änderungsdatum des Themas:** 2017-12-20_
 
 Bedingungen und Ausnahmen in Nachrichtenflussregeln (auch als Transportregeln bekannt) identifizieren die Nachrichten, auf welche die Regel angewendet oder nicht angewendet wird. Wenn durch die Regel beispielsweise ein Haftungsausschluss zur Nachricht hinzufügt wird, können Sie die Regel so konfigurieren, dass sie nur auf Nachrichten angewendet wird, die bestimmte Wörter enthalten, auf Nachrichten, die von bestimmten Benutzern gesendete werden, oder auf alle Nachrichten mit Ausnahme derjenigen, die von Mitgliedern einer bestimmten Gruppe gesendet werden. Die Bedingungen und Ausnahmen in Nachrichtenflussregeln werden gemeinsam auch als *Prädikate* bezeichnet, da es für jede Bedingung eine entsprechende Ausnahme mit genau denselben Einstellungen und derselben Syntax gibt. Der einzigen Unterschied ist: Bedingungen geben die einzuschließenden Nachrichten an, während Ausnahmen auszuschließende Nachrichten angeben.
 
@@ -47,7 +47,7 @@ Nachrichteneigenschaften
 
 Nachrichtenkopfzeilen
 
-**Hinweise:**
+**Hinweise:** 
 
   - Nach dem Auswählen einer Bedingung oder eine Ausnahme in der Exchange-Verwaltungskonsole (EAC) ist der Wert, der letztendlich im Feld **Diese Regel anwenden, wenn** oder **Außer, wenn** angezeigt wird, häufig anders (kürzer) als der ausgewählte Klickpfadwert. Wenn Sie zudem neue Regeln basierend auf einer Vorlage (eine gefilterte Liste von Szenarien) erstellen, können Sie häufig einen kurzen Bedingungsnamen auswählen anstatt dem vollständigen Klickpfad zu folgen. Die kurzen Namen und vollständigen Klickpfadwerte werden in der Spalte "EAC" in den Tabellen angezeigt.
 
@@ -491,7 +491,7 @@ Wenn Sie eine Empfängerbedingung aus diesem Abschnitt hinzufügen, wird die gle
 
 Umgekehrt ist es so, dass eine Empfängerausnahme aus diesem Abschnitt *verhindert*, dass die Regelaktion auf *alle* Empfänger der Nachricht angewendet wird, nicht nur für die erkannten Empfänger.
 
-**Hinweis:** Diese Bedingung berücksichtigt keine Nachrichten, die an Proxyadressen des Empfängers gesendet werden. Es werden nur Nachrichten berücksichtigt, die an die primäre E-Mail-Adresse des Empfängers gesendet werden.
+**Hinweis:**  Diese Bedingung berücksichtigt keine Nachrichten, die an Proxyadressen des Empfängers gesendet werden. Es werden nur Nachrichten berücksichtigt, die an die primäre E-Mail-Adresse des Empfängers gesendet werden.
 
 
 <table>
@@ -540,7 +540,7 @@ Zurück zum Seitenanfang
 
 Die Bedingungen in diesem Abschnitt, die nach Werten in den Feldern **To** und **Cc** suchen, verhalten sich wie die Bedingungen im Abschnitt Alle Empfänger (*alle* Empfänger der Nachricht sind von der Regel betroffen, nicht nur die erkannten Empfänger).
 
-**Hinweis:** Diese Bedingung berücksichtigt keine Nachrichten, die an Proxyadressen des Empfängers gesendet werden. Es werden nur Nachrichten berücksichtigt, die an die primäre E-Mail-Adresse des Empfängers gesendet werden.
+**Hinweis:**  Diese Bedingung berücksichtigt keine Nachrichten, die an Proxyadressen des Empfängers gesendet werden. Es werden nur Nachrichten berücksichtigt, die an die primäre E-Mail-Adresse des Empfängers gesendet werden.
 
 
 <table>

@@ -120,9 +120,9 @@ Da die hybride Kundenbasis sehr vielfältig ist, ist es schwierig, alle von ihne
 
 ## Szenario eins
 
-**Problem:** Meine Organisation wurde in einer Hybridkonfiguration ausgeführt, und alle meine Postfächer befinden sich in Exchange Online. Ich muss meine Benutzer nicht lokal verwalten und benötige die Verzeichnissynchronisierung oder Synchronisierung von Kennwörtern nicht mehr.
+**Problem:**  Meine Organisation wurde in einer Hybridkonfiguration ausgeführt, und alle meine Postfächer befinden sich in Exchange Online. Ich muss meine Benutzer nicht lokal verwalten und benötige die Verzeichnissynchronisierung oder Synchronisierung von Kennwörtern nicht mehr.
 
-**Lösung:** Da alle Benutzer in Office 365 verwaltet werden, und es keine weiteren Anforderungen für die Verzeichnissynchronisierung gibt, können Sie die Verzeichnissynchronisierung bedenkenlos deaktivieren und Exchange aus der lokalen Umgebung entfernen.
+**Lösung:**  Da alle Benutzer in Office 365 verwaltet werden, und es keine weiteren Anforderungen für die Verzeichnissynchronisierung gibt, können Sie die Verzeichnissynchronisierung bedenkenlos deaktivieren und Exchange aus der lokalen Umgebung entfernen.
 
 ![Entfernen von Exchange aus der lokalen Umgebung](images/Dn931280.f9c2a2cb-4c16-4ca3-8244-b89c1cdf0744(EXCHG.150).jpg "Entfernen von Exchange aus der lokalen Umgebung") **So deaktivieren Sie die Verzeichnissynchronisierung und deinstallieren Exchange-Hybrid**
 
@@ -196,9 +196,9 @@ Da die hybride Kundenbasis sehr vielfältig ist, ist es schwierig, alle von ihne
 
 ## Szenario zwei
 
-**Problem:** Meine Organisation wurde im letzten Jahr in einer Hybridkonfiguration ausgeführt wurde und nun wurde mein letztes Postfach in die Cloud verschoben. Ich plane weiterhin die Active Directory Federation Services (AD FS) für die Benutzerauthentifizierung von meinen Exchange Online-Postfächern zu verwenden. (Dieses Szenario gilt für alle Kunden, die die Verzeichnissynchronisierung beibehalten möchten).
+**Problem:**  Meine Organisation wurde im letzten Jahr in einer Hybridkonfiguration ausgeführt wurde und nun wurde mein letztes Postfach in die Cloud verschoben. Ich plane weiterhin die Active Directory Federation Services (AD FS) für die Benutzerauthentifizierung von meinen Exchange Online-Postfächern zu verwenden. (Dieses Szenario gilt für alle Kunden, die die Verzeichnissynchronisierung beibehalten möchten).
 
-**Lösung:** Da der Kunde AD FS beibehalten möchte, muss er auch die Verzeichnissynchronisierung beibehalten, da sie dazu eine Voraussetzung ist. Aus diesem Grund können Exchange-Server nicht vollständig aus der lokalen Umgebung entfernt werden. Allerdings können sie die meisten der Exchange-Server außer Betrieb nehmen, jedoch nicht einige Servern für die Benutzerverwaltung beibehalten. Denken Sie daran, dass Sie die Server, die weiterlaufen sollen, au virtuellen Computern ausführen können, da die Arbeitsauslastung nahezu vollständig in Exchange Online verschoben wird.
+**Lösung:**  Da der Kunde AD FS beibehalten möchte, muss er auch die Verzeichnissynchronisierung beibehalten, da sie dazu eine Voraussetzung ist. Aus diesem Grund können Exchange-Server nicht vollständig aus der lokalen Umgebung entfernt werden. Allerdings können sie die meisten der Exchange-Server außer Betrieb nehmen, jedoch nicht einige Servern für die Benutzerverwaltung beibehalten. Denken Sie daran, dass Sie die Server, die weiterlaufen sollen, au virtuellen Computern ausführen können, da die Arbeitsauslastung nahezu vollständig in Exchange Online verschoben wird.
 
 Die Abbildung unten beschreibt den gewünschten Endzustand:
 
@@ -286,7 +286,7 @@ Die Abbildung unten beschreibt den tatsächlichen Endzustand:
 
 ## Szenario drei
 
-**Problem:** Ich möchte meine lokalen Exchange-Server entfernen, nachdem ich alle Postfächer auf Exchange Online verschoben habe. Wir stellten fest, dass sie Exchange für andere Zwecke nutzen, wie z. B. für ein SMTP-Relay für eine Anwendung oder für den Zugriff auf öffentliche Ordner. Wenn Sie lokale Exchange-Server benötigen, um die aktuellen Anforderungen Ihrer Organisation zu erfüllen, ist es u. U. nicht ratsam, die lokalen Server zu entfernen.
+**Problem:**  Ich möchte meine lokalen Exchange-Server entfernen, nachdem ich alle Postfächer auf Exchange Online verschoben habe. Wir stellten fest, dass sie Exchange für andere Zwecke nutzen, wie z. B. für ein SMTP-Relay für eine Anwendung oder für den Zugriff auf öffentliche Ordner. Wenn Sie lokale Exchange-Server benötigen, um die aktuellen Anforderungen Ihrer Organisation zu erfüllen, ist es u. U. nicht ratsam, die lokalen Server zu entfernen.
 
-**Lösung:** Es wird nicht empfohlen, Exchange und die Hybridkonfiguration zu diesem Zeitpunkt zu entfernen. Wenn Sie den Prozess beginnen würden, indem Sie AutoErmittlung-Einträge auf Exchange Online verweisen lassen, würden einige Features wie der hybride Zugriff auf öffentliche Ordner nicht mehr funktionieren. Sie könnten den MX-Eintrag so ändern, dass er auf Exchange Online Protection verweist, wenn dass nicht bereits der Fall ist. Sie können sogar einige der lokalen Exchange-Server entfernen. Allerdings sollten Sie ausreichend Funktionen beizubehalten, um die verbleibenden Hybrid-Funktionen verarbeiten zu können. Dies würde in der Regel zu einem sehr kleinen lokalen Ressourcenbedarf führen.
+**Lösung:**  Es wird nicht empfohlen, Exchange und die Hybridkonfiguration zu diesem Zeitpunkt zu entfernen. Wenn Sie den Prozess beginnen würden, indem Sie AutoErmittlung-Einträge auf Exchange Online verweisen lassen, würden einige Features wie der hybride Zugriff auf öffentliche Ordner nicht mehr funktionieren. Sie könnten den MX-Eintrag so ändern, dass er auf Exchange Online Protection verweist, wenn dass nicht bereits der Fall ist. Sie können sogar einige der lokalen Exchange-Server entfernen. Allerdings sollten Sie ausreichend Funktionen beizubehalten, um die verbleibenden Hybrid-Funktionen verarbeiten zu können. Dies würde in der Regel zu einem sehr kleinen lokalen Ressourcenbedarf führen.
 

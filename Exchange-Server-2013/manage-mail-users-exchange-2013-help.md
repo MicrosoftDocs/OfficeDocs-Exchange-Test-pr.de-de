@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 E-Mail-Benutzer ähneln E-Mail-Kontakten. Beide verfügen über externe E-Mail-Adressen und können Informationen zu Personen außerhalb Ihrer Exchange- oder Exchange Online-Organisation enthalten, und beide können im freigegebenen Adressbuch und in anderen Adresslisten angezeigt werden. Im Gegensatz zu E-Mail-Kontakten verfügen E-Mail-Benutzer jedoch über Anmeldeinformationen in Ihrer Exchange- oder Office 365-Organisation und können auf Ressourcen zugreifen. Weitere Informationen finden Sie unter [Empfänger](recipients-exchange-2013-help.md).
 
@@ -43,7 +43,7 @@ E-Mail-Benutzer ähneln E-Mail-Kontakten. Beide verfügen über externe E-Mail-A
 
 1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Empfänger** \> **Kontakte** \> **Neu** \> **E-Mail-Benutzer**.
 
-2.  Geben Sie auf der Seite **Neuer E-Mail-Benutzer** im Feld **\* Alias** einen Alias für den E-Mail-Benutzer ein. Der Alias darf höchstens 64 Zeichen enthalten und muss in der Gesamtstruktur eindeutig sein. Dieses Feld ist erforderlich.
+2.  Geben Sie auf der Seite **Neuer E-Mail-Benutzer** im Feld \* **Alias** einen Alias für den E-Mail-Benutzer ein. Der Alias darf höchstens 64 Zeichen enthalten und muss in der Gesamtstruktur eindeutig sein. Dieses Feld ist erforderlich.
 
 3.  Führen Sie einen der folgenden Schritte durch, um den E-Mail-Adresstyp für den E-Mail-Benutzer anzugeben:
     
@@ -56,11 +56,9 @@ E-Mail-Benutzer ähneln E-Mail-Kontakten. Beide verfügen über externe E-Mail-A
     
       - Um einen benutzerdefinierten Adresstyp anzugeben, aktivieren Sie das Optionsfeld, und geben Sie dann den benutzerdefinierten Adresstyp an. Sie können beispielsweise eine Adresse vom Typ X.500, GroupWise oder Lotus Notes angeben.
 
-4.  Geben Sie im Feld **\* Externe E-Mail-Adresse** die externe E-Mail-Adresse des Benutzers ein. An diesen E-Mal-Benutzer gesendete E-Mails werden an diese E-Mail-Adresse weitergeleitet. Dieses Feld ist erforderlich.
+4.  Geben Sie im Feld \* **Externe E-Mail-Adresse** die externe E-Mail-Adresse des Benutzers ein. An diesen E-Mal-Benutzer gesendete E-Mails werden an diese E-Mail-Adresse weitergeleitet. Dieses Feld ist erforderlich.
 
-5.  
-    
-    Wählen Sie eine der folgenden Optionen aus:
+5.  Wählen Sie eine der folgenden Optionen aus:
     
       - **Vorhandener Benutzer**   Wählen Sie diese Option aus, um einen vorhandenen Benutzer für E-Mail zu aktivieren.
         
@@ -68,9 +66,7 @@ E-Mail-Benutzer ähneln E-Mail-Kontakten. Beide verfügen über externe E-Mail-A
     
       - **Neuer Benutzer**   Wählen Sie diese Option aus, um in Active Directory ein neues Benutzerkonto zu erstellen und den Benutzer für E-Mail zu aktivieren. Wenn Sie diese Option auswählen, müssen Sie die erforderlichen Informationen zum Benutzerkonto angeben.
 
-6.  
-    
-    Wenn Sie in Schritt 5 **Neuer Benutzer** ausgewählt haben, füllen Sie die folgenden Felder auf der Seite **Neuer E-Mail-Benutzer** aus. Fahren Sie andernfalls mit Schritt 7 fort.
+6.  Wenn Sie in Schritt 5 **Neuer Benutzer** ausgewählt haben, füllen Sie die folgenden Felder auf der Seite **Neuer E-Mail-Benutzer** aus. Fahren Sie andernfalls mit Schritt 7 fort.
     
       - **Vorname**   Geben Sie in diesem Feld den Vornamen des E-Mail-Benutzers ein.
     
@@ -78,9 +74,9 @@ E-Mail-Benutzer ähneln E-Mail-Kontakten. Beide verfügen über externe E-Mail-A
     
       - **Nachname**   Geben Sie in diesem Feld den Nachnamen des E-Mail-Benutzers ein.
     
-      - **\* Anzeigename**   Geben Sie in diesem Feld einen Anzeigenamen für den Benutzer ein. Dies ist der Name, der in der Exchange-Verwaltungskonsole und im Adressbuch Ihrer Organisation in der Kontaktliste angegeben wird. Dieses Feld wird automatisch mit den Namen aufgefüllt, die Sie in den Feldern **Vorname**, **Initialen** und **Nachname** eingegeben haben. Wenn Sie diese Felder nicht verwendet haben, müssen Sie in diesem Feld einen Namen eingeben, da die Eingabe erforderlich ist. Der Name darf nicht länger als 64 Zeichen sein.
+      - \* **Anzeigename**   Geben Sie in diesem Feld einen Anzeigenamen für den Benutzer ein. Dies ist der Name, der in der Exchange-Verwaltungskonsole und im Adressbuch Ihrer Organisation in der Kontaktliste angegeben wird. Dieses Feld wird automatisch mit den Namen aufgefüllt, die Sie in den Feldern **Vorname**, **Initialen** und **Nachname** eingegeben haben. Wenn Sie diese Felder nicht verwendet haben, müssen Sie in diesem Feld einen Namen eingeben, da die Eingabe erforderlich ist. Der Name darf nicht länger als 64 Zeichen sein.
     
-      - **\* Name**   Geben Sie in diesem Feld einen Namen für den E-Mail-Benutzer ein. Dabei handelt es sich um den im Verzeichnisdienst aufgeführten Namen. Dieses Feld wird ebenfalls mit den Namen aufgefüllt, die Sie in den Feldern **Vorname**, **Initialen** und **Nachname** eingegeben haben. Wenn Sie diese Felder nicht verwendet haben, müssen Sie in diesem Feld einen Namen eingeben, da die Eingabe erforderlich ist. Dieser Name darf ebenfalls nicht länger als 64 Zeichen sein.
+      - \* **Name**   Geben Sie in diesem Feld einen Namen für den E-Mail-Benutzer ein. Dabei handelt es sich um den im Verzeichnisdienst aufgeführten Namen. Dieses Feld wird ebenfalls mit den Namen aufgefüllt, die Sie in den Feldern **Vorname**, **Initialen** und **Nachname** eingegeben haben. Wenn Sie diese Felder nicht verwendet haben, müssen Sie in diesem Feld einen Namen eingeben, da die Eingabe erforderlich ist. Dieser Name darf ebenfalls nicht länger als 64 Zeichen sein.
         
 
         > [!NOTE]
@@ -96,29 +92,27 @@ E-Mail-Benutzer ähneln E-Mail-Kontakten. Beide verfügen über externe E-Mail-A
         > Das Feld <STRONG>Organisationseinheit</STRONG> ist nur in Exchange Server&nbsp;2013 verfügbar. In Exchange Online ist es nicht verfügbar.
 
     
-      - **\* Benutzeranmeldename**   Geben Sie in diesem Feld den Namen ein, den der E-Mail-Benutzer zum Anmelden bei der Domäne verwendet. Der Anmeldename des Benutzers setzt sich aus einem Benutzernamen auf der linken Seite des at-Zeichens (@) und einem Suffix auf der rechten Seite zusammen. Normalerweise ist das Suffix der Name der Domäne, in der sich das Benutzerkonto befindet.
+      - \* **Benutzeranmeldename**   Geben Sie in diesem Feld den Namen ein, den der E-Mail-Benutzer zum Anmelden bei der Domäne verwendet. Der Anmeldename des Benutzers setzt sich aus einem Benutzernamen auf der linken Seite des at-Zeichens (@) und einem Suffix auf der rechten Seite zusammen. Normalerweise ist das Suffix der Name der Domäne, in der sich das Benutzerkonto befindet.
         
 
         > [!NOTE]
         > In Exchange Online heißt dieses Feld <STRONG>Benutzer-ID</STRONG>.
 
     
-      - **\* Neues Kennwort**   Geben Sie in diesem Feld das Kennwort ein, mit dem sich der E-Mail-Benutzer bei der Domäne anmelden muss.
+      - \* **Neues Kennwort**   Geben Sie in diesem Feld das Kennwort ein, mit dem sich der E-Mail-Benutzer bei der Domäne anmelden muss.
         
 
         > [!NOTE]
         > Stellen Sie sicher, dass das angegebene Kennwort den Anforderungen hinsichtlich Länge, Komplexität und Verlauf der Domäne entspricht, in der Sie das Benutzerkonto erstellen.
 
     
-      - **\* Kennwort bestätigen**   Verwenden Sie dieses Feld zum Bestätigen des Kennworts, das Sie im Feld **Kennwort** eingegeben haben.
+      - \* **Kennwort bestätigen**   Verwenden Sie dieses Feld zum Bestätigen des Kennworts, das Sie im Feld **Kennwort** eingegeben haben.
     
       - **Bei nächster Anmeldung Kennwortänderung anfordern**   Aktivieren Sie dieses Kontrollkästchen, wenn der E-Mail-Benutzer das Kennwort bei der ersten Anmeldung bei der Domäne zurücksetzen soll.
         
         Wenn Sie dieses Kontrollkästchen aktivieren, wird der neue E-Mail-Benutzer bei der erstmaligen Anmeldung über ein Dialogfeld aufgefordert, das Kennwort zu ändern. Der E-Mail-Benutzer kann erst dann Aufgaben ausführen, wenn das Kennwort erfolgreich geändert wurde.
 
-7.  
-    
-    Wenn Sie fertig sind, klicken Sie auf **Speichern**, um den E-Mail-Benutzer zu erstellen.
+7.  Wenn Sie fertig sind, klicken Sie auf **Speichern**, um den E-Mail-Benutzer zu erstellen.
 
 ## Erstellen eines E-Mail-Benutzers mithilfe der Shell
 
@@ -192,11 +186,11 @@ Klicken Sie auf den Abschnitt **Allgemein**, um grundlegende Informationen zum E
 
   - **Vorname**, **Initialen**, **Nachname**
 
-  - **\* Name**   Das ist der Name, der in Active Directory aufgelistet wird. Wenn Sie diesen Namen ändern, darf er nicht länger als 64 Zeichen sein.
+  - \* **Name**   Das ist der Name, der in Active Directory aufgelistet wird. Wenn Sie diesen Namen ändern, darf er nicht länger als 64 Zeichen sein.
 
-  - **\* Anzeigename**    Dieser Name wird im Adressbuch der Organisation in der Zeile "An:" und "Von:" in einer E-Mail und in der Liste der Kontakte in der Exchange-Verwaltungskonsole angezeigt. Dieser Name darf keine Leerzeichen vor oder nach dem Anzeigenamen enthalten.
+  - \* **Anzeigename**    Dieser Name wird im Adressbuch der Organisation in der Zeile "An:" und "Von:" in einer E-Mail und in der Liste der Kontakte in der Exchange-Verwaltungskonsole angezeigt. Dieser Name darf keine Leerzeichen vor oder nach dem Anzeigenamen enthalten.
 
-  - **\* Benutzeranmeldename**   Dies ist der Name, mit dem sich der Benutzer bei der Domäne anmeldet. In Exchange Online ist dies die Benutzer-ID, mit der sich der Benutzer an Office 365 anmeldet.
+  - \* **Benutzeranmeldename**   Dies ist der Name, mit dem sich der Benutzer bei der Domäne anmeldet. In Exchange Online ist dies die Benutzer-ID, mit der sich der Benutzer an Office 365 anmeldet.
 
   - **Aus Adresslisten ausblenden**   Aktivieren Sie dieses Kontrollkästchen, um zu verhindern, dass der E-Mail-Benutzer im Adressbuch und anderen Adresslisten angezeigt wird, die in Ihrer Exchange-Organisation definiert sind. Nachdem Sie das Kontrollkästchen aktiviert haben, können Benutzer weiterhin unter Verwendung der E-Mail-Adresse Nachrichten an den Empfänger senden.
 
@@ -248,11 +242,11 @@ Verwenden Sie den Abschnitt **Organisation**, um ausführliche Informationen zur
 
 Im Abschnitt **E-Mail-Adressen** können Sie die E-Mail-Adressen anzeigen und ändern, die dem E-Mail-Benutzer zugeordnet sind. Dazu gehören die primäre SMTP-Adresse des E-Mail-Benutzers, alle externen E-Mail-Adressen und alle zugehörigen Proxyadressen. Die primäre SMTP-Adresse (auch als *Standardantwortadresse* bezeichnet) wird fettgedruckt in der Adressliste angezeigt. Der Wert **SMTP** in der Spalte **Typ** wird dabei in Großbuchstaben angegeben. Nachdem der E-Mail-Benutzer erstellt wurde, sind die primäre SMTP-Adresse und externe E-Mail-Adresse standardmäßig gleich.
 
-  - **Hinzufügen **  Klicken Sie auf **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)"), um eine neue E-Mail-Adresse für dieses Postfach hinzuzufügen. Wählen Sie einen der folgenden Adresstypen aus:
+  - **Hinzufügen**  Klicken Sie auf **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)"), um eine neue E-Mail-Adresse für dieses Postfach hinzuzufügen. Wählen Sie einen der folgenden Adresstypen aus:
     
-      - **SMTP**   Dies ist der Standardadresstyp. Klicken Sie auf diese Schaltfläche, und geben Sie dann die neue SMTP-Adresse in das Feld **\* E-Mail-Adresse** ein.
+      - **SMTP**   Dies ist der Standardadresstyp. Klicken Sie auf diese Schaltfläche, und geben Sie dann die neue SMTP-Adresse in das Feld \* **E-Mail-Adresse** ein.
     
-      - **Benutzerdefinierter Adresstyp**   Klicken Sie auf diese Schaltfläche, und geben Sie einen der unterstützten Nicht-SMTP-E-Mail-Adresstypen in das Feld **\* E-Mail-Adresse** ein.
+      - **Benutzerdefinierter Adresstyp**   Klicken Sie auf diese Schaltfläche, und geben Sie einen der unterstützten Nicht-SMTP-E-Mail-Adresstypen in das Feld \* **E-Mail-Adresse** ein.
         
 
         > [!NOTE]

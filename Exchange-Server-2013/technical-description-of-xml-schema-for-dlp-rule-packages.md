@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-07-28_
+_**Letztes Änderungsdatum des Themas:** 2016-07-28_
 
 Das XML-Schema und die Anleitungen in diesem Artikel sollen Ihnen beim Einstieg in die Erstellung eigener grundlegender XML-Dateien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) helfen, in denen Sie in einem Klassifizierungsregelpaket Ihre eigenen Typen vertraulicher Informationen definieren. Nachdem Sie eine wohlgeformte XML-Datei erstellt haben, können Sie sie entweder mit der die Exchange-Verwaltungskonsole oder mit der Exchange-Verwaltungsshell importieren, um mit ihrer Hilfe eine Exchange Server 2013-DLP-Lösung zu erstellen. Eine XML-Datei, die als benutzerdefinierte DLP-Richtlinienvorlage dient, kann das XML enthalten, das sich in Ihrem Klassifizierungsregelpaket befindet. Eine Übersicht über die Definition eigener DLP-Vorlagen als XML-Dateien finden Sie unter [Definition eigener DLP-Vorlagen und Informationstypen](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 

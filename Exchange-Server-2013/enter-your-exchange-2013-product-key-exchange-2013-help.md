@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Ein Product Key teilt Exchange Server 2013 mit, dass Sie eine Lizenz für die Standard- oder die Enterprise Edition erworben haben. Wenn der von Ihnen gekaufte Product Key für eine Enterprise Edition-Lizenz gilt, können Sie zusätzlich zu allen Leistungen der Standard-Edition mehr als fünf Datenbanken pro Server implementieren. Weitere Informationen zu Exchange-Lizenzen finden Sie unter [Exchange 2013: Editionen und Versionen](exchange-2013-editions-and-versions-exchange-2013-help.md).
 

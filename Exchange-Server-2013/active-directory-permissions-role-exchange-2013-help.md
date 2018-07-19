@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mithilfe der Verwaltungsrolle `Active Directory Permissions` können Administratoren Active Directory-Berechtigungen in einer Organisation konfigurieren. Einige Funktionen, die Active Directory-Berechtigungen für eine Zugriffssteuerungsliste (Access Control List, ACL) verwenden, sind beispielsweise Empfangs- und Sendeconnectors sowie die Berechtigungen "Senden als" und "Senden im Auftrag von" für Postfächer.
 

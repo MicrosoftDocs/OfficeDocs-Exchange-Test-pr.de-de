@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Mithilfe von Verwaltungsrollenzuweisungen können Sie einem Benutzer oder einer universellen Sicherheitsgruppe (Universal Security Group, USG) eine Verwaltungsrolle zuweisen. Durch das Zuweisen einer Rolle zu einem Benutzer oder einer universellen Sicherheitsgruppe ermöglichen Sie den Benutzern das Ausführen von Aufgaben – abhängig davon, welche Cmdlets oder Skripts sowie Parameter für die Verwaltungsrolle definiert sind.
 

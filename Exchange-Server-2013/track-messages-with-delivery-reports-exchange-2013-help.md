@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-13_
+_**Letztes Änderungsdatum des Themas:** 2012-10-13_
 
 Zustellungsberichte sind ein Nachrichtenverfolgungstool in der Exchange-Verwaltungskonsole, mit dem Sie anhand des Übermittlungsstatus nach E-Mails suchen können, die mit einem bestimmten Betreff von Benutzern oder an Benutzer im Adressbuch der Organisation gesendet wurden. Sie können Zustellungsinformationen zu Nachrichten nachverfolgen, die von einem bestimmten Postfach in der Organisation gesendet oder empfangen wurden. Der Inhalt des Nachrichtentexts wird im Übermittlungsbericht nicht zurückgegeben, die Betreffzeile wird in den Ergebnissen jedoch angezeigt. Sie können Nachrichten bis zu 14 Tage nach ihrem Sende- oder Empfangsdatum nachverfolgen.
 
@@ -47,15 +47,15 @@ Nachverfolgen von Nachrichten mithilfe der Exchange-Verwaltungskonsole
 
 2.  Geben Sie die folgenden Informationen ein:
     
-      - **\* Zu durchsuchendes Postfach:** Klicken Sie auf **Durchsuchen**, um das Postfach aus dem Adressbuch auszuwählen, und klicken Sie dann auf **OK**. Das zu durchsuchende Postfach muss ausgewählt werden.
+      - **\* Zu durchsuchendes Postfach:**  Klicken Sie auf **Durchsuchen**, um das Postfach aus dem Adressbuch auszuwählen, und klicken Sie dann auf **OK**. Das zu durchsuchende Postfach muss ausgewählt werden.
     
       - Wählen Sie eine der folgenden Optionen aus:
         
-          - **Nachrichten suchen an Empfänger:**   Verwenden Sie diese Option, um nach Nachrichten zu suchen, die an bestimmte Benutzer gesendet wurden. Klicken Sie auf **Benutzer auswählen**, und wählen Sie Benutzer im Adressbuch aus, indem Sie einen Benutzer in der Liste auswählen und auf **Hinzufügen** klicken. Sie können mehrere Benutzer auswählen. Wenn Sie alle gewünschten Benutzer ausgewählt haben, klicken Sie auf **OK**, um zur Seite **Zustellungsberichte** zurückzukehren. Wenn Sie diese Option auswählen, können Sie das Feld auch leer lassen, um nach Nachrichten zu suchen, die an beliebige Benutzer gesendet wurden.
+          - **Nachrichten suchen an Empfänger:**    Verwenden Sie diese Option, um nach Nachrichten zu suchen, die an bestimmte Benutzer gesendet wurden. Klicken Sie auf **Benutzer auswählen**, und wählen Sie Benutzer im Adressbuch aus, indem Sie einen Benutzer in der Liste auswählen und auf **Hinzufügen** klicken. Sie können mehrere Benutzer auswählen. Wenn Sie alle gewünschten Benutzer ausgewählt haben, klicken Sie auf **OK**, um zur Seite **Zustellungsberichte** zurückzukehren. Wenn Sie diese Option auswählen, können Sie das Feld auch leer lassen, um nach Nachrichten zu suchen, die an beliebige Benutzer gesendet wurden.
         
-          - **Nachrichten suchen von Absender:**   Verwenden Sie diese Option, um nach Nachrichten zu suchen, die von einem bestimmten Benutzer empfangen wurden. Wählen Sie den Benutzer im Adressbuch aus, und klicken Sie auf **OK**, um zur Seite **Zustellungsberichte** zurückzukehren. Wenn Sie diese Option auswählen, müssen Sie einen Absender angeben.
+          - **Nachrichten suchen von Absender:**    Verwenden Sie diese Option, um nach Nachrichten zu suchen, die von einem bestimmten Benutzer empfangen wurden. Wählen Sie den Benutzer im Adressbuch aus, und klicken Sie auf **OK**, um zur Seite **Zustellungsberichte** zurückzukehren. Wenn Sie diese Option auswählen, müssen Sie einen Absender angeben.
     
-      - **Diese Wörter in der Betreffzeile suchen:**   Geben Sie hier Betreffzeileninformationen ein, oder lassen Sie das Feld leer, um die Suche zu erweitern.
+      - **Diese Wörter in der Betreffzeile suchen:**    Geben Sie hier Betreffzeileninformationen ein, oder lassen Sie das Feld leer, um die Suche zu erweitern.
 
 3.  Klicken Sie nach Abschluss des Vorgangs auf **Suchen**. Wenn Sie noch einmal von vorne beginnen möchten, klicken Sie auf **Löschen**.
 

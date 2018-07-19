@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-01_
+_**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
 Beim Aktivieren einer Postfachdatenbankkopie wird eine bestimmte passive Kopie als neue aktive Kopie einer Postfachdatenbank festgelegt. Dieser Vorgang wird als *Datenbankswitchover* bezeichnet. Beim Datenbankswitchover wird die Einbindung der gegenwärtig aktiven Datenbank aufgehoben, und die Datenbankkopie wird auf dem angegebenen Server als neue aktive Postfachdatenbankkopie eingebunden. Die Datenbankkopie, die als aktive Postfachdatenbank festgelegt wird, muss einen fehlerfreien Zustand aufweisen und aktuell sein.
 

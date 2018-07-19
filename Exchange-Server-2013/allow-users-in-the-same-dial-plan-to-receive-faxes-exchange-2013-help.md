@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können allen Benutzern, die einem Unified Messaging-Wählplan (UM) zugeordnet sind, das Empfangen von Faxnachrichten in ihren Postfächern erlauben. Standardmäßig können Benutzer, die für Unified Messaging aktiviert und einem UM-Wählplan zugeordnet sind, Faxnachrichten empfangen. Damit UM-aktivierte Benutzer Faxnachrichten in ihren Postfächern empfangen können, muss der Wählplan für das Akzeptieren eingehender Faxanrufe konfiguriert werden. Sie müssen den Faxbetrieb auch in der UM-Postfachrichtlinie und für den Benutzer aktivieren. Standardmäßig ist der Faxbetrieb für Wählpläne, UM-Postfachrichtlinien und Benutzer aktiviert. Es kann jedoch vorkommen, dass diese Standardeinstellungen geändert wurden und UM-aktivierte Benutzer keine Faxnachrichten empfangen können.
 

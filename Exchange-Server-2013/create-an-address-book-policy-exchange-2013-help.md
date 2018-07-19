@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-16_
+_**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 Adressbuchrichtlinien ermöglichen Ihnen die Einteilung von Benutzern in bestimmte Gruppen, um benutzerdefinierte Ansichten der globalen Adressliste Ihrer Organisation bereitzustellen. Bei der Erstellung einer ABP weisen Sie der Richtlinie eine globale Adressliste (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine oder mehrere Adresslisten zu. Anschließend können Sie die ABP Postfachbenutzern zuweisen und diesen den Zugriff auf eine benutzerdefinierte GAL in Outlook und Outlook Web App bereitstellen. Das Ziel besteht darin, einen einfacheren Mechanismus zum Durchführen der GAL-Segmentierung für lokale Organisationen bereitzustellen, die mehrere GALs benötigen. Weitere Informationen zu ABPs finden Sie unter [Adressbuchrichtlinien](address-book-policies-exchange-2013-help.md).
 
@@ -43,15 +43,15 @@ Sie interessieren sich für Szenarien, in denen dieses Verfahren verwendet werde
 
 In diesem Beispiel wird eine Adressbuchrichtlinie mit den folgenden Einstellungen erstellt:
 
-  - **Name:** All Fabrikam ABP
+  - **Name:**  All Fabrikam ABP
 
-  - **GAL:** All Fabrikam
+  - **GAL:**  All Fabrikam
 
-  - **OAB:** Fabrikam-All-OAB
+  - **OAB:**  Fabrikam-All-OAB
 
-  - **Raumliste:** All Fabrikam Rooms
+  - **Raumliste:**  All Fabrikam Rooms
 
-  - **Adresslisten:** "All Fabrikam", "All Fabrikam Mailboxes", "All Fabrikam DLs" und "All Fabrikam Contacts"
+  - **Adresslisten:**  "All Fabrikam", "All Fabrikam Mailboxes", "All Fabrikam DLs" und "All Fabrikam Contacts"
 
 <!-- end list -->
 

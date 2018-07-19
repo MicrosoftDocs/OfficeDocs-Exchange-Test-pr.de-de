@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Wenn Sie ein Postfach verschieben, wird es aus einer *Quellpostfachdatenbank* in eine *Zielpostfachdatenbank* verschoben. Die Zielpostfachdatenbank kann sich auf demselben Server, auf einem anderen Server, in einer anderen Domäne, an einem anderen Active Directory-Standort oder in einer anderen Gesamtstruktur befinden.
 

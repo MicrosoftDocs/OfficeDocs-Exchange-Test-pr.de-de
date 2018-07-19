@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-05_
+_**Letztes Änderungsdatum des Themas:** 2012-10-05_
 
 Sie können verschiedene Anwendungseinstellungen von Exchange ActiveSync in Exchange Server 2013 über das virtuelle Exchange ActiveSync-Verzeichnis verwalten. Die Internetinformationsdienste (Internet Information Services, IIS) verwenden ein virtuelles Verzeichnis, um den Zugriff auf eine Webanwendung wie Exchange ActiveSync zu gestatten. Einige Einstellungen des virtuellen Verzeichnisses, die Sie für Exchange ActiveSync verwalten können, umfassen die Authentifizierung, Sicherheit und Berichterstellung.
 

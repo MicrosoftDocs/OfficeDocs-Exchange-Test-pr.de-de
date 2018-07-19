@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Eine mehrmandantenfähige (gehostete) Exchange 2013-Bereitstellung ist als eine Bereitstellung definiert, bei der die Exchange-Organisation für das Hosten mehrerer, voneinander unabhängiger Organisationen oder Geschäftsbereiche (Mandanten) konfiguriert wurde, die in der Regel weder E-Mails, Daten, Benutzer, globale Adresslisten (GALs) noch andere häufig verwendete Exchange-Objekte gemeinsam nutzen. Diese gemeinsame Nutzung von Hardware, Software und Ressourcen (bei gleichzeitiger logischer Trennung der Mandanten) ermöglicht Organisationen die Ausnutzung der Einfachheit einer Exchange-Standardbereitstellung und zugleich die Bereitstellung von Funktionalität und Dienste für mehrere Mandanten zum Erfüllen ihrer Hostinganforderungen.
 

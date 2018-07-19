@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Viele Organisationen stellen mehrere Gesamtstrukturen bereit, um Sicherheitsgrenzen innerhalb ihrer Organisationen zu erstellen. Das Verwenden mehrerer Gesamtstrukturen unterstützt Administratoren beim Definieren dieser Sicherheitsgrenzen, um die jeweiligen Sicherheitsanforderungen zu erfüllen – ob es sich darum handelt, den Zugriff auf eine Ressource auf möglichst wenige Personen zu beschränken, oder um Abteilungen innerhalb einer Organisation zu segmentieren.
 

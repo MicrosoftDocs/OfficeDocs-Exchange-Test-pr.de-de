@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Für Unified Messaging (UM) muss Ihre Exchange Server-Bereitstellung in das vorhandene Telefoniesystem für Ihre Organisation integriert werden. Für eine erfolgreiche Bereitstellung und die Durchführung der richtigen Planungsschritte für die Bereitstellung und Verwaltung von Voicemail in Unified Messaging ist eine sorgfältige Analyse Ihrer vorhandenen Telefonieinfrastruktur erforderlich.
 
@@ -170,9 +170,7 @@ Führen Sie zum Erstellen eines neuen UM-IP-Gateways das folgende Verfahren aus.
 
 ## Erstellen eines UM-IP-Gateways
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-IP-Gateways**, und klicken Sie dann auf **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-IP-Gateways**, und klicken Sie dann auf **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
 
 2.  Geben Sie auf der Seite **Neues UM-IP-Gateway** die folgenden Informationen ein:
     
@@ -186,9 +184,7 @@ Führen Sie zum Erstellen eines neuen UM-IP-Gateways das folgende Verfahren aus.
     
       - **UM-Wählplan**   Klicken Sie auf **Durchsuchen**, um den UM-Wählplan auszuwählen, den Sie dem UM-IP-Gateway zuordnen möchten. Wenn Sie UM-Wähleinstellungen für die Zuordnung zu einem UM-IP-Gateway auswählen, wird außerdem ein UM-Sammelanschluss erstellt und diesen UM-Wähleinstellungen zugeordnet. Wenn Sie keine UM-Wähleinstellungen auswählen, müssen Sie einen UM-Sammelanschluss manuell erstellen und diesen dann dem erstellten UM-IP-Gateway zuordnen.
 
-3.  
-    
-    Klicken Sie auf **Speichern**.
+3.  Klicken Sie auf **Speichern**.
 
 ## Schritt 3: Erstellen und Konfigurieren der UM-Sammelanschlüsse (optional)
 
@@ -230,9 +226,7 @@ Jedes Mal wenn UM-Wähleinstellungen erstellt werden, wird gleichzeitig eine UM-
 
 ## Erstellen einer UM-Postfachrichtlinie
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wählpläne**. Wählen Sie in der Listenansicht den UM-Wählplan aus, den Sie ändern möchten, und klicken Sie dann auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wählpläne**. Wählen Sie in der Listenansicht den UM-Wählplan aus, den Sie ändern möchten, und klicken Sie dann auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
 
 2.  Klicken Sie auf der Seite **UM-Wählplan** unter **UM-Postfachrichtlinien** auf **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
 
@@ -254,9 +248,7 @@ Das Erstellen und Verwenden von automatischen Telefonzentralen in Unified Messag
 
 ## Erstellen einer automatischen UM-Telefonzentrale
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wählpläne**, wählen Sie den UM-Wählplan aus, für den Sie eine automatische Telefonzentrale hinzufügen möchten, und klicken Sie auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-Wählpläne**, wählen Sie den UM-Wählplan aus, für den Sie eine automatische Telefonzentrale hinzufügen möchten, und klicken Sie auf **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
 
 2.  Klicken Sie auf der Seite **UM-Wählplan** unterhalb von **Automatische UM-Telefonzentralen** auf **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
 

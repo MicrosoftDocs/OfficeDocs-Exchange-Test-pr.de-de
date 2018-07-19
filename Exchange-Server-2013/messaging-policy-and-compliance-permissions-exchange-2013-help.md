@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Die zum Konfigurieren von Messagingrichtlinien und deren Einhaltung erforderlichen Berechtigungen richten sich nach dem verwendeten Verfahren bzw. nach dem Cmdlet, das Sie ausführen möchten. Weitere Informationen zu Messagingrichtlinien und deren Einhaltung finden Sie unter [Messagingrichtlinie und -kompatibilität](messaging-policy-and-compliance-exchange-2013-help.md).
 

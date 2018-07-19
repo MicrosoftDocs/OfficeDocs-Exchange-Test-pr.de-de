@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Sie können Unified Messaging (UM) so einrichten, dass die Benutzer sich ohne Verwendung einer PIN bei ihrer Voicemail anmelden können. Standardmäßig werden Outlook Voice Access-Benutzer aufgefordert, eine PIN einzugeben, um sich bei ihrem Postfach anzumelden und auf ihre Voicemail, E-Mail, Kalender, persönlichen Kontakte, das Verzeichnis sowie persönliche Optionen zuzugreifen.
 

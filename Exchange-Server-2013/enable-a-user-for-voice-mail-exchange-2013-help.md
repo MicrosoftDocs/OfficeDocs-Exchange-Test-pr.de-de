@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Wenn Sie einen Benutzer für Unified Messaging (UM) aktivieren, wird eine Standardgruppe von Eigenschaften auf den Benutzer angewendet, und der Benutzer ist in der Lage, die Voicemailfunktionen von Unified Messaging zu nutzen. Nachdem Sie einen Benutzer für Voicemail aktiviert haben, können Sie für den Benutzer eine SIP-Adresse (Session Initiation Protocol) hinzufügen, wenn er einem UM-Postfach zugewiesen ist, das mit einem SIP-URI-Wählplan verknüpft ist. Alternativ können Sie eine E.164-Nummer für den Benutzer hinzufügen, wenn er einer UM-Postfachrichtlinie zugewiesen ist, die mit einem E.164-Wählplan verknüpft ist. In beiden Fällen muss für den Benutzer weiterhin eine Durchwahlnummer konfiguriert sein.
 

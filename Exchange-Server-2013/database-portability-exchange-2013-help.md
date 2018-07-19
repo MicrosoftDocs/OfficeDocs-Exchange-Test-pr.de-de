@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-01-30_
+_**Letztes Änderungsdatum des Themas:** 2017-01-30_
 
 Die Datenbankportabilität ist eine Funktion, mit der eine Microsoft Exchange Server 2013-Postfachdatenbank auf einen beliebigen anderen Postfachserver in derselben Organisation verschoben oder dort eingebunden werden kann, auf dem Exchange 2013 mit Datenbanken derselben Datenbankschemaversion ausgeführt wird. Postfachdatenbanken aus früheren Versionen von Exchange können nicht auf einen Postfachserver verschoben werden, der Exchange 2013 ausführt. Mithilfe der Datenbankportabilität wird die Zuverlässigkeit verbessert, indem auf verschiedene fehleranfällige manuelle Schritte bei den Wiederherstellungsprozessen verzichtet werden kann. Darüber hinaus verringert die Datenbankportabilität die Gesamtwiederherstellungsdauer für verschiedene Fehlerszenarien.
 

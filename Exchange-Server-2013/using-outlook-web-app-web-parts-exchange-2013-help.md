@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-07-31_
+_**Letztes Änderungsdatum des Themas:** 2015-07-31_
 
 Mit MicrosoftOfficeOutlook Web App-Webparts können Sie festlegen, welches Postfach geöffnet werden soll, welcher Ordner in diesem Postfach geöffnet werden soll und welche Inhaltsansicht verwendet werden soll.
 
@@ -169,13 +169,13 @@ Outlook Web App-Webparts können auch manuell in einen Webbrowser eingegeben wer
 
 Die folgenden Beispielen zeigen, wie Sie direkt auf häufige Outlook Web App-Ansichten zugreifen können:
 
-  - **Posteingang:** https://*\<server name\>*/owa/?cmd=contents\&module=inbox
+  - **Posteingang:**  https://*\<server name\>*/owa/?cmd=contents\&module=inbox
 
-  - **Calendar (today):**https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&exsvurl=1
+  - **Calendar (today):** https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&exsvurl=1
 
-  - **Calendar (weekly):** https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&view=weekly\&exsvurl=1
+  - **Calendar (weekly):**  https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&view=weekly\&exsvurl=1
 
-  - **Calendar (monthly):** https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&view=monthly\&exsvurl=1
+  - **Calendar (monthly):**  https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&view=monthly\&exsvurl=1
 
 ## Weitere Informationen
 

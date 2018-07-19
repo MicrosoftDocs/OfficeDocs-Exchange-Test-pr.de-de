@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-09_
+_**Letztes Änderungsdatum des Themas:** 2012-11-09_
 
 Sie können ein Unified Messaging-IP-Gateway entweder mit einer IP-Adresse oder mit einem vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) konfigurieren. Wenn Sie ein UM-IP-Gateway erstellen, müssen Sie die IP-Adresse oder den FQDN definieren, die bzw. der für das verwendete VoIP-Gateway, die verwendete IP-Nebenstellenanlage oder den verwendeten Session Border Controller (SBC) konfiguriert ist. Sie können die IP-Adresse oder den FQDN nach dem Erstellen des UM-IP-Gateways ändern.
 

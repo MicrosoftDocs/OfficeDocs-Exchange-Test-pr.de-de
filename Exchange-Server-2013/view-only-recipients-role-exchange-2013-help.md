@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `View-Only Recipients` ermöglicht Administratoren das Anzeigen der Konfiguration von Empfängern (z. B. Postfächer, E-Mail-Benutzer, E-Mail-Kontakte, Verteilergruppen und dynamische Verteilergruppen).
 

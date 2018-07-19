@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Tagtäglich tauschen Information-Worker sensible Informationen, wie beispielsweise Finanzberichte und -daten, juristische Verträge, vertrauliche Produktinformationen, Verkaufsberichte und -planungen, Wettbewerbsanalysen, Forschungsdaten und patentrechtlich geschützte Informationen sowie Kunden- und Mitarbeiterdaten, über E-Mail aus. Da jeder von nahezu überall auf seine E-Mails zugreifen kann, sind aus Postfächern sogenannte Repositorys (d. h. Datenspeicher) geworden, die große Mengen potenziell vertraulicher Daten enthalten. Daher können Informationslecks eine ernste Bedrohung für Organisationen darstellen. Um Informationslecks zu verhindern, schließt Microsoft Exchange Server 2013 Funktionen für die Verwaltung von Informationsrechten (Information Rights Management, IRM) ein, mit denen dauerhafter Online- und Offlineschutz von E-Mail-Nachrichten und Anlagen bereitgestellt wird.
 
@@ -323,7 +323,7 @@ Wenn IRM in Ihrer Exchange 2013-Organisation implementiert werden soll, muss Ihr
 <tr class="odd">
 <td><p>AD RMS-Cluster</p></td>
 <td><ul>
-<li><p><strong>Betriebssystem</strong>   Windows Server 2012, Windows Server 2008 R2 oder Windows Server 2008 SP2 mit dem <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=973247">Hotfix für die Active Directory-Rechteverwaltungsdienste-Rolle in Windows Server 2008</a> ist erforderlich.</p></li>
+<li><p><strong>Betriebssystem</strong>   Windows Server 2012, Windows Server 2008 R2 oder Windows Server 2008 SP2 mit dem <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=973247">Hotfix für die Active Directory-Rechteverwaltungsdienste-Rolle in Windows Server 2008</a> ist erforderlich.</p></li>
 <li><p><strong>Dienstverbindungspunkt (Service Connection Point, SCP)</strong>   Exchange 2010 und AD RMS-fähige Anwendungen verwenden für die Erkennung eines AD RMS-Clusters und von URLs den in Active Directory registrierten Dienstverbindungspunkt. AD RMS ermöglicht die Registrierung des Dienstverbindungspunkts im Verlauf des AD RMS-Setups. Wenn das zum Einrichten von AD RMS verwendete Konto nicht zur Sicherheitsgruppe &quot;Organisations-Admins&quot; gehört, kann die Registrierung des Dienstverbindungspunkts nach Abschluss des Setups vorgenommen werden. Es gibt nur einen Dienstverbindungspunkt für AD RMS in einer Active Directory-Gesamtstruktur.</p></li>
 <li><p><strong>Berechtigungen</strong>   Lese- und Ausführungsberechtigungen für die AD RMS-Serverzertifizierungspipeline (<code>ServerCertification.asmx</code>-Datei auf AD RMS-Servern) müssen den folgenden Entitäten zugewiesen werden:</p>
 <ul>
@@ -338,7 +338,7 @@ Wenn IRM in Ihrer Exchange 2013-Organisation implementiert werden soll, muss Ihr
 <td><p>Exchange</p></td>
 <td><ul>
 <li><p>Exchange 2010 oder höher ist erforderlich.</p></li>
-<li><p>Der Hotfix <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=973136">FIX: Fehlermeldung aufgrund einer ArgumentNullException-Ausnahme, wenn eine .NET Framework 2.0 SP2-basierte Anwendung versucht, eine Antwort mit Inhalt der Länge 0 auf eine asynchrone ASP.NET-Web Service-Anforderung zu verarbeiten: &quot;Der Wert darf nicht Null sein&quot;</a> wird für Microsoft .NET Framework 2.0 SP2 empfohlen.</p></li>
+<li><p>Der Hotfix <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=973136">FIX: Fehlermeldung aufgrund einer ArgumentNullException-Ausnahme, wenn eine .NET Framework 2.0 SP2-basierte Anwendung versucht, eine Antwort mit Inhalt der Länge 0 auf eine asynchrone ASP.NET-Web Service-Anforderung zu verarbeiten: &quot;Der Wert darf nicht Null sein&quot;</a> wird für Microsoft .NET Framework 2.0 SP2 empfohlen.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">

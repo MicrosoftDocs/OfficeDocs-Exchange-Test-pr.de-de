@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-16_
+_**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
 Wenn Sie ein Unified Messaging-IP-Gateway erstellen, ermöglichen Sie Exchange-Servern das Herstellen einer Verbindung mit einem neuen VoIP-Gateway (Voice over IP), einer SIP-fähigen (Session Initiation Protocol) Nebenstellenanlage, einer IP-Nebenstellenanlage oder einem SBC (Session Border Controller). Unmittelbar nach dem Erstellen eines UM-IP-Gateways sollten Sie einen UM-Sammelanschluss erstellen und den UM-Sammelanschluss dann dem UM-IP-Gateway zuordnen. Das UM-IP-Gateway kann mehreren UM-Wähleinstellungen zugeordnet werden, indem ein oder mehrere UM-Sammelanschlüsse erstellt werden.
 
@@ -43,9 +43,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit UM-IP-Gateways finden Sie unte
 
 ## Erstellen eines UM-IP-Gateways mithilfe der Exchange-Verwaltungskonsole
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-IP-Gateways**, und klicken Sie dann auf **Neu**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Unified Messaging** \> **UM-IP-Gateways**, und klicken Sie dann auf **Neu**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)").
 
 2.  Geben Sie auf der Seite **Neues UM-IP-Gateway** die folgenden Informationen ein:
     
@@ -59,9 +57,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit UM-IP-Gateways finden Sie unte
     
       - **UM-Wählplan**   Klicken Sie auf **Durchsuchen**, um den UM-Wählplan auszuwählen, den Sie dem UM-IP-Gateway zuordnen möchten. Wenn Sie UM-Wähleinstellungen für die Zuordnung zu einem UM-IP-Gateway auswählen, wird außerdem ein UM-Sammelanschluss erstellt und diesen UM-Wähleinstellungen zugeordnet. Wenn Sie keine UM-Wähleinstellungen auswählen, müssen Sie einen UM-Sammelanschluss manuell erstellen und diesen dann dem erstellten UM-IP-Gateway zuordnen.
 
-3.  
-    
-    Klicken Sie auf **Speichern**.
+3.  Klicken Sie auf **Speichern**.
 
 ## Erstellen eines UM-IP-Gateways mit der Shell
 

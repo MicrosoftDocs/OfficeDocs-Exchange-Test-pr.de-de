@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Empfänger (wozu Benutzer, Ressourcen, Kontakte und Gruppen gehören) sind alle E-Mail-aktivierten Objekte in Active Directory, an die Microsoft Exchange Nachrichten senden oder weiterleiten kann. Ein Empfänger muss über eine E-Mail-Adresse verfügen, um E-Mails senden oder empfangen zu können. Adressbücher sind die Informationsquellen, über die Benutzer einander finden können, um sich E-Mails zu senden. Es gibt viele verschiedene Methoden für den Aufbau von Adressbüchern. Ausführliche Beschreibungen zu den Adressbuchfeatures in Exchange Server 2013 finden Sie unter Wichtige Terminologie.
 

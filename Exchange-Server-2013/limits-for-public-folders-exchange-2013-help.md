@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In Exchange Server 2013 wurden Öffentliche Ordner aus einer herkömmlichen Datenbankarchitektur in eine Postfacharchitektur verschoben. Dadurch profitieren Öffentliche Ordner beispielsweise von der Flexibilität einer Database Availability Group (DAG) und anderen, im Laufe der Jahre vorgenommenen Postfachverbesserungen. Allerdings sind neue Begrenzungen und Leistungsbedenken zu beachten. Dieses Dokument enthält einige generelle Empfehlungen für die Behandlung von Konfigurationsoptionen, die Auswirkungen auf die Leistung und Konfiguration Öffentlicher Ordner haben können.
 

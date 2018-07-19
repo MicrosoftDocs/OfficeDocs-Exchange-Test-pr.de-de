@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Verwaltungsrollenzuweisungen weisen einem Rollenempfänger eine Verwaltungsrolle zu. Weitere Informationen zu Verwaltungsrollenzuweisungen in Microsoft Exchange Server 2013 finden Sie unter [Grundlegendes zu Verwaltungsrollenzuweisungen](understanding-management-role-assignments-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Sie erstellen einen Empfangsconnector vom Typ **Intern**, wenn Sie E-Mails von einem Exchange-Server empfangen möchten. Verwenden Sie diese Art von Connector, um das E-Mail-Routing innerhalb Ihrer Organisation zu steuern: beispielsweise, wenn Sie E-Mails vom Transportdienst auf einem Postfachserver an einen bestimmten Edge-Transport-Server oder von einem Postfachserver an einen anderen weiterleiten möchten.
 

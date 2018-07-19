@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Um eine hoch leistungsfähige Messaginginfrastruktur entwerfen und verwalten zu können, ist ein Verständnis der Bereiche Serverstatus und -leistung entscheidend. Microsoft Exchange Server 2013 bietet Verbesserungen in diesen beiden Bereichen.
 

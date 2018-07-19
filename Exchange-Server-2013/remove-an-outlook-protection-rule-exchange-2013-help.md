@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mit Microsoft Outlook-Schutzregeln, können Sie Nachrichten mit Information Rights Management (IRM) schützen, indem Sie eine [Active Directory-Rechteverwaltungsdienste (AD RMS)](https://technet.microsoft.com/en-us/library/hh831364.aspx) Vorlage in Outlook 2010 anwenden, bevor die Testnachrichten gesendet werden. Um zu verhindern, dass eine Outlook-Schutzregel angewendet wird, können Sie die Regel deaktivieren. Eine Outlook Schutzregel entfernen Entfernt die Regeldefinition aus Active Directory.
 

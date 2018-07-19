@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-05_
+_**Letztes Änderungsdatum des Themas:** 2012-10-05_
 
 Bei vielen der mit Exchange Server 2013 verwendeten Clientprotokollen erfolgt der Zugriff über virtuelle Verzeichnisse. Ein virtuelles Verzeichnis wird von den Internetinformationsdiensten (Internet Information Services, IIS) verwendet, um den Zugriff auf eine Webanwendung wie Exchange ActiveSync, Outlook Web App oder den AutoErmittlungsdienst zuzulassen. Für Exchange 2013 können diverse Einstellungen für die virtuellen Verzeichnisse verwaltet werden, darunter Authentifizierungs-, Sicherheits- und Berichterstattungseinstellungen.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In Exchange Online und Exchange Server 2013 können Sie den E-Mail-Lebenszyklus mithilfe von Aufbewahrungsrichtlinien verwalten. Aufbewahrungsrichtlinien werden angewendet, indem Aufbewahrungstags erstellt und zu einer Aufbewahrungsrichtlinie hinzugefügt werden, die auf Postfachbenutzer angewendet wird.
 

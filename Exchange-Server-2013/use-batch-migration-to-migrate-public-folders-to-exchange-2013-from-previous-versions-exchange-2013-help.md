@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-03-26_
+_**Letztes Änderungsdatum des Themas:** 2018-03-26_
 
-**Zusammenfassung:** In diesem Artikel erfahren Sie, wie Sie öffentliche Ordner von Exchange 2007 oder Exchange Server 2010 zu Exchange 2013 verschieben.
+**Zusammenfassung:**  In diesem Artikel erfahren Sie, wie Sie öffentliche Ordner von Exchange 2007 oder Exchange Server 2010 zu Exchange 2013 verschieben.
 
 In diesem Artikel wird die Migration öffentlicher Ordner von Exchange Server 2010 SP3 RU8 oder Exchange 2007 SP3 RU15 zu Microsoft Exchange Server 2013 CU7 oder höher in derselben Gesamtstruktur beschrieben.
 
@@ -75,7 +75,7 @@ Von Exchange 2003 können öffentliche Ordner nicht direkt migriert werden. Wen
 
   - In Exchange 2007 muss Ihnen die Rolle "Exchange-Organisationsadministrator" oder "Exchange-Serveradministrator" zugewiesen sein. Darüber hinaus muss Ihnen die Rolle "Administrator für Öffentliche Ordner" zugewiesen sein, und Sie müssen Mitglied der lokalen Administratorengruppe für den Zielserver sein. Nähere Informationen finden Sie unter [Hinzufügen eines Benutzers oder einer Gruppe zu einer Administratorrolle](https://go.microsoft.com/fwlink/p/?linkid=81779).
 
-  - Führen Sie auf dem Exchange 2007-Server ein Upgrade auf [Windows PowerShell 2.0 und WinRM 2.0 für Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930) durch.
+  - Führen Sie auf dem Exchange 2007-Server ein Upgrade auf [Windows PowerShell 2.0 und WinRM 2.0 für Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930) durch.
 
   - Bitte bedenken Sie vor der Migration die [Grenzwerte für öffentliche Ordner](limits-for-public-folders-exchange-2013-help.md).
 
@@ -214,10 +214,13 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
         > [!NOTE]
         > Alle in den öffentlichen Ordnern enthaltenen Informationen werden dauerhaft gelöscht, wenn Sie sie entfernen.
 
-        
+        ```
             Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+		```
         
+		```
             Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+		```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden Themen:
 
@@ -286,9 +289,13 @@ Die Schritte für die Migration von öffentlichen Exchange 2007-Ordnern untersch
 
 1.  Öffentliche Ordner des Legacysystems wie OWAScratchPad und die Schemastammordner-Unterstruktur in Exchange 2007 werden nicht von Exchange 2013 erkannt und als ungültige Elemente behandelt. Dies führt dazu, dass die Migration nicht erfolgreich ist. Im Rahmen der Migrationsanforderung müssen Sie einen Wert für den `BadItemLimit`-Parameter angeben. Dieser Wert variiert je nach Anzahl der vorhandenen Datenbanken für Öffentliche Ordner. Die folgenden Befehle bestimmen, über wie viele Datenbanken für öffentliche Ordner Sie verfügen, und sie berechnen den `BadItemLimit`-Parameter für die Migrationsanforderung.
     
-        $PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
+    ```
+		$PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
+	```
     
+	```
         $BadItemLimitCount = 5 + ($PublicFolderDatabasesInOrg.Count -1)
+	```
 
 2.  Führen Sie auf dem Exchange 2013-Server den folgenden Befehl aus:
     

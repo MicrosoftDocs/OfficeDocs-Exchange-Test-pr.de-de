@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2013-04-17_
+_**Letztes Änderungsdatum des Themas:**  2013-04-17_
 
 Dieser Abschnitt behandelt die Verfahren, die Sie als Referenz bei der Verwendung von Exchange Server 2013 Management Pack nutzen können. Weitere Informationen bezüglich der Verfahren nach der Bereitstellung finden Sie unter [Procedures related to post-deployment operation](procedures-related-to-post-deployment-operation.md).
 

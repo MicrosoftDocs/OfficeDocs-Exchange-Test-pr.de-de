@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In Microsoft Exchange Server 2013 wurden die fünf Serverrollen von Exchange 2010 durch zwei Haupttypen von Servern ersetzt: Postfachserver und Clientzugriffsserver. Der Clientzugriffsserver ist ein zustandsloser Thin Server, der als Proxy für Clientverbindungen mit dem Postfachserver dient. Der Postfachserver sorgt für die Verarbeitung aller Clientverbindungen mit der aktiven Postfachdatenbank.
 

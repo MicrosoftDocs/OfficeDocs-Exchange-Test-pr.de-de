@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-09-30_
+_**Letztes Änderungsdatum des Themas:** 2013-09-30_
 
 In Microsoft Exchange Server 2013 bezeichnet der Begriff *Aggregation von Listen sicherer Adressen* die gemeinsamen Antispamfunktionen von Microsoft Outlook und Exchange. Diese Funktion erfasst Daten aus den Listen "Sichere Empfänger", "Sichere Absender" und "Geblockte Absender" zur Abwehr von Spam sowie aus den Kontaktdaten, die von Outlook-Benutzern konfiguriert werden, und stellt diese den Exchange-Agents zur Spambekämpfung zur Verfügung.
 

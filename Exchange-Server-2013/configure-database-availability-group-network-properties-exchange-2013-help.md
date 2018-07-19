@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-31_
+_**Letztes Änderungsdatum des Themas:** 2012-10-31_
 
 Für jedes DAG-Netzwerk (Database Availability Group) sind mehrere konfigurierbare Eigenschaften vorhanden. Dazu gehören der Name des DAG-Netzwerks, ein Beschreibungsfeld für das DAG-Netzwerk, eine Liste der vom DAG-Netzwerk verwendeten Subnetze und die Information, ob das DAG-Netzwerk für die Replikation aktiviert ist.
 

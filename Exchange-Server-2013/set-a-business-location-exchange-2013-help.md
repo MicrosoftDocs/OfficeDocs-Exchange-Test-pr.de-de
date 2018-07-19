@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-23_
+_**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
 Sie können den Standort eines Unternehmens in einer automatischen UM-Telefonzentrale (Unified Messaging) angeben, sodass dieser den Anrufern wiedergegeben wird. Standardmäßig ist kein Unternehmensstandort eingegeben.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-29_
+_**Letztes Änderungsdatum des Themas:** 2013-04-29_
 
 Eine Postfachdatenbank ist eine Granularitätseinheit, in der Postfächer erstellt und gespeichert werden. Eine Postfachdatenbank wird als Exchange-Datenbankdatei (EDB-Datei) gespeichert. In Microsoft Exchange Server 2013 weist jede Postfachdatenbank eigene, konfigurierbare Eigenschaften auf.
 
@@ -85,8 +85,7 @@ Führen Sie die folgenden Schritte aus, um das erfolgreiche Abrufen Ihrer Postfa
 
 3.  Klicken Sie auf **Bearbeiten** ![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol"), um die Attribute einer Postfachdatenbank zu konfigurieren.
 
-4.  
-    
+4.      
     Auf der Registerkarte **Allgemein** können Sie den Status der Postfachdatenbank anzeigen, einschließlich des Pfads zur Postfachdatenbank, der letzten Sicherung und des Status der Postfachdatenbank:
     
       - **Datenbankpfad**   In diesem schreibgeschützten Feld wird der vollständige Pfad zur Exchange 2013-Datenbankdatei (EDB) für die ausgewählte Postfachdatenbank angezeigt. Zum Anzeigen des gesamten Pfads müssen Sie möglicherweise auf den Pfad klicken und die NACH-RECHTS-TASTE drücken. Sie können in diesem Feld nicht den Pfad ändern. Verwenden Sie zum Ändern des Speicherorts der Datenbankdateien das Cmdlet [Move-DatabasePath](https://technet.microsoft.com/de-de/library/bb124742\(v=exchg.150\)).

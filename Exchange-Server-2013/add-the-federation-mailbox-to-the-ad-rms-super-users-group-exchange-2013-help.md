@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Damit die folgenden Funktionen der Verwaltung von Informationsrechten (Information Rights Management, IRM) von Microsoft Exchange Server 2013 aktiviert werden können, müssen Sie das Verbundpostfach (ein beim Exchange 2013-Setup erstelltes Systempostfach) der Benutzergruppe mit Administratorrechten im Cluster mit den [Active Directory-Rechteverwaltungsdiensten (AD RMS)](https://technet.microsoft.com/de-de/library/hh831364.aspx) in Ihrer Organisation hinzufügen:
 

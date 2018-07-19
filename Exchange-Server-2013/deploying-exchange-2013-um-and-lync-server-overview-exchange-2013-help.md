@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Unified Messaging (UM) und Microsoft Lync Server können zusammen bereitgestellt werden, um Benutzern in der Organisation Voicemessaging, Instant Messaging, erweiterte Anwesenheitsfunktionen, Audio-/Videokonferenzen sowie integrierte E-Mail- und Messagingfunktionen bereitzustellen. Unified Messaging wird verwendet, um Funktionen wie Mailboxansage für Voicemail, Outlook Voice Access und automatische Telefonzentrale bereitzustellen. Microsoft Lync Server bietet weitere, erweiterte Funktionen in Enterprise-VoIP, wie Instant Messaging, Konferenzen sowie ein- und ausgehende Anrufe. In diesem Thema wird erläutert, wie Sie Unified Messaging und Microsoft Lync Server für die Unterstützung dieser Funktionen konfigurieren.
 

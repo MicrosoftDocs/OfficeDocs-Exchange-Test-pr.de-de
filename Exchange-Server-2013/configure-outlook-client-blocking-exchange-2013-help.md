@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Gilt für:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In Exchange Server 2013 können Sie Aufbewahrungsrichtlinien oder verwaltete Ordner für die Messaging-Datensatzverwaltung (Messaging Records Management, MRM) verwenden. Nur Benutzer, die Microsoft Outlook 2010 und höher ausführen, haben Zugriff auf alle Clientfunktionen für Aufbewahrungsrichtlinien und verwaltete Ordner. Aufbewahrungsrichtlinien werden jedoch unabhängig von der vom Benutzer verwendeten Outlook-Clientversion vom Assistenten für verwaltete Ordner auf dem Postfachserver angewendet. Ältere Outlook-Clients stellen die MRM-Funktionalität dieser Funktionen nicht bereit. Da Outlook 2007 z. B. keine Aufbewahrungsrichtlinien unterstützt, können Benutzer keine persönlichen Tags auf Elemente oder Ordner anwenden.
 

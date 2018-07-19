@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-01_
+_**Letztes Änderungsdatum des Themas:** 2015-01-01_
 
 Mithilfe der Organisationsbeziehung können Benutzer in der Exchange-Organisation Frei/Gebucht-Kalenderinformationen mit anderen Office 365- oder lokalen Exchange-Organisationen gemeinsam nutzen. Sie können verschiedene Eigenschaften einer Organisationsbeziehung ändern, beispielsweise den Namen, die temporäre Deaktivierung der Kalenderfreigabe, die Zugriffsebene oder welche Sicherheitsgruppen Kalender gemeinsam nutzen.
 

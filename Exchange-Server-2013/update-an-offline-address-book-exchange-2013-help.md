@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-11-15_
+_**Letztes Änderungsdatum des Themas:** 2013-11-15_
 
 Wenn Sie ein OAB erstellen oder OAB-Einstellungen ändern, sind die Änderungen erst für Benutzer verfügbar, nachdem der Vorgang der OAB-Generierung (OABGen) abgeschlossen wurde.
 

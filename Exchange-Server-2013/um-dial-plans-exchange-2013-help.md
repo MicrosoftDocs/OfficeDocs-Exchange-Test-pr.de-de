@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Unified Messaging-Wählpläne (UM) sind die wichtigste Komponente von Unified Messaging und für eine erfolgreiche Bereitstellung von Unified Messaging-Voicemail in Ihrem Netzwerk erforderlich. In den folgenden Abschnitten werden UM-Wählpläne und deren Verwendung in einer UM-Bereitstellung erläutert.
 

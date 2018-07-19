@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-10_
+_**Letztes Änderungsdatum des Themas:** 2012-09-10_
 
 Die Themen in diesem Abschnitt enthalten Informationen zu den Überprüfungen der Bereitschaft, die Exchange Server 2013 bei der Installation von Exchange durchführt. Mit den Überprüfungen zur Bereitschaft wird sichergestellt, dass die Active Directory-Gesamtstruktur und die Exchange-Server auf Exchange 2013 vorbereitet sind. In jedem Thema zu den Überprüfungen der Bereitschaft werden die Maßnahmen beschrieben, die Sie zur Behebung von Problemen ergreifen können, die bei der Überprüfung der Bereitschaft gefunden werden. Führen Sie die in einem Thema zur Überprüfung der Bereitschaft erläuterten Schritte nur aus, wenn diese Überprüfung während des Setups angezeigt wurde.
 

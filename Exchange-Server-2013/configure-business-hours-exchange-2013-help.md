@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-19_
+_**Letztes Änderungsdatum des Themas:** 2013-04-19_
 
 Bei der Konfiguration der Geschäftszeiten für eine automatische Unified Messaging (UM)-Telefonzentrale definieren Sie die Zeit, in der Ihre Organisation täglich zu erreichen ist, sowie die Begrüßung während der Geschäftszeiten und die Menüansagen, die Anrufer hören, wenn sie eine in der automatischen Telefonzentrale konfigurierte Durchwahlnummer anwählen. Wenn ein Anrufer die automatische Telefonzentrale während der Stunden erreicht, die außerhalb der von Ihnen definierten Geschäftszeiten liegen, hört der Anrufer die Ansagen und Begrüßungen, die außerhalb der Geschäftszeiten wiedergegeben werden.
 

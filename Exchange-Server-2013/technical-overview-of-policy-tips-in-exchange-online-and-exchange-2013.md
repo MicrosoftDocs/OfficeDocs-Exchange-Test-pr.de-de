@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-07-22_
+_**Letztes Änderungsdatum des Themas:** 2015-07-22_
 
 Sie können das unangemessene Senden vertraulicher Informationen durch die E-Mail-Benutzer von Microsoft Outlook, Outlook Web App (OWA) und OWA for Devices in Ihrer Organisation verhindern, indem Sie Richtlinien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) erstellen, die *Richtlinientipp*-Benachrichtigungen enthalten. Ähnlich wie E-Mail-Infos, die in Microsoft Exchange Server 2010 eingeführt wurden, werden Benutzern in Outlook Richtlinientipp-Benachrichtigungen angezeigt, wenn sie eine E-Mail-Nachricht verfassen. Richtlinientipp-Benachrichtigungen werden nur angezeigt, wenn Elemente in der E-Mail-Nachricht des Absenders gegen eine von Ihnen eingerichtete DLP-Richtlinie zu verstoßen scheinen und diese Richtlinie eine Regel umfasst, die den Absender benachrichtigt, wenn die konfigurierten Bedingungen erfüllt sind. Allgemeine Informationen zur Verhinderung von Datenverlust finden Sie unter [Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Jedes Microsoft Exchange-Postfach besteht aus einem Active Directory-Benutzerkonto und den Postfachdaten, die in der Exchange-Postfachdatenbank gespeichert sind. Sämtliche Konfigurationsdaten für ein Postfach werden in den Exchange-Attributen des Active Directory-Benutzerobjekts gespeichert. Die Postfachdatenbank enthält die E-Mail-Daten, die sich in dem Postfach befinden, das dem Benutzerkonto zugeordnet ist. Die folgende Abbildung zeigt die Komponenten eines Postfachs.
 

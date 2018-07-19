@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-08-27_
+_**Letztes Änderungsdatum des Themas:** 2014-08-27_
 
 Nachdem Sie eine Compliance-eDiscovery-Suche erstellt haben, können Sie diese modifizieren, um die Suchparameter zu ändern. Sie können z. B. die zu durchsuchenden Postfächer, Datenbereiche, Schlüsselwörter und Protokollierungsoptionen ändern oder ein anderes Discoverypostfach zum Speichern der Suchergebnisse angeben. Alle Ä̈nderungen, die Sie an den Sucheigenschaften vornehmen, werden angewendet, wenn Sie die Suche erneut starten.
 

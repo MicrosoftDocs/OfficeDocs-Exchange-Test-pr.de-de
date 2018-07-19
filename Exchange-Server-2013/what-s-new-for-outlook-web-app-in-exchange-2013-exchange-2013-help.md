@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-12-20_
+_**Letztes Änderungsdatum des Themas:** 2017-12-20_
 
 Für Microsoft Exchange Server 2013 wurde Microsoft Outlook Web App um verschiedene Funktionen erweitert. Auch das Design wurde aktualisiert.
 
@@ -305,7 +305,7 @@ Die aktuelle Ausgabe der Garage-Serie bietet Hintergrundinformationen zu OWA fü
 
 Die folgenden Outlook Web App-Funktionen sind derzeit in Exchange 2013 nicht verfügbar: Einige dieser Funktionen werden ggf. in einer künftigen Version enthalten sein.
 
-  - **Suchbereich:** Die Fähigkeit für Outlook Web App-Benutzer, ihr primäres Postfach und gleichzeitig ihr Onlinearchiv zu durchsuchen, das in Exchange 2013 nicht mehr verfügbar ist. Zum Durchsuchen eines Onlinearchivs müssen Benutzer zunächst zum Archiv navigieren und dann ihre Suche vornehmen.
+  - **Suchbereich:**  Die Fähigkeit für Outlook Web App-Benutzer, ihr primäres Postfach und gleichzeitig ihr Onlinearchiv zu durchsuchen, das in Exchange 2013 nicht mehr verfügbar ist. Zum Durchsuchen eines Onlinearchivs müssen Benutzer zunächst zum Archiv navigieren und dann ihre Suche vornehmen.
 
   - **Verteilerlistenmoderation**   Die Möglichkeit zur Moderation von Verteilerlisten aus Microsoft Outlook Web App wird derzeit nicht von Exchange 2013 geboten.
 

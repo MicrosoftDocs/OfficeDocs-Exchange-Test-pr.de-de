@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Server 2013-Setup hat ermittelt, dass Sie versuchen, die Clientzugriffs-Serverrolle zu installieren. Die Rolle ist jedoch bereits auf dem Computer installiert.
 

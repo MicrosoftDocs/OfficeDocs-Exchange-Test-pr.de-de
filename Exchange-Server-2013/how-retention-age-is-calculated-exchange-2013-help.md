@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-07-27_
+_**Letztes Änderungsdatum des Themas:** 2016-07-27_
 
 Der Assistent für verwaltete Ordner ist einer von zahlreichen Prozessen vom Typ *Postfach-Assistent*, der auf Postfachservern ausgeführt wird. Seine Aufgabe besteht darin, Postfächer mit einer Aufbewahrungsrichtlinie zu verarbeiten, in der Richtlinie enthaltene Aufbewahrungstags auf das Postfach anzuwenden und die Elemente im Postfach zu verarbeiten. Wenn die Elemente ein Aufbewahrungstag aufweisen, prüft der Assistent das Alter dieser Elemente. Wenn das *Aufbewahrungslimit* eines Elements überschritten wurde, wird die entsprechende *Aufbewahrungsaktion* gestartet. Zu den Aufbewahrungsaktionen zählt das Verschieben von Elementen in das Archiv eines Benutzers, das Löschen von Elementen und Zulassen der Wiederherstellung oder das dauerhafte Löschen von Elementen.
 

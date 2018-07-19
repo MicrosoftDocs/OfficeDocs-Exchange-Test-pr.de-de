@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-02_
+_**Letztes Änderungsdatum des Themas:** 2012-11-02_
 
 Als *Aktivierung* einer Postfachdatenbankkopie wird die Umwandlung von einer passiven Kopie in eine aktive Kopie bezeichnet. Die Aktivierung wird automatisch vom während eines Failovers einer Datenbank oder eines Servers ausgeführt, kann jedoch auch manuell von einem Administrator im Rahmen eines Switchovervorgangs für eine Datenbank oder einen Server ausgeführt werden. Durch Sperren einer Datenbank für die Aktivierung kann verhindert werden, dass sie bei einem Datenbank- oder Serverfailover zur aktiven Kopie wird.
 
@@ -39,15 +39,11 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit P
 
 ## Konfigurieren der Aktivierungsrichtlinie für eine Postfachdatenbankkopie mithilfe der Exchange-Verwaltungskonsole
 
-1.  
-    
-    Navigieren Sie in der Exchange-Verwaltungskonsole zu **Server** \> **Datenbanken**.
+1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Server** \> **Datenbanken**.
 
 2.  Wählen Sie die Datenbank aus, die Sie konfigurieren möchten.
 
-3.  
-    
-    Suchen Sie im Detailbereich unter **Datenbankkopien** die Datenbankkopie, die Sie konfigurieren möchten, und klicken Sie auf **Anhalten**.
+3.  Suchen Sie im Detailbereich unter **Datenbankkopien** die Datenbankkopie, die Sie konfigurieren möchten, und klicken Sie auf **Anhalten**.
 
 4.  Fügen Sie optional einen Kommentar hinzu, und aktivieren Sie das Kontrollkästchen **Diese Kopie kann nur durch manuellen Eingriff aktiviert werden**.
 

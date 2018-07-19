@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-11-30_
+_**Letztes Änderungsdatum des Themas:** 2016-11-30_
 
 Die Verwaltungsrolle `ApplicationImpersonation` ermöglicht Administratoren das Annehmen der Identität anderer Benutzer in einer Organisation, um im Namen dieser Benutzer Aufgaben auszuführen.
 

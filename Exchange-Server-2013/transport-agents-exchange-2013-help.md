@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit Transport-Agents können Sie benutzerdefinierte Software von Microsoft, Drittanbietern oder Ihrer Organisation auf einem Exchange-Server installieren. Diese Software kann dann E-Mail-Nachrichten verarbeiten, die die Transportpipeline passieren. In Microsoft Exchange Server 2013 besteht die Transportpipeline aus den folgenden Prozessen:
 

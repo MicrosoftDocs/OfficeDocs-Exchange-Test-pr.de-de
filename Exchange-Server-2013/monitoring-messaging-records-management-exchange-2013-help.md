@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2009-11-03_
+_**Letztes Änderungsdatum des Themas:** 2009-11-03_
 
 [Anzeigen von Leistungsindikatoren für die Messaging-Datensatzverwaltung](view-performance-counters-for-messaging-records-management-exchange-2013-help.md)
 

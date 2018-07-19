@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange Unified Messaging (UM) verwendet zertifizierte Faxpartnerlösungen, um erweiterte Faxfunktionen bereitzustellen, z. B. ausgehende Faxe oder Faxrouting. Standardmäßig sind Exchange-Server nicht so konfiguriert, dass eingehende Faxe an einen UM-aktivierten Benutzer zugestellt werden. Stattdessen leitet ein Exchange-Server eingehende Faxanrufe an eine zertifizierte Faxpartnerlösung um. Der Server des Faxpartners empfängt die Faxdaten und sendet sie dann in einer E-Mail-Nachricht, in die das Fax als TIF-Anlage eingeschlossen ist, an das Benutzerpostfach.
 

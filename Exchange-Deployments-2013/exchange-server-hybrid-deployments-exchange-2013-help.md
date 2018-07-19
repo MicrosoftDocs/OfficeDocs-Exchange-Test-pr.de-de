@@ -17,7 +17,7 @@ _<strong>Gilt für:</strong>Exchange Online, Exchange Server 2013, Exchange Serv
 
 _<strong>Letztes Änderungsdatum des Themas:</strong>2018-04-16_
 
-**Zusammenfassung:** Wissenswertes zum Planen einer Exchange-Hybridbereitstellung
+**Zusammenfassung:**  Wissenswertes zum Planen einer Exchange-Hybridbereitstellung
 
 Eine Hybridbereitstellung bietet Unternehmen die Möglichkeit, die Funktionsvielfalt und die Verwaltungskontrolle, die die vorhandene lokale Microsoft Exchange-Organisation bietet, auf die Cloud auszudehnen. Eine Hybridbereitstellung bietet für eine lokale Exchange-Organisation und Exchange Online in Microsoft Office 365 ein einheitliches Erscheinungsbild als nahtlose Exchange-Organisation. Darüber hinaus kann eine Hybridbereitstellung als Zwischenschritt vor dem vollständigen Wechsel zu einer Exchange Online-Organisation dienen.
 

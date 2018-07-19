@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-23_
+_**Letztes Änderungsdatum des Themas:** 2013-04-23_
 
 Mithilfe der Funktion Outlook Voice Access in Unified Messaging (UM) können Benutzer mit einem Analog-, Digital- oder Mobiltelefon E-Mail- und Voicemailnachrichten abrufen sowie ihren Kalender und ihre persönlichen Kontakte verwalten. Sie können über die Telefontastatur oder Sprachbefehle mit dem Postfach interagieren, müssen jedoch die Tastatur auf dem Telefon verwenden, um nach einem Benutzer im Verzeichnis für Ihre Organisation zu suchen.
 

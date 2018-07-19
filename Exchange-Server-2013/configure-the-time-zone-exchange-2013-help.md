@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-17_
+_**Letztes Änderungsdatum des Themas:** 2012-11-17_
 
 Standardmäßig verwendet die automatische Unified Messaging-Telefonzentrale (UM) die Zeitzone des Postfachservers, auf dem sie erstellt wurde. Es gibt jedoch Situationen, in denen die Zeitzone für die automatische UM-Telefonzentrale in eine andere Zeitzone geändert werden muss. Wenn Sie beispielsweise über zwei UM-Wählpläne verfügen und jeder Wählplan für eine andere Zeitzone steht, müssen Sie eine automatische UM-Telefonzentrale so konfigurieren, dass sie die gleiche Zeitzone wie der Postfachserver aufweist. Die andere automatische UM-Telefonzentrale muss eine vom Postfachserver abweichende Zeitzone haben.
 

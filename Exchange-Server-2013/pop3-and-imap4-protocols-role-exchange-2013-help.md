@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `POP3 and IMAP4 Protocols` ermöglicht Administratoren das Verwalten der POP3- und IMAP4-Konfiguration, beispielsweise Authentifizierungs- und Verbindungseinstellungen, auf einzelnen Servern.
 

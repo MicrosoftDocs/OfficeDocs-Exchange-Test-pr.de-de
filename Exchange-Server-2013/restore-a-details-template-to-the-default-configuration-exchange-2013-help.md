@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-12_
+_**Letztes Änderungsdatum des Themas:** 2012-10-12_
 
 Der Detailvorlagen-Editor verfügt nicht über die Schaltfläche **Rückgängig**, und es gibt auch keine Tastenkombination, mit der eine Aktion rückgängig gemacht werden kann. Wenn Sie einer Vorlage ein Objekt hinzugefügt haben, können Sie es nur mit der ENTF-TASTE wieder löschen. Zum Rückgängigmachen eines Löschvorgangs müssen Sie die Einstellung erneut zuweisen. Sie können die ursprünglichen Einstellungen auch wiederherstellen, indem Sie den Detailvorlagen-Editor beenden, ohne die Änderungen zu speichern. Sollen nach dem Speichern Änderungen rückgängig gemacht werden, können Sie die Vorlage wiederherstellen. Beim Wiederherstellen einer Vorlage gehen sämtliche Anpassungen verloren, und die Vorlage verfügt wieder über die ursprüngliche Konfiguration.
 

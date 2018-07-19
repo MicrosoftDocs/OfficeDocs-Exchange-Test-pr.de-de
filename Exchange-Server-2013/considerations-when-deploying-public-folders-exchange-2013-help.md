@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-07-12_
+_**Letztes Änderungsdatum des Themas:** 2016-07-12_
 
 Obwohl öffentliche Ordner in Exchange 2013 zahlreiche Vorteile haben, müssen vor ihrer Implementierung in Ihrer Organisation verschiedene Aspekte beachtet werden.
 

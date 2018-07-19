@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-05-04_
+_**Letztes Änderungsdatum des Themas:** 2016-05-04_
 
 Sie können anzeigen oder ändern die Details innerhalb Ihrer DLP-Richtlinien, ohne mit dem Exchange-Verwaltungskonsole (EAC) oder Exchange-Verwaltungsshell-Cmdlets die Richtlinien exportieren, als XML-Datei speichern und diese XML-Datei ändern. In der Regel würden Sie dann die XML-Datei wieder in Exchange importieren. Auf diese Weise können Richtlinien unabhängig von Exchange bearbeitet werden. Sie müssen jedoch bestimmtes Format-Anforderungen, auch als XML-Schema, um die korrekte bezeichnet erfüllen.
 

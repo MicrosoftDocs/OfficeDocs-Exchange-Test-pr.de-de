@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-09_
+_**Letztes Änderungsdatum des Themas:** 2012-11-09_
 
 Sie können die Anzahl der zulässigen fehlerhaften Eingaben konfigurieren, die Benutzer beim Anruf einer Outlook Voice Access-Nummer machen können, bevor die Verbindung beendet wird. Diese Einstellung gilt sowohl für Outlook Voice Access-Benutzer als auch für nicht authentifizierte Benutzer, die die Verzeichnissuche verwenden.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-08_
+_**Letztes Änderungsdatum des Themas:** 2012-11-08_
 
 Microsoft Exchange Server 2013-Setup kann nicht fortgesetzt werden, weil eine Benutzerpostfachdatenbank nicht ohne einen möglichen Datenverlust vom lokalen Server entfernt werden kann.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-13_
+_**Letztes Änderungsdatum des Themas:** 2012-10-13_
 
 Exchange enthält standardmäßig eine E-Mail-Adressrichtlinie, die den Alias des Empfängers als den lokalen Anteil der E-Mail-Adresse angibt und die akzeptierte Standarddomäne verwendet. Der lokale Anteil einer E-Mail-Adresse ist der Name, der vor dem @-Zeichen angezeigt wird. Diese E-Mail-Adressrichtlinie gilt für alle Benutzer in der Organisation. Diese E-Mail-Adressrichtlinie kann nicht entfernt werden.
 

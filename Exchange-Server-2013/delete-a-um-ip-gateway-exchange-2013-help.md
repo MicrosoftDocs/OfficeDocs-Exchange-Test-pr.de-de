@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Wenn Sie ein UM-IP-Gateway (Unified Messaging) löschen, können Exchange-Server eingehende Anrufe von dem VoIP-Gateway (Voice over IP), der SIP-fähigen Nebenstellenanlage (Session Initiation Protocol), der IP-Nebenstellenanlage oder dem Session Border Controller (SBC), die dem UM-IP-Gateway zugeordnet sind, nicht länger annehmen.
 

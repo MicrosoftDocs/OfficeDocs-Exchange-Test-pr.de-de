@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-05-30_
+_**Letztes Änderungsdatum des Themas:** 2013-05-30_
 
 Sie können eine Outlook Web App-Postfachrichtlinie erstellen, um eine Reihe allgemeiner Richtlinieneinstellungen anzuwenden. Outlook Web App-Postfachrichtlinien sind beim Anwenden und Standardisieren von Einstellungen, z. B. Anlageneinstellungen, für bestimmte Benutzergruppen hilfreich.
 
@@ -41,13 +41,9 @@ Sie können eine Outlook Web App-Postfachrichtlinie erstellen, um eine Reihe all
 
 2.  Klicken Sie auf die Schaltfläche **Neu**.
 
-3.  
-    
-    Geben Sie einen Namen für die Richtlinie ein.
+3.  Geben Sie einen Namen für die Richtlinie ein.
 
-4.  
-    
-    Verwenden Sie die Kontrollkästchen, um Funktionen zu aktivieren oder zu deaktivieren. Standardmäßig werden die gängigsten Funktionen angezeigt. Klicken Sie auf **Weitere Optionen**, um alle Funktionen anzuzeigen, die aktiviert oder deaktiviert werden können.
+4.  Verwenden Sie die Kontrollkästchen, um Funktionen zu aktivieren oder zu deaktivieren. Standardmäßig werden die gängigsten Funktionen angezeigt. Klicken Sie auf **Weitere Optionen**, um alle Funktionen anzuzeigen, die aktiviert oder deaktiviert werden können.
     
 
     > [!NOTE]

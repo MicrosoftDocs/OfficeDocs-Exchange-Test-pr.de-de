@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-10-09_
+_**Letztes Änderungsdatum des Themas:** 2014-10-09_
 
 Ein *Gerätepostfach* ist ein Ressourcenpostfach, das einer ortsunabhängigen Ressource zugewiesen wird, wie z. B. einem Laptop, einem Projektor, einem Mikrofon oder einem Firmenwagen. Nachdem ein Administrator ein Gerätepostfach erstellt hat, können die Benutzer das Gerät einfach reservieren, indem sie das entsprechende Gerätepostfach in eine Besprechungsanfrage einschließen. Sie können die Exchange-Verwaltungskonsole und die Shell verwenden, um ein Gerätepostfach zu erstellen oder die Eigenschaften von Gerätepostfächern zu ändern. Weitere Informationen finden Sie unter [Empfänger](recipients-exchange-2013-help.md).
 

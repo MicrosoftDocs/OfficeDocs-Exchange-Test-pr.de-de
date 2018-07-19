@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-07-22_
+_**Letztes Änderungsdatum des Themas:** 2016-07-22_
 
 In diesem Thema werden die Auswirkungen von Antivirenprogrammen auf Dateiebene auf Computern beschrieben, auf denen Microsoft Exchange Server 2013 ausgeführt wird. Wenn Sie die in diesem Thema beschriebenen Empfehlungen implementieren, können Sie die Sicherheit und den Status Ihrer Exchange-Organisation optimieren.
 

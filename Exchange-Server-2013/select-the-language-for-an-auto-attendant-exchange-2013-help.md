@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können die Einstellung der Standardansagesprache für eine automatische Unified Messaging-Telefonzentrale (UM) konfigurieren. Mit der für eine automatische UM-Telefonzentrale verfügbaren Spracheinstellung können Sie die Standardansagesprache für die automatische Telefonzentrale konfigurieren. Wenn Sie die Standardsystemansagen für die automatische Telefonzentrale verwenden, ist dies die Sprache, die ein Anrufer hört, wenn die automatische Telefonzentrale den eingehenden Anruf beantwortet. Diese Spracheinstellung hat nur Auswirkungen auf die Standardsystemansagen, die verfügbar sind, nachdem Sie den Postfachserver mit dem Microsoft Exchange Unified Messaging-Dienst installiert haben. Diese Einstellung wirkt sich nicht auf benutzerdefinierte Ansagen aus, die für eine automatische Telefonzentrale konfiguriert wurden. Die verfügbaren Sprachen beruhen auf den Unified Messaging-Sprachpaketen, die auf dem Postfachserver installiert sind.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Die Inhaltsfilterung wird durch den Inhaltsfilter-Agent bereitgestellt. Der Inhaltsfilter-Agent filtert alle Nachrichten, die durch alle Empfangsconnectors auf dem Exchange-Server eingehen. Nur Nachrichten aus nicht authentifizierten Quellen werden gefiltert.
 

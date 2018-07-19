@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-06_
+_**Letztes Änderungsdatum des Themas:** 2015-03-06_
 
 *Spammer* oder böswillige Absender verwenden eine Vielzahl von Techniken, um ungewünschte E-Mails an Ihre Organisation zu senden. Kein einzelnes Tool und kein einzelner Vorgang kann Spam vollständig beseitigen. Daher bietet Microsoft Exchange Server 2013 einen mehrschichtigen, diversifizierten und facettenreichen Ansatz zur Verringerung dieser unerwünschten Nachrichten. Exchange verwendet Transport-Agents, um Antispamschutz bereitzustellen, und die integrierten Agents in Exchange 2013 wurden weitgehend unverändert aus Microsoft Exchange Server 2010 übernommen.
 

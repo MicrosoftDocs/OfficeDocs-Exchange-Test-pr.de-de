@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 In Microsoft Exchange Server 2013, Microsoft Outlook 2010 (und höheren Versionen) sowie in Microsoft OfficeOutlook Web App können Benutzer ihre Nachrichten über die Verwaltung von Informationsrechten (Information Rights Management, IRM) schützen. Sie können Outlook-Schutzregeln erstellen, um automatisch den IRM-Schutz auf Nachrichten anzuwenden, bevor sie von einem Outlook 2010-Client gesendet werden. Sie können außerdem Transportschutzregeln erstellen, um IRM-Schutz auf im Transport befindliche Nachrichten anzuwenden, auf die die Regelbedingungen zutreffen. Die Transportentschlüsselung ermöglicht Zugriff auf IRM-geschützte Nachrichten und Inhalte, um Messagingrichtlinien zu erzwingen.
 

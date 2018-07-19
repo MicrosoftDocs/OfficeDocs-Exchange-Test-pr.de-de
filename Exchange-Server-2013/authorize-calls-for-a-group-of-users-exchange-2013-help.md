@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Sie können Wählautorisierungen für eine UM-Postfachrichtlinie (Unified Messaging) aktivieren. Wählautorisierungen für eine Postfachrichtlinie dienen zum Unterbinden, dass authentifizierte Outlook Voice Access-Benutzer, die der UM-Postfachrichtlinie zugeordnet sind, nationale bzw. internationale oder *Outdialing*-Telefonate führen. Outdialing erfolgt, wenn Unified Messaging einen ausgehenden Anruf für einen Benutzer einleitet, nachdem dieser sich bei einer Outlook Voice Access-Telefonnummer eingewählt hat, die für einen UM-Wählplan konfiguriert ist. Die in einer UM-Postfachrichtlinie konfigurierten Einstellungen gelten für alle UM-aktivierten Benutzer, die der UM-Postfachrichtlinie zugeordnet sind.
 

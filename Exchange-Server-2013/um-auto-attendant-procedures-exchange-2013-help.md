@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-01-30_
+_**Letztes Änderungsdatum des Themas:** 2013-01-30_
 
 [Einrichten einer automatischen UM-Telefonzentrale](set-up-a-um-auto-attendant-exchange-2013-help.md)
 

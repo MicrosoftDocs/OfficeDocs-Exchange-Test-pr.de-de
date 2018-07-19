@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-07-14_
+_**Letztes Änderungsdatum des Themas:** 2014-07-14_
 
 Der DAC-Modus (Datacenter Activation Coordination) ist eine Eigenschaft für eine Datenbankverfügbarkeitsgruppe (DAG, Database Availability Group). Der DAC-Modus ist standardmäßig deaktiviert, sollte jedoch für alle DAGs mit mindestens zwei Mitgliedern aktiviert werden, die die fortlaufende Replikation verwenden. Der DAC-Modus sollte für DAGs, die einen Replikationsmodus von Drittanbietern verwenden, nur aktiviert werden, wenn der Drittanbieter dies ausdrücklich autorisiert hat.
 

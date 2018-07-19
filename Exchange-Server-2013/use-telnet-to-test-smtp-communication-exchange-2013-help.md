@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema wird erläutert, wie Sie Telnet zum Testen der SMTP-Kommunikation (Simple Mail Transfer Protocol) zwischen Messagingservern verwenden können. Standardmäßig überwacht SMTP Port 25. Wenn Sie Telnet für Port 25 verwenden, können Sie die SMTP-Befehle, die zum Herstellen einer Verbindung mit einem SMTP-Server und zum Senden einer Nachricht verwendet werden, genau so eingeben, als handele es sich bei Ihrer Telnet-Sitzung um einen SMTP-Messagingserver. Sie können den Erfolg oder Fehler jedes Schritts im Verbindungs- und Nachrichtenübermittlungsprozess erkennen.
 

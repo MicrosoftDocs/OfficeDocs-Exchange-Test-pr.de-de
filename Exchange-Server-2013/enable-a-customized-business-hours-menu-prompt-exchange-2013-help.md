@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-19_
+_**Letztes Änderungsdatum des Themas:** 2013-04-19_
 
 Sie können die Menüansage anpassen, die von einer automatischen Unified Messaging-Telefonzentrale (UM) während der Geschäftszeit verwendet werden soll. Nachdem Sie eine automatische UM-Telefonzentrale erstellt haben, wird eine Systemansage ("Willkommen bei Unified Messaging") als Menüansage verwendet, die Anrufer hören, nachdem die Begrüßung mit den Geschäftszeiten wiedergegeben wurde. Auch wenn Systemansagen nicht ersetzt oder geändert werden dürfen, können Sie die Begrüßungen und Menüansagen anpassen, die mit automatischen UM-Telefonzentralen verwendet werden. Nachdem Sie eine angepasste Audiodatei für die Menüansage für die Geschäftszeiten erstellt haben, müssen Sie für die automatische UM-Telefonzentrale Menünavigationseinträge für die Geschäftszeiten aktivieren.
 

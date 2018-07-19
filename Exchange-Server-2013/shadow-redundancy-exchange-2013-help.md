@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Shadow-Redundanz wurde in Microsoft Exchange Server 2010 eingeführt, um redundante Nachrichtenkopien zu erstellen, bevor die Nachrichten an Postfächer übermittelt werden. In Exchange 2010 verzögert die Shadow-Redundanz die Löschung einer Nachricht aus der Transportdatenbank auf einem Transportserver, bis der nächste Hop im Übermittlungspfad die Übermittlung beendet hat. Wenn beim nächsten Hop ein Fehler auftritt, bevor der Hop dem Transportserver die erfolgreiche Übermittlung bestätigt, übermittelt der Transportserver die Nachricht erneut an diesen nächsten Hop. Exchange 2010-Server verwenden das Verb XSHADOW, um anzukündigen, dass sie die Shadow-Redundanz unterstützen. Wenn ein SMTP-Server die Shadow-Redundanz nicht unterstützt, verzögert Exchange 2010 die Bestätigung basierend auf einem auf dem Empfangsconnector konfigurierten Zeitintervall, um eine redundante Nachrichtenkopie zu erstellen.
 

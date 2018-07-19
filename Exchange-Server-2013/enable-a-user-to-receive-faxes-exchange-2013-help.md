@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie können einen Benutzer für Unified Messaging (UM) aktivieren, damit dieser Faxnachrichten empfangen kann. Wenn Sie einen Benutzer für Unified Messaging aktivieren, kann dieser standardmäßig Faxnachrichten empfangen, wenn Sie den Faxbetrieb aktivieren und einen Faxpartner-URI für die UM-Postfachrichtlinie konfigurieren, die mit dem Benutzer verknüpft ist. Die Faxfunktion kann in den UM-Wähleinstellungen, in den UM-Postfachrichtlinien oder im UM-aktivierten Benutzerpostfach aktiviert oder deaktiviert werden.
 

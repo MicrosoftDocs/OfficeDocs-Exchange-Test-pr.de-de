@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Sie anhand der Protokollierung die POP3- und IMAP4-Verbindungen in einer Exchange-Umgebung überprüfen. Dies kann bei der Problembehandlung in Bezug auf POP3- oder IMAP4-Leistung hilfreich sein.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-01-30_
+_**Letztes Änderungsdatum des Themas:** 2013-01-30_
 
 [Voicemailvorschau Partnerdienste für Benutzer konfigurieren](configure-voice-mail-preview-partner-services-for-users-exchange-2013-help.md)
 

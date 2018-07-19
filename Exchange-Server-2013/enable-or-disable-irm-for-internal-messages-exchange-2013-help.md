@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-12_
+_**Letztes Änderungsdatum des Themas:** 2012-10-12_
 
 In Microsoft Exchange Server 2013 ist die Verwaltung von Informationsrechten (Information Rights Management, IRM) für interne Nachrichten standardmäßig aktiviert. Auf diese Weise können Sie Transportschutzregeln und Microsoft Outlook-Schutzregeln für IRM-geschützte Nachrichten im Transport und auf Clients mit Microsoft Outlook 2010 und höher erstellen. Das Aktivieren von IRM für interne Nachrichten ist eine Voraussetzung für alle weiteren IRM-Funktionen in Exchange Server 2013, wie beispielsweise Transportentschlüsselung, Journalregelentschlüsselung, IRM in Microsoft Office Outlook Web App und IRM in Microsoft Exchange ActiveSync.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server, Exchange Server 2013_
+_**Gilt für:** Exchange Server, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Microsoft Exchange Server 2013 umfasst diverse vordefinierte Berechtigungen, die auf dem RBAC-Berechtigungsmodell (Role Based Access Control, rollenbasierte Zugriffssteuerung) basieren und zur problemlosen Zuweisung von Berechtigungen zu Administratoren und Benutzern umgehend verwendet werden können. Mithilfe der Berechtigungsfunktionen in Exchange 2013 können Sie die Einrichtungs- und Bereitstellungsschritte einer neuen Organisation schnell ausführen.
 

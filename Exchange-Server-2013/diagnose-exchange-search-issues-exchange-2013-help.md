@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Die Exchange-Suche indiziert Postfächer und unterstützte Anlagen in Exchange-Postfächern. Bei zunehmenden E-Mail-Mengen, größer werdenden Postfächern und Speicherkontingenten, der Bereitstellung von Archivpostfächern für Benutzer und der In-Situ-eDiscovery für das Ausführen von Discoverysuchen ist die Exchange-Suche eine entscheidende Komponente des Postfachservers in Ihrer Microsoft Exchange Server 2013-Organisation. Probleme im Zusammenhang mit der Exchange-Suche können sich auf die Benutzerproduktivität auswirken und die In-Situ-eDiscovery-Funktionalität beeinträchtigen.
 

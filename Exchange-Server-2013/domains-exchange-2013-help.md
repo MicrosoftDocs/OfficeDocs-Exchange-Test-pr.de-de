@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Office 365_
+_**Gilt für:** Exchange Server 2013, Office 365_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-11_
+_**Letztes Änderungsdatum des Themas:** 2012-10-11_
 
 Domänen stehen für SMTP-Namespaces, für die E-Mail-Verzeichnisse und -Postfächer eingerichtet sind. Indem Sie die Domänen konfigurieren, die mit Ihrer Microsoft Exchange Server 2013-Organisation interagieren, können Sie festlegen, wie ausgehende und eingehende E-Mails für verschiedene Domänen von Exchange verarbeitet werden.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-05_
+_**Letztes Änderungsdatum des Themas:** 2012-12-05_
 
 Sie können E-Mail für einen vorhandenen E-Mail-Kontakt in Ihrer Exchange-Organisation deaktivieren. Wenn Sie E-Mail für einen vorhandenen E-Mail-Kontakt deaktivieren, wird dieser aus Exchange und dem Adressbuch Ihrer Organisation entfernt. Wenn der E-Mail-Kontakt Mitglied einer Verteilergruppe ist, erhält der Kontakt keine an die Gruppe gesendeten E-Mails mehr. Darüber hinaus werden die Exchange-Attribute vom für E-Mail aktivierten Kontaktobjekt in Active Directory entfernt. Der Kontakt selbst und seine nicht auf Exchange bezogenen Attribute (z. B. Kontakt- und Organisationsinformationen) bleiben in Active Directory erhalten.
 

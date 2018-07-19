@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit der Veröffentlichung von Windows Phone 8, Windows 8 und Windows RT gibt es zahlreiche Geräte, die Exchange ActiveSync und Geräterichtlinien für mobile Geräte unterstützen. Jedes Gerätebetriebssystem unterstützt eine bestimmte Gruppe von Postfachrichtlinieneinstellungen für mobile Geräte.
 

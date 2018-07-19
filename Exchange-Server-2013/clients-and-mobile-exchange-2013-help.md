@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Der Zugriff auf Informationen in einem Microsoft Exchange Server 2013-Postfach kann über die verschiedensten Clients erfolgen. Zu diesen Clients zählen Desktopprogramme wie Microsoft Outlook, Outlook Web App und mobile Clients wie Mobiltelefone, Tablets und andere mobile Geräte. Jeder dieser Clients bietet eine Vielzahl von Features.
 

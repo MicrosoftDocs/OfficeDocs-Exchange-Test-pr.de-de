@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-19_
+_**Letztes Änderungsdatum des Themas:** 2012-11-19_
 
 In diesem Thema wird das Aktivieren, Deaktivieren, Anzeigen und Ändern der Priorität von Cmdlet-Erweiterungs-Agents in Exchange Server 2013 erläutert. Weitere Informationen zu Cmdlet-Erweiterungs-Agents in Exchange 2013 finden Sie unter [Cmdlet-Erweiterungs-Agents](cmdlet-extension-agents-exchange-2013-help.md).
 

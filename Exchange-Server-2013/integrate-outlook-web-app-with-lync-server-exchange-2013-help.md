@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-17_
+_**Letztes Änderungsdatum des Themas:** 2013-02-17_
 
 Outlook Web App unterstützt die Integration von Outlook Web App und Microsoft Lync Server 2013. Bei der Konfiguration der Integration mit Lync Server 2013 und der Aktivierung von Sofortnachrichten (Instant Messaging) in Outlook Web App können Benutzer Instant Messaging-Sitzungen mit Outlook Web App initiieren oder an ihnen teilnehmen.
 

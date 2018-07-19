@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-05-04_
+_**Letztes Änderungsdatum des Themas:** 2015-05-04_
 
 Sie können mithilfe der Exchange-Verwaltungskonsole oder Shell ein gelöschtes Postfach mit einem Active Directory-Benutzerkonto verbinden. Wenn Sie ein Postfach löschen, bewahrt Exchange das Postfach in der Postfachdatenbank auf und schaltet es in einen deaktivierten Status um. Das dazugehörige Active Directory-Benutzerkonto wird ebenfalls gelöscht. Das Postfach wird aufbewahrt, bis der Aufbewahrungszeitraum für gelöschte Postfächer abgelaufen ist, der standardmäßig 30 Tage beträgt. Danach wird es aus der Postfachdatenbank *endgültig gelöscht*.
 

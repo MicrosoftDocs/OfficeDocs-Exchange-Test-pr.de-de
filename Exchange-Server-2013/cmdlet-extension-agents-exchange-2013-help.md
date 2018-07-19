@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Cmdlet-Erweiterungs-Agents sind Komponenten in Microsoft Exchange Server 2013, die bei der Ausführung von Exchange 2013-Cmdlets aufgerufen werden. Wie der Name sagt, erweitern Cmdlet-Erweiterungs-Agents die Funktionen der aufrufenden Cmdlets, indem sie ihnen beim Verarbeiten von Daten oder bei der Durchführung zusätzlicher Aktionen helfen, die auf den Anforderungen des Cmdlets basieren. Cmdlet-Erweiterungs-Agents sind für alle Serverrollen verfügbar.
 

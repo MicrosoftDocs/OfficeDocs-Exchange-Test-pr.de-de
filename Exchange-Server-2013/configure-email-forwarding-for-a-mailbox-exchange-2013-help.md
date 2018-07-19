@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Bei der E-Mail-Weiterleitung können Sie ein Postfach einrichten, sodass an dieses Postfach gesendete E-Mail-Nachrichten an das Postfach eines anderen Benutzers innerhalb oder außerhalb Ihrer Organisation weitergeleitet werden.
 

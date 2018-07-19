@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2014-11-05_
+_**Letztes Änderungsdatum des Themas:** 2014-11-05_
 
 Microsoft Exchange Server 2013-Setup kann nicht fortgesetzt werden, da mindestens ein Microsoft Exchange Server 2010-Server noch nicht auf Service Pack 3 (SP3) für Exchange Server 2010 aktualisiert wurde. Voraussetzung für die Installation von Exchange 2013 ist, dass alle Exchange 2010-Server in Ihrer Organisation auf Exchange 2010 SP3 aktualisiert wurden. Diese Voraussetzung umfasst auch die Edge-Transport-Server von Exchange 2010. Weitere Informationen finden Sie unter [Aktualisieren von Exchange 2010 auf Exchange 2013](upgrade-from-exchange-2010-to-exchange-2013-exchange-2013-help.md).
 

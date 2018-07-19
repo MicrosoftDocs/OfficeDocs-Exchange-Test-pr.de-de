@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-08_
+_**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Sie können über die Exchange-Verwaltungsshell auf Postfach- und Clientzugriffsservern von Microsoft Exchange Server 2013 eine Liste der Transport-Agents in der Transportpipeline anzeigen. Insbesondere das Cmdlet **Get-TransportPipeline** zeigt Informationen zu den folgenden Typen von Transport-Agents in der Transportpipeline:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsofts [bevorzugte Architektur](https://blogs.technet.com/b/exchange/archive/2014/04/21/the-preferred-architecture.aspx) für Exchange Server 2013 nutzt Konzept der Exchange Native Data Protection. Exchange Native Data Protection nutzt die systemeigene Exchange Features zum Schutz Ihrer Postfachdaten, ohne die Verwendung von herkömmlichen Sicherungen. Aber wenn Sie Sicherungen erstellen möchten, umfasst Exchange Plug-In für Windows Server Sicherung (WSB), die Sie Exchange-fähige Volume Shadow Copy Service, VSS-basierten Sicherungen von Exchange Daten erstellen können. Damit Exchange-fähige Sicherungen werden können, müssen Sie das WSB-Feature installiert haben.
 

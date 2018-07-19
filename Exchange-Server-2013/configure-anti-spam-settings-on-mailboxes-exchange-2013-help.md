@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-11-17_
+_**Letztes Änderungsdatum des Themas:** 2016-11-17_
 
 Sie können für einzelne Postfächer bestimmte Antispameinstellungen konfigurieren, die sich von den Antispameinstellungen für die übrigen Postfächer in Ihrer Exchange-Organisation unterscheiden. Wenn Sie für ein Postfach eine Antispameinstellung konfigurieren, setzt diese Einstellung die organisationsweite Inhaltsfilterung oder die Antispameinstellung auf Organisationsebene außer Kraft.
 

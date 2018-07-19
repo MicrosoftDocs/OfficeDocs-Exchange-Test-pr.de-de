@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-05-20_
+_**Letztes Änderungsdatum des Themas:** 2013-05-20_
 
 Aus Sicherheitsgründen möchten einige Organisation den Zugriff auf die Exchange-Verwaltungskonsole für Benutzer einschränken, die über das Internet zugreifen. Das vorliegende Verfahren zeigt, wie Sie den Zugriff auf die Exchange-Verwaltungskonsole deaktivieren. Das hier vorgestellte Verfahren hindert Benutzer nicht daran, in Outlook Web App auf die Optionen zuzugreifen.
 

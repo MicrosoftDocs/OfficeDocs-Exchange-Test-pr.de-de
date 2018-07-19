@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-12-16_
+_**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 Mit dem Cmdlet **Get-QueueDigest** können Sie Informationen zu manchen oder allen Warteschlangen in Ihrer Exchange-Organisation mit nur einem einzigen Befehl anzeigen.
 

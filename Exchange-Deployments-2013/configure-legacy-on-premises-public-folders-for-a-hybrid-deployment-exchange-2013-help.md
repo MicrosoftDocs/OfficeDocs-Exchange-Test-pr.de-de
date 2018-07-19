@@ -17,7 +17,7 @@ _<strong>Gilt für:</strong>Exchange Online, Exchange Server 2010, Exchange Serv
 
 _<strong>Letztes Änderungsdatum des Themas:</strong>2018-05-22_
 
-**Zusammenfassung:** Befolgen Sie die Schritte in diesem Artikel, um öffentliche Ordner zwischen Office 365 und Ihrer lokalen Exchange 2007- oder Exchange Server 2010-Bereitstellung zu synchronisieren.
+**Zusammenfassung:**  Befolgen Sie die Schritte in diesem Artikel, um öffentliche Ordner zwischen Office 365 und Ihrer lokalen Exchange 2007- oder Exchange Server 2010-Bereitstellung zu synchronisieren.
 
 In einer Hybridbereitstellung können Ihre Benutzer in Exchange Online und/oder lokal sein, und Ihre öffentlichen Ordner sind entweder in Exchange Online oder lokal gespeichert. öffentliche Ordner können sich nur an einem Ort befinden. Sie müssen daher entscheiden, ob Sie Ihre öffentlichen Ordner in Exchange Online oder lokal speichern möchten. Sie können nicht an beiden Speicherorten abgelegt werden. Postfächer für Öffentliche Ordner werden über den Verzeichnissynchronisierungsdienst mit Exchange Online synchronisiert. E-Mail-aktivierte öffentliche Ordner werden allerdings nicht standortübergreifend synchronisiert.
 

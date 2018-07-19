@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-25_
+_**Letztes Änderungsdatum des Themas:** 2012-09-25_
 
 Die Warteschlangenanzeige ist ein Microsoft Management Console-Snap-In, das auf einem Postfachserver oder auf dem Edge-Transport-Server installiert wird. Die Warteschlangenanzeige befindet sich in der Exchange Toolbox-Konsole im Abschnitt **Nachrichtenflusstools**. Mit diesem Tool können Sie Informationen zu Warteschlangen auf einem Transportserver und zu den in diesen Warteschlangen vorhandenen Nachrichten anzeigen sowie Verwaltungsaktionen für Warteschlangen und E-Mail-Elemente ausführen. Die Warteschlangenanzeige ist für die Problembehebung bei der Nachrichtenübermittlung und das Identifizieren von Spam nützlich.
 

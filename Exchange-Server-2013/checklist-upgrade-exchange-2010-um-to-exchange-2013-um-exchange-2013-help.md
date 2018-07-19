@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Nutzen Sie diese Prüfliste als Hilfestellung beim Upgrade von Exchange 2010 Unified Messaging (UM) auf Exchange 2013 UM. Greifen Sie beim Upgrade Ihrer Exchange 2010-Organisation und Ihrer UM-Bereitstellung auf Exchange 2013 auf diese Informationen zurück. Weitere Informationen zur schrittweisen Anleitung beim Upgrade auf Exchange 2013 UM finden Sie unter [Aktualisierung von Exchange 2010 Unified Messaging auf Exchange 2013 Unified Messaging](upgrade-exchange-2010-um-to-exchange-2013-um-exchange-2013-help.md).
 

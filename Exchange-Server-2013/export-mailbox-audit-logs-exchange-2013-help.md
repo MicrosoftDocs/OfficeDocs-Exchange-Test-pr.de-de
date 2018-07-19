@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Bei aktivierter Postfachüberwachung für ein Postfach werden im *Postfachüberwachungsprotokoll* Informationen protokolliert, wenn ein Benutzer, bei dem es sich nicht um den Besitzer des Postfachs handelt, auf das Postfach zugreift. Jeder Protokolleintrag enthält Angaben zur zugreifenden Person und zur Zugriffszeit, zu den Aktionen, die der Nicht-Besitzer ausgeführt hat, sowie zum Status der Aktion. Einträge im Postfachüberwachungsprotokoll werden standardmäßig für 90 Tage beibehalten. Mithilfe des Postfachüberwachungsprotokolls können Sie feststellen, ob auf ein Postfach von einer Person zugegriffen wurde, bei der es sich nicht um den Besitzer des Postfachs handelt.
 
@@ -65,9 +65,13 @@ Führen Sie den folgenden Befehl in der Shell aus, um die Postfachüberwachungsp
 
 Führen Sie folgende Befehle aus, um die Postfachüberwachungsprotokollierung für alle Benutzerpostfächer in Ihrer Organisation zu aktivieren.
 
+```
     $UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
+```
 
+```
     $UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
 
 ## Schritt 2: Konfigurieren von Outlook Web App, um XML-Anlagen zuzulassen
 

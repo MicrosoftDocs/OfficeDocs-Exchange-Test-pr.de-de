@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-29_
+_**Letztes Änderungsdatum des Themas:** 2013-04-29_
 
 Sie können mithilfe der Exchange-Verwaltungskonsole oder der Shell ein selbstsigniertes Zertifikat, ein Zertifikat einer internen Public Key-Infrastruktur (PKI) oder ein Drittanbieterzertifikat für bestimmte Exchange-Dienste zuweisen. Wenn Sie das Cmdlet **New-ExchangeCertificate** verwenden, um das Zertifikat Exchange-Diensten mit dem Parameter *Services* zuzuweisen, werden Sie aufgefordert, das Zertifikat Exchange-Diensten zuzuweisen. Wenn Sie mit der Exchange-Verwaltungskonsole ein Zertifikat erstellen, fordert Sie der Assistent für neue Exchange-Zertifikate nicht auf, das Zertifikat Exchange-Diensten zuzuweisen. Sie müssen die Eigenschaften des Zertifikats bearbeiten und das Zertifikat zuweisen, indem Sie die Dienste auswählen, denen Sie es zuweisen möchten.
 

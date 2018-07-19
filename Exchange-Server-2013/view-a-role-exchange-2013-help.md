@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Verwaltungrollen können auf unterschiedliche Weisen angezeigt werden, abhängig von den gewünschten Informationen. Sie können beispielsweise auswählen, dass nur Rollen von einem bestimmten Rollentyp oder nur Rollen mit bestimmten enthaltenen Cmdlets und Parametern zurückgegeben werden, oder Sie können die Details einer bestimmten Verwaltungsrolle anzeigen. Weitere Informationen zu Verwaltungsrollen in Microsoft Exchange Server 2013 finden Sie unter [Grundlegendes zu Verwaltungsrollen](understanding-management-roles-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 *Verwaltungsrollenbereiche* ermöglichen Ihnen die Definition spezifischer Wirkungs- oder Einflussbereiche für eine Verwaltungsrolle, wenn eine Verwaltungsrollenzuweisung erstellt wird. Wenn Sie einen Bereich anwenden, kann der Rollenempfänger, dem die Rolle zugewiesen wird, nur die in diesem Bereich enthaltenen Objekte ändern. Ein Rollenempfänger kann eine Verwaltungsrollengruppe, eine Verwaltungsrolle, eine Richtlinie für eine Verwaltungsrollenzuweisung, ein Benutzer oder eine universelle Sicherheitsgruppe (Universal Security Group, USG) sein. Weitere Informationen zu Verwaltungsrollen finden Sie unter [Grundlegendes zur rollenbasierten Zugriffssteuerung](understanding-role-based-access-control-exchange-2013-help.md).
 

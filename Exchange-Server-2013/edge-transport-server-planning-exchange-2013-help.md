@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 Die Edge-Transport-Serverrolle wurde in Exchange Service Pack 1 wieder eingeführt. Der Edge-Transport-Server bietet für die Exchange-Organisation einen verbesserten Schutz gegen Spam. Der Edge-Transport-Server wendet außerdem Richtlinien auf Nachrichten an, die sich im Transport zwischen Organisationen befinden. Diese Serverrolle wird im Umkreisnetzwerk und außerhalb der Active Directory-Gesamtstruktur bereitgestellt. Im Gegensatz zu Clientzugriffs- oder Postfachservern können Edge-Transport-Server nicht direkt auf Konfigurations- und Empfängerinformationen in Active Directory zugreifen. Der Edge-Transport-Server verwendet AD LDS (Active Directory Lightweight Directory Service) zum lokalen Speichern von Konfigurations- und Empfängerinformationen.
 
@@ -130,7 +130,7 @@ Führen Sie die folgenden Schritte aus, um die DNS-Einstellungen für den Edge-T
     
     4.  Klicken Sie auf der Seite **Computernamen ändern** auf **Weitere**.
     
-    5.  Geben Sie im Feld **Primäres DNS-Suffix des Computers:** einen DNS-Domänennamen und ein -Suffix für den Edge-Transport-Server ein.
+    5.  Geben Sie im Feld **Primäres DNS-Suffix des Computers:**  einen DNS-Domänennamen und ein -Suffix für den Edge-Transport-Server ein.
     
     Dieser Name kann nach der Installation der Edge-Transport-Serverrolle nicht mehr geändert werden.
 

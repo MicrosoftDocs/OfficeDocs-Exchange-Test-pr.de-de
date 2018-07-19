@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Die Voicemailvorschau ist eine Funktion, die Benutzer beim Empfang ihrer Voicemailnachrichten von Unified Messaging (UM) nutzen können. Die Voicemailvorschau erweitert die vorhandene UM-Voicemailfunktion, indem eine Textversion der Audioaufzeichnungen bereitgestellt wird. Der Voicemailtext wird in E-Mail-Nachrichten innerhalb von MicrosoftOutlook Web App, Outlook 2010 und höheren Versionen sowie anderen unterstützten E-Mail-Programmen angezeigt. Weitere Informationen finden Sie unter [Microsoft-Sprachtechnologien](http://go.microsoft.com/fwlink/p/?linkid=187348).
 

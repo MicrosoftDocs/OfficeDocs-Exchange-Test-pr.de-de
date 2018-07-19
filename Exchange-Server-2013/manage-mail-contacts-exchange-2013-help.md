@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-10-04_
+_**Letztes Änderungsdatum des Themas:** 2017-10-04_
 
 E-Mail-Kontakte sind E-Mail-aktivierte Verzeichnisdienstobjekte, die Informationen über Personen oder Organisationen außerhalb der Exchange- oder Exchange Online-Organisation enthalten. Jeder E-Mail-Kontakt verfügt über eine externe E-Mail-Adresse. Weitere Informationen zu E-Mail-Kontakten finden Sie unter [Empfänger](recipients-exchange-2013-help.md).
 

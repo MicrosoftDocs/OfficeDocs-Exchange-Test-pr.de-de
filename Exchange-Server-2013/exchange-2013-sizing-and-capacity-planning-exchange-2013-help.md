@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Dimensionierung und Kapazitätsplanung für Exchange Server 2013 sind ein wichtiger Bestandteil Ihrer Exchange 2013-Bereitstellung. Die Konfiguration eines Systems für optimale Leistung ist ein iterativer Prozess. Nehmen Sie sich die Zeit, alle Variablen nachzuvollziehen, die sich auf Ihr System auswirken. Hierzu gehören Benutzerprofile, Architektur und Hardware. Mit diesen Kenntnissen können Sie Richtwerte für Ihre Systeme erstellen und Anpassungen vornehmen, um die Systemleistung zu steigern. Weitere Informationen und Hilfestellung zu Dimensionierung und Kapazitätsplanung für Ihre Exchange-Organisation finden Sie im Blog des Microsoft Exchange Teams [Ask the Perf Guy: Sizing Exchange 2013 Deployments (Dimensionieren von Exchange 2013-Bereitstellungen](https://go.microsoft.com/fwlink/p/?linkid=301990) und [Leistungsempfehlungen für Exchange Server 2013](exchange-server-2013-performance-recommendations-exchange-2013-help.md).
 

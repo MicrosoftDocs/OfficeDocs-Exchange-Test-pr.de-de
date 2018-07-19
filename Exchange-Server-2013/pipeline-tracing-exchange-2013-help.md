@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Für die Pipelineablaufverfolgung werden Kopien von E-Mail-Nachrichten eines bestimmten Absenders erfasst, während diese den Transportdienst auf Postfachservern, den Postfachtransport-Zustellungsdienst auf Postfachservern und Edge-Transport-Server durchlaufen. Die Pipelineablaufverfolgung erfasst ausführliche Informationen zu den Änderungen, die von jedem Transport-Agent an Nachrichten in der Transportpipeline vorgenommen werden, in Nachrichten-Snapshotdateien. Durch Untersuchen des Inhalts der Nachrichten-Snapshotdateien können Sie herausfinden, ob die Transport-Agents die Änderungen an den Nachrichten in der Transportpipeline erwartungsgemäß vorgenommen haben. Bei der Behandlung eines Problems müssen Sie herausfinden, welcher Transport-Agent fehlerhaft ist. Erst dann können Sie sich auf die Behandlung der Problematik dieses Agents konzentrieren, um das Problem zu beheben. Anschließend können Sie erneut Nachrichten-Snapshotdateien anzeigen, um sicherzustellen, dass Ihre Lösung erfolgreich war.
 

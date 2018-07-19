@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-08-26_
+_**Letztes Änderungsdatum des Themas:** 2013-08-26_
 
 SSL (Secure Sockets Layer) ist ein Verfahren zum Schutz der Kommunikation zwischen einem Client und einem Server. In Exchange Server 2013 wird SSL zur Absicherung der Kommunikation zwischen dem Server und Clients verwendet. Clients sind z. B. Mobiltelefone sowie Computer innerhalb und außerhalb des Netzwerks einer Organisation.
 

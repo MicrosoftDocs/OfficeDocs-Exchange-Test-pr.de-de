@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-15_
+_**Letztes Änderungsdatum des Themas:** 2012-11-15_
 
 Unified Messaging-Postfachrichtlinien (UM) sind erforderlich, wenn Sie Benutzer für Unified Messaging aktivieren. Sie erstellen UM-Postfachrichtlinien, um einen gemeinsamen Satz an Richtlinien oder Sicherheitseinstellungen auf eine Sammlung von Postfächern von Voicemailbenutzern anzuwenden. UM-Postfachrichtlinien werden wie folgt zum Angeben von UM-Einstellungen verwendet:
 

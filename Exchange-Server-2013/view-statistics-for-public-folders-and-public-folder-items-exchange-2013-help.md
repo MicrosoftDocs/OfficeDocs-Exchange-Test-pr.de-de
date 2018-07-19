@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-14_
+_**Letztes Änderungsdatum des Themas:** 2013-02-14_
 
 In diesem Thema wird das Abrufen von Statistikdaten zu öffentlichen Ordnern (z. B. Anzeigename, Erstellungszeitpunkt, Zeitpunkt der letzten Änderung, letzter Benutzerzugriff und Elementgröße) erläutert. Anhand dieser Informationen können Sie Entscheidungen zum Löschen oder Aufbewahren von öffentlichen Ordnern treffen.
 

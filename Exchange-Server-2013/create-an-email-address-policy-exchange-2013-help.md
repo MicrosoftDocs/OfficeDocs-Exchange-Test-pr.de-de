@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-12-10_
+_**Letztes Änderungsdatum des Themas:** 2012-12-10_
 
 Ein Empfänger muss über eine E-Mail-Adresse verfügen, um E-Mails empfangen oder senden zu können. E-Mail-Adressrichtlinien generieren die primären und sekundären E-Mail-Adressen für Ihre Empfänger (einschließlich Benutzern, Kontakten und Gruppen), damit diese E-Mails empfangen und senden können.
 
@@ -134,9 +134,7 @@ Ausführliche Anweisungen zum Erstellen einer E-Mail-Adressrichtlinie finden Sie
     
       - **Empfängertypen angeben, auf die diese E-Mail-Adressrichtlinie angewendet wird**
 
-3.  
-    
-    Klicken Sie auf **Regel hinzufügen**, um die Auswahl der Empfänger weiter einzuschränken, auf die diese Richtlinie angewendet wird. Dadurch wird eine boolesche **AND**-Anweisung erstellt.
+3.  Klicken Sie auf **Regel hinzufügen**, um die Auswahl der Empfänger weiter einzuschränken, auf die diese Richtlinie angewendet wird. Dadurch wird eine boolesche **AND**-Anweisung erstellt.
     
 
     > [!WARNING]
@@ -146,9 +144,7 @@ Ausführliche Anweisungen zum Erstellen einer E-Mail-Adressrichtlinie finden Sie
 
 4.  Klicken Sie auf **Vorschau auf Empfänger anzeigen, für die die Richtlinie gilt**, um die Empfänger anzuzeigen, auf die diese Richtlinie angewendet wird.
 
-5.  
-    
-    Klicken Sie auf **OK**, um Ihre Änderungen zu speichern und die Richtlinie zu erstellen.
+5.  Klicken Sie auf **OK**, um Ihre Änderungen zu speichern und die Richtlinie zu erstellen.
 
 6.  Es wird eine Warnung angezeigt, dass die E-Mail-Adressrichtlinie nicht angewendet wird, bevor sie aktualisiert wurde. Nach der Erstellung wählen Sie sie aus und klicken anschließend im Detailbereich auf **Anwenden**.
 

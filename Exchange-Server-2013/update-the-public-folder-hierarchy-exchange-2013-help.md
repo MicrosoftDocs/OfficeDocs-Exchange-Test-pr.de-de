@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2014-04-03_
+_**Letztes Änderungsdatum des Themas:** 2014-04-03_
 
 Sie müssen die Hierarchie öffentlicher Ordner nur aktualisieren, wenn Sie die Hierarchiesynchronisierung und den Postfach-Assistenten manuell aufrufen möchten. Beide werden für jedes Postfach für öffentliche Ordner in der Organisation mindestens alle 24 Stunden aufgerufen. Die Hierarchiesynchronisierung wird alle 15 Minuten aufgerufen, wenn Benutzer über Microsoft Outlook oder einen Microsoft Exchange-Webdienstclient an einem sekundären Postfach angemeldet sind.
 

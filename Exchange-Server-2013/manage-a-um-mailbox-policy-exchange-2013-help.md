@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Nachdem Sie eine Unified Messaging-Postfachrichtlinie (UM) erstellt haben, können Sie verschiedene Einstellungen anzeigen und konfigurieren. Beispielsweise können Sie UM-Funktionen wie "Voicemailvorschau" oder "Wiedergabe über Telefon" sowie andere, sicherheitsbezogene Optionen wie Einstellungen für geschützte Voicemail und PIN-Richtlinien konfigurieren.
 

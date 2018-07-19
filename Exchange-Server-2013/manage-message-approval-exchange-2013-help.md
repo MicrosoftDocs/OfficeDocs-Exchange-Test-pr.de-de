@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-05-04_
+_**Letztes Änderungsdatum des Themas:** 2016-05-04_
 
 Manchmal ist es sinnvoll, eine Nachricht von einer zweiten Person überprüfen zu lassen (Vier-Augen-Prinzip), bevor sie zugestellt wird. Als Exchange-Administrator können Sie dies festlegen. Dieses Verfahren wird als *Moderation* bezeichnet, und die genehmigende Person ist der *Moderator*. Je nachdem, welche Nachrichten genehmigt werden müssen, können Sie zwei verschiedene Ansätze zugrunde legen:
 

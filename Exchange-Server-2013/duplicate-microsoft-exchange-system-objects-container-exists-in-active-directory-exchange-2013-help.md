@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-18_
+_**Letztes Änderungsdatum des Themas:** 2013-02-18_
 
 Microsoft Exchange Server 2013-Setup kann nicht fortgesetzt werden, weil ein doppelter Container "Microsoft Exchange-Systemobjekte" im Domänennamenskontext von Active Directory gefunden wurde. Wenn ein doppelter Container "Microsoft Exchange-Systemobjekte" von Setup gefunden wird, müssen Sie den doppelten Container löschen, damit Setup fortgesetzt werden kann. Wenn ein Container "Microsoft Exchange-Systemobjekte" doppelt vorhanden ist, kann das Problem nicht dadurch behoben werden, dass Sie **DomainPrep** erneut ausführen. Sie müssen den doppelten Container "Microsoft Exchange-Systemobjekte" identifizieren und löschen.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server_
+_**Gilt für:** Exchange Server_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Der Inhalt dieses Themas wurde für Microsoft Exchange Server 2013 nicht aktualisiert. Dennoch kann er für Exchange 2013 gültig sein. Weitere Hilfe finden Sie in den Community-Ressourcen weiter unten.
 
@@ -55,5 +55,5 @@ Um dieses Problem zu beheben, können Sie den lokalen Computer umbenennen bzw. d
 
 4.  Klicken Sie auf die Registerkarte **E-Mail-Adressen**, und ändern Sie die entsprechende SMTP-Adresse.
 
-Weitere Informationen zu Umbenennungsproblemen bei Empfängerrichtlinien finden Sie im Microsoft Knowledge Base-Artikel 288175 „XCON: Recipient Policy Cannot Match the FQDN of Any Server in the Organization, 5.4.8 NDRs" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=288175)).
+Weitere Informationen zu Umbenennungsproblemen bei Empfängerrichtlinien finden Sie im Microsoft Knowledge Base-Artikel 288175 „XCON: Recipient Policy Cannot Match the FQDN of Any Server in the Organization, 5.4.8 NDRs" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052&kbid=288175)).
 

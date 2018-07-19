@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-24_
+_**Letztes Änderungsdatum des Themas:** 2014-06-24_
 
 Wenn Sie für eine Postfachdatenbank Umlaufprotokollierung aktivieren, hängt die Art der Umlaufprotokollierung, die Sie erhalten, davon ab, ob die Postfachdatenbank mithilfe fortlaufender Replikation repliziert wird:
 

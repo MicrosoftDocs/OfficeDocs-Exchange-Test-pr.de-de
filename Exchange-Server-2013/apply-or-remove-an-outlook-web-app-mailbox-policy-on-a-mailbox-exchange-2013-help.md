@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-12_
+_**Letztes Änderungsdatum des Themas:** 2012-10-12_
 
 Mithilfe der Exchange-Verwaltungskonsole oder der Shell können Sie eine Outlook Web App-Postfachrichtlinie auf Postfächer anwenden oder von diesen entfernen.
 
@@ -43,7 +43,7 @@ Mithilfe der Exchange-Verwaltungskonsole oder der Shell können Sie eine Outlook
 
 2.  Wählen Sie im Arbeitsbereich per Mausklick das Postfach aus, auf das Sie eine Outlook Web App-Postfachrichtlinie anwenden möchten. Sie können auch mehrere Postfächer auswählen.
 
-3.  **Wenn Sie ein Postfach ausgewählt haben:**
+3.  **Wenn Sie ein Postfach ausgewählt haben:** 
     
     1.  Führen Sie einen Bildlauf bis **E-Mail-Konnektivität** durch, und klicken Sie auf **Details anzeigen**.
     
@@ -51,7 +51,7 @@ Mithilfe der Exchange-Verwaltungskonsole oder der Shell können Sie eine Outlook
     
     3.  Klicken Sie auf **Speichern**, um die ausgewählte Richtlinie dem ausgewählten Postfach zuzuweisen.
     
-    **Wenn Sie mehr als ein Postfach ausgewählt haben:**
+    **Wenn Sie mehr als ein Postfach ausgewählt haben:** 
     
     1.  Führen Sie im Detailbereich einen Bildlauf bis **Outlook Web App** durch, und klicken Sie auf **Richtlinie zuweisen**.
     

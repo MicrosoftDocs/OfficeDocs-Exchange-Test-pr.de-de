@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-07_
+_**Letztes Änderungsdatum des Themas:** 2013-02-07_
 
 Mit dem IMAP.Protocol-Integritätssatz wird das IMAP4-Protokoll auf dem Postfachserver überwacht. Wenn Sie eine Warnung erhalten, dass Integritätsfehler im IMAP.Protocol-Integritätssatz vorliegen, weist dies auf ein Problem hin, das das IMAP4-Protokoll auf dem Postfachserver betrifft, der in der Warnung angegeben ist.
 

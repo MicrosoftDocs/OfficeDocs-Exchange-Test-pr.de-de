@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-03_
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
 Verwaltungsrolleneinträge für Verwaltungsrollen oberster Ebene ohne Bereichseinschränkung verweisen auf die Skripts und Exchange-fremden Cmdlets sowie deren Parameter, die Sie für diejenigen verfügbar machen möchten, denen die Rolle zugewiesen ist. Durch die Änderung der Parameter, die für einen Rolleneintrag verfügbar sind, steuern Sie, wozu diejenigen, denen die Rolle zugewiesen ist, das Skript oder das Exchange-fremde Cmdlet verwenden können. Weitere Informationen zu Rolleneinträgen ohne Bereichseinschränkung finden Sie unter [Grundlegendes zu Verwaltungsrollen](understanding-management-roles-exchange-2013-help.md).
 

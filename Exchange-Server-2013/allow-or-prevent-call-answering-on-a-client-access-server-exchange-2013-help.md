@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-18_
+_**Letztes Änderungsdatum des Themas:** 2012-11-18_
 
 Sie können dem Microsoft Exchange Unified Messaging-Anrufrouterdienst auf einem Clientzugriffsserver erlauben, neue Anruf entgegenzunehmen, oder ihn daran hindern. Standardmäßig nimmt ein Clientzugriffsserver nach seiner Installation Anrufe an. Mit dem Cmdlet **Set-ServerComponentState** können Sie den Clientzugriffsserver für das Annehmen von Sprach-, Fax- und Outlook Voice Access-Anrufen sowie von Anrufen der automatischen Telefonzentrale einrichten.
 

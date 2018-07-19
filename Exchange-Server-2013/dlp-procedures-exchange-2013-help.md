@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-01-07_
+_**Letztes Änderungsdatum des Themas:** 2015-01-07_
 
 Mithilfe der folgenden Verfahren können Sie damit beginnen, eine Lösung zur Verhinderung von Datenverlusten (Data Loss Prevention, DLP) in Ihrer Nachrichtenumgebung einzusetzen. Informationen zu Konzepten und Zielen für die Verhinderung von Datenverlusten finden Sie unter [Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
 

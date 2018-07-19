@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-02-24_
+_**Letztes Änderungsdatum des Themas:** 2014-02-24_
 
 Öffentliche Ordner ermöglichen den gemeinsamen Zugriff und stellen ein einfaches und effektives Mittel zum Erfassen, Organisieren und Freigeben von Informationen für andere Personen in der Arbeitsgruppe oder Organisation dar.
 
@@ -94,11 +94,17 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob der öffentliche Ordner er
 
   - Führen Sie in der Shell einen der folgenden Befehle aus:
     
-        Get-PublicFolder -Identity \Marketing\2013\Reports | Format-List
-    
-        Get-PublicFolder -Identity \Marketing\2013 -GetChildren
-    
-        Get-PublicFolder -Recurse
+```
+    Get-PublicFolder -Identity \Marketing\2013\Reports | Format-List
+```
+
+```
+    Get-PublicFolder -Identity \Marketing\2013 -GetChildren
+```
+
+```
+    Get-PublicFolder -Recurse
+```
 
 
 > [!TIP]

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-10-15_
+_**Letztes Änderungsdatum des Themas:** 2012-10-15_
 
 Wenn Sie die sichere, verschlüsselte Kommunikation mit einem Partner sicherstellen möchten, können Sie einen Sendeconnector erstellen, der für die Durchsetzung der Transport Layer Security (TLS) für Nachrichten konfiguriert wird, die an eine Partnerdomäne gesendet werden. TLS stellt sichere Kommunikation über das Internet bereit.
 

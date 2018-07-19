@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Mail Enabled Public Folders` ermöglicht Administratoren das Konfigurieren, ob einzelne Öffentliche Ordner in einer Organisation E-Mail-aktiviert oder E-Mail-deaktiviert sind.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-12_
+_**Letztes Änderungsdatum des Themas:** 2013-04-12_
 
 Postfächer sind der häufigste Empfängertyp, der von Information-Workern in einer Exchange-Organisation verwendet wird. Jedem Postfach ist ein Active Directory-Benutzerkonto zugeordnet. Der Benutzer kann das Postfach zum Senden und Empfangen von Nachrichten sowie zum Speichern von Nachrichten, Terminen, Aufgaben, Notizen und Dokumenten verwenden. Erstellen von Benutzerpostfächern mithilfe der Exchange-Verwaltungskonsole oder der Shell.
 
@@ -55,8 +55,7 @@ Sie können außerdem Benutzerpostfächer für vorhandene Benutzer erstellen, di
 
 
 
-4.  
-    
+4.      
     Wählen Sie eine der folgenden Optionen aus:
     
       - **Vorhandener Benutzer**   Wählen Sie diese Option aus, um für einen vorhandenen Benutzer E-Mail zu aktivieren und ein Postfach zu erstellen.
@@ -71,8 +70,7 @@ Sie können außerdem Benutzerpostfächer für vorhandene Benutzer erstellen, di
 
 
 
-5.  
-    
+5.      
     Wenn Sie in Schritt 4 **Neuer Benutzer** ausgewählt haben, füllen Sie die folgenden Felder auf der Seite **Neues Benutzerpostfach** aus. Fahren Sie andernfalls mit Schritt 7 fort.
     
       - **Vorname** Verwenden Sie dieses Feld, um den Vornamen des Benutzers einzugeben.
@@ -109,8 +107,7 @@ Sie können außerdem Benutzerpostfächer für vorhandene Benutzer erstellen, di
         
         Wenn Sie dieses Kontrollkästchen aktivieren, wird der neue Benutzer bei der ersten Anmeldung über ein Dialogfeld aufgefordert, das Kennwort zu ändern. Der Benutzer kann erst dann Aufgaben ausführen, wenn das Kennwort erfolgreich geändert wurde.
 
-6.  
-    
+6.      
     Klicken Sie auf **Weitere Optionen**, um die folgenden Felder zu konfigurieren. Fahren Sie andernfalls mit Schritt 7 fort, um das neue Benutzerpostfach zu speichern.
     
       - **Postfachdatenbank angeben**   Verwenden Sie diese Option, um selbst eine Postfachdatenbank anzugeben, anstatt Exchange die Auswahl einer Datenbank zu überlassen. Klicken Sie auf **Durchsuchen**, um das Dialogfeld **Postfachdatenbank auswählen** zu öffnen. In diesem Dialogfeld werden alle Postfachdatenbanken in Ihrer Exchange-Organisation aufgelistet. Standardmäßig werden die Postfachdatenbanken nach dem Namen sortiert. Sie können auch auf den Titel der entsprechenden Spalte klicken, um die Datenbanken nach Servernamen oder Version zu sortieren. Wählen Sie die gewünschte Postfachdatenbank aus, und klicken Sie dann auf **OK**.
@@ -125,7 +122,7 @@ Sie können außerdem Benutzerpostfächer für vorhandene Benutzer erstellen, di
         
         Wählen Sie in der Dropdownliste die Richtlinie aus, die diesem Postfach zugeordnet werden soll.
 
-7.  
+7. 
     
     Klicken Sie nach Abschluss dieses Vorgangs auf **Speichern**, um das Postfach zu erstellen.
 

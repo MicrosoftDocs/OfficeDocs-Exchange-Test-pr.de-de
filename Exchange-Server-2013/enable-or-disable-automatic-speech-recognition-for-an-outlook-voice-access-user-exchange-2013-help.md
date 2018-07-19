@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können die automatische Spracherkennung (Automatic Speech Recognition, ASR) für einen Benutzer konfigurieren, der für Unified Messaging und Voicemail aktiviert wurde. Wenn ASR für das Postfach eines Outlook Voice Access-Benutzers aktiviert ist, kann der Benutzer mithilfe von Sprachbefehlen durch die Postfachmenüs navigieren. Die automatische Spracherkennung ist standardmäßig aktiviert. Wenn ASR deaktiviert ist, muss der Benutzer DTMF-Eingaben (Dual Tone Multi-Frequency), auch Tonwahl genannt, verwenden, um durch die Menüs zu navigieren.
 

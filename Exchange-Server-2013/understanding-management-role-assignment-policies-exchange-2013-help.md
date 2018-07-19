@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Eine *Richtlinie für die Verwaltungsrollenzuweisung* ist eine Sammlung aus einer oder mehreren Endbenutzerverwaltungsrollen, mit denen Endbenutzer ihre eigene Microsoft Exchange Server 2013-Postfach- und Verteilergruppenkonfiguration verwalten können. Mit Rollenzuweisungsrichtlinien, die Teil des rollenbasierten Zugriffssteuerungsmodells (Role Based Access Control, RBAC) in Exchange 2013 sind, können Sie steuern, welche spezifischen Konfigurationseinstellungen Endbenutzer für Postfächer und Verteilergruppen ändern können. Rollenzuweisungsrichtlinien können auf unterschiedliche Benutzergruppen abgestimmt sein.
 

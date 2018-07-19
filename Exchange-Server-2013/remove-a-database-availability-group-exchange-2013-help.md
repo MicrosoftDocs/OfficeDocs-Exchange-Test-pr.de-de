@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-16_
+_**Letztes Änderungsdatum des Themas:** 2012-11-16_
 
 Database Availability Groups (DAG) können schnell und problemlos entfernt werden. Sie können eine DAG mithilfe der Exchange-Verwaltungskonsole oder der Shell entfernen.
 

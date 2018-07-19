@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema wird erläutert, wie die Gruppenrichtlinien-Verwaltungskonsole (Group Policy Management Console, GPMC) zum Konfigurieren der Suchliste für DNS-Suffixe (Domain Name System) verwendet wird. In einigen Microsoft Exchange 2013-Szenarios müssen Sie die Suchliste für DNS-Suffixe so konfigurieren, dass mehrere DNS-Suffixe berücksichtigt werden, wenn Sie einen nicht zusammenhängenden Namespace verwenden.
 

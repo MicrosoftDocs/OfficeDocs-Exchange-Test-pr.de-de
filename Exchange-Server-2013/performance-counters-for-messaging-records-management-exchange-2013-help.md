@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mithilfe der in diesem Thema beschriebenen Leistungsindikatoren wird der Assistent für verwaltete Ordner beim Implementieren der Messaging-Datensatzverwaltung (Messaging Records Management, MRM) für Microsoft Exchange Server 2010 überwacht. Da es sich bei der Ausführung des Assistenten für verwaltete Ordner um einen ressourcenintensiven Vorgang handelt, sollten Sie ihn nur ausführen, wenn der Server die zusätzliche Auslastung abfangen kann. Sie müssen die Serverleistung auch überwachen, wenn der Assistent für verwaltete Ordner ausgeführt wird. Zusätzlich zu den in diesem Thema aufgeführten Leistungsindikatoren können Sie weitere Leistungsindikatoren verwenden, um u. a. die Datenträgerleistung und CPU-Auslastung zu überwachen.
 

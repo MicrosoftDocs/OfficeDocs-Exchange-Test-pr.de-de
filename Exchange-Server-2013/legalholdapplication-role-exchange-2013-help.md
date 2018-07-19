@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Über die `LegalHoldApplication`-Verwaltungsrolle können Partneranwendungen den Status der gesetzlichen Aufbewahrung eines Postfachs festlegen und anzeigen.
 

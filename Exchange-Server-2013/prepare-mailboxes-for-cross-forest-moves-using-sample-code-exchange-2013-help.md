@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Microsoft Exchange 2013 unterstützt Postfachverschiebungen und -migrationen mithilfe der Cmdlets **New-MoveRequest** und **New-MigrationBatch**. Sie können das Postfach auch über die Exchange-Verwaltungskonsole verschieben. Sie können ein Postfach aus einer Exchange-Quellgesamtstruktur in eine Exchange 2010-Zielgesamtstruktur verschieben.
 
@@ -27,7 +27,7 @@ Weitere Informationen zur Vorbereitung auf gesamtstrukturübergreifende Verschie
 
   - Laden Sie den Beispielcode auf der Seite [Vorbereiten auf die Onlinepostfachverschiebung](https://go.microsoft.com/fwlink/p/?linkid=177882) im Microsoft Download Center herunter.
 
-  - Zum Ausführen des Beispielcodes ist ILM 2007 Feature Pack 1 Service Pack 1 (SP1) erforderlich. Informationen zum Herunterladen des Feature Packs finden Sie im Microsoft Knowledge Base-Artikel 977791, [Service Pack 1 (Build 3.3.1139.2) ist für Identity Lifecycle Manager 2007 Feature Pack 1 verfügbar](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=977791).
+  - Zum Ausführen des Beispielcodes ist ILM 2007 Feature Pack 1 Service Pack 1 (SP1) erforderlich. Informationen zum Herunterladen des Feature Packs finden Sie im Microsoft Knowledge Base-Artikel 977791, [Service Pack 1 (Build 3.3.1139.2) ist für Identity Lifecycle Manager 2007 Feature Pack 1 verfügbar](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=977791).
 
   - Darüber hinaus benötigen Sie Folgendes:
     

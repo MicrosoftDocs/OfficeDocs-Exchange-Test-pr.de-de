@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In Microsoft Exchange Server 2013 können Organisationsbeziehungen mit Microsoft Exchange Online oder anderen Exchange-Organisationen konfiguriert werden. Wenn Sie eine Organisationsbeziehung einrichten, können Sie die Benutzerfreundlichkeit bei der Interaktion mit anderen Organisationen verbessern. Beispielsweise können Sie Frei/Gebucht-Daten freigeben, einen sicheren Nachrichtenfluss konfigurieren und die Nachrichtenverfolgung innerhalb beider Organisationen aktivieren.
 

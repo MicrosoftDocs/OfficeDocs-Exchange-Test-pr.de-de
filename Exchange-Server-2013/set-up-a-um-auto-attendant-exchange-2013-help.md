@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Bei Verwendung von Unified Messaging (UM) können Benutzer nicht nur auf Voicemail zugreifen, sondern Sie können darüber hinaus abhängig von den Anforderungen Ihrer Organisation eine oder mehrere automatische UM-Telefonzentralen erstellen. Automatische UM-Telefonzentralen dienen zum Erstellen eines sprachgesteuerten Menüsystems für eine Organisation, mit dessen Hilfe externe und interne Anrufer Benutzer und Abteilungen in einer Organisation suchen und Anrufe an diese tätigen oder durchstellen können.
 

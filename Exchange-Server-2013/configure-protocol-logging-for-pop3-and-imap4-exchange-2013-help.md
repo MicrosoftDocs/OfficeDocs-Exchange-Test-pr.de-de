@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-27_
+_**Letztes Änderungsdatum des Themas:** 2012-11-27_
 
 Sie können die Shell verwenden, um die Protokolleinstellungen für POP3 und IMAP4 zu aktivieren, zu deaktivieren oder zu ändern. Standardmäßig ist die Protokollierung nicht aktiviert.
 

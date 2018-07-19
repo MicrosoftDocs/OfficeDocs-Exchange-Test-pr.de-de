@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Durch die Filterung werden unterschiedliche Ansichten von Warteschlangen generiert. Sie können die Warteschlangeneigenschaften als Filteroptionen verwenden. Durch die Angabe von Filterkriterien können Sie Warteschlangen schnell finden und Aktionen darauf anwenden. Die folgenden Szenarien stellen Beispiele für die Verwendung der Warteschlangenfilterung zum Verwalten der Nachrichtenübermittlung dar:
 

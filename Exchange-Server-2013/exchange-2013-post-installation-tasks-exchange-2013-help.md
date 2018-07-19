@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Lesen Sie im Anschluss an die Installation von Microsoft Exchange Server 2013 die folgenden Themen zur Vereinfachung der Konfiguration Ihrer neuen Exchange 2013-Organisation.
 

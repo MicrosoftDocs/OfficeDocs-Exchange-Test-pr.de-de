@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Berechtigungen, die zum Durchführen von Aufgaben zum Konfigurieren diverser Komponenten von Microsoft Exchange Server 2013 erforderlich sind, hängen von dem zu verwendenden Verfahren oder dem auszuführenden Cmdlet ab. Die einzelnen Abschnitte in diesem Thema enthalten weitere Informationen zu den entsprechenden Funktionen.
 

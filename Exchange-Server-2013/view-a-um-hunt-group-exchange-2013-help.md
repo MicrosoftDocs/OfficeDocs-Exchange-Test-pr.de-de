@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Beim Anzeigen der Eigenschaften eines Unified Messaging-Sammelanschlusses (UM) können Sie die Eigenschaften, die einem einzelnen UM-Sammelanschluss zugeordnet sind, oder alle UM-Sammelanschlüsse anzeigen, die einem einzelnen UM-IP-Gateway zugeordnet sind. Wird kein Parameter angegeben, werden alle UM-Sammelanschlüsse zurückgegeben. Mithilfe der Exchange-Verwaltungskonsole können Sie keine Eigenschaften von UM-Sammelanschlüssen anzeigen. Dies ist nur über die Shell möglich.
 

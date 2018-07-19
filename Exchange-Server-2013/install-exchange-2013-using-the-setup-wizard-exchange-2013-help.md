@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-06-19_
+_**Letztes Änderungsdatum des Themas:** 2014-06-19_
 
 In diesem Thema wird erläutert, wie die Exchange 2013-Postfachrolle und -Clientzugriffsrolle mithilfe des Microsoft Exchange Server 2013-Setup-Assistenten auf einem Computer installiert werden. Weitere Informationen zur Planung und Bereitstellung von Exchange 2013 finden Sie unter [Planung und Bereitstellung](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 
@@ -85,21 +85,13 @@ Wenn Sie den ersten Exchange 2013-Server in der Organisation installieren und di
 
 4.  Legen Sie auf der Seite **Soll nach Updates gesucht werden?** fest, ob eine Verbindung mit dem Internet hergestellt werden soll und Produkt- und Sicherheitsupdates für Exchange 2013 heruntergeladen werden sollen. Wenn Sie **Verbindung mit dem Internet herstellen und nach Updates suchen** auswählen, werden Updates heruntergeladen und angewendet, bevor der Vorgang fortgesetzt wird. Wenn Sie die Option **Jetzt nicht nach Updates suchen** auswählen, können Sie die Updates später manuell herunterladen und installieren. Wir empfehlen, die Updates jetzt herunterzuladen und zu installieren. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 
-5.  
-    
-    Die Installation von Exchange in Ihrer Organisation beginnt mit der Seite **Einführung**. Sie werden durch die Installation geleitet. Es werden mehrere Links zu hilfreichem Inhalt zu Bereitstellungen aufgelistet. Es wird empfohlen, dass Sie diese Links aufrufen, bevor Sie Setup fortsetzen. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
+5.  Die Installation von Exchange in Ihrer Organisation beginnt mit der Seite **Einführung**. Sie werden durch die Installation geleitet. Es werden mehrere Links zu hilfreichem Inhalt zu Bereitstellungen aufgelistet. Es wird empfohlen, dass Sie diese Links aufrufen, bevor Sie Setup fortsetzen. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 
-6.  
-    
-    Lesen Sie die auf der Seite **Lizenzvertrag** angezeigten Lizenzbedingungen für die Software. Wenn Sie den Bedingungen zustimmen, wählen Sie **Ich stimme den Bedingungen des Lizenzvertrags zu**, und klicken Sie auf **Weiter**.
+6.  Lesen Sie die auf der Seite **Lizenzvertrag** angezeigten Lizenzbedingungen für die Software. Wenn Sie den Bedingungen zustimmen, wählen Sie **Ich stimme den Bedingungen des Lizenzvertrags zu**, und klicken Sie auf **Weiter**.
 
-7.  
-    
-    Legen Sie auf der Seite **Empfohlene Einstellungen** fest, ob die empfohlenen Einstellungen verwendet werden sollen. Wenn Sie **Empfohlene Einstellungen verwenden** auswählen, sendet Exchange an Microsoft automatisch Fehlerberichte und Informationen zu Ihrer Computerhardware sowie zur Verwendung von Exchange. Wenn Sie **Empfohlene Einstellungen nicht verwenden** auswählen, bleiben diese Einstellungen deaktiviert; Sie können sie jedoch jederzeit nach Abschluss von Setup aktivieren. Weitere Informationen zu diesen Einstellungen und dazu, wie an Microsoft gesendete Informationen verwendet werden, erhalten Sie durch Klicken auf **?**.
+7.  Legen Sie auf der Seite **Empfohlene Einstellungen** fest, ob die empfohlenen Einstellungen verwendet werden sollen. Wenn Sie **Empfohlene Einstellungen verwenden** auswählen, sendet Exchange an Microsoft automatisch Fehlerberichte und Informationen zu Ihrer Computerhardware sowie zur Verwendung von Exchange. Wenn Sie **Empfohlene Einstellungen nicht verwenden** auswählen, bleiben diese Einstellungen deaktiviert; Sie können sie jedoch jederzeit nach Abschluss von Setup aktivieren. Weitere Informationen zu diesen Einstellungen und dazu, wie an Microsoft gesendete Informationen verwendet werden, erhalten Sie durch Klicken auf **?**.
 
-8.  
-    
-    Wählen Sie auf der Seite **Serverrollenauswahl** aus, ob die **Postfachrolle**, die **Clientzugriffsrolle**, beide Rollen oder nur die **Verwaltungstools** auf diesem Computer installiert werden sollen. Sie können später weitere Serverrollen hinzufügen, wenn Sie diese jetzt nicht installieren. Für eine Organisation muss mindestens eine Postfachrolle und mindestens eine Clientzugriffs-Serverrolle installiert sein. Sie können auf demselben Computer oder auf getrennten Computern installiert werden. Die Verwaltungstools werden bei der Installation jeder anderen Serverrolle automatisch installiert.
+8.  Wählen Sie auf der Seite **Serverrollenauswahl** aus, ob die **Postfachrolle**, die **Clientzugriffsrolle**, beide Rollen oder nur die **Verwaltungstools** auf diesem Computer installiert werden sollen. Sie können später weitere Serverrollen hinzufügen, wenn Sie diese jetzt nicht installieren. Für eine Organisation muss mindestens eine Postfachrolle und mindestens eine Clientzugriffs-Serverrolle installiert sein. Sie können auf demselben Computer oder auf getrennten Computern installiert werden. Die Verwaltungstools werden bei der Installation jeder anderen Serverrolle automatisch installiert.
     
     Wählen Sie **Für die Installation von Exchange Server erforderliche Windows Server-Rollen und -Funktionen automatisch installieren** aus, damit alle erforderlichen Windows-Voraussetzungen installiert werden. Möglicherweise müssen Sie den Computer neu starten, um die Installation einiger Windows-Funktionen abzuschließen. Wenn Sie diese Option nicht aktivieren, müssen Sie die Windows-Funktionen manuell installieren.
     
@@ -112,9 +104,7 @@ Wenn Sie den ersten Exchange 2013-Server in der Organisation installieren und di
 
 9.  Übernehmen Sie auf der Seite **Speicherplatz und Speicherort der Installation** den vorgegebenen Installationspfad, oder klicken Sie auf **Durchsuchen**, um einen anderen Installationspfad auszuwählen. Vergewissern Sie sich, dass der Pfad, unter dem Sie Exchange installieren möchten, ausreichend Speicherplatz aufweist. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 
-10. 
-    
-    Wenn es sich um den ersten Exchange-Server in Ihrer Organisation handelt, geben Sie auf der Seite **Exchange-Organisation** einen Namen für Ihre Exchange-Organisation ein. Der Name der Exchange-Organisation darf nur die folgenden Zeichen enthalten:
+10. Wenn es sich um den ersten Exchange-Server in Ihrer Organisation handelt, geben Sie auf der Seite **Exchange-Organisation** einen Namen für Ihre Exchange-Organisation ein. Der Name der Exchange-Organisation darf nur die folgenden Zeichen enthalten:
     
       - A bis Z
     
@@ -142,13 +132,9 @@ Wenn Sie den ersten Exchange 2013-Server in der Organisation installieren und di
 
 11. Wenn Sie die Postfachrolle installieren, legen Sie auf der Seite **Einstellungen zum Schutz vor Schadsoftware** fest, ob die Prüfung auf Schadsoftware aktiviert oder deaktiviert werden soll. Wenn Sie die Prüfung auf Schadsoftware jetzt deaktivieren, können Sie sie später jederzeit wieder aktivieren. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 
-12. 
-    
-    Überprüfen Sie auf der Seite **Abschließende Überprüfung** den Status, um zu ermitteln, ob die Überprüfung der Voraussetzungen für die Organisation und die Serverrollen erfolgreich abgeschlossen wurde. Wenn sie nicht erfolgreich abgeschlossen wurden, müssen Sie gemeldete Fehler beheben, bevor Sie Exchange 2013 installieren können. Es ist nicht erforderlich, das Setup zu beenden, um Fehler im Zusammenhang mit Voraussetzungen zu beseitigen. Klicken Sie nach dem Beheben eines gemeldeten Fehlers auf **Zurück**, und klicken Sie dann auf **Weiter**, um die Überprüfung der Voraussetzungen erneut auszuführen. Überprüfen Sie auch alle gemeldeten Warnungen. Wenn alle Überprüfungen der Bereitschaft erfolgreich abgeschlossen wurden, klicken Sie auf **Weiter**, um die Installation von Exchange 2013 zu starten.
+12. Überprüfen Sie auf der Seite **Abschließende Überprüfung** den Status, um zu ermitteln, ob die Überprüfung der Voraussetzungen für die Organisation und die Serverrollen erfolgreich abgeschlossen wurde. Wenn sie nicht erfolgreich abgeschlossen wurden, müssen Sie gemeldete Fehler beheben, bevor Sie Exchange 2013 installieren können. Es ist nicht erforderlich, das Setup zu beenden, um Fehler im Zusammenhang mit Voraussetzungen zu beseitigen. Klicken Sie nach dem Beheben eines gemeldeten Fehlers auf **Zurück**, und klicken Sie dann auf **Weiter**, um die Überprüfung der Voraussetzungen erneut auszuführen. Überprüfen Sie auch alle gemeldeten Warnungen. Wenn alle Überprüfungen der Bereitschaft erfolgreich abgeschlossen wurden, klicken Sie auf **Weiter**, um die Installation von Exchange 2013 zu starten.
 
-13. 
-    
-    Klicken Sie auf der Seite **Fertigstellung** auf **Fertig stellen**.
+13. Klicken Sie auf der Seite **Fertigstellung** auf **Fertig stellen**.
 
 14. Starten Sie den Computer nach Abschluss der Exchange 2013-Installation neu.
 

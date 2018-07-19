@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Project Server 2013_
+_**Gilt für:** Exchange Server 2013, Project Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit dem EWS.Protocol-Integritätssatz wird das Kommunikationsprotokoll der Exchange-Webdienste (EWS) auf dem Postfachserver überwacht. Der EWS.Protocol-Integritätssatz steht in enger Beziehung mit den folgenden Integritätssätzen:
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-04-07_
+_**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
 In Microsoft Exchange Server 2013 erfolgt die Messaging-Datensatzverwaltung (Messaging Records Management, MRM) über die Verwendung von Aufbewahrungstags und Aufbewahrungsrichtlinien. Eine Aufbewahrungsrichtlinie ist eine Gruppe von Aufbewahrungstags, die auf ein Postfach angewendet werden können. Weitere Informationen finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](retention-tags-and-retention-policies-exchange-2013-help.md). Verwaltete Ordner, die in Exchange Server 2007 eingeführte Technologie für die Messaging-Datensatzverwaltung, werden nicht unterstützt.
 

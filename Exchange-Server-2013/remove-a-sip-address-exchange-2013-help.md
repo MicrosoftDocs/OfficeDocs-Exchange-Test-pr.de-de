@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-14_
+_**Letztes Änderungsdatum des Themas:** 2012-11-14_
 
 Wenn Sie einen Benutzer für UM aktivieren und ihn einem SIP-URI-Wählplan zuweisen, werden zwei Exchange Unified Messaging-Proxyadressen (EUM) erstellt. Eine enthält die Durchwahlnummer des Benutzers, die andere seine SIP-Adresse. Die Durchwahlnummer wird verwendet, wenn der Benutzer eine Outlook Voice Access-Nummer anruft.
 

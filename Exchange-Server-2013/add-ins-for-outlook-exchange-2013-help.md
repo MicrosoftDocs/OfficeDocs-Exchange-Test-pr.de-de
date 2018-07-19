@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2017-03-13_
+_**Letztes Änderungsdatum des Themas:** 2017-03-13_
 
-**Zusammenfassung:** Eine Übersicht der Add-Ins für Outlook, die zusammen mit Outlook auf Windows- und MacIntosh-Computern, auf mobilen Geräten und in Outlook Web App sowie Outlook im Web verwendet werden können.
+**Zusammenfassung:**  Eine Übersicht der Add-Ins für Outlook, die zusammen mit Outlook auf Windows- und MacIntosh-Computern, auf mobilen Geräten und in Outlook Web App sowie Outlook im Web verwendet werden können.
 
 Add-Ins für Outlook sind Anwendungen, die den Nutzen von Outlook-Clients durch zusätzliche Informationen oder Tools erweitern, die Ihre Benutzer verwenden können, ohne Outlook beenden zu müssen. Add-Ins werden von Drittanbieterentwicklern erstellt und können aus einer Datei oder einer URL oder aus dem Office Store installiert werden. Standardmäßig können alle Benutzer Add-Ins installieren. Exchange-Administratoren können Rollen verwenden, um die Installation von Add-Ins durch Benutzer zu steuern.
 
@@ -57,7 +57,7 @@ Bei Bedarf können Sie die Verfügbarkeit eines Add-Ins auf bestimmte Benutzer i
 
 Es gibt verschiedene gängige Szenarien, mit denen Sie als Exchange-Administrator in Ihrer Organisation häufig konfrontiert sind.
 
-**Wenn Sie verhindern möchten, dass Endbenutzer Add-Ins für Outlook auf Outlook-Clients installieren, müssen Sie die Rollen der betreffenden Benutzer im Exchange Admin Center wie folgt anpassen:**
+**Wenn Sie verhindern möchten, dass Endbenutzer Add-Ins für Outlook auf Outlook-Clients installieren, müssen Sie die Rollen der betreffenden Benutzer im Exchange Admin Center wie folgt anpassen:** 
 
   - Damit Benutzer keine Add-Ins aus dem Office Store installieren können, müssen Sie die Rolle **My Marketplace** für die betreffenden Benutzer entfernen.
 

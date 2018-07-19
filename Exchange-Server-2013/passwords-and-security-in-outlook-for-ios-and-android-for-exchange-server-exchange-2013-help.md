@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2010, Exchange Server 2013_
+_**Gilt für:** Exchange Server 2010, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-04-01_
+_**Letztes Änderungsdatum des Themas:** 2018-04-01_
 
-**Zusammenfassung:** In diesem Artikel wird die Funktionsweise von Kennwörtern und Sicherheitseinstellungen in Outlook für iOS und Android in Exchange Server-Umgebungen erläutert.
+**Zusammenfassung:**  In diesem Artikel wird die Funktionsweise von Kennwörtern und Sicherheitseinstellungen in Outlook für iOS und Android in Exchange Server-Umgebungen erläutert.
 
 Bei der ersten Ausführung der Outlook-App für iOS und Android in einer lokalen Exchange-Umgebung generiert Outlook einen zufälligen AES-128-Schlüssel. Dieser Schlüssel wird als *Geräteschlüssel* bezeichnet und ausschließlich auf dem Gerät des Benutzers gespeichert.
 

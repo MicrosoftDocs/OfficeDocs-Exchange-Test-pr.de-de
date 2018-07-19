@@ -20,9 +20,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 In Microsoft Exchange Server 2013 ist die *Kopfzeilenfirewall* ein Mechanismus, der bestimmte Kopfzeilenfelder aus ein- und ausgehenden Nachrichten entfernt. Es gibt zwei Typen von Kopfzeilenfeldern, die von der Kopfzeilenfirewall betroffen sind:
 
@@ -56,9 +56,9 @@ Die folgenden Typen von X-Headern und Routingkopfzeilen sind von der Kopfzeilenf
     
     Beispiele von Organisations- und Gesamtstruktur-X-Headern finden Sie im Abschnitt Organisations- und Gesamtstruktur-X-Header in Exchange am Ende dieses Themas.
 
-  - **Received:- Routingkopfzeilen**   Eine andere Instanz dieses Kopfzeilenfelds wird dem Nachrichtenkopf von jedem Messagingserver hinzugefügt, der die Nachricht angenommen und an den Empfänger weitergeleitet hat. Die **Received:**-Kopfzeile enthält normalerweise den Namen des Messagingservers und einen Datums-/Uhrzeitstempel.
+  - **Received:- Routingkopfzeilen**   Eine andere Instanz dieses Kopfzeilenfelds wird dem Nachrichtenkopf von jedem Messagingserver hinzugefügt, der die Nachricht angenommen und an den Empfänger weitergeleitet hat. Die **Received:** -Kopfzeile enthält normalerweise den Namen des Messagingservers und einen Datums-/Uhrzeitstempel.
 
-  - **Resent-\*:-Routingkopfzeilen**   "Resent"-Kopfzeilenfelder sind Informationskopfzeilenfelder, die zum Bestimmen verwendet werden können, ob eine Nachricht von einem Benutzer weitergeleitet wurde. Die folgenden "Resent"-Kopfzeilenfelder sind verfügbar: **Resent-Date:**, **Resent-From:**, **Resent-Sender:**, **Resent-To:**, **Resent-Cc:**, **Resent-Bcc:** und **Resent-Message-ID:**. Die **Resent-**Felder werden verwendet, damit die Nachricht dem Empfänger so erscheint, als wäre sie direkt vom ursprünglichen Absender gesendet worden. Der Empfänger kann den Nachrichtenkopf anzeigen und ermitteln, wer die Nachricht weitergeleitet hat.
+  - **Resent-\*:-Routingkopfzeilen**   "Resent"-Kopfzeilenfelder sind Informationskopfzeilenfelder, die zum Bestimmen verwendet werden können, ob eine Nachricht von einem Benutzer weitergeleitet wurde. Die folgenden "Resent"-Kopfzeilenfelder sind verfügbar: **Resent-Date:** , **Resent-From:** , **Resent-Sender:** , **Resent-To:** , **Resent-Cc:** , **Resent-Bcc:**  und **Resent-Message-ID:** . Die **Resent-**Felder werden verwendet, damit die Nachricht dem Empfänger so erscheint, als wäre sie direkt vom ursprünglichen Absender gesendet worden. Der Empfänger kann den Nachrichtenkopf anzeigen und ermitteln, wer die Nachricht weitergeleitet hat.
 
 Exchange hat zwei Möglichkeiten, eine Kopfzeilenfirewall auf Organisations-X-Header, Gesamtstruktur-X-Header und Routingkopfzeilen anzuwenden, die in Nachrichten vorhanden sind:
 
@@ -340,13 +340,13 @@ Nachrichten können in die Transportpipeline auf einem Postfach- oder Edge-Trans
     
     Routingkopfzeilen werden in Nachrichten beibehalten, die vom Wiedergabeverzeichnis übermittelt werden.
     
-    Das Entfernen oder Beibehalten von Organisations- und Gesamtstruktur-X-Headern in Nachrichten im Wiedergabeverzeichnis wird vom Kopfzeilenfeld **X-CreatedBy:** in der Nachrichtendatei gesteuert:
+    Das Entfernen oder Beibehalten von Organisations- und Gesamtstruktur-X-Headern in Nachrichten im Wiedergabeverzeichnis wird vom Kopfzeilenfeld **X-CreatedBy:**  in der Nachrichtendatei gesteuert:
     
-      - Wenn der Wert von **X-CreatedBy:**`MSExchange15` ist, werden Organisations- und Gesamtstruktur-X-Header in Nachrichten beibehalten.
+      - Wenn der Wert von **X-CreatedBy:** `MSExchange15` ist, werden Organisations- und Gesamtstruktur-X-Header in Nachrichten beibehalten.
     
-      - Wenn der Wert von **X-CreatedBy:** nicht `MSExchange15` ist, werden Organisations- und Gesamtstruktur-X-Header aus Nachrichten entfernt.
+      - Wenn der Wert von **X-CreatedBy:**  nicht `MSExchange15` ist, werden Organisations- und Gesamtstruktur-X-Header aus Nachrichten entfernt.
     
-      - Wenn das Kopfzeilenfeld **X-CreatedBy:** nicht in der Nachrichtendatei vorhanden ist, werden Organisations- und Gesamtstruktur-X-Header aus Nachrichten entfernt.
+      - Wenn das Kopfzeilenfeld **X-CreatedBy:**  nicht in der Nachrichtendatei vorhanden ist, werden Organisations- und Gesamtstruktur-X-Header aus Nachrichten entfernt.
 
   - **Dropverzeichnis**   Das Dropverzeichnis wird von fremden Connectors auf Postfachservern verwendet, um Nachrichten an Messagingserver zu senden, die zum Übertragen von Nachrichten nicht SMTP (Simple Mail Transfer Protocol) verwenden. Weitere Informationen zu fremden Connectors finden Sie unter [Fremde Connectors](foreign-connectors-exchange-2013-help.md).
     

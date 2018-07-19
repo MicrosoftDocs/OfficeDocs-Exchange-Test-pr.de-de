@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-06-25_
+_**Letztes Änderungsdatum des Themas:** 2013-06-25_
 
 In diesem Thema wird erläutert, wie die Shell zum Testen des Betriebs des Voicemailsystems verwendet wird. Wenn Sie das folgende Verfahren ausführen, leitet der Postfachserver, der den Microsoft Exchange Unified Messaging-Dienst ausführt, einen SIP-Diagnoseaufruf (Session Initiation Protocol) ein und gibt dann eine Statusvariable des UM-Servers zurück.
 

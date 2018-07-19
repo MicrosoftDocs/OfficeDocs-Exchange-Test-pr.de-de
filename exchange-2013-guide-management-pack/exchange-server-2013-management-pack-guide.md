@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+_**Letztes Änderungsdatum des Themas:**  2015-03-09_
 
 Das MicrosoftExchange Server 2013-Management Pack stellt umfassende Informationen zur Dienstintegrität für Ihre Exchange-Organisation bereit.
 

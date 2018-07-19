@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-09-07_
+_**Letztes Änderungsdatum des Themas:** 2017-09-07_
 
 Sie können das eDiscovery-Export-Tool in der Exchange-Verwaltungskonsole (EAC) So exportieren Sie die Ergebnisse einer Compliance-eDiscovery-Suche in eine Outlook-Datendatei, die auch eine PST-Datei bezeichnet wird. Administratoren können die Ergebnisse der Suche für andere Personen innerhalb Ihrer Organisation, wie Leiter der Personalabteilung oder Datensatzverwalter, oder entgegengesetzte einholen in rechtlichen Fall verteilen. Nachdem die Suchergebnisse in eine PST-Datei exportiert werden, können Sie oder andere Benutzer öffnen sie in Outlook zu überprüfen oder Drucken von Nachrichten, die in den Suchergebnissen zurückgegeben. PST-Dateien können auch in der Drittanbieter-eDiscovery und reporting-Applikationen geöffnet werden. In diesem Thema zeigt, wie Sie dies als auch eine beliebige möglicherweise Probleme zu beheben.
 

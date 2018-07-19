@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Willkommen bei Microsoft Exchange Server 2013\! Sicher möchten Sie direkt mit der Verwendung von Exchange 2013 und diesen Inhalten beginnen. Zuvor sollten Sie jedoch einige wichtige Informationen beachten.
 

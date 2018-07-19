@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-04-29_
+_**Letztes Änderungsdatum des Themas:** 2013-04-29_
 
 Im EAC oder in der Shell können Sie mithilfe des Assistenten für neue Exchange-Zertifikate selbstsignierte Zertifikate oder Anforderungen für ein internes Public Key-Infrastrukturzertifikat (PKI-Zertifikat) erstellen. Bei Unified Messaging (UM) können Sie eines dieser Zertifikate sowohl für den Microsoft Exchange Unified Messaging-Dienst als auch für die Microsoft Exchange Unified Messaging Call Router-Dienste verwenden. Sie verwenden entweder dasselbe Zertifikat für beide Dienste oder für jeden Dienst ein gesondertes Zertifikat. Für UM-Dienste können Sie aber auch ein Zertifikat eines Drittanbieters erwerben. Falls Sie sich für UM für ein selbstsigniertes Zertifikat entscheiden, müssen Sie möglicherweise den Namen Ihrer Clientzugriffs- und Postfachserver unter dem alternativen Antragstellernamen (SAN) angeben.
 

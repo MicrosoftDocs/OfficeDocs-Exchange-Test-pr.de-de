@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mit der *Inhaltsübertragungscodierung* werden Codierungsmethoden für die Transformation von binären E-Maildaten in das Format "Einfacher US-ASCII-Text" definiert. Diese Transformation ermöglicht die Umleitung der Nachricht über ältere SMTP-Messagingservers, die nur Nachrichten in US-ASCII-Text unterstützen. Die Inhaltsübertragungscodierung ist in RFC 2045 definiert. Die Übertragungscodierungsmethode ist im Kopfzeilenfeld **Content-Transfer-Encoding** der Nachricht gespeichert. In Microsoft Exchange Server 2013 stehen die folgenden Methoden für die Inhaltsübertragungscodierung zur Verfügung:
 

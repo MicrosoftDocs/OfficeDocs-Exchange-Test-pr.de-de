@@ -21,9 +21,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-09-30_
+_**Letztes Änderungsdatum des Themas:** 2015-09-30_
 
 Der Ordner "Wiederherstellbare Elemente" (in früheren Versionen von Exchange als *Dumpster* bezeichnet) dient zum Schutz vor versehentlichen oder böswilligen Löschungen und zum Erleichtern der Suche nach Daten zur Vorbereitung auf Rechtsstreitigkeiten oder Untersuchungen. Weitere Informationen zum Ordner "Wiederherstellbare Elemente" finden Sie unter [Ordner "Wiederherstellbare Elemente"](recoverable-items-folder-exchange-2013-help.md).
 

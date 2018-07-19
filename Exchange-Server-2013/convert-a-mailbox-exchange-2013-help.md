@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2017-04-26_
+_**Letztes Änderungsdatum des Themas:** 2017-04-26_
 
 Das Konvertieren eines Postfachs in einen anderen Postfachtyp ist dem Vorgang in Exchange 2010 sehr ähnlich. Sie müssen weiterhin das Cmdlet „Set-Mailbox“ in der Shell verwenden, um die Konvertierung durchzuführen.
 

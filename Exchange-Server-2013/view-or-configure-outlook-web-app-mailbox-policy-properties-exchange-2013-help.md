@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-04-13_
+_**Letztes Änderungsdatum des Themas:** 2016-04-13_
 
 Nach Erstellen einer Outlook Web App-Postfachrichtlinie können Sie verschiedene Optionen konfigurieren, um die Funktionen zu steuern, die Benutzern in Outlook Web App zur Verfügung stehen sollen. Sie können beispielsweise Posteingangsregeln aktivieren oder deaktivieren oder eine Liste mit zulässigen Dateitypen für Anlagen erstellen.
 
@@ -43,13 +43,9 @@ Nach Erstellen einer Outlook Web App-Postfachrichtlinie können Sie verschiedene
 
 3.  Klicken Sie auf die Schaltfläche **Bearbeiten**.
 
-4.  
-    
-    Auf der Registerkarte **Allgemein** können Sie den Namen der Richtlinie anzeigen und ändern.
+4.  Auf der Registerkarte **Allgemein** können Sie den Namen der Richtlinie anzeigen und ändern.
 
-5.  
-    
-    Verwenden Sie die Kontrollkästchen auf der Registerkarte **Features**, um Features zu aktivieren oder zu deaktivieren. Standardmäßig werden die gängigsten Funktionen angezeigt. Klicken Sie auf **Weitere Optionen**, um alle Funktionen anzuzeigen, die aktiviert oder deaktiviert werden können.
+5.  Verwenden Sie die Kontrollkästchen auf der Registerkarte **Features**, um Features zu aktivieren oder zu deaktivieren. Standardmäßig werden die gängigsten Funktionen angezeigt. Klicken Sie auf **Weitere Optionen**, um alle Funktionen anzuzeigen, die aktiviert oder deaktiviert werden können.
     
 
     > [!NOTE]
@@ -57,9 +53,7 @@ Nach Erstellen einer Outlook Web App-Postfachrichtlinie können Sie verschiedene
 
 
 
-6.  
-    
-    Verwenden Sie die Kontrollkästchen **Direkter Dateizugriff** auf der Registerkarte **Dateizugriff**, um die Optionen für den Zugriff und die Anzeige von Dateien für die Benutzer zu konfigurieren. Mit der Dateizugriffsoption kann ein Benutzer alle an eine E-Mail-Nachricht angehängten Dateien öffnen oder anzeigen.
+6.  Verwenden Sie die Kontrollkästchen **Direkter Dateizugriff** auf der Registerkarte **Dateizugriff**, um die Optionen für den Zugriff und die Anzeige von Dateien für die Benutzer zu konfigurieren. Mit der Dateizugriffsoption kann ein Benutzer alle an eine E-Mail-Nachricht angehängten Dateien öffnen oder anzeigen.
     
     Der Dateizugriff kann basierend darauf gesteuert werden, ob sich ein Benutzer bei einem öffentlichen oder privaten Computer angemeldet hat. Die Benutzeroption zur Auswahl des privaten oder öffentlichen Computerzugriffs steht nur zur Verfügung, wenn Sie mit der formularbasierten Authentifizierung arbeiten. Bei allen weiteren Formen der Authentifizierung wird von einem Zugriff auf einen privaten Computer ausgegangen.
 

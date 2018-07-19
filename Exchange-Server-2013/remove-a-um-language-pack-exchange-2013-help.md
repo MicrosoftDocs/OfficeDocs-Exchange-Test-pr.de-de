@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-14_
+_**Letztes Änderungsdatum des Themas:** 2013-02-14_
 
 Sie können die Exchange-Verwaltungskonsole oder die Shell verwenden, um Unified Messaging-Sprachen (UM) auf Postfachservern zu verwalten, auf denen der Microsoft Exchange Unified Messaging-Dienst ausgeführt wird. Um jedoch eine Sprache aus der Liste in einem UM-Wählplan zu entfernen, müssen Sie das entsprechende UM-Sprachpaket unter Verwendung des Befehls**Setup.exe /RemoveUmLanguagePack** vom Postfachserver entfernen. Nachdem Sie das UM-Sprachpaket vom Postfachserver entfernt haben, steht die Sprache beim Konfigurieren eines UM-Wählplans oder einer automatischen UM-Telefonzentrale nicht mehr zur Verfügung. Sie können die installierten UM-Sprachpakete anzeigen, indem Sie die Eigenschaften des Postfachservers anzeigen oder das Cmdlet **Get-UMService** verwenden.
 

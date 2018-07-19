@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Eine *Verwaltungsrollengruppe* ist eine universelle Sicherheitsgruppe (Universal Security Group, USG), die im Modell der rollenbasierten Zugriffssteuerungsberechtigungen (Role Based Access Control, RBAC) in Microsoft Exchange Server 2013 verwendet wird. Eine Verwaltungsrollengruppe vereinfacht die Zuweisung von Verwaltungsrollen an eine Gruppe von Benutzern. Allen Mitgliedern einer Rollengruppe werden dieselben Rollen zugewiesen. Rollengruppen sind zugewiesene Administrator- und Spezialistenrollen, die wichtige Verwaltungsaufgaben in Exchange 2013 definieren, z. B. Organisationsverwaltung, Empfängerverwaltung und andere Aufgaben. Mithilfe von Rollengruppen können Sie einer Gruppe von Administratoren oder spezialisierten Benutzern einfacher eine Reihe von Berechtigungen erteilen.
 

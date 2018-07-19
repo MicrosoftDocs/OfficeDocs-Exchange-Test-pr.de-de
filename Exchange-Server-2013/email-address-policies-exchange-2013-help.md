@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-07-21_
+_**Letztes Änderungsdatum des Themas:** 2016-07-21_
 
 Empfänger (wozu Benutzer, Ressourcen, Kontakte und Gruppen gehören) sind alle E-Mail-aktivierten Objekte in Active Directory, an die Exchange Nachrichten senden oder weiterleiten kann. Ein Empfänger muss über eine E-Mail-Adresse verfügen, um E-Mails senden oder empfangen zu können. E-Mail-Adressrichtlinien generieren die primären und sekundären E-Mail-Adressen für Ihre Empfänger, damit diese E-Mails empfangen und senden können.
 

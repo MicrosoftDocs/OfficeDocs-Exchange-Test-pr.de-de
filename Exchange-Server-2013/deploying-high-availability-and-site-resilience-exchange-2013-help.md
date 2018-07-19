@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Microsoft Exchange Server 2013 verwendet für die hohe Verfügbarkeit und die Ausfallsicherheit von Standorten das unter der Bezeichnung *Inkrementelle Bereitstellung* bekannte Konzept. Sie installieren einfach mindestens zwei Exchange 2013-Postfachserver als eigenständige Server und konfigurieren anschließend nach Bedarf und inkrementell die Funktionen für hohe Verfügbarkeit und Ausfallsicherheit für Standorte für die Postfachserver und -datenbanken.
 

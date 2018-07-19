@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-22_
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Sie können Unified Messaging für die Annahme eines eingehenden Anrufs konfigurieren und anschließend festlegen, ob Voicemailnachrichten durch Verschlüsselung geschützt werden. Eine geschützte Voicemailnachricht bedeutet Folgendes:
 

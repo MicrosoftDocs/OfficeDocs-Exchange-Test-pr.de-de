@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2017-07-25_
+_**Letztes Änderungsdatum des Themas:** 2017-07-25_
 
 Session Border Controller (SBCs) ermöglichen das Verbinden Ihres lokalen Telefonienetzwerks mit einem Microsoft-Datencenter über eine dedizierte öffentliche WAN-Verbindung. Ein SBC befindet sich am Rand Ihres lokalen IP-Netzwerks und verbindet sich mit einem zweiten SBC in einem Microsoft-Datencenter.
 

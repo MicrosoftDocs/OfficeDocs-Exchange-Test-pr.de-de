@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2012-11-05_
+_**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Nachdem Sie den Unified Messaging-Sammelanschluss (UM) gelöscht haben, verarbeitet oder beantwortet das zum UM-Sammelanschluss gehörende UM-IP-Gateway keine eingehenden Anrufe mehr. Wenn das Löschen des UM-Sammelanschlusses dazu führt, dass keine konfigurierten Sammelanschlüsse für das UM-IP-Gateway verbleiben, ist das UM-IP-Gateway nicht mehr in der Lage, UM-Anrufe anzunehmen oder zu verarbeiten.
 

@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2018-04-30_
+_**Letztes Änderungsdatum des Themas:** 2018-04-30_
 
-**Zusammenfassung:** Hier erfahren Sie, wie Benutzer in Ihrer Exchange 2013-Organisation schnell ihre Outlook für IOS und Android-Konten mit der Standardauthentifizierung einrichten können.
+**Zusammenfassung:**  Hier erfahren Sie, wie Benutzer in Ihrer Exchange 2013-Organisation schnell ihre Outlook für IOS und Android-Konten mit der Standardauthentifizierung einrichten können.
 
 Outlook für IOS und Android bietet Exchange-Administratoren die Möglichkeit, Kontokonfigurationen an ihre lokalen Benutzer zu senden, die Standardauthentifizierung über das ActiveSync-Protokoll verwenden. Dies funktioniert mit jedem MDM-Anbieter (Verwaltung mobiler Geräte), der den Kanal [Konfiguration verwalteter Apps](https://developer.apple.com/library/content/samplecode/sc2279/introduction/intro.html) für iOS oder den Kanal [Android im Unternehmen](https://developer.android.com/samples/apprestrictions/index.html) für Android verwendet.
 

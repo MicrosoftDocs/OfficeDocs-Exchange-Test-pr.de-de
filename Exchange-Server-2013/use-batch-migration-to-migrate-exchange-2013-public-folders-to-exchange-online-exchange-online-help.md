@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Letztes Änderungsdatum des Themas:**2018-03-26_
+_**Letztes Änderungsdatum des Themas:** 2018-03-26_
 
-**Zusammenfassung:** In diesem Artikel erfahren Sie, wie Sie moderne öffentliche Ordner von Exchange 2013 nach Office 365 verschieben.
+**Zusammenfassung:**  In diesem Artikel erfahren Sie, wie Sie moderne öffentliche Ordner von Exchange 2013 nach Office 365 verschieben.
 
 Die öffentlichen Ordner von Exchange 2013 zu Migration erfordert Exchange Server 2013 CU15 oder höher in Ihrer lokalen Umgebung.
 

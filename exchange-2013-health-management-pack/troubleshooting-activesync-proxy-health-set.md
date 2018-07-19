@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2014-09-22_
+_**Letztes Änderungsdatum des Themas:** 2014-09-22_
 
 Mit dem ActiveSync.Proxy-Integritätssatz wird die Integrität der Exchange ActiveSync-Infrastruktur auf Ihrem Clientzugriffsserver überwacht. Wenn Sie eine Warnung erhalten, dass Integritätsfehler im ActiveSync.Proxy-Integritätssatz vorliegen, weist dies auf ein Problem hin, das eventuell die Exchange ActiveSync-Komponenten auf dem Clientzugriffsserver betrifft, der in der Warnung angegeben ist.
 

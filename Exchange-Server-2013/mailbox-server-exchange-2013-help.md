@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-19_
+_**Letztes Änderungsdatum des Themas:** 2013-02-19_
 
 In Microsoft Exchange Server 2010 wurden sowohl Postfachdatenbanken als auch Datenbanken für öffentliche Ordner über die Postfachserverrolle gehostet. Zudem wurde über diese Serverrolle Speicherplatz für E-Mails bereitgestellt. In Exchange Server 2013 umfasst die Postfachserverrolle nun zusätzlich die Clientzugriffsprotokolle, den Transportdienst, Postfachdatenbanken und Unified Messaging-Komponenten.
 

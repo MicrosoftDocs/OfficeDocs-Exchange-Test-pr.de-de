@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2013-02-21_
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Der Message Waiting Indicator (MWI) kann für Benutzer, die einer Unified Messaging-Postfachrichtlinie (UM) zugeordnet sind, aktiviert oder deaktiviert werden. Die meisten Legacy-Voicemailsysteme enthalten eine MWI-Funktion. In der Regel wird dabei durch eine LED am Telefon des Voicemail-Teilnehmers signalisiert, dass eine neue Voicemailnachricht vorliegt. Der MWI kann auch eine Textnachricht an das Mobiltelefon des UM-aktivierten Benutzers senden. Die Standardeinstellung lautet "Aktiviert".
 

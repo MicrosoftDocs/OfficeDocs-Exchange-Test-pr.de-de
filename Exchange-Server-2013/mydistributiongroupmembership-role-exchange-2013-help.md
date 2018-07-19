@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `MyDistributionGroupMembership` berechtigt einzelne Benutzer, ihre Mitgliedschaften in Verteilergruppen innerhalb einer Organisation anzuzeigen und zu bearbeiten, sofern in diesen Verteilergruppen Änderungen an der Gruppenmitgliedschaft zulässig sind.
 

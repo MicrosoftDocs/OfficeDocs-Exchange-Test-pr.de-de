@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 In diesem Thema wird erklärt, wie Exchange 2013 in einer gesamtstrukturübergreifenden Topologie mithilfe von Microsoft Forefront Identity Manager 2010 R2 SP1 bereitgestellt wird. Zum Bereitstellen von Exchange 2013 in einer gesamtstrukturübergreifenden Topologie müssen Sie zuerst Exchange 2013 in jeder Gesamtstruktur installieren und die Gesamtstrukturen dann so verbinden, dass die Benutzer Adressen und Verfügbarkeitsdaten gesamtstrukturübergreifend anzeigen können.
 
@@ -37,7 +37,7 @@ Es müssen die folgenden Voraussetzungen erfüllt sein, um das nachstehende Verf
 
   - Stellen Sie sicher, dass die Windows-Remoteverwaltung nicht von Windows Update installiert wurde.
 
-  - Installieren Sie Windows PowerShell und die Windows-Remoteverwaltung. Weitere Informationen finden Sie im Microsoft Knowledge Base-Artikel 968930, [Windows Management Framework-Kernpaket (Windows PowerShell 2.0 und WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - Installieren Sie Windows PowerShell und die Windows-Remoteverwaltung. Weitere Informationen finden Sie im Microsoft Knowledge Base-Artikel 968930, [Windows Management Framework-Kernpaket (Windows PowerShell 2.0 und WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Laden Sie Forefront Identity Manager 2010 R2 SP1 herunter. Siehe [Herunterladen von Microsoft Forefront Identity Manager 2010 R2 SP1](https://go.microsoft.com/fwlink/p/?linkid=279868).
 

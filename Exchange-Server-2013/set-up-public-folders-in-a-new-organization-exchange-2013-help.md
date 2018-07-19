@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Letztes Änderungsdatum des Themas:**2015-11-09_
+_**Letztes Änderungsdatum des Themas:** 2015-11-09_
 
-**Zusammenfassung:** Informationen zum Einrichten öffentlicher Ordner, einschließlich Zuweisen von Berechtigungen für diese im Exchange Admin Center.
+**Zusammenfassung:**  Informationen zum Einrichten öffentlicher Ordner, einschließlich Zuweisen von Berechtigungen für diese im Exchange Admin Center.
 
 In diesem Thema wird erklärt, wie öffentliche Ordner in einer neuen Organisation oder einer Organisation ohne vorherige öffentliche Ordner konfiguriert und in Betrieb genommen werden.
 

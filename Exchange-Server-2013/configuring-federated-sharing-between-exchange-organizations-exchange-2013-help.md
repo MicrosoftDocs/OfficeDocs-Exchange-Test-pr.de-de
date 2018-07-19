@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-12-09_
+_**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mithilfe der Verbundfreigabe können Benutzer in einer lokalen Exchange-Organisation Frei/Gebucht-Kalenderinformationen mit Empfängern in anderen Exchange-Organisationen, die ebenfalls für die Verbundfreigabe konfiguriert sind, gemeinsam nutzen. Die gemeinsame Nutzung von Frei/Gebucht-Informationen kann zwischen zwei Organisationen mit Exchange 2013 und zwischen Organisationen in einer gemischten Exchange-Bereitstellung aktiviert werden. Weitere Informationen zu Verbundfreigaben finden Sie unter [Freigabe](sharing-exchange-2013-help.md).
 
@@ -111,7 +111,7 @@ Führen Sie die Schritte unter [Konfigurieren der Verbundfreigabe](configure-fed
         
 
         > [!WARNING]
-        > Damit die Freigabe von Frei/Gebucht-Informationen zwischen einer Exchange&nbsp;2013- und einer Exchange&nbsp;2003-Organisation ordnungsgemäß funktioniert, muss in der Ordnerhierarchie der öffentliche Ordner <STRONG>OU=EXTERNAL (FYDIBOHF25SPDLT)</STRONG> vorhanden sein. Dieser Ordner wird nur dann automatisch auf dem Exchange&nbsp;2010-Postfachserver in der Exchange&nbsp;2003-Organisation erstellt, wenn Sie die Option zum Erstellen öffentlicher Ordner verwenden, die zur Konfiguration der Clienteinstellungen für die Outlook&nbsp;2003-Unterstützung beim Setup von Exchange&nbsp;2010 gehört. Darüber hinaus wird diese Option beim Setup nur dann zur Auswahl angeboten, wenn es sich beim Exchange&nbsp;2010-Postfachserver um den ersten installierten Postfachserver in der Organisation handelt. Wenn der öffentliche Ordner <STRONG>OU=EXTERNAL (FYDIBOHF25SPDLT)</STRONG> während des Setups nicht erstellt wurde, müssen Sie ihn manuell erstellen. Einzelheiten zum Erstellen dieses öffentlichen Ordners finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2555008">Behandeln von Frei/Gebucht-Problemen bei Verwendung des Exchange-Partnerverbunds in der Microsoft Office 365-Umgebung für Unternehmen</A>.
+        > Damit die Freigabe von Frei/Gebucht-Informationen zwischen einer Exchange&nbsp;2013- und einer Exchange&nbsp;2003-Organisation ordnungsgemäß funktioniert, muss in der Ordnerhierarchie der öffentliche Ordner <STRONG>OU=EXTERNAL (FYDIBOHF25SPDLT)</STRONG> vorhanden sein. Dieser Ordner wird nur dann automatisch auf dem Exchange&nbsp;2010-Postfachserver in der Exchange&nbsp;2003-Organisation erstellt, wenn Sie die Option zum Erstellen öffentlicher Ordner verwenden, die zur Konfiguration der Clienteinstellungen für die Outlook&nbsp;2003-Unterstützung beim Setup von Exchange&nbsp;2010 gehört. Darüber hinaus wird diese Option beim Setup nur dann zur Auswahl angeboten, wenn es sich beim Exchange&nbsp;2010-Postfachserver um den ersten installierten Postfachserver in der Organisation handelt. Wenn der öffentliche Ordner <STRONG>OU=EXTERNAL (FYDIBOHF25SPDLT)</STRONG> während des Setups nicht erstellt wurde, müssen Sie ihn manuell erstellen. Einzelheiten zum Erstellen dieses öffentlichen Ordners finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=2555008">Behandeln von Frei/Gebucht-Problemen bei Verwendung des Exchange-Partnerverbunds in der Microsoft Office 365-Umgebung für Unternehmen</A>.
 
     
     2.  **Konfigurieren Sie die Verbunddelegierung**.

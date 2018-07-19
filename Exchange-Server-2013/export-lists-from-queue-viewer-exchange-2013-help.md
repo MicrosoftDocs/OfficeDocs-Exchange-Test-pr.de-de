@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2012-09-25_
+_**Letztes Änderungsdatum des Themas:** 2012-09-25_
 
 In diesem Thema wird erläutert, wie Sie mithilfe der Warteschlangenanzeige in der Exchange Toolbox Listen mit Nachrichten oder Warteschlangen exportieren können.
 

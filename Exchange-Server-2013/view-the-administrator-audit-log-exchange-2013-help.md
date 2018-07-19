@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Gilt für:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2016-05-03_
+_**Letztes Änderungsdatum des Themas:** 2016-05-03_
 
 In Microsoft Exchange Online Protection (EOP), Microsoft Exchange Online und Microsoft Exchange 2013 können Sie im Exchange-Verwaltungskonsole (EAC) Einträge im *Administratorüberwachungsprotokoll* suchen und anzeigen. Im Administratorüberwachungsprotokoll werden bestimmte Aktionen aufgezeichnet, die basierend auf dem jeweiligen Exchange-Verwaltungsshell-Cmdlet von Administratoren und Benutzern mit Administratorrechten ausgeführt werden. In Einträgen im Administratorüberwachungsprotokoll finden Sie Informationen dazu, welches Cmdlet ausgeführt wurde, welche Parameter verwendet wurden, wer das Cmdlet ausgeführt hat und welche Objekte betroffen sind.
 

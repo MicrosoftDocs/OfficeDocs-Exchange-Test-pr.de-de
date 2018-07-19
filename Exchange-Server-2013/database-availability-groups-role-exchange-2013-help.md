@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Die Verwaltungsrolle `Database Availability Groups` ermöglicht Administratoren das Verwalten von Database Availability Groups (DAGs) in einer Organisation. Die dieser Rolle zugewiesenen Administratoren sind entweder direkt oder indirekt die Administratoren der höchsten Ebene, die für die Hochverfügbarkeitskonfiguration in einem Unternehmen zuständig sind.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Gilt für:**Exchange Server 2013_
+_**Gilt für:** Exchange Server 2013_
 
-_**Letztes Änderungsdatum des Themas:**2015-03-09_
+_**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Der Edge-Transport-Server reduziert die Angriffsfläche auf ein Mindestmaß. Er verarbeitet die gesamte Internetnachrichtenübermittlung und stellt SMTP-Relay- und Smarthostdienste für die Exchange-Organisation bereit. Weitere Stufen von Nachrichtenschutz und -sicherheit werden von einer Reihe von Agents bereitgestellt, die auf dem Edge-Transport-Server im Umkreisnetzwerk Ihrer Organisation ausgeführt werden. Diese Agents unterstützen die Funktionen, die Schutz vor Viren und Spam bereitstellen und Transportregeln zum Steuern des Nachrichtenflusses anwenden.
 
