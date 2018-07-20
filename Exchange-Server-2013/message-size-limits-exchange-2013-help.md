@@ -118,7 +118,8 @@ In der folgenden Tabelle sind die Nachrichtenbeschränkungen samt Informationen 
 <tr class="odd">
 <td><p>Maximale Anzahl von Empfängern pro Nachricht</p>
 
-> [!NOTE]]  
+> [!NOTE]  
+>  
 
 </td>
 <td><p>5000</p></td>
