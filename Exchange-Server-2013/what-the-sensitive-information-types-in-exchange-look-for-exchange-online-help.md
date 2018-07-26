@@ -1059,13 +1059,11 @@ Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange beinha
 <td><p>Format</p></td>
 <td><p>Registro Geral (altes Format)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Neun Ziffern</p>
 </dd>
 </dl>
 <p>Registro de Identidade (RIC) (neues Format)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>11 Ziffern</p>
 </dd>
 </dl></td>
