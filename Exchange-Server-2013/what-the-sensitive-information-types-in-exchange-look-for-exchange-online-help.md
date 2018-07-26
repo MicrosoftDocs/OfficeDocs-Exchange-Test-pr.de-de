@@ -3654,13 +3654,11 @@ Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange beinha
 <td><p>Format</p></td>
 <td><p>Seit 1. November 2010</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Neun Buchstaben und Ziffern</p>
 </dd>
 </dl>
 <p>Vom 1. April 1987 bis 31. October 2010</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>10 Ziffern</p>
 </dd>
 </dl></td>
