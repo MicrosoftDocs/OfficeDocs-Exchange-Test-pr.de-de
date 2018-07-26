@@ -4248,7 +4248,6 @@ Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange beinha
 </ul>
 <p>Das Format jedes Landes ist etwas anders. IBAN als Typ vertraulicher Informationen deckt folgende 60 Länder ab:</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk, sm, tn, tr, vg</p>
 </dd>
 </dl></td>
@@ -4388,13 +4387,11 @@ Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange beinha
 <td><p>Format</p></td>
 <td><p>Altes Format (bis zum 31. Dezember 2012)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Sieben Ziffern, gefolgt von 1-2 Buchstaben</p>
 </dd>
 </dl>
 <p>Neues Format (seit dem 1. Januar 2013)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Sieben Ziffern, gefolgt von zwei Buchstaben</p>
 </dd>
 </dl></td>
@@ -6490,13 +6487,11 @@ Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange beinha
 <td><p>Format</p></td>
 <td><p>Biometrische Passnummer</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Neun Ziffern</p>
 </dd>
 </dl>
 <p>Nicht-Biometrische Passnummer</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Neun Ziffern</p>
 </dd>
 </dl></td>
