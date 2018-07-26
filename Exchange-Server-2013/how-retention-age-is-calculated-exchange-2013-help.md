@@ -94,7 +94,7 @@ Elemente im Ordner "Gelöschte Elemente" und Elemente mit einem Start- und Endda
 <ol>
 <li><p>Eine nicht wiederkehrende Aufgabe läuft entsprechend dem Wert des Parameters <code>message-received date</code> ab, sofern vorhanden.</p></li>
 <li><p>Wenn der Parameter <code>message-received date</code> für eine nicht wiederkehrende Aufgabe nicht angegeben wurde, läuft sie entsprechend dem Wert des Parameters <code>message-creation date</code> ab.</p></li>
-<li><p>Wenn für eine nicht wiederkehrende Aufgabe weder der Parameter <code>message-received date</code> noch der Parameter <code></code><code>message-creation date</code> festgelegt wurde, läuft sie nie ab.</p></li>
+<li><p>Wenn für eine nicht wiederkehrende Aufgabe weder der Parameter <code>message-received date</code> noch der Parameter <code>message-creation date</code> festgelegt wurde, läuft sie nie ab.</p></li>
 </ol></li>
 <li><p>Eine wiederkehrende Aufgabe (Aufgabenserie) läuft entsprechend dem Wert des Parameters <code>end date</code> des letzten Auftretens ab. Wenn für eine Aufgabenserie kein <code>end date</code> festgelegt wurde, läuft sie nie ab.</p></li>
 <li><p>Eine Aufgabe, die erneut generiert wird (d. h. eine Aufgabenserie, die zu einem bestimmten Zeitpunkt nach Abschluss der vorherigen Instanz der Aufgabenserie erneut generiert wird), läuft nie ab.</p></li>
