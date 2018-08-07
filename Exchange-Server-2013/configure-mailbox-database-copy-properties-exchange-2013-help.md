@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Eigenschaften von Postfachdatenbankkopien: Exchange 2013 Help'
+title: 'Konfig. der Eigenschaften von Postfachdatenbankkopien: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren der Eigenschaften von Postfachdatenbankkopien
 ms:assetid: cf186561-ab2c-45c0-90f5-8d3ecfabeeac
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd351151(v=EXCHG.150)

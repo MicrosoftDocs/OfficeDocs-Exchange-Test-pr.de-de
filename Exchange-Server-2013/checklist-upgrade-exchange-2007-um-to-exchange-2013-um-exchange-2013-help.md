@@ -1,5 +1,5 @@
 ﻿---
-title: 'Prüfliste: Upgrade von Exchange 2007 UM auf Exchange 2013 UM: Exchange 2013 Help'
+title: 'Prüfliste: Upgr. v. Exchange 2007 UM a. Exchange 2013 UM: Exchange 2013-Hilfe'
 TOCTitle: 'Prüfliste: Upgrade von Exchange 2007 UM auf Exchange 2013 UM'
 ms:assetid: 99b1a081-4052-4516-b63c-77622cbdf962
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn169229(v=EXCHG.150)

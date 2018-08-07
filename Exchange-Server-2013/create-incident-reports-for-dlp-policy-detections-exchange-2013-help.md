@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen von Schadensberichten für DLP-Richtlinienerkennungen: Exchange 2013 Help'
+title: 'Erst. v. Schadensberichten f. DLP-Richtlinienerkennungen: Exchange 2013-Hilfe'
 TOCTitle: Erstellen von Schadensberichten für DLP-Richtlinienerkennungen
 ms:assetid: 8e807f94-384c-43f5-be6f-06c5587175a0
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ150534(v=EXCHG.150)

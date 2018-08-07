@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren einer benutzerdefinierten Begrüßung für Outlook Voice Access-Benutzer: Exchange 2013 Help'
+title: 'Aktivieren einer benutzerdef. Begrüßung für Outlook Voice Access-Benutzer'
 TOCTitle: Aktivieren einer benutzerdefinierten Begrüßung für Outlook Voice Access-Benutzer
 ms:assetid: abd418ec-2c65-4720-859d-c11a2698dc06
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124125(v=EXCHG.150)

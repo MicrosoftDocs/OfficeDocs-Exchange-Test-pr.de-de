@@ -1,5 +1,5 @@
 ﻿---
-title: 'Festlegen Sie die Anzahl der vorherigen Voicemail PINs Recycling: Exchange Online Help'
+title: 'Festl. d. Anz. der vorh. Voicemail-PINs für Recycling: Exchange Online-Hilfe'
 TOCTitle: Festlegen Sie die Anzahl der vorherigen Voicemail PINs Recycling
 ms:assetid: b094e68e-c493-4576-a6b1-4c780e635405
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124254(v=EXCHG.150)

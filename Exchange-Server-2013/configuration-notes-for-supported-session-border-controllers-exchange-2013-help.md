@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurationshinweise für unterstützte Session Border Controller: Exchange Online Help'
+title: 'Konfigurationshinweise für unterstützte Session Border Controller'
 TOCTitle: Konfigurationshinweise für unterstützte Session Border Controller
 ms:assetid: d161f94a-a243-4294-93b3-2bf1dc17b59f
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673565(v=EXCHG.150)

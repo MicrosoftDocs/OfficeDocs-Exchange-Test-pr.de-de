@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren der MWI-Funktion (Message Waiting Indicator) für Benutzer: Exchange 2013 Help'
+title: 'Aktivieren der MWI-Funktion für Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren der MWI-Funktion (Message Waiting Indicator) für Benutzer
 ms:assetid: 3d0ca657-00b6-4108-a850-b092fede1f75
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd335216(v=EXCHG.150)

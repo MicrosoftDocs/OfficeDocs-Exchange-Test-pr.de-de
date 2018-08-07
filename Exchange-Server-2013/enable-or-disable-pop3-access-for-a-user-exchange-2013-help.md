@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren des POP3-Zugriffs für einen Benutzer: Exchange 2013 Help'
+title: 'Aktiv. o. Deaktiv. des POP3-Zugriffs für einen Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren des POP3-Zugriffs für einen Benutzer
 ms:assetid: 57e12f07-3b14-45bd-9a82-e6032d14214f
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb691018(v=EXCHG.150)

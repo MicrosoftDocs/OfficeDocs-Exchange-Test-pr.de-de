@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Exchange-Einstellungen für E-Mail-Routing in Active Directory: Exchange 2013 Help'
+title: 'Konfigurieren d. Exchange-Einstellungen f. E-Mail-Routing in Active Directory'
 TOCTitle: Konfigurieren der Exchange-Einstellungen für E-Mail-Routing in Active Directory
 ms:assetid: d01f8545-c201-4a96-be39-ed4c7008afcf
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ674705(v=EXCHG.150)

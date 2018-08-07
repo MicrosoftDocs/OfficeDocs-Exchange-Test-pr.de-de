@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwalten der Adressumschreibung auf Edge-Transport-Servern: Exchange 2013 Help'
+title: 'Verw. d. Adressumschreibung auf Edge-Transport-Servern: Exchange 2013-Hilfe'
 TOCTitle: Verwalten der Adressumschreibung auf Edge-Transport-Servern
 ms:assetid: 323a0b55-f921-425d-b1b0-18ad0fac315c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997185(v=EXCHG.150)

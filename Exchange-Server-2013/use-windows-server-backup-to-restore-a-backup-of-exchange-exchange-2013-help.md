@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden der Windows Server-Sicherung zum Wiederherstellen einer Sicherung von Exchange: Exchange 2013 Help'
+title: 'Wiederher. v. Exchange-Sicher. m. Windows Server-Sicher.: Exchange 2013-Hilfe'
 TOCTitle: Verwenden der Windows Server-Sicherung zum Wiederherstellen einer Sicherung von Exchange
 ms:assetid: 2d0f31dc-eb32-451a-8852-591269026506
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd876864(v=EXCHG.150)

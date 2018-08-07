@@ -1,5 +1,5 @@
 ﻿---
-title: 'Festlegen der Anmeldeinformationen zur Verwendung mit dem Exchange UM-Problembehandlungstool: Exchange 2013 Help'
+title: 'Festlegen der Anmeldeinfo zur Verw. mit Exchange UM-Problembehandlungstool'
 TOCTitle: Festlegen der Anmeldeinformationen zur Verwendung mit dem Exchange UM-Problembehandlungstool
 ms:assetid: 542b7718-9345-40cc-bcb2-e307e70a1fa2
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff630916(v=EXCHG.150)

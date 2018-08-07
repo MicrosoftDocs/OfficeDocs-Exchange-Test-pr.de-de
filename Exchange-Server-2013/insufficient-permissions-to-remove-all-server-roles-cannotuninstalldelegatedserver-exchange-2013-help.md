@@ -1,5 +1,5 @@
 ﻿---
-title: 'Unzureichende Berechtigungen zum Entfernen aller Serverrollen_CannotUninstallDelegatedServer: Exchange 2013 Help'
+title: 'Unzureichende Berechtigungen zum Entfernen aller Serverrollen'
 TOCTitle: Unzureichende Berechtigungen zum Entfernen aller Serverrollen_CannotUninstallDelegatedServer
 ms:assetid: 214ae6f3-15e7-4337-99e8-40f9547c8e0c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.cannotuninstalldelegatedserver(v=EXCHG.150)

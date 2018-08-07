@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen eines benutzerdefinierten Verwaltungsbereichs für die Compliance-eDiscovery-Suche: Exchange 2013 Help'
+title: 'Erstellen benutzerdef. Verwaltungsbereiche für Compliance-eDiscovery-Suche'
 TOCTitle: Erstellen eines benutzerdefinierten Verwaltungsbereichs für die Compliance-eDiscovery-Suche
 ms:assetid: 1543aefe-3709-402c-b9cd-c11fe898aad1
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn741464(v=EXCHG.150)

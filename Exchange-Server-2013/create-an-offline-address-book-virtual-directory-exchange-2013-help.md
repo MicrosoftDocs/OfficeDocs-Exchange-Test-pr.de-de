@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen eines virtuellen Offlineadressbuch-Verzeichnisses: Exchange 2013 Help'
+title: 'Erstellen eines virt. Offlineadressbuch-Verzeichnisses: Exchange 2013-Hilfe'
 TOCTitle: Erstellen eines virtuellen Offlineadressbuch-Verzeichnisses
 ms:assetid: 2c70e21f-2b12-414a-9e8c-65634a767c72
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa996917(v=EXCHG.150)

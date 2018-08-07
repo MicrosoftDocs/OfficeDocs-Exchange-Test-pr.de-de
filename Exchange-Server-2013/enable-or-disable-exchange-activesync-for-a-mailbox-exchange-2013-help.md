@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren von Exchange ActiveSync für ein Postfach: Exchange 2013 Help'
+title: 'Aktiv. oder Deaktiv. v. Exchange ActiveSync für Postfach: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren von Exchange ActiveSync für ein Postfach
 ms:assetid: dcf7c05b-b1b9-4b0f-800d-fec9f2ddc9e4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124809(v=EXCHG.150)

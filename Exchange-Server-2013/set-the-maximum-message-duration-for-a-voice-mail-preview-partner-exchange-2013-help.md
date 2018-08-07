@@ -1,5 +1,5 @@
 ﻿---
-title: 'Legen Sie die maximale Dauer für einen Voicemailvorschau-partner: Exchange Online Help'
+title: 'Festlegen der max. Dauer für Voicemailvorschau-Partner'
 TOCTitle: Legen Sie die maximale Dauer für einen Voicemailvorschau-partner
 ms:assetid: 18f928ff-f4cc-4eed-a466-de13388780b3
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff630912(v=EXCHG.150)

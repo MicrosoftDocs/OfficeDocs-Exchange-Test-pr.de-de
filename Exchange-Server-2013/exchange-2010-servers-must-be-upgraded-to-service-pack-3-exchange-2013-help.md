@@ -1,5 +1,5 @@
 ﻿---
-title: 'Exchange 2010-Server müssen auf Service Pack 3 aktualisiert werden: Exchange 2013 Help'
+title: 'Exchange 2010-Server müssen auf SP3 aktualisiert werden: Exchange 2013-Hilfe'
 TOCTitle: Exchange 2010-Server müssen auf Service Pack 3 aktualisiert werden
 ms:assetid: b4f74863-1567-4d6d-ae21-b0af495a1d82
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.e15e14coexistenceminversionrequirement(v=EXCHG.150)

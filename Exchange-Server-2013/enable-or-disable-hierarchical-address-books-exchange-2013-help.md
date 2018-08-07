@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren von hierarchischen Adressbüchern: Exchange 2013 Help'
+title: 'Aktivieren o. Deaktivieren v. hierarch. Adressbüchern: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren von hierarchischen Adressbüchern
 ms:assetid: b4c3a175-ce5e-4bfb-a4a0-92d25f3644b3
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff607473(v=EXCHG.150)

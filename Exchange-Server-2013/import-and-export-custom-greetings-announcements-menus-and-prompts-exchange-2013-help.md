@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importieren und Exportieren angepasster Begrüßungen, Informationsansagen, Menüs und Menüansagen: Exchange 2013 Help'
+title: 'Importieren und Exportieren ang. Begrüß., Infoansagen, Menüs und Menüansagen'
 TOCTitle: Importieren und Exportieren angepasster Begrüßungen, Informationsansagen, Menüs und Menüansagen
 ms:assetid: e82da5d5-625f-4d8b-8d31-ac45513aacfd
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee681667(v=EXCHG.150)

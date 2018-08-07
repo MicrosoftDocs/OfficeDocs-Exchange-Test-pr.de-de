@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hinzufügen eines Eintrags Rolle zu einem oberster Ebene ohne bereichseinschränkung: Exchange 2013 Help'
+title: 'Hinz. d. Roll.eintr. z. Rolle obrst. Eb. o. Ber.einschr.: Exchange 2013-Hilfe'
 TOCTitle: Hinzufügen eines Eintrags Rolle zu einem oberster Ebene ohne bereichseinschränkung
 ms:assetid: 52fd3f20-c348-49d5-9bdb-f2cbf780cf2d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd979789(v=EXCHG.150)

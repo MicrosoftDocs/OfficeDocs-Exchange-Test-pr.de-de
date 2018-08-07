@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren des PICKUP-Verzeichnisses und des Wiedergabeverzeichnisses: Exchange 2013 Help'
+title: 'Konfig. d. PICKUP-Verzeich. und d. Wiedergabeverzeichn.: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren des PICKUP-Verzeichnisses und des Wiedergabeverzeichnisses
 ms:assetid: c9ca7358-9a08-4f57-89d0-910e4438df8a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124549(v=EXCHG.150)

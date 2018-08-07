@@ -1,5 +1,5 @@
 ﻿---
-title: 'Festlegen von Postfachfeatures für einen Benutzer Outlook Voice Access: Exchange Online Help'
+title: 'Festl. v. Postfachfeatures für Outlook Voice Access-Ben.: Exchange 2013-Hilfe'
 TOCTitle: Festlegen von Postfachfeatures für einen Benutzer Outlook Voice Access
 ms:assetid: a56bfd75-7bc5-49b9-b098-06855a720dcd
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124030(v=EXCHG.150)

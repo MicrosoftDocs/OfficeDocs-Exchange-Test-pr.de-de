@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verschieben einer Postfachdatenbank mithilfe der Datenbankportabilität: Exchange 2013 Help'
+title: 'Versch. einer Postfachdatenbank m. Datenbankportabilität: Exchange 2013-Hilfe'
 TOCTitle: Verschieben einer Postfachdatenbank mithilfe der Datenbankportabilität
 ms:assetid: a765ead1-43bc-4786-ae93-1835cacfc8fc
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd876926(v=EXCHG.150)

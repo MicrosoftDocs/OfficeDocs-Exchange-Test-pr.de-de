@@ -1,5 +1,5 @@
 ﻿---
-title: 'Überprüfen Sie die e-Mail-Sprachanrufe in Ihrer Organisation: Exchange Online Help'
+title: 'Überprüfen der Voicemailanrufe in der Organisation: Exchange 2013-Hilfe'
 TOCTitle: Überprüfen Sie die e-Mail-Sprachanrufe in Ihrer Organisation
 ms:assetid: f6fdbe17-d1d2-442a-aa13-06b908d9c33a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ659073(v=EXCHG.150)

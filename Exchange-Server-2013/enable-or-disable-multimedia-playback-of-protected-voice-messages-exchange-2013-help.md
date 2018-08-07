@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren der Multimediawiedergabe von geschützten Sprachnachrichten: Exchange 2013 Help'
+title: 'Aktiv.o. Deaktiv. der Multimediawiedergabe von geschützten Sprachnachrichten'
 TOCTitle: Aktivieren oder Deaktivieren der Multimediawiedergabe von geschützten Sprachnachrichten
 ms:assetid: 3c33370c-4262-42b1-8d83-d61fc7c426cd
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee423543(v=EXCHG.150)

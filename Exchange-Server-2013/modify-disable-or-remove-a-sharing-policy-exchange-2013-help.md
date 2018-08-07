@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ändern, Deaktivieren oder Entfernen einer Freigaberichtlinie: Exchange 2013 Help'
+title: 'Ändern, Deaktivieren o. Entf. einer Freigaberichtlinie: Exchange 2013-Hilfe'
 TOCTitle: Ändern, Deaktivieren oder Entfernen einer Freigaberichtlinie
 ms:assetid: 714af42d-ca29-4bb4-ac48-f0b3d4fd1c15
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657460(v=EXCHG.150)

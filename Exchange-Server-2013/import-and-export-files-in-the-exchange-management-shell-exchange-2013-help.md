@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importieren und Exportieren von Dateien in der Exchange-Verwaltungsshell: Exchange 2013 Help'
+title: 'Import u. Export v. Dateien in Exchange-Verwaltungsshell: Exchange 2013-Hilfe'
 TOCTitle: Importieren und Exportieren von Dateien in der Exchange-Verwaltungsshell
 ms:assetid: b4b669e8-a3aa-4b0b-ad34-f1f15d9c9369
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd638170(v=EXCHG.150)

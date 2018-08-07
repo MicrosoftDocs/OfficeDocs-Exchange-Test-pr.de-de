@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Exchange 2013 für geteilte Berechtigungen: Exchange 2013 Help'
+title: 'Konfig. von Exchange 2013 für geteilte Berechtigungen: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von Exchange 2013 für geteilte Berechtigungen
 ms:assetid: 8c74f893-a6f3-4869-8571-3bc0f662cc87
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd638155(v=EXCHG.150)

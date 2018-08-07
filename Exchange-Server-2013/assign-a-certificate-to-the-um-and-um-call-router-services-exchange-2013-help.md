@@ -1,5 +1,5 @@
 ﻿---
-title: 'Zuweisen eines Zertifikats an den UM-Dienst und den UM-Anrufrouterdienst: Exchange 2013 Help'
+title: 'Zuweisen e. Zert. an UM-Dienst und UM-Anrufrouterdienst: Exchange 2013-HIlfe'
 TOCTitle: Zuweisen eines Zertifikats an den UM-Dienst und den UM-Anrufrouterdienst
 ms:assetid: 8a900e5f-9779-4213-92d7-ec157b15fbc5
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn205140(v=EXCHG.150)

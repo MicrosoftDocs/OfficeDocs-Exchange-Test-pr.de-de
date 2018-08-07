@@ -1,5 +1,5 @@
 ﻿---
-title: 'Planen der Verwendung von Active Directory-Standorten für das E-Mail-Routing: Exchange 2013 Help'
+title: 'Planen d. Verw. von AD-Standorten für E-Mail-Routing: Exchange 2013-Hilfe'
 TOCTitle: Planen der Verwendung von Active Directory-Standorten für das E-Mail-Routing
 ms:assetid: 0f697cee-bcaa-4c69-b80c-7a2afd1817d2
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa996299(v=EXCHG.150)

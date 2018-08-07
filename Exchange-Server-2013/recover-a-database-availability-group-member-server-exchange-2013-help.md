@@ -1,5 +1,5 @@
 ﻿---
-title: 'Wiederherstellen von Mitgliedsservern einer Datenbankverfügbarkeitsgruppe: Exchange 2013 Help'
+title: 'Wiederherst. v. Mitg.servern e. Datenbankverfüg.gruppe: Exchange 2013-Hilfe'
 TOCTitle: Wiederherstellen von Mitgliedsservern einer Datenbankverfügbarkeitsgruppe
 ms:assetid: eccd8f61-9706-4bb7-a62a-ec7c166f8019
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd638206(v=EXCHG.150)

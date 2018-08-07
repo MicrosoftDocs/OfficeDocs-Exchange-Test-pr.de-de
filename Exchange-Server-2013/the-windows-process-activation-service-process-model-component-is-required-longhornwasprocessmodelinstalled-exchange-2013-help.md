@@ -1,5 +1,5 @@
 ﻿---
-title: 'Der Windows-Prozessaktivierungsdienst - Prozessmodellkomponente erforderlich_LonghornWASProcessModelInstalled: Exchange 2013 Help'
+title: 'Der Windows-Prozessaktivierungsdienst - Prozessmodellkomponente erforderlich'
 TOCTitle: Der Windows-Prozessaktivierungsdienst - Prozessmodellkomponente erforderlich_LonghornWASProcessModelInstalled
 ms:assetid: 8cc13dbb-4921-4c07-8602-d26613d7730a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.longhornwasprocessmodelinstalled(v=EXCHG.150)

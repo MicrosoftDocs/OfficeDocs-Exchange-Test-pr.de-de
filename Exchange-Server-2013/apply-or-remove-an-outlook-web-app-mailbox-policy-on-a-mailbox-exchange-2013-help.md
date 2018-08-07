@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anwenden oder Entfernen einer Outlook Web App-Postfachrichtlinie auf ein Postfach bzw. von einem Postfach: Exchange 2013 Help'
+title: 'Anwenden oder Entfernen von Outlook Web App-Postfachrichtlinien im Postfach'
 TOCTitle: Anwenden oder Entfernen einer Outlook Web App-Postfachrichtlinie auf ein Postfach bzw. von einem Postfach
 ms:assetid: 51d8e269-b0d5-4bc7-9b3d-0460871e54fa
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd876884(v=EXCHG.150)

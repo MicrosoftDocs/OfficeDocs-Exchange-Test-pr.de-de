@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren eines gesamtstrukturübergreifenden Sendeconnectors: Exchange 2013 Help'
+title: 'Konfig. eines gesamtstrukturübergreif. Sendeconnectors: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren eines gesamtstrukturübergreifenden Sendeconnectors
 ms:assetid: 7840d172-071e-4f13-9379-2fe1eee1a7cc
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ945053(v=EXCHG.150)

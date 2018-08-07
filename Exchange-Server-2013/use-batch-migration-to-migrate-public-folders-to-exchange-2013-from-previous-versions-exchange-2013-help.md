@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden der Batchmigration zum Migrieren von öffentlichen Ordnern zu Exchange 2013 aus vorherigen Versionen: Exchange 2013 Help'
+title: 'Batchmigration von öffentl. Ordnern zu Exchange 2013 aus vorherigen Versionen'
 TOCTitle: Verwenden der Batchmigration zum Migrieren von öffentlichen Ordnern zu Exchange 2013 aus vorherigen Versionen
 ms:assetid: da808e27-d2b7-4fbd-915c-a600751f526c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn912663(v=EXCHG.150)

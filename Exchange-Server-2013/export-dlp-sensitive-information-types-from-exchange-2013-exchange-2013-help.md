@@ -1,5 +1,5 @@
 ﻿---
-title: 'Exportieren von vertraulichen DLP-Informationstypen aus Exchange 2013: Exchange Online Help'
+title: 'Export v. vertr. DLP-Informationstypen aus Exchange 2013: Exchange 2013-Hilfe'
 TOCTitle: Exportieren von vertraulichen DLP-Informationstypen aus Exchange
 ms:assetid: 8f02fbc2-dd1c-4276-be1a-517a43fe39b2
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn479225(v=EXCHG.150)

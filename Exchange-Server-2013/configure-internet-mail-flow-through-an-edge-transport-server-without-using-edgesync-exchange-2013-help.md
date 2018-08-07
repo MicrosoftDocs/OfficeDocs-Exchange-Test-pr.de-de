@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Internetnachrichtenflusses über einen Edge-Transport-Server ohne Verwendung von EdgeSync: Exchange 2013 Help'
+title: 'Konfig. d. Internetnachrichtenfluss. über Edge-Transport-Server ohne EdgeSync'
 TOCTitle: Konfigurieren der Internetnachrichtenflusses über einen Edge-Transport-Server ohne Verwendung von EdgeSync
 ms:assetid: 6bb98d10-6f12-4b08-a58e-36375f605d65
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232082(v=EXCHG.150)

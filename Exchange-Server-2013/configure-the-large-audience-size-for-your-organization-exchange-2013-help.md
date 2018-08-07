@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren einer großen Benutzergruppe für Ihre Organisation: Exchange 2013 Help'
+title: 'Konfig. einer großen Benutzergruppe für Organisation: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren einer großen Benutzergruppe für Ihre Organisation
 ms:assetid: 8a37911c-4339-4921-b5d3-0a5a774d4517
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ659068(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hinzufügen von Postfach- und Clientzugriffsservern zu einem SIP-URI-Wählplan: Exchange 2013 Help'
+title: 'Hinzufügen von Postfach- und Clientzugriffsservern zu einem SIP-URI-Wählplan'
 TOCTitle: Hinzufügen von Postfach- und Clientzugriffsservern zu einem SIP-URI-Wählplan
 ms:assetid: 17fed308-ff0d-4e61-b9f9-e6680b6eccaa
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa996399(v=EXCHG.150)

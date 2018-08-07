@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hinzufügen des Verbundpostfachs zur AD RMS-Administratorengruppe: Exchange 2013 Help'
+title: 'Hinzuf. d. Verbundpostfachs zur AD RMS-Admingruppe: Exchange 2013-Hilfe'
 TOCTitle: Hinzufügen des Verbundpostfachs zur AD RMS-Administratorengruppe
 ms:assetid: 44618df9-54f0-4474-a450-dcba48a02901
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee424431(v=EXCHG.150)

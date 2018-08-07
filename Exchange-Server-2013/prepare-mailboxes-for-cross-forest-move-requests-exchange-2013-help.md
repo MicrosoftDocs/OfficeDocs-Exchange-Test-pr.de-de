@@ -1,5 +1,5 @@
 ﻿---
-title: 'Vorbereiten von Postfächern für gesamtstrukturübergreifende Verschiebungsanforderungen: Exchange 2013 Help'
+title: 'Vorb. v. Postfäch. f. ges.str.übergr. Versch.anford.: Exchange 2013-Hilfe'
 TOCTitle: Vorbereiten von Postfächern für gesamtstrukturübergreifende Verschiebungsanforderungen
 ms:assetid: fdbed4fc-a77e-40d5-a211-863b05d74784
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee633491(v=EXCHG.150)

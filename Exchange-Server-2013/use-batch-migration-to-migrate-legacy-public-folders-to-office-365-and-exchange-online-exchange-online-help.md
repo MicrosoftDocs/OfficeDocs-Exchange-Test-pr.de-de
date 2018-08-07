@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden der Stapelmigration zum Migrieren von öffentlichen Ordnern einer Vorgängerversion zu Office 365 und Exchange Online: Exchange 2013 Help'
+title: 'Stapelmigr. v. öfftl. Ordnern e. Vorgängerv. zu Office 365 u. Exchange Online'
 TOCTitle: Verwenden der Stapelmigration zum Migrieren von öffentlichen Ordnern einer Vorgängerversion zu Office 365 und Exchange Online
 ms:assetid: e8ab9309-7d12-4f02-bfc4-14e61a373958
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn874017(v=EXCHG.150)

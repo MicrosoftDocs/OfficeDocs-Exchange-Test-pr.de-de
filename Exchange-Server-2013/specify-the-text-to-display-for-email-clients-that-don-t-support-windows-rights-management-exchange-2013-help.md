@@ -1,5 +1,5 @@
 ﻿---
-title: 'Geben Sie den Text, der für e-Mail-Clients angezeigt, die Windows Rights Management nicht unterstützen: Exchange Online Help'
+title: 'Festl. d. für E-Mail-Clients o. Unt. f. Rights Management anzuzeigenden Texts'
 TOCTitle: Geben Sie den Text, der für e-Mail-Clients angezeigt, die Windows Rights Management nicht unterstützen
 ms:assetid: a9b2238a-b534-469c-a0c3-2768bc3d005b
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee423552(v=EXCHG.150)

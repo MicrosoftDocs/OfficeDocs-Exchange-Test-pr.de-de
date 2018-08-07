@@ -1,5 +1,5 @@
 ﻿---
-title: 'Wiederherstellen von Daten mithilfe einer Wiederherstellungsdatenbank: Exchange 2013 Help'
+title: 'Wiederherst. v. Daten mit Wiederherstellungsdatenbank: Exchange 2013-Hilfe'
 TOCTitle: Wiederherstellen von Daten mithilfe einer Wiederherstellungsdatenbank
 ms:assetid: d64c18e7-16af-4bd8-a5c5-01206984d4d1
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee332351(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Enthalten Sie mit der e-Mail-Nachricht gesendet, wenn eine VoIP-Nachricht empfangen wird text: Exchange Online Help'
+title: 'Hinzufügen von Text d. gesendeten E-Mail, wenn Sprachnachricht empfangen wird'
 TOCTitle: Enthalten Sie mit der e-Mail-Nachricht gesendet, wenn eine VoIP-Nachricht empfangen wird text
 ms:assetid: b2eec29c-e5eb-4263-80d8-0b9813dd56dc
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb201718(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Beenden des Microsoft Exchange Unified Messaging-Anrufrouterdiensts: Exchange 2013 Help'
+title: 'Beenden des Microsoft Exchange Unified Messaging-Anrufrouterdiensts'
 TOCTitle: Beenden des Microsoft Exchange Unified Messaging-Anrufrouterdiensts
 ms:assetid: 79935528-1a8c-4f22-826c-8f9a60f4f6f4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673535(v=EXCHG.150)

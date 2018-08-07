@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ausführen eines Berichts zum Postfachzugriff durch Nicht-Besitzer: Exchange 2013 Help'
+title: 'Ausf. d. Berichts z. Postfachzugriff d. Nicht-Besitzer: Exchange Online-Hilfe'
 TOCTitle: Ausführen eines Berichts zum Postfachzugriff durch Nicht-Besitzer
 ms:assetid: dbbef170-e726-4735-abf1-2857db9bb52d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ150575(v=EXCHG.150)

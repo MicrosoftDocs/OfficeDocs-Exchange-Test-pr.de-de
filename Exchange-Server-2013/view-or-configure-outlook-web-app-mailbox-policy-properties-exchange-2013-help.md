@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anzeigen oder Konfigurieren der Eigenschaften von Outlook Web App-Postfachrichtlinien: Exchange 2013 Help'
+title: 'Anzeigen oder Konfig. d. Eigensch. von Outlook Web App-Postfachrichtlinien'
 TOCTitle: Anzeigen oder Konfigurieren der Eigenschaften von Outlook Web App-Postfachrichtlinien
 ms:assetid: be012ffe-8fdb-4fb7-aebd-78b3a55593fa
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd351097(v=EXCHG.150)

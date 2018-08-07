@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Umlaufprotokollierung für eine Postfachdatenbank: Exchange 2013 Help'
+title: 'Konfigurieren der Umlaufprotokollierung für Postfachdat.: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren der Umlaufprotokollierung für eine Postfachdatenbank
 ms:assetid: 29cbd7cd-382b-4e0d-8368-2e49e75df2fc
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn756374(v=EXCHG.150)

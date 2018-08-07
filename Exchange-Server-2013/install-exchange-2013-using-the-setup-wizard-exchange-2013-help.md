@@ -1,5 +1,5 @@
 ﻿---
-title: 'Installieren von Exchange 2013 mithilfe des Setup-Assistenten: Exchange 2013 Help'
+title: 'Install. von Exchange 2013 mithilfe d. Setup-Assistenten: Exchange 2013-Hilfe'
 TOCTitle: Installieren von Exchange 2013 mithilfe des Setup-Assistenten
 ms:assetid: da690d47-3384-4430-a69e-0cd4d3bf80a7
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124778(v=EXCHG.150)

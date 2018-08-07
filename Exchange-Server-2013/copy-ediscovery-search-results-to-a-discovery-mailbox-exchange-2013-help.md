@@ -1,5 +1,5 @@
 ﻿---
-title: 'Kopieren der eDiscovery-Suchergebnisse in ein Discoverypostfach: Exchange 2013 Help'
+title: 'Kopieren d. eDiscovery-Suchergebn. in Discoverypostfach: Exchange 2013-Hilfe'
 TOCTitle: Kopieren der eDiscovery-Suchergebnisse in ein Discoverypostfach
 ms:assetid: bff2ce89-9e6f-494a-bd6a-2f2011507845
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn624163(v=EXCHG.150)

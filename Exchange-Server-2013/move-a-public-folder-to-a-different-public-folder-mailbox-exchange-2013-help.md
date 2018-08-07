@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verschieben eines öffentlichen Ordners in ein anderes Postfach für öffentliche Ordner: Exchange 2013 Help'
+title: 'Versch. öfftl. Ordner in and. Postfach für öfftl. Ordner: Exchange 2013-Hilfe'
 TOCTitle: Verschieben eines öffentlichen Ordners in ein anderes Postfach für öffentliche Ordner
 ms:assetid: b8744934-a3cb-443e-acce-a9a6ca5d88f6
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ906435(v=EXCHG.150)

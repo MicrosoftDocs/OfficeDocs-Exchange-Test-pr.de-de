@@ -1,5 +1,5 @@
 ﻿---
-title: 'Provisorische Bereitstellung des Clusternamenobjekts für eine Database Availability Group: Exchange 2013 Help'
+title: 'Provis. Bereitst. des Clusternamenobjekts für Datenverfügbarkeitsgruppe'
 TOCTitle: Provisorische Bereitstellung des Clusternamenobjekts für eine Database Availability Group
 ms:assetid: 51ebf2f6-8a02-44ef-a489-ca361cb0f63a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff367878(v=EXCHG.150)

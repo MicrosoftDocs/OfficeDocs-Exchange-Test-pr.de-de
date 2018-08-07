@@ -1,5 +1,5 @@
 ﻿---
-title: 'Herstellen einer Verbindung mit einem Server in der Warteschlangenanzeige: Exchange 2013 Help'
+title: 'Verbindung mit einem Server in der Warteschlangenanzeige: Exchange 2013-Hilfe'
 TOCTitle: Herstellen einer Verbindung mit einem Server in der Warteschlangenanzeige
 ms:assetid: 6c1ad574-9ab5-4dcc-9398-ec10eca4fd11
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa998669(v=EXCHG.150)

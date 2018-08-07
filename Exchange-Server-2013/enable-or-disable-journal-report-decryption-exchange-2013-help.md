@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren von Journalberichtentschlüsselung: Exchange 2013 Help'
+title: 'Aktiv. o. Deaktiv. von Journalberichtentschlüsselung: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren von Journalberichtentschlüsselung
 ms:assetid: 1dedbe73-2c1a-4b14-8799-5091aaec7965
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd638092(v=EXCHG.150)

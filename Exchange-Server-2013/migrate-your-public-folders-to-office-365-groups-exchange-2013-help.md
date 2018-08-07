@@ -1,5 +1,5 @@
 ﻿---
-title: 'Migrieren Ihrer öffentlichen Ordner zu Office 365-Gruppen: Exchange Online Help'
+title: 'Migrieren öffentl. Ordner zu Office 365-Gruppen: Exchange 2013-Hilfe'
 TOCTitle: Migrieren Ihrer öffentlichen Ordner zu Office 365-Gruppen
 ms:assetid: d89e727b-675a-4623-b572-260f8b44b966
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Mt843872(v=EXCHG.150)

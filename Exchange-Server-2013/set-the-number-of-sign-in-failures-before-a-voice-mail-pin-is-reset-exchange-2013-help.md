@@ -1,5 +1,5 @@
 ﻿---
-title: 'Festlegen Sie die Anzahl der Anmeldung Fehler vor einer Voicemail, die PIN zurücksetzen,: Exchange Online Help'
+title: 'Festlegen der Anzahl von Anmeldefehlern vor Zurücksetzung der Voicemail-PIN'
 TOCTitle: Festlegen Sie die Anzahl der Anmeldung Fehler vor einer Voicemail, die PIN zurücksetzen,
 ms:assetid: 4de38499-0a6f-4f00-8697-eeff805d7266
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997939(v=EXCHG.150)

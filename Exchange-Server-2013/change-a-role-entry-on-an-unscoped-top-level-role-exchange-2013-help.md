@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ändern Sie einen rolleneintrag für eine auf oberster Ebene ohne bereichseinschränkung: Exchange 2013 Help'
+title: 'Änd. v. Einträgen f. Rollen oberst. Eb. o. Ber.einschr.: Exchange 2013-Hilfe'
 TOCTitle: Ändern Sie einen rolleneintrag für eine auf oberster Ebene ohne bereichseinschränkung
 ms:assetid: 65c0bfb3-aafd-4c64-8429-7616c57adf1c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd876896(v=EXCHG.150)

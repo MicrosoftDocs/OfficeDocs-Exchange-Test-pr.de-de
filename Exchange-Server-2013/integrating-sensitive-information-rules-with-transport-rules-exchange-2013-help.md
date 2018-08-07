@@ -1,5 +1,5 @@
 ﻿---
-title: 'Integrieren von Regeln für vertrauliche Informationen in Transportregeln: Exchange 2013 Help'
+title: 'Integrieren von Regeln für vertrauliche Informationen in Transportregeln'
 TOCTitle: Integrieren von Regeln für vertrauliche Informationen in Transportregeln
 ms:assetid: feb014a7-89dd-4f2d-a06d-52806ce435d4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ150583(v=EXCHG.150)

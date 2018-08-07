@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen eines Sendeconnectors für E-Mails, die über das Internet gesendet werden: Exchange 2013 Help'
+title: 'Erst. v. Sendeconnectors für über Internet ges. E-Mails: Exchange 2013-Hilfe'
 TOCTitle: Erstellen eines Sendeconnectors für E-Mails, die über das Internet gesendet werden
 ms:assetid: 6deaefa8-1152-40d9-b1ba-9c19bdf8a928
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657457(v=EXCHG.150)

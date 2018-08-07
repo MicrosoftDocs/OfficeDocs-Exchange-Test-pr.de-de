@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren Sie den Grenzwert auf persönliche Begrüßung für Outlook Voice Access-Benutzer: Exchange Online Help'
+title: 'Konfig. des Grenzwerts für pers. Begrüßung für Outlook Voice Access-Benutzer'
 TOCTitle: Konfigurieren Sie den Grenzwert auf persönliche Begrüßung für Outlook Voice Access-Benutzer
 ms:assetid: d400f250-0f55-45f5-9918-5f1d7819fbdf
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb201731(v=EXCHG.150)

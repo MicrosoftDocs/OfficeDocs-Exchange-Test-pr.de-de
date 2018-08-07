@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anzeigen oder Konfigurieren der virtuellen Outlook Web App-Verzeichnisse: Exchange 2013 Help'
+title: 'Anz. o. Konfig. d. virt. Outlook Web App-Verzeichnisse: Exchange 2013-Hilfe'
 TOCTitle: Anzeigen oder Konfigurieren der virtuellen Outlook Web App-Verzeichnisse
 ms:assetid: 90babcf6-4486-4e01-9819-6d3ca4ed756c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd298140(v=EXCHG.150)

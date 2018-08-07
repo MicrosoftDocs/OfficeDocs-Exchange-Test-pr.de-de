@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abrufen von Statistiken zum Ordner "Wiederherstellbare Elemente": Exchange 2013 Help'
+title: 'Abrufen v. Statistiken zum Ordner Wiederherst. Elemente: Exchange 2013-Hilfe'
 TOCTitle: Abrufen von Statistiken zum Ordner "Wiederherstellbare Elemente"
 ms:assetid: dee77958-ee87-4908-85e4-ad053bacd8b0
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff714343(v=EXCHG.150)

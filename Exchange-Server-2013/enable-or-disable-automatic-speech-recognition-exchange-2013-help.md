@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren der automatischen Spracherkennung: Exchange 2013 Help'
+title: 'Aktivieren oder Deaktivieren der autom. Spracherkennung: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren der automatischen Spracherkennung
 ms:assetid: 92b3b679-b503-4068-8e88-25ec0f4537ab
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232128(v=EXCHG.150)

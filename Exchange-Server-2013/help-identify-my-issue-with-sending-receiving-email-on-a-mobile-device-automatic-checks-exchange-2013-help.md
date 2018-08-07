@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hilfe bei der Identifizierung meines Problems mit dem Senden und Empfangen auf einem Mobilgerät (Automatische Tests): Exchange 2013 Help'
+title: 'Senden und Empfangen von E-Mails auf Mobilgerät nicht möglich (Autom. Tests)'
 TOCTitle: Hilfe bei der Identifizierung meines Problems mit dem Senden und Empfangen auf einem Mobilgerät (Automatische Tests)
 ms:assetid: 7400a7c8-1e45-4e73-a642-b7d79d997462
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn793610(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen eines Sendeconnectors nach Aktivierung von Transport Layer Security (TLS), um E-Mails an Partner zu senden: Exchange 2013 Help'
+title: 'Erst. v. Sendeconnectors n. Aktiv. v. TLS zum Send. v. E-Mails an Partner'
 TOCTitle: Erstellen eines Sendeconnectors nach Aktivierung von Transport Layer Security (TLS), um E-Mails an Partner zu senden
 ms:assetid: ff2abefc-dd3e-4431-b947-df942fbf82d9
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657514(v=EXCHG.150)

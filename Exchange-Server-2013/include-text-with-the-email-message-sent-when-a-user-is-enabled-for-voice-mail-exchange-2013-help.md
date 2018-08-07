@@ -1,5 +1,5 @@
 ﻿---
-title: 'Einschließen von Text mit der e-Mail-Nachricht gesendet, wenn ein Benutzer für Voicemail aktiviert ist: Exchange Online Help'
+title: 'Hinzuf. v. Text d. gesend. E-Mail, wenn für Benutzer Voicemail aktiviert ist'
 TOCTitle: Einschließen von Text mit der e-Mail-Nachricht gesendet, wenn ein Benutzer für Voicemail aktiviert ist
 ms:assetid: 3e8292fb-0cdb-445d-8048-a59af7c38d63
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb201679(v=EXCHG.150)

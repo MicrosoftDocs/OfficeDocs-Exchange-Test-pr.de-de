@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren Sie eine automatische DTMF-fallback-Telefonzentrale: Exchange Online Help'
+title: 'Konfig. einer autom. DTMF-Fallback-Telefonzentrale: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren Sie eine automatische DTMF-fallback-Telefonzentrale
 ms:assetid: a82d85f7-de30-40db-8ee6-b091ac14da9d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232158(v=EXCHG.150)

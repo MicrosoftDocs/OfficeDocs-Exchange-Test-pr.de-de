@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden bevorzugter öffentlicher Ordner in Outlook im Web: Exchange 2013 Help'
+title: 'Verwenden bevorzugter öfftl. Ordner in Outlook im Web: Exchange 2013-Hilfe'
 TOCTitle: Verwenden bevorzugter öffentlicher Ordner in Outlook im Web
 ms:assetid: f6f1db72-4465-4eb8-b525-ac2c1fa10a69
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn948177(v=EXCHG.150)

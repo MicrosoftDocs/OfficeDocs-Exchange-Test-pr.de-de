@@ -1,5 +1,5 @@
 ﻿---
-title: 'Zulassen der Anzeige von Voicemailtranskriptionen für Benutzer: Exchange 2013 Help'
+title: 'Zulassen der Anzeige von Voicemailtranskriptionen: Exchange 2013-Hilfe'
 TOCTitle: Zulassen der Anzeige von Voicemailtranskriptionen für Benutzer
 ms:assetid: c5192e05-905c-440f-beec-1f697edc15b3
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff629381(v=EXCHG.150)

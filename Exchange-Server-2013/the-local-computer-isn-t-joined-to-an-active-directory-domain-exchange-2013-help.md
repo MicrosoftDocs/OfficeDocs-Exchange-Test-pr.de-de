@@ -1,5 +1,5 @@
 ﻿---
-title: 'Der lokale Computer ist in keine Active Directory-Domäne eingebunden: Exchange 2013 Help'
+title: 'Lokaler Computer ist in keine Active Directory-Domäne eingebunden'
 TOCTitle: Der lokale Computer ist in keine Active Directory-Domäne eingebunden
 ms:assetid: feb08845-6d44-4760-9932-6eca22f35eec
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.computernotpartofdomain(v=EXCHG.150)

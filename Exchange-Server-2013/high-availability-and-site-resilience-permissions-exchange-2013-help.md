@@ -1,5 +1,5 @@
 ﻿---
-title: 'Berechtigungen für hohe Verfügbarkeit und Ausfallsicherheit von Standorten: Exchange 2013 Help'
+title: 'Berechtig. f. Hochverf. u. Ausfallsicherh. v. Standorten: Exchange 2013-Hilfe'
 TOCTitle: Berechtigungen für hohe Verfügbarkeit und Ausfallsicherheit von Standorten
 ms:assetid: 66085107-4d4d-41c3-a425-82314acd9eee
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd638136(v=EXCHG.150)

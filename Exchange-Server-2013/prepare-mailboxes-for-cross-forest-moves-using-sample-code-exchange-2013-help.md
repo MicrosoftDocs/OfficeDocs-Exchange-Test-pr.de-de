@@ -1,5 +1,5 @@
 ﻿---
-title: 'Vorbereiten von Postfächern für gesamtstrukturübergreifende Verschiebungen unter Verwendung von Beispielcode: Exchange 2013 Help'
+title: 'Vorb.v. Postf. f. ges.str.übergr. Versch. m. Bsp.code: Exchange 2013-Hilfe'
 TOCTitle: Vorbereiten von Postfächern für gesamtstrukturübergreifende Verschiebungen unter Verwendung von Beispielcode
 ms:assetid: f35ac7a5-bb84-4653-b6d0-65906e93627b
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee861124(v=EXCHG.150)

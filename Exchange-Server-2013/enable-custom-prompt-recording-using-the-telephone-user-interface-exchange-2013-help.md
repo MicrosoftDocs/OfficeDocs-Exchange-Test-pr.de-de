@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren der Aufzeichnung benutzerdefinierter Ansagen über die Benutzerschnittstelle für Telefoneingaben: Exchange 2013 Help'
+title: 'Aktiv. d. Aufzeichn. benutzerdef. Ansagen ü. Benutzerschnitt. für Tel.eing.'
 TOCTitle: Aktivieren der Aufzeichnung benutzerdefinierter Ansagen über die Benutzerschnittstelle für Telefoneingaben
 ms:assetid: f2e5c636-2be9-4d48-b5e7-37913ded62d1
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb691404(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren Sie die Gruppe von Benutzern, die kontaktiert werden können: Exchange Online Help'
+title: 'Konfigurieren der zu kontaktierenden Benutzergruppe: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren Sie die Gruppe von Benutzern, die kontaktiert werden können
 ms:assetid: 45d9d6d5-c9d6-4b73-8aa2-a23599a4381c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee423545(v=EXCHG.150)

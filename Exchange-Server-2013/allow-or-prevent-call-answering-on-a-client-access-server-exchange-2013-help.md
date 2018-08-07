@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ermöglichen oder verhindern, dass die Anrufbeantwortung auf einem Clientzugriffsserver: Exchange 2013 Help'
+title: 'Zul. o. Verh. d. Anrufbeantw. auf Clientzugriffsservern: Exchange 2013-Hilfe'
 TOCTitle: Ermöglichen oder verhindern, dass die Anrufbeantwortung auf einem Clientzugriffsserver
 ms:assetid: 8287bb78-2621-4b80-a128-8f2ccd67923a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb123529(v=EXCHG.150)

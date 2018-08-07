@@ -1,5 +1,5 @@
 ﻿---
-title: 'Änderungen bei hoher Verfügbarkeit und Ausfallsicherheit im Vergleich zu früheren Versionen: Exchange 2013 Help'
+title: 'Änder. an hoher Verfügbarkeit und Ausfallsicherheit im Vergl. zu früh. Vers.'
 TOCTitle: Änderungen bei hoher Verfügbarkeit und Ausfallsicherheit im Vergleich zu früheren Versionen
 ms:assetid: de53c00b-091c-4a31-aacc-1bd40c756ce2
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn789066(v=EXCHG.150)

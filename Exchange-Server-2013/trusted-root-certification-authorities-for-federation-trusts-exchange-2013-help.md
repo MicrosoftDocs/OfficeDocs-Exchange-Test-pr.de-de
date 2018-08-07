@@ -1,5 +1,5 @@
 ﻿---
-title: 'Vertrauenswürdige Stammzertifizierungsstellen für Verbundvertrauensstellungen: Exchange 2013 Help'
+title: 'Vertrauenswürdige Stammzertifizierungsstell. für Verbundvertrauensstellungen '
 TOCTitle: Vertrauenswürdige Stammzertifizierungsstellen für Verbundvertrauensstellungen
 ms:assetid: d4224bf5-69b3-484c-8a70-4f230d3dbdd9
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee332350(v=EXCHG.150)

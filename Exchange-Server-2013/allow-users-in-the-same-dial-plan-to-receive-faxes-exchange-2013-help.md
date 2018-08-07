@@ -1,5 +1,5 @@
 ﻿---
-title: 'Zulassen des Empfangs von Faxnachrichten für Benutzer mit demselben Wählplan: Exchange 2013 Help'
+title: 'Zul. d. Empf. v. Faxnach. für Ben. m. demselben Wählplan: Exchange 2013-Hilfe'
 TOCTitle: Zulassen des Empfangs von Faxnachrichten für Benutzer mit demselben Wählplan
 ms:assetid: cb245028-0b86-4171-879e-934dd35fa626
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124557(v=EXCHG.150)

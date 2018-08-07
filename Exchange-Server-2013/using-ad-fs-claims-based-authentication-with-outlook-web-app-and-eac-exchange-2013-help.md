@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden der anspruchsbasierten AD FS-Authentifizierung mit Outlook Web App und Exchange-Verwaltungskonsole: Exchange 2013 Help'
+title: 'Anspruchsbasierte AD FS-Auth. mit Outlook Web App und Exchange Admin Center'
 TOCTitle: Verwenden der anspruchsbasierten AD FS-Authentifizierung mit Outlook Web App und Exchange-Verwaltungskonsole
 ms:assetid: 919a9bfb-c6df-490a-b2c4-51796b0f0596
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn635116(v=EXCHG.150)

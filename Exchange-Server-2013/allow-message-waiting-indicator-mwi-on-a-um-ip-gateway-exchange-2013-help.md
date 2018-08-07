@@ -1,5 +1,5 @@
 ﻿---
-title: 'MWI (Message Waiting Indicator) für ein UM-IP-Gateway unterstützen: Exchange 2013 Help'
+title: 'Zulassen von MWI für UM-IP-Gateway: Exchange 2013-Hilfe'
 TOCTitle: MWI (Message Waiting Indicator) für ein UM-IP-Gateway unterstützen
 ms:assetid: 5667e37c-48c6-4659-9dc9-94b1dd8ba232
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd297995(v=EXCHG.150)

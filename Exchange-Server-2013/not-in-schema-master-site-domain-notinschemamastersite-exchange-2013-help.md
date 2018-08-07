@@ -1,5 +1,5 @@
 ﻿---
-title: 'Nicht in Schemamasterstandort/-domäne_NotInSchemaMasterSite: Exchange 2013 Help'
+title: 'N. in Schemamasterstandort/-domäne_NotInSchemaMasterSite: Exchange 2013-Hilfe'
 TOCTitle: Nicht in Schemamasterstandort/-domäne_NotInSchemaMasterSite
 ms:assetid: 3aafd22a-d0f0-4120-a325-886fb2eb43ef
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.notinschemamastersite(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anzeigen von Leistungsindikatoren für die Messaging-Datensatzverwaltung: Exchange 2013 Help'
+title: 'Anz. v. Leistungsindikat. für Messaging-Datensatzverw.: Exchange 2013-Hilfe'
 TOCTitle: Anzeigen von Leistungsindikatoren für die Messaging-Datensatzverwaltung
 ms:assetid: ec374d31-2797-4f8b-8c96-3839d01a662c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb397227(v=EXCHG.150)

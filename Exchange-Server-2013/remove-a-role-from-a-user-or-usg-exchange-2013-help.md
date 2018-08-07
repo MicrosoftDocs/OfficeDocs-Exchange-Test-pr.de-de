@@ -1,5 +1,5 @@
 ﻿---
-title: 'Entfernen einer Rolle von einem Benutzer oder einer universellen Sicherheitsgruppe: Exchange 2013 Help'
+title: 'Entf. einer Rolle von Benutzer oder univ. Sicherh.gruppe: Exchange 2013-Hilfe'
 TOCTitle: Entfernen einer Rolle von einem Benutzer oder einer universellen Sicherheitsgruppe
 ms:assetid: df3510ef-e0c2-4d3c-81b0-7dc3e70c01a0
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd351196(v=EXCHG.150)

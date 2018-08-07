@@ -1,5 +1,5 @@
 ﻿---
-title: 'Fügen Sie eine automatische Telefonzentrale Durchwahlnummer ein hinzu: Exchange Online Help'
+title: 'Hinzufügen einer autom. Telefonzentralen-Durchwahlnummer: Exchange 2013-Hilfe'
 TOCTitle: Fügen Sie eine automatische Telefonzentrale Durchwahlnummer ein hinzu
 ms:assetid: f2bd62ba-1e01-4cb7-862c-c750752e20e0
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232200(v=EXCHG.150)

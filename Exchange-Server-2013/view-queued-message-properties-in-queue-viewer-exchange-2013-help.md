@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anzeigen von Eigenschaften in der Warteschlange befindlicher Nachrichten in der Warteschlangenanzeige: Exchange 2013 Help'
+title: 'Anz. v. Eignsch. v. Nachr. in Wartschl. in Wartschl.anz.: Exchange 2013-Hilfe'
 TOCTitle: Anzeigen von Eigenschaften in der Warteschlange befindlicher Nachrichten in der Warteschlangenanzeige
 ms:assetid: 9d15d8b8-e061-4288-9354-df58e282fb6b
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb123934(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren Sie eine benutzerdefinierte Geschäftszeiten Menü Aufforderung: Exchange Online Help'
+title: 'Aktiv. Benutzerdef. Menüansagen während Geschäftszeiten: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren Sie eine benutzerdefinierte Geschäftszeiten Menü Aufforderung
 ms:assetid: 89053e84-3490-4dc6-ade3-9b6c5dbf4020
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232116(v=EXCHG.150)

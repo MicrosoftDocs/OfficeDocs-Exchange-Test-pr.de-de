@@ -1,5 +1,5 @@
 ﻿---
-title: 'Vererbung von Zugriffssteuerungslisten (Access Control List, ACL) ist blockiert_InhBlockPublicFolderTree: Exchange 2013 Help'
+title: 'Vererbung von Zugriffssteuerungslisten ist blockiert'
 TOCTitle: Vererbung von Zugriffssteuerungslisten (Access Control List, ACL) ist blockiert_InhBlockPublicFolderTree
 ms:assetid: e3b89c8a-d6f8-4864-8bf0-35a78ce87cc4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.inhblockpublicfoldertree(v=EXCHG.150)

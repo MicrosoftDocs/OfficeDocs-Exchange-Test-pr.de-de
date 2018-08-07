@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deaktivieren oder Aktivieren der Journalfunktion für Voicemail und Benachrichtigungen über verpasste Anrufe: Exchange 2013 Help'
+title: 'Deakt. o. Aktiv. d. Journalfkt. f. Voicemail u. Benachr. über verpasste Anr.'
 TOCTitle: Deaktivieren oder Aktivieren der Journalfunktion für Voicemail und Benachrichtigungen über verpasste Anrufe
 ms:assetid: 5164a92e-69e6-4339-b80c-0cfbf0dc0198
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb201690(v=EXCHG.150)

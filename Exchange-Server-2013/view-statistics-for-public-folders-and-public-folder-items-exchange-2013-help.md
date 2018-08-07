@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anzeigen von Statistiken für öffentliche Ordner und Elemente öffentlicher Ordner: Exchange 2013 Help'
+title: 'Anz. v. Stat. für öfftl. Ordner und Elem. öfftl. Ordner: Exchange 2013-Hilfe'
 TOCTitle: Anzeigen von Statistiken für öffentliche Ordner und Elemente öffentlicher Ordner
 ms:assetid: 4e412710-9a74-4649-ab01-502e969a7eda
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997949(v=EXCHG.150)

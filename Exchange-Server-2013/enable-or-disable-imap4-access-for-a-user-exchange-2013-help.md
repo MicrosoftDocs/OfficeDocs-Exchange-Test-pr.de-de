@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren des IMAP4-Zugriffs für einen Benutzer: Exchange 2013 Help'
+title: 'Aktivieren o. Deaktivieren des IMAP4-Zugriffs für Ben.: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren des IMAP4-Zugriffs für einen Benutzer
 ms:assetid: a685fae4-b6f1-42fe-8bdc-5f99f9617799
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb676481(v=EXCHG.150)

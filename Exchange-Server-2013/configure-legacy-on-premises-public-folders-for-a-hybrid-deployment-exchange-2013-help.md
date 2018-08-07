@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren lokaler öffentlicher Ordner aus Vorversionen für eine Hybridbereitstellung: Exchange Online Help'
+title: 'Konfig. lok. öffentlicher Ordner aus Vorversionen für Hybridbereitstellung'
 TOCTitle: Konfigurieren lokaler öffentlicher Ordner aus Vorversionen für eine Hybridbereitstellung
 ms:assetid: bcb0ac98-2949-486b-a8ab-8549c021651b
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn249373(v=EXCHG.150)

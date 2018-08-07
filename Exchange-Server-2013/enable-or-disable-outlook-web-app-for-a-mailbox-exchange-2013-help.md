@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren von Outlook Web App für ein Postfach: Exchange 2013 Help'
+title: 'Aktiv. o. Deakt. von Outlook Web App für Postfach: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren von Outlook Web App für ein Postfach
 ms:assetid: abc19646-6211-4f18-a060-e347452dcc53
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124124(v=EXCHG.150)

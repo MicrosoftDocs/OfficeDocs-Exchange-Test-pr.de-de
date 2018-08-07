@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hinzufügen oder Entfernen von E-Mail-Adressen für ein Postfach: Exchange 2013 Help'
+title: 'Hinzufügen o. Entfernen v. E-Mail-Adressen für Postfach: Exchange 2013-Hilfe'
 TOCTitle: Hinzufügen oder Entfernen von E-Mail-Adressen für ein Postfach
 ms:assetid: 93e2d9a4-7558-4509-8641-8381a7eb674f
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb123794(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von clientspezifischen Nachrichtengrößenbegrenzungen: Exchange 2013 Help'
+title: 'Konfig. von clientspezif. Nachrichtengrößenbegrenzungen: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von clientspezifischen Nachrichtengrößenbegrenzungen
 ms:assetid: fef9ca78-b68f-4342-ada0-881ab985ce3c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh529949(v=EXCHG.150)

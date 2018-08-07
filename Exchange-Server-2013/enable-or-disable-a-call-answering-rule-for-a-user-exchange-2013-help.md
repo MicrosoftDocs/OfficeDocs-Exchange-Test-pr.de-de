@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren einer Mailboxansageregel für einen Benutzer: Exchange Online Help'
+title: 'Aktiv. o. Deaktiv. von Mailboxansageregeln für Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren einer Mailboxansageregel für einen Benutzer
 ms:assetid: f9e40ac3-117f-44f6-9ab1-dc9f4c72e8ac
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn140252(v=EXCHG.150)

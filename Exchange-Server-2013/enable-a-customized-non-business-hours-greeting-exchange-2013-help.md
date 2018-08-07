@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren Sie eine benutzerdefinierte Geschäftszeiten Begrüßung: Exchange Online Help'
+title: 'Aktiv. ang. Begrüßung außerhalb d. Geschäftszeiten: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren Sie eine benutzerdefinierte Geschäftszeiten Begrüßung
 ms:assetid: d4743805-bab0-4735-a1e0-2cea4e088e8c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232183(v=EXCHG.150)

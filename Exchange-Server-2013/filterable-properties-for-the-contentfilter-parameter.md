@@ -1,5 +1,5 @@
 ﻿---
-title: 'Filterbare Eigenschaften für den Parameter „-ContentFilter&quot;: Exchange 2013 Help'
+title: 'Filterbare Eigenschaften für Parameter „-ContentFilter“: Exchange 2013 Help'
 TOCTitle: Filterbare Eigenschaften für den Parameter „-ContentFilter“
 ms:assetid: cf504a59-1938-489c-bb48-b27b2ac3234e
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff601762(v=EXCHG.150)

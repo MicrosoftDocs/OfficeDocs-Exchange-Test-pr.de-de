@@ -1,5 +1,5 @@
 ﻿---
-title: 'Manuelles Konfigurieren der Edge-Transport-Server-Nachrichtenübermittlung: Exchange 2013 Help'
+title: 'Man. Konfig. d. Edge-Transport-Server-Nachrichtenüberm.: Exchange 2013-Hilfe'
 TOCTitle: Manuelles Konfigurieren der Edge-Transport-Server-Nachrichtenübermittlung
 ms:assetid: cb4cc165-6c09-44ab-a95f-167ae8ed2485
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn606261(v=EXCHG.150)

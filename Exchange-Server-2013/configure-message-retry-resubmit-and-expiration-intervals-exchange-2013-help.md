@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Wiederholungsintervallen, Intervallen für die erneute Übermittlung und Ablaufintervallen für Nachrichten: Exchange 2013 Help'
+title: 'Konfig. v. Intervallen für Wiederh., erneute Übermittl. u. Ablauf von Nachr.'
 TOCTitle: Konfigurieren von Wiederholungsintervallen, Intervallen für die erneute Übermittlung und Ablaufintervallen für Nachrichten
 ms:assetid: 5420124f-aa4c-4702-b493-40a9a7edb786
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa998043(v=EXCHG.150)

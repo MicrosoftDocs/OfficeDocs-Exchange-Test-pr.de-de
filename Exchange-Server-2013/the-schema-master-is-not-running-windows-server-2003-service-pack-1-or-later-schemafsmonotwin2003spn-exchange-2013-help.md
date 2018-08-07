@@ -1,5 +1,5 @@
 ﻿---
-title: 'Auf dem Schemamaster wird nicht Windows Server 2003 Service Pack 1 oder höher ausgeführt_SchemaFSMONotWin2003SPn: Exchange 2013 Help'
+title: 'Auf Schemamaster wird nicht Windows Server 2003 SP1 oder höher ausgeführt'
 TOCTitle: Auf dem Schemamaster wird nicht Windows Server 2003 Service Pack 1 oder höher ausgeführt_SchemaFSMONotWin2003SPn
 ms:assetid: 644a85ca-7b36-4ed0-bd21-c64f2742df70
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.schemafsmonotwin2003spn(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verschieben eines Postfachs für öffentliche Ordner in eine andere Postfachdatenbank: Exchange 2013 Help'
+title: 'Verschieben eines Postfachs für öffent. Ordner in andere Postfachdatenbank'
 TOCTitle: Verschieben eines Postfachs für öffentliche Ordner in eine andere Postfachdatenbank
 ms:assetid: 67601d45-4824-4ae6-9a7e-b645ec3af4d3
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ906434(v=EXCHG.150)

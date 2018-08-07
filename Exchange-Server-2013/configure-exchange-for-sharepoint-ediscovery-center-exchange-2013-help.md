@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Exchange für SharePoint eDiscovery Center: Exchange 2013 Help'
+title: 'Konfig. v. Exchange f. SharePoint eDiscovery Center: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von Exchange für SharePoint eDiscovery Center
 ms:assetid: 795c1a3b-295c-4ee5-ade9-52cf3fda3f19
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ218665(v=EXCHG.150)

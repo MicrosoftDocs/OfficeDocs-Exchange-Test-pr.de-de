@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden von Nachrichtenflussregeln zum Umgehen von unwichtigen Elementen durch Nachrichten: Exchange 2013 Help'
+title: 'Nachrichtenflussregeln z. Umgehen v. unwicht. Elementen: Exchange 2013-Hilfe'
 TOCTitle: Verwenden von Nachrichtenflussregeln zum Umgehen von unwichtigen Elementen durch Nachrichten
 ms:assetid: 58e413f0-aa27-4307-bffd-4df03090a15e
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn896639(v=EXCHG.150)

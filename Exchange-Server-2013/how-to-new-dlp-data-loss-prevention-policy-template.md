@@ -1,5 +1,5 @@
 ﻿---
-title: "So wird's gemacht: Neue DLP-Richtlinienvorlage (Data Loss Prevention, Verhinderung von Datenverlust)"
+title: 'Gewusst wie: Neue DLP-Richtlinienvorlage'
 TOCTitle: Erstellen einer DLP-Richtlinie aus einer Vorlage
 ms:assetid: 4432ef8b-6108-48d3-b2af-43ef5b40d2bc
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ150515(v=EXCHG.150)

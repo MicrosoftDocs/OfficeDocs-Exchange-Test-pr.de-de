@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von IP-Adressen und Ports für POP3- und IMAP4-Zugriff: Exchange 2013 Help'
+title: 'Konf. v. IP-Adressen u. Ports f. POP3- und IMAP4-Zugriff: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von IP-Adressen und Ports für POP3- und IMAP4-Zugriff
 ms:assetid: 8292747b-6626-4d7f-ba73-1e17f5d99fa4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb123530(v=EXCHG.150)

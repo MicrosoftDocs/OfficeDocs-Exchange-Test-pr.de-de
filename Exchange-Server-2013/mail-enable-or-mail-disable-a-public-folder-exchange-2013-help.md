@@ -1,5 +1,5 @@
 ﻿---
-title: 'E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern: Exchange 2013 Help'
+title: 'E-Mail-Aktiv. o. E-Mail-Deaktiv. von öfftl. Ordnern: Exchange 2013-Hilfe'
 TOCTitle: E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern
 ms:assetid: 3d69f76d-ff3c-46c1-b962-6a1baa425d8a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997560(v=EXCHG.150)

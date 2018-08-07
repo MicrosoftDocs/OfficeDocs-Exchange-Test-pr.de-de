@@ -1,5 +1,5 @@
 ﻿---
-title: 'Installieren oder Entfernen von Apps für Outlook für Ihre Organisation: Exchange 2013 Help'
+title: 'Installieren oder Entfernen von Apps für Outlook für Organisation'
 TOCTitle: Installieren oder Entfernen von Apps für Outlook für Ihre Organisation
 ms:assetid: 112f3ef7-9943-4a1e-8a42-e08e8e9f67f4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ943752(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ermöglichen oder verhindern, dass die Anrufbeantwortung auf einem Postfachserver: Exchange 2013 Help'
+title: 'Zul. o. Verhindern der Anrufbeantw. auf Postfachserver: Exchange 2013-Hilfe'
 TOCTitle: Ermöglichen oder verhindern, dass die Anrufbeantwortung auf einem Postfachserver
 ms:assetid: 4b860c09-6669-4e3d-b3dc-17b8018b3860
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997908(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Die Anzahl der Eingabefehler zu konfigurieren, bevor Outlook Voice Access-Benutzer getrennt sind: Exchange Online Help'
+title: 'Konfig. d. Anz. Eingabefehl. vor Trennung der Outlook Voice Access-Benutzer'
 TOCTitle: Die Anzahl der Eingabefehler zu konfigurieren, bevor Outlook Voice Access-Benutzer getrennt sind
 ms:assetid: 64c13d17-a26a-4c9b-b495-bd69c716456a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee423547(v=EXCHG.150)

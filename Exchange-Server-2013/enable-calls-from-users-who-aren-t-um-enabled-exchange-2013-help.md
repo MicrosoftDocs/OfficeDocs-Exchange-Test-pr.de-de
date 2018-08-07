@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren Sie Anrufe von Benutzern, die UM-aktivierten sind nicht: Exchange Online Help'
+title: 'Aktivieren v. Anrufen von Nicht-UM-aktivierten Benutzern: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren Sie Anrufe von Benutzern, die UM-aktivierten sind nicht
 ms:assetid: 3c39c6df-6d7a-469f-b92b-85b3f14bad31
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb267006(v=EXCHG.150)

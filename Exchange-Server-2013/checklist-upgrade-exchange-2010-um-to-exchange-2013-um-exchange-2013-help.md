@@ -1,5 +1,5 @@
 ﻿---
-title: 'Prüfliste: Aktualisieren von Exchange 2010 UM auf Exchange 2013 UM: Exchange 2013 Help'
+title: 'Prüfl.: Aktual. v. Exchange 2010 UM auf Exchange 2013 UM: Exchange 2013-Hilfe'
 TOCTitle: 'Prüfliste: Aktualisieren von Exchange 2010 UM auf Exchange 2013 UM'
 ms:assetid: 799bd1b1-a918-4bd8-911e-e6ca08bd7b52
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn169228(v=EXCHG.150)

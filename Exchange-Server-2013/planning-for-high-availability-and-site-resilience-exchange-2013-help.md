@@ -1,5 +1,5 @@
 ﻿---
-title: 'Planen einer hohen Verfügbarkeit und Ausfallsicherheit von Standorten: Exchange 2013 Help'
+title: 'Planen v. Hochverfüg. und Ausfallsicherh. von Standorten: Exchange 2013-Hilfe'
 TOCTitle: Planen einer hohen Verfügbarkeit und Ausfallsicherheit von Standorten
 ms:assetid: 29bb0358-fc8e-4437-8feb-d2959ed0f102
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd638104(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Suchen eines Diensts zum Aktualisieren eines Empfängers nicht möglich_RUSMissing: Exchange 2013 Help'
+title: 'Suche e. Diensts z. Aktual. e. Empf. n. mögl._RUSMissing: Exchange 2013-Hilfe'
 TOCTitle: Suchen eines Diensts zum Aktualisieren eines Empfängers nicht möglich_RUSMissing
 ms:assetid: 920fbf51-d5e4-4ac6-869f-7f1c5d9a3024
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.rusmissing(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren des Versands von Sprachnachrichten an Benutzer: Exchange Online Help'
+title: 'Aktiv. o. Deaktiv. d. Versands von Sprachnachr. an Ben.: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren des Versands von Sprachnachrichten an Benutzer
 ms:assetid: faa300d8-2534-40db-8ef9-428be8bb7934
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd351277(v=EXCHG.150)

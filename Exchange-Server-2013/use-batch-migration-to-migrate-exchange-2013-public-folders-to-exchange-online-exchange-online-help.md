@@ -1,5 +1,5 @@
 ﻿---
-title: 'Migrieren von Exchange 2013-basierten öffentlichen Ordnern zu Exchange Online mithilfe einer Batchmigration: Exchange Online Help'
+title: 'Batchmigration vonöffentl. Exchange 2013-Ordnern zu Exchange Online'
 TOCTitle: Migrieren von Exchange 2013-basierten öffentlichen Ordnern zu Exchange Online mithilfe einer Batchmigration
 ms:assetid: 25a5234c-dd2c-487b-8541-3655fbeb030a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Mt798260(v=EXCHG.150)

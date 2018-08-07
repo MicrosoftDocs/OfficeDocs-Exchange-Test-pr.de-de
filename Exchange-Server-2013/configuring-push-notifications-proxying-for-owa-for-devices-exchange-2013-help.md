@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Proxyfunktionen für Pushbenachrichtigungen in OWA for Devices: Exchange 2013 Help'
+title: 'Konfig. von Proxyfunktionen für Pushbenachrichtigungen in OWA for Devices'
 TOCTitle: Konfigurieren von Proxyfunktionen für Pushbenachrichtigungen in OWA for Devices
 ms:assetid: c0f4912d-8bd3-4a54-9097-03619c645c6a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn511017(v=EXCHG.150)

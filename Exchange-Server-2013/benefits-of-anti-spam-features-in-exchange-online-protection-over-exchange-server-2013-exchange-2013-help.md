@@ -1,5 +1,5 @@
 ﻿---
-title: 'Vorteile der Antispamfunktionen in Exchange Online Protection im Vergleich zu Exchange Server 2013: Exchange 2013 Help'
+title: 'Vorteile von Antispam in Exchange Online Protection vs. Exchange Server 2013'
 TOCTitle: Vorteile der Antispamfunktionen in Exchange Online Protection im Vergleich zu Exchange Server 2013
 ms:assetid: 00e37a3c-3fbc-488f-bdad-d52a3c80fd72
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673032(v=EXCHG.150)

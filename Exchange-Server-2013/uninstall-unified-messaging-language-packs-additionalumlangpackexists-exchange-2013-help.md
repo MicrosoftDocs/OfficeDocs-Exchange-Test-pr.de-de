@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deinstallieren der Unified Messaging-Sprachpakete_AdditionalUMLangPackExists: Exchange 2013 Help'
+title: 'Deinstallieren der Unified Messaging-Sprachpakete'
 TOCTitle: Deinstallieren der Unified Messaging-Sprachpakete_AdditionalUMLangPackExists
 ms:assetid: 3a7e2621-0553-44f5-8029-c72fea25af3c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.additionalumlangpackexists(v=EXCHG.150)

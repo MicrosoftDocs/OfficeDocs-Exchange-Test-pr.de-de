@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verhindern Sie, dass Anrufer ohne eine Anrufer-ID eine Sprachnachricht hinterlassen: Exchange Online Help'
+title: 'Verhindern, dass Anrufer ohne Anrufer-ID Sprachnachricht hinterlassen'
 TOCTitle: Verhindern Sie, dass Anrufer ohne eine Anrufer-ID eine Sprachnachricht hinterlassen
 ms:assetid: dd5dad32-2f69-4bf4-8ff0-545c413d395a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673571(v=EXCHG.150)

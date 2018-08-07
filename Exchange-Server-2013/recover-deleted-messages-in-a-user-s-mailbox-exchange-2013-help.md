@@ -1,5 +1,5 @@
 ﻿---
-title: 'Wiederherstellen von gelöschten Nachrichten im Postfach eines Benutzers: Exchange 2013 Help'
+title: 'Wiederherstellen v. gelöscht. Nachr. im Benutzerpostfach: Exchange 2013-Hilfe'
 TOCTitle: Wiederherstellen von gelöschten Nachrichten im Postfach eines Benutzers
 ms:assetid: 9e0e34ce-efc5-454e-8d15-57b4da867f12
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff660637(v=EXCHG.150)

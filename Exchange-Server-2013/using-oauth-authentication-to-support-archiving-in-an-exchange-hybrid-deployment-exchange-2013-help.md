@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden der OAuth-Authentifizierung zur Unterstützung der Archivierung in einer Exchange-Hybridbereitstellung: Exchange 2013 Help'
+title: 'OAuth-Auth. zur Unterst. der Archivierung in Exchange-Hybridbereitstellung'
 TOCTitle: Verwenden der OAuth-Authentifizierung zur Unterstützung der Archivierung in einer Exchange-Hybridbereitstellung
 ms:assetid: deb882b1-1ae2-40f3-a71c-423fafe3d66a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn689104(v=EXCHG.150)

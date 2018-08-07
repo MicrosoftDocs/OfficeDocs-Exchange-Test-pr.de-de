@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ermöglichen Sie oder verhindern Sie, dass Benutzer in der gleichen UM-Postfachrichtlinie erstellen Aufruf von mailboxansageregeln: Exchange Online Help'
+title: 'Zulassen oder Verhindern von Anrufantwortregeln in UM-Postfachrichtlinie'
 TOCTitle: Ermöglichen Sie oder verhindern Sie, dass Benutzer in der gleichen UM-Postfachrichtlinie erstellen Aufruf von mailboxansageregeln
 ms:assetid: e44acaa6-d5a8-41e8-94aa-100be0bd6391
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd351209(v=EXCHG.150)

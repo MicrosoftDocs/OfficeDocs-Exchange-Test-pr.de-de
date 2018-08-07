@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von IRM für Exchange-Suche und Compliance-eDiscovery: Exchange 2013 Help'
+title: 'Konfig. v. IRM für Exchange-Suche und In-Situ-eDiscovery: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von IRM für Exchange-Suche und Compliance-eDiscovery
 ms:assetid: d96790e9-93ad-4a56-b90f-2dbfa2f2073c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg588319(v=EXCHG.150)

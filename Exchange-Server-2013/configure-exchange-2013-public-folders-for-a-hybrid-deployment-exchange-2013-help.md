@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung: Exchange 2013 Help'
+title: 'Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung'
 TOCTitle: Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung
 ms:assetid: b828520f-022c-4fcb-ab68-e1c330e87c33
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn986544(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Laufwerksangabe für Postfachdatenbank fehlt_MailboxEDBDriveDoesNotExist: Exchange 2013 Help'
+title: 'Laufwerksangabe für Postfachdatenbank fehlt'
 TOCTitle: Laufwerksangabe für Postfachdatenbank fehlt_MailboxEDBDriveDoesNotExist
 ms:assetid: 0e487aa1-3194-4a14-b255-a8b9f9afbf0e
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.mailboxedbdrivedoesnotexist(v=EXCHG.150)

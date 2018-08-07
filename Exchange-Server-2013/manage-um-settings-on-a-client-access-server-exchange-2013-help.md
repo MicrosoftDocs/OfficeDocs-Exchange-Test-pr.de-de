@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwalten von UM-Einstellungen auf einem Clientzugriffsserver: Exchange 2013 Help'
+title: 'Verwalten von UM-Einstellungen auf Clientzugriffsservern: Exchange 2013-Hilfe'
 TOCTitle: Verwalten von UM-Einstellungen auf einem Clientzugriffsserver
 ms:assetid: 08667911-fa86-404e-84b1-65cedd94d579
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673507(v=EXCHG.150)

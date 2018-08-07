@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deaktivieren oder erneutes Aktivieren der Verbundfreigabe für Ihre Exchange-Organisation: Exchange 2013 Help'
+title: 'Deaktivieren oder Aktivieren d. Verbundfreigabe für Exchange-Organisation'
 TOCTitle: Deaktivieren oder erneutes Aktivieren der Verbundfreigabe für Ihre Exchange-Organisation
 ms:assetid: d36490d8-0268-47b9-a6d4-e56427f1b02e
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657497(v=EXCHG.150)

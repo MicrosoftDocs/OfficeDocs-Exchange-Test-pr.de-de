@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ermöglichen Sie oder verhindern Sie, dass einen Benutzer erstellen Aufruf von mailboxansageregeln: Exchange Online Help'
+title: 'Zul. o. Verh. d. Erstellung von Mailboxansageregeln: Exchange 2013-Hilfe'
 TOCTitle: Ermöglichen Sie oder verhindern Sie, dass einen Benutzer erstellen Aufruf von mailboxansageregeln
 ms:assetid: 81863440-8b21-4523-bdab-6a2311889a0d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd298097(v=EXCHG.150)

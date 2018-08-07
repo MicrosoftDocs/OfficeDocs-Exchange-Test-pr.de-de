@@ -1,5 +1,5 @@
 ﻿---
-title: 'Leistungsindikatoren für die Verwaltung von Nachrichtendatensätzen: Exchange 2013 Help'
+title: 'Leistungsindikatoren f. Verw. von Nachrichtendatensätzen: Exchange 2013-Hilfe'
 TOCTitle: Leistungsindikatoren für die Verwaltung von Nachrichtendatensätzen
 ms:assetid: b59def6f-4249-4e0c-8057-8ae6eb7c5676
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb310790(v=EXCHG.150)

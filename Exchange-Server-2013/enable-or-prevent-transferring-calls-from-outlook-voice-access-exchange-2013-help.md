@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ermöglichen oder verhindern, dass Weiterleiten von Anrufen von Outlook Voice Access: Exchange Online Help'
+title: 'Ermöglichen o. Verhindern der Weiterleitung von Anr. v. Outlook Voice Access'
 TOCTitle: Ermöglichen oder verhindern, dass Weiterleiten von Anrufen von Outlook Voice Access
 ms:assetid: b80c57f1-394c-4608-8ad3-52a3e6d697db
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee423554(v=EXCHG.150)

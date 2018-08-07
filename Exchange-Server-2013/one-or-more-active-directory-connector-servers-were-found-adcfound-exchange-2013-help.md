@@ -1,5 +1,5 @@
 ﻿---
-title: 'Einen oder mehrere ADC-Server (Active Directory Connector) gefunden_ADCFound: Exchange 2013 Help'
+title: 'Ein oder mehrere ADC-Server (Active Directory Connector) gefunden'
 TOCTitle: Einen oder mehrere ADC-Server (Active Directory Connector) gefunden_ADCFound
 ms:assetid: a874f51f-09a2-4a76-9695-d61fb1ee6c1c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.adcfound(v=EXCHG.150)

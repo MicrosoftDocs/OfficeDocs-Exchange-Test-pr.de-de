@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwalten von Bereitstellungsrichtlinien für Websitepostfächer: Exchange 2013 Help'
+title: 'Verwalten v. Bereitstellungsrichtl. f. Websitepostfächer: Exchange 2013-Hilfe'
 TOCTitle: Verwalten von Bereitstellungsrichtlinien für Websitepostfächer
 ms:assetid: 2f160d1a-a031-461f-8d29-c9cd49ca1645
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ710340(v=EXCHG.150)

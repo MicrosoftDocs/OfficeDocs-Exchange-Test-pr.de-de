@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anschließen eines VoIP-Gateways zur Kommunikation mit einer Nebenstellenanlage: Exchange 2013 Help'
+title: 'Anschl. v. VoIP-Gateways zur Komm. mit Nebenstellenanl.: Exchange 2013-Hilfe'
 TOCTitle: Anschließen eines VoIP-Gateways zur Kommunikation mit einer Nebenstellenanlage
 ms:assetid: 76bcdc54-3ec2-408a-bdbe-37826580dd62
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa998872(v=EXCHG.150)

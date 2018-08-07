@@ -1,5 +1,5 @@
 ﻿---
-title: 'Löschen und Neuerstellen des Standarddiscoverypostfachs in Exchange: Exchange 2013 Help'
+title: 'Löschen und Neuerstellen des Standarddiscoverypostfachs in Exchange'
 TOCTitle: Löschen und Neuerstellen des Standarddiscoverypostfachs in Exchange
 ms:assetid: 4bde0b00-bdf7-44b4-ba64-aa062bc10ca2
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn750894(v=EXCHG.150)

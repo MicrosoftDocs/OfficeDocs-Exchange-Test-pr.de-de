@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Suchliste für DNS-Suffixe für einen nicht zusammenhängenden Namespace: Exchange 2013 Help'
+title: 'Konfig. der Suchliste für DNS-Suffixe für nicht zusammenhängenden Namespace'
 TOCTitle: Konfigurieren der Suchliste für DNS-Suffixe für einen nicht zusammenhängenden Namespace
 ms:assetid: cfa715ac-7b69-47c3-b206-933ec2cf677b
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb847901(v=EXCHG.150)
