@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren Sie die sekundäre Methode für Outlook Voice Access-Benutzer suchen: Exchange Online Help'
+title: 'Konfig. d. sekundären Methode für Suche der Outlook Voice Access-Benutzer'
 TOCTitle: Konfigurieren Sie die sekundäre Methode für Outlook Voice Access-Benutzer suchen
 ms:assetid: 5cd4e0a0-d023-45a1-aa3c-b8dea6ec6d72
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa998311(v=EXCHG.150)

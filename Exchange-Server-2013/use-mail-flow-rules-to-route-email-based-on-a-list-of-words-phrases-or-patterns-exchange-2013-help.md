@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern: Exchange 2013 Help'
+title: 'Nach.flussregeln z. Routen von E-Mails bas. auf Wörtern, Begriffen o. Mustern'
 TOCTitle: Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern
 ms:assetid: 4c5bee1b-58b5-4152-baef-86fa103050ae
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn951131(v=EXCHG.150)

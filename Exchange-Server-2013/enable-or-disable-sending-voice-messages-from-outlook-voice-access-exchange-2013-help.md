@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren Sie oder deaktivieren Sie der sendenden Sprachnachrichten aus Outlook Voice Access: Exchange Online Help'
+title: 'Aktiv. o. Deakt. der Sendung von Sprachnachrichten aus Outlook Voice Access'
 TOCTitle: Aktivieren Sie oder deaktivieren Sie der sendenden Sprachnachrichten aus Outlook Voice Access
 ms:assetid: 63544ae2-6a28-40b2-82fc-3df83e93ee56
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee423546(v=EXCHG.150)

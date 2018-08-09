@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen oder Ändern einer Postfachrichtlinie für mobile Geräte: Exchange 2013 Help'
+title: 'Erstell. o. Änd. e. Postfachrichtlinie für mobile Geräte: Exchange 2013-Hilfe'
 TOCTitle: Erstellen oder Ändern einer Postfachrichtlinie für mobile Geräte
 ms:assetid: b4a37a81-25e3-40ff-a18a-a62ae4493635
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124315(v=EXCHG.150)

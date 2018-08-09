@@ -1,5 +1,5 @@
 ﻿---
-title: 'Das SMTP-Adressierungsformat wird nicht unterstützt_SMTPAdressLiteral: Exchange 2013 Help'
+title: 'SMTP-Adressierungsformat n. unterst._SMTPAdressLiteral: Exchange 2013-Hilfe'
 TOCTitle: Das SMTP-Adressierungsformat wird nicht unterstützt_SMTPAdressLiteral
 ms:assetid: b8b55917-d81f-4c0a-ad65-7bb10ac58df8
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.smtpaddressliteral(v=EXCHG.150)

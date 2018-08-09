@@ -1,5 +1,5 @@
 ﻿---
-title: 'Speichern von Bcc-Empfängern und Empfängern aus erweiterten Verteilergruppen für eDiscovery: Exchange Online Help'
+title: 'Speichern v. Bcc-Empf. und Empf. aus erw. Verteilergruppen für eDiscovery'
 TOCTitle: Speichern von Bcc-Empfängern und Empfängern aus erweiterten Verteilergruppen für eDiscovery
 ms:assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn770225(v=EXCHG.150)

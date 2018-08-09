@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ermöglichen oder verhindern, dass Weiterleiten von Anrufen von eine automatische Telefonzentrale: Exchange Online Help'
+title: 'Ermöglichen o. Verhindern d. Weiterleit. von Anr. von autom. Telefonzentrale'
 TOCTitle: Ermöglichen oder verhindern, dass Weiterleiten von Anrufen von eine automatische Telefonzentrale
 ms:assetid: ca961cc8-cc24-4e05-b72d-79979c155cf9
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee423558(v=EXCHG.150)

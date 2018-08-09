@@ -1,5 +1,5 @@
 ﻿---
-title: 'Festlegen des Partners Faxserver URI zum Senden von Faxen zulassen: Exchange Online Help'
+title: 'Festlegen des Partner-Faxserver-URI zum Senden von Faxen: Exchange 2013-Hilfe'
 TOCTitle: Festlegen des Partners Faxserver URI zum Senden von Faxen zulassen
 ms:assetid: 77a9013b-d76b-4af2-8b2c-cef435cf67af
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ650873(v=EXCHG.150)

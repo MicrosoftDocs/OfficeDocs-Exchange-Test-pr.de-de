@@ -1,5 +1,5 @@
 ﻿---
-title: 'Überprüfen Sie die Audioqualität VoIP-Anrufe in Ihrer Organisation: Exchange Online Help'
+title: 'Überprüfen der Audioqualität von VoIP-Anrufen in Organisation'
 TOCTitle: Überprüfen Sie die Audioqualität VoIP-Anrufe in Ihrer Organisation
 ms:assetid: 8a87694b-1678-4a01-859f-5ad3b2c73db5
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ659069(v=EXCHG.150)

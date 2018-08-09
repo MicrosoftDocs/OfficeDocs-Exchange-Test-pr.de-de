@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktualisierung von Exchange 2010 Unified Messaging auf Exchange 2013 Unified Messaging: Exchange 2013 Help'
+title: 'Aktualisierung von Exchange 2010 UM auf Exchange 2013 UM: Exchange 2013-Hilfe'
 TOCTitle: Aktualisierung von Exchange 2010 Unified Messaging auf Exchange 2013 Unified Messaging
 ms:assetid: 01aa5dab-689b-4738-afab-0d2f11a60b39
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn169226(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren Sie die Anzahl eingehender Anrufe auf einem Postfachserver: Exchange 2013 Help'
+title: 'Konfigurieren der Anz. eingeh. Anrufe auf Postfachserver: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren Sie die Anzahl eingehender Anrufe auf einem Postfachserver
 ms:assetid: 419e1de9-2bf8-48a8-824d-2a536b0a6d90
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997637(v=EXCHG.150)

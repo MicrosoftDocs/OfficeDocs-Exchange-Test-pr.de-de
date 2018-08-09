@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ausführen des Exchange UM-Problembehandlungstools unter Windows 7 oder Windows 8: Exchange 2013 Help'
+title: 'Ausführen des Exchange UM-Problembehandlungstools unter Windows 7/Windows 8'
 TOCTitle: Ausführen des Exchange UM-Problembehandlungstools unter Windows 7 oder Windows 8
 ms:assetid: 98d6869d-ee4a-4088-849d-ef75b0f5d932
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff851872(v=EXCHG.150)

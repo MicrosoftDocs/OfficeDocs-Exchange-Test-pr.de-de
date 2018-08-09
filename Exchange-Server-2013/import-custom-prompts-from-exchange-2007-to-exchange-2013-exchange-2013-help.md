@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importieren benutzerdefinierter Ansagen von Exchange 2007 zu Exchange 2013: Exchange 2013 Help'
+title: 'Import benutzerd. Ansagen v. Exchange 2007 zu 2013: Exchange 2013-Hilfe'
 TOCTitle: Importieren benutzerdefinierter Ansagen von Exchange 2007 zu Exchange 2013
 ms:assetid: 70c0b0bc-c0de-4e3c-8144-1fe59f86ebf4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg309147(v=EXCHG.150)

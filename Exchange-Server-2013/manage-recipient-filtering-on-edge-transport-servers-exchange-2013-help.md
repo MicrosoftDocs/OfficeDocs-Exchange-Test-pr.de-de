@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwalten der Empfängerfilterung auf Edge-Transport-Servern: Exchange 2013 Help'
+title: 'Verwalten d. Empf.filterung auf Edge-Transport-Servern: Exchange 2013-Hilfe'
 TOCTitle: Verwalten der Empfängerfilterung auf Edge-Transport-Servern
 ms:assetid: f2d0041f-2872-4669-95ec-443233f4956d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb125187(v=EXCHG.150)

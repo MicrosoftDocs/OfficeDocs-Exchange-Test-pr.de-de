@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deaktivieren oder Anhalten der Messaging-Datensatzverwaltung: Exchange 2013 Help'
+title: 'Deaktiv. o. Anhalten der Messaging-Datensatzverwaltung: Exchange 2013-Hilfe'
 TOCTitle: Deaktivieren oder Anhalten der Messaging-Datensatzverwaltung
 ms:assetid: 631191aa-3bba-4ebf-a727-c48ed2ebe176
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa998580(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Die IIS 7-Komponente für .NET-Erweiterbarkeit ist erforderlich_LonghornIIS7NetExt: Exchange 2013 Help'
+title: 'Die IIS 7-Komponente für .NET-Erweiterbarkeit ist erforderlich'
 TOCTitle: Die IIS 7-Komponente für .NET-Erweiterbarkeit ist erforderlich_LonghornIIS7NetExt
 ms:assetid: 8b481626-b68a-4fba-b66e-a02c03856bfd
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.longhorniis7netext(v=EXCHG.150)

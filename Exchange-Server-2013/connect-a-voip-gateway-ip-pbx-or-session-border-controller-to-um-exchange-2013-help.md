@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verbinden eines VoIP-Gateways, einer IP-Nebenstellenanlage oder eines Session Border Controllers mit UM: Exchange 2013 Help'
+title: 'Verb. v. VoIP-Gateways, IP-Neb.stell.anl. o. Session Border Controllern m. UM'
 TOCTitle: Verbinden eines VoIP-Gateways, einer IP-Nebenstellenanlage oder eines Session Border Controllers mit UM
 ms:assetid: a7cecf59-b93a-413b-bb88-29f2669ef2cf
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124084(v=EXCHG.150)

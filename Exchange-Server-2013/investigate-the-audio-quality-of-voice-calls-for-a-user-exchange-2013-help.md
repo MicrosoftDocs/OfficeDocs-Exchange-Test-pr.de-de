@@ -1,5 +1,5 @@
 ﻿---
-title: 'Durchführen einer Überprüfung der Audioqualität von Sprachanrufen für Benutzer: Exchange Online Help'
+title: 'Überprüfung der Audioqual. von Sprachanr. für Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Durchführen einer Überprüfung der Audioqualität von Sprachanrufen für Benutzer
 ms:assetid: 0c945886-3cfa-423e-9b46-0d6b1584a145
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ659059(v=EXCHG.150)

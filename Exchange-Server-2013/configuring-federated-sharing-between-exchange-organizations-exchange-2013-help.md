@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Verbundfreigaben zwischen Exchange-Organisationen: Exchange 2013 Help'
+title: 'Konfigurieren von Verbundfreigaben zwischen Exchange-Organisationen'
 TOCTitle: Konfigurieren von Verbundfreigaben zwischen Exchange-Organisationen
 ms:assetid: 94e31454-b027-4757-b52f-d3c2ead6d916
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657473(v=EXCHG.150)

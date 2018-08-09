@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Abwesenheitsbenachrichtigungen für die Remotedomäne: Exchange 2013 Help'
+title: 'Konfig. von Abwesenheitsbenachricht. für Remotedomäne: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von Abwesenheitsbenachrichtigungen für die Remotedomäne
 ms:assetid: 0c1e56be-7a29-4294-9762-600f9f788741
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657713(v=EXCHG.150)

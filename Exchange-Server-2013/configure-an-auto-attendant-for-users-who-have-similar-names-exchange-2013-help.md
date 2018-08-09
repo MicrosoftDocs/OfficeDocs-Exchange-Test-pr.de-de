@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren einer automatischen Telefonzentrale für Benutzer mit ähnlichen Namen: Exchange Online Help'
+title: 'Konfigurieren automatischer Telefonzentrale für Benutzer mit ähn. Namen'
 TOCTitle: Konfigurieren einer automatischen Telefonzentrale für Benutzer mit ähnlichen Namen
 ms:assetid: 2e7318a0-67f9-4d7b-8300-5f0ef77656a8
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997135(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verhindern, dass Benutzer in den gleichen Wähleinstellungen empfangen von Faxnachrichten: Exchange Online Help'
+title: 'Verh. d. Empf. v. Faxnach. f. Benutzer im gl. Wählplan: Exchange 2013-Hilfe'
 TOCTitle: Verhindern, dass Benutzer in den gleichen Wähleinstellungen empfangen von Faxnachrichten
 ms:assetid: 4fc66414-c950-4bca-ac20-4e489f288d06
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb201688(v=EXCHG.150)

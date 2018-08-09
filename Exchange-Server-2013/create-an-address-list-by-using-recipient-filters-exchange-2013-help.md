@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen einer Adressliste mithilfe von Empfängerfiltern: Exchange Online Help'
+title: 'Erstellen e. Adressliste mithilfe von Empfängerfiltern: Exchange 2013-Hilfe'
 TOCTitle: Erstellen einer Adressliste mithilfe von Empfängerfiltern
 ms:assetid: 8eabea64-97c6-40af-b61c-9b6a125cbdf1
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb123718(v=EXCHG.150)

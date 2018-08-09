@@ -1,5 +1,5 @@
 ﻿---
-title: 'Steuern der automatischen Postfachverteilung mithilfe von Datenbankbereichen: Exchange 2013 Help'
+title: 'Steuern der automatischen Postfachverteilung mithilfe von Datenbankbereichen'
 TOCTitle: Steuern der automatischen Postfachverteilung mithilfe von Datenbankbereichen
 ms:assetid: 8eaff177-2251-4c8b-8570-c91a77d0a6fc
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff628332(v=EXCHG.150)

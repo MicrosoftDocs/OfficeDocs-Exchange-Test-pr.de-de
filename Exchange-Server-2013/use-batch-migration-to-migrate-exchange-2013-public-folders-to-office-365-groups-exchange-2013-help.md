@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden der Batchmigration für die Migration von öffentlichen Exchange 2013-Ordnern in Office 365-Gruppen: Exchange 2013 Help'
+title: 'Batchmigration von öffentlichen Exchange 2013-Ordnern zu Office 365-Gruppen'
 TOCTitle: Verwenden der Batchmigration für die Migration von öffentlichen Exchange 2013-Ordnern in Office 365-Gruppen
 ms:assetid: 1d800576-957d-4916-ae2a-55c08ca75be1
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Mt843873(v=EXCHG.150)

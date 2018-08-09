@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen eines Sendeconnectors, um ausgehende E-Mails über einen Smarthost weiterzuleiten: Exchange 2013 Help'
+title: 'Erstellen v. Sendeconnectors f. Weiterleit. v. ausgeh. E-Mails über Smarthost'
 TOCTitle: Erstellen eines Sendeconnectors, um ausgehende E-Mails über einen Smarthost weiterzuleiten
 ms:assetid: 4a9ef08e-bd62-4c6b-8790-d24fb0f8f24b
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673059(v=EXCHG.150)

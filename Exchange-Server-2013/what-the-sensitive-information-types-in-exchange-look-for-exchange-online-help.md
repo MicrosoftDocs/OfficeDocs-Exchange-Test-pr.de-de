@@ -1,5 +1,5 @@
 ﻿---
-title: 'Wonach die Typen von vertraulichen Informationen in Exchange suchen: Exchange Online Help'
+title: 'Wonach die Typen von vertraulichen Informationen in Exchange suchen'
 TOCTitle: Wonach die Typen von vertraulichen Informationen suchen
 ms:assetid: 98b81f9c-87bb-4905-8e53-04621c3ae74d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ150541(v=EXCHG.150)

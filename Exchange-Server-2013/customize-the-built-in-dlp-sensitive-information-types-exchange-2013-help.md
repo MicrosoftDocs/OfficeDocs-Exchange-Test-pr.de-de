@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anpassen der integrierten vertraulichen DLP-Informationstypen: Exchange Online Help'
+title: 'Anpassen d. integrierten vertr. DLP-Informationstypen: Exchange 2013-Hilfe'
 TOCTitle: Anpassen der integrierten vertraulichen DLP-Informationstypen
 ms:assetid: 3f8bf141-2e7c-4ea7-b102-dfd6c41539da
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn781122(v=EXCHG.150)

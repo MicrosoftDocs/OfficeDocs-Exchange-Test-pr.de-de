@@ -1,5 +1,5 @@
 ﻿---
-title: 'Außerkraftsetzen der Benennungsrichtlinie für Verteilergruppen: Exchange 2013 Help'
+title: 'Außerkraftsetzen d. Benennungsrichtl. f.Verteilergruppen: Exchange 2013-Hilfe'
 TOCTitle: Außerkraftsetzen der Benennungsrichtlinie für Verteilergruppen
 ms:assetid: 9eb23fc9-3f59-4d09-9077-85c89a051ee0
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ218685(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen eines Empfangsconnectors zum Empfang von E-Mails von einem System ohne Exchange: Exchange 2013 Help'
+title: 'Erstellen v. Empfangsconnectors z. Empfang v. E-Mails v. System ohne Exchange'
 TOCTitle: Erstellen eines Empfangsconnectors zum Empfang von E-Mails von einem System ohne Exchange
 ms:assetid: 85f0864a-6502-49db-8804-16755a7292b4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657467(v=EXCHG.150)

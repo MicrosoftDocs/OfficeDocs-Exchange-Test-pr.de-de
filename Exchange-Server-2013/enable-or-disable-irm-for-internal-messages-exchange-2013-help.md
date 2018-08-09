@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren von IRM für interne Nachrichten: Exchange 2013 Help'
+title: 'Aktivieren oder Deaktivieren von IRM für interne Nachr.: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren von IRM für interne Nachrichten
 ms:assetid: a6a17f57-5304-41f1-954d-7301857d54a1
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124077(v=EXCHG.150)

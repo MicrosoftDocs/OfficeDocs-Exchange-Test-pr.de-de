@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hinzufügen oder Entfernen von Benutzern zu bzw. aus einer Postfachrichtlinie für mobile Geräte: Exchange 2013 Help'
+title: 'Hinz. o. Ent. v. Benutzern in mobilen Postf.richtlinien: Exchange 2013-Hilfe'
 TOCTitle: Hinzufügen oder Entfernen von Benutzern zu bzw. aus einer Postfachrichtlinie für mobile Geräte
 ms:assetid: 4ca8e395-c074-4165-b788-16fae3e2ccab
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997929(v=EXCHG.150)

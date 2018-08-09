@@ -1,5 +1,5 @@
 ﻿---
-title: 'Nachrichteneigenschaften und Suchoperatoren für Compliance-eDiscovery: Exchange 2013 Help'
+title: 'Nachrichteneigenschaften und Suchoperatoren für Compliance-eDiscovery'
 TOCTitle: Nachrichteneigenschaften und Suchoperatoren für Compliance-eDiscovery
 ms:assetid: 402b74e4-8853-4c51-9737-1a9c19f8e3dd
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn774955(v=EXCHG.150)

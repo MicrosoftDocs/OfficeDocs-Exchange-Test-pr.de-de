@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktualisieren einer Exchange-Organisation bei Änderungen im Zusammenhang mit der Sommerzeit oder der Zeitzone: Exchange 2013 Help'
+title: 'Aktual. v. Exchange-Organisation bei Änd. der Sommerzeit oder der Zeitzone'
 TOCTitle: Aktualisieren einer Exchange-Organisation bei Änderungen im Zusammenhang mit der Sommerzeit oder der Zeitzone
 ms:assetid: 5b12615c-24cf-4f46-bf3c-2334dc734ef8
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh530051(v=EXCHG.150)

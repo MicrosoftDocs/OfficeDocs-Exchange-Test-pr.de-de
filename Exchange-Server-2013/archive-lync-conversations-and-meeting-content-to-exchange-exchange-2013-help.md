@@ -1,5 +1,5 @@
 ﻿---
-title: 'Archivieren von Lync-Unterhaltungen und Besprechungsinhalten in Exchange: Exchange 2013 Help'
+title: 'Archiv. v. Lync-Unterhalt. u. Bespr.inh. in Exchange: Exchange 2013-Hilfe'
 TOCTitle: Archivieren von Lync-Unterhaltungen und Besprechungsinhalten in Exchange
 ms:assetid: 3cff970e-e5ed-4a54-88e6-3665d84b5ed7
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn508399(v=EXCHG.150)

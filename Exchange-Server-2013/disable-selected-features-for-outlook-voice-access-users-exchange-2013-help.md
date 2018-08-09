@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deaktivieren von ausgewählten Features für Outlook Voice Access-Benutzer: Exchange Online Help'
+title: 'Deaktiv. v. Features für Outlook Voice Access-Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Deaktivieren von ausgewählten Features für Outlook Voice Access-Benutzer
 ms:assetid: 37421edf-af60-4ca9-9e8b-262b8b851607
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg602126(v=EXCHG.150)

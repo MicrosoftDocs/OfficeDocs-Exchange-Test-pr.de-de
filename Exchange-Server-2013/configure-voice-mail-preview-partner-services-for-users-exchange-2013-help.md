@@ -1,5 +1,5 @@
 ﻿---
-title: 'Voicemailvorschau Partnerdienste für Benutzer konfigurieren: Exchange Online Help'
+title: 'Konfig. der Voicemailvorschau-Partnerdienste f. Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Voicemailvorschau Partnerdienste für Benutzer konfigurieren
 ms:assetid: 7bb914ca-5502-4e64-bae5-555034138d8a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff630920(v=EXCHG.150)

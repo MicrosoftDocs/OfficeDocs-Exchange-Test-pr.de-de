@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hinzufügen einer Adressliste zu oder Entfernen einer Adressliste aus einem Offlineadressbuch: Exchange 2013 Help'
+title: 'Hinzufügen und Entfernen von Adresslisten in einem Offlineadressbuch'
 TOCTitle: Hinzufügen einer Adressliste zu oder Entfernen einer Adressliste aus einem Offlineadressbuch
 ms:assetid: 86bd5651-ad41-4516-bf23-6579f4e4da03
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb123563(v=EXCHG.150)

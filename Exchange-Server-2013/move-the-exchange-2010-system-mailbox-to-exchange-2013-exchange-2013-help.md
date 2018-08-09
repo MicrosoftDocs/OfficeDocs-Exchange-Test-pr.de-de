@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verschieben des Exchange 2010-Systempostfachs nach Exchange 2013: Exchange 2013 Help'
+title: 'Versch. d. Exchange 2010-Systempostf. zu Exchange 2013: Exchange 2013-Hilfe'
 TOCTitle: Verschieben des Exchange 2010-Systempostfachs nach Exchange 2013
 ms:assetid: a3b03c4e-0bc7-41a2-885c-e9cac37566c8
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn249849(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Wiederholungsintervalle, Intervalle für die erneute Übermittlung und Ablaufintervalle für Nachrichten: Exchange 2013 Help'
+title: 'Intervalle f. Wdh., ern. Übermittl. u. Ablauf für Nachr.: Exchange 2013-Hilfe'
 TOCTitle: Wiederholungsintervalle, Intervalle für die erneute Übermittlung und Ablaufintervalle für Nachrichten
 ms:assetid: 03020e6f-4c01-4c6e-ae47-fd74d4c4f96a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ891103(v=EXCHG.150)

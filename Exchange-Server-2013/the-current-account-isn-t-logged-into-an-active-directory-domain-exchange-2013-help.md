@@ -1,5 +1,5 @@
 ﻿---
-title: 'Das aktuelle Konto nicht an keiner Active Directory-Domäne angemeldet: Exchange 2013 Help'
+title: 'Das aktuelle Konto nicht an keiner Active Directory-Domäne angemeldet'
 TOCTitle: Das aktuelle Konto nicht an keiner Active Directory-Domäne angemeldet
 ms:assetid: 0e229d10-605a-420f-bf8b-58a7fcb5b259
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.loggedontodomain(v=EXCHG.150)

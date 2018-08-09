@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren Sie die Gruppe von Benutzern, die Outlook Voice Access-Benutzer wenden können: Exchange Online Help'
+title: 'Konfig. d. Gruppe, die Outlook Voice Access-Benutzer kontaktieren können'
 TOCTitle: Konfigurieren Sie die Gruppe von Benutzern, die Outlook Voice Access-Benutzer wenden können
 ms:assetid: a8dc0f9e-dc86-4128-af63-d4e550aed5bb
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee423551(v=EXCHG.150)

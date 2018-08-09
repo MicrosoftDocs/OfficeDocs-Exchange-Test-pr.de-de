@@ -1,5 +1,5 @@
 ﻿---
-title: 'Bereitstellen von Exchange 2013 UM und Lync-Server (Übersicht): Exchange 2013 Help'
+title: 'Bereitst. v. Exchange 2013 UM u. Lync-Server (Übersicht): Exchange 2013-Hilfe'
 TOCTitle: Bereitstellen von Exchange 2013 UM und Lync-Server (Übersicht)
 ms:assetid: 96fcb0dd-79ee-4e55-9e59-3ee7fbe3c4a1
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb676409(v=EXCHG.150)

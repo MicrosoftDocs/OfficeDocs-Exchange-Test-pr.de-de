@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deaktivieren von Benachrichtigungen über verpasste Anrufe für einen Benutzer: Exchange 2013 Help'
+title: 'Deaktiv. von Benachricht. über verp. Anrufe für Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Deaktivieren von Benachrichtigungen über verpasste Anrufe für einen Benutzer
 ms:assetid: e54937d5-3074-454f-b561-e601fecfc6ad
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673570(v=EXCHG.150)

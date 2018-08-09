@@ -1,5 +1,5 @@
 ﻿---
-title: 'Festlegen von Postfachfunktionen für Outlook Voice Access-Benutzer: Exchange Online Help'
+title: 'Festl. v. Postfachfkt. f. Outlook Voice Access-Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Festlegen von Postfachfunktionen für Outlook Voice Access-Benutzer
 ms:assetid: 10960bf0-65cf-4d0b-bae5-d203c53662db
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa996307(v=EXCHG.150)

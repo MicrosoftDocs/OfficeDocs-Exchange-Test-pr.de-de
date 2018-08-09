@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren eines Wählplans für Benutzer mit ähnliche Namen: Exchange Online Help'
+title: 'Konfig. eines Wählplans für Benutzer mit ähnl. Namen: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren eines Wählplans für Benutzer mit ähnliche Namen
 ms:assetid: 14783f45-95f5-49de-8215-0a3aef7dc034
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb266943(v=EXCHG.150)

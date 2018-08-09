@@ -1,5 +1,5 @@
 ﻿---
-title: 'Begrüßungen, Informationsansagen, Menüs und Menüansagen für Voicemail: Exchange 2013 Help'
+title: 'Begrüß., Infoansagen, Menüs und Menüansagen f. Voicemail: Exchange 2013-Hilfe'
 TOCTitle: Begrüßungen, Informationsansagen, Menüs und Menüansagen für Voicemail
 ms:assetid: df61105d-c9d8-452c-b028-50cbda47aecf
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124902(v=EXCHG.150)

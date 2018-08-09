@@ -1,5 +1,5 @@
 ﻿---
-title: 'Automatisches Beantworten und Weiterleiten eingehender Anrufe: Exchange 2013 Help'
+title: 'Autom. Beantworten und Weiterleiten eingehender Anrufe: Exchange 2013-Hilfe'
 TOCTitle: Automatisches Beantworten und Weiterleiten eingehender Anrufe
 ms:assetid: d3dcd488-bd57-44cc-bdd4-ddee42a69dde
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124724(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Festlegen des TCP-Überwachungsports auf einem Clientzugriffsserver: Exchange 2013 Help'
+title: 'Festl. d. TCP-Überwachungsports auf Clientzugriffsserver: Exchange 2013-Hilfe'
 TOCTitle: Festlegen des TCP-Überwachungsports auf einem Clientzugriffsserver
 ms:assetid: 5f48f21a-d8d4-48b2-868f-9a3647693841
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673530(v=EXCHG.150)

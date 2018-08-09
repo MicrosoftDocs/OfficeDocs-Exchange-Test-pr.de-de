@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder deaktivieren Informationen Rights Management-Protokollierung: Exchange 2013 Help'
+title: 'Aktiv. o. Deaktiv. d. IRM-Protokollierung: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder deaktivieren Informationen Rights Management-Protokollierung
 ms:assetid: 6933bc65-4d98-4878-9167-0e9eaac68b6b
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff686962(v=EXCHG.150)

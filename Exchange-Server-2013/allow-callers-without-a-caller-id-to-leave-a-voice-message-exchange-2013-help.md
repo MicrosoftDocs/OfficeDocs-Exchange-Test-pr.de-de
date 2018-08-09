@@ -1,5 +1,5 @@
 ﻿---
-title: 'Zulassen einer Sprachnachricht bei Anrufern ohne Anrufer-ID: Exchange 2013 Help'
+title: 'Zul. einer Sprachnachricht bei Anrufern ohne Anrufer-ID: Exchange 2013-Hilfe'
 TOCTitle: Zulassen einer Sprachnachricht bei Anrufern ohne Anrufer-ID
 ms:assetid: 51367d98-e17c-4bcf-8b14-208bd1ac3af0
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232040(v=EXCHG.150)

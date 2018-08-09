@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Anzahl von Anmeldefehlern, bevor Outlook Voice Access-Benutzer getrennt werden: Exchange Online Help'
+title: 'Konfig. d. Anz. Anmeldefehler vor Trennung von Outlook Voice Access-Benutzern'
 TOCTitle: Konfigurieren der Anzahl von Anmeldefehlern, bevor Outlook Voice Access-Benutzer getrennt werden
 ms:assetid: 02f93888-168c-44bb-8cf6-17f5fcc3d733
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee423537(v=EXCHG.150)

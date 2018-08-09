@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren von Benachrichtigungen über verpasste Anrufe für einen Benutzer: Exchange 2013 Help'
+title: 'Aktiv. von Benachricht. über verp. Anrufe für Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren von Benachrichtigungen über verpasste Anrufe für einen Benutzer
 ms:assetid: aa0cbb60-5422-474f-af16-621aade31c1f
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232159(v=EXCHG.150)

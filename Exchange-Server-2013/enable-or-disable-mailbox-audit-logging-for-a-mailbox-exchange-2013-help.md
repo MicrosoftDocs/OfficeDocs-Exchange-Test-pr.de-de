@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren der Überwachungsprotokollierung für ein Postfach: Exchange 2013 Help'
+title: 'Aktiv. o. Deaktiv. d. Überw.protokoll. für Postfach: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren der Überwachungsprotokollierung für ein Postfach
 ms:assetid: c4bbfd52-6196-49c7-8c31-777fbbee11f2
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff461937(v=EXCHG.150)

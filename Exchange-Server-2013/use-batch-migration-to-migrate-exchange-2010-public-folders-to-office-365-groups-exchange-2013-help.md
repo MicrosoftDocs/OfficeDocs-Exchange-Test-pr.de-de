@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden der Stapelmigration zum Migrieren von öffentlichen Exchange 2010-Ordnern zu Office 365-Gruppen: Exchange 2013 Help'
+title: 'Stapelmigration von öff. Exchange 2010-Ordnern zu Office 365-Gruppen'
 TOCTitle: Verwenden der Stapelmigration zum Migrieren von öffentlichen Exchange 2010-Ordnern zu Office 365-Gruppen
 ms:assetid: d018558d-3075-4dd3-9ff7-91ce66b8d5fb
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Mt843875(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Enthalten Sie mit der e-Mail-Nachricht gesendet, wenn eine Faxnachricht empfangen wird text: Exchange Online Help'
+title: 'Hinzufügen v. Text der gesendeten E-Mail, wenn Faxnachricht empfangen wird'
 TOCTitle: Enthalten Sie mit der e-Mail-Nachricht gesendet, wenn eine Faxnachricht empfangen wird text
 ms:assetid: 48244e58-b7d6-4f0e-bbae-d22bf0fc11ff
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb201684(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Der Name des Active Directory-Standorts kann nicht bestimmt werden_InvalidADSite: Exchange 2013 Help'
+title: 'Name des Active Directory-Standorts kann nicht bestimmt werden'
 TOCTitle: Der Name des Active Directory-Standorts kann nicht bestimmt werden_InvalidADSite
 ms:assetid: ef96e077-08a0-4108-9f7d-0d61758abcd4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.invalidadsite(v=EXCHG.150)

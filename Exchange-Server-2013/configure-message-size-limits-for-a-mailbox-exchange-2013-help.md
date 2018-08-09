@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Beschränkungen der Nachrichtengröße für ein Postfach: Exchange 2013 Help'
+title: 'Konfig. von Beschr. der Nachrichtengröße für Postfach: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von Beschränkungen der Nachrichtengröße für ein Postfach
 ms:assetid: d1220685-14c0-4c4f-abb2-3920f3046212
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124708(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Grundlegendes zu Berechtigungen für mehrere Gesamtstrukturen: Exchange 2013 Help'
+title: 'Grundlegendes zu Berechtig. für mehrere Gesamtstrukturen: Exchange 2013-Hilfe'
 TOCTitle: Grundlegendes zu Berechtigungen für mehrere Gesamtstrukturen
 ms:assetid: 8241033f-e201-4799-b17c-4f120c6e6445
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd298099(v=EXCHG.150)

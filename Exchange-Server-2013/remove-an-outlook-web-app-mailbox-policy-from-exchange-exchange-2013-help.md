@@ -1,5 +1,5 @@
 ﻿---
-title: 'Entfernen einer Outlook Web App-Postfachrichtlinie aus Exchange: Exchange 2013 Help'
+title: 'Entf. einer Outlook Web App-Postfachrichtl. aus Exchange: Exchange 2013-Hilfe'
 TOCTitle: Entfernen einer Outlook Web App-Postfachrichtlinie aus Exchange
 ms:assetid: edab7bac-b62c-4b82-8f21-dcac77cf0e8f
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd351239(v=EXCHG.150)

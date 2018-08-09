@@ -1,5 +1,5 @@
 ﻿---
-title: 'IIS befindet sich im 32-Bit-Kompatibilitätsmodus_IIS32BitMode: Exchange 2013 Help'
+title: 'IIS im 32-Bit-Kompatibilitätsmodus_IIS32BitMode: Exchange 2013-Hilfe'
 TOCTitle: IIS befindet sich im 32-Bit-Kompatibilitätsmodus_IIS32BitMode
 ms:assetid: 742dfc32-353c-46a2-830e-68aed6a68ce0
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.iis32bitmode(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Festlegen der Administratoren und Benutzer, die Add-Ins für Outlook installieren und verwalten dürfen: Exchange Online Help'
+title: 'Festl. d. Admins u. Benutzer, die Add-Ins für Outlook inst. und verw. dürfen'
 TOCTitle: Festlegen der Administratoren und Benutzer, die Add-Ins für Outlook installieren und verwalten dürfen
 ms:assetid: 7ee4302d-b8bb-40a0-9810-10d3a0271bcb
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ943754(v=EXCHG.150)

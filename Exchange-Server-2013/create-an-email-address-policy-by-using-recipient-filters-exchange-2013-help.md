@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen einer E-Mail-Adressrichtlinie mithilfe der Empfängerfilterung: Exchange 2013 Help'
+title: 'Erstellen v. E-Mail-Adressrichtlinie mit Empf.filterung: Exchange 2013-Hilfe'
 TOCTitle: Erstellen einer E-Mail-Adressrichtlinie mithilfe der Empfängerfilterung
 ms:assetid: e3f446bd-1511-479c-8d87-2dfce5547c90
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232194(v=EXCHG.150)

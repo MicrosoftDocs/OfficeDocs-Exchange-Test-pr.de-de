@@ -1,5 +1,5 @@
 ﻿---
-title: 'Kurzübersicht über die Exchange-Verwaltungsshell für Exchange 2013: Exchange 2013 Help'
+title: 'Kurzübersicht über die Exchange-Verwaltungsshell für Exchange 2013'
 TOCTitle: Kurzübersicht über die Exchange-Verwaltungsshell für Exchange 2013
 ms:assetid: 3ea4a105-a93c-48ba-96ce-6170125354e1
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ619302(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Grundlegendes zur Koexistenz von Berechtigungen in Exchange 2007 und Exchange 2010: Exchange 2013 Help'
+title: 'Grundlegendes zur Koexistenz von Berecht. in Exchange 2007 und Exchange 2010'
 TOCTitle: Grundlegendes zur Koexistenz von Berechtigungen in Exchange 2007 und Exchange 2010
 ms:assetid: 28ab1433-23ee-4914-8f21-9a32578792e5
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd335157(v=EXCHG.150)

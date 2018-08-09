@@ -1,5 +1,5 @@
 ﻿---
-title: 'Überprüfen von Nachrichtenanlagen mithilfe von Transportregeln: Exchange 2013 Help'
+title: 'Überprüfen von Nachrichtenanlagen mit Transportregeln: Exchange 2013-Hilfe'
 TOCTitle: Überprüfen von Nachrichtenanlagen mithilfe von Transportregeln
 ms:assetid: c0de687e-e33c-4e8a-b253-771494678795
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ674307(v=EXCHG.150)

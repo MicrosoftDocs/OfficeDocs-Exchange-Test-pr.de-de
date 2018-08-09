@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren geschützter Voicemail von nicht authentifizierten Anrufern: Exchange Online Help'
+title: 'Konfigurieren geschützter Voicemail von nicht authentifizierten Anrufern'
 TOCTitle: Konfigurieren geschützter Voicemail von nicht authentifizierten Anrufern
 ms:assetid: 106bfa0a-a0fa-4a1b-bd59-4b6df1d0d61d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd335098(v=EXCHG.150)

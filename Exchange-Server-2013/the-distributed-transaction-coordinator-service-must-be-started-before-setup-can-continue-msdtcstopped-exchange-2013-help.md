@@ -1,5 +1,5 @@
 ﻿---
-title: 'The Distributed Transaction Coordinator Service must be started before setup can continue_MSDTCStopped: Exchange 2013 Help'
+title: 'DTC-Dienst muss gestartet werden, bevor Setup fortfahren kann'
 TOCTitle: The Distributed Transaction Coordinator Service must be started before setup can continue_MSDTCStopped
 ms:assetid: 96e33c94-348e-4a0b-9585-9bee81be4355
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.msdtcstopped(v=EXCHG.150)

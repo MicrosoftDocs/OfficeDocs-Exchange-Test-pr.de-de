@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ermitteln der internen und externen URLs für die Exchange-Verwaltungskonsole: Exchange 2013 Help'
+title: 'Ermitteln der internen und externen URLs für das Exchange Admin Center'
 TOCTitle: Ermitteln der internen und externen URLs für die Exchange-Verwaltungskonsole
 ms:assetid: 3ddb30ff-a405-4b9d-8d77-2d7a3a5ab8fa
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ680108(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Kontingenten für ein Compliance-Archiv (lokal): Exchange 2013 Help'
+title: 'Konfigurieren von Kontingenten für In-Situ-Archiv in Exchange 2013'
 TOCTitle: Konfigurieren von Kontingenten für ein Compliance-Archiv (lokal)
 ms:assetid: f10e77c7-e1d4-415a-bef9-cb3f00e74c34
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee633489(v=EXCHG.150)

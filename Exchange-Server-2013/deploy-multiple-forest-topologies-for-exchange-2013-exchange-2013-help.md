@@ -1,5 +1,5 @@
 ﻿---
-title: 'Bereitstellen von Topologien mit mehreren Gesamtstrukturen für Exchange 2013: Exchange 2013 Help'
+title: 'Bereit. v. Topol. m. mehr. Gesamtstr. für Exchange 2013: Exchange 2013-Hilfe'
 TOCTitle: Bereitstellen von Topologien mit mehreren Gesamtstrukturen für Exchange 2013
 ms:assetid: d51f2b7d-9045-40cf-8b9f-43787a6fff6d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124734(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren von E-Mail für einen E-Mail-Benutzer: Exchange 2013 Help'
+title: 'Aktiv. oder Deakt. von E-Mail für E-Mail-Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren von E-Mail für einen E-Mail-Benutzer
 ms:assetid: 1e2571d4-ff84-4fda-bb1d-825e96e1bd26
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa996598(v=EXCHG.150)

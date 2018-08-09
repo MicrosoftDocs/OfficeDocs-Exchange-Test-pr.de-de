@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren von E-Mail für einen E-Mail-Kontakt: Exchange 2013 Help'
+title: 'Aktivieren o. Deaktivieren von E-Mail für E-Mail-Kontakt: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren von E-Mail für einen E-Mail-Kontakt
 ms:assetid: ca47441f-1aa4-4958-aba5-18d51e59837e
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124552(v=EXCHG.150)

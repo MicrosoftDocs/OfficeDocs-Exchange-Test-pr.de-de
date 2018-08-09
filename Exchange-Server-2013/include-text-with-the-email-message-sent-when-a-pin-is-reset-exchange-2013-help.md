@@ -1,5 +1,5 @@
 ﻿---
-title: 'Enthalten Sie mit der e-Mail-Nachricht gesendet, wenn ein Zurücksetzen PIN-Nummer ist text: Exchange Online Help'
+title: 'Hinzufügen v. Text der gesendeten E-Mail, wenn eine PIN zurückgesetzt wurde'
 TOCTitle: Enthalten Sie mit der e-Mail-Nachricht gesendet, wenn ein Zurücksetzen PIN-Nummer ist text
 ms:assetid: f7a4d775-a588-412f-ac2c-11ab1a5c67eb
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb201750(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deaktivieren der Nachricht wartet Indicator (MWI) für Benutzer: Exchange Online Help'
+title: 'Deaktivieren der Anzeige für wartende Nachrichten: Exchange 2013-Hilfe'
 TOCTitle: Deaktivieren der Nachricht wartet Indicator (MWI) für Benutzer
 ms:assetid: 51cd6dc4-11d1-4eb9-a6c6-1965fcd24267
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673525(v=EXCHG.150)

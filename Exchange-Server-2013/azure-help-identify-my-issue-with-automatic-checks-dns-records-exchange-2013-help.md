@@ -1,5 +1,5 @@
 ﻿---
-title: 'Azure: Hilfe bei der Identifizierung meines Problems mit automatischen Tests - DNS-Einträge: Exchange 2013 Help'
+title: 'Azure: Hilfe bei Identifizierung von Problemen m. autom. Tests - DNS-Einträge'
 TOCTitle: 'Azure: Hilfe bei der Identifizierung meines Problems mit automatischen Tests - DNS-Einträge'
 ms:assetid: 1ef42cde-4df4-401a-b8f2-494630996ca8
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn793619(v=EXCHG.150)

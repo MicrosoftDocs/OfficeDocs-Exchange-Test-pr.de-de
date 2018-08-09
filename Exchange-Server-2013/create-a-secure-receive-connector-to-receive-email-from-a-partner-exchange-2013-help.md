@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen eines sicheren Empfangsconnectors, um E-Mails von einem Partner zu empfangen: Exchange 2013 Help'
+title: 'Erstellen v. sicheren Empfangsconnectors zum Empfangen von Partner-E-Mails'
 TOCTitle: Erstellen eines sicheren Empfangsconnectors, um E-Mails von einem Partner zu empfangen
 ms:assetid: 06aa692c-7940-4a14-a722-058c47440f85
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673037(v=EXCHG.150)

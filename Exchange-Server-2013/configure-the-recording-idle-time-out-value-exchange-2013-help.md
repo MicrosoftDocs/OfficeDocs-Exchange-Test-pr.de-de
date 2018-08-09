@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren Sie den Wert der Aufzeichnung Leerlauftimeout: Exchange Online Help'
+title: 'Konfigurieren des Timeoutwerts für Auszeichnungsleerlauf: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren Sie den Wert der Aufzeichnung Leerlauftimeout
 ms:assetid: a7fb9a09-fde9-447d-ad2c-95598405e99b
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee423550(v=EXCHG.150)

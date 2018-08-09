@@ -1,5 +1,5 @@
 ﻿---
-title: 'Nur die Serverrolle "Mailbox" kann auf einem Clusterserver installiert werden_ClusSvcInstalledRoleBlock: Exchange 2013 Help'
+title: 'Nur die Serverrolle Mailbox kann auf einem Clusterserver installiert werden'
 TOCTitle: Nur die Serverrolle "Mailbox" kann auf einem Clusterserver installiert werden_ClusSvcInstalledRoleBlock
 ms:assetid: 3e20f408-2b8d-47c2-a402-07232ab9f234
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.clussvcinstalledroleblock(v=EXCHG.150)

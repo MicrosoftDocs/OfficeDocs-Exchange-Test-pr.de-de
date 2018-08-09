@@ -1,5 +1,5 @@
 ﻿---
-title: 'Überprüfen Sie die e-Mail-Sprachanrufe für einen Benutzer: Exchange Online Help'
+title: 'Überprüfen der E-Mail-Sprachanrufe für Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Überprüfen Sie die e-Mail-Sprachanrufe für einen Benutzer
 ms:assetid: 95768fe3-3ae2-43bd-9cbf-18c3b85c4592
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ659070(v=EXCHG.150)

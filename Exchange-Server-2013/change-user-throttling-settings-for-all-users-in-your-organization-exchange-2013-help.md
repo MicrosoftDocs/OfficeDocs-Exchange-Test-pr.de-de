@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ändern von Benutzereinschränkungseinstellungen für alle Benutzer in Ihrer Organisation: Exchange 2013 Help'
+title: 'Ändern von Benutzereinschränkungseinstellungen für Benutzer in Organisation'
 TOCTitle: Ändern von Benutzereinschränkungseinstellungen für alle Benutzer in Ihrer Organisation
 ms:assetid: c45cacfc-768d-4605-9bb0-53e30273fe4d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ863578(v=EXCHG.150)

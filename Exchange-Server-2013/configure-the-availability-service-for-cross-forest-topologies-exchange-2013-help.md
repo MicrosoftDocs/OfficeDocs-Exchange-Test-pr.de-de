@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren des Verfügbarkeitsdiensts für gesamtstrukturübergreifende Topologien: Exchange 2013 Help'
+title: 'Konfig. d. Verfügbarkeitsdiensts für gesamtstrukturübergreifende Topologien'
 TOCTitle: Konfigurieren des Verfügbarkeitsdiensts für gesamtstrukturübergreifende Topologien
 ms:assetid: f1e7d407-f0d3-47a7-8cc3-03c5980445d5
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb125182(v=EXCHG.150)

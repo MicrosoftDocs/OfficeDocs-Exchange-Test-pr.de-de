@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren benutzerdefinierter E-Mail-Infos für Empfänger: Exchange 2013 Help'
+title: 'Konfigurieren benutzerdef. E-Mail-Infos für Empfänger: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren benutzerdefinierter E-Mail-Infos für Empfänger
 ms:assetid: df8ee7ae-2486-4890-b057-cda87b4cb1ec
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd638199(v=EXCHG.150)

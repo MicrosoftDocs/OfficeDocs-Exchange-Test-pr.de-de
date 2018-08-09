@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden eines Exchange 2010 oder 2007 Edge-Transport-Servers in Exchange 2013: Exchange 2013 Help'
+title: 'Verwenden d. Exchange 2010 oder 2007 Edge-Transport-Servers in Exchange 2013'
 TOCTitle: Verwenden eines Exchange 2010 oder 2007 Edge-Transport-Servers in Exchange 2013
 ms:assetid: ce99b4bd-868c-4767-9009-e22c17ac0ac7
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ150569(v=EXCHG.150)

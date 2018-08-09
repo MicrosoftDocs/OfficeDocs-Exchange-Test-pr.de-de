@@ -1,5 +1,5 @@
 ﻿---
-title: 'Sichern und Wiederherstellen von Exchange-Daten mithilfe der Windows Server-Sicherung: Exchange 2013 Help'
+title: 'Sichern und Wiederherstellen von Exchange-Daten mit Windows Server-Sicherung'
 TOCTitle: Sichern und Wiederherstellen von Exchange-Daten mithilfe der Windows Server-Sicherung
 ms:assetid: 0fac891a-5713-42b6-afd5-c91b2b88f966
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd876851(v=EXCHG.150)

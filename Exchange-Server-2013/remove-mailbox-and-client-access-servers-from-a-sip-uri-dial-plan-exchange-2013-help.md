@@ -1,5 +1,5 @@
 ﻿---
-title: 'Entfernen von Postfach- und Clientzugriffs-Servern aus einem SIP-URI-Wählplan: Exchange 2013 Help'
+title: 'Entfernen von Postfach- und Clientzugriffs-Servern aus einem SIP-URI-Wählplan'
 TOCTitle: Entfernen von Postfach- und Clientzugriffs-Servern aus einem SIP-URI-Wählplan
 ms:assetid: 367441e1-1a0f-42c8-9fa8-8abe80b3d015
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997238(v=EXCHG.150)

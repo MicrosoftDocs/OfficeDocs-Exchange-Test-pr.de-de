@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deaktivieren Sie Anrufe von Benutzern, die UM-aktivierten sind nicht: Exchange Online Help'
+title: 'Deaktiv. v. Anrufen von Nicht-UM-aktivierten Benutzern: Exchange Online-Hilfe'
 TOCTitle: Deaktivieren Sie Anrufe von Benutzern, die UM-aktivierten sind nicht
 ms:assetid: 272ff4ab-b4d9-4647-98e2-7c171f9dfc3f
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673516(v=EXCHG.150)

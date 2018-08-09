@@ -1,5 +1,5 @@
 ﻿---
-title: 'Bewährte Methoden für die Konfiguration von Nachrichtenflussregeln: Exchange Online Help'
+title: 'Bewährte Meth. für Konfig. von Nachrichtenflussregeln: Exchange Online-Hilfe'
 TOCTitle: Bewährte Methoden für die Konfiguration von Nachrichtenflussregeln
 ms:assetid: abd863c3-c0ce-42f3-9470-a573adc3cbba
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn960147(v=EXCHG.150)

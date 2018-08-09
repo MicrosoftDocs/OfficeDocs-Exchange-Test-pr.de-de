@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ändern von Benutzereinschränkungseinstellungen für bestimmte Benutzer: Exchange 2013 Help'
+title: 'Ändern v. Benutzereinschränkungseinst. f. best. Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Ändern von Benutzereinschränkungseinstellungen für bestimmte Benutzer
 ms:assetid: c5f834d6-189d-485e-9800-5e0066815ecf
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ863577(v=EXCHG.150)

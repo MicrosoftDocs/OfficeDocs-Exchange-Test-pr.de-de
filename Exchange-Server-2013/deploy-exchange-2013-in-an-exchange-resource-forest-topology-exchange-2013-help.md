@@ -1,5 +1,5 @@
 ﻿---
-title: 'Bereitstellen von Exchange 5.113,02 cm einer Exchange-Ressourcengesamtstruktur-Topologie: Exchange 2013 Help'
+title: 'Bereitstellen v. Exchange 2013 in Exchange-Ressourcengesamtstruktur-Topologie'
 TOCTitle: Bereitstellen von Exchange 5.113,02 cm einer Exchange-Ressourcengesamtstruktur-Topologie
 ms:assetid: 537a7b2b-d002-40a6-84ae-fd02635f9e23
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa998031(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ändern des Zeitplans für die Generierung des Offlineadressbuchs: Exchange Online Help'
+title: 'Ändern des Zeitplans für Gen. des Offlineadressbuchs: Exchange 2013-Hilfe'
 TOCTitle: Ändern des Zeitplans für die Generierung des Offlineadressbuchs
 ms:assetid: d2b4d527-311e-442d-9f1f-54fac8371b80
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124719(v=EXCHG.150)

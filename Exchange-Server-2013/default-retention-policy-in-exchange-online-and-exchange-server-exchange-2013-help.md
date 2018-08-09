@@ -1,5 +1,5 @@
 ﻿---
-title: 'Standardaufbewahrungsrichtlinie in Exchange Online und Exchange Server: Exchange 2013 Help'
+title: 'Standardaufbewahrungsrichtlinie in Exchange Online und Exchange Server'
 TOCTitle: Standardaufbewahrungsrichtlinie
 ms:assetid: bcf31b2d-463b-4623-b488-c8ac40f14f62
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn775046(v=EXCHG.150)

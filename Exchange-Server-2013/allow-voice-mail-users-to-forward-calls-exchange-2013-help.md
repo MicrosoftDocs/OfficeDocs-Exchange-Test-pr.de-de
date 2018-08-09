@@ -1,5 +1,5 @@
 ﻿---
-title: 'Zulassen, dass Voice Mailbenutzer Anrufe weitergeleitet werden sollen: Exchange Online Help'
+title: 'Zulassen d. Weiterleitung v. Anr. für Voicemailbenutzer: Exchange 2013-Hilfe'
 TOCTitle: Zulassen, dass Voice Mailbenutzer Anrufe weitergeleitet werden sollen
 ms:assetid: 1f8e0a53-3d9d-4f8c-9be3-9f1e2a4347a3
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd335138(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen Sie außerhalb der Geschäftszeiten Navigationsmenüs: Exchange Online Help'
+title: 'Erst. v. Navigationsmenüs außerhalb d. Geschäftszeiten: Exchange 2013-Hilfe'
 TOCTitle: Erstellen Sie außerhalb der Geschäftszeiten Navigationsmenüs
 ms:assetid: bfe81ed6-9648-4882-8baf-ac93ea30a8ca
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232175(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Zuordnen von Empfängern für Downloads von Offlineadressbüchern: Exchange 2013 Help'
+title: 'Zuordnen von Empf. für Downloads v. Offlineadressbüchern: Exchange 2013-Hilfe'
 TOCTitle: Zuordnen von Empfängern für Downloads von Offlineadressbüchern
 ms:assetid: 141751ac-16d3-4e3c-b70c-004aeedcb5a0
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa996345(v=EXCHG.150)

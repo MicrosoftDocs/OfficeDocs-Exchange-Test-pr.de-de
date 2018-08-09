@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hinzufügen von Aufbewahrungstags zu oder Entfernen von Aufbewahrungstags aus einer Aufbewahrungsrichtlinie: Exchange 2013 Help'
+title: 'Hinzufügen und Entfernen von Aufbewahrungstags in Aufbewahrungsrichtlinie'
 TOCTitle: Hinzufügen von Aufbewahrungstags zu oder Entfernen von Aufbewahrungstags aus einer Aufbewahrungsrichtlinie
 ms:assetid: 3a5196ce-2764-453d-9bc1-5ec22d06b40d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd362328(v=EXCHG.150)

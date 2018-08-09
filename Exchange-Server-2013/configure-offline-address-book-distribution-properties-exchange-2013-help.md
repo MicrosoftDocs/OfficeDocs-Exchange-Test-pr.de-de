@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Eigenschaften der Offlineadressbuch-Verteilung: Exchange 2013 Help'
+title: 'Konfig. d. Eigenschaften d. Offlineadressbuch-Verteilung: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren der Eigenschaften der Offlineadressbuch-Verteilung
 ms:assetid: 8df985e9-75ba-47ea-9cc3-aa98a5d8acf4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb123710(v=EXCHG.150)

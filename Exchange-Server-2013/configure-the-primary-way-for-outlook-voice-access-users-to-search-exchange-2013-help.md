@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren Sie die primäre Methode für Outlook Voice Access-Benutzer suchen: Exchange Online Help'
+title: 'Konfigurieren d. primären Meth. für Suche der Outlook Voice Access-Benutzer'
 TOCTitle: Konfigurieren Sie die primäre Methode für Outlook Voice Access-Benutzer suchen
 ms:assetid: 3d93a037-5820-41d3-9206-69f534414daf
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997563(v=EXCHG.150)

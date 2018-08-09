@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anpassen der Outlook Web App-Seiten für Anmeldung, Sprachauswahl und Fehler: Exchange 2013 Help'
+title: 'Anpassen der Outlook Web App-Seiten für Anmeldung, Sprachauswahl und Fehler'
 TOCTitle: Anpassen der Outlook Web App-Seiten für Anmeldung, Sprachauswahl und Fehler
 ms:assetid: d8d9f735-7181-428f-9049-b9886dce5159
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee633483(v=EXCHG.150)

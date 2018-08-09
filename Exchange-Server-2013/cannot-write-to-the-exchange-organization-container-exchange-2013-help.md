@@ -1,5 +1,5 @@
 ﻿---
-title: 'Schreiben in den Exchange-Organisationscontainer nicht möglich: Exchange 2013 Help'
+title: 'Schreiben in Exchange-Organisationscontainer nicht mögl.: Exchange 2013-Hilfe'
 TOCTitle: Schreiben in den Exchange-Organisationscontainer nicht möglich
 ms:assetid: 17c4667b-7db1-4e0a-b824-1f6d51d980a9
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.globalserverinstall(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren der Wiederherstellung einzelner Elemente für ein Postfach: Exchange 2013 Help'
+title: 'Aktiv. o. Deaktiv. d. Wiederherst. v. Elem. f. Postf.: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren der Wiederherstellung einzelner Elemente für ein Postfach
 ms:assetid: 2e7f1bcd-8395-45ad-86ce-22868bd46af0
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee633460(v=EXCHG.150)

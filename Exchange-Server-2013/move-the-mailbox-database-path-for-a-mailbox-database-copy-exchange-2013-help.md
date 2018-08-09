@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ändern des Pfads der Postfachdatenbank für eine Postfachdatenbankkopie: Exchange 2013 Help'
+title: 'Änd. d. Pfads d. Postfachdatenbank für Datenbankkopie: Exchange 2013-Hilfe'
 TOCTitle: Ändern des Pfads der Postfachdatenbank für eine Postfachdatenbankkopie
 ms:assetid: 324f255c-d95d-4a8a-a134-c8cee5c5b9cb
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd979782(v=EXCHG.150)

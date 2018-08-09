@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Outlook zum Anzeigen des ursprünglichen Absenders im Quarantänepostfach: Exchange 2013 Help'
+title: 'Konfig. v. Outlook zum Anzeigen d. urspr. Absenders im Quarantänepostfach'
 TOCTitle: Konfigurieren von Outlook zum Anzeigen des ursprünglichen Absenders im Quarantänepostfach
 ms:assetid: 9249425d-1b06-48a0-ad95-c4eefb641ff4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee861109(v=EXCHG.150)

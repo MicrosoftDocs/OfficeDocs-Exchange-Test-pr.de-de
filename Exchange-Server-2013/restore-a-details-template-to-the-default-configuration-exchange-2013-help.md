@@ -1,5 +1,5 @@
 ﻿---
-title: 'Stellen Sie eine Detailvorlage die Standardkonfiguration wieder her: Exchange 2013 Help'
+title: 'Wiederherst. der Standardkonfiguration für Detailvorlage: Exchange 2013-Hilfe'
 TOCTitle: Stellen Sie eine Detailvorlage die Standardkonfiguration wieder her
 ms:assetid: 84c5f49b-614d-4f0e-8701-0979a2eb90bf
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232102(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren der automatischen Spracherkennung für einen Outlook Voice Access-Benutzer: Exchange 2013 Help'
+title: 'Aktiv. O. Deaktiv. d. autom. Spracherkennung für Outlook Voice Access-Benutzer'
 TOCTitle: Aktivieren oder Deaktivieren der automatischen Spracherkennung für einen Outlook Voice Access-Benutzer
 ms:assetid: 58f41016-e725-432b-953e-415d61e0664c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb232062(v=EXCHG.150)

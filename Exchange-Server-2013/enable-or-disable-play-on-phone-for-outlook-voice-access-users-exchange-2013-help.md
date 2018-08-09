@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren der Funktion "Wiedergabe über Telefon" für Outlook Voice Access-Benutzer: Exchange 2013 Help'
+title: 'Aktiv. o. Deaktiv. d. Wiederg. über Telefon für Outlook Voice Access-Benutzer'
 TOCTitle: Aktivieren oder Deaktivieren der Funktion "Wiedergabe über Telefon" für Outlook Voice Access-Benutzer
 ms:assetid: d3281a97-6fc6-42a3-855f-1af1184a644a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd351161(v=EXCHG.150)

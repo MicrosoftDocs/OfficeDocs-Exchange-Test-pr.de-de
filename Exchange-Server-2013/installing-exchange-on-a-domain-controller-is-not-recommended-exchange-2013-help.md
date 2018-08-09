@@ -1,5 +1,5 @@
 ﻿---
-title: 'Die Installation von Exchange auf einem Domänencontroller wird nicht empfohlen: Exchange 2013 Help'
+title: ' Installation von Exchange auf einem Domänencontroller wird nicht empfohlen'
 TOCTitle: Die Installation von Exchange auf einem Domänencontroller wird nicht empfohlen
 ms:assetid: 48922de2-a68c-4092-96a5-d38c8e5f49f5
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.warninginstallexchangerolesondomaincontroller(v=EXCHG.150)

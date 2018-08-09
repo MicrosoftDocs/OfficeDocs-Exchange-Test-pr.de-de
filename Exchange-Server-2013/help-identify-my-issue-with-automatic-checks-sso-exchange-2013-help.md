@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hilfe bei der Identifizierung meines Problems mit automatischen Tests - SSO: Exchange 2013 Help'
+title: 'Hilfe bei Ident. d. Problems mit autom. Tests - SSO: Exchange 2013-Hilfe'
 TOCTitle: Hilfe bei der Identifizierung meines Problems mit automatischen Tests - SSO
 ms:assetid: b7d8418d-f6a9-4bed-af84-0b2ad0554aa9
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn793975(v=EXCHG.150)

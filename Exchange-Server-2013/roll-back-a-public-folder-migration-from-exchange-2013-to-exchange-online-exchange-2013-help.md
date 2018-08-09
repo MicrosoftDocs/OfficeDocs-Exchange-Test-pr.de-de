@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ausführen eines Rollbacks einer Migration öffentlicher Ordner von Exchange 2013 zu Exchange Online: Exchange 2013 Help'
+title: 'Rollback einer Migration öffentl. Ordner von Exchange 2013 zu Exchange Online'
 TOCTitle: Ausführen eines Rollbacks einer Migration öffentlicher Ordner von Exchange 2013 zu Exchange Online
 ms:assetid: bcd54aa0-aa45-4c68-b504-1475842d4b96
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Mt798259(v=EXCHG.150)

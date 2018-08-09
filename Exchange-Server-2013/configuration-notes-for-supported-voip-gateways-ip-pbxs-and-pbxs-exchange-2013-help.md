@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen: Exchange 2013 Help'
+title: 'Konf.hinw. zu unt. VoIP-Gateways, IP-Nebenstellenanl. und Nebenstellenanl.'
 TOCTitle: Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen
 ms:assetid: 1583674f-5a57-45fd-8125-087d1624e686
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee681657(v=EXCHG.150)

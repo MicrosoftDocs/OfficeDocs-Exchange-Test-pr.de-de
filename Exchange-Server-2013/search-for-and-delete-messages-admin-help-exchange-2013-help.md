@@ -1,5 +1,5 @@
 ﻿---
-title: 'Suchen nach und Löschen von Nachrichten – Administratorhilfe: Exchange Online Help'
+title: 'Suchen nach und Löschen von Nachrichten – Adminhilfe: Exchange 2013-Hilfe'
 TOCTitle: Suchen nach und Löschen von Nachrichten – Administratorhilfe
 ms:assetid: 8c36bb03-e716-4fdd-9958-4aa7a2a1db42
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff459253(v=EXCHG.150)

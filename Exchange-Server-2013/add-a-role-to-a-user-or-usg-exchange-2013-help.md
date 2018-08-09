@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hinzufügen einer Rolle zu einem Benutzer oder einer universellen Sicherheitsgruppe: Exchange 2013 Help'
+title: 'Hinzuf. v. Rollen zu Benutzern o. univ. Sicherh.gruppen: Exchange 2013-Hilfe'
 TOCTitle: Hinzufügen einer Rolle zu einem Benutzer oder einer universellen Sicherheitsgruppe
 ms:assetid: ae5608de-a141-4714-8876-bce7d2a22cb5
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd351056(v=EXCHG.150)

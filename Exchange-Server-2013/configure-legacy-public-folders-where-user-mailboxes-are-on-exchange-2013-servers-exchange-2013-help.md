@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren älterer öffentlicher Ordner, wenn sich die Postfächer der Benutzer auf Exchange 2013-Servern befinden: Exchange 2013 Help'
+title: 'Konfig. älterer öfftl. Ordner, wenn Postf. auf Exchange 2013-Servern exist.'
 TOCTitle: Konfigurieren älterer öffentlicher Ordner, wenn sich die Postfächer der Benutzer auf Exchange 2013-Servern befinden
 ms:assetid: 1d5ca19e-696e-4054-a634-15dd34d952b7
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn690134(v=EXCHG.150)

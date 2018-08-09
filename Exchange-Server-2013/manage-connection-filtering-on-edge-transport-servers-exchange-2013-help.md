@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwalten der Verbindungsfilterung auf Edge-Transport-Servern: Exchange 2013 Help'
+title: 'Verw. d. Verbindungsfilterung auf Edge-Transport-Servern: Exchange 2013-Hilfe'
 TOCTitle: Verwalten der Verbindungsfilterung auf Edge-Transport-Servern
 ms:assetid: baebc865-ec3e-48ca-ac48-7aac8b34c003
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124376(v=EXCHG.150)

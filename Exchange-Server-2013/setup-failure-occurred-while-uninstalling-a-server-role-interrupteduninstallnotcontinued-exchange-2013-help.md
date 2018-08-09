@@ -1,5 +1,5 @@
 ﻿---
-title: 'Installationsfehler bei der Deinstallation einer Serverrole_InterruptedUninstallNotContinued: Exchange 2013 Help'
+title: 'Installationsfehler bei der Deinstallation einer Serverrole'
 TOCTitle: Installationsfehler bei der Deinstallation einer Serverrole_InterruptedUninstallNotContinued
 ms:assetid: 187967b2-cb28-45d7-8858-2a083c1ebe58
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.interrupteduninstallnotcontinued(v=EXCHG.150)

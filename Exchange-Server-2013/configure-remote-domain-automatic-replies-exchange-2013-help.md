@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von automatischen Antworten für die Remotedomäne: Exchange 2013 Help'
+title: 'Konfigurieren von autom. Antworten für die Remotedomäne: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von automatischen Antworten für die Remotedomäne
 ms:assetid: 3d88a1fb-4b62-419a-a50d-ffd868e229d0
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657720(v=EXCHG.150)

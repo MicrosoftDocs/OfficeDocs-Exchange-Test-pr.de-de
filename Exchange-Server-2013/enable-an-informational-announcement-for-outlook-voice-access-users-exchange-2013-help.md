@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren einer Informationsansage für Outlook Voice Access-Benutzer: Exchange 2013 Help'
+title: 'Aktivieren einer Informationsansage für Outlook Voice Access-Benutzer'
 TOCTitle: Aktivieren einer Informationsansage für Outlook Voice Access-Benutzer
 ms:assetid: b69ed0e1-f978-498a-963e-42a047678db4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124344(v=EXCHG.150)

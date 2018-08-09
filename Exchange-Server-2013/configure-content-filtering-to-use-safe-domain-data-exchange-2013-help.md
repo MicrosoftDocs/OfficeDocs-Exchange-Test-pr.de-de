@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Inhaltsfilterung für eine Verwendung sicherer Domänendaten: Exchange 2013 Help'
+title: 'Konfig. d. Inhaltsfilt. für Verw. sicherer Domänendaten: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren der Inhaltsfilterung für eine Verwendung sicherer Domänendaten
 ms:assetid: 1ee2b663-b4f3-4fef-8954-986f2d820924
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn467930(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Auswählen der Sprache für eine automatische Telefonzentrale: Exchange 2013 Help'
+title: 'Auswählen der Sprache für automatische Telefonzentrale: Exchange 2013-Hilfe'
 TOCTitle: Auswählen der Sprache für eine automatische Telefonzentrale
 ms:assetid: 3a1c1ec0-c726-41fb-a294-59faab205609
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997306(v=EXCHG.150)
