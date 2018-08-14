@@ -19,8 +19,6 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Verwenden Sie diese Prüfliste für die Installation und Bereitstellung von Unified Messaging (UM) und Microsoft Lync Server 2013. In diesem Thema bezieht "Lync Server" sich auch auf Lync Server 2010. Microsoft Office Communications Server 2007 R2 kann jedoch auch mit Unified Messaging bereitgestellt werden.
 
-> [!NOTE]  
-
 
 Bevor Sie mit dieser Prüfliste arbeiten, machen Sie sich mit den Konzepten in folgenden Themen vertraut:
 
