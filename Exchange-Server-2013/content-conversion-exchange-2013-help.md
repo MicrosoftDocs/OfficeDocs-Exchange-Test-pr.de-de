@@ -67,7 +67,7 @@ In der folgenden Liste werden die grundlegenden Nachrichtenformate beschrieben, 
     
     Ein MAPI-kompatibler E-Mail-Client, der TNEF vollständig interpretieren kann, wie z. B. Outlook, verarbeitet die Anlage "Winmail.dat" und zeigt den ursprünglichen Nachrichteninhalt an, ohne je die Anlage "Winmail.dat" anzuzeigen. Ein E-Mail-Client, der TNEF nicht interpretieren kann, stellt eine TNEF-Nachricht möglicherweise auf eine der folgenden Arten dar:
     
-      - Die Nur-Text-Version der Nachricht wird angezeigt, und die Nachricht enthält eine Anlage namens **Winmail.dat**, **Win.dat** oder mit einem anderen allgemeinen Namen wie **Att***nnnnn***.dat** oder **Att***nnnnn***.eml**, wobei der Platzhalter *nnnnn* eine Zufallszahl darstellt.
+      - Die Nur-Text-Version der Nachricht wird angezeigt, und die Nachricht enthält eine Anlage namens **Winmail.dat**, **Win.dat** oder mit einem anderen allgemeinen Namen wie <strong>Att</strong><em>nnnnn</em><strong>.dat</strong> oder <strong>Att</strong><em>nnnnn</em><strong>.eml</strong>, wobei der Platzhalter *nnnnn* eine Zufallszahl darstellt.
     
       - Die Nur-Text-Version der Nachricht wird angezeigt. Die TNEF-Anlage wird ignoriert oder entfernt. Das Ergebnis ist eine Nur-Text-Nachricht.
     

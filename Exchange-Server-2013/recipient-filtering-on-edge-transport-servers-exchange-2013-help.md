@@ -21,7 +21,7 @@ Die Empfängerfilterung ist eine Antispamfunktion in Microsoft Exchange Server 
 
 Der Empfängerfilter-Agent blockt Nachrichten entsprechend den Eigenschaften des beabsichtigten Empfängers in der Organisation. Der Empfängerfilter-Agent kann Ihnen dabei helfen, in folgenden Szenarios die Annahme von Nachrichten zu verhindern:
 
-  - **Nicht vorhandene Empfänger**   Sie können die Zustellung an Empfänger verhindern, die nicht im Adressbuch der Organisation vorhanden sind. Möglicherweise möchten Sie die Zustellung an häufig missbrauchte Kontonamen wie **administrator@contoso.com** oder **support@contoso.com** unterbinden.
+  - **Nicht vorhandene Empfänger**   Sie können die Zustellung an Empfänger verhindern, die nicht im Adressbuch der Organisation vorhanden sind. Möglicherweise möchten Sie die Zustellung an häufig missbrauchte Kontonamen wie **administrator&#64;contoso.com** oder **support&#64;contoso.com** unterbinden.
 
   - **Eingeschränkte Verteilerlisten**   Sie können die Zustellung von Internet Mail an Verteilerlisten verhindern, die nur von internen Benutzern verwendet werden sollten.
 

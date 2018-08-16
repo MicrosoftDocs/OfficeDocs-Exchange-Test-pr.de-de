@@ -308,7 +308,7 @@ Der Aufgliederungsprozess setzt auch alle Nachrichteneinschränkungen durch, die
 
 Bestimmte Arten von Nachrichten, die von authentifizierten Absender gesendet werden, sind von Einschränkungen ausgenommen. In der folgenden Liste sind die Nachrichten beschrieben, die von Empfängereinschränkungen ausgenommen sind:
 
-  - **Alle Nachrichten, die vom Empfänger "Microsoft Exchange" gesendet werden   **Diese Nachrichten schließen DSN-Meldungen, Journalberichte, Kontingentmeldungen und andere vom System generierte Nachrichten ein, die an interne Absender von Nachrichten gesendet werden. Weitere Informationen über den Microsoft-Empfänger finden Sie unter [Empfänger](recipients-exchange-2013-help.md).
+  - **Alle Nachrichten, die vom Empfänger "Microsoft Exchange" gesendet werden**   Diese Nachrichten schließen DSN-Meldungen, Journalberichte, Kontingentmeldungen und andere vom System generierte Nachrichten ein, die an interne Absender von Nachrichten gesendet werden. Weitere Informationen über den Microsoft-Empfänger finden Sie unter [Empfänger](recipients-exchange-2013-help.md).
 
   - **Alle Nachrichten, die von der externen Postmasteradresse gesendet werden**   Diese Nachrichten schließen DSN-Meldungen und andere vom System generierte Nachrichten ein, die an externe Absender von Nachrichten gesendet werden. Weitere Informationen zu externen Postmasteradressen finden Sie unter [Konfigurieren der externen Postmasteradresse](configure-the-external-postmaster-address-exchange-2013-help.md).
 

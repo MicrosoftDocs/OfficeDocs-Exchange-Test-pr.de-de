@@ -59,27 +59,27 @@ Mithilfe der standortübergreifenden Navigation können Sie schnell zwischen Ihr
 
 Dies ist die erste Navigationsebene für die meisten Aufgaben, die Sie in der Exchange-Verwaltungskonsole ausführen. Der Featurebereich ist mit der Konsolenstruktur in der Exchange-Verwaltungskonsole in Exchange 2010 vergleichbar. Allerdings ist der Featurebereich in Exchange 2013 nach Featureteilbereichen statt nach Serverrollen organisiert, und es sind weniger Klicks erforderlich, um das jeweils benötigte Element zu finden.
 
-  - **Empfänger   **Mit diesem Feature können Sie Postfächer, Gruppen, Ressourcenpostfächer, Kontakte, freigegebene Postfächer sowie Postfachmigrationen und -verschiebungen verwalten.
+  - **Empfänger**   Mit diesem Feature können Sie Postfächer, Gruppen, Ressourcenpostfächer, Kontakte, freigegebene Postfächer sowie Postfachmigrationen und -verschiebungen verwalten.
 
-  - **Berechtigungen   **Mit diesem Feature können Sie Administrator- und Benutzerrollen sowie Outlook Web App-Richtlinien verwalten.
+  - **Berechtigungen**   Mit diesem Feature können Sie Administrator- und Benutzerrollen sowie Outlook Web App-Richtlinien verwalten.
 
-  - **Verwaltung der Richtlinientreue   **Mit diesem Feature können Sie die Compliance-eDiscovery, Compliance-Archive, Überwachung, Verhinderung von Datenverlust, Aufbewahrungsrichtlinien, Aufbewahrungstags und Journalregeln verwalten.
+  - **Verwaltung der Richtlinientreue**   Mit diesem Feature können Sie die Compliance-eDiscovery, Compliance-Archive, Überwachung, Verhinderung von Datenverlust, Aufbewahrungsrichtlinien, Aufbewahrungstags und Journalregeln verwalten.
 
-  - **Organisation   **Mit diesem Feature können Sie die Aufgaben verwalten, die Ihre Exchange-Organisation betreffen. Dazu gehören Verbundfreigaben, Outlook-Apps und Adresslisten.
+  - **Organisation**   Mit diesem Feature können Sie die Aufgaben verwalten, die Ihre Exchange-Organisation betreffen. Dazu gehören Verbundfreigaben, Outlook-Apps und Adresslisten.
 
-  - **Schutz   **Mit diesem Feature können Sie den Antischadsoftwareschutz für Ihre Organisation verwalten.
+  - **Schutz**   Mit diesem Feature können Sie den Antischadsoftwareschutz für Ihre Organisation verwalten.
 
-  - **Nachrichtenfluss   **Mit diesem Feature können Sie Regeln, Zustellungsberichte, akzeptierte Domänen, E-Mail-Adressrichtlinien sowie Sende- und Empfangsconnectors verwalten.
+  - **Nachrichtenfluss**   Mit diesem Feature können Sie Regeln, Zustellungsberichte, akzeptierte Domänen, E-Mail-Adressrichtlinien sowie Sende- und Empfangsconnectors verwalten.
 
-  - **Mobil   **Mit diesem Feature können Sie die mobilen Geräte verwalten, über die Sie Verbindungen mit Ihrer Organisation zulassen. Sie können den Zugriff auf und die Richtlinien für mobile Geräte verwalten.
+  - **Mobil**   Mit diesem Feature können Sie die mobilen Geräte verwalten, über die Sie Verbindungen mit Ihrer Organisation zulassen. Sie können den Zugriff auf und die Richtlinien für mobile Geräte verwalten.
 
-  - **Öffentliche Ordner   **In Exchange 2010 mussten Sie öffentliche Ordner mit der Verwaltungskonsole für öffentliche Ordner verwalten, die sich außerhalb der Exchange-Verwaltungskonsole in der Toolbox befindet. In Exchange 2013 können öffentliche Ordner im Featurebereich **Öffentliche Ordner** verwaltet werden.
+  - **Öffentliche Ordner**   In Exchange 2010 mussten Sie öffentliche Ordner mit der Verwaltungskonsole für öffentliche Ordner verwalten, die sich außerhalb der Exchange-Verwaltungskonsole in der Toolbox befindet. In Exchange 2013 können öffentliche Ordner im Featurebereich **Öffentliche Ordner** verwaltet werden.
 
-  - **Unified Messaging   **Mit diesem Feature können Sie UM-Wählpläne und UM-IP-Gateways verwalten.
+  - **Unified Messaging**   Mit diesem Feature können Sie UM-Wählpläne und UM-IP-Gateways verwalten.
 
-  - **Server   **Mit diesem Feature können Sie Ihre Postfach- und Clientzugriffsserver, Datenbanken, Database Availability Groups, virtuellen Verzeichnisse und Zertifikate verwalten.
+  - **Server**   Mit diesem Feature können Sie Ihre Postfach- und Clientzugriffsserver, Datenbanken, Database Availability Groups, virtuellen Verzeichnisse und Zertifikate verwalten.
 
-  - **Hybrid   **Mit diesem Feature können Sie eine Hybridorganisation einrichten und konfigurieren.
+  - **Hybrid**   Mit diesem Feature können Sie eine Hybridorganisation einrichten und konfigurieren.
 
 ## Registerkarten
 
@@ -173,7 +173,7 @@ Die Exchange-Verwaltungskonsole weist eine Benachrichtigungsanzeige auf, sodass 
 
   - **Hilfe-Sprechblase deaktivieren**   In der Hilfe-Sprechblase wird Kontexthilfe für Felder angezeigt, wenn Sie ein Objekt erstellen oder bearbeiten. Sie können die Hilfe-Sprechblase deaktivieren oder aktivieren, wenn sie deaktiviert ist.
 
-  - **Copyright und Datenschutz   **Klicken Sie auf den entsprechenden Link, um die Copyright- und Datenschutzinformationen zu Exchange 2013 zu lesen.
+  - **Copyright und Datenschutz**   Klicken Sie auf den entsprechenden Link, um die Copyright- und Datenschutzinformationen zu Exchange 2013 zu lesen.
 
 ## Unterstützte Browser
 
