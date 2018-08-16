@@ -65,7 +65,7 @@ Zum Anzeigen von Zustellungsinformationen wählen Sie im Bereich **Suchergebniss
 
 Im Zustellungsbericht werden der Zustellungsstatus und ausführliche Zustellungsinformationen für die Nachricht angezeigt, die Sie im Bereich **Suchergebnisse** ausgewählt haben. Oben im Bericht werden die folgenden Felder angezeigt:
 
-  - **Betreff   **Die Betreffzeile der Nachricht wird als Überschrift des Berichts angezeigt.
+  - **Betreff**   Die Betreffzeile der Nachricht wird als Überschrift des Berichts angezeigt.
 
   - **Von**   Der Alias, der Anzeigename oder die E-Mail-Adresse der Person, die die Nachricht gesendet hat.
 
@@ -95,9 +95,9 @@ Dieser Abschnitt enthält ausführliche Übermittlungsinformationen für eine Na
 
 Je nach Zustellungsstatus der Nachricht werden möglicherweise unterschiedliche Statusnachrichten angezeigt, einschließlich der folgenden:
 
-  - **Übermittelt   **Zeigt die erfolgreiche Übermittlung an.
+  - **Übermittelt**   Zeigt die erfolgreiche Übermittlung an.
 
-  - **Zurückgestellt   **Gibt an, dass eine Nachricht verzögert wird.
+  - **Zurückgestellt**   Gibt an, dass eine Nachricht verzögert wird.
 
   - **Ausstehend**   Wenn die Zustellung einer Nachrichten ausstehend ist, da eine Nachricht die Kriterien für eine organisationsweite Regel oder Richtlinie erfüllt oder da sie der Nachrichtengenehmigung unterliegt, wird im Status angegeben, welche Aktion einer Regel ausgeführt wird oder dass die Nachricht vor der Zustellung von einem Moderator bestätigt werden muss.
 

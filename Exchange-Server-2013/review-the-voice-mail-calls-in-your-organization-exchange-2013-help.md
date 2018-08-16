@@ -33,9 +33,9 @@ Informationen zu weiteren Aufgaben im Zusammenhang mit UM-Berichten finden Sie u
 
 2.  Wählen Sie die Informationen aus, die in den Bericht eingeschlossen werden soll. Der Bericht wird automatisch aktualisiert, wenn Sie eine der folgenden Optionen auswählen:
     
-      - **Anzeigen **  Wählen Sie den Typ der Anrufstatistik für die Anzeige aus:
+      - **Anzeigen**   Wählen Sie den Typ der Anrufstatistik für die Anzeige aus:
         
-          - **Täglich (90 Tage) **  Wählen Sie diese Option aus, um Details zu den Anrufen in den vergangenen 90 Tagen anzuzeigen.
+          - **Täglich (90 Tage)**   Wählen Sie diese Option aus, um Details zu den Anrufen in den vergangenen 90 Tagen anzuzeigen.
         
           - **Monatlich (12 Monate)**   Wählen Sie diese Option aus, um eine Zusammenfassung der Anrufe in den vergangenen 12 Monaten anzuzeigen.
         
@@ -71,7 +71,7 @@ Der Bericht für die UM-Anrufstatistik enthält die folgenden Informationen:
 
   - **DATUM**   Das UTC-Datum für die Anrufdaten. Das Datumsformat hängt vom gewählten Typ des Berichts und den Gebietsschemaeinstellungen ab. Sie können unter folgenden Optionen wählen:
     
-      - **--- **  Alle Anrufe werden angezeigt.
+      - **---**   Alle Anrufe werden angezeigt.
     
       - **MMM/JJ**   Der Monat der Anrufe. Beispielsweise Jan/13.
     

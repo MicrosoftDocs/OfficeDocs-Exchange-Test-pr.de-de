@@ -87,6 +87,6 @@ Zuweisen von Einschränkungsrichtlinien
 
 
 > [!NOTE]
-> Die Cmdlets <STRONG>*-ResourcePolicy</STRONG>, <STRONG>*-WorkloadManagementPolicy</STRONG> and <STRONG>*-WorkloadPolicy</STRONG> zur Verwaltung der Systemauslastung sind veraltet. Einstellungen zur Verwaltung der Systemauslastung sollten nur unter Anleitung des Microsoft-Kundendiensts und -Supports angepasst werden.
+> Die Cmdlets <STRONG>&#42;-ResourcePolicy</STRONG>, <STRONG>&#42;-WorkloadManagementPolicy</STRONG> and <STRONG>&#42;-WorkloadPolicy</STRONG> zur Verwaltung der Systemauslastung sind veraltet. Einstellungen zur Verwaltung der Systemauslastung sollten nur unter Anleitung des Microsoft-Kundendiensts und -Supports angepasst werden.
 
 
