@@ -49,7 +49,7 @@ Um die XML-Datei zu exportieren, verwenden Sie die Exchange-Verwaltungsshell ode
     
 
     > [!IMPORTANT]
-    > Stellen Sie sicher, dass der Dateispeicherort verwendet wird, in dem das Regelpaket tatsächlich gespeichert ist. <STRONG>C:\custompath\</STRONG> ist ein Platzhalter.
+    > Stellen Sie sicher, dass der Dateispeicherort verwendet wird, in dem das Regelpaket tatsächlich gespeichert ist. <STRONG>C:\custompath&#92;</STRONG> ist ein Platzhalter.
 
 
 
