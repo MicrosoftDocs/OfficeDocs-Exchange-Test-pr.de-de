@@ -236,7 +236,7 @@ Im folgenden Beispiel wird gezeigt, wie die von einem Befehl zurückgegebenen Da
     $Ie.Visible = $True
     $Ie.Document.Write("$Input")
     # If the previous line doesn't work on your system, uncomment the line below.
-    # $Ie.Document.IHtmlDocument2_Write(\"$Input\")
+    # $Ie.Document.IHtmlDocument2_Write("$Input")
     $Ie
 
 Zur Verwendung des Skripts speichern Sie dieses auf dem Computer, auf dem es ausgeführt werden soll, im Verzeichnis "`C:\Program Files\Microsoft\Exchange Server\V15\Scripts`". Legen Sie für die Datei den Namen "`Out-Ie.ps1`" fest. Nachdem die Datei gespeichert wurde, kann das Skript als reguläres Cmdlet verwendet werden.
