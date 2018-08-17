@@ -61,7 +61,7 @@ Sie können die DLP-Erkennungsfunktionen in herkömmliche Transportregeln einbin
 
   -  [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md)
     
-    [Richtlinien- und Richtlinientreue-Cmdlets](https://technet.microsoft.com/de-de/library/dd298082\(v=exchg.150\))
+  -  [Richtlinien- und Richtlinientreue-Cmdlets](https://technet.microsoft.com/de-de/library/dd298082\(v=exchg.150\))
 
 ## Verwenden der von Microsoft erstellten DLP-Richtlinien
 
