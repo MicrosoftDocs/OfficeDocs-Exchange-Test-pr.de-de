@@ -39,7 +39,7 @@ Da das Office 365-Authentifizierungssystem bei Sommerzeit- oder Zeitzonenänderu
 
 2.  Wenn Sie Office 365 ausführen, aktualisieren Sie alle Server, die mit dem Office 365-Authentifizierungssystem kommunizieren, z. B. DirSync- oder AD FS-Server. Diese Server müssen aktualisiert werden, um die Betriebsbereitschaft sicherzustellen.
 
-**Hinweis:**  Befolgen Sie bei der Aktualisierung von Serverclustern unbedingt den regulären Prozess zur Clusteraktualisierung. Sie aktualisieren zunächst den passiven Server, führen anschließend ein Failover auf den passiven Server durch (der somit aktiv wird) und aktualisieren dann den bisher aktiven (und nun passiven) Server. Weitere Informationen zur Aktualisierung von Serverclustern und Serverclustern mit Hochverfügbarkeit finden Sie unter [Aktualisieren von Exchange-Serverclustern und Servern für hohe Verfügbarkeit](https://technet.microsoft.com/de-de/library/hh530052\(v=exchg.150\)) und [How to update Windows Server failover clusters](https://support.microsoft.com/en-us/kb/174799).
+**Hinweis:**  Befolgen Sie bei der Aktualisierung von Serverclustern unbedingt den regulären Prozess zur Clusteraktualisierung. Sie aktualisieren zunächst den passiven Server, führen anschließend ein Failover auf den passiven Server durch (der somit aktiv wird) und aktualisieren dann den bisher aktiven (und nun passiven) Server. Weitere Informationen zur Aktualisierung von Serverclustern und Serverclustern mit Hochverfügbarkeit finden Sie unter Aktualisieren von Exchange-Serverclustern und Servern für hohe Verfügbarkeit und [How to update Windows Server failover clusters](https://support.microsoft.com/en-us/kb/174799).
 
 ## Schritt 3: Aktualisieren von Exchange und Outlook auf Client- und Desktopcomputern (falls nötig)
 
