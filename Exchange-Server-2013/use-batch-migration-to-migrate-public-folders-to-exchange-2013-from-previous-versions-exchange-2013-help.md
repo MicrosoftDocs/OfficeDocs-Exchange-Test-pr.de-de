@@ -256,7 +256,7 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
     
 
     > [!NOTE]
-    > Wenn der Name eines Öffentlichen Ordners einen umgekehrten Schrägstrich <STRONG>\</STRONG> enthält, werden die Öffentlichen Ordner im übergeordneten Öffentlichen Ordner erstellt. Es empfiehlt sich, die CSV-Datei zu prüfen und Namen zu bearbeiten, die einen umgekehrten Schrägstrich enthalten.
+    > Wenn der Name eines Öffentlichen Ordners einen umgekehrten Schrägstrich <STRONG>&#92;</STRONG> enthält, werden die Öffentlichen Ordner im übergeordneten Öffentlichen Ordner erstellt. Es empfiehlt sich, die CSV-Datei zu prüfen und Namen zu bearbeiten, die einen umgekehrten Schrägstrich enthalten.
 
     
         .\PublicFolderToMailboxMapGenerator.ps1 <Maximum mailbox size in bytes> <Folder to size map path> <Folder to mailbox map path>
