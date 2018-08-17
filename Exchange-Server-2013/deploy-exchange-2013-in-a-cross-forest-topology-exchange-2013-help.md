@@ -78,7 +78,7 @@ Es müssen die folgenden Voraussetzungen erfüllt sein, um das nachstehende Verf
     > Wenngleich in diesen Ressourcen Exchange 2010 behandelt wird, unterstützt FIM 2010 R2 SP1 auch Exchange 2013. Stellen Sie sich, dass <STRONG>Erweiterungen</STRONG> in FIM 2010 R2 SP1 für Exchange 2013 konfiguriert sind.
 
     
-    1.  Wählen Sie auf der Seite **Configure Extensions** unter **Configure partition display name(s)** neben **Provision for** die Option **Exchange 2013** aus. Das Feld **Exchange 2013 RPS URI** wird angezeigt. Geben Sie den URI eines Exchange 2013-Clientzugriffsservers ein, um sicherzustellen, dass die Remote-PowerShell-Verbindung funktioniert. Der **Exchange 2013-RPS-URI** sollte das folgende Format aufweisen: http://CAS\_Server\_FQDN/Powershell. Klicken Sie auf **OK**.
+    1.  Wählen Sie auf der Seite **Configure Extensions** unter **Configure partition display name(s)** neben **Provision for** die Option **Exchange 2013** aus. Das Feld **Exchange 2013 RPS URI** wird angezeigt. Geben Sie den URI eines Exchange 2013-Clientzugriffsservers ein, um sicherzustellen, dass die Remote-PowerShell-Verbindung funktioniert. Der **Exchange 2013-RPS-URI** sollte das folgende Format aufweisen: http://CAS_Server_FQDN/Powershell. Klicken Sie auf **OK**.
         
 
         > [!NOTE]
