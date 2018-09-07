@@ -117,7 +117,7 @@ Beispiel: Mit einer einzelnen Regel kann nicht geprüft werden, ob in einer Nach
 
 ## Beispiel 5: Weiterleiten einer Nachricht, die vertrauliche Informationen enthält
 
-Wenn Sie über das Feature [Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md) (DLP) verfügen, sind zahlreiche vertrauliche Informationstypen vordefiniert. Bei Verwendung von DLP wird Ihnen angezeigt, dass die Nachricht eine Bedingung für vertrauliche Informationen enthält. Unabhängig davon, ob Sie über DLP verfügen oder nicht, können Sie Bedingungen erstellen, die bestimmte vertrauliche Informationsmuster ausschließlich für Ihre Organisation ermitteln.
+Wenn Sie über das Feature [Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) (DLP) verfügen, sind zahlreiche vertrauliche Informationstypen vordefiniert. Bei Verwendung von DLP wird Ihnen angezeigt, dass die Nachricht eine Bedingung für vertrauliche Informationen enthält. Unabhängig davon, ob Sie über DLP verfügen oder nicht, können Sie Bedingungen erstellen, die bestimmte vertrauliche Informationsmuster ausschließlich für Ihre Organisation ermitteln.
 
 Hier finden Sie ein Beispiel, bei dem Nachrichten mit vertraulichen Informationen genehmigt werden müssen. In diesem Beispiel müssen Nachrichten genehmigt werden, die eine Kreditkartennummer enthalten.
 
@@ -126,5 +126,5 @@ Hier finden Sie ein Beispiel, bei dem Nachrichten mit vertraulichen Informatione
 ## Siehe auch
 
 
-[Verwalten der Nachrichtengenehmigung](manage-message-approval-exchange-2013-help.md)
+[Verwalten der Nachrichtengenehmigung](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-message-approval)
 

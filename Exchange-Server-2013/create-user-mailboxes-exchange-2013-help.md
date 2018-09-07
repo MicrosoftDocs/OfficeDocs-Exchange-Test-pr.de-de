@@ -118,7 +118,7 @@ Sie können außerdem Benutzerpostfächer für vorhandene Benutzer erstellen, di
         
         Weitere Informationen finden Sie unter [In-Situ-Archivierung in Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Adressbuchrichtlinie**   Verwenden Sie diese Option, um eine Adressbuchrichtlinie für das Postfach anzugeben. Adressbuchrichtlinien enthalten eine globale Adressbuchline (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Wenn sie Postfachbenutzern zugewiesen wird, kann diesen über die Adressbuchrichtlinie Zugriff auf eine angepasste GAL in Outlook und Outlook Web App bereitgestellt werden. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](address-book-policies-exchange-2013-help.md).
+      - **Adressbuchrichtlinie**   Verwenden Sie diese Option, um eine Adressbuchrichtlinie für das Postfach anzugeben. Adressbuchrichtlinien enthalten eine globale Adressbuchline (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Wenn sie Postfachbenutzern zugewiesen wird, kann diesen über die Adressbuchrichtlinie Zugriff auf eine angepasste GAL in Outlook und Outlook Web App bereitgestellt werden. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](https://review.docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies).
         
         Wählen Sie in der Dropdownliste die Richtlinie aus, die diesem Postfach zugeordnet werden soll.
 
@@ -198,7 +198,7 @@ Sie können außerdem Benutzerpostfächer für vorhandene Benutzer erstellen, di
         
         Weitere Informationen finden Sie unter [In-Situ-Archivierung in Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Adressbuchrichtlinie**   Verwenden Sie diese Option, um eine Adressbuchrichtlinie für das Postfach anzugeben. Adressbuchrichtlinien enthalten eine globale Adressbuchline (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Wenn sie Postfachbenutzern zugewiesen wird, kann diesen über die Adressbuchrichtlinie Zugriff auf eine angepasste GAL in Outlook und Outlook Web App bereitgestellt werden. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](address-book-policies-exchange-2013-help.md).
+      - **Adressbuchrichtlinie**   Verwenden Sie diese Option, um eine Adressbuchrichtlinie für das Postfach anzugeben. Adressbuchrichtlinien enthalten eine globale Adressbuchline (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Wenn sie Postfachbenutzern zugewiesen wird, kann diesen über die Adressbuchrichtlinie Zugriff auf eine angepasste GAL in Outlook und Outlook Web App bereitgestellt werden. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](https://review.docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies).
         
         Wählen Sie in der Dropdownliste die Richtlinie aus, die diesem Postfach zugeordnet werden soll.
 

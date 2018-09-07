@@ -168,7 +168,7 @@ In der folgenden Tabelle sind die Inhalte und Aktionen aufgelistet, die im Ordne
 </table>
 
 
-In Exchange 2013 ist die Wiederherstellung einzelner Elemente für neue Postfächer oder Postfächer, die aus einer früheren Version von Exchange verschoben wurden, nicht standardmäßig aktiviert. Sie müssen die Exchange-Verwaltungsshell verwenden, um die Wiederherstellung einzelner Elemente für ein Postfach zu aktivieren, und dann die Aufbewahrungsdauer für gelöschte Elemente konfigurieren oder ändern. Ausführliche Informationen zur Wiederherstellung einzelner Elemente finden Sie unter [Wiederherstellen von gelöschten Nachrichten im Postfach eines Benutzers](recover-deleted-messages-in-a-user-s-mailbox-exchange-2013-help.md).
+In Exchange 2013 ist die Wiederherstellung einzelner Elemente für neue Postfächer oder Postfächer, die aus einer früheren Version von Exchange verschoben wurden, nicht standardmäßig aktiviert. Sie müssen die Exchange-Verwaltungsshell verwenden, um die Wiederherstellung einzelner Elemente für ein Postfach zu aktivieren, und dann die Aufbewahrungsdauer für gelöschte Elemente konfigurieren oder ändern. Ausführliche Informationen zur Wiederherstellung einzelner Elemente finden Sie unter [Wiederherstellen von gelöschten Nachrichten im Postfach eines Benutzers](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages).
 
 Zurück zum Seitenanfang
 

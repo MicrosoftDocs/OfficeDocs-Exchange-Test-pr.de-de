@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
-Benutzer können standardmäßig keine ausgehenden Anrufe tätigen. Um die Arten von Anrufen festzulegen, die von Benutzern getätigt werden können, erstellen Sie zunächst Wählregeln, und autorisieren Sie dann Gruppen dieser Wählregeln in UM-Wählplänen, UM-Postfachrichtlinien oder automatischen UM-Telefonzentralen. Damit Sie Wählregelgruppen autorisieren können, müssen Wählregeln in einem UM-Wählplan definiert werden. Weitere Informationen finden Sie unter [Erstellen von Wählregeln für Benutzer](create-dialing-rules-for-users-exchange-2013-help.md).
+Benutzer können standardmäßig keine ausgehenden Anrufe tätigen. Um die Arten von Anrufen festzulegen, die von Benutzern getätigt werden können, erstellen Sie zunächst Wählregeln, und autorisieren Sie dann Gruppen dieser Wählregeln in UM-Wählplänen, UM-Postfachrichtlinien oder automatischen UM-Telefonzentralen. Damit Sie Wählregelgruppen autorisieren können, müssen Wählregeln in einem UM-Wählplan definiert werden. Weitere Informationen finden Sie unter [Erstellen von Wählregeln für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/create-dialing-rules).
 
 Jede von Ihnen erstellte Wählregel enthält die Anruftypen oder Nummernmuster, für die Sie den Benutzern Zugriff erteilen möchten. Sie können verschiedenen Typen von Benutzern das Tätigen verschiedener Anruftypen erlauben. Die von Ihnen zugelassenen Anrufe können innerhalb eines Landes oder einer Region oder auch im Ausland liegen.
 
@@ -48,15 +48,15 @@ An welcher Stelle Sie Wählregelgruppen autorisieren, hängt von den Anrufertype
 <tbody>
 <tr class="odd">
 <td><p>Nicht authentifizierte Anrufer, die sich bei einer Outlook Voice Access-Nummer einwählen und keine PIN eingeben</p></td>
-<td><p>UM-Wählplan. Weitere Informationen finden Sie unter <a href="authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md">Autorisieren von Anrufen für Benutzer in einem Wählplan</a>.</p></td>
+<td><p>UM-Wählplan. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-users-in-a-dial-plan">Autorisieren von Anrufen für Benutzer in einem Wählplan</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>Authentifizierte Anrufer, die sich bei einer Outlook Voice Access-Nummer einwählen und eine PIN eingeben</p></td>
-<td><p>UM-Postfachrichtlinie für den Anrufer. Weitere Informationen finden Sie unter <a href="authorize-calls-for-a-group-of-users-exchange-2013-help.md">Autorisieren von Anrufen für eine Gruppe von Benutzern</a>.</p></td>
+<td><p>UM-Postfachrichtlinie für den Anrufer. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-a-group-of-users">Autorisieren von Anrufen für eine Gruppe von Benutzern</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Nicht authentifizierte Anrufer, die sich bei einer Telefonnummer einwählen, die für eine automatische UM-Telefonzentrale konfiguriert ist</p></td>
-<td><p>Automatische UM-Telefonzentrale. Weitere Informationen finden Sie unter <a href="authorize-calls-for-auto-attendant-callers-exchange-2013-help.md">Autorisieren von Aufrufen für automatische Telefonzentralen Anrufer</a>.</p></td>
+<td><p>Automatische UM-Telefonzentrale. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-auto-attendant-callers">Autorisieren von Aufrufen für automatische Telefonzentralen Anrufer</a>.</p></td>
 </tr>
 </tbody>
 </table>

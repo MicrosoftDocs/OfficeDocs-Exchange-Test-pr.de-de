@@ -17,13 +17,13 @@ _**Gilt für:** Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-14_
 
-[Erstellen einer Aufbewahrungsrichtlinie](create-a-retention-policy-exchange-2013-help.md)
+[Erstellen einer Aufbewahrungsrichtlinie](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy)
 
-[Hinzufügen von Aufbewahrungstags zu oder Entfernen von Aufbewahrungstags aus einer Aufbewahrungsrichtlinie](add-retention-tags-to-or-remove-retention-tags-from-a-retention-policy-exchange-2013-help.md)
+[Hinzufügen von Aufbewahrungstags zu oder Entfernen von Aufbewahrungstags aus einer Aufbewahrungsrichtlinie](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/add-or-remove-retention-tags)
 
 [Anwenden einer Aufbewahrungsrichtlinie auf Postfächer](apply-a-retention-policy-to-mailboxes-exchange-2013-help.md)
 
 [Konfigurieren des Assistenten für verwaltete Ordner](configure-the-managed-folder-assistant-exchange-2013-help.md)
 
-[Anhalten der Aufbewahrungszeit für ein Postfach](place-a-mailbox-on-retention-hold-exchange-2013-help.md)
+[Anhalten der Aufbewahrungszeit für ein Postfach](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold)
 

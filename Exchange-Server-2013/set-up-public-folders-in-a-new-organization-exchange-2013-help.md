@@ -56,11 +56,11 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf öffentliche Ordner i
 
 Das primäre Postfach für öffentliche Ordner enthält eine beschreibbare Kopie der Hierarchie öffentlicher Ordner samt Inhalt und ist das erste Postfach für öffentliche Ordner, das Sie für Ihre Organisation anlegen. Alle weiteren Postfächer für öffentliche Ordner werden sekundäre Postfächer für öffentliche Ordner, die eine schreibgeschützte Kopie der Hierarchie samt Inhalt enthalten.
 
-Ausführliche Anleitungen finden Sie unter [Erstellen eines Postfachs für öffentliche Ordner](create-a-public-folder-mailbox-exchange-2013-help.md).
+Ausführliche Anleitungen finden Sie unter [Erstellen eines Postfachs für öffentliche Ordner](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
 ## Schritt 2: Erstellen des ersten öffentlichen Ordners
 
-Ausführliche Anleitungen finden Sie unter [Erstellen eines öffentlichen Ordners](create-a-public-folder-exchange-2013-help.md).
+Ausführliche Anleitungen finden Sie unter [Erstellen eines öffentlichen Ordners](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ## Schritt 3: Zuweisen von Berechtigungen zum öffentlichen Ordner
 

@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2016-11-16_
 
-Sie müssen möglicherweise öffentliche Ordner entfernen, die nicht länger in Ihrer Organisation verwendet werden. Informationen dazu, welche Öffentlichen Ordner entfernt werden sollten, finden Sie unter [Anzeigen von Statistiken für öffentliche Ordner und Elemente öffentlicher Ordner](view-statistics-for-public-folders-and-public-folder-items-exchange-2013-help.md).
+Sie müssen möglicherweise öffentliche Ordner entfernen, die nicht länger in Ihrer Organisation verwendet werden. Informationen dazu, welche Öffentlichen Ordner entfernt werden sollten, finden Sie unter [Anzeigen von Statistiken für öffentliche Ordner und Elemente öffentlicher Ordner](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/view-public-folder-statistics).
 
 Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit öffentlichen Ordnern finden Sie unter [Verfahren für öffentliche Ordner](public-folder-procedures-exchange-2013-help.md).
 

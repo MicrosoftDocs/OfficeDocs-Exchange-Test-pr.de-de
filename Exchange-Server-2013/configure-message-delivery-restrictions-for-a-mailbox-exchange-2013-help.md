@@ -23,15 +23,15 @@ Die in diesem Thema behandelten Nachrichtenübermittlungseinschränkungen gelten
 
 Zusätzliche Verwaltungsaufgaben im Zusammenhang mit Empfängern finden Sie in den folgenden Themen:
 
-  - [Verwalten von Benutzerpostfächern](manage-user-mailboxes-exchange-2013-help.md)
+  - [Verwalten von Benutzerpostfächern](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes)
 
-  - [Erstellen und Verwalten von Verteilergruppen](create-and-manage-distribution-groups-exchange-2013-help.md)
+  - [Erstellen und Verwalten von Verteilergruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
 
-  - [Verwalten dynamischer Verteilergruppen](manage-dynamic-distribution-groups-exchange-2013-help.md)
+  - [Verwalten dynamischer Verteilergruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups)
 
-  - [Verwalten von E-Mail-Benutzern](manage-mail-users-exchange-2013-help.md)
+  - [Verwalten von E-Mail-Benutzern](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-users)
 
-  - [Verwalten von E-Mail-Kontakten](manage-mail-contacts-exchange-2013-help.md)
+  - [Verwalten von E-Mail-Kontakten](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-contacts)
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 

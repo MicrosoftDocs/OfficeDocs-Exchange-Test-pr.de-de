@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 Sie können benutzerdefinierte Einstellungen für E-Mail-Infos zwischen verschiedenen Organisationen über die Exchange-Verwaltungsshell konfigurieren.
 
-Durch das Einrichten einer Organisationsbeziehung können Sie die Benutzererfahrung für beide Organisationen verbessern, indem Frei/Gebucht-Daten freigegeben, der sichere Meldungsfluss konfiguriert und die Nachverfolgung von Nachrichten aktiviert wird. Weitere Informationen zu Organisationsbeziehungen finden Sie unter [E-Mail-Infos über Organisationsbeziehungen](mailtips-over-organization-relationships-exchange-2013-help.md).
+Durch das Einrichten einer Organisationsbeziehung können Sie die Benutzererfahrung für beide Organisationen verbessern, indem Frei/Gebucht-Daten freigegeben, der sichere Meldungsfluss konfiguriert und die Nachverfolgung von Nachrichten aktiviert wird. Weitere Informationen zu Organisationsbeziehungen finden Sie unter [E-Mail-Infos über Organisationsbeziehungen](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips-over-organization-relationships).
 
 Sie können mithilfe von verschiedenen Einstellungen steuern, wie E-Mail-Infos zwischen Organisationen verwendet werden, für die eine Organisationsbeziehung eingerichtet wurde. Die Verfahren in diesem Abschnitt veranschaulichen diese verschiedenen Steuermöglichkeiten. In sämtlichen Beispielen wird "contoso.com" als lokale Organisation und "online.contoso.com" als Remoteorganisation verwendet, und die Organisationsbeziehung wird als "Contoso Online" bezeichnet.
 

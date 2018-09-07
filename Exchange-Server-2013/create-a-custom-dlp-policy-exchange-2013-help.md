@@ -59,7 +59,7 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit der Erstellung
     
 
     > [!IMPORTANT]
-    > Wenn Sie nicht auf den Pfeil, sondern auf <STRONG>Hinzufügen</STRONG><IMG title="Hinzufügen (Symbol)" alt="Hinzufügen (Symbol)" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif"> klicken, erstellen Sie eine neue Richtlinie, die auf einer Vorlage basiert. Weitere Informationen zum Verwenden von Vorlagen finden Sie unter <A href="how-to-new-dlp-data-loss-prevention-policy-template.md">Erstellen einer DLP-Richtlinie aus einer Vorlage</A>.
+    > Wenn Sie nicht auf den Pfeil, sondern auf <STRONG>Hinzufügen</STRONG><IMG title="Hinzufügen (Symbol)" alt="Hinzufügen (Symbol)" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif"> klicken, erstellen Sie eine neue Richtlinie, die auf einer Vorlage basiert. Weitere Informationen zum Verwenden von Vorlagen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template">Erstellen einer DLP-Richtlinie aus einer Vorlage</A>.
 
 
 
@@ -93,11 +93,11 @@ DLP-Richtlinienvorlagen sind ein Feature von Microsoft Exchange, das es Ihnen er
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)Exchange 2013
 
 [Nachrichtenflussregeln (Transportregeln) in Exchange Online](https://technet.microsoft.com/de-de/library/jj919238\(v=exchg.150\))Exchange Online
 
-[Integrieren von Regeln für vertrauliche Informationen in Transportregeln](integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md)
+[Integrieren von Regeln für vertrauliche Informationen in Transportregeln](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 

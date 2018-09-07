@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2014-09-11_
 
-Wenn in Ihrem Unternehmen Formulare zur Zusammenfassung vertraulicher Informationen verwendet werden, kann es passieren, dass Benutzer diese Formulare an Kontakte außerhalb des Unternehmens senden, was ein Sicherheitsrisiko darstellt. Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange hilft Ihnen, diese Informationen zu schützen, indem sie an ihrem [Dokumentfingerabdrücke](overview-of-document-fingerprinting-in-exchange.md) erkannt werden. Wenn Sie Dokumentfingerabdrücke verwenden möchten, laden Sie einfach ein leeres Formular hoch, z. B. ein Dokument zu geistigem Eigentum, ein Behördenformular oder ein anderes in Ihrem Unternehmen verwendetes Formular. Fügen Sie dann dessen Dokumentfingerabdruck zu einer DLP-Richtlinie oder Transportregeln hinzu. Vorgehensweise:
+Wenn in Ihrem Unternehmen Formulare zur Zusammenfassung vertraulicher Informationen verwendet werden, kann es passieren, dass Benutzer diese Formulare an Kontakte außerhalb des Unternehmens senden, was ein Sicherheitsrisiko darstellt. Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange hilft Ihnen, diese Informationen zu schützen, indem sie an ihrem [Dokumentfingerabdrücke](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/document-fingerprinting) erkannt werden. Wenn Sie Dokumentfingerabdrücke verwenden möchten, laden Sie einfach ein leeres Formular hoch, z. B. ein Dokument zu geistigem Eigentum, ein Behördenformular oder ein anderes in Ihrem Unternehmen verwendetes Formular. Fügen Sie dann dessen Dokumentfingerabdruck zu einer DLP-Richtlinie oder Transportregeln hinzu. Vorgehensweise:
 
 > [!VIDEO https://www.microsoft.com/de-de/videoplayer/embed/581259e7-06ca-402f-a9f5-83b519bd01d1]
 
@@ -43,7 +43,7 @@ Der Dokumentfingerabdruck gehört nun zu den vertraulichen Informationen, und Si
 
 ![Bedingung "Diese Regel anwenden, wenn" hervorgehoben](images/Dn635175.9355a513-a790-48eb-a61b-575ba2ecdfa6(EXCHG.150).png "Bedingung \"Diese Regel anwenden, wenn\" hervorgehoben")
 
-Weitere Informationen zum Hinzufügen von Regeln zu einer DLP-Richtlinie finden Sie unter [Verwalten von DLP-Richtlinien](manage-dlp-policies-exchange-2013-help.md) im Abschnitt “Ändern einer DLP-Richtlinie”, und weitere Informationen über das Ändern von Transportregeln finden Sie unter [Integrieren von Regeln für vertrauliche Informationen in Transportregeln](integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md). Informationen zum Erstellen einer neuen Richtlinie finden Sie unter [Erstellen einer DLP-Richtlinie aus einer Vorlage](how-to-new-dlp-data-loss-prevention-policy-template.md).
+Weitere Informationen zum Hinzufügen von Regeln zu einer DLP-Richtlinie finden Sie unter [Verwalten von DLP-Richtlinien](manage-dlp-policies-exchange-2013-help.md) im Abschnitt “Ändern einer DLP-Richtlinie”, und weitere Informationen über das Ändern von Transportregeln finden Sie unter [Integrieren von Regeln für vertrauliche Informationen in Transportregeln](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules). Informationen zum Erstellen einer neuen Richtlinie finden Sie unter [Erstellen einer DLP-Richtlinie aus einer Vorlage](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template).
 
 ## Verwenden Sie die Shell zur Erstellung eines Klassifizierungsregelpakets auf Grundlage des Dokumentfingerabdrucks
 
@@ -76,9 +76,9 @@ Informationen zu Syntax und Parametern finden Sie unter [New-Fingerprint](https:
 
 ## Weitere Informationen
 
-[Dokumentfingerabdrücke](overview-of-document-fingerprinting-in-exchange.md)
+[Dokumentfingerabdrücke](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/document-fingerprinting)
 
 [Verwalten von DLP-Richtlinien](manage-dlp-policies-exchange-2013-help.md)
 
-[Integrieren von Regeln für vertrauliche Informationen in Transportregeln](integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md)
+[Integrieren von Regeln für vertrauliche Informationen in Transportregeln](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 

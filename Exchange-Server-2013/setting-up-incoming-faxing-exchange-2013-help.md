@@ -25,17 +25,17 @@ Weitere Informationen zu Faxpartnern finden Sie unter [Microsoft Pinpoint für F
 
 UM leitet eingehende Faxanrufe an eine dafür vorgesehene Faxpartnerlösung weiter, die dann die Faxverbindung mit dem Faxabsender aufbaut und die Nachricht für den UM-aktivierten Benutzer empfängt. Damit UM-aktivierte Benutzer Faxnachrichten in ihren Postfächern erhalten, müssen Sie jedoch zunächst die Funktion für eingehende Faxanrufe aktivieren und den URI des Faxpartners in der UM-Postfachrichtlinie festlegen, die mit den UM-aktivierten Benutzern verknüpft ist. Eingehende Faxanrufe können in UM-Wählplänen, UM-Postfachrichtlinien und im Postfach für einen UM-aktivierten Benutzer erlaubt oder verhindert werden. Weitere Informationen finden Sie in den folgenden Themen:
 
-  - [Zulassen des Empfangs von Faxnachrichten für Benutzer mit demselben Wählplan](allow-users-in-the-same-dial-plan-to-receive-faxes-exchange-2013-help.md)
+  - [Zulassen des Empfangs von Faxnachrichten für Benutzer mit demselben Wählplan](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-in-the-same-dial-plan-to-receive-faxes)
 
-  - [Verhindern, dass Benutzer in den gleichen Wähleinstellungen empfangen von Faxnachrichten](prevent-users-in-the-same-dial-plan-from-receiving-faxes-exchange-2013-help.md)
+  - [Verhindern, dass Benutzer in den gleichen Wähleinstellungen empfangen von Faxnachrichten](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-users-in-the-same-dial-plan-from-receiving-faxes)
 
   - [Aktivieren von Faxen für eine Gruppe von Benutzern](enable-faxing-for-a-group-of-users-exchange-2013-help.md)
 
-  - [Deaktivieren von Faxen für eine Gruppe von Benutzern](disable-faxing-for-a-group-of-users-exchange-2013-help.md)
+  - [Deaktivieren von Faxen für eine Gruppe von Benutzern](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-faxing-for-a-group-of-users)
 
   - [Aktivieren eines Benutzers für den Faxempfang](enable-a-user-to-receive-faxes-exchange-2013-help.md)
 
-  - [Verhindert, dass Benutzer empfangen von Faxnachrichten](prevent-a-user-from-receiving-faxes-exchange-2013-help.md)
+  - [Verhindert, dass Benutzer empfangen von Faxnachrichten](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-a-user-from-receiving-faxes)
 
 ## Schritt 1: Bereitstellen von Unified Messaging
 
@@ -49,7 +49,7 @@ Bevor Sie die Faxfunktion für ihre lokale oder Hybridorganisation einrichten k�
 
 ## Schritt 2: Konfigurieren von Faxpartnerservern
 
-Als Nächstes müssen Sie die Funktion für eingehende Faxanrufe aktivieren und den URI des Faxpartners in allen UM-Postfachrichtlinien festlegen, die Sie in Ihrer Organisation benötigen. Zur erfolgreichen Bereitstellung der Funktion für eingehende Faxanrufe müssen Sie eine zertifizierte Faxpartnerlösung in Exchange Unified Messaging integrieren. Weitere Informationen finden Sie unter [Faxratgeber für Exchange UM](fax-advisor-for-exchange-um-exchange-2013-help.md). Eine Liste zertifizierter Faxpartner finden Sie unter [Microsoft PinPoint für Faxpartner](https://go.microsoft.com/fwlink/?linkid=190238)
+Als Nächstes müssen Sie die Funktion für eingehende Faxanrufe aktivieren und den URI des Faxpartners in allen UM-Postfachrichtlinien festlegen, die Sie in Ihrer Organisation benötigen. Zur erfolgreichen Bereitstellung der Funktion für eingehende Faxanrufe müssen Sie eine zertifizierte Faxpartnerlösung in Exchange Unified Messaging integrieren. Weitere Informationen finden Sie unter [Faxratgeber für Exchange UM](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/fax-advisor-for-exchange-um). Eine Liste zertifizierter Faxpartner finden Sie unter [Microsoft PinPoint für Faxpartner](https://go.microsoft.com/fwlink/?linkid=190238)
 
 
 > [!NOTE]
@@ -119,7 +119,7 @@ Gehen Sie folgendermaßen vor, um den Faxempfang für UM-aktivierte Benutzer zu 
     
         Set-UMMailboxPolicy MyUMMailboxPolicy -AllowFax $true -FaxServerURI "sip:faxserver.abc.com:5060;transport=tcp"
 
-  - Weitere Informationen finden Sie unter [Festlegen des Partners Faxserver URI zum Senden von Faxen zulassen](set-the-partner-fax-server-uri-to-allow-faxing-exchange-2013-help.md).
+  - Weitere Informationen finden Sie unter [Festlegen des Partners Faxserver URI zum Senden von Faxen zulassen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-partner-fax-server-uri-to-allow-faxing).
     
 
     > [!WARNING]
@@ -129,7 +129,7 @@ Gehen Sie folgendermaßen vor, um den Faxempfang für UM-aktivierte Benutzer zu 
 
   - Stellen Sie sicher, dass das UM-aktivierte Postfach Faxnachrichten empfangen kann. Standardmäßig können alle Benutzer, die einem Satz Wähleinstellungen zugeordnet sind, Faxnachrichten empfangen. Es kann jedoch Situationen geben, in denen Benutzer keine Faxnachrichten empfangen können, da der Faxempfang für ihr Postfach deaktiviert wurde. Weitere Informationen zum Aktivieren von UM-aktivierten Benutzern für den Empfang von Faxnachrichten finden Sie unter [Aktivieren eines Benutzers für den Faxempfang](enable-a-user-to-receive-faxes-exchange-2013-help.md).
     
-    Sie können verhindern, dass ein einzelner, mit einem Wählplan verknüpfter Benutzer Faxnachrichten empfängt. Konfigurieren Sie hierzu die Eigenschaften für den Benutzer mithilfe des Cmdlets **Set-UMMailbox** in der Shell. Sie können auch das Cmdlet **Set-UMMailboxPolicy** verwenden, um mehrere Benutzer am Empfang von Faxnachrichten zu hindern. Weitere Informationen zum Hindern eines oder mehrerer Benutzer am Empfang von Faxnachrichten finden Sie unter [Verhindert, dass Benutzer empfangen von Faxnachrichten](prevent-a-user-from-receiving-faxes-exchange-2013-help.md).
+    Sie können verhindern, dass ein einzelner, mit einem Wählplan verknüpfter Benutzer Faxnachrichten empfängt. Konfigurieren Sie hierzu die Eigenschaften für den Benutzer mithilfe des Cmdlets **Set-UMMailbox** in der Shell. Sie können auch das Cmdlet **Set-UMMailboxPolicy** verwenden, um mehrere Benutzer am Empfang von Faxnachrichten zu hindern. Weitere Informationen zum Hindern eines oder mehrerer Benutzer am Empfang von Faxnachrichten finden Sie unter [Verhindert, dass Benutzer empfangen von Faxnachrichten](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-a-user-from-receiving-faxes).
 
 ## Schritt 4: Konfigurieren der Authentifizierung
 

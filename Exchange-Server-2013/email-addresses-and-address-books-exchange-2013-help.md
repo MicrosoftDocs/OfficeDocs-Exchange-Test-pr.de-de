@@ -68,7 +68,7 @@ Die folgende Tabelle enthält Links zu Themen mit Informationen zur Verwaltung v
 <td><p>Hier finden Sie Informationen zu Adresslisten und globalen Adresslisten zum Strukturieren von Empfängern, sodass Endbenutzer einfachen Zugang haben.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="address-book-policies-exchange-2013-help.md">Adressbuchrichtlinien</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies">Adressbuchrichtlinien</a></p></td>
 <td><p>Hier finden Sie Informationen darüber, wie Sie Adresslisten und globale Adresslisten in getrennte virtuelle Organisationen aufteilen.</p></td>
 </tr>
 <tr class="odd">
@@ -80,7 +80,7 @@ Die folgende Tabelle enthält Links zu Themen mit Informationen zur Verwaltung v
 <td><p>Hier finden Sie Informationen, wie mithilfe von Proxy-E-Mail-Adressen Empfänger einfacher auffindbar sind.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="hierarchical-address-books-exchange-2013-help.md">Hierarchische Adressbücher</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/address-books/hierarchical-address-books/hierarchical-address-books">Hierarchische Adressbücher</a></p></td>
 <td><p>Hier finden Sie Informationen, wie Sie die globale Adressliste und Adresslisten so anpassen können, dass sie der speziellen Geschäftsstruktur Ihrer Organisation entsprechen.</p></td>
 </tr>
 <tr class="even">

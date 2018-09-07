@@ -45,11 +45,11 @@ Bei der Installation von Exchange wird automatisch eine Outlook Web App-Postfach
 
 
 
-Informationen zum Erstellen oder Entfernen von Postfachrichtlinien finden Sie unter [Erstellen einer Outlook Web App-Postfachrichtlinie](create-an-outlook-web-app-mailbox-policy-exchange-2013-help.md) und [Entfernen einer Outlook Web App-Postfachrichtlinie aus Exchange](remove-an-outlook-web-app-mailbox-policy-from-exchange-exchange-2013-help.md).
+Informationen zum Erstellen oder Entfernen von Postfachrichtlinien finden Sie unter [Erstellen einer Outlook Web App-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy) und [Entfernen einer Outlook Web App-Postfachrichtlinie aus Exchange](remove-an-outlook-web-app-mailbox-policy-from-exchange-exchange-2013-help.md).
 
 ## Konfigurieren von Outlook Web App-Postfachrichtlinien
 
-In der Outlook Web App-Standardpostfachrichtlinie sind standardmäßig alle Optionen aktiviert. Weitere Informationen zum Konfigurieren von Outlook Web App-Postfachrichtlinien finden Sie unter [Anzeigen oder Konfigurieren der Eigenschaften von Outlook Web App-Postfachrichtlinien](view-or-configure-outlook-web-app-mailbox-policy-properties-exchange-2013-help.md).
+In der Outlook Web App-Standardpostfachrichtlinie sind standardmäßig alle Optionen aktiviert. Weitere Informationen zum Konfigurieren von Outlook Web App-Postfachrichtlinien finden Sie unter [Anzeigen oder Konfigurieren der Eigenschaften von Outlook Web App-Postfachrichtlinien](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/configure-outlook-web-app-mailbox-policy-properties).
 
 ## Anwenden von Outlook Web App-Postfachrichtlinien
 
@@ -57,5 +57,5 @@ Auf ein Postfach kann nur eine Outlook Web App-Postfachrichtlinie angewendet wer
 
 Wenn keine Outlook Web App-Postfachrichtlinie auf ein Postfach angewendet ist, werden die im virtuellen Verzeichnis definierten Einstellungen angewendet.
 
-Eine Outlook Web App-Postfachrichtlinie kann auf ein Postfach angewendet werden, indem Sie ein vorhandenes Postfach über die Exchange-Verwaltungskonsole ändern, oder indem Sie die Postfachrichtlinie mithilfe des Cmdlets [Set-CASMailbox](https://technet.microsoft.com/de-de/library/bb125264\(v=exchg.150\)) über die Shell anwenden. Weitere Informationen finden Sie unter [Anwenden oder Entfernen einer Outlook Web App-Postfachrichtlinie auf ein Postfach bzw. von einem Postfach](apply-or-remove-an-outlook-web-app-mailbox-policy-on-a-mailbox-exchange-2013-help.md).
+Eine Outlook Web App-Postfachrichtlinie kann auf ein Postfach angewendet werden, indem Sie ein vorhandenes Postfach über die Exchange-Verwaltungskonsole ändern, oder indem Sie die Postfachrichtlinie mithilfe des Cmdlets [Set-CASMailbox](https://technet.microsoft.com/de-de/library/bb125264\(v=exchg.150\)) über die Shell anwenden. Weitere Informationen finden Sie unter [Anwenden oder Entfernen einer Outlook Web App-Postfachrichtlinie auf ein Postfach bzw. von einem Postfach](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/apply-or-remove-outlook-web-app-mailbox-policy).
 

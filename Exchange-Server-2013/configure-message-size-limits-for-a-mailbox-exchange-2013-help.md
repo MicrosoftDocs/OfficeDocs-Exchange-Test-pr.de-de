@@ -21,7 +21,7 @@ Sie können mithilfe der Exchange-Verwaltungskonsole oder Shell für ein Benutze
 
 Beachten Sie, dass es in einer Exchange-Organisation andere Einstellungen gibt, welche die maximale Größe von Nachrichten bestimmen, die ein Postfach senden und empfangen kann (z. B. die auf einem Postfachserver konfigurierte maximale Nachrichtengröße). Weitere Informationen zu Einschränkungen der Nachrichtengröße in Exchange, einschließlich der Typen von Größenlimits von Nachrichten, Geltungsbereich und Prioritätsreihenfolge, finden Sie unter [Beschränkungen der Nachrichtengröße](message-size-limits-exchange-2013-help.md).
 
-Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Benutzerpostfächer finden Sie unter [Verwalten von Benutzerpostfächern](manage-user-mailboxes-exchange-2013-help.md).
+Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Benutzerpostfächer finden Sie unter [Verwalten von Benutzerpostfächern](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
 
 > [!NOTE]

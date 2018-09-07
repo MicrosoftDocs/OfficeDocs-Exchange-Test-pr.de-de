@@ -17,15 +17,15 @@ _**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-05-03_
 
-[MWI (Message Waiting Indicator) für ein UM-IP-Gateway unterstützen](allow-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md)
+[MWI (Message Waiting Indicator) für ein UM-IP-Gateway unterstützen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-mwi-on-um-ip-gateway)
 
-[Verhindern von MWI an einem UM-IP-Gateway](prevent-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md)
+[Verhindern von MWI an einem UM-IP-Gateway](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-mwi-on-um-ip-gateway)
 
-[Aktivieren der MWI-Funktion (Message Waiting Indicator) für Benutzer](enable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md)
+[Aktivieren der MWI-Funktion (Message Waiting Indicator) für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-mwi-for-users)
 
 [Deaktivieren der Nachricht wartet Indicator (MWI) für Benutzer](disable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md)
 
 [Aktivieren von Benachrichtigungen über verpasste Anrufe für einen Benutzer](enable-missed-call-notifications-for-a-user-exchange-2013-help.md)
 
-[Deaktivieren von Benachrichtigungen über verpasste Anrufe für einen Benutzer](disable-missed-call-notifications-for-a-user-exchange-2013-help.md)
+[Deaktivieren von Benachrichtigungen über verpasste Anrufe für einen Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-missed-call-notifications)
 

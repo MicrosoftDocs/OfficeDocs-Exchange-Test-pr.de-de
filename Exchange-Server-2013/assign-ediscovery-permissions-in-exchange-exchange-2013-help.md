@@ -29,7 +29,7 @@ Weitere Informationen zur Rollengruppe "Discoveryverwaltung" finden Sie unter [E
 
 Sie interessieren sich für Szenarien, in denen dieses Verfahren verwendet wird? Siehe die folgenden Themen:
 
-  - [Erstellen einer Compliance-eDiscovery-Suche](create-an-in-place-ediscovery-search-exchange-2013-help.md)
+  - [Erstellen einer Compliance-eDiscovery-Suche](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search)
 
   - [Erstellen oder Entfernen eines Compliance-Archivs](create-or-remove-an-in-place-hold-exchange-2013-help.md)
 

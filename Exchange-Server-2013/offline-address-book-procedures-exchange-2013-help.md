@@ -19,19 +19,19 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-04_
 
 [Erstellen eines Offlineadressbuchs](create-an-offline-address-book-exchange-2013-help.md)
 
-[Hinzufügen einer Adressliste zu oder Entfernen einer Adressliste aus einem Offlineadressbuch](add-an-address-list-to-or-remove-an-address-list-from-an-offline-address-book-exchange-2013-help.md)
+[Hinzufügen einer Adressliste zu oder Entfernen einer Adressliste aus einem Offlineadressbuch](https://review.docs.microsoft.com/de-de/exchange/address-books/offline-address-books/add-or-remove-an-address-list)
 
-[Ändern des Standard-Offlineadressbuchs](change-the-default-offline-address-book-exchange-2013-help.md)
+[Ändern des Standard-Offlineadressbuchs](https://review.docs.microsoft.com/de-de/exchange/address-books/offline-address-books/change-default-offline-address-book)
 
 [Zuordnen von Empfängern für Downloads von Offlineadressbüchern](provision-recipients-for-offline-address-book-downloads-exchange-2013-help.md)
 
-[Entfernen eines Offlineadressbuchs](remove-an-offline-address-book-exchange-2013-help.md)
+[Entfernen eines Offlineadressbuchs](https://review.docs.microsoft.com/de-de/exchange/address-books/offline-address-books/remove-offline-address-book)
 
-[Aktualisieren eines Offlineadressbuchs](update-an-offline-address-book-exchange-2013-help.md)
+[Aktualisieren eines Offlineadressbuchs](https://review.docs.microsoft.com/de-de/exchange/address-books/offline-address-books/update-offline-address-book)
 
 [Erstellen eines virtuellen Offlineadressbuch-Verzeichnisses](create-an-offline-address-book-virtual-directory-exchange-2013-help.md)
 
-[Ändern des Zeitplans für die Generierung des Offlineadressbuchs](change-the-offline-address-book-generation-schedule-exchange-2013-help.md)
+[Ändern des Zeitplans für die Generierung des Offlineadressbuchs](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures)
 
-[Konfigurieren der Eigenschaften der Offlineadressbuch-Verteilung](configure-offline-address-book-distribution-properties-exchange-2013-help.md)
+[Konfigurieren der Eigenschaften der Offlineadressbuch-Verteilung](https://review.docs.microsoft.com/de-de/exchange/address-books/offline-address-books/configure-distribution-properties)
 

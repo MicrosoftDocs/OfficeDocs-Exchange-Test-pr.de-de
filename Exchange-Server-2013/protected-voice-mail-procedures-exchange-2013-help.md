@@ -17,11 +17,11 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-01-30_
 
-[Konfigurieren von Voicemail aus authentifizierter Anrufer](configure-protected-voice-mail-from-authenticated-callers-exchange-2013-help.md)
+[Konfigurieren von Voicemail aus authentifizierter Anrufer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-protected-voice-mail-from-authenticated-callers)
 
 [Konfigurieren geschützter Voicemail von nicht authentifizierten Anrufern](configure-protected-voice-mail-from-unauthenticated-callers-exchange-2013-help.md)
 
-[Aktivieren oder Deaktivieren der Multimediawiedergabe von geschützten Sprachnachrichten](enable-or-disable-multimedia-playback-of-protected-voice-messages-exchange-2013-help.md)
+[Aktivieren oder Deaktivieren der Multimediawiedergabe von geschützten Sprachnachrichten](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-disable-multimedia-playback)
 
 [Geben Sie den Text, der für e-Mail-Clients angezeigt, die Windows Rights Management nicht unterstützen](specify-the-text-to-display-for-email-clients-that-don-t-support-windows-rights-management-exchange-2013-help.md)
 

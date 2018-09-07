@@ -27,7 +27,7 @@ Sie können mithilfe der Exchange-Verwaltungskonsole oder Shell Outlook Web App 
 
 Informationen zu weiteren Verwaltungsaufgaben in Bezug die Verwaltung des E-Mail-Clientzugriffs auf ein Postfach finden Sie in den folgenden Themen:
 
-  - [Aktivieren oder Deaktivieren von MAPI für ein Postfach](enable-or-disable-mapi-for-a-mailbox-exchange-online-help.md)
+  - [Aktivieren oder Deaktivieren von MAPI für ein Postfach](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-mapi)
 
   - [Aktivieren oder Deaktivieren des IMAP4-Zugriffs für einen Benutzer](enable-or-disable-imap4-access-for-a-user-exchange-2013-help.md)
 
@@ -69,7 +69,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug die Verwaltung des E-Mail
 
 
 > [!NOTE]
-> Sie können Outlook Web App für mehrere Benutzerpostfächer mithilfe der Massenbearbeitungsfunktion der Exchange-Verwaltungskonsole aktivieren oder deaktivieren. Weitere Informationen finden Sie im Abschnitt "Massenbearbeitung von Benutzerpostfächern" unter <A href="manage-user-mailboxes-exchange-2013-help.md">Verwalten von Benutzerpostfächern</A>.
+> Sie können Outlook Web App für mehrere Benutzerpostfächer mithilfe der Massenbearbeitungsfunktion der Exchange-Verwaltungskonsole aktivieren oder deaktivieren. Weitere Informationen finden Sie im Abschnitt "Massenbearbeitung von Benutzerpostfächern" unter <A href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Verwalten von Benutzerpostfächern</A>.
 
 
 

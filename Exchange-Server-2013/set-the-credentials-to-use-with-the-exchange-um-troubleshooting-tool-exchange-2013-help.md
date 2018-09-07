@@ -29,11 +29,11 @@ Wenn Sie das UM-Problembehandlungstool ausführen, verwendet es standardmäßig 
 
   - Stellen Sie sicher, dass Ihre Exchange 2010- oder Exchange 2013-Organisation die folgenden Anforderungen erfüllt:
     
-      - Ein Satz UM-Wähleinstellungen wurde erstellt. Weitere Informationen finden Sie unter [Erstellen eines UM-Wählplans](create-a-um-dial-plan-exchange-2013-help.md).
+      - Ein Satz UM-Wähleinstellungen wurde erstellt. Weitere Informationen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
     
-      - Eine UM-Postfachrichtlinie wurde erstellt. Ausführliche Anleitungen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](create-a-um-mailbox-policy-exchange-2013-help.md).
+      - Eine UM-Postfachrichtlinie wurde erstellt. Ausführliche Anleitungen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
     
-      - Ein UM-IP-Gateway wurde erstellt. Weitere Informationen finden Sie unter [Erstellen eines UM-IP-Gateways](create-a-um-ip-gateway-exchange-2013-help.md).
+      - Ein UM-IP-Gateway wurde erstellt. Weitere Informationen finden Sie unter [Erstellen eines UM-IP-Gateways](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
     
       - Ein Exchange 2010 Unified MESSAGING-Server wurde mit dem UM-Wählplan hinzugefügt. Wenn Sie Exchange 2013 mit Lync Server verwenden, fügen Sie alle Clientzugriffs- und Postfachservern, die SIP-URI-Wählpläne. Ausführliche Schritte finden Sie unter [Hinzufügen einer UM-Servers zu einem Wählplan](https://go.microsoft.com/fwlink/p/?linkid=313051) oder [Hinzufügen von Postfach- und Clientzugriffsservern zu einem SIP-URI-Wählplan](add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md).
 

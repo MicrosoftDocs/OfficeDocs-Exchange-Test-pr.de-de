@@ -29,11 +29,11 @@ In einer UM-Postfachrichtlinie können Sie für Benutzer den Zugriff auf folgend
 
   - Persönliche Kontakte
 
-Informationen zu weiteren Verwaltungsaufgaben in Bezug auf UM-Postfachrichtlinien finden Sie unter [UM-Postfachrichtlinien – Verfahren](um-mailbox-policy-procedures-exchange-2013-help.md).
+Informationen zu weiteren Verwaltungsaufgaben in Bezug auf UM-Postfachrichtlinien finden Sie unter [UM-Postfachrichtlinien – Verfahren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policy-procedures).
 
 Sie können die Shell auch dazu verwenden, Outlook Voice Access-Features im Postfach eines einzelnen UM-aktivierten Benutzers zu deaktivieren. Dann werden die Features nur für diesen Benutzer deaktiviert. Sie können zwar nicht alle Outlook Voice Access-Features einer UM-Postfachrichtlinie für einen einzelnen Benutzer deaktivieren, aber Sie können den Zugriff auf seinen Kalender und seine E-Mails deaktivieren.
 
-Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit UM-Postfächern finden Sie unter [Voicemail für Benutzer](voice-mail-for-users-exchange-2013-help.md).
+Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit UM-Postfächern finden Sie unter [Voicemail für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users).
 
 
 > [!NOTE]
@@ -47,11 +47,11 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit UM-Postfächer
 
   - Für die Verfahren in diesem Thema sind bestimmte Berechtigungen erforderlich. Informationen zu den Berechtigungen finden Sie in den einzelnen Verfahren.
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Weitere Informationen finden Sie unter [Erstellen eines UM-Wählplans](create-a-um-dial-plan-exchange-2013-help.md).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Weitere Informationen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine UM-Postfachrichtlinie erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](create-a-um-mailbox-policy-exchange-2013-help.md).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine UM-Postfachrichtlinie erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein Benutzer für UM aktiviert wurde. Weitere Informationen finden Sie unter [Aktivieren eines Benutzers für Voicemail](enable-a-user-for-voice-mail-exchange-2013-help.md).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein Benutzer für UM aktiviert wurde. Weitere Informationen finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

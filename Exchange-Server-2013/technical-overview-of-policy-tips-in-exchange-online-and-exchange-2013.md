@@ -17,9 +17,9 @@ _**Gilt für:** Exchange Online, Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2015-07-22_
 
-Sie können das unangemessene Senden vertraulicher Informationen durch die E-Mail-Benutzer von Microsoft Outlook, Outlook Web App (OWA) und OWA for Devices in Ihrer Organisation verhindern, indem Sie Richtlinien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) erstellen, die *Richtlinientipp*-Benachrichtigungen enthalten. Ähnlich wie E-Mail-Infos, die in Microsoft Exchange Server 2010 eingeführt wurden, werden Benutzern in Outlook Richtlinientipp-Benachrichtigungen angezeigt, wenn sie eine E-Mail-Nachricht verfassen. Richtlinientipp-Benachrichtigungen werden nur angezeigt, wenn Elemente in der E-Mail-Nachricht des Absenders gegen eine von Ihnen eingerichtete DLP-Richtlinie zu verstoßen scheinen und diese Richtlinie eine Regel umfasst, die den Absender benachrichtigt, wenn die konfigurierten Bedingungen erfüllt sind. Allgemeine Informationen zur Verhinderung von Datenverlust finden Sie unter [Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
+Sie können das unangemessene Senden vertraulicher Informationen durch die E-Mail-Benutzer von Microsoft Outlook, Outlook Web App (OWA) und OWA for Devices in Ihrer Organisation verhindern, indem Sie Richtlinien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) erstellen, die *Richtlinientipp*-Benachrichtigungen enthalten. Ähnlich wie E-Mail-Infos, die in Microsoft Exchange Server 2010 eingeführt wurden, werden Benutzern in Outlook Richtlinientipp-Benachrichtigungen angezeigt, wenn sie eine E-Mail-Nachricht verfassen. Richtlinientipp-Benachrichtigungen werden nur angezeigt, wenn Elemente in der E-Mail-Nachricht des Absenders gegen eine von Ihnen eingerichtete DLP-Richtlinie zu verstoßen scheinen und diese Richtlinie eine Regel umfasst, die den Absender benachrichtigt, wenn die konfigurierten Bedingungen erfüllt sind. Allgemeine Informationen zur Verhinderung von Datenverlust finden Sie unter [Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention).
 
-Um den E-Mail-Absendern Richtlinientipps anzuzeigen, müssen Ihre Regeln die Aktion **Absender mit Richtlinientipp benachrichtigen** umfassen. Sie können diese Aktion im Regel-Editor der Exchange-Verwaltungskonsole hinzufügen. Weitere Informationen finden Sie unter [Richtlinientipps verwalten](how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md).
+Um den E-Mail-Absendern Richtlinientipps anzuzeigen, müssen Ihre Regeln die Aktion **Absender mit Richtlinientipp benachrichtigen** umfassen. Sie können diese Aktion im Regel-Editor der Exchange-Verwaltungskonsole hinzufügen. Weitere Informationen finden Sie unter [Richtlinientipps verwalten](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/manage-policy-tips).
 
 Der Transportregel-Agent, der DLP-Richtlinien erzwingt, unterscheidet bei der Auswertung von Nachrichten und den in Ihren Richtlinien enthaltenen Bedingungen nicht zwischen E-Mail-Anlagen, Nachrichtentext oder Betreffzeile. Beispiel: Ein Benutzer erstellt eine E-Mail-Nachricht, die eine Kreditkartennummer im Nachrichtentext enthält. Anschließend versucht der Benutzer, die Nachricht an einen Empfänger außerhalb der Organisation zu senden. In einem solchen Fall kann dem Benutzer in Outlook oder Outlook Web App eine Richtlinientipp-Benachrichtigung angezeigt werden, in welcher der Benutzer an die in Ihrem Unternehmen geltenden Beschränkungen für die Weitergabe solcher Informationen erinnert wird. Diese Art der Benachrichtigung wird jedoch nur angezeigt, wenn Sie eine DLP-Richtlinie konfiguriert haben, mit der die beschriebenen Beispielhandlungen eingeschränkt werden – in diesem Fall das Hinzufügen eines externen E-Mail-Alias zur Kopfzeile einer Nachricht mit Kreditkarteninformationen. Es gibt zahlreiche verschiedene Bedingungen, Aktionen und Ausnahmen, die Sie beim Erstellen von DLP-Richtlinien auswählen können. Auf diese Weise können Sie die Richtlinien zur Verhinderung von Datenverlust in einer Weise anpassen, die genau auf die Anforderungen Ihres Unternehmens zugeschnitten ist.
 
@@ -41,7 +41,7 @@ Wenn E-Mail-Absender in Ihrer Organisation beim Verfassen einer Nachricht mithil
 
 ## Standardtext für Richtlinientipps und Regeloptionen
 
-Sie haben beim Hinzufügen von Regeln für die Absenderbenachrichtigung zu DLP-Richtlinien verschiedene Optionen. Wenn Sie eine Regel zur Absenderbenachrichtigung über die Aktion **Absender mit Richtlinientipp benachrichtigen** einer DLP-Richtlinie hinzufügen, können Sie festlegen, wie restriktiv die Regel sein soll. Die verfügbaren Benachrichtigungsoptionen sind in der folgenden Tabelle aufgeführt. Allgemeine Informationen zum Bearbeiten von Richtlinien finden Sie unter [Verwalten von DLP-Richtlinien](manage-dlp-policies-exchange-2013-help.md). Ausführliche Informationen zum Erstellen von Richtlinientipps finden Sie unter [Richtlinientipps verwalten](how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md).
+Sie haben beim Hinzufügen von Regeln für die Absenderbenachrichtigung zu DLP-Richtlinien verschiedene Optionen. Wenn Sie eine Regel zur Absenderbenachrichtigung über die Aktion **Absender mit Richtlinientipp benachrichtigen** einer DLP-Richtlinie hinzufügen, können Sie festlegen, wie restriktiv die Regel sein soll. Die verfügbaren Benachrichtigungsoptionen sind in der folgenden Tabelle aufgeführt. Allgemeine Informationen zum Bearbeiten von Richtlinien finden Sie unter [Verwalten von DLP-Richtlinien](manage-dlp-policies-exchange-2013-help.md). Ausführliche Informationen zum Erstellen von Richtlinientipps finden Sie unter [Richtlinientipps verwalten](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/manage-policy-tips).
 
 
 <table>
@@ -94,7 +94,7 @@ Sie haben beim Hinzufügen von Regeln für die Absenderbenachrichtigung zu DLP-R
 
 Wählen Sie zum Anpassen des Texts einer Richtlinientipp-Benachrichtigung, die E-Mail-Absender in ihrem E-Mail-Programm sehen, auf der Seite „Verhinderung von Datenverlust“ die Option **Richtlinientipps verwalten** aus. Damit Ihr benutzerdefinierter Text angezeigt wird, muss eine DLP-Richtlinie die Aktion **Absender mit Richtlinientipp benachrichtigen** enthalten. Fügen Sie die Aktion mithilfe des DLP-Regel-Editors einer Regel hinzu.
 
-Verfahren zur Erläuterung der Erstellung eigener Richtlinientipps finden Sie unter [Richtlinientipps verwalten](how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md). Der benutzerdefinierte Text, den Sie erstellen, kann den in der vorherigen Tabelle gezeigten Standardtext ersetzen.
+Verfahren zur Erläuterung der Erstellung eigener Richtlinientipps finden Sie unter [Richtlinientipps verwalten](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/manage-policy-tips). Der benutzerdefinierte Text, den Sie erstellen, kann den in der vorherigen Tabelle gezeigten Standardtext ersetzen.
 
 
 <table>
@@ -131,9 +131,9 @@ Verfahren zur Erläuterung der Erstellung eigener Richtlinientipps finden Sie un
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Verwalten von DLP-Richtlinien](manage-dlp-policies-exchange-2013-help.md)
 
-[Richtlinientipps verwalten](how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md)
+[Richtlinientipps verwalten](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/manage-policy-tips)
 

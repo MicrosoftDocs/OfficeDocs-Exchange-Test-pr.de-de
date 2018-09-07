@@ -51,7 +51,7 @@ Die folgende Tabelle bietet einen Überblick über die Funktionen für Messaging
 <li><p>Sollen alle Nachrichten über den gleichen Zeitraum aufbewahrt werden?</p></li>
 </ul>
 <p>Exchange 2013 enthält MRM-Funktionen, mit denen Sie die E-Mail-Lebenszyklusrichtlinien Ihrer Organisation implementieren können. Sie können über die Messaging-Datensatzverwaltung einheitliche Aufbewahrungseinstellungen auf alle Nachrichten anwenden, oder Sie verwenden benutzerdefinierte Aufbewahrungsrichtlinien, um eine grundlegende Aufbewahrungskonfiguration auf ein Postfach anzuwenden. Optional können Sie auch Benutzern ermöglichen, Nachrichten zu klassifizieren, damit diese für einen bestimmten Zeitraum aufbewahrt werden.</p></td>
-<td><p><a href="messaging-records-management-exchange-2013-help.md">Messaging-Datensatzverwaltung</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management">Messaging-Datensatzverwaltung</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Compliance-Archivierung</p></td>
@@ -81,7 +81,7 @@ Die folgende Tabelle bietet einen Überblick über die Funktionen für Messaging
 <tr class="odd">
 <td><p>Verhinderung von Datenverlust (Data Loss Prevention, DLP)</p></td>
 <td><p>DLP-Funktionen helfen Ihnen dabei, Ihre vertraulichen Daten zu schützen und Benutzer über Ihre Richtlinien und Vorschriften zu informieren. Mit diesen Funktionen können Sie auch verhindern, dass Benutzer versehentlich vertrauliche Informationen an nicht autorisierte Personen senden. Wenn Sie DLP-Richtlinien konfigurieren, können Sie vertrauliche Daten ermitteln und schützen, indem Sie die Inhalte Ihres Messagingsystems analysieren, das eine Vielzahl von verschiedenen Dateitypen umfasst. Die in Exchange 2013 bereitgestellten DLP-Richtlinienvorlagen basieren auf gesetzlichen Standards z. B. zu personenbezogenen Daten (PII) sowie Datensicherheitsstandards der Kreditkartenbranche (PCI DSS). DLP ist erweiterbar, sodass Sie weitere Richtlinien hinzufügen können, die für Ihre Organisation wichtig sind. Darüber hinaus ermöglicht die neue Funktion der Richtlinientipps Ihnen, Ihre Benutzer über mögliche Richtlinienverletzungen zu informieren, bevor vertrauliche Daten gesendet werden.</p></td>
-<td><p><a href="technical-overview-of-dlp-data-loss-prevention-in-exchange.md">Verhinderung von Datenverlust</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention">Verhinderung von Datenverlust</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Verwaltung von Informationsrechten (Information Rights Management, IRM)</p></td>
@@ -97,7 +97,7 @@ Die folgende Tabelle bietet einen Überblick über die Funktionen für Messaging
 <td><p>Postfachüberwachungsprotokollierung</p></td>
 <td><p>Da Postfächer vertrauliche und für das Unternehmen zentrale Informationen sowie personenbezogene Informationen enthalten können, ist es wichtig, zu verfolgen, wer sich an den Postfächern in Ihrer Organisation anmeldet und welche Aktionen ausgeführt werden. Eine besondere Rolle spielt hierbei die Verfolgung des Postfachzugriffs durch Benutzer, die nicht mit dem Postfachbesitzer identisch sind (sogenannte Stellvertretungsbenutzer). Mithilfe der Postfachüberwachungsprotokollierung können Sie den durch Postfachbesitzer, Stellvertretungen (einschließlich Administratoren mit vollständigen Postfachzugriffsberechtigungen) und Administratoren erfolgten Postfachzugriff protokollieren.</p></td>
 <td><p><a href="mailbox-audit-logging-exchange-2013-help.md">Überwachungsprotokollierung von Postfächern</a></p>
-<p><a href="exchange-auditing-reports-exchange-2013-help.md">Exchange-Überwachungsberichte</a></p></td>
+<p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports">Exchange-Überwachungsberichte</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Administratorüberwachungsprotokollierung</p></td>

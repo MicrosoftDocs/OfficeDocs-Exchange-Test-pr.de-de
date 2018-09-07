@@ -17,13 +17,13 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-09_
 
-[Überprüfen Sie die e-Mail-Sprachanrufe in Ihrer Organisation](review-the-voice-mail-calls-in-your-organization-exchange-2013-help.md)
+[Überprüfen Sie die e-Mail-Sprachanrufe in Ihrer Organisation](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/review-voice-mail-calls-for-organization)
 
 [Überprüfen Sie die e-Mail-Sprachanrufe für einen Benutzer](review-the-voice-mail-calls-for-a-user-exchange-2013-help.md)
 
-[Überprüfen Sie die Audioqualität VoIP-Anrufe in Ihrer Organisation](investigate-the-audio-quality-of-voice-calls-in-your-organization-exchange-2013-help.md)
+[Überprüfen Sie die Audioqualität VoIP-Anrufe in Ihrer Organisation](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/audio-quality-of-voice-calls-in-organization)
 
-[Durchführen einer Überprüfung der Audioqualität von Sprachanrufen für Benutzer](investigate-the-audio-quality-of-voice-calls-for-a-user-exchange-2013-help.md)
+[Durchführen einer Überprüfung der Audioqualität von Sprachanrufen für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/audio-quality-of-voice-calls-for-user)
 
-[Interpretieren von Voice Mail-anrufdatensätze](interpret-voice-mail-call-records-exchange-2013-help.md)
+[Interpretieren von Voice Mail-anrufdatensätze](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/interpret-voice-mail-call-records)
 

@@ -86,5 +86,5 @@ Weitere Aufgaben im Zusammenhang mit Anrufstatistiken finden Sie unter [UM Beric
     
       - **ANZAHL DER BEISPIELE**   Die Anzahl der Anrufe, für die ein Sampling ausgeführt wurde, um die Durchschnittswerte zu berechnen.
 
-4.  Eine ausführliche Audioqualitätsmetrik zu bestimmten Anrufen finden Sie unter [Durchführen einer Überprüfung der Audioqualität von Sprachanrufen für Benutzer](investigate-the-audio-quality-of-voice-calls-for-a-user-exchange-2013-help.md).
+4.  Eine ausführliche Audioqualitätsmetrik zu bestimmten Anrufen finden Sie unter [Durchführen einer Überprüfung der Audioqualität von Sprachanrufen für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/audio-quality-of-voice-calls-for-user).
 

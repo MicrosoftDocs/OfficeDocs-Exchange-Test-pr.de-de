@@ -49,7 +49,7 @@ Eine E-Mail-aktivierte Sicherheitsgruppe kann zum Verteilen von Nachrichten sowi
         
 
         > [!NOTE]
-        > Wenn eine Gruppenbenennungsrichtlinie angewendet wird, müssen die für Ihre Organisation erzwungenen Benennungseinschränkungen beachtet werden. Weitere Informationen finden Sie unter <A href="create-a-distribution-group-naming-policy-exchange-2013-help.md">Erstellen einer Benennungsrichtlinie für Verteilergruppen</A>. Informationen zum Außerkraftsetzen der Gruppenbenennungsrichtlinie Ihrer Organisation finden Sie unter <A href="override-the-distribution-group-naming-policy-exchange-2013-help.md">Außerkraftsetzen der Benennungsrichtlinie für Verteilergruppen</A>.
+        > Wenn eine Gruppenbenennungsrichtlinie angewendet wird, müssen die für Ihre Organisation erzwungenen Benennungseinschränkungen beachtet werden. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy">Erstellen einer Benennungsrichtlinie für Verteilergruppen</A>. Informationen zum Außerkraftsetzen der Gruppenbenennungsrichtlinie Ihrer Organisation finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/override-group-naming-policy">Außerkraftsetzen der Benennungsrichtlinie für Verteilergruppen</A>.
 
     
       - **\* Alias**   Verwenden Sie dieses Feld, um den Alias für die Sicherheitsgruppe einzugeben. Der Alias darf höchstens 64 Zeichen umfassen und muss in der Gesamtstruktur eindeutig sein. Wenn ein Benutzer den Alias in der Zeile "An:" einer E-Mail eingibt, wird er in den Anzeigenamen der Gruppe aufgelöst.

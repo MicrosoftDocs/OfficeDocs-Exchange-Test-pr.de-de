@@ -159,7 +159,7 @@ Klicken Sie auf **Weitere Optionen**, um diese zusätzlichen Eigenschaften anzuz
 
   - **Firma**   Geben Sie in diesem Feld eine Firma ein, der der Raum gegebenenfalls zugeordnet ist. Sie können diese Eigenschaft genauso wie die Eigenschaft "Abteilung" verwenden, um Empfängerbedingungen für dynamische Verteilergruppen und Adresslisten zu erstellen.
 
-  - **Adressbuchrichtlinie**   Verwenden Sie diese Option, um eine Adressbuchrichtlinie für das Raumpostfach anzugeben. Adressbuchrichtlinien enthalten eine globale Adressliste (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](address-book-policies-exchange-2013-help.md).
+  - **Adressbuchrichtlinie**   Verwenden Sie diese Option, um eine Adressbuchrichtlinie für das Raumpostfach anzugeben. Adressbuchrichtlinien enthalten eine globale Adressliste (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](https://review.docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies).
     
     Wählen Sie in der Dropdownliste die Richtlinie aus, die diesem Postfach zugeordnet werden soll.
 

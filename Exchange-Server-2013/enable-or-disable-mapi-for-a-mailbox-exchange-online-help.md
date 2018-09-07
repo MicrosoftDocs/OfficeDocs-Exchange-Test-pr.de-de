@@ -27,7 +27,7 @@ Sie können MAPI für ein Benutzerpostfach mithilfe der Exchange-Verwaltungskons
 
 Informationen zu weiteren Verwaltungsaufgaben in Bezug die Verwaltung des E-Mail-Clientzugriffs auf ein Postfach finden Sie in den folgenden Themen:
 
-  - [Aktivieren oder Deaktivieren von Outlook Web App für ein Postfach](enable-or-disable-outlook-web-app-for-a-mailbox-exchange-2013-help.md)
+  - [Aktivieren oder Deaktivieren von Outlook Web App für ein Postfach](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
   - [Aktivieren oder Deaktivieren des IMAP4-Zugriffs für einen Benutzer](enable-or-disable-imap4-access-for-a-user-exchange-2013-help.md)
 

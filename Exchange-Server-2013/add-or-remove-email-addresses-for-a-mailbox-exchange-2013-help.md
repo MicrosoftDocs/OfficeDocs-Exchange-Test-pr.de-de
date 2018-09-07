@@ -59,7 +59,7 @@ Anhand der Verfahren in diesem Thema wird das Hinzufügen und Entfernen von E-Ma
     
 
     > [!NOTE]
-    > SMTP ist der Standard-E-Mail-Adresstyp. Sie können einem Postfach auch Exchange Unified Messaging (EUM)- oder benutzerdefinierte Adressen hinzufügen. Weitere Informationen finden Sie unter "Ändern der Eigenschaften von Benutzerpostfächern" im Thema <A href="manage-user-mailboxes-exchange-2013-help.md">Verwalten von Benutzerpostfächern</A>.
+    > SMTP ist der Standard-E-Mail-Adresstyp. Sie können einem Postfach auch Exchange Unified Messaging (EUM)- oder benutzerdefinierte Adressen hinzufügen. Weitere Informationen finden Sie unter "Ändern der Eigenschaften von Benutzerpostfächern" im Thema <A href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Verwalten von Benutzerpostfächern</A>.
 
 
 

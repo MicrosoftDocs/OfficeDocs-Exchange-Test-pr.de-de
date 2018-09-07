@@ -23,11 +23,11 @@ In einer Hybridbereitstellung können Ihre Benutzer in Exchange Online und/oder 
 
 
 > [!NOTE]
-> Wenn Sie über öffentliche Exchange 2010- oder Exchange 2007-Ordner verfügen, finden Sie weitere Informationen unter <A href="configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md">Konfigurieren lokaler öffentlicher Ordner aus Vorversionen für eine Hybridbereitstellung</A>.
+> Wenn Sie über öffentliche Exchange 2010- oder Exchange 2007-Ordner verfügen, finden Sie weitere Informationen unter <A href="https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders">Konfigurieren lokaler öffentlicher Ordner aus Vorversionen für eine Hybridbereitstellung</A>.
 
 
 
-In diesem Artikel wird beschrieben, wie Sie Ihren Benutzern von Exchange Online/Office 365 ermöglichen, auf öffentliche Ordner in Exchange 2013 zuzugreifen. Informationen dazu, wie Sie lokalen Benutzern von Exchange 2013 ermöglichen, auf Öffentliche Ordner in Exchange Online zuzugreifen, finden Sie unter [Konfigurieren öffentlicher Exchange Online-Ordner für eine Hybridbereitstellung](configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md).
+In diesem Artikel wird beschrieben, wie Sie Ihren Benutzern von Exchange Online/Office 365 ermöglichen, auf öffentliche Ordner in Exchange 2013 zuzugreifen. Informationen dazu, wie Sie lokalen Benutzern von Exchange 2013 ermöglichen, auf Öffentliche Ordner in Exchange Online zuzugreifen, finden Sie unter [Konfigurieren öffentlicher Exchange Online-Ordner für eine Hybridbereitstellung](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-exo-hybrid-public-folders).
 
 Ein Exchange Online/Office 365-Benutzer muss in der lokalen Exchange-Umgebung durch ein MailUser-Objekt repräsentiert werden, um auf öffentliche Ordner in Exchange 2013 zugreifen zu können. Dieses MailUser-Objekt muss auch in der Zielhierarchie der öffentlichen Ordner in Exchange 2013 lokal existieren. Wenn Sie Office 365-Benutzer haben, die derzeit nicht lokal durch MailUser-Objekte repräsentiert werden, lesen Sie den Microsoft Knowledge Base-Artikel 3106618 ([Exchange Online-Benutzer können nicht auf lokale öffentliche Ordner in Legacy-Versionen zugreifen](https://go.microsoft.com/fwlink/p/?linkid=699451)), um die zugehörigen lokalen Entitäten zu erstellen.
 
@@ -49,7 +49,7 @@ Ein Exchange Online/Office 365-Benutzer muss in der lokalen Exchange-Umgebung 
     
 
     > [!NOTE]
-    > Outlook&nbsp;2016&nbsp;für&nbsp;Mac wird für standortübergreifende öffentliche Ordner unterstützt. Wenn Clients in Ihrer Organisation Outlook&nbsp;2016&nbsp;für&nbsp;Mac verwenden, müssen Sie sicherstellen, dass auf diesen Clients das Update vom April&nbsp;2016 installiert ist. Andernfalls können die Benutzer dieser Clients nicht auf öffentliche Ordner in einer Hybridtopologie zugreifen. Weitere Informationen finden Sie unter <A href="accessing-public-folders-with-outlook-2016-for-mac-exchange-2013-help.md">Zugreifen auf öffentliche Ordner mit Outlook&nbsp;2016&nbsp;für&nbsp;Mac</A>.
+    > Outlook&nbsp;2016&nbsp;für&nbsp;Mac wird für standortübergreifende öffentliche Ordner unterstützt. Wenn Clients in Ihrer Organisation Outlook&nbsp;2016&nbsp;für&nbsp;Mac verwenden, müssen Sie sicherstellen, dass auf diesen Clients das Update vom April&nbsp;2016 installiert ist. Andernfalls können die Benutzer dieser Clients nicht auf öffentliche Ordner in einer Hybridtopologie zugreifen. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/access-public-folders-with-outlook-2016-for-mac">Zugreifen auf öffentliche Ordner mit Outlook&nbsp;2016&nbsp;für&nbsp;Mac</A>.
 
 
 

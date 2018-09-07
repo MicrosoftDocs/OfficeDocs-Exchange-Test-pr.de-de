@@ -19,13 +19,13 @@ _**Letztes Änderungsdatum des Themas:** 2013-04-29_
 
 [Ermöglichen Sie oder verhindern Sie, dass einen Benutzer erstellen Aufruf von mailboxansageregeln](allow-or-prevent-a-user-from-creating-call-answering-rules-exchange-2013-help.md)
 
-[Ermöglichen Sie oder verhindern Sie, dass Benutzer in der gleichen UM-Postfachrichtlinie erstellen Aufruf von mailboxansageregeln](allow-or-prevent-users-in-the-same-um-mailbox-policy-from-creating-call-answering-rules-exchange-2013-help.md)
+[Ermöglichen Sie oder verhindern Sie, dass Benutzer in der gleichen UM-Postfachrichtlinie erstellen Aufruf von mailboxansageregeln](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/call-answering-rules-in-the-same-mailbox-policy)
 
 [Erstellen einer Mailboxansageregel](create-a-call-answering-rule-exchange-2013-help.md)
 
-[Anzeigen und Verwalten einer Mailboxansageregel](view-and-manage-a-call-answering-rule-exchange-2013-help.md)
+[Anzeigen und Verwalten einer Mailboxansageregel](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/view-and-manage-a-call-answering-rule)
 
-[Aktivieren oder Deaktivieren einer Mailboxansageregel für einen Benutzer](enable-or-disable-a-call-answering-rule-for-a-user-exchange-2013-help.md)
+[Aktivieren oder Deaktivieren einer Mailboxansageregel für einen Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-disable-a-call-answering-rule-for-a-user)
 
-[Entfernen einer Mailboxansageregel für einen Benutzer](remove-a-call-answering-rule-for-a-user-exchange-2013-help.md)
+[Entfernen einer Mailboxansageregel für einen Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/remove-a-call-answering-rule-for-a-user)
 

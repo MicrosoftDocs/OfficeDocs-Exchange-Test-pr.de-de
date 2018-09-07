@@ -27,7 +27,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Adressbuchrichtlinien
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "Adressbuchrichtlinien" im Thema [Berechtigungen für E-Mail-Adressen und Adressbücher](email-address-and-address-book-permissions-exchange-2013-help.md).
 
-  - Die Erstellung einer Adressbuchrichtlinie für eine Organisation ist ein Prozess mit vielen Schritten, der eine sorgfältige Planung erfordert. Weitere Informationen finden Sie unter [Szenario: Bereitstellen von Adressbuchrichtlinien](scenario-deploying-address-book-policies-exchange-2013-help.md)
+  - Die Erstellung einer Adressbuchrichtlinie für eine Organisation ist ein Prozess mit vielen Schritten, der eine sorgfältige Planung erfordert. Weitere Informationen finden Sie unter [Szenario: Bereitstellen von Adressbuchrichtlinien](scenario-deploying-https://docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies)
 
   - Adressbuchrichtlinien können nicht in der Exchange-Verwaltungskonsole konfiguriert werden. Sie müssen die Shell verwenden.
 

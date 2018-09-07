@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
-In Microsoft Exchange Server 2013 erfolgt die Messaging-Datensatzverwaltung (Messaging Records Management, MRM) über die Verwendung von Aufbewahrungstags und Aufbewahrungsrichtlinien. Eine Aufbewahrungsrichtlinie ist eine Gruppe von Aufbewahrungstags, die auf ein Postfach angewendet werden können. Weitere Informationen finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](retention-tags-and-retention-policies-exchange-2013-help.md). Verwaltete Ordner, die in Exchange Server 2007 eingeführte Technologie für die Messaging-Datensatzverwaltung, werden nicht unterstützt.
+In Microsoft Exchange Server 2013 erfolgt die Messaging-Datensatzverwaltung (Messaging Records Management, MRM) über die Verwendung von Aufbewahrungstags und Aufbewahrungsrichtlinien. Eine Aufbewahrungsrichtlinie ist eine Gruppe von Aufbewahrungstags, die auf ein Postfach angewendet werden können. Weitere Informationen finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies). Verwaltete Ordner, die in Exchange Server 2007 eingeführte Technologie für die Messaging-Datensatzverwaltung, werden nicht unterstützt.
 
 Ein Postfach, auf das eine Postfachrichtlinie für verwalteten Ordner angewendet wird, kann für die Verwendung einer Aufbewahrungsrichtlinie migriert werden. Dazu müssen Sie Aufbewahrungstags erstellen, die den verwalteten Ordnern entsprechen, die mit der Postfachrichtlinie für verwalteten Ordner des Benutzers verknüpft sind.
 
@@ -29,7 +29,7 @@ Ein Postfach, auf das eine Postfachrichtlinie für verwalteten Ordner angewendet
 
 
 > [!TIP]
-> Sie können für Postfächer eine Aufbewahrungszeit aktivieren, um die Verarbeitung von Aufbewahrungsrichtlinien und Postfachrichtlinien für verwaltete Ordner zu unterbrechen. Das Aktivieren einer Aufbewahrungszeit für Postfächer kann in Migrationsszenarien hilfreich sein, um das Löschen von Nachrichten oder deren Verschiebung in ein Archiv zu vermeiden, bis neue Richtlinieneinstellungen für Testpostfächer oder eine kleine Anzahl von Produktionspostfächern getestet wurden. Weitere Informationen finden Sie unter <A href="place-a-mailbox-on-retention-hold-exchange-2013-help.md">Anhalten der Aufbewahrungszeit für ein Postfach</A>.
+> Sie können für Postfächer eine Aufbewahrungszeit aktivieren, um die Verarbeitung von Aufbewahrungsrichtlinien und Postfachrichtlinien für verwaltete Ordner zu unterbrechen. Das Aktivieren einer Aufbewahrungszeit für Postfächer kann in Migrationsszenarien hilfreich sein, um das Löschen von Nachrichten oder deren Verschiebung in ein Archiv zu vermeiden, bis neue Richtlinieneinstellungen für Testpostfächer oder eine kleine Anzahl von Produktionspostfächern getestet wurden. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold">Anhalten der Aufbewahrungszeit für ein Postfach</A>.
 
 
 
@@ -276,7 +276,7 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Reten
 
 
 > [!NOTE]
-> Über die Exchange-Verwaltungskonsole können Sie Aufbewahrungstags auch (nicht auf Einstellungen in verwalteten Ordnern basierend) manuell erstellen. Weitere Informationen finden Sie unter <A href="create-a-retention-policy-exchange-2013-help.md">Erstellen einer Aufbewahrungsrichtlinie</A>.
+> Über die Exchange-Verwaltungskonsole können Sie Aufbewahrungstags auch (nicht auf Einstellungen in verwalteten Ordnern basierend) manuell erstellen. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Erstellen einer Aufbewahrungsrichtlinie</A>.
 
 
 
@@ -298,7 +298,7 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 
 > [!NOTE]
-> In der Exchange-Verwaltungskonsole können Sie auch eine Aufbewahrungsrichtlinie erstellen und Aufbewahrungstags der Richtlinie hinzufügen. Weitere Informationen finden Sie unter <A href="create-a-retention-policy-exchange-2013-help.md">Erstellen einer Aufbewahrungsrichtlinie</A>.
+> In der Exchange-Verwaltungskonsole können Sie auch eine Aufbewahrungsrichtlinie erstellen und Aufbewahrungstags der Richtlinie hinzufügen. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Erstellen einer Aufbewahrungsrichtlinie</A>.
 
 
 

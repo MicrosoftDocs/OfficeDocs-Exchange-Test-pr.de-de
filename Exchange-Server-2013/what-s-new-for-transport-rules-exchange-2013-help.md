@@ -23,9 +23,9 @@ In Microsoft Exchange Server 2013 wurden bei den Transportregeln eine Reihe von
 
 Mit den DLP-Funktionen (Data Loss Prevention) in Exchange 2013 können Organisationen die unbeabsichtigte Offenlegung vertraulicher Daten verhindern. Transportregeln wurden aktualisiert und unterstützen nun die Erstellung von Regeln, um DLP-Richtlinien zu ergänzen und zu erzwingen. Weitere Informationen zur DLP-Unterstützung in Transportregeln finden Sie in den folgenden Themen:
 
-[Integrieren von Regeln für vertrauliche Informationen in Transportregeln](integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md)
+[Integrieren von Regeln für vertrauliche Informationen in Transportregeln](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 ## Neue Prädikate und Aktionen
 

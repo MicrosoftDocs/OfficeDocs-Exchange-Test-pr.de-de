@@ -117,7 +117,7 @@ Bei der Planung von Outlook Voice Access-PINs müssen Sie die geeigneten Sicherh
 
 
 
-Nachdem Sie die Outlook Voice Access-PIN-Vorgaben festgelegt haben, müssen Sie eine UM-Postfachrichtlinie erstellen und konfigurieren, um die PIN-Vorgaben der Organisation durchzusetzen. Details zum Erstellen einer UM-Postfachrichtlinie finden Sie unter [Erstellen einer UM-Postfachrichtlinie](create-a-um-mailbox-policy-exchange-2013-help.md). Weitere Informationen zum Verwalten von UM-Postfachrichtlinien finden Sie unter [Verwalten einer UM-Postfachrichtlinie](manage-a-um-mailbox-policy-exchange-2013-help.md).
+Nachdem Sie die Outlook Voice Access-PIN-Vorgaben festgelegt haben, müssen Sie eine UM-Postfachrichtlinie erstellen und konfigurieren, um die PIN-Vorgaben der Organisation durchzusetzen. Details zum Erstellen einer UM-Postfachrichtlinie finden Sie unter [Erstellen einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy). Weitere Informationen zum Verwalten von UM-Postfachrichtlinien finden Sie unter [Verwalten einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy).
 
 
 > [!NOTE]
@@ -125,7 +125,7 @@ Nachdem Sie die Outlook Voice Access-PIN-Vorgaben festgelegt haben, müssen Sie 
 
 
 
-Es gibt Situationen, in denen Outlook Voice Access-Benutzer ihre PIN vergessen oder ihr Voicemailzugriff gesperrt wird. In beiden Fällen müssen Sie ggf. die PIN eines UM-aktivierten Benutzers zurücksetzen. Weitere Informationen finden Sie unter [Zurücksetzen einer Voicemail-PIN](reset-a-voice-mail-pin-exchange-2013-help.md).
+Es gibt Situationen, in denen Outlook Voice Access-Benutzer ihre PIN vergessen oder ihr Voicemailzugriff gesperrt wird. In beiden Fällen müssen Sie ggf. die PIN eines UM-aktivierten Benutzers zurücksetzen. Weitere Informationen finden Sie unter [Zurücksetzen einer Voicemail-PIN](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/reset-a-voice-mail-pin).
 
-Sie können PIN-Informationen für einen Benutzer abrufen, der für Unified Messaging (UM) aktiviert ist. Die zurückgegebenen Informationen werden mithilfe der verschlüsselten PIN-Daten berechnet, die im Postfach des Benutzers gespeichert sind. So können Sie PIN-Informationen für den Benutzer anzeigen. Außerdem wird angegeben, ob der Benutzer für sein Postfach gesperrt wurde. Weitere Informationen finden Sie unter [Abrufen von PIN-Informationen für Voicemail](retrieve-voice-mail-pin-information-exchange-2013-help.md).
+Sie können PIN-Informationen für einen Benutzer abrufen, der für Unified Messaging (UM) aktiviert ist. Die zurückgegebenen Informationen werden mithilfe der verschlüsselten PIN-Daten berechnet, die im Postfach des Benutzers gespeichert sind. So können Sie PIN-Informationen für den Benutzer anzeigen. Außerdem wird angegeben, ob der Benutzer für sein Postfach gesperrt wurde. Weitere Informationen finden Sie unter [Abrufen von PIN-Informationen für Voicemail](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/retrieve-voice-mail-pin-information).
 

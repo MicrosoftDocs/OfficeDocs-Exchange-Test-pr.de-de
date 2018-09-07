@@ -39,7 +39,7 @@ Standardmäßig sind für alle Administratoren mit der Rollengruppe **Organisati
 
 Informationen zu jeder dieser Rollen finden Sie unter [Rolle „Marketplace-Apps einer Organisation\&quot;](org-marketplace-apps-role-exchange-2013-help.md), [Rolle „Benutzerdefinierte Apps einer Organisation\&quot;](org-custom-apps-role-exchange-2013-help.md), [Rolle „Eigene Marketplace-Apps\&quot;](my-marketplace-apps-role-exchange-2013-help.md), [Rolle „Eigene benutzerdefinierte Apps\&quot;](my-custom-apps-role-exchange-2013-help.md)und [Rolle „My ReadWriteMailbox Apps\&quot;](my-readwritemailbox-apps-role-exchange-2013-help.md).
 
-Informationen zu Add-Ins finden Sie unter [Apps für Outlook](add-ins-for-outlook-exchange-2013-help.md).
+Informationen zu Add-Ins finden Sie unter [Apps für Outlook](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 

@@ -59,7 +59,7 @@ Die folgende Liste zeigt die vereinfachten Bereitstellungsschritte für UM und L
     
 
     > [!IMPORTANT]
-    > Das Skript "ExchUcUtil.ps1" erstellt ein oder mehrere UM-IP-Gateways für die Lync-Integration. Sie müssen ausgehende Anrufe für alle UM-IP-Gateways deaktivieren, außer dem einen Gateway, das durch das Skript erstellt wurde. Dazu gehört auch das Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways, die vor dem Ausführen des Skripts erstellt wurden. Informationen zum Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways finden Sie unter <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Deaktivieren Sie ausgehende Anrufe für UM-IP-gateways</A>.
+    > Das Skript "ExchUcUtil.ps1" erstellt ein oder mehrere UM-IP-Gateways für die Lync-Integration. Sie müssen ausgehende Anrufe für alle UM-IP-Gateways deaktivieren, außer dem einen Gateway, das durch das Skript erstellt wurde. Dazu gehört auch das Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways, die vor dem Ausführen des Skripts erstellt wurden. Informationen zum Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Deaktivieren Sie ausgehende Anrufe für UM-IP-gateways</A>.
 
 
 
@@ -134,7 +134,7 @@ Weitere Informationen zu Microsoft Lync Server finden Sie unter [Microsoft Lync 
 
 Sie müssen die folgenden Schritte durchführen, um Unified Messaging für die Zusammenarbeit mit den Enterprise-VoIP-Funktionen in Lync Server zu konfigurieren:
 
-1.  Erstellen Sie einen oder mehrere SIP-URI-Wählpläne von Unified Messaging, die jeweils einem entsprechenden Lync Server-Standortprofil zugeordnet sind. Ein Enterprise-VoIP-Standortprofil muss für jeden Satz Exchange UM-Wähleinstellungen erstellt werden. Sie können mit dem Cmdlet **Get-UMDialPlan** den FQDN eines SIP-URI-Wählplans abrufen. Weitere Informationen zum Erstellen von SIP-URI-Wähleinstellungen finden Sie unter [Erstellen eines UM-Wählplans](create-a-um-dial-plan-exchange-2013-help.md).
+1.  Erstellen Sie einen oder mehrere SIP-URI-Wählpläne von Unified Messaging, die jeweils einem entsprechenden Lync Server-Standortprofil zugeordnet sind. Ein Enterprise-VoIP-Standortprofil muss für jeden Satz Exchange UM-Wähleinstellungen erstellt werden. Sie können mit dem Cmdlet **Get-UMDialPlan** den FQDN eines SIP-URI-Wählplans abrufen. Weitere Informationen zum Erstellen von SIP-URI-Wähleinstellungen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
     
 
     > [!IMPORTANT]
@@ -188,9 +188,9 @@ Sie müssen die folgenden Schritte durchführen, um Unified Messaging für die Z
 
 5.  Legen Sie den Startmodus und den TLS-Überwachungsport für die Clientzugriffsserver und Postfachserver, die dem SIP-URI-Wählplan hinzugefügt werden, auf "Dual" fest, und starten Sie dann den MicrosoftExchange Unified Messaging-Dienst auf jedem Postfachserver und den MicrosoftExchange Unified Messaging-Anrufrouterdienst auf jedem Clientzugriffsserver neu.
 
-6.  Erstellen und konfigurieren Sie eine automatische UM-Telefonzentrale. Weitere Informationen finden Sie unter [Einrichten einer automatischen UM-Telefonzentrale](set-up-a-um-auto-attendant-exchange-2013-help.md).
+6.  Erstellen und konfigurieren Sie eine automatische UM-Telefonzentrale. Weitere Informationen finden Sie unter [Einrichten einer automatischen UM-Telefonzentrale](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant).
 
-7.  Erstellen Sie beim Aktivieren von Benutzern für Voicemail eine SIP-Adresse für die Benutzer, die Enterprise-VoIP verwenden werden. In den meisten Fällen ist dies die SIP-Adresse, die auch verwendet wird, wenn ein Benutzer für Enterprise-VoIP aktiviert wird. Weitere Informationen finden Sie unter [Aktivieren eines Benutzers für Voicemail](enable-a-user-for-voice-mail-exchange-2013-help.md).
+7.  Erstellen Sie beim Aktivieren von Benutzern für Voicemail eine SIP-Adresse für die Benutzer, die Enterprise-VoIP verwenden werden. In den meisten Fällen ist dies die SIP-Adresse, die auch verwendet wird, wenn ein Benutzer für Enterprise-VoIP aktiviert wird. Weitere Informationen finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
     
 
     > [!IMPORTANT]
@@ -202,11 +202,11 @@ Sie müssen die folgenden Schritte durchführen, um Unified Messaging für die Z
     
       - Es erteilt Lync Server die Berechtigung zum Lesen von Exchange UM Active Directory-Komponenten, insbesondere dem in der vorigen Aufgabe erstellten SIP-URI-Wählplan. Weitere Informationen zum Konfigurieren von Berechtigungen in Active Directory finden Sie unter [Anwenden von Berechtigungen mithilfe von ADSI-Bearbeitung](https://go.microsoft.com/fwlink/p/?linkid=82751).
     
-      - Es erstellt einen UM-IP-Gateway für jeden Lync Server-Pool oder für jeden Server, auf dem Lync Server Standard Edition als Host für Enterprise-VoIP-aktivierte Benutzer ausgeführt wird. Weitere Informationen finden Sie unter [Erstellen eines UM-IP-Gateways](create-a-um-ip-gateway-exchange-2013-help.md).
+      - Es erstellt einen UM-IP-Gateway für jeden Lync Server-Pool oder für jeden Server, auf dem Lync Server Standard Edition als Host für Enterprise-VoIP-aktivierte Benutzer ausgeführt wird. Weitere Informationen finden Sie unter [Erstellen eines UM-IP-Gateways](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
     
       - Es erstellt einen Exchange UM-Sammelanschluss für jedes UM-IP-Gateway. Dabei wird die Pilot-ID des Sammelanschlusses als Name des Wählplans verwendet, der dem entsprechenden UM-IP-Gateway zugeordnet ist. Für den Sammelanschluss muss der UM-IP-Wählplan angegeben werden, der mit dem UM-IP-Gateway verwendet wird.
 
-9.  Es aktiviert Benutzer für Voicemail. Stellen Sie dabei sicher, dass Sie eine gültige SIP-Adresse für den Benutzer eingeben und ihn mit einem SIP-Wählplan verknüpfen. Weitere Informationen finden Sie unter [Aktivieren eines Benutzers für Voicemail](enable-a-user-for-voice-mail-exchange-2013-help.md).
+9.  Es aktiviert Benutzer für Voicemail. Stellen Sie dabei sicher, dass Sie eine gültige SIP-Adresse für den Benutzer eingeben und ihn mit einem SIP-Wählplan verknüpfen. Weitere Informationen finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
 Führen Sie außerdem die folgenden Aufgaben aus, um Lync Server für die Verwendung mit Exchange UM zu konfigurieren:
 

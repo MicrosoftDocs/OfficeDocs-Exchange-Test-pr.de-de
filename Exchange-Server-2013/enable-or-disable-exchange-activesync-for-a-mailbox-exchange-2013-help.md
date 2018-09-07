@@ -55,7 +55,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-13_
 
 
 > [!NOTE]
-> Sie können Exchange ActiveSync für mehrere Benutzerpostfächer mithilfe der Massenbearbeitungsfunktion der Exchange-Verwaltungskonsole aktivieren oder deaktivieren. Weitere Informationen finden Sie im Abschnitt "Massenbearbeitung von Benutzerpostfächern" unter <A href="manage-user-mailboxes-exchange-2013-help.md">Verwalten von Benutzerpostfächern</A>.
+> Sie können Exchange ActiveSync für mehrere Benutzerpostfächer mithilfe der Massenbearbeitungsfunktion der Exchange-Verwaltungskonsole aktivieren oder deaktivieren. Weitere Informationen finden Sie im Abschnitt "Massenbearbeitung von Benutzerpostfächern" unter <A href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Verwalten von Benutzerpostfächern</A>.
 
 
 

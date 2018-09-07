@@ -69,7 +69,7 @@ Um Unified Messaging für die Bereitstellung von Voicemailvorschauen in einer an
 
 2.  Laden Sie bei einer lokalen oder Hybridbereitstellung das gewünschte UM-Sprachpaket herunter, und installieren Sie es. Durch das Herunterladen und Installieren des Sprachpakets wird die Standardsprache des Wählplans nicht konfiguriert.
 
-3.  Konfigurieren Sie für den Wählplan die Sprache, die für die Voicemailvorschau verwendet wird. Weitere Informationen finden Sie unter [Festlegen der Standardsprache für einen Wählplan](set-the-default-language-on-a-dial-plan-exchange-2013-help.md).
+3.  Konfigurieren Sie für den Wählplan die Sprache, die für die Voicemailvorschau verwendet wird. Weitere Informationen finden Sie unter [Festlegen der Standardsprache für einen Wählplan](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/set-dial-plan-default-language).
 
 Wie Voicemailvorschautext in den unterstützen Sprachen angezeigt wird, hängt vom Typ der gesendeten Sprachnachricht ab. Es gibt zwei Typen:
 
@@ -79,7 +79,7 @@ Wie Voicemailvorschautext in den unterstützen Sprachen angezeigt wird, hängt v
 
   - **Von einem Outlook Voice Access-Benutzer gesendete Sprachnachrichten**
     
-    Bei Nachrichten, die von einem Outlook Voice Access-Benutzer gesendet werden, wird die Sprache der Voicemailvorschau vom Voicemailadministrator bestimmt. Für den Text der Voicemailvorschau wird die Sprache des Voicemailsystems verwendet. Wenn jedoch ein Anrufer, der keine von der Voicemailvorschau unterstützte Sprache spricht, Outlook Voice Access zum Hinterlassen einer Nachricht verwendet, enthält die Nachricht keinen Voicemailvorschautext. Weitere Informationen zu Outlook Voice Access finden Sie unter [Einrichten von Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md).
+    Bei Nachrichten, die von einem Outlook Voice Access-Benutzer gesendet werden, wird die Sprache der Voicemailvorschau vom Voicemailadministrator bestimmt. Für den Text der Voicemailvorschau wird die Sprache des Voicemailsystems verwendet. Wenn jedoch ein Anrufer, der keine von der Voicemailvorschau unterstützte Sprache spricht, Outlook Voice Access zum Hinterlassen einer Nachricht verwendet, enthält die Nachricht keinen Voicemailvorschautext. Weitere Informationen zu Outlook Voice Access finden Sie unter [Einrichten von Outlook Voice Access](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-up-outlook-voice-access).
 
 ## Erkennt UM, wenn eine Voicemailvorschau ungenau ist?
 

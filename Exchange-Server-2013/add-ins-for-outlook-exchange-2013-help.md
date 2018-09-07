@@ -47,9 +47,9 @@ Outlook-Clients unterstützen eine Vielzahl von Add-Ins, die über den Office St
 
 Standardmäßig können alle Benutzer Add-Ins installieren und entfernen. Exchange-Administratoren haben eine Reihe von Steuerungsmöglichkeiten für die Verwaltung von Add-Ins und den Benutzerzugriff auf diese Add-Ins. Administratoren können das Installieren von Add-Ins, die nicht aus dem Office Store heruntergeladen wurden, durch Benutzer deaktivieren (stattdessen werden sie per „Side-Loading“ aus einer Datei oder URL geladen). Administratoren können auch das Installieren von Office Store-Add-Ins und das Installieren von Add-Ins im Auftrag anderer Benutzer deaktivieren. Es ist auch möglich, Benutzer einer Rolle zuzuweisen, die es ihnen ermöglicht, Add-Ins für Ihre Organisation oder für einen Teil der Benutzer in Ihrer Organisation zu installieren.
 
-Um zu verhindern, dass Benutzer ein Add-In, das nicht aus dem Office Store stammt, installieren, entfernen Sie die Rolle **Eigene benutzerdefinierte Apps**. Um zu verhindern, dass Benutzer Add-Ins aus dem Office Store installieren, entfernen Sie die Rolle **Eigene Marketplace-Apps**. Weitere Informationen finden Sie unter [Festlegen der Administratoren und Benutzer, die Add-Ins für Outlook installieren und verwalten dürfen](specify-the-administrators-and-users-who-can-install-and-manage-add-ins-for-outlook-exchange-2013-help.md)
+Um zu verhindern, dass Benutzer ein Add-In, das nicht aus dem Office Store stammt, installieren, entfernen Sie die Rolle **Eigene benutzerdefinierte Apps**. Um zu verhindern, dass Benutzer Add-Ins aus dem Office Store installieren, entfernen Sie die Rolle **Eigene Marketplace-Apps**. Weitere Informationen finden Sie unter [Festlegen der Administratoren und Benutzer, die Add-Ins für Outlook installieren und verwalten dürfen](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins)
 
-Informationen zum Installieren von Add-Ins für einige oder alle Benutzer in Ihrer Organisation finden Sie unter [Installieren oder Entfernen von Apps für Outlook für Ihre Organisation](install-or-remove-add-ins-for-outlook-for-your-organization-exchange-2013-help.md).
+Informationen zum Installieren von Add-Ins für einige oder alle Benutzer in Ihrer Organisation finden Sie unter [Installieren oder Entfernen von Apps für Outlook für Ihre Organisation](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/install-or-remove-outlook-add-ins).
 
 Bei Bedarf können Sie die Verfügbarkeit eines Add-Ins auf bestimmte Benutzer in der Organisation beschränken. Weitere Informationen finden Sie unter [Verwalten des Benutzerzugriffs auf Apps für Outlook](manage-user-access-to-add-ins-for-outlook-exchange-online-help.md).
 
@@ -65,7 +65,7 @@ Es gibt verschiedene gängige Szenarien, mit denen Sie als Exchange-Administrato
 
   - Damit Benutzer keinerlei Add-Ins mehr installieren können, müssen Sie für die betreffenden Benutzer beide Rollen entfernen.
 
-Weitere Informationen finden Sie unter [Festlegen der Administratoren und Benutzer, die Add-Ins für Outlook installieren und verwalten dürfen](specify-the-administrators-and-users-who-can-install-and-manage-add-ins-for-outlook-exchange-2013-help.md).
+Weitere Informationen finden Sie unter [Festlegen der Administratoren und Benutzer, die Add-Ins für Outlook installieren und verwalten dürfen](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins).
 
 **Falls Ihre Endbenutzer aktuell Zugriff auf Add-Ins haben und Sie dies ändern möchten, können Sie mithilfe des Cmdlets `Get-App` anzeigen, welche Add-Ins die einzelnen Benutzer installiert haben.**
 
@@ -75,5 +75,5 @@ Für Exchange 2013 finden Sie weitere Informationen unter [Get-App](https://tec
 
 ## Zulassen der Installation von Add-Ins durch Administratoren und Benutzer
 
-Sie können angeben, welche Administratoren in Ihrer Organisation die Berechtigung zum Installieren und Verwalten von Add-Ins für Outlook haben. Außerdem können Sie angeben, welche Benutzer in Ihrer Organisation die Berechtigung zum Installieren und Verwalten von Add-Ins zur eigenen Verwendung besitzen. Weitere Informationen finden Sie unter [Festlegen der Administratoren und Benutzer, die Add-Ins für Outlook installieren und verwalten dürfen](specify-the-administrators-and-users-who-can-install-and-manage-add-ins-for-outlook-exchange-2013-help.md).
+Sie können angeben, welche Administratoren in Ihrer Organisation die Berechtigung zum Installieren und Verwalten von Add-Ins für Outlook haben. Außerdem können Sie angeben, welche Benutzer in Ihrer Organisation die Berechtigung zum Installieren und Verwalten von Add-Ins zur eigenen Verwendung besitzen. Weitere Informationen finden Sie unter [Festlegen der Administratoren und Benutzer, die Add-Ins für Outlook installieren und verwalten dürfen](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins).
 

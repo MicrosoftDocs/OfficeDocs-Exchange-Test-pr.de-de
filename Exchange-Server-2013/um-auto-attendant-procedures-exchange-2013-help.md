@@ -17,35 +17,35 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-01-30_
 
-[Einrichten einer automatischen UM-Telefonzentrale](set-up-a-um-auto-attendant-exchange-2013-help.md)
+[Einrichten einer automatischen UM-Telefonzentrale](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant)
 
-[Erstellen einer automatischen UM-Telefonzentrale](create-a-um-auto-attendant-exchange-2013-help.md)
+[Erstellen einer automatischen UM-Telefonzentrale](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant)
 
-[Fügen Sie eine automatische Telefonzentrale Durchwahlnummer ein hinzu](add-an-auto-attendant-extension-number-exchange-2013-help.md)
+[Fügen Sie eine automatische Telefonzentrale Durchwahlnummer ein hinzu](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/add-an-auto-attendant-extension-number)
 
-[Konfigurieren von Geschäftszeiten](configure-business-hours-exchange-2013-help.md)
+[Konfigurieren von Geschäftszeiten](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-business-hours)
 
-[Erstellen eines Feiertagszeitplans](create-a-holiday-schedule-exchange-2013-help.md)
+[Erstellen eines Feiertagszeitplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-holiday-schedule)
 
 [Geben Sie einen Namen für die business](enter-a-business-name-exchange-2013-help.md)
 
-[Business Speicherort festlegen](set-a-business-location-exchange-2013-help.md)
+[Business Speicherort festlegen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-a-business-location)
 
-[Konfigurieren der Zeitzone](configure-the-time-zone-exchange-2013-help.md)
+[Konfigurieren der Zeitzone](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-the-time-zone)
 
-[Aktivieren Sie eine benutzerdefinierte Begrüßung während der Geschäftszeiten](enable-a-customized-business-hours-greeting-exchange-2013-help.md)
+[Aktivieren Sie eine benutzerdefinierte Begrüßung während der Geschäftszeiten](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-a-customized-business-hours-greeting)
 
-[Aktivieren Sie eine benutzerdefinierte Geschäftszeiten Menü Aufforderung](enable-a-customized-business-hours-menu-prompt-exchange-2013-help.md)
+[Aktivieren Sie eine benutzerdefinierte Geschäftszeiten Menü Aufforderung](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-a-customized-business-hours-menu-prompt)
 
-[Aktivieren Sie eine benutzerdefinierte Geschäftszeiten Begrüßung](enable-a-customized-non-business-hours-greeting-exchange-2013-help.md)
+[Aktivieren Sie eine benutzerdefinierte Geschäftszeiten Begrüßung](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-a-customized-non-business-hours-greeting)
 
 [Aktivieren einer benutzerdefinierten Menüansage außerhalb der Geschäftszeiten](enable-a-customized-non-business-hours-menu-prompt-exchange-2013-help.md)
 
 [Aktivieren einer Informationsansage](enable-an-informational-announcement-exchange-2013-help.md)
 
-[Erstellen der Menünavigation](create-menu-navigation-exchange-2013-help.md)
+[Erstellen der Menünavigation](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures)
 
-[Erstellen von Geschäftszeiten Navigationsmenüs](create-business-hours-navigation-menus-exchange-2013-help.md)
+[Erstellen von Geschäftszeiten Navigationsmenüs](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-business-hours-navigation-menus)
 
 [Erstellen Sie außerhalb der Geschäftszeiten Navigationsmenüs](create-non-business-hours-navigation-menus-exchange-2013-help.md)
 
@@ -57,17 +57,17 @@ _**Letztes Änderungsdatum des Themas:** 2013-01-30_
 
 [Deaktivieren einer automatischen UM-Telefonzentrale](disable-a-um-auto-attendant-exchange-2013-help.md)
 
-[Löschen einer automatischen UM-Telefonzentrale](delete-a-um-auto-attendant-exchange-2013-help.md)
+[Löschen einer automatischen UM-Telefonzentrale](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/delete-um-auto-attendant)
 
-[Aktivieren oder Deaktivieren der automatischen Spracherkennung](enable-or-disable-automatic-speech-recognition-exchange-2013-help.md)
+[Aktivieren oder Deaktivieren der automatischen Spracherkennung](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-or-disable-speech-recognition)
 
-[Ermöglichen oder verhindern, dass Weiterleiten von Anrufen von eine automatische Telefonzentrale](enable-or-prevent-transferring-calls-from-an-auto-attendant-exchange-2013-help.md)
+[Ermöglichen oder verhindern, dass Weiterleiten von Anrufen von eine automatische Telefonzentrale](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-or-prevent-transferring-calls)
 
 [Aktivieren oder Deaktivieren des Versands von Sprachnachrichten an Benutzer](enable-or-disable-sending-voice-messages-to-users-exchange-2013-help.md)
 
-[Aktivieren oder Deaktivieren der Verzeichnissuche](enable-or-disable-directory-lookups-exchange-2013-help.md)
+[Aktivieren oder Deaktivieren der Verzeichnissuche](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-or-disable-directory-lookups)
 
 [Konfigurieren Sie die Gruppe von Benutzern, die kontaktiert werden können](configure-the-group-of-users-that-can-be-contacted-exchange-2013-help.md)
 
-[Konfigurieren einer automatischen Telefonzentrale für Benutzer mit ähnlichen Namen](configure-an-auto-attendant-for-users-who-have-similar-names-exchange-2013-help.md)
+[Konfigurieren einer automatischen Telefonzentrale für Benutzer mit ähnlichen Namen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-auto-attendant-for-users-with-similar-names)
 

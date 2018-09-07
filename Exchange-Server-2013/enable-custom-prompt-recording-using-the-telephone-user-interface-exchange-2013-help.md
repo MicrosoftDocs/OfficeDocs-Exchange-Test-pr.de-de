@@ -21,7 +21,7 @@ Mithilfe der Shell können Sie die Aufzeichnung benutzerdefinierter Ansagen und 
 
 Zusätzliche Verwaltungsaufgaben im Zusammenhang mit UM-Wählplänen finden Sie unter [UM-Wählplan – Verfahren](um-dial-plan-procedures-exchange-2013-help.md).
 
-Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentralen finden Sie unter [Automatische UM-Telefonzentrale – Verfahren](um-auto-attendant-procedures-exchange-2013-help.md).
+Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentralen finden Sie unter [Automatische UM-Telefonzentrale – Verfahren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -29,9 +29,9 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentra
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "UM-Wählpläne" und "Automatische UM-Telefonzentralen" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](create-a-um-dial-plan-exchange-2013-help.md).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine automatische UM-Telefonzentrale erstellt wurde. Genaue Anweisungen finden Sie unter [Erstellen einer automatischen UM-Telefonzentrale](create-a-um-auto-attendant-exchange-2013-help.md).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine automatische UM-Telefonzentrale erstellt wurde. Genaue Anweisungen finden Sie unter [Erstellen einer automatischen UM-Telefonzentrale](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -69,7 +69,7 @@ Befolgen Sie diese Schritte, um angepasste Ansagen und Begrüßungen über die T
 
 
 
-6.  Konfigurieren Sie den Wählplan über die Exchange-Verwaltungskonsole oder die Shell so, dass die benutzerdefinierte Begrüßung verwendet wird, oder konfigurieren Sie die automatische Telefonzentrale so, dass die Begrüßung während oder außerhalb der Geschäftszeiten verwendet wird. Nähere Informationen zur Konfiguration eines Wählplans finden Sie unter [Aktivieren einer benutzerdefinierten Begrüßung für Outlook Voice Access-Benutzer](enable-a-customized-greeting-for-outlook-voice-access-users-exchange-2013-help.md). Nähere Informationen zur Konfiguration einer automatischen Telefonzentrale finden Sie unter [Aktivieren Sie eine benutzerdefinierte Begrüßung während der Geschäftszeiten](enable-a-customized-business-hours-greeting-exchange-2013-help.md) oder [Aktivieren Sie eine benutzerdefinierte Geschäftszeiten Begrüßung](enable-a-customized-non-business-hours-greeting-exchange-2013-help.md).
+6.  Konfigurieren Sie den Wählplan über die Exchange-Verwaltungskonsole oder die Shell so, dass die benutzerdefinierte Begrüßung verwendet wird, oder konfigurieren Sie die automatische Telefonzentrale so, dass die Begrüßung während oder außerhalb der Geschäftszeiten verwendet wird. Nähere Informationen zur Konfiguration eines Wählplans finden Sie unter [Aktivieren einer benutzerdefinierten Begrüßung für Outlook Voice Access-Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-a-customized-greeting). Nähere Informationen zur Konfiguration einer automatischen Telefonzentrale finden Sie unter [Aktivieren Sie eine benutzerdefinierte Begrüßung während der Geschäftszeiten](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-a-customized-business-hours-greeting) oder [Aktivieren Sie eine benutzerdefinierte Geschäftszeiten Begrüßung](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-a-customized-non-business-hours-greeting).
 
 7.  Führen Sie das folgende Cmdlet aus:
     

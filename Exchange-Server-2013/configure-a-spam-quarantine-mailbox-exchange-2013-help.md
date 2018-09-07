@@ -59,7 +59,7 @@ Gehen Sie folgendermaßen Sie vor, um ein dediziertes Postfach für die Spamquar
 
   - **Erstellen eines dedizierten Postfachs und Benutzerkontos**   Es wird empfohlen, ein dediziertes Postfach und Active Directory-Benutzerkonto für das Spam-Quarantänepostfach zu erstellen. Weitere Informationen finden Sie unter [Erstellen von Benutzerpostfächern](create-user-mailboxes-exchange-2013-help.md).
     
-    Sie können gemäß den Unternehmensrichtlinien und -anforderungen Ihrer Organisation Empfängerrichtlinien anwenden, z. B. Verwaltung von Nachrichtendatensätzen und Postfachkontingente sowie Delegierungsrechte. Weitere Informationen finden Sie unter [Messaging-Datensatzverwaltung](messaging-records-management-exchange-2013-help.md).
+    Sie können gemäß den Unternehmensrichtlinien und -anforderungen Ihrer Organisation Empfängerrichtlinien anwenden, z. B. Verwaltung von Nachrichtendatensätzen und Postfachkontingente sowie Delegierungsrechte. Weitere Informationen finden Sie unter [Messaging-Datensatzverwaltung](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
     
 
     > [!NOTE]

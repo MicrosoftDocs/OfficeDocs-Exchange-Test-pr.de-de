@@ -127,7 +127,7 @@ Informationen zu Syntax und Parametern finden Sie unter [Remove-DlpPolicy](https
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
-[Richtlinientipps](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md)
+[Richtlinientipps](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/policy-tips)
 

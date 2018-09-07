@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2017-04-20_
 
-Sie können [Aufbewahrungstags und Aufbewahrungsrichtlinien](retention-tags-and-retention-policies-exchange-2013-help.md) verwenden, um den E-Mail-Lebenszyklus zu verwalten. Aufbewahrungsrichtlinien enthalten Aufbewahrungstags, die Einstellungen darstellen, mit denen Sie festlegen können, wann eine Nachricht automatisch in das Archiv verschoben und wann es gelöscht werden soll.
+Sie können [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies) verwenden, um den E-Mail-Lebenszyklus zu verwalten. Aufbewahrungsrichtlinien enthalten Aufbewahrungstags, die Einstellungen darstellen, mit denen Sie festlegen können, wann eine Nachricht automatisch in das Archiv verschoben und wann es gelöscht werden soll.
 
 Ein Aufbewahrungsrichtlinientag (Retention Policy Tag, RPT) ist eine Art Aufbewahrungstag, das Sie auf Standardordner in einem Postfach, wie z. B. **Posteingang** und **Gelöschte Elemente**, anwenden können.
 
@@ -119,7 +119,7 @@ Sie können Aufbewahrungsrichtlinientags für die in der folgenden Tabelle aufge
 
   - Sie können nur ein RPT für einen bestimmten Standardordner zu einer Aufbewahrungsrichtlinie hinzufügen. Wenn eine Aufbewahrungsrichtlinie beispielsweise über ein Tag für den Posteingang verfügt, können Sie ihr kein weiteres Aufbewahrungsrichtlinientag vom Typ "Posteingang" hinzufügen.
 
-  - Informationen dazu, wie Sie RPTs oder andere Arten von Aufbewahrungstags erstellen und sie zu einer Aufbewahrungsrichtlinie hinzufügen, finden Sie unter [Erstellen einer Aufbewahrungsrichtlinie](create-a-retention-policy-exchange-2013-help.md).
+  - Informationen dazu, wie Sie RPTs oder andere Arten von Aufbewahrungstags erstellen und sie zu einer Aufbewahrungsrichtlinie hinzufügen, finden Sie unter [Erstellen einer Aufbewahrungsrichtlinie](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy).
 
   - In Exchange 2013 und Exchange Online gilt ein Standardrichtlinientag auch für die Standardordner **Kalender** und **Aufgaben**. Dies kann dazu führen, dass Elemente basierend auf den Einstellungen für das Standardrichtlinientag gelöscht oder ins Archiv verschoben werden. Damit die Einstellungen für das Standardrichtlinientag keine Elemente aus diesen Ordnern löschen, müssen Sie Aufbewahrungsrichtlinientags mit deaktivierter Aufbewahrung erstellen. Damit die Einstellungen für das Standardrichtlinientag keine Elemente aus einem Standardordner verschieben, können Sie mit der Aktion "In Archiv verschieben" ein deaktiviertes persönliches Tag erstellen, es zur Aufbewahrungsrichtlinie hinzufügen und Ihre Benutzer anweisen, es auf den betreffenden Standardordner anzuwenden. Details hierzu finden Sie im englischsprachigen Artikel [Prevent archiving of items in a default folder in Exchange 2010](https://go.microsoft.com/fwlink/?linkid=511071).
 

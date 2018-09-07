@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Sie lesen eine Zusammenstellung von konzeptuellen Themen und Vorgehensweisen, die nach Thema oder von Microsoft Exchange verwendeten Technologien organisiert sind. Sie können jedes Thema im Inhaltsverzeichnis im linken Fensterbereich, über einen Link in einem anderen Hilfethema, in den Ergebnissen eines Suchvorgangs oder in Ihrer benutzerdefinierten Favoritenliste direkt aufrufen.
 
-Weitere Informationen zur Exchange-Dokumentation finden Sie unter [Copyrighthinweise für Drittanbieterprodukte](third-party-copyright-notices-exchange-2013-help.md).
+Weitere Informationen zur Exchange-Dokumentation finden Sie unter [Copyrighthinweise für Drittanbieterprodukte](https://review.docs.microsoft.com/de-de/exchange/about-exchange-documentation/third-party-copyright-notices).
 
 ## Abrufen der Exchange-Dokumentation
 

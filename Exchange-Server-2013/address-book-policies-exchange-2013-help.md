@@ -125,7 +125,7 @@ Adressbuchrichtlinien funktionieren nicht für Entourage-Benutzer oder Outlook f
 
 ## Weitere Informationen
 
-[Szenario: Bereitstellen von Adressbuchrichtlinien](scenario-deploying-address-book-policies-exchange-2013-help.md)
+[Szenario: Bereitstellen von Adressbuchrichtlinien](scenario-deploying-https://docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies)
 
 [Verfahren für Adressbuchrichtlinien](https://technet.microsoft.com/de-de/library/jj891096\(v=exchg.150\)) in Exchange Online
 

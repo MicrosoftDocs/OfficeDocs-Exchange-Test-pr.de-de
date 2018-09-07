@@ -269,7 +269,7 @@ Es folgt eine vollständige Liste dieser Datenfelder. Alle Daten im Protokoll f�
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Erstellen von Schadensberichten für DLP-Richtlinienerkennungen](create-incident-reports-for-dlp-policy-detections-exchange-2013-help.md)
 

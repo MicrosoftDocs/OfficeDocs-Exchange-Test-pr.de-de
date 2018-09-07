@@ -21,17 +21,17 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-12_
 
 [Aktualisieren einer Adressliste](update-an-address-list-exchange-2013-help.md)
 
-[Erstellen einer Adressliste mithilfe von Empfängerfiltern](create-an-address-list-by-using-recipient-filters-exchange-2013-help.md)
+[Erstellen einer Adressliste mithilfe von Empfängerfiltern](https://review.docs.microsoft.com/de-de/exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list)
 
 [Verschieben einer Adressliste](move-an-address-list-exchange-2013-help.md)
 
 [Entfernen einer Adressliste](remove-an-address-list-exchange-2013-help.md)
 
-[Erstellen einer globalen Adressliste](create-a-global-address-list-exchange-2013-help.md)
+[Erstellen einer globalen Adressliste](https://review.docs.microsoft.com/de-de/exchange/address-books/address-lists/create-global-address-list)
 
-[Konfigurieren der Eigenschaften von globalen Adresslisten](configure-global-address-list-properties-exchange-2013-help.md)
+[Konfigurieren der Eigenschaften von globalen Adresslisten](https://review.docs.microsoft.com/de-de/exchange/address-books/address-lists/configure-global-address-list-properties)
 
-[Entfernen einer globalen Adressliste](remove-a-global-address-list-exchange-2013-help.md)
+[Entfernen einer globalen Adressliste](https://review.docs.microsoft.com/de-de/exchange/address-books/address-lists/remove-a-global-address-list)
 
 [Aktualisieren einer globalen Adressliste](update-a-global-address-list-exchange-2013-help.md)
 

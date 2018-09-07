@@ -21,11 +21,11 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-15_
 
 In einer Hybridbereitstellung können Ihre Benutzer in Exchange Online und/oder lokal sein, und Ihre öffentlichen Ordner sind entweder in Exchange Online oder lokal gespeichert. Manchmal müssen Ihre Onlinebenutzer auf öffentliche Ordner in Ihrer lokalen Exchange Server 2013-Umgebung zugreifen. Ebenso müssen Exchange 2013-Benutzer möglicherweise auf öffentliche Ordner in Office 365 oder Exchange Online zugreifen.
 
-In diesem Artikel wird beschrieben, wie Sie es Benutzern in Ihrer lokalen Exchange 2013-Umgebung ermöglichen können, auf öffentliche Ordner in Exchange Online/Office 365 zuzugreifen. Wie Sie Exchange Online-/Office 365-Benutzern den Zugriff auf öffentliche Ordner in lokalen Exchange 2013-Umgebungen ermöglichen, können Sie im Artikel [Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md) nachlesen.
+In diesem Artikel wird beschrieben, wie Sie es Benutzern in Ihrer lokalen Exchange 2013-Umgebung ermöglichen können, auf öffentliche Ordner in Exchange Online/Office 365 zuzugreifen. Wie Sie Exchange Online-/Office 365-Benutzern den Zugriff auf öffentliche Ordner in lokalen Exchange 2013-Umgebungen ermöglichen, können Sie im Artikel [Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders) nachlesen.
 
 
 > [!NOTE]
-> Wenn Sie über öffentliche Exchange 2010- oder Exchange 2007-Ordner verfügen, finden Sie weitere Informationen unter <A href="configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md">Konfigurieren lokaler öffentlicher Ordner aus Vorversionen für eine Hybridbereitstellung</A>.
+> Wenn Sie über öffentliche Exchange 2010- oder Exchange 2007-Ordner verfügen, finden Sie weitere Informationen unter <A href="https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders">Konfigurieren lokaler öffentlicher Ordner aus Vorversionen für eine Hybridbereitstellung</A>.
 
 
 
@@ -47,7 +47,7 @@ In diesem Artikel wird beschrieben, wie Sie es Benutzern in Ihrer lokalen Exchan
     
 
     > [!NOTE]
-    > Outlook&nbsp;2016&nbsp;für&nbsp;Mac wird für standortübergreifende öffentliche Ordner unterstützt. Wenn Clients in Ihrer Organisation Outlook&nbsp;2016&nbsp;für&nbsp;Mac verwenden, müssen Sie sicherstellen, dass auf diesen Clients das Update vom April&nbsp;2016 installiert ist. Andernfalls können die Benutzer dieser Clients nicht auf öffentliche Ordner in einer Koexistenz oder einer Hybrid-Topologie zugreifen. Weitere Informationen finden Sie unter <A href="accessing-public-folders-with-outlook-2016-for-mac-exchange-2013-help.md">Zugreifen auf öffentliche Ordner mit Outlook&nbsp;2016&nbsp;für&nbsp;Mac</A>.
+    > Outlook&nbsp;2016&nbsp;für&nbsp;Mac wird für standortübergreifende öffentliche Ordner unterstützt. Wenn Clients in Ihrer Organisation Outlook&nbsp;2016&nbsp;für&nbsp;Mac verwenden, müssen Sie sicherstellen, dass auf diesen Clients das Update vom April&nbsp;2016 installiert ist. Andernfalls können die Benutzer dieser Clients nicht auf öffentliche Ordner in einer Koexistenz oder einer Hybrid-Topologie zugreifen. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/access-public-folders-with-outlook-2016-for-mac">Zugreifen auf öffentliche Ordner mit Outlook&nbsp;2016&nbsp;für&nbsp;Mac</A>.
 
 
 

@@ -17,11 +17,11 @@ _**Gilt für:** Exchange Online, Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
-Adressbuchrichtlinien ermöglichen Ihnen die Einteilung von Benutzern in bestimmte Gruppen, um benutzerdefinierte Ansichten der globalen Adressliste Ihrer Organisation bereitzustellen. Bei der Erstellung einer ABP weisen Sie der Richtlinie eine globale Adressliste (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine oder mehrere Adresslisten zu. Anschließend können Sie die ABP Postfachbenutzern zuweisen und diesen den Zugriff auf eine benutzerdefinierte GAL in Outlook und Outlook Web App bereitstellen. Das Ziel besteht darin, einen einfacheren Mechanismus zum Durchführen der GAL-Segmentierung für lokale Organisationen bereitzustellen, die mehrere GALs benötigen. Weitere Informationen zu ABPs finden Sie unter [Adressbuchrichtlinien](address-book-policies-exchange-2013-help.md).
+Adressbuchrichtlinien ermöglichen Ihnen die Einteilung von Benutzern in bestimmte Gruppen, um benutzerdefinierte Ansichten der globalen Adressliste Ihrer Organisation bereitzustellen. Bei der Erstellung einer ABP weisen Sie der Richtlinie eine globale Adressliste (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine oder mehrere Adresslisten zu. Anschließend können Sie die ABP Postfachbenutzern zuweisen und diesen den Zugriff auf eine benutzerdefinierte GAL in Outlook und Outlook Web App bereitstellen. Das Ziel besteht darin, einen einfacheren Mechanismus zum Durchführen der GAL-Segmentierung für lokale Organisationen bereitzustellen, die mehrere GALs benötigen. Weitere Informationen zu ABPs finden Sie unter [Adressbuchrichtlinien](https://review.docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies).
 
 Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Adressbuchrichtlinien finden Sie unter [Verfahren für Adressbuchrichtlinien](address-book-policy-procedures-exchange-2013-help.md).
 
-Sie interessieren sich für Szenarien, in denen dieses Verfahren verwendet werden? Weitere Informationen finden Sie unter [Szenario: Bereitstellen von Adressbuchrichtlinien](scenario-deploying-address-book-policies-exchange-2013-help.md).
+Sie interessieren sich für Szenarien, in denen dieses Verfahren verwendet werden? Weitere Informationen finden Sie unter [Szenario: Bereitstellen von Adressbuchrichtlinien](scenario-deploying-https://docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -31,7 +31,7 @@ Sie interessieren sich für Szenarien, in denen dieses Verfahren verwendet werde
 
   - Standardmäßig wird die Adresslistenrolle in Exchange Online keiner Rollengruppe zugewiesen. Für die Verwendung von Cmdlets, die Adresslistenrolle benötigen, müssen Sie die Rolle einer Rollengruppe hinzufügen. Weitere Informationen finden Sie im Abschnitt „Hinzufügen einer Rolle zu einer Rollengruppe\&quot; im Thema [Verwalten von Rollengruppen](manage-role-groups-exchange-2013-help.md).
 
-  - Die Erstellung einer Adressbuchrichtlinie für eine Organisation ist ein Prozess mit vielen Schritten, der eine sorgfältige Planung erfordert. Weitere Informationen finden Sie unter [Szenario: Bereitstellen von Adressbuchrichtlinien](scenario-deploying-address-book-policies-exchange-2013-help.md).
+  - Die Erstellung einer Adressbuchrichtlinie für eine Organisation ist ein Prozess mit vielen Schritten, der eine sorgfältige Planung erfordert. Weitere Informationen finden Sie unter [Szenario: Bereitstellen von Adressbuchrichtlinien](scenario-deploying-https://docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies).
 
   - Adressbuchrichtlinien können nicht mithilfe der Exchange-Verwaltungskonsole erstellt werden. Sie müssen die Shell verwenden.
 
@@ -61,5 +61,5 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Addre
 
 ## Weitere Informationen
 
-[Zuweisen einer Adressbuchrichtlinie zu E-Mail-Benutzern](assign-an-address-book-policy-to-mail-users-exchange-2013-help.md)
+[Zuweisen einer Adressbuchrichtlinie zu E-Mail-Benutzern](https://review.docs.microsoft.com/de-de/exchange/address-books/address-book-policies/assign-an-address-book-policy-to-mail-users)
 

@@ -25,7 +25,7 @@ Wenn Sie in Ihrer Organisation mehrere Offlineadressbücher (OABs) verwenden, ha
 
   - **Pro mehrere Empfänger**   Mit einem Pipelinebefehl in der Shell können Sie das OAB angeben, das mehrere Empfänger basierend auf gemeinsamen Attributen herunterladen.
 
-  - **Pro Adressbuchrichtlinie**   Sie können dem Konto eines Postfachbenutzers eine Adressbuchrichtlinie zuweisen, um anzugeben, welches OAB in das Empfängerpostfach heruntergeladen wird. Wenn Sie einem Benutzerkonto eine Adressbuchrichtlinie zuweisen, dem bereits ein OAB zugewiesen ist, hat das dem Postfach explizit zugewiesene OAB Vorrang. Weitere Informationen finden Sie unter [Zuweisen einer Adressbuchrichtlinie zu E-Mail-Benutzern](assign-an-address-book-policy-to-mail-users-exchange-2013-help.md).
+  - **Pro Adressbuchrichtlinie**   Sie können dem Konto eines Postfachbenutzers eine Adressbuchrichtlinie zuweisen, um anzugeben, welches OAB in das Empfängerpostfach heruntergeladen wird. Wenn Sie einem Benutzerkonto eine Adressbuchrichtlinie zuweisen, dem bereits ein OAB zugewiesen ist, hat das dem Postfach explizit zugewiesene OAB Vorrang. Weitere Informationen finden Sie unter [Zuweisen einer Adressbuchrichtlinie zu E-Mail-Benutzern](https://review.docs.microsoft.com/de-de/exchange/address-books/address-book-policies/assign-an-address-book-policy-to-mail-users).
 
 Informationen zu weiteren Verwaltungsaufgaben in Bezug auf OABs finden Sie unter [Verfahren für Offlineadressbücher](offline-address-book-procedures-exchange-2013-help.md).
 

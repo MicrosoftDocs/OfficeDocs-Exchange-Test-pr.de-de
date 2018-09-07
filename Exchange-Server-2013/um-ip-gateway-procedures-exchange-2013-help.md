@@ -17,17 +17,17 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-05-03_
 
-[Erstellen eines UM-IP-Gateways](create-a-um-ip-gateway-exchange-2013-help.md)
+[Erstellen eines UM-IP-Gateways](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway)
 
 [Verwalten eines UM-IP-Gateways](manage-a-um-ip-gateway-exchange-2013-help.md)
 
-[Aktivieren eines UM-IP-Gateways](enable-a-um-ip-gateway-exchange-2013-help.md)
+[Aktivieren eines UM-IP-Gateways](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/enable-um-ip-gateway)
 
 [Deaktivieren eines UM-IP-Gateways](disable-a-um-ip-gateway-exchange-2013-help.md)
 
-[Konfigurieren eines vollqualifizierten Domänennamens](configure-a-fully-qualified-domain-name-exchange-2013-help.md)
+[Konfigurieren eines vollqualifizierten Domänennamens](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-fully-qualified-domain-name)
 
-[Konfigurieren der IP-Adresse](configure-the-ip-address-exchange-2013-help.md)
+[Konfigurieren der IP-Adresse](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-ip-address)
 
 [Konfigurieren Sie den Überwachungsport](configure-the-listening-port-exchange-2013-help.md)
 

@@ -572,7 +572,7 @@ Wenn Sie Ihre Öffentlichen Ordner dennoch mithilfe von PST-Dateien migrieren m�
 
 2.  Führen Sie Schritt 2 von Schritt 3: Generieren der CSV-Dateien aus, um die Datei zur Zuordnung von Öffentlichen Ordnern zu Postfächern zu erstellen. Diese Datei wird verwendet, um die richtige Anzahl von Postfächern für Öffentliche Ordner in Exchange Online zu berechnen.
 
-3.  Erstellen Sie die benötigten Postfächer für Öffentliche Ordner basierend auf der Zuordnungsdatei. Weitere Informationen finden Sie unter [Erstellen eines Postfachs für öffentliche Ordner](create-a-public-folder-mailbox-exchange-2013-help.md).
+3.  Erstellen Sie die benötigten Postfächer für Öffentliche Ordner basierend auf der Zuordnungsdatei. Weitere Informationen finden Sie unter [Erstellen eines Postfachs für öffentliche Ordner](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
 4.  Erstellen Sie in jedem Postfach für Öffentliche Ordner mithilfe des Cmdlets New-PublicFolder den Öffentlichen Ordner der obersten Ebene, und geben Sie dabei den Parameter *Mailbox* an.
 
@@ -587,7 +587,7 @@ Wenn Sie Ihre Öffentlichen Ordner dennoch mithilfe von PST-Dateien migrieren m�
 > <LI>
 > <P>Warten, bis die Daten von der automatischen Aufteilung aus dem primären Postfach verschoben werden. Dies kann bis zu zwei Wochen dauern. Allerdings können alle Öffentlichen Ordner in einem vollständig gefüllten Postfach für Öffentliche Ordner keine neuen Inhalte empfangen, bis die automatische Aufteilung abgeschlossen ist.</P>
 > <LI>
-> <P><A href="create-a-public-folder-mailbox-exchange-2013-help.md">Erstellen eines Postfachs für öffentliche Ordner</A> und anschließendes Verwenden des Cmdlets <STRONG>New-PublicFolder</STRONG> mit dem Parameter <EM>Mailbox</EM>, um die verbleibenden Öffentlichen Ordner im sekundären Postfach für Öffentliche Ordner zu erstellen. In diesem Beispiel wird ein neuer Öffentlicher Ordner mit dem Namen PF201 im sekundären Postfach für Öffentliche Ordner erstellt.</P><PRE><CODE>New-PublicFolder -Name PF201 -Mailbox SecondaryPFMbx</CODE></PRE></LI></OL>
+> <P><A href="https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/create-public-folder-mailbox">Erstellen eines Postfachs für öffentliche Ordner</A> und anschließendes Verwenden des Cmdlets <STRONG>New-PublicFolder</STRONG> mit dem Parameter <EM>Mailbox</EM>, um die verbleibenden Öffentlichen Ordner im sekundären Postfach für Öffentliche Ordner zu erstellen. In diesem Beispiel wird ein neuer Öffentlicher Ordner mit dem Namen PF201 im sekundären Postfach für Öffentliche Ordner erstellt.</P><PRE><CODE>New-PublicFolder -Name PF201 -Mailbox SecondaryPFMbx</CODE></PRE></LI></OL>
 
 
 

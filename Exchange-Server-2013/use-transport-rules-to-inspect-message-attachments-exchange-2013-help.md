@@ -29,7 +29,7 @@ Sie können E-Mail-Anlagen in Ihrer Organisation überprüfen, indem Sie Transpo
 
   - Benachrichtigungen für Benutzer erstellen, falls sie eine Nachricht senden, die mit einer Transportregel übereinstimmt.
 
-  - Blockieren aller Nachrichten mit Anlagen. Beispiele finden Sie unter [Standardszenarien für Anlagensperre](common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md).
+  - Blockieren aller Nachrichten mit Anlagen. Beispiele finden Sie unter [Standardszenarien für Anlagensperre](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios).
 
 Exchange-Administratoren können Transportregeln über **Exchange Admin Center** \> **Nachrichtenfluss** \> **Regeln** erstellen. Bevor Sie dieses Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Nachdem Sie mit der Erstellung einer neuen Regel begonnen haben, können Sie die vollständige Liste anlagenbezogener Bedingungen anzeigen, indem Sie unter **Diese Regel anwenden** auf **Weitere Optionen** \> **Mindestens eine Anlage** klicken. Die anlagenbezogenen Optionen sind im folgenden Diagramm dargestellt.
 
@@ -312,11 +312,11 @@ Um Ihnen die Verwaltung wichtiger Geschäftsinformationen in E-Mails zu erleicht
 
   - Definieren Sie eine Aktion, die bei E-Mails ausgeführt wird, die Ausweisnummern enthalten, die sich nicht in der geschützten Datei befinden.
 
-DLP-Richtlinien und anlagenbezogene Bedingungen können Ihnen helfen, Ihren Geschäftsanforderungen gerecht zu werden, indem sie diese Anforderungen als Transportregelbedingungen, Ausnahmen und Aktionen definieren. Wenn Sie die Überprüfung vertraulicher Informationen in eine DLP-Richtlinie einschließen, werden Nachrichtenanlagen nur auf diese Informationen überprüft. Anlagenbezogene Bedingungen wie Größe oder Dateityp werden jedoch erst eingeschlossen, wenn Sie die in diesem Thema aufgeführten Bedingungen hinzufügen. DLP ist nicht in allen Versionen von Exchange verfügbar. Weitere Informationen finden Sie unter [Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
+DLP-Richtlinien und anlagenbezogene Bedingungen können Ihnen helfen, Ihren Geschäftsanforderungen gerecht zu werden, indem sie diese Anforderungen als Transportregelbedingungen, Ausnahmen und Aktionen definieren. Wenn Sie die Überprüfung vertraulicher Informationen in eine DLP-Richtlinie einschließen, werden Nachrichtenanlagen nur auf diese Informationen überprüft. Anlagenbezogene Bedingungen wie Größe oder Dateityp werden jedoch erst eingeschlossen, wenn Sie die in diesem Thema aufgeführten Bedingungen hinzufügen. DLP ist nicht in allen Versionen von Exchange verfügbar. Weitere Informationen finden Sie unter [Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention).
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)
 

@@ -100,7 +100,7 @@ Die folgende Tabelle listet die verfügbaren E-Mail-Infos in Exchange 2013 auf.
 <td><p>Outlook</p>
 <p>Outlook Web App</p></td>
 <td><p>Eine benutzerdefinierte E-Mail-Info wird angezeigt, wenn der Absender einen Empfänger hinzufügt, für den eine benutzerdefinierte E-Mail-Info konfiguriert ist.</p>
-<p>Eine benutzerdefinierte E-Mail-Info kann hilfreich sein, um spezielle Informationen zu einem Empfänger bereitzustellen. Beispielsweise können Sie eine benutzerdefinierte E-Mail-Info für eine Verteilergruppe erstellen, in der Sie den Zweck der Verteilergruppe erläutern, damit sie seltener falsch verwendet wird. Weitere Informationen finden Sie unter <a href="configure-custom-mailtips-for-recipients-exchange-2013-help.md">Konfigurieren benutzerdefinierter E-Mail-Infos für Empfänger</a>.</p>
+<p>Eine benutzerdefinierte E-Mail-Info kann hilfreich sein, um spezielle Informationen zu einem Empfänger bereitzustellen. Beispielsweise können Sie eine benutzerdefinierte E-Mail-Info für eine Verteilergruppe erstellen, in der Sie den Zweck der Verteilergruppe erläutern, damit sie seltener falsch verwendet wird. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/mailtips/configure-custom-mailtips">Konfigurieren benutzerdefinierter E-Mail-Infos für Empfänger</a>.</p>
 <p>Standardmäßig werden benutzerdefinierte E-Mail-Infos nicht angezeigt, wenn der Absender keine Nachrichten an diesen Empfänger senden darf. In diesem Fall wird die E-Mail-Info für eingeschränkte Empfänger angezeigt. Sie können diese Konfiguration jedoch ändern und auch die benutzerdefinierte E-Mail-Info anzeigen.</p></td>
 </tr>
 <tr class="odd">
@@ -124,7 +124,7 @@ Die folgende Tabelle listet die verfügbaren E-Mail-Infos in Exchange 2013 auf.
 <p>Outlook Web App</p></td>
 <td><p>Die E-Mail-Info zu externen Empfängern wird angezeigt, wenn der Absender einen externen Empfänger oder eine Verteilergruppe mit externen Empfängern hinzufügt.</p>
 <p>Mit dieser E-Mail-Info werden Absender informiert, wenn eine Nachricht, die sie schreiben, die Organisation verlassen wird. So können sie die richtigen Entscheidungen hinsichtlich Formulierungen, Tonfall und Inhalt treffen.</p>
-<p>Standardmäßig ist diese E-Mail-Info deaktiviert. Sie können sie mit dem Cmdlet <strong>Set-OrganizationConfig</strong> aktivieren. Weitere Informationen finden Sie unter <a href="mailtips-over-organization-relationships-exchange-2013-help.md">E-Mail-Infos über Organisationsbeziehungen</a>.</p>
+<p>Standardmäßig ist diese E-Mail-Info deaktiviert. Sie können sie mit dem Cmdlet <strong>Set-OrganizationConfig</strong> aktivieren. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips-over-organization-relationships">E-Mail-Infos über Organisationsbeziehungen</a>.</p>
 <p>Wenn ein Teil Ihrer Benutzerpostfächer in Exchange Online gehostet wird und Sie die Koexistenz mit Exchange Online eingerichtet haben, hat die Einstellung für das Remotedomänenobjekt, das den Remotebereich Ihrer Organisation darstellt, direkte Auswirkungen auf die Verarbeitung dieser E-Mail-Info.</p>
 <p>Wenn die Remotedomäne als interne Domäne konfiguriert ist (der Parameter <em>IsInternal</em> für das Remotedomänenobjekt ist auf <code>$true</code> festgelegt), werden alle Empfänger in dieser Remotedomäne als intern behandelt, sodass für sie die E-Mail-Info für externe Empfänger nicht angezeigt wird. Wenn die Remotedomäne nicht als interne Domäne konfiguriert ist, werden die Empfänger in dieser Domäne als extern betrachtet, und beim Verfassen einer Nachricht an diese Empfänger wird diese E-Mail-Info angezeigt.</p>
 
@@ -138,7 +138,7 @@ Die folgende Tabelle listet die verfügbaren E-Mail-Infos in Exchange 2013 auf.
 <td><p>Große Benutzergruppe</p></td>
 <td><p>Outlook</p>
 <p>Outlook Web App</p></td>
-<td><p>Die E-Mail-Info zu großer Benutzergruppe wird angezeigt, wenn der Absender eine Verteilergruppe hinzufügt, die mehr Mitglieder enthält, als für die Größe einer großen Benutzergruppe für Ihre Organisation konfiguriert ist. Standardmäßig wird diese E-Mail-Info in Exchange für Nachrichten an Verteilergruppen mit mehr als 25 Mitgliedern angezeigt. Weitere Informationen finden Sie unter <a href="configure-the-large-audience-size-for-your-organization-exchange-2013-help.md">Konfigurieren einer großen Benutzergruppe für Ihre Organisation</a>.</p>
+<td><p>Die E-Mail-Info zu großer Benutzergruppe wird angezeigt, wenn der Absender eine Verteilergruppe hinzufügt, die mehr Mitglieder enthält, als für die Größe einer großen Benutzergruppe für Ihre Organisation konfiguriert ist. Standardmäßig wird diese E-Mail-Info in Exchange für Nachrichten an Verteilergruppen mit mehr als 25 Mitgliedern angezeigt. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/mailtips/configure-large-audience-size">Konfigurieren einer großen Benutzergruppe für Ihre Organisation</a>.</p>
 <p>Die Größe der Verteilergruppen wird nicht jedes Mal berechnet. Stattdessen werden die Verteilergruppeninformationen aus den Gruppenmetrikdaten gelesen.</p></td>
 </tr>
 <tr class="even">

@@ -47,11 +47,11 @@ Unified Messaging basiert auf der Fähigkeit des VoIP-Gateways, TDM-Protokolle (
 
 Die Auswahl des geeigneten VoIP-Gateways, einer IP-Nebenstellenanlage, einer SIP-fähigen Nebenstellenanlage oder eines SBC ist nur der erste Schritt zur Integration der UM-Funktion in Ihr Telefoniesystem. Sie müssen diese Geräte für die Zusammenarbeit mit UM konfigurieren. Bei lokalen und Hybridbereitstellungen müssen Sie die benötigen Clientzugriffs- und Postfachserver bereitstellen sowie alle erforderlichen UM-Komponenten erstellen und konfigurieren. Für Office 365 mit gehosteter Voicemail müssen keine Server installiert und konfiguriert werden. Die Komponenten erlauben eine Verbindung zwischen Ihrem leitungsbasierten Telefonienetzwerk und Ihrem IP-Datennetzwerk, wodurch Voicemail für die Benutzer in Ihrer Organisation ermöglicht wird. Einzelheiten und unterstützte Telefoniegeräte finden Sie in den folgenden Ressourcen:
 
-  - [Telefonieratgeber für Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  - [Telefonieratgeber für Exchange 2013](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013)
 
-  - [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  - [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures)
 
-  - [Konfigurationshinweise für unterstützte Session Border Controller](configuration-notes-for-supported-session-border-controllers-exchange-2013-help.md)
+  - [Konfigurationshinweise für unterstützte Session Border Controller](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-session-border-controllers)
 
 ## Microsoft Lync Server
 

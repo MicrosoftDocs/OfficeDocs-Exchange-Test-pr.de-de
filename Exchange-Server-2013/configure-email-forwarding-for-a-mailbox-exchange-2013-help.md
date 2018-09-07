@@ -49,9 +49,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 Wie gehen Sie vor, wenn Sie E-Mails an eine E-Mail-Adresse außerhalb Ihrer Organisation weiterleiten möchten? Oder E-Mail-Nachrichten an mehrere Empfänger weiterleiten? Dies ist ebenfalls möglich.
 
-  - **Externe Adressen**Erstellen Sie einen E-Mail-Kontakt, und wählen Sie dann in den vorhergehenden Schritten den E-Mail-Kontakt auf der Seite **Empfänger auswählen**. Möchten Sie wissen, wie Sie einen E-Mail-Kontakt erstellen? Weitere Informationen finden Sie hier: [Verwalten von E-Mail-Kontakten](manage-mail-contacts-exchange-2013-help.md).
+  - **Externe Adressen**Erstellen Sie einen E-Mail-Kontakt, und wählen Sie dann in den vorhergehenden Schritten den E-Mail-Kontakt auf der Seite **Empfänger auswählen**. Möchten Sie wissen, wie Sie einen E-Mail-Kontakt erstellen? Weitere Informationen finden Sie hier: [Verwalten von E-Mail-Kontakten](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-contacts).
 
-  - **Mehrere Empfänger**Erstellen Sie eine Verteilergruppe, fügen Sie Empfänger zu dieser hinzu, und wählen Sie dann den E-Mail-Kontakt in den vorhergehenden Schritten auf der Seite **Empfänger auswählen**. Möchten Sie wissen, wie Sie einen E-Mail-Kontakt erstellen? Weitere Informationen finden Sie hier: [Erstellen und Verwalten von Verteilergruppen](create-and-manage-distribution-groups-exchange-2013-help.md).
+  - **Mehrere Empfänger**Erstellen Sie eine Verteilergruppe, fügen Sie Empfänger zu dieser hinzu, und wählen Sie dann den E-Mail-Kontakt in den vorhergehenden Schritten auf der Seite **Empfänger auswählen**. Möchten Sie wissen, wie Sie einen E-Mail-Kontakt erstellen? Weitere Informationen finden Sie hier: [Erstellen und Verwalten von Verteilergruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups).
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

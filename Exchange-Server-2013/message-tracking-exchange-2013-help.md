@@ -77,7 +77,7 @@ Die Benennungskonvention für Protokolldateien im Verzeichnis für die Nachricht
 
   - **MSGTRK**   Diese Protokolle sind dem Transportdienst zugeordnet.
 
-  - **MSGTRKMA**   Diese Protokolle sind den vom moderierten Transport zugeordneten Genehmigungen und Zurückweisungen zugeordnet. Weitere Informationen finden Sie unter [Verwalten der Nachrichtengenehmigung](manage-message-approval-exchange-2013-help.md).
+  - **MSGTRKMA**   Diese Protokolle sind den vom moderierten Transport zugeordneten Genehmigungen und Zurückweisungen zugeordnet. Weitere Informationen finden Sie unter [Verwalten der Nachrichtengenehmigung](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-message-approval).
 
   - **MSGTRKMD**   Diese Protokolle sind Nachrichten zugeordnet, die Postfächern vom Postfachtransport-Zustellungsdienst zugestellt werden.
 
@@ -343,7 +343,7 @@ Verschiedene Ereignistypen im Feld **event-id** dienen zum Klassifizieren der Na
 </tr>
 <tr class="even">
 <td><p><strong>INITMESSAGECREATED</strong></p></td>
-<td><p>Eine Nachricht wurde an einen moderierten Empfänger gesendet, weshalb die Nachricht zwecks Genehmigung an das Vermittlungspostfach gesendet wurde. Weitere Informationen finden Sie unter <a href="manage-message-approval-exchange-2013-help.md">Verwalten der Nachrichtengenehmigung</a>.</p></td>
+<td><p>Eine Nachricht wurde an einen moderierten Empfänger gesendet, weshalb die Nachricht zwecks Genehmigung an das Vermittlungspostfach gesendet wurde. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Verwalten der Nachrichtengenehmigung</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LOAD</strong></p></td>
@@ -351,7 +351,7 @@ Verschiedene Ereignistypen im Feld **event-id** dienen zum Klassifizieren der Na
 </tr>
 <tr class="even">
 <td><p><strong>MODERATIONEXPIRE</strong></p></td>
-<td><p>Ei Moderator eines moderierten Empfängers hat die Nachricht weder genehmigt noch abgelehnt, weshalb sie abgelaufen ist. Weitere Informationen zu moderierten Empfängern finden Sie unter <a href="manage-message-approval-exchange-2013-help.md">Verwalten der Nachrichtengenehmigung</a>.</p></td>
+<td><p>Ei Moderator eines moderierten Empfängers hat die Nachricht weder genehmigt noch abgelehnt, weshalb sie abgelaufen ist. Weitere Informationen zu moderierten Empfängern finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Verwalten der Nachrichtengenehmigung</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MODERATORAPPROVE</strong></p></td>
@@ -478,7 +478,7 @@ Die Werte im Feld **source** im Nachrichtenverfolgungsprotokoll geben die Transp
 </tr>
 <tr class="odd">
 <td><p><strong>APPROVAL</strong></p></td>
-<td><p>Die Ereignisquelle war das Genehmigungssystem, das mit moderierten Empfänger verwendet wird. Weitere Informationen finden Sie unter <a href="manage-message-approval-exchange-2013-help.md">Verwalten der Nachrichtengenehmigung</a>.</p></td>
+<td><p>Die Ereignisquelle war das Genehmigungssystem, das mit moderierten Empfänger verwendet wird. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Verwalten der Nachrichtengenehmigung</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BOOTLOADER</strong></p></td>

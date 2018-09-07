@@ -17,37 +17,37 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-15_
 
-[Aktivieren oder Deaktivieren von Outlook Voice Access für Benutzer](enable-or-disable-outlook-voice-access-for-users-exchange-2013-help.md)
+[Aktivieren oder Deaktivieren von Outlook Voice Access für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-disable-outlook-voice-access)
 
-[Konfigurieren einer Outlook Voice Access-Nummer](configure-an-outlook-voice-access-number-exchange-2013-help.md)
+[Konfigurieren einer Outlook Voice Access-Nummer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-outlook-voice-access-number)
 
 [Deaktivieren von ausgewählten Features für Outlook Voice Access-Benutzer](disable-selected-features-for-outlook-voice-access-users-exchange-2013-help.md)
 
 [Festlegen von Postfachfunktionen für Outlook Voice Access-Benutzer](set-mailbox-features-for-outlook-voice-access-users-exchange-2013-help.md)
 
-[Festlegen von Postfachfeatures für einen Benutzer Outlook Voice Access](set-mailbox-features-for-an-outlook-voice-access-user-exchange-2013-help.md)
+[Festlegen von Postfachfeatures für einen Benutzer Outlook Voice Access](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-mailbox-features-for-a-user)
 
-[Aktivieren oder Deaktivieren der automatischen Spracherkennung für einen Outlook Voice Access-Benutzer](enable-or-disable-automatic-speech-recognition-for-an-outlook-voice-access-user-exchange-2013-help.md)
+[Aktivieren oder Deaktivieren der automatischen Spracherkennung für einen Outlook Voice Access-Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-disable-automatic-speech-recognition)
 
-[Aktivieren einer Informationsansage für Outlook Voice Access-Benutzer](enable-an-informational-announcement-for-outlook-voice-access-users-exchange-2013-help.md)
+[Aktivieren einer Informationsansage für Outlook Voice Access-Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-an-informational-announcement)
 
-[Aktivieren einer benutzerdefinierten Begrüßung für Outlook Voice Access-Benutzer](enable-a-customized-greeting-for-outlook-voice-access-users-exchange-2013-help.md)
+[Aktivieren einer benutzerdefinierten Begrüßung für Outlook Voice Access-Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-a-customized-greeting)
 
-[Aktivieren oder Deaktivieren der Funktion "Wiedergabe über Telefon" für Outlook Voice Access-Benutzer](enable-or-disable-play-on-phone-for-outlook-voice-access-users-exchange-2013-help.md)
+[Aktivieren oder Deaktivieren der Funktion "Wiedergabe über Telefon" für Outlook Voice Access-Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-disable-play-on-phone)
 
 [Aktivieren Sie oder deaktivieren Sie der sendenden Sprachnachrichten aus Outlook Voice Access](enable-or-disable-sending-voice-messages-from-outlook-voice-access-exchange-2013-help.md)
 
-[Ermöglichen oder verhindern, dass Weiterleiten von Anrufen von Outlook Voice Access](enable-or-prevent-transferring-calls-from-outlook-voice-access-exchange-2013-help.md)
+[Ermöglichen oder verhindern, dass Weiterleiten von Anrufen von Outlook Voice Access](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-prevent-transferring-calls)
 
-[Konfigurieren Sie die Gruppe von Benutzern, die Outlook Voice Access-Benutzer wenden können](configure-the-group-of-users-that-outlook-voice-access-users-can-contact-exchange-2013-help.md)
+[Konfigurieren Sie die Gruppe von Benutzern, die Outlook Voice Access-Benutzer wenden können](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-the-group-of-users-that-outlook-voice-access-users-can-contact)
 
-[Konfigurieren Sie die primäre Methode für Outlook Voice Access-Benutzer suchen](configure-the-primary-way-for-outlook-voice-access-users-to-search-exchange-2013-help.md)
+[Konfigurieren Sie die primäre Methode für Outlook Voice Access-Benutzer suchen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-primary-search-method)
 
-[Konfigurieren Sie die sekundäre Methode für Outlook Voice Access-Benutzer suchen](configure-the-secondary-way-for-outlook-voice-access-users-to-search-exchange-2013-help.md)
+[Konfigurieren Sie die sekundäre Methode für Outlook Voice Access-Benutzer suchen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-secondary-search-method)
 
-[Konfigurieren der Anzahl von Anmeldefehlern, bevor Outlook Voice Access-Benutzer getrennt werden](configure-the-number-of-sign-in-failures-before-outlook-voice-access-users-are-disconnected-exchange-2013-help.md)
+[Konfigurieren der Anzahl von Anmeldefehlern, bevor Outlook Voice Access-Benutzer getrennt werden](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-number-of-sign-in-failures)
 
-[Die Anzahl der Eingabefehler zu konfigurieren, bevor Outlook Voice Access-Benutzer getrennt sind](configure-the-number-of-input-failures-before-outlook-voice-access-users-are-disconnected-exchange-2013-help.md)
+[Die Anzahl der Eingabefehler zu konfigurieren, bevor Outlook Voice Access-Benutzer getrennt sind](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-number-of-input-failures)
 
-[Konfigurieren Sie den Grenzwert auf persönliche Begrüßung für Outlook Voice Access-Benutzer](configure-the-limit-on-personal-greetings-for-outlook-voice-access-users-exchange-2013-help.md)
+[Konfigurieren Sie den Grenzwert auf persönliche Begrüßung für Outlook Voice Access-Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-personal-greetings-limit)
 

@@ -35,7 +35,7 @@ Möchten Sie wissen, welche Verwaltungsaufgaben es im Zusammenhang mit MRM gibt?
 
 ## MRM in Exchange Server 2013 und Exchange Online
 
-In Exchange Server 2013 und Exchange Online wird MRM durch die Verwendung von Aufbewahrungstags und Aufbewahrungsrichtlinien erzielt. Aufbewahrungstags werden verwendet, um Aufbewahrungseinstellungen auf ein vollständiges Postfach und standardmäßige Postfachordner wie "Posteingang" und "Gelöschte Elemente" anzuwenden. Sie können außerdem Aufbewahrungstags erstellen und bereitstellen, die Benutzer mit Outlook 2010 und höher sowie Outlook Web App-Benutzer auf Ordner oder einzelne Nachrichten anwenden können. Nach der Erstellung fügen Sie Aufbewahrungstags zu einer Aufbewahrungsrichtlinie hinzu und wenden dann die Richtlinie auf Benutzer an. Der Assistent für verwaltete Ordner verarbeitet Postfächer und wendet Aufbewahrungseinstellungen in der Aufbewahrungsrichtlinie des Benutzers an. Weitere Informationen zu Aufbewahrungsrichtlinien finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](retention-tags-and-retention-policies-exchange-2013-help.md).
+In Exchange Server 2013 und Exchange Online wird MRM durch die Verwendung von Aufbewahrungstags und Aufbewahrungsrichtlinien erzielt. Aufbewahrungstags werden verwendet, um Aufbewahrungseinstellungen auf ein vollständiges Postfach und standardmäßige Postfachordner wie "Posteingang" und "Gelöschte Elemente" anzuwenden. Sie können außerdem Aufbewahrungstags erstellen und bereitstellen, die Benutzer mit Outlook 2010 und höher sowie Outlook Web App-Benutzer auf Ordner oder einzelne Nachrichten anwenden können. Nach der Erstellung fügen Sie Aufbewahrungstags zu einer Aufbewahrungsrichtlinie hinzu und wenden dann die Richtlinie auf Benutzer an. Der Assistent für verwaltete Ordner verarbeitet Postfächer und wendet Aufbewahrungseinstellungen in der Aufbewahrungsrichtlinie des Benutzers an. Weitere Informationen zu Aufbewahrungsrichtlinien finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies).
 
 Wenn eine Nachricht den im jeweiligen Aufbewahrungstag angegebenen Aufbewahrungszeitraum erreicht, führt der Assistent für verwaltete Ordner die im Tag festgelegte Aufbewahrungsaktion aus. Nachrichten können dann endgültig gelöscht werden oder wiederherstellbar bleiben. Wenn für den Benutzer ein Archiv bereitgestellt wurde, können Sie mit Aufbewahrungstags auch Elemente in das Compliance-Archiv des Benutzers verschieben.
 
@@ -93,5 +93,5 @@ Optional können Sie es Benutzern mit Aufbewahrungsrichtlinientags und persönli
 
 [Terminologie für die Messaging-Datensatzverwaltung in Exchange 2013](messaging-records-management-terminology-in-exchange-2013-exchange-2013-help.md)
 
-[Aufbewahrungstags und Aufbewahrungsrichtlinien](retention-tags-and-retention-policies-exchange-2013-help.md)
+[Aufbewahrungstags und Aufbewahrungsrichtlinien](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
 

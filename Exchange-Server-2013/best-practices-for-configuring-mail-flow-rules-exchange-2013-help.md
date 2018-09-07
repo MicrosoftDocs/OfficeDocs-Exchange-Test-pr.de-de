@@ -29,7 +29,7 @@ Stellen Sie sicher, dass die Regel nur auf vorgesehene Nachrichten angewendet wi
 
   - **Schränken Sie eine Regel auf Nachrichten ein, die entweder an die Organisation oder aus der Organisation gesendet werden.**
     
-    Standardmäßig wird eine neue Regel auf Nachrichten angewendet, die entweder von Personen in der Organisation gesendet oder empfangen werden. Wenn die Regel nur auf eine Weise angewendet werden soll, müssen Sie dies in den Bedingungen für diese Regel festlegen. Ein Beispiel finden Sie unter [Standardszenarien für Anlagensperre](common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md).
+    Standardmäßig wird eine neue Regel auf Nachrichten angewendet, die entweder von Personen in der Organisation gesendet oder empfangen werden. Wenn die Regel nur auf eine Weise angewendet werden soll, müssen Sie dies in den Bedingungen für diese Regel festlegen. Ein Beispiel finden Sie unter [Standardszenarien für Anlagensperre](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios).
 
   - **Einschränken einer Regel auf Grundlage der Absender- oder Empfängerdomäne**
     
@@ -47,7 +47,7 @@ Eine vollständige Liste aller Bedingungen und Ausnahmen, die für Transportrege
 
 Manchmal benötigen Sie zwei Regeln, um eine gewünschte Aktion zu erzielen. Transportregeln werden der Reihe nach verarbeitet, sodass mehrere Regeln auf dieselbe Nachricht angewendet werden können. Wenn z. B. eine Aktion zum Blockieren der Nachricht dient, und eine weitere Aktion wie Kopieren der Nachricht an den Vorgesetzten des Absenders oder Ändern des Betreffs für die Benachrichtigungs-E-Mail angewendet werden soll, benötigen Sie zwei Regeln. Die erste Regel könnte dann das Kopieren der Nachricht an den Vorgesetzten des Absenders und das Ändern des Betreffs umfassen, und die zweite Regel das Blockieren der Nachricht.
 
-Achten Sie darauf, dass die Bedingungen identisch sind, wenn Sie zwei Regeln dieser Art verwenden. Beispiele hierzu finden Sie im Beispiel 3 unter [Gängige Szenarien der Nachrichtengenehmigung](common-message-approval-scenarios-exchange-2013-help.md), im Beispiel 3 unter [Standardszenarien für Anlagensperre](common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md) und unter [Organisationsweite Haftungsausschlüsse, Signaturen, Fußzeilen oder Kopfzeilen](organization-wide-disclaimers-signatures-footers-or-headers-exchange-online-help.md).
+Achten Sie darauf, dass die Bedingungen identisch sind, wenn Sie zwei Regeln dieser Art verwenden. Beispiele hierzu finden Sie im Beispiel 3 unter [Gängige Szenarien der Nachrichtengenehmigung](common-message-approval-scenarios-exchange-2013-help.md), im Beispiel 3 unter [Standardszenarien für Anlagensperre](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios) und unter [Organisationsweite Haftungsausschlüsse, Signaturen, Fußzeilen oder Kopfzeilen](organization-wide-disclaimers-signatures-footers-or-headers-exchange-online-help.md).
 
 ## Führen Sie keine Wiederholung einer Aktion für alle E-Mails in einer Unterhaltung durch.
 
@@ -96,7 +96,7 @@ Die Textdatei kann reguläre Ausdrücke für Muster enthalten. Für diese Ausdr�
 </table>
 
 
-Ein Beispiel für eine Textdatei mit regulären Ausdrücken und die im Exchange-Modul zu verwendenden Windows PowerShell-Befehle finden Sie unter [Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern](use-mail-flow-rules-to-route-email-based-on-a-list-of-words-phrases-or-patterns-exchange-2013-help.md).
+Ein Beispiel für eine Textdatei mit regulären Ausdrücken und die im Exchange-Modul zu verwendenden Windows PowerShell-Befehle finden Sie unter [Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/use-rules-to-route-email).
 
 Informationen zum Angeben von Mustern mithilfe von regulären Ausdrücken finden Sie unter [Referenz zu regulären Ausdrücken](https://go.microsoft.com/fwlink/p/?linkid=532394).
 

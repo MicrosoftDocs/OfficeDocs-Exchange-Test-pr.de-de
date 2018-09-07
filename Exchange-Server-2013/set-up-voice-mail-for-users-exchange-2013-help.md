@@ -23,5 +23,5 @@ Wenn Sie Benutzer für Voicemails aktivieren, müssen Sie die Benutzer mit einer
 
 ## Einrichten der Voicemailfunktion für Benutzer
 
-Bevor Sie Benutzer für UM aktivieren, müssen Sie die zu verwendenden Wählplantypen und Durchwahlnummern berücksichtigen und festlegen, welche PIN-Richtlinien, Outlook Web Access-Funktionen und weiteren Funktionen Sie für den Benutzerzugriff konfigurieren möchten. Weitere Informationen finden Sie unter [Voicemail für Benutzer](voice-mail-for-users-exchange-2013-help.md).
+Bevor Sie Benutzer für UM aktivieren, müssen Sie die zu verwendenden Wählplantypen und Durchwahlnummern berücksichtigen und festlegen, welche PIN-Richtlinien, Outlook Web Access-Funktionen und weiteren Funktionen Sie für den Benutzerzugriff konfigurieren möchten. Weitere Informationen finden Sie unter [Voicemail für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users).
 

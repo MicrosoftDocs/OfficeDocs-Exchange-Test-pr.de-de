@@ -23,7 +23,7 @@ Damit Benutzer die E-Mail-Richtlinien Ihrer Organisation einhalten können, kön
 
   - Beispiel 2: Verwenden einer langen Liste mit nicht zulässigen Wörtern
 
-Wenn Ihre Organisation Verhinderung von Datenverlust (Data Loss Prevention, DLP) verwendet, finden Sie unter [Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md) weitere Optionen für die Identifizierung und das Routing von E-Mails mit vertraulichen Informationen.
+Wenn Ihre Organisation Verhinderung von Datenverlust (Data Loss Prevention, DLP) verwendet, finden Sie unter [Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) weitere Optionen für die Identifizierung und das Routing von E-Mails mit vertraulichen Informationen.
 
 ## Beispiel 1: Verwenden einer kurzen Liste mit nicht zulässigen Wörtern
 

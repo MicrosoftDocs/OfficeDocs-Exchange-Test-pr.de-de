@@ -25,7 +25,7 @@ Sie können Add-Ins für Outlook für Ihre Organisation über die Exchange-Verwa
 
 
 
-Informationen zu weiteren Verwaltungsaufgaben finden Sie unter [Apps für Outlook](add-ins-for-outlook-exchange-2013-help.md).
+Informationen zu weiteren Verwaltungsaufgaben finden Sie unter [Apps für Outlook](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -33,7 +33,7 @@ Informationen zu weiteren Verwaltungsaufgaben finden Sie unter [Apps für Outloo
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter „Apps für Outlook“ im Thema [Empfängerberechtigungen](recipients-permissions-exchange-2013-help.md).
 
-  - Sie können Administratoren die Berechtigung zum Installieren und Verwalten von Add-Ins für Ihre Organisation zuweisen. Außerdem können Sie Benutzern die Berechtigung zum Installieren und Verwalten von Add-Ins zur eigenen Verwendung zuweisen. Weitere Informationen finden Sie unter [Festlegen der Administratoren und Benutzer, die Add-Ins für Outlook installieren und verwalten dürfen](specify-the-administrators-and-users-who-can-install-and-manage-add-ins-for-outlook-exchange-2013-help.md).
+  - Sie können Administratoren die Berechtigung zum Installieren und Verwalten von Add-Ins für Ihre Organisation zuweisen. Außerdem können Sie Benutzern die Berechtigung zum Installieren und Verwalten von Add-Ins zur eigenen Verwendung zuweisen. Weitere Informationen finden Sie unter [Festlegen der Administratoren und Benutzer, die Add-Ins für Outlook installieren und verwalten dürfen](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins).
 
   - Zugriff auf Office Store wird für Postfächer oder Organisationen in bestimmten Regionen nicht unterstützt. Wenn **Aus dem Office Store hinzufügen** nicht als Option im **Exchange Admin Center** unter **Organisation** \> **Add-Ins** \> ![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)") angezeigt wird, können Sie ein Add-In für Outlook über eine URL oder einen Dateispeicherort installieren. Weitere Informationen erhalten Sie von Ihrem Dienstanbieter.
 

@@ -50,7 +50,7 @@ Wie Sie diese Probleme beheben, richtet sich danach, ob Sie die Suchergebnisse a
 </tr>
 <tr class="even">
 <td><p>Ja</p></td>
-<td><p>Führen Sie die unter <a href="reduce-the-size-of-a-discovery-mailbox-in-exchange-exchange-2013-help.md">Verkleinern eines Discoverypostfachs in Exchange</a> beschriebenen Schritte aus.</p></td>
+<td><p>Führen Sie die unter <a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/reduce-discovery-mailbox-size">Verkleinern eines Discoverypostfachs in Exchange</a> beschriebenen Schritte aus.</p></td>
 </tr>
 </tbody>
 </table>

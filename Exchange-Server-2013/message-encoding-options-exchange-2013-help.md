@@ -399,9 +399,9 @@ Zurück zum Seitenanfang
 
 [Remotedomänen in Exchange Online](https://technet.microsoft.com/de-de/library/jj966211\(v=exchg.150\))
 
-[Verwalten von E-Mail-Benutzern](manage-mail-users-exchange-2013-help.md)
+[Verwalten von E-Mail-Benutzern](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-users)
 
-[Verwalten von E-Mail-Kontakten](manage-mail-contacts-exchange-2013-help.md)
+[Verwalten von E-Mail-Kontakten](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-contacts)
 
 [Ändern des Nachrichtenformats in Outlook](https://go.microsoft.com/fwlink/p/?linkid=397890)
 

@@ -27,9 +27,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Outdialing finden Sie
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "UM-Postfachrichtlinien" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine UM-Postfachrichtlinie erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](create-a-um-mailbox-policy-exchange-2013-help.md).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine UM-Postfachrichtlinie erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
 
-  - Bestätigen Sie, bevor Sie diese Verfahren durchführen, dass regionale/nationale und internationale Wählregeln für einen UM-Wählplan erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen von Wählregeln für Benutzer](create-dialing-rules-for-users-exchange-2013-help.md).
+  - Bestätigen Sie, bevor Sie diese Verfahren durchführen, dass regionale/nationale und internationale Wählregeln für einen UM-Wählplan erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen von Wählregeln für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/create-dialing-rules).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
