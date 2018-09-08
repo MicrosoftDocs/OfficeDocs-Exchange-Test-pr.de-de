@@ -25,7 +25,7 @@ Nachdem Sie eine Compliance-eDiscovery-Suche erstellt haben, können Sie die Suc
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "Compliance-eDiscovery" im Thema [Berechtigungen für Messagingrichtlinien und -kompatibilität](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 
-  - Eine eDiscovery-Suche muss mithilfe der EAC oder der Shell erstellt werden, bevor Sie die Suchergebnisse kopieren können. Weitere Informationen finden Sie unter [Erstellen einer Compliance-eDiscovery-Suche](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search).
+  - Eine eDiscovery-Suche muss mithilfe der EAC oder der Shell erstellt werden, bevor Sie die Suchergebnisse kopieren können. Weitere Informationen finden Sie unter [Erstellen einer Compliance-eDiscovery-Suche](https://technet.microsoft.com/de-de/library/Dd353189(v=EXCHG.150)).
 
   - Das Exchange 2013-Setup erstellt ein Discoverypostfach namens **Discoverysuchpostfach**, um Suchergebnisse zu kopieren. Das Postfach für die Discoverysuche wird standardmäßig in Exchange Online erstellt. Sie können zusätzliche Discoverypostfächer erstellen. Weitere Informationen finden Sie unter [Erstellen eines Discoverypostfachs](create-a-discovery-mailbox-exchange-2013-help.md).
 
@@ -71,7 +71,7 @@ Nachdem Sie eine Compliance-eDiscovery-Suche erstellt haben, können Sie die Suc
 
 Nachdem Sie mithilfe des Cmdlets **New-MailboxSearch** eine Compliance-eDiscovery-Suche erstellt haben, müssen Sie die Suche starten, um Nachrichten in das im Parameter *TargetMailbox* angegebene Discoverypostfach zu kopieren. Informationen über die Erstellung von eDiscovery-Suchen mithilfe der Shell erhalten Sie unter:
 
-  - [Use the Shell to create an In-Place eDiscovery search](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search)
+  - [Use the Shell to create an In-Place eDiscovery search](https://technet.microsoft.com/de-de/library/Dd353189(v=EXCHG.150))
 
   - [New-MailboxSearch](https://technet.microsoft.com/de-de/library/dd298064\(v=exchg.150\))
 
@@ -95,7 +95,7 @@ Um die Ergebnisse dieser Suche in ein Discoverypostfach zu kopieren, würden Sie
 
 ## Weitere Informationen über das Kopieren von Suchergebnissen
 
-  - Wenn Sie Suchergebnisse in das Discoverypostfach kopiert haben, können Sie sie in eine PST-Datei exportieren. Weitere Informationen finden Sie unter [Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/export-search-results).
+  - Wenn Sie Suchergebnisse in das Discoverypostfach kopiert haben, können Sie sie in eine PST-Datei exportieren. Weitere Informationen finden Sie unter [Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei](https://technet.microsoft.com/de-de/library/Dn440164(v=EXCHG.150)).
 
   - Weitere Informationen zu nicht durchsuchbaren Elementen finden Sie unter [Nicht durchsuchbare Elemente in Exchange eDiscovery](unsearchable-items-in-exchange-ediscovery-exchange-2013-help.md).
 
@@ -107,5 +107,5 @@ Um die Ergebnisse dieser Suche in ein Discoverypostfach zu kopieren, würden Sie
     
       - **Suchergebnisse in Vorschau anzeigen**   Mit dieser Option können Sie die zurückgegebenen Suchergebnisse in einer Vorschau anzeigen, anstatt Sie zur Anzeige in ein Discoverypostfach kopieren zu müssen. Auf diese Weise können Sie schnell bestimmen, ob die Suchergebnisse relevant sind. Nachdem Sie eine Vorschau der Ergebnisse angezeigt haben, können Sie die Suchabfrage überarbeiten, um die Suchergebnisse einzugrenzen, und die Suche erneut ausführen. Die Elemente auf der Vorschauseite sind schreibgeschützte Versionen der tatsächlichen Suchergebnisse. Sie können sie auf der Vorschauseite also nicht verschieben, bearbeiten, löschen oder weiterleiten.
     
-    Weitere Informationen finden Sie unter [Estimate or preview search results](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search).
+    Weitere Informationen finden Sie unter [Estimate or preview search results](https://technet.microsoft.com/de-de/library/Dd353189(v=EXCHG.150)).
 

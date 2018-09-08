@@ -277,7 +277,7 @@ Zur Unterstützung beim Erstellen von Empfängerfiltern für dynamische Verteile
 
   - Empfängercontainer
 
-Sie können Bedingungen auch basierend auf anderen Empfängereigenschaften als den oben genannten angeben. Zu diesem Zweck müssen Sie mithilfe der Shell eine benutzerdefinierte Abfrage für die dynamische Verteilergruppe erstellen. Denken Sie daran, dass die Filter- und Bedingungseinstellungen für dynamische Verteilergruppen mit benutzerdefinierten Empfängerfiltern nur über die Shell verwaltet werden können. Ein Beispiel dafür, wie eine dynamische Verteilergruppe mithilfe einer benutzerdefinierten Abfrage erstellt wird, finden Sie unter [Verwalten dynamischer Verteilergruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups).
+Sie können Bedingungen auch basierend auf anderen Empfängereigenschaften als den oben genannten angeben. Zu diesem Zweck müssen Sie mithilfe der Shell eine benutzerdefinierte Abfrage für die dynamische Verteilergruppe erstellen. Denken Sie daran, dass die Filter- und Bedingungseinstellungen für dynamische Verteilergruppen mit benutzerdefinierten Empfängerfiltern nur über die Shell verwaltet werden können. Ein Beispiel dafür, wie eine dynamische Verteilergruppe mithilfe einer benutzerdefinierten Abfrage erstellt wird, finden Sie unter [Verwalten dynamischer Verteilergruppen](https://technet.microsoft.com/de-de/library/Bb123722(v=EXCHG.150)).
 
 ## E-Mail-Kontakte
 

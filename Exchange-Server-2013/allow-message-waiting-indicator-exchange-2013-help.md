@@ -185,7 +185,7 @@ Für die Verwaltung von MWI können Einstellungen für zwei UM-Komponenten konfi
 
 ## UM-Postfachrichtlinien und MWI
 
-Sie erstellen eine UM-Postfachrichtlinie, um eine allgemeine Zusammenstellung von UM-Richtlinien und -Einstellungen auf eine Gruppe von UM-aktivierten Postfächern anzuwenden. Mithilfe einer UM-Postfachrichtlinie können Sie beispielsweise PIN-Richtlinieneinstellungen, Wähleinschränkungen und MWI-Benachrichtigungen anwenden. Wird MWI für eine UM-Postfachrichtlinie aktiviert oder deaktiviert, werden auch alle UM-aktivierten Benutzer, die der UM-Postfachrichtlinie zugeordnet sind, aktiviert bzw. deaktiviert. Die MWI-Einstellung gilt für eine Teilmenge der Benutzer, die mit einem UM-Wählplan verknüpft sind. Weitere Informationen zu UM-Postfachrichtlinien und zum Aktivieren bzw. Deaktivieren von MWI für eine UM-aktivierte Benutzergruppe finden Sie unter [UM-Postfachrichtlinien – Verfahren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policy-procedures).
+Sie erstellen eine UM-Postfachrichtlinie, um eine allgemeine Zusammenstellung von UM-Richtlinien und -Einstellungen auf eine Gruppe von UM-aktivierten Postfächern anzuwenden. Mithilfe einer UM-Postfachrichtlinie können Sie beispielsweise PIN-Richtlinieneinstellungen, Wähleinschränkungen und MWI-Benachrichtigungen anwenden. Wird MWI für eine UM-Postfachrichtlinie aktiviert oder deaktiviert, werden auch alle UM-aktivierten Benutzer, die der UM-Postfachrichtlinie zugeordnet sind, aktiviert bzw. deaktiviert. Die MWI-Einstellung gilt für eine Teilmenge der Benutzer, die mit einem UM-Wählplan verknüpft sind. Weitere Informationen zu UM-Postfachrichtlinien und zum Aktivieren bzw. Deaktivieren von MWI für eine UM-aktivierte Benutzergruppe finden Sie unter [UM-Postfachrichtlinien – Verfahren](https://technet.microsoft.com/de-de/library/JJ851061(v=EXCHG.150)).
 
 Sie können das EAC oder das Cmdlet **Set-UMMailboxPolicy** in der Shell verwenden, um die MWI-Einstellung zu konfigurieren, wie es in der folgenden Tabelle dargestellt ist.
 
@@ -218,9 +218,9 @@ Sie können das EAC oder das Cmdlet **Set-UMMailboxPolicy** in der Shell verwend
 
 Weitere Informationen zum Verwalten von MWI-Einstellungen in einer UM-Postfachrichtlinie finden Sie in den folgenden Themen:
 
-  - [Verwalten einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy)
+  - [Verwalten einer UM-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Aa998829(v=EXCHG.150))
 
-  - [Aktivieren der MWI-Funktion (Message Waiting Indicator) für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-mwi-for-users)
+  - [Aktivieren der MWI-Funktion (Message Waiting Indicator) für Benutzer](https://technet.microsoft.com/de-de/library/Dd335216(v=EXCHG.150))
 
   - [Deaktivieren der Nachricht wartet Indicator (MWI) für Benutzer](disable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md)
 
@@ -228,7 +228,7 @@ Weitere Informationen zum Verwalten von MWI-Einstellungen in einer UM-Postfachri
 
 ## UM-IP-Gateways und MWI
 
-Wird MWI für ein UM-IP-Gateway deaktiviert, wird MWI für alle Benutzer deaktiviert, die eine Verbindung zu dem VoIP-Gateway oder der IP-Festnetztelefonanlage herstellen, das bzw. die als UM-IP-Gateway definiert ist. Wenn Sie MWI auf einem einzigen UM-IP-Gateway, das mit einem UM-Wählplan verknüpft ist, deaktivieren, werden möglicherweise MWI-Benachrichtigungen für alle UM-aktivierten Benutzer, die mit einem oder mehreren UM-Wählplänen bzw. einer oder mehreren UM-Postfachrichtlinien verknüpft sind, deaktiviert. Weitere Informationen zu UM-Postfachrichtlinien und zum Aktivieren bzw. Deaktivieren von MWI für eine UM-aktivierte Benutzergruppe finden Sie unter [Verwalten einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy).
+Wird MWI für ein UM-IP-Gateway deaktiviert, wird MWI für alle Benutzer deaktiviert, die eine Verbindung zu dem VoIP-Gateway oder der IP-Festnetztelefonanlage herstellen, das bzw. die als UM-IP-Gateway definiert ist. Wenn Sie MWI auf einem einzigen UM-IP-Gateway, das mit einem UM-Wählplan verknüpft ist, deaktivieren, werden möglicherweise MWI-Benachrichtigungen für alle UM-aktivierten Benutzer, die mit einem oder mehreren UM-Wählplänen bzw. einer oder mehreren UM-Postfachrichtlinien verknüpft sind, deaktiviert. Weitere Informationen zu UM-Postfachrichtlinien und zum Aktivieren bzw. Deaktivieren von MWI für eine UM-aktivierte Benutzergruppe finden Sie unter [Verwalten einer UM-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Aa998829(v=EXCHG.150)).
 
 Sie können das EAC oder das Cmdlet **Set-UMMailboxPolicy** in der Shell verwenden, um die MWI-Einstellung zu konfigurieren, wie es in der folgenden Tabelle dargestellt ist.
 
@@ -262,9 +262,9 @@ Weitere Informationen zum Verwalten von MWI-Einstellungen finden Sie in den folg
 
   - [Verwalten eines UM-IP-Gateways](manage-a-um-ip-gateway-exchange-2013-help.md)
 
-  - [MWI (Message Waiting Indicator) für ein UM-IP-Gateway unterstützen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-mwi-on-um-ip-gateway)
+  - [MWI (Message Waiting Indicator) für ein UM-IP-Gateway unterstützen](https://technet.microsoft.com/de-de/library/Dd297995(v=EXCHG.150))
 
-  - [Verhindern von MWI an einem UM-IP-Gateway](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-mwi-on-um-ip-gateway)
+  - [Verhindern von MWI an einem UM-IP-Gateway](https://technet.microsoft.com/de-de/library/JJ673536(v=EXCHG.150))
 
   - [Set-UMIPGateway](https://technet.microsoft.com/de-de/library/aa996577\(v=exchg.150\))
 
@@ -341,7 +341,7 @@ In der folgenden Tabelle sehen Sie die Parameter für eine UM-Postfachrichtlinie
 
 Weitere Informationen zum Verwalten von Einstellungen für Benachrichtigungen per Textnachricht finden Sie in den folgenden Themen:
 
-  - [Verwalten einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy)
+  - [Verwalten einer UM-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Aa998829(v=EXCHG.150))
 
   - [Set-UMMailboxPolicy](https://technet.microsoft.com/de-de/library/bb124903\(v=exchg.150\))
 

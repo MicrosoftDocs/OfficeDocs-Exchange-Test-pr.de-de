@@ -101,7 +101,7 @@ Führen Sie diesen Befehl aus, um die Sicherheitsgruppe "eDiscovery-Manager für
 
     Add-DistributionGroupMember -Identity "Ottawa Users" -Member "Ottawa Users eDiscovery Managers"
 
-Sie können Mitglieder einer Verteilergruppe auch im Exchange Admin Center hinzufügen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Verteilergruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups).
+Sie können Mitglieder einer Verteilergruppe auch im Exchange Admin Center hinzufügen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Verteilergruppen](https://technet.microsoft.com/de-de/library/Bb124513(v=EXCHG.150)).
 
 ## (Optional) Schritt 5: Hinzufügen eines Discoverypostfachs als Mitglied der Verteilergruppe, die zum Erstellen des benutzerdefinierten Verwaltungsbereichs verwendet wurde
 
@@ -143,7 +143,7 @@ Im Folgenden sind einige Möglichkeiten aufgeführt, wie Sie überprüfen könne
     
         Set-DistributionGroup "Vancouver Users eDiscovery Scope" -HiddenFromAddressListsEnabled $true
     
-    Weitere Informationen zum Erstellen und Verwalten von Verteilergruppen finden Sie unter [Erstellen und Verwalten von Verteilergruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups).
+    Weitere Informationen zum Erstellen und Verwalten von Verteilergruppen finden Sie unter [Erstellen und Verwalten von Verteilergruppen](https://technet.microsoft.com/de-de/library/Bb124513(v=EXCHG.150)).
 
   - Obwohl Sie nur die Mitgliedschaft in Verteilergruppen als Empfängerfilter für einen für eDiscovery genutzten benutzerdefinierten Verwaltungsbereich verwenden können, können Sie jedoch Benutzer dieser Verteilergruppe mithilfe weiterer Empfängereigenschaften hinzufügen. Hier sind einige Beispiele dafür, wie mit den Cmdlets **Get-Mailbox** und **Get-Recipient** eine bestimmte Gruppe von Benutzern basierend auf allgemeinen Benutzer- oder Postfachattributen zurückgegeben wird.
     

@@ -31,15 +31,15 @@ Sie interessieren sich für Szenarien, in denen dieses Verfahren verwendet wird?
 
   - [Überprüfen von Nachrichtenanlagen mithilfe von Transportregeln](use-transport-rules-to-inspect-message-attachments-exchange-2013-help.md)
 
-  - [Standardszenarien für Anlagensperre](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios)
+  - [Standardszenarien für Anlagensperre](https://technet.microsoft.com/de-de/library/Dn950026(v=EXCHG.150))
 
-  - [Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/use-rules-to-route-email)
+  - [Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern](https://technet.microsoft.com/de-de/library/Dn951131(v=EXCHG.150))
 
   - [Gängige Szenarien der Nachrichtengenehmigung](common-message-approval-scenarios-exchange-2013-help.md)
 
-  - [Verwenden von Nachrichtenflussregeln zum Umgehen von unwichtigen Elementen durch Nachrichten](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/use-rules-to-bypass-clutter)
+  - [Verwenden von Nachrichtenflussregeln zum Umgehen von unwichtigen Elementen durch Nachrichten](https://technet.microsoft.com/de-de/library/Dn896639(v=EXCHG.150))
 
-  - [Bewährte Methoden für die Konfiguration von Nachrichtenflussregeln](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices)
+  - [Bewährte Methoden für die Konfiguration von Nachrichtenflussregeln](https://technet.microsoft.com/de-de/library/Dn960147(v=EXCHG.150))
 
   - [Überprüfen von Nachrichtenanlagen mithilfe von Nachrichtenflussregeln](https://technet.microsoft.com/de-de/library/jj919236\(v=exchg.150\))
 
@@ -132,7 +132,7 @@ Im EAC können Sie E-Mail-Flussregeln erstellen, indem Sie eine Vorlage verwende
         
           - **Erzwingen**   Diese Option aktiviert die Regel, die unmittelbar mit der Verarbeitung von Nachrichten beginnt. Alle Aktionen für die Regel werden ausgeführt.
         
-          - **Test mit Richtlinientipps**   Damit wird die Regel aktiviert, und alle Richtlinientippaktionen (**Absender mit Richtlinientipp benachrichtigen**) werden gesendet. Es erfolgen keine Aktionen im Zusammenhang mit der Nachrichtenübermittlung. Zur Verwendung dieses Modus ist DLP (Data Loss Prevention, Verhinderung von Datenverlust) erforderlich. Weitere Informationen finden Sie unter [Richtlinientipps](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/policy-tips).
+          - **Test mit Richtlinientipps**   Damit wird die Regel aktiviert, und alle Richtlinientippaktionen (**Absender mit Richtlinientipp benachrichtigen**) werden gesendet. Es erfolgen keine Aktionen im Zusammenhang mit der Nachrichtenübermittlung. Zur Verwendung dieses Modus ist DLP (Data Loss Prevention, Verhinderung von Datenverlust) erforderlich. Weitere Informationen finden Sie unter [Richtlinientipps](https://technet.microsoft.com/de-de/library/JJ150512(v=EXCHG.150)).
         
           - **Test mit Richtlinientipps**   Nur die Aktion "Schadensbericht generieren" wird durchgeführt. Es erfolgen keine Aktionen im Zusammenhang mit der Nachrichtenübermittlung.
 

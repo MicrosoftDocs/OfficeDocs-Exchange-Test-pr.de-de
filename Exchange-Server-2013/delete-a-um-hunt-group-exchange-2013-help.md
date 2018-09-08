@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
 Nachdem Sie den Unified Messaging-Sammelanschluss (UM) gelöscht haben, verarbeitet oder beantwortet das zum UM-Sammelanschluss gehörende UM-IP-Gateway keine eingehenden Anrufe mehr. Wenn das Löschen des UM-Sammelanschlusses dazu führt, dass keine konfigurierten Sammelanschlüsse für das UM-IP-Gateway verbleiben, ist das UM-IP-Gateway nicht mehr in der Lage, UM-Anrufe anzunehmen oder zu verarbeiten.
 
-Informationen zu weiteren Aufgaben im Zusammenhang mit UM-Sammelanschlüssen finden Sie unter [Um-Sammelanschlüsse Gruppieren von Prozeduren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-group-procedures).
+Informationen zu weiteren Aufgaben im Zusammenhang mit UM-Sammelanschlüssen finden Sie unter [Um-Sammelanschlüsse Gruppieren von Prozeduren](https://technet.microsoft.com/de-de/library/JJ851063(v=EXCHG.150)).
 
 
 > [!WARNING]
@@ -33,11 +33,11 @@ Informationen zu weiteren Aufgaben im Zusammenhang mit UM-Sammelanschlüssen fin
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "UM-Sammelanschlüsse" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein UM-IP-Gateway erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-IP-Gateways](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein UM-IP-Gateway erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-IP-Gateways](https://technet.microsoft.com/de-de/library/Aa998045(v=EXCHG.150)).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein UM-Sammelanschluss erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Sammelanschlusses](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-hunt-group).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein UM-Sammelanschluss erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Sammelanschlusses](https://technet.microsoft.com/de-de/library/Aa997679(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

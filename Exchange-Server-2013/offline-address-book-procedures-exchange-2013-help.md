@@ -19,19 +19,19 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-04_
 
 [Erstellen eines Offlineadressbuchs](create-an-offline-address-book-exchange-2013-help.md)
 
-[Hinzufügen einer Adressliste zu oder Entfernen einer Adressliste aus einem Offlineadressbuch](https://review.docs.microsoft.com/de-de/exchange/address-books/offline-address-books/add-or-remove-an-address-list)
+[Hinzufügen einer Adressliste zu oder Entfernen einer Adressliste aus einem Offlineadressbuch](https://technet.microsoft.com/de-de/library/Bb123563(v=EXCHG.150))
 
-[Ändern des Standard-Offlineadressbuchs](https://review.docs.microsoft.com/de-de/exchange/address-books/offline-address-books/change-default-offline-address-book)
+[Ändern des Standard-Offlineadressbuchs](https://technet.microsoft.com/de-de/library/Aa998569(v=EXCHG.150))
 
 [Zuordnen von Empfängern für Downloads von Offlineadressbüchern](provision-recipients-for-offline-address-book-downloads-exchange-2013-help.md)
 
-[Entfernen eines Offlineadressbuchs](https://review.docs.microsoft.com/de-de/exchange/address-books/offline-address-books/remove-offline-address-book)
+[Entfernen eines Offlineadressbuchs](https://technet.microsoft.com/de-de/library/Bb124744(v=EXCHG.150))
 
-[Aktualisieren eines Offlineadressbuchs](https://review.docs.microsoft.com/de-de/exchange/address-books/offline-address-books/update-offline-address-book)
+[Aktualisieren eines Offlineadressbuchs](https://technet.microsoft.com/de-de/library/Aa997684(v=EXCHG.150))
 
 [Erstellen eines virtuellen Offlineadressbuch-Verzeichnisses](create-an-offline-address-book-virtual-directory-exchange-2013-help.md)
 
-[Ändern des Zeitplans für die Generierung des Offlineadressbuchs](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures)
+[Ändern des Zeitplans für die Generierung des Offlineadressbuchs](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150))
 
-[Konfigurieren der Eigenschaften der Offlineadressbuch-Verteilung](https://review.docs.microsoft.com/de-de/exchange/address-books/offline-address-books/configure-distribution-properties)
+[Konfigurieren der Eigenschaften der Offlineadressbuch-Verteilung](https://technet.microsoft.com/de-de/library/Bb123710(v=EXCHG.150))
 

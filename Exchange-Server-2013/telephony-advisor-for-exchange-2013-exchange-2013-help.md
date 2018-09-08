@@ -47,9 +47,9 @@ Das Erstellen von Richtlinien für die Bereitstellung von Telefonienetzwerken st
 
   - **Unified Messaging-Spezialisten**   UM-Spezialisten sind Systemintegratoren, die eine technische Schulung zu Exchange Unified Messaging absolviert haben, die vom Exchange-Technikteam durchgeführt wurde. Um einen problemlosen Übergang von Legacy-Voicemailsystemen zu Unified Messaging zu gewährleisten, empfiehlt Microsoft allen Kunden, sich an einen UM-Spezialisten zu wenden. Kontaktinformationen finden Sie unter [Microsoft Exchange Server 2013 Unified Messaging (UM) Specialists](https://go.microsoft.com/fwlink/p/?linkid=262708) oder [Microsoft Pinpoint for Unified Messaging](https://go.microsoft.com/fwlink/p/?linkid=261951).
 
-  - **Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen**   Diese Konfigurationshinweise enthalten Einstellungen und andere nützliche Informationen für die Konfiguration von VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen für die Kommunikation mit Unified Messaging-Servern in Ihrem Netzwerk. Weitere Informationen finden Sie unter [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures).
+  - **Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen**   Diese Konfigurationshinweise enthalten Einstellungen und andere nützliche Informationen für die Konfiguration von VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen für die Kommunikation mit Unified Messaging-Servern in Ihrem Netzwerk. Weitere Informationen finden Sie unter [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150)).
 
-  - **Konfigurationshinweise für unterstützte SBCs (Session Border Controllers)**   In diesen Konfigurationshinweisen finden Sie Einstellungen und weitere Informationen, die bei der Konfiguration von SBCs (Session Border Controllers) für die Kommunikation mit Unified Messaging-Servern in Hybrid- und Exchange Online-UM-Bereitstellungen hilfreich sein können. Weitere Informationen finden Sie unter [Konfigurationshinweise für unterstützte Session Border Controller](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-session-border-controllers).
+  - **Konfigurationshinweise für unterstützte SBCs (Session Border Controllers)**   In diesen Konfigurationshinweisen finden Sie Einstellungen und weitere Informationen, die bei der Konfiguration von SBCs (Session Border Controllers) für die Kommunikation mit Unified Messaging-Servern in Hybrid- und Exchange Online-UM-Bereitstellungen hilfreich sein können. Weitere Informationen finden Sie unter [Konfigurationshinweise für unterstützte Session Border Controller](https://technet.microsoft.com/de-de/library/JJ673565(v=EXCHG.150)).
     
 
     > [!NOTE]
@@ -91,9 +91,9 @@ Das Qualifizierungsprogramm für IP-Gateways, IP-Nebenstellenanlagen und erweite
 
 Einzelheiten zum Konfigurieren von unterstützten VoIP-Gateways, IP-Nebenstellenanlagen, Nebenstellenanlagen und SBCs finden Sie in den folgenden Ressourcen:
 
-  - [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures)
+  - [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150))
 
-  - [Konfigurationshinweise für unterstützte Session Border Controller](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-session-border-controllers)
+  - [Konfigurationshinweise für unterstützte Session Border Controller](https://technet.microsoft.com/de-de/library/JJ673565(v=EXCHG.150))
 
 Interoperabilität wurde für die folgenden Anbieter von VoIP-Gateways bestätigt:
 

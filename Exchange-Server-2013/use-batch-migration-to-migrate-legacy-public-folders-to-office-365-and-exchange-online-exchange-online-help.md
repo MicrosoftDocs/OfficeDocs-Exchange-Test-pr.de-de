@@ -572,7 +572,7 @@ Wenn Sie Ihre Öffentlichen Ordner dennoch mithilfe von PST-Dateien migrieren m�
 
 2.  Führen Sie Schritt 2 von Schritt 3: Generieren der CSV-Dateien aus, um die Datei zur Zuordnung von Öffentlichen Ordnern zu Postfächern zu erstellen. Diese Datei wird verwendet, um die richtige Anzahl von Postfächern für Öffentliche Ordner in Exchange Online zu berechnen.
 
-3.  Erstellen Sie die benötigten Postfächer für Öffentliche Ordner basierend auf der Zuordnungsdatei. Weitere Informationen finden Sie unter [Erstellen eines Postfachs für öffentliche Ordner](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
+3.  Erstellen Sie die benötigten Postfächer für Öffentliche Ordner basierend auf der Zuordnungsdatei. Weitere Informationen finden Sie unter [Erstellen eines Postfachs für öffentliche Ordner](https://technet.microsoft.com/de-de/library/JJ552410(v=EXCHG.150)).
 
 4.  Erstellen Sie in jedem Postfach für Öffentliche Ordner mithilfe des Cmdlets New-PublicFolder den Öffentlichen Ordner der obersten Ebene, und geben Sie dabei den Parameter *Mailbox* an.
 

@@ -17,9 +17,9 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-05-03_
 
-[Erstellen einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy)
+[Erstellen einer UM-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Bb123510(v=EXCHG.150))
 
-[Verwalten einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy)
+[Verwalten einer UM-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Aa998829(v=EXCHG.150))
 
-[Löschen einer um-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/delete-um-mailbox-policy)
+[Löschen einer um-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Bb124536(v=EXCHG.150))
 

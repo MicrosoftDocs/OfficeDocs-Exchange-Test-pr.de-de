@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-18_
 
 Ein telefonischer Sammelanschluss bietet eine Möglichkeit, Telefonanrufe einer einzelnen Nummer an mehrere Durchwahlen oder Telefonnummern zu verteilen. In Unified Messaging (UM) ist ein UM-Sammelanschluss die logische Abbildung eines telefonischen Sammelanschlusses und dient zum Verbinden eines UM-IP-Gateways mit einem UM-Wählplan.
 
-Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit Unified Messaging-Sammelanschlüssen gibt? Weitere Informationen finden Sie unter [Um-Sammelanschlüsse Gruppieren von Prozeduren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-group-procedures).
+Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit Unified Messaging-Sammelanschlüssen gibt? Weitere Informationen finden Sie unter [Um-Sammelanschlüsse Gruppieren von Prozeduren](https://technet.microsoft.com/de-de/library/JJ851063(v=EXCHG.150)).
 
 **Inhalt**
 

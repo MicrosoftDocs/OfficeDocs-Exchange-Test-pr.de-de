@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
-Adressbuchrichtlinien ermöglichen Ihnen die Einteilung von Benutzern in bestimmte Gruppen, um benutzerdefinierte Ansichten der globalen Adressliste Ihrer Organisation bereitzustellen. Bei der Erstellung einer ABP weisen Sie der Richtlinie eine globale Adressliste (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine oder mehrere Adresslisten zu. Anschließend können Sie die ABP Postfachbenutzern zuweisen und diesen den Zugriff auf eine benutzerdefinierte GAL in Outlook und Outlook Web App bereitstellen. Das Ziel besteht darin, einen einfacheren Mechanismus zum Durchführen der GAL-Segmentierung für lokale Organisationen bereitzustellen, die mehrere GALs benötigen. Weitere Informationen zu ABPs finden Sie unter [Adressbuchrichtlinien](https://review.docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies).
+Adressbuchrichtlinien ermöglichen Ihnen die Einteilung von Benutzern in bestimmte Gruppen, um benutzerdefinierte Ansichten der globalen Adressliste Ihrer Organisation bereitzustellen. Bei der Erstellung einer ABP weisen Sie der Richtlinie eine globale Adressliste (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine oder mehrere Adresslisten zu. Anschließend können Sie die ABP Postfachbenutzern zuweisen und diesen den Zugriff auf eine benutzerdefinierte GAL in Outlook und Outlook Web App bereitstellen. Das Ziel besteht darin, einen einfacheren Mechanismus zum Durchführen der GAL-Segmentierung für lokale Organisationen bereitzustellen, die mehrere GALs benötigen. Weitere Informationen zu ABPs finden Sie unter [Adressbuchrichtlinien](https://technet.microsoft.com/de-de/library/Hh529948(v=EXCHG.150)).
 
 Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Adressbuchrichtlinien finden Sie unter [Verfahren für Adressbuchrichtlinien](address-book-policy-procedures-exchange-2013-help.md).
 
@@ -61,5 +61,5 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Addre
 
 ## Weitere Informationen
 
-[Zuweisen einer Adressbuchrichtlinie zu E-Mail-Benutzern](https://review.docs.microsoft.com/de-de/exchange/address-books/address-book-policies/assign-an-address-book-policy-to-mail-users)
+[Zuweisen einer Adressbuchrichtlinie zu E-Mail-Benutzern](https://technet.microsoft.com/de-de/library/Hh529942(v=EXCHG.150))
 

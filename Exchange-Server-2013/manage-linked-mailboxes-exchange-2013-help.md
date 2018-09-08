@@ -106,7 +106,7 @@ Die folgende Abbildung zeigt die Beziehung zwischen dem verknüpften Benutzerkon
     
       - **Postfachdatenbank**   Verwenden Sie diese Option, um selbst eine Postfachdatenbank anzugeben, anstatt Exchange die Auswahl einer Datenbank zu überlassen. Klicken Sie auf **Durchsuchen**, um das Dialogfeld **Postfachdatenbank auswählen** zu öffnen. In diesem Dialogfeld werden alle Postfachdatenbanken in Ihrer Exchange-Organisation aufgelistet. Standardmäßig werden die Postfachdatenbanken nach dem Namen sortiert. Sie können auch auf den Titel der entsprechenden Spalte klicken, um die Datenbanken nach Servernamen oder Version zu sortieren. Wählen Sie die gewünschte Postfachdatenbank aus, und klicken Sie dann auf **OK**.
     
-      - **Adressbuchrichtlinie**   Verwenden Sie diese Option, um eine Adressbuchrichtlinie für das verknüpfte Postfach anzugeben. Adressbuchrichtlinien enthalten eine globale Adressbuchline (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Wenn Postfachbenutzern eine Adressbuchrichtlinie zugewiesen ist, stellt diese den Benutzern Zugriff auf eine benutzerdefinierte GAL in Outlook und Outlook Web App bereit. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](https://review.docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies).
+      - **Adressbuchrichtlinie**   Verwenden Sie diese Option, um eine Adressbuchrichtlinie für das verknüpfte Postfach anzugeben. Adressbuchrichtlinien enthalten eine globale Adressbuchline (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Wenn Postfachbenutzern eine Adressbuchrichtlinie zugewiesen ist, stellt diese den Benutzern Zugriff auf eine benutzerdefinierte GAL in Outlook und Outlook Web App bereit. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](https://technet.microsoft.com/de-de/library/Hh529948(v=EXCHG.150)).
         
         Wählen Sie in der Dropdownliste die Richtlinie aus, die diesem Postfach zugeordnet werden soll.
 
@@ -134,7 +134,7 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Erstellung ein
 
 Nachdem Sie ein verknüpftes Postfach erstellt haben, können Sie dieses über die Exchange-Verwaltungskonsole oder die Exchange-Verwaltungsshell ändern oder zusätzliche Eigenschaften konfigurieren.
 
-Sie können auch Eigenschaften für mehrere verknüpfte Postfächer gleichzeitig ändern. Weitere Informationen finden Sie im Abschnitt "Massenbearbeitung von Benutzerpostfächern" im Thema [Verwalten von Benutzerpostfächern](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
+Sie können auch Eigenschaften für mehrere verknüpfte Postfächer gleichzeitig ändern. Weitere Informationen finden Sie im Abschnitt "Massenbearbeitung von Benutzerpostfächern" im Thema [Verwalten von Benutzerpostfächern](https://technet.microsoft.com/de-de/library/Bb123809(v=EXCHG.150)).
 
 
 > [!IMPORTANT]
@@ -256,7 +256,7 @@ Im Abschnitt **Postfachfeatures** können Sie die folgenden Postfachfeatures und
 
   - **Adressbuchrichtlinie**   Dieses Feld zeigt die Adressbuchrichtlinie, die auf das Postfach angewendet wird. Mit einer Adressbuchrichtlinie können Sie Benutzer in bestimmte Gruppen unterteilen, um angepasste Ansichten des Adressbuchs bereitzustellen. Zum Anwenden oder Ändern der Adressbuchrichtlinie, die für das Postfach gilt, wählen Sie eine Richtlinie aus der Dropdownliste aus.
 
-  - **Unified Messaging**   Diese Funktion ist standardmäßig deaktiviert. Wenn Sie Unified Messaging (UM) aktivieren, kann der Benutzer die UM-Funktionen Ihrer Organisation nutzen, und es wird ein Standardsatz UM-Eigenschaften auf den Benutzer angewendet. Klicken Sie auf **Aktivieren**, um UM für das Postfach zu aktivieren. Weitere Informationen zum Aktivieren von UM finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
+  - **Unified Messaging**   Diese Funktion ist standardmäßig deaktiviert. Wenn Sie Unified Messaging (UM) aktivieren, kann der Benutzer die UM-Funktionen Ihrer Organisation nutzen, und es wird ein Standardsatz UM-Eigenschaften auf den Benutzer angewendet. Klicken Sie auf **Aktivieren**, um UM für das Postfach zu aktivieren. Weitere Informationen zum Aktivieren von UM finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://technet.microsoft.com/de-de/library/Bb124147(v=EXCHG.150)).
     
 
     > [!NOTE]

@@ -21,7 +21,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-15_
 
 In einer Hybridbereitstellung können Ihre Benutzer in Exchange Online und/oder lokal sein, und Ihre öffentlichen Ordner sind entweder in Exchange Online oder lokal gespeichert. Manchmal müssen Ihre Onlinebenutzer auf öffentliche Ordner in Ihrer lokalen Exchange Server 2013-Umgebung zugreifen. Ebenso müssen Exchange 2013-Benutzer möglicherweise auf öffentliche Ordner in Office 365 oder Exchange Online zugreifen.
 
-In diesem Artikel wird beschrieben, wie Sie es Benutzern in Ihrer lokalen Exchange 2013-Umgebung ermöglichen können, auf öffentliche Ordner in Exchange Online/Office 365 zuzugreifen. Wie Sie Exchange Online-/Office 365-Benutzern den Zugriff auf öffentliche Ordner in lokalen Exchange 2013-Umgebungen ermöglichen, können Sie im Artikel [Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders) nachlesen.
+In diesem Artikel wird beschrieben, wie Sie es Benutzern in Ihrer lokalen Exchange 2013-Umgebung ermöglichen können, auf öffentliche Ordner in Exchange Online/Office 365 zuzugreifen. Wie Sie Exchange Online-/Office 365-Benutzern den Zugriff auf öffentliche Ordner in lokalen Exchange 2013-Umgebungen ermöglichen, können Sie im Artikel [Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung](https://technet.microsoft.com/de-de/library/Dn986544(v=EXCHG.150)) nachlesen.
 
 
 > [!NOTE]

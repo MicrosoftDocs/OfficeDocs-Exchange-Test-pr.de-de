@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
-Benutzer können standardmäßig keine ausgehenden Anrufe tätigen. Um die Arten von Anrufen festzulegen, die von Benutzern getätigt werden können, erstellen Sie zunächst Wählregeln, und autorisieren Sie dann Gruppen dieser Wählregeln in UM-Wählplänen, UM-Postfachrichtlinien oder automatischen UM-Telefonzentralen. Damit Sie Wählregelgruppen autorisieren können, müssen Wählregeln in einem UM-Wählplan definiert werden. Weitere Informationen finden Sie unter [Erstellen von Wählregeln für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/create-dialing-rules).
+Benutzer können standardmäßig keine ausgehenden Anrufe tätigen. Um die Arten von Anrufen festzulegen, die von Benutzern getätigt werden können, erstellen Sie zunächst Wählregeln, und autorisieren Sie dann Gruppen dieser Wählregeln in UM-Wählplänen, UM-Postfachrichtlinien oder automatischen UM-Telefonzentralen. Damit Sie Wählregelgruppen autorisieren können, müssen Wählregeln in einem UM-Wählplan definiert werden. Weitere Informationen finden Sie unter [Erstellen von Wählregeln für Benutzer](https://technet.microsoft.com/de-de/library/JJ898502(v=EXCHG.150)).
 
 Jede von Ihnen erstellte Wählregel enthält die Anruftypen oder Nummernmuster, für die Sie den Benutzern Zugriff erteilen möchten. Sie können verschiedenen Typen von Benutzern das Tätigen verschiedener Anruftypen erlauben. Die von Ihnen zugelassenen Anrufe können innerhalb eines Landes oder einer Region oder auch im Ausland liegen.
 

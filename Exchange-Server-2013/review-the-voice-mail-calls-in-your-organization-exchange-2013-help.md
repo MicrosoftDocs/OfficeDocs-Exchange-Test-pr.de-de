@@ -45,7 +45,7 @@ Informationen zu weiteren Aufgaben im Zusammenhang mit UM-Berichten finden Sie u
     
       - **UM-IP-Gateway**   Wenn Sie die Daten im Bericht auf Anrufe eines bestimmten UM-IP-Gateways einschränken möchten, wählen Sie dieses Gateway aus. Wenn Sie zuerst einen UM-Wählplan auswählen, sind in der Liste nur die dem ausgewählten UM-Wählplan zugeordneten UM-IP-Gateways verfügbar.
 
-3.  Wenn Sie für eine Zeile des Berichts ausführlichere Informationen zur Audioqualität anzeigen möchten, markieren Sie die Zeile, und klicken Sie auf **Details zur Audioqualität**. Weitere Informationen zum Interpretieren der Audioqualität finden Sie unter [Überprüfen Sie die Audioqualität VoIP-Anrufe in Ihrer Organisation](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/audio-quality-of-voice-calls-in-organization).
+3.  Wenn Sie für eine Zeile des Berichts ausführlichere Informationen zur Audioqualität anzeigen möchten, markieren Sie die Zeile, und klicken Sie auf **Details zur Audioqualität**. Weitere Informationen zum Interpretieren der Audioqualität finden Sie unter [Überprüfen Sie die Audioqualität VoIP-Anrufe in Ihrer Organisation](https://technet.microsoft.com/de-de/library/JJ659069(v=EXCHG.150)).
 
 4.  Wenn Sie den Bericht in die Zwischenablage kopieren möchten, klicken Sie auf **Kopieren**.
 
@@ -55,7 +55,7 @@ Informationen zu weiteren Aufgaben im Zusammenhang mit UM-Berichten finden Sie u
     
     2.  Klicken Sie in der Bestätigung für den Dateidownload auf **Öffnen** oder **Speichern**.
     
-    Die exportierte Datei erhält den Namen "um\_cdr\_*JJJJ-MM-TT*.csv", wobei *JJJJ-MM-TT* das Jahr, der Monat und der Tag der Berichtsausführung sind. Weitere Informationen finden Sie unter [Interpretieren von Voice Mail-anrufdatensätze](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/interpret-voice-mail-call-records).
+    Die exportierte Datei erhält den Namen "um\_cdr\_*JJJJ-MM-TT*.csv", wobei *JJJJ-MM-TT* das Jahr, der Monat und der Tag der Berichtsausführung sind. Weitere Informationen finden Sie unter [Interpretieren von Voice Mail-anrufdatensätze](https://technet.microsoft.com/de-de/library/JJ659061(v=EXCHG.150)).
     
 
     > [!NOTE]
@@ -101,7 +101,7 @@ Zurück zum Seitenanfang
 
 ## Weitere Informationen
 
-[Überprüfen Sie die Audioqualität VoIP-Anrufe in Ihrer Organisation](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/audio-quality-of-voice-calls-in-organization)
+[Überprüfen Sie die Audioqualität VoIP-Anrufe in Ihrer Organisation](https://technet.microsoft.com/de-de/library/JJ659069(v=EXCHG.150))
 
-[Interpretieren von Voice Mail-anrufdatensätze](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/interpret-voice-mail-call-records)
+[Interpretieren von Voice Mail-anrufdatensätze](https://technet.microsoft.com/de-de/library/JJ659061(v=EXCHG.150))
 

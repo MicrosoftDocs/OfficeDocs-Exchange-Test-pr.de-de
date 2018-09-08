@@ -49,7 +49,7 @@ In einem hierarchischen Adressbuch wird Ihre Stammorganisation (z. B. Contoso, 
 
 ## Konfigurieren hierarchischer Adressbücher
 
-Detaillierte Anweisung zum Erstellen hierarchischer Adressbücher finden Sie im Thema [Aktivieren oder Deaktivieren von hierarchischen Adressbüchern](https://review.docs.microsoft.com/de-de/exchange/address-books/hierarchical-address-books/enable-or-disable-hierarchical-address-books). Die allgemeinen Schritte sind wie folgt:
+Detaillierte Anweisung zum Erstellen hierarchischer Adressbücher finden Sie im Thema [Aktivieren oder Deaktivieren von hierarchischen Adressbüchern](https://technet.microsoft.com/de-de/library/Ff607473(v=EXCHG.150)). Die allgemeinen Schritte sind wie folgt:
 
 1.  Erstellen Sie eine Verteilergruppe, die für die Stammorganisation (oberste Ebene) verwendet wird. Nach Wunsch können Sie eine in der Exchange-Gesamtstruktur vorhandene Organisationseinheit als Verteilergruppe verwenden.
 

@@ -67,7 +67,7 @@ Es folgen einige Beispiele zu einer Gruppenbenennungsrichtlinie. In jedem Beispi
 
   - Gruppennamen werden ohne Leerzeichen erstellt. Es empfiehlt sich, zwischen Textzeichenfolgen, Attributen und dem Gruppennamen einen Unterstrich (\_) oder einen anderen Platzhalter zu verwenden.
 
-  - Mit Windows PowerShell können Sie die Gruppenbenennungsrichtlinie außer Kraft setzen, wenn Sie eine Verteilergruppe erstellen oder bearbeiten. Weitere Informationen finden Sie unter [Außerkraftsetzen der Benennungsrichtlinie für Verteilergruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/override-group-naming-policy).
+  - Mit Windows PowerShell können Sie die Gruppenbenennungsrichtlinie außer Kraft setzen, wenn Sie eine Verteilergruppe erstellen oder bearbeiten. Weitere Informationen finden Sie unter [Außerkraftsetzen der Benennungsrichtlinie für Verteilergruppen](https://technet.microsoft.com/de-de/library/JJ218685(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

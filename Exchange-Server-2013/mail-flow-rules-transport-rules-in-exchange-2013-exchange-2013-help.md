@@ -25,19 +25,19 @@ Weitere Informationen zu Nachrichtenflussregeln in Exchange Online finden Sie un
 
 Sie können die Exchange-Verwaltungskonsole (EAC) oder die Exchange-Verwaltungsshell zum Verwalten von Nachrichtenflussregeln verwenden. Anweisungen zum Verwalten von Transportregeln finden Sie unter [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md).
 
-Bei jeder Regel haben Sie die Möglichkeit, sie zu erzwingen, sie zu testen oder sie zu testen und den Absender zu benachrichtigen. Weitere Informationen zu den Testoptionen finden Sie unter [Testen einer Nachrichtenflussregel](test-a-mail-flow-rule-exchange-2013-help.md) und [Richtlinientipps](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/policy-tips).
+Bei jeder Regel haben Sie die Möglichkeit, sie zu erzwingen, sie zu testen oder sie zu testen und den Absender zu benachrichtigen. Weitere Informationen zu den Testoptionen finden Sie unter [Testen einer Nachrichtenflussregel](test-a-mail-flow-rule-exchange-2013-help.md) und [Richtlinientipps](https://technet.microsoft.com/de-de/library/JJ150512(v=EXCHG.150)).
 
 Informationen zur Implementierung bestimmter Nachrichtenrichtlinien mithilfe von Nachrichtenflussregeln finden Sie in den folgenden Themen:
 
   - [Überprüfen von Nachrichtenanlagen mithilfe von Transportregeln](use-transport-rules-to-inspect-message-attachments-exchange-2013-help.md)
 
-  - [Standardszenarien für Anlagensperre](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios)
+  - [Standardszenarien für Anlagensperre](https://technet.microsoft.com/de-de/library/Dn950026(v=EXCHG.150))
 
   - [Organisationsweite Haftungsausschlüsse, Signaturen, Fußzeilen oder Kopfzeilen](organization-wide-disclaimers-signatures-footers-or-headers-exchange-online-help.md)
 
-  - [Verwenden von Nachrichtenflussregeln zum Umgehen von unwichtigen Elementen durch Nachrichten](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/use-rules-to-bypass-clutter)
+  - [Verwenden von Nachrichtenflussregeln zum Umgehen von unwichtigen Elementen durch Nachrichten](https://technet.microsoft.com/de-de/library/Dn896639(v=EXCHG.150))
 
-  - [Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/use-rules-to-route-email)
+  - [Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern](https://technet.microsoft.com/de-de/library/Dn951131(v=EXCHG.150))
 
   - [Gängige Szenarien der Nachrichtengenehmigung](common-message-approval-scenarios-exchange-2013-help.md)
 

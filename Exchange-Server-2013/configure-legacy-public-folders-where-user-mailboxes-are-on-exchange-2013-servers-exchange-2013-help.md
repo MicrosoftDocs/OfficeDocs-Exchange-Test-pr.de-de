@@ -75,7 +75,7 @@ Benutzer, deren Postfächer auf Exchange Server 2013 oder Exchange Server 2016 s
 
 Beim letzten Schritt dieses Verfahren werden die Benutzerpostfächer konfiguriert, um den Zugriff auf die älteren lokalen öffentlichen Ordner zu gewähren.
 
-Aktivieren Sie die lokalen Exchange Server 2013-Benutzer für den Zugriff auf die älteren öffentlichen Ordner. Sie zeigen auf alle Proxypostfächer für öffentliche Ordne, die Sie in [Step 2: Make remote public folders discoverable](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders) erstellt haben. Führen Sie den folgenden Befehl auf einem Exchange 2013-Server mit dem Update CU5 oder höher aus.
+Aktivieren Sie die lokalen Exchange Server 2013-Benutzer für den Zugriff auf die älteren öffentlichen Ordner. Sie zeigen auf alle Proxypostfächer für öffentliche Ordne, die Sie in [Step 2: Make remote public folders discoverable](https://technet.microsoft.com/de-de/library/Dn249373(v=EXCHG.150)) erstellt haben. Führen Sie den folgenden Befehl auf einem Exchange 2013-Server mit dem Update CU5 oder höher aus.
 
     Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
 

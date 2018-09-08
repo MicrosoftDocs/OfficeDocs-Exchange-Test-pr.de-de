@@ -25,7 +25,7 @@ Sie können einen Voicemailvorschau-Partner für eine Unified Messaging-Postfach
 
 
 
-Informationen zu weiteren Verwaltungsaufgaben in Bezug auf UM-Postfachrichtlinien finden Sie unter [UM-Postfachrichtlinien – Verfahren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policy-procedures).
+Informationen zu weiteren Verwaltungsaufgaben in Bezug auf UM-Postfachrichtlinien finden Sie unter [UM-Postfachrichtlinien – Verfahren](https://technet.microsoft.com/de-de/library/JJ851061(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -33,9 +33,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf UM-Postfachrichtlinie
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "UM-Postfachrichtlinien" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine UM-Postfachrichtlinie erstellt wurde. Weitere Informationen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine UM-Postfachrichtlinie erstellt wurde. Weitere Informationen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Bb123510(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -49,7 +49,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf UM-Postfachrichtlinie
 
 ## Schritt 1: Anmelden bei einem Partnerdienst
 
-Um die Liste der certified Partner und ausführliche Informationen zum Registrieren ermittelt wird, finden Sie unter [Ratgeber für Voicemailvorschau](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/voice-mail-preview-advisor) oder finden Sie auf der Website [Microsoft Hindernissen bei](https://go.microsoft.com/fwlink/p/?linkid=281966) . Nachdem Sie sich angemeldet haben, bietet der Partner Voicemailvorschau Sie eine Partner-ID und die SMTP-Adresse verwenden, um die Sprachnachrichten weiterzuleiten.
+Um die Liste der certified Partner und ausführliche Informationen zum Registrieren ermittelt wird, finden Sie unter [Ratgeber für Voicemailvorschau](https://technet.microsoft.com/de-de/library/Ee364730(v=EXCHG.150)) oder finden Sie auf der Website [Microsoft Hindernissen bei](https://go.microsoft.com/fwlink/p/?linkid=281966) . Nachdem Sie sich angemeldet haben, bietet der Partner Voicemailvorschau Sie eine Partner-ID und die SMTP-Adresse verwenden, um die Sprachnachrichten weiterzuleiten.
 
 In Schritt 2 wenden Sie die in Schritt 1 erhaltene Partner-ID und SMTP-Adresse auf die erforderlichen UM-Postfachrichtlinien an.
 
@@ -76,9 +76,9 @@ In diesem Beispiel wird die maximale Nachrichtendauer auf 300 Sekunden (5 Minu
 
 Wenn Sie den Voicemailvorschau-Partnerdienst für einige, jedoch nicht für alle UM-aktivierten Benutzer in den UM-Wähleinstellungen konfigurieren möchten, müssen Sie eine neue UM-Postfachrichtlinie erstellen und die Partnereinstellungen konfigurieren. Wenn Sie diesen Vorgang abgeschlossen haben, können Sie die neue Richtlinie auf die ausgewählten UM-aktivierten Benutzer anwenden. Weitere Informationen zum Zuordnen von UM-aktivierten Benutzern zu einer UM-Postfachrichtlinie finden Sie in den folgenden Themen:
 
-  - [Zuweisen einer um-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/assign-um-mailbox-policy)
+  - [Zuweisen einer um-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Bb201728(v=EXCHG.150))
 
   - [Set-UMMailbox](https://technet.microsoft.com/de-de/library/bb124893\(v=exchg.150\))
 
-Weitere Informationen zum Voicemailvorschau-Partnerprogramm finden Sie unter [Ratgeber für Voicemailvorschau](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/voice-mail-preview-advisor).
+Weitere Informationen zum Voicemailvorschau-Partnerprogramm finden Sie unter [Ratgeber für Voicemailvorschau](https://technet.microsoft.com/de-de/library/Ee364730(v=EXCHG.150)).
 

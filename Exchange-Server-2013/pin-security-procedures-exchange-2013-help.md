@@ -17,27 +17,27 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
-[Festlegen von Outlook Voice Access-PIN-Richtlinien](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-pin-policies)
+[Festlegen von Outlook Voice Access-PIN-Richtlinien](https://technet.microsoft.com/de-de/library/Aa998285(v=EXCHG.150))
 
-[Zurücksetzen einer Voicemail-PIN](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/reset-a-voice-mail-pin)
+[Zurücksetzen einer Voicemail-PIN](https://technet.microsoft.com/de-de/library/Bb124404(v=EXCHG.150))
 
-[Abrufen von PIN-Informationen für Voicemail](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/retrieve-voice-mail-pin-information)
+[Abrufen von PIN-Informationen für Voicemail](https://technet.microsoft.com/de-de/library/Aa995900(v=EXCHG.150))
 
-[Enthalten Sie mit der e-Mail-Nachricht gesendet, wenn ein Zurücksetzen PIN-Nummer ist text](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/include-text-in-email-sent-when-pin-is-reset)
+[Enthalten Sie mit der e-Mail-Nachricht gesendet, wenn ein Zurücksetzen PIN-Nummer ist text](https://technet.microsoft.com/de-de/library/Bb201750(v=EXCHG.150))
 
 [Legen Sie die PIN-Mindestlänge für Voicemail](set-the-minimum-pin-length-for-voice-mail-exchange-2013-help.md)
 
 [Legen Sie die PIN-Gültigkeitsdauer für Voicemail](set-the-pin-lifetime-for-voice-mail-exchange-2013-help.md)
 
-[Festlegen Sie die Anzahl der vorherigen Voicemail PINs Recycling](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-number-of-previous-pins-to-recycle)
+[Festlegen Sie die Anzahl der vorherigen Voicemail PINs Recycling](https://technet.microsoft.com/de-de/library/Bb124254(v=EXCHG.150))
 
-[Deaktivieren Sie gängige PIN Muster für Voicemail](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/disable-common-pin-patterns)
+[Deaktivieren Sie gängige PIN Muster für Voicemail](https://technet.microsoft.com/de-de/library/Bb125160(v=EXCHG.150))
 
-[Aktivieren Sie für Voicemail-gängiger PIN-Muster](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/enable-common-pin-patterns)
+[Aktivieren Sie für Voicemail-gängiger PIN-Muster](https://technet.microsoft.com/de-de/library/JJ673546(v=EXCHG.150))
 
-[Festlegen Sie die Anzahl der Anmeldung Fehler vor einer Voicemail, die PIN zurücksetzen,](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-number-of-sign-in-failures-before-pin-reset)
+[Festlegen Sie die Anzahl der Anmeldung Fehler vor einer Voicemail, die PIN zurücksetzen,](https://technet.microsoft.com/de-de/library/Aa997939(v=EXCHG.150))
 
-[Festlegen Sie die Zahl der ungünstigen-Anmeldung, bevor ein Voice Mail-Benutzer gesperrt ist](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-number-of-sign-in-failures-before-lock-out)
+[Festlegen Sie die Zahl der ungünstigen-Anmeldung, bevor ein Voice Mail-Benutzer gesperrt ist](https://technet.microsoft.com/de-de/library/Bb123544(v=EXCHG.150))
 
 [Aktivieren von Voicemailanmeldungen ohne PIN](enable-pin-less-sign-ins-for-voice-mail-exchange-2013-help.md)
 

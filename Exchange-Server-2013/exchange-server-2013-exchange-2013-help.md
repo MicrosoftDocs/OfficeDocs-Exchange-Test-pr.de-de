@@ -92,7 +92,7 @@ Der Hilfeinhalt für Exchange 2013 umfasst die folgenden übergeordneten Katego
 
   - [Serverstatus und -leistung](server-health-and-performance-exchange-2013-help.md)
 
-  - [Informationen zur Exchange-Dokumentation](https://review.docs.microsoft.com/de-de/exchange/about-exchange-documentation)
+  - [Informationen zur Exchange-Dokumentation](https://technet.microsoft.com/de-de/library/Dd351146(v=EXCHG.150))
 
 
 > [!NOTE]

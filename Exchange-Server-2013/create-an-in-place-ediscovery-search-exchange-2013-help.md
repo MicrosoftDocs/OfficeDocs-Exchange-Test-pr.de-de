@@ -192,7 +192,7 @@ Zurück zum Seitenanfang
     
       - [Kopieren der eDiscovery-Suchergebnisse in ein Discoverypostfach](copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md)
     
-      - [Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/export-search-results)
+      - [Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei](https://technet.microsoft.com/de-de/library/Dn440164(v=EXCHG.150))
 
   - Wenn Sie eine eDiscovery-Suchergebnisschätzung (mit Schlüsselwörtern in den Suchkriterien) durchgeführt haben, können Sie die Schlüsselwortstatistik anzeigen, indem Sie im Detailbereich für die ausgewählte Suche auf **Schlüsselwortstatistik anzeigen** klicken. Diese Statistik enthält detaillierte Informationen über die Anzahl der Elemente, die für jedes in der Suchanfrage verwendete Schlüsselwort zurückgegeben werden. Wenn allerdings mehr als 100 Quellpostfächer in die Suche einbezogen werden, wird beim Versuch, die Schlüsselwortstatistik anzuzeigen, eine Fehlermeldung zurückgegeben. Wenn Sie die Schlüsselwortstatistik anzeigen möchten, dürfen nicht mehr als 100 Postfächer in die Suche aufgenommen werden.
 

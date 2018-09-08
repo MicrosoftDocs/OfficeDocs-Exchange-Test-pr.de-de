@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-03-15_
 
 Sie können eine MicrosoftOutlook Web App-Postfachrichtlinie aus einer Exchange-Organisation entfernen, indem Sie entweder die Exchange-Verwaltungskonsole oder die Shell verwenden.
 
-Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Outlook Web App-Postfachrichtlinien finden Sie unter [Outlook Web App-Postfachrichtlinien](https://review.docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies).
+Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Outlook Web App-Postfachrichtlinien finden Sie unter [Outlook Web App-Postfachrichtlinien](https://technet.microsoft.com/de-de/library/Dd335142(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 

@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
-Sie können ein hierarchisches Adressbuch konfigurieren, eine Funktion, die Benutzern in Microsoft Outlook 2010 oder höher zur Verfügung steht. Mit einem hierarchischen Adressbuch können Benutzer anhand einer auf Rang- oder Führungsstruktur basierenden Organisationshierarchie nach Empfängern in ihrer Exchange-Organisation suchen. Weitere Informationen zu hierarchischen Adressbüchern finden Sie unter [Hierarchische Adressbücher](https://review.docs.microsoft.com/de-de/exchange/address-books/hierarchical-address-books/hierarchical-address-books).
+Sie können ein hierarchisches Adressbuch konfigurieren, eine Funktion, die Benutzern in Microsoft Outlook 2010 oder höher zur Verfügung steht. Mit einem hierarchischen Adressbuch können Benutzer anhand einer auf Rang- oder Führungsstruktur basierenden Organisationshierarchie nach Empfängern in ihrer Exchange-Organisation suchen. Weitere Informationen zu hierarchischen Adressbüchern finden Sie unter [Hierarchische Adressbücher](https://technet.microsoft.com/de-de/library/Ff629379(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -27,7 +27,7 @@ Sie können ein hierarchisches Adressbuch konfigurieren, eine Funktion, die Benu
 
   - Dieses Verfahren kann nicht in der Exchange-Verwaltungskonsole ausgeführt werden. Sie müssen die Shell verwenden.
 
-  - Bevor Sie beginnen, sollten Sie das Thema [Hierarchische Adressbücher](https://review.docs.microsoft.com/de-de/exchange/address-books/hierarchical-address-books/hierarchical-address-books) lesen. Sie sollten wissen, ob ein hierarchisches Adressbuch für Ihre Exchange-Organisation geeignet ist.
+  - Bevor Sie beginnen, sollten Sie das Thema [Hierarchische Adressbücher](https://technet.microsoft.com/de-de/library/Ff629379(v=EXCHG.150)) lesen. Sie sollten wissen, ob ein hierarchisches Adressbuch für Ihre Exchange-Organisation geeignet ist.
 
   - Machen Sie sich mit der aktuellen Konfiguration von Organisationseinheiten, Gruppen, Benutzern und Kontakten in Ihrer Exchange-Organisation vertraut.
 
@@ -90,7 +90,7 @@ Sie können ein hierarchisches Adressbuch konfigurieren, eine Funktion, die Benu
 
 Für dieses Beispiel wird eine Organisationseinheit "HAB" für das hierarchische Adressbuch erstellt. Der Name der Domäne für die Organisation lautet "Contoso-dom", der Name der Organisation auf oberster Ebene innerhalb der Hierarchie (die *Stammorganisation*) lautet "Contoso,Ltd". Unterhalb von "Contoso,Ltd" werden als untergeordnete Organisationen die Gruppen "Corporate Office", "Product Support Organization" und "Sales & Marketing Organization" erstellt. Zusätzlich werden unterhalb von "Corporate Office" als untergeordnete Organisationen die Gruppen "Human Resources", "Accounting Group" und "Administration Group" erstellt.
 
-Weitere Informationen zum Erstellen von Verteilergruppen finden Sie unter [Erstellen und Verwalten von Verteilergruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups).
+Weitere Informationen zum Erstellen von Verteilergruppen finden Sie unter [Erstellen und Verwalten von Verteilergruppen](https://technet.microsoft.com/de-de/library/Bb124513(v=EXCHG.150)).
 
 1.  Erstellen einer Organisationseinheit "HAB" in der Organisation "Contoso". Sie können Active Directory-Benutzer und -Computer verwenden oder an einer Eingabeaufforderung den folgenden Befehl eingeben.
     

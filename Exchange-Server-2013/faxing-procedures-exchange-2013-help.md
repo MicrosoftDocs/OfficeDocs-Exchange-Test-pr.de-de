@@ -17,19 +17,19 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-15_
 
-[Festlegen des Partners Faxserver URI zum Senden von Faxen zulassen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-partner-fax-server-uri-to-allow-faxing)
+[Festlegen des Partners Faxserver URI zum Senden von Faxen zulassen](https://technet.microsoft.com/de-de/library/JJ650873(v=EXCHG.150))
 
-[Enthalten Sie mit der e-Mail-Nachricht gesendet, wenn eine Faxnachricht empfangen wird text](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/include-text-with-the-email-sent-when-a-fax-message-is-received)
+[Enthalten Sie mit der e-Mail-Nachricht gesendet, wenn eine Faxnachricht empfangen wird text](https://technet.microsoft.com/de-de/library/Bb201684(v=EXCHG.150))
 
-[Zulassen des Empfangs von Faxnachrichten für Benutzer mit demselben Wählplan](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-in-the-same-dial-plan-to-receive-faxes)
+[Zulassen des Empfangs von Faxnachrichten für Benutzer mit demselben Wählplan](https://technet.microsoft.com/de-de/library/Bb124557(v=EXCHG.150))
 
-[Verhindern, dass Benutzer in den gleichen Wähleinstellungen empfangen von Faxnachrichten](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-users-in-the-same-dial-plan-from-receiving-faxes)
+[Verhindern, dass Benutzer in den gleichen Wähleinstellungen empfangen von Faxnachrichten](https://technet.microsoft.com/de-de/library/Bb201688(v=EXCHG.150))
 
 [Aktivieren von Faxen für eine Gruppe von Benutzern](enable-faxing-for-a-group-of-users-exchange-2013-help.md)
 
-[Deaktivieren von Faxen für eine Gruppe von Benutzern](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-faxing-for-a-group-of-users)
+[Deaktivieren von Faxen für eine Gruppe von Benutzern](https://technet.microsoft.com/de-de/library/JJ650864(v=EXCHG.150))
 
 [Aktivieren eines Benutzers für den Faxempfang](enable-a-user-to-receive-faxes-exchange-2013-help.md)
 
-[Verhindert, dass Benutzer empfangen von Faxnachrichten](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-a-user-from-receiving-faxes)
+[Verhindert, dass Benutzer empfangen von Faxnachrichten](https://technet.microsoft.com/de-de/library/Bb201722(v=EXCHG.150))
 

@@ -27,7 +27,7 @@ Mithilfe der folgenden Informationen können Sie UM einrichten und bereitstellen
 
   - [Verbinden eines VoIP-Gateways, einer IP-Nebenstellenanlage oder eines Session Border Controllers mit UM](connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md)Erfahren Sie, wie Sie UM-VoIP-Gateways oder IP-Nebenstellenanlagen mit UM verbinden.
 
-  - [Telefonieratgeber für Exchange 2013](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013)Erfahren Sie mehr über unterstützte VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen.
+  - [Telefonieratgeber für Exchange 2013](https://technet.microsoft.com/de-de/library/Ee364753(v=EXCHG.150))Erfahren Sie mehr über unterstützte VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen.
 
-  - [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures)Erfahren Sie mehr über das Einrichten von VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen.
+  - [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150))Erfahren Sie mehr über das Einrichten von VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen.
 

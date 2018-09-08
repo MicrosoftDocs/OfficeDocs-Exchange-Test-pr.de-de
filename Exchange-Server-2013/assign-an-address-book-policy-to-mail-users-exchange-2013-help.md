@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-11_
 
-Nach dem Erstellen einer Adressbuchrichtlinie (Address Book Policy, ABP) müssen Sie diese Postfachbenutzern zuweisen. Beim Erstellen von Benutzerkonten wird den Benutzern keine Standard-ABP zugewiesen. Wenn Sie einem Benutzer keine ABP zuweisen, kann der Benutzer über Outlook und Outlook Web App auf die globale Adressliste (Global Address List, GAL) für Ihre gesamte Organisation zugreifen. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](https://review.docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies).
+Nach dem Erstellen einer Adressbuchrichtlinie (Address Book Policy, ABP) müssen Sie diese Postfachbenutzern zuweisen. Beim Erstellen von Benutzerkonten wird den Benutzern keine Standard-ABP zugewiesen. Wenn Sie einem Benutzer keine ABP zuweisen, kann der Benutzer über Outlook und Outlook Web App auf die globale Adressliste (Global Address List, GAL) für Ihre gesamte Organisation zugreifen. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](https://technet.microsoft.com/de-de/library/Hh529948(v=EXCHG.150)).
 
 Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Adressbuchrichtlinien finden Sie unter [Verfahren für Adressbuchrichtlinien](address-book-policy-procedures-exchange-2013-help.md).
 

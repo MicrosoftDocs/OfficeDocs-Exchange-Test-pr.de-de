@@ -69,7 +69,7 @@ Standardmäßig ist **Nachname Vorname** als primäre Methode für Namenssuche a
 
 Wenn Sie diese Konfiguration ändern möchten, weil die Standardeinstellung nicht Ihren Anforderungen entspricht, können Sie Benutzern auch ermöglichen, zuerst den E-Mail-Alias des Benutzers oder den Vornamen, gefolgt vom Nachnamen, einzugeben. In diesem Fall konfigurieren Sie die Option **Primäre Methode für Namenssuche** mit der Einstellung **SMTP-Adresse** und die Option **Sekundäre Methode für Namenssuche** mit der Einstellung **Vorname Nachname**. Die Einstellungen für die Wahlmethoden nach Namen gelten auch für alle automatischen UM-Telefonzentralen, die den Wähleinstellungen zugeordnet sind. Damit Anrufer den Namen des Benutzers mithilfe von DTMF-Eingaben oder der Tasten auf der Telefontastatur eingeben können, müssen eine DTMF-Zuordnung und Werte für den Benutzer im Verzeichnis Ihrer Organisation vorhanden sein.
 
-Weitere Informationen zum Ändern der primären und sekundären Wahlmethoden nach Namen für einen Satz UM-Wähleinstellungen finden Sie unter [Konfigurieren Sie die primäre Methode für Outlook Voice Access-Benutzer suchen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-primary-search-method) und [Konfigurieren Sie die sekundäre Methode für Outlook Voice Access-Benutzer suchen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-secondary-search-method).
+Weitere Informationen zum Ändern der primären und sekundären Wahlmethoden nach Namen für einen Satz UM-Wähleinstellungen finden Sie unter [Konfigurieren Sie die primäre Methode für Outlook Voice Access-Benutzer suchen](https://technet.microsoft.com/de-de/library/Aa997563(v=EXCHG.150)) und [Konfigurieren Sie die sekundäre Methode für Outlook Voice Access-Benutzer suchen](https://technet.microsoft.com/de-de/library/Aa998311(v=EXCHG.150)).
 
 DTMF (Übersicht)
 
@@ -148,7 +148,7 @@ Nachdem die DTMF-Zuordnungswerte für einen UM-aktivierten Benutzer erstellt wur
 
   - Suchen nach einem UM-aktivierten Benutzer oder Übergeben von Anrufen an diesen, wenn sie eine automatische UM-Telefonzentrale anrufen.
 
-Weitere Informationen zum Aktivieren eines Benutzers für Unified Messaging finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
+Weitere Informationen zum Aktivieren eines Benutzers für Unified Messaging finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://technet.microsoft.com/de-de/library/Bb124147(v=EXCHG.150)).
 
 Manchmal ändert sich der Vorname, der Nachname oder das E-Mail-Alias eines Benutzers, nachdem er für UM aktiviert wurde. Die Werte der DTMF-Zuordnung werden nicht automatisch aktualisiert. Wenn ein Anrufer den neuen Namen oder das neue E-Mail-Alias eingibt und die DTMF-Zuordnung des Benutzers noch nicht mit der Änderung des Namens oder E-Mail-Alias aktualisiert wurde, kann der Anrufer den Benutzer nicht im Verzeichnis finden, keine Nachricht an ihn senden und keine Anrufe an den Benutzer übergeben. Wenn Sie die DTMF-Zuordnung eines Benutzers aktualisieren müssen, nachdem er für UM aktiviert wurde, können Sie das Cmdlet **Set-User** mit dem Parameter *-CreateDtmfMap* verwenden. Sie können auch ein Exchange-Verwaltungsshellskript mithilfe dieses Cmdlets erstellen, wenn Sie die Werte der DTMF-Zuordnungen für mehrere UM-aktivierte Benutzer aktualisieren möchten.
 

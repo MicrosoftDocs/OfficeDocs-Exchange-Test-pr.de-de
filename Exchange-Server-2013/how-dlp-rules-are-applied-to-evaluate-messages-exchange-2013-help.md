@@ -157,7 +157,7 @@ Das Beispiel der Kreditkartennummern in diesem Artikel kann auch auf andere Rege
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 
 [Nachrichtenflussregeln (Transportregeln) in Exchange Online](https://technet.microsoft.com/de-de/library/jj919238\(v=exchg.150\))
 

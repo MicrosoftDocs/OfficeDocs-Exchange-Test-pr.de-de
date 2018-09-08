@@ -179,5 +179,5 @@ Weitere Informationen zu IP-PBX- und PBX-Konfigurationen finden Sie unter [PBX- 
 
 [UM-Protokolle, Ports und Dienste](um-protocols-ports-and-services-exchange-2013-help.md)
 
-[Telefonieratgeber für Exchange 2013](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013)
+[Telefonieratgeber für Exchange 2013](https://technet.microsoft.com/de-de/library/Ee364753(v=EXCHG.150))
 

@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2015-01-14_
 
-In Microsoft Exchange Server 2013 können Sie Richtlinienvorlagen zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) verwenden, um den Anforderungen in Bezug auf Messagingrichtlinien und deren Einhaltung gerecht zu werden, die in Ihrer Organisation gelten. Diese Vorlagen enthalten vordefinierte Sätze an Regeln, mit denen Sie Nachrichtendaten verwalten können, für die verschiedene rechtliche und regulatorische Auflagen gelten. Eine Liste aller von Microsoft bereitgestellten Vorlagen finden Sie unter [In Exchange bereitgestellte DLP-Richtlinienvorlagen](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/dlp-policy-templates). Die bereitgestellten DLP-Beispielvorlagen unterstützen Sie bei der Datenverwaltung in Bezug auf folgende Vorgaben und Standards:
+In Microsoft Exchange Server 2013 können Sie Richtlinienvorlagen zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) verwenden, um den Anforderungen in Bezug auf Messagingrichtlinien und deren Einhaltung gerecht zu werden, die in Ihrer Organisation gelten. Diese Vorlagen enthalten vordefinierte Sätze an Regeln, mit denen Sie Nachrichtendaten verwalten können, für die verschiedene rechtliche und regulatorische Auflagen gelten. Eine Liste aller von Microsoft bereitgestellten Vorlagen finden Sie unter [In Exchange bereitgestellte DLP-Richtlinienvorlagen](https://technet.microsoft.com/de-de/library/JJ150530(v=EXCHG.150)). Die bereitgestellten DLP-Beispielvorlagen unterstützen Sie bei der Datenverwaltung in Bezug auf folgende Vorgaben und Standards:
 
   - Gramm-Leach-Bliley Act (GLBA)
 
@@ -95,7 +95,7 @@ Sie können für alle DLP-Richtlinien die Regeln, Aktionen, Ausnahmen und den Er
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 
 [DLP-Richtlinienvorlagen](dlp-policy-templates-exchange-2013-help.md)
 

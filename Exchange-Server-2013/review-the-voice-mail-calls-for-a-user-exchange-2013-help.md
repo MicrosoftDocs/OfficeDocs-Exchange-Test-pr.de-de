@@ -31,7 +31,7 @@ Informationen zu weiteren Aufgaben im Zusammenhang mit UM-Berichten finden Sie u
 
 2.  Klicken Sie auf **Benutzer auswählen**, und wählen Sie den Benutzer aus, für den Sie Daten abrufen möchten.
 
-3.  Wenn Sie für eine Zeile des Berichts ausführlichere Informationen zur Audioqualität anzeigen möchten, markieren Sie die Zeile, und klicken Sie auf **Details zur Audioqualität**. Weitere Informationen zum Interpretieren der Audioqualität finden Sie unter [Durchführen einer Überprüfung der Audioqualität von Sprachanrufen für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/audio-quality-of-voice-calls-for-user).
+3.  Wenn Sie für eine Zeile des Berichts ausführlichere Informationen zur Audioqualität anzeigen möchten, markieren Sie die Zeile, und klicken Sie auf **Details zur Audioqualität**. Weitere Informationen zum Interpretieren der Audioqualität finden Sie unter [Durchführen einer Überprüfung der Audioqualität von Sprachanrufen für Benutzer](https://technet.microsoft.com/de-de/library/JJ659059(v=EXCHG.150)).
 
 4.  Wenn Sie den Bericht in die Zwischenablage kopieren möchten, klicken Sie auf **Alle Zeilen in die Zwischenablage kopieren**.
 

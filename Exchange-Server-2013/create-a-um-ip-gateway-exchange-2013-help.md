@@ -21,7 +21,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
 Wenn Sie ein Unified Messaging-IP-Gateway erstellen, ermöglichen Sie Exchange-Servern das Herstellen einer Verbindung mit einem neuen VoIP-Gateway (Voice over IP), einer SIP-fähigen (Session Initiation Protocol) Nebenstellenanlage, einer IP-Nebenstellenanlage oder einem SBC (Session Border Controller). Unmittelbar nach dem Erstellen eines UM-IP-Gateways sollten Sie einen UM-Sammelanschluss erstellen und den UM-Sammelanschluss dann dem UM-IP-Gateway zuordnen. Das UM-IP-Gateway kann mehreren UM-Wähleinstellungen zugeordnet werden, indem ein oder mehrere UM-Sammelanschlüsse erstellt werden.
 
-Zusätzliche Verwaltungstasks im Zusammenhang mit UM-IP-Gateways finden Sie unter [UM-IP-Gateway – Verfahren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateway-procedures).
+Zusätzliche Verwaltungstasks im Zusammenhang mit UM-IP-Gateways finden Sie unter [UM-IP-Gateway – Verfahren](https://technet.microsoft.com/de-de/library/JJ822153(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -29,7 +29,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit UM-IP-Gateways finden Sie unte
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "UM-IP-Gateways" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

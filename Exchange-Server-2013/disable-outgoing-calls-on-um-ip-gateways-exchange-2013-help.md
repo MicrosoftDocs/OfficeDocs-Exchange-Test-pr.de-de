@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-13_
 
 Sie können ausgehende Anrufe für ein UM-IP-Gateway (Unified Messaging) aktivieren oder deaktivieren. Wenn Sie das Kontrollkästchen **Ausgehende Anrufe über dieses UM-IP-Gateway zulassen** in den Eigenschaften des UM-IP-Gateways deaktivieren, konfigurieren Sie das UM-IP-Gateway so, dass ausgehende Anrufe an ein VoIP-Gateway, eine IP-Nebenstellenanlage oder einen SBC (Session Border Controller) nicht akzeptiert und gesendet werden. Obwohl die Einstellung **Ausgehende Anrufe über dieses UM-IP-Gateway zulassen** steuert, ob das UM-IP-Gateway ausgehende Anrufe für Benutzer initiieren kann, wirkt sie sich nicht auf Anrufübergaben oder eingehende Anrufe von einem VoIP-Gateway, einer IP-Nebenstellenanlage oder einem SBC aus.
 
-Zusätzliche Verwaltungstasks im Zusammenhang mit UM-IP-Gateways finden Sie unter [UM-IP-Gateway – Verfahren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateway-procedures).
+Zusätzliche Verwaltungstasks im Zusammenhang mit UM-IP-Gateways finden Sie unter [UM-IP-Gateway – Verfahren](https://technet.microsoft.com/de-de/library/JJ822153(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -27,9 +27,9 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit UM-IP-Gateways finden Sie unte
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "UM-IP-Gateways" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein UM-IP-Gateway erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-IP-Gateways](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein UM-IP-Gateway erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-IP-Gateways](https://technet.microsoft.com/de-de/library/Aa998045(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

@@ -27,7 +27,7 @@ Sie können Unified Messaging für die Annahme eines eingehenden Anrufs konfigur
 
 Diese Einstellung gilt für Sprachnachrichten, die an UM-aktivierte Benutzer gesendet werden, wenn diese ein Gespräch nicht entgegennehmen. Diese Einstellung gilt auch für direkt an UM-aktivierte Benutzer gesendete Sprachnachrichten, wenn der Anrufer eine automatische UM-Telefonzentrale verwendet.
 
-Weitere Verwaltungsaufgaben im Zusammenhang mit Verfahren zum Schutz von Voicemail finden Sie unter [Geschützte Voicemail-Prozeduren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures).
+Weitere Verwaltungsaufgaben im Zusammenhang mit Verfahren zum Schutz von Voicemail finden Sie unter [Geschützte Voicemail-Prozeduren](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -35,9 +35,9 @@ Weitere Verwaltungsaufgaben im Zusammenhang mit Verfahren zum Schutz von Voicema
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "UM-Postfachrichtlinien" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine UM-Postfachrichtlinie erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine UM-Postfachrichtlinie erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Bb123510(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

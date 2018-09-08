@@ -44,7 +44,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf öffentliche Ordner f
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "Öffentliche Ordner" im Thema [Freigabe- und Zusammenarbeitsberechtigungen](sharing-and-collaboration-permissions-exchange-2013-help.md).
 
-  - Sie können erst dann einen öffentlichen Ordner erstellen, nachdem Sie ein Postfach für öffentliche Ordner erstellt haben. Weitere Informationen zum Erstellen eines Postfachs für öffentliche Ordner finden Sie unter [Erstellen eines Postfachs für öffentliche Ordner](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
+  - Sie können erst dann einen öffentlichen Ordner erstellen, nachdem Sie ein Postfach für öffentliche Ordner erstellt haben. Weitere Informationen zum Erstellen eines Postfachs für öffentliche Ordner finden Sie unter [Erstellen eines Postfachs für öffentliche Ordner](https://technet.microsoft.com/de-de/library/JJ552410(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

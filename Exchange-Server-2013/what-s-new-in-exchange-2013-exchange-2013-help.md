@@ -175,7 +175,7 @@ Der Microsoft Rights Management-Verbindungsdienst (RMS-Verbindungsdienst) ist ei
 
 Hier erfahren Sie mehr über diese Funktionen:
 
-[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 
 [Rights Management-Verbindungsdienst](https://go.microsoft.com/fwlink/p/?linkid=330432)
 
@@ -239,7 +239,7 @@ Information Rights Management (IRM) ist kompatibel mit dem Kryptografiemodus 2,
 
 Exchange 2013 bietet die folgenden Verbesserungen an der Überwachung:
 
-  - **Überwachungsberichte**   Die Exchange-Verwaltungskonsole bietet Überwachungsfunktionen, sodass Sie Berichte erstellen oder Einträge aus dem Postfachüberwachungsprotokoll oder Administratorüberwachungsprotokoll exportieren können. Im Postfachüberwachungsprotokoll werden alle Postfachzugriffe erfasst, die von Personen vorgenommen werden, bei denen es sich nicht um den Besitzer des Postfachs handelt. Dadurch können Sie ermitteln, wer auf ein Postfach zugegriffen hat und welche Aktionen ausgeführt wurden. Im Administratorüberwachungsprotokoll werden (auf der Grundlage eines Exchange Verwaltungsshell-Cmdlets) alle Aktionen aufgezeichnet, die von einem Administrator ausgeführt wurden. Diese Informationen können Sie zum Behandeln von Konfigurationsproblemen sowie zum Ermitteln der Ursache von Sicherheits- oder Richtlinientreueproblemen heranziehen. Weitere Informationen finden Sie unter [Exchange-Überwachungsberichte](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports).
+  - **Überwachungsberichte**   Die Exchange-Verwaltungskonsole bietet Überwachungsfunktionen, sodass Sie Berichte erstellen oder Einträge aus dem Postfachüberwachungsprotokoll oder Administratorüberwachungsprotokoll exportieren können. Im Postfachüberwachungsprotokoll werden alle Postfachzugriffe erfasst, die von Personen vorgenommen werden, bei denen es sich nicht um den Besitzer des Postfachs handelt. Dadurch können Sie ermitteln, wer auf ein Postfach zugegriffen hat und welche Aktionen ausgeführt wurden. Im Administratorüberwachungsprotokoll werden (auf der Grundlage eines Exchange Verwaltungsshell-Cmdlets) alle Aktionen aufgezeichnet, die von einem Administrator ausgeführt wurden. Diese Informationen können Sie zum Behandeln von Konfigurationsproblemen sowie zum Ermitteln der Ursache von Sicherheits- oder Richtlinientreueproblemen heranziehen. Weitere Informationen finden Sie unter [Exchange-Überwachungsberichte](https://technet.microsoft.com/de-de/library/JJ150497(v=EXCHG.150)).
 
   - **Anzeigen des Administratorüberwachungsprotokolls**   Anstatt das Administratorüberwachungsprotokoll zu exportieren, dessen Empfang in einer E-Mail-Nachricht bis zu 24 Stunden dauern kann, können Sie Einträge im Administratorüberwachungsprotokoll in der Exchange-Verwaltungskonsole anzeigen. Wählen Sie **Verwaltung der Richtlinientreue** \> **Überwachung** aus, und klicken Sie anschließend auf **Administratorüberwachungsprotokoll anzeigen**. Es können bis zu 1.000 Einträge auf mehreren Seiten angezeigt werden. Um die Suche einzuschränken, können Sie einen Datumsbereich angeben. Weitere Informationen finden Sie unter [Anzeigen des Administratorüberwachungsprotokolls](view-the-administrator-audit-log-exchange-2013-help.md).
 
@@ -269,7 +269,7 @@ In diesem Abschnitt werden die Verbesserungen bei der Verwaltung von Empfängern
 
   - **Gruppenbenennungsrichtlinie**   Administratoren können nun in der Exchange-Verwaltungskonsole eine *Gruppenbenennungsrichtlinie* erstellen, mit deren Hilfe Sie die Namen von Verteilergruppen standardisieren und verwalten können, die von Benutzern in Ihrer Organisation erstellt werden. Sie können festlegen, dass dem Namen der Verteilergruppe bei der Erstellung ein bestimmtes Präfix und Suffix hinzugefügt werden muss, und Sie können die Verwendung bestimmter Wörter unterbinden. Dadurch können Sie die Verwendung ungeeigneter Wörter in Gruppennamen eindämmen.
     
-    Weitere Informationen finden Sie unter [Erstellen einer Benennungsrichtlinie für Verteilergruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
+    Weitere Informationen finden Sie unter [Erstellen einer Benennungsrichtlinie für Verteilergruppen](https://technet.microsoft.com/de-de/library/JJ218693(v=EXCHG.150)).
 
   - **Nachrichtenverfolgung**   Administratoren können in der Exchange-Verwaltungskonsole auch Zustellungsoptionen für E-Mail-Nachrichten nachverfolgen, die von Benutzern in Ihrer Organisation gesendet oder empfangen werden. Sie wählen nur ein Postfach aus und suchen dann nach Nachrichten, die an einen anderen Benutzer gesendet oder von diesem empfangen wurden. Sie können die Suche eingrenzen, indem Sie in der Betreffzeile nach bestimmten Wörtern suchen. Im sich ergebenden Zustellungsbericht wird eine Nachricht während des Zustellungsprozesses nachverfolgt und angegeben, ob die Nachricht erfolgreich zugestellt wurde, ob die Zustellung noch aussteht oder ob sie nicht zugestellt wurde.
     

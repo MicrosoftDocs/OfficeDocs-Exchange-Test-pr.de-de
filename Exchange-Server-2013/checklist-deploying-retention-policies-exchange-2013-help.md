@@ -19,9 +19,9 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Verwenden Sie diese Prüfliste zum Bereitstellen von Aufbewahrungsrichtlinien in Ihrer Microsoft Exchange Server 2013-Organisation. Bevor Sie mit dieser Prüfliste arbeiten, machen Sie sich mit den Konzepten in folgenden Themen vertraut:
 
-  - [Messaging-Datensatzverwaltung](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management)
+  - [Messaging-Datensatzverwaltung](https://technet.microsoft.com/de-de/library/Dd335093(v=EXCHG.150))
 
-  - [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
+  - [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://technet.microsoft.com/de-de/library/Dd297955(v=EXCHG.150))
 
 ## Prüfliste zum Bereitstellen von Aufbewahrungsrichtlinien
 

@@ -17,17 +17,17 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-01-30_
 
-[Voicemailvorschau Partnerdienste für Benutzer konfigurieren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-voice-mail-preview-partner-services)
+[Voicemailvorschau Partnerdienste für Benutzer konfigurieren](https://technet.microsoft.com/de-de/library/Ff630920(v=EXCHG.150))
 
-[Legen Sie die Adresse des Partners Voicemailvorschau](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-voice-mail-preview-partner-address)
+[Legen Sie die Adresse des Partners Voicemailvorschau](https://technet.microsoft.com/de-de/library/Ff630917(v=EXCHG.150))
 
-[Legen Sie die Voicemailvorschau Partner-ID](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-voice-mail-preview-partner-id)
+[Legen Sie die Voicemailvorschau Partner-ID](https://technet.microsoft.com/de-de/library/Ff630924(v=EXCHG.150))
 
-[Legen Sie die maximale Dauer für einen Voicemailvorschau-partner](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-maximum-message-duration-for-a-voice-mail-preview-partner)
+[Legen Sie die maximale Dauer für einen Voicemailvorschau-partner](https://technet.microsoft.com/de-de/library/Ff630912(v=EXCHG.150))
 
-[Legen Sie die maximale Verzögerung für einen Voicemailvorschau partner](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-maximum-delivery-delay-for-a-voice-mail-preview-partner)
+[Legen Sie die maximale Verzögerung für einen Voicemailvorschau partner](https://technet.microsoft.com/de-de/library/Ff630928(v=EXCHG.150))
 
-[Aktivieren von Voice Mail Preview für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-voice-mail-preview)
+[Aktivieren von Voice Mail Preview für Benutzer](https://technet.microsoft.com/de-de/library/JJ673514(v=EXCHG.150))
 
-[Deaktivieren von Voicemailvorschau für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-voice-mail-preview)
+[Deaktivieren von Voicemailvorschau für Benutzer](https://technet.microsoft.com/de-de/library/Dd335199(v=EXCHG.150))
 

@@ -320,7 +320,7 @@ In diesem Abschnitt finden Sie eine Einführung in die Erstellung einer Regel zu
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 
 [Definition eigener DLP-Vorlagen und Informationstypen](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 

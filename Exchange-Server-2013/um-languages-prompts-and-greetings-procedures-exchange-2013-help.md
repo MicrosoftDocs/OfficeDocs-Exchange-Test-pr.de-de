@@ -19,9 +19,9 @@ _**Letztes Änderungsdatum des Themas:** 2013-04-17_
 
 [Installieren eines Sprachpakets](install-a-um-language-pack-exchange-2013-help.md)
 
-[Festlegen der Standardsprache für einen Wählplan](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/set-dial-plan-default-language)
+[Festlegen der Standardsprache für einen Wählplan](https://technet.microsoft.com/de-de/library/Aa998914(v=EXCHG.150))
 
-[Auswählen der Sprache für eine automatische Telefonzentrale](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/select-auto-attendant-language)
+[Auswählen der Sprache für eine automatische Telefonzentrale](https://technet.microsoft.com/de-de/library/Aa997306(v=EXCHG.150))
 
 [Entfernen eines UM-Sprachpakets](remove-a-um-language-pack-exchange-2013-help.md)
 
@@ -29,5 +29,5 @@ _**Letztes Änderungsdatum des Themas:** 2013-04-17_
 
 [Importieren benutzerdefinierter Ansagen von Exchange 2007 zu Exchange 2013](import-custom-prompts-from-exchange-2007-to-exchange-2013-exchange-2013-help.md)
 
-[Aktivieren der Aufzeichnung benutzerdefinierter Ansagen über die Benutzerschnittstelle für Telefoneingaben](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
+[Aktivieren der Aufzeichnung benutzerdefinierter Ansagen über die Benutzerschnittstelle für Telefoneingaben](https://technet.microsoft.com/de-de/library/Bb691404(v=EXCHG.150))
 

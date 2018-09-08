@@ -113,7 +113,7 @@ Eine Verteilergruppe kann moderierte Empfänger enthalten, für die eine Genehmi
 
 **Ist das Verfahren ein anderes, wenn wir über unsere eigenen Exchange-Server verfügen?**
 
-Standardmäßig wird für jede Exchange-Organisation ein Vermittlungspostfach verwendet. Wenn Sie über eigene Exchange-Server verfügen und für den Lastenausgleich weitere Vermittlungspostfächer benötigen, befolgen Sie die Anweisungen zum Hinzufügen von Vermittlungspostfächern unter [Verwalten und Problembehandlung der Nachrichtengenehmigung](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/ttroubleshoot-message-approval). Vermittlungspostfächer sind Systempostfächer, für die keine Exchange-Lizenz erforderlich ist.
+Standardmäßig wird für jede Exchange-Organisation ein Vermittlungspostfach verwendet. Wenn Sie über eigene Exchange-Server verfügen und für den Lastenausgleich weitere Vermittlungspostfächer benötigen, befolgen Sie die Anweisungen zum Hinzufügen von Vermittlungspostfächern unter [Verwalten und Problembehandlung der Nachrichtengenehmigung](https://technet.microsoft.com/de-de/library/Dd298110(v=EXCHG.150)). Vermittlungspostfächer sind Systempostfächer, für die keine Exchange-Lizenz erforderlich ist.
 
 
 > [!NOTE]

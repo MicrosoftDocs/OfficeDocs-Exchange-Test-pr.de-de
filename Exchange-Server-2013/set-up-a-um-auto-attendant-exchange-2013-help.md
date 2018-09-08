@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Bei Verwendung von Unified Messaging (UM) können Benutzer nicht nur auf Voicemail zugreifen, sondern Sie können darüber hinaus abhängig von den Anforderungen Ihrer Organisation eine oder mehrere automatische UM-Telefonzentralen erstellen. Automatische UM-Telefonzentralen dienen zum Erstellen eines sprachgesteuerten Menüsystems für eine Organisation, mit dessen Hilfe externe und interne Anrufer Benutzer und Abteilungen in einer Organisation suchen und Anrufe an diese tätigen oder durchstellen können.
 
-Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentralen finden Sie unter [Automatische UM-Telefonzentrale – Verfahren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures).
+Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentralen finden Sie unter [Automatische UM-Telefonzentrale – Verfahren](https://technet.microsoft.com/de-de/library/JJ822155(v=EXCHG.150)).
 
 ## Automatische Telefonzentralen
 
@@ -114,7 +114,7 @@ Gehen Sie folgendermaßen vor, um eine neue automatische UM-Telefonzentrale zu p
 
 12. Nachdem Sie die Einstellungen für die automatische Telefonzentrale, Begrüßungen und Menünavigation geplant haben und Audiodateien mit den aufgezeichneten Begrüßungen sowie den Menünavigationsansagen und -antworten erstellt haben, kann die automatische Telefonzentrale erstellt und konfiguriert werden. Vorgehensweise:
     
-      - [Erstellen einer automatischen UM-Telefonzentrale](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant)
+      - [Erstellen einer automatischen UM-Telefonzentrale](https://technet.microsoft.com/de-de/library/Aa998875(v=EXCHG.150))
     
       - [Verwalten einer automatischen UM-Telefonzentrale](manage-a-um-auto-attendant-exchange-2013-help.md)
 

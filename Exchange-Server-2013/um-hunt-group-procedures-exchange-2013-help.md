@@ -17,9 +17,9 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-05_
 
-[Erstellen eines UM-Sammelanschlusses](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-hunt-group)
+[Erstellen eines UM-Sammelanschlusses](https://technet.microsoft.com/de-de/library/Aa997679(v=EXCHG.150))
 
 [Anzeigen eines um-Sammelanschlusses](view-a-um-hunt-group-exchange-2013-help.md)
 
-[Dient zum Löschen eines UM-Sammelanschlusses.](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/delete-um-hunt-group)
+[Dient zum Löschen eines UM-Sammelanschlusses.](https://technet.microsoft.com/de-de/library/Aa996318(v=EXCHG.150))
 

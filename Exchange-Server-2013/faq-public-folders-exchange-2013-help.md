@@ -23,7 +23,7 @@ Haben Sie Fragen zu öffentlichen Ordnern, die in diesem Thema nicht beantwortet
 
 ## Häufig gestellte Fragen zur Migration öffentlicher Ordner
 
-Dieser Abschnitt enthält häufig gestellte Fragen zur Migration öffentlicher Ordner. Weitere Informationen finden Sie unter [Verwenden der Batchmigration zum Migrieren von öffentlichen Ordnern zu Exchange 2013 aus vorherigen Versionen](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md), [Verwenden der Stapelmigration zum Migrieren von öffentlichen Ordnern einer Vorgängerversion zu Office 365 und Exchange Online](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders) oder [Migrieren von Exchange 2013-basierten öffentlichen Ordnern zu Exchange Online mithilfe einer Batchmigration](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/batch-migration-of-exchange-2013-public-folders).
+Dieser Abschnitt enthält häufig gestellte Fragen zur Migration öffentlicher Ordner. Weitere Informationen finden Sie unter [Verwenden der Batchmigration zum Migrieren von öffentlichen Ordnern zu Exchange 2013 aus vorherigen Versionen](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md), [Verwenden der Stapelmigration zum Migrieren von öffentlichen Ordnern einer Vorgängerversion zu Office 365 und Exchange Online](https://technet.microsoft.com/de-de/library/Dn874017(v=EXCHG.150)) oder [Migrieren von Exchange 2013-basierten öffentlichen Ordnern zu Exchange Online mithilfe einer Batchmigration](https://technet.microsoft.com/de-de/library/Mt798260(v=EXCHG.150)).
 
 ## Welche Szenarien werden für die Migration öffentlicher Postfächer unterstützt?
 
@@ -113,7 +113,7 @@ Führen Sie den folgenden Befehl aus, um das erste Haupthierarchiepostfach für 
 
     New-Mailbox -PublicFolder -Name <name of public folder>
 
-Weitere Informationen finden Sie unter [Erstellen eines öffentlichen Ordners](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/create-public-folder).
+Weitere Informationen finden Sie unter [Erstellen eines öffentlichen Ordners](https://technet.microsoft.com/de-de/library/Bb691104(v=EXCHG.150)).
 
 ## In früheren Exchange-Versionen konnte für jede Postfachdatenbank eine Datenbank für öffentliche Ordner angegeben werden. Wie ist dieser Aspekt in Exchange 2013 implementiert?
 

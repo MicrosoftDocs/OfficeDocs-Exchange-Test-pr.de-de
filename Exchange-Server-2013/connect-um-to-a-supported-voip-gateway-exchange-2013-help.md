@@ -45,7 +45,7 @@ Wenn Sie Exchange-Server in Ihrer Organisation bereitstellen, können Sie den Cl
 
 ## Schritt 2: Erstellen und Konfigurieren von UM-Wähleinstellungen
 
-Nachdem Sie die benötigten Server installiert haben, müssen Sie zunächst einen UM-Wählplan erstellen. Ein UM-Wählplan umfasst die Konfigurationseinstellungen, mit deren Hilfe Sie eine Verbindung mit Ihrem Telefonienetzwerk herstellen können, indem Sie ein oder mehrere UM-IP-Gateways verbinden. Ein UM-IP-Gateway und UM-Sammelanschluss sind direkt mit einem UM-Wählplan verbunden und ebenfalls erforderlich. Weitere Informationen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
+Nachdem Sie die benötigten Server installiert haben, müssen Sie zunächst einen UM-Wählplan erstellen. Ein UM-Wählplan umfasst die Konfigurationseinstellungen, mit deren Hilfe Sie eine Verbindung mit Ihrem Telefonienetzwerk herstellen können, indem Sie ein oder mehrere UM-IP-Gateways verbinden. Ein UM-IP-Gateway und UM-Sammelanschluss sind direkt mit einem UM-Wählplan verbunden und ebenfalls erforderlich. Weitere Informationen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
 Ein UM-Wählplan richtet einen Link zwischen der Durchwahlnummer eines Empfängers und einem UM-aktivierten Postfach ein. Wenn Sie einen UM-Wählplan erstellen, können Sie die Anzahl der Stellen in den Durchwahlnummern, den URI-Typ (Uniform Resource Identifier) und die VoIP-Sicherheitseinstellung für den Wählplan konfigurieren.
 
@@ -65,13 +65,13 @@ Exchange Unified Messaging unterstützt mehrere Hersteller von VoIP-Gateways und
 
 Ausführliche Informationen zu VoIP-Gateways finden Sie unter den folgenden Themen:
 
-  - [Erstellen eines UM-IP-Gateways](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway)
+  - [Erstellen eines UM-IP-Gateways](https://technet.microsoft.com/de-de/library/Aa998045(v=EXCHG.150))
 
-  - [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures)
+  - [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150))
 
   - [Verbinden eines VoIP-Gateways, einer IP-Nebenstellenanlage oder eines Session Border Controllers mit UM](connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md)
 
-Weitere Informationen finden Sie unter [Verbinden Ihres Voicemailsystems mit Ihrem Telefonnetz](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system).
+Weitere Informationen finden Sie unter [Verbinden Ihres Voicemailsystems mit Ihrem Telefonnetz](https://technet.microsoft.com/de-de/library/JJ673554(v=EXCHG.150)).
 
 ## Schritt 4: (Bedarfsabhängiges) Erstellen eines neuen UM-Sammelanschlusses
 
@@ -81,5 +81,5 @@ UM-Sammelanschlüsse spiegeln die von Nebenstellenanlagen und IP-Nebenstellenanl
 
 Abhängig von der Erstellung des UM-IP-Gateways müssen Sie möglicherweise mindestens einen neuen UM-Sammelanschluss erstellen. Wenn Sie beim Erstellen des UM-IP-Gateways dieses nicht mit einem Wählplan verbinden, wird standardmäßig ein einzelner UM-Sammelanschluss erstellt. Wenn Sie beim Erstellen des UM-IP-Gateways dieses mit einem Wählplan verbinden, werden alle eingehenden Anrufe durch die UM-IP-Gateways gesendet, woraufhin diese Anrufe von Clientzugriffs- oder Postfachservern angenommen werden. Wenn Sie beim Erstellen des UM-IP-Gateways dieses nicht mit einem Wählplan verbinden, müssen Sie einen UM-Sammelanschluss mit der ordnungsgemäßen Pilot-ID für eingehende Anrufe erstellen, damit diese von einem UM-IP-Gateway zu einem Wählplan weitergeleitet werden.
 
-Wenn es mehrere Outlook Voice Access-Nummern und Nummern einer automatischen Telefonzentrale gibt und Sie ein UM-IP-Gateway mit einem Wählplan verbunden haben, müssen Sie den UM-Sammelanschluss löschen, der standardmäßig erstellt wurde, um mehrere UM-Sammelanschlüsse erstellen. Details zum Erstellen eines UM-Sammelanschlusses finden Sie unter [Erstellen eines UM-Sammelanschlusses](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-hunt-group).
+Wenn es mehrere Outlook Voice Access-Nummern und Nummern einer automatischen Telefonzentrale gibt und Sie ein UM-IP-Gateway mit einem Wählplan verbunden haben, müssen Sie den UM-Sammelanschluss löschen, der standardmäßig erstellt wurde, um mehrere UM-Sammelanschlüsse erstellen. Details zum Erstellen eines UM-Sammelanschlusses finden Sie unter [Erstellen eines UM-Sammelanschlusses](https://technet.microsoft.com/de-de/library/Aa997679(v=EXCHG.150)).
 

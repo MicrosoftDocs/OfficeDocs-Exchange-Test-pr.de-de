@@ -29,7 +29,7 @@ Speicherkontingente ermöglichen es Ihnen, die Größe von Postfächern zu steue
 
 Speicherkontingente werden typischerweise pro Datenbank konfiguriert. Das bedeutet, dass die für eine Postfachdatenbank konfigurierten Kontingente für alle Postfächer in der betreffenden Datenbank gelten. Weitere Informationen zum Verwalten von Postfacheinstellungen pro Datenbank finden Sie unter [Verwalten von Postfachdatenbanken in Exchange 2013](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md).
 
-In diesem Thema wird beschrieben, wie Sie die Speichereinstellungen für ein bestimmtes Postfach anpassen, anstatt die Speichereinstellungen der Postfachdatenbank zu verwenden. Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Benutzerpostfächer finden Sie unter [Verwalten von Benutzerpostfächern](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
+In diesem Thema wird beschrieben, wie Sie die Speichereinstellungen für ein bestimmtes Postfach anpassen, anstatt die Speichereinstellungen der Postfachdatenbank zu verwenden. Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Benutzerpostfächer finden Sie unter [Verwalten von Benutzerpostfächern](https://technet.microsoft.com/de-de/library/Bb123809(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 

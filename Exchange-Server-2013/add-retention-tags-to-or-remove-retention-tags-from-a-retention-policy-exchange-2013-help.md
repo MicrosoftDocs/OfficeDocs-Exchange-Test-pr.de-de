@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2015-03-02_
 
-Sie können Aufbewahrungstags zu einer Aufbewahrungsrichtlinie hinzufügen, wenn die Richtlinie erstellt wird, oder zu einem beliebigen späteren Zeitpunkt. Genaue Anweisungen zum Erstellen einer Aufbewahrungsrichtlinie, einschließlich des gleichzeitigen Hinzufügens von Aufbewahrungstags, finden Sie unter [Erstellen einer Aufbewahrungsrichtlinie](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy).
+Sie können Aufbewahrungstags zu einer Aufbewahrungsrichtlinie hinzufügen, wenn die Richtlinie erstellt wird, oder zu einem beliebigen späteren Zeitpunkt. Genaue Anweisungen zum Erstellen einer Aufbewahrungsrichtlinie, einschließlich des gleichzeitigen Hinzufügens von Aufbewahrungstags, finden Sie unter [Erstellen einer Aufbewahrungsrichtlinie](https://technet.microsoft.com/de-de/library/JJ150573(v=EXCHG.150)).
 
 Eine Aufbewahrungsrichtlinie kann die folgenden Aufbewahrungstags enthalten:
 
@@ -31,7 +31,7 @@ Eine Aufbewahrungsrichtlinie kann die folgenden Aufbewahrungstags enthalten:
 
   - Eine beliebige Anzahl von persönlichen Tags
 
-Weitere Informationen zu Aufbewahrungstags finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies).
+Weitere Informationen zu Aufbewahrungstags finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://technet.microsoft.com/de-de/library/Dd297955(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 

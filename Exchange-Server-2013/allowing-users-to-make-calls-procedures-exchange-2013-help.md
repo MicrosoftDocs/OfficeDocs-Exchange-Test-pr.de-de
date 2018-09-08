@@ -17,19 +17,19 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-05-03_
 
-[Aktivieren Sie ausgehende Anrufe für UM-IP-gateways](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-outgoing-calls-on-um-ip-gateways)
+[Aktivieren Sie ausgehende Anrufe für UM-IP-gateways](https://technet.microsoft.com/de-de/library/JJ673562(v=EXCHG.150))
 
-[Deaktivieren Sie ausgehende Anrufe für UM-IP-gateways](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways)
+[Deaktivieren Sie ausgehende Anrufe für UM-IP-gateways](https://technet.microsoft.com/de-de/library/Bb232153(v=EXCHG.150))
 
-[Kurzwahlnummern konfigurieren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-dial-codes)
+[Kurzwahlnummern konfigurieren](https://technet.microsoft.com/de-de/library/Bb124992(v=EXCHG.150))
 
-[Erstellen von Wählregeln für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/create-dialing-rules)
+[Erstellen von Wählregeln für Benutzer](https://technet.microsoft.com/de-de/library/JJ898502(v=EXCHG.150))
 
-[Autorisieren von Anrufen mit Wählregeln](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-using-dialing-rules)
+[Autorisieren von Anrufen mit Wählregeln](https://technet.microsoft.com/de-de/library/JJ898499(v=EXCHG.150))
 
-[Autorisieren von Aufrufen für automatische Telefonzentralen Anrufer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-auto-attendant-callers)
+[Autorisieren von Aufrufen für automatische Telefonzentralen Anrufer](https://technet.microsoft.com/de-de/library/Bb691238(v=EXCHG.150))
 
-[Autorisieren von Anrufen für Benutzer in einem Wählplan](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-users-in-a-dial-plan)
+[Autorisieren von Anrufen für Benutzer in einem Wählplan](https://technet.microsoft.com/de-de/library/Bb691175(v=EXCHG.150))
 
-[Autorisieren von Anrufen für eine Gruppe von Benutzern](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-a-group-of-users)
+[Autorisieren von Anrufen für eine Gruppe von Benutzern](https://technet.microsoft.com/de-de/library/Bb232099(v=EXCHG.150))
 

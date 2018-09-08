@@ -35,7 +35,7 @@ Richtlinientipps sind informative Hinweise, die E-Mail-Absendern beim Verfassen 
     
     3.  Der Inhalt eines Nachrichtenkopfs, eines Nachrichtentexts oder einer Nachrichtenanlage, der bzw. die vom Transport-Agent überprüft wird, erfüllt die Bedingungen, die in den DLP-Richtlinien oder -Regeln festgelegt sind, die auch Benachrichtigungsregeln für Richtlinientipps enthalten. Der Richtlinientipp wird also Endbenutzern nur angezeigt, wenn sie etwas tun, das zum Auslösen der zughörigen Regel führt.
 
-  - Der standardmäßige Benachrichtigungstext für Richtlinientipps, der im System implementiert ist, wird angezeigt, wenn Sie nicht mit dem Feature für die Einstellungen von Richtlinientipps den Text von Richtlinientipps anpassen. Weitere Informationen zum Standardtext finden Sie unter [Richtlinientipps](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/policy-tips).
+  - Der standardmäßige Benachrichtigungstext für Richtlinientipps, der im System implementiert ist, wird angezeigt, wenn Sie nicht mit dem Feature für die Einstellungen von Richtlinientipps den Text von Richtlinientipps anpassen. Weitere Informationen zum Standardtext finden Sie unter [Richtlinientipps](https://technet.microsoft.com/de-de/library/JJ150512(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -151,7 +151,7 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie erfolgreich einen 
 
 ## Erstellen oder Ändern eines Richtlinientipps zum Blockieren von Nachrichten, sofern keine Außerkraftsetzung erfolgt
 
-Es gibt vier Optionen für Richtlinientipps, mit denen Nachrichten abgelehnt werden können oder mit denen verhindert werden kann, dass Nachrichten den Postausgang des Absenders verlassen. Weitere Informationen zu diesen Optionen finden Sie unter [Richtlinientipps](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/policy-tips).
+Es gibt vier Optionen für Richtlinientipps, mit denen Nachrichten abgelehnt werden können oder mit denen verhindert werden kann, dass Nachrichten den Postausgang des Absenders verlassen. Weitere Informationen zu diesen Optionen finden Sie unter [Richtlinientipps](https://technet.microsoft.com/de-de/library/JJ150512(v=EXCHG.150)).
 
 ## Konfigurieren von Richtlinientipps zum Blockieren von Nachrichten, sofern keine Außerkraftsetzung erfolgt, mithilfe der Exchange-Verwaltungskonsole
 
@@ -187,7 +187,7 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie erfolgreich einen 
 
 ## Erstellen von benutzerdefiniertem Benachrichtigungstext für Richtlinientipps
 
-Mithilfe dieses optionalen Verfahrens können Sie den Benachrichtigungstext für Richtlinientipps anpassen, der E-Mail-Absendern in ihrem E-Mail-Programm angezeigt wird. Wenn Sie dieses Verfahren durchführen, wird der benutzerdefinierte Benachrichtigungstext für Richtlinientipps erst angezeigt, wenn Sie zudem eine DLP-Richtlinienregel mit einer Aktion konfigurieren, die die Anzeige der Benachrichtigung auslöst. Bedenken Sie, dass es standardmäßige Systembenachrichtigungen für Richtlinientipps gibt, die angezeigt werden können, wenn Sie den Benachrichtigungstext für Richtlinientipps nicht anpassen. Weitere Informationen zum Standardtext finden Sie unter [Richtlinientipps](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/policy-tips).
+Mithilfe dieses optionalen Verfahrens können Sie den Benachrichtigungstext für Richtlinientipps anpassen, der E-Mail-Absendern in ihrem E-Mail-Programm angezeigt wird. Wenn Sie dieses Verfahren durchführen, wird der benutzerdefinierte Benachrichtigungstext für Richtlinientipps erst angezeigt, wenn Sie zudem eine DLP-Richtlinienregel mit einer Aktion konfigurieren, die die Anzeige der Benachrichtigung auslöst. Bedenken Sie, dass es standardmäßige Systembenachrichtigungen für Richtlinientipps gibt, die angezeigt werden können, wenn Sie den Benachrichtigungstext für Richtlinientipps nicht anpassen. Weitere Informationen zum Standardtext finden Sie unter [Richtlinientipps](https://technet.microsoft.com/de-de/library/JJ150512(v=EXCHG.150)).
 
 ## Erstellen und Verwalten von benutzerdefiniertem Benachrichtigungstext für Richtlinientipps mithilfe der Exchange-Verwaltungskonsole
 
@@ -195,7 +195,7 @@ Mithilfe dieses optionalen Verfahrens können Sie den Benachrichtigungstext für
 
 2.  Wählen Sie **Einstellungen für Richtlinientipps**![Einstellungen für Richtlinientipps](images/JJ619307.54d1813d-3289-4765-a9a3-a7303a5ab3c7(EXCHG.150).gif "Einstellungen für Richtlinientipps").
 
-3.  Wählen Sie **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)"), um einen neuen Richtlinientipp mit Ihrer eigenen angepassten Nachricht hinzuzufügen. Weitere Informationen zu den verfügbaren Aktionsoptionen finden Sie unter [Richtlinientipps](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/policy-tips).
+3.  Wählen Sie **Hinzufügen**![Hinzufügen (Symbol)](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Hinzufügen (Symbol)"), um einen neuen Richtlinientipp mit Ihrer eigenen angepassten Nachricht hinzuzufügen. Weitere Informationen zu den verfügbaren Aktionsoptionen finden Sie unter [Richtlinientipps](https://technet.microsoft.com/de-de/library/JJ150512(v=EXCHG.150)).
     
     Um einen vorhandenen Richtlinientipp zu ändern, markieren Sie den Tipp, und wählen Sie **Bearbeiten**![Bearbeitungssymbol](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Bearbeitungssymbol").
     
@@ -235,9 +235,9 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie erfolgreich einen 
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 
-[Richtlinientipps](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/policy-tips)
+[Richtlinientipps](https://technet.microsoft.com/de-de/library/JJ150512(v=EXCHG.150))
 
 [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)Exchange 2013
 

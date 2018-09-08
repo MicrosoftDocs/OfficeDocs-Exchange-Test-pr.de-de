@@ -112,21 +112,21 @@ Weitere Informationen zum Hinzufügen, Entfernen und Ändern von Durchwahlnummer
 
   - [Ändern einer Durchwahlnummer](change-an-extension-number-exchange-2013-help.md)
 
-  - [Hinzufügen einer Durchwahlnummer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-extension-number)
+  - [Hinzufügen einer Durchwahlnummer](https://technet.microsoft.com/de-de/library/Dd335124(v=EXCHG.150))
 
   - [Entfernen einer Durchwahlnummer](remove-an-extension-number-exchange-2013-help.md)
 
 Wenn Sie SIP-Adressen oder E.164-Nummern für UM-aktivierte Benutzer ändern müssen:
 
-  - [Hinzufügen einer SIP-Adresse](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-sip-address)
+  - [Hinzufügen einer SIP-Adresse](https://technet.microsoft.com/de-de/library/JJ662760(v=EXCHG.150))
 
-  - [Ändern einer SIP-Adresse](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-sip-address)
+  - [Ändern einer SIP-Adresse](https://technet.microsoft.com/de-de/library/Dd335189(v=EXCHG.150))
 
-  - [Entfernen einer SIP-Adresse](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-sip-address)
+  - [Entfernen einer SIP-Adresse](https://technet.microsoft.com/de-de/library/JJ662761(v=EXCHG.150))
 
-  - [Hinzufügen einer E.164-Nummer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-e-164-number)
+  - [Hinzufügen einer E.164-Nummer](https://technet.microsoft.com/de-de/library/JJ662762(v=EXCHG.150))
 
-  - [Ändern Sie eine e. 164-Nummer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-e-164-number)
+  - [Ändern Sie eine e. 164-Nummer](https://technet.microsoft.com/de-de/library/Dd335162(v=EXCHG.150))
 
   - [Entfernen einer e. 164-Nummer](remove-an-e-164-number-exchange-2013-help.md)
 

@@ -21,7 +21,7 @@ Es kann notwendig sein, einen Benutzer, der für Unified Messaging (UM) aktivier
 
 Zum Ändern des UM-Wählplans müssen Sie den Benutzer für UM deaktivieren und den Benutzer anschließend im neuen UM-Wählplan wieder für UM aktivieren. Dies ist erforderlich, da für verschiedene Wähleinstellungen verschiedene Einstellungen und Anforderungen gelten können, z. B. unterschiedliche Durchwahllängen oder verschiedene URI-Typen. Bei SIP-URI-Wähplänen ist es beispielsweise erforderlich, dass jedem UM-aktivierten Postfach eine SIP-Ressourcen-ID zugewiesen ist, bei Telefondurchwahl-Wähleinstellungen jedoch nicht. Darüber hinaus enthält jedes UM-Postfach Verweise sowohl auf die UM-Wähleinstellungen als auch auf die UM-Postfachrichtlinie. Die UM-Postfachrichtlinie enthält wiederum Verweise auf den UM-Wählplan. Wenn Sie die primäre Proxyadresse für einen UM-aktivierten Benutzer ändern, sodass sie auf andere Wähleinstellungen zeigt, weist das UM-Postfach anschließend einen inkonsistenten Zustand auf.
 
-Informationen zu weiteren Verwaltungsaufgaben in Bezug auf für Voicemail aktivierte Benutzer finden Sie unter [VoIP-e-Mail-aktivierten Benutzer Prozeduren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-enabled-user-procedures).
+Informationen zu weiteren Verwaltungsaufgaben in Bezug auf für Voicemail aktivierte Benutzer finden Sie unter [VoIP-e-Mail-aktivierten Benutzer Prozeduren](https://technet.microsoft.com/de-de/library/JJ835776(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -29,11 +29,11 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf für Voicemail aktivi
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "UM-Postfächer" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieses Verfahrens, dass ein UM-Wählplan erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
+  - Vergewissern Sie sich vor dem Ausführen dieses Verfahrens, dass ein UM-Wählplan erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
-  - Vergewissern Sie sich vor dem Ausführen dieses Verfahrens, dass eine UM-Postfachrichtlinie erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
+  - Vergewissern Sie sich vor dem Ausführen dieses Verfahrens, dass eine UM-Postfachrichtlinie erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Bb123510(v=EXCHG.150)).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass der vorhandene Exchange-Empfänger für Unified Messaging aktiviert ist. Ausführliche Anleitungen finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass der vorhandene Exchange-Empfänger für Unified Messaging aktiviert ist. Ausführliche Anleitungen finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://technet.microsoft.com/de-de/library/Bb124147(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -53,11 +53,11 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf für Voicemail aktivi
 
 
 
-Ausführliche Anweisungen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
+Ausführliche Anweisungen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
 ## Schritt 2: Deaktivieren des Benutzers für Unified Messaging
 
-Ausführliche Anweisungen finden Sie unter [Deaktivieren von Voicemail für einen Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/disable-voice-mail).
+Ausführliche Anweisungen finden Sie unter [Deaktivieren von Voicemail für einen Benutzer](https://technet.microsoft.com/de-de/library/Bb124691(v=EXCHG.150)).
 
 ## Schritt 3: Aktivieren des Benutzers für Unified Messaging im neuen UM-Wählplan
 
@@ -67,5 +67,5 @@ Ausführliche Anweisungen finden Sie unter [Deaktivieren von Voicemail für eine
 
 
 
-Ausführliche Anweisungen finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
+Ausführliche Anweisungen finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://technet.microsoft.com/de-de/library/Bb124147(v=EXCHG.150)).
 

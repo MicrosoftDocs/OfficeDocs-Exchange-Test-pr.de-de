@@ -29,7 +29,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf OABs finden Sie unter
 
   - UNRESOLVED\_TOKENBLOCK\_VAL(GENL\_AddressListRole\_EXOnOP)
 
-  - Änderungen an der Adressliste stehen erst für den Clientdownload zur Verfügung, nachdem das OAB, in dem die Adressliste gespeichert ist, generiert wurde. Weitere Informationen finden Sie unter [Aktualisieren eines Offlineadressbuchs](https://review.docs.microsoft.com/de-de/exchange/address-books/offline-address-books/update-offline-address-book).
+  - Änderungen an der Adressliste stehen erst für den Clientdownload zur Verfügung, nachdem das OAB, in dem die Adressliste gespeichert ist, generiert wurde. Weitere Informationen finden Sie unter [Aktualisieren eines Offlineadressbuchs](https://technet.microsoft.com/de-de/library/Aa997684(v=EXCHG.150)).
 
   - Dieses Verfahren kann nicht in der Exchange-Verwaltungskonsole ausgeführt werden. Sie müssen die Shell verwenden.
 

@@ -93,11 +93,11 @@ DLP-Richtlinienvorlagen sind ein Feature von Microsoft Exchange, das es Ihnen er
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 
 [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)Exchange 2013
 
 [Nachrichtenflussregeln (Transportregeln) in Exchange Online](https://technet.microsoft.com/de-de/library/jj919238\(v=exchg.150\))Exchange Online
 
-[Integrieren von Regeln für vertrauliche Informationen in Transportregeln](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
+[Integrieren von Regeln für vertrauliche Informationen in Transportregeln](https://technet.microsoft.com/de-de/library/JJ150583(v=EXCHG.150))
 

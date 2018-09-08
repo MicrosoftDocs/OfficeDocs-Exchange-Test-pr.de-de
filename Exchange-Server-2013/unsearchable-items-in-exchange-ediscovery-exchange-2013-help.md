@@ -63,9 +63,9 @@ Beachten Sie beim Kopieren oder Exportieren von nicht durchsuchbaren Elementen F
 
 Weitere Informationen zum Einschließen von nicht durchsuchbaren Elementen in Suchergebnissen finden Sie unter:
 
-  - [Erstellen einer Compliance-eDiscovery-Suche](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search)
+  - [Erstellen einer Compliance-eDiscovery-Suche](https://technet.microsoft.com/de-de/library/Dd353189(v=EXCHG.150))
 
-  - [Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/export-search-results)
+  - [Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei](https://technet.microsoft.com/de-de/library/Dn440164(v=EXCHG.150))
 
   - [SharePoint: Exportieren von eDiscovery-Inhalten und Erstellen von Berichte](https://go.microsoft.com/fwlink/p/?linkid=324757)
 

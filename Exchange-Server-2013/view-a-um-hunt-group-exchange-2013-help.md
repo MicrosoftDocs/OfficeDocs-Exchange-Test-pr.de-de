@@ -21,7 +21,7 @@ Beim Anzeigen der Eigenschaften eines Unified Messaging-Sammelanschlusses (UM) k
 
 Nach dem Erstellen eines UM-Sammelanschlusses können die konfigurierten Einstellungen nicht geändert werden. Wenn Sie eine Konfigurationseinstellung ändern möchten, wie z. B. die Pilot-ID eines UM-Sammelanschlusses, müssen Sie den vorhandenen UM-Sammelanschluss löschen und einen neuen UM-Sammelanschluss mit den gewünschten Einstellungen erstellen.
 
-Informationen zu weiteren Aufgaben in Bezug auf UM-Sammelanschlüsse finden Sie unter [Um-Sammelanschlüsse Gruppieren von Prozeduren](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-group-procedures).
+Informationen zu weiteren Aufgaben in Bezug auf UM-Sammelanschlüsse finden Sie unter [Um-Sammelanschlüsse Gruppieren von Prozeduren](https://technet.microsoft.com/de-de/library/JJ851063(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -29,11 +29,11 @@ Informationen zu weiteren Aufgaben in Bezug auf UM-Sammelanschlüsse finden Sie 
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "UM-Sammelanschlüsse" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieses Verfahrens, dass ein UM-Wählplan erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
+  - Vergewissern Sie sich vor dem Ausführen dieses Verfahrens, dass ein UM-Wählplan erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
-  - Vergewissern Sie sich vor dem Ausführen dieses Verfahrens, dass ein UM-IP-Gateway erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-IP-Gateways](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
+  - Vergewissern Sie sich vor dem Ausführen dieses Verfahrens, dass ein UM-IP-Gateway erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-IP-Gateways](https://technet.microsoft.com/de-de/library/Aa998045(v=EXCHG.150)).
 
-  - Vergewissern Sie sich vor dem Ausführen dieses Verfahrens, dass ein UM-Sammelanschluss erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Sammelanschlusses](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-hunt-group).
+  - Vergewissern Sie sich vor dem Ausführen dieses Verfahrens, dass ein UM-Sammelanschluss erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Sammelanschlusses](https://technet.microsoft.com/de-de/library/Aa997679(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

@@ -208,9 +208,9 @@ In der folgenden Tabelle sind die DLP-Richtlinienvorlagen in Exchange aufgeführ
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 
-[Erstellen einer DLP-Richtlinie aus einer Vorlage](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template)
+[Erstellen einer DLP-Richtlinie aus einer Vorlage](https://technet.microsoft.com/de-de/library/JJ150515(v=EXCHG.150))
 
 [Wonach die Typen von vertraulichen Informationen in Exchange suchen](what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md)
 

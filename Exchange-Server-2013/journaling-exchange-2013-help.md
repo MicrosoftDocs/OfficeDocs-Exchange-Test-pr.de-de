@@ -85,7 +85,7 @@ Exchange 2013 stellt die folgenden Journaloptionen bereit:
 
   - **Premium-Journale**   Mit Premium-Journalen kann der Journal-Agent mithilfe von Journalregeln Journale mit größerer Granularität erstellen. Anstatt alle Postfächer in einer Postfachdatenbank in Journalen aufzuzeichnen, können Sie in Abstimmung auf die Anforderungen Ihrer Organisation Journalregeln konfigurieren, mit denen einzelne Empfänger oder Mitglieder von Verteilergruppen in Journalen erfasst werden. Zur Verwendung der Premium-Journalfunktion müssen Sie eine Exchange Enterprise-Clientzugriffslizenz (Client Access License, CAL) besitzen.
 
-Wenn Sie Standardjournale für eine Postfachdatenbank aktivieren, werden diese Informationen in Active Directory gespeichert und vom Journal-Agent gelesen. Ebenso werden Journalregeln, die mithilfe der Premium-Journalfunktion konfiguriert wurden, in Active Directory gespeichert und vom Journal-Agent angewendet. Weitere Informationen zum Konfigurieren von Standard- und Premium-Journalen finden Sie unter [Verwalten des Journalings](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/journaling/manage-journaling).
+Wenn Sie Standardjournale für eine Postfachdatenbank aktivieren, werden diese Informationen in Active Directory gespeichert und vom Journal-Agent gelesen. Ebenso werden Journalregeln, die mithilfe der Premium-Journalfunktion konfiguriert wurden, in Active Directory gespeichert und vom Journal-Agent angewendet. Weitere Informationen zum Konfigurieren von Standard- und Premium-Journalen finden Sie unter [Verwalten des Journalings](https://technet.microsoft.com/de-de/library/JJ651670(v=EXCHG.150)).
 
 Zurück zum Seitenanfang
 

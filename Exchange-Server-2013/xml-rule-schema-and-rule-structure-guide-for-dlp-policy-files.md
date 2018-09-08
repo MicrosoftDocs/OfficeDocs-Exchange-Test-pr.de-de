@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
-In dieser Übersicht werden die Komponenten einer XML-Schemadefinition für Richtlinienvorlagendateien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) erläutert, und es wird eine Beispielrichtliniendatei im XML-Format bereitgestellt. Bevor Sie beginnen, sollten Sie sich mit den Grundlagen der DLP-Architektur und der Regelentwicklung vertraut machen. Weitere Informationen finden Sie unter [Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) und [Definition eigener DLP-Vorlagen und Informationstypen](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
+In dieser Übersicht werden die Komponenten einer XML-Schemadefinition für Richtlinienvorlagendateien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) erläutert, und es wird eine Beispielrichtliniendatei im XML-Format bereitgestellt. Bevor Sie beginnen, sollten Sie sich mit den Grundlagen der DLP-Architektur und der Regelentwicklung vertraut machen. Weitere Informationen finden Sie unter [Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150)) und [Definition eigener DLP-Vorlagen und Informationstypen](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 
 Zur einfachen Einführung und Verwaltung von DLP-Lösungen wurde in Microsoft Exchange Server 2013 ein konzeptionelles Modell aus DLP-Richtlinien und -Richtlinienvorlagen eingeführt. DLP-Richtlinienvorlagen bieten einen vorläufigen Entwurf für die beabsichtigte DLP-Richtlinie. Um von Nutzen zu sein, muss eine DLP-Richtlinienvorlage alle Direktiven und Datenobjekte kapseln, die zur Erfüllung eines spezifischen Richtlinienziels benötigt werden, beispielsweise eine Vorschrift oder eine Geschäftsanforderung. Die Vorlage ist nicht an eine bestimmte Umgebung gebunden. Es handelt sich lediglich um eine Definition oder ein Modell einer Richtlinie, die als Bestandteil der Produktkonfiguration oder über unabhängige Softwareanbieter und Partner bereitgestellt werden kann. DLP-Richtlinien hingegen sind Laufzeitinstanzen der Vorlagen, die speziell auf die Bereitstellungsumgebung abgestimmt sind. DLP-Richtlinien können über die Verwendung von Transportregeln in Ihr vorhandenes Framework für Messagingrichtlinien eingebunden werden. Transportregeln bieten große Flexibilität bei der Anpassung und Umsetzung aller Aspekte Ihrer DLP-Lösungen.
 
@@ -315,7 +315,7 @@ Untergeordnete Elemente enthalten die folgenden Abfolge von Elementen.
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 
 [Definition eigener DLP-Vorlagen und Informationstypen](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 

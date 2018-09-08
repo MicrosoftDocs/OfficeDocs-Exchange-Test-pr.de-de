@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2015-04-07_
 
-In Microsoft Exchange Server 2013 erfolgt die Messaging-Datensatzverwaltung (Messaging Records Management, MRM) über die Verwendung von Aufbewahrungstags und Aufbewahrungsrichtlinien. Eine Aufbewahrungsrichtlinie ist eine Gruppe von Aufbewahrungstags, die auf ein Postfach angewendet werden können. Weitere Informationen finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies). Verwaltete Ordner, die in Exchange Server 2007 eingeführte Technologie für die Messaging-Datensatzverwaltung, werden nicht unterstützt.
+In Microsoft Exchange Server 2013 erfolgt die Messaging-Datensatzverwaltung (Messaging Records Management, MRM) über die Verwendung von Aufbewahrungstags und Aufbewahrungsrichtlinien. Eine Aufbewahrungsrichtlinie ist eine Gruppe von Aufbewahrungstags, die auf ein Postfach angewendet werden können. Weitere Informationen finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://technet.microsoft.com/de-de/library/Dd297955(v=EXCHG.150)). Verwaltete Ordner, die in Exchange Server 2007 eingeführte Technologie für die Messaging-Datensatzverwaltung, werden nicht unterstützt.
 
 Ein Postfach, auf das eine Postfachrichtlinie für verwalteten Ordner angewendet wird, kann für die Verwendung einer Aufbewahrungsrichtlinie migriert werden. Dazu müssen Sie Aufbewahrungstags erstellen, die den verwalteten Ordnern entsprechen, die mit der Postfachrichtlinie für verwalteten Ordner des Benutzers verknüpft sind.
 

@@ -17,25 +17,25 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
-[Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan)
+[Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150))
 
-[Verwalten eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-dial-plan)
+[Verwalten eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb124090(v=EXCHG.150))
 
 [Hinzufügen von Postfach- und Clientzugriffsservern zu einem SIP-URI-Wählplan](add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md)
 
 [Entfernen von Postfach- und Clientzugriffs-Servern aus einem SIP-URI-Wählplan](remove-mailbox-and-client-access-servers-from-a-sip-uri-dial-plan-exchange-2013-help.md)
 
-[Ändern des Audiocodecs](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/change-audio-codec)
+[Ändern des Audiocodecs](https://technet.microsoft.com/de-de/library/Aa996342(v=EXCHG.150))
 
 [Konfigurieren der maximalen Anrufdauer](configure-the-maximum-call-duration-exchange-2013-help.md)
 
-[Konfigurieren Sie die maximale Aufzeichnung Dauer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-maximum-recording-duration)
+[Konfigurieren Sie die maximale Aufzeichnung Dauer](https://technet.microsoft.com/de-de/library/Ee423539(v=EXCHG.150))
 
 [Konfigurieren Sie den Wert der Aufzeichnung Leerlauftimeout](configure-the-recording-idle-time-out-value-exchange-2013-help.md)
 
-[Konfigurieren der VoIP-Sicherheitseinstellung](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-voip-security-setting)
+[Konfigurieren der VoIP-Sicherheitseinstellung](https://technet.microsoft.com/de-de/library/Bb201721(v=EXCHG.150))
 
-[Konfigurieren eines Wählplans für Benutzer mit ähnliche Namen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-dial-plan-for-users-with-similar-names)
+[Konfigurieren eines Wählplans für Benutzer mit ähnliche Namen](https://technet.microsoft.com/de-de/library/Bb266943(v=EXCHG.150))
 
-[Löschen von einem um-Wählplan](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/delete-um-dial-plan)
+[Löschen von einem um-Wählplan](https://technet.microsoft.com/de-de/library/Bb124546(v=EXCHG.150))
 

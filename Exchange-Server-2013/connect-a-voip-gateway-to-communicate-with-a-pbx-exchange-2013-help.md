@@ -25,9 +25,9 @@ Beim Konfigurieren eines VoIP-Gateways muss berücksichtigt werden, ob das VoIP-
 
 Es folgt eine Liste der Ressourcen im Exchange TechCenter, die Informationen zur ordnungsgemäßen Konfiguration Ihrer VoIP-Gateways und Nebenstellenanlagen enthält:
 
-  - **Dokumentation zu unterstützten IP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen**   [Telefonieratgeber für Exchange 2013](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013) bietet Konfigurationsdateien und Installationsinformationen, die Sie bei der Konfiguration von VoIP-Gateways und Nebenstellenanlagen befolgen können.
+  - **Dokumentation zu unterstützten IP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen**   [Telefonieratgeber für Exchange 2013](https://technet.microsoft.com/de-de/library/Ee364753(v=EXCHG.150)) bietet Konfigurationsdateien und Installationsinformationen, die Sie bei der Konfiguration von VoIP-Gateways und Nebenstellenanlagen befolgen können.
 
-  - **Konfigurations- und technische Hinweise**   [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures) bietet Konfigurationsdateien und Installationsinformationen, die Sie bei der Konfiguration von VoIP-Gateways und Nebenstellenanlagen befolgen können.
+  - **Konfigurations- und technische Hinweise**   [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150)) bietet Konfigurationsdateien und Installationsinformationen, die Sie bei der Konfiguration von VoIP-Gateways und Nebenstellenanlagen befolgen können.
 
   - **Konfigurieren eines AudioCodes-basierten IP-Gateways**   Die neuesten Support- und Konfigurationsinformationen, die Ihnen bei der Konfiguration von AudioCodes-basierten IP-Gateways für die Verwendung mit Unified Messaging helfen können, erhalten Sie auf der Seite mit [Microsoft Exchange Server-Ressourcen](https://www.audiocodes.com/solutions/microsoft/exchange-server).
 
@@ -37,7 +37,7 @@ Alle Kunden, die eine Bereitstellung von Unified Messaging planen, sollten einen
 
 ## Weitere Informationen
 
-[Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures)
+[Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150))
 
 [Verbinden von UM mit einem unterstützten VoIP-Gateway](connect-um-to-a-supported-voip-gateway-exchange-2013-help.md)
 

@@ -31,13 +31,13 @@ Weitere Informationen zu den UM-Komponenten finden Sie unter:
 
   - [UM-IP-Gateways](um-ip-gateways-exchange-2013-help.md)
 
-  - [UM-Sammelanschlüsse](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups)
+  - [UM-Sammelanschlüsse](https://technet.microsoft.com/de-de/library/Aa995918(v=EXCHG.150))
 
-  - [Automatisches Beantworten und Weiterleiten eingehender Anrufe](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
+  - [Automatisches Beantworten und Weiterleiten eingehender Anrufe](https://technet.microsoft.com/de-de/library/Bb124724(v=EXCHG.150))
 
 Weitere Informationen zum Einrichten von Voicemail für Benutzer finden Sie unter:
 
-  - [UM-Postfachrichtlinien](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies)
+  - [UM-Postfachrichtlinien](https://technet.microsoft.com/de-de/library/Bb124909(v=EXCHG.150))
 
-  - [Voicemail für Benutzer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users)
+  - [Voicemail für Benutzer](https://technet.microsoft.com/de-de/library/Aa997885(v=EXCHG.150))
 

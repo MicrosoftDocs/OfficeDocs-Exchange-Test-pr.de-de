@@ -60,7 +60,7 @@ Führen Sie diesen Befehl aus, um die SharePoint-Partneranwendung zu konfigurier
 
 ## Schritt 3: Hinzufügen von autorisierten Benutzern zur Rollengruppe "Discoveryverwaltung"
 
-Fügen Sie der Rollengruppe "Discoveryverwaltung" in Exchange 2013 Benutzer hinzu, die SharePoint 2013 verwenden müssen, um eDiscovery-Suchen durchzuführen. Weitere Informationen finden Sie unter [Zuweisen von eDiscovery-Berechtigungen in Exchange](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
+Fügen Sie der Rollengruppe "Discoveryverwaltung" in Exchange 2013 Benutzer hinzu, die SharePoint 2013 verwenden müssen, um eDiscovery-Suchen durchzuführen. Weitere Informationen finden Sie unter [Zuweisen von eDiscovery-Berechtigungen in Exchange](https://technet.microsoft.com/de-de/library/Dd298059(v=EXCHG.150)).
 
 
 > [!WARNING]

@@ -77,7 +77,7 @@ Die Benennungskonvention für Protokolldateien im Verzeichnis für die Nachricht
 
   - **MSGTRK**   Diese Protokolle sind dem Transportdienst zugeordnet.
 
-  - **MSGTRKMA**   Diese Protokolle sind den vom moderierten Transport zugeordneten Genehmigungen und Zurückweisungen zugeordnet. Weitere Informationen finden Sie unter [Verwalten der Nachrichtengenehmigung](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-message-approval).
+  - **MSGTRKMA**   Diese Protokolle sind den vom moderierten Transport zugeordneten Genehmigungen und Zurückweisungen zugeordnet. Weitere Informationen finden Sie unter [Verwalten der Nachrichtengenehmigung](https://technet.microsoft.com/de-de/library/Dd297936(v=EXCHG.150)).
 
   - **MSGTRKMD**   Diese Protokolle sind Nachrichten zugeordnet, die Postfächern vom Postfachtransport-Zustellungsdienst zugestellt werden.
 

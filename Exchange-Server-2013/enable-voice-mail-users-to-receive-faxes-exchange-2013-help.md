@@ -281,7 +281,7 @@ Bei Verwendung einer einzelnen DID-Nummer muss der Benutzer zusätzliche Aktione
 
 ## Mehrere DID-Telefonnummern
 
-Wenn Sie einen Benutzer für Unified Messaging aktivieren, müssen Sie mindestens eine Durchwahlnummer für diesen Benutzer eingeben. Mithilfe der Exchange-Verwaltungskonsole können Sie mehrere Durchwahlnummern für einen UM-aktivierten Benutzer hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen einer Durchwahlnummer](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-extension-number).
+Wenn Sie einen Benutzer für Unified Messaging aktivieren, müssen Sie mindestens eine Durchwahlnummer für diesen Benutzer eingeben. Mithilfe der Exchange-Verwaltungskonsole können Sie mehrere Durchwahlnummern für einen UM-aktivierten Benutzer hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen einer Durchwahlnummer](https://technet.microsoft.com/de-de/library/Dd335124(v=EXCHG.150)).
 
 Das Hinzufügen mehrerer Durchwahlnummern ist für einen UM-aktivierten Benutzer in folgenden Fällen nützlich:
 
@@ -295,7 +295,7 @@ Das Hinzufügen mehrerer Durchwahlnummern ist im Vergleich zu einer einzelnen Du
 
 Der Vorteil mehrerer DID-Durchwahlnummern besteht darin, dass ein UM-aktivierter Benutzer Sprachanrufe auf der einen DID-Durchwahlnummer und Faxanrufe auf der anderen empfängt. Die Verwendung separater DID-Nummern für Voicemail und Faxanrufe ist für den Benutzer einfacher.
 
-Wenn Sie zwei DID-Durchwahlnummern für einen bestimmten Benutzer konfigurieren, können diese aus unterschiedlichen UM-Wähleinstellungen stammen. Für die Verwendung von zwei DID-Nummern können Sie einen Wählplan erstellen und einen Postfachserver als dedizierten Server für den Empfang von Faxanrufen und die Weiterleitung von Faxnachrichten an die Benutzer verwenden. Weitere Informationen finden Sie unter [Erstellen eines UM-Wählplans](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
+Wenn Sie zwei DID-Durchwahlnummern für einen bestimmten Benutzer konfigurieren, können diese aus unterschiedlichen UM-Wähleinstellungen stammen. Für die Verwendung von zwei DID-Nummern können Sie einen Wählplan erstellen und einen Postfachserver als dedizierten Server für den Empfang von Faxanrufen und die Weiterleitung von Faxnachrichten an die Benutzer verwenden. Weitere Informationen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
 Bei der Konfiguration mehrerer DID-Durchwahlnummern für UM-aktivierte Benutzer stehen folgende Optionen zur Verfügung:
 

@@ -67,11 +67,11 @@ Sie können die DLP-Erkennungsfunktionen in herkömmliche Transportregeln einbin
 
 Zahlreiche DLP-Richtlinien werden von Microsoft bereitgestellt. Sie stellen die einfachste Möglichkeit dar, mit der Erstellung einer DLP-Lösung zu beginnen, die flexibel ist und leicht implementiert werden kann. Sie können die bereitgestellten Richtlinien immer als Ausgangspunkt verwenden und sie an Ihre Anforderungen anpassen. Lesen Sie für einen Einstieg in die Thematik folgende Informationen:
 
-  - [In Exchange bereitgestellte DLP-Richtlinienvorlagen](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/dlp-policy-templates)
+  - [In Exchange bereitgestellte DLP-Richtlinienvorlagen](https://technet.microsoft.com/de-de/library/JJ150530(v=EXCHG.150))
 
-  - [Erstellen einer DLP-Richtlinie aus einer Vorlage](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template)
+  - [Erstellen einer DLP-Richtlinie aus einer Vorlage](https://technet.microsoft.com/de-de/library/JJ150515(v=EXCHG.150))
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 

@@ -151,7 +151,7 @@ Zurück zum Seitenanfang
 
 Wenn Sie ein Aufbewahrungstag aktivieren, müssen Sie einen Aufbewahrungszeitraum für das Tag angeben. Dieser Zeitraum gibt die Anzahl der Tage an, die eine Nachricht aufbewahrt wird, nachdem sie im Postfach des Benutzers eingegangen ist.
 
-Der Aufbewahrungszeitraum für nicht wiederkehrende Elemente (z. B. E-Mail-Nachrichten) wird anders berechnet als für Elemente mit Enddatum oder für Serienelemente (z. B. Besprechungen und Aufgaben). Informationen zum Berechnen des Aufbewahrungszeitraums für verschiedene Elementtypen finden Sie unter [Berechnung von Aufbewahrungszeiträumen](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/retention-age).
+Der Aufbewahrungszeitraum für nicht wiederkehrende Elemente (z. B. E-Mail-Nachrichten) wird anders berechnet als für Elemente mit Enddatum oder für Serienelemente (z. B. Besprechungen und Aufgaben). Informationen zum Berechnen des Aufbewahrungszeitraums für verschiedene Elementtypen finden Sie unter [Berechnung von Aufbewahrungszeiträumen](https://technet.microsoft.com/de-de/library/Bb430780(v=EXCHG.150)).
 
 Sie können auch Aufbewahrungstags mit deaktivierter Aufbewahrung erstellen oder die Tags nach der Erstellung deaktivieren. Da Nachrichten mit deaktiviertem Tag nicht verarbeitet werden, findet keine Aufbewahrungsaktion statt. Daher können Benutzer ein deaktiviertes persönliches Tag als **Nie verschieben**- oder **Nie löschen**-Tag verwenden, um ein Standardrichtlinientag oder ein Aufbewahrungsrichtlinientag außer Kraft zu setzen, das ansonsten auf die Nachricht angewendet werden würde.
 
@@ -228,7 +228,7 @@ Beim Erstellen oder Konfigurieren eines Aufbewahrungstags können Sie eine der f
 
 
 
-Weitere Informationen zum Erstellen von Aufbewahrungstags finden Sie unter [Erstellen einer Aufbewahrungsrichtlinie](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy).
+Weitere Informationen zum Erstellen von Aufbewahrungstags finden Sie unter [Erstellen einer Aufbewahrungsrichtlinie](https://technet.microsoft.com/de-de/library/JJ150573(v=EXCHG.150)).
 
 Zurück zum Seitenanfang
 
@@ -305,7 +305,7 @@ Exchange-Setup erstellt eine **MRM-Standardrichtlinie** für die Aufbewahrung. D
 
 Sie können Tags modifizieren, die in der MRM-Standardrichtlinie enthalten sind, z. B., indem Sie die Verfallszeit für die Aufbewahrung oder die Aufbewahrungsaktion ändern, ein Tag deaktivieren oder die Richtlinie ändern, indem Sie Tags zu ihr hinzufügen oder aus ihr entfernen. Die aktualisierte Richtlinie wird ab der nächsten Verarbeitung von Postfächern durch den Assistent für verwaltete Ordner auf die Postfächer angewendet.
 
-Genauere Informationen, darunter eine Liste von mit der Richtlinie verknüpften Aufbewahrungs-Tags finden Sie unter [Standardaufbewahrungsrichtlinie in Exchange Online und Exchange Server](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/default-retention-policy).
+Genauere Informationen, darunter eine Liste von mit der Richtlinie verknüpften Aufbewahrungs-Tags finden Sie unter [Standardaufbewahrungsrichtlinie in Exchange Online und Exchange Server](https://technet.microsoft.com/de-de/library/Dn775046(v=EXCHG.150)).
 
 Zurück zum Seitenanfang
 
@@ -373,7 +373,7 @@ Für Benutzer, die lange nicht am Arbeitsplatz sind, können sich sehr viele E-M
 
 Wenn in Ihrem Unternehmen keine Messaging-Datensatzverwaltung implementiert wurde und die Benutzer mit deren Funktionen nicht vertraut sind, können Sie während der anfänglichen *Aufwärm- und Schulungsphase* für die Bereitstellung der Messaging-Datensatzverwaltung auch Aufbewahrungszeiten verwenden. Sie können Aufbewahrungsrichtlinien erstellen und bereitstellen sowie die Benutzer über die Richtlinien in Kenntnis setzen, ohne zu riskieren, dass Elemente verschoben oder gelöscht werden, bevor diese von Benutzern markiert werden können. Wenige Tage vor dem Ende der Aufwärm- und Schulungsphase sollten Sie die Benutzer an die Aufwärmfrist erinnern. Nachdem die Frist abgelaufen ist, können Sie die Aufbewahrungszeit für Postfächer entfernen, wodurch der Assistent für verwaltete Ordner die Möglichkeit erhält, Postfachelemente zu verarbeiten und die angegebene Aufbewahrungsaktion durchzuführen.
 
-Weitere Informationen zum Anhalten der Aufbewahrungszeit für ein Postfach finden Sie unter [Anhalten der Aufbewahrungszeit für ein Postfach](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold).
+Weitere Informationen zum Anhalten der Aufbewahrungszeit für ein Postfach finden Sie unter [Anhalten der Aufbewahrungszeit für ein Postfach](https://technet.microsoft.com/de-de/library/Dd335168(v=EXCHG.150)).
 
 Zurück zum Seitenanfang
 

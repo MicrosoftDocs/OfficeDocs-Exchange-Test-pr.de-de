@@ -25,7 +25,7 @@ Bevor Sie mit dieser Prüfliste arbeiten, machen Sie sich mit den Konzepten in f
 
   - [Telefonsystemintegration mit UM](telephone-system-integration-with-um-exchange-2013-help.md)
 
-  - [Verbinden Ihres Voicemailsystems mit Ihrem Telefonnetz](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system)
+  - [Verbinden Ihres Voicemailsystems mit Ihrem Telefonnetz](https://technet.microsoft.com/de-de/library/JJ673554(v=EXCHG.150))
 
 Eine Schritt-für-Schritt-Anleitung für das Upgrade von Exchange 2010 UM auf Exchange 2013 UM finden Sie unter [Prüfliste: Aktualisieren von Exchange 2010 UM auf Exchange 2013 UM](checklist-upgrade-exchange-2010-um-to-exchange-2013-um-exchange-2013-help.md).
 

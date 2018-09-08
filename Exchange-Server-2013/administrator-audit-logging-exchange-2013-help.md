@@ -199,9 +199,9 @@ Die Seite **Überwachung** der Exchange-Verwaltungskonsole umfasst verschiedene 
 
   - **Administrator-Überwachungsprotokoll**   Dieser Bericht ermöglicht den Export von Überwachungsprotokolleinträgen, die in einem bestimmten Zeitraum aufgezeichnet wurden, in eine XML-Datei und das anschließende Versenden per E-Mail an die angegebenen Empfänger. Weitere Informationen zu Inhalten der XML-Datei finden Sie unter [Administrator-Überwachungsprotokollstruktur](administrator-audit-log-structure-exchange-2013-help.md).
 
-Weitere Informationen zum Verwenden dieser Berichte finden Sie unter [Durchsuchen der Rollengruppenänderungen oder Administratorüberwachungsprotokolle](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
+Weitere Informationen zum Verwenden dieser Berichte finden Sie unter [Durchsuchen der Rollengruppenänderungen oder Administratorüberwachungsprotokolle](https://technet.microsoft.com/de-de/library/Ff459262(v=EXCHG.150)).
 
-Weitere Informationen zu den anderen Berichten auf der Seite **Überwachung** finden Sie unter [Exchange-Überwachungsberichte](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports).
+Weitere Informationen zu den anderen Berichten auf der Seite **Überwachung** finden Sie unter [Exchange-Überwachungsberichte](https://technet.microsoft.com/de-de/library/JJ150497(v=EXCHG.150)).
 
 ## Cmdlet "Search-AdminAuditLog"
 
@@ -223,7 +223,7 @@ Beim Ausführen des Cmdlets **Search-AdminAuditLog** werden alle Überwachungspr
 
 Jeder zurückgegebene Überwachungsprotokolleintrag enthält die Informationen, die in der Tabelle Audit Log Contents beschrieben sind. Standardmäßig werden nur die ersten 1.000 Protokolleinträge, die den angegebenen Suchergebnissen entsprechen, zurückgegeben. Sie können diesen Standardwert jedoch überschreiben und mehr oder weniger Einträge mithilfe des Parameters *ResultSize* zurückgeben lassen. Sie können einen Wert von `Unlimited` mit dem Parameter *ResultSize* angeben, um alle Protokolleinträge zurückgeben zu lassen, die den angegebenen Kriterien entsprechen.
 
-Weitere Informationen zum Verwenden des Cmdlets **Search-AdminAuditLog** finden Sie unter [Durchsuchen der Rollengruppenänderungen oder Administratorüberwachungsprotokolle](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
+Weitere Informationen zum Verwenden des Cmdlets **Search-AdminAuditLog** finden Sie unter [Durchsuchen der Rollengruppenänderungen oder Administratorüberwachungsprotokolle](https://technet.microsoft.com/de-de/library/Ff459262(v=EXCHG.150)).
 
 ## Cmdlet "New-AdminAuditLogSearch"
 
@@ -239,7 +239,7 @@ Nach dem Ausführen des Cmdlets **New-AdminAuditLogSearch** dauert es möglicher
 
 
 
-Weitere Informationen zum Verwenden des Cmdlets **New-AdminAuditLogSearch** finden Sie unter [Durchsuchen der Rollengruppenänderungen oder Administratorüberwachungsprotokolle](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
+Weitere Informationen zum Verwenden des Cmdlets **New-AdminAuditLogSearch** finden Sie unter [Durchsuchen der Rollengruppenänderungen oder Administratorüberwachungsprotokolle](https://technet.microsoft.com/de-de/library/Ff459262(v=EXCHG.150)).
 
 Zurück zum Seitenanfang
 
@@ -257,7 +257,7 @@ Mit dem Cmdlet **Write-AdminAuditLog** können Sie eine Textzeichenfolge mithilf
 
 Sie können einen manuellen Überwachungsprotokolleintrag genau so abrufen wie einen anderen Protokolleintrag. Verwenden Sie dazu die Seite **Überwachung** der Exchange-Verwaltungskonsole oder die Cmdlets **Search-AdminAuditLog** und **New-AdminAuditLogSearch**.
 
-Zum Anzeigen der Inhalte des Parameters *Comment* im Cmdlet **Write-AdminAuditLog** in einem manuellen Überwachungsprotokolleintrag finden Sie weitere Informationen unter [Durchsuchen der Rollengruppenänderungen oder Administratorüberwachungsprotokolle](https://review.docs.microsoft.com/de-de/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
+Zum Anzeigen der Inhalte des Parameters *Comment* im Cmdlet **Write-AdminAuditLog** in einem manuellen Überwachungsprotokolleintrag finden Sie weitere Informationen unter [Durchsuchen der Rollengruppenänderungen oder Administratorüberwachungsprotokolle](https://technet.microsoft.com/de-de/library/Ff459262(v=EXCHG.150)).
 
 ## Active Directory-Replikation
 

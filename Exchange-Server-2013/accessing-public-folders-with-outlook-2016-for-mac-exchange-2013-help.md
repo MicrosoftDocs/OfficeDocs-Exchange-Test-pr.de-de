@@ -96,7 +96,7 @@ In den folgenden Artikeln wird beschrieben, wie Sie in Ihrer Exchange-Organisati
 
   - [Konfigurieren älterer öffentlicher Ordner, wenn sich die Postfächer der Benutzer auf Exchange 2013-Servern befinden](configure-legacy-public-folders-where-user-mailboxes-are-on-exchange-2013-servers-exchange-2013-help.md)
 
-  - [Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders)
+  - [Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung](https://technet.microsoft.com/de-de/library/Dn986544(v=EXCHG.150))
 
-  - [Konfigurieren öffentlicher Exchange Online-Ordner für eine Hybridbereitstellung](https://review.docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-exo-hybrid-public-folders)
+  - [Konfigurieren öffentlicher Exchange Online-Ordner für eine Hybridbereitstellung](https://technet.microsoft.com/de-de/library/Mt729076(v=EXCHG.150))
 

@@ -25,7 +25,7 @@ Es gibt zwei Arten von Gruppen, die zum Verteilen von Nachrichten verwendet werd
 
   - *E-Mail-aktivierte universelle Verteilergruppen* (werden auch als *Verteilergruppen* bezeichnet) können ausschließlich zum Verteilen von Nachrichten verwendet werden.
 
-  - *E-Mail-aktivierte universelle Sicherheitsgruppen* (werden auch als *Sicherheitsgruppen* bezeichnet) können zum Verteilen von Nachrichten sowie zur Erteilung von Zugriffsberechtigungen für Ressourcen in Active Directory verwendet werden. Weitere Informationen finden Sie unter [Verwalten von E-Mail-aktivierten Sicherheitsgruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups).
+  - *E-Mail-aktivierte universelle Sicherheitsgruppen* (werden auch als *Sicherheitsgruppen* bezeichnet) können zum Verteilen von Nachrichten sowie zur Erteilung von Zugriffsberechtigungen für Ressourcen in Active Directory verwendet werden. Weitere Informationen finden Sie unter [Verwalten von E-Mail-aktivierten Sicherheitsgruppen](https://technet.microsoft.com/de-de/library/Bb123521(v=EXCHG.150)).
 
 Beachten Sie, dass sich die Terminologie zwischen Active Directory und Exchange unterscheidet. In Active Directory verweist eine Verteilergruppe auf eine beliebige Gruppe ohne Sicherheitskontext, unabhängig davon, ob diese E-Mail-aktiviert ist oder nicht. Im Gegensatz dazu werden alle E-Mail-aktivierten Gruppen in Exchange Verteilergruppen genannt, unabhängig davon, ob sie in einen Sicherheitskontext eingebunden sind oder nicht.
 
@@ -37,9 +37,9 @@ Beachten Sie, dass sich die Terminologie zwischen Active Directory und Exchange 
 
   - Wenn in Ihrer Organisation eine Gruppenbenennungsrichtlinie konfiguriert wurde, wird sie nur auf Gruppen angewendet, die von Benutzern erstellt werden. Wenn Sie oder andere Administratoren mithilfe der Exchange-Verwaltungskonsole Verteilergruppen erstellen, wird die Gruppenbenennungsrichtlinie ignoriert und nicht auf den Gruppennamen angewendet. Wenn Sie jedoch mit der Shell eine Verteilergruppe erstellen oder umbenennen, wird die Richtlinie angewendet, sofern Sie nicht mit dem Parameter *IgnoreNamingPolicy* die Gruppenbenennungsrichtlinie außer Kraft setzen. Weitere Informationen finden Sie unter:
     
-      - [Erstellen einer Benennungsrichtlinie für Verteilergruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)
+      - [Erstellen einer Benennungsrichtlinie für Verteilergruppen](https://technet.microsoft.com/de-de/library/JJ218693(v=EXCHG.150))
     
-      - [Außerkraftsetzen der Benennungsrichtlinie für Verteilergruppen](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/override-group-naming-policy)
+      - [Außerkraftsetzen der Benennungsrichtlinie für Verteilergruppen](https://technet.microsoft.com/de-de/library/JJ218685(v=EXCHG.150))
 
 ## Was möchten Sie machen?
 

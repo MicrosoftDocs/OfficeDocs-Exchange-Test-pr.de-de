@@ -222,7 +222,7 @@ Im Abschnitt **Postfachfeatures** können Sie die folgenden Postfachfeatures und
 
   - **Adressbuchrichtlinie**   Dieses Feld zeigt die Adressbuchrichtlinie, die auf das Postfach angewendet wird. Mit einer Adressbuchrichtlinie können Sie Benutzer in bestimmte Gruppen unterteilen, um angepasste Ansichten des Adressbuchs bereitzustellen. Zum Anwenden oder Ändern der Adressbuchrichtlinie, die für das Postfach gilt, wählen Sie eine Richtlinie aus der Dropdownliste aus.
 
-  - **Unified Messaging**   Diese Funktion ist standardmäßig deaktiviert. Wenn Sie Unified Messaging (UM) aktivieren, kann der Benutzer die UM-Funktionen Ihrer Organisation nutzen, und es wird ein Standardsatz UM-Eigenschaften auf den Benutzer angewendet. Klicken Sie auf **Aktivieren**, um UM für das Postfach zu aktivieren. Weitere Informationen zum Aktivieren von UM finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://review.docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
+  - **Unified Messaging**   Diese Funktion ist standardmäßig deaktiviert. Wenn Sie Unified Messaging (UM) aktivieren, kann der Benutzer die UM-Funktionen Ihrer Organisation nutzen, und es wird ein Standardsatz UM-Eigenschaften auf den Benutzer angewendet. Klicken Sie auf **Aktivieren**, um UM für das Postfach zu aktivieren. Weitere Informationen zum Aktivieren von UM finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://technet.microsoft.com/de-de/library/Bb124147(v=EXCHG.150)).
     
 
     > [!NOTE]
@@ -407,7 +407,7 @@ Es folgt eine Liste der Eigenschaften und Funktionen von Benutzerpostfächern, f
 
   - **In eine andere Datenbank verschieben**   Verschieben Sie die ausgewählten Postfächer in eine andere Datenbank.
 
-  - **Stellvertretungsberechtigungen**   Weisen Sie Benutzern oder Gruppen Berechtigungen zu, die diesen das Öffnen und Senden von Nachrichten aus anderen Postfächern erlauben. Sie können Benutzern und Gruppen die Berechtigungen "Vollständig", "Senden als" und "Senden im Auftrag von" zuweisen. Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Empfänger](https://review.docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-permissions-for-recipients).
+  - **Stellvertretungsberechtigungen**   Weisen Sie Benutzern oder Gruppen Berechtigungen zu, die diesen das Öffnen und Senden von Nachrichten aus anderen Postfächern erlauben. Sie können Benutzern und Gruppen die Berechtigungen "Vollständig", "Senden als" und "Senden im Auftrag von" zuweisen. Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Empfänger](https://technet.microsoft.com/de-de/library/JJ919240(v=EXCHG.150)).
 
 
 > [!NOTE]
