@@ -85,12 +85,12 @@ Schrittanleitungen zur Bereitstellung von UM und Microsoft Lync Server finden Si
 <tr class="odd">
 <td><p><strong> </strong></p></td>
 <td><p>Erstellen Sie die erforderliche Anzahl von UM-Wählplänen für Ihre Organisation.</p></td>
-<td><p><a href="create-a-um-dial-plan-exchange-2013-help.md">Erstellen eines UM-Wählplans</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan">Erstellen eines UM-Wählplans</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Konfigurieren Sie die Wählplansicherheitseinstellung.</p></td>
-<td><p><a href="configure-the-voip-security-setting-exchange-2013-help.md">Konfigurieren der VoIP-Sicherheitseinstellung</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-voip-security-setting">Konfigurieren der VoIP-Sicherheitseinstellung</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
@@ -106,24 +106,24 @@ Schrittanleitungen zur Bereitstellung von UM und Microsoft Lync Server finden Si
 <tr class="odd">
 <td><p></p></td>
 <td><p>Konfigurieren Sie Outlook Voice Access-Nummern und andere Einstellungen.</p></td>
-<td><p><a href="manage-a-um-dial-plan-exchange-2013-help.md">Verwalten eines UM-Wählplans</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-dial-plan">Verwalten eines UM-Wählplans</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Konfigurieren Sie Outbound Dialing für Unified Messaging.</p></td>
-<td><p><a href="authorize-calls-using-dialing-rules-exchange-2013-help.md">Autorisieren von Anrufen mit Wählregeln</a></p>
-<p><a href="authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md">Autorisieren von Anrufen für Benutzer in einem Wählplan</a></p>
-<p><a href="authorize-calls-for-a-group-of-users-exchange-2013-help.md">Autorisieren von Anrufen für eine Gruppe von Benutzern</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-using-dialing-rules">Autorisieren von Anrufen mit Wählregeln</a></p>
+<p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-users-in-a-dial-plan">Autorisieren von Anrufen für Benutzer in einem Wählplan</a></p>
+<p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-a-group-of-users">Autorisieren von Anrufen für eine Gruppe von Benutzern</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p>Erstellen Sie die erforderliche Anzahl automatischer Telefonzentralen.</p></td>
-<td><p><a href="create-a-um-auto-attendant-exchange-2013-help.md">Erstellen einer automatischen UM-Telefonzentrale</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant">Erstellen einer automatischen UM-Telefonzentrale</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Richten Sie alle automatischen UM-Telefonzentralen ein, und konfigurieren Sie sie.</p></td>
-<td><p><a href="set-up-a-um-auto-attendant-exchange-2013-help.md">Einrichten einer automatischen UM-Telefonzentrale</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant">Einrichten einer automatischen UM-Telefonzentrale</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong> </strong></p></td>
@@ -141,13 +141,13 @@ Schrittanleitungen zur Bereitstellung von UM und Microsoft Lync Server finden Si
 <tr class="odd">
 <td><p><strong> </strong></p></td>
 <td><p>Erstellen Sie eine UM-Postfachrichtlinie, oder konfigurieren Sie die UM-Standardpostfachrichtlinie.</p></td>
-<td><p><a href="create-a-um-mailbox-policy-exchange-2013-help.md">Erstellen einer UM-Postfachrichtlinie</a></p>
-<p><a href="manage-a-um-mailbox-policy-exchange-2013-help.md">Verwalten einer UM-Postfachrichtlinie</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy">Erstellen einer UM-Postfachrichtlinie</a></p>
+<p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy">Verwalten einer UM-Postfachrichtlinie</a></p></td>
 </tr>
 <tr class="even">
 <td><p> </p></td>
 <td><p>Aktivieren Sie Benutzer für Unified Messaging mit einer Durchwahlnummer und einer E.164-Nummer, falls erforderlich.</p></td>
-<td><p><a href="enable-a-user-for-voice-mail-exchange-2013-help.md">Aktivieren eines Benutzers für Voicemail</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail">Aktivieren eines Benutzers für Voicemail</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

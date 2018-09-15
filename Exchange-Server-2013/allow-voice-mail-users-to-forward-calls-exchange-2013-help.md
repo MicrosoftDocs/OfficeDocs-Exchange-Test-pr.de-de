@@ -107,13 +107,13 @@ Nach dem Erstellen und Konfigurieren von Mailboxansageregeln geht Unified Messag
 
 ## Wählregeln
 
-Je nach Konfiguration einer Mailboxansageregel kann ein eingehender Anruf zu einer Anrufübergabe führen. In diesem Fall unterliegt die Zieltelefonnummer für die Übergabe den Wählregeln und -einschränkungen der UM-Postfachrichtlinie, der die angerufene Partei zugeordnet ist. Weitere Informationen zu Outdialing- und Wählregeln und -einschränkungen finden Sie unter [Autorisieren von Benutzern für Anrufe](allow-users-to-make-calls-exchange-2013-help.md).
+Je nach Konfiguration einer Mailboxansageregel kann ein eingehender Anruf zu einer Anrufübergabe führen. In diesem Fall unterliegt die Zieltelefonnummer für die Übergabe den Wählregeln und -einschränkungen der UM-Postfachrichtlinie, der die angerufene Partei zugeordnet ist. Weitere Informationen zu Outdialing- und Wählregeln und -einschränkungen finden Sie unter [Autorisieren von Benutzern für Anrufe](https://technet.microsoft.com/de-de/library/Bb232172(v=EXCHG.150)).
 
 ## Aktivieren/Deaktivieren von Mailboxansageregeln
 
 Standardmäßig werden Mailboxansageregeln automatisch für UM-aktivierte Benutzer aktiviert. Sie können Mailboxansageregeln jedoch für Benutzer deaktivieren, indem Sie das Feature in einer UM-Postfachrichtlinie oder im Postfach des Benutzers deaktivieren. Ausführliche Informationen zum Aktivieren oder Deaktivieren von Mailboxansageregeln finden Sie in folgenden Themen:
 
-  - [Ermöglichen Sie oder verhindern Sie, dass Benutzer in der gleichen UM-Postfachrichtlinie erstellen Aufruf von mailboxansageregeln](allow-or-prevent-users-in-the-same-um-mailbox-policy-from-creating-call-answering-rules-exchange-2013-help.md)
+  - [Ermöglichen Sie oder verhindern Sie, dass Benutzer in der gleichen UM-Postfachrichtlinie erstellen Aufruf von mailboxansageregeln](https://technet.microsoft.com/de-de/library/Dd351209(v=EXCHG.150))
 
   - [Ermöglichen Sie oder verhindern Sie, dass einen Benutzer erstellen Aufruf von mailboxansageregeln](allow-or-prevent-a-user-from-creating-call-answering-rules-exchange-2013-help.md)
 

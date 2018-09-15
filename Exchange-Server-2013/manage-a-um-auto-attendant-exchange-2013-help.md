@@ -21,7 +21,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-04-30_
 
 Nach der Erstellung einer automatischen Unified Messaging-Telefonzentrale (UM) können Sie eine Reihe von Einstellungen anzeigen oder konfigurieren. Sie können beispielsweise der automatischen Telefonzentrale zugeordnete Durchwahlnummern hinzufügen, entfernen und ändern. Sie können außerdem die automatische Spracherkennung (Automatic Speech Recognition, ASR) für die automatische Telefonzentrale aktivieren oder deaktivieren und die Begrüßungen ändern, die innerhalb und außerhalb der Geschäftszeiten verwendet werden.
 
-Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentralen finden Sie unter [Automatische UM-Telefonzentrale – Verfahren](um-auto-attendant-procedures-exchange-2013-help.md).
+Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentralen finden Sie unter [Automatische UM-Telefonzentrale – Verfahren](https://technet.microsoft.com/de-de/library/JJ822155(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -29,9 +29,9 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentra
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "Automatische UM-Telefonzentralen" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](create-a-um-dial-plan-exchange-2013-help.md).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass UM-Wähleinstellungen erstellt wurden. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine automatische UM-Telefonzentrale erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen einer automatischen UM-Telefonzentrale](create-a-um-auto-attendant-exchange-2013-help.md).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass eine automatische UM-Telefonzentrale erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen einer automatischen UM-Telefonzentrale](https://technet.microsoft.com/de-de/library/Aa998875(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -264,7 +264,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentra
         
         Sie müssen zuerst die entsprechenden nationalen/regionalen Wählregelgruppen für die Wähleinstellungen erstellen, die der UM-Telefonzentrale zugeordnet sind, um nationale/regionale Wählregelgruppen hinzufügen zu können. Anschließend müssen Sie die entsprechende Wählregelgruppe hinzufügen.
         
-        Nationale/regionsinterne Wählregelgruppen können von Unified Messaging verwendet werden, um den Zugriff auf Rufnummern in einem Land oder einer Region zuzulassen oder einzuschränken. Dies wird bei jedem Benutzer angewendet, der bei einer Telefonzentrale anruft. Weitere Informationen zum Wählen externer Nummern finden Sie unter [Autorisieren von Benutzern für Anrufe](allow-users-to-make-calls-exchange-2013-help.md).
+        Nationale/regionsinterne Wählregelgruppen können von Unified Messaging verwendet werden, um den Zugriff auf Rufnummern in einem Land oder einer Region zuzulassen oder einzuschränken. Dies wird bei jedem Benutzer angewendet, der bei einer Telefonzentrale anruft. Weitere Informationen zum Wählen externer Nummern finden Sie unter [Autorisieren von Benutzern für Anrufe](https://technet.microsoft.com/de-de/library/Bb232172(v=EXCHG.150)).
     
       - **Autorisierte internationale Wählregelgruppen**   Verwenden Sie diesen Abschnitt, um zulässige internationale Wählregelgruppen hinzuzufügen oder zu entfernen. Standardmäßig sind keine internationalen Wählregelgruppen in UM-Telefonzentralen konfiguriert.
         
@@ -272,7 +272,7 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentra
         
         Zum Hinzufügen von internationalen Wählregelgruppen müssen Sie zunächst geeignete internationale Wählregelgruppen in dem Wählplan erstellen, der der automatischen UM-Telefonzentrale zugeordnet ist. Nachdem Sie die erforderlichen Wählregelgruppen im Wählplan erstellt haben, müssen Sie sie der Liste der autorisierten Wählregelgruppen in der automatischen UM-Telefonzentrale hinzufügen.
         
-        Mithilfe von internationalen Wählregelgruppen kann Unified Messaging den Zugriff auf Rufnummern außerhalb eines Lands oder einer Region zulassen oder einschränken. Dies wird bei jedem Benutzer angewendet, der bei einer Telefonzentrale anruft. Weitere Informationen zum Wählen externer Nummern finden Sie unter [Autorisieren von Benutzern für Anrufe](allow-users-to-make-calls-exchange-2013-help.md).
+        Mithilfe von internationalen Wählregelgruppen kann Unified Messaging den Zugriff auf Rufnummern außerhalb eines Lands oder einer Region zulassen oder einschränken. Dies wird bei jedem Benutzer angewendet, der bei einer Telefonzentrale anruft. Weitere Informationen zum Wählen externer Nummern finden Sie unter [Autorisieren von Benutzern für Anrufe](https://technet.microsoft.com/de-de/library/Bb232172(v=EXCHG.150)).
 
 10. Klicken Sie auf **OK**, um die neue Menünavigation zu erstellen.
 

@@ -138,7 +138,7 @@ In Exchange 2013 können Sie Archivrichtlinien auf ein Postfach anwenden, um Nac
 
 Nachrichten werden in einen Ordner im Archivpostfach verschoben, dessen Name mit dem Namen des Quellordners im primären Postfach übereinstimmt. Wenn im Archivpostfach ein Ordner mit demselben Namen vorhanden ist, wird dieser erstellt, sobald eine Nachricht vom Assistenten für verwaltete Ordner verschoben wird. Wenn im Archivpostfach dieselbe Ordnerhierarchie erstellt wird, können Benutzer Nachrichten einfach finden.
 
-Weitere Informationen zu Aufbewahrungsrichtlinien, Aufbewahrungstags und zur Aufbewahrungsaktion **In Archiv verschieben** finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](retention-tags-and-retention-policies-exchange-2013-help.md).
+Weitere Informationen zu Aufbewahrungsrichtlinien, Aufbewahrungstags und zur Aufbewahrungsaktion **In Archiv verschieben** finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://technet.microsoft.com/de-de/library/Dd297955(v=EXCHG.150)).
 
 ## Standard-MRM-Richtlinie
 

@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-10-09_
 
 Ein *Gerätepostfach* ist ein Ressourcenpostfach, das einer ortsunabhängigen Ressource zugewiesen wird, wie z. B. einem Laptop, einem Projektor, einem Mikrofon oder einem Firmenwagen. Nachdem ein Administrator ein Gerätepostfach erstellt hat, können die Benutzer das Gerät einfach reservieren, indem sie das entsprechende Gerätepostfach in eine Besprechungsanfrage einschließen. Sie können die Exchange-Verwaltungskonsole und die Shell verwenden, um ein Gerätepostfach zu erstellen oder die Eigenschaften von Gerätepostfächern zu ändern. Weitere Informationen finden Sie unter [Empfänger](recipients-exchange-2013-help.md).
 
-Informationen zu anderen Ressourcenpostfachtyp, einem Raumpostfach, finden Sie unter [Erstellen und Verwalten von Raumpostfächern](create-and-manage-room-mailboxes-exchange-2013-help.md).
+Informationen zu anderen Ressourcenpostfachtyp, einem Raumpostfach, finden Sie unter [Erstellen und Verwalten von Raumpostfächern](https://technet.microsoft.com/de-de/library/JJ215781(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -138,7 +138,7 @@ Klicken Sie auf **Weitere Optionen**, um diese zusätzlichen Eigenschaften anzuz
 
   - **Firma**   In diesem Feld können Sie eine Firma angeben, der die Ressource zugeordnet ist. Sie können diese Eigenschaft genauso wie die Eigenschaft "Abteilung" verwenden, um Empfängerbedingungen für dynamische Verteilergruppen und Adresslisten zu erstellen.
 
-  - **Adressbuchrichtlinie**   Verwenden Sie diese Option, um eine Adressbuchrichtlinie für die Ressource anzugeben. Adressbuchrichtlinien enthalten eine globale Adressliste (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](address-book-policies-exchange-2013-help.md).
+  - **Adressbuchrichtlinie**   Verwenden Sie diese Option, um eine Adressbuchrichtlinie für die Ressource anzugeben. Adressbuchrichtlinien enthalten eine globale Adressliste (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](https://technet.microsoft.com/de-de/library/Hh529948(v=EXCHG.150)).
     
     Wählen Sie in der Dropdownliste die Richtlinie aus, die diesem Postfach zugeordnet werden soll.
 

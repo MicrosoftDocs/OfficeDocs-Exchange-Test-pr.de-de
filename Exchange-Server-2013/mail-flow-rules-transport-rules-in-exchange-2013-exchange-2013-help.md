@@ -25,19 +25,19 @@ Weitere Informationen zu Nachrichtenflussregeln in Exchange Online finden Sie un
 
 Sie können die Exchange-Verwaltungskonsole (EAC) oder die Exchange-Verwaltungsshell zum Verwalten von Nachrichtenflussregeln verwenden. Anweisungen zum Verwalten von Transportregeln finden Sie unter [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md).
 
-Bei jeder Regel haben Sie die Möglichkeit, sie zu erzwingen, sie zu testen oder sie zu testen und den Absender zu benachrichtigen. Weitere Informationen zu den Testoptionen finden Sie unter [Testen einer Nachrichtenflussregel](test-a-mail-flow-rule-exchange-2013-help.md) und [Richtlinientipps](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md).
+Bei jeder Regel haben Sie die Möglichkeit, sie zu erzwingen, sie zu testen oder sie zu testen und den Absender zu benachrichtigen. Weitere Informationen zu den Testoptionen finden Sie unter [Testen einer Nachrichtenflussregel](test-a-mail-flow-rule-exchange-2013-help.md) und [Richtlinientipps](https://technet.microsoft.com/de-de/library/JJ150512(v=EXCHG.150)).
 
 Informationen zur Implementierung bestimmter Nachrichtenrichtlinien mithilfe von Nachrichtenflussregeln finden Sie in den folgenden Themen:
 
   - [Überprüfen von Nachrichtenanlagen mithilfe von Transportregeln](use-transport-rules-to-inspect-message-attachments-exchange-2013-help.md)
 
-  - [Standardszenarien für Anlagensperre](common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md)
+  - [Standardszenarien für Anlagensperre](https://technet.microsoft.com/de-de/library/Dn950026(v=EXCHG.150))
 
   - [Organisationsweite Haftungsausschlüsse, Signaturen, Fußzeilen oder Kopfzeilen](organization-wide-disclaimers-signatures-footers-or-headers-exchange-online-help.md)
 
-  - [Verwenden von Nachrichtenflussregeln zum Umgehen von unwichtigen Elementen durch Nachrichten](use-mail-flow-rules-so-messages-can-bypass-clutter-exchange-2013-help.md)
+  - [Verwenden von Nachrichtenflussregeln zum Umgehen von unwichtigen Elementen durch Nachrichten](https://technet.microsoft.com/de-de/library/Dn896639(v=EXCHG.150))
 
-  - [Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern](use-mail-flow-rules-to-route-email-based-on-a-list-of-words-phrases-or-patterns-exchange-2013-help.md)
+  - [Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern](https://technet.microsoft.com/de-de/library/Dn951131(v=EXCHG.150))
 
   - [Gängige Szenarien der Nachrichtengenehmigung](common-message-approval-scenarios-exchange-2013-help.md)
 
@@ -137,7 +137,7 @@ Die folgende Tabelle beschreibt die Regeleigenschaften, die in Nachrichtenflussr
 <td><p><strong>Mode</strong></p></td>
 <td><p><em>Mode</em></p></td>
 <td><p>Sie können angeben, ob die Regel sofort mit der Verarbeitung von Nachrichten beginnen soll oder ob Sie Regeln ohne Auswirkungen auf die Übermittlung der Nachricht (mit oder ohne Verhinderung von Datenverlust oder DLP-Richtlinientipps) testen möchten.</p>
-<p>Richtlinientipps zeigen dem Ersteller einer Nachricht in Outlook oder Outlook im Web einen Hinweis mit Informationen über mögliche Richtlinienverletzungen an. Weitere Informationen finden Sie unter <a href="technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md">Richtlinientipps</a>.</p>
+<p>Richtlinientipps zeigen dem Ersteller einer Nachricht in Outlook oder Outlook im Web einen Hinweis mit Informationen über mögliche Richtlinienverletzungen an. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/policy-tips">Richtlinientipps</a>.</p>
 <p>Weitere Informationen zu den Modi finden Sie unter <a href="test-a-mail-flow-rule-exchange-2013-help.md">Testen einer Nachrichtenflussregel</a>.</p></td>
 </tr>
 <tr class="odd">

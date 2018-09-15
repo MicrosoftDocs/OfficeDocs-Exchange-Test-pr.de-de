@@ -23,11 +23,11 @@ Sie können mit der Verwendung von Transportregeln beginnen, indem Sie die folge
 
 [Erstellen von organisationsweiten sicherer Absender oder gesperrter Absenderlisten in Office 365](https://technet.microsoft.com/de-de/library/dn198251\(v=exchg.150\))   Informationen, die Ihnen helfen, mithilfe von Transportregeln Domänen oder benutzerbasierte Listen von Absendern oder blockierten Absendern zu erstellen.
 
-[Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern](use-mail-flow-rules-to-route-email-based-on-a-list-of-words-phrases-or-patterns-exchange-2013-help.md) Informationen, die Ihnen helfen, die E-Mail-Richtlinien Ihrer Organisation einzuhalten.
+[Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern](https://technet.microsoft.com/de-de/library/Dn951131(v=EXCHG.150)) Informationen, die Ihnen helfen, die E-Mail-Richtlinien Ihrer Organisation einzuhalten.
 
 [Registrieren von Filterpaket-IFiltern für Exchange 2013](register-filter-pack-ifilters-with-exchange-2013-exchange-2013-help.md)   Informationen, die Ihnen bei der Registrierung zusätzlicher Dateitypen für Anhänge helfen, sodass Transportregeln für Anhänge diese Dateitypen scannen können.
 
 [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md)   Informationen, die Ihnen helfen, eine Transportregel zu erstellen, anzuzeigen, zu ändern, zu aktivieren, zu deaktivieren oder zu entfernen, sowie Informationen zum Importieren und Exportieren von Transportregelsammlungen.
 
-[Bewährte Methoden für die Konfiguration von Nachrichtenflussregeln](best-practices-for-configuring-mail-flow-rules-exchange-2013-help.md)   Informationen, die Ihnen dabei helfen, häufige Konfigurationsfehler zu vermeiden.
+[Bewährte Methoden für die Konfiguration von Nachrichtenflussregeln](https://technet.microsoft.com/de-de/library/Dn960147(v=EXCHG.150))   Informationen, die Ihnen dabei helfen, häufige Konfigurationsfehler zu vermeiden.
 

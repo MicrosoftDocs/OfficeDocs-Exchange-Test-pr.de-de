@@ -67,7 +67,7 @@ In diesem Beispiel wird ein virtuelles OAB-Verzeichnis auf dem Clientzugriffsser
 
     New-OABVirtualDirectory -Server CASServer01 -RequireSSL $true -ExternalURL "https://www.contoso.com/OAB"
 
-Nachdem Sie ein neues virtuelles OAB-Verzeichnis erstellt haben, müssen Sie die Einstellungen für jedes OAB bearbeiten, das webbasierte Verteilung verwendet, um erneut eine Verbindung mit dem virtuellen OAB-Verzeichnis herzustellen. Weitere Informationen finden Sie unter [Ändern des Zeitplans für die Generierung des Offlineadressbuchs](change-the-offline-address-book-generation-schedule-exchange-2013-help.md).
+Nachdem Sie ein neues virtuelles OAB-Verzeichnis erstellt haben, müssen Sie die Einstellungen für jedes OAB bearbeiten, das webbasierte Verteilung verwendet, um erneut eine Verbindung mit dem virtuellen OAB-Verzeichnis herzustellen. Weitere Informationen finden Sie unter [Ändern des Zeitplans für die Generierung des Offlineadressbuchs](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150)).
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-OabVirtualDirectory](https://technet.microsoft.com/de-de/library/bb123735\(v=exchg.150\)).
 

@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
 In Microsoft Exchange Server 2013 werden Voicemails und Benachrichtigungen über verpasste Anrufe, die vom Unified Messaging-Dienst generiert werden, in das Journal einbezogen, wenn Sie eine Journalregel zum Erfassen von E-Mails erstellen, die an Empfänger oder von Absendern in einer Exchange-Organisation gesendet werden. Verwenden Sie die Verfahren in diesem Thema, um diese Funktion für Ihre gesamte Organisation zu aktivieren oder zu deaktivieren.
 
-Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit der Journalfunktion gibt? Weitere Informationen finden Sie hier: [Verwalten des Journalings](manage-journaling-exchange-2013-help.md).
+Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit der Journalfunktion gibt? Weitere Informationen finden Sie hier: [Verwalten des Journalings](https://technet.microsoft.com/de-de/library/JJ651670(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -53,5 +53,5 @@ Ausführliche Informationen zur Syntax und zu den Parametern finden Sie unter [S
 
 [Journale](journaling-exchange-2013-help.md)
 
-[Verwalten des Journalings](manage-journaling-exchange-2013-help.md)
+[Verwalten des Journalings](https://technet.microsoft.com/de-de/library/JJ651670(v=EXCHG.150))
 

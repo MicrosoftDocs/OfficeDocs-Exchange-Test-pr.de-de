@@ -17,13 +17,13 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-09_
 
-[Überprüfen Sie die e-Mail-Sprachanrufe in Ihrer Organisation](review-the-voice-mail-calls-in-your-organization-exchange-2013-help.md)
+[Überprüfen Sie die e-Mail-Sprachanrufe in Ihrer Organisation](https://technet.microsoft.com/de-de/library/JJ659073(v=EXCHG.150))
 
 [Überprüfen Sie die e-Mail-Sprachanrufe für einen Benutzer](review-the-voice-mail-calls-for-a-user-exchange-2013-help.md)
 
-[Überprüfen Sie die Audioqualität VoIP-Anrufe in Ihrer Organisation](investigate-the-audio-quality-of-voice-calls-in-your-organization-exchange-2013-help.md)
+[Überprüfen Sie die Audioqualität VoIP-Anrufe in Ihrer Organisation](https://technet.microsoft.com/de-de/library/JJ659069(v=EXCHG.150))
 
-[Durchführen einer Überprüfung der Audioqualität von Sprachanrufen für Benutzer](investigate-the-audio-quality-of-voice-calls-for-a-user-exchange-2013-help.md)
+[Durchführen einer Überprüfung der Audioqualität von Sprachanrufen für Benutzer](https://technet.microsoft.com/de-de/library/JJ659059(v=EXCHG.150))
 
-[Interpretieren von Voice Mail-anrufdatensätze](interpret-voice-mail-call-records-exchange-2013-help.md)
+[Interpretieren von Voice Mail-anrufdatensätze](https://technet.microsoft.com/de-de/library/JJ659061(v=EXCHG.150))
 

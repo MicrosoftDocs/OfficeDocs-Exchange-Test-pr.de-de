@@ -27,11 +27,11 @@ Das Microsoft Exchange 2010 UM-Problembehandlungstool ist ein Cmdlet der Exchang
 
   - Stellen Sie sicher, dass Ihre Exchange 2010- oder Exchange 2013-Organisation die folgenden Anforderungen erfüllt:
     
-      - Ein Satz UM-Wähleinstellungen wurde erstellt. Weitere Informationen finden Sie unter [Erstellen eines UM-Wählplans](create-a-um-dial-plan-exchange-2013-help.md).
+      - Ein Satz UM-Wähleinstellungen wurde erstellt. Weitere Informationen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
     
-      - Eine UM-Postfachrichtlinie wurde erstellt. Weitere Informationen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](create-a-um-mailbox-policy-exchange-2013-help.md).
+      - Eine UM-Postfachrichtlinie wurde erstellt. Weitere Informationen finden Sie unter [Erstellen einer UM-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Bb123510(v=EXCHG.150)).
     
-      - Ein UM-IP-Gateway wurde erstellt. Weitere Informationen finden Sie unter [Erstellen eines UM-IP-Gateways](create-a-um-ip-gateway-exchange-2013-help.md).
+      - Ein UM-IP-Gateway wurde erstellt. Weitere Informationen finden Sie unter [Erstellen eines UM-IP-Gateways](https://technet.microsoft.com/de-de/library/Aa998045(v=EXCHG.150)).
     
       - UM-Wählplan wurde ein Exchange 2010 Unified MESSAGING-Server hinzugefügt. Bei Verwendung von Exchange 2013 mit Lync Server fügen Sie alle Clientzugriffs- und Postfachservern hinzu, die SIP-URI-Wählpläne. Ausführliche Schritte finden Sie unter [Hinzufügen einer UM-Servers zu einem Wählplan](https://go.microsoft.com/fwlink/p/?linkid=313051) oder [Hinzufügen von Postfach- und Clientzugriffsservern zu einem SIP-URI-Wählplan](add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md).
 

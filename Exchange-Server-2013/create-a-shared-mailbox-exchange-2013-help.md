@@ -84,7 +84,7 @@ In diesem Beispiel wird das freigegebene Postfach "Sales Department" erstellt, u
 
 
 > [!NOTE]
-> In diesem Beispiel wird davon ausgegangen, dass Sie bereits die Sicherheitsgruppe MarketingSG erstellt haben und dass die Sicherheitsgruppe für E-Mail aktiviert ist. Weitere Informationen finden Sie unter <A href="manage-mail-enabled-security-groups-exchange-2013-help.md">Verwalten von E-Mail-aktivierten Sicherheitsgruppen</A>.
+> In diesem Beispiel wird davon ausgegangen, dass Sie bereits die Sicherheitsgruppe MarketingSG erstellt haben und dass die Sicherheitsgruppe für E-Mail aktiviert ist. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups">Verwalten von E-Mail-aktivierten Sicherheitsgruppen</A>.
 
 
 

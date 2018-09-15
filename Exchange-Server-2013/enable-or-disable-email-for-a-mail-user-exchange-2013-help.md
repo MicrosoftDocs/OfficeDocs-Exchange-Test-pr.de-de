@@ -27,7 +27,7 @@ Nach der Deaktivierung von E-Mails für einen E-Mail-Benutzer können Sie den Be
 
 
 
-Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit E-Mail-Benutzern finden Sie unter [Verwalten von E-Mail-Benutzern](manage-mail-users-exchange-2013-help.md).
+Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit E-Mail-Benutzern finden Sie unter [Verwalten von E-Mail-Benutzern](https://technet.microsoft.com/de-de/library/Bb124381(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 

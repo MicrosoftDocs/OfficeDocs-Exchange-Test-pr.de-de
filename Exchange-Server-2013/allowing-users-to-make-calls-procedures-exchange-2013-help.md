@@ -17,19 +17,19 @@ _**Gilt für:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-05-03_
 
-[Aktivieren Sie ausgehende Anrufe für UM-IP-gateways](enable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md)
+[Aktivieren Sie ausgehende Anrufe für UM-IP-gateways](https://technet.microsoft.com/de-de/library/JJ673562(v=EXCHG.150))
 
-[Deaktivieren Sie ausgehende Anrufe für UM-IP-gateways](disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md)
+[Deaktivieren Sie ausgehende Anrufe für UM-IP-gateways](https://technet.microsoft.com/de-de/library/Bb232153(v=EXCHG.150))
 
-[Kurzwahlnummern konfigurieren](configure-dial-codes-exchange-2013-help.md)
+[Kurzwahlnummern konfigurieren](https://technet.microsoft.com/de-de/library/Bb124992(v=EXCHG.150))
 
-[Erstellen von Wählregeln für Benutzer](create-dialing-rules-for-users-exchange-2013-help.md)
+[Erstellen von Wählregeln für Benutzer](https://technet.microsoft.com/de-de/library/JJ898502(v=EXCHG.150))
 
-[Autorisieren von Anrufen mit Wählregeln](authorize-calls-using-dialing-rules-exchange-2013-help.md)
+[Autorisieren von Anrufen mit Wählregeln](https://technet.microsoft.com/de-de/library/JJ898499(v=EXCHG.150))
 
-[Autorisieren von Aufrufen für automatische Telefonzentralen Anrufer](authorize-calls-for-auto-attendant-callers-exchange-2013-help.md)
+[Autorisieren von Aufrufen für automatische Telefonzentralen Anrufer](https://technet.microsoft.com/de-de/library/Bb691238(v=EXCHG.150))
 
-[Autorisieren von Anrufen für Benutzer in einem Wählplan](authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md)
+[Autorisieren von Anrufen für Benutzer in einem Wählplan](https://technet.microsoft.com/de-de/library/Bb691175(v=EXCHG.150))
 
-[Autorisieren von Anrufen für eine Gruppe von Benutzern](authorize-calls-for-a-group-of-users-exchange-2013-help.md)
+[Autorisieren von Anrufen für eine Gruppe von Benutzern](https://technet.microsoft.com/de-de/library/Bb232099(v=EXCHG.150))
 

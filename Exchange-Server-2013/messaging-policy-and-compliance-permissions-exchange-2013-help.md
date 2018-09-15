@@ -114,7 +114,7 @@ Benutzern, denen die Verwaltungsrollengruppe mit Leserechten zugewiesen ist, kö
 <td><p><a href="discovery-management-exchange-2013-help.md">Erkennungsverwaltung</a></p>
 
 > [!NOTE]
-> Standardmäßig weist die Rollengruppe für die Discoveryverwaltung keine Mitglieder auf. Kein Benutzer (einschließlich Administratoren) verfügt über die erforderlichen Berechtigungen zum Durchsuchen von Postfächern. Weitere Informationen finden Sie unter <A href="assign-ediscovery-permissions-in-exchange-exchange-2013-help.md">Zuweisen von eDiscovery-Berechtigungen in Exchange</A>.
+> Standardmäßig weist die Rollengruppe für die Discoveryverwaltung keine Mitglieder auf. Kein Benutzer (einschließlich Administratoren) verfügt über die erforderlichen Berechtigungen zum Durchsuchen von Postfächern. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions">Zuweisen von eDiscovery-Berechtigungen in Exchange</A>.
 
 
 </td>

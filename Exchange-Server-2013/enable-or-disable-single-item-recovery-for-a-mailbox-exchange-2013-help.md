@@ -73,7 +73,7 @@ Sie können denselben Befehl verwenden, um sicherzustellen, dass die Wiederherst
 
 ## Weitere Informationen
 
-  - Weitere Informationen zur Wiederherstellung einzelner Elemente finden Sie unter [Ordner "Wiederherstellbare Elemente"](recoverable-items-folder-exchange-2013-help.md). Informationen zur Wiederherstellung von vom Benutzer gelöschten Nachrichten vor Ablauf der Aufbewahrungsfrist finden Sie unter [Wiederherstellen von gelöschten Nachrichten im Postfach eines Benutzers](recover-deleted-messages-in-a-user-s-mailbox-exchange-2013-help.md).
+  - Weitere Informationen zur Wiederherstellung einzelner Elemente finden Sie unter [Ordner "Wiederherstellbare Elemente"](recoverable-items-folder-exchange-2013-help.md). Informationen zur Wiederherstellung von vom Benutzer gelöschten Nachrichten vor Ablauf der Aufbewahrungsfrist finden Sie unter [Wiederherstellen von gelöschten Nachrichten im Postfach eines Benutzers](https://technet.microsoft.com/de-de/library/Ff660637(v=EXCHG.150)).
 
   - Wenn ein Postfach in einem In-Situ-Speicher oder Beweissicherungsverfahren platziert wird, werden Nachrichten im Ordner „Wiederherstellbare Elemente“ beibehalten, bis die Aufbewahrungsdauer abläuft. Wenn die Aufbewahrungsdauer unbegrenzt ist, werden die Elemente beibehalten, bis der Haltebereich entfernt oder die Aufbewahrungsdauer geändert wird.
 

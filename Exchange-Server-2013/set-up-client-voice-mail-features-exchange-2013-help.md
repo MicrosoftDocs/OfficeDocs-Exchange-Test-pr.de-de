@@ -41,7 +41,7 @@ Receiving faxes
 
 ## Outlook Voice Access
 
-In Exchange Unified Messaging kann ein UM-aktivierter Benutzer zum Zugriff auf sein Postfach eine interne oder externe Telefonnummer anrufen (die im UM-Wählplan konfiguriert ist) und das Outlook Voice Access-Menüsystem verwenden. Mithilfe des Menüs können UM-aktivierte Benutzer E-Mails lesen, Sprachnachrichten abhören, mit ihrem Outlook-Kalender arbeiten, auf ihre persönlichen Kontakte zugreifen und Aufgaben ausführen, beispielsweise das Konfigurieren ihrer Outlook Voice Access-PIN oder das Aufzeichnen von Voicemails. Weitere Informationen finden Sie unter [Einrichten von Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md).
+In Exchange Unified Messaging kann ein UM-aktivierter Benutzer zum Zugriff auf sein Postfach eine interne oder externe Telefonnummer anrufen (die im UM-Wählplan konfiguriert ist) und das Outlook Voice Access-Menüsystem verwenden. Mithilfe des Menüs können UM-aktivierte Benutzer E-Mails lesen, Sprachnachrichten abhören, mit ihrem Outlook-Kalender arbeiten, auf ihre persönlichen Kontakte zugreifen und Aufgaben ausführen, beispielsweise das Konfigurieren ihrer Outlook Voice Access-PIN oder das Aufzeichnen von Voicemails. Weitere Informationen finden Sie unter [Einrichten von Outlook Voice Access](https://technet.microsoft.com/de-de/library/Dd298010(v=EXCHG.150)).
 
 ## Weiterleiten von Anrufen
 
@@ -49,7 +49,7 @@ Ein UM-aktivierter Benutzer kann Mailboxansageregeln mithilfe von Outlook oder O
 
 ## Voicemailvorschau
 
-Die Voicemailvorschau ist ein Feature, das Benutzer beim Empfang ihrer Voicemailnachrichten vom UM-Voicemailsystem nutzen können. Die Voicemailvorschau erweitert die Voicemailfunktion, indem eine Textversion der Audioaufzeichnungen bereitgestellt wird. Weitere Informationen finden Sie unter [Zulassen der Anzeige von Voicemailtranskriptionen für Benutzer](allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md).
+Die Voicemailvorschau ist ein Feature, das Benutzer beim Empfang ihrer Voicemailnachrichten vom UM-Voicemailsystem nutzen können. Die Voicemailvorschau erweitert die Voicemailfunktion, indem eine Textversion der Audioaufzeichnungen bereitgestellt wird. Weitere Informationen finden Sie unter [Zulassen der Anzeige von Voicemailtranskriptionen für Benutzer](https://technet.microsoft.com/de-de/library/Ff629381(v=EXCHG.150)).
 
 ## Faxempfang
 

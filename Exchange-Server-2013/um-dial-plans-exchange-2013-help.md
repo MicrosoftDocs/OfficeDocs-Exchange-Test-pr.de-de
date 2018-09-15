@@ -41,7 +41,7 @@ Benutzer, die demselben Wählplan angehören, besitzen folgende Merkmale:
 
   - Die Möglichkeit zum Anrufen oder zum Senden von Sprachmitteilungen an andere Mitglieder des Wählplans nur unter Verwendung der Durchwahlnummer.
 
-Weitere Informationen zum Aktivieren eines Benutzers für Unified Messaging finden Sie unter [Aktivieren eines Benutzers für Voicemail](enable-a-user-for-voice-mail-exchange-2013-help.md).
+Weitere Informationen zum Aktivieren eines Benutzers für Unified Messaging finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://technet.microsoft.com/de-de/library/Bb124147(v=EXCHG.150)).
 
 UM-Wählpläne werden in Unified Messaging verwendet, um sicherzustellen, dass die Telefondurchwahlen der Benutzer eindeutig sind. In einigen Telefonnetzen sind mehrere Nebenstellenanlagen oder IP-Nebenstellenanlagen vorhanden. In solchen Telefonnetzen können theoretisch zwei Benutzer mit identischer Telefondurchwahlnummer vorhanden sein. Mithilfe von UM-Wählplänen kann dies vermieden werden. Indem Sie die beiden Benutzer zwei getrennten UM-Wählplänen zuordnen, werden ihre Durchwahlen eindeutig.
 

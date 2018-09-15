@@ -47,7 +47,7 @@ In der folgenden Tabelle sind die Beschränkungen öffentlicher Ordner im lokale
 <tr class="odd">
 <td><p>Gesamtzahl der Postfächer für Öffentliche Ordner</p></td>
 <td><p>100</p></td>
-<td><p>Sie können zwar mehr als 100 Postfächer für Öffentliche Ordner anlegen, allerdings werden diese nicht unterstützt. <a href="create-a-public-folder-mailbox-exchange-2013-help.md">Erstellen eines Postfachs für öffentliche Ordner</a></p></td>
+<td><p>Sie können zwar mehr als 100 Postfächer für Öffentliche Ordner anlegen, allerdings werden diese nicht unterstützt. <a href="https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/create-public-folder-mailbox">Erstellen eines Postfachs für öffentliche Ordner</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Gesamtzahl Öffentlicher Ordner in der Hierarchie</p></td>

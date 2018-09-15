@@ -95,7 +95,7 @@ Weitere Informationen zu den von der Exchange-Suche indizierten Dateiformaten fi
 
 Damit autorisierte Benutzer Compliance-eDiscovery-Suchen durchführen können, müssen Sie die Benutzer der Rollengruppe [Erkennungsverwaltung](discovery-management-exchange-2013-help.md) hinzufügen. Diese Rollengruppe umfasst zwei Verwaltungsrollen: [Rolle „Postfachsuche“](mailbox-search-role-exchange-2013-help.md), die einem Benutzer das Ausführen einer Compliance-eDiscovery-Suche ermöglicht, und [Rolle „Gesetzliche Aufbewahrungspflicht“](legal-hold-role-exchange-2013-help.md), mit der Benutzer ein Postfach in einem Compliance-Archiv platzieren oder ein Beweissicherungsverfahren für das Postfach aktivieren können.
 
-Standardmäßig werden Benutzern oder Exchange-Administratoren keine Berechtigungen zur Ausführung von Compliance-eDiscovery-Aufgaben zugewiesen. Exchange-Administratoren, die Mitglieder der Rollengruppe "Organisationsverwaltung" sind, können Benutzer zur Rollengruppe "Discoveryverwaltung" hinzufügen und benutzerdefinierte Rollengruppen erstellen, um die Berechtigungen für einen Discoverymanager auf einen bestimmten Benutzersatz zu beschränken. Weitere Informationen zum Hinzufügen von Benutzern zur Rollengruppe "Discoveryverwaltung" finden Sie unter [Zuweisen von eDiscovery-Berechtigungen in Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
+Standardmäßig werden Benutzern oder Exchange-Administratoren keine Berechtigungen zur Ausführung von Compliance-eDiscovery-Aufgaben zugewiesen. Exchange-Administratoren, die Mitglieder der Rollengruppe "Organisationsverwaltung" sind, können Benutzer zur Rollengruppe "Discoveryverwaltung" hinzufügen und benutzerdefinierte Rollengruppen erstellen, um die Berechtigungen für einen Discoverymanager auf einen bestimmten Benutzersatz zu beschränken. Weitere Informationen zum Hinzufügen von Benutzern zur Rollengruppe "Discoveryverwaltung" finden Sie unter [Zuweisen von eDiscovery-Berechtigungen in Exchange](https://technet.microsoft.com/de-de/library/Dd298059(v=EXCHG.150)).
 
 
 > [!IMPORTANT]
@@ -103,7 +103,7 @@ Standardmäßig werden Benutzern oder Exchange-Administratoren keine Berechtigun
 
 
 
-Durch das Überwachen von Änderungen an RBAC-Rollen (diese Funktion ist standardmäßig aktiviert) wird sichergestellt, dass die richtigen Datensätze gespeichert werden, um die Zuweisung der Rollengruppe "Discoveryverwaltung" nachverfolgen zu können. Sie können den Administrator-Rollengruppenbericht verwenden, um nach Änderungen an Administratorrollengruppen zu suchen. Weitere Informationen finden Sie unter [Durchsuchen der Rollengruppenänderungen oder Administratorüberwachungsprotokolle](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+Durch das Überwachen von Änderungen an RBAC-Rollen (diese Funktion ist standardmäßig aktiviert) wird sichergestellt, dass die richtigen Datensätze gespeichert werden, um die Zuweisung der Rollengruppe "Discoveryverwaltung" nachverfolgen zu können. Sie können den Administrator-Rollengruppenbericht verwenden, um nach Änderungen an Administratorrollengruppen zu suchen. Weitere Informationen finden Sie unter [Durchsuchen der Rollengruppenänderungen oder Administratorüberwachungsprotokolle](https://technet.microsoft.com/de-de/library/Ff459262(v=EXCHG.150)).
 
 Zurück zum Seitenanfang
 
@@ -111,7 +111,7 @@ Zurück zum Seitenanfang
 
 Sie können einen benutzerdefinierten Verwaltungsbereich verwenden, damit bestimmte Personen oder Gruppen Compliance-eDiscovery verwenden können, um eine Teilmenge der Postfächer in Ihrer Exchange 2013- oder Exchange Online-Organisation zu durchsuchen. Beispielsweise können Sie einen Discovery-Manager nur die Postfächer der Benutzer an einem bestimmten Standort oder in einer bestimmten Abteilung durchsuchen lassen. Hierfür erstellen Sie einen benutzerdefinierten Verwaltungsbereich, in dem über einen benutzerdefinierten Empfängerfilter gesteuert wird, welche Postfächer durchsucht werden können. In Bereichen mit Empfängerfiltern werden Filter verwendet, um bestimmte Empfänger basierend auf dem Empfängertyp oder anderen Eigenschaften zu erfassen.
 
-Bei Verwendung von Compliance-eDiscovery ist die einzige Eigenschaft eines Benutzerpostfachs, die Sie zum Erstellen eines Empfängerfilters für einen benutzerdefinierten Bereich verwenden können, die Mitgliedschaft in Verteilergruppen. Wenn Sie andere Eigenschaften verwenden, wie beispielsweise *CustomAttributeN*, *Department* oder *PostalCode* schlägt die Suche fehl, wenn sie von einem Mitglied der Rollengruppe ausgeführt wird, der der benutzerdefinierte Bereich zugewiesen ist. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Verwaltungsbereichs für die Compliance-eDiscovery-Suche](create-a-custom-management-scope-for-in-place-ediscovery-searches-exchange-2013-help.md).
+Bei Verwendung von Compliance-eDiscovery ist die einzige Eigenschaft eines Benutzerpostfachs, die Sie zum Erstellen eines Empfängerfilters für einen benutzerdefinierten Bereich verwenden können, die Mitgliedschaft in Verteilergruppen. Wenn Sie andere Eigenschaften verwenden, wie beispielsweise *CustomAttributeN*, *Department* oder *PostalCode* schlägt die Suche fehl, wenn sie von einem Mitglied der Rollengruppe ausgeführt wird, der der benutzerdefinierte Bereich zugewiesen ist. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Verwaltungsbereichs für die Compliance-eDiscovery-Suche](https://technet.microsoft.com/de-de/library/Dn741464(v=EXCHG.150)).
 
 ## Integration mit SharePoint Server 2013 und SharePoint Online
 
@@ -163,7 +163,7 @@ Zurück zum Seitenanfang
 
 ## Verwenden der Compliance-eDiscovery-Suche
 
-Benutzer, die zur Rollengruppe "Discoveryverwaltung" hinzugefügt wurden, können Compliance-eDiscovery-Suchen ausführen. Sie können mithilfe der webbasierten Oberfläche in der Exchange-Verwaltungskonsole Suchen durchführen. Dadurch wird das Verwenden der Compliance-eDiscovery-Suche für nicht technische Benutzer wie Datensatzmanager, Richtlinienbeauftragte oder Mitarbeiter der Rechts- und Personalabteilung vereinfacht. Sie können Suchläufe auch mit der Shell durchführen. Weitere Informationen finden Sie unter [Erstellen einer Compliance-eDiscovery-Suche](create-an-in-place-ediscovery-search-exchange-2013-help.md)
+Benutzer, die zur Rollengruppe "Discoveryverwaltung" hinzugefügt wurden, können Compliance-eDiscovery-Suchen ausführen. Sie können mithilfe der webbasierten Oberfläche in der Exchange-Verwaltungskonsole Suchen durchführen. Dadurch wird das Verwenden der Compliance-eDiscovery-Suche für nicht technische Benutzer wie Datensatzmanager, Richtlinienbeauftragte oder Mitarbeiter der Rechts- und Personalabteilung vereinfacht. Sie können Suchläufe auch mit der Shell durchführen. Weitere Informationen finden Sie unter [Erstellen einer Compliance-eDiscovery-Suche](https://technet.microsoft.com/de-de/library/Dd353189(v=EXCHG.150))
 
 
 > [!NOTE]
@@ -266,7 +266,7 @@ Nachdem die Suchergebnisse in ein Discoverypostfach kopiert wurden,können Sie s
 
 ![Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei](images/Dd298021.4ddca8af-1af5-4cb2-852c-e3a292099a58(EXCHG.150).gif "Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei")
 
-Nach dem Export der Suchergebnisse in eine PST-Datei können Sie oder andere Benutzer sie in Outlook öffnen, um die in den Suchergebnissen zurückgegebenen Nachrichten zu lesen oder zu drucken. Weitere Informationen finden Sie unter [Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md).
+Nach dem Export der Suchergebnisse in eine PST-Datei können Sie oder andere Benutzer sie in Outlook öffnen, um die in den Suchergebnissen zurückgegebenen Nachrichten zu lesen oder zu drucken. Weitere Informationen finden Sie unter [Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei](https://technet.microsoft.com/de-de/library/Dn440164(v=EXCHG.150)).
 
 ## Unterschiedliche Suchergebnisse
 
@@ -324,13 +324,13 @@ Wenn es in lokalen Bereitstellungen in Ihrer Organisation erforderlich ist, Aufb
     
 
     > [!IMPORTANT]
-    > Benutzer mit Vollzugriff für das Postfach können weiterhin auf das Postfach zugreifen. Wenn Sie den Zugriff durch andere Personen verhindern möchten, müssen Sie den Vollzugriff auf das Postfach deaktivieren. Informationen zum Aufheben von Postfachberechtigungen für den Vollzugriff auf ein Postfach finden Sie unter <A href="manage-permissions-for-recipients-exchange-online-help.md">Verwalten von Berechtigungen für Empfänger</A>.
+    > Benutzer mit Vollzugriff für das Postfach können weiterhin auf das Postfach zugreifen. Wenn Sie den Zugriff durch andere Personen verhindern möchten, müssen Sie den Vollzugriff auf das Postfach deaktivieren. Informationen zum Aufheben von Postfachberechtigungen für den Vollzugriff auf ein Postfach finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Verwalten von Berechtigungen für Empfänger</A>.
 
 
 
 2.  Legen Sie den Grenzwert für die Größe der Nachrichten, die über das Postfach gesendet oder empfangen werden können, auf einen sehr niedrigen Wert fest, beispielsweise auf 1 KB. Auf diese Weise wird verhindert, dass neue E-Mails über das Postfach gesendet oder empfangen werden. Weitere Informationen finden Sie unter [Konfigurieren von Beschränkungen der Nachrichtengröße für ein Postfach](configure-message-size-limits-for-a-mailbox-exchange-2013-help.md).
 
-3.  Konfigurieren Sie Übermittlungseinschränkungen für das Postfach, sodass niemand Nachrichten an das Postfach senden kann. Weitere Informationen finden Sie unter [Konfigurieren von Nachrichtenübermittlungseinschränkungen für ein Postfach](configure-message-delivery-restrictions-for-a-mailbox-exchange-2013-help.md).
+3.  Konfigurieren Sie Übermittlungseinschränkungen für das Postfach, sodass niemand Nachrichten an das Postfach senden kann. Weitere Informationen finden Sie unter [Konfigurieren von Nachrichtenübermittlungseinschränkungen für ein Postfach](https://technet.microsoft.com/de-de/library/Bb397214(v=EXCHG.150)).
 
 
 > [!IMPORTANT]
@@ -436,7 +436,7 @@ Die folgende Tabelle enthält Links zu Themen, in denen Sie weitere Informatione
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="assign-ediscovery-permissions-in-exchange-exchange-2013-help.md">Zuweisen von eDiscovery-Berechtigungen in Exchange</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions">Zuweisen von eDiscovery-Berechtigungen in Exchange</a></p></td>
 <td><p>Erfahren Sie, wie Sie einem Benutzer in der Exchange-Verwaltungskonsole Zugriff auf Compliance-eDiscovery zum Durchsuchen von Exchange-Postfächern gewähren. Wenn Sie einen Benutzer zur Rollengruppe &quot;Discoveryverwaltung&quot; hinzufügen, kann dieser auch das eDiscovery Center in SharePoint 2013 und SharePoint Online verwenden, um Exchange-Postfächer zu durchsuchen.</p></td>
 </tr>
 <tr class="even">
@@ -444,7 +444,7 @@ Die folgende Tabelle enthält Links zu Themen, in denen Sie weitere Informatione
 <td><p>Erfahren Sie, wie Sie mit der Shell ein Discoverypostfach erstellen und Zugriffsberechtigungen zuweisen.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="create-an-in-place-ediscovery-search-exchange-2013-help.md">Erstellen einer Compliance-eDiscovery-Suche</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search">Erstellen einer Compliance-eDiscovery-Suche</a></p></td>
 <td><p>Erfahren Sie, wie Sie eine Compliance-eDiscovery-Suche erstellen und wie Sie eDiscovery-Suchergebnisse schätzen und eine Vorschau davon anzeigen.</p></td>
 </tr>
 <tr class="even">
@@ -468,11 +468,11 @@ Die folgende Tabelle enthält Links zu Themen, in denen Sie weitere Informatione
 <td><p>Erfahren Sie, wie Sie die Ergebnisse einer eDiscovery-Suche in ein Discoverypostfach kopieren.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md">Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/export-search-results">Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei</a></p></td>
 <td><p>Erfahren Sie, wie Sie die Ergebnisse einer eDiscovery-Suche in eine PST-Datei exportieren.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-a-custom-management-scope-for-in-place-ediscovery-searches-exchange-2013-help.md">Erstellen eines benutzerdefinierten Verwaltungsbereichs für die Compliance-eDiscovery-Suche</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/create-custom-management-scope">Erstellen eines benutzerdefinierten Verwaltungsbereichs für die Compliance-eDiscovery-Suche</a></p></td>
 <td><p>Erfahren Sie, wie Sie mit benutzerdefinierten Verwaltungsbereichen die Anzahl der Postfächer einschränken können, die ein Discovery-Manager durchsuchen kann.</p></td>
 </tr>
 <tr class="odd">
@@ -484,11 +484,11 @@ Die folgende Tabelle enthält Links zu Themen, in denen Sie weitere Informatione
 <td><p>Erfahren Sie, wie Sie mit dem Cmdlet <strong>Search-Mailbox</strong> E-Mail-Nachrichten suchen und löschen können.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="reduce-the-size-of-a-discovery-mailbox-in-exchange-exchange-2013-help.md">Verkleinern eines Discoverypostfachs in Exchange</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/reduce-discovery-mailbox-size">Verkleinern eines Discoverypostfachs in Exchange</a></p></td>
 <td><p>Verwenden Sie dieses Verfahren, um ein Discoverypostfach, das größer als 50 GB ist, zu verkleinern.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="delete-and-re-create-the-default-discovery-mailbox-in-exchange-exchange-2013-help.md">Löschen und Neuerstellen des Standarddiscoverypostfachs in Exchange</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/delete-and-re-create-default-discovery-mailbox">Löschen und Neuerstellen des Standarddiscoverypostfachs in Exchange</a></p></td>
 <td><p>Erfahren Sie, wie Sie ein Standarddiscoverypostfach löschen, es neu erstellen und ihm dann erneut Berechtigungen zuweisen können. Verwenden Sie dieses Verfahren, wenn das Postfach die Größenbeschränkung von 50 GB überschritten hat und Sie die Suchergebnisse nicht benötigen.</p></td>
 </tr>
 <tr class="odd">

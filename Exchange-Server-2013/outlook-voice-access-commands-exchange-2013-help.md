@@ -487,7 +487,7 @@ Als Outlook Voice Access-Benutzer werden Ihnen beim Anrufen einer Outlook Voice 
 
 ## Weitere Informationen
 
-[Einrichten von Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md)
+[Einrichten von Outlook Voice Access](https://technet.microsoft.com/de-de/library/Dd298010(v=EXCHG.150))
 
 [Einrichten von Client-Voicemailfunktionen](set-up-client-voice-mail-features-exchange-2013-help.md)
 

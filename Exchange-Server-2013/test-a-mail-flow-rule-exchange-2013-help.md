@@ -31,7 +31,7 @@ Sie können die Bedingungen für eine Regel auswerten, ohne Aktionen auszuführe
 
   - **Test ohne Richtlinientipps**   Verwenden Sie diesen Modus zusammen mit einer Schadensberichtsaktion, damit Sie eine E-Mail-Nachricht erhalten, sobald eine E-Mail mit der Regel übereinstimmt.
 
-  - **Test mit Richtlinientipps**   Dieser Modus ist nur verfügbar, wenn Sie [Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md) (DLP) einsetzen. Dieses Feature ist in verschiedenen Exchange Online- und Exchange Online Protection-Abonnementplänen (EOP) verfügbar. Bei diesem Modus wird dem Absender eine Meldung angezeigt, wenn eine Nachricht, die er senden möchte, mit einer Richtlinie übereinstimmt, ohne dass E-Mail-Flussaktionen erfolgen.
+  - **Test mit Richtlinientipps**   Dieser Modus ist nur verfügbar, wenn Sie [Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150)) (DLP) einsetzen. Dieses Feature ist in verschiedenen Exchange Online- und Exchange Online Protection-Abonnementplänen (EOP) verfügbar. Bei diesem Modus wird dem Absender eine Meldung angezeigt, wenn eine Nachricht, die er senden möchte, mit einer Richtlinie übereinstimmt, ohne dass E-Mail-Flussaktionen erfolgen.
 
 Nachstehend sehen Sie die Meldung bei einer Regelübereinstimmung, wenn Sie die Schadensberichtsaktion hinzufügen:
 

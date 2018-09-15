@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2018-03-26_
 
 **Zusammenfassung:**  Verschieben von öffentlichen Exchange 2013-Ordnern in Office 365-Gruppen.
 
-Mit einem Prozess, der auch *Stapelmigration* genannt wird, können Sie einige oder alle Ihre öffentlichen Exchange 2013-Ordner in Office 365-Gruppen verschieben. Gruppen sind ein neues Angebot von Microsoft für die Zusammenarbeit, das bestimmte Vorteile für öffentliche Ordner bietet. Unter [Migrieren Ihrer öffentlichen Ordner zu Office 365-Gruppen](migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md) finden Sie einen Überblick über die Unterschiede zwischen öffentlichen Ordnern und Gruppen sowie Gründe, warum Ihre Organisation möglicherweise von einem Wechsel zu Gruppen profitieren kann.
+Mit einem Prozess, der auch *Stapelmigration* genannt wird, können Sie einige oder alle Ihre öffentlichen Exchange 2013-Ordner in Office 365-Gruppen verschieben. Gruppen sind ein neues Angebot von Microsoft für die Zusammenarbeit, das bestimmte Vorteile für öffentliche Ordner bietet. Unter [Migrieren Ihrer öffentlichen Ordner zu Office 365-Gruppen](https://technet.microsoft.com/de-de/library/Mt843872(v=EXCHG.150)) finden Sie einen Überblick über die Unterschiede zwischen öffentlichen Ordnern und Gruppen sowie Gründe, warum Ihre Organisation möglicherweise von einem Wechsel zu Gruppen profitieren kann.
 
 Dieser Artikel enthält die schrittweisen Verfahren zur Durchführung der tatsächlichen Stapelmigration Ihrer öffentlichen Exchange 2013-Ordner.
 

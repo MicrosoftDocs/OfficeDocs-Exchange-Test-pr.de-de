@@ -104,7 +104,7 @@ In der folgenden Tabelle sind die Empfängerobjekte beschrieben, die in Active D
 </tr>
 <tr class="even">
 <td><p>DynamicDistributionGroup</p></td>
-<td><p>Ein Objekt, das die Active Directory-Klasse <strong>msExchDynamicDistributionList</strong> aufweist. Weitere Informationen finden Sie unter <a href="manage-dynamic-distribution-groups-exchange-2013-help.md">Verwalten dynamischer Verteilergruppen</a>.</p></td>
+<td><p>Ein Objekt, das die Active Directory-Klasse <strong>msExchDynamicDistributionList</strong> aufweist. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups">Verwalten dynamischer Verteilergruppen</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mailbox</p></td>
@@ -112,11 +112,11 @@ In der folgenden Tabelle sind die Empfängerobjekte beschrieben, die in Active D
 </tr>
 <tr class="even">
 <td><p>MailUser</p></td>
-<td><p>Ein Benutzerobjekt, das eine E-Mail-Adresse ohne einen definierten <em>Database</em>-Parameter aufweist. Weitere Informationen finden Sie unter <a href="manage-mail-users-exchange-2013-help.md">Verwalten von E-Mail-Benutzern</a>.</p></td>
+<td><p>Ein Benutzerobjekt, das eine E-Mail-Adresse ohne einen definierten <em>Database</em>-Parameter aufweist. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-users">Verwalten von E-Mail-Benutzern</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MailContact</p></td>
-<td><p>Ein Kontaktobjekt, das eine E-Mail-Adresse aufweist. Normalerweise wird ein E-Mail-Kontakt für Empfänger außerhalb der Exchange-Organisation verwendet. Ein E-Mail-Kontakt wird außerdem in gesamtstrukturübergreifenden Exchange-Umgebungen verwendet. Weitere Informationen finden Sie unter <a href="manage-mail-contacts-exchange-2013-help.md">Verwalten von E-Mail-Kontakten</a>.</p></td>
+<td><p>Ein Kontaktobjekt, das eine E-Mail-Adresse aufweist. Normalerweise wird ein E-Mail-Kontakt für Empfänger außerhalb der Exchange-Organisation verwendet. Ein E-Mail-Kontakt wird außerdem in gesamtstrukturübergreifenden Exchange-Umgebungen verwendet. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-contacts">Verwalten von E-Mail-Kontakten</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>MailPublicFolder</p></td>

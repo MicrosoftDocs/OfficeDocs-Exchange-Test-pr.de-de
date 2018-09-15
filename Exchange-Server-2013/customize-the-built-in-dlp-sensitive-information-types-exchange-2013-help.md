@@ -263,7 +263,7 @@ Nachfolgend finden Sie Definitionen der Begriffe, die in diesem Verfahren vorkom
 
 ## Weitere Informationen
 
-  - [Anwenden von DLP-Regeln zur Auswertung von Nachrichten](how-dlp-rules-are-applied-to-evaluate-messages-exchange-2013-help.md)
+  - [Anwenden von DLP-Regeln zur Auswertung von Nachrichten](https://technet.microsoft.com/de-de/library/Dn329050(v=EXCHG.150))
 
   - [Erstellen einer benutzerdefinierten DLP-Richtlinie](create-a-custom-dlp-policy-exchange-2013-help.md)
 

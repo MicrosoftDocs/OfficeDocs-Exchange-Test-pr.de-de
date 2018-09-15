@@ -23,7 +23,7 @@ Sie können den Benutzerzugriff auf Add-Ins für Outlook mithilfe des Exchange A
 
   - Über die Exchange-Verwaltungsshell oder die Exchange Online PowerShell können Sie alle Einstellungen, die das EAC bietet, und noch andere Einstellungen verwalten. Beispielsweise können Sie die Verfügbarkeit auf bestimmte Benutzer in Ihrer Organisation beschränken.
 
-Informationen zu weiteren Verwaltungsaufgaben finden Sie unter [Apps für Outlook](add-ins-for-outlook-exchange-2013-help.md).
+Informationen zu weiteren Verwaltungsaufgaben finden Sie unter [Apps für Outlook](https://technet.microsoft.com/de-de/library/JJ943753(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 

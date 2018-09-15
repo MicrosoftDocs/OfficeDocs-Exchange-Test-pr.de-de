@@ -141,5 +141,5 @@ Wenn Sie eine App-Konfigurationsrichtlinie im Azure-Portal oder über Ihren MDM-
 </table>
 
 
-**\*** Microsoft Intune-Benutzer können Token verwenden, die entsprechend dem bei MDM registrierten Benutzer zum richtigen Wert erweitert werden. Weitere Informationen finden Sie unter [Hinzufügen von App-Konfigurationsrichtlinien für verwaltete iOS-Geräte](https://docs.microsoft.com/de-de/intune/app-configuration-policies-use-ios).
+**\*** Microsoft Intune-Benutzer können Token verwenden, die entsprechend dem bei MDM registrierten Benutzer zum richtigen Wert erweitert werden. Weitere Informationen finden Sie unter [Hinzufügen von App-Konfigurationsrichtlinien für verwaltete iOS-Geräte](https://review.docs.microsoft.com/de-de/intune/app-configuration-policies-use-ios).
 
