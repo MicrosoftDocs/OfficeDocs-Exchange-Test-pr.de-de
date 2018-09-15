@@ -64,7 +64,7 @@ Die folgende Tabelle enthält Links zu Themen mit Informationen zur Verwaltung v
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="address-lists-exchange-2013-help.md">Adresslisten</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/address-books/address-lists/address-lists">Adresslisten</a></p></td>
 <td><p>Hier finden Sie Informationen zu Adresslisten und globalen Adresslisten zum Strukturieren von Empfängern, sodass Endbenutzer einfachen Zugang haben.</p></td>
 </tr>
 <tr class="even">

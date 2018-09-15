@@ -25,7 +25,7 @@ In MicrosoftExchange Server 2013 und Exchange Online bietet die Exchange-Suche 
 
 
 
-Bei der Verwaltung und Nutzung der Exchange-Suche und der abhängigen Funktionen (z. B. [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md)) müssen Sie den Unterschied zwischen nicht durchsuchbaren Elementen und Dateiformaten berücksichtigen, die für die Indizierung deaktiviert sind oder Inhalte aufweisen, die nicht indiziert werden können:
+Bei der Verwaltung und Nutzung der Exchange-Suche und der abhängigen Funktionen (z. B. [Compliance-eDiscovery](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)) müssen Sie den Unterschied zwischen nicht durchsuchbaren Elementen und Dateiformaten berücksichtigen, die für die Indizierung deaktiviert sind oder Inhalte aufweisen, die nicht indiziert werden können:
 
   - **Nicht durchsuchbare Elemente**   Wenn die Exchange-Suche einen bestimmten Dateityp aus beliebigen Gründen nicht indizieren kann (da z. B. ein Filter nicht installiert ist), treten bei der Suche nach diesem Dateityp Fehler auf. Nachrichten mit solchen Anlagen werden als *teilweise indiziert* gekennzeichnet. Nicht durchsuchbare Elemente können mit dem Cmdlet [Get-FailedContentIndexDocuments](https://technet.microsoft.com/de-de/library/dd351154\(v=exchg.150\)) abgerufen werden. Wenn Sie Compliance-eDiscovery-Suchergebnisse in ein Discoverypostfach kopieren oder Suchergebnisse in eine PST-DAtei exportieren, können Sie nicht durchsuchbare Elemente einschließen. Weitere Informationen finden Sie unter [Nicht durchsuchbare Elemente in Exchange eDiscovery](unsearchable-items-in-exchange-ediscovery-exchange-2013-help.md).
 

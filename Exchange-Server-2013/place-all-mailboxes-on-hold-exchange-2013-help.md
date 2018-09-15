@@ -23,7 +23,7 @@ _**Letztes Änderungsdatum des Themas:** 2017-01-18_
 
 
 
-In Ihrer Organisation kann es erforderlich sein, alle Postfachdaten eine bestimmte Zeit lang aufzubewahren. Sie können dazu ein Beweissicherungsverfahren oder Compliance-Archiv aktivieren. Nachdem Sie für ein Postfach ein Beweissicherungsverfahren oder einen In-Situ-Speicher aktiviert haben, werden Postfachelemente, die verändert oder gelöscht werden, dauerhaft im Ordner "Wiederherstellbare Elemente" beibehalten. Weitere Informationen finden Sie unter [In-Place Hold and Litigation Hold](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+In Ihrer Organisation kann es erforderlich sein, alle Postfachdaten eine bestimmte Zeit lang aufzubewahren. Sie können dazu ein Beweissicherungsverfahren oder Compliance-Archiv aktivieren. Nachdem Sie für ein Postfach ein Beweissicherungsverfahren oder einen In-Situ-Speicher aktiviert haben, werden Postfachelemente, die verändert oder gelöscht werden, dauerhaft im Ordner "Wiederherstellbare Elemente" beibehalten. Weitere Informationen finden Sie unter [In-Place Hold and Litigation Hold](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 Berücksichtigen Sie Folgendes, bevor Sie für alle Postfächer in einer Organisation ein Beweissicherungsverfahren oder Compliance-Archiv aktivieren:
 
@@ -111,7 +111,7 @@ Im Beispiel werden das Cmdlet [Get-Mailbox](https://technet.microsoft.com/de-de/
 
 ## Aktivierung eines Compliance-Archivs für alle Postfächer
 
-Sie können mithilfe des EAC bis 500 Postfächer auswählen und im Archiv platzieren. Weitere Informationen finden Sie unter [Erstellen oder Entfernen eines Compliance-Archivs](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+Sie können mithilfe des EAC bis 500 Postfächer auswählen und im Archiv platzieren. Weitere Informationen finden Sie unter [Erstellen oder Entfernen eines Compliance-Archivs](https://docs.microsoft.com/de-de/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
 
 > [!TIP]

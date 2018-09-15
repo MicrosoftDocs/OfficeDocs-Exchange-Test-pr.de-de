@@ -27,7 +27,7 @@ Sie können mit der Verwendung von Transportregeln beginnen, indem Sie die folge
 
 [Registrieren von Filterpaket-IFiltern für Exchange 2013](register-filter-pack-ifilters-with-exchange-2013-exchange-2013-help.md)   Informationen, die Ihnen bei der Registrierung zusätzlicher Dateitypen für Anhänge helfen, sodass Transportregeln für Anhänge diese Dateitypen scannen können.
 
-[Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md)   Informationen, die Ihnen helfen, eine Transportregel zu erstellen, anzuzeigen, zu ändern, zu aktivieren, zu deaktivieren oder zu entfernen, sowie Informationen zum Importieren und Exportieren von Transportregelsammlungen.
+[Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)   Informationen, die Ihnen helfen, eine Transportregel zu erstellen, anzuzeigen, zu ändern, zu aktivieren, zu deaktivieren oder zu entfernen, sowie Informationen zum Importieren und Exportieren von Transportregelsammlungen.
 
 [Bewährte Methoden für die Konfiguration von Nachrichtenflussregeln](https://technet.microsoft.com/de-de/library/Dn960147(v=EXCHG.150))   Informationen, die Ihnen dabei helfen, häufige Konfigurationsfehler zu vermeiden.
 

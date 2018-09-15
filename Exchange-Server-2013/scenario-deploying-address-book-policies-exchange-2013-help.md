@@ -311,7 +311,7 @@ In diesem Beispiel wird das Offlineadressbuch "OAB\_FAB" für Fabrikam erstellt.
 
     New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
 
-Weitere Informationen finden Sie unter [Erstellen eines Offlineadressbuchs](create-an-offline-address-book-exchange-2013-help.md).
+Weitere Informationen finden Sie unter [Erstellen eines Offlineadressbuchs](https://docs.microsoft.com/de-de/exchange/address-books/offline-address-books/create-offline-address-book).
 
 ## Schritt 4: Erstellen der Adressbuchrichtlinien
 

@@ -247,7 +247,7 @@ Ein für eine UM-Pilotnummer eingehender Anruf wird als INVITE mit einem SDP-Voi
 
 ## Konfigurieren der Faxübermittlung
 
-Beim Installieren des Postfachservers wird der Server nicht standardmäßig für die Verarbeitung eingehender Faxanrufe und die anschließende Zustellung an einen UM-aktivierten Benutzer konfiguriert. Zur Konfiguration von UM mit einem Faxpartnerserver müssen Sie die UM-Postfachrichtlinie sowie die Authentifizierung zwischen dem Postfachserver und dem Faxpartnerserver konfigurieren. Weitere Informationen finden Sie unter [Einrichten von eingehenden Faxen](setting-up-incoming-faxing-exchange-2013-help.md).
+Beim Installieren des Postfachservers wird der Server nicht standardmäßig für die Verarbeitung eingehender Faxanrufe und die anschließende Zustellung an einen UM-aktivierten Benutzer konfiguriert. Zur Konfiguration von UM mit einem Faxpartnerserver müssen Sie die UM-Postfachrichtlinie sowie die Authentifizierung zwischen dem Postfachserver und dem Faxpartnerserver konfigurieren. Weitere Informationen finden Sie unter [Einrichten von eingehenden Faxen](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-up-incoming-faxing).
 
 Übersicht über die Faxübermittlung
 

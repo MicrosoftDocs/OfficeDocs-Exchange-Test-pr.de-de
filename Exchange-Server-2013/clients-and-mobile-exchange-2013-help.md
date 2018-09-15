@@ -63,7 +63,7 @@ Die folgende Tabelle enthält Links zu Themen, in denen Sie Informationen zu den
 <td><p>Informieren Sie sich über Outlook Web App, der Anwendung, über die Benutzer über einen Webbrowser auf ihr Exchange 2013-Postfach zugreifen können.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="mailtips-exchange-2013-help.md">MailTips</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips">MailTips</a></p></td>
 <td><p>Informieren Sie sich über E-Mail-Infos, den informativen Meldungen, die Benutzern beim Erstellen einer Nachricht angezeigt werden.</p></td>
 </tr>
 </tbody>

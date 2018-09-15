@@ -220,9 +220,9 @@ In der folgenden Tabelle sind die Inhalte und Aktionen aufgelistet, die im Ordne
 
 Weitere Informationen zur Compliance-eDiscovery, zum Compliance-Archiv und zum Beweissicherungsverfahren finden Sie in den folgenden Themen:
 
-  - [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md)
+  - [Compliance-eDiscovery](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
-  - [In-Place Hold and Litigation Hold](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [In-Place Hold and Litigation Hold](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 Zurück zum Seitenanfang
 

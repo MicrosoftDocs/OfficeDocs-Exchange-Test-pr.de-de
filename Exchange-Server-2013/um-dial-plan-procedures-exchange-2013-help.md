@@ -27,11 +27,11 @@ _**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
 [Ändern des Audiocodecs](https://technet.microsoft.com/de-de/library/Aa996342(v=EXCHG.150))
 
-[Konfigurieren der maximalen Anrufdauer](configure-the-maximum-call-duration-exchange-2013-help.md)
+[Konfigurieren der maximalen Anrufdauer](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-maximum-call-duration)
 
 [Konfigurieren Sie die maximale Aufzeichnung Dauer](https://technet.microsoft.com/de-de/library/Ee423539(v=EXCHG.150))
 
-[Konfigurieren Sie den Wert der Aufzeichnung Leerlauftimeout](configure-the-recording-idle-time-out-value-exchange-2013-help.md)
+[Konfigurieren Sie den Wert der Aufzeichnung Leerlauftimeout](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-recording-idle-time-out)
 
 [Konfigurieren der VoIP-Sicherheitseinstellung](https://technet.microsoft.com/de-de/library/Bb201721(v=EXCHG.150))
 

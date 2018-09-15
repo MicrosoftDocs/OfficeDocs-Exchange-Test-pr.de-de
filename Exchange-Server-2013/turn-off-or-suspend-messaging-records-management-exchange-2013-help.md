@@ -47,7 +47,7 @@ Sie können für Postfächer die Aufbewahrungszeit anhalten, um die Messaging-Da
 
 Ausführliche Informationen zum Anhalten der Aufbewahrungszeit für ein Postfach finden Sie unter [Anhalten der Aufbewahrungszeit für ein Postfach](https://technet.microsoft.com/de-de/library/Dd335168(v=EXCHG.150)).
 
-Weitere Informationen zu Compliance-Archiv und Beweissicherungsverfahren finden Sie unter [In-Place Hold and Litigation Hold](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+Weitere Informationen zu Compliance-Archiv und Beweissicherungsverfahren finden Sie unter [In-Place Hold and Litigation Hold](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 ## Entfernen von Aufbewahrungstags aus Postfächern
 

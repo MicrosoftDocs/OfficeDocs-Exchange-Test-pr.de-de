@@ -23,9 +23,9 @@ In diesem Artikel werden die Komponenten von Nachrichtenflussregeln und deren Fu
 
 Weitere Informationen zu Nachrichtenflussregeln in Exchange Online finden Sie unter [Nachrichtenflussregeln (Transportregeln) in Exchange Online](https://technet.microsoft.com/de-de/library/jj919238\(v=exchg.150\)). Weitere Informationen zu Nachrichtenflussregeln in Exchange Online Protection finden Sie unter [Nachrichtenflussregeln (Transportregeln) in Exchange Online Protection](https://technet.microsoft.com/de-de/library/dn271424\(v=exchg.150\)).
 
-Sie können die Exchange-Verwaltungskonsole (EAC) oder die Exchange-Verwaltungsshell zum Verwalten von Nachrichtenflussregeln verwenden. Anweisungen zum Verwalten von Transportregeln finden Sie unter [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md).
+Sie können die Exchange-Verwaltungskonsole (EAC) oder die Exchange-Verwaltungsshell zum Verwalten von Nachrichtenflussregeln verwenden. Anweisungen zum Verwalten von Transportregeln finden Sie unter [Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
-Bei jeder Regel haben Sie die Möglichkeit, sie zu erzwingen, sie zu testen oder sie zu testen und den Absender zu benachrichtigen. Weitere Informationen zu den Testoptionen finden Sie unter [Testen einer Nachrichtenflussregel](test-a-mail-flow-rule-exchange-2013-help.md) und [Richtlinientipps](https://technet.microsoft.com/de-de/library/JJ150512(v=EXCHG.150)).
+Bei jeder Regel haben Sie die Möglichkeit, sie zu erzwingen, sie zu testen oder sie zu testen und den Absender zu benachrichtigen. Weitere Informationen zu den Testoptionen finden Sie unter [Testen einer Nachrichtenflussregel](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) und [Richtlinientipps](https://technet.microsoft.com/de-de/library/JJ150512(v=EXCHG.150)).
 
 Informationen zur Implementierung bestimmter Nachrichtenrichtlinien mithilfe von Nachrichtenflussregeln finden Sie in den folgenden Themen:
 
@@ -39,7 +39,7 @@ Informationen zur Implementierung bestimmter Nachrichtenrichtlinien mithilfe von
 
   - [Verwenden von Nachrichtenflussregeln zum Routen von E-Mails basierend auf einer Liste von Wörtern, Begriffen oder Mustern](https://technet.microsoft.com/de-de/library/Dn951131(v=EXCHG.150))
 
-  - [Gängige Szenarien der Nachrichtengenehmigung](common-message-approval-scenarios-exchange-2013-help.md)
+  - [Gängige Szenarien der Nachrichtengenehmigung](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/common-message-approval-scenarios)
 
 ## Komponenten von Nachrichtenflussregeln
 
@@ -131,14 +131,14 @@ Die folgende Tabelle beschreibt die Regeleigenschaften, die in Nachrichtenflussr
 <td><p>Gibt die Reihenfolge an, in der die Regeln auf Nachrichten angewendet werden. Die Standardpriorität basiert auf dem Erstellungsdatum der Regel (ältere Regeln haben eine höhere Priorität als neuere Regeln, und Regeln mit höherer Priorität werden vor Regeln mit niedrigerer Priorität verarbeitet).</p>
 <p>Sie ändern die Regelpriorität in der Exchange-Verwaltungskonsole, indem Sie die Regel in der Liste der Regeln nach oben oder unten verschieben. In der PowerShell legen Sie die Prioritätsnummer fest (0 ist die höchste Priorität).</p>
 <p>Wenn Sie z. B. eine Regel verwenden, um Nachrichten abzulehnen, die eine Kreditkartennummer enthalten, und eine andere Regel, die eine Genehmigung erfordert, sollte die Ablehnungsregel zuerst angewendet werden, und es sollten keine anderen Regeln mehr angewendet werden.</p>
-<p>Weitere Informationen finden Sie unter <a href="manage-mail-flow-rules-exchange-2013-help.md">Festlegen der Priorität von Nachrichtenflussregeln</a>.</p></td>
+<p>Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules">Festlegen der Priorität von Nachrichtenflussregeln</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Mode</strong></p></td>
 <td><p><em>Mode</em></p></td>
 <td><p>Sie können angeben, ob die Regel sofort mit der Verarbeitung von Nachrichten beginnen soll oder ob Sie Regeln ohne Auswirkungen auf die Übermittlung der Nachricht (mit oder ohne Verhinderung von Datenverlust oder DLP-Richtlinientipps) testen möchten.</p>
 <p>Richtlinientipps zeigen dem Ersteller einer Nachricht in Outlook oder Outlook im Web einen Hinweis mit Informationen über mögliche Richtlinienverletzungen an. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/policy-tips">Richtlinientipps</a>.</p>
-<p>Weitere Informationen zu den Modi finden Sie unter <a href="test-a-mail-flow-rule-exchange-2013-help.md">Testen einer Nachrichtenflussregel</a>.</p></td>
+<p>Weitere Informationen zu den Modi finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules">Testen einer Nachrichtenflussregel</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Diese Regel an folgendem Datum aktivieren</strong></p>
@@ -259,7 +259,7 @@ Nachrichtenflussregeln, die Sie auf Postfachservern erstellen und konfigurieren,
 
   - Jeder Postfachserver speichert erweiterte Verteilergruppen zwischen, um wiederholte Active Directory-Abfragen zum Ermitteln der Zugehörigkeit zu einer Gruppe zu vermeiden. Standardmäßig laufen Einträge im erweiterten Gruppencache nach vier Stunden ab. Änderungen an der Gruppenmitgliedschaft können daher erst auf Nachrichtenflussregeln angewendet werden, wenn der erweiterte Gruppencache aktualisiert wurde. Um eine sofortige Aktualisierung des Caches auf einem Postfachserver zu erzwingen, starten Sie den Microsoft Exchange-Transportdienst neu. Sie müssen den Dienst auf jedem Postfachserver, auf dem der Cache zwingend aktualisiert werden soll, neu starten.
 
-Nachrichtenflussregeln, die Sie auf Edge-Transport-Servern erstellen und konfigurieren, werden in der lokalen Instanz von AD LDS auf dem Server gespeichert. Auf Edge-Transport-Servern erfolgt keine automatische Replikation von Nachrichtenflussregeln. Regeln auf dem Edge-Transport-Server gelten nur für Nachrichten, die über den lokalen Server fließen. Wenn Sie denselben Satz von Nachrichtenflussregeln auf mehreren Edge-Transport-Servern anwenden müssen, können Sie die Edge-Transport-Server-Konfiguration klonen oder die Nachrichtenflussregeln exportieren und dann importieren. Weitere Informationen finden Sie unter [Geklonte Edge-Transport-Server-Konfiguration](edge-transport-server-cloned-configuration-exchange-2013-help.md) und unter [Import or export a mail flow rule collection](manage-mail-flow-rules-exchange-2013-help.md).
+Nachrichtenflussregeln, die Sie auf Edge-Transport-Servern erstellen und konfigurieren, werden in der lokalen Instanz von AD LDS auf dem Server gespeichert. Auf Edge-Transport-Servern erfolgt keine automatische Replikation von Nachrichtenflussregeln. Regeln auf dem Edge-Transport-Server gelten nur für Nachrichten, die über den lokalen Server fließen. Wenn Sie denselben Satz von Nachrichtenflussregeln auf mehreren Edge-Transport-Servern anwenden müssen, können Sie die Edge-Transport-Server-Konfiguration klonen oder die Nachrichtenflussregeln exportieren und dann importieren. Weitere Informationen finden Sie unter [Geklonte Edge-Transport-Server-Konfiguration](edge-transport-server-cloned-configuration-exchange-2013-help.md) und unter [Import or export a mail flow rule collection](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 Immer, wenn der Transportdienst auf einem Postfachserver oder Edge-Transport-Server eine geänderte Nachrichtenflussregel erkennt, wird ein Ereignis im Anwendungsprotokoll der Ereignisanzeige protokolliert (Ereignis-ID 4002 auf Postfachservern und Ereignis-ID 16028 auf Edge-Transport-Servern).
 
@@ -285,7 +285,7 @@ Es gibt zwei gängige Typen gemischter Umgebungen in Exchange 2013:
 
 ## Weitere Informationen
 
-[Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md)
+[Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
 
 [Transportregelbedingungen (Prädikate)](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md)
 

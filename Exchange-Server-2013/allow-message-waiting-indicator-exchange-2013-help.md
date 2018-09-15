@@ -222,7 +222,7 @@ Weitere Informationen zum Verwalten von MWI-Einstellungen in einer UM-Postfachri
 
   - [Aktivieren der MWI-Funktion (Message Waiting Indicator) für Benutzer](https://technet.microsoft.com/de-de/library/Dd335216(v=EXCHG.150))
 
-  - [Deaktivieren der Nachricht wartet Indicator (MWI) für Benutzer](disable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md)
+  - [Deaktivieren der Nachricht wartet Indicator (MWI) für Benutzer](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-mwi-for-users)
 
   - [Set-UMMailboxPolicy](https://technet.microsoft.com/de-de/library/bb124903\(v=exchg.150\))
 
@@ -260,7 +260,7 @@ Sie können das EAC oder das Cmdlet **Set-UMMailboxPolicy** in der Shell verwend
 
 Weitere Informationen zum Verwalten von MWI-Einstellungen finden Sie in den folgenden Themen:
 
-  - [Verwalten eines UM-IP-Gateways](manage-a-um-ip-gateway-exchange-2013-help.md)
+  - [Verwalten eines UM-IP-Gateways](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-ip-gateway)
 
   - [MWI (Message Waiting Indicator) für ein UM-IP-Gateway unterstützen](https://technet.microsoft.com/de-de/library/Dd297995(v=EXCHG.150))
 
@@ -307,7 +307,7 @@ In der folgenden Tabelle sehen Sie die Parameter für ein UM-Postfach, das für 
 
 Weitere Informationen zum Verwalten von Einstellungen von Benachrichtigungen per Textnachricht im Benutzerpostfach finden Sie in den folgenden Themen:
 
-  - [Verwalten von Voicemail-Einstellungen für einen Benutzer](manage-voice-mail-settings-for-a-user-exchange-2013-help.md)
+  - [Verwalten von Voicemail-Einstellungen für einen Benutzer](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-voice-mail-settings)
 
   - [Set-UMMailbox](https://technet.microsoft.com/de-de/library/bb124893\(v=exchg.150\))
 

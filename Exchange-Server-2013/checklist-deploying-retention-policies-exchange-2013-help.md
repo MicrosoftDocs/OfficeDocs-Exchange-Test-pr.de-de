@@ -73,7 +73,7 @@ Verwenden Sie diese Prüfliste zum Bereitstellen von Aufbewahrungsrichtlinien in
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Anwenden eine Aufbewahrungsrichtlinie auf ein einzelnes Postfach zu Testzwecken.</p></td>
-<td><p><a href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Anwenden einer Aufbewahrungsrichtlinie auf Postfächer</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Anwenden einer Aufbewahrungsrichtlinie auf Postfächer</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>
@@ -88,7 +88,7 @@ Verwenden Sie diese Prüfliste zum Bereitstellen von Aufbewahrungsrichtlinien in
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Anwenden der Aufbewahrungsrichtlinie auf zusätzliche Postfächer.</p></td>
-<td><p><a href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Anwenden einer Aufbewahrungsrichtlinie auf Postfächer</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Anwenden einer Aufbewahrungsrichtlinie auf Postfächer</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>

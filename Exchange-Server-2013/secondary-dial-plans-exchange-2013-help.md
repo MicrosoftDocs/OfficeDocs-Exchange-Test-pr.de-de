@@ -110,11 +110,11 @@ Wenn Microsoft Lync Server für Enterprise Voice verwendet wird, kann Unified Me
 
 Weitere Informationen zum Hinzufügen, Entfernen und Ändern von Durchwahlnummern finden Sie unter einem der folgenden Themen:
 
-  - [Ändern einer Durchwahlnummer](change-an-extension-number-exchange-2013-help.md)
+  - [Ändern einer Durchwahlnummer](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-extension-number)
 
   - [Hinzufügen einer Durchwahlnummer](https://technet.microsoft.com/de-de/library/Dd335124(v=EXCHG.150))
 
-  - [Entfernen einer Durchwahlnummer](remove-an-extension-number-exchange-2013-help.md)
+  - [Entfernen einer Durchwahlnummer](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-extension-number)
 
 Wenn Sie SIP-Adressen oder E.164-Nummern für UM-aktivierte Benutzer ändern müssen:
 
@@ -128,7 +128,7 @@ Wenn Sie SIP-Adressen oder E.164-Nummern für UM-aktivierte Benutzer ändern mü
 
   - [Ändern Sie eine e. 164-Nummer](https://technet.microsoft.com/de-de/library/Dd335162(v=EXCHG.150))
 
-  - [Entfernen einer e. 164-Nummer](remove-an-e-164-number-exchange-2013-help.md)
+  - [Entfernen einer e. 164-Nummer](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-e-164-number)
 
 ## Anrufannahme
 

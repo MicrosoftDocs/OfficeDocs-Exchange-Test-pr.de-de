@@ -255,7 +255,7 @@ In der folgenden Tabelle sind Links zu Themen aufgeführt, in denen Sie weitere 
 <td><p>Informationen zu UM-Sprachpaketen und -Spracheinstellungen.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="telephone-system-integration-with-um-exchange-2013-help.md">Telefonsystemintegration mit UM</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephone-system-integration-with-um">Telefonsystemintegration mit UM</a></p></td>
 <td><p>Informationen zur Integration Ihres Telefonienetzwerks in UM.</p></td>
 </tr>
 <tr class="even">

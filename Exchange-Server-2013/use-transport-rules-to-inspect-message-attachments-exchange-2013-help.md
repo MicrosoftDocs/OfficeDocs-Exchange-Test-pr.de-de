@@ -35,11 +35,11 @@ Exchange-Administratoren können Transportregeln über **Exchange Admin Center**
 
 ![Dialogfeld zur Auswahl anlagenbezogener Regeln](images/JJ674307.2ae4a179-bfd2-4a0e-abe1-53ed4e9e3368(EXCHG.150).jpg "Dialogfeld zur Auswahl anlagenbezogener Regeln")
 
-Weitere Informationen zu Transportregeln, einschließlich sämtlicher zur Wahl stehender Bedingungen und Aktionen, finden Sie unter [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md). Exchange Online Protection (EOP)-Kunden und Kunden mit einer Hybridbereitstellung können von den unter [Bewährte Methoden für das Konfigurieren von EOP](https://technet.microsoft.com/de-de/library/jj723164\(v=exchg.150\)) angegebenen Best Practices für Transportregeln profitieren. Wenn Sie bereit sind, mit der Erstellung von Regeln zu beginnen, finden Sie unter [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md) entsprechende Informationen.
+Weitere Informationen zu Transportregeln, einschließlich sämtlicher zur Wahl stehender Bedingungen und Aktionen, finden Sie unter [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md). Exchange Online Protection (EOP)-Kunden und Kunden mit einer Hybridbereitstellung können von den unter [Bewährte Methoden für das Konfigurieren von EOP](https://technet.microsoft.com/de-de/library/jj723164\(v=exchg.150\)) angegebenen Best Practices für Transportregeln profitieren. Wenn Sie bereit sind, mit der Erstellung von Regeln zu beginnen, finden Sie unter [Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) entsprechende Informationen.
 
 ## Überprüfen des Anlageninhalts
 
-Sie können die Transportregelbedingungen in der folgenden Tabelle verwenden, um den Inhalt von Nachrichtenanlagen zu überprüfen. Bei diesen Bedingungen werden nur die ersten 150 KB einer Anlage überprüft. Um diese Bedingungen beim Überprüfen von Nachrichten nutzen zu können, müssen Sie sie zu einer Transportregel hinzufügen. Weitere Informationen zur Erstellung oder Änderung von Regeln finden Sie unter [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md).
+Sie können die Transportregelbedingungen in der folgenden Tabelle verwenden, um den Inhalt von Nachrichtenanlagen zu überprüfen. Bei diesen Bedingungen werden nur die ersten 150 KB einer Anlage überprüft. Um diese Bedingungen beim Überprüfen von Nachrichten nutzen zu können, müssen Sie sie zu einer Transportregel hinzufügen. Weitere Informationen zur Erstellung oder Änderung von Regeln finden Sie unter [Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 
 <table>
@@ -158,7 +158,7 @@ In der folgenden Tabelle werden die Dateitypen aufgelistet, die von Transportreg
 
 ## Überprüfen der Dateieigenschaften von Anlagen
 
-Die folgende Transportregelbedingung überprüft die Eigenschaften einer an eine Nachricht angehängten Datei. Um diese Bedingungen beim Überprüfen von Nachrichten nutzen zu können, müssen Sie sie zu einer Transportregel hinzufügen. Eine Liste der unterstützten Dateitypen mit ausführbarem Code, die im Kontext von Transportregeln überprüft werden können, finden Sie hier. Weitere Informationen zum Erstellen und Ändern von Regeln finden Sie unter [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md).
+Die folgende Transportregelbedingung überprüft die Eigenschaften einer an eine Nachricht angehängten Datei. Um diese Bedingungen beim Überprüfen von Nachrichten nutzen zu können, müssen Sie sie zu einer Transportregel hinzufügen. Eine Liste der unterstützten Dateitypen mit ausführbarem Code, die im Kontext von Transportregeln überprüft werden können, finden Sie hier. Weitere Informationen zum Erstellen und Ändern von Regeln finden Sie unter [Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 
 <table>

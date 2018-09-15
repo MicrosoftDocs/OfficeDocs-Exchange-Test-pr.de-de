@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-16_
 
 In Microsoft Exchange Server 2013 können Sie die Verwaltung von Informationsrechten (Information Rights Management, IRM) so konfigurieren, dass Exchange-Suche IRM-geschützte Nachrichten indizieren kann.
 
-Wenn Mitglieder der Rollengruppe "Discoveryverwaltung" eine [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md)-Suche ausführen, werden IRM-geschützte Nachrichten in den Suchergebnissen zurückgegeben und in das Discoverypostfach kopiert, das in der Suche angegeben ist. Mitglieder der Rollengruppe "Discoveryverwaltung" können außerdem mit Outlook Web App auf die IRM-geschützten Nachrichten zugreifen, die als Ergebnis der Discoverysuche in das Discoverypostfach kopiert wurden.
+Wenn Mitglieder der Rollengruppe "Discoveryverwaltung" eine [Compliance-eDiscovery](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)-Suche ausführen, werden IRM-geschützte Nachrichten in den Suchergebnissen zurückgegeben und in das Discoverypostfach kopiert, das in der Suche angegeben ist. Mitglieder der Rollengruppe "Discoveryverwaltung" können außerdem mit Outlook Web App auf die IRM-geschützten Nachrichten zugreifen, die als Ergebnis der Discoverysuche in das Discoverypostfach kopiert wurden.
 
 
 > [!NOTE]
