@@ -59,7 +59,7 @@ Sie können die DLP-Erkennungsfunktionen in herkömmliche Transportregeln einbin
 
   -  [Nachrichtenflussregeln (Transportregeln) in Exchange Online](https://technet.microsoft.com/de-de/library/jj919238\(v=exchg.150\)) (Exchange Online)
 
-  -  [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md)
+  -  [Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
     
   -  [Richtlinien- und Richtlinientreue-Cmdlets](https://technet.microsoft.com/de-de/library/dd298082\(v=exchg.150\))
 

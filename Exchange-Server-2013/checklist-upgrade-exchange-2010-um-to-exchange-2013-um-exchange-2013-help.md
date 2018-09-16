@@ -23,7 +23,7 @@ Bevor Sie mit dieser Prüfliste arbeiten, machen Sie sich mit den Konzepten in f
 
   - [Planen von Unified Messaging](planning-for-unified-messaging-exchange-2013-help.md)
 
-  - [Telefonsystemintegration mit UM](telephone-system-integration-with-um-exchange-2013-help.md)
+  - [Telefonsystemintegration mit UM](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephone-system-integration-with-um)
 
   - [Verbinden Ihres Voicemailsystems mit Ihrem Telefonnetz](https://technet.microsoft.com/de-de/library/JJ673554(v=EXCHG.150))
 
@@ -118,7 +118,7 @@ Weitere Informationen zur schrittweisen Anleitung beim Upgrade von Exchange 2007
 <td><p></p></td>
 <td><p>Erstellen oder konfigurieren Sie UM-IP-Gateways.</p></td>
 <td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway">Erstellen eines UM-IP-Gateways</a></p>
-<p><a href="manage-a-um-ip-gateway-exchange-2013-help.md">Verwalten eines UM-IP-Gateways</a></p></td>
+<p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-ip-gateway">Verwalten eines UM-IP-Gateways</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
@@ -129,7 +129,7 @@ Weitere Informationen zur schrittweisen Anleitung beim Upgrade von Exchange 2007
 <td><p></p></td>
 <td><p>Erstellen oder konfigurieren Sie automatische UM-Telefonzentralen.</p></td>
 <td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant">Erstellen einer automatischen UM-Telefonzentrale</a></p>
-<p><a href="manage-a-um-auto-attendant-exchange-2013-help.md">Verwalten einer automatischen UM-Telefonzentrale</a></p></td>
+<p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/manage-um-auto-attendant">Verwalten einer automatischen UM-Telefonzentrale</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
@@ -146,7 +146,7 @@ Weitere Informationen zur schrittweisen Anleitung beim Upgrade von Exchange 2007
 <td><p></p></td>
 <td><p>Aktivieren Sie neue Benutzer für UM, oder konfigurieren Sie Einstellungen für einen vorhandenen UM-aktivierten Benutzer.</p></td>
 <td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail">Aktivieren eines Benutzers für Voicemail</a></p>
-<p><a href="manage-voice-mail-settings-for-a-user-exchange-2013-help.md">Verwalten von Voicemail-Einstellungen für einen Benutzer</a></p></td>
+<p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-voice-mail-settings">Verwalten von Voicemail-Einstellungen für einen Benutzer</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>

@@ -21,7 +21,7 @@ _**Letztes Änderungsdatum des Themas:** 2017-08-02_
 
 Verwenden Sie eine oder mehrere der unten aufgeführten Vorgehensweisen, um Ihre Infrastruktur aus öffentlichen Ordnern zum Laufen zu bringen und um andere notwendige Aufgaben zum Verwalten von öffentlichen Ordnern durchzuführen.
 
-[Einrichten öffentlicher Ordner in einer neuen Organisation](set-up-public-folders-in-a-new-organization-exchange-2013-help.md)
+[Einrichten öffentlicher Ordner in einer neuen Organisation](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-public-folders)
 
 [Konfigurieren lokaler öffentlicher Ordner aus Vorversionen für eine Hybridbereitstellung](https://technet.microsoft.com/de-de/library/Dn249373(v=EXCHG.150))
 
@@ -41,13 +41,13 @@ Verwenden Sie eine oder mehrere der unten aufgeführten Vorgehensweisen, um Ihre
 
 [Erstellen eines öffentlichen Ordners](https://technet.microsoft.com/de-de/library/Bb691104(v=EXCHG.150))
 
-[E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md)
+[E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder)
 
 [Aktualisieren der Öffentliche Ordner-Hierarchie](https://technet.microsoft.com/de-de/library/JJ945055(v=EXCHG.150))
 
 [Entfernen eines öffentlichen Ordners](https://technet.microsoft.com/de-de/library/Aa997202(v=EXCHG.150))
 
-[Verwenden bevorzugter öffentlicher Ordner in Outlook im Web](use-favorite-public-folders-in-outlook-on-the-web-exchange-2013-help.md)
+[Verwenden bevorzugter öffentlicher Ordner in Outlook im Web](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/use-favorite-public-folders)
 
 [Verschieben eines Postfachs für öffentliche Ordner in eine andere Postfachdatenbank](move-a-public-folder-mailbox-to-a-different-mailbox-database-exchange-2013-help.md)
 

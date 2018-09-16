@@ -31,9 +31,9 @@ Nach der Bereitstellung auszuführende Aufgaben für Unified Messaging
 
 Bevor Sie Unified Messaging bereitstellen, sollten Sie sich mit den Konzepten in folgenden Themen vertraut machen:
 
-  - [UM-Wählpläne](um-dial-plans-exchange-2013-help.md)
+  - [UM-Wählpläne](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans)
 
-  - [UM-IP-Gateways](um-ip-gateways-exchange-2013-help.md)
+  - [UM-IP-Gateways](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways)
 
   - [UM-Dienste](um-services-exchange-2013-help.md)
 
@@ -304,7 +304,7 @@ Führen Sie folgende Aufgaben aus, um mithilfe von MTLS den SIP- und RTP-Datenve
 
   - Konfigurieren Sie den Startmodus auf den Clientzugriffs- und Postfachservern. Ausführliche Informationen finden Sie unter [Konfigurieren des Startmodus auf einem Postfachserver](configure-the-startup-mode-on-a-mailbox-server-exchange-2013-help.md) und [Konfigurieren des Startmodus auf einem Clientzugriffsserver](configure-the-startup-mode-on-a-client-access-server-exchange-2013-help.md).
 
-  - Konfigurieren Sie die UM-IP-Gateways für die Überwachung von Port 5061. Weitere Informationen finden Sie unter [Konfigurieren Sie den Überwachungsport](configure-the-listening-port-exchange-2013-help.md).
+  - Konfigurieren Sie die UM-IP-Gateways für die Überwachung von Port 5061. Weitere Informationen finden Sie unter [Konfigurieren Sie den Überwachungsport](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-listening-port).
 
 ## PIN-Richtlinien für UM-aktivierte Benutzer
 
@@ -316,7 +316,7 @@ Nachdem Sie Ihre Server und die benötigten UM-Komponenten bereitgestellt haben,
 
   - [Einrichten von Outlook Voice Access](https://technet.microsoft.com/de-de/library/Dd298010(v=EXCHG.150))
 
-  - [Zulassen, dass Voice Mailbenutzer Anrufe weitergeleitet werden sollen](allow-voice-mail-users-to-forward-calls-exchange-2013-help.md)
+  - [Zulassen, dass Voice Mailbenutzer Anrufe weitergeleitet werden sollen](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-voice-mail-users-to-forward-calls)
 
   - [Zulassen der Anzeige von Voicemailtranskriptionen für Benutzer](https://technet.microsoft.com/de-de/library/Ff629381(v=EXCHG.150))
 

@@ -29,7 +29,7 @@ In Microsoft Exchange Server 2013 können Sie die Compliance-eDiscovery zum Dur
 
   - Geschätzte Zeit bis zum Abschließen des Vorgangs: 2-5 Minuten.
 
-  - Wenn Sie eine Compliance-eDiscovery-Suche entfernen möchten, für die ein Compliance-Archiv aktiviert wurde, müssen Sie zuerst das Compliance-Archiv aus der Suche entfernen. Weitere Informationen finden Sie unter [Erstellen oder Entfernen eines Compliance-Archivs](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+  - Wenn Sie eine Compliance-eDiscovery-Suche entfernen möchten, für die ein Compliance-Archiv aktiviert wurde, müssen Sie zuerst das Compliance-Archiv aus der Suche entfernen. Weitere Informationen finden Sie unter [Erstellen oder Entfernen eines Compliance-Archivs](https://docs.microsoft.com/de-de/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "Compliance-eDiscovery" im Thema [Berechtigungen für Messagingrichtlinien und -kompatibilität](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 

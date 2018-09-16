@@ -27,7 +27,7 @@ Nachdem Sie eine Compliance-eDiscovery-Suche erstellt haben, können Sie die Suc
 
   - Eine eDiscovery-Suche muss mithilfe der EAC oder der Shell erstellt werden, bevor Sie die Suchergebnisse kopieren können. Weitere Informationen finden Sie unter [Erstellen einer Compliance-eDiscovery-Suche](https://technet.microsoft.com/de-de/library/Dd353189(v=EXCHG.150)).
 
-  - Das Exchange 2013-Setup erstellt ein Discoverypostfach namens **Discoverysuchpostfach**, um Suchergebnisse zu kopieren. Das Postfach für die Discoverysuche wird standardmäßig in Exchange Online erstellt. Sie können zusätzliche Discoverypostfächer erstellen. Weitere Informationen finden Sie unter [Erstellen eines Discoverypostfachs](create-a-discovery-mailbox-exchange-2013-help.md).
+  - Das Exchange 2013-Setup erstellt ein Discoverypostfach namens **Discoverysuchpostfach**, um Suchergebnisse zu kopieren. Das Postfach für die Discoverysuche wird standardmäßig in Exchange Online erstellt. Sie können zusätzliche Discoverypostfächer erstellen. Weitere Informationen finden Sie unter [Erstellen eines Discoverypostfachs](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/create-a-discovery-mailbox).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

@@ -23,5 +23,5 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-11_
 
 [Ändern der Einstellungen einer Adressbuchrichtlinie](https://technet.microsoft.com/de-de/library/Hh529941(v=EXCHG.150))
 
-[Entfernen einer Adressbuchrichtlinie](remove-an-address-book-policy-exchange-2013-help.md)
+[Entfernen einer Adressbuchrichtlinie](https://docs.microsoft.com/de-de/exchange/address-books/address-book-policies/remove-an-address-book-policy)
 

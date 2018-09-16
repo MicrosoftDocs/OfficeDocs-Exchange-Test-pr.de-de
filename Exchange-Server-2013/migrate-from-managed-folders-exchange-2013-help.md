@@ -322,7 +322,7 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 
 > [!NOTE]
-> Über die Exchange-Verwaltungskonsole können Sie Benutzern eine Aufbewahrungsrichtlinie zuordnen. Weitere Informationen finden Sie unter <A href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Anwenden einer Aufbewahrungsrichtlinie auf Postfächer</A>.
+> Über die Exchange-Verwaltungskonsole können Sie Benutzern eine Aufbewahrungsrichtlinie zuordnen. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Anwenden einer Aufbewahrungsrichtlinie auf Postfächer</A>.
 
 
 

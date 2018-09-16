@@ -29,7 +29,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-11-01_
 
 [Aktivieren oder Deaktivieren der Transportentschlüsselung](enable-or-disable-transport-decryption-exchange-2013-help.md)
 
-[Konfigurieren von IRM für Exchange-Suche und Compliance-eDiscovery](configure-irm-for-exchange-search-and-in-place-ediscovery-exchange-2013-help.md)
+[Konfigurieren von IRM für Exchange-Suche und Compliance-eDiscovery](configure-irm-for-exchange-search-and-https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
 [Aktivieren oder Deaktivieren von Journalberichtentschlüsselung](enable-or-disable-journal-report-decryption-exchange-2013-help.md)
 

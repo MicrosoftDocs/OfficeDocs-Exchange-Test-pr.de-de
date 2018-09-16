@@ -107,7 +107,7 @@ Weitere Informationen zur Installation von Exchange 2013 finden Sie unter [Planu
     
     Ab Exchange 2013 CU6 muss dem Benutzer mit dem Status **Anonym** zumindest die Berechtigung **Objekte erstellen** erteilt werden, wenn Sie zulassen möchten, dass externe Absender E-Mails an E-Mail-aktivierte öffentliche Ordner senden können. Wenn Sie E-Mail-aktivierte öffentliche Ordner eingerichtet und diese Berechtigung nicht erteilt haben, erhalten externe Absender eine Zustellungsfehlerbenachrichtung, und die Nachrichten werden dem E-Mail-aktivierten öffentlichen Ordner nicht zugestellt.
     
-    Sie können die Shell oder Outlook verwenden, um die Berechtigungen für den anonymen Benutzer festzulegen. Weitere Informationen zum Festlegen der Berechtigungen für anonyme Benutzer finden Sie unter [E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+    Sie können die Shell oder Outlook verwenden, um die Berechtigungen für den anonymen Benutzer festzulegen. Weitere Informationen zum Festlegen der Berechtigungen für anonyme Benutzer finden Sie unter [E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
   - Die maximale Anzahl von öffentlichen Ordnern, die von Exchange-Legacyservern zu Exchange 2013 migriert werden können, beträgt 500.000. Weitere Informationen zur Migration öffentlicher Ordner finden Sie unter [Verwenden der Batchmigration zum Migrieren von öffentlichen Ordnern zu Exchange 2013 aus vorherigen Versionen](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md).
 

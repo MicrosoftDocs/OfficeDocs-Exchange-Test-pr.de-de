@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-16_
 
 Ein Offlineadressbuch (OAB) ist die Kopie einer Adresslistensammlung, die heruntergeladen wurde, damit ein Benutzer von Microsoft Outlook auf das Adressbuch zugreifen kann, wenn keine Verbindung zum Server besteht. Microsoft Exchange generiert die neuen OAB-Dateien, komprimiert die Dateien und speichert die Dateien dann auf einer lokalen Freigabe. Sie können entscheiden, welche Adresslisten Benutzern zur Verfügung gestellt werden, die offline arbeiten, und auch die Methode konfigurieren, mit der die Adressbücher verteilt werden.
 
-Weitere Informationen zu Adresslisten finden Sie unter [Adresslisten](address-lists-exchange-2013-help.md).
+Weitere Informationen zu Adresslisten finden Sie unter [Adresslisten](https://docs.microsoft.com/de-de/exchange/address-books/address-lists/address-lists).
 
 
 > [!IMPORTANT]
@@ -27,7 +27,7 @@ Weitere Informationen zu Adresslisten finden Sie unter [Adresslisten](address-li
 
 
 
-Möchten Sie wissen, welche Verwaltungsaufgaben es im Zusammenhang mit Offlineadressbüchern gibt? Weitere Informationen finden Sie unter [Verfahren für Offlineadressbücher](offline-address-book-procedures-exchange-2013-help.md).
+Möchten Sie wissen, welche Verwaltungsaufgaben es im Zusammenhang mit Offlineadressbüchern gibt? Weitere Informationen finden Sie unter [Verfahren für Offlineadressbücher](https://docs.microsoft.com/de-de/exchange/address-books/offline-address-books/offline-address-book-procedures).
 
 **Inhalt**
 
@@ -75,7 +75,7 @@ Die ordnungsgemäße Funktion der webbasierten Verteilung ist von den folgenden 
 
   - **OAB-Verteilung**   Wenn ein Client die OAB-Verteilungsanforderung auslöst, wird diese Anforderung durch einen Clientzugriffsserver geleitet. Der Clientzugriffsserver leitet die Anforderung an den Postfachserver weiter, der die OAB-Dateien hostet. Die OAB-Dateien werden anschließend direkt vom Postfachserver an den Client verteilt.
 
-  - **Virtuelles OAB-Verzeichnis**   Das virtuelle OAB-Verzeichnis ist der Verteilungspunkt, der von der webbasierten Verteilungsmethode verwendet wird. Bei der Installation von Exchange wird standardmäßig ein neues virtuelles Verzeichnis mit dem Namen **OAB** in der internen Standardwebsite von IIS (Internetinformationsdienste) erstellt. Wenn clientseitige Benutzer außerhalb der Firewall Ihrer Organisation eine Verbindung mit Outlook herstellen, können Sie eine externe Website hinzufügen. Alternativ dazu wird ein neues virtuelles Verzeichnis mit dem Namen "OAB" auf der IIS-Standardwebsite auf dem lokalen Exchange-Clientzugriffsserver erstellt, wenn Sie das Cmdlet **New-OABVirtualDirectory** in der Shell ausführen. Informationen finden Sie unter [Erstellen eines virtuellen Offlineadressbuch-Verzeichnisses](create-an-offline-address-book-virtual-directory-exchange-2013-help.md).
+  - **Virtuelles OAB-Verzeichnis**   Das virtuelle OAB-Verzeichnis ist der Verteilungspunkt, der von der webbasierten Verteilungsmethode verwendet wird. Bei der Installation von Exchange wird standardmäßig ein neues virtuelles Verzeichnis mit dem Namen **OAB** in der internen Standardwebsite von IIS (Internetinformationsdienste) erstellt. Wenn clientseitige Benutzer außerhalb der Firewall Ihrer Organisation eine Verbindung mit Outlook herstellen, können Sie eine externe Website hinzufügen. Alternativ dazu wird ein neues virtuelles Verzeichnis mit dem Namen "OAB" auf der IIS-Standardwebsite auf dem lokalen Exchange-Clientzugriffsserver erstellt, wenn Sie das Cmdlet **New-OABVirtualDirectory** in der Shell ausführen. Informationen finden Sie unter [Erstellen eines virtuellen Offlineadressbuch-Verzeichnisses](https://docs.microsoft.com/de-de/exchange/address-books/offline-address-books/create-virtual-directory).
 
   - **AutoErmittlungsdienst**   Dies ist eine Funktion, die in Outlook 2013, Outlook 2010 oder Outlook 2007 sowie einigen mobilen Geräten zur Verfügung steht und Clients automatisch für den Zugriff auf Exchange konfiguriert. Der Dienst wird auf einem Clientzugriffsserver ausgeführt und gibt die richtige OAB URL für eine bestimmte Clientverbindung zurück.
 

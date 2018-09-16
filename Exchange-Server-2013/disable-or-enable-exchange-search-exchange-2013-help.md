@@ -21,7 +21,7 @@ Standardmäßig ist die Exchange-Suche für alle neuen Postfachdatenbanken aktiv
 
 
 > [!WARNING]
-> Wenn Sie die Exchange-Suche deaktivieren, wird die Funktion und Leistung der Volltextsuchvorgänge beeinträchtigt, die von Ihren Benutzern mit Outlook im Onlinemodus oder auf Windows Mobile-Geräten ausgeführt werden.<BR><A href="in-place-ediscovery-exchange-2013-help.md">Compliance-eDiscovery</A> stützt sich ebenfalls auf die Exchange-Suche. Wenn Sie die Exchange-Suche für eine Postfachdatenbank oder einen Postfachserver deaktivieren, gibt die Compliance-eDiscovery keine Nachrichten von der Datenbank oder vom Server zurück.
+> Wenn Sie die Exchange-Suche deaktivieren, wird die Funktion und Leistung der Volltextsuchvorgänge beeinträchtigt, die von Ihren Benutzern mit Outlook im Onlinemodus oder auf Windows Mobile-Geräten ausgeführt werden.<BR><A href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">Compliance-eDiscovery</A> stützt sich ebenfalls auf die Exchange-Suche. Wenn Sie die Exchange-Suche für eine Postfachdatenbank oder einen Postfachserver deaktivieren, gibt die Compliance-eDiscovery keine Nachrichten von der Datenbank oder vom Server zurück.
 
 
 

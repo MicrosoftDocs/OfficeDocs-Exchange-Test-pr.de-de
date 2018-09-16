@@ -135,7 +135,7 @@ In einer PBX-Umgebung dieser Art können auch erweiterte Funktionen bereitgestel
 
 In einer Telefonieumgebung mit mindestens einer analogen oder digitalen PBX-Anlage ist ein VoIP-Gateway zwischen der PBX-Anlage und den Exchange 2013-Clientzugriffs- und Postfachservern erforderlich, um die leitungsvermittelten Protokolle eines Telefonienetzwerks in die IP-basierten Protokolle eines Datennetzwerks zu konvertieren. Weitere Informationen zu VoIP-Gateways finden Sie unter den folgenden Themen:
 
-  - [UM-IP-Gateways](um-ip-gateways-exchange-2013-help.md)
+  - [UM-IP-Gateways](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways)
 
   - [Anschließen eines VoIP-Gateways zur Kommunikation mit einer Nebenstellenanlage](connect-a-voip-gateway-to-communicate-with-a-pbx-exchange-2013-help.md)
 

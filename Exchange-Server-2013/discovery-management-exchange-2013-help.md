@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Discoveryverwaltung Die Verwaltungsrollengruppe ist eine von mehreren integrierten Rollengruppen, aus denen das Modell der rollenbasierten Zugriffssteuerungsberechtigungen (Role Based Access Control, RBAC) in Microsoft Exchange Server 2013 besteht. Rollengruppen wird mindestens eine Verwaltungsrolle zugewiesen, welche die zum Ausführen bestimmter Aufgaben erforderlichen Berechtigungen enthält. Den Mitgliedern einer Rollengruppe wird der Zugriff auf die Verwaltungsrollen erteilt, die der Rollengruppe zugewiesen sind. Weitere Informationen zu Rollengruppen finden Sie unter [Grundlegendes zu Verwaltungsrollengruppen](understanding-management-role-groups-exchange-2013-help.md).
 
-Administratoren oder Benutzer, die Mitglied der Rollengruppe Discoveryverwaltung sind, können Postfächer in der Exchange-Organisation nach Daten durchsuchen, die bestimmte Kriterien erfüllen, und außerdem Beweissicherungsverfahren für Postfächer konfigurieren. Weitere Informationen finden Sie unter [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md).
+Administratoren oder Benutzer, die Mitglied der Rollengruppe Discoveryverwaltung sind, können Postfächer in der Exchange-Organisation nach Daten durchsuchen, die bestimmte Kriterien erfüllen, und außerdem Beweissicherungsverfahren für Postfächer konfigurieren. Weitere Informationen finden Sie unter [Compliance-eDiscovery](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
 
 
 > [!IMPORTANT]

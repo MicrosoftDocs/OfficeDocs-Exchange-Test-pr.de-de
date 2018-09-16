@@ -336,7 +336,7 @@ In der folgenden Tabelle werden die Felder beschrieben, die in einem Überwachun
 
   - **Administratorzugriff auf Postfächer**   Nur in den folgenden Szenarien wird ein Postfachzugriff als Administratorzugriff erachtet:
     
-      - [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md) wird zum Durchsuchen eines Postfachs verwendet.
+      - [Compliance-eDiscovery](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) wird zum Durchsuchen eines Postfachs verwendet.
     
       - Das Cmdlet [New-MailboxExportRequest](https://technet.microsoft.com/de-de/library/ff607299\(v=exchg.150\)) wird zum Exportieren eines Postfachs verwendet.
     

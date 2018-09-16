@@ -23,7 +23,7 @@ Bei der Gruppenmetrik handelt es sich um eine Sammlung der folgenden Information
 
   - Anzahl der Mitglieder außerhalb Ihrer Organisation
 
-Gruppenmetrikdaten werden verwendet, um E-Mail-Infos in Microsoft Exchange Server 2013 zu unterstützen. E-Mail-Infos sind informative Meldungen, die dem Absender beim Verfassen einer Nachricht angezeigt werden. Weitere Informationen zu E-Mail-Infos sowie eine vollständige Liste aller in Exchange 2013 verfügbaren E-Mail-Infos finden Sie unter [MailTips](mailtips-exchange-2013-help.md).
+Gruppenmetrikdaten werden verwendet, um E-Mail-Infos in Microsoft Exchange Server 2013 zu unterstützen. E-Mail-Infos sind informative Meldungen, die dem Absender beim Verfassen einer Nachricht angezeigt werden. Weitere Informationen zu E-Mail-Infos sowie eine vollständige Liste aller in Exchange 2013 verfügbaren E-Mail-Infos finden Sie unter [MailTips](https://docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips).
 
 Gruppenmetrikdaten werden von den folgenden E-Mail-Infos verwendet:
 

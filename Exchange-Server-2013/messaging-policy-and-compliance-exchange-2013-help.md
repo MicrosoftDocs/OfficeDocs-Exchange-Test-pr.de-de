@@ -61,12 +61,12 @@ Die folgende Tabelle bietet einen Überblick über die Funktionen für Messaging
 <tr class="odd">
 <td><p>Compliance-Archiv</p></td>
 <td><p>Wenn Rechtsstreitigkeiten zu erwarten sind, sind Organisationen dazu verpflichtet, die für den Fall relevanten elektronisch gespeicherten Informationen einschließlich E-Mail aufzubewahren. Compliance-Archive ermöglichen Ihnen das Suchen und Aufbewahren von Nachrichten, die bestimmten Abfrageparametern entsprechen. Nachrichten werden vor jeglicher Löschung, Veränderung und Manipulation geschützt und können unbegrenzt oder über einen bestimmten Zeitraum aufbewahrt werden.</p></td>
-<td><p><a href="in-place-hold-and-litigation-hold-exchange-2013-help.md">In-Place Hold and Litigation Hold</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds">In-Place Hold and Litigation Hold</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Compliance-eDiscovery</p></td>
 <td><p>Mit Compliance-eDiscovery können Sie Postfachdaten in Ihrer gesamten Exchange-Organisation durchsuchen, eine Vorschau der Suchergebnisse anzeigen und diese in ein Discoverypostfach kopieren.</p></td>
-<td><p><a href="in-place-ediscovery-exchange-2013-help.md">Compliance-eDiscovery</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">Compliance-eDiscovery</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Journale</p></td>

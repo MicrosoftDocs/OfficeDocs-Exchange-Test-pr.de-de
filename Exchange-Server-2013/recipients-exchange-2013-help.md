@@ -373,7 +373,7 @@ In der folgenden Tabelle sind Links zu Themen aufgeführt, in denen Sie weitere 
 <td><p>Hier erfahren Sie, wie Sie Raumpostfächer erstellen und deren Eigenschaften verwalten, beispielsweise die Aktivierung von Besprechungsserien sowie das Konfigurieren von Buchungs- und Planungsoptionen.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-equipment-mailboxes-exchange-2013-help.md">Verwalten von Gerätepostfächern</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-equipment-mailboxes">Verwalten von Gerätepostfächern</a></p></td>
 <td><p>Hier erfahren Sie, wie Sie Gerätepostfächer erstellen, Buchungs- und Planungsoptionen konfigurieren und weitere Postfacheigenschaften verwalten.</p></td>
 </tr>
 <tr class="odd">

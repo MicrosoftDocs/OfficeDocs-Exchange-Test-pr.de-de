@@ -33,7 +33,7 @@ Das Bereinigungsverfahren für den Ordner "Wiederherstellbare Elemente" eines Po
 
   - Wenn das Postfach der Aufbewahrung im Compliance-Archiv oder für ein Beweissicherungsverfahren unterliegt oder die Wiederherstellung einzelner Elemente aktiviert ist, ist es wichtig, die Postfachdaten bis zur Aufhebung des Beweissicherungsverfahrens aufzubewahren. Daher müssen Sie detailliertere Schritte ausführen, um den Ordner "Wiederherstellbare Elemente" zu bereinigen.
 
-Weitere Informationen zu Compliance-Archiv und Beweissicherungsverfahren finden Sie unter [In-Place Hold and Litigation Hold](in-place-hold-and-litigation-hold-exchange-2013-help.md). Weitere Informationen zum Wiederherstellen einzelner Elemente finden Sie unter "Wiederherstellung einzelner Elemente" in [Ordner "Wiederherstellbare Elemente"](recoverable-items-folder-exchange-2013-help.md).
+Weitere Informationen zu Compliance-Archiv und Beweissicherungsverfahren finden Sie unter [In-Place Hold and Litigation Hold](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds). Weitere Informationen zum Wiederherstellen einzelner Elemente finden Sie unter "Wiederherstellung einzelner Elemente" in [Ordner "Wiederherstellbare Elemente"](recoverable-items-folder-exchange-2013-help.md).
 
 Weitere Informationen zum Ordner **Wiederherstellbare Elemente** finden Sie unter [Ordner "Wiederherstellbare Elemente"](recoverable-items-folder-exchange-2013-help.md).
 
@@ -148,7 +148,7 @@ Bei diesem Vorgang werden Elemente aus dem Ordner "Wiederherstellbare Elemente" 
     
 
     > [!NOTE]
-    > Sie müssen Elemente nicht in das Discoverysuchpostfach kopieren. Sie können Nachrichten in ein beliebiges Postfach kopieren. Um jedoch den Zugriff auf potenziell vertrauliche Postfachdaten zu verhindern, sollten Sie die Nachrichten in ein Postfach kopieren, auf das ausschließlich autorisierte Datensatzmanager zugreifen können. Standardmäßig können auf das Discoverysuchpostfach ausschließlich Mitglieder der Rollengruppe "Discoveryverwaltung" zugreifen. Weitere Informationen finden Sie unter <A href="in-place-ediscovery-exchange-2013-help.md">Compliance-eDiscovery</A>.
+    > Sie müssen Elemente nicht in das Discoverysuchpostfach kopieren. Sie können Nachrichten in ein beliebiges Postfach kopieren. Um jedoch den Zugriff auf potenziell vertrauliche Postfachdaten zu verhindern, sollten Sie die Nachrichten in ein Postfach kopieren, auf das ausschließlich autorisierte Datensatzmanager zugreifen können. Standardmäßig können auf das Discoverysuchpostfach ausschließlich Mitglieder der Rollengruppe "Discoveryverwaltung" zugreifen. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">Compliance-eDiscovery</A>.
 
 
 

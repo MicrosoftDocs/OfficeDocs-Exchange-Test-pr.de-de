@@ -21,7 +21,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-14_
 
 [Hinzufügen von Aufbewahrungstags zu oder Entfernen von Aufbewahrungstags aus einer Aufbewahrungsrichtlinie](https://technet.microsoft.com/de-de/library/Dd362328(v=EXCHG.150))
 
-[Anwenden einer Aufbewahrungsrichtlinie auf Postfächer](apply-a-retention-policy-to-mailboxes-exchange-2013-help.md)
+[Anwenden einer Aufbewahrungsrichtlinie auf Postfächer](https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/apply-retention-policy)
 
 [Konfigurieren des Assistenten für verwaltete Ordner](configure-the-managed-folder-assistant-exchange-2013-help.md)
 
