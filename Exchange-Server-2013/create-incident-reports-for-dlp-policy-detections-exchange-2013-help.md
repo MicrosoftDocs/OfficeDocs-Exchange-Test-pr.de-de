@@ -139,5 +139,5 @@ Die folgende Liste zeigt eine vollständige Auflistung der Zeilennamen in der Sc
 
 [Anzeigen von DLP-Richtlinienerkennungsberichten](view-dlp-policy-detection-reports-exchange-2013-help.md)
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 

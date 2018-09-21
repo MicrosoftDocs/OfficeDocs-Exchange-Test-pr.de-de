@@ -17,11 +17,11 @@ _**Gilt für:** Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-11_
 
-[Erstellen einer Adressbuchrichtlinie](create-an-address-book-policy-exchange-2013-help.md)
+[Erstellen einer Adressbuchrichtlinie](https://technet.microsoft.com/de-de/library/Hh529931(v=EXCHG.150))
 
-[Zuweisen einer Adressbuchrichtlinie zu E-Mail-Benutzern](assign-an-address-book-policy-to-mail-users-exchange-2013-help.md)
+[Zuweisen einer Adressbuchrichtlinie zu E-Mail-Benutzern](https://technet.microsoft.com/de-de/library/Hh529942(v=EXCHG.150))
 
-[Ändern der Einstellungen einer Adressbuchrichtlinie](change-the-settings-of-an-address-book-policy-exchange-2013-help.md)
+[Ändern der Einstellungen einer Adressbuchrichtlinie](https://technet.microsoft.com/de-de/library/Hh529941(v=EXCHG.150))
 
-[Entfernen einer Adressbuchrichtlinie](remove-an-address-book-policy-exchange-2013-help.md)
+[Entfernen einer Adressbuchrichtlinie](https://docs.microsoft.com/de-de/exchange/address-books/address-book-policies/remove-an-address-book-policy)
 

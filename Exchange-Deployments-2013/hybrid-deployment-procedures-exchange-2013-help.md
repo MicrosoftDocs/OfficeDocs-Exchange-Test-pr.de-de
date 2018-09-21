@@ -25,11 +25,11 @@ Wählen Sie zunächst ein Thema aus:
 
 [Verschieben von Postfächern zwischen lokalen und Exchange Online-Organisationen in Hybridbereitstellungen](move-mailboxes-between-on-premises-and-exchange-online-organizations-in-hybrid-deployments-exchange-2013-help.md)
 
-[Konfigurieren lokaler öffentlicher Ordner aus Vorversionen für eine Hybridbereitstellung](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Konfigurieren lokaler öffentlicher Ordner aus Vorversionen für eine Hybridbereitstellung](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders)
 
-[Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders)
 
-[Konfigurieren öffentlicher Exchange Online-Ordner für eine Hybridbereitstellung](configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Konfigurieren öffentlicher Exchange Online-Ordner für eine Hybridbereitstellung](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-exo-hybrid-public-folders)
 
 [Konfigurieren von Exchange für delegierte Postfachberechtigungen in einer Hybridbereitstellung](configure-exchange-to-support-delegated-mailbox-permissions-in-a-hybrid-deployment-exchange-2013-help.md)
 

@@ -27,7 +27,7 @@ Weitere Informationen finden Sie unter den folgenden Themen:
 
   - [Ordner "Wiederherstellbare Elemente"](recoverable-items-folder-exchange-2013-help.md)
 
-  - [In-Place Hold and Litigation Hold](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [In-Place Hold and Litigation Hold](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 

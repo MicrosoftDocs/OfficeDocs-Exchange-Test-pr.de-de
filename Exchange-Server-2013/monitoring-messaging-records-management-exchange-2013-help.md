@@ -17,9 +17,9 @@ _**Gilt für:** Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2009-11-03_
 
-[Anzeigen von Leistungsindikatoren für die Messaging-Datensatzverwaltung](view-performance-counters-for-messaging-records-management-exchange-2013-help.md)
+[Anzeigen von Leistungsindikatoren für die Messaging-Datensatzverwaltung](view-performance-counters-for-https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management)
 
-[Leistungsindikatoren für die Verwaltung von Nachrichtendatensätzen](performance-counters-for-messaging-records-management-exchange-2013-help.md)
+[Leistungsindikatoren für die Verwaltung von Nachrichtendatensätzen](performance-counters-for-https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management)
 
 [Verwalten von Fehlern und Ereignissen für Messagingdatensätzen](messaging-records-management-errors-and-events-exchange-2013-help.md)
 

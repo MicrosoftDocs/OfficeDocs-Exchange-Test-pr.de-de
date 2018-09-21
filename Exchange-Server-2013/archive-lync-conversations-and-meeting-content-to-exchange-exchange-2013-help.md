@@ -25,13 +25,13 @@ Wenn Sie ein Postfach in ein Beweissicherungsverfahren einbinden, werden alle In
 
 
 > [!NOTE]
-> Sie können einen In-Situ-Speicher auch so konfigurieren, dass Lync-Elemente ausgenommen werden. So könnte es beispielsweise sein, dass eine Organisation Chatnachrichten und Voicemails nicht so lange aufbewahren möchte wie andere Inhaltstypen. Zur Einrichtung einer entsprechenden Richtlinie würden Sie einen In-Situ-Speicher erstellen, in dem Inhalte über einen langen Zeitraum hinweg aufbewahrt werden (z.&nbsp;B. 7&nbsp;Jahre), und Lync-Elemente von der Aufbewahrung ausnehmen. Anschließend würden Sie einen weiteren In-Situ-Speicher mit einer kürzeren Aufbewahrungszeit erstellen, in dem nur Lync-Elemente aufbewahrt werden. Sie können auch festlegen, wie lange die Inhalte aufbewahrt werden sollen. Weitere Informationen dazu, wie Sie einen In-Situ-Speicher oder ein Beweissicherungsverfahren mit einer bestimmten Aufbewahrungsdauer erstellen, finden Sie unter <A href="in-place-hold-and-litigation-hold-exchange-2013-help.md">In-Place Hold and Litigation Hold</A>.
+> Sie können einen In-Situ-Speicher auch so konfigurieren, dass Lync-Elemente ausgenommen werden. So könnte es beispielsweise sein, dass eine Organisation Chatnachrichten und Voicemails nicht so lange aufbewahren möchte wie andere Inhaltstypen. Zur Einrichtung einer entsprechenden Richtlinie würden Sie einen In-Situ-Speicher erstellen, in dem Inhalte über einen langen Zeitraum hinweg aufbewahrt werden (z.&nbsp;B. 7&nbsp;Jahre), und Lync-Elemente von der Aufbewahrung ausnehmen. Anschließend würden Sie einen weiteren In-Situ-Speicher mit einer kürzeren Aufbewahrungszeit erstellen, in dem nur Lync-Elemente aufbewahrt werden. Sie können auch festlegen, wie lange die Inhalte aufbewahrt werden sollen. Weitere Informationen dazu, wie Sie einen In-Situ-Speicher oder ein Beweissicherungsverfahren mit einer bestimmten Aufbewahrungsdauer erstellen, finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds">In-Place Hold and Litigation Hold</A>.
 
 
 
 Schritt-für-Schritt-Anleitungen für die Erstellung eines In-Situ-Speichers und die Einbindung in ein Beweissicherungsverfahren finden Sie in den folgenden Artikeln:
 
-  - [Erstellen oder Entfernen eines Compliance-Archivs](create-or-remove-an-in-place-hold-exchange-2013-help.md)
+  - [Erstellen oder Entfernen eines Compliance-Archivs](https://docs.microsoft.com/de-de/exchange/security-and-compliance/create-or-remove-in-place-holds)
 
   - [Aktivieren des Beweissicherungsverfahrens für ein Postfach](place-a-mailbox-on-litigation-hold-exchange-2013-help.md)
 

@@ -110,25 +110,25 @@ Wenn Microsoft Lync Server für Enterprise Voice verwendet wird, kann Unified Me
 
 Weitere Informationen zum Hinzufügen, Entfernen und Ändern von Durchwahlnummern finden Sie unter einem der folgenden Themen:
 
-  - [Ändern einer Durchwahlnummer](change-an-extension-number-exchange-2013-help.md)
+  - [Ändern einer Durchwahlnummer](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-extension-number)
 
-  - [Hinzufügen einer Durchwahlnummer](add-an-extension-number-exchange-2013-help.md)
+  - [Hinzufügen einer Durchwahlnummer](https://technet.microsoft.com/de-de/library/Dd335124(v=EXCHG.150))
 
-  - [Entfernen einer Durchwahlnummer](remove-an-extension-number-exchange-2013-help.md)
+  - [Entfernen einer Durchwahlnummer](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-extension-number)
 
 Wenn Sie SIP-Adressen oder E.164-Nummern für UM-aktivierte Benutzer ändern müssen:
 
-  - [Hinzufügen einer SIP-Adresse](add-a-sip-address-exchange-2013-help.md)
+  - [Hinzufügen einer SIP-Adresse](https://technet.microsoft.com/de-de/library/JJ662760(v=EXCHG.150))
 
-  - [Ändern einer SIP-Adresse](change-a-sip-address-exchange-2013-help.md)
+  - [Ändern einer SIP-Adresse](https://technet.microsoft.com/de-de/library/Dd335189(v=EXCHG.150))
 
-  - [Entfernen einer SIP-Adresse](remove-a-sip-address-exchange-2013-help.md)
+  - [Entfernen einer SIP-Adresse](https://technet.microsoft.com/de-de/library/JJ662761(v=EXCHG.150))
 
-  - [Hinzufügen einer E.164-Nummer](add-an-e-164-number-exchange-2013-help.md)
+  - [Hinzufügen einer E.164-Nummer](https://technet.microsoft.com/de-de/library/JJ662762(v=EXCHG.150))
 
-  - [Ändern Sie eine e. 164-Nummer](change-an-e-164-number-exchange-2013-help.md)
+  - [Ändern Sie eine e. 164-Nummer](https://technet.microsoft.com/de-de/library/Dd335162(v=EXCHG.150))
 
-  - [Entfernen einer e. 164-Nummer](remove-an-e-164-number-exchange-2013-help.md)
+  - [Entfernen einer e. 164-Nummer](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-e-164-number)
 
 ## Anrufannahme
 

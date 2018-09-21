@@ -69,5 +69,5 @@ In diesem Beispiel wird eine benutzerdefinierte DLP-Richtlinienvorlagendatei aus
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 

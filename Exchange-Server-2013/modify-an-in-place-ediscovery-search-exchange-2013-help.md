@@ -51,7 +51,7 @@ Nachdem Sie eine Compliance-eDiscovery-Suche erstellt haben, können Sie diese m
         
 
         > [!IMPORTANT]
-        > Sie können die Option <STRONG>Alle Postfächer durchsuchen</STRONG> nicht verwenden, um alle Postfächer auf Exchange 2013-Postfachservern in einem Archiv zu platzieren. Zum Erstellen eines Compliance-Archivs müssen Sie die Option <STRONG>Zu durchsuchende Postfächer angeben</STRONG> auswählen. Weitere Informationen finden Sie unter <A href="create-or-remove-an-in-place-hold-exchange-2013-help.md">Erstellen oder Entfernen eines Compliance-Archivs</A>.
+        > Sie können die Option <STRONG>Alle Postfächer durchsuchen</STRONG> nicht verwenden, um alle Postfächer auf Exchange 2013-Postfachservern in einem Archiv zu platzieren. Zum Erstellen eines Compliance-Archivs müssen Sie die Option <STRONG>Zu durchsuchende Postfächer angeben</STRONG> auswählen. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/create-or-remove-in-place-holds">Erstellen oder Entfernen eines Compliance-Archivs</A>.
 
     
       - Ändern Sie auf der Seite **Suchabfrage** die folgenden Felder:

@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2015-04-08_
 
-E-Mail-Infos, die Angaben zur Größe von Verteilergruppen und dynamischen Verteilergruppen bereitstellen, stützen sich auf Gruppenmetrikdaten. Gruppenmetrikdaten werden auf designierten Postfachservern generiert. Weitere Informationen zu Gruppenmetrikdaten finden Sie unter [Gruppe Metriken und e-Mail-Infos](group-metrics-and-mailtips-exchange-2013-help.md).
+E-Mail-Infos, die Angaben zur Größe von Verteilergruppen und dynamischen Verteilergruppen bereitstellen, stützen sich auf Gruppenmetrikdaten. Gruppenmetrikdaten werden auf designierten Postfachservern generiert. Weitere Informationen zu Gruppenmetrikdaten finden Sie unter [Gruppe Metriken und e-Mail-Infos](group-metrics-and-https://docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips).
 
 Sie können das Generieren von Gruppenmetrikdaten auf einem Postfachserver aktivieren oder deaktivieren.
 
@@ -27,7 +27,7 @@ Sie können das Generieren von Gruppenmetrikdaten auf einem Postfachserver aktiv
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "Gruppenmetrik" im Thema [Empfängerberechtigungen](recipients-permissions-exchange-2013-help.md).
 
-  - Gruppenmetrikdaten werden nur für E-Mail-Infos verwendet. Stellen Sie sicher, dass auf Gruppenmetrikdaten basierende E-Mail-Infos in Ihrer Organisation aktiviert sind. Ausführliche Anleitungen finden Sie unter [Verwalten von E-Mail-Infos für Organisationsbeziehungen](manage-mailtips-for-organization-relationships-exchange-2013-help.md).
+  - Gruppenmetrikdaten werden nur für E-Mail-Infos verwendet. Stellen Sie sicher, dass auf Gruppenmetrikdaten basierende E-Mail-Infos in Ihrer Organisation aktiviert sind. Ausführliche Anleitungen finden Sie unter [Verwalten von E-Mail-Infos für Organisationsbeziehungen](https://docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/mailtips/manage-mailtips-for-organization-relationships).
 
   - Die Shell kann nur für diesen Vorgang verwendet werden.
 

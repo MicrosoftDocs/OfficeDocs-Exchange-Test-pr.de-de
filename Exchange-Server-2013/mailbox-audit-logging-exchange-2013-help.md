@@ -29,7 +29,7 @@ Postfachüberwachungsprotokolle werden für jedes Postfach generiert, für das d
 
 Standardmäßig werden Postfachüberwachungsprotokolleinträge 90 Tage lang aufbewahrt und dann gelöscht. Sie können diese Aufbewahrungsfrist ändern, indem Sie den Parameter *AuditLogAgeLimit* mit dem Cmdlet [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)) verwenden. Wenn für ein Postfach das Compliance-Archiv oder die Beweissicherung aktiviert wurde, werden Überwachungsprotokolleinträge nur so lange beibehalten, bis die Beibehaltungsdauer von Überwachungsprotokollen für das Postfach erreicht wurde. Wenn Sie Überwachungsprotokolleinträge länger beibehalten möchten, müssen Sie die Aufbewahrungsdauer verlängern, indem Sie den Wert des Parameters *AuditLogAgeLimit* ändern. Sie können auch die Überwachungsprotokolleinträge exportieren, bevor die Aufbewahrungsdauer erreicht ist. Weitere Informationen finden Sie unter:
 
-  - [Exportieren von Postfachüberwachungsprotokollen](export-mailbox-audit-logs-exchange-2013-help.md)
+  - [Exportieren von Postfachüberwachungsprotokollen](https://technet.microsoft.com/de-de/library/JJ150552(v=EXCHG.150))
 
   - [Erstellen einer Postfachüberwachungsprotokoll-Suche](create-a-mailbox-audit-log-search-exchange-2013-help.md)
 
@@ -159,9 +159,9 @@ Mithilfe der folgenden Methoden können Sie Postfachüberwachungsprotokolleintr�
 
   - **Verwenden von Überwachungsberichten in der Exchange-Verwaltungskonsole**   Mithilfe der Registerkarte **Überwachung** in der Exchange-Verwaltungskonsole können Sie einen Bericht zum Postfachzugriff durch Nicht-Besitzer ausführen oder Einträge aus dem Postfachüberwachungsprotokoll exportieren. Weitere Informationen finden Sie unter:
     
-      - [Ausführen eines Berichts zum Postfachzugriff durch Nicht-Besitzer](run-a-non-owner-mailbox-access-report-exchange-online-help.md)
+      - [Ausführen eines Berichts zum Postfachzugriff durch Nicht-Besitzer](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150))
     
-      - [Exportieren von Postfachüberwachungsprotokollen](export-mailbox-audit-logs-exchange-2013-help.md)
+      - [Exportieren von Postfachüberwachungsprotokollen](https://technet.microsoft.com/de-de/library/JJ150552(v=EXCHG.150))
 
 ## Einträge im Postfachüberwachungsprotokoll
 
@@ -336,7 +336,7 @@ In der folgenden Tabelle werden die Felder beschrieben, die in einem Überwachun
 
   - **Administratorzugriff auf Postfächer**   Nur in den folgenden Szenarien wird ein Postfachzugriff als Administratorzugriff erachtet:
     
-      - [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md) wird zum Durchsuchen eines Postfachs verwendet.
+      - [Compliance-eDiscovery](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) wird zum Durchsuchen eines Postfachs verwendet.
     
       - Das Cmdlet [New-MailboxExportRequest](https://technet.microsoft.com/de-de/library/ff607299\(v=exchg.150\)) wird zum Exportieren eines Postfachs verwendet.
     

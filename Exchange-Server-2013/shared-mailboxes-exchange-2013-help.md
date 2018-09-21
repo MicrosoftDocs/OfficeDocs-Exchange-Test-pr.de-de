@@ -51,5 +51,5 @@ Sie können die folgenden Berechtigungen mit einem freigegebenen Postfach verwen
 
 ## Konvertieren freigegebener Postfächer
 
-In früheren Versionen von Exchange konnten Sie ein normales Postfach als Postfach mit Stellvertretungszugriff verwenden. Wenn Sie Postfächer delegiert haben, können Sie diese Postfächer mit Stellvertretungszugriff mithilfe der Shell in freigegebene Postfächer konvertieren. Weitere Informationen finden Sie unter [Konvertieren eines Postfachs](convert-a-mailbox-exchange-2013-help.md).
+In früheren Versionen von Exchange konnten Sie ein normales Postfach als Postfach mit Stellvertretungszugriff verwenden. Wenn Sie Postfächer delegiert haben, können Sie diese Postfächer mit Stellvertretungszugriff mithilfe der Shell in freigegebene Postfächer konvertieren. Weitere Informationen finden Sie unter [Konvertieren eines Postfachs](https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/convert-a-mailbox).
 

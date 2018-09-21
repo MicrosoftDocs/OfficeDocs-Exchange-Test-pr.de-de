@@ -25,7 +25,7 @@ Sie können POP3 für einen Benutzer aktivieren oder deaktivieren.
 
 
 
-Weitere Informationen zum Verwalten von Benutzerpostfächern finden Sie unter [Verwalten von Benutzerpostfächern](manage-user-mailboxes-exchange-2013-help.md).
+Weitere Informationen zum Verwalten von Benutzerpostfächern finden Sie unter [Verwalten von Benutzerpostfächern](https://technet.microsoft.com/de-de/library/Bb123809(v=EXCHG.150)).
 
 Weitere Informationen zu POP3 und IMAP4 finden Sie unter [POP3 und IMAP4 in Exchange Server 2013](pop3-and-imap4-in-exchange-server-2013-exchange-2013-help.md).
 

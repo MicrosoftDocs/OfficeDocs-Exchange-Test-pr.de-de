@@ -23,7 +23,7 @@ Wenn Sie Microsoft Lync Server in Exchange Unified Messaging (UM) integrieren, m
     
 
     > [!IMPORTANT]
-    > Das Skript "ExchUcUtil.ps1" erstellt ein oder mehrere UM-IP-Gateways. Sie müssen ausgehende Anrufe für alle UM-IP-Gateways deaktivieren, außer dem einen Gateway, das durch das Skript erstellt wurde. Dazu gehört auch das Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways, die vor dem Ausführen des Skripts erstellt wurden. Informationen zum Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways finden Sie unter <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Deaktivieren Sie ausgehende Anrufe für UM-IP-gateways</A>.
+    > Das Skript "ExchUcUtil.ps1" erstellt ein oder mehrere UM-IP-Gateways. Sie müssen ausgehende Anrufe für alle UM-IP-Gateways deaktivieren, außer dem einen Gateway, das durch das Skript erstellt wurde. Dazu gehört auch das Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways, die vor dem Ausführen des Skripts erstellt wurden. Informationen zum Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Deaktivieren Sie ausgehende Anrufe für UM-IP-gateways</A>.
 
 
 
@@ -59,7 +59,7 @@ Führen Sie das Skript "ExchUcUtil.ps1" auf einem Exchange-Server in Ihrer Organ
 
 
 > [!IMPORTANT]
-> Das ExchUCUtil.ps1-Skript erstellt ein oder mehrere UM-IP-Gateways. Sie müssen ausgehende Anrufe für alle UM-IP-Gateways deaktivieren, außer dem einen Gateway, das durch das Skript erstellt wurde. Dazu gehört auch das Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways, die vor dem Ausführen des Skripts erstellt wurden. Informationen zum Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways finden Sie unter <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Deaktivieren Sie ausgehende Anrufe für UM-IP-gateways</A>.
+> Das ExchUCUtil.ps1-Skript erstellt ein oder mehrere UM-IP-Gateways. Sie müssen ausgehende Anrufe für alle UM-IP-Gateways deaktivieren, außer dem einen Gateway, das durch das Skript erstellt wurde. Dazu gehört auch das Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways, die vor dem Ausführen des Skripts erstellt wurden. Informationen zum Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Deaktivieren Sie ausgehende Anrufe für UM-IP-gateways</A>.
 
 
 

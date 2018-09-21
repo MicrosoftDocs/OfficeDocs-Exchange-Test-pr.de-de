@@ -214,7 +214,7 @@ Konfigurieren Sie den UM-Startmodus auf einem Exchange 2013-Postfachserver durch
 
 Abhängig von Ihrer vorhandenen Exchange 2007-Bereitstellung müssen Sie auf neue um-Wählpläne erstellen oder vorhandene Wählplänen konfigurieren. Ein Wählplan stellt eine Reihe von traditionellen oder SIP-aktivierte Private Nebenstellenanlagen (PBX), IP-Nebenstellenanlagen oder SIP-aktivierte Nebenstellenanlagen, die häufige Durchwahlnummern für Benutzer freigeben. Allen Benutzern Extensions auf traditionellen oder SIP-aktivierte Nebenstellenanlagen oder IP-Nebenstellenanlagen innerhalb eines Wählplans gehostet enthalten die gleiche Anzahl von Ziffern. Benutzer können jeweils anderen Person per Telefon Extensions einwählen, ohne die Erweiterung wie eine besondere Nummer angefügt oder eine vollständige Telefonnummer gewählt.
 
-Um-Wählpläne werden in Unified Messaging verwendet, um sicherzustellen, dass Benutzer Telefon Extensions eindeutig sind. In einigen Telefonienetzwerken vorhanden mehrere IP-Nebenstellenanlagen, herkömmliche Nebenstellenanlagen oder SIP-fähigen PBX-Anlagen. In dieser Netzwerke Telefonie könnten zwei Benutzer mit demselben Telefondurchwahl vorhanden sein. Um-Wählplänen auflösen diese situation Zwei separate Wählplänen die beiden Benutzer Inbetriebnahme macht ihren Erweiterungen eindeutig. Weitere Informationen finden Sie unter [UM-Wählpläne](um-dial-plans-exchange-2013-help.md).
+Um-Wählpläne werden in Unified Messaging verwendet, um sicherzustellen, dass Benutzer Telefon Extensions eindeutig sind. In einigen Telefonienetzwerken vorhanden mehrere IP-Nebenstellenanlagen, herkömmliche Nebenstellenanlagen oder SIP-fähigen PBX-Anlagen. In dieser Netzwerke Telefonie könnten zwei Benutzer mit demselben Telefondurchwahl vorhanden sein. Um-Wählplänen auflösen diese situation Zwei separate Wählplänen die beiden Benutzer Inbetriebnahme macht ihren Erweiterungen eindeutig. Weitere Informationen finden Sie unter [UM-Wählpläne](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans).
 
 Sie können gegebenenfalls einen UM-Wählplan mit der Exchange-Verwaltungskonsole erstellen:
 
@@ -264,7 +264,7 @@ Abhängig von Ihrer vorhandenen Exchange 2007-Bereitstellung müssen Sie zum Ers
 
 Ein UM-IP-Gateway stellt ein physisches VoIP-Gateway (Voice over IP), eine IP-PBX-Anlage oder eine SIP-fähige PBX-Anlage dar. Ehe ein VoIP-Gateway, eine IP-PBX-Anlage oder eine SIP-fähige PBX-Anlage zum Annehmen eingehender Anrufe und zum Senden ausgehender Anrufe für Voicemailbenutzer genutzt werden kann, muss im Verzeichnisdienst ein UM-IP-Gateway erstellt werden.
 
-Durch die Kombination des UM-IP-Gateways mit einem UM-Sammelanschluss wird eine Verknüpfung zwischen einem VoIP-Gateway, einer IP-PBX-Anlage oder einer SIP-fähigen PBX-Anlage und einem UM-Wählplan eingerichtet. Durch Erstellen mehrerer UM-Sammelanschlüsse kann ein einzelnes UM-IP-Gateway mehreren UM-Wähleinstellungen zugeordnet werden. Weitere Informationen finden Sie unter [UM-IP-Gateways](um-ip-gateways-exchange-2013-help.md).
+Durch die Kombination des UM-IP-Gateways mit einem UM-Sammelanschluss wird eine Verknüpfung zwischen einem VoIP-Gateway, einer IP-PBX-Anlage oder einer SIP-fähigen PBX-Anlage und einem UM-Wählplan eingerichtet. Durch Erstellen mehrerer UM-Sammelanschlüsse kann ein einzelnes UM-IP-Gateway mehreren UM-Wähleinstellungen zugeordnet werden. Weitere Informationen finden Sie unter [UM-IP-Gateways](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways).
 
 Sie können gegebenenfalls ein UM-IP-Gateway mit der Exchange-Verwaltungskonsole erstellen:
 
@@ -302,7 +302,7 @@ Gegebenenfalls können Sie einen vorhandenen UM-IP-Gateways mithilfe des folgend
 
 Abhängig von Ihrer vorhandenen Exchange 2007-Bereitstellung möglicherweise Sie zum Erstellen neuer UM-Sammelanschlüsse erforderlich. Ein Sammelanschluss Telefonie bietet eine Möglichkeit zum Verteilen Telefonanrufe über eine einzelne Zahl auf mehrere Erweiterungen oder Telefonnummern. In Unified Messaging ein um-Sammelanschlusses ist eine logische Darstellung eines Sammelanschlusses Telefonie, und es einen UM-IP-Zugang zu einem um-Wählplan verknüpft.
 
-Sie benötigen mindestens einen UM-Sammelanschluss für jeden IP-PBX- oder PBX-Sammelanschluss. Wenn Sie das folgende Verfahren abschließen, wird ein UM-Sammelanschluss standardmäßig erstellt. Wenn Sie über mehrere IP-PBX- oder PBX-Sammelanschlüsse verfügen, müssen Sie zusätzliche UM-Sammelanschlüsse erstellen. Weitere Informationen zu UM-Sammelanschlüssen finden Sie unter [UM-Sammelanschlüsse](um-hunt-groups-exchange-2013-help.md).
+Sie benötigen mindestens einen UM-Sammelanschluss für jeden IP-PBX- oder PBX-Sammelanschluss. Wenn Sie das folgende Verfahren abschließen, wird ein UM-Sammelanschluss standardmäßig erstellt. Wenn Sie über mehrere IP-PBX- oder PBX-Sammelanschlüsse verfügen, müssen Sie zusätzliche UM-Sammelanschlüsse erstellen. Weitere Informationen zu UM-Sammelanschlüssen finden Sie unter [UM-Sammelanschlüsse](https://technet.microsoft.com/de-de/library/Aa995918(v=EXCHG.150)).
 
 Falls erforderlich, können Sie einen um-Sammelanschluss mithilfe der Exchange-Verwaltungskonsole erstellen:
 
@@ -332,7 +332,7 @@ Sie können gegebenenfalls einen UM-Sammelanschluss durch Ausführen des folgend
 
 ## Schritt 9: Erstellen Sie oder konfigurieren Sie der automatischen UM-Telefonzentralen
 
-Abhängig von Ihrer vorhandenen Exchange 2007-Bereitstellung müssen Sie neue automatische um-Telefonzentralen erstellen. Automatische um-Telefonzentralen kann zum Erstellen einer VoIP-Menüsystem, mit der, externen und internen Aufrufer verwenden das Menüsystem UM Auto attendant zum Auffinden der Ansprechpartner und tätigen oder durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in einer Organisation. Weitere Informationen finden Sie unter [Automatisches Beantworten und Weiterleiten eingehender Anrufe](automatically-answer-and-route-incoming-calls-exchange-2013-help.md).
+Abhängig von Ihrer vorhandenen Exchange 2007-Bereitstellung müssen Sie neue automatische um-Telefonzentralen erstellen. Automatische um-Telefonzentralen kann zum Erstellen einer VoIP-Menüsystem, mit der, externen und internen Aufrufer verwenden das Menüsystem UM Auto attendant zum Auffinden der Ansprechpartner und tätigen oder durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in einer Organisation. Weitere Informationen finden Sie unter [Automatisches Beantworten und Weiterleiten eingehender Anrufe](https://technet.microsoft.com/de-de/library/Bb124724(v=EXCHG.150)).
 
 In kleinere Bereitstellungen können Sie nur UM bereitstellen möchten, damit Anrufer Voicemail für Benutzer lassen können. Erstellen eine automatische Telefonzentrale nicht in dieser Bereitstellung erforderlich. In den meisten Fällen die Verwendung ist jedoch automatischen Telefonzentralen sehr nützlich für externe Anrufer beim Aufruf Ihrer Organisation.
 
@@ -374,7 +374,7 @@ Sie können gegebenenfalls eine vorhandene automatische Telefonzentrale durch Au
 
 ## Schritt 10: Erstellen oder Konfigurieren von UM-Postfachrichtlinien
 
-Abhängig von Ihrer vorhandenen Exchange 2007-Bereitstellung müssen Sie auf neue UM-Postfachrichtlinien erstellen oder vorhandene UM-Postfachrichtlinien zu konfigurieren. UM-Postfachrichtlinien sind erforderlich, wenn Sie Benutzer für Unified Messaging aktivieren. Das Postfach von einzelnen UM-aktivierten Benutzer muss mit einem einzelnen UM-Postfachrichtlinie verknüpft werden. Nachdem Sie eine um-Postfachrichtlinie erstellen, verknüpfen Sie mindestens einen UM-aktivierten Postfächer mit UM-Postfachrichtlinie. Hiermit können Sie steuern, PIN-Sicherheitseinstellungen wie die minimale Anzahl von Ziffern in eine PIN-NUMMER oder der maximale Anzahl der Anmeldeversuche für UM-aktivierten Benutzer, die mit der UM-Postfachrichtlinie verknüpft sind. Weitere Informationen finden Sie unter [UM-Postfachrichtlinien](um-mailbox-policies-exchange-2013-help.md).
+Abhängig von Ihrer vorhandenen Exchange 2007-Bereitstellung müssen Sie auf neue UM-Postfachrichtlinien erstellen oder vorhandene UM-Postfachrichtlinien zu konfigurieren. UM-Postfachrichtlinien sind erforderlich, wenn Sie Benutzer für Unified Messaging aktivieren. Das Postfach von einzelnen UM-aktivierten Benutzer muss mit einem einzelnen UM-Postfachrichtlinie verknüpft werden. Nachdem Sie eine um-Postfachrichtlinie erstellen, verknüpfen Sie mindestens einen UM-aktivierten Postfächer mit UM-Postfachrichtlinie. Hiermit können Sie steuern, PIN-Sicherheitseinstellungen wie die minimale Anzahl von Ziffern in eine PIN-NUMMER oder der maximale Anzahl der Anmeldeversuche für UM-aktivierten Benutzer, die mit der UM-Postfachrichtlinie verknüpft sind. Weitere Informationen finden Sie unter [UM-Postfachrichtlinien](https://technet.microsoft.com/de-de/library/Bb124909(v=EXCHG.150)).
 
 Sie können gegebenenfalls eine UM-Postfachrichtlinie mit der Exchange-Verwaltungskonsole erstellen:
 
@@ -414,7 +414,7 @@ Sie können gegebenenfalls eine vorhandene UM-Postfachrichtlinie durch Ausführe
 
 ## Schritt 11: Verschieben Sie vorhandene UM-aktivierte Postfächer nach Exchange 2013
 
-In Exchange wird 2007 Unified Messaging, nachdem Sie Benutzer innerhalb der Organisation verwenden von Voicemail, einen Standardsatz Eigenschaften für UM aktiviert haben, die dem Benutzer angewendet, sodass diese UM-Features verwenden können. Weitere Informationen finden Sie unter [Voicemail für Benutzer](voice-mail-for-users-exchange-2013-help.md).
+In Exchange wird 2007 Unified Messaging, nachdem Sie Benutzer innerhalb der Organisation verwenden von Voicemail, einen Standardsatz Eigenschaften für UM aktiviert haben, die dem Benutzer angewendet, sodass diese UM-Features verwenden können. Weitere Informationen finden Sie unter [Voicemail für Benutzer](https://technet.microsoft.com/de-de/library/Aa997885(v=EXCHG.150)).
 
 Während des Aktivierungsvorgangs upgraden werden eine bestimmten Zeitspanne während der Sie Postfächer verfügen werden, DIE UM auf Exchange 2007-Postfachservern sowohl auf Exchange 2013-Postfachservern aktiviert sind. Wenn Sie alle UM-aktivierten Benutzer auf Exchange 2013-Postfachservern über verschieben möchten, müssen Sie jedoch der Exchange-Verwaltungskonsole oder **New-MoveRequest** -Cmdlet in der Shell aus einem Exchange 2013-Server verwenden, die alle Eigenschaften und Einstellungen, einschließlich der PIN des Benutzers beibehalten werden.
 
@@ -442,9 +442,9 @@ Führen Sie den folgenden Befehl, um ein Exchange 2007-Postfach mithilfe der She
 
 ## Schritt 12: Aktivieren neuer Benutzer für UM oder Konfigurieren von Einstellungen für einen vorhandenen UM-aktivierten Benutzer
 
-Ein Benutzer muss über ein Postfach verfügen, bevor eine Aktivierung für Unified Messaging durchgeführt werden kann. Standardmäßig ist ein Benutzer, der über ein Postfach verfügt, nicht für Unified Messaging aktiviert. Nach der UM-Aktivierung können Sie die UM-Eigenschaften und Voicemailfunktionen für den Benutzer verwalten, ändern und konfigurieren. Sie können Benutzer mit der Exchange-Verwaltungskonsole oder der Shell für UM aktivieren. Weitere Informationen finden Sie unter [Voicemail für Benutzer](voice-mail-for-users-exchange-2013-help.md).
+Ein Benutzer muss über ein Postfach verfügen, bevor eine Aktivierung für Unified Messaging durchgeführt werden kann. Standardmäßig ist ein Benutzer, der über ein Postfach verfügt, nicht für Unified Messaging aktiviert. Nach der UM-Aktivierung können Sie die UM-Eigenschaften und Voicemailfunktionen für den Benutzer verwalten, ändern und konfigurieren. Sie können Benutzer mit der Exchange-Verwaltungskonsole oder der Shell für UM aktivieren. Weitere Informationen finden Sie unter [Voicemail für Benutzer](https://technet.microsoft.com/de-de/library/Aa997885(v=EXCHG.150)).
 
-Wenn Sie einen Benutzer für UM aktivieren, müssen Sie mindestens eine Durchwahlnummer definieren, die UM bei der Übermittlung einer Voicemail an das Postfach des Benutzers verwendet und die dem Benutzer die Nutzung von Outlook Voice Access ermöglicht. Nachdem Sie den Benutzer für UM aktiviert haben, können Sie dem Benutzerpostfach sekundäre Durchwahlnummern hinzufügen, diese ändern oder entfernen, indem Sie die Exchange Unified Messaging-Proxyadresse (EUM-Proxyadresse) für das Benutzerpostfach konfigurieren oder zusätzliche oder sekundäre Durchwahlnummern für die Benutzer in der Exchange-Verwaltungskonsole hinzufügen oder entfernen. Informationen zum Hinzufügen, Ändern oder Entfernen von Durchwahlnummern, E.164-Nummern oder SIP-Adressen finden Sie unter [VoIP-e-Mail-aktivierten Benutzer Prozeduren](voice-mail-enabled-user-procedures-exchange-2013-help.md).
+Wenn Sie einen Benutzer für UM aktivieren, müssen Sie mindestens eine Durchwahlnummer definieren, die UM bei der Übermittlung einer Voicemail an das Postfach des Benutzers verwendet und die dem Benutzer die Nutzung von Outlook Voice Access ermöglicht. Nachdem Sie den Benutzer für UM aktiviert haben, können Sie dem Benutzerpostfach sekundäre Durchwahlnummern hinzufügen, diese ändern oder entfernen, indem Sie die Exchange Unified Messaging-Proxyadresse (EUM-Proxyadresse) für das Benutzerpostfach konfigurieren oder zusätzliche oder sekundäre Durchwahlnummern für die Benutzer in der Exchange-Verwaltungskonsole hinzufügen oder entfernen. Informationen zum Hinzufügen, Ändern oder Entfernen von Durchwahlnummern, E.164-Nummern oder SIP-Adressen finden Sie unter [VoIP-e-Mail-aktivierten Benutzer Prozeduren](https://technet.microsoft.com/de-de/library/JJ835776(v=EXCHG.150)).
 
 So aktivieren Sie einen Benutzer mit der der Exchange-Verwaltungskonsole für UM:
 
@@ -520,9 +520,9 @@ Der letzte Schritt in der Aktualisierung auf Exchange 2013-UM ist die Konfigurat
 
   -  [UM-Dienste](um-services-exchange-2013-help.md)
 
-  -  [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Konfigurationshinweise zu unterstützten VoIP-Gateways, IP-Nebenstellenanlagen und Nebenstellenanlagen](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150))
 
-  -  [Telefonieratgeber für Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Telefonieratgeber für Exchange 2013](https://technet.microsoft.com/de-de/library/Ee364753(v=EXCHG.150))
 
 ## Schritt 14: Deaktivieren der Anrufbeantwortung auf einem Exchange 2007 Unified Messaging-server
 

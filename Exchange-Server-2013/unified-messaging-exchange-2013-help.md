@@ -255,19 +255,19 @@ In der folgenden Tabelle sind Links zu Themen aufgeführt, in denen Sie weitere 
 <td><p>Informationen zu UM-Sprachpaketen und -Spracheinstellungen.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="telephone-system-integration-with-um-exchange-2013-help.md">Telefonsystemintegration mit UM</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephone-system-integration-with-um">Telefonsystemintegration mit UM</a></p></td>
 <td><p>Informationen zur Integration Ihres Telefonienetzwerks in UM.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connect-your-voice-mail-system-to-your-telephone-network-exchange-2013-help.md">Verbinden Ihres Voicemailsystems mit Ihrem Telefonnetz</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system">Verbinden Ihres Voicemailsystems mit Ihrem Telefonnetz</a></p></td>
 <td><p>Informationen zur Verwendung und Konfiguration von UM-Komponenten, um Ihr Telefonienetzwerk mit Exchange Unified Messaging zu verbinden.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="automatically-answer-and-route-incoming-calls-exchange-2013-help.md">Automatisches Beantworten und Weiterleiten eingehender Anrufe</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls">Automatisches Beantworten und Weiterleiten eingehender Anrufe</a></p></td>
 <td><p>Informationen zum Erstellen von automatischen UM-Telefonzentralen und Verwalten von Einstellungen für Navigationsmenüs, Begrüßungen und Geschäftszeiten.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="set-up-voice-mail-for-users-exchange-2013-help.md">Einrichten von Voicemail für Benutzer</a></p></td>
+<td><p><a href="set-up-https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users">Einrichten von Voicemail für Benutzer</a></p></td>
 <td><p>Informationen zum Erstellen und Verwalten von UM-Postfachrichtlinien und zum Aktivieren von Benutzern für UM.</p></td>
 </tr>
 <tr class="odd">
@@ -275,7 +275,7 @@ In der folgenden Tabelle sind Links zu Themen aufgeführt, in denen Sie weitere 
 <td><p>Informationen zum Einrichten von Clientfeatures zum Aktivieren von Benutzern für den Zugriff und die Verwaltung ihrer Voicemailnachrichten.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="set-outlook-voice-access-pin-security-exchange-2013-help.md">Festlegen von Outlook Voice Access-PIN-Sicherheit</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-outlook-voice-access-pin-security">Festlegen von Outlook Voice Access-PIN-Sicherheit</a></p></td>
 <td><p>Informationen zum Einrichten von PIN-Anforderungen für Outlook Voice Access-Benutzer.</p></td>
 </tr>
 <tr class="odd">
@@ -283,7 +283,7 @@ In der folgenden Tabelle sind Links zu Themen aufgeführt, in denen Sie weitere 
 <td><p>Informationen zur Verwendung von UM zum Schutz von Sprachnachrichten.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="run-reports-for-voice-mail-calls-exchange-2013-help.md">Erstellen von Berichten für Sprachanrufe mail</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/run-voice-mail-call-reports">Erstellen von Berichten für Sprachanrufe mail</a></p></td>
 <td><p>Informationen zu UM-Anrufberichten.</p></td>
 </tr>
 </tbody>

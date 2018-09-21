@@ -243,7 +243,7 @@ Zurück zum Seitenanfang
 
 ## UM-Postfachrichtlinien
 
-Sie können eine Unified Messaging-Postfachrichtlinie erstellen, um einen allgemeinen Satz von UM-Richtlinieneinstellungen, z. B. PIN-Richtlinieneinstellungen oder Wähleinschränkungen, auf eine Sammlung von UM-aktivierten Postfächern anzuwenden. Weitere Informationen zu UM-Postfachrichtlinien finden Sie unter [Verwalten einer UM-Postfachrichtlinie](manage-a-um-mailbox-policy-exchange-2013-help.md).
+Sie können eine Unified Messaging-Postfachrichtlinie erstellen, um einen allgemeinen Satz von UM-Richtlinieneinstellungen, z. B. PIN-Richtlinieneinstellungen oder Wähleinschränkungen, auf eine Sammlung von UM-aktivierten Postfächern anzuwenden. Weitere Informationen zu UM-Postfachrichtlinien finden Sie unter [Verwalten einer UM-Postfachrichtlinie](https://technet.microsoft.com/de-de/library/Aa998829(v=EXCHG.150)).
 
 Zum Konfigurieren der Optionen für geschützte Voicemail können Sie die Exchange-Verwaltungskonsole oder das Cmdlet **Set-UMMailboxPolicy** verwenden. In der folgenden Tabelle sind die Einstellungen aufgeführt, die für geschützte Voicemail konfiguriert werden können.
 
@@ -293,7 +293,7 @@ Zum Konfigurieren der Optionen für geschützte Voicemail können Sie die Exchan
 </table>
 
 
-Weitere Informationen zum Verwalten von Einstellungen für geschützte Voicemail finden Sie unter [Geschützte Voicemail-Prozeduren](protected-voice-mail-procedures-exchange-2013-help.md) oder [Set-UMMailboxPolicy](https://technet.microsoft.com/de-de/library/bb124903\(v=exchg.150\)).
+Weitere Informationen zum Verwalten von Einstellungen für geschützte Voicemail finden Sie unter [Geschützte Voicemail-Prozeduren](https://technet.microsoft.com/de-de/library/JJ938013(v=EXCHG.150)) oder [Set-UMMailboxPolicy](https://technet.microsoft.com/de-de/library/bb124903\(v=exchg.150\)).
 
 Zurück zum Seitenanfang
 

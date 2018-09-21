@@ -277,7 +277,7 @@ Zur Unterstützung beim Erstellen von Empfängerfiltern für dynamische Verteile
 
   - Empfängercontainer
 
-Sie können Bedingungen auch basierend auf anderen Empfängereigenschaften als den oben genannten angeben. Zu diesem Zweck müssen Sie mithilfe der Shell eine benutzerdefinierte Abfrage für die dynamische Verteilergruppe erstellen. Denken Sie daran, dass die Filter- und Bedingungseinstellungen für dynamische Verteilergruppen mit benutzerdefinierten Empfängerfiltern nur über die Shell verwaltet werden können. Ein Beispiel dafür, wie eine dynamische Verteilergruppe mithilfe einer benutzerdefinierten Abfrage erstellt wird, finden Sie unter [Verwalten dynamischer Verteilergruppen](manage-dynamic-distribution-groups-exchange-2013-help.md).
+Sie können Bedingungen auch basierend auf anderen Empfängereigenschaften als den oben genannten angeben. Zu diesem Zweck müssen Sie mithilfe der Shell eine benutzerdefinierte Abfrage für die dynamische Verteilergruppe erstellen. Denken Sie daran, dass die Filter- und Bedingungseinstellungen für dynamische Verteilergruppen mit benutzerdefinierten Empfängerfiltern nur über die Shell verwaltet werden können. Ein Beispiel dafür, wie eine dynamische Verteilergruppe mithilfe einer benutzerdefinierten Abfrage erstellt wird, finden Sie unter [Verwalten dynamischer Verteilergruppen](https://technet.microsoft.com/de-de/library/Bb123722(v=EXCHG.150)).
 
 ## E-Mail-Kontakte
 
@@ -341,7 +341,7 @@ In der folgenden Tabelle sind Links zu Themen aufgeführt, in denen Sie weitere 
 <td><p>Hier erfahren Sie, wie Benutzerpostfächer mithilfe der Exchange-Verwaltungskonsole oder der Exchange-Verwaltungsshell erstellt werden.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-user-mailboxes-exchange-2013-help.md">Verwalten von Benutzerpostfächern</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Verwalten von Benutzerpostfächern</a></p></td>
 <td><p>Hier erfahren Sie, wie Sie Benutzerpostfächer erstellen, Postfacheigenschaften ändern und ausgewählte Eigenschaften für mehrere Postfächer per Massenvorgang bearbeiten.</p></td>
 </tr>
 <tr class="odd">
@@ -349,31 +349,31 @@ In der folgenden Tabelle sind Links zu Themen aufgeführt, in denen Sie weitere 
 <td><p>Hier erfahren Sie, welche Anforderungen für verknüpfte Postfächer gelten, wie Sie verknüpfte Postfächer erstellen und mit einem Hauptkonto verknüpfen und wie Sie die Eigenschaften verknüpfter Postfächer ändern.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-and-manage-distribution-groups-exchange-2013-help.md">Erstellen und Verwalten von Verteilergruppen</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups">Erstellen und Verwalten von Verteilergruppen</a></p></td>
 <td><p>Hier erfahren Sie, wie Sie Verteilergruppen erstellen und verwalten und eine Gruppenbenennungsrichtlinie für Ihre Organisation erstellen.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-mail-enabled-security-groups-exchange-2013-help.md">Verwalten von E-Mail-aktivierten Sicherheitsgruppen</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups">Verwalten von E-Mail-aktivierten Sicherheitsgruppen</a></p></td>
 <td><p>Hier erfahren Sie, wie Sie E-Mail-aktivierte Sicherheitsgruppen erstellen und verwalten.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-dynamic-distribution-groups-exchange-2013-help.md">Verwalten dynamischer Verteilergruppen</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups">Verwalten dynamischer Verteilergruppen</a></p></td>
 <td><p>Hier erfahren Sie, wie Sie dynamische Verteilergruppen erstellen und deren Eigenschaften verwalten, beispielsweise benutzerdefinierte Attribute und weitere Eigenschaften zum Ermitteln der Gruppenmitgliedschaft.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-mail-contacts-exchange-2013-help.md">Verwalten von E-Mail-Kontakten</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-contacts">Verwalten von E-Mail-Kontakten</a></p></td>
 <td><p>Hier erfahren Sie, wie Sie E-Mail-Kontakte erstellen und verwalten.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-mail-users-exchange-2013-help.md">Verwalten von E-Mail-Benutzern</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-mail-users">Verwalten von E-Mail-Benutzern</a></p></td>
 <td><p>Hier erfahren Sie, wie Sie E-Mail-Benutzer erstellen und verwalten.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="create-and-manage-room-mailboxes-exchange-2013-help.md">Erstellen und Verwalten von Raumpostfächern</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-room-mailboxes">Erstellen und Verwalten von Raumpostfächern</a></p></td>
 <td><p>Hier erfahren Sie, wie Sie Raumpostfächer erstellen und deren Eigenschaften verwalten, beispielsweise die Aktivierung von Besprechungsserien sowie das Konfigurieren von Buchungs- und Planungsoptionen.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-equipment-mailboxes-exchange-2013-help.md">Verwalten von Gerätepostfächern</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-equipment-mailboxes">Verwalten von Gerätepostfächern</a></p></td>
 <td><p>Hier erfahren Sie, wie Sie Gerätepostfächer erstellen, Buchungs- und Planungsoptionen konfigurieren und weitere Postfacheigenschaften verwalten.</p></td>
 </tr>
 <tr class="odd">
@@ -389,7 +389,7 @@ In der folgenden Tabelle sind Links zu Themen aufgeführt, in denen Sie weitere 
 <td><p>Hier erfahren Sie, wie muster- oder benutzerdefinierte Filter mit Befehlen zum Filtern einer Menge von Empfängern verwendet werden.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-permissions-for-recipients-exchange-online-help.md">Verwalten von Berechtigungen für Empfänger</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Verwalten von Berechtigungen für Empfänger</a></p></td>
 <td><p>Hier erfahren Sie, wie Benutzern und Gruppen mithilfe der Exchange-Verwaltungskonsole oder der Shell Berechtigungen zugewiesen werden.</p></td>
 </tr>
 <tr class="odd">

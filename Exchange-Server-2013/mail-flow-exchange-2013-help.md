@@ -173,7 +173,7 @@ In der folgenden Tabelle sind Links zu Themen aufgeführt, in denen Sie weitere 
 <td><p>In Transportprotokollen wird aufgezeichnet, welche Aktionen für Nachrichten ausgeführt werden, während diese über die Transportpipeline übermittelt werden.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-message-approval-exchange-2013-help.md">Verwalten der Nachrichtengenehmigung</a></p></td>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Verwalten der Nachrichtengenehmigung</a></p></td>
 <td><p>Bei moderierten Transporten ist für Nachrichten, die an bestimmte Empfänger gesendet werden, eine Genehmigung erforderlich.</p></td>
 </tr>
 <tr class="even">

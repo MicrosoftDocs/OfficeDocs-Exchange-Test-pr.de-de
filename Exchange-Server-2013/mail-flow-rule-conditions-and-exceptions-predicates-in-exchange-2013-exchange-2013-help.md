@@ -168,7 +168,7 @@ Klicken Sie in der Exchange-Verwaltungskonsole im Abschnitt **Eigenschaften dies
 <td><p><em>HasSenderOverride</em></p>
 <p><em>ExceptIfHasSenderOverride</em></p></td>
 <td><p>N/V</p></td>
-<td><p>Nachrichten, bei denen der Absender ausgewählt hat, eine Data Loss Prevention (DLP)-Richtlinie außer Kraft zu setzen. Weitere Informationen zu DLP-Richtlinien finden Sie unter <a href="technical-overview-of-dlp-data-loss-prevention-in-exchange.md">Verhinderung von Datenverlust</a>.</p></td>
+<td><p>Nachrichten, bei denen der Absender ausgewählt hat, eine Data Loss Prevention (DLP)-Richtlinie außer Kraft zu setzen. Weitere Informationen zu DLP-Richtlinien finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention">Verhinderung von Datenverlust</a>.</p></td>
 <td><p>Exchange 2013 oder höher</p></td>
 </tr>
 <tr class="odd">

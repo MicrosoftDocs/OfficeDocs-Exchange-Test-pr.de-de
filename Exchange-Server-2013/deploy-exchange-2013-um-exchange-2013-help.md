@@ -31,19 +31,19 @@ Nach der Bereitstellung auszuführende Aufgaben für Unified Messaging
 
 Bevor Sie Unified Messaging bereitstellen, sollten Sie sich mit den Konzepten in folgenden Themen vertraut machen:
 
-  - [UM-Wählpläne](um-dial-plans-exchange-2013-help.md)
+  - [UM-Wählpläne](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans)
 
-  - [UM-IP-Gateways](um-ip-gateways-exchange-2013-help.md)
+  - [UM-IP-Gateways](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways)
 
   - [UM-Dienste](um-services-exchange-2013-help.md)
 
-  - [UM-Sammelanschlüsse](um-hunt-groups-exchange-2013-help.md)
+  - [UM-Sammelanschlüsse](https://technet.microsoft.com/de-de/library/Aa995918(v=EXCHG.150))
 
-  - [Automatisches Beantworten und Weiterleiten eingehender Anrufe](automatically-answer-and-route-incoming-calls-exchange-2013-help.md)
+  - [Automatisches Beantworten und Weiterleiten eingehender Anrufe](https://technet.microsoft.com/de-de/library/Bb124724(v=EXCHG.150))
 
-  - [UM-Postfachrichtlinien](um-mailbox-policies-exchange-2013-help.md)
+  - [UM-Postfachrichtlinien](https://technet.microsoft.com/de-de/library/Bb124909(v=EXCHG.150))
 
-  - [Voicemail für Benutzer](voice-mail-for-users-exchange-2013-help.md)
+  - [Voicemail für Benutzer](https://technet.microsoft.com/de-de/library/Aa997885(v=EXCHG.150))
 
 ## Bereitstellen von Unified Messaging
 
@@ -192,7 +192,7 @@ Der Begriff *Sammelanschluss* dient der Bezeichnung einer Gruppe von Nebenstelle
 
 Wenn Sie ein UM-IP-Gateway erstellen und dieses einem UM-Wählplan zuordnen, wird ein UM-Standardsammelanschluss erstellt. Je nach Anzahl der erstellten UM-IP-Gateways können Sie einen anderen UM-Sammelanschluss demselben oder einem anderen UM-IP-Gateway zuordnen.
 
-Wenn Sie einen UM-Sammelanschluss erstellen, aktivieren Sie alle Postfachserver, die im UM-Wählplan angegeben sind, für die Kommunikation mit einem VoIP-Gateway. Weitere Informationen finden Sie unter [UM-Sammelanschlüsse](um-hunt-groups-exchange-2013-help.md).
+Wenn Sie einen UM-Sammelanschluss erstellen, aktivieren Sie alle Postfachserver, die im UM-Wählplan angegeben sind, für die Kommunikation mit einem VoIP-Gateway. Weitere Informationen finden Sie unter [UM-Sammelanschlüsse](https://technet.microsoft.com/de-de/library/Aa995918(v=EXCHG.150)).
 
 ## Erstellen eines UM-Sammelanschlusses
 
@@ -284,7 +284,7 @@ Nach Abschluss einer neuen Installation der Clientzugriffs- und Postfachserver u
 
 ## Aktivieren von Benutzern für Voicemail
 
-Nachdem Sie die VoIP-Gateways oder IP-Nebenstellenanlagen bereitgestellt, die Clientzugriffs- und Postfachserver installiert und die für Unified Messaging erforderlichen Komponenten erstellt haben, müssen Sie die Benutzer für Unified Messaging aktivieren. Weitere Informationen finden Sie unter [Aktivieren eines Benutzers für Voicemail](enable-a-user-for-voice-mail-exchange-2013-help.md).
+Nachdem Sie die VoIP-Gateways oder IP-Nebenstellenanlagen bereitgestellt, die Clientzugriffs- und Postfachserver installiert und die für Unified Messaging erforderlichen Komponenten erstellt haben, müssen Sie die Benutzer für Unified Messaging aktivieren. Weitere Informationen finden Sie unter [Aktivieren eines Benutzers für Voicemail](https://technet.microsoft.com/de-de/library/Bb124147(v=EXCHG.150)).
 
 ## Schützen von Voicemail
 
@@ -300,25 +300,25 @@ Führen Sie folgende Aufgaben aus, um mithilfe von MTLS den SIP- und RTP-Datenve
 
   - Importieren Sie die erforderlichen Zertifikate auf die VoIP-Gateways sowie die IP-Nebenstellenanlagen und Clientzugriffs- und Postfachserver in Ihrer Organisation.
 
-  - Konfigurieren Sie die VoIP-Sicherheit für die UM-Wähleinstellungen. Weitere Informationen finden Sie unter [Konfigurieren der VoIP-Sicherheitseinstellung](configure-the-voip-security-setting-exchange-2013-help.md).
+  - Konfigurieren Sie die VoIP-Sicherheit für die UM-Wähleinstellungen. Weitere Informationen finden Sie unter [Konfigurieren der VoIP-Sicherheitseinstellung](https://technet.microsoft.com/de-de/library/Bb201721(v=EXCHG.150)).
 
   - Konfigurieren Sie den Startmodus auf den Clientzugriffs- und Postfachservern. Ausführliche Informationen finden Sie unter [Konfigurieren des Startmodus auf einem Postfachserver](configure-the-startup-mode-on-a-mailbox-server-exchange-2013-help.md) und [Konfigurieren des Startmodus auf einem Clientzugriffsserver](configure-the-startup-mode-on-a-client-access-server-exchange-2013-help.md).
 
-  - Konfigurieren Sie die UM-IP-Gateways für die Überwachung von Port 5061. Weitere Informationen finden Sie unter [Konfigurieren Sie den Überwachungsport](configure-the-listening-port-exchange-2013-help.md).
+  - Konfigurieren Sie die UM-IP-Gateways für die Überwachung von Port 5061. Weitere Informationen finden Sie unter [Konfigurieren Sie den Überwachungsport](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-listening-port).
 
 ## PIN-Richtlinien für UM-aktivierte Benutzer
 
-In Unified Messaging werden PIN-Richtlinien in einer UM-Postfachrichtlinie festgelegt und konfiguriert. Wenn Sie einen Benutzer für Unified Messaging aktivieren, ordnen Sie den Benutzer einer vorhandenen UM-Postfachrichtlinie zu. Die UM-PIN-Richtlinien, die in der UM-Postfachrichtlinie konfiguriert werden, müssen auf den Sicherheitsanforderungen Ihrer Organisation basieren. Weitere Informationen zum Konfigurieren der PIN-Einstellungen für UM-aktivierte Benutzer finden Sie unter [Festlegen von Outlook Voice Access-PIN-Sicherheit](set-outlook-voice-access-pin-security-exchange-2013-help.md).
+In Unified Messaging werden PIN-Richtlinien in einer UM-Postfachrichtlinie festgelegt und konfiguriert. Wenn Sie einen Benutzer für Unified Messaging aktivieren, ordnen Sie den Benutzer einer vorhandenen UM-Postfachrichtlinie zu. Die UM-PIN-Richtlinien, die in der UM-Postfachrichtlinie konfiguriert werden, müssen auf den Sicherheitsanforderungen Ihrer Organisation basieren. Weitere Informationen zum Konfigurieren der PIN-Einstellungen für UM-aktivierte Benutzer finden Sie unter [Festlegen von Outlook Voice Access-PIN-Sicherheit](https://technet.microsoft.com/de-de/library/Bb125162(v=EXCHG.150)).
 
 ## Einrichten von Client-Voicemailfunktionen
 
 Nachdem Sie Ihre Server und die benötigten UM-Komponenten bereitgestellt haben, können Sie optional weitere voicemailbezogene Funktionen konfigurieren. Weitere Informationen hierzu finden Sie unter folgenden Themen:
 
-  - [Einrichten von Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md)
+  - [Einrichten von Outlook Voice Access](https://technet.microsoft.com/de-de/library/Dd298010(v=EXCHG.150))
 
-  - [Zulassen, dass Voice Mailbenutzer Anrufe weitergeleitet werden sollen](allow-voice-mail-users-to-forward-calls-exchange-2013-help.md)
+  - [Zulassen, dass Voice Mailbenutzer Anrufe weitergeleitet werden sollen](https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-voice-mail-users-to-forward-calls)
 
-  - [Zulassen der Anzeige von Voicemailtranskriptionen für Benutzer](allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md)
+  - [Zulassen der Anzeige von Voicemailtranskriptionen für Benutzer](https://technet.microsoft.com/de-de/library/Ff629381(v=EXCHG.150))
 
   - [Aktivieren von Voicemailbenutzern für den Faxempfang](enable-voice-mail-users-to-receive-faxes-exchange-2013-help.md)
 
