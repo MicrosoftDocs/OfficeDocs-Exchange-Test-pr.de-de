@@ -309,7 +309,9 @@ Beim Erstellen des Offlineadressbuchs sollten Sie die geeignete globale Adressli
 
 In diesem Beispiel wird das Offlineadressbuch "OAB\_FAB" für Fabrikam erstellt.
 
-    New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```powershell
+New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```
 
 Weitere Informationen finden Sie unter [Erstellen eines Offlineadressbuchs](https://docs.microsoft.com/de-de/exchange/address-books/offline-address-books/create-offline-address-book).
 

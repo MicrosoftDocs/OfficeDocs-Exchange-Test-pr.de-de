@@ -87,7 +87,9 @@ In diesem Beispiel wird der Postfachserver `MyMailboxServer` zwei SIP-Wählplän
 
 In diesem Beispiel wird der Clientzugriffsserver `MyClientAccessServer` einem SIP-URI-Wählplan mit der Bezeichnung `MySIPDialPlan` hinzugefügt. Außerdem wird der Startmodus auf den Dualmodus festgelegt. Dies ermöglicht dem Clientzugriffsserver das Akzeptieren von TCP- und TLS-Anforderungen.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```
 
 In diesem Beispiel wird der Clientzugriffsserver `MyClientAccessServer` zu zwei SIP-Wählplänen mit der Bezeichnung `MySIPDialPlan` und `MySIPDialPlan2` hinzugefügt, und der Server kann IPv4- und IPv6-Addressen verwenden.
 

@@ -53,11 +53,15 @@ Sie können die Details einer angegebenen Rolle auch durch Abrufen einer bestimm
 
 Verwenden Sie die folgende Syntax, um die Details einer bestimmten Rolle anzuzeigen.
 
-    Get-ManagementRole <role name> | Format-List
+```powershell
+Get-ManagementRole <role name> | Format-List
+```
 
 In diesem Beispiel werden die Details zur Verwaltungsrolle "E-Mail-Empfänger" abgerufen.
 
-    Get-ManagementRole "Mail Recipients" | Format-List
+```powershell
+Get-ManagementRole "Mail Recipients" | Format-List
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRole](https://technet.microsoft.com/de-de/library/dd351125\(v=exchg.150\)).
 
@@ -67,11 +71,15 @@ Sie können eine Liste aller Verwaltungsrollen in Ihrer Organisation anzeigen, i
 
 In diesem Beispiel wird eine Liste aller Rollen in Ihrer Organisation zurückgegeben.
 
-    Get-ManagementRole
+```powershell
+Get-ManagementRole
+```
 
 Um eine Liste der spezifischen Eigenschaften für alle Rollen in Ihrer Organisation zurückzugeben, können Sie die Ergebnisse des Cmdlets **Format-Table** umleiten und angeben, welche Eigenschaften in der Ergebnisliste enthalten sein sollen. Verwenden Sie die folgende Syntax.
 
-    Get-ManagementRole | Format-Table <property 1>, <property 2...>
+```powershell
+Get-ManagementRole | Format-Table <property 1>, <property 2...>
+```
 
 In diesem Beispiel wird eine Liste aller Rollen in Ihrer Organisation wiedergegeben. Dabei werden die Eigenschaft **Name** und alle Eigenschaften, deren Eigenschaftsname mit dem Wort **Implicit** beginnt, eingeschlossen.
 
@@ -85,11 +93,15 @@ Sie können eine Liste von Rollen zurückgeben, die ein angegebenes Cmdlet entha
 
 Verwenden Sie die folgende Syntax, um eine Liste von Rollen zurückzugeben, die das angegebene Cmdlet enthalten.
 
-    Get-ManagementRole -Cmdlet <cmdlet>
+```powershell
+Get-ManagementRole -Cmdlet <cmdlet>
+```
 
 In diesem Beispiel wird eine Liste von Rollen zurückgegeben, die das Cmdlet **New-Mailbox** enthalten.
 
-    Get-ManagementRole -Cmdlet New-Mailbox
+```powershell
+Get-ManagementRole -Cmdlet New-Mailbox
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRole](https://technet.microsoft.com/de-de/library/dd351125\(v=exchg.150\)).
 
@@ -105,11 +117,15 @@ Verwenden Sie die folgende Syntax, um eine Liste von Rollen zurückzugeben, die 
 
 In diesem Beispiel wird eine Liste von Rollen zurückgegeben, die die Parameter *Database* und *Server* enthalten, unabhängig davon, zu welchen Cmdlets sie gehören.
 
-    Get-ManagementRole -CmdletParameters Database, Server
+```powershell
+Get-ManagementRole -CmdletParameters Database, Server
+```
 
 In diesem Beispiel wird eine Liste von Rollen zurückgegeben, für die der Parameter *EmailAddresses* nur zum Cmdlet **Set-Mailbox** gehört.
 
-    Get-ManagementRole -Cmdlet Set-Mailbox -CmdletParameters EmailAddresses
+```powershell
+Get-ManagementRole -Cmdlet Set-Mailbox -CmdletParameters EmailAddresses
+```
 
 Sie können auch das Platzhalterzeichen (\*) mit dem Parameter *Cmdlet* oder *CmdletParameters* verwenden, um Übereinstimmungen mit Teilen von Cmdlet- oder Parameternamen zu ermitteln.
 
@@ -121,11 +137,15 @@ Sie können eine Liste von Rollen anhand eines angegebenen Rollentyps zurückgeb
 
 Verwenden Sie die folgende Syntax, um eine Liste von Rollen zurückzugeben, die dem angegebenen Rollentyp entsprechen.
 
-    Get-ManagementRole -RoleType <roletype>
+```powershell
+Get-ManagementRole -RoleType <roletype>
+```
 
 In diesem Beispiel wird eine Liste der Rollen vom Rollentyp `UmMailboxes` zurückgegeben.
 
-    Get-ManagementRole -RoleType UmMailboxes
+```powershell
+Get-ManagementRole -RoleType UmMailboxes
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRole](https://technet.microsoft.com/de-de/library/dd351125\(v=exchg.150\)).
 
@@ -135,11 +155,15 @@ Sie können eine Liste von Rollen zurückgeben, die die unmittelbar untergeordne
 
 Verwenden Sie die folgende Syntax, um eine Liste von Rollen zurückzugeben, die die unmittelbar untergeordneten Rollen einer übergeordneten Rolle sind.
 
-    Get-ManagementRole <parent role name> -GetChildren
+```powershell
+Get-ManagementRole <parent role name> -GetChildren
+```
 
 In diesem Beispiel wird eine Liste der unmittelbar untergeordneten Rollen der Rolle "Disaster Recovery" zurückgegeben.
 
-    Get-ManagementRole "Disaster Recovery" -GetChildren
+```powershell
+Get-ManagementRole "Disaster Recovery" -GetChildren
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRole](https://technet.microsoft.com/de-de/library/dd351125\(v=exchg.150\)).
 
@@ -149,11 +173,15 @@ Sie können eine Liste der gesamten Rollenkette von einer angegebenen übergeord
 
 In diesem Beispiel wird eine Liste aller untergeordneten Rollen einer übergeordneten Rolle zurückgegeben.
 
-    Get-ManagementRole <parent role name> -Recurse
+```powershell
+Get-ManagementRole <parent role name> -Recurse
+```
 
 In diesem Beispiel werden alle untergeordneten Rollen der Rolle "Mail Recipients" zurückgegeben.
 
-    Get-ManagementRole "Mail Recipients" -Recurse
+```powershell
+Get-ManagementRole "Mail Recipients" -Recurse
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRole](https://technet.microsoft.com/de-de/library/dd351125\(v=exchg.150\)).
 

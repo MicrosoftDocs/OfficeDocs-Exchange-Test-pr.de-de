@@ -53,13 +53,17 @@ Sie müssen die folgenden zusätzlichen Schritte ausführen, um eines der in die
 
 1.  Öffnen Sie auf dem Clientzugriffsserver Windows PowerShell, und führen Sie dann den folgenden Befehl aus:
     
-        Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+    ```powershell
+Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+```
 
 2.  Führen Sie den Befehl wie beschrieben aus, aber fügen Sie den folgenden Wert hinzu: `-TransportService FrontEnd`.
     
     Führen Sie z. B. den folgenden Befehl aus, um die Transport-Agents im Front-End-Transport-Dienst auf einem Clientzugriffsserver anzuzeigen:
     
-        Get-TransportAgent -TransportService FrontEnd
+    ```powershell
+Get-TransportAgent -TransportService FrontEnd
+```
 
 ## Installieren eines Transport-Agents mithilfe der Shell
 
@@ -85,11 +89,15 @@ Führen Sie den Befehl `Get-TransportAgent` aus, und stellen Sie sicher, dass de
 
 Verwenden Sie die folgende Syntax, um einen Transport-Agent zu aktivieren.
 
-    Enable-TransportAgent <TransportAgentIdentity>
+```powershell
+Enable-TransportAgent <TransportAgentIdentity>
+```
 
 In diesem Beispiel wird der Transport-Agent namens "Contoso Transport Agent" im Transportdienst auf einem Postfachserver aktiviert.
 
-    Enable-TransportAgent "Contoso Transport Agent"
+```powershell
+Enable-TransportAgent "Contoso Transport Agent"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -99,11 +107,15 @@ Führen Sie den Befehl `Get-TransportAgent | Format-List Name,Enabled` aus, und 
 
 Verwenden Sie die folgende Syntax, um einen Transport-Agent zu deaktivieren:
 
-    Disable-TransportAgent <TransportAgentIdentity>
+```powershell
+Disable-TransportAgent <TransportAgentIdentity>
+```
 
 In diesem Beispiel wird der Transport-Agent namens "Fabrikam Transport Agent" im Transportdienst auf einem Postfachserver deaktiviert.
 
-    Disable-TransportAgent "Fabrikam Transport Agent"
+```powershell
+Disable-TransportAgent "Fabrikam Transport Agent"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -113,15 +125,21 @@ Führen Sie den Befehl `Get-TransportAgent | Format-List Name,Enabled` aus und �
 
 Führen Sie zum Anzeigen einer Übersichtsliste aller Transport-Agents den folgenden Befehl aus:
 
-    Get-TransportAgent
+```powershell
+Get-TransportAgent
+```
 
 Führen Sie zum Anzeigen der ausführlichen Konfiguration eines bestimmten Transport-Agents den folgenden Befehl aus:
 
-    Get-TransportAgent <TransportAgentIdentity> | Format-List
+```powershell
+Get-TransportAgent <TransportAgentIdentity> | Format-List
+```
 
 In diesem Beispiel wird die ausführliche Konfiguration des Transport-Agents namens "Transport Rule Agent" bereitgestellt.
 
-    Get-TransportAgent "Transport Rule Agent" | Format-List
+```powershell
+Get-TransportAgent "Transport Rule Agent" | Format-List
+```
 
 ## Konfigurieren der Priorität eines Transport-Agents mithilfe der Shell
 
@@ -129,11 +147,15 @@ Transport-Agents mit einer Priorität, die 0 am nächsten ist, verarbeiten E-Mai
 
 Führen Sie den folgenden Befehl aus, um die Priorität eines vorhandenen Transport-Agents zu ändern:
 
-    Set-TransportAgent <TransportAgentIdentity> -Priority <Integer>
+```powershell
+Set-TransportAgent <TransportAgentIdentity> -Priority <Integer>
+```
 
 In diesem Beispiel wird die Priorität des Agents für den vorhandenen Transport-Agent namens "Contoso Transport Agent" im Transportdienst auf einem Postfachserver auf den Wert "3" festgelegt.
 
-    Set-TransportAgent "Contoso Transport Agent" -Priority 3
+```powershell
+Set-TransportAgent "Contoso Transport Agent" -Priority 3
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -145,11 +167,15 @@ Wenn der Transport-Agent deinstalliert wird, hebt Exchange die Registrierung der
 
 Führen Sie den folgenden Befehl aus, um einen Transport-Agent zu deinstallieren:
 
-    Uninstall-TransportAgent <TransportAgentIdentity>
+```powershell
+Uninstall-TransportAgent <TransportAgentIdentity>
+```
 
 In diesem Beispiel wird der Transport-Agent namens "Fabrikam Transport Agent" im Transportdienst auf einem Postfachserver deinstalliert.
 
-    Uninstall-TransportAgent "Fabrikam Transport Agent"
+```powershell
+Uninstall-TransportAgent "Fabrikam Transport Agent"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

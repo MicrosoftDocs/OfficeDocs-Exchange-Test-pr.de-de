@@ -87,7 +87,9 @@ Wenn Sie bereit sind, gehen Sie wie folgt vor, um Ihr Active Directory-Schema zu
 
 3.  Führen Sie den folgenden Befehl aus, um das Schema zu erweitern.
     
-        Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+    ```powershell
+Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+```
 
 Wenn Setup die Erweiterung des Schemas abgeschlossen hat, müssen Sie warten, während Active Directory die Änderungen auf alle Domänencontroller repliziert. Sie können das Tool `repadmin` verwenden, um zu prüfen, wie die Replikation verläuft. `Repadmin` ist Bestandteil des Tools für die Active Directory-Domänendienste in Windows Server 2012 R2, Windows Server 2012 und Windows Server 2008 R2. Weitere Informationen zur Verwendung des Tools finden Sie unter [Repadmin](https://go.microsoft.com/fwlink/p/?linkid=257879).
 
@@ -149,7 +151,9 @@ Wenn Sie bereit sind, gehen Sie wie folgt vor, um alle Domänen in Ihrer Active 
 
 2.  Führen Sie den folgenden Befehl aus:
     
-        Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+    ```powershell
+Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+```
 
 ## Selber auswählen, welche Active Directory-Domänen vorbereitet werden
 

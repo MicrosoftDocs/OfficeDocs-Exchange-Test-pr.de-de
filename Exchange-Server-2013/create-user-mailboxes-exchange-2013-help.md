@@ -156,7 +156,9 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Erstellung ein
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Informationen zum neuen Benutzerpostfach anzuzeigen.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+```
 
 ## Erstellen eines Postfachs für einen vorhandenen Benutzer
 
@@ -208,13 +210,17 @@ Sie können außerdem Benutzerpostfächer für vorhandene Benutzer erstellen, di
 
 In diesem Beispiel wird ein Postfach für den vorhandenen Benutzer "estherv@contoso.com" in der Exchange-Datenbank "UsersMailboxDatabase" erstellt.
 
-    Enable-Mailbox estherv@contoso.com -Database UsersMailboxDatabase
+```powershell
+Enable-Mailbox estherv@contoso.com -Database UsersMailboxDatabase
+```
 
 Sie können auch das Cmdlet **Enable-Mailbox** verwenden, um mehrere Benutzer gleichzeitig für E-Mail zu aktivieren. Dazu werden die Ergebnisse des Cmdlets **Get-User** per Pipelining an das Cmdlet **Enable-Mailbox** umgeleitet. Wenn Sie das Cmdlet **Get-User** ausführen, dürfen nur Benutzer zurückgegeben werden, die noch nicht für E-Mail aktiviert wurden. Dazu müssen Sie für den Parameter *RecipientTypeDetails* den Wert "User" angeben. Sie können den Umfang der zurückgegebenen Ergebnisse auch begrenzen, indem Sie den Parameter *Filter* verwenden, damit nur Benutzer zurückgegeben werden, die die von Ihnen angegebenen Kriterien erfüllen. Anschließend können Sie das Ergebnis per Pipelining an das Cmdlet **Enable-Mailbox** übermitteln.
 
 Beispielsweise wird mit dem folgenden Befehl die Postfachaktivierung für Benutzer durchgeführt, die noch nicht über eine Postfachaktivierung verfügen und für die in der Eigenschaft **UserPrincipalName** ein Wert enthalten ist. Hiermit kann sichergestellt werden, dass Sie nicht versehentlich ein Systemkonto in ein Postfach konvertieren.
 
-    Get-User -RecipientTypeDetails User -Filter { UserPrincipalName -ne $Null } | Enable-Mailbox
+```powershell
+Get-User -RecipientTypeDetails User -Filter { UserPrincipalName -ne $Null } | Enable-Mailbox
+```
 
 Informationen zu Syntax und Parametern finden Sie unter [Enable-Mailbox](https://technet.microsoft.com/de-de/library/aa998251\(v=exchg.150\)) und [Get-User](https://technet.microsoft.com/de-de/library/aa996896\(v=exchg.150\)).
 
@@ -228,7 +234,9 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Erstellung ein
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Informationen zum neuen Benutzer mit Postfachaktivierung anzuzeigen.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+```
     
     Beachten Sie, dass die Eigenschaft *RecipientTypeDetails* den Wert `UserMailbox` aufweist.
 

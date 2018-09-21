@@ -120,5 +120,7 @@ Führen Sie eine der folgenden Aktionen aus, um zu überprüfen, ob Sie die Post
 
 2.  Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-CASMailbox -Identity tony@contoso.com
+    ```powershell
+Get-CASMailbox -Identity tony@contoso.com
+```
 

@@ -115,7 +115,9 @@ Sie können die Anzahl der Tage, Stunden, Minuten und Sekunden angeben, die Übe
 
 In diesem Beispiel wird eine Verfallszeit von zwei Jahren und sechs Monaten angegeben.
 
-    Set-AdminAuditLogConfig -AdminAuditLogAgeLimit 913.00:00:00
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogAgeLimit 913.00:00:00
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-AdminAuditLogConfig](https://technet.microsoft.com/de-de/library/dd298169\(v=exchg.150\)).
 
@@ -125,11 +127,15 @@ Cmdlets, die mit dem Verb **Test** beginnen, werden nicht standardmäßig protok
 
 Mit diesem Befehl können Sie die Protokollierung von **Test**-Cmdlets aktivieren.
 
-    Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $True
+```powershell
+Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $True
+```
 
 Mit diesem Befehl können Sie die Protokollierung von **Test**-Cmdlets deaktivieren.
 
-    Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $False
+```powershell
+Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $False
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-AdminAuditLogConfig](https://technet.microsoft.com/de-de/library/dd298169\(v=exchg.150\)).
 
@@ -137,17 +143,23 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Admin
 
 Verwenden Sie den folgenden Befehl, um die Administrator-Überwachungsprotokollierung zu deaktivieren.
 
-    Set-AdminAuditLogConfig -AdminAuditLogEnabled $False
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogEnabled $False
+```
 
 ## Aktivieren der Administratorüberwachungsprotokollierung
 
 Verwenden Sie den folgenden Befehl, um die Administrator-Überwachungsprotokollierung zu aktivieren.
 
-    Set-AdminAuditLogConfig -AdminAuditLogEnabled $True
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogEnabled $True
+```
 
 ## Anzeigen der Einstellungen für die Administrator-Überwachungsprotokollierung
 
 Verwenden Sie den folgenden Befehl, um die für Ihre Organisation konfigurierten Einstellungen für die Administrator-Überwachungsprotokollierung anzuzeigen.
 
-    Get-AdminAuditLogConfig
+```powershell
+Get-AdminAuditLogConfig
+```
 

@@ -63,15 +63,21 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
 
 In diesem Beispiel wird der Postfachserver "MBX1" in der DAG "DAG1" hinzugefügt.
 
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```powershell
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
 
 In diesem Beispiel wird der Postfachserver "MBX1" aus der DAG "DAG1" entfernt. Bevor Sie diesen Befehl ausführen, sollten Sie sicherstellen, dass sich auf dem Postfachserver keine replizierten Datenbanken befinden.
 
-    Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```powershell
+Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
 
 In diesem Beispiel werden die Konfigurationseinstellungen für den Postfachserver "MBX4" aus der DAG "DAG2" entfernt. Es wird davon ausgegangen, dass "MBX4" über einen längeren Zeitraum offline ist. Daher wird die zugehörige Konfiguration aus der DAG entfernt, während der Server offline ist, um ein Quorum mit den verbleibenden online geschalteten Mitgliedern der DAG einzurichten.
 
-    Remove-DatabaseAvailabilityGroupServer -Identity DAG2 -MailboxServer MBX4 -ConfigurationOnly
+```powershell
+Remove-DatabaseAvailabilityGroupServer -Identity DAG2 -MailboxServer MBX4 -ConfigurationOnly
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -81,7 +87,9 @@ Führen Sie eine der folgenden Aktionen aus, um zu überprüfen, dass Sie die DA
 
   - Führen Sie den folgenden Befehl in der Shell aus, um DAG-Mitgliedschaftsinformationen anzuzeigen:
     
-        Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+    ```powershell
+Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+```
 
 ## Weitere Informationen
 

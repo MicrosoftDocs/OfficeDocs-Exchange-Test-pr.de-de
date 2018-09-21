@@ -29,7 +29,9 @@ Bei Verwendung des Parameters *ToEntireForest* oder *ToArrayMembers* mit dem Skr
 
 Überprüfen Sie mit dem Cmdlet **Get-ClientAccessArray**, ob das Skript sich auf alle erforderlichen Server bezieht, wie im folgenden Beispiel gezeigt.
 
-    Get-ClientAccessArray | fl members
+```powershell
+Get-ClientAccessArray | fl members
+```
 
 Wenn der Server, der nicht aktualisiert wird, Mitglied des Clientzugriffsserver-Arrays ist und dennoch weiterhin nicht ordnungsgemäß aktualisiert wird, führen Sie Exchange-Setup erneut aus, und fügen Sie dem Server erneut die Clientzugriffs-Serverrolle hinzu. Sie können auch mit dem Parameter *ToSpecificServers* einzelne Server als Ziel angeben.
 
@@ -55,7 +57,9 @@ Entfernen Sie den Server mithilfe von Exchange-Setup aus der Bereitstellung, ode
 
 Wenn der Server nur für kurze Zeit ausfällt und Sie Exchange nicht dauerhaft entfernen möchten, können Sie mithilfe des Parameters *ToSpecificServers* das Skript so anpassen, dass es für bestimmte Server, beispielsweise nur aktive Server, ausgeführt wird. Sie können auch den RPC-Clientzugriffsdienst vom Active Directory-Objekt des nicht reagierenden Servers entfernen. Verwenden Sie dazu das Cmdlet **Remove-ClientAccessArray**, wie im folgenden Beispiel gezeigt wird.
 
-    Remove-RPCClientAccess -Server Server.Contoso.com
+```powershell
+Remove-RPCClientAccess -Server Server.Contoso.com
+```
 
 Nach dem Entfernen des RPC-Clientzugriffsdiensts wird der Server von [Get-ClientAccessArray](https://technet.microsoft.com/de-de/library/dd297976\(v=exchg.150\)) nicht mehr als Arraymitglied zurückgegeben, und das Skript bezieht sich nicht mehr auf ihn. Sobald der Server wieder funktionsfähig ist, können Sie den RPC-Clientzugriffsdienst mit dem Cmdlet **New-RpcClientAccess** wieder hinzufügen. Nach dem erneuten Hinzufügen des RPC-Clientzugriffsdiensts müssen Sie den Microsoft Exchange-Adressbuchdienst auf dem betroffenen Server neu starten.
 

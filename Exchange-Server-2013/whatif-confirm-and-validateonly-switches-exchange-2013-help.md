@@ -43,7 +43,9 @@ Wenn Sie einen Befehl mit dem Parameter *WhatIf* ausführen, fügen Sie den Para
 
 Wenn Sie diesen Beispielbefehl ausführen, wird der folgende Text von der Shell zurückgegeben:
 
-    What if: Creating Accepted Domain "Contoso Domain" with domain name "contoso.com".
+```powershell
+What if: Creating Accepted Domain "Contoso Domain" with domain name "contoso.com".
+```
 
 ## Option "Confirm"
 
@@ -71,7 +73,9 @@ Wenn ein Cmdlet ausgeführt wird, das eines dieser Verben enthält, hält die Sh
 
 Wenn Sie die Option *Confirm* manuell auf einen Befehl anwenden möchten, fügen Sie die Option *Confirm*, wie in folgendem Beispiel gezeigt, am Ende des Befehls ein:
 
-    Get-JournalRule | Enable-JournalRule -Confirm
+```powershell
+Get-JournalRule | Enable-JournalRule -Confirm
+```
 
 Wenn Sie diesen Beispielbefehl ausführen, wird die folgende Bestätigungsaufforderung von der Shell zurückgegeben:
 
@@ -97,7 +101,9 @@ Die Bestätigungsaufforderung bietet folgende Auswahlmöglichkeiten:
 
 Wenn Sie das Standardverhalten der Shell außer Kraft setzen und die Bestätigungsaufforderung für Cmdlets mit diesem Verhalten unterdrücken möchten, können Sie die Option *Confirm* mit dem Wert `$False` eingeben, wie in folgendem Beispiel gezeigt:
 
-    Get-JournalRule | Disable-JournalRule -Confirm:$False
+```powershell
+Get-JournalRule | Disable-JournalRule -Confirm:$False
+```
 
 In diesem Fall wird keine Bestätigungsaufforderung angezeigt.
 

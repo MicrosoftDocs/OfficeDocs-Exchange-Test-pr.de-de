@@ -40,7 +40,9 @@ Das folgende Beispiel zeigt die Verwendung des Parameters *Identity* unter Verwe
 
 Wie auf alle Objekte in Exchange 2013 kann auf diesen Empfangsconnector auch durch seine eindeutige GUID verwiesen werden. Wenn dem Empfangsconnector namens `"From the Internet"` auch die GUID `63d64005-42c5-4f8f-b310-14f6cb125bf3` zugewiesen wurde, können Sie den Empfangsconnector z. B. auch über den folgenden Befehl abrufen:
 
-    Get-ReceiveConnector 63d64005-42c5-4f8f-b310-14f6cb125bf3
+```powershell
+Get-ReceiveConnector 63d64005-42c5-4f8f-b310-14f6cb125bf3
+```
 
 Zurück zum Seitenanfang
 
@@ -70,7 +72,9 @@ Die Beispiele in diesem Abschnitt beziehen sich auf die Benachrichtigungen über
 
 Sie können diese DSN-Nachricht auch mithilfe ihrer GUID abrufen, wie das folgende Beispiel zeigt, weil alle Objekte in Exchange 2013 eine GUID besitzen:
 
-    Get-SystemMessage 82ca7bde-1c2d-4aa1-97e1-f298a6f10222
+```powershell
+Get-SystemMessage 82ca7bde-1c2d-4aa1-97e1-f298a6f10222
+```
 
 Weitere Informationen zum Parameter *Identity* und seine Verwendung mit den **SystemMessage**-Cmdlets finden Sie unter [DSN-Nachrichtenidentität](dsn-message-identity-exchange-2013-help.md).
 

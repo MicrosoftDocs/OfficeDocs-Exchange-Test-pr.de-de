@@ -119,7 +119,9 @@ In diesem Beispiel wird eine globale Überschreibung hinzugefügt, die den `Stor
 
 Um zu überprüfen, ob die globale Serverüberschreibung erfolgreich erstellt wurde, verwenden Sie das Cmdlet **Get-GlobalMonitoringOverride** zum Anzeigen der Liste mit globalen Überschreibungen:
 
-    Get-GlobalMonitoringOverride
+```powershell
+Get-GlobalMonitoringOverride
+```
 
 Die Überschreibung sollte in der Liste angezeigt werden.
 
@@ -137,7 +139,9 @@ In diesem Beispiel wird die vorhandene globale Überschreibung der `ExtensionAtt
 
 Um zu überprüfen, ob die globale Serverüberschreibung erfolgreich entfernt wurde, verwenden Sie das Cmdlet **Get-GlobalMonitoringOverride** zum Anzeigen der Liste mit globalen Überschreibungen:
 
-    Get-GlobalMonitoringOverride
+```powershell
+Get-GlobalMonitoringOverride
+```
 
 Die entfernte Überschreibung sollte nicht mehr in der Liste angezeigt werden.
 

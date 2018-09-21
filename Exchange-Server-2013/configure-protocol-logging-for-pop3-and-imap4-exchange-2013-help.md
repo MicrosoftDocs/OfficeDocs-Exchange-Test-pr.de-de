@@ -87,17 +87,23 @@ Führen Sie die Cmdlets **Set-ImapSettings** oder **Set-PopSettings** mit mindes
     
     Diese Einstellung wird nur angewendet, wenn der Wert für den Parameter *LogPerFileSizeQuota* auf Null festgelegt ist. In diesem Beispiel wird die POP3-Protokollierung auf dem Clientzugriffsserver "CAS01" geändert, um stündlich eine neue Protokolldatei zu erstellen.
     
-        Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 0 -LogFileRollOverSettings Hourly
+    ```powershell
+Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 0 -LogFileRollOverSettings Hourly
+```
 
   - *LogPerFileSizeQuota*   Dieser Parameter definiert die maximale Größe einer POP3- oder IMAP4-Protokolldatei in Bytes. Standardmäßig ist dieser Wert auf Null festgelegt. Ist dieser Wert auf Null festgelegt, wird entsprechend der über den Parameter *LogFileRollOverSettings* festgelegten Häufigkeit eine neue Protokolldatei erstellt.
     
     In diesem Beispiel wird die POP3-Protokollierung auf dem Clientzugriffsserver "CAS01" geändert, um eine neue Protokolldatei zu erstellen, wenn die Protokolldatei eine Größe von 2 MB erreicht.
     
-        Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 2000000
+    ```powershell
+Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 2000000
+```
     
     In diesem Beispiel wird die POP3-Protokollierung auf dem Clientzugriffsserver "CAS01" geändert, um dieselbe Protokolldatei unabhängig von ihrem Erstellungsdatum und ihrer Größe zu verwenden.
     
-        Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota unlimited
+    ```powershell
+Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota unlimited
+```
 
 
 > [!NOTE]
@@ -111,11 +117,15 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ImapS
 
 Überprüfen Sie mithilfe des folgenden Befehls in der Shell die Einstellungen für die POP3-Protokollierung. Wenn die POP3-Protokollierung aktiviert ist, ist der Wert für den Parameter *ProtocolLogEnabled* auf `True` festgelegt. Wenn die POP3-Protokollierung deaktiviert ist, lautet der Wert `False`. Sie können auch sicherstellen, dass die Werte für die Parameter *LogFileLocation*, *LogPerFileSizeQuota* und *LogFileRollOverSettings* richtig sind.
 
-    Get-PopSettings | format-list
+```powershell
+Get-PopSettings | format-list
+```
 
 Überprüfen Sie mithilfe des folgenden Befehls in der Shell die Einstellungen für die IMAP4-Protokollierung. Wenn die IMAP4-Protokollierung aktiviert ist, ist der Wert für den Parameter *ProtocolLogEnabled* auf `True` festgelegt. Wenn die IMAP4-Protokollierung deaktiviert ist, lautet der Wert `False`. Sie können auch sicherstellen, dass die Werte für die Parameter *LogFileLocation*, *LogPerFileSizeQuota* und *LogFileRollOverSettings* richtig sind.
 
-    Get-ImapSettings | format-list
+```powershell
+Get-ImapSettings | format-list
+```
 
 ## Weitere Informationen
 

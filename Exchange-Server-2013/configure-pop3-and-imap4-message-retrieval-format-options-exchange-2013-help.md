@@ -71,7 +71,9 @@ Nachdem Sie die Einstellungen für das Nachrichtenabrufformat für POP3 festgele
 
 In diesem Beispiel wird die Option für das Nachrichtenabrufformat für alle POP3-Benutzer auf dem Server "CAS01" auf "Nur Text" festgelegt.
 
-    Set-PopSettings -Identity CAS01 -MessageRetrievalMimeFormat TextOnly
+```powershell
+Set-PopSettings -Identity CAS01 -MessageRetrievalMimeFormat TextOnly
+```
 
 Es stehen folgende Einstellungen zur Auswahl. Sie können den Wert für den Parameter *MessageRetrievalMimeFormat* festlegen, indem Sie einen numerischen Wert oder eine Textzeichenfolge verwenden.
 
@@ -128,7 +130,9 @@ Gehen Sie wie folgt vor, um die erfolgreiche Konfiguration der Einstellungen fü
 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
-        Get-PopSettings | format-list
+    ```powershell
+Get-PopSettings | format-list
+```
 
 2.  Vergewissern Sie sich, dass die *MessageRetrievalMimeFormat*-Einstellungen korrekt sind.
 
@@ -166,7 +170,9 @@ Nachdem Sie die Einstellungen für das Nachrichtenabrufformat für IMAP4 festgel
 
 In diesem Beispiel wird die Option für das Nachrichtenabrufformat für alle IMAP4-Benutzer auf dem Server "CAS01" auf "Nur Text" festgelegt.
 
-    Set-ImapSettings -Identity CAS01 -MessageRetrievalMimeFormat TextOnly
+```powershell
+Set-ImapSettings -Identity CAS01 -MessageRetrievalMimeFormat TextOnly
+```
 
 Es stehen folgende Einstellungen zur Auswahl. Sie können den Wert für den Parameter *MessageRetrievalMimeFormat* festlegen, indem Sie einen numerischen Wert oder eine Textzeichenfolge verwenden.
 
@@ -223,7 +229,9 @@ Gehen Sie wie folgt vor, um die erfolgreiche Konfiguration der Einstellungen fü
 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
-        Get-ImapSettings | format-list
+    ```powershell
+Get-ImapSettings | format-list
+```
 
 2.  Vergewissern Sie sich, dass die *MessageRetrievalMimeFormat*-Einstellungen korrekt sind.
 
@@ -233,7 +241,9 @@ Gehen Sie wie folgt vor, um die erfolgreiche Konfiguration der Einstellungen fü
 
 In diesem Beispiel wird das Nachrichtenabrufformat für den POP3-Zugriff für `USER01` auf "Nur Text" festgelegt.
 
-    Set-CASMailbox -Identity USER01 -PopMessagesRetrievalMimeFormat TextOnly
+```powershell
+Set-CASMailbox -Identity USER01 -PopMessagesRetrievalMimeFormat TextOnly
+```
 
 Es stehen folgende Einstellungen zur Auswahl. Sie können den Wert für den Parameter *PopMessagesRetrievalMimeFormat* festlegen, indem Sie einen numerischen Wert oder eine Textzeichenfolge verwenden.
 
@@ -290,7 +300,9 @@ Gehen Sie wie folgt vor, um die erfolgreiche Konfiguration der Optionen für den
 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
-        Get-CAS Mailbox <identity> | format-list
+    ```powershell
+Get-CAS Mailbox <identity> | format-list
+```
 
 2.  Überprüfen Sie, ob der Wert für *PopMessagesRetrievalMimeFormat* richtig ist.
 
@@ -300,7 +312,9 @@ Gehen Sie wie folgt vor, um die erfolgreiche Konfiguration der Optionen für den
 
 In diesem Beispiel wird das Nachrichtenabrufformat für den IMAP4-Zugriff für `USER01` auf "Nur Text" festgelegt.
 
-    Set-CASMailbox -Identity USER01 -ImapMessagesRetrievalMimeFormat TextOnly
+```powershell
+Set-CASMailbox -Identity USER01 -ImapMessagesRetrievalMimeFormat TextOnly
+```
 
 Sie können den Wert für den Parameter *ImapMessagesRetrievalMimeFormat* festlegen, indem Sie einen numerischen Wert oder eine Textzeichenfolge verwenden.
 
@@ -357,7 +371,9 @@ Gehen Sie wie folgt vor, um die erfolgreiche Konfiguration der Optionen für den
 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
-        Get-CAS Mailbox <identity> | format-list
+    ```powershell
+Get-CAS Mailbox <identity> | format-list
+```
 
 2.  Überprüfen Sie, ob der Wert für *ImapMessagesRetrievalMimeFormat* richtig ist.
 

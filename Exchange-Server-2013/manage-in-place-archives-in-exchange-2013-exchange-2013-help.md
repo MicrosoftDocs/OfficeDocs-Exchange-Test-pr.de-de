@@ -124,7 +124,9 @@ Sie können auch Archive für vorhandene Benutzer erstellen, die über ein Postf
 
 In diesem Beispiel wird das Archiv für das Postfach von Tony Smith aktiviert.
 
-    Enable-Mailbox "Tony Smith" -Archive
+```powershell
+Enable-Mailbox "Tony Smith" -Archive
+```
 
 In diesem Beispiel werden Postfächer in der Datenbank "DB01" abgerufen, für die weder ein lokales noch ein cloudbasiertes Archiv aktiviert ist und deren Name nicht mit "DiscoverySearchMailbox" beginnt. Das Ergebnis wird mittels Pipe an das Cmdlet **Enable-Mailbox** übergeben, um ein Archiv für alle Postfächer in der Postfachdatenbank "DB01" zu aktivieren.
 
@@ -174,7 +176,9 @@ Wenn Sie das lokale Archiv wieder mit dem Postfach verbinden möchten, können S
 
 In diesem Beispiel wird das Archiv für das Postfach von Chris Ashton deaktiviert. Das Postfach wird nicht deaktiviert.
 
-    Disable-Mailbox -Identity "Chris Ashton" -Archive
+```powershell
+Disable-Mailbox -Identity "Chris Ashton" -Archive
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Disable-Mailbox](https://technet.microsoft.com/de-de/library/aa997210\(v=exchg.150\)).
 

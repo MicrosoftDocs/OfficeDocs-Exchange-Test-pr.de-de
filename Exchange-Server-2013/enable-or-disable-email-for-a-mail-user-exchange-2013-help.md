@@ -65,7 +65,9 @@ Der E-Mail-Benutzer wird aus der Kontaktliste entfernt.
 
 In diesem Beispiel werden E-Mails für den E-Mail-Benutzer Yan Li deaktiviert.
 
-    Disable-MailUser -Identity "Yan Li"
+```powershell
+Disable-MailUser -Identity "Yan Li"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Disable-MailUser](https://technet.microsoft.com/de-de/library/aa998578\(v=exchg.150\)).
 
@@ -79,13 +81,17 @@ Gehen Sie wie folgt vor, um die erfolgreiche Deaktivierung von E-Mails für eine
 
 3.  Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-MailUser
+    ```powershell
+Get-MailUser
+```
     
     Der E-Mail-Benutzer, für den Sie E-Mails deaktiviert haben, wird nicht in den Ergebnissen zurückgegeben, da mit diesem Cmdlet nur E-Mail-aktivierte Benutzer zurückgegeben werden.
 
 4.  Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-User
+    ```powershell
+Get-User
+```
     
     Der E-Mail-Benutzer, für den Sie E-Mails deaktiviert haben, wird in den Ergebnissen zurückgegeben, da mit diesem Cmdlet alle Active Directory-Benutzerobjekte zurückgegeben werden.
 
@@ -97,7 +103,9 @@ Sie können das Cmdlet **Enable-MailUser** verwenden, um einen vorhandenen Activ
 
 In diesem Beispiel wird der Benutzer Sanjay Shah für E-Mails aktiviert. Sie müssen eine externe E-Mail-Adresse angeben.
 
-    Enable-MailUser -Identity "Sanjay Shah" -ExternalEmailAddress renev@tailspintoys.com
+```powershell
+Enable-MailUser -Identity "Sanjay Shah" -ExternalEmailAddress renev@tailspintoys.com
+```
 
 ## Aktivieren mehrerer Benutzer für E-Mails mithilfe der Shell und einer CSV-Datei
 
@@ -161,5 +169,7 @@ Gehen Sie wie folgt vor, um die erfolgreiche E-Mail-Aktivierung von Active Direc
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Informationen zu neuen E-Mail-Benutzern anzuzeigen.
     
-        Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```powershell
+Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+```
 

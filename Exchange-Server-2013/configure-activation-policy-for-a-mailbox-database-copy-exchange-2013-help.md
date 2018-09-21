@@ -65,15 +65,21 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-M
 
 In diesem Beispiel werden die Datenbankkopien auf MBX2 so konfiguriert, dass sie für die Aktivierung gesperrt sind.
 
-    Set-MailboxServer -Identity MBX2 -DatabaseCopyAutoActivationPolicy Blocked
+```powershell
+Set-MailboxServer -Identity MBX2 -DatabaseCopyAutoActivationPolicy Blocked
+```
 
 In diesem Beispiel werden die Datenbankkopien auf MBX3 so konfiguriert, dass sie für die Aktivierung außerhalb des Standorts gesperrt sind.
 
-    Set-MailboxServer -Identity MBX3 -DatabaseCopyAutoActivationPolicy IntrasiteOnly
+```powershell
+Set-MailboxServer -Identity MBX3 -DatabaseCopyAutoActivationPolicy IntrasiteOnly
+```
 
 In diesem Beispiel werden die Datenbankkopien auf MBX4 so konfiguriert, dass Aktivierungssperre aufgehoben wird.
 
-    Set-MailboxServer -Identity MBX4 -DatabaseCopyAutoActivationPolicy Unrestricted
+```powershell
+Set-MailboxServer -Identity MBX4 -DatabaseCopyAutoActivationPolicy Unrestricted
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd351074\(v=exchg.150\)), [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd335220\(v=exchg.150\)) oder [Set-MailboxServer](https://technet.microsoft.com/de-de/library/aa998651\(v=exchg.150\)).
 
@@ -83,9 +89,13 @@ Gehen Sie wie folgt vor, um die erfolgreiche Konfiguration der Aktivierungsricht
 
   - Führen Sie in der Shell den folgenden Befehl aus, um die Aktivierungseinstellungen für eine Datenbankkopie zu überprüfen:
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
+```
 
   - Führen Sie in der Shell den folgenden Befehl aus, um die Aktivierungseinstellungen für ein DAG-Mitglied zu überprüfen:
     
-        Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
+    ```powershell
+Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
+```
 

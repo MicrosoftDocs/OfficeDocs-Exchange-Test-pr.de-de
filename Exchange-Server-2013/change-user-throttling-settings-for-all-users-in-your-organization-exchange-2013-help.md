@@ -43,7 +43,9 @@ Wenn Sie die Einschränkungseinstellungen für alle Benutzer in Ihrer Organisati
 
 In diesem Beispiel wird eine Einschränkungsrichtlinie erstellt, die für alle Benutzer in Ihrer Organisation gilt. Alle von Ihnen ausgelassenen Parameter erben die Werte der Standardeinschränkungsrichtlinie "GlobalThrottlingPolicy".
 
-    New-ThrottlingPolicy -Name AllUsersEWSPolicy EwsMaxConcurrency 4 -ThrottlingPolicyScope Organization
+```powershell
+New-ThrottlingPolicy -Name AllUsersEWSPolicy EwsMaxConcurrency 4 -ThrottlingPolicyScope Organization
+```
 
 Weitere Informationen zu Syntax und Parametern finden Sie unter [New-ThrottlingPolicy](https://technet.microsoft.com/de-de/library/dd351045\(v=exchg.150\)).
 
@@ -53,13 +55,17 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Einschränkungsricht
 
 1.  Führen Sie den folgenden Befehl aus.
     
-        Get-ThrottlingPolicy | Format-List
+    ```powershell
+Get-ThrottlingPolicy | Format-List
+```
 
 2.  Überprüfen Sie, ob die Einschränkungsrichtlinie "Organization", die Sie zuvor erstellt haben, in der Spalte enthalten ist, die das Objekt "GlobalThrottlingPolicy" enthält.
 
 3.  Führen Sie den folgenden Befehl aus.
     
-        Get-ThrottlingPolicy | Format-List
+    ```powershell
+Get-ThrottlingPolicy | Format-List
+```
 
 4.  Prüfen Sie, ob die Eigenschaften der neuen Richtlinie "Organization" Ihren konfigurierten Werten entspricht.
 

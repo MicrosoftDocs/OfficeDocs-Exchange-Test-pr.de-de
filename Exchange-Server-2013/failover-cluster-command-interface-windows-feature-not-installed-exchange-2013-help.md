@@ -33,7 +33,9 @@ Führen Sie die folgenden Schritte durch, um die Windows-Funktion auf diesem Com
 
 2.  Führen Sie den folgenden Befehl aus, um die erforderliche Windows-Funktion zu installieren.
     
-        Install-WindowsFeature RSAT-Clustering-CmdInterface
+    ```powershell
+Install-WindowsFeature RSAT-Clustering-CmdInterface
+```
 
 Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542) oder [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=285351).
 

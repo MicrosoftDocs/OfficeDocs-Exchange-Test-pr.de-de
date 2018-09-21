@@ -249,7 +249,9 @@ Zur Verwendung des Skripts speichern Sie dieses auf dem Computer, auf dem es aus
 
 Für das Skript `Out-Ie` wird davon ausgegangen, dass es sich bei den erhaltenen Daten um gültige HTML-Daten handelt. Zur Umwandlung der anzuzeigenden Daten in das HTML-Format müssen die Ergebnisse des Befehls mittels Pipe an das Cmdlet **ConvertTo-Html** übergeben werden. Die Ergebnisse des Befehls können dann mittels Pipe an das Skript `Out-Ie` übergeben werden. Im folgenden Beispiel wird gezeigt, wie eine Verzeichnisauflistung in einem Internet Explorer-Fenster angezeigt wird:
 
-    Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```powershell
+Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```
 
 ## Filtern von Daten
 

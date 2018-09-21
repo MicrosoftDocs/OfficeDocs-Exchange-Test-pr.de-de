@@ -61,7 +61,9 @@ _**Letztes Änderungsdatum des Themas:** 2014-12-16_
     
     Verwenden Sie zum Aktivieren der Prioritätswarteschlange im Transportdienst auf dem Postfachserver den folgenden Wert:
     
-        <add key="PriorityQueuingEnabled" value="true" />
+    ```command line
+<add key="PriorityQueuingEnabled" value="true" />
+```
     
     Konfigurieren Sie die übrigen Werte für Prioritätswarteschlangen, oder behalten Sie die Standardwerte bei.
 

@@ -97,7 +97,9 @@ Wenn Sie eine Rollengruppe mit den Berechtigungen haben, die Sie Benutzern ertei
 
 1.  Verwenden Sie die folgende Syntax, um die Rollengruppe, die Sie kopieren möchten, in einer Variablen zu speichern.
     
-        $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```powershell
+$RoleGroup = Get-RoleGroup <name of role group to copy>
+```
 
 2.  Verwenden Sie die folgende Syntax, um die neue Rollengruppe zu erstellen, der Rollengruppe Mitglieder hinzuzufügen und anzugeben, wer die neue Rollengruppe an andere Benutzer delegieren kann.
     
@@ -116,7 +118,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-RoleG
 
 1.  Verwenden Sie die folgende Syntax, um die Rollengruppe, die Sie kopieren möchten, in einer Variablen zu speichern.
     
-        $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```powershell
+$RoleGroup = Get-RoleGroup <name of role group to copy>
+```
 
 2.  Verwenden Sie die folgende Syntax, um die neue Rollengruppe mit einem benutzerdefinierten Bereich zu erstellen.
     
@@ -137,7 +141,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-RoleG
 
 1.  Verwenden Sie die folgende Syntax, um die Rollengruppe, die Sie kopieren möchten, in einer Variablen zu speichern.
     
-        $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```powershell
+$RoleGroup = Get-RoleGroup <name of role group to copy>
+```
 
 2.  Verwenden Sie die folgende Syntax, um die neue Rollengruppe mit einem benutzerdefinierten Bereich zu erstellen.
     
@@ -220,11 +226,15 @@ Sie können eine Rollenzuweisung ohne Bereich zwischen einer Rolle und einer Rol
 
 Verwenden Sie die folgende Syntax zum Zuweisen einer Rolle ohne Bereich zu einer Rollengruppe. Wenn Sie keinen Namen für die Rollenzuweisung angeben, wird automatisch ein Name erstellt.
 
-    New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name>
+```powershell
+New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name>
+```
 
 In diesem Beispiel wird die Verwaltungsrolle Transportregeln der Rollengruppe "Seattle Compliance" zugewiesen.
 
-    New-ManagementRoleAssignment -SecurityGroup "Seattle Compliance" -Role "Transport Rules"
+```powershell
+New-ManagementRoleAssignment -SecurityGroup "Seattle Compliance" -Role "Transport Rules"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -450,7 +460,9 @@ Wenn Sie den Bereich einer Rollenzuweisung zwischen einer Rollengruppe und einer
 
 1.  Verwenden Sie den folgenden Befehl, um die Namen aller Rollenzuweisungen für eine Rollengruppe zu ermitteln. Indem Sie die Verwaltungsrollenzuweisungen mithilfe des Pipelinings an das Cmdlet **Format-List** übergeben, können Sie den vollständigen Namen der Zuweisung anzeigen.
     
-        Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-List Name
+    ```powershell
+Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-List Name
+```
 
 2.  Ermitteln Sie den Namen der Rollenzuweisung, die Sie ändern möchten. Verwenden Sie den Namen der Rollenzuweisung im nächsten Schritt.
 
@@ -506,7 +518,9 @@ Sie verwenden den Parameter *ManagedBy* für das Cmdlet **Set-RoleGroup**, um di
 
 1.  Speichern Sie die Rollengruppe mit dem folgenden Befehl in einer Variablen.
     
-        $RoleGroup = Get-RoleGroup <role group name>
+    ```powershell
+$RoleGroup = Get-RoleGroup <role group name>
+```
 
 2.  Fügen Sie mit dem folgenden Befehl den Stellvertreter zu der in der Variablen gespeicherten Rollengruppe hinzu.
     
@@ -522,7 +536,9 @@ Sie verwenden den Parameter *ManagedBy* für das Cmdlet **Set-RoleGroup**, um di
 
 4.  Wenden Sie die neue Liste der Stellvertreter mithilfe des folgenden Befehls auf die eigentliche Rollengruppe an.
     
-        Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```powershell
+Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+```
 
 In diesem Beispiel wird der Benutzer David Strome als Stellvertreter der Rollengruppe Organisationsverwaltung hinzugefügt.
 
@@ -538,7 +554,9 @@ Sie verwenden den Parameter *ManagedBy* für das Cmdlet **Set-RoleGroup**, um di
 
 1.  Speichern Sie die Rollengruppe mit dem folgenden Befehl in einer Variablen.
     
-        $RoleGroup = Get-RoleGroup <role group name>
+    ```powershell
+$RoleGroup = Get-RoleGroup <role group name>
+```
 
 2.  Entfernen Sie mit dem folgenden Befehl den Stellvertreter aus der in der Variablen gespeicherten Rollengruppe.
     
@@ -554,7 +572,9 @@ Sie verwenden den Parameter *ManagedBy* für das Cmdlet **Set-RoleGroup**, um di
 
 4.  Wenden Sie die neue Liste der Stellvertreter mithilfe des folgenden Befehls auf die eigentliche Rollengruppe an.
     
-        Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```powershell
+Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+```
 
 In diesem Beispiel wird der Benutzer David Strome als Stellvertreter der Rollengruppe Organisationsverwaltung entfernt.
 
@@ -570,7 +590,9 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass die Stellvertretungsliste für
 
 1.  Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-RoleGroup <role group name> | Format-List ManagedBy
+    ```powershell
+Get-RoleGroup <role group name> | Format-List ManagedBy
+```
 
 2.  Vergewissern Sie sich, dass in der Liste, die für die Eigenschaft *ManagedBy* erstellt wurde, nur Stellvertretungen enthalten sind, die die Rollengruppe verwalten dürfen.
 

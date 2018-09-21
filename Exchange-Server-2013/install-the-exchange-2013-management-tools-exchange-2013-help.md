@@ -125,7 +125,9 @@ Weitere Informationen zum Verwalten von Exchange 2013 finden Sie unter [Exchange
     > Wenn die Benutzerkontensteuerung aktiviert ist, müssen Sie <CODE>Setup.exe</CODE> über eine Eingabeaufforderung mit erhöhten Rechten ausführen.
 
     
-        Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
+    ```powershell
+Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
+```
 
 Weitere Informationen finden Sie unter [Installieren von Exchange 2013 im unbeaufsichtigten Modus](install-exchange-2013-using-unattended-mode-exchange-2013-help.md).
 

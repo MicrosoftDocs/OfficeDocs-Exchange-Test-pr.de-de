@@ -65,7 +65,9 @@ Sie wissen, dass dieser Schritt ordnungsgemäß ausgeführt wurde, wenn die Skri
 
 Führen Sie den folgenden Befehl aus:
 
-    Restart-Service MSExchangeTransport
+```powershell
+Restart-Service MSExchangeTransport
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 
@@ -77,11 +79,15 @@ Sie müssen die IP-Adresse eines beliebigen internen SMTP-Servers angeben, der d
 
 Führen Sie den folgenden Befehl aus, um die IP-Adressen interner SMTP-Server hinzuzufügen, ohne vorhandene Werte zu beeinflussen:
 
-    Set-TransportConfig -InternalSMTPServers @{Add="<ip address1>","<ip address2>"...}
+```powershell
+Set-TransportConfig -InternalSMTPServers @{Add="<ip address1>","<ip address2>"...}
+```
 
 In diesem Beispiel werden die internen SMTP-Serveradressen 10.0.1.10 und 10.0.1.11 zur Transportkonfiguration der Organisation hinzugefügt.
 
-    Set-TransportConfig -InternalSMTPServers @{Add="10.0.1.10","10.0.1.11"}
+```powershell
+Set-TransportConfig -InternalSMTPServers @{Add="10.0.1.10","10.0.1.11"}
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 
@@ -89,7 +95,9 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass die IP-Adresse von mindestens 
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-TransportConfig | Format-List InternalSMTPServers
+    ```powershell
+Get-TransportConfig | Format-List InternalSMTPServers
+```
 
 2.  Vergewissern Sie sich, dass die IP-Adresse von mindestens einem gültigen internen SMTP-Server angezeigt wird.
 

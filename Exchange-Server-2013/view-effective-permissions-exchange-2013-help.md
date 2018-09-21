@@ -53,11 +53,15 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit d
 
 Verwenden Sie die folgende Syntax, um alle Benutzer aufzulisten, denen die Berechtigungen erteilt sind, die von einer Verwaltungsrolle bereitgestellt werden.
 
-    Get-ManagementRoleAssignment -Role <role name> -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment -Role <role name> -GetEffectiveUsers
+```
 
 In diesem Beispiel werden alle Benutzer aufgelistet, denen die Berechtigungen der Rolle "E-Mail-Empfänger" gewährt wurden.
 
-    Get-ManagementRoleAssignment -Role "Mail Recipients" -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment -Role "Mail Recipients" -GetEffectiveUsers
+```
 
 Wenn Sie die in der Liste zurückgegebenen Eigenschaften ändern oder die Liste in eine durch Trennzeichen getrennte Datei (Comma-Separated Value, CSV) exportieren möchten, finden Sie weitere Informationen im Abschnitt Anpassen und Anzeigen der Ausgabe mithilfe der Shell weiter unten in diesem Thema.
 
@@ -85,7 +89,9 @@ Um alle Rollen zu ermitteln, über die einem Benutzer Berechtigungen gewährt we
 
 In diesem Beispiel werden alle Rollenzuweisungen ermittelt, die dem Benutzer Kim Akers Berechtigungen gewähren.
 
-    Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "Kim Akers" }
+```powershell
+Get-ManagementRoleAssignment -GetEffectiveUsers | Where {     Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "Kim Akers" }.EffectiveUserName -Eq "Kim Akers" }
+```
 
 Weitere Informationen zum Ändern, welche Eigenschaften in der Liste zurückgegeben werden, oder zum Exportieren der Liste in eine CSV-Datei finden Sie unter Anpassen und Anzeigen der Ausgabe mithilfe der Shell weiter unten in diesem Thema.
 

@@ -138,11 +138,15 @@ Wie aus der obigen Tabelle hervorgeht, werden bei den für die Replikationsnetzw
 
 Für die Routingkonfiguration für die Replikationsnetzwerkkarte auf "MBX1" und "MBX2" wurde auf jedem Server der folgende Befehl ausgeführt.
 
-    netsh interface ipv4 add route 10.0.2.0/24 <NetworkName> 10.0.1.254
+```powershell
+netsh interface ipv4 add route 10.0.2.0/24 <NetworkName> 10.0.1.254
+```
 
 Für die Routingkonfiguration für die Replikationsnetzwerkkarte auf "MBX3" und "MBX4" wurde auf jedem Server der folgende Befehl ausgeführt.
 
-    netsh interface ipv4 add route 10.0.1.0/24 <NetworkName> 10.0.2.254
+```powershell
+netsh interface ipv4 add route 10.0.1.0/24 <NetworkName> 10.0.2.254
+```
 
 Außerdem wurden die folgenden weiteren Netzwerkeinstellungen konfiguriert:
 
@@ -189,7 +193,9 @@ Mit dem oben aufgeführten Befehl wird die DAG "DAG1" für die Verwendung eines 
 
 Mit den obigen Befehlen wird der DAG jeweils ein Postfachserver hinzugefügt. Mit diesen Befehlen wird auch die Failoverclusteringkomponente von Windows auf jedem Postfachserver installiert (falls noch nicht geschehen), ein Failovercluster erstellt und jeder Postfachserver mit dem neu erstellten Cluster verbunden.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```
 
 Mit dem obigen Befehl wird für die DAG der DAC-Modus aktiviert.
 

@@ -85,11 +85,15 @@ Nach der Installation der oben aufgeführten Software führen Sie die folgenden 
     
       - Führen Sie auf einem Computer mit Windows Server 2012 R2 oder Windows Server 2012 den folgenden Befehl aus.
         
-            Install-WindowsFeature RSAT-ADDS
+        ```powershell
+Install-WindowsFeature RSAT-ADDS
+```
     
       - Führen Sie auf einem Computer mit Windows Server 2008 R2 SP1 den folgenden Befehl aus.
         
-            Add-WindowsFeature RSAT-ADDS
+        ```powershell
+Add-WindowsFeature RSAT-ADDS
+```
 
 ## Voraussetzungen für Windows Server 2012 R2 und Windows Server 2012
 
@@ -137,7 +141,9 @@ Gehen Sie folgendermaßen vor, um die erforderlichen Windows-Rollen und -Feature
 
 2.  Führen Sie den folgenden Befehl aus, um die erforderlichen Windows-Komponenten zu installieren.
     
-        Install-WindowsFeature ADLDS
+    ```powershell
+Install-WindowsFeature ADLDS
+```
 
 Installieren Sie die Version von Microsoft .NET Framework, die jener Version von Exchange 2013 entspricht, welche Sie installieren.
 
@@ -171,7 +177,9 @@ Gehen Sie folgendermaßen vor, um die erforderlichen Windows-Rollen und -Feature
 
 2.  Führen Sie den folgenden Befehl aus, um das Server-Manager-Modul zu laden.
     
-        Import-Module ServerManager
+    ```powershell
+Import-Module ServerManager
+```
 
 3.  Führen Sie den folgenden Befehl aus, um die erforderlichen Windows-Komponenten zu installieren.
     
@@ -213,11 +221,15 @@ Gehen Sie folgendermaßen vor, um die erforderlichen Windows-Rollen und -Feature
 
 2.  Führen Sie den folgenden Befehl aus, um das Server-Manager-Modul zu laden.
     
-        Import-Module ServerManager
+    ```powershell
+Import-Module ServerManager
+```
 
 3.  Führen Sie den folgenden Befehl aus, um die erforderlichen Windows-Komponenten zu installieren.
     
-        Add-WindowsFeature NET-Framework, ADLDS
+    ```powershell
+Add-WindowsFeature NET-Framework, ADLDS
+```
 
 Nach der Installation der Betriebssystemrollen und -features installieren Sie folgende Softwareprodukte in der angegebenen Reihenfolge:
 

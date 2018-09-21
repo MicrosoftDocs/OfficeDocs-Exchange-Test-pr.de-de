@@ -71,7 +71,9 @@ Möglicherweise müssen Sie die Regeln und Aktionen einer vorhandenen DLP-Richtl
 
 In diesem Beispiel werden Informationen zur fiktiven DLP-Richtlinie "Employee Numbers" zurückgegeben. Der Befehl wird mittels Pipe zum Cmdlet **Format-List** umgeleitet, um die Detailkonfiguration der angegebenen DLP-Richtlinie anzuzeigen.
 
-    Get-DlpPolicy "Employee Numbers" | Format-List
+```powershell
+Get-DlpPolicy "Employee Numbers" | Format-List
+```
 
 Informationen zu Syntax und Parametern finden Sie unter [Get-DlpPolicy](https://technet.microsoft.com/de-de/library/jj215752\(v=exchg.150\)).
 
@@ -101,7 +103,9 @@ Sie können eine vorhandene DLP-Richtlinie ändern, indem Sie entweder den Namen
 
 Mit der Exchange-Verwaltungsshell können Sie die Aktions- und die Benachrichtigungsebene einer Richtlinie angeben. In diesem Beispiel wird der Modus einer fiktiven DLP-Richtlinie namens "Employee Numbers" so festgelegt, dass die Aktionen nicht erzwungen und die Benachrichtigungsnachrichten nicht angezeigt werden.
 
-    Set-DlpPolicy "Employee Numbers" -Mode Audit
+```powershell
+Set-DlpPolicy "Employee Numbers" -Mode Audit
+```
 
 Informationen zu Syntax und Parametern finden Sie unter [Set-DlpPolicy](https://technet.microsoft.com/de-de/library/jj215778\(v=exchg.150\)).
 
@@ -121,7 +125,9 @@ Alternativ können Sie den Betriebsstatus oder -modus einer Richtlinie auf **DLP
 
 In diesem Beispiel wird die fiktive DLP-Richtlinie "Employee Numbers" entfernt.
 
-    Remove-DlpPolicy "Employee Numbers"
+```powershell
+Remove-DlpPolicy "Employee Numbers"
+```
 
 Informationen zu Syntax und Parametern finden Sie unter [Remove-DlpPolicy](https://technet.microsoft.com/de-de/library/jj215677\(v=exchg.150\)).
 

@@ -314,7 +314,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 In diesem Beispiel werden die Postfachrichtlinie für verwaltete Ordner sowie alle verwalteten Ordner aus dem Postfach von Ken Kwok entfernt. Verwaltete Ordner, die Nachrichten enthalten, werden nicht entfernt.
 
-    Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```
 
 ## Schritt 4: Wenden Sie die Aufbewahrungsrichtlinie auf Benutzerpostfächer an
 
@@ -328,7 +330,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 In diesem Beispiel wird die neu erstellte Aufbewahrungsrichtlinie "RP-Corp" auf den Postfachbenutzer "Ken Kwok" angewendet.
 
-    Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)).
 
@@ -346,5 +350,7 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Migration von verwal
     
     Dieser Befehl ruft die Aufbewahrungstags ab, die dem Postfach von April Stewart zugeordnet sind.
     
-        Get-RetentionPolicyTag -Mailbox astewart
+    ```powershell
+Get-RetentionPolicyTag -Mailbox astewart
+```
 

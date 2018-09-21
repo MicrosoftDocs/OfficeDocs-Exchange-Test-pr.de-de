@@ -45,11 +45,15 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit R
 
 Verwenden Sie die folgende Syntax, um eine Rolle ohne untergeordnete Rollen zu entfernen.
 
-    Remove-ManagementRole <role name>
+```powershell
+Remove-ManagementRole <role name>
+```
 
 In diesem Beispiel wird die Rolle "Seattle Server Administrators" entfernt.
 
-    Remove-ManagementRole "Seattle Server Administrators"
+```powershell
+Remove-ManagementRole "Seattle Server Administrators"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-ManagementRole](https://technet.microsoft.com/de-de/library/dd351170\(v=exchg.150\)).
 
@@ -65,13 +69,17 @@ Wenn Sie eine Rolle mit untergeordneten Rollen entfernen wollen, müssen Sie auc
 
 Verwenden Sie die Option *WhatIf* zusammen mit dem Befehl, um sicherzustellen, dass Sie nur die Rollen entfernen, die Sie entfernen wollen. Verwenden Sie die folgende Syntax.
 
-    Remove-ManagementRole <role name> -Recurse -WhatIf
+```powershell
+Remove-ManagementRole <role name> -Recurse -WhatIf
+```
 
 Die Option *WhatIf* führt den Befehl ohne Commit von Änderungen aus und meldet, welche Rollen entfernt würden. Weitere Informationen zur Option *WhatIf* finden Sie unter [Optionen "WhatIf", "Confirm" und "ValidateOnly"](whatif-confirm-and-validateonly-switches-exchange-2013-help.md).
 
 Nachdem Sie überprüft haben, dass nur die Rollen entfernt werden, die entfernt werden sollen, führen Sie denselben Befehl ohne die Option *WhatIf* aus. In diesem Beispiel werden die Rolle "London Administrators" und alle untergeordneten Rollen entfernt.
 
-    Remove-ManagementRole "London Administrators" -Recurse
+```powershell
+Remove-ManagementRole "London Administrators" -Recurse
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-ManagementRole](https://technet.microsoft.com/de-de/library/dd351170\(v=exchg.150\)).
 
@@ -79,7 +87,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-Ma
 
 Zum Entfernen einer Rolle ohne Bereichseinschränkung können Sie die unter Entfernen einer Verwaltungsrolle ohne untergeordnete Rollen und Entfernen einer Verwaltungsrolle mit untergeordneten Rollen beschriebenen Verfahren weiter oben in diesem Thema verwenden. Der einzige Unterschied besteht darin, dass Sie zum Entfernen einer Rolle ohne Bereichseinschränkung die Option *UnScopedTopLevel* beim Ausführen des Befehls verwenden müssen. In diesem Beispiel werden eine Rolle ohne Bereichseinschränkung und alle untergeordneten Rollen entfernt.
 
-    Remove-ManagementRole "Custom IT Scripts" -Recurse -UnScopedTopLevel
+```powershell
+Remove-ManagementRole "Custom IT Scripts" -Recurse -UnScopedTopLevel
+```
 
 Wie beim Entfernen anderer Rollen sollten Sie die Option *WhatIf* verwenden, um sicherzustellen, dass Sie die richtigen Rollen entfernen.
 

@@ -49,11 +49,15 @@ Sie können das Generieren von Gruppenmetrikdaten auf einem Postfachserver aktiv
 
 Führen Sie folgenden Befehl aus, um die Generierung von Gruppenmetrikdaten auf einem Postfachserver zu aktivieren oder zu deaktivieren:
 
-    Set-MailboxServer <ServerIdentity> -ForceGroupMetricsGeneration <$true | $false>
+```powershell
+Set-MailboxServer <ServerIdentity> -ForceGroupMetricsGeneration <$true | $false>
+```
 
 Im folgenden Beispiel wird die Generierung von Gruppenmetrikdaten auf dem Postfachserver "MBX1" aktiviert.
 
-    Set-MailboxServer MBX1 -ForceGroupMetricsGeneration $true
+```powershell
+Set-MailboxServer MBX1 -ForceGroupMetricsGeneration $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -61,7 +65,9 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Generierung von Gruppe
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+    ```powershell
+Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+```
 
 2.  Überprüfen Sie, ob die angezeigte Einstellung der Einstellung entspricht, die Sie konfiguriert haben.
 

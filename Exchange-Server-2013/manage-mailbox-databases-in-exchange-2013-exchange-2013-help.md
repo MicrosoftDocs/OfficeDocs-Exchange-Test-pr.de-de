@@ -59,7 +59,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass eine Datenbank erfolgrei
 
   - Überprüfen Sie in der Shell, ob die Datenbank auf dem Server "Mailbox01" erstellt wurde, indem Sie den folgenden Befehl ausführen.
     
-        Get-MailboxDatabase -Server "Mailbox01"
+    ```powershell
+Get-MailboxDatabase -Server "Mailbox01"
+```
 
 ## Abrufen der Eigenschaften der Postfachdatenbank
 
@@ -150,7 +152,9 @@ Gehen Sie wie folgt vor, um sich zu vergewissern, dass Sie die Attribute erfolgr
 
   - Führen Sie in der Shell folgenden Befehl aus, um Eigenschaften der Postfachdatenbank abzurufen.
     
-        Get-MailboxDatabase -Identity MailboxDatabase01 -Status | Format-List
+    ```powershell
+Get-MailboxDatabase -Identity MailboxDatabase01 -Status | Format-List
+```
 
 ## Verschieben eines Postfachdatenbankpfads
 
@@ -182,7 +186,9 @@ Gehen Sie wie folgt vor, um sich zu vergewissern, dass Sie die Postfachdatenbank
 
   - Führen Sie in der Shell folgenden Befehl aus, um Eigenschaften der Postfachdatenbank für alle Postfachdatenbanken abzurufen.
     
-        Get-MailboxDatabase -IncludePreExchange2013
+    ```powershell
+Get-MailboxDatabase -IncludePreExchange2013
+```
 
 ## Aufheben der Einbindung einer Postfachdatenbank
 
@@ -214,7 +220,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-Ma
 
 1.  Führen Sie den folgenden Befehl zum Entfernen der Postfachdatenbank "MyDatabase" aus.
     
-        Remove-MailboxDatabase -Identity "MyDatabase"
+    ```powershell
+Remove-MailboxDatabase -Identity "MyDatabase"
+```
 
 2.  Wenn Sie aufgefordert werden, diese Aktion zu bestätigen, geben Sie **Y** ein.
 

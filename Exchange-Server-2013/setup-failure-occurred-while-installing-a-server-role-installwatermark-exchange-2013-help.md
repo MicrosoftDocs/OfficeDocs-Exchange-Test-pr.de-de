@@ -33,7 +33,9 @@ Um dieses Problem zu beheben, installieren Sie die fehlerhaften Serverrollen neu
 
 2.  Führen Sie den folgenden Befehl aus:
     
-        Setup /roles:<Failed Server Role>
+    ```powershell
+Setup /roles:<Failed Server Role>
+```
     
     Wählen Sie mindestens eine der folgenden Rollen aus, und geben Sie sie in einer durch Trennzeichen getrennten Liste an:
     

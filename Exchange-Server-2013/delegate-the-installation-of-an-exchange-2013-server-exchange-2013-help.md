@@ -73,11 +73,15 @@ Welchen Befehl Sie verwenden müssen, um den Server bereitzustellen, hängt davo
     
       - **Wenn Sie das Setup auf dem Computer ausführen, der bereitgestellt wird**, führen Sie den folgenden Befehl aus:
         
-            Setup.exe /NewProvisionedServer /IAcceptExchangeServerLicenseTerms
+        ```powershell
+Setup.exe /NewProvisionedServer /IAcceptExchangeServerLicenseTerms
+```
     
       - **Wenn Sie das Setup auf einem anderen Computer ausführen**, führen Sie den folgenden Befehl aus:
         
-            Setup.exe /NewProvisionedServer:<ComputerName> /IAcceptExchangeServerLicenseTerms
+        ```powershell
+Setup.exe /NewProvisionedServer:<ComputerName> /IAcceptExchangeServerLicenseTerms
+```
 
 5.  Nach der Bereitstellung des Servers müssen Sie sicherstellen, dass Sie die Benutzer hinzugefügt haben, die Exchange auf bereitgestellten Servern für die Rollengruppe "Delegiertes Setup" installieren können. Informationen zum Hinzufügen von Benutzern zu einer Rollengruppe finden Sie unter [Add members to a role group](manage-role-group-members-exchange-2013-help.md).
 

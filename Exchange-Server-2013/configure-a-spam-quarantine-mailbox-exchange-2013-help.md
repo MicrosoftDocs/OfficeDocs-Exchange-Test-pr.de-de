@@ -43,11 +43,15 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 1.  Führen Sie den folgenden Befehl aus, um zu überprüfen, ob der Inhaltsfilter-Agent auf dem Exchange-Server installiert und aktiviert ist:
     
-        Get-TransportAgent "Content Filter Agent"
+    ```powershell
+Get-TransportAgent "Content Filter Agent"
+```
 
 2.  Führen Sie den folgenden Befehl, um sicherzustellen, dass Content-Filterung aktiviert ist:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+Get-ContentFilterConfig | Format-List Enabled
+```
 
 Weitere Informationen finden Sie unter [Verwalten der Inhaltsfilterung](manage-content-filtering-exchange-2013-help.md).
 
@@ -75,11 +79,15 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 Führen Sie den folgenden Befehl aus:
 
-    Set-ContentFilterConfig -QuarantineMailbox <SmtpAddress>
+```powershell
+Set-ContentFilterConfig -QuarantineMailbox <SmtpAddress>
+```
 
 In diesem Beispiel werden alle Nachrichten, die den Isolierungsschwellenwert für Spam überschreiten, an "spamQ@contoso.com" gesendet.
 
-    Set-ContentFilterConfig -QuarantineMailbox spamQ@contoso.com
+```powershell
+Set-ContentFilterConfig -QuarantineMailbox spamQ@contoso.com
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 
@@ -87,7 +95,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass das Quarantänepostfach 
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List QuarantineMailbox
+    ```powershell
+Get-ContentFilterConfig | Format-List QuarantineMailbox
+```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 

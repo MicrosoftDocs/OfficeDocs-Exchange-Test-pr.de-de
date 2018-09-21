@@ -69,7 +69,9 @@ In diesem Beispiel wird das Postfach von April Stewart nach Nachrichten mit dem 
 
 
 
-    Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -DeleteContent
+```powershell
+Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -DeleteContent
+```
 
 In diesem Beispiel wird das Postfach von April Stewart nach Nachrichten mit dem Satz "Your bank statement" im Betrefffeld durchsucht. Die Suchergebnisse werden in den Ordner "AprilStewart-DeletedMessages" im Postfach "BackupMailbox" kopiert und aus dem Postfach von April Stewart gelöscht.
 

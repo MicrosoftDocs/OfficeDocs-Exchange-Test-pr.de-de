@@ -191,7 +191,9 @@ Mit dem UM-Problembehandlungstool können Sie Konfigurationsprobleme in einer st
 
 Im folgenden Beispiel wird der Gateway-Modus verwendet, um den Anruffluss in einer Umgebung ohne Office Communications Server 2007 R2 oder Lync Server zu testen. In diesem Beispiel werden die Telefonieausrüstung (VoIP-Gateways, PBX- und IP-PBX-Anlagen) sowie die Unified Messaging-Komponenten getestet. In dem Beispiel wird der VoIP-Sicherheitsmodus (Voice over IP) auf "Ungesichert" festgelegt, wird die IP-Adresse 10.1.1.1 als nächster Hop festgelegt und wird eine Durchwahlnummer in die Umleitungsinformationen eingefügt.
 
-    Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```powershell
+Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```
 
 Übersicht
 

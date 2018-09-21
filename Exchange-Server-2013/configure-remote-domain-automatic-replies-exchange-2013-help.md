@@ -41,9 +41,13 @@ Sie können das Cmdlet **Set-RemoteDomain** verwenden, um die Eigenschaften eine
 
 In diesem Beispiel werden automatische Antworten an die Remotedomäne "Contoso" zugelassen. Diese Einstellung ist standardmäßig deaktiviert.
 
-    Set-RemoteDomain Contoso -AutoReplyEnabled $true
+```powershell
+Set-RemoteDomain Contoso -AutoReplyEnabled $true
+```
 
 In diesem Beispiel werden automatische Weiterleitungen an die Remotedomäne zugelassen. Diese Einstellung ist standardmäßig deaktiviert.
 
-    Set-RemoteDomain Contoso -AutoForwardEnabled $true
+```powershell
+Set-RemoteDomain Contoso -AutoForwardEnabled $true
+```
 

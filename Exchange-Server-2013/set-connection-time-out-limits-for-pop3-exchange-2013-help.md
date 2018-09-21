@@ -61,11 +61,15 @@ Nachdem Sie die Grenzwerte für Verbindungstimeouts für POP3 eingerichtet haben
 
 In diesem Beispiel wird der Grenzwert für Verbindungstimeouts für inaktive authentifizierte Verbindungen festgelegt.
 
-    Set -PopSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -PopSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```
 
 In diesem Beispiel wird der Grenzwert für Verbindungstimeouts für inaktive nicht authentifizierte Verbindungen festgelegt.
 
-    Set -PopSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -PopSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```
 
 Nachdem Sie die Grenzwerte für Verbindungstimeouts für POP3 eingerichtet haben, müssen Sie die POP3-Dienste neu starten, damit die Einstellungen wirksam werden. Informationen zum Neustarten der POP3-Dienste finden Sie unter [Starten und Beenden des POP3-Diensts](start-and-stop-the-pop3-services-exchange-2013-help.md).
 
@@ -89,7 +93,9 @@ Führen Sie einen der folgenden Schritte aus, um das erfolgreiche Festlegen von 
 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
-        Get-PopSettings | format-list
+    ```powershell
+Get-PopSettings | format-list
+```
 
 2.  Überprüfen Sie, ob die Verbindungseinstellungen richtig sind.
 

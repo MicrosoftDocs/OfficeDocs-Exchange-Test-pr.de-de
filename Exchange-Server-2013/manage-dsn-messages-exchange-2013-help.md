@@ -46,11 +46,15 @@ Microsoft Exchange Server 2013 verwendet Benachrichtigungen über den Zustellun
 
 Führen Sie den folgenden Befehl aus, um eine Übersichtsliste aller integrierten DSN-Meldungen in Exchange 2013 anzuzeigen:
 
-    Get-SystemMessage -Original
+```powershell
+Get-SystemMessage -Original
+```
 
 Zur Anzeige einer Übersichtsliste aller benutzerdefinierten DSN-Meldungen in Ihrer Organisation führen Sie den folgenden Befehl aus:
 
-    Get-SystemMessage
+```powershell
+Get-SystemMessage
+```
 
 Führen Sie den folgenden Befehl aus, um detaillierte Informationen für die benutzerdefinierte DSN-Meldung für den DSN-Code 5.1.2 anzuzeigen, die in englischer Sprache an interne Absender gesendet wird:
 
@@ -80,7 +84,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass eine benutzerdefinierte 
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
+    ```powershell
+Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
+```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 
@@ -136,11 +142,15 @@ Führen Sie die folgenden Schritte aus, um dem Exchange-Empfänger ein Postfach 
 
 2.  Führen Sie den folgenden Befehl aus:
     
-        Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
+    ```powershell
+Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
+```
     
     Wenn Sie dem Exchange-Empfänger z. B. das vorhandene Postfach "Contoso System Mailbox" zuweisen möchten, führen Sie den folgenden Befehl aus:
     
-        Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
+    ```powershell
+Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
+```
 
 ## Schritt 2: Geben Sie die DSN-Codes an, die überwacht werden sollen
 
@@ -154,11 +164,15 @@ Führen Sie die folgenden Schritte aus, um dem Exchange-Empfänger ein Postfach 
 
 Führen Sie den folgenden Befehl aus, um die vorhandenen Werte zu ersetzen:
 
-    Set-TransportConfig -GenerateCopyOfDSNFor <x.y.z>,<x.y.z>...
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor <x.y.z>,<x.y.z>...
+```
 
 In diesem Beispiel wird die Exchange-Organisation so konfiguriert, dass alle DSN-Meldungen mit den DSN-Codes 5.7.1, 5.7.2 und 5.7.3 an den Exchange-Empfänger weitergeleitet werden.
 
-    Set-TransportConfig -GenerateCopyOfDSNFor 5.7.1,5.7.2,5.7.3
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor 5.7.1,5.7.2,5.7.3
+```
 
 Führen Sie folgenden Befehl aus, um Einträge hinzuzufügen bzw. zu entfernen, ohne vorhandene Werte zu ändern:
 
@@ -166,7 +180,9 @@ Führen Sie folgenden Befehl aus, um Einträge hinzuzufügen bzw. zu entfernen, 
 
 In diesem Beispiel wird der DSN-Code 5.7.5 zur vorhandenen Liste der DSN-Meldungen hinzugefügt, die an den Exchange-Empfänger weitergeleitet werden, und der DSN-Code 5.7.1 wird aus dieser Liste entfernt.
 
-    Set-TransportConfig -GenerateCopyOfDSNFor @{Add="5.7.5"; Remove="5.7.1"}
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor @{Add="5.7.5"; Remove="5.7.1"}
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

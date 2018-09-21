@@ -83,23 +83,33 @@ In diesem Beispiel werden der alternative Zeugenserver "CAS3" und das alternativ
 
 In diesem Beispiel wird die DAG "DAG1" zur Verwendung von Dynamic Host Configuration-Protokoll (DHCP) zum Abrufen einer IP-Adresse konfiguriert.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 0.0.0.0
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 0.0.0.0
+```
 
 In diesem Beispiel wird die DAG "DAG1" zur Verwendung der statischen IP-Adresse "10.0.0.8" konfiguriert.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```
 
 In diesem Beispiel wird die DAG "DAG1" mit mehreren Subnetzen mit mehreren statischen IP-Adressen konfiguriert.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,10.0.1.8
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,10.0.1.8
+```
 
 In diesem Beispiel wird die DAG "DAG1" für den DAC-Modus konfiguriert.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```
 
 In diesem Beispiel wird der Replikationsport für die DAG "DAG1" als Port 63132 konfiguriert.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -ReplicationPort 63132
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -ReplicationPort 63132
+```
 
 
 > [!NOTE]
@@ -113,7 +123,9 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass die Konfiguration der DAG erfo
 
   - Führen Sie in der Shell den folgenden Befehl aus, um die DAG-Konfigurationseinstellungen anzuzeigen und sicherzustellen, dass die DAG erfolgreich konfiguriert wurde.
     
-        Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```powershell
+Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+```
 
 ## Weitere Informationen
 

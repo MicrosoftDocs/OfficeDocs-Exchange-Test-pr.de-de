@@ -53,11 +53,15 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 In diesem Beispiel wird ein Serverswitchover für den Server MBX1 ausgeführt. Das System wählt automatisch den besten Postfachserver für jede aktive Datenbank auf MBX1 aus.
 
-    Move-ActiveMailboxDatabase -Server MBX1
+```powershell
+Move-ActiveMailboxDatabase -Server MBX1
+```
 
 In diesem Beispiel wird ein Serverswitchover des Postfachservers MBX4 ausgeführt. Nach Abschluss des Befehls hostet MBX5 die aktive Kopie der Datenbanken, die zuvor auf MBX4 aktiv waren.
 
-    Move-ActiveMailboxDatabase -Server MBX4 -ActivateOnServer MBX5
+```powershell
+Move-ActiveMailboxDatabase -Server MBX4 -ActivateOnServer MBX5
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Move-ActiveMailboxDatabase](https://technet.microsoft.com/de-de/library/dd298068\(v=exchg.150\)).
 

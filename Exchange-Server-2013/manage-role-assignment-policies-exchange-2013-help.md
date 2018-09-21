@@ -61,7 +61,9 @@ Nach dem Erstellen der neuen Zuweisungsrichtlinie weisen Sie dieser Benutzer zu.
 
 Verwenden Sie die folgende Syntax, um eine explizite Zuweisungsrichtlinie zu erstellen, die manuell Postfächern zugeordnet werden kann.
 
-    New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign>
+```powershell
+New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign>
+```
 
 In diesem Beispiel wird die explizite Zuweisungsrichtlinie "Limited Mailbox Configuration" erstellt und den Rollen `MyBaseOptions`, `MyAddressInformation` und `MyDisplayName` zugeordnet.
 
@@ -73,7 +75,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-RoleA
 
 Verwenden Sie die folgende Syntax, um eine standardmäßige Zuweisungsrichtlinie zu erstellen, die neuen Postfächern zugeordnet wird.
 
-    New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign> -IsDefault
+```powershell
+New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign> -IsDefault
+```
 
 In diesem Beispiel wird die standardmäßige Zuweisungsrichtlinie "Limited Mailbox Configuration" erstellt und den Rollen `MyBaseOptions`, `MyAddressInformation` und `MyDisplayName` zugeordnet.
 
@@ -103,11 +107,15 @@ Nicht mehr benötigte Zuweisungsrichtlinien für Verwaltungsrollen können entfe
 
 Verwenden Sie die folgende Syntax, um eine Zuweisungsrichtlinie zu entfernen.
 
-    Remove-RoleAssignmentPolicy <role assignment policy>
+```powershell
+Remove-RoleAssignmentPolicy <role assignment policy>
+```
 
 In diesem Beispiel wird die Zuweisungsrichtlinie "New York Temporary Users" entfernt.
 
-    Remove-RoleAssignmentPolicy "New York Temporary Users"
+```powershell
+Remove-RoleAssignmentPolicy "New York Temporary Users"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-RoleAssignmentPolicy](https://technet.microsoft.com/de-de/library/dd638190\(v=exchg.150\)).
 
@@ -135,15 +143,21 @@ In dieser Vorgehensweise werden das Pipelining und das Cmdlet **Format-Table** v
 
 Um eine Liste aller Zuweisungsrichtlinien in Ihrer Organisation zu erhalten, verwenden Sie den folgenden Befehl.
 
-    Get-RoleAssignmentPolicy
+```powershell
+Get-RoleAssignmentPolicy
+```
 
 Um eine Liste bestimmter Eigenschaften für alle Zuweisungsrichtlinien in Ihrer Organisation zu erhalten, können Sie das Ergebnis über Pipelining an das Cmdlet **Format-Table** umleiten und dabei die Eigenschaften angeben, die in der Ergebnisliste enthalten sein sollen. Verwenden Sie die folgende Syntax.
 
-    Get-RoleAssignmentPolicy | Format-Table <property 1>, <property 2...>
+```powershell
+Get-RoleAssignmentPolicy | Format-Table <property 1>, <property 2...>
+```
 
 Mit diesem Beispiel werden eine Liste aller Zuweisungsrichtlinien in Ihrer Organisation sowie die Eigenschaften **Name** und **IsDefault** zurückgegeben.
 
-    Get-RoleAssignmentPolicy | Format-Table Name, IsDefault
+```powershell
+Get-RoleAssignmentPolicy | Format-Table Name, IsDefault
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)) oder [Get-RoleAssignmentPolicy](https://technet.microsoft.com/de-de/library/dd638195\(v=exchg.150\)).
 
@@ -159,11 +173,15 @@ In dieser Vorgehensweise werden das Pipelining und das Cmdlet **Format-List** ve
 
 Verwenden Sie die folgende Syntax, um die Details zu einer bestimmten Zuweisungsrichtlinie anzuzeigen.
 
-    Get-RoleAssignmentPolicy <assignment policy name> | Format-List
+```powershell
+Get-RoleAssignmentPolicy <assignment policy name> | Format-List
+```
 
 Mit diesem Beispiel werden die Details zur Zuweisungsrichtlinie "Redmond-Benutzer - keine Textnachrichten (SMS)" angezeigt.
 
-    Get-RoleAssignmentPolicy "Redmond Users - no Text Messaging" | Format-List
+```powershell
+Get-RoleAssignmentPolicy "Redmond Users - no Text Messaging" | Format-List
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)) oder [Get-RoleAssignmentPolicy](https://technet.microsoft.com/de-de/library/dd638195\(v=exchg.150\)).
 
@@ -179,7 +197,9 @@ In diesem Verfahren werden das Pipelining und das Cmdlet **Where** verwendet. We
 
 In diesem Beispiel wird die Standardzuweisungsrichtlinie zurückgegeben.
 
-    Get-RoleAssignmentPolicy | Where { $_.IsDefault -eq $True }
+```powershell
+Get-RoleAssignmentPolicy | Where {     Get-RoleAssignmentPolicy | Where { $_.IsDefault -eq $True }.IsDefault -eq $True }
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)) oder [Get-RoleAssignmentPolicy](https://technet.microsoft.com/de-de/library/dd638195\(v=exchg.150\)).
 
@@ -195,11 +215,15 @@ In diesem Verfahren werden das Pipelining und das Cmdlet **Where** verwendet. We
 
 Verwenden Sie die folgende Syntax.
 
-    Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<role assignment policy>" }
+```powershell
+Get-Mailbox | Where {     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<role assignment policy>" }.RoleAssignmentPolicy -Eq "<role assignment policy>" }
+```
 
 In diesem Beispiel werden alle Postfächer ermittelt, denen die Richtlinie "Vancouver-Endbenutzer" zugewiesen ist.
 
-    Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Vancouver End Users" }
+```powershell
+Get-Mailbox | Where {     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Vancouver End Users" }.RoleAssignmentPolicy -Eq "Vancouver End Users" }
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)) oder [Get-RoleAssignmentPolicy](https://technet.microsoft.com/de-de/library/dd638195\(v=exchg.150\)).
 
@@ -217,11 +241,15 @@ Sie können die Richtlinie für die Verwaltungsrollenzuweisung ändern, die neu 
 
 Verwenden Sie die folgende Syntax, um die standardmäßige Zuweisungsrichtlinie zu ändern.
 
-    Set-RoleAssignmentPolicy <assignment policy name> -IsDefault
+```powershell
+Set-RoleAssignmentPolicy <assignment policy name> -IsDefault
+```
 
 In diesem Beispiel wird die Zuweisungsrichtlinie "Vancouver End Users" als standardmäßige Zuweisungsrichtlinie festgelegt.
 
-    Set-RoleAssignmentPolicy "Vancouver End Users" -IsDefault
+```powershell
+Set-RoleAssignmentPolicy "Vancouver End Users" -IsDefault
+```
 
 
 > [!IMPORTANT]

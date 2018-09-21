@@ -86,7 +86,9 @@ In diesem Beispiel wird das Cmdlet **set-ExchangeServer** verwendet, um den Prod
 
 
 
-    Set-ExchangeServer ExServer01 -ProductKey aaaaa-aaaaa-aaaaa-aaaaa-aaaaa
+```powershell
+Set-ExchangeServer ExServer01 -ProductKey aaaaa-aaaaa-aaaaa-aaaaa-aaaaa
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ExchangeServer](https://technet.microsoft.com/de-de/library/bb123716\(v=exchg.150\)).
 

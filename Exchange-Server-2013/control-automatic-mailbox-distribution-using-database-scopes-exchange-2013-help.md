@@ -63,7 +63,9 @@ Entscheiden Sie in diesem Schritt, welche Datenbanken Sie in den Datenbankbereic
 
 Verwenden Sie eine Datenbankliste, wenn Sie eine statische Liste von Postfachdatenbanken definieren möchten, die in diesen Bereich eingeschlossen werden sollen. Verwenden Sie zum Erstellen eines listenbasierten Datenbankbereichs die folgende Syntax.
 
-    New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```
 
 In diesem Beispiel wird ein Bereich erstellt, der nur auf die Datenbanken "Database 1", "Database 2" und "Database 3" angewendet wird.
 
@@ -79,7 +81,9 @@ Eine Liste filterbarer Datenbankeigenschaften finden Sie unter [Grundlegendes zu
 
 Verwenden Sie zum Erstellen eines filterbasierten Datenbankbereichs die folgende Syntax.
 
-    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```
 
 In diesem Beispiel wird ein Bereich mit allen Datenbanken erstellt, deren Eigenschaft **Name** die Zeichenfolge "ACCT" enthält.
 

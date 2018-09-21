@@ -57,7 +57,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 2.  **Überprüfen der Postfachdatenbank-Konfiguration**   Ist der Parameter *IndexEnabled* für die Postfachdatenbank des Benutzers auf "True" festgelegt? Ist dies der Fall, fahren Sie mit Schritt 3 fort. Andernfalls führen Sie den folgenden Befehl in der Shell aus, um zu überprüfen, ob die Kennzeichnung *IndexEnabled* auf TRUE festgelegt wurde:
     
-        Get-MailboxDatabase | Format-Table Name,IndexEnabled
+    ```powershell
+Get-MailboxDatabase | Format-Table Name,IndexEnabled
+```
     
     Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb124924\(v=exchg.150\)).
 
@@ -91,7 +93,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 5.  **Ausführung des Cmdlets "Test-ExchangeSearch"**   Wenn die Postfachdatenbank bereits durchforstet wurde, können Sie das Cmdlet **Test-ExchangeSearch** für die Postfachdatenbank oder für ein bestimmtes Postfach ausführen.
     
-        Test-ExchangeSearch -Identity AlanBrewer@contoso.com
+    ```powershell
+Test-ExchangeSearch -Identity AlanBrewer@contoso.com
+```
     
     Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Test-ExchangeSearch](https://technet.microsoft.com/de-de/library/bb124733\(v=exchg.150\)).
 

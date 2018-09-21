@@ -273,7 +273,9 @@ So konfigurieren Sie Active Directory-Verbunddienste:
 Die folgenden Windows PowerShell-Befehle führen Sie dieselben Schritte wie die vorangegangenen Schritte.
 
 ```
-    Import-Module ADFS
+```powershell
+Import-Module ADFS
+```
 ```
 
 ```
@@ -432,7 +434,9 @@ Um Webanwendungsproxy bereitzustellen, müssen Sie die Serverrolle "Remotezugrif
 
 Das folgende Windows PowerShell-Cmdlet erfüllt dieselbe Funktion wie die vorangegangenen Schritte.
 
-    Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
+```powershell
+Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
+```
 
 ## Schritt 5: Konfigurieren des Webanwendungsproxy-Rollendiensts (optional)
 
@@ -565,7 +569,9 @@ Nachdem Sie alle erforderlichen Schritte, einschließlich der Änderungen an vir
 
   - Mit Windows PowerShell:
     
-        Restart-Service W3SVC,WAS -noforce
+    ```powershell
+Restart-Service W3SVC,WAS -noforce
+```
 
   - Mit einer Befehlszeile: Klicken Sie auf **Start**, klicken Sie auf **Ausführen** und geben Sie dann `IISReset /noforce` ein. Klicken Sie anschließend auf **OK**.
 

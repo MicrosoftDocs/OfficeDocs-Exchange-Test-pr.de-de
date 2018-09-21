@@ -67,7 +67,9 @@ Benutzer, deren Postfächer auf Exchange Server 2013 oder Exchange Server 2016 s
 
 4.  Aktivieren Sie bei Exchange 2010 die AutoErmittlung, um die Proxypostfächer für öffentliche Ordner zurückzugeben. Dieser Schritt ist bei Exchange 2007 nicht erforderlich.
     
-        Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+    ```powershell
+Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+```
 
 5.  Wiederholen Sie die vorhergehenden Schritte für jeden Server für öffentliche Ordner in Ihrer Organisation.
 

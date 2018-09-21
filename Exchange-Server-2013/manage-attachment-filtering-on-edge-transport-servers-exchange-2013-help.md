@@ -47,15 +47,21 @@ Wenn Sie den Anlagenfilter-Agent aktivieren oder deaktivieren, wird die Änderun
 
 Führen Sie zum Deaktivieren der Anlagenfilterung folgenden Befehl aus:
 
-    Disable-TransportAgent "Attachment Filtering Agent"
+```powershell
+Disable-TransportAgent "Attachment Filtering Agent"
+```
 
 Führen Sie zum Aktivieren der Anlagenfilterung folgenden Befehl aus:
 
-    Enable-TransportAgent "Attachment Filtering Agent"
+```powershell
+Enable-TransportAgent "Attachment Filtering Agent"
+```
 
 Nachdem Sie die Anlagenfilterung aktiviert oder deaktiviert haben, starten Sie den Microsoft Exchange-Transportdienst neu, indem Sie folgenden Befehl ausführen:
 
-    Restart-Service MSExchangeTransport
+```powershell
+Restart-Service MSExchangeTransport
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -63,7 +69,9 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Anlagenfilterung erfolgreich
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-TransportAgent "Attachment Filtering Agent"
+    ```powershell
+Get-TransportAgent "Attachment Filtering Agent"
+```
 
 2.  Wenn der Wert für **Enabled**`True` ist, dann ist die Anlagenfilterung aktiviert. Ist der Wert `False`, dann ist die Anlagenfilterung deaktiviert.
 
@@ -71,19 +79,27 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Anlagenfilterung erfolgreich
 
 Anlagenfiltereinträge definieren die Nachrichtenanhänge, die Sie aus Ihrer Organisation heraushalten möchten. Zum Anzeigen der Anlagenfiltereinträge, die vom Anlagenfilter-Agent verwendet werden, führen Sie den folgenden Befehl aus:
 
-    Get-AttachmentFilterEntry | Format-Table
+```powershell
+Get-AttachmentFilterEntry | Format-Table
+```
 
 Verwenden Sie die folgende Syntax, um einen bestimmten MIME-Inhaltstyp anzuzeigen:
 
-    Get-AttachmentFilteringEntry ContentType:<MIMEContentType>
+```powershell
+Get-AttachmentFilteringEntry ContentType:<MIMEContentType>
+```
 
 Führen Sie z. B. den folgenden Befehl aus, um den Inhaltstypeintrag für JPEG-Bilder anzuzeigen:
 
-    Get-AttachmentFilteringEntry ContentType:image/jpeg
+```powershell
+Get-AttachmentFilteringEntry ContentType:image/jpeg
+```
 
 Verwenden Sie die folgende Syntax, um den Eintrag für einen bestimmten Dateinamen oder eine Dateinamenerweiterung anzuzeigen:
 
-    Get-AttachmentFilteringEntry FileName:<FileName or FileNameExtension>
+```powershell
+Get-AttachmentFilteringEntry FileName:<FileName or FileNameExtension>
+```
 
 Führen Sie z. B. den folgenden Befehl aus, um den Dateinamenerweiterungseintrag für JPEG-Anlagen anzuzeigen:
 
@@ -93,15 +109,21 @@ Führen Sie z. B. den folgenden Befehl aus, um den Dateinamenerweiterungseintra
 
 Wenn Sie einen Anlagenfiltereintrag hinzufügen möchten, der Anlagen mit einem bestimmten MIME-Inhaltstyp filtert, verwenden Sie die folgende Syntax:
 
-    Add-AttachmentFilterEntry -Name <MIMEContentType> -Type ContentType
+```powershell
+Add-AttachmentFilterEntry -Name <MIMEContentType> -Type ContentType
+```
 
 Im folgenden Beispiel wird ein MIME-Inhaltstypeintrag hinzugefügt, der JPEG-Bilder filtert.
 
-    Add-AttachmentFilterEntry -Name image/jpeg -Type ContentType
+```powershell
+Add-AttachmentFilterEntry -Name image/jpeg -Type ContentType
+```
 
 Wenn Sie einen Anlagenfiltereintrag hinzufügen möchten, der Anlagen nach Dateiname oder Dateinamenerweiterung filtert, verwenden Sie die folgende Syntax:
 
-    Add-AttachmentFilterEntry -Name <FileName or FileNameExtension> -Type FileName
+```powershell
+Add-AttachmentFilterEntry -Name <FileName or FileNameExtension> -Type FileName
+```
 
 Im folgenden Beispiel werden Anlagen mit der JPG-Erweiterung gefiltert.
 
@@ -113,7 +135,9 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob der Anlagenfiltereintrag erfolgr
 
 1.  Führen Sie den folgenden Befehl aus, um sicherzustellen, dass der Filtereintrag vorhanden ist:
     
-        Get-AttachmentFilterEntry | Format-Table
+    ```powershell
+Get-AttachmentFilterEntry | Format-Table
+```
 
 2.  Senden Sie eine Testnachricht, die eine verbotene Anlage enthält, von einem externen Postfach an einen internen Empfänger, und vergewissern Sie sich, dass die Nachricht abgelehnt, gelöscht oder die Anlage entfernt wird.
 
@@ -121,15 +145,21 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob der Anlagenfiltereintrag erfolgr
 
 Wenn Sie einen Anlagenfiltereintrag entfernen möchten, der Anlagen mit einem bestimmten MIME-Inhaltstyp filtert, verwenden Sie die folgende Syntax:
 
-    Remove-AttachmentFilterEntry ContentType:<ContentType>
+```powershell
+Remove-AttachmentFilterEntry ContentType:<ContentType>
+```
 
 Im folgenden Beispiel wird ein MIME-Inhaltstypeintrag entfernt, der JPEG-Bilder filtert.
 
-    Remove-AttachmentFilterEntry ContentType:image/jpeg
+```powershell
+Remove-AttachmentFilterEntry ContentType:image/jpeg
+```
 
 Wenn Sie einen Anlagenfiltereintrag entfernen möchten, der Anlagen nach Dateiname oder Dateinamenerweiterung filtert, verwenden Sie die folgende Syntax:
 
-    Remove-AttachmentFilterEntry FileName:<FileName or FileNameExtension>
+```powershell
+Remove-AttachmentFilterEntry FileName:<FileName or FileNameExtension>
+```
 
 Im folgenden Beispiel wird der Dateinameneintrag für die JPG-Erweiterung entfernt.
 
@@ -141,7 +171,9 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob der Anlagenfiltereintrag erfolgr
 
 1.  Führen Sie den folgenden Befehl aus, um sicherzustellen, dass der Filtereintrag entfernt wurde:
     
-        Get-AttachmentFilterEntry | Format-Table
+    ```powershell
+Get-AttachmentFilterEntry | Format-Table
+```
 
 2.  Senden Sie eine Testnachricht, die eine zulässige Anlage enthält, von einem externen Postfach an einen internen Empfänger, und vergewissern Sie sich, dass die Nachricht mit der Anlage erfolgreich zugestellt wird.
 
@@ -149,7 +181,9 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob der Anlagenfiltereintrag erfolgr
 
 Zum Anzeigen der Anlagenfilteraktion, die verwendet wird, wenn eine verbotene Anlage in einer Nachricht erkannt wird, führen Sie den folgenden Befehl aus:
 
-    Get-AttachmentFilterListConfig
+```powershell
+Get-AttachmentFilterListConfig
+```
 
 ## Verwenden der Shell zum Konfigurieren der Anlagenfilteraktion
 

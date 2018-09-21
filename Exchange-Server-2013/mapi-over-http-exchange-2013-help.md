@@ -189,7 +189,9 @@ Führen Sie die folgenden Schritte aus, um MAPI über HTTP für Ihre Organisatio
     
     Führen Sie den folgenden Befehl aus:
     
-        Set-OrganizationConfig -MapiHttpEnabled $true
+    ```powershell
+Set-OrganizationConfig -MapiHttpEnabled $true
+```
 
 ## Testen von MAPI über HTTP-Verbindungen
 
@@ -197,7 +199,9 @@ Sie können die End-to-End-Verbindung mit MAPI über HTTP mithilfe des Cmdlets *
 
 Im folgenden Beispiel wird die MAPI über HTTP-Verbindung von einem Exchange-Server namens ContosoMail getestet.
 
-    Test-OutlookConnectivity -RunFromServerId ContosoMail -ProbeIdentity OutlookMapiHttpSelfTestProbe
+```powershell
+Test-OutlookConnectivity -RunFromServerId ContosoMail -ProbeIdentity OutlookMapiHttpSelfTestProbe
+```
 
 Wenn der Test erfolgreich ist, ähnelt die Ausgabe dem folgenden Beispiel:
 

@@ -53,5 +53,7 @@ Informationen zu weiteren Aufgaben im Zusammenhang mit Unified Messaging und Pos
 
 In diesem Beispiel wird die Anzahl eingehender Sprach-, Outlook Voice Access- und Faxanrufe, die von dem Postfachserver `MyMailboxServer1` akzeptiert werden, auf den Wert "50" festgelegt.
 
-    Set-UMService -Identity MyMailboxServer1 -MaxCallsAllowed 50
+```powershell
+Set-UMService -Identity MyMailboxServer1 -MaxCallsAllowed 50
+```
 

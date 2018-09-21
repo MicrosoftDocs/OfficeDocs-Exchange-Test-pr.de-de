@@ -76,7 +76,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf die Verwaltung von In
 
   - In Ihrer AD RMS-Bereitstellung müssen RMS-Vorlagen vorhanden sein, um eine Transportschutzregel erstellen zu können. In diesem Beispiel werden die verfügbaren Vorlagen vom AD RMS-Cluster abgerufen.
     
-        Get-RMSTemplate | format-list
+    ```powershell
+Get-RMSTemplate | format-list
+```
     
     Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-RMSTemplate](https://technet.microsoft.com/de-de/library/dd297960\(v=exchg.150\)).
 

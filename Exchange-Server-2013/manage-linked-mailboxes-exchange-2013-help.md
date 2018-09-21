@@ -128,7 +128,9 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Erstellung ein
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Informationen zum neuen verknüpften Postfach anzuzeigen.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+```
 
 ## Ändern der Eigenschaften eines verknüpften Postfachs
 
@@ -398,5 +400,7 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Eigenschaften eines ve
     
     Im oben stehenden Beispiel, in dem das verknüpfte Hauptkonto geändert wurde, können Sie den neuen Wert mit folgenden Befehl überprüfen.
     
-        Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```powershell
+Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+```
 

@@ -57,5 +57,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Unified Messaging und
 
 In diesem Beispiel wird der TCP-Überwachungsport auf einem Clientzugriffsserver namens `MyClientAccessServer` auf 5566 festgelegt.
 
-    Set-UMCallRouterSettings -Server MyClientAccessServer -SipTCPListeningPort 5566
+```powershell
+Set-UMCallRouterSettings -Server MyClientAccessServer -SipTCPListeningPort 5566
+```
 

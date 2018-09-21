@@ -53,7 +53,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf IRM finden Sie unter 
 
 In diesem Beispiel wird die IRM-Protokollierung auf einem Postfachserver aktiviert.
 
-    Set-TransportService -Identity EXCH01 -IRMLogEnabled $true
+```powershell
+Set-TransportService -Identity EXCH01 -IRMLogEnabled $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-TransportService](https://technet.microsoft.com/de-de/library/jj215682\(v=exchg.150\)).
 
@@ -61,7 +63,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Trans
 
 In diesem Beispiel wird die IRM-Protokollierung auf einem Postfachserver deaktiviert.
 
-    Set-TransportService -Identity EXCH01 -IRMLogEnabled $false
+```powershell
+Set-TransportService -Identity EXCH01 -IRMLogEnabled $false
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-TransportService](https://technet.microsoft.com/de-de/library/jj215682\(v=exchg.150\)).
 

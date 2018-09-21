@@ -73,7 +73,9 @@ In zahlreichen Exchange-Bereitstellungen ist das Erstellen einer E-Mail-Adressri
 
 Wenn die Empfänger in der jeweiligen Organisationseinheit nicht über gemeinsame Eigenschaften wie Abteilung oder Standort verfügen, nach denen Sie filtern können, können Sie eines der benutzerdefinierten Attribute mit einem gemeinsamen Wert füllen, wie in diesem Beispiel gezeigt.
 
-    Get-Mailbox -OrganizationalUnit Sales | Set-Mailbox CustomAttribute1 "SalesOU"
+```powershell
+Get-Mailbox -OrganizationalUnit Sales | Set-Mailbox CustomAttribute1 "SalesOU"
+```
 
 Nun können Sie eine E-Mail-Adressrichtlinie für alle Empfänger erstellen, deren Eigenschaft *CustomAttribute1* den Wert "SalesOU" hat, wie in diesem Beispiel dargestellt.
 
@@ -97,7 +99,9 @@ In diesem Beispiel wird eine dynamische Verteilergruppe basierend auf den Empfä
 
 In diesem Beispiel wird das *ExtensionCustomAttribute1* für das Postfach für Kweku aktualisiert, um anzuzeigen, dass er in folgenden Kursen eingeschrieben ist: MATH307, ECON202 und ENGL300.
 
-    Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 MATH307,ECON202,ENGL300
+```powershell
+Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 MATH307,ECON202,ENGL300
+```
 
 Anschließend wird eine dynamische Verteilergruppe für alle Studierenden des Kurses MATH307 erstellt. Hierbei wird der Parameter *RecipientFilter* verwendet, dessen *ExtensionCustomAttribute1* "MATH307" lautet. In den Parametern für *ExtentionCustomAttributes* können Sie den Operator `-eq` anstelle des Operators `-like` verwenden.
 
@@ -105,5 +109,7 @@ Anschließend wird eine dynamische Verteilergruppe für alle Studierenden des Ku
 
 In diesem Beispiel werden die *ExtensionCustomAttribute1*-Werte für Kewku aktualisiert, um anzuzeigen, dass er den Kurs ENGL210 hinzugefügt und den Kurs "ECON202" abgewählt hat.
 
-    Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 @{Add="ENGL210"; Remove="ECON202"}
+```powershell
+Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 @{Add="ENGL210"; Remove="ECON202"}
+```
 

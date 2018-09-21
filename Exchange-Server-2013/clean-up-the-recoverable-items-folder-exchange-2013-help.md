@@ -108,7 +108,9 @@ Bei diesem Vorgang werden Elemente aus dem Ordner "Wiederherstellbare Elemente" 
 
 4.  Rufen Sie die aktuelle Arbeitszykluskonfiguration für den Assistenten für verwaltete Ordner ab. Notieren Sie sich die Einstellung zur späteren Verwendung.
     
-        Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+    ```powershell
+Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+```
 
 5.  Deaktivieren Sie den Clientzugriff auf das Postfach, um sicherzustellen, dass während dieses Verfahrens keine Änderungen an Postfachdaten vorgenommen werden können.
     
@@ -120,7 +122,9 @@ Bei diesem Vorgang werden Elemente aus dem Ordner "Wiederherstellbare Elemente" 
 
 7.  Deaktivieren Sie den Assistenten für verwaltete Ordner auf dem Postfachserver.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+    ```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+```
     
 
     > [!IMPORTANT]
@@ -130,7 +134,9 @@ Bei diesem Vorgang werden Elemente aus dem Ordner "Wiederherstellbare Elemente" 
 
 8.  Deaktivieren Sie die Wiederherstellung einzelner Elemente, und heben Sie für das Postfach die Aufbewahrung für das Beweissicherungsverfahren auf.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+    ```powershell
+Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+```
     
 
     > [!IMPORTANT]
@@ -154,7 +160,9 @@ Bei diesem Vorgang werden Elemente aus dem Ordner "Wiederherstellbare Elemente" 
 
 10. Wenn für das Postfach zuvor die Aufbewahrung für das Beweissicherungsverfahren festgelegt oder die Wiederherstellung einzelner Elemente aktiviert wurde, aktivieren Sie diese Funktionen erneut.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+    ```powershell
+Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+```
     
 
     > [!IMPORTANT]
@@ -184,7 +192,9 @@ Bei diesem Vorgang werden Elemente aus dem Ordner "Wiederherstellbare Elemente" 
 
 12. Aktivieren Sie den Assistenten für verwaltete Ordner, indem Sie den Arbeitszyklus auf den in Schritt 4 notierten Wert zurücksetzen. In diesem Beispiel wird der Arbeitszyklus auf einen Tag festgelegt.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+    ```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```
 
 13. Aktivieren Sie den Clientzugriff.
     

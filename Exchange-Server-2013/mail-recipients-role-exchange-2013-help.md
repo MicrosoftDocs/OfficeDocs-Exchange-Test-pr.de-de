@@ -51,7 +51,9 @@ Diese Rolle wird standardmäßig einer oder mehreren Rollengruppen zugewiesen. W
 
 Verwenden Sie den folgenden Befehl, wenn Sie eine Liste der dieser Rolle zugewiesenen Rollengruppen, Benutzer oder universellen Sicherheitsgruppen anzeigen möchten.
 
-    Get-ManagementRoleAssignment -Role "<role name>"
+```powershell
+Get-ManagementRoleAssignment -Role "<role name>"
+```
 
 ## Reguläre und delegierende Rollenzuweisungen
 

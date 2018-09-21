@@ -89,7 +89,9 @@ In diesem Beispiel wird das Skript `Move-PublicFolderBranch.ps1` zum Verschieben
 
 Führen Sie den folgenden Befehl aus, um sicherzustellen, dass die Verschiebungsanforderung für öffentliche Ordner erfolgreich war:
 
-    Get-PublicFolderMoveRequest | Format-List Status
+```powershell
+Get-PublicFolderMoveRequest | Format-List Status
+```
 
 Der Status `Completed` bedeutet, dass die Verschiebungsanforderung erfolgreich war.
 

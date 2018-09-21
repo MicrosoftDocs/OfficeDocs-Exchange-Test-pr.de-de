@@ -92,7 +92,9 @@ Führen Sie den folgenden Befehl aus, um die Protokollierung für einen Sende- o
 
 In diesem Beispiel wird die Protokollierung für den Empfangsconnector "Connection from Contoso.com" aktiviert.
 
-    Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```powershell
+Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -100,7 +102,9 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie die Protokollierun
 
 1.  Führen Sie in der Shell den folgenden Befehl aus:
     
-        <Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+    ```command line
+<Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 
@@ -112,7 +116,9 @@ Führen Sie den folgenden Befehl aus, um die Protokollierung für den impliziten
 
 In diesem Beispiel wird die Protokollierung für den organisationsinternen Sendeconnector im Transportdienst auf dem Postfachserver "Mailbox01" aktiviert.
 
-    Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -128,11 +134,15 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie die Protokollierun
 
 Führen Sie den folgenden Befehl aus, um die Protokollierung für den impliziten und unsichtbaren Postfachzustellungs-Sendeconnector, der im Postfachtransportdienst auf einem Postfachserver vorhanden ist, zu aktivieren oder zu deaktivieren:
 
-    Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```powershell
+Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```
 
 In diesem Beispiel wird die Protokollierung für den Postfachzustellungs-Empfangsconnector im Postfachtransportdienst auf dem Postfachserver "Mailbox01" aktiviert.
 
-    Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

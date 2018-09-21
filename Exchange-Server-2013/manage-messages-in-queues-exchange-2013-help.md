@@ -65,7 +65,9 @@ Verwenden Sie die folgende Syntax, um Nachrichten aus Warteschlangen zu entferne
 
 In diesem Beispiel werden Nachrichten in den Warteschlangen entfernt, die den Betreff "Win Big" aufweisen, ohne dass ein Unzustellbarkeitsbericht gesendet wird.
 
-    Remove-Message -Filter {Subject -eq "Win Big"} -WithNDR $false
+```powershell
+Remove-Message -Filter {Subject -eq "Win Big"} -WithNDR $false
+```
 
 In diesem Beispiel wird die Nachricht mit der Nachrichten-ID 3 in der Nicht-erreichbar-Warteschlange auf dem Server "Mailbox01" angehalten und ein Unzustellbarkeitsbericht gesendet.
 
@@ -107,7 +109,9 @@ Eine Nachricht, die aktuell den Status Angehalten aufweist, kann fortgesetzt wer
 
 Verwenden Sie die folgende Syntax, um Nachrichten fortzusetzen:
 
-    Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```powershell
+Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```
 
 In diesem Beispiel werden alle Nachrichten fortgesetzt, die von beliebigen Absendern in der Domäne "Contoso.com" gesendet wurden.
 
@@ -149,7 +153,9 @@ Eine Nachricht, die an mehrere Empfänger gesendet wird, kann sich in mehreren W
 
 Verwenden Sie die folgende Syntax, um Nachrichten anzuhalten:
 
-    Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```powershell
+Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```
 
 Im folgenden Beispiel werden alle Nachrichten in der Warteschlange angehalten, die von einem beliebigen Absender in der Domäne "contoso.com" stammen:
 

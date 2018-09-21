@@ -145,11 +145,15 @@ Für das Wiederholungsintervall für Nachrichten ist standardmäßig `00:15:00` 
 
 Verwenden Sie folgende Syntax, um das Wiederholungsintervall für Nachrichten festzulegen.
 
-    Set-TransportService <ServerIdentity> -MessageRetryInterval <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -MessageRetryInterval <dd.hh:mm:ss>
+```
 
 In diesem Beispiel wird das Nachrichtenwiederholungsintervall auf dem Postfachserver "Mailbox01" auf 20 Minuten festgelegt.
 
-    Set-TransportService Mailbox01 -MessageRetryInterval 00:20:00
+```powershell
+Set-TransportService Mailbox01 -MessageRetryInterval 00:20:00
+```
 
 ## Konfigurieren der Timeouteinstellungen für DNS-Verzögerungen
 
@@ -173,11 +177,15 @@ Das Timeoutintervall für DSN-Verzögerungsbenachrichtigungen kann mithilfe der 
 
 Verwenden Sie folgende Syntax, um das Wiederholungsintervall für Nachrichten festzulegen.
 
-    Set-TransportService <ServerIdentity> -DelayNotificationTimeout <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -DelayNotificationTimeout <dd.hh:mm:ss>
+```
 
 In diesem Beispiel wird das Timeoutintervall für DSN-Verzögerungsbenachrichtigungen auf dem Postfachserver "Mailbox01" auf 6 Stunden geändert.
 
-    Set-TransportService Mailbox01 -DelayNotificationTimeout 06:00:00
+```powershell
+Set-TransportService Mailbox01 -DelayNotificationTimeout 06:00:00
+```
 
 ## Aktivieren oder Deaktivieren des Versands von DSN-Verzögerungsbenachrichtigungen an externe oder interne Nachrichtenabsender mithilfe der Shell
 
@@ -187,11 +195,15 @@ Verwenden Sie folgende Syntax, um die Einstellungen von DSN-Verzögerungsbenachr
 
 In diesem Beispiel wird das Senden von DNS-Verzögerungsbenachrichtigungen an externe Absender deaktiviert.
 
-    Set-TransportConfig -ExternalDelayDSNEnabled $false
+```powershell
+Set-TransportConfig -ExternalDelayDSNEnabled $false
+```
 
 In diesem Beispiel wird das Senden von DNS-Verzögerungsbenachrichtigungen an interne Absender deaktiviert.
 
-    Set-TransportConfig -InternalDelayDSNEnabled $false
+```powershell
+Set-TransportConfig -InternalDelayDSNEnabled $false
+```
 
 ## Konfigurieren des Timeoutintervalls für den Nachrichtenablauf
 
@@ -207,9 +219,13 @@ In diesem Beispiel wird das Senden von DNS-Verzögerungsbenachrichtigungen an in
 
 Verwenden Sie die folgende Syntax, um das Timeoutintervall für den Nachrichtenablauf zu konfigurieren.
 
-    Set-TransportService <ServerIdentity> -MessageExpirationTimeout <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -MessageExpirationTimeout <dd.hh:mm:ss>
+```
 
 In diesem Beispiel wird das Timeoutintervall für den Nachrichtenablauf auf dem Exchange-Server "Mailbox01" in 4 Tage geändert.
 
-    Set-TransportService Mailbox01 -MessageExpirationTimeout 4.00:00:00
+```powershell
+Set-TransportService Mailbox01 -MessageExpirationTimeout 4.00:00:00
+```
 

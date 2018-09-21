@@ -73,7 +73,9 @@ Als Nächstes konfigurieren Sie die Anzahl von Datenbanken pro Volume (*AutoDagD
 
 In diesem Beispiel wird veranschaulicht, wie Sie diese AutoReseed-Einstellung für eine DAG festlegen, die mit 4 Datenbanken pro Volume konfiguriert ist.
 
-    Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabaseCopiesPerVolume 4
+```powershell
+Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabaseCopiesPerVolume 4
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 

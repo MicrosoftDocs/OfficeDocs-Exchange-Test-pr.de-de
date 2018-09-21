@@ -59,17 +59,23 @@ In diesem Beispiel wird die Standardbereitstellungsrichtlinie "SM\_ProvisioningP
 
 In diesem Beispiel werden detaillierte Informationen zu allen Bereitstellungsrichtlinien für Websitepostfächer in Ihrer Organisation zurückgegeben.
 
-    Get-SiteMailboxProvisioningPolicy | Format-List
+```powershell
+Get-SiteMailboxProvisioningPolicy | Format-List
+```
 
 In diesem Beispiel werden alle Richtlinien in Ihrer Organisation zurückgegeben, es werden jedoch lediglich die `IsDefault`-Informationen angezeigt, um die Standardrichtlinie zu ermitteln.
 
-    Get-SiteMailboxProvisioningPolicy | Format-List IsDefault
+```powershell
+Get-SiteMailboxProvisioningPolicy | Format-List IsDefault
+```
 
 ## Änderungen an einer vorhandenen Bereitstellungsrichtlinie für Websitepostfächer
 
 In diesem Beispiel wird die Bereitstellungsrichtlinie für Websitepostfächer "Default" geändert, indem die maximale Größe von E-Mails, die von dem Websitepostfach empfangen werden können, auf 25 MB festgelegt wird. (Bei der Installation von Exchange wird eine Bereitstellungsrichtlinie mit dem Namen **Default** erstellt.)
 
-    Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
+```powershell
+Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
+```
 
 In diesem Beispiel wird das Kontingent, ab dem eine Warnmeldung gesendet wird, auf 9,5 GB und das Kontingent für das Sende- und Empfangsverbot auf 10 GB festgelegt.
 
@@ -103,7 +109,9 @@ In diesem Beispiel wird die Standardbereitstellungsrichtlinie geändert, und der
 
 In diesem Beispiel wird die Standardrichtlinie für Websitepostfächer gelöscht, die während des Exchange-Setups erstellt wird.
 
-    Remove-SiteMailboxProvisioningPolicy -Identity Default
+```powershell
+Remove-SiteMailboxProvisioningPolicy -Identity Default
+```
 
 
 > [!IMPORTANT]

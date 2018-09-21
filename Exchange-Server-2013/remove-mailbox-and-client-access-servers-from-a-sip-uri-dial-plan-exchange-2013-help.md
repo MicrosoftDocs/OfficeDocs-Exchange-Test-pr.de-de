@@ -60,15 +60,21 @@ In diesem Beispiel wird der Postfachserver `MyMailboxServer` aus einem SIP-URI-W
 
 In diesem Beispiel sind drei SIP-UIR-Wählpläne vorhanden: SipDP1, SipDP2 und SipDP3. In diesem Beispiel wird der Postfachserver mit dem Namen `MyMailboxServer` aus dem Wählplan "SipDP3" entfernt.
 
-    Set-UMService -id MyMailboxServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMService -id MyMailboxServer -DialPlans SipDP1,SipDP2
+```
 
 In diesem Beispiel sind zwei SIP-UIR-Wählpläne vorhanden: SipDP1 und SipDP2. In diesem Beispiel wird der Postfachserver mit dem Namen `MyMailboxServer` aus dem Wählplan "SipDP2" entfernt.
 
-    Set-UMService -id MyMailboxServer -DialPlans SipDP1
+```powershell
+Set-UMService -id MyMailboxServer -DialPlans SipDP1
+```
 
 In diesem Beispiel wird der Postfachserver mit dem Namen `MyMailboxServer` aus allen SIP-Wählplänen entfernt.
 
-    Set-UMService -id MyUMServer -DialPlans $null
+```powershell
+Set-UMService -id MyUMServer -DialPlans $null
+```
 
 ## Entfernen Sie mit der Exchange-Verwaltungskonsole einen Clientzugriffsserver aus einem SIP-URI-Wählplan.
 
@@ -91,13 +97,19 @@ In diesem Beispiel wird der Clientzugriffsserver `MyClientAccessServer` aus eine
 
 In diesem Beispiel sind drei SIP-UIR-Wählpläne vorhanden: SipDP1, SipDP2 und SipDP3. In diesem Beispiel wird der Clientzugriffsserver mit dem Namen `MyClientAccessServer` aus dem Wählplan "SipDP3" entfernt.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1,SipDP2
+```
 
 In diesem Beispiel sind zwei SIP-UIR-Wählpläne vorhanden: SipDP1 und SipDP2. In diesem Beispiel wird der Clientzugriffsserver mit dem Namen `MyClientAccessServer` aus dem Wählplan "SipDP2" entfernt.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1
+```
 
 In diesem Beispiel wird der Clientzugriffsserver mit dem Namen `MyClientAccessServer` aus allen SIP-Wählplänen entfernt.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans $null
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans $null
+```
 

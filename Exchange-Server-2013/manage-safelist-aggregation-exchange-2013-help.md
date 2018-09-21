@@ -51,7 +51,9 @@ Führen Sie den folgenden Befehl aus, um die maximale Anzahl von sicheren und bl
 
 In diesem Beispiel wird für das Postfach "john@contoso.com" ein Maximum von 2.000 sicheren Absendern und 200 blockierten Absendern konfiguriert.
 
-    Set-Mailbox john@contoso.com -MaxSafeSenders 2000 -MaxBlockedSenders 200
+```powershell
+Set-Mailbox john@contoso.com -MaxSafeSenders 2000 -MaxBlockedSenders 200
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -69,7 +71,9 @@ In Exchange 2013 erfolgt die Aggregation von Listen sicherer Adressen automatisc
 
 In diesem Beispiel wird die Liste sicherer Absender für das Postfach "john@contoso.com" in Active Directory geschrieben.
 
-    Update-Safelist john@contoso.com -Type SafeSenders
+```powershell
+Update-Safelist john@contoso.com -Type SafeSenders
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Update-SafeList](https://technet.microsoft.com/de-de/library/bb125034\(v=exchg.150\)).
 
@@ -81,11 +85,15 @@ Führen Sie die folgenden Schritte aus, um die erfolgreiche Konfiguration der Ag
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+Get-ContentFilterConfig | Format-List Enabled
+```
 
 2.  Wenn die Ausgabe den Parameter *Enabled* mit dem Wert `True` zeigt, ist die Inhaltsfilterung aktiviert. Andernfalls führen Sie den folgenden Befehl aus, um die Inhaltsfilterung und den Inhaltsfilter-Agent auf dem Exchange-Server zu aktivieren:
     
-        Set-ContentFilterConfig -Enabled $true
+    ```powershell
+Set-ContentFilterConfig -Enabled $true
+```
 
 ## Schritt 2: (Optional) Überprüfen der Replikation der Daten zur Aggregation von Listen sicherer Adressen auf die Edge-Transport-Server mithilfe von ADSI Edit
 

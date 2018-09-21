@@ -59,21 +59,29 @@ So starten Sie die IMAP4-Dienste:
 
 1.  Führen Sie auf dem Computer, auf dem die Clientzugriffs-Serverrolle ausgeführt wird, in der Shell den folgenden Befehl aus, um den Microsoft Exchange-IMAP4-Dienst zu starten.
     
-        Start-service msExchangeIMAP4
+    ```powershell
+Start-service msExchangeIMAP4
+```
 
 2.  Führen Sie auf dem Computer, auf dem die Postfachserverrolle ausgeführt wird, in der Shell den folgenden Befehl aus, um den Microsoft Exchange-IMAP4-Back-End-Dienst zu starten.
     
-        Start-service msExchangeIMAP4BE
+    ```powershell
+Start-service msExchangeIMAP4BE
+```
 
 So halten Sie die IMAP4-Dienste an:
 
 1.  Führen Sie auf dem Computer, auf dem die Clientzugriffs-Serverrolle ausgeführt wird, in der Shell den folgenden Befehl aus, um den Microsoft Exchange-IMAP4-Dienst zu beenden.
     
-        Stop-service msExchangeIMAP4
+    ```powershell
+Stop-service msExchangeIMAP4
+```
 
 2.  Führen Sie auf dem Computer, auf dem die Postfachserverrolle ausgeführt wird, in der Shell den folgenden Befehl aus, um den Microsoft Exchange-IMAP4-Back-End-Dienst zu beenden.
     
-        Stop-service msExchangeIMAP4BE
+    ```powershell
+Stop-service msExchangeIMAP4BE
+```
 
 ## Starten und Beenden der IMAP4-Dienste mithilfe von "net start"
 
@@ -81,21 +89,29 @@ So starten Sie die IMAP4-Dienste:
 
 1.  Führen Sie auf dem Computer, auf dem die Clientzugriffs-Serverrolle ausgeführt wird, an der Eingabeaufforderung den folgenden Befehl aus, um den Microsoft Exchange-IMAP4-Dienst zu starten.
     
-        net start msExchangeIMAP4
+    ```powershell
+net start msExchangeIMAP4
+```
 
 2.  Führen Sie auf dem Computer, auf dem die Postfachserverrolle ausgeführt wird, an der Eingabeaufforderung den folgenden Befehl aus, um den Microsoft Exchange-IMAP4-Back-End-Dienst zu starten.
     
-        net start msExchangeIMAP4BE
+    ```powershell
+net start msExchangeIMAP4BE
+```
 
 So halten Sie die IMAP4-Dienste an:
 
 1.  Führen Sie auf dem Computer, auf dem die Clientzugriffs-Serverrolle ausgeführt wird, an der Eingabeaufforderung den folgenden Befehl aus, um den Microsoft Exchange-IMAP4-Dienst zu beenden.
     
-        Net Stop MSExchangeIMAP4
+    ```powershell
+Net Stop MSExchangeIMAP4
+```
 
 2.  Führen Sie auf dem Computer, auf dem die Postfachserverrolle ausgeführt wird, an der Eingabeaufforderung den folgenden Befehl aus, um den Microsoft Exchange-IMAP4-Back-End-Dienst zu beenden.
     
-        Net Stop MSExchangeIMAP4BE
+    ```powershell
+Net Stop MSExchangeIMAP4BE
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

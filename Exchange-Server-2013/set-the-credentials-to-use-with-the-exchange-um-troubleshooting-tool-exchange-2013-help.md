@@ -59,7 +59,9 @@ Wenn Sie das UM-Problembehandlungstool ausführen, verwendet es standardmäßig 
 
 2.  Geben Sie im Fenster **Microsoft Exchange 2010 UM-Problembehandlungstool** an der Eingabeaufforderung Folgendes ein, und drücken Sie die EINGABETASTE.
     
-        $cred=Get-Credential
+    ```powershell
+$cred=Get-Credential
+```
 
 3.  Geben Sie im Fenster **Bei Windows PowerShell anmelden** den Domänen-\\Benutzernamen und das Kennwort ein, und klicken Sie dann auf **OK**.
 

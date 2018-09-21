@@ -69,7 +69,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Freigaberichtlinien f
 
 In diesem Beispiel wird eine Webproxy-URL auf dem Postfachserver "MAIL01" konfiguriert.
 
-    Set-ExchangeServer -Identity "MAIL01" -InternetWebProxy "<Webproxy URL>"
+```powershell
+Set-ExchangeServer -Identity "MAIL01" -InternetWebProxy "<Webproxy URL>"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ExchangeServer](https://technet.microsoft.com/de-de/library/bb123716\(v=exchg.150\)).
 
@@ -77,7 +79,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Excha
 
 Sie können genauer untersuchen, ob Sie die Webproxy-URL erfolgreich konfiguriert haben, indem Sie den folgenden Shell-Befehl ausführen und die Informationen des Parameters *InternetWebProxy* überprüfen.
 
-    Get-ExchangeServer | format-list
+```powershell
+Get-ExchangeServer | format-list
+```
 
 ## Schritt 2: Aktivieren des virtuellen Verzeichnisses für die Veröffentlichung mithilfe der Shell
 
@@ -99,7 +103,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-OwaVi
 
 Sie können genauer untersuchen, ob Sie das virtuelle Verzeichnis für die Veröffentlichung erfolgreich aktiviert haben, indem Sie den folgenden Shell-Befehl ausführen und die Informationen des Parameters *ExternalURL* überprüfen.
 
-    Get-OwaVirtualDirectory | format-list
+```powershell
+Get-OwaVirtualDirectory | format-list
+```
 
 ## Schritt 3: Erstellen oder Konfigurieren einer speziellen Freigaberichtlinie für die Veröffentlichung von Kalenderinformationen im Internet
 
@@ -147,11 +153,15 @@ In diesem Beispiel wird eine Freigaberichtlinie für die Veröffentlichung von K
 
 In diesem Beispiel wird die Freigaberichtlinie "Internet" zu einem Benutzerpostfach hinzugefügt.
 
-    Set-Mailbox -Identity <user name> -SharingPolicy "Internet"
+```powershell
+Set-Mailbox -Identity <user name> -SharingPolicy "Internet"
+```
 
 In diesem Beispiel wird die Freigaberichtlinie "Internet" zu einer Organisationseinheit hinzugefügt.
 
-    Set-Mailbox -OrganizationalUnit <OU name> -SharingPolicy "Internet"
+```powershell
+Set-Mailbox -OrganizationalUnit <OU name> -SharingPolicy "Internet"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-SharingPolicy](https://technet.microsoft.com/de-de/library/dd298186\(v=exchg.150\)) und [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)).
 
@@ -159,7 +169,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Shari
 
 Sie können untersuchen, ob Sie die Freigaberichtlinie erfolgreich erstellt haben, indem Sie den folgenden Shell-Befehl ausführen, um die Informationen zur Freigaberichtlinie zu überprüfen.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 ## Option 2: Konfigurieren der Standardfreigaberichtlinie für die Kalenderveröffentlichung im Internet
 
@@ -199,5 +211,7 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailb
 
 Sie können genauer untersuchen, ob Sie die Standardfreigaberichtlinie erfolgreich aktualisiert haben, indem Sie den folgenden Shell-Befehl ausführen, um die Informationen zur Freigaberichtlinie zu überprüfen.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 

@@ -41,7 +41,9 @@ Weitere Informationen zum Upgrade auf Exchange 2013 finden Sie in den folgenden 
 
   - Führen Sie den folgenden Befehl in Exchange 2013 aus, um die Identität und Version des Exchange-Servers und der Postfachdatenbanken abzufragen, welche die Systempostfächer in Ihrer Organisation enthalten.
     
-        Get-Mailbox -Arbitration | FL Name,DisplayName,ServerName,Database,AdminDisplayVersion
+    ```powershell
+Get-Mailbox -Arbitration | FL Name,DisplayName,ServerName,Database,AdminDisplayVersion
+```
     
     Die Eigenschaft **AdminDisplayVersion** gibt die Exchange-Version an, die auf dem Server ausgeführt wird. Der Wert `Version 14.x` gibt Exchange 2010 an; der Wert `Version 15.x` gibt Exchange 2013 an.
 
@@ -83,7 +85,9 @@ Weitere Informationen zum Upgrade auf Exchange 2013 finden Sie in den folgenden 
 
 Führen Sie zuerst den folgenden Befehl in Exchange 2013 aus, um die Namen und Versionen aller Postfachdatenbanken in Ihrer Organisation abzurufen.
 
-    Get-MailboxDatabase -IncludePreExchange2013 | FL Name,Server,AdminDisplayVersion
+```powershell
+Get-MailboxDatabase -IncludePreExchange2013 | FL Name,Server,AdminDisplayVersion
+```
 
 Nachdem Sie die Namen der Postfachdatenbanken in Ihrer Organisation bestimmt haben, führen Sie den folgenden Befehl in Exchange 2013 aus, um das Microsoft Exchange-Systempostfach in eine Postfachdatenbank auf einem Exchange 2013-Server zu verschieben.
 

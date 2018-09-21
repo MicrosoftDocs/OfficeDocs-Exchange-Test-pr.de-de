@@ -85,7 +85,9 @@ Im folgenden Verfahren wird gezeigt, wie ein deaktiviertes Benutzerpostfach mit 
 
 In diesem Beispiel wird ein Benutzerpostfach verbunden. Der Parameter *Identity* gibt das getrennte Postfach in der Exchange-Datenbank an. Der Parameter *User* gibt das Active Directory-Benutzerkonto an, mit dem das Postfach erneut verbunden wird.
 
-    Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```powershell
+Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```
 
 In diesem Beispiel wird ein verknüpftes Postfach verbunden. Der Parameter *Identity* gibt das getrennte Postfach in der Exchange-Datenbank an. Der Parameter *LinkedMasterAccount* gibt das Active Directory-Benutzerkonto in der Kontogesamtstruktur an, mit dem Sie das Postfach erneut verbinden möchten. Der Parameter *Alias* gibt den Alias, d. h. den Teil der E-Mail-Adresse links vom Symbol (@), des erneut verbundenen Postfachs an.
 
@@ -113,7 +115,9 @@ Führen Sie einen der folgenden Schritte aus, um zu überprüfen, ob Sie ein dea
 
   - Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     Der Wert **UserMailbox** der Eigenschaft *RecipientType* gibt an, dass das Benutzerkonto und das Postfach verbunden sind. Sie können auch das Cmdlet **Get-Mailbox** ausführen, um zu prüfen, ob das Postfach vorhanden ist.
 

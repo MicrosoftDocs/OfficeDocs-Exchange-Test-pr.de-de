@@ -71,7 +71,9 @@ Wenn Sie kein Abonnement des Edge-Transport-Servers mit dem Active Directory-Sta
 
 4.  Führen Sie auf dem Postfachserver den folgenden Befehl aus, um die EdgeSync-Synchronisierung zum ersten Mal zu starten.
     
-        Start-EdgeSynchronization
+    ```powershell
+Start-EdgeSynchronization
+```
 
 5.  Wenn Sie den Vorgang abgeschlossen haben, wird dringend empfohlen, dass Sie die Edge-Abonnementdatei sowohl auf dem Edge-Transport-Server als auch auf dem Postfachserver löschen. Die Edge-Abonnementdatei enthält Informationen zu den Anmeldeinformationen, die während des LDAP-Kommunikationsvorgangs verwendet werden.
 

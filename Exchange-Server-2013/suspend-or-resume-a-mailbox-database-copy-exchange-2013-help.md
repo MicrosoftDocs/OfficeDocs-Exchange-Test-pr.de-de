@@ -89,5 +89,7 @@ Gehen Sie folgendermaßen vor, um das erfolgreiche Anhalten oder Fortsetzen eine
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Statusinformationen zu einer Datenbankkopie anzuzeigen.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+```
 

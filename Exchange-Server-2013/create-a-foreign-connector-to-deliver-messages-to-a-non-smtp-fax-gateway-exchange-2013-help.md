@@ -59,7 +59,9 @@ Nachdem Sie den fremden Connector erstellt haben, können Sie basierend auf den 
 
 Führen Sie den folgenden Befehl aus, um sicherzustellen, dass der fremde Connector erfolgreich erstellt wurde:
 
-    Get-ForeignConnector | Format-List Name
+```powershell
+Get-ForeignConnector | Format-List Name
+```
 
 Überprüfen Sie, ob der Name des erstellten fremden Connectors angezeigt wird.
 
@@ -77,7 +79,9 @@ Sie erstellen das Verzeichnis, das als Ablageverzeichnis verwendet werden soll, 
 
 Sie können das folgende Cmdlet-Skript ausführen und den Wert des Parameters *DropDirectory* überprüfen, um die ordnungsgemäße Einrichtung des Ablageverzeichnisses zu überprüfen:
 
-    Get-ForeignConnector "Contoso Foreign Connector" | Format-List
+```powershell
+Get-ForeignConnector "Contoso Foreign Connector" | Format-List
+```
 
 Nachdem Sie den fremden Connector erstellt und das Ablageverzeichnis angegeben haben, können Sie über den Postfachserver, auf dem Sie den fremden Connector erstellt haben, eine Nachricht senden und überprüfen, ob eine Datei an das Ablageverzeichnis zugestellt wurde.
 
@@ -91,7 +95,9 @@ Ausführliche Anweisungen zum Konfigurieren Ihres PICKUP-Verzeichnisses finden S
 
 Sie können den folgenden Befehl ausführen und den Wert des Parameters *PickupDirectoryPath* überprüfen, um die ordnungsgemäße Einrichtung des PICKUP-Verzeichnisses zu überprüfen:
 
-    Get-TransportService | Format-List PickupDirectoryPath
+```powershell
+Get-TransportService | Format-List PickupDirectoryPath
+```
 
 ## Schritt 4: Konfigurieren des Wiedergabeverzeichnisses für den Transportdienst auf einem Postfachserver mithilfe der Shell
 
@@ -103,7 +109,9 @@ Ausführliche Anweisungen zum Konfigurieren Ihres PICKUP-Verzeichnisses finden S
 
 Sie können den folgenden Befehl ausführen und den Wert des Parameters *ReplayDirectoryPath* überprüfen, um die ordnungsgemäße Einrichtung des Wiedergabeverzeichnisses zu überprüfen:
 
-    Get-TransportService | Format-List ReplayDirectoryPath
+```powershell
+Get-TransportService | Format-List ReplayDirectoryPath
+```
 
 ## Weitere Informationen
 

@@ -91,7 +91,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
 
   - In diesem Beispiel wird die Organisationsbeziehung "Contoso" deaktiviert.
     
-        Set-OrganizationRelationship -Identity Contoso -Enabled $false
+    ```powershell
+Set-OrganizationRelationship -Identity Contoso -Enabled $false
+```
 
   - In diesem Beispiel wird der Zugriff auf Verfügbarkeitsinformationen aus Kalendern für die Organisationsbeziehung "WoodgroveBank" ermöglicht, und die Zugriffsebene wird auf `AvailabilityOnly` (Frei/Gebucht-Kalenderinformationen nur mit Zeit) festgelegt.
     
@@ -103,7 +105,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Organ
 
 Führen Sie den folgenden Shell-Befehl aus, und überprüfen Sie die Informationen zur Organisationsbeziehung, um die erfolgreiche Aktualisierung der Organisationsbeziehung sicherzustellen.
 
-    Get-OrganizationRelationship | format-list
+```powershell
+Get-OrganizationRelationship | format-list
+```
 
 
 > [!TIP]

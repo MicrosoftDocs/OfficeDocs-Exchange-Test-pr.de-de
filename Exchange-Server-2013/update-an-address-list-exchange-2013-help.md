@@ -53,7 +53,9 @@ Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden S
 
 In diesem Beispiel wird die Adressliste "Washington State" aktualisiert.
 
-    Update-AddressList "Washington State"
+```powershell
+Update-AddressList "Washington State"
+```
 
 Wenn Sie mehrere Adresslisten gleichen Namens haben, müssen Sie den vollständigen Pfad zu der zu aktualisierenden Adressliste angeben. Wenn Sie beispielsweise die Adressliste "Sales" unter "North America" aktualisieren möchten, es aber ebenfalls eine Adressliste "Sales" unter "Europe" gibt, verwenden Sie den folgenden Befehl:
 

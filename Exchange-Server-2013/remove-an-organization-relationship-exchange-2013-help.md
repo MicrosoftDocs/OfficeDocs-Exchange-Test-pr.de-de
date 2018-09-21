@@ -43,7 +43,9 @@ Bevor Sie Kalender für eine andere Organisation freigeben können, müssen Sie 
 
 In diesem Beispiel wird die Organisationsbeziehung "Contoso" aus der Exchange-Organisation entfernt
 
-    Remove-OrganizationRelationship -Identity "Contoso"
+```powershell
+Remove-OrganizationRelationship -Identity "Contoso"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-OrganizationRelationship](https://technet.microsoft.com/de-de/library/ee332362\(v=exchg.150\)).
 
@@ -55,7 +57,9 @@ Führen Sie eine der folgenden Aktionen aus, um zu überprüfen, dass Sie die Or
 
   - Führen Sie den folgenden Shell-Befehl aus, um zu überprüfen, dass die Organisationsbeziehung entfernt wurde.
     
-        Get-OrganizationRelationship | Format-List
+    ```powershell
+Get-OrganizationRelationship | Format-List
+```
 
 
 > [!TIP]

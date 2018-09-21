@@ -71,11 +71,15 @@ Systempostfächer werden standardmäßig nicht im Exchange Admin Center angezeig
 
 Mit diesem Befehl wird eine Liste aller Systempostfächer angezeigt.
 
-    Get-Mailbox -Arbitration
+```powershell
+Get-Mailbox -Arbitration
+```
 
 Mit diesem Befehl wird eine Liste der Systempostfächer und den dazugehörigen individuellen Eigenschaften und Einstellungen angezeigt.
 
-    Get-Mailbox -Arbitration |fl
+```powershell
+Get-Mailbox -Arbitration |fl
+```
 
 Mithilfe dieses Systempostfachs können benutzerdefinierte Begrüßungen, Ansagen Menüs und Eingabeaufforderungen zusammen mit anderen Postfächern in einer Datenbank gesichert und wiederhergestellt werden. Dadurch werden die benötigten Ressourcen verringert. Mit dem Speichern von benutzerdefinierten Begrüßungen, Ansagen, Menüs und Eingabeaufforderungen in einem Systempostfach werden möglicherweise aufgetretene Inkonsistenzen beseitigt. Weitere Informationen zu Postfachverschiebungen finden Sie unter [Postfachverschiebungen in Exchange 2013](mailbox-moves-in-exchange-2013-exchange-2013-help.md).
 
@@ -214,7 +218,9 @@ Konfigurieren Sie den UM-Startmodus auf einem Exchange 2013-Clientzugriffsserver
 
 Konfigurieren Sie den UM-Startmodus auf einem Exchange 2013-Clientzugriffsserver durch die Ausführung des folgenden Befehls in der Shell.
 
-    Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```
 
 ## Schritt 6: Konfigurieren des UM-Startmodus auf allen Exchange 2013-Postfachservern
 
@@ -274,7 +280,9 @@ Sie können gegebenenfalls einen UM-Wählplan mit der Exchange-Verwaltungskonsol
 
 Sie können gegebenenfalls einen UM-Wählplan durch Ausführen des folgenden Befehls in der Shell erstellen.
 
-    New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```powershell
+New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```
 
 Sie können gegebenenfalls einen vorhandenen UM-Wählplan mit der Exchange-Verwaltungskonsole erstellen wie folgt:
 
@@ -318,7 +326,9 @@ Sie können gegebenenfalls ein UM-IP-Gateway mit der Exchange-Verwaltungskonsole
 
 Sie können gegebenenfalls mit dem folgenden Befehl ein UM-IP-Gateway erstellen.
 
-    New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```powershell
+New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```
 
 So konfigurieren Sie ein bestehendes UM-IP-Gateway mit der Exchange-Verwaltungskonsole:
 
@@ -432,7 +442,9 @@ Sie können gegebenenfalls eine UM-Postfachrichtlinie mit der Exchange-Verwaltun
 
 Sie können gegebenenfalls eine UM-Postfachrichtlinie durch Ausführen des folgenden Befehls in der Shell erstellen.
 
-    New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```powershell
+New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```
 
 Sie können gegebenenfalls eine vorhandenen UM-Postfachrichtlinie mit der Exchange-Verwaltungskonsole konfigurieren:
 
@@ -470,7 +482,9 @@ So verschieben Sie ein Exchange 2010-Postfach mit der Exchange-Verwaltungskonsol
 
 Führen Sie zum Verschieben eines Exchange 2010-Postfachs auf einen Exchange 2013-Postfachserver mit der Shell den folgenden Befehl aus.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```
 
 ## Schritt 13: Aktivieren neuer Benutzer für UM oder Konfigurieren von Einstellungen für einen vorhandenen UM-aktivierten Benutzer
 
@@ -576,7 +590,9 @@ So deaktivieren Sie UM auf einem Exchange 2010-UM-Server mit der Exchange-Verwal
 
 So deaktivieren Sie UM auf einem Exchange 2010-UM-Server mit der Shell durch Ausführen des folgenden Befehls:
 
-    Disable-UMServer -Identity MyUMServer -Immediate $true
+```powershell
+Disable-UMServer -Identity MyUMServer -Immediate $true
+```
 
 
 > [!TIP]
@@ -611,11 +627,15 @@ Führen Sie zur Entfernung eines Exchange 2010-UM-Servers aus einem Wählplan mi
 
 In diesem Beispiel sind drei SIP-UIR-Wählpläne vorhanden: SipDP1, SipDP2 und SipDP3. In diesem Beispiel wird ein UM-Server mit dem Namen `MyUMServer` aus dem Wählplan "SipDP3" entfernt.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```
 
 In diesem Beispiel sind zwei SIP-UIR-Wählpläne vorhanden: SipDP1 und SipDP2. In diesem Beispiel wird ein UM-Server mit dem Namen `MyUMServer` aus dem Wählplan "SipDP2" entfernt.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1
+```
 
 
 > [!TIP]

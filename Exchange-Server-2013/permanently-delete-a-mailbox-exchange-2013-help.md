@@ -59,7 +59,9 @@ Weitere Informationen zu getrennten Postfächern und zum Durchführen anderer da
 
 Führen Sie den folgenden Befehl aus, um ein aktives Postfach und das dazugehörige Active Directory-Benutzerkonto endgültig zu löschen.
 
-    Remove-Mailbox -Identity <identity> -Permanent $true
+```powershell
+Remove-Mailbox -Identity <identity> -Permanent $true
+```
 
 
 > [!NOTE]
@@ -79,7 +81,9 @@ Um sicherzustellen, dass Sie ein aktives Postfach endgültig gelöscht haben, ge
 
 3.  Führen Sie den folgenden Befehl aus, um zu prüfen, ob das Postfach endgültig aus der Exchange-Postfachdatenbank gelöscht wurde.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+    ```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+```
     
     Wenn Sie das Postfach erfolgreich endgültig gelöscht haben, gibt der Befehl keine Ergebnisse zurück. Wenn das Postfach nicht endgültig gelöscht wurde, gibt der Befehl Informationen zum Postfach zurück.
 
@@ -111,7 +115,9 @@ In diesem Beispiel wird das deaktivierte Postfach mit der GUID "2ab32ce3-fae1-44
 
 In diesem Beispiel wird das vorläufig gelöschte Postfach Dan Jump Ayla endgültig aus der Postfachdatenbank MBD01 gelöscht.
 
-    Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```powershell
+Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```
 
 In diesem Beispiel werden alle vorläufig gelöschten Postfächer endgültig aus der Postfachdatenbank "MBD01" gelöscht.
 
@@ -123,7 +129,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-St
 
 Zum Prüfen, ob ein getrenntes Postfach endgültig auch aus der Exchange-Postfachdatenbank gelöscht wurde, führen Sie den folgenden Befehl aus.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {     Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+```
 
 Wenn Sie das Postfach erfolgreich endgültig gelöscht haben, gibt der Befehl keine Ergebnisse zurück. Wenn das Postfach nicht endgültig gelöscht wurde, gibt der Befehl Informationen zum Postfach zurück.
 

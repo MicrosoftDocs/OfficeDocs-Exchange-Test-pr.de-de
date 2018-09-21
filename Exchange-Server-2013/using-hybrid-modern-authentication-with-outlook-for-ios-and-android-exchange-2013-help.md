@@ -175,7 +175,9 @@ Um die Verbindung anderer mobiler Geräteclients (z. B. des nativen E-Mail-Clien
 
 1.  Sie können die integrierten Exchange-Zugriffsregeln für Mobilgeräte nutzen und die Verbindung aller Mobilgeräte blockieren, indem Sie in der Exchange-Verwaltungsshell Folgendes festlegen:
     
-        Set-ActiveSyncOrganizationSettings -DefaultAccessLevel Block
+    ```powershell
+Set-ActiveSyncOrganizationSettings -DefaultAccessLevel Block
+```
 
 2.  Sie können nach der Installation des lokalen Exchange Connectors eine lokale Richtlinie für bedingten Zugriff in Intune nutzen. Weitere Informationen finden Sie unter [Erstellen einer Richtlinie für bedingten Zugriff auf eine lokale Installation von Exchange und auf das ältere Exchange Online Dedicated](https://docs.microsoft.com/intune/conditional-access-exchange-create#configure-exchange-on-premises-access).
 

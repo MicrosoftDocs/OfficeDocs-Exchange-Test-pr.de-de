@@ -101,7 +101,9 @@ So erstellen Sie das Vermittlungspostfach FederatedEmail.4c1f4d8b-8179-4148-93bf
 
 2.  Führen Sie in Exchange-Verwaltungsshell den folgenden Befehl aus:
     
-        Enable-Mailbox -Arbitration -Identity "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042"
+    ```powershell
+Enable-Mailbox -Arbitration -Identity "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042"
+```
 
 ## Neuerstellen des Postfachs des Microsoft Exchange-Genehmigungs-Assistenten
 
@@ -125,11 +127,15 @@ So erstellen Sie das Vermittlungspostfach Migration.8f3e7716-2011-43e4-96b1-aba6
 
 2.  Führen Sie in Exchange-Verwaltungsshell den folgenden Befehl aus:
     
-        Enable-Mailbox -Arbitration -Identity "Migration.8f3e7716-2011-43e4-96b1-aba62d229136"
+    ```powershell
+Enable-Mailbox -Arbitration -Identity "Migration.8f3e7716-2011-43e4-96b1-aba62d229136"
+```
 
 3.  Legen Sie in Exchange-Verwaltungsshell die dauerhaften Funktionen (MsExchCapabilityIdentifiers) fest, indem Sie den folgendem Befehl ausführen:
     
-        Set-Mailbox "Migration.8f3e7716-2011-43e4-96b1-aba62d229136" -Arbitration -Management:$True -Force
+    ```powershell
+Set-Mailbox "Migration.8f3e7716-2011-43e4-96b1-aba62d229136" -Arbitration -Management:$True -Force
+```
 
 ## Neuerstellen des Systempostfachs der Microsoft Exchange-Suche
 
@@ -149,7 +155,9 @@ So erstellen Sie das Vermittlungspostfach SystemMailbox{bb558c35-97f1-4cb9-8ff7-
 
 2.  Führen Sie in Exchange-Verwaltungsshell den folgenden Befehl aus:
     
-        Enable-Mailbox -Arbitration -Identity "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}"
+    ```powershell
+Enable-Mailbox -Arbitration -Identity "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}"
+```
 
 3.  Legen Sie in Exchange-Verwaltungsshell die dauerhaften Funktionen (MsExchCapabilityIdentifiers) fest, indem Sie den folgendem Befehl ausführen:
     
@@ -163,7 +171,9 @@ Wenn Sie anschließend den Befehl `$OABMBX = Get-Mailbox "SystemMailbox{bb558c35
 
 Zur Überprüfung, dass Sie das Vermittlungspostfach erfolgreich neu erstellt haben, verwenden Sie das Cmdlet **Get-Mailbox** mit dem Schalter *Arbitration*, um die Systempostfächer abzurufen.
 
-    Get-Mailbox -Arbitration | Format-Table Name, DisplayName
+```powershell
+Get-Mailbox -Arbitration | Format-Table Name, DisplayName
+```
 
 Überprüfen Sie anhand der Ergebnisse des Befehls, ob das betreffende Systempostfach mit dem Namen oder Anzeigenamen in der vorstehenden Tabelle neu erstellt wurde.
 

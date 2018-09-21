@@ -49,19 +49,25 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 Im folgenden Beispiel wird dem Endbenutzer erlaubt, externe Servereinstellungen für POP3 anzuzeigen.
 
-    Set-PopSettings -ExternalConnectionSettings {Dublin01.Contoso.com:995:SSL}
+```powershell
+Set-PopSettings -ExternalConnectionSettings {Dublin01.Contoso.com:995:SSL}
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-PopSettings](https://technet.microsoft.com/de-de/library/aa997154\(v=exchg.150\)).
 
 Im folgenden Beispiel wird dem Endbenutzer erlaubt, externe Servereinstellungen für IMAP4 anzuzeigen.
 
-    Set-ImapSettings -ExternalConnectionSettings {Dublin01.Contoso.com:993:SSL}
+```powershell
+Set-ImapSettings -ExternalConnectionSettings {Dublin01.Contoso.com:993:SSL}
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ImapSettings](https://technet.microsoft.com/de-de/library/aa998252\(v=exchg.150\)).
 
 Sie müssen IIS neu starten, um diese Änderungen zu übernehmen. Sie müssen die POP3-Dienste nicht neu starten. Um IIS neu zu starten, geben Sie an einer Eingabeaufforderung Folgendes ein:
 
-    iisreset
+```powershell
+iisreset
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -69,7 +75,9 @@ So überprüfen Sie, ob Sie Exchange so konfiguriert haben, dass Benutzer ihre P
 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
-        Get-PopSettings | format-list
+    ```powershell
+Get-PopSettings | format-list
+```
 
 2.  Überprüfen Sie, ob die Eigenschaft *ExternalConnectionSettings* festgelegt ist.
 
@@ -77,7 +85,9 @@ So überprüfen Sie, ob Sie Exchange so konfiguriert haben, dass Benutzer ihre I
 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
-        Get-ImapSettings | format-list
+    ```powershell
+Get-ImapSettings | format-list
+```
 
 2.  Überprüfen Sie, ob die Eigenschaft *ExternalConnectionSettings* festgelegt ist.
 
@@ -97,7 +107,9 @@ So überprüfen Sie, ob Sie Exchange so konfiguriert haben, dass Benutzer ihre S
 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
-        Get-ReceiveConnector | format-list
+    ```powershell
+Get-ReceiveConnector | format-list
+```
 
 2.  Wenn die Eigenschaft *AdvertiseClientSettings* auf `true` festgelegt ist, können Benutzer ihre SMTP-Servereinstellungen in Outlook Web App anzeigen. Wenn *AdvertiseClientSettings* auf `false` festgelegt ist, können Benutzer ihre SMTP-Servereinstellungen nicht in Outlook Web App anzeigen.
 

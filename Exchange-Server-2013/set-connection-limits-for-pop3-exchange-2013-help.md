@@ -67,11 +67,15 @@ Nachdem Sie Verbindungslimits festgelegt haben, müssen Sie die POP3-Dienste neu
 
 In diesem Beispiel wird das Verbindungslimit für einen Server festgelegt.
 
-    Set-PopSettings -Identity CAS01 -MaxConnections Value
+```powershell
+Set-PopSettings -Identity CAS01 -MaxConnections Value
+```
 
 In diesem Beispiel wird das Verbindungslimit für eine IP-Adresse festgelegt.
 
-    Set-PopSettings -Identity CAS01 -MaxConnectionsFromSingleIP Value
+```powershell
+Set-PopSettings -Identity CAS01 -MaxConnectionsFromSingleIP Value
+```
 
 In diesem Beispiel wird das Verbindungslimit für einen Benutzer festgelegt.
 
@@ -79,7 +83,9 @@ In diesem Beispiel wird das Verbindungslimit für einen Benutzer festgelegt.
 
 In diesem Beispiel wird die maximale Größe eines Befehls festgelegt.
 
-    Set-PopSettings -MaxCommandSize Value
+```powershell
+Set-PopSettings -MaxCommandSize Value
+```
 
 Nachdem Sie Verbindungslimits festgelegt haben, müssen Sie die POP3-Dienste neu starten. Informationen zum Neustarten der POP3-Dienste finden Sie unter [Starten und Beenden des POP3-Diensts](start-and-stop-the-pop3-services-exchange-2013-help.md).
 
@@ -103,7 +109,9 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass die Verbindungslimits richtig 
 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
-        Get-PopSettings | format-list
+    ```powershell
+Get-PopSettings | format-list
+```
 
 2.  Stellen Sie sicher, dass die Verbindungseinstellungen korrekt sind.
 

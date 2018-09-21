@@ -67,11 +67,15 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit K
 
 In diesem Beispiel wird dem Postfachserver MBX3 eine Kopie der Postfachdatenbank "DB1" hinzugefügt. Wiedergabeverzögerung und Abschneideverzögerung werden jeweils auf dem Standardwert 0 belassen, während die Aktivierungseinstellung mit dem Wert 2 konfiguriert wird.
 
-    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ActivationPreference 2
+```powershell
+Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ActivationPreference 2
+```
 
 In diesem Beispiel wird dem Postfachserver "MBX4" eine Kopie der Postfachdatenbank "DB2" hinzugefügt. Wiedergabeverzögerung und Abschneideverzögerung werden jeweils auf dem Standardwert 0 belassen, während die Aktivierungseinstellung mit dem Wert `5` konfiguriert wird. Darüber hinaus wird das Seeding für diese Kopie verschoben, damit es mit einem lokalen Quellserver anstatt mit der aktuellen aktiven Datenbankkopie erfolgen kann, die von "MBX4" geografisch entfernt ist.
 
-    Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 5 -SeedingPostponed
+```powershell
+Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 5 -SeedingPostponed
+```
 
 In diesem Beispiel wird dem Postfachserver "MBX5" eine Kopie der Postfachdatenbank "DB3" hinzugefügt. Die Wiedergabeverzögerung wird auf 3 Tage festgelegt und die Abschneideverzögerung auf dem Standardwert 0 belassen, während die Aktivierungseinstellung mit dem Wert `4` konfiguriert wird.
 
@@ -85,7 +89,9 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Erstellung einer Postfachdate
 
   - Führen Sie in der Shell den folgenden Befehl aus, um sicherzustellen, dass die Postfachdatenbankkopie erstellt wurde und sich in einem fehlerfreien Zustand befindet:
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+```
     
     Status und Inhaltsindexzustand sollten beide den Wert Fehlerfrei anzeigen.
 

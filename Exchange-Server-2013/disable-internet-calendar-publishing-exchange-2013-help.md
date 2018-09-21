@@ -69,11 +69,15 @@ Weitere Informationen zur Veröffentlichung von Kalenderinformationen im Interne
 
 In diesem Beispiel wird die dedizierte Freigaberichtlinie zur Kalenderveröffentlichung im Internet mit dem Namen **Internet** deaktiviert.
 
-    Set-SharingPolicy -Identity "Internet" -Enabled $false
+```powershell
+Set-SharingPolicy -Identity "Internet" -Enabled $false
+```
 
 In diesem Beispiel wird die dedizierte Freigaberichtlinie zur Kalenderveröffentlichung im Internet mit dem Namen **Internet** gelöscht.
 
-    Remove-SharingPolicy -Identity "Internet"
+```powershell
+Remove-SharingPolicy -Identity "Internet"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-SharingPolicy](https://technet.microsoft.com/de-de/library/dd297931\(v=exchg.150\)).
 
@@ -81,7 +85,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Shari
 
 Sie können untersuchen, ob Sie die Freigaberichtlinie entfernt oder aktualisiert haben, indem Sie den folgenden Shell-Befehl ausführen, um die Informationen zur Freigaberichtlinie zu überprüfen.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 Wenn Sie die dedizierte Freigaberichtlinie zur Kalenderveröffentlichung im Internet entfernt haben, ist die Richtlinie nicht in den Ergebnissen des Cmdlets enthalten.
 
@@ -105,7 +111,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Shari
 
 In diesem Beispiel werden anonymen Funktionen für das virtuelle Outlook Web App-Verzeichnis für den Clientzugriffsserver CAS01 deaktiviert.
 
-    Set-OwaVirtualDirectory -Identity "CAS01" - AnonymousFeaturesEnabled -$false
+```powershell
+Set-OwaVirtualDirectory -Identity "CAS01" - AnonymousFeaturesEnabled -$false
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-OwaVirtualDirectory](https://technet.microsoft.com/de-de/library/bb123515\(v=exchg.150\)).
 
@@ -113,7 +121,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-OwaVi
 
 Sie können genauer untersuchen, ob Sie die anonymen Funktionen für das virtuelle Outlook Web App-Verzeichnis auf dem Clientzugriffsserver erfolgreich deaktiviert haben, indem Sie den folgenden Shell-Befehl ausführen und prüfen, ob der Parameter *AnonymousFeaturesEnabled* auf `$false` festgelegt ist.
 
-    Get-OwaVirtualDirectory | format-list
+```powershell
+Get-OwaVirtualDirectory | format-list
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-OwaVirtualDirectory](https://technet.microsoft.com/de-de/library/aa998588\(v=exchg.150\)).
 

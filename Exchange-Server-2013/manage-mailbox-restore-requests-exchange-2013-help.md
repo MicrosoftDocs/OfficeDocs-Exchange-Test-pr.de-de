@@ -43,7 +43,9 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit getrennten Pos
 
   - Führen Sie den folgenden Befehl aus, um den Wert der Eigenschaft *Identity* für alle Anforderungen zur Postfachwiederherstellung anzuzeigen.
     
-        Get-MailboxRestoreRequest | Format-Table Identity
+    ```powershell
+Get-MailboxRestoreRequest | Format-Table Identity
+```
     
     Anhand dieses Identitätswerts können Sie beim Durchführen der Verfahren in diesem Thema eine bestimmte Anforderung zur Postfachwiederherstellung angeben.
 
@@ -63,7 +65,9 @@ Sie können die Eigenschaften einer Anforderung zur Postfachwiederherstellung an
 
 Führen Sie den folgenden Befehl aus, um eine Liste und den Wert der Eigenschaft *Identity* für alle Anforderungen zur Postfachwiederherstellung anzuzeigen.
 
-    Get-MailboxRestoreRequest | Format-Table Identity
+```powershell
+Get-MailboxRestoreRequest | Format-Table Identity
+```
 
 Über die Identitätswert erhalten Sie Informationen zu bestimmten Anforderungen zur Postfachwiederherstellung.
 
@@ -77,17 +81,23 @@ Dieses Beispiel gibt alle Informationen zur zweiten Anforderung zur Postfachwied
 
 In diesem Beispiel werden die Status von Wiederherstellungsanforderungen zurückgegeben, die aus der Quelldatenbank "MBD01" wiederhergestellt werden.
 
-    Get-MailboxRestoreRequest -SourceDatabase MBD01
+```powershell
+Get-MailboxRestoreRequest -SourceDatabase MBD01
+```
 
 In diesem Beispiel werden alle Wiederherstellungsanforderungen zurückgegeben, die derzeit aktiv sind.
 
-    Get-MailboxRestoreRequest -Status InProgress
+```powershell
+Get-MailboxRestoreRequest -Status InProgress
+```
 
 Andere nützliche Status sind `Queued`, `Completed`, `Suspended` und `Failed`.
 
 In diesem Beispiel werden alle Wiederherstellungsanforderungen zurückgegeben, die angehalten wurden.
 
-    Get-MailboxRestoreRequest -Suspend $true
+```powershell
+Get-MailboxRestoreRequest -Suspend $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829907\(v=exchg.150\)).
 
@@ -433,7 +443,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-M
 
 Führen Sie den folgenden Befehl aus, um das erfolgreiche Anhalten einer Anforderung zur Postfachwiederherstellung zu überprüfen:
 
-    Get-MailboxRestoreRequest <identity> | Format-List Suspend,Status
+```powershell
+Get-MailboxRestoreRequest <identity> | Format-List Suspend,Status
+```
 
 Wenn die Eigenschaft *Suspend* den Wert `True` hat, wurde die Wiederherstellungsanforderung erfolgreich angehalten. Zudem gibt der Wert `Suspended` für die Eigenschaft *Status* an, dass die Wiederherstellungsanforderung angehalten wurde.
 
@@ -447,7 +459,9 @@ In diesem Beispiel wird die Wiederherstellungsanforderung "Pilar Pinilla\\Mailbo
 
 In diesem Beispiel werden alle Wiederherstellungsanforderungen mit dem Status "Failed" fortgesetzt.
 
-    Get-MailboxRestoreRequest -Status Failed | Resume-MailboxRestoreRequest
+```powershell
+Get-MailboxRestoreRequest -Status Failed | Resume-MailboxRestoreRequest
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Resume-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829908\(v=exchg.150\)).
 
@@ -455,7 +469,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Resume-Ma
 
 Führen Sie den folgenden Befehl aus, um zu prüfen, ob eine Wiederherstellungsanforderung fortgesetzt wurde.
 
-    Get-MailboxRestoreRequest <identity> | Format-List Suspend,Status
+```powershell
+Get-MailboxRestoreRequest <identity> | Format-List Suspend,Status
+```
 
 Wenn die Eigenschaft *Suspend* den Wert `False` hat, wurde die Wiederherstellungsanforderung erfolgreich fortgesetzt. Zudem gibt der Wert `InProgress` für die Eigenschaft *Status* an, dass die Wiederherstellungsanforderung fortgesetzt wurde.
 
@@ -475,11 +491,15 @@ In diesem Beispiel wird die Wiederherstellungsanforderung "Pilar Pinilla\\Mailbo
 
 In diesem Beispiel werden alle Wiederherstellungsanforderungen mit dem Status "Completed" entfernt.
 
-    Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
+```powershell
+Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
+```
 
 In diesem Beispiel wird die Wiederherstellungsanforderung unter Verwendung des Parameters *RequestGuid* für eine in "MBXDB01" gespeicherte Anforderung abgebrochen. Der Parametersatz, für den die Parameter *RequestGuid* und *RequestQueue* erforderlich sind, wird ausschließlich für Debuggingzwecke des Replikationsdiensts von Microsoft verwendet. Sie sollten diesen Parametersatz nur verwenden, wenn Sie vom Kundensupport von Microsoft dazu aufgefordert werden.
 
-    Remove-MailboxRestoreRequest -RequestQueue MBXDB01 -RequestGuid 25e0eaf2-6cc2-4353-b83e-5cb7b72d441f
+```powershell
+Remove-MailboxRestoreRequest -RequestQueue MBXDB01 -RequestGuid 25e0eaf2-6cc2-4353-b83e-5cb7b72d441f
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829910\(v=exchg.150\)).
 
@@ -487,7 +507,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-Ma
 
 Führen Sie den folgenden Befehl aus, um das erfolgreiche Entfernen einer Anforderung zur Postfachwiederherstellung zu überprüfen:
 
-    Get-MailboxRestoreRequest -Identity <identity of removed restore request>
+```powershell
+Get-MailboxRestoreRequest -Identity <identity of removed restore request>
+```
 
 Der Befehl gibt die Fehlermeldung zurück, dass die Wiederherstellungsanforderung nicht vorhanden ist.
 

@@ -113,7 +113,9 @@ Der erfolgreiche Abschluss des Assistenten für neue Organisationsbeziehungen is
 
 Führen Sie den folgenden Shell-Befehl aus, um die Informationen zur Organisationsbeziehung zu überprüfen und die erfolgreiche Erstellung der Organisationsbeziehung sicherzustellen:
 
-    Get-OrganizationRelationship | format-list
+```powershell
+Get-OrganizationRelationship | format-list
+```
 
 
 > [!TIP]

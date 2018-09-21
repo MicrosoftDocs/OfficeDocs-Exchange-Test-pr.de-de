@@ -160,7 +160,9 @@ Die in der folgenden Liste beschriebenen X-Header sind für Nachrichten im Wiede
 
   - **X-Sender**   Diese X-Kopfzeile ersetzt die Anforderung eines `From`-Nachrichtenkopffelds in einer typischen SMTP-Nachricht. Es muss ein `X-Sender`-Feld vorhanden sein, das eine E-Mail-Adresse enthält. Das Wiedergabeverzeichnis ignoriert ein eventuell vorhandenes `From`-Nachrichtenkopffeld, obwohl der Wert des `From`-Nachrichtenkopffelds im E-Mail-Client des Empfängers als Absender der Nachricht angezeigt wird. Normalerweise sind noch andere Parameter im `X-Sender`-Feld vorhanden, wie im folgenden Beispiel dargestellt.
     
-        X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+    ```powershell
+X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+```
     
 
     > [!NOTE]
@@ -170,7 +172,9 @@ Die in der folgenden Liste beschriebenen X-Header sind für Nachrichten im Wiede
 
   - **X-Receiver**   Diese X-Kopfzeile ersetzt die Anforderung eines `To`-Nachrichtenkopffelds in einer typischen SMTP-Nachricht. Mindestens ein `X-Receiver`-Feld, das eine E-Mail-Adresse enthält, muss vorhanden sein. Für mehrere Empfänger sind mehrere `X-Receiver`-Kopfzeilenfelder zulässig. Das Wiedergabeverzeichnis ignoriert eventuell vorhandene `To`-Nachrichtenkopffelder, obwohl die Werte der `To`-Nachrichtenkopffelder im E-Mail-Client des Empfängers als Empfänger der Nachricht angezeigt werden. Wie im folgenden Beispiel dargestellt, können weitere Parameter in den `X-Receiver`-Feldern vorhanden sein.
     
-        X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+    ```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     
 
     > [!NOTE]
@@ -194,7 +198,9 @@ Die in der folgenden Liste beschriebenen X-Header sind für Nachrichtendateien i
 
 Dieses Beispiel zeigt eine Nur-Text-Nachricht, die eine akzeptable Formatierung für das Wiedergabeverzeichnis verwendet.
 
-    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345AB auth=<someAuth>
     Subject: Optional message subject
     
@@ -202,7 +208,9 @@ Dieses Beispiel zeigt eine Nur-Text-Nachricht, die eine akzeptable Formatierung 
 
 In Nachrichtendateien des Wiedergabeverzeichnisses werden auch MIME-Inhalte unterstützt. MIME definiert eine breite Palette von Nachrichteninhalten, wozu auch Sprachen gehören, die nicht als 7-Bit-ASCII-Text darstellbar sind, sowie HTML und andere Multimediainhalte. Eine vollständige Beschreibung von MIME und den für diesen Standard geltenden Voraussetzungen würde den Rahmen dieses Themas jedoch sprengen. Dieses Beispiel zeigt eine einfache MIME-Nachricht, die eine akzeptable Formatierung für das Wiedergabeverzeichnis verwendet.
 
-    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345ABCD auth=<someAuth>
     To: mary@contoso.com
     From: bob@fabrikam.com

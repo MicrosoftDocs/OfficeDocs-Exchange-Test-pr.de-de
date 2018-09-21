@@ -73,7 +73,9 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Adressumschreibung erfolgrei
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-TransportAgent
+    ```powershell
+Get-TransportAgent
+```
 
 2.  Überprüfen Sie, ob die Werte der Eigenschaft **Enabled** für den eingehenden Adressumschreibungs-Agent und den ausgehenden Adressumschreibungs-Agent den von Ihnen konfigurierten Werten entsprechen.
 
@@ -81,15 +83,21 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Adressumschreibung erfolgrei
 
 Führen Sie zum Anzeigen einer Zusammenfassungsliste aller Adressumschreibungseinträge den folgenden Befehl aus:
 
-    Get-AddressRewriteEntry
+```powershell
+Get-AddressRewriteEntry
+```
 
 Verwenden Sie die folgende Syntax, um die Details eines Adressumschreibungseintrags anzuzeigen:
 
-    Get-AddressRewriteEntry <AddressRewriteEntryIdentity> | Format-List
+```powershell
+Get-AddressRewriteEntry <AddressRewriteEntryIdentity> | Format-List
+```
 
 Im folgenden Beispiel werden die Details des Adressumschreibungseintrags "Rewrite Contoso.com to Northwindtraders.com" angezeigt:
 
-    Get-AddressRewriteEntry "Rewrite Contoso.com to Northwindtraders.com" | Format-List
+```powershell
+Get-AddressRewriteEntry "Rewrite Contoso.com to Northwindtraders.com" | Format-List
+```
 
 ## Verwenden der Shell zum Erstellen von Adressumschreibungseinträgen
 
@@ -171,7 +179,9 @@ Verwenden Sie folgende Syntax, um einen Adressumschreibungseintrag zu ändern, d
 
 Im folgenden Beispiel wird der interne Adresswert des Adressumschreibungseintrags "Northwind Traders to Contoso" für eine einzelne Domäne geändert.
 
-    Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```powershell
+Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```
 
 ## Ändern von Adressumschreibungseinträgen für Empfänger in mehreren Unterdomänen
 
@@ -209,11 +219,15 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob der Adressumschreibungseintrag e
 
 Verwenden Sie die folgende Syntax, um einen einzelnen Adressumschreibungseintrag zu entfernen:
 
-    Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```powershell
+Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```
 
 Im folgenden Beispiel wird der Adressumschreibungseintrag "Contoso.com to Northwindtraders.com" entfernt:
 
-    Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```powershell
+Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```
 
 Verwenden Sie die folgende Syntax, um mehrere Adressumschreibungseinträge zu entfernen:
 
@@ -221,7 +235,9 @@ Verwenden Sie die folgende Syntax, um mehrere Adressumschreibungseinträge zu en
 
 Das folgende Beispiel entfernt alle Adressumschreibungseinträge:
 
-    Get-AddressRewriteEntry | Remove-AddressRewriteEntry
+```powershell
+Get-AddressRewriteEntry | Remove-AddressRewriteEntry
+```
 
 Im folgenden Beispiel wird das Entfernen von Adressumschreibungseinträgen simuliert, die den Text "to contoso.com" im Namen enthalten. Mit der Option *WhatIf* können Sie das Ergebnis als Vorschau anzeigen, ohne die Änderungen tatsächlich anzuwenden.
 

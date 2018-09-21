@@ -423,7 +423,9 @@ In Konfigurationen mit zwei Netzwerkadaptern ist ein Netzwerk im Allgemeinen fü
 
 In Exchange 2010 war in vielen Szenarien eine manuelle Konfiguration der DAG-Netzwerke erforderlich. In Exchange 2013 werden DAG-Netzwerke standardmäßig automatisch vom System konfiguriert. Bevor Sie DAG-Netzwerke erstellen oder ändern können, müssen Sie zunächst die manuelle DAG-Netzwerksteuerung aktivieren, indem Sie folgenden Befehl ausführen:
 
-    Set-DatabaseAvailabilityGroup <DAGName> -ManualDagNetworkConfiguration $true
+```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -ManualDagNetworkConfiguration $true
+```
 
 Nachdem Sie die manuelle DAG-Netzwerkkonfiguration aktiviert haben, können Sie das Cmdlet **New-DatabaseAvailabilityGroupNetwork** in der Shell verwenden, um ein DAG-Netzwerk zu erstellen. Genaue Anweisungen zum Erstellen eines Netzwerks mit DAGs finden Sie unter [Erstellen eines DAG-Netzwerks](create-a-database-availability-group-network-exchange-2013-help.md).
 
@@ -661,7 +663,9 @@ Der Standardwert ist `GoodAvailability`. Wenn `BestAvailability` oder `GoodAvail
 
 Im folgenden Beispiel wird ein Postfachserver mit einer *AutoDatabaseMountDial*-Einstellung von `GoodAvailability` konfiguriert.
 
-    Set-MailboxServer -Identity EX1 -AutoDatabaseMountDial GoodAvailability
+```powershell
+Set-MailboxServer -Identity EX1 -AutoDatabaseMountDial GoodAvailability
+```
 
 ## Automatische Aktivierungsrichtlinie für die Datenbankkopie
 
@@ -677,7 +681,9 @@ Der Parameter *DatabaseCopyAutoActivationPolicy* gibt den Typ der automatischen 
 
 Im folgenden Beispiel wird ein Postfachserver mit einer *DatabaseCopyAutoActivationPolicy*-Einstellung von `Blocked` konfiguriert.
 
-    Set-MailboxServer -Identity EX1 -DatabaseCopyAutoActivationPolicy Blocked
+```powershell
+Set-MailboxServer -Identity EX1 -DatabaseCopyAutoActivationPolicy Blocked
+```
 
 ## Maximale Anzahl von aktiven Datenbanken
 
@@ -689,7 +695,9 @@ Der Parameter *MaximumActiveDatabases* wird mit einem ganzzahligen Wert konfigur
 
 Im folgenden Beispiel wird ein Postfachserver für die Unterstützung von maximal 20 aktiven Datenbanken konfiguriert.
 
-    Set-MailboxServer -Identity EX1 -MaximumActiveDatabases 20
+```powershell
+Set-MailboxServer -Identity EX1 -MaximumActiveDatabases 20
+```
 
 Zurück zum Seitenanfang
 

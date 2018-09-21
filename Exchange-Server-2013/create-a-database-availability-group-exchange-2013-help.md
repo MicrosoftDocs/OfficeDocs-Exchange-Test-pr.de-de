@@ -90,7 +90,9 @@ In diesem Beispiel wird eine DAG namens "DAG1" erstellt, die für die Verwendung
 
 In diesem Beispiel wird die Database Availability Group "DAG2" erstellt. Das System wählt automatisch einen Clientzugriffsserver im lokalen Active Directory-Standort aus, der die Postfachserverrolle nicht als Zeugenserver der DAG enthält. "DAG2" wird eine einzelne statische IP-Adresse zugewiesen, da sich in diesem Beispiel das MAPI-Netzwerk aller DAG-Mitglieder im selben Subnetz befindet.
 
-    New-DatabaseAvailabilityGroup -Name DAG2 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG2 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```
 
 In diesem Beispiel wird die Database Availability Group "DAG3" erstellt. Die Datenbankverfügbarkeitsgruppe "DAG3" wird für die Verwendung des Zeugenservers "MBX2" und eines lokalen Verzeichnisses "C:\\DAG3" konfiguriert. "DAG3" werden mehrere statische IP-Adressen zugeordnet, da sich die DAG-Mitglieder im MAPI-Netzwerk in verschiedenen Subnetzen befinden.
 
@@ -98,7 +100,9 @@ In diesem Beispiel wird die Database Availability Group "DAG3" erstellt. Die Dat
 
 In diesem Beispiel wird die DAG "DAG4" für die Verwendung von DHCP konfiguriert. Der Zeugenserver wird darüber hinaus durch das System automatisch ausgewählt, und das Standardzeugenverzeichnis wird erstellt.
 
-    New-DatabaseAvailabilityGroup -Name DAG4
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG4
+```
 
 In diesem Beispiel wird die DAG "DAG5" erstellt, die keinen Administratorzugriffspunkt aufweist (nur für DAGs mit Windows Server 2012 R2 gültig). Darüber hinaus wird "MBX4" als Zeugenserver für die DAG verwendet, und das Standardzeugenverzeichnis wird erstellt.
 
@@ -112,7 +116,9 @@ Führen Sie eine der folgenden Aktionen aus, um sich zu vergewissern, dass Sie e
 
   - Führen Sie in der Shell folgenden Befehl aus, um zu überprüfen, ob die DAG erstellt wurde, und um die DAG-Eigenschaftsinformationen anzuzeigen:
     
-        Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```powershell
+Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+```
 
 ## Weitere Informationen
 

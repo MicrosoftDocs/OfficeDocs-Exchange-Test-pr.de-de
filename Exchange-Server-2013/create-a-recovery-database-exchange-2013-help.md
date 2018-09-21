@@ -39,7 +39,9 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit W
 
 In diesem Beispiel wird die Wiederherstellungsdatenbank "RDB1" auf dem Postfachserver "MBX2" erstellt.
 
-    New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
+```powershell
+New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
+```
 
 In diesem Beispiel wird die Wiederherstellungsdatenbank "RDB2" auf dem Postfachserver "MBX1" mithilfe eines benutzerdefinierten Pfads für die Datenbankdatei und den Protokollordner erstellt.
 
@@ -53,7 +55,9 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Wiederherstellungsdate
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Konfigurationsinformationen zur Wiederherstellungsdatenbank anzuzeigen:
     
-        Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+    ```powershell
+Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+```
 
 ## Weitere Aufgaben
 

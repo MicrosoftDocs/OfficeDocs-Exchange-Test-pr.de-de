@@ -69,7 +69,9 @@ Wenn das Teergrubenverfahren nicht konfiguriert ist, gibt der Server mit Exchang
 
 Zum Konfigurieren der Verzögerung, bevor SMTP den Fehler `550 5.1.1 User unknown` zurückgibt, legen Sie das Teergrubenintervall mit dem Parameter *TarpitInterval* des Cmdlets **Set-ReceiveConnector** fest. Die Syntax lautet:
 
-    Set-ReceiveConnector <Receive Connector> -TarpitInterval <00:00:00 to 00:10:00>
+```powershell
+Set-ReceiveConnector <Receive Connector> -TarpitInterval <00:00:00 to 00:10:00>
+```
 
 Der Standardwert ist `00:00:05` oder 5 Sekunden. Der Name des Standardempfangsconnectors auf einem Edge-Transport-Server lautet `Default internal receive connector <server name>`.
 

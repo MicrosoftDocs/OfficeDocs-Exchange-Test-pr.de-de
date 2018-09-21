@@ -252,7 +252,9 @@ Sie müssen für alle Nachrichtengrößenbeschränkungen Werte festlegen, die gr
 
 4.  Starten Sie IIS neu, indem Sie den folgenden Befehl ausführen:
     
-        IISReset /noforce
+    ```powershell
+IISReset /noforce
+```
 
 ## Konfigurieren von clientspezifischen Nachrichtengrößenbegrenzungen über die Befehlszeile
 

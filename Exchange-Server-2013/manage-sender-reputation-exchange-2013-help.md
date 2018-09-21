@@ -45,11 +45,15 @@ Die Absenderzuverlässigkeit wird durch den Protokollanalyse-Agent bereitgestell
 
 In diesem Beispiel wird die Absenderzuverlässigkeit deaktiviert.
 
-    Set-SenderReputationConfig -Enabled $false
+```powershell
+Set-SenderReputationConfig -Enabled $false
+```
 
 Im folgenden Beispiel wird die Absenderzuverlässigkeit aktiviert.
 
-    Set-SenderReputationConfig -Enabled $true
+```powershell
+Set-SenderReputationConfig -Enabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -57,7 +61,9 @@ Führen Sie die folgenden Aktionen aus, um zu überprüfen, ob Sie die Absenderz
 
 1.  Überprüfen Sie mit dem folgenden Befehl, ob der Protokollanalyse-Agent installiert und aktiviert ist:
     
-        Get-TransportAgent
+    ```powershell
+Get-TransportAgent
+```
 
 2.  Überprüfen Sie mit dem folgenden Befehl die Absenderzuverlässigkeitswerte, die Sie konfiguriert haben:
     
@@ -69,19 +75,27 @@ Die Absenderzuverlässigkeit ist für externe Nachrichten standardmäßig aktivi
 
 Führen Sie zum Deaktivieren der Absenderzuverlässigkeit für externe Nachrichten den folgenden Befehl aus:
 
-    Set-SenderReputationConfig -ExternalMailEnabled $false
+```powershell
+Set-SenderReputationConfig -ExternalMailEnabled $false
+```
 
 Führen Sie zum Aktivieren der Absenderzuverlässigkeit für externe Nachrichten den folgenden Befehl aus:
 
-    Set-SenderReputationConfig -ExternalMailEnabled $true
+```powershell
+Set-SenderReputationConfig -ExternalMailEnabled $true
+```
 
 Führen Sie zum Deaktivieren der Absenderzuverlässigkeit für interne Nachrichten den folgenden Befehl aus:
 
-    Set-SenderReputationConfig -InternalMailEnabled $false
+```powershell
+Set-SenderReputationConfig -InternalMailEnabled $false
+```
 
 Führen Sie zum Aktivieren der Absenderzuverlässigkeit für interne Nachrichten den folgenden Befehl aus:
 
-    Set-SenderReputationConfig -InternalMailEnabled $true
+```powershell
+Set-SenderReputationConfig -InternalMailEnabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -97,11 +111,15 @@ Führen Sie die folgenden Aktionen aus, um zu überprüfen, ob Sie die Absenderz
 
 Führen Sie den folgenden Befehl aus, um die Eigenschaften der Absenderzuverlässigkeit zu konfigurieren:
 
-    Set-SenderReputationConfig -SrlBlockThreshold <Value> -SenderBlockingPeriod <Hours>
+```powershell
+Set-SenderReputationConfig -SrlBlockThreshold <Value> -SenderBlockingPeriod <Hours>
+```
 
 In diesem Beispiel wird der Sperrschwellenwert für den Absenderzuverlässigkeitsgrad (Sender Reputation Level, SRL) auf 6 festgelegt, und die Absenderzuverlässigkeit wird so konfiguriert, dass problematische Absender für 36 Stunden der IP-Sperrliste hinzugefügt werden:
 
-    Set-SenderReputationConfig -SrlBlockThreshold 6 -SenderBlockingPeriod 36
+```powershell
+Set-SenderReputationConfig -SrlBlockThreshold 6 -SenderBlockingPeriod 36
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -109,7 +127,9 @@ Führen Sie die folgenden Aktionen aus, um zu überprüfen, ob Sie die Absenderz
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-SenderReputationConfig
+    ```powershell
+Get-SenderReputationConfig
+```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 

@@ -49,7 +49,9 @@ Wir empfehlen, die Standardeinstellungen in den meisten Fällen nicht zu ändern
 
 2.  Navigieren Sie zum Schlüssel *\</appsettings\>* am Ende der Datei, und fügen Sie vor dem Schlüssel *\</appsettings\>* den folgenden Schlüssel ein:
     
-        <add key="IncludeSafeDomains" value="true" />
+    ```command line
+<add key="IncludeSafeDomains" value="true" />
+```
 
 3.  Speichern und schließen Sie die Datei "MSExchangeMailboxAssistants.exe.config" nach Abschluss des Vorgangs.
 

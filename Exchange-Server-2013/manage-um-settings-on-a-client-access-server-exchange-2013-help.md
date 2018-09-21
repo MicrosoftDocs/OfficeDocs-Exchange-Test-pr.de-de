@@ -49,11 +49,15 @@ Informationen zu weiteren Aufgaben im Zusammenhang mit Unified Messaging und Cli
 
 In diesem Beispiel wird ein Clientzugriffsserver mit dem Namen `MyClientAccessServer` aus allen SIP-Wählplänen (Session Initiation-Protokoll) entfernt.
 
-    Set-UMCallRouterSettings -DialPlans $null - Server MyClientAccessServer
+```powershell
+Set-UMCallRouterSettings -DialPlans $null - Server MyClientAccessServer
+```
 
 In diesem Beispiel wird der Clientzugriffsserver `MyClientAccessServer` zu einem SIP-Wählplan mit dem Namen `MySIPDialPlan` hinzugefügt. Darüber hinaus wird die maximale Anzahl eingehender Sprachanrufe festgelegt.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan -MaxCalls 150 -Server MyClientAccessServer
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan -MaxCalls 150 -Server MyClientAccessServer
+```
 
 In diesem Beispiel wird auf einem Clientzugriffsserver mit dem Namen `MyClientAccessServer` der SIP-TCP-Überwachungsport auf 5077 und der Startmodus auf den Dualmodus festgelegt.
 
@@ -63,9 +67,13 @@ In diesem Beispiel wird auf einem Clientzugriffsserver mit dem Namen `MyClientAc
 
 In diesem Beispiel wird eine Liste aller Clientzugriffsserver angezeigt.
 
-    Get-UMCallRouterSettings
+```powershell
+Get-UMCallRouterSettings
+```
 
 In diesem Beispiel wird eine formatierte Liste der Eigenschaften für den Clientzugriffsserver angezeigt.
 
-    Get-UMCallRouterSettings | Format-List
+```powershell
+Get-UMCallRouterSettings | Format-List
+```
 

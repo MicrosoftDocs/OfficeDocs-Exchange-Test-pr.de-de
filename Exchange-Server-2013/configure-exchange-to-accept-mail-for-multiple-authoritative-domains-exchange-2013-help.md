@@ -133,11 +133,15 @@ Nehmen Sie beispielsweise an, die E-Mail-Adressrichtlinie in Ihrer Organisation 
 
 Verwenden Sie folgende Syntax, um die aktualisierte E-Mail-Adressrichtlinie auf Empfänger anzuwenden.
 
-    Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```powershell
+Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```
 
 Führen Sie beispielsweise den folgenden Befehl aus, um eine aktualisierte E-Mail-Adressrichtlinie namens "Default Policy" anzuwenden:
 
-    Update-EmailAddressPolicy "Default Policy"
+```powershell
+Update-EmailAddressPolicy "Default Policy"
+```
 
 ## Ersetzen der vorhandenen primären E-Mail-Adresse für eine gefilterte Auswahl von Empfängern
 
@@ -195,7 +199,9 @@ In diesem Beispiel wird eine E-Mail-Adressrichtlinie namens "Fourth Coffee Recip
 
 Führen Sie den folgenden Befehl aus, um die neue E-Mail-Adressrichtlinie auf die betreffenden Empfänger anzuwenden:
 
-    Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```powershell
+Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 

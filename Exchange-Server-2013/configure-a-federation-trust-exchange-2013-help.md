@@ -63,7 +63,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
     
     Es wird empfohlen, für sämtliche Exchange-Organisationen die Business-Instanz des Azure AD-Authentifizierungssystems für Verbundvertrauensstellungen zu verwenden. Vor der Konfiguration der Verbundfreigabe zwischen den zwei Exchange-Organisationen müssen Sie überprüfen, welche Azure AD-Authentifizierungssysteminstanz die Exchange-Organisationen jeweils für vorhandene Verbundvertrauensstellungen verwenden. Zum Ermitteln, welche Azure AD-Authentifizierungssysteminstanz eine Exchange-Organisation für eine vorhandene Verbundvertrauensstellung verwendet, führen Sie den folgenden Shellbefehl aus.
     
-        Get-FederationInformation -DomainName <hosted Exchange domain namespace>
+    ```powershell
+Get-FederationInformation -DomainName <hosted Exchange domain namespace>
+```
     
     Die Business-Instanz gibt für den Parameter *TokenIssuerURIs* den Wert `<uri:federation:MicrosoftOnline>` zurück.
     
@@ -137,11 +139,15 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
 
 4.  Verwenden Sie diese Syntax, um den Nachweis des Domänenbesitzes anhand eines TXT-Eintrags zurückzugeben, der für jede Domäne erforderlich ist, die Sie für die Verbundvertrauensstellung konfigurieren.
     
-        Get-FederatedDomainProof -DomainName <domain>
+    ```powershell
+Get-FederatedDomainProof -DomainName <domain>
+```
     
     In diesem Beispiel wird der Nachweis des Domänenbesitzes anhand eines TXT-Eintrags zurückgegeben, der für die primäre freigegebene Domäne „contoso.com“ erforderlich ist.
     
-        Get-FederatedDomainProof -DomainName contoso.com
+    ```powershell
+Get-FederatedDomainProof -DomainName contoso.com
+```
     
     **Hinweise:** 
     
@@ -153,7 +159,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
 
 6.  Führen Sie diesen Befehl zum Abrufen der Metadaten und des Zertifikats von Azure AD aus:
     
-        Set-FederationTrust -RefreshMetadata -Identity "Azure AD authentication"
+    ```powershell
+Set-FederationTrust -RefreshMetadata -Identity "Azure AD authentication"
+```
 
 7.  Verwenden Sie diese Syntax, um die primäre freigegebene Domäne für die Verbundvertrauensstellung zu konfigurieren, die Sie in Schritt 3 erstellt haben. Die Domäne, die Sie angeben, wird zum Konfigurieren der Organisations-ID (OrgID) für die Verbundvertrauensstellung verwendet. Weitere Informationen zu der Organisations-ID finden Sie unter [Federated organization identifier](federation-exchange-2013-help.md).
     
@@ -165,11 +173,15 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
 
 8.  Verwenden Sie zum Hinzufügen anderer Domänen die folgende Syntax:
     
-        Add-FederatedDomain -DomainName <AdditionalDomain>
+    ```powershell
+Add-FederatedDomain -DomainName <AdditionalDomain>
+```
     
     In diesem Beispiel wird die Unterdomäne „sales.contoso.com“ der Verbundvertrauensstellung hinzugefügt, da Benutzer mit E-Mail-Adressen in der Domäne „sales.contoso.com“ Verbundfreigabefunktionen benötigen.
     
-        Add-FederatedDomain -DomainName sales.contoso.com
+    ```powershell
+Add-FederatedDomain -DomainName sales.contoso.com
+```
     
     Denken Sie daran, dass für jede der Verbundvertrauensstellung hinzugefügte Domäne oder Unterdomäne ein Nachweis des Domänenbesitzes anhand eines TXT-Eintrags erforderlich ist.
 
@@ -183,11 +195,15 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Verbundvertrauensste
 
 1.  Führen Sie den folgenden Shellbefehl aus, um die Informationen der Verbundvertrauensstellung zu überprüfen.
     
-        Get-FederationTrust | Format-List
+    ```powershell
+Get-FederationTrust | Format-List
+```
 
 2.  Ersetzen Sie *\<PrimarySharedDomain\>* durch die primäre freigegebene Domäne, und führen Sie den folgenden Shellbefehl aus, um zu überprüfen, ob die Verbundinformationen von Ihrer Organisation abgerufen werden können.
     
-        Get-FederationInformation -DomainName <PrimarySharedDomain>
+    ```powershell
+Get-FederationInformation -DomainName <PrimarySharedDomain>
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-FederationTrust](https://technet.microsoft.com/de-de/library/dd351262\(v=exchg.150\)) und [Get-FederationInformation](https://technet.microsoft.com/de-de/library/dd351221\(v=exchg.150\)).
 

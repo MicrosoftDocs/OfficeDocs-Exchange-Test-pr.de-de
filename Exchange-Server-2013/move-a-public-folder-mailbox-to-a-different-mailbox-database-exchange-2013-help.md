@@ -47,7 +47,9 @@ Das Cmdlet **New-MoveRequest** reiht das Postfach für öffentliche Ordner in di
 
 In diesen Beispiel wird die Verschiebungsanforderung des Postfachs für öffentliche Ordner "PF\_SanFrancisco" in die Postfachdatenbank MBX\_DB01 begonnen.
 
-    New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01
+```powershell
+New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MoveRequest](https://technet.microsoft.com/de-de/library/dd351123\(v=exchg.150\)).
 
@@ -57,19 +59,25 @@ In der letzten Phase der Verschiebungsanforderung mit dem Namen `CompletionInPro
 
 In diesen Beispiel wird die Verschiebungsanforderung des Postfachs für öffentliche Ordner "PF\_SanFrancisco" in die Postfachdatenbank MBX\_DB01 begonnen und angehalten, wenn die Verschiebungsanforderung kurz vor dem Abschluss steht.
 
-    New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01 -SuspendWhenReadyToComplete
+```powershell
+New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01 -SuspendWhenReadyToComplete
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MoveRequest](https://technet.microsoft.com/de-de/library/dd351123\(v=exchg.150\)).
 
 In diesem Beispiel wird der Status der laufenden Postfachverschiebung für das Postfach für öffentliche Ordner "PF\_SanFrancisco" abgerufen.
 
-    Get-MoveRequest -Identity "PF_SanFrancisco"
+```powershell
+Get-MoveRequest -Identity "PF_SanFrancisco"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-MoveRequest](https://technet.microsoft.com/de-de/library/dd335227\(v=exchg.150\)).
 
 Wenn die Verschiebungsanforderung den Status "Angehalten" erreicht, können Sie die Anforderung fortsetzen. In diesem Beispiel wird die Verschiebungsanforderung für das Postfach für öffentliche Ordner "PF\_SanFrancisco" fortgesetzt.
 
-    Resume-MoveRequest -Identity "PF_SanFrancisco"
+```powershell
+Resume-MoveRequest -Identity "PF_SanFrancisco"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Resume-MoveRequest](https://technet.microsoft.com/de-de/library/ee332320\(v=exchg.150\)).
 
@@ -77,7 +85,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Resume-Mo
 
 Führen Sie den folgenden Befehl aus, um sicherzustellen, dass die Verschiebungsanforderung erfolgreich erstellt wurde:
 
-    Get-MoveRequestStatistics -Identity PF_SanFrancisco | Format-List Status
+```powershell
+Get-MoveRequestStatistics -Identity PF_SanFrancisco | Format-List Status
+```
 
 Der Status `Completed` bedeutet, dass die Verschiebungsanforderung erfolgreich war.
 

@@ -76,11 +76,15 @@ Sie müssen folgende Befehle ausführen, um die virtuellen Verzeichnisse für Ex
     Führen Sie an einer Eingabeaufforderung die folgenden Befehle aus, nachdem Sie das virtuelle Outlook Web App-Verzeichnis festgelegt haben.
     
     ```
-    Net stop IISAdmin /y
+```powershell
+Net stop IISAdmin /y
+```
     ```
 
     ```
-    Net start W3SVC
+```powershell
+Net start W3SVC
+```
     ```
 
 

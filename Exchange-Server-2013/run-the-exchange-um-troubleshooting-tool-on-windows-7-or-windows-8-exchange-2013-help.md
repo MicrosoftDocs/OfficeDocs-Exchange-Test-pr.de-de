@@ -77,13 +77,17 @@ Das Microsoft Exchange 2010 UM-Problembehandlungstool ist ein Cmdlet der Exchang
 
 4.  Wenn Sie das UM-Problembehandlungstool unter Windows Vista, Windows 7 oder Windows 8 ausführen, müssen Sie an der Windows PowerShell-Eingabeaufforderung den folgenden Befehl ausführen:
     
-        Set-ExecutionPolicy RemoteSigned
+    ```powershell
+Set-ExecutionPolicy RemoteSigned
+```
 
 5.  Öffnen Sie im Menü **Start** das **Microsoft Exchange 2010 UM-Problembehandlungstool**.
 
 6.  Geben Sie im Fenster **Microsoft Exchange 2010 UM-Problembehandlungstool** an der Eingabeaufforderung Folgendes ein, und drücken Sie die EINGABETASTE.
     
-        $cred=Get-Credential
+    ```powershell
+$cred=Get-Credential
+```
 
 7.  Geben Sie im Fenster **Bei Windows PowerShell anmelden** den Domänen-\\Benutzernamen und das Kennwort ein, und klicken Sie dann auf **OK**.
 

@@ -63,7 +63,9 @@ Wählen Sie zum Durchsuchen der Einträge in den Nachrichtenverfolgungsprotokoll
 
 Führen Sie den folgenden Befehl aus, um die 1000 neuesten Nachrichtenverfolgungsprotokoll-Einträge auf dem Server anzuzeigen:
 
-    Get-MessageTrackingLog
+```powershell
+Get-MessageTrackingLog
+```
 
 Dieses Beispiel durchsucht die Nachrichtenverfolgungsprotokolle auf dem lokalen Server nach allen Einträgen vom 28.03.2013 8:00 Uhr bis 28.03.2013 17:00 Uhr nach Ereignissen vom Typ **FAIL**, bei denen der Absender der Nachricht "pat@contoso.com" war.
 

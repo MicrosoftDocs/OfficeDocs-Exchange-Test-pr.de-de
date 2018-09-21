@@ -129,7 +129,9 @@ In diesem Schritt müssen Sie das Skript für jeden Endpunkt in Ihrer lokalen Ex
 
 Wenn Sie sich über die externen Exchange-Endpunkte in Ihrer lokalen Exchange-Organisation nicht sicher sind, können Sie eine Liste der extern konfigurierten Webdienst-Endpunkte beziehen, indem Sie den folgenden Befehl in der Exchange PowerShell Ihrer lokalen Exchange-Organisation ausführen:
 
-    Get-WebServicesVirtualDirectory | FL ExternalUrl
+```powershell
+Get-WebServicesVirtualDirectory | FL ExternalUrl
+```
 
 
 > [!NOTE]
@@ -212,7 +214,9 @@ Bevor Sie den folgenden Schritt ausführen, stellen Sie Folgendes sicher:
 
 Ein *AvailabilityAddressSpace* muss auf Clientzugriffsservern mit Exchange vor Version 2013 konfiguriert sein, der auf den Exchange-Webdienste-Endpunkt Ihrer lokalen Exchange 2013 SP1-Clientzugriffsserver verweist. Dieser Endpunkt ist derselbe Endpunkt, der zuvor in Schritt 5 dargelegt wurde, oder kann durch das Ausführen des folgenden Cmdlets auf Ihrem lokalen Exchange 2013 SP1-Clientzugriffsserver festgelegt werden.
 
-    Get-WebServicesVirtualDirectory | FL AdminDisplayVersion,ExternalUrl
+```powershell
+Get-WebServicesVirtualDirectory | FL AdminDisplayVersion,ExternalUrl
+```
 
 
 > [!NOTE]

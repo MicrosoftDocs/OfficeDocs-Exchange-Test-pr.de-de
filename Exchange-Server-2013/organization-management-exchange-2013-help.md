@@ -41,7 +41,9 @@ Standardmäßig können nur Mitglieder der Rollengruppe "Organisationsverwaltung
 
 Sie können den folgenden Befehl verwenden, um eine Liste der Benutzer oder universellen Sicherheitsgruppen anzuzeigen, die Mitglieder dieser Rollengruppe sind.
 
-    Get-RoleGroupMember "Organization Management"
+```powershell
+Get-RoleGroupMember "Organization Management"
+```
 
 Weitere Informationen über die Mitglieder einer Rollengruppe finden Sie unter [Verwalten von Rollengruppen](manage-role-groups-exchange-2013-help.md).
 

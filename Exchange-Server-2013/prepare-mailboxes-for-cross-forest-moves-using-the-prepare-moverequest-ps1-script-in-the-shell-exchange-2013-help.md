@@ -187,7 +187,9 @@ In diesem Beispiel wird Pipelining unterstützt, wenn Sie eine Liste von Postfac
 
 1.  Führen Sie den folgenden Befehl aus.
     
-        $UserCredentials = Get-Credential
+    ```powershell
+$UserCredentials = Get-Credential
+```
 
 2.  Führen Sie den folgenden Befehl aus, um die Anmeldeinformationen an den Parameter *RemoteForestCredential* im Skript "Prepare-MoveRequest.ps1" zu übergeben.
     
@@ -211,7 +213,9 @@ In diesem Beispiel wird eine CSV-Datei aufgerufen, um die E-Mail-aktivierten Zie
 
 1.  Führen Sie den folgenden Befehl aus, um die Anmeldeinformationen der Remotegesamtstruktur abzurufen.
     
-        $UserCredentials = Get-Credential
+    ```powershell
+$UserCredentials = Get-Credential
+```
 
 2.  Führen Sie den folgenden Befehl aus, um die Anmeldeinformationen an den Parameter *RemoteForestCredential* im Skript "Prepare-MoveRequest.ps1" zu übergeben.
     

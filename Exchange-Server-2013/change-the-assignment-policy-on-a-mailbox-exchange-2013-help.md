@@ -49,11 +49,15 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit B
 
 Verwenden Sie zum Ändern der Zuweisungsrichtlinie für ein Postfach die folgende Syntax.
 
-    Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```powershell
+Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```
 
 In diesem Beispiel wird die Zuweisungsrichtlinie für das Postfach "Brian" auf "Unified Messaging Users" festgelegt.
 
-    Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```powershell
+Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```
 
 ## Verwenden der Shell zum Ändern der Zuweisungsrichtlinie für eine Gruppe von Postfächern, denen eine bestimmte Zuweisungsrichtlinie zugewiesen ist
 

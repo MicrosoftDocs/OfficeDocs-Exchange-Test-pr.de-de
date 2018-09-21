@@ -83,11 +83,15 @@ Diesen Schritt können Sie bedenkenlos zu diesem Zeitpunkt durchführen, da der 
 
 1.  Führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um die erforderlichen Werte des erforderlichen TXT-Eintrags abzurufen:
     
-        Get-FederatedDomainProof -DomainName <Domain> | Format-List Thumbprint,Proof
+    ```powershell
+Get-FederatedDomainProof -DomainName <Domain> | Format-List Thumbprint,Proof
+```
     
     Ist Ihre Verbunddomäne „contoso.com“, würden Sie beispielsweise den folgenden Befehl ausführen:
     
-        Get-FederatedDomainProof -DomainName contoso.com | Format-List Thumbprint,Proof
+    ```powershell
+Get-FederatedDomainProof -DomainName contoso.com | Format-List Thumbprint,Proof
+```
     
     Die Ausgabe des Befehls sieht wie folgt aus:
     
@@ -117,7 +121,9 @@ Führen Sie den folgenden Befehl aus, um mithilfe der Exchange-Verwaltungsshell 
 
 Führen Sie den folgenden Befehl aus, um das neue Verbundzertifikat mithilfe der Exchange-Verwaltungsshell zu aktivieren:
 
-    Set-FederationTrust -Identity "Microsoft Federation Gateway" -PublishFederationCertificate
+```powershell
+Set-FederationTrust -Identity "Microsoft Federation Gateway" -PublishFederationCertificate
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-FederationTrust](https://technet.microsoft.com/de-de/library/dd298034\(v=exchg.150\)).
 
@@ -137,7 +143,9 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die vorhandene Verbundvertrauens
 
   - Ersetzen Sie in der Exchange-Verwaltungsshell*\<user's email address\>* durch die E-Mail-Adresse eines Benutzers in Ihrer Organisation, und überprüfen Sie mit dem folgenden Befehl, ob die Verbundvertrauensstellung funktioniert:
     
-        Test-FederationTrust -UserIdentity <user's email address>
+    ```powershell
+Test-FederationTrust -UserIdentity <user's email address>
+```
 
 ## Ersetzen eines abgelaufenen Verbundzertifikats
 
@@ -145,21 +153,29 @@ Wenn das Verbundzertifikat bereits abgelaufen ist, müssen Sie zunächst alle Ve
 
 1.  Wenn Sie mehrere Verbunddomänen haben, müssen Sie die primäre freigegebenen Domäne identifizieren; sie muss zuletzt entfernt werden. Führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um die primäre freigegebene Domäne und alle Verbunddomänen zu identifizieren:
     
-        Get-FederatedOrganizationIdentifier | Format-List AccountNamespace,Domains
+    ```powershell
+Get-FederatedOrganizationIdentifier | Format-List AccountNamespace,Domains
+```
     
     Der Wert der Eigenschaft **AccountNamespace** enthält die primäre freigegebene Domäne im Format `FYDIBOHF25SPDLT<primary shared domain>`. Beispiel: Im Wert `FYDIBOHF25SPDLT.contoso.com` ist „contoso.com“ die primäre freigegebene Domäne.
 
 2.  Führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um alle Verbunddomänen außer der primären freigegebenen Domäne zu entfernen:
     
-        Remove-FederatedDomain -DomainName <domain> -Force
+    ```powershell
+Remove-FederatedDomain -DomainName <domain> -Force
+```
 
 3.  Sobald Sie alle übrigen Verbunddomänen entfernt haben, führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um die primäre freigegebene Domäne zu entfernen:
     
-        Remove-FederatedDomain -DomainName <domain> -Force
+    ```powershell
+Remove-FederatedDomain -DomainName <domain> -Force
+```
 
 4.  Führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um die Verbundvertrauensstellung zu entfernen:
     
-        Remove-FederationTrust "Microsoft Federation Gateway"
+    ```powershell
+Remove-FederationTrust "Microsoft Federation Gateway"
+```
 
 5.  Erstellen Sie die Verbundvertrauensstellung neu. Eine entsprechende Anleitung finden Sie unter [Erstellen einer Verbundvertrauensstellung](https://technet.microsoft.com/de-de/library/dd335198\(v=exchg.150\)).
 

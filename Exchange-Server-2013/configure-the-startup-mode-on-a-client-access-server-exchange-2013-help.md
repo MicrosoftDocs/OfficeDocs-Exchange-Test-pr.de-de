@@ -67,9 +67,13 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Unified Messaging und
 
 In diesem Beispiel wird der Dualmodus als Startmodus für den Clientzugriffsserver `UMCallRouter1` festgelegt.
 
-    Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode Dual
+```powershell
+Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode Dual
+```
 
 In diesem Beispiel wird der TLS-Modus als Startmodus für den Clientzugriffsserver `UMCallRouter1` festgelegt.
 
-    Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode TLS
+```powershell
+Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode TLS
+```
 

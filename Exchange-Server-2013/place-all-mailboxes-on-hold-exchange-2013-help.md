@@ -134,7 +134,9 @@ Sie können mithilfe des EAC bis 500 Postfächer auswählen und im Archiv platzi
     ```
 
     ```
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+    ```powershell
+Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+```
     ```
     
     ```
@@ -146,7 +148,9 @@ Sie können mithilfe des EAC bis 500 Postfächer auswählen und im Archiv platzi
     ```
 
     ```
-        Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+    ```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+```
     ```
 
     <p>Sie können andere Benutzerpostfacheigenschaften in einem Filter verwenden, um Postfächer einzubeziehen bzw. auszuschließen. Weitere Informationen finden Sie unter <a href="https://technet.microsoft.com/de-de/library/bb738155\(v=exchg.150\)">Filterbare Eigenschaften für den Parameter „-Filter“</a>.</p>

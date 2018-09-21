@@ -135,5 +135,7 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Bearbeitung ei
 
 2.  Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+    ```powershell
+Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+```
 

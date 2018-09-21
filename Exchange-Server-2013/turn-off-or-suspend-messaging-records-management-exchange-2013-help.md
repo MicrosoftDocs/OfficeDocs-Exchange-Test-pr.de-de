@@ -71,7 +71,9 @@ Sie können das Anwenden einer Aufbewahrungsrichtlinie auf ein Postfach beenden,
 
 Im folgenden Beispiel mit der Shell wird die Aufbewahrungsrichtlinie aus dem Postfach "jpeoples" entfernt.
 
-    Set-Mailbox jpeoples -RetentionPolicy $null.
+```powershell
+Set-Mailbox jpeoples -RetentionPolicy $null.
+```
 
 Im folgenden Beispiel mit der Shell wird die Aufbewahrungsrichtlinie aus allen Postfächern in der Exchange-Organisation entfernt.
 
@@ -111,7 +113,9 @@ In diesem Beispiel werden alle Aufbewahrungstags außer dem Tag "Nie löschen" e
 
 Dieser Befehl entfernt die Aufbewahrungsrichtlinie "Corp-Benutzer" aus einer Exchange-Organisation.
 
-    Remove-RetentionPolicy Corp-Users
+```powershell
+Remove-RetentionPolicy Corp-Users
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden Themen:
 

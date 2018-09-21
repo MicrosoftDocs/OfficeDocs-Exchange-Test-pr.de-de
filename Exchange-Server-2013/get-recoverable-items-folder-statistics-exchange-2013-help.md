@@ -47,7 +47,9 @@ Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie d
 
 In diesem Beispiel werden Statistiken für den Ordner **Wiederherstellbare Elemente** von Soumya Singhi abgerufen, und die Ausgabe wird im Listenformat angezeigt.
 
-    Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```powershell
+Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```
 
 In diesem Beispiel werden Statistiken für den Ordner **Wiederherstellbare Elemente** von Soumya Singhi abgerufen, und der Ordnername, der Ordnerpfad, die Anzahl von Elementen innerhalb des Ordners sowie die Ordnergröße werden im Tabellenformat angezeigt.
 

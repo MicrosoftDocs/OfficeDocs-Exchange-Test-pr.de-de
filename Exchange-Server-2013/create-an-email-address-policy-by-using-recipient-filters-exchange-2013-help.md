@@ -49,7 +49,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf E-Mail-Adressrichtlin
 
 Verwenden Sie zum Erstellen einer E-Mail-Adressrichtlinie mit Empfängerfilterung die folgende Syntax.
 
-    New-EmailAddressPolicy -Name <String> -RecipientFilter <String>
+```powershell
+New-EmailAddressPolicy -Name <String> -RecipientFilter <String>
+```
 
 In diesem Beispiel wird eine E-Mail-Adressrichtlinie erstellt, die für alle Führungskräfte gilt und bei der der lokale Teil der E-Mail-Adresse aus den ersten beiden Buchstaben des Vornamens und dem vollständigen Nachnamen besteht.
 

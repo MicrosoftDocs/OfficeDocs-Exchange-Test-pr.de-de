@@ -97,7 +97,9 @@ So konfigurieren Sie geteilte RBAC-Berechtigungen:
     
     1.  Deaktivieren Sie geteilte Active Directory-Berechtigungen, indem Sie von dem Exchange 2013-Installationsmedium aus den folgenden Befehl ausführen.
         
-            setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+        ```powershell
+setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+```
     
     2.  Starten Sie die Exchange 2013-Server in Ihrer Organisation neu, oder warten Sie, bis das Active Directory-Zugriffstoken alle Exchange 2013-Server repliziert hat.
         
@@ -125,11 +127,15 @@ So konfigurieren Sie geteilte RBAC-Berechtigungen:
     
     3.  Fügen Sie der neuen Rollengruppe Mitglieder hinzu, indem Sie den folgenden Befehl verwenden.
         
-            Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+        ```powershell
+Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+```
     
     4.  Ersetzen Sie die Stellvertreterliste für die neue Rollengruppe, sodass nur Mitglieder der Rollengruppe Mitglieder hinzufügen oder entfernen können.
         
-            Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+        ```powershell
+Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+```
         
 
         > [!IMPORTANT]
@@ -142,7 +148,9 @@ So konfigurieren Sie geteilte RBAC-Berechtigungen:
     
     6.  Entfernen Sie mit dem folgenden Befehl alle regulären und delegierenden Rollenzuweisungen zur Rolle "Erstellung von E-Mail-Empfängern", die nicht der neuen Rollengruppe oder anderen Rollengruppen, universellen Sicherheitsgruppen oder direkten Zuweisungen, die beibehalten werden sollen, zugeordnet sind.
         
-            Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+        ```powershell
+Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+```
         
 
         > [!NOTE]
@@ -222,7 +230,9 @@ So wechseln Sie von geteilten RBAC-Berechtigungen zu geteilten Active Directory-
 
 1.  Führen Sie über eine Windows-Befehlsshell den folgendem Befehl auf dem Exchange 2013-Installationsmedium aus, um geteilte Active Directory-Berechtigungen zu aktivieren.
     
-        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+    ```powershell
+setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+```
 
 2.  Wenn Ihre Organisation mehrere Active Directory-Domänen umfasst, müssen Sie entweder `setup.exe /PrepareDomain` in jeder untergeordneten Domäne mit Exchange-Servern oder -Objekten ausführen oder `setup.exe /PrepareAllDomains` über einen Standort mit einem Active Directory-Server aus jeder Domäne ausführen.
 

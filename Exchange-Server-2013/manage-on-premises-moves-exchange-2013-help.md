@@ -51,7 +51,9 @@ Weitere Informationen zum Verschieben von Postfächern finden Sie unter [Postfac
 
 In diesem Beispiel wird die Option *WhatIf* verwendet, um zu testen, ob das Postfach von Tony Smith bereit ist, in die neue Datenbank DB01 verschoben zu werden, und ob der Befehl Fehler aufweist. Wenn Sie die Option *WhatIf* verwenden, führt das System mehrere Prüfungen für das Postfach durch. Wenn das Postfach nicht für die Verschiebung bereit ist, wird eine Fehlermeldung angezeigt.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase DB01 -WhatIf
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase DB01 -WhatIf
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MigrationBatch](https://technet.microsoft.com/de-de/library/jj219166\(v=exchg.150\)) und [New-MoveRequest](https://technet.microsoft.com/de-de/library/dd351123\(v=exchg.150\)).
 
@@ -81,7 +83,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Migration erfolgreic
 
   - Führen Sie in der Shell folgenden Befehl aus, um Informationen zur Verschiebung des Postfachs abzurufen.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Weitere Informationen finden Sie unter [Get-MigrationUserStatistics](https://technet.microsoft.com/de-de/library/jj218695\(v=exchg.150\)).
 
@@ -112,7 +116,9 @@ In diesem Beispiel wird ein Migrationsbatch für eine lokale Verschiebung erstel
 ```
 
 ```
-    Start-MigrationBatch -Identity LocalMove1
+```powershell
+Start-MigrationBatch -Identity LocalMove1
+```
 ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MigrationBatch](https://technet.microsoft.com/de-de/library/jj219166\(v=exchg.150\)) und [Start-MigrationBatch](https://technet.microsoft.com/de-de/library/jj219165\(v=exchg.150\)).
@@ -125,7 +131,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Migration erfolgreic
 
   - Führen Sie in der Shell folgenden Befehl aus, um Informationen zur Verschiebung des Postfachs abzurufen.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Weitere Informationen finden Sie unter [Get-MigrationUserStatistics](https://technet.microsoft.com/de-de/library/jj218695\(v=exchg.150\)).
 
@@ -147,7 +155,9 @@ Ein Beispiel für das Anzeigen eines Migrationsbatches mithilfe der Shell finden
 
 In diesem Beispiel wird lediglich das primäre Postfach von Tony Smith in die Datenbank "DB01" verschoben. Das Archiv wird nicht verschoben.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -PrimaryOnly -TargetDatabase "DB01"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -PrimaryOnly -TargetDatabase "DB01"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MoveRequest](https://technet.microsoft.com/de-de/library/dd351123\(v=exchg.150\)).
 
@@ -159,7 +169,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Migration erfolgreic
 
   - Führen Sie in der Shell folgenden Befehl aus, um Informationen zur Verschiebung des Postfachs abzurufen.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Weitere Informationen finden Sie unter [Get-MigrationUserStatistics](https://technet.microsoft.com/de-de/library/jj218695\(v=exchg.150\)).
 
@@ -188,7 +200,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Migration erfolgreic
 
   - Führen Sie in der Shell folgenden Befehl aus, um Informationen zur Verschiebung des Postfachs abzurufen.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Weitere Informationen finden Sie unter [Get-MigrationUserStatistics](https://technet.microsoft.com/de-de/library/jj218695\(v=exchg.150\)).
 
@@ -206,7 +220,9 @@ Weitere Informationen finden Sie unter [Get-MigrationUserStatistics](https://tec
 
 In diesem Beispiel wird lediglich das Archivpostfach von Tony Smith in die Datenbank "DB03" verschoben. Das primäre Postfach wird nicht verschoben.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -ArchiveOnly -ArchiveTargetDatabase "DB03"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -ArchiveOnly -ArchiveTargetDatabase "DB03"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MigrationBatch](https://technet.microsoft.com/de-de/library/jj219166\(v=exchg.150\)) und [New-MoveRequest](https://technet.microsoft.com/de-de/library/dd351123\(v=exchg.150\)).
 
@@ -216,7 +232,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Migration erfolgreic
 
   - Führen Sie in der Shell folgenden Befehl aus, um Informationen zur Verschiebung des Postfachs abzurufen.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Weitere Informationen finden Sie unter [Get-MigrationUserStatistics](https://technet.microsoft.com/de-de/library/jj218695\(v=exchg.150\)).
 
@@ -234,7 +252,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Migration erfolgreic
 
   - Führen Sie in der Shell folgenden Befehl aus, um Informationen zur Verschiebung des Postfachs abzurufen.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Weitere Informationen finden Sie unter [Get-MigrationUserStatistics](https://technet.microsoft.com/de-de/library/jj218695\(v=exchg.150\)).
 
@@ -264,7 +284,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Migration erfolgreic
 
   - Führen Sie in der Shell folgenden Befehl aus, um Informationen zur Verschiebung des Postfachs abzurufen.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Weitere Informationen finden Sie unter [Get-MigrationUserStatistics](https://technet.microsoft.com/de-de/library/jj218695\(v=exchg.150\)).
 

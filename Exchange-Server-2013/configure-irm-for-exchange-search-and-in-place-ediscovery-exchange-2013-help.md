@@ -61,7 +61,9 @@ In diesem Beispiel wird IRM so konfiguriert, dass Exchange-Suche IRM-geschützte
 
 
 
-    Set-IRMConfiguration -SearchEnabled $true
+```powershell
+Set-IRMConfiguration -SearchEnabled $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-IRMConfiguration](https://technet.microsoft.com/de-de/library/dd979792\(v=exchg.150\)).
 
@@ -75,7 +77,9 @@ In diesem Beispiel wird angegeben, dass Mitglieder der Rollengruppe "Discoveryve
 
 
 
-    Set-IRMConfiguration -EDiscoverySuperUserEnabled $true
+```powershell
+Set-IRMConfiguration -EDiscoverySuperUserEnabled $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-IRMConfiguration](https://technet.microsoft.com/de-de/library/dd979792\(v=exchg.150\)).
 

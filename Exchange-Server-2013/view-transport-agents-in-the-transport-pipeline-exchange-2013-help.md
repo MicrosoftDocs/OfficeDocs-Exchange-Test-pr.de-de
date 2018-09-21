@@ -47,7 +47,9 @@ Sie können eine Liste aller aktivierten Transport-Agents anzeigen, die Nachrich
 
 Sie können über die Shell den folgenden Befehl ausführen, um eine Liste der Transport-Agents in der Transportpipeline auf einem Exchange-Server anzuzeigen:
 
-    Get-TransportPipeline | Format-List
+```powershell
+Get-TransportPipeline | Format-List
+```
 
 Führen Sie den folgenden Befehl aus, um die Ergebnisse in die Textdatei "C:\\My Documents\\Transport Agents.txt" zu exportieren:
 

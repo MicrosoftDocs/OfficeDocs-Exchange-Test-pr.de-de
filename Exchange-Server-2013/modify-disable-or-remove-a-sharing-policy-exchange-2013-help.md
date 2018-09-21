@@ -87,7 +87,9 @@ Informationen zum Erstellen einer Freigaberichtlinie finden Sie unter [Erstellen
 
   - In diesem Beispiel wird die Freigaberichtlinie "Contoso" für die Domäne "contoso.com" geändert, die sich außerhalb der Organisation befindet. Mithilfe dieser Richtlinie können Benutzer in der Domäne "Contoso" nur Frei/Gebucht-Informationen anzeigen.
     
-        Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+    ```powershell
+Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+```
 
   - In diesem Beispiel wird der Freigaberichtlinie "Contoso" eine zweite Domäne hinzugefügt. Wenn Sie einer vorhandenen Richtlinie eine Domäne hinzufügen, müssen Sie sämtliche zuvor eingeschlossenen Domänen auch einschließen.
     
@@ -95,20 +97,28 @@ Informationen zum Erstellen einer Freigaberichtlinie finden Sie unter [Erstellen
 
   - In diesem Beispiel wird die Freigaberichtlinie "Contoso" als Standardfreigaberichtlinie festgelegt.
     
-        Set-SharingPolicy -Identity Contoso -Default $True
+    ```powershell
+Set-SharingPolicy -Identity Contoso -Default $True
+```
 
   - In diesem Beispiel wird die Freigaberichtlinie "Contoso" deaktiviert.
     
-        Set-SharingPolicy -Identity "Contoso" -Enabled $False
+    ```powershell
+Set-SharingPolicy -Identity "Contoso" -Enabled $False
+```
 
   - Im ersten Beispiel wird die Freigaberichtlinie "Contoso" entfernt. Im zweiten Beispiel wird die Freigaberichtlinie "Contoso" entfernt und die Bestätigung unterdrückt, dass die Richtlinie wirklich entfernt werden soll.
     
 ```
-    Remove-SharingPolicy -Identity Contoso
+```powershell
+Remove-SharingPolicy -Identity Contoso
+```
 ```
 
 ```
-    Remove-SharingPolicy -Identity Contoso -Confirm
+```powershell
+Remove-SharingPolicy -Identity Contoso -Confirm
+```
 ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-SharingPolicy](https://technet.microsoft.com/de-de/library/dd297931\(v=exchg.150\)) und [Remove-SharingPolicy](https://technet.microsoft.com/de-de/library/dd351071\(v=exchg.150\)).

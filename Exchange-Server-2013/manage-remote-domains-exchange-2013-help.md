@@ -47,11 +47,15 @@ Wenn Sie einen Remotedomäneneintrag entfernen, gelten die Einstellungen für di
 
 Verwenden Sie folgende Syntax, um einen neuen Remotedomäneneintrag zu erstellen.
 
-    New-RemoteDomain -Name <Descriptive Name> -DomainName <SMTP address space>
+```powershell
+New-RemoteDomain -Name <Descriptive Name> -DomainName <SMTP address space>
+```
 
 In diesem Beispiel wird ein Remotedomäneneintrag für Nachrichten erstellt, die an die Domäne "contoso.com" gesendet werden.
 
-    New-RemoteDomain -Name Contoso -DomainName contoso.com
+```powershell
+New-RemoteDomain -Name Contoso -DomainName contoso.com
+```
 
 In diesem Beispiel wird ein Remotedomäneneintrag für Nachrichten erstellt, die an die Domäne "fabrikam.com" und alle Unterdomänen gesendet werden.
 
@@ -81,11 +85,15 @@ Informationen zum Konfigurieren von Remotedomänen für bestimmte Szenarios find
 
 Verwenden Sie folgende Syntax, um einen Remotedomäneneintrag zu entfernen.
 
-    Remove-RemoteDomain <RemoteDomainName>
+```powershell
+Remove-RemoteDomain <RemoteDomainName>
+```
 
 In diesem Beispiel wird der Remotedomäneneintrag namens "Contoso" entfernt
 
-    Remove-RemoteDomain Contoso
+```powershell
+Remove-RemoteDomain Contoso
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

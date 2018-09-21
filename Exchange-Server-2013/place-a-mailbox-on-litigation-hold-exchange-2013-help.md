@@ -71,7 +71,9 @@ Zurück zum Seitenanfang
 
 In diesem Beispiel wird das Beweissicherungsverfahren für das Postfach "bsuneja@contoso.com" aktiviert. Elemente im Postfach werden unbegrenzt aufbewahrt oder bis die Aufbewahrung entfernt wird.
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true
+```
 
 
 > [!NOTE]
@@ -83,7 +85,9 @@ In diesem Beispiel wird das Beweissicherungsverfahren für das Postfach "bsuneja
 
 In diesem Beispiel wird das Beweissicherungsverfahren für das Postfach "mailbox bsuneja@contoso.com" aktiviert, und Elemente werden für 2.555 Tage (etwa 7 Jahre) beibehalten.
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```
 
 ## Verwenden der Shell zum Aktivieren des Beweissicherungsverfahrens für alle Postfächer für eine bestimmte Dauer
 
@@ -103,7 +107,9 @@ Im Abschnitt Weitere Informationen finden Sie Beispiele für die Verwendung von 
 
 In diesem Beispiel wird das Beweissicherungsverfahren für das Postfach "bsuneja@contoso.com" aufgehoben.
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $false
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $false
+```
 
 Zurück zum Seitenanfang
 

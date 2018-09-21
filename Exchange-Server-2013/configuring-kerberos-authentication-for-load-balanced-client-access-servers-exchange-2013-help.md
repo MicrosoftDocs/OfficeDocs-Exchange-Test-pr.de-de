@@ -53,7 +53,9 @@ Wenn Sie die ASA-Anmeldeinformationen einrichten, beachten Sie diese Richtlinien
     
     Verwenden Sie das **Import-Module**-Cmdlet, um das Active Directory-Modul zu importieren.
     
-        Import-Module ActiveDirectory
+    ```powershell
+Import-Module ActiveDirectory
+```
 
 2.  Verwenden Sie das **New-ADComputer**-Cmdlet, um ein neues Active Directory-Computerkonto mithilfe dieser Cmdlet-Syntax zu erstellen:
     
@@ -71,7 +73,9 @@ Wenn Sie die ASA-Anmeldeinformationen einrichten, beachten Sie diese Richtlinien
     
     **Beispiel:** 
     
-        Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
+    ```powershell
+Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
+```
     
     Wobei *EXCH2013ASA* der Name des Kontos ist und das zu änderte Attribut ist *msDS-SupportedEncryptionTypes* mit einem Dezimalwert von 28, der die folgenden Verschlüsselungen ermöglicht: RC4-HMAC, AES128-CTS-HMAC-SHA1-96, AES256-CTS-HMAC-SHA1-96.
 
@@ -296,11 +300,15 @@ Bevor Sie die SPNs den ASA-Anmeldeinformationen zuordnen, müssen Sie sicherstel
 
 2.  Geben Sie an der Eingabeaufforderung den folgenden Befehl ein:
     
-        setspn -F -Q <SPN>
+    ```powershell
+setspn -F -Q <SPN>
+```
     
     Wobei \<SPN\> der Dienstprinzipalname ist, den Sie den ASA-Anmeldeinformationen zuordnen möchten. Beispiel:
     
-        setspn -F -Q http/mail.corp.tailspintoys.com
+    ```powershell
+setspn -F -Q http/mail.corp.tailspintoys.com
+```
     
     Der Befehl sollte nichts zurückgeben. Wenn er etwas zurückgibt, ist bereits ein anderes Konto dem SPN zugeordnet. Wiederholen Sie diesen Schritt einmal für jeden SPN, den Sie den ASA-Anmeldeinformationen zuordnen möchten.
 
@@ -310,7 +318,9 @@ Bevor Sie die SPNs den ASA-Anmeldeinformationen zuordnen, müssen Sie sicherstel
 
 2.  Geben Sie an der Eingabeaufforderung den folgenden Befehl ein:
     
-        setspn -S <SPN> <Account>$
+    ```powershell
+setspn -S <SPN> <Account>$
+```
     
     Wobei \<SPN\> der Dienstprinzipalname ist, den Sie den ASA-Anmeldeinformationen zuordnen möchten, und \<Account\> das Konto ist, das den ASA-Anmeldeinformationen zugeordnet ist. Beispiel:
     
@@ -324,7 +334,9 @@ Bevor Sie die SPNs den ASA-Anmeldeinformationen zuordnen, müssen Sie sicherstel
 
 2.  Geben Sie an der Eingabeaufforderung den folgenden Befehl ein:
     
-        setspn -L <Account>$
+    ```powershell
+setspn -L <Account>$
+```
     
     Wobei \<Account\> das Konto ist, das den ASA-Anmeldeinformationen zugeordnet ist. Beispiel:
     
@@ -390,7 +402,9 @@ Um den Clientzugriffsserver so zu konfigurieren, dass Kerberos nicht verwendet w
 
 1.  Öffnen Sie die Exchange-Verwaltungsshell auf einem Exchange 2013-Server, und führen Sie den folgenden Befehl aus:
     
-        Set-ClientAccessServer CAS-1 -RemoveAlternateServiceAccountCredentials
+    ```powershell
+Set-ClientAccessServer CAS-1 -RemoveAlternateServiceAccountCredentials
+```
 
 2.  Obwohl dies nicht sofort erforderlich ist, sollten Sie alle Clientcomputer neu starten, um den Kerberos-Ticketcache von den Computern zu löschen.
 

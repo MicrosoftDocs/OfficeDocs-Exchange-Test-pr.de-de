@@ -67,16 +67,22 @@ Wenn sich die Database Availability Group nicht im Aktivierungsmodus der Datenba
 
 1.  Für DAG-Mitglieder im primären Datencenter muss das Entfernen aus dem zugrunde liegenden Cluster der Database Availability Group erzwungen werden, indem für jedes Mitglied die folgenden Befehle ausgeführt werden:
     
-        net stop clussvc
+    ```powershell
+net stop clussvc
+```
         cluster <DAGName> node <DAGMemberName> /forcecleanup
 
 2.  Die Mitglieder der Database Availability Group im zweiten Datencenter müssen nun neu gestartet und anschließend zum Abschließen des Entfernungsprozesses aus dem zweiten Datencenter verwendet werden. Halten Sie den Clusterdienst für jedes Mitglied der Database Availability Group im zweiten Datencenter an, indem Sie für jedes Mitglied den folgenden Befehl ausführen:
     
-        net stop clussvc
+    ```powershell
+net stop clussvc
+```
 
 3.  Erzwingen Sie auf einem DAG-Mitglied im zweiten Datencenter mithilfe des folgenden Befehls einen Quorumstart des Clusterdiensts:
     
-        net start clussvc /forcequorum
+    ```powershell
+net start clussvc /forcequorum
+```
 
 4.  Öffnen Sie die das Tool für die Failoverclusterverwaltung, und stellen Sie die Verbindung mit dem zugrunde liegenden Cluster der Database Availability Group her. Erweitern Sie den Clusterknoten, und erweitern Sie dann **Knoten**. Klicken Sie mit der rechten Maustaste auf jeden Knoten im primären Datencenter, wählen Sie **Weitere Aktionen**, und wählen Sie dann **Zwangslöschen**. Schließen Sie nach dem Entfernen der DAG-Mitglieder im primären Datencenter die Tools zur Failoverclusterverwaltung.
 
@@ -106,15 +112,21 @@ Wenn sich die Database Availability Group nicht im Aktivierungsmodus der Datenba
     
     1.  Wenn eine ungerade Anzahl von DAG-Mitgliedern vorhanden ist, ändern Sie das DAG-Modell mithilfe des folgenden Befehls von einem Quorum des Typs Knoten- und Dateifreigabemehrheit in ein Knotenmehrheitsquorum:
         
-            cluster <DAGName> /quorum /nodemajority
+        ```powershell
+cluster <DAGName> /quorum /nodemajority
+```
     
     2.  Wenn eine gerade Anzahl von DAG-Mitgliedern vorhanden ist, konfigurieren Sie den Zeugenserver und das Verzeichnis neu, indem Sie in der Exchange-Verwaltungsshell den folgenden Befehl ausführen:
         
-            Set-DatabaseAvailabilityGroup <DAGName> -WitnessServer <ServerName>
+        ```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -WitnessServer <ServerName>
+```
 
 2.  Starten Sie den Clusterdienst für alle verbleibenden DAG-Mitglieder im zweiten Datencenter mithilfe des folgenden Befehls:
     
-        net start clussvc
+    ```powershell
+net start clussvc
+```
 
 3.  Führen Sie zum Aktivieren der Postfachdatenbanken in der Database Availability Group einen Serverswitchover aus, indem Sie für jedes DAG-Mitglied den folgenden Befehl ausführen:
     
@@ -122,7 +134,9 @@ Wenn sich die Database Availability Group nicht im Aktivierungsmodus der Datenba
 
 4.  Binden Sie die Postfachdatenbanken für jedes DAG-Mitglied im zweiten Standort über den folgenden Befehl ein:
     
-        Get-MailboxDatabase <DAGMemberinSecondSite> | Mount-Database
+    ```powershell
+Get-MailboxDatabase <DAGMemberinSecondSite> | Mount-Database
+```
 
 Zurück zum Seitenanfang
 

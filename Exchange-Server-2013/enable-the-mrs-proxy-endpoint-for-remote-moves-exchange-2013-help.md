@@ -71,7 +71,9 @@ Der folgende Befehl aktiviert den MRS-Proxyendpunkt auf einem Clientzugriffsserv
 
 Der folgende Befehl aktiviert den MRS-Proxyendpunkt auf allen Clientzugriffsservern in der Exchange-Organisation.
 
-    Get-WebServicesVirtualDirectory | Set-WebServicesVirtualDirectory -MRSProxyEnabled $true
+```powershell
+Get-WebServicesVirtualDirectory | Set-WebServicesVirtualDirectory -MRSProxyEnabled $true
+```
 
 
 > [!IMPORTANT]
@@ -93,7 +95,9 @@ Führen Sie eine der folgenden Aktionen aus, um zu überprüfen, ob der MRS-Prox
 
 Führen Sie in der Shell den folgenden Befehl aus:
 
-    Get-WebServicesVirtualDirectory | FL Identity,MRSProxyEnabled
+```powershell
+Get-WebServicesVirtualDirectory | FL Identity,MRSProxyEnabled
+```
 
 Überprüfen Sie, ob der Parameter *MRSProxyEnabled* auf `True` festgelegt ist.
 
@@ -102,7 +106,9 @@ Eine andere Möglichkeit, die Aktivierung des MRS-Proxyendpunkts zu überprüfen
 Im folgenden Beispiel wird die Verbindung mit einem Server in der Gesamtstruktur **corp.contoso.com** getestet.
 
 ```
-    $Credentials = Get-Credential
+```powershell
+$Credentials = Get-Credential
+```
 ```
 
 ```

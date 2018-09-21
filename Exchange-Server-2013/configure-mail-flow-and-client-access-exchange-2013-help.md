@@ -336,7 +336,9 @@ Weitere Informationen zu internen und externen URLs für virtuelle Verzeichnisse
 
 2.  Speichern Sie den Hostnamen Ihres Clientzugriffsservers in einer Variablen. Diese wird im nächsten Schritt verwendet. Beispiel: "Ex2013CAS".
     
-        $HostName = "Ex2013CAS"
+    ```powershell
+$HostName = "Ex2013CAS"
+```
 
 3.  Führen Sie die folgenden Befehle in der Shell aus, um die einzelnen internen URLs so zu konfigurieren, dass sie mit der externen URL des virtuellen Verzeichnisses übereinstimmen.
     

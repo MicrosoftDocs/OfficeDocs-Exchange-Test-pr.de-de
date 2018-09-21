@@ -41,7 +41,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Wiederherstellungsdat
 
 2.  Verwenden Sie Eseutil, um diese Datenbank in den Status "Clean Shutdown" zu versetzen. Im folgenden Beispiel stellt EXX das Protokollgenerierungspräfix für die Datenbank dar (z. B. E00, E01, E02 usw.).
     
-        Eseutil /R EXX /l <RDBLogFilePath> /d <RDBEdbFolder>
+    ```powershell
+Eseutil /R EXX /l <RDBLogFilePath> /d <RDBEdbFolder>
+```
     
     Das folgende Beispiel verwendet das Protokollgenerierungspräfix E01 und den Wiederherstellungsdatenbank- und Protokolldateipfad "E:\\Databases\\RDB1:
     
@@ -57,15 +59,21 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Wiederherstellungsdat
 
 4.  Starten Sie den Microsoft Exchange-Informationsspeicherdienst neu:
     
-        Restart-Service MSExchangeIS
+    ```powershell
+Restart-Service MSExchangeIS
+```
 
 5.  Binden Sie die Wiederherstellungsdatenbank ein:
     
-        Mount-database <RDBName>
+    ```powershell
+Mount-database <RDBName>
+```
 
 6.  Stellen Sie sicher, dass die eingebundene Datenbank das/die Postfach/Postfächer enthält, das/die Sie wiederherstellen möchten:
     
-        Get-MailboxStatistics -Database <RDBName> | ft -auto
+    ```powershell
+Get-MailboxStatistics -Database <RDBName> | ft -auto
+```
 
 7.  Verwenden Sie das Cmdlet "New-MailboxRestoreRequest", um ein Postfach oder Elemente aus der Wiederherstellungsdatenbank in einem Produktionspostfach wiederherzustellen.
     
@@ -81,7 +89,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Wiederherstellungsdat
     
     Sobald die Wiederherstellung den Status "Abgeschlossen" aufweist, entfernen Sie die Wiederherstellungsanforderung mit [Remove-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829910\(v=exchg.150\)). Beispiel:
     
-        Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
+    ```powershell
+Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

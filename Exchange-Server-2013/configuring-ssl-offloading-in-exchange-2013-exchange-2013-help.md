@@ -87,13 +87,17 @@ Um die SSL-Abladung für Outlook Web App zu aktivieren, müssen Sie die SSL-Anfo
     
       - Geben Sie in der Befehlszeile den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd set config "Default Web Site/owa" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/owa" /section:access /sslFlags:None /commit:APPHOST
+```
 
   - **Schritt 2**   Sie müssen mit einer der folgenden Methoden den richtigen Anwendungspool wiederverwenden oder die Internetinformationsdienste neu starten:
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd Recycle AppPool MSExchangeOWAAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeOWAAppPool
+```
     
       - Mit einem Windows PowerShell-Cmdlet: Geben Sie Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
@@ -101,7 +105,9 @@ Um die SSL-Abladung für Outlook Web App zu aktivieren, müssen Sie die SSL-Anfo
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Mit dem Internetinformationsdienste-Manager: Klicken Sie im Internetinformationsdienste-Manager im Bereich **Aktionen** auf **Neu starten**.
 
@@ -117,14 +123,18 @@ Um die SSL-Abladung für die Exchange-Verwaltungskonsole zu aktivieren, müssen 
     
       - Geben Sie in der Befehlszeile den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
+```
         
 
   - **Schritt 2**   Sie müssen mit einer der folgenden Methoden den richtigen Anwendungspool wiederverwenden oder die Internetinformationsdienste neu starten:
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd Recycle AppPool MSExchangeECPAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeECPAppPool
+```
     
       - Mit einem Windows PowerShell-Cmdlet: Geben Sie Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
@@ -132,7 +142,9 @@ Um die SSL-Abladung für die Exchange-Verwaltungskonsole zu aktivieren, müssen 
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Mit dem Internetinformationsdienste-Manager: Klicken Sie im Internetinformationsdienste-Manager im Bereich **Aktionen** auf **Neu starten**.
 
@@ -166,7 +178,9 @@ Die SSL-Abladung für Outlook Anywhere ist standardmäßig aktiviert. Outlook An
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd Recycle AppPool MSExchangeRpcProxyFrontEndAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeRpcProxyFrontEndAppPool
+```
     
       - Mit einem Windows PowerShell-Cmdlet: Geben Sie Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
@@ -174,7 +188,9 @@ Die SSL-Abladung für Outlook Anywhere ist standardmäßig aktiviert. Outlook An
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Mit dem Internetinformationsdienste-Manager: Klicken Sie im Internetinformationsdienste-Manager im Bereich **Aktionen** auf **Neu starten**.
 
@@ -196,13 +212,17 @@ Um die SSL-Abladung für das Offlineadressbuch (OAB) zu aktivieren, müssen Sie 
     
       - Geben Sie in der Befehlszeile den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd set config "Default Web Site/OAB" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/OAB" /section:access /sslFlags:None /commit:APPHOST
+```
 
   - **Schritt 2**   Sie müssen mit einer der folgenden Methoden den richtigen Anwendungspool wiederverwenden oder die Internetinformationsdienste neu starten:
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd Recycle AppPool MSExchangeOABAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeOABAppPool
+```
     
       - Mit einem Windows PowerShell-Cmdlet: Geben Sie Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
@@ -210,7 +230,9 @@ Um die SSL-Abladung für das Offlineadressbuch (OAB) zu aktivieren, müssen Sie 
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Mit dem Internetinformationsdienste-Manager: Klicken Sie im Internetinformationsdienste-Manager im Bereich **Aktionen** auf **Neu starten**.
 
@@ -232,7 +254,9 @@ Um die SSL-Abladung für Exchange ActiveSync (EAS) zu aktivieren, müssen Sie di
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd Recycle AppPool MSExchangeSyncAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeSyncAppPool
+```
     
       - Mit einem Windows PowerShell-Cmdlet: Geben Sie Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
@@ -240,7 +264,9 @@ Um die SSL-Abladung für Exchange ActiveSync (EAS) zu aktivieren, müssen Sie di
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Mit dem Internetinformationsdienste-Manager: Klicken Sie im Internetinformationsdienste-Manager im Bereich **Aktionen** auf **Neu starten**.
 
@@ -256,13 +282,17 @@ Um die SSL-Abladung für Exchange-Webdienste (EWS) zu aktivieren, müssen Sie di
     
       - Geben Sie in der Befehlszeile den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd set config "Default Web Site/EWS" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/EWS" /section:access /sslFlags:None /commit:APPHOST
+```
 
   - **Schritt 2**   Sie müssen mit einer der folgenden Methoden den richtigen Anwendungspool wiederverwenden oder die Internetinformationsdienste neu starten:
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd Recycle AppPool MSExchangeServicesAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeServicesAppPool
+```
     
       - Mit einem Windows PowerShell-Cmdlet: Geben Sie Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
@@ -270,7 +300,9 @@ Um die SSL-Abladung für Exchange-Webdienste (EWS) zu aktivieren, müssen Sie di
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Mit dem Internetinformationsdienste-Manager: Klicken Sie im Internetinformationsdienste-Manager im Bereich **Aktionen** auf **Neu starten**.
 
@@ -286,13 +318,17 @@ Um die SSL-Abladung für den AutoErmittlungsdienst zu aktivieren, müssen Sie di
     
       - Geben Sie in der Befehlszeile den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd set config "Default Web Site/autodiscover" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/autodiscover" /section:access /sslFlags:None /commit:APPHOST
+```
 
   - **Schritt 2**   Sie müssen mit einer der folgenden Methoden den richtigen Anwendungspool wiederverwenden oder die Internetinformationsdienste neu starten:
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd Recycle AppPool MSExchangeAutodiscoverAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeAutodiscoverAppPool
+```
     
       - Mit einem Windows PowerShell-Cmdlet: Geben Sie Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
@@ -300,7 +336,9 @@ Um die SSL-Abladung für den AutoErmittlungsdienst zu aktivieren, müssen Sie di
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Mit dem Internetinformationsdienste-Manager: Klicken Sie im Internetinformationsdienste-Manager im Bereich **Aktionen** auf **Neu starten**.
 
@@ -326,13 +364,17 @@ Um die SSL-Abladung für Outlook-Clients zu aktivieren, müssen Sie die SSL-Anfo
     
       - Geben Sie in der Befehlszeile den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd set config "Default Web Site/MAPI" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/MAPI" /section:access /sslFlags:None /commit:APPHOST
+```
 
   - **Schritt 2**   Sie müssen mit einer der folgenden Methoden den richtigen Anwendungspool wiederverwenden oder die Internetinformationsdienste neu starten:
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            appcmd Recycle AppPool MSExchangeMapiFrontEndAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeMapiFrontEndAppPool
+```
     
       - Mit einem Windows PowerShell-Cmdlet: Geben Sie Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
@@ -340,7 +382,9 @@ Um die SSL-Abladung für Outlook-Clients zu aktivieren, müssen Sie die SSL-Anfo
     
       - Mit einer Befehlszeile: Gehen Sie zu **Start** \> **Ausführen**, geben Sie **cmd** ein, und drücken Sie dann die EINGABETASTE. Geben Sie im Eingabeaufforderungsfenster Folgendes ein, und drücken Sie dann die EINGABETASTE.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Mit dem Internetinformationsdienste-Manager: Klicken Sie im Internetinformationsdienste-Manager im Bereich **Aktionen** auf **Neu starten**.
 
@@ -367,7 +411,9 @@ Wenn Sie eine umfangreiche Organisation mit mehreren Exchange 2013-Clientzugriff
     Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/Microsoft-Server-ActiveSync"
     Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/OAB"
     Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/MAPI"
-    iisreset /noforce
+```powershell
+iisreset /noforce
+```
 
 **Mithilfe von "appcmd"**
 
@@ -386,7 +432,9 @@ Wenn Sie eine umfangreiche Organisation mit mehreren Exchange 2013-Clientzugriff
     &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/Microsoft-Server-ActiveSync" /section:access /sslFlags:None /commit:APPHOST
     &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/OAB" /section:access /sslFlags:None /commit:APPHOST
     &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/MAPI" /section:access /sslFlags:None /commit:APPHOST
-    iisreset /noforce
+```powershell
+iisreset /noforce
+```
 
 Zurück zum Seitenanfang
 

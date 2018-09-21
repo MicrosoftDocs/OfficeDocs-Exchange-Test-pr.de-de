@@ -81,11 +81,15 @@ Standardmäßig werden Zustellungswarteschlangen mit dem Status "Aktiv", "Verbin
 
 5.  Um den Wert des Parameters *QueueDiagnosticsAggregationInterval* in der Exchange-Verwaltungsshell zu ändern, verwenden Sie folgende Syntax:
     
-        Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+    ```powershell
+Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+```
     
     Führen Sie beispielsweise den folgenden Befehl aus, um den Wert auf 30 Sekunden zu ändern:
     
-        Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+    ```powershell
+Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

@@ -67,11 +67,15 @@ Zum Erstellen einer Rolle oberster Ebene ohne Bereichseinschränkung sind folgen
 
 Rollen oberster Ebene ohne Bereichseinschränkung haben keine übergeordnete Rolle. Zum Erstellen einer Rolle ohne übergeordnete Rolle müssen Sie die Option *UnscopedTopLevel* angeben. Verwenden Sie die folgende Syntax, um eine neue Rolle zu erstellen.
 
-    New-ManagementRole <name of new role> -UnscopedTopLevel
+```powershell
+New-ManagementRole <name of new role> -UnscopedTopLevel
+```
 
 In diesem Beispiel wird eine Rolle oberster Ebene ohne Bereichseinschränkung erstellt, die den Namen "IT Scripts" erhält.
 
-    New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```powershell
+New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```
 
 Nachdem die Rolle erstellt wurde, ist sie leer, bis Sie ihr Skripts oder Exchange-fremde Cmdlets hinzufügen.
 
@@ -159,7 +163,9 @@ Verwenden Sie die folgende Syntax, um eine neue Rolle zu erstellen.
 
 Im folgenden Beispiel werden die Rolle "IT Global Scripts" und die zugehörigen Verwaltungsrolleneinträge in die Rolle "Diagnostic IT Scripts" kopiert.
 
-    New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```powershell
+New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRole](https://technet.microsoft.com/de-de/library/dd298073\(v=exchg.150\)).
 

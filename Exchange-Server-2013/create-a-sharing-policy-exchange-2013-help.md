@@ -109,7 +109,9 @@ Sie können die standardmäßige Freigaberichtlinie bearbeiten, um zu ermöglich
 
   - In diesem Beispiel wird die Freigaberichtlinie "Contoso" für die externe Verbunddomäne "contoso.com" erstellt. Mithilfe dieser Richtlinie können Benutzer in der Domäne "contoso.com" ausführliche Verfügbarkeitsinformationen aus Kalendern (Frei/Gebucht-Informationen) Ihrer Benutzer anzeigen. Diese Richtlinie ist standardmäßig aktiviert.
     
-        New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+    ```powershell
+New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+```
 
   - In diesem Beispiel wird die Freigaberichtlinie "ContosoWoodgrove" für zwei verschiedene Verbunddomänen ("contoso.com" und "woodgrovebank.com") mit unterschiedlichen Freigabeaktionen für jede Domäne konfiguriert. Die Richtlinie wird deaktiviert.
     
@@ -119,7 +121,9 @@ Sie können die standardmäßige Freigaberichtlinie bearbeiten, um zu ermöglich
     
     1.  Festlegen der Webproxy-URL für "MAIL01".
         
-            Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+        ```powershell
+Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+```
     
     2.  Aktivieren des virtuellen Verzeichnisses für die Veröffentlichung auf "CAS01".
         
@@ -141,7 +145,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
 
 Sie können untersuchen, ob Sie die Freigaberichtlinie erfolgreich erstellt haben, indem Sie den folgenden Shell-Befehl ausführen, um die Informationen zur Freigaberichtlinie zu überprüfen.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 
 > [!TIP]

@@ -153,7 +153,9 @@ Gehen Sie wie folgt vor, um eine vorhandene Warteschlangendatenbank und die zuge
 
 5.  Beenden Sie den Microsoft Exchange-Transportdienst, indem Sie folgenden Befehl ausführen:
     
-        net stop MSExchangeTransport
+    ```powershell
+net stop MSExchangeTransport
+```
 
 6.  Verschieben Sie die vorhandenen Datenbankdateien "Mail.que" und "Trn.chk" von dem ursprünglichen an den neuen Speicherort.
 
@@ -161,7 +163,9 @@ Gehen Sie wie folgt vor, um eine vorhandene Warteschlangendatenbank und die zuge
 
 8.  Starten Sie den Microsoft Exchange-Transportdienst, indem Sie folgenden Befehl ausführen:
     
-        net start MSExchangeTransport
+    ```powershell
+net start MSExchangeTransport
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

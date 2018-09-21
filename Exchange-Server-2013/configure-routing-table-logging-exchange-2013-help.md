@@ -83,11 +83,15 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Routingtabellenproto
 
 2.  Ändern Sie im Abschnitt `<appSettings>` folgenden Schlüssel.
     
-        <add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+    ```command line
+<add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+```
     
     Verwenden Sie z. B. folgenden Wert, um das Intervall für die automatische Neuberechnung der Routingtabelle in 10 Stunden zu ändern:
     
-        <add key="RoutingConfigReloadInterval" value="10:00:00" />
+    ```command line
+<add key="RoutingConfigReloadInterval" value="10:00:00" />
+```
 
 3.  Speichern und schließen Sie die Datei "EdgeTransport.exe.config" nach Abschluss des Vorgangs.
 

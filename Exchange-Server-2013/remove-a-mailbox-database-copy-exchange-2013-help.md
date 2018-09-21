@@ -71,7 +71,9 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Entfernung einer Postfachdate
 
   - Führen Sie in der Shell den folgenden Befehl aus, um das Entfernen der Kopie zu bestätigen.
     
-        Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+    ```powershell
+Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+```
     
     Die entfernte passive Kopie wird nicht mehr aufgeführt.
 

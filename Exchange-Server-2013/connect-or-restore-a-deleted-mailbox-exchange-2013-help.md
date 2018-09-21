@@ -101,7 +101,9 @@ Im folgenden Verfahren wird gezeigt, wie ein gelöschtes Benutzerpostfach mit ei
 
 In diesem Beispiel wird ein Benutzerpostfach verbunden. Der Parameter *Identity* gibt den Anzeigenamen des gelöschten Postfachs an, das in der Postfachdatenbank MBXDB01 aufbewahrt wird. Der Parameter *User* gibt das Active Directory-Benutzerkonto an, mit dem das Postfach verbunden wird.
 
-    Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```powershell
+Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```
 
 
 > [!NOTE]
@@ -143,7 +145,9 @@ Führen Sie einen der folgenden Schritte aus, um zu überprüfen, ob Sie ein gel
 
   - Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     Der Wert **UserMailbox** der Eigenschaft *RecipientType* gibt an, dass das Benutzerkonto und das Postfach verbunden sind. Sie können auch den Befehl **Get-Mailbox \<identity\>** ausführen, um zu prüfen, ob das Postfach verbunden wurde.
 
@@ -183,7 +187,9 @@ Sie benötigen die GUID des gelöschten Postfachs auf einem öffentlichen Ordner
 
 1.  Rufen Sie die Active Directory-Gesamtstruktur und den vollqualifizierten Domänennamen (FQDN) des Domänencontrollers ab, indem Sie das folgende Cmdlet ausführen:
     
-        Get-OrganizationConfig | fl OriginatingServer
+    ```powershell
+Get-OrganizationConfig | fl OriginatingServer
+```
 
 2.  Suchen Sie anhand der in Schritt 1 zurückgegebenen Informationen im Container für gelöschte Objekte in Active Directory nach der GUID des Postfachs für öffentliche Ordner sowie nach der GUID bzw. nach dem Namen der Postfachdatenbank, in der das Postfach für öffentliche Ordner enthalten war.
     

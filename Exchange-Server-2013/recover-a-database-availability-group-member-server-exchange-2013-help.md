@@ -59,7 +59,9 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
 
 3.  Entfernen der Konfiguration des fehlerhaften Servers aus der DAG mithilfe des Cmdlets [Remove-DatabaseAvailabilityGroupServer](https://technet.microsoft.com/de-de/library/dd297956\(v=exchg.150\)):
     
-        Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+    ```powershell
+Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
     
 
     > [!NOTE]
@@ -71,11 +73,15 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
 
 5.  Öffnen Sie ein Eingabeaufforderungsfenster. Führen Sie unter Verwendung der ursprünglichen Setupmedien den folgenden Befehl aus:
     
-        Setup /m:RecoverServer
+    ```powershell
+Setup /m:RecoverServer
+```
 
 6.  Verwenden Sie nach Abschluss des Setupwiederherstellungsvorgangs das Cmdlet [Add-DatabaseAvailabilityGroupServer](https://technet.microsoft.com/de-de/library/dd298049\(v=exchg.150\)), um den wiederhergestellten Server der DAG hinzuzufügen:
     
-        Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+    ```powershell
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
 
 7.  Nachdem der Server der DAG wieder hinzugefügt wurde, können Sie die Postfachdatenbankkopien mithilfe des Cmdlets [Add-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd298105\(v=exchg.150\)) neu konfigurieren. Wenn zuvor hinzugefügte Datenbankkopien über eine Wiedergabe- oder Abschneideverzögerung von mehr als 0 verfügten, können Sie diese Einstellungen mithilfe der Parameter *ReplayLagTime* und *TruncationLagTime* des Cmdlets [Add-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd298105\(v=exchg.150\)) neu konfigurieren:
     
@@ -90,11 +96,15 @@ Gehen Sie wie folgt vor, um sich zu vergewissern, dass Sie das DAG-Mitglied erfo
   - Führen Sie in der Shell folgenden Befehl aus, um die Integrität und den Status des wiederhergestellten DAG-Mitglieds zu überprüfen:
     
     ```
-        Test-ReplicationHealth <ServerName>
+    ```powershell
+Test-ReplicationHealth <ServerName>
+```
     ```
     
     ```
-        Get-MailboxDatabaseCopyStatus -Server <ServerName>
+    ```powershell
+Get-MailboxDatabaseCopyStatus -Server <ServerName>
+```
     ```
     
     <p>Sämtliche Statustests für die Replikation müssen erfolgreich ausgeführt werden, und die Statusangaben der Datenbanken und ihrer Inhaltsindizes müssen fehlerfrei sein.</p>

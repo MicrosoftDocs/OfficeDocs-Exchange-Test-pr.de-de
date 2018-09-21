@@ -65,11 +65,15 @@ Systempostfächer werden standardmäßig nicht im Exchange Admin Center angezeig
 
 Mit diesem Befehl wird eine Liste aller Systempostfächer angezeigt.
 
-    Get-Mailbox -Arbitration
+```powershell
+Get-Mailbox -Arbitration
+```
 
 Mit diesem Befehl wird eine Liste der Systempostfächer und den dazugehörigen individuellen Eigenschaften und Einstellungen angezeigt.
 
-    Get-Mailbox -Arbitration |fl
+```powershell
+Get-Mailbox -Arbitration |fl
+```
 
 Wenn Sie benutzerdefinierte begrüßungen, ansagen, Menüs und eingabeaufforderungen von Exchange 2007 auf Exchange 2013 importieren, müssen Sie das Skript MigrateUMCustomPrompts.ps1 verwenden. Sie können keine der Exchange-Verwaltungskonsole verwenden, um benutzerdefinierte begrüßungen, ansagen, Menüs und eingabeaufforderungen importieren. Das MigrateUMCustomPrompts.ps1-Skript migriert eine Kopie des Exchange Server 2007 UM benutzerdefinierte begrüßungen, ansagen, Menüs und eingabeaufforderungen in Exchange 2013 UM. Standardmäßig wird das Skript MigrateUMCustomPrompts.ps1 befindet sich im Ordner \\Microsoft\\Exchange Server\\V15\\Scripts *\<Program Files\>*auf einem Exchange 2013-Postfachserver und muss von einem Exchange 2013-Postfachserver ausgeführt werden. Ausführen des Skripts:
 
@@ -182,7 +186,9 @@ Konfigurieren Sie den UM-Startmodus auf einem Exchange 2013-Clientzugriffsserver
 
 Konfigurieren Sie den UM-Startmodus auf einem Exchange 2013-Clientzugriffsserver durch die Ausführung des folgenden Befehls in der Shell.
 
-    Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```
 
 ## Schritt 5: Konfigurieren des UM-Startmodus auf allen Exchange 2013-Postfachservern
 
@@ -242,7 +248,9 @@ Sie können gegebenenfalls einen UM-Wählplan mit der Exchange-Verwaltungskonsol
 
 Sie können gegebenenfalls einen UM-Wählplan durch Ausführen des folgenden Befehls in der Shell erstellen.
 
-    New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```powershell
+New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```
 
 Falls erforderlich, können Sie einen vorhandenen UM-Wählplan mithilfe der Exchange-Verwaltungskonsole konfigurieren:
 
@@ -286,7 +294,9 @@ Sie können gegebenenfalls ein UM-IP-Gateway mit der Exchange-Verwaltungskonsole
 
 Falls erforderlich, können Sie eine UM-IP-Gateways mithilfe des folgenden Befehls in der Shell erstellen.
 
-    New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```powershell
+New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```
 
 Falls erforderlich, können Sie einer vorhandenen UM-IP-Gateways mithilfe der Exchange-Verwaltungskonsole konfigurieren:
 
@@ -400,7 +410,9 @@ Sie können gegebenenfalls eine UM-Postfachrichtlinie mit der Exchange-Verwaltun
 
 Falls erforderlich, können Sie eine um-Postfachrichtlinie in der Shell erstellen, indem Sie den folgenden Befehl ausführen.
 
-    New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```powershell
+New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```
 
 Sie können gegebenenfalls eine vorhandenen UM-Postfachrichtlinie mit der Exchange-Verwaltungskonsole konfigurieren:
 
@@ -438,7 +450,9 @@ So verschieben Sie ein Exchange 2007-Postfach mit einem Exchange 2013 Mailbox-Se
 
 Führen Sie den folgenden Befehl, um ein Exchange 2007-Postfach mithilfe der Shell auf einen Exchange 2013-Postfachserver zu verschieben.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```
 
 ## Schritt 12: Aktivieren neuer Benutzer für UM oder Konfigurieren von Einstellungen für einen vorhandenen UM-aktivierten Benutzer
 
@@ -544,7 +558,9 @@ Unified Messaging auf einem Exchange 2007 Unified MESSAGING-Server deaktivieren,
 
 Führen Sie den folgenden Befehl, um Unified Messaging auf einem Exchange 2007 Unified MESSAGING-Server deaktivieren, indem Sie mit der Shell.
 
-    Disable-UMServer -Identity MyUMServer -Immediate $true
+```powershell
+Disable-UMServer -Identity MyUMServer -Immediate $true
+```
 
 
 > [!TIP]
@@ -579,11 +595,15 @@ Führen Sie den folgenden Befehl, um eine Exchange 2007 Unified MESSAGING-Server
 
 In diesem Beispiel sind drei SIP-UIR-Wählpläne vorhanden: SipDP1, SipDP2 und SipDP3. In diesem Beispiel wird ein UM-Server mit dem Namen `MyUMServer` aus dem Wählplan "SipDP3" entfernt.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```
 
 In diesem Beispiel sind zwei SIP-UIR-Wählpläne vorhanden: SipDP1 und SipDP2. In diesem Beispiel wird ein UM-Server mit dem Namen `MyUMServer` aus dem Wählplan "SipDP2" entfernt.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1
+```
 
 
 > [!TIP]

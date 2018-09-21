@@ -142,7 +142,9 @@ Die Syntax zum Exportieren von Dateien in Exchange 2013 wird immer dann verwende
 
 Die Shell muss wissen, dass Sie die in der Eigenschaft **FileData** gespeicherten Daten auf Ihrem lokalen Computer speichern möchten. Verwenden Sie zu diesem Zweck die folgende Syntax.
 
-    <cmdlet> | ForEach { $_.FileData | Add-Content <local path to file> -Encoding Byte }
+```command line
+<cmdlet> | ForEach {     <cmdlet> | ForEach { $_.FileData | Add-Content <local path to file> -Encoding Byte }.FileData | Add-Content <local path to file> -Encoding Byte }
+```
 
 Über den folgenden Befehl werden die in der Eigenschaft **FileData** gespeicherten Daten für das Objekt exportiert, das über das fiktionale Cmdlet **Export-SomeData** erstellt wurde. Die exportierten Daten werden in einer von Ihnen angegebenen Datei auf dem lokalen Computer gespeichert, in diesem Fall MyData.dat.
 

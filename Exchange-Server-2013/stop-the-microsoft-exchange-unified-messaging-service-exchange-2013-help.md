@@ -55,5 +55,7 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit Postfachserver
 
 2.  Geben Sie im Textfeld **Öffnen** den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE.
     
-        net stop MSExchangeUM
+    ```powershell
+net stop MSExchangeUM
+```
 

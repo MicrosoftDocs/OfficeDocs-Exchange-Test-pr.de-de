@@ -55,7 +55,9 @@ Verwenden Sie folgende Syntax, um die Antispameinstellungen für ein einzelnes P
 
 In diesem Beispiel wird das Postfach eines Benutzers namens Jeff Phillips so konfiguriert, dass alle Antispamfilter umgangen werden und Nachrichten, die einen SCL-Schwellenwert von 5 für den Junk-E-Mail-Ordner erreichen oder überschreiten, an seinen Junk-E-Mail-Ordner in Microsoft Outlook zugestellt werden.
 
-    Set-Mailbox "Jeff Phillips" -AntispamBypassEnabled $true -SCLJunkEnabled $true -SCLJunkThreshold 4
+```powershell
+Set-Mailbox "Jeff Phillips" -AntispamBypassEnabled $true -SCLJunkEnabled $true -SCLJunkThreshold 4
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -91,11 +93,15 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Antispamfunktionen f
 
 Führen Sie den folgenden Befehl aus:
 
-    Set-OrganizationConfig -SCLJunkThreshold <Integer>
+```powershell
+Set-OrganizationConfig -SCLJunkThreshold <Integer>
+```
 
 In diesem Beispiel wird in der Organisation der Schwellenwert für Junk-E-Mail auf 5 gesetzt.
 
-    Set-OrganizationConfig -SCLJunkThreshold 5
+```powershell
+Set-OrganizationConfig -SCLJunkThreshold 5
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -103,7 +109,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass der Junk-E-Mail-Schwelle
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-OrganizationConfig | Format-List SCLJunkThreshold
+    ```powershell
+Get-OrganizationConfig | Format-List SCLJunkThreshold
+```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 

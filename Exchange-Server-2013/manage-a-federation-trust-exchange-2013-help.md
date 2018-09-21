@@ -83,11 +83,15 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
 
 1.  In diesem Beispiel wird die Domäne "service.contoso.com" aus der Verbundvertrauensstellung entfernt.
     
-        Remove-FederatedDomain -DomainName service.contoso.com
+    ```powershell
+Remove-FederatedDomain -DomainName service.contoso.com
+```
 
 2.  In diesem Beispiel wird die Domäne "marketing.contoso.com" zur Verbundvertrauensstellung hinzugefügt.
     
-        Add-FederatedDomain -DomainName marketing.contoso.com
+    ```powershell
+Add-FederatedDomain -DomainName marketing.contoso.com
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-FederatedDomain](https://technet.microsoft.com/de-de/library/dd298128\(v=exchg.150\)) und [Add-FederatedDomain](https://technet.microsoft.com/de-de/library/dd351208\(v=exchg.150\)).
 
@@ -97,7 +101,9 @@ Führen Sie die folgenden Shell-Befehle aus, um weitere Aspekte einer Verbundver
     
     In diesem Beispiel werden die Verbundorganisations-ID und die dazugehörigen Informationen (einschließlich Verbunddomänen und Status) für die Exchange-Organisation angezeigt.
     
-        Get-FederatedOrganizationIdentifier
+    ```powershell
+Get-FederatedOrganizationIdentifier
+```
 
 2.  **Anzeigen von Zertifikaten der Verbundvertrauensstellung**
     
@@ -109,19 +115,25 @@ Führen Sie die folgenden Shell-Befehle aus, um weitere Aspekte einer Verbundver
     
     In diesem Beispiel wird der Status von Verbundzertifikaten auf allen Postfach- und Clientzugriffsservern in der Organisation angezeigt.
     
-        Test-FederationTrustCertificate
+    ```powershell
+Test-FederationTrustCertificate
+```
 
 4.  **Konfigieren der Verbundvertrauensstellung zum Verwenden eines Zertifikats als das nächste Zertifikat**
     
     In diesem Beispiel wird die Verbundvertrauensstellung "Azure AD authentication" zum Verwenden des Zertifikats mit dem bereitgestellten Fingerabdruck als das nächste Zertifikat konfiguriert. Nachdem das Zertifikat auf allen Exchange-Servern in der Organisation bereitgestellt wurde, können Sie die Verbundvertrauensstellung mithilfe der Option *PublishCertificate* so konfigurieren, dass dieses Zertifikat als das aktuelle Zertifikat verwendet wird.
     
-        Set-FederationTrust "Azure AD authentication" -Thumbprint AC00F35CBA8359953F4126E0984B5CCAFA2F4F17
+    ```powershell
+Set-FederationTrust "Azure AD authentication" -Thumbprint AC00F35CBA8359953F4126E0984B5CCAFA2F4F17
+```
 
 5.  **Konfigurieren der Verbundvertrauensstellung zum Verwenden des nächsten Zertifikats als das aktuelle Zertifikat**
     
     In diesem Beispiel wird die Verbundvertrauensstellung "Azure AD authentication" so konfiguriert, dass das nächste Zertifikat als das aktuelle Zertifikat verwendet und für das Azure AD-Authentifizierungssystem veröffentlicht wird.
     
-        Set-FederationTrust "Azure AD authentication" -PublishFederationCertificate
+    ```powershell
+Set-FederationTrust "Azure AD authentication" -PublishFederationCertificate
+```
     
 
     > [!WARNING]
@@ -133,7 +145,9 @@ Führen Sie die folgenden Shell-Befehle aus, um weitere Aspekte einer Verbundver
     
     In diesem Beispiel wird das Verbundzertifikat samt Metadaten des Azure AD-Authentifizierungssystems für die Verbundvertrauensstellung "Azure AD authentication" aktualisiert.
     
-        Set-FederationTrust "Azure AD authentication" -RefreshMetadata
+    ```powershell
+Set-FederationTrust "Azure AD authentication" -RefreshMetadata
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden Themen:
 
@@ -153,11 +167,15 @@ Gehen Sie wie folgt vor, um die erfolgreiche Konfiguration zusätzlich zu überp
 
 1.  Führen Sie den folgenden Shellbefehl aus, um die Informationen der Verbundvertrauensstellung zu überprüfen.
     
-        Get-FederationTrust | format-list
+    ```powershell
+Get-FederationTrust | format-list
+```
 
 2.  Führen Sie den folgenden Shellbefehl aus, um zu überprüfen, ob die Verbundinformationen von Ihrer Organisation abgerufen werden können. Überprüfen Sie z. B., ob im Parameter *DomainNames* die Domänen "sales.contoso.com" und "marketing.contoso.com" zurückgegeben werden.
     
-        Get-FederationInformation -DomainName <your primary sharing domain>
+    ```powershell
+Get-FederationInformation -DomainName <your primary sharing domain>
+```
 
 
 > [!TIP]

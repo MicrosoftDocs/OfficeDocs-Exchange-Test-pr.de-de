@@ -57,7 +57,9 @@ Diese Skripts befinden sich im Ordner % ExchangeInstallPath%Scripts.
 
 2.  Verwenden Sie die folgende Syntax, um die Quellserver-Konfigurationsdaten in eine Datei auf dem Quellserver zu exportieren.
     
-        ./ExportEdgeConfig.ps1 -CloneConfigData:"<configuration file>"
+    ```powershell
+./ExportEdgeConfig.ps1 -CloneConfigData:"<configuration file>"
+```
     
     Wenn Sie z. B. die Quellserver-Konfigurationsdaten in die Datei C:\\CloneConfigData.xml exportieren möchten, führen Sie den folgenden Befehl aus.
     

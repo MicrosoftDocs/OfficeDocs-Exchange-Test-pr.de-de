@@ -314,7 +314,9 @@ In der folgenden Tabelle werden die Filter- und Sortierparameter beschrieben, di
 
 In diesem Beispiel werden alle nicht leeren externen Warteschlangen auf den Exchange 2013-Postfachservern namens "Mailbox01", "Mailbox02" und "Mailbox03" zurückgegeben.
 
-    Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```powershell
+Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```
 
 Zurück zum Seitenanfang
 

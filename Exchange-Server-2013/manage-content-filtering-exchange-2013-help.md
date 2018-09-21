@@ -43,11 +43,15 @@ Die Inhaltsfilterung wird durch den Inhaltsfilter-Agent bereitgestellt. Der Inha
 
 Führen Sie zum Deaktivieren der Inhaltsfilterung folgenden Befehl aus:
 
-    Set-ContentFilterConfig -Enabled $false
+```powershell
+Set-ContentFilterConfig -Enabled $false
+```
 
 Führen Sie den folgenden Befehl aus, um die Inhaltsfilterung zu aktivieren:
 
-    Set-ContentFilterConfig -Enabled $true
+```powershell
+Set-ContentFilterConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -61,7 +65,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Inhaltsfilterung erf
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+Get-ContentFilterConfig | Format-List Enabled
+```
 
 2.  Überprüfen Sie den angezeigten Wert der Eigenschaft *Enabled*.
 
@@ -71,11 +77,15 @@ Standardmäßig ist die Funktionalität zur Inhaltsfilterung für externe Nachri
 
 Führen Sie den folgenden Befehl aus, um die Inhaltsfilterung für externe Nachrichten zu deaktivieren:
 
-    Set-ContentFilterConfig -ExternalMailEnabled $false
+```powershell
+Set-ContentFilterConfig -ExternalMailEnabled $false
+```
 
 Führen Sie den folgenden Befehl aus, um die Inhaltsfilterung für externe Nachrichten zu aktivieren:
 
-    Set-ContentFilterConfig -ExternalMailEnabled $true
+```powershell
+Set-ContentFilterConfig -ExternalMailEnabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -83,7 +93,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Inhaltsfilterung fü
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List ExternalMailEnabled
+    ```powershell
+Get-ContentFilterConfig | Format-List ExternalMailEnabled
+```
 
 2.  Überprüfen Sie den angezeigten Wert der Eigenschaft *ExternalMailEnabled*.
 
@@ -93,11 +105,15 @@ Als bewährte Methode hat sich herausgestellt, Nachrichten von vertrauenswürdig
 
 Führen Sie den folgenden Befehl aus, um die Inhaltsfilterung für interne Nachrichten zu aktivieren:
 
-    Set-ContentFilterConfig -InternalMailEnabled $true
+```powershell
+Set-ContentFilterConfig -InternalMailEnabled $true
+```
 
 Führen Sie den folgenden Befehl aus, um die Inhaltsfilterung für interne Nachrichten zu deaktivieren:
 
-    Set-ContentFilterConfig -InternalMailEnabled $false
+```powershell
+Set-ContentFilterConfig -InternalMailEnabled $false
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -105,7 +121,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Inhaltsfilterung fü
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List InternalMailEnabled
+    ```powershell
+Get-ContentFilterConfig | Format-List InternalMailEnabled
+```
 
 2.  Überprüfen Sie den angezeigten Wert der Eigenschaft *InternalMailEnabled*.
 
@@ -163,19 +181,27 @@ Führen Sie den folgenden Befehl aus, um zulässige und blockierte Wörter und A
 
 In diesem Beispiel werden alle Nachrichten mit dem Text "customer feedback" zugelassen.
 
-    Add-ContentFilterPhrase -Influence GoodWord -Phrase "customer feedback"
+```powershell
+Add-ContentFilterPhrase -Influence GoodWord -Phrase "customer feedback"
+```
 
 In diesem Beispiel werden alle Nachrichten mit dem Text "stock tip" blockiert.
 
-    Add-ContentFilterPhrase -Influence BadWord -Phrase "stock tip"
+```powershell
+Add-ContentFilterPhrase -Influence BadWord -Phrase "stock tip"
+```
 
 Führen Sie den folgenden Befehl aus, um zulässige oder blockierte Ausdrücke zu entfernen:
 
-    Remove-ContentFilterPhrase -Phrase <Phrase>
+```powershell
+Remove-ContentFilterPhrase -Phrase <Phrase>
+```
 
 In diesem Beispiel wird der Ausdruck "stock tip" entfernt:
 
-    Remove-ContentFilterPhrase -Phrase "stock tip"
+```powershell
+Remove-ContentFilterPhrase -Phrase "stock tip"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -183,7 +209,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die zulässigen und bloc
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterPhrase | Format-List Influence,Phrase
+    ```powershell
+Get-ContentFilterPhrase | Format-List Influence,Phrase
+```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Einstellungen entsprechen, die Sie angegeben haben.
 
@@ -227,7 +255,9 @@ Wenn die Zurückweisungsaktion aktiviert ist, können Sie die Zurückweisungsant
 
 Führen Sie den folgenden Befehl aus, um eine benutzerdefinierte Zurückweisungsantwort zu konfigurieren:
 
-    Set-ContentFilterConfig -RejectionResponse "<Custom Text>"
+```powershell
+Set-ContentFilterConfig -RejectionResponse "<Custom Text>"
+```
 
 In diesem Beispiel wird der Inhaltsfilter-Agent so konfiguriert, dass eine angepasste Zurückweisungsantwort gesendet wird.
 
@@ -249,11 +279,15 @@ Bei der *E-Mail-Poststempelüberprüfung von Outlook* handelt es sich um einen r
 
 Führen Sie den folgenden Befehl aus, um Outlook-E-Mail-Poststempel zu deaktivieren:
 
-    Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $false
+```powershell
+Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $false
+```
 
 Führen Sie den folgenden Befehl aus, um Outlook-E-Mail-Poststempel zu aktivieren:
 
-    Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $true
+```powershell
+Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -261,7 +295,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Outlook-E-Mail-Posts
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
+    ```powershell
+Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
+```
 
 2.  Überprüfen Sie, ob der angezeigte Wert der Einstellung entspricht, die Sie angegeben haben.
 

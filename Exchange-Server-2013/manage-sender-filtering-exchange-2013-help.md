@@ -45,11 +45,15 @@ Wenn auf einem Exchange-Server die Absenderfilterungsfunktion aktiviert ist, fil
 
 Im Folgenden wird der Befehl zum Deaktivieren der Absenderfilterung beschrieben:
 
-    Set-SenderFilterConfig -Enabled $false
+```powershell
+Set-SenderFilterConfig -Enabled $false
+```
 
 Um Absenderfilterung zu aktivieren, führen Sie den folgenden Befehl aus:
 
-    Set-SenderFilterConfig -Enabled $true
+```powershell
+Set-SenderFilterConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -63,7 +67,9 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Absenderfilterung erfolgreic
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-SenderFilterConfig | Format-List Enabled
+    ```powershell
+Get-SenderFilterConfig | Format-List Enabled
+```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
@@ -99,7 +105,9 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob blockierte Absender erfolgreich 
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+    ```powershell
+Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 
@@ -107,11 +115,15 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob blockierte Absender erfolgreich 
 
 Führen Sie zum Aktivieren oder Deaktivieren der Blockierung von Nachrichten ohne Absender den folgenden Befehl aus:
 
-    Set-SenderFilterConfig -BlankSenderBlockingenabled <$true | $false>
+```powershell
+Set-SenderFilterConfig -BlankSenderBlockingenabled <$true | $false>
+```
 
 In diesem Beispiel wird der Absenderfilter-Agent so konfiguriert, dass Nachrichten blockiert werden, die keinen Absender im SMTP-Befehl "MAIL FROM:" aufweisen:
 
-    Set-SenderFilterConfig -BlankSenderBlockingEnabled $true
+```powershell
+Set-SenderFilterConfig -BlankSenderBlockingEnabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -119,7 +131,9 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Blockierung von Nachrichten 
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+    ```powershell
+Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 

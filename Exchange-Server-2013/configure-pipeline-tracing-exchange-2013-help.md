@@ -51,11 +51,15 @@ Verwenden Sie die folgende Syntax, um die Absenderadresse für die Pipelineablau
 
 In diesem Beispiel wird die Pipelineablaufverfolgung so konfiguriert, dass Momentaufnahmen aller Nachrichten erfasst werden, die vom Absender "chris@contoso.com" im Transportdienst auf dem Postfachserver namens "Mailbox01" gesendet werden.
 
-    Set-TransportService Mailbox01 -PipelineTracingSenderAddress chris@contoso.com
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingSenderAddress chris@contoso.com
+```
 
 In diesem Beispiel wird die Pipelineablaufverfolgung so konfiguriert, dass Momentaufnahmen aller vom System generierten Nachrichten erfasst werden, die vom Transportdienst auf dem Postfachserver namens "Mailbox02" empfangen werden.
 
-    Set-TransportService Mailbox02 -PipelineTracingSenderAddress "<>"
+```powershell
+Set-TransportService Mailbox02 -PipelineTracingSenderAddress "<>"
+```
 
 
 > [!WARNING]
@@ -85,7 +89,9 @@ Verwenden Sie die folgende Syntax, um die Pipelineablaufverfolgung zu aktivieren
 
 In diesem Beispiel wird die Pipelineablaufverfolgung im Transportdienst auf dem Postfachserver namens "Mailbox01" aktiviert.
 
-    Set-TransportService Mailbox01 -PipelineTracingEnabled $true
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingEnabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -109,7 +115,9 @@ Verwenden Sie die folgende Syntax, um die Pipelineablaufverfolgung zu deaktivier
 
 In diesem Beispiel wird die Pipelineablaufverfolgung im Transportdienst auf dem Postfachserver namens "Mailbox01" deaktiviert.
 
-    Set-TransportService Mailbox01 -PipelineTracingEnabled $false
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingEnabled $false
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

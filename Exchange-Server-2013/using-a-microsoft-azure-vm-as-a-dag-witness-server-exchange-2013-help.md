@@ -329,7 +329,9 @@ Abschließend müssen Sie Ihre DAG für die Verwendung der neuen Zeugenservers k
 
 2.  Führen Sie den folgenden Befehl aus, um den Zeugenserver für Ihre DAGs zu konfigurieren.
     
-        Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessServer Azure-FSW
+    ```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessServer Azure-FSW
+```
 
 Weitere Informationen finden Sie in den folgenden Themen:
 
@@ -349,11 +351,15 @@ An diesem Punkt haben Sie die DAG für die Verwendung des Dateiservers in Azure 
 
 2.  Wenn die DAG über eine gerade Anzahl von Knoten verfügt, wird der Dateifreigabenzeuge konfiguriert. Überprüfen Sie die Einstellung für den Dateifreigabenzeuge in den Clustereigenschaften mithilfe des folgenden Befehls. Der Wert für den Parameter *SharePath* muss auf den Dateiserver verweisen und den richtigen Pfad anzeigen.
     
-        Get-ClusterResource -Cluster MBX1 | Get-ClusterParameter | Format-List
+    ```powershell
+Get-ClusterResource -Cluster MBX1 | Get-ClusterParameter | Format-List
+```
 
 3.  Überprüfen Sie als Nächstes den Status der Clusterressource „File Share Witness“ mithilfe des folgenden Befehls. Der *State* der Clusterressource muss **Online** anzeigen.
     
-        Get-ClusterResource -Cluster MBX1
+    ```powershell
+Get-ClusterResource -Cluster MBX1
+```
 
 4.  Stellen Sie abschließend sicher, dass die Freigabe erfolgreich auf dem Dateiserver erstellt wurde, indem Sie den Ordner im Datei-Explorer und die Freigaben im Server-Manager überprüfen.
 

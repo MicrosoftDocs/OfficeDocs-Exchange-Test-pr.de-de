@@ -71,7 +71,9 @@ Gehen Sie wie folgt vor, um die erfolgreiche Erstellung eines DAG-Netzwerks zu �
 
   - Führen Sie in der Shell folgenden Befehl aus, um zu überprüfen, ob das DAG-Netzwerk erstellt wurde, und um Konfigurationsinformationen zum DAG-Netzwerk anzuzeigen:
     
-        Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+    ```powershell
+Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+```
 
 ## Weitere Informationen
 

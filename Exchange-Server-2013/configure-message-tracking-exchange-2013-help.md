@@ -87,11 +87,15 @@ In diesem Beispiel werden folgende Einstellungen für das Nachrichtenverfolgungs
 
 In diesem Beispiel wird die Nachrichtenbetreffprotokollierung im Nachrichtenverfolgungsprotokoll auf dem Postfachserver "Mailbox01" deaktiviert:
 
-    Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```
 
 In diesem Beispiel wird die Nachrichtenverfolgung auf dem Postfachserver namens "Mailbox01" deaktiviert:
 
-    Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

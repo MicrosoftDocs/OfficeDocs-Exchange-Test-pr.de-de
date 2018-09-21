@@ -61,19 +61,27 @@ Auf dem Computer, auf dem die Postfachserverrolle ausgeführt wird:
 
 1.  Legen Sie fest, dass der Microsoft Exchange POP3-Dienst automatisch gestartet werden soll.
     
-        Set-service msExchangePOP3 -startuptype automatic
+    ```powershell
+Set-service msExchangePOP3 -startuptype automatic
+```
 
 2.  Starten Sie den Microsoft Exchange POP3-Dienst.
     
-        Start-service msExchangePOP3
+    ```powershell
+Start-service msExchangePOP3
+```
 
 3.  Legen Sie fest, dass der Microsoft Exchange POP3-Back-End-Dienst automatisch gestartet werden soll.
     
-        Set-service msExchangePOP3BE -startuptype automatic
+    ```powershell
+Set-service msExchangePOP3BE -startuptype automatic
+```
 
 4.  Starten Sie den Microsoft Exchange POP3-Back-End-Dienst.
     
-        Start-service msExchangePOP3BE
+    ```powershell
+Start-service msExchangePOP3BE
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

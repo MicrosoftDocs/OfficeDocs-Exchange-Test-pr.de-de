@@ -93,7 +93,9 @@ Die folgenden Schritte sind erforderlich, um Ihre Organisation für die Migratio
 
 4.  Die Migrationsfunktion **PAW** muss für Ihren Office 365-Mandanten aktiviert sein. Führen Sie den folgenden Befehl in Exchange Online PowerShell aus, um dies zu überprüfen:
     
-        Get-MigrationConfig
+    ```powershell
+Get-MigrationConfig
+```
     
     Wenn in der Ausgabe unter **Features** der Eintrag **PAW** aufgeführt ist, ist die Funktion aktiviert und Sie können mit *Schritt 3: Generieren der CSV-Datei* fortfahren.
     
@@ -109,7 +111,9 @@ Die CSV-Datei muss die folgenden Spalten enthalten:
 
   - **TargetGroupMailbox**. Die SMTP-Adresse der Zielgruppe in Office 365. Sie können den folgenden Befehl ausführen, um die primäre SMTP-Adresse anzuzeigen.
     
-        Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+    ```powershell
+Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+```
 
 CSV-Beispieldatei:
 
@@ -136,7 +140,9 @@ In diesem Schritt sammeln Sie Informationen aus Ihrer Exchange-Umgebung. Dann ve
     
     2.  Übergeben Sie die Informationen zum MRS-Proxyserver in der Exchange 2013-Umgebung, die Sie in Schritt 1 oben ermittelt haben, an die Variable `$Source_RemoteServer`.
         
-            $Source_RemoteServer = "<MRS proxy endpoint>"
+        ```powershell
+$Source_RemoteServer = "<MRS proxy endpoint>"
+```
 
 3.  Führen Sie in Exchange Online PowerShell den folgenden Befehl aus, um einen Migrationsendpunkt zu erstellen:
     
@@ -158,7 +164,9 @@ In diesem Schritt sammeln Sie Informationen aus Ihrer Exchange-Umgebung. Dann ve
 
 5.  Starten Sie die Migration mit dem folgenden Befehl Exchange Online PowerShell. Beachten Sie, dass dieser Schritt nur erforderlich ist, wenn der `-AutoStart`-Parameter beim Erstellen des Batches in Schritt 4 nicht verwendet wird.
     
-        Start-MigrationBatch PublicFolderToGroupMigration
+    ```powershell
+Start-MigrationBatch PublicFolderToGroupMigration
+```
 
 Batchmigrationen müssen zwar mit `New-MigrationBatch` Cmdlet in Exchange Online PowerShell erstellt werden, der Fortschritt der Migration wird jedoch in Exchange-Verwaltungskonsole angezeigt und verwaltet. Sie können den Fortschritt der Migration auch anzeigen, indem Sie die Cmdlets [Get-MigrationBatch](https://technet.microsoft.com/de-de/library/jj219164\(v=exchg.150\)) und [Get-MigrationUser](https://technet.microsoft.com/de-de/library/jj218702\(v=exchg.150\)) ausführen. Das Cmdlet `New-MigrationBatch` initiiert eines Migrationsbenutzer für jedes Postfach der Office 365-Gruppe, und Sie können den Status dieser Anfragen auf der Seite der Postfachmigration anzeigen.
 
@@ -220,7 +228,9 @@ Hinweise zum folgenden Befehl:
 
 Nachdem Sie Ihre öffentliche Ordner mit einem Schreibschutz versehen haben, müssen Sie die Migration erneut ausführen. Dies ist für eine endgültige inkrementelle Kopie der Daten erforderlich. Bevor Sie die Migration erneut ausführen können, müssen Sie den vorhandenen Batch entfernen, indem Sie den folgenden Befehl ausführen:
 
-    Remove-MigrationBatch <name of migration batch>
+```powershell
+Remove-MigrationBatch <name of migration batch>
+```
 
 Erstellen Sie anschließen einen neuen Batch mit der gleichen CSV-Datei, indem Sie den folgenden Befehl ausführen. Dabei gilt Folgendes:
 
@@ -236,7 +246,9 @@ Erstellen Sie anschließen einen neuen Batch mit der gleichen CSV-Datei, indem S
 
 Nachdem der neue Batch erstellt wurde, starten Sie die Migration mit dem folgenden Befehl Exchange Online PowerShell. Beachten Sie, dass dieser Schritt nur notwendig ist, wenn der `-AutoStart`-Parameter nicht im vorstehenden Befehl verwendet wurde.
 
-    Start-MigrationBatch PublicFolderToGroupMigration
+```powershell
+Start-MigrationBatch PublicFolderToGroupMigration
+```
 
 Nachdem Sie diesen Schritt abgeschlossen haben (der Batchstatus lautet **Abgeschlossen**), stellen Sie sicher, dass alle Daten in die Office 365-Gruppen kopiert wurden. Wenn Sie mit der Gruppen-Erfahrung zufrieden sind, können Sie nun beginnen, die migrierten öffentlichen Ordner aus Ihrer Exchange Server 2013-Umgebung zu löschen.
 

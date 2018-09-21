@@ -141,7 +141,9 @@ Gehen Sie wie folgt vor, um von geteilten Active Directory-Berechtigungen zu gem
 
 1.  Führen Sie über eine Windows-Befehlsshell den folgendem Befehl auf dem Exchange 2013-Installationsmedium aus, um geteilte Active Directory-Berechtigungen zu deaktivieren.
     
-        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+    ```powershell
+setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+```
 
 2.  Führen Sie über die Exchange-Verwaltungsshell die folgenden Befehle aus, um reguläre Rollenzuweisungen zwischen der Rolle "Erstellung von E-Mail-Empfängern" und der Rolle "Sicherheitsgruppenerstellung und -mitgliedschaft" sowie den Rollengruppen Organisationsverwaltung und Empfängerverwaltung hinzuzufügen.
     
