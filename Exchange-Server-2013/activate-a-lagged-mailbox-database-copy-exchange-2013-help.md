@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Aktivieren einer verzögerten Kopie einer Postfachdatenbank: Exchange 2013 Help'
 TOCTitle: Aktivieren einer verzögerten Kopie einer Postfachdatenbank
 ms:assetid: 493d9c40-644d-49d6-9291-949acbcfdcb6
@@ -74,8 +74,8 @@ Benötigen Sie weitere Informationen zu verzögerten Postfachdatenbankkopien? We
 5.  In diesem Beispiel wird "Eseutil" zum Ausführen des Wiederherstellungsvorgangs verwendet.
     
     ```powershell
-Eseutil.exe /r eXX /a
-```
+       Eseutil.exe /r eXX /a
+    ```
     
 
     > [!NOTE]
@@ -92,8 +92,10 @@ Eseutil.exe /r eXX /a
 
 7.  In diesem Beispiel wird nach Abschluss der Wiederherstellung die Replikation für die Datenbank fortgesetzt, die im Rahmen der Wiederherstellung verwendet wurde.
     
+    ```powershell
         Resume-MailboxDatabaseCopy DB1\EX3
-
+    ```
+    
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd351074\(v=exchg.150\)) oder [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd335220\(v=exchg.150\)).
 
 ## Aktivieren einer verzögerten Postfachdatenbankkopie durch Wiedergabe aller Protokolldateien ohne Commit mithilfe der Shell
@@ -115,8 +117,8 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-M
 2.  In diesem Beispiel wird die verzögerte Postfachdatenbankkopie mithilfe des Cmdlets [Move-ActiveMailboxDatabase](https://technet.microsoft.com/de-de/library/dd298068\(v=exchg.150\)) mit dem Parameter *SkipLagChecks* aktiviert.
     
     ```powershell
-Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
-```
+       Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+    ```
 
 ## Aktivieren der verzögerten Postfachdatenbankkopie mithilfe der SafetyNet-Wiederherstellung und der Shell
 
@@ -137,8 +139,8 @@ Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
 2.  Ermitteln Sie die erforderlichen Protokolle für die verzögerte Datenbankkopie, indem Sie nach dem Wert "Log Required:" in der ESEUTIL-Datenbankkopfzeilenausgabe suchen.
     
     ```powershell
-Eseutil /mh <DBPath> | findstr /c:"Log Required"
-```
+        Eseutil /mh <DBPath> | findstr /c:"Log Required"
+    ```
     
     Notieren Sie die Hexadezimalzahlen in Klammern. Der erste Wert ist die erforderliche niedrigste Generation (als LowGeneration bezeichnet) und der zweite Wert ist die erforderliche höchste Generation (als HighGeneration bezeichnet). Verschieben Sie alle Protokollgenerationsdateien, die über eine Generationssequenz größer als HighGeneration verfügen, an einen anderen Speicherort, damit sie nicht erneut in die Datenbank wiedergegeben werden.
 
@@ -159,6 +161,6 @@ Gehen Sie wie folgt vor, um die erfolgreiche Aktivierung einer verzögerten Post
   - Führen Sie in der Shell den folgenden Befehl aus, um Statusinformationen zu einer Datenbankkopie anzuzeigen.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
-```
+        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 
