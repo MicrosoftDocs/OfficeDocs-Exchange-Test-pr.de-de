@@ -695,7 +695,7 @@
       - name: Exportieren von eDiscovery-Suchergebnissen in eine PST-Datei
         href: https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/export-search-results
       - name: Nachrichteneigenschaften und Suchoperatoren für Compliance-eDiscovery
-        href: message-properties-and-search-operators-for-in-place-ediscovery-exchange-2013-help.md
+        href: https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/message-properties-and-search-operators
       - name: Erstellen eines Discoverypostfachs
         href: create-a-discovery-mailbox-exchange-2013-help.md
       - name: Starten oder Stoppen einer Compliance-eDiscovery-Suche
@@ -756,14 +756,14 @@
           - name: Migrieren von verwalteten Ordnern
             href: migrate-from-managed-folders-exchange-2013-help.md
           - name: Deaktivieren oder Anhalten der Messaging-Datensatzverwaltung
-            href: turn-off-or-suspend-https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+            href: turn-off-or-suspend-messaging-records-management-exchange-2013-help.md
       - name: Überwachen von messaging-datensatzverwaltung
-        href: monitoring-https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+        href: monitoring-messaging-records-management-exchange-2013-help.md
         items:
         - name: Anzeigen von Leistungsindikatoren für die Messaging-Datensatzverwaltung
-          href: view-performance-counters-for-https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+          href: view-performance-counters-for-messaging-records-management-exchange-2013-help.md
         - name: Leistungsindikatoren für die Verwaltung von Nachrichtendatensätzen
-          href: performance-counters-for-https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+          href: performance-counters-for-messaging-records-management-exchange-2013-help.md
         - name: Verwalten von Fehlern und Ereignissen für Messagingdatensätzen
           href: messaging-records-management-errors-and-events-exchange-2013-help.md
     - name: Journale
@@ -1415,7 +1415,7 @@
       href: https://docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies
       items:
       - name: 'Szenario: Bereitstellen von Adressbuchrichtlinien'
-        href: scenario-deploying-https://docs.microsoft.com/de-de/exchange/address-books/address-book-policies/address-book-policies
+        href: scenario-deploying-address-book-policies-exchange-2013-help.md
       - name: Verfahren für Adressbuchrichtlinien
         href: address-book-policy-procedures-exchange-2013-help.md
         items:
@@ -1977,7 +1977,7 @@
         - name: Konfigurieren einer automatischen Telefonzentrale für Benutzer mit ähnlichen Namen
           href: https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-auto-attendant-for-users-with-similar-names
     - name: Einrichten von Voicemail für Benutzer
-      href: set-up-https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users
+      href: https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/set-up-voice-mail
       items:
       - name: UM-Postfachrichtlinien
         href: https://docs.microsoft.com/de-de/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies
