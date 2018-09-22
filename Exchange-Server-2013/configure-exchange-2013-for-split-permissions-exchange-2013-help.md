@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Konfig. von Exchange 2013 für geteilte Berechtigungen: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von Exchange 2013 für geteilte Berechtigungen
 ms:assetid: 8c74f893-a6f3-4869-8571-3bc0f662cc87
@@ -98,8 +98,8 @@ So konfigurieren Sie geteilte RBAC-Berechtigungen:
     1.  Deaktivieren Sie geteilte Active Directory-Berechtigungen, indem Sie von dem Exchange 2013-Installationsmedium aus den folgenden Befehl ausführen.
         
         ```powershell
-setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
-```
+            setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+        ```
     
     2.  Starten Sie die Exchange 2013-Server in Ihrer Organisation neu, oder warten Sie, bis das Active Directory-Zugriffstoken alle Exchange 2013-Server repliziert hat.
         
@@ -113,8 +113,9 @@ setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
     
     1.  Erstellen Sie eine Rollengruppe für die Active Directory-Administratoren. Neben der Rollengruppe werden mit dem Befehl auch die regulären Rollenzuweisungen zwischen der neuen Rollengruppe und der Rolle "Erstellung von E-Mail-Empfängern" und der Rolle "Sicherheitsgruppenerstellung und -mitgliedschaft" erstellt.
         
+        ```powershell
             New-RoleGroup "Active Directory Administrators" -Roles "Mail Recipient Creation", "Security Group Creation and Membership"
-        
+        ```
 
         > [!NOTE]
         > Wenn Sie möchten, dass Mitglieder dieser Rollengruppe Rollenzuweisungen erstellen können, müssen Sie die Rolle "Rollenverwaltung" einschließen. Sie müssen diese Rolle nicht zu diesem Zeitpunkt hinzufügen. Wenn Sie jedoch zu einem späteren Zeitpunkt die Rollen "Erstellung von E-Mail-Empfängern" oder "Sicherheitsgruppenerstellung und -mitgliedschaft" zu anderen Rollenempfängern zuweisen möchten, müssen Sie die Rolle "Rollenverwaltung" dieser neuen Rollengruppe zuweisen. Mithilfe der folgenden Schritte wird die Rollengruppe "Active Directory-Administratoren" als einzige Rollengruppe konfiguriert, die diese Rolle delegieren kann.
@@ -122,20 +123,22 @@ setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
     
     2.  Erstellen Sie delegierende Rollenzuweisungen zwischen der neuen Rollengruppe und den Rollen "Erstellung von E-Mail-Empfängern" und "Sicherheitsgruppenerstellung und -mitgliedschaft", indem Sie die folgenden Befehle verwenden.
         
+        ```powershell
             New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Active Directory Administrators" -Delegating
             New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Active Directory Administrators" -Delegating
+        ```
     
     3.  Fügen Sie der neuen Rollengruppe Mitglieder hinzu, indem Sie den folgenden Befehl verwenden.
         
         ```powershell
-Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
-```
+        Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+        ```
     
     4.  Ersetzen Sie die Stellvertreterliste für die neue Rollengruppe, sodass nur Mitglieder der Rollengruppe Mitglieder hinzufügen oder entfernen können.
         
         ```powershell
-Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
-```
+        Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+        ```
         
 
         > [!IMPORTANT]
@@ -143,37 +146,43 @@ Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Adm
 
     
     5.  Ermitteln Sie alle regulären und delegierenden Rollenzuweisungen zur Rolle "Erstellung von E-Mail-Empfängern", indem Sie den folgenden Befehl verwenden. Der Befehl zeigt nur die Eigenschaften **Name**, **Role** und **RoleAssigneeName** an.
-        
+       
+        ```powershell
             Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Format-Table Name, Role, RoleAssigneeName -Auto
-    
+        ```
     6.  Entfernen Sie mit dem folgenden Befehl alle regulären und delegierenden Rollenzuweisungen zur Rolle "Erstellung von E-Mail-Empfängern", die nicht der neuen Rollengruppe oder anderen Rollengruppen, universellen Sicherheitsgruppen oder direkten Zuweisungen, die beibehalten werden sollen, zugeordnet sind.
         
         ```powershell
-Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
-```
+        Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+        ```
         
 
         > [!NOTE]
         > Wenn Sie alle regulären und delegierenden Rollenzuweisungen der Rolle "Erstellung von E-Mail-Empfängern" oder jedes Rollenempfängers außer der Rollengruppe "Active Directory-Administratoren" entfernen möchten, verwenden Sie den folgenden Befehl. Die Option <EM>WhatIf</EM> zeigt die zu entfernenden Rollenzuweisungen an. Deaktivieren Sie die Option <EM>WhatIf</EM>, und führen Sie den Befehl erneut aus, um die Rollenzuweisungen zu entfernen.
 
-        
+        ```powershell
             Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Where { $_.RoleAssigneeName -NE "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
-    
+        ```
+        
     7.  Ermitteln Sie alle regulären und delegierenden Rollenzuweisungen zur Rolle "Sicherheitsgruppenerstellung und -mitgliedschaft", indem Sie den folgenden Befehl verwenden. Der Befehl zeigt nur die Eigenschaften **Name**, **Role** und **RoleAssigneeName** an.
         
+        ```powershell
             Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Format-Table Name, Role, RoleAssigneeName -Auto
-    
+        ```
+        
     8.  Entfernen Sie mit dem folgenden Befehl alle regulären und delegierenden Rollenzuweisungen zur Rolle "Sicherheitsgruppenerstellung und -mitgliedschaft", die nicht der neuen Rollengruppe oder anderen Rollengruppen, universellen Sicherheitsgruppen oder direkten Zuweisungen, die beibehalten werden sollen, zugeordnet sind.
         
+        ```powershell
             Remove-ManagementRoleAssignment <Security Group Creation and Membership role assignment to remove>
-        
+        ```
 
         > [!NOTE]
         > Sie können denselben Befehl in der vorangehenden Anmerkung verwenden, um alle regulären und delegierenden Rollenzuweisungen zur Rolle "Sicherheitsgruppenerstellung und -mitgliedschaft" oder jedem Rollenempfänger außer der Rollengruppe "Active Directory-Administratoren" zu entfernen, wie in diesem Beispiel beschrieben.
 
-        
+       ```powershell 
             Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Where { $_.RoleAssigneeName -NE "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
-
+       ```
+       
 Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden Themen:
 
   - [New-RoleGroup](https://technet.microsoft.com/de-de/library/dd638181\(v=exchg.150\))
@@ -231,8 +240,8 @@ So wechseln Sie von geteilten RBAC-Berechtigungen zu geteilten Active Directory-
 1.  Führen Sie über eine Windows-Befehlsshell den folgendem Befehl auf dem Exchange 2013-Installationsmedium aus, um geteilte Active Directory-Berechtigungen zu aktivieren.
     
     ```powershell
-setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
-```
+    setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+    ```
 
 2.  Wenn Ihre Organisation mehrere Active Directory-Domänen umfasst, müssen Sie entweder `setup.exe /PrepareDomain` in jeder untergeordneten Domäne mit Exchange-Servern oder -Objekten ausführen oder `setup.exe /PrepareAllDomains` über einen Standort mit einem Active Directory-Server aus jeder Domäne ausführen.
 
