@@ -101,7 +101,7 @@ Die Unterstützung für ältere Transport-Agents wird über Schlüssel in den An
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 
@@ -112,20 +112,26 @@ Gehen Sie folgendermaßen vor, um die Unterstützung für ältere Transport-Agen
 
 1.  Führen Sie auf dem Exchange 2013-Server, auf dem die Unterstützung älterer Transport-Agents konfiguriert werden soll, an einer Eingabeaufforderung den folgenden Befehl aus, um die entsprechende Anwendungskonfigurationsdatei im Editor zu öffnen:
     
-        Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+       ```powershell
+       Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+       ```
     
     Zum Öffnen der Datei "EdgeTransport.exe.config" auf einem Postfachserver führen Sie z. B. den folgenden Befehl aus:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+       ```powershell
+       Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+       ```
 
 2.  Navigieren Sie zum Schlüssel *\</configuration\>* am Ende der Datei, und fügen Sie vor dem Schlüssel *\</configuration\>* die folgenden Schlüssel ein:
     
-        <startup useLegacyV2RuntimeActivationPolicy="true">
-           <supportedRuntime version="v4.0" />
-           <supportedRuntime version="v3.5" />
-           <supportedRuntime version="v3.0" />
-           <supportedRuntime version="v2.0" />
-        </startup>
+      ```xml
+       <startup useLegacyV2RuntimeActivationPolicy="true">
+               <supportedRuntime version="v4.0" />
+               <supportedRuntime version="v3.5" />
+               <supportedRuntime version="v3.0" />
+               <supportedRuntime version="v2.0" />
+       </startup>
+      ```
 
 3.  Speichern und schließen Sie die Anwendungskonfigurationsdatei nach Abschluss des Vorgangs.
 
@@ -133,11 +139,15 @@ Gehen Sie folgendermaßen vor, um die Unterstützung für ältere Transport-Agen
 
 5.  Führen Sie den folgenden Befehl aus, um den zugehörigen Windows-Dienst zu starten:
     
-        net stop <service> && net start <service>
+     ```powershell
+     net stop <service> && net start <service>
+     ```
     
     Wenn Sie z. B. die Datei "EdgeTransport.exe.config" geändert haben, müssen Sie den Microsoft Exchange-Transportdienst über den folgenden Befehl neu starten:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
+     ```powershell
+     net stop MSExchangeTransport && net start MSExchangeTransport
+     ```
 
 6.  Wiederholen Sie Schritt 5, um Dienste neu zu starten, die den anderen geänderten Anwendungskonfigurationsdateien zugeordnet sind.
 
@@ -145,5 +155,7 @@ Gehen Sie folgendermaßen vor, um die Unterstützung für ältere Transport-Agen
 
 Diese Schritte waren erfolgreich, wenn der ältere Transport-Agent erfolgreich installiert werden kann. Wenn Sie versuchen, einen älteren Transport-Agent zu installieren, ohne zuvor die in diesem Thema beschriebenen Schritte auszuführen, wird ein Fehler angezeigt, der mit der folgenden Meldung vergleichbar ist:
 
-    Mixed mode assembly is built against version '<version>' of the runtime and cannot be loaded in the 4.0 runtime without additional configuration information.
+```powershell
+Mixed mode assembly is built against version '<version>' of the runtime and cannot be loaded in the 4.0 runtime without additional configuration information.
+```
 

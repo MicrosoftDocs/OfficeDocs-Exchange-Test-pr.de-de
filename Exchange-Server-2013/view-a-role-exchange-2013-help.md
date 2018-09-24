@@ -40,7 +40,7 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit R
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 
@@ -83,7 +83,9 @@ Get-ManagementRole | Format-Table <property 1>, <property 2...>
 
 In diesem Beispiel wird eine Liste aller Rollen in Ihrer Organisation wiedergegeben. Dabei werden die Eigenschaft **Name** und alle Eigenschaften, deren Eigenschaftsname mit dem Wort **Implicit** beginnt, eingeschlossen.
 
-    Get-ManagementRole | Format-Table Name, Implicit*
+```powershell
+Get-ManagementRole | Format-Table Name, Implicit*
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRole](https://technet.microsoft.com/de-de/library/dd351125\(v=exchg.150\)).
 
@@ -113,7 +115,9 @@ Bei Verwendung des Parameters *CmdletParameters* kann der Parameter *Cmdlet* wah
 
 Verwenden Sie die folgende Syntax, um eine Liste von Rollen zurückzugeben, die die angegebenen Parameter enthalten.
 
-    Get-ManagementRole [-Cmdlet <cmdlet>] -CmdletParameters <parameter 1>, <parameter 2...>
+```powershell
+Get-ManagementRole [-Cmdlet <cmdlet>] -CmdletParameters <parameter 1>, <parameter 2...>
+```
 
 In diesem Beispiel wird eine Liste von Rollen zurückgegeben, die die Parameter *Database* und *Server* enthalten, unabhängig davon, zu welchen Cmdlets sie gehören.
 
@@ -184,4 +188,3 @@ Get-ManagementRole "Mail Recipients" -Recurse
 ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRole](https://technet.microsoft.com/de-de/library/dd351125\(v=exchg.150\)).
-

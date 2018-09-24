@@ -69,7 +69,7 @@ New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2..
 
 In diesem Beispiel wird ein Bereich erstellt, der nur auf die Datenbanken "Database 1", "Database 2" und "Database 3" angewendet wird.
 
-    New-ManagementScope -Name "Accounting databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+New-ManagementScope -Name "Accounting databases" -DatabaseList "Database 1", "Database 2", "Database 3"
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementScope](https://technet.microsoft.com/de-de/library/dd335137\(v=exchg.150\)).
 

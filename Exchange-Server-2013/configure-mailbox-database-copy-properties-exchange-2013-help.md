@@ -28,7 +28,7 @@ Jede Postfachdatenbankkopie verfügt über eigene Eigenschaften, die konfigurier
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -73,11 +73,15 @@ Jede Postfachdatenbankkopie verfügt über eigene Eigenschaften, die konfigurier
 
 In diesem Beispiel wird eine Postfachdatenbankkopie mit der Aktivierungseinstellungsnummer 3 konfiguriert.
 
-    Set-MailboxDatabaseCopy -Identity DB3\EX3 -ActivationPreference 3
+```powershell
+Set-MailboxDatabaseCopy -Identity DB3\EX3 -ActivationPreference 3
+```
 
 In diesem Beispiel wird die auf Server1 gehostete Datenbankkopie DB1 mit einer Wiedergabe- und Abschneideverzögerungszeit von 1 Tag und der Aktivierungseinstellungsnummer 2 konfiguriert.
 
-    Set-MailboxDatabaseCopy -Identity DB1\Server1 -ReplayLagTime 1.0:0:0 -TruncationLagTime 1.0:0:0 -ActivationPreference 2
+```powershell
+Set-MailboxDatabaseCopy -Identity DB1\Server1 -ReplayLagTime 1.0:0:0 -TruncationLagTime 1.0:0:0 -ActivationPreference 2
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -88,8 +92,8 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Konfiguration einer Postfachd
   - Führen Sie in der Shell den folgenden Befehl aus, um Konfigurationsinformationen zu einer Datenbankkopie anzuzeigen.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 
 ## Weitere Informationen
 
@@ -98,4 +102,3 @@ Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
 [Get-MailboxDatabaseCopyStatus](https://technet.microsoft.com/de-de/library/dd298044\(v=exchg.150\))
 
 [Get-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb124924\(v=exchg.150\))
-

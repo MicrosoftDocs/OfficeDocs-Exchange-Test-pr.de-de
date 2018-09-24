@@ -12,7 +12,6 @@ ms.translationtype: MT
 # Importieren oder Exportieren von Zertifikaten für UM
 
  
-
 _**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2013-12-18_
@@ -48,7 +47,7 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit der Verwaltung
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -67,7 +66,9 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit der Verwaltung
 
 Bei diesem Beispiel wird das Zertifikat mit dem Fingerabdruck A36DE2B9B62980A717EBD0C3052F5F0B08FBFFCC in eine Datei exportiert, nachdem Sie zur Eingabe eines Benutzernamens und Kennworts aufgefordert wurden.
 
-    $file = Export-ExchangeCertificate -Thumbprint A36DE2B9B62980A717EBD0C3052F5F0B08FBFFCC -BinaryEncoded:$true -Password (Get-Credential).password
+```powershell
+$file = Export-ExchangeCertificate -Thumbprint A36DE2B9B62980A717EBD0C3052F5F0B08FBFFCC -BinaryEncoded:$true -Password (Get-Credential).password
+```
 
 In diesem Beispiel werden folgende Schritte ausgeführt:
 
@@ -79,12 +80,12 @@ In diesem Beispiel werden folgende Schritte ausgeführt:
 
 <!-- end list -->
 
-```
-    $file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
+```powershell
+$file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
 ```
 
-```
-    Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding Byte
+```powershell
+Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding Byte
 ```
 
 ## Importieren eines Zertifikats mithilfe der Exchange-Verwaltungskonsole
@@ -99,5 +100,7 @@ In diesem Beispiel werden folgende Schritte ausgeführt:
 
 Bei diesem Beispiel wird ein Zertifikat aus der Zertifikatsdatei D:\\Zertifikate\\Exchange\\SelfSignedUMCert.pfx importiert, nachdem Sie einen Benutzernamen und ein Kennwort eingegeben haben.
 
-    Import-ExchangeCertificate -FileData ([Byte[]]$(Get-Content -Path d:\certificates\exchange\SelfSignedUMCert.pfx -Encoding Byte -ReadCount 0)) -Password:(Get-Credential).password
+```powershell
+Import-ExchangeCertificate -FileData ([Byte[]]$(Get-Content -Path d:\certificates\exchange\SelfSignedUMCert.pfx -Encoding Byte -ReadCount 0)) -Password:(Get-Credential).password
+```
 

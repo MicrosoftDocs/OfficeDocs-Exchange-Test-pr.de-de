@@ -32,7 +32,7 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit Adresslisten f
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 
@@ -41,9 +41,10 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit Adresslisten f
 
 In diesem Beispiel wird die Adressliste anhand ihrer GUID in den Container "Building 4" verschoben, der sich im Container "All Users\\Sales" befindet.
 
-    Move-AddressList -Identity c3fffd8e-026b-41b9-88c4-8c21697ac8ac -Target "\All Users\Sales\Building4"
+  ```powershell
+  Move-AddressList -Identity c3fffd8e-026b-41b9-88c4-8c21697ac8ac -Target "\All Users\Sales\Building4"
+  ```
 
 Geben Sie **J** ein, um das Verschieben dieser Adressliste zu bestätigen, und drücken Sie dann die EINGABETASTE.
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Move-AddressList](https://technet.microsoft.com/de-de/library/bb124520\(v=exchg.150\)).
-

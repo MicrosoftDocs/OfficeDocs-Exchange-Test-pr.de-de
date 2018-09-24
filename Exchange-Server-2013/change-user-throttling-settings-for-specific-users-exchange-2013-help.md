@@ -55,16 +55,12 @@ Set-ThrottlingPolicyAssociation -Identity tonysmith -ThrottlingPolicy ITStaffPol
 
 Das Cmdlet **Set-ThrottlingPolicyAssociation** muss nicht verwendet werden, um einem Benutzer eine Richtlinie zuzuordnen. Alternativ können die folgenden Befehle ausgeführt werden, um dem Benutzer "tonysmith" die Einschränkungsrichtlinie "ITStaffPolicy" zuzuordnen.
 
-```
 ```powershell
 $b = Get-ThrottlingPolicy ITStaffPolicy
 ```
-```
 
-```
 ```powershell
 Set-Mailbox -Identity tonysmith -ThrottlingPolicy $b
-```
 ```
 
 Weitere Informationen zu Syntax und Parametern finden Sie unter [New-ThrottlingPolicy](https://technet.microsoft.com/de-de/library/dd351045\(v=exchg.150\)) und [Set-ThrottlingPolicyAssociation](https://technet.microsoft.com/de-de/library/ff459231\(v=exchg.150\)).
@@ -76,24 +72,23 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Einschränkungsricht
 1.  Führen Sie den folgenden Befehl aus.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    Get-ThrottlingPolicy | Format-List
+    ```
 
 2.  Überprüfen Sie, ob die Einschränkungsrichtlinie "Regular", die Sie zuvor erstellt haben, in der Spalte enthalten ist, die das Objekt "GlobalThrottlingPolicy" enthält.
 
 3.  Führen Sie den folgenden Befehl aus.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    Get-ThrottlingPolicy | Format-List
+    ```
 
 4.  Prüfen Sie, ob die Eigenschaften der neuen Richtlinie "Regular" Ihren konfigurierten Werten entspricht.
 
 5.  Führen Sie den folgenden Befehl aus.
     
     ```powershell
-Get-ThrottlingPolicyAssociation
-```
+    Get-ThrottlingPolicyAssociation
+    ```
 
 6.  Überprüfen Sie, ob die neue Richtlinie "Regular" den Benutzern zugeordnet ist, denen Sie sie zugeordnet haben.
-

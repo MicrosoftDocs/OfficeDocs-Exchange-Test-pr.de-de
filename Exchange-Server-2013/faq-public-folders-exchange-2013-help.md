@@ -53,7 +53,9 @@ Anhand der CSV-Datei wird die Zuordnung zwischen der Quellhierarchie und dem Zie
 
 Sie können vor dem Abschluss der Migration (vor dem Sperren der Quelle) eine Deltasynchronisierung erzwingen, indem Sie den folgenden Befehl in der Shell ausführen:
 
-    Resume-PublicFolderMigrationRequest \PublicFolderMigration
+  ```powershell
+  Resume-PublicFolderMigrationRequest \PublicFolderMigration
+  ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Resume-PublicFolderMigrationRequest](https://technet.microsoft.com/de-de/library/jj218689\(v=exchg.150\)).
 
@@ -63,7 +65,9 @@ Als Teil der Migration wird eine CSV-Datei generiert (mit dem Skript `publicfold
 
 Die CSV-Eingabedatei kann mithilfe des Skripts `AggregatePFData.ps1` generiert werden, das sich im Verzeichnis "\<*Exchange-Installationsverzeichnis*\>\\V15\\Scripts" befindet. Führen Sie das Skript wie folgt aus:
 
-    .\AggregatePFData.ps1 | Select-Object -property @{Name="FolderName"; Expression = {$_.Identity}}, @{Name="FolderSize"; Expression = {$_.TotalItemSize.Value.ToBytes()}} | Export-CSV -Path <Path followed by the name of the CSV>
+  ```powershell
+  .\AggregatePFData.ps1 | Select-Object -property @{Name="FolderName"; Expression = {$_.Identity}}, @{Name="FolderSize"; Expression = {$_.TotalItemSize.Value.ToBytes()}} | Export-CSV -Path <Path followed by the name of the CSV>
+  ```
 
 ## Werden vorhandene Berechtigungen für öffentliche Ordner migriert?
 

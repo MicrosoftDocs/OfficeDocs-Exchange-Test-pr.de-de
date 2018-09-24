@@ -77,7 +77,9 @@ Das Bereitstellen von Office 2010 Filter Pack besteht aus zwei Hauptschritten:
 
 3.  Starten Sie den Registrierungs-Editor, und suchen Sie den folgenden Registrierungsunterschlüssel:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+    ```powershell
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+    ```
 
 4.  Fügen Sie wie folgt unter **CLSID** einen Unterschlüssel für OneNote-Dateien hinzu:
     
@@ -105,7 +107,9 @@ Das Bereitstellen von Office 2010 Filter Pack besteht aus zwei Hauptschritten:
 
 6.  Suchen Sie den folgenden Registrierungsschlüssel:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+    ```powershell
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+    ```
 
 7.  Fügen Sie wie folgt unter **filters** einen Unterschlüssel für die Erweiterung ONE hinzu.
     
@@ -177,7 +181,9 @@ In diesem Verfahren wird gezeigt, wie der [Adobe PDF IFilter](https://www.adobe.
 
 2.  Starten Sie den Registrierungs-Editor, und suchen Sie den folgenden Unterschlüssel:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+    ```powershell
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+    ```
 
 3.  Fügen Sie wie folgt unter **CLSID** einen Unterschlüssel für PDF-Dateien hinzu:
     
@@ -194,7 +200,9 @@ In diesem Verfahren wird gezeigt, wie der [Adobe PDF IFilter](https://www.adobe.
 
 4.  Suchen Sie den folgenden Registrierungsschlüssel:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+    ```powershell
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+    ```
 
 5.  Fügen Sie wie folgt unter **filters** einen Unterschlüssel für die Erweiterung PDF hinzu:
     

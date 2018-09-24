@@ -107,7 +107,9 @@ Set-ManagementScope <scope name> -ServerRestrictionFilter { <new server filter> 
 
 In diesem Beispiel wird der Serverfilter so geändert, dass er mit allen Serverobjekten übereinstimmt, deren Eigenschaft **ServerSite** festgelegt ist auf 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com'.
 
-    Set-ManagementScope "Company Scope" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+  ```powershell
+  Set-ManagementScope "Company Scope" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+  ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementScope](https://technet.microsoft.com/de-de/library/dd297996\(v=exchg.150\)).
 
@@ -135,7 +137,9 @@ Set-ManagementScope <scope name> -DatabaseRestrictionFilter { <new database filt
 
 In diesem Beispiel wird der Datenbankfilter so geändert, dass alle Datenbankobjekte ermittelt werden, bei denen die Eigenschaft **Name** die Zeichenfolge "Executive" enthält.
 
-    Set-ManagementScope "Database Executive Scope" -DatabaseRestrictionFilter { Name -Like "*Executive*" }
+  ```powershell
+  Set-ManagementScope "Database Executive Scope" -DatabaseRestrictionFilter { Name -Like "*Executive*" }
+  ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementScope](https://technet.microsoft.com/de-de/library/dd297996\(v=exchg.150\)).
 
@@ -152,4 +156,3 @@ Sie können die Datenbankliste für einen Bereich nicht ändern. Wenn Sie die Da
 3.  Ändern Sie alle Verwaltungsrollenzuweisungen, die den alten Bereich verwenden, dahingehend, dass sie jetzt den neuen Bereich verwenden, indem Sie das unter dem Thema [Ändern einer Rollenzuweisung](change-a-role-assignment-exchange-2013-help.md) beschriebene Verfahren "Verwenden der Shell zum Ändern des Datenbankfilters oder listenbasierten Bereichs für eine Rollenzuweisung" ausführen.
 
 4.  Entfernen Sie den alten Bereich, indem Sie das unter dem Thema [Entfernen eines Bereichs Rolle](remove-a-role-scope-exchange-2013-help.md) beschriebene Verfahren ausführen.
-

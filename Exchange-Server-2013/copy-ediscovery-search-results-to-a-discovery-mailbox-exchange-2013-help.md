@@ -87,11 +87,11 @@ Wenn Sie die Option *EstimateOnly* verwenden, um eine Schätzung der Suchergebni
 
 Um die Ergebnisse dieser Suche in ein Discoverypostfach zu kopieren, würden Sie dann die folgenden Befehle ausführen:
 
-  ```
+  ```powershell
   Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
   ```
 
-  ```
+  ```powershell
   Start-MailboxSearch "FY13 Q2 Financial Results"
   ```
 

@@ -43,14 +43,16 @@ Weitere Informationen zu getrennten Postfächern und zum Durchführen anderer da
 
   - Führen Sie den folgenden Befehl aus, um sicherzustellen, dass das deaktivierte Postfach, das Sie mit einem Benutzerkonto verbinden möchten, in der Postfachdatenbank vorhanden und kein vorläufig gelöschtes Postfach ist.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
+    ```
     
     Um eine Verbindung mit einem deaktivierten Postfach herzustellen zu können, muss das Postfach in der Postfachdatenbank vorhanden sein, und der Wert der Eigenschaft *DisconnectReason* muss `Disabled` sein. Wenn das Postfach endgültig aus der Datenbank gelöscht wurde, gibt der Befehl keine Ergebnisse zurück.
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -68,7 +70,7 @@ Im folgenden Verfahren wird gezeigt, wie ein deaktiviertes Benutzerpostfach mit 
     Es wird eine Liste mit Postfächern angezeigt, die auf dem ausgewählten Exchange-Server in Ihrer Exchange-Organisation getrennt sind.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Diese Liste getrennter Postfächer enthält deaktivierte, gelöschte und nicht endgültig gelöschte Postfächer.
 
 
@@ -91,14 +93,18 @@ Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
 
 In diesem Beispiel wird ein verknüpftes Postfach verbunden. Der Parameter *Identity* gibt das getrennte Postfach in der Exchange-Datenbank an. Der Parameter *LinkedMasterAccount* gibt das Active Directory-Benutzerkonto in der Kontogesamtstruktur an, mit dem Sie das Postfach erneut verbinden möchten. Der Parameter *Alias* gibt den Alias, d. h. den Teil der E-Mail-Adresse links vom Symbol (@), des erneut verbundenen Postfachs an.
 
-    Connect-Mailbox -Identity "Kai Axford" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount kai.axford@fabrikam.com -Alias kaia
+```powershell
+Connect-Mailbox -Identity "Kai Axford" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount kai.axford@fabrikam.com -Alias kaia
+```
 
 In diesem Beispiel wird ein freigegebenes Postfach verbunden.
 
-    Connect-Mailbox -Identity "Corporate Shared Mailbox" -Database "Mailbox Database 03" -User "Corporate Shared Mailbox" -Alias corpshared -Shared
+```powershell
+Connect-Mailbox -Identity "Corporate Shared Mailbox" -Database "Mailbox Database 03" -User "Corporate Shared Mailbox" -Alias corpshared -Shared
+```
 
 
-> [!NOTE]
+> [!NOTE]  
 > Wenn Sie bei Ausführen des Cmdlets <STRONG>Connect-Mailbox</STRONG> den Parameter <EM>Alias</EM> nicht angeben, wird der im Parameter <EM>User</EM> oder <EM>LinkedMasterAccount</EM> angegebene Wert verwendet, um den Alias der E-Mail-Adresse des erneut verbundenen Postfachs zu erstellen.
 
 
@@ -116,8 +122,8 @@ Führen Sie einen der folgenden Schritte aus, um zu überprüfen, ob Sie ein dea
   - Führen Sie in der Shell den folgenden Befehl aus.
     
     ```powershell
-Get-User <identity>
-```
+    Get-User <identity>
+    ```
     
     Der Wert **UserMailbox** der Eigenschaft *RecipientType* gibt an, dass das Benutzerkonto und das Postfach verbunden sind. Sie können auch das Cmdlet **Get-Mailbox** ausführen, um zu prüfen, ob das Postfach vorhanden ist.
 

@@ -53,10 +53,12 @@ Zusätzliche Verwaltungsaufgaben im Zusammenhang mit UM-Wählplänen finden Sie 
 
 In diesem Beispiel wird der Postfachserver `MyMailboxServer` aus einem SIP-URI-Wählplan mit der Bezeichnung `MySIPDialPlan` entfernt.
 
-    $dp= Get-UMDialPlan "MySIPDialPlan"
-    $s=Get-UMService MyMailboxServer
-    $s.dialplans-=$dp.identity
-    Set-UMService -id MyMailboxServer -dialplans:$s.dialplans
+```powershell
+$dp= Get-UMDialPlan "MySIPDialPlan"
+$s=Get-UMService MyMailboxServer
+$s.dialplans-=$dp.identity
+Set-UMService -id MyMailboxServer -dialplans:$s.dialplans
+```
 
 In diesem Beispiel sind drei SIP-UIR-Wählpläne vorhanden: SipDP1, SipDP2 und SipDP3. In diesem Beispiel wird der Postfachserver mit dem Namen `MyMailboxServer` aus dem Wählplan "SipDP3" entfernt.
 
@@ -90,10 +92,12 @@ Set-UMService -id MyUMServer -DialPlans $null
 
 In diesem Beispiel wird der Clientzugriffsserver `MyClientAccessServer` aus einem SIP-URI-Wählplan mit der Bezeichnung `MySIPDialPlan` entfernt.
 
-    $dp= Get-UMDialPlan "MySIPDialPlan"
-    $s=Get-UMCallRouterSettings MyClientAccessServer
-    $s.dialplans-=$dp.identity
-    Set-UMCallRouterSettings -id MyClientAccessServer -dialplans:$s.dialplans
+```powershell
+$dp= Get-UMDialPlan "MySIPDialPlan"
+$s=Get-UMCallRouterSettings MyClientAccessServer
+$s.dialplans-=$dp.identity
+Set-UMCallRouterSettings -id MyClientAccessServer -dialplans:$s.dialplans
+```
 
 In diesem Beispiel sind drei SIP-UIR-Wählpläne vorhanden: SipDP1, SipDP2 und SipDP3. In diesem Beispiel wird der Clientzugriffsserver mit dem Namen `MyClientAccessServer` aus dem Wählplan "SipDP3" entfernt.
 
@@ -112,4 +116,3 @@ In diesem Beispiel wird der Clientzugriffsserver mit dem Namen `MyClientAccessSe
 ```powershell
 Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans $null
 ```
-

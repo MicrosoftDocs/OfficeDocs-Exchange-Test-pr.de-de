@@ -85,19 +85,23 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
 
   - In diesem Beispiel wird der Organisationsbeziehung "Contoso" der Domänenname "service.contoso.com" hinzugefügt.
     
-        $domains = (Get-OrganizationRelationship Contoso).DomainNames
-        $domains += 'service.contoso.com'
-        Set-OrganizationRelationship -Identity Contoso -DomainNames $domains
+    ```powershell
+    $domains = (Get-OrganizationRelationship Contoso).DomainNames
+    $domains += 'service.contoso.com'
+    Set-OrganizationRelationship -Identity Contoso -DomainNames $domains
+    ```
 
   - In diesem Beispiel wird die Organisationsbeziehung "Contoso" deaktiviert.
     
     ```powershell
-Set-OrganizationRelationship -Identity Contoso -Enabled $false
-```
+    Set-OrganizationRelationship -Identity Contoso -Enabled $false
+    ```
 
   - In diesem Beispiel wird der Zugriff auf Verfügbarkeitsinformationen aus Kalendern für die Organisationsbeziehung "WoodgroveBank" ermöglicht, und die Zugriffsebene wird auf `AvailabilityOnly` (Frei/Gebucht-Kalenderinformationen nur mit Zeit) festgelegt.
     
-        Set-OrganizationRelationship -Identity Contoso -FreeBusyAccessEnabled $true -FreeBusyAccessLevel AvailabilityOnly
+    ```powershell
+    Set-OrganizationRelationship -Identity Contoso -FreeBusyAccessEnabled $true -FreeBusyAccessLevel AvailabilityOnly
+    ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-OrganizationRelationship](https://technet.microsoft.com/de-de/library/ee332343\(v=exchg.150\)) und [Set-OrganizationRelationship](https://technet.microsoft.com/de-de/library/ee332326\(v=exchg.150\)).
 
@@ -109,8 +113,7 @@ Führen Sie den folgenden Shell-Befehl aus, und überprüfen Sie die Information
 Get-OrganizationRelationship | format-list
 ```
 
-
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 

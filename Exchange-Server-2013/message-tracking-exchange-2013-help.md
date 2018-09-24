@@ -556,16 +556,18 @@ Eine ereignislose Nachricht, die zwischen zwei Benutzern gesendet wurde, generie
 
 Dies ist ein verkürztes Beispiel für Einträge im Nachrichtenverfolgungsprotokoll, die erstellt wurden, als der Benutzer "chris@contoso.com" erfolgreich eine Testnachricht an die Benutzerin "michelle@contoso.com" gesendet hat. Beide Benutzer haben Postfächer auf demselben Server.
 
-    EventId    Source      Sender            Recipients             MessageSubject
-    -------    ------      ------            ----------             --------------
-    NOTIFYMAPI STOREDRIVER                   {}
-    RECEIVE    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
-    SUBMIT     STOREDRIVER chris@contoso.com {michelle@contoso.com} test
-    HAREDIRECT SMTP        chris@contoso.com {michelle@contoso.com} test
-    RECEIVE    SMTP        chris@contoso.com {michelle@contoso.com} test
-    AGENTINFO  AGENT       chris@contoso.com {michelle@contoso.com} test
-    SEND       SMTP        chris@contoso.com {michelle@contoso.com} test
-    DELIVER    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+  ```powershell
+  EventId    Source      Sender            Recipients             MessageSubject
+  -------    ------      ------            ----------             --------------
+  NOTIFYMAPI STOREDRIVER                   {}
+  RECEIVE    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+  SUBMIT     STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+  HAREDIRECT SMTP        chris@contoso.com {michelle@contoso.com} test
+  RECEIVE    SMTP        chris@contoso.com {michelle@contoso.com} test
+  AGENTINFO  AGENT       chris@contoso.com {michelle@contoso.com} test
+  SEND       SMTP        chris@contoso.com {michelle@contoso.com} test
+  DELIVER    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+  ```
 
 Zurück zum Seitenanfang
 
@@ -574,4 +576,3 @@ Zurück zum Seitenanfang
 Im Nachrichtenverfolgungsprotokoll wird kein Nachrichteninhalt gespeichert. Standardmäßig wird die Betreffzeile einer E-Mail-Nachricht im Nachrichtenverfolgungsprotokoll gespeichert. Möglicherweise möchten Sie die Nachrichtenbetreffprotokollierung jedoch aufgrund von erhöhten Sicherheits- und Datenschutzanforderungen deaktivieren. Überprüfen Sie vor der Aktivierung oder Deaktivierung der Nachrichtenbetreffprotokollierung die Richtlinie Ihrer Organisation zum Anzeigen von Betreffzeileninformationen. Weitere Informationen finden Sie unter [Konfigurieren der Nachrichtenverfolgung](configure-message-tracking-exchange-2013-help.md).
 
 Zurück zum Seitenanfang
-
