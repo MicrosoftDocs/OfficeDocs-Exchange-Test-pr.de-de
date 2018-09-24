@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von AutoReseed für eine Database Availability Group: Exchange 2013 Help'
+title: 'Konfig. von AutoReseed für Datenverfügbarkeitsgruppe: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von AutoReseed für eine Database Availability Group
 ms:assetid: 4a8bd779-b52a-40ed-8040-4d76eabeb41e
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ619303(v=EXCHG.150)

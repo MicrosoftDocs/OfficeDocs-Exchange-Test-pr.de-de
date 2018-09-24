@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden der Stapelmigration zum Migrieren von öffentlichen Exchange 2010-Ordnern zu Office 365-Gruppen: Exchange 2013 Help'
+title: 'Stapelmigration von öff. Exchange 2010-Ordnern zu Office 365-Gruppen'
 TOCTitle: Verwenden der Stapelmigration zum Migrieren von öffentlichen Exchange 2010-Ordnern zu Office 365-Gruppen
 ms:assetid: d018558d-3075-4dd3-9ff7-91ce66b8d5fb
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Mt843875(v=EXCHG.150)
@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2018-04-30_
 
 **Zusammenfassung:**  Verschieben von öffentlichen Exchange 2010-Ordnern in Office 365-Gruppen.
 
-Mit einem Prozess, der auch *Stapelmigration* genannt wird, können Sie einige oder alle Ihre öffentlichen Exchange 2010-Ordner in Office 365-Gruppen verschieben. Gruppen ist ein neues Angebot von Microsoft für die Zusammenarbeit, das bestimmte Vorteile für öffentliche Ordner bietet. Unter [Migrieren Ihrer öffentlichen Ordner zu Office 365-Gruppen](migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md) finden Sie einen Überblick über die Unterschiede zwischen öffentlichen Ordnern und Gruppen sowie Gründe, warum Ihre Organisation möglicherweise von einem Wechsel zu Gruppen profitieren kann.
+Mit einem Prozess, der auch *Stapelmigration* genannt wird, können Sie einige oder alle Ihre öffentlichen Exchange 2010-Ordner in Office 365-Gruppen verschieben. Gruppen ist ein neues Angebot von Microsoft für die Zusammenarbeit, das bestimmte Vorteile für öffentliche Ordner bietet. Unter [Migrieren Ihrer öffentlichen Ordner zu Office 365-Gruppen](https://technet.microsoft.com/de-de/library/Mt843872(v=EXCHG.150)) finden Sie einen Überblick über die Unterschiede zwischen öffentlichen Ordnern und Gruppen sowie Gründe, warum Ihre Organisation möglicherweise von einem Wechsel zu Gruppen profitieren kann.
 
 Dieser Artikel enthält die schrittweisen Verfahren zur Durchführung der tatsächlichen Stapelmigration Ihrer öffentlichen Exchange 2010-Ordner.
 

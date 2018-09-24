@@ -138,7 +138,7 @@ In Exchange 2013 können Sie Archivrichtlinien auf ein Postfach anwenden, um Nac
 
 Nachrichten werden in einen Ordner im Archivpostfach verschoben, dessen Name mit dem Namen des Quellordners im primären Postfach übereinstimmt. Wenn im Archivpostfach ein Ordner mit demselben Namen vorhanden ist, wird dieser erstellt, sobald eine Nachricht vom Assistenten für verwaltete Ordner verschoben wird. Wenn im Archivpostfach dieselbe Ordnerhierarchie erstellt wird, können Benutzer Nachrichten einfach finden.
 
-Weitere Informationen zu Aufbewahrungsrichtlinien, Aufbewahrungstags und zur Aufbewahrungsaktion **In Archiv verschieben** finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](retention-tags-and-retention-policies-exchange-2013-help.md).
+Weitere Informationen zu Aufbewahrungsrichtlinien, Aufbewahrungstags und zur Aufbewahrungsaktion **In Archiv verschieben** finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://technet.microsoft.com/de-de/library/Dd297955(v=EXCHG.150)).
 
 ## Standard-MRM-Richtlinie
 
@@ -271,7 +271,7 @@ In diesem Abschnitt wird die Funktionalität zwischen Compliance-Archiven und ve
 
   - **Exchange-Suche   **Die Möglichkeit zur schnellen Suche nach Nachrichten ist bei Archivpostfächern noch wichtiger. Bei der Exchange-Suche gibt es keinen Unterschied zwischen dem primären und dem Archivpostfach. Der Inhalt in beiden Postfächern wird indiziert. Da das Archivpostfach auf dem Computer eines Benutzers nicht zwischengespeichert wird (auch nicht, wenn mit Outlook im Exchange-Cache-Modus gearbeitet wird), werden die Suchergebnisse für das Archiv immer von der Exchange-Suche bereitgestellt. Wenn Sie das gesamte Postfach in Outlook 2010 und höher sowie in Outlook Web App durchsuchen, umfassen die Suchergebnisse das primäre und das Archivpostfach des Benutzers.
 
-  - **Compliance-eDiscovery**   Wenn ein Discovery-Manager eine Compliance-eDiscovery-Suche ausführt, werden auch die Archivpostfächer der Benutzer durchsucht. Es gibt keine Option, Archivpostfächer auszuschließen, wenn in der Exchange-Verwaltungskonsole eine Discoverysuche erstellt wird. Wenn Sie mit der Exchange-Verwaltungsshell eine Discoverysuche erstellen, können Sie das Archiv mithilfe der Option *DoNotIncludeArchive* ausschließen. Weitere Informationen finden Sie unter [New-MailboxSearch](https://technet.microsoft.com/de-de/library/dd298064\(v=exchg.150\)). Weitere Informationen finden Sie unter [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md).
+  - **Compliance-eDiscovery**   Wenn ein Discovery-Manager eine Compliance-eDiscovery-Suche ausführt, werden auch die Archivpostfächer der Benutzer durchsucht. Es gibt keine Option, Archivpostfächer auszuschließen, wenn in der Exchange-Verwaltungskonsole eine Discoverysuche erstellt wird. Wenn Sie mit der Exchange-Verwaltungsshell eine Discoverysuche erstellen, können Sie das Archiv mithilfe der Option *DoNotIncludeArchive* ausschließen. Weitere Informationen finden Sie unter [New-MailboxSearch](https://technet.microsoft.com/de-de/library/dd298064\(v=exchg.150\)). Weitere Informationen finden Sie unter [Compliance-eDiscovery](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
     
 
     > [!IMPORTANT]
@@ -279,7 +279,7 @@ In diesem Abschnitt wird die Funktionalität zwischen Compliance-Archiven und ve
 
 
 
-  - **Compliance-Archiv und Beweissicherungsverfahren**   Wenn Sie für ein Postfach ein Compliance-Archiv oder das Beweissicherungsverfahren festlegen, gilt diese Archivierung sowohl für das primäre als auch das Archivpostfach. Weitere Informationen zu Compliance-Archiv und Beweissicherungsverfahren finden Sie unter [In-Place Hold and Litigation Hold](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+  - **Compliance-Archiv und Beweissicherungsverfahren**   Wenn Sie für ein Postfach ein Compliance-Archiv oder das Beweissicherungsverfahren festlegen, gilt diese Archivierung sowohl für das primäre als auch das Archivpostfach. Weitere Informationen zu Compliance-Archiv und Beweissicherungsverfahren finden Sie unter [In-Place Hold and Litigation Hold](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds).
 
   - **Ordner für wiederherstellbare Elemente   **Das Archivpostfach enthält einen eigenen Ordner für wiederherstellbare Elemente und unterliegt denselben Kontingenten wie der Ordner "Wiederherstellbare Elemente" des primären Postfachs. Weitere Informationen zu wiederherstellbaren Elementen finden Sie unter [Ordner "Wiederherstellbare Elemente"](recoverable-items-folder-exchange-2013-help.md).
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren älterer öffentlicher Ordner, wenn sich die Postfächer der Benutzer auf Exchange 2013-Servern befinden: Exchange 2013 Help'
+title: 'Konfig. älterer öfftl. Ordner, wenn Postf. auf Exchange 2013-Servern exist.'
 TOCTitle: Konfigurieren älterer öffentlicher Ordner, wenn sich die Postfächer der Benutzer auf Exchange 2013-Servern befinden
 ms:assetid: 1d5ca19e-696e-4054-a634-15dd34d952b7
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn690134(v=EXCHG.150)
@@ -25,7 +25,7 @@ Benutzer, deren Postfächer auf Exchange Server 2013 oder Exchange Server 2016 s
 
 
 > [!NOTE]
-> Benutzer von Outlook 2016 für Mac können auf ältere öffentliche Ordner zugreifen, nachdem Sie die Schritte in diesem Artikel durchgeführt haben. Wenn Clients in Ihrer Organisation Outlook 2016 für Mac verwenden, stellen Sie sicher, dass sie das Update von April 2016 installiert haben. Andernfalls können diese Benutzer nicht auf öffentliche Ordner in einer Koexistenz oder einer Hybrid-Topologie zugreifen. Weitere Informationen finden Sie unter <A href="accessing-public-folders-with-outlook-2016-for-mac-exchange-2013-help.md">Zugreifen auf öffentliche Ordner mit Outlook&nbsp;2016&nbsp;für&nbsp;Mac</A>.
+> Benutzer von Outlook 2016 für Mac können auf ältere öffentliche Ordner zugreifen, nachdem Sie die Schritte in diesem Artikel durchgeführt haben. Wenn Clients in Ihrer Organisation Outlook 2016 für Mac verwenden, stellen Sie sicher, dass sie das Update von April 2016 installiert haben. Andernfalls können diese Benutzer nicht auf öffentliche Ordner in einer Koexistenz oder einer Hybrid-Topologie zugreifen. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/access-public-folders-with-outlook-2016-for-mac">Zugreifen auf öffentliche Ordner mit Outlook&nbsp;2016&nbsp;für&nbsp;Mac</A>.
 
 
 
@@ -75,7 +75,7 @@ Benutzer, deren Postfächer auf Exchange Server 2013 oder Exchange Server 2016 s
 
 Beim letzten Schritt dieses Verfahren werden die Benutzerpostfächer konfiguriert, um den Zugriff auf die älteren lokalen öffentlichen Ordner zu gewähren.
 
-Aktivieren Sie die lokalen Exchange Server 2013-Benutzer für den Zugriff auf die älteren öffentlichen Ordner. Sie zeigen auf alle Proxypostfächer für öffentliche Ordne, die Sie in [Step 2: Make remote public folders discoverable](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md) erstellt haben. Führen Sie den folgenden Befehl auf einem Exchange 2013-Server mit dem Update CU5 oder höher aus.
+Aktivieren Sie die lokalen Exchange Server 2013-Benutzer für den Zugriff auf die älteren öffentlichen Ordner. Sie zeigen auf alle Proxypostfächer für öffentliche Ordne, die Sie in [Step 2: Make remote public folders discoverable](https://technet.microsoft.com/de-de/library/Dn249373(v=EXCHG.150)) erstellt haben. Führen Sie den folgenden Befehl auf einem Exchange 2013-Server mit dem Update CU5 oder höher aus.
 
     Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Der primäre DNS-Server kann nicht kontaktiert werden_PrimaryDNSTestFailed: Exchange 2013 Help'
+title: 'Der primäre DNS-Server kann nicht kontaktiert werden'
 TOCTitle: Der primäre DNS-Server kann nicht kontaktiert werden_PrimaryDNSTestFailed
 ms:assetid: 5b39cb64-c8f1-4fd3-843b-ecd23f99fe3a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.primarydnstestfailed(v=EXCHG.150)

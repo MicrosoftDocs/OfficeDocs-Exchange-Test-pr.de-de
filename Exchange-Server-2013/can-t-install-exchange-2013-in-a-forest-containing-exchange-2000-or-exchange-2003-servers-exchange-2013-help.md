@@ -1,5 +1,5 @@
 ﻿---
-title: 'Exchange 2013 kann nicht in einer Gesamtstruktur mit Exchange 2000- oder Exchange 2003-Servern installiert werden.: Exchange 2013 Help'
+title: 'Inst. v. Exchange 2013 in Ges.str. m. Exchange 2000- oder 2003-Serv. n. mögl.'
 TOCTitle: Exchange 2013 kann nicht in einer Gesamtstruktur mit Exchange 2000- oder Exchange 2003-Servern installiert werden.
 ms:assetid: a115b182-cbd2-4d31-aa0e-375240939301
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.exchange2000or2003presentinorg(v=EXCHG.150)

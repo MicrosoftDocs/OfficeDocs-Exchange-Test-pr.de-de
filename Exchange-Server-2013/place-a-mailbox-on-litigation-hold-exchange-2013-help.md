@@ -17,7 +17,7 @@ _**Gilt für:** Exchange Online, Exchange Server 2013_
 
 _**Letztes Änderungsdatum des Themas:** 2016-10-18_
 
-Durch die Aktivierung des Beweissicherungsverfahrens für ein Postfach werden auch alle Postfachinhalte aufbewahrt, einschließlich gelöschter Elemente und Originalversionen geänderter Elemente. Wenn Sie für das Postfach eines Benutzers das Beweissicherungsverfahren aktivieren, wird auch der Inhalt im Archivpostfach archiviert, wenn dieses aktiviert ist. Gelöschte und geänderte Elemente werden eine bestimmte Zeit lang aufbewahrt oder bis Sie das Beweissicherungsverfahren für das Postfach deaktivieren. Alle diese Postfachelemente werden bei einer [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md)-Suche zurückgegeben.
+Durch die Aktivierung des Beweissicherungsverfahrens für ein Postfach werden auch alle Postfachinhalte aufbewahrt, einschließlich gelöschter Elemente und Originalversionen geänderter Elemente. Wenn Sie für das Postfach eines Benutzers das Beweissicherungsverfahren aktivieren, wird auch der Inhalt im Archivpostfach archiviert, wenn dieses aktiviert ist. Gelöschte und geänderte Elemente werden eine bestimmte Zeit lang aufbewahrt oder bis Sie das Beweissicherungsverfahren für das Postfach deaktivieren. Alle diese Postfachelemente werden bei einer [Compliance-eDiscovery](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)-Suche zurückgegeben.
 
 
 > [!IMPORTANT]
@@ -39,7 +39,7 @@ Durch die Aktivierung des Beweissicherungsverfahrens für ein Postfach werden au
 
   - In Exchange Online wird das Kontingent für den Ordner "Wiederherstellbare Elemente" automatisch auf 100 GB erhöht, wenn Sie für ein Postfach das Beweissicherungsverfahren aktivieren. Die Standardgröße dieses Ordners beträgt 30 GB.
 
-  - Das Beweissicherungsverfahren behält gelöschte Elemente und die ursprünglichen Versionen der geänderten Elemente bei, bis die Aufbewahrung entfernt wird. Sie können optional eine Aufbewahrungsdauer angeben, in der ein Postfachelement für eine angegebene Zeitdauer beibehalten wird. Wenn Sie eine Aufbewahrungsdauer angeben, wird sie vom Datum an berechnet, an dem eine Nachricht empfangen oder ein Postfachelement erstellt wurde. Verwenden Sie zum Beibehalten von Elementen, die Ihre angegeben Kriterien erfüllen, einen In-Situ-Speicher zum Erstellen einer *abfragebasierten* Aufbewahrung. Weitere Informationen finden Sie unter [Erstellen oder Entfernen eines Compliance-Archivs](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+  - Das Beweissicherungsverfahren behält gelöschte Elemente und die ursprünglichen Versionen der geänderten Elemente bei, bis die Aufbewahrung entfernt wird. Sie können optional eine Aufbewahrungsdauer angeben, in der ein Postfachelement für eine angegebene Zeitdauer beibehalten wird. Wenn Sie eine Aufbewahrungsdauer angeben, wird sie vom Datum an berechnet, an dem eine Nachricht empfangen oder ein Postfachelement erstellt wurde. Verwenden Sie zum Beibehalten von Elementen, die Ihre angegeben Kriterien erfüllen, einen In-Situ-Speicher zum Erstellen einer *abfragebasierten* Aufbewahrung. Weitere Informationen finden Sie unter [Erstellen oder Entfernen eines Compliance-Archivs](https://docs.microsoft.com/de-de/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
   - Verwenden Sie die Exchange Online-PowerShell, um die Shell zum Ablegen eines Exchange Online-Postfachs in das Archiv zu verwenden Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit Exchange Online mithilfe der Remote-PowerShell](https://technet.microsoft.com/de-de/library/jj984289\(v=exchg.150\)).
 
@@ -149,26 +149,27 @@ Führen Sie eine der folgenden Aktionen aus, um sicherzustellen, dass Sie das Be
     
     Hier sind einige Beispiele dafür, wie mit den Cmdlets **Get-Mailbox** und **Get-Recipient** eine Teilmenge an Postfächern basierend auf allgemeinen Benutzer- oder Postfacheigenschaften zurückgegeben wird. In diesen Beispielen wird davon ausgegangen, dass entsprechende Postfacheigenschaften (wie *CustomAttributeN* oder *Department*) aufgefüllt wurden.
     
-```
+    ```
 	Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
-```
+    ```
 
-```
+    ```
 	Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
-```
+    ```
 
-```
+    ```
 	Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
-```
+    ```
 
-```
+    ```
 	Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
-```
+    ```
 
-```
+    ```
 	Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
-```    
-    Sie können andere Benutzerpostfacheigenschaften in einem Filter verwenden, um Postfächer einzubeziehen bzw. auszuschließen. Weitere Informationen finden Sie unter [Filterbare Eigenschaften für den Parameter „-Filter“](https://technet.microsoft.com/de-de/library/bb738155\(v=exchg.150\)).
+    ```    
 
-Zurück zum Seitenanfang
 
+    <p>Sie können andere Benutzerpostfacheigenschaften in einem Filter verwenden, um Postfächer einzubeziehen bzw. auszuschließen. Weitere Informationen finden Sie unter <a href="https://technet.microsoft.com/de-de/library/bb738155\(v=exchg.150\)">Filterbare Eigenschaften für den Parameter „-Filter“</a>.</p>
+
+    <p>Zurück zum Seitenanfang</p>

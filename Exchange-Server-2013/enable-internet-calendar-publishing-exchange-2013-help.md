@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren der Veröffentlichung von Kalenderinformationen im Internet: Exchange 2013 Help'
+title: 'Aktiv. d. Veröff. von Kalenderinformationen im Internet: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren der Veröffentlichung von Kalenderinformationen im Internet
 ms:assetid: b4c71696-52bb-492c-8259-0e419acd0bbc
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ853046(v=EXCHG.150)

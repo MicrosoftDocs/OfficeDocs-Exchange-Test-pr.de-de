@@ -1,5 +1,5 @@
 ﻿---
-title: 'Computer muss neu gestartet werden, bevor das Setup fortgesetzt werden kann: Exchange 2013 Help'
+title: 'Computer muss neu gestartet werden, bevor Setup fortgesetzt wird'
 TOCTitle: Computer muss neu gestartet werden, bevor das Setup fortgesetzt werden kann
 ms:assetid: f2d8e504-18c1-4b86-9b97-7654d0391b19
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.pendingrebootwindowscomponents(v=EXCHG.150)

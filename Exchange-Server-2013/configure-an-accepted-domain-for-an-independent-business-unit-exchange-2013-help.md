@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren einer akzeptierten Domäne für eine unabhängige Unternehmenseinheit: Exchange 2013 Help'
+title: 'Konfigurieren einer akzeptierten Domäne für  unabhängige Unternehmenseinheit'
 TOCTitle: Konfigurieren einer akzeptierten Domäne für eine unabhängige Unternehmenseinheit
 ms:assetid: bc95dbdc-3669-4c06-ab94-90093bc0dbfd
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657491(v=EXCHG.150)

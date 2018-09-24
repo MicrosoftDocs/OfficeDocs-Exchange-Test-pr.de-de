@@ -1,5 +1,5 @@
 ﻿---
-title: 'Installieren und Konfigurieren des Agents für das Routing von Adressbuchrichtlinien: Exchange 2013 Help'
+title: 'Install. und Konfig. d. Agents für Routing von Adressbuchrichtlinien'
 TOCTitle: Installieren und Konfigurieren des Agents für das Routing von Adressbuchrichtlinien
 ms:assetid: 20e8a43d-4508-4388-a2c9-aa3073593cc2
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ907308(v=EXCHG.150)

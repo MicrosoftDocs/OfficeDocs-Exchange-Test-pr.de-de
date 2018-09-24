@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importieren einer benutzerdefinierten DLP-Richtlinienvorlage aus einer Datei: Exchange 2013 Help'
+title: 'Import benutzerdef. DLP-Richtlinienvorlagen aus Datei: Exchange 2013-Hilfe'
 TOCTitle: Importieren einer benutzerdefinierten DLP-Richtlinienvorlage aus einer Datei
 ms:assetid: 83f49dbd-f9b1-498e-b548-1529c5e1ccdb
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ150531(v=EXCHG.150)
@@ -69,5 +69,5 @@ In diesem Beispiel wird eine benutzerdefinierte DLP-Richtlinienvorlagendatei aus
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 

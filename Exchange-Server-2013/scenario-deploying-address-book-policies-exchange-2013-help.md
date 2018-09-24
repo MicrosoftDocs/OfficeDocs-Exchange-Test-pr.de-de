@@ -205,7 +205,7 @@ Beachten Sie Folgendes, wenn Sie Adressbuchrichtlinien in Ihrer Organisation ver
 
   - Führen Sie die Clientzugriffs-Serverrolle von Exchange 2010 nicht auf dem globalen Katalogserver aus. Dies würde dazu führen, dass für NSPI (Name Service Provider Interface) Active Directory anstelle des Microsoft Exchange-Adressbuchdiensts verwendet wird. Sie können Exchange 2013-Serverrollen auf einem globalen Katalogserver ausführen, und die Adressbuchrichtlinien funktionieren ordnungsgemäß. Es empfiehlt sich jedoch nicht, Exchange auf einem Domänencontroller zu installieren.
 
-  - Sie können hierarchische Adressbücher (Hierarchical Address Books, HABs) und Adressbuchrichtlinien nicht gleichzeitig einsetzen. Weitere Informationen finden Sie unter [Hierarchische Adressbücher](hierarchical-address-books-exchange-2013-help.md).
+  - Sie können hierarchische Adressbücher (Hierarchical Address Books, HABs) und Adressbuchrichtlinien nicht gleichzeitig einsetzen. Weitere Informationen finden Sie unter [Hierarchische Adressbücher](https://technet.microsoft.com/de-de/library/Ff629379(v=EXCHG.150)).
 
   - Jeder Benutzer, dem eine Adressbuchrichtlinie zugewiesen wurde, sollte in der eigenen GAL vorhanden sein.
 
@@ -267,7 +267,7 @@ Sie müssen eine Methode erarbeiten, um Ihre Organisation zu unterteilen. Es emp
 
   - CustomAttributeX-Attribute sind explizit für die Anpassung einer Organisation reserviert und werden ausschließlich von den Administratoren der Organisation verwendet.
 
-Eine weitere bewährte Methode zur Segmentierung einer Organisation ist die Verwendung von Unternehmens-IDs in den Namen von Verteilergruppen und dynamischen Verteilergruppen. Exchange verfügt über eine Funktion für Gruppenbenennungsrichtlinien, die dem Namen einer Verteilergruppe automatisch basierend auf verschiedenen Attributen des Benutzers, der die Verteilergruppe erstellt, ein Suffix oder ein Präfix hinzufügt. Zu diesen Attributen gehören u. a. Unternehmen, Bundesland/Kanton, Titel und "CustomAttribute1" bis "CustomAttribute15". Die Gruppenbenennungsrichtlinie ist insbesondere dann wichtig, wenn Sie Benutzern gestatten, selbst Verteilergruppen zu erstellen. Weitere Informationen finden Sie unter [Erstellen einer Benennungsrichtlinie für Verteilergruppen](create-a-distribution-group-naming-policy-exchange-2013-help.md).
+Eine weitere bewährte Methode zur Segmentierung einer Organisation ist die Verwendung von Unternehmens-IDs in den Namen von Verteilergruppen und dynamischen Verteilergruppen. Exchange verfügt über eine Funktion für Gruppenbenennungsrichtlinien, die dem Namen einer Verteilergruppe automatisch basierend auf verschiedenen Attributen des Benutzers, der die Verteilergruppe erstellt, ein Suffix oder ein Präfix hinzufügt. Zu diesen Attributen gehören u. a. Unternehmen, Bundesland/Kanton, Titel und "CustomAttribute1" bis "CustomAttribute15". Die Gruppenbenennungsrichtlinie ist insbesondere dann wichtig, wenn Sie Benutzern gestatten, selbst Verteilergruppen zu erstellen. Weitere Informationen finden Sie unter [Erstellen einer Benennungsrichtlinie für Verteilergruppen](https://technet.microsoft.com/de-de/library/JJ218693(v=EXCHG.150)).
 
 Gruppenbenennungsrichtlinien gelten nicht für dynamische Verteilergruppen. Sie müssen diese manuell segmentieren und eine Benennungsrichtlinie darauf anwenden.
 
@@ -289,7 +289,7 @@ In diesem Beispiel wird die Adressliste AL\_TAIL\_Benutzer\_DGs erstellt. Die Ad
 
     New-AddressList -Name "AL_TAIL_Users_DGs" -RecipientFilter {((RecipientType -eq 'UserMailbox') -or (RecipientType -eq "MailUniversalDistributionGroup") -or (RecipientType -eq "DynamicDistributionGroup")) -and (CustomAttribute15 -eq "TAIL")}
 
-Weitere Informationen zum Erstellen von Adresslisten unter Verwendung von Empfängerfiltern finden Sie unter [Erstellen einer Adressliste mithilfe von Empfängerfiltern](create-an-address-list-by-using-recipient-filters-exchange-2013-help.md).
+Weitere Informationen zum Erstellen von Adresslisten unter Verwendung von Empfängerfiltern finden Sie unter [Erstellen einer Adressliste mithilfe von Empfängerfiltern](https://technet.microsoft.com/de-de/library/Bb123718(v=EXCHG.150)).
 
 Zum Erstellen einer Adressbuchrichtlinie müssen Sie eine Raumadressliste bereitstellen. Wenn Ihre Organisation nicht über Ressourcenpostfächer (wie zum Beispiel Raum- oder Gerätepostfächer) verfügt, empfiehlt es sich, eine leere Raumadressliste zu erstellen. Im folgenden Beispiel wird eine leere Raumadressliste erstellt, da in der Organisation keine Raumpostfächer vorhanden sind.
 
@@ -303,7 +303,7 @@ Bei der in einer Adressbuchrichtlinie verwendeten globalen Adressliste muss es s
 
     New-GlobalAddressList -Name "GAL_TAIL" -RecipientFilter {(CustomAttribute15 -eq "TAIL")}
 
-Weitere Informationen finden Sie unter [Erstellen einer globalen Adressliste](create-a-global-address-list-exchange-2013-help.md).
+Weitere Informationen finden Sie unter [Erstellen einer globalen Adressliste](https://technet.microsoft.com/de-de/library/Bb232063(v=EXCHG.150)).
 
 Beim Erstellen des Offlineadressbuchs sollten Sie die geeignete globale Adressliste verwenden, wenn Sie den Parameter *AddressLists* für "New-OfflineAddressBook" oder "Set-OfflineAddressBook" bereitstellen, um sicherzustellen, dass kein Eintrag fehlt. Grundsätzlich können Sie die Anzahl von Einträgen, die ein Benutzer anzeigen kann, oder die Downloadgröße des Offlineadressbuchs reduzieren, indem Sie eine Liste mit Adresslisten im Parameter "AddressLists" der New/Set-OfflineAddressBook-Cmdlets angeben. Wenn Sie jedoch möchten, dass Benutzer sämtliche Einträge der globalen Adressliste im Offlineadressbuch anzeigen können, sollten Sie sicherstellen, dass die globale Adressliste in diesem Parameter enthalten ist.
 
@@ -311,7 +311,7 @@ In diesem Beispiel wird das Offlineadressbuch "OAB\_FAB" für Fabrikam erstellt.
 
     New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
 
-Weitere Informationen finden Sie unter [Erstellen eines Offlineadressbuchs](create-an-offline-address-book-exchange-2013-help.md).
+Weitere Informationen finden Sie unter [Erstellen eines Offlineadressbuchs](https://docs.microsoft.com/de-de/exchange/address-books/offline-address-books/create-offline-address-book).
 
 ## Schritt 4: Erstellen der Adressbuchrichtlinien
 
@@ -319,7 +319,7 @@ Nachdem Sie alle erforderlichen Objekte erstellt haben, können Sie die Adressbu
 
     New-AddressBookPolicy -Name "ABP_TAIL" -AddressLists "AL_TAIL_Users_DGs"," AL_TAIL_Contacts" -OfflineAddressBook "\OAB_TAIL" -GlobalAddressList "\GAL_TAIL" -RoomList "\AL_TAIL_Rooms"
 
-Weitere Informationen finden Sie unter [Erstellen einer Adressbuchrichtlinie](create-an-address-book-policy-exchange-2013-help.md).
+Weitere Informationen finden Sie unter [Erstellen einer Adressbuchrichtlinie](https://technet.microsoft.com/de-de/library/Hh529931(v=EXCHG.150)).
 
 ## Schritt 5: Zuweisen der Adressbuchrichtlinien zu Postfächern
 
@@ -329,5 +329,5 @@ In diesem Beispiel wird "ABP\_FAB" allen Postfächern zugewiesen, bei denen gilt
 
     Get-Mailbox -resultsize unlimited | where {$_.CustomAttribute15 -eq "TAIL"} | Set-Mailbox -AddressBookPolicy "ABP_TAIL"
 
-Weitere Informationen finden Sie unter [Zuweisen einer Adressbuchrichtlinie zu E-Mail-Benutzern](assign-an-address-book-policy-to-mail-users-exchange-2013-help.md).
+Weitere Informationen finden Sie unter [Zuweisen einer Adressbuchrichtlinie zu E-Mail-Benutzern](https://technet.microsoft.com/de-de/library/Hh529942(v=EXCHG.150)).
 

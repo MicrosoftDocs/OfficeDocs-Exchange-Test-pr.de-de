@@ -1,5 +1,5 @@
 ﻿---
-title: 'Der angemeldete Benutzer ist kein Mitglied der Gruppe "Schema-Admins": Exchange 2013 Help'
+title: 'Angemeldeter Benutzer ist kein Mitglied der Gruppe Schema-Admins'
 TOCTitle: Der angemeldete Benutzer ist kein Mitglied der Gruppe "Schema-Admins"
 ms:assetid: a4a3f293-afb9-4c00-aa07-c438238b6a98
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.schemaupdaterequired(v=EXCHG.150)

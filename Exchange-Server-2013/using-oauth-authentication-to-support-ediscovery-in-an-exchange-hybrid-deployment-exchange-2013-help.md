@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden der OAuth-Authentifizierung zur Unterstützung von eDiscovery in einer Exchange-Hybridbereitstellung: Exchange 2013 Help'
+title: 'OAuth-Auth. zur Unterstützung von eDiscovery in Exchange-Hybridbereitstellung'
 TOCTitle: Verwenden der OAuth-Authentifizierung zur Unterstützung von eDiscovery in einer Exchange-Hybridbereitstellung
 ms:assetid: b069f8db-fbe1-4047-ad97-d00172ee6a12
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn497703(v=EXCHG.150)

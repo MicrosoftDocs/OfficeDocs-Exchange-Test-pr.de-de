@@ -59,19 +59,19 @@ Sie können die DLP-Erkennungsfunktionen in herkömmliche Transportregeln einbin
 
   -  [Nachrichtenflussregeln (Transportregeln) in Exchange Online](https://technet.microsoft.com/de-de/library/jj919238\(v=exchg.150\)) (Exchange Online)
 
-  -  [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md)
+  -  [Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
     
-    [Richtlinien- und Richtlinientreue-Cmdlets](https://technet.microsoft.com/de-de/library/dd298082\(v=exchg.150\))
+  -  [Richtlinien- und Richtlinientreue-Cmdlets](https://technet.microsoft.com/de-de/library/dd298082\(v=exchg.150\))
 
 ## Verwenden der von Microsoft erstellten DLP-Richtlinien
 
 Zahlreiche DLP-Richtlinien werden von Microsoft bereitgestellt. Sie stellen die einfachste Möglichkeit dar, mit der Erstellung einer DLP-Lösung zu beginnen, die flexibel ist und leicht implementiert werden kann. Sie können die bereitgestellten Richtlinien immer als Ausgangspunkt verwenden und sie an Ihre Anforderungen anpassen. Lesen Sie für einen Einstieg in die Thematik folgende Informationen:
 
-  - [In Exchange bereitgestellte DLP-Richtlinienvorlagen](dlp-policy-templates-supplied-in-exchange-exchange-2013-help.md)
+  - [In Exchange bereitgestellte DLP-Richtlinienvorlagen](https://technet.microsoft.com/de-de/library/JJ150530(v=EXCHG.150))
 
-  - [Erstellen einer DLP-Richtlinie aus einer Vorlage](how-to-new-dlp-data-loss-prevention-policy-template.md)
+  - [Erstellen einer DLP-Richtlinie aus einer Vorlage](https://technet.microsoft.com/de-de/library/JJ150515(v=EXCHG.150))
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 

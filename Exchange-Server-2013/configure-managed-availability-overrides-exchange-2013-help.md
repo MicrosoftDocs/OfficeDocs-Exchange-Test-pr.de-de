@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Überschreibungen für die verwaltete Verfügbarkeit: Exchange 2013 Help'
+title: 'Konfig. von Überschreibungen für verw. Verfügbarkeit: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von Überschreibungen für die verwaltete Verfügbarkeit
 ms:assetid: c8f315b3-1d5e-4ad9-8bea-9c3a4a13ebfc
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn482055(v=EXCHG.150)

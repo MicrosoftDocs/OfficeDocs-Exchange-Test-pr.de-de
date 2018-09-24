@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hinzufügen von Postfach- und Clientzugriffsservern zu einem SIP-URI-Wählplan: Exchange 2013 Help'
+title: 'Hinzufügen von Postfach- und Clientzugriffsservern zu einem SIP-URI-Wählplan'
 TOCTitle: Hinzufügen von Postfach- und Clientzugriffsservern zu einem SIP-URI-Wählplan
 ms:assetid: 17fed308-ff0d-4e61-b9f9-e6680b6eccaa
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa996399(v=EXCHG.150)
@@ -29,7 +29,7 @@ Zusätzliche Verwaltungsaufgaben im Zusammenhang mit UM-Wählplänen finden Sie 
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "UM-Wähleinstellungen" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein SIP-URI-UM-Wählplan erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](create-a-um-dial-plan-exchange-2013-help.md).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein SIP-URI-UM-Wählplan erstellt wurde. Ausführliche Anleitungen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

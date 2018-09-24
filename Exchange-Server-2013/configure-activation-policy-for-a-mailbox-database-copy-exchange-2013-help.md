@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Aktivierungsrichtlinie für die Kopie einer Postfachdatenbank: Exchange 2013 Help'
+title: 'Konfig. d. Aktiv.richtl. f. Kopie e. Postfachdatenbank: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren der Aktivierungsrichtlinie für die Kopie einer Postfachdatenbank
 ms:assetid: 6b37ed6e-2e36-4688-b485-8fdbb8193ec8
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd298046(v=EXCHG.150)

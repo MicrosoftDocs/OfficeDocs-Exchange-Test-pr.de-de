@@ -1,5 +1,5 @@
 ﻿---
-title: 'Laufwerksangabe für Speichergruppe fehlt_MailboxLogDriveDoesNotExist: Exchange 2013 Help'
+title: 'Laufwerksangabe für Speichergruppe fehlt'
 TOCTitle: Laufwerksangabe für Speichergruppe fehlt_MailboxLogDriveDoesNotExist
 ms:assetid: fe210f29-60cb-4d34-877e-1356a21dc02a
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.mailboxlogdrivedoesnotexist(v=EXCHG.150)

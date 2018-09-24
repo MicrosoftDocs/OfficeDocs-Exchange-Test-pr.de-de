@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren einer akzeptierten Domäne für eine Unternehmenseinheit mit Postfächern außerhalb Ihrer Exchange-Organisation: Exchange 2013 Help'
+title: 'Konf. akz. Domäne für Unternehmen m. Postfächern außerh. Exchange-Organis.'
 TOCTitle: Konfigurieren einer akzeptierten Domäne für eine Unternehmenseinheit mit Postfächern außerhalb Ihrer Exchange-Organisation
 ms:assetid: ff46310b-5392-4eac-97bc-d39d397e1ce1
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657737(v=EXCHG.150)

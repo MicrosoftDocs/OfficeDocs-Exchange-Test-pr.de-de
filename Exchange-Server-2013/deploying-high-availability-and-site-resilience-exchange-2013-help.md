@@ -1,5 +1,5 @@
 ﻿---
-title: 'Bereitstellen der hohen Verfügbarkeit und Ausfallsicherheit von Standorten: Exchange 2013 Help'
+title: 'Bereitst. v. Hochverfüg. und Ausfallsich. von Standorten: Exchange 2013-Hilfe'
 TOCTitle: Bereitstellen der hohen Verfügbarkeit und Ausfallsicherheit von Standorten
 ms:assetid: 4c4e00a4-1f57-4fdb-b9b2-2779abf381a9
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd638129(v=EXCHG.150)

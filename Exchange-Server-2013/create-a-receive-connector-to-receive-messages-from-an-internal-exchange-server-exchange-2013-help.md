@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen eines Empfangsconnectors zum Empfangen von Nachrichten von einem internen Exchange-Server: Exchange 2013 Help'
+title: 'Erstellen v. Empfangsconnectors z. Empf. v. Nachr. v. intern. Exchange-Server'
 TOCTitle: Erstellen eines Empfangsconnectors zum Empfangen von Nachrichten von einem internen Exchange-Server
 ms:assetid: 546cead9-7a2d-4332-a5f6-35343d56c619
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657448(v=EXCHG.150)

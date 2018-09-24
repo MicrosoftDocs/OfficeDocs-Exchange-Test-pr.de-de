@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren einer akzeptierten Domäne in Ihrer Exchange-Organisation als autoritativ: Exchange 2013 Help'
+title: 'Konfigurieren akzeptierter Domäne in Exchange-Organisation als autoritativ'
 TOCTitle: Konfigurieren einer akzeptierten Domäne in Ihrer Exchange-Organisation als autoritativ
 ms:assetid: e182d54f-e58a-47ba-a5c1-28c0dfa86eed
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657734(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Legen Sie den Überwachungsport für TLS auf einem Clientzugriffsserver: Exchange 2013 Help'
+title: 'Festl. d. Überw.ports f. TLS auf Clientzugriffsserver: Exchange 2013-Hilfe'
 TOCTitle: Legen Sie den Überwachungsport für TLS auf einem Clientzugriffsserver
 ms:assetid: f4401923-61fa-4dc5-95f8-c0d2f515b2ea
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673576(v=EXCHG.150)

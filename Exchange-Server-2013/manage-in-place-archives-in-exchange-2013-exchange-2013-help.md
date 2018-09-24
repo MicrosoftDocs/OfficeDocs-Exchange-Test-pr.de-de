@@ -75,7 +75,7 @@ In-Situ-Archive unterstützten Sie dabei, die Kontrolle über die Messagingdaten
         
         Weitere Informationen finden Sie unter [In-Situ-Archivierung in Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Adressbuchrichtlinie**   Verwenden Sie diese Liste, um eine Adressbuchrichtlinie für das Postfach anzugeben. Adressbuchrichtlinien enthalten eine globale Adressbuchline (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Wenn sie Postfachbenutzern zugewiesen wird, kann diesen über die Adressbuchrichtlinie Zugriff auf eine angepasste GAL in Outlook und Outlook Web App bereitgestellt werden. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](address-book-policies-exchange-2013-help.md).
+      - **Adressbuchrichtlinie**   Verwenden Sie diese Liste, um eine Adressbuchrichtlinie für das Postfach anzugeben. Adressbuchrichtlinien enthalten eine globale Adressbuchline (GAL), ein Offlineadressbuch (OAB), eine Raumliste und eine Gruppe von Adresslisten. Wenn sie Postfachbenutzern zugewiesen wird, kann diesen über die Adressbuchrichtlinie Zugriff auf eine angepasste GAL in Outlook und Outlook Web App bereitgestellt werden. Weitere Informationen finden Sie unter [Adressbuchrichtlinien](https://technet.microsoft.com/de-de/library/Hh529948(v=EXCHG.150)).
 
 6.  Klicken Sie nach Abschluss dieses Vorgangs auf **Speichern**, um das Postfach zu erstellen.
 

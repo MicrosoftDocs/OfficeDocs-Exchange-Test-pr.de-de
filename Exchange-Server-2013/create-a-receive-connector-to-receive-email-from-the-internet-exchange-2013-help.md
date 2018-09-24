@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen eines Empfangsconnectors zum Empfang von E-Mails aus dem Internet: Exchange 2013 Help'
+title: 'Erstellen eines Empfangsconnectors zum Empfang von E-Mails aus dem Internet'
 TOCTitle: Erstellen eines Empfangsconnectors zum Empfang von E-Mails aus dem Internet
 ms:assetid: 534bbd32-a0db-4d50-9579-4933b156d7b3
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ657447(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Senden und Empfangen S/MIME-signierter und -verschlüsselter E-Mails: Exchange 2013 Help'
+title: 'Senden u. Empf. S/MIME-signierter u. -verschl. E-Mails: Exchange 2013-Hilfe'
 TOCTitle: Senden und Empfangen S/MIME-signierter und -verschlüsselter E-Mails
 ms:assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn626157(v=EXCHG.150)

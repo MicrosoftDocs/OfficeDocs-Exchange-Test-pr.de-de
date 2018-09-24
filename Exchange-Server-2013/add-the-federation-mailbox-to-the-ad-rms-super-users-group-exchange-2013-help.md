@@ -1,5 +1,5 @@
 ﻿---
-title: 'Hinzufügen des Verbundpostfachs zur AD RMS-Administratorengruppe: Exchange 2013 Help'
+title: 'Hinzuf. d. Verbundpostfachs zur AD RMS-Admingruppe: Exchange 2013-Hilfe'
 TOCTitle: Hinzufügen des Verbundpostfachs zur AD RMS-Administratorengruppe
 ms:assetid: 44618df9-54f0-4474-a450-dcba48a02901
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee424431(v=EXCHG.150)
@@ -61,7 +61,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf IRM finden Sie unter 
 
 Wenn eine Verteilergruppe erstellt und im AD RMS-Cluster als Administratorengruppe konfiguriert wurde, können Sie das Exchange 2013-Verbundpostfach als Mitglied dieser Gruppe hinzufügen. Wurde noch keine Administratorengruppe konfiguriert, müssen Sie zuerst eine Verteilergruppe erstellen und das Verbundpostfach als Mitglied hinzufügen.
 
-1.  Erstellen Sie eine Verteilergruppe, die als AD RMS-Administratorengruppe verwendet werden soll. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Verteilergruppen](create-and-manage-distribution-groups-exchange-2013-help.md).
+1.  Erstellen Sie eine Verteilergruppe, die als AD RMS-Administratorengruppe verwendet werden soll. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Verteilergruppen](https://technet.microsoft.com/de-de/library/Bb124513(v=EXCHG.150)).
 
 2.  Fügen Sie der neuen Verteilergruppe den Benutzer **FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042** hinzu. Das Verbundpostfach ist ein Systempostfach und daher in der Exchange-Verwaltungskonsole nicht sichtbar. Zum Hinzufügen einer Verteilergruppe müssen Sie das Cmdlet [Add-DistributionGroupMember](https://technet.microsoft.com/de-de/library/bb124340\(v=exchg.150\)) in der Shell verwenden.
     

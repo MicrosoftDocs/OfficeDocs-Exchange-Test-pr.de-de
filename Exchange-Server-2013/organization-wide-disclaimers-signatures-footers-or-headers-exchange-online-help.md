@@ -1,5 +1,5 @@
 ﻿---
-title: 'Organisationsweite Haftungsausschlüsse, Signaturen, Fußzeilen oder Kopfzeilen: Exchange 2013 Help'
+title: 'Organisationsweite Haftungsausschlüsse, Signaturen, Fußzeilen oder Kopfzeilen'
 TOCTitle: Organisationsweite Haftungsausschlüsse, Signaturen, Fußzeilen oder Kopfzeilen
 ms:assetid: e45e33c9-e53b-427c-ada5-70901bc399b8
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn600437(v=EXCHG.150)

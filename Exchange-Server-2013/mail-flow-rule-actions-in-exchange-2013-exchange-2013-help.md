@@ -61,7 +61,7 @@ Die Aktionen, die in den Nachrichtenflussregeln auf Postfachservern verfügbar s
 <p><strong>Nachricht zur Genehmigung weiterleiten an</strong> &gt; <strong>diese Personen</strong></p></td>
 <td><p><em>ModerateMessageByUser</em></p></td>
 <td><p><code>Addresses</code></p></td>
-<td><p>Leitet die Nachricht als Anlage, die in eine Genehmigungsanforderung eingeschlossen ist, an die angegebenen Moderatoren weiter. Weitere Informationen finden Sie unter <a href="common-message-approval-scenarios-exchange-2013-help.md">Gängige Szenarien der Nachrichtengenehmigung</a>. Eine Verteilergruppe kann nicht als Moderator verwendet werden.</p></td>
+<td><p>Leitet die Nachricht als Anlage, die in eine Genehmigungsanforderung eingeschlossen ist, an die angegebenen Moderatoren weiter. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/common-message-approval-scenarios">Gängige Szenarien der Nachrichtengenehmigung</a>. Eine Verteilergruppe kann nicht als Moderator verwendet werden.</p></td>
 <td><p>Exchange 2010 oder höher</p></td>
 </tr>
 <tr class="even">
@@ -632,7 +632,7 @@ Zurück zum Seitenanfang
 
 ## Weitere Informationen
 
-[Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md)
+[Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
 
 [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)
 

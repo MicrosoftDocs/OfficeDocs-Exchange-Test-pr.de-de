@@ -27,7 +27,7 @@ Nachdem Sie einen IFilter für einen bestimmten Dateityp registriert haben, kön
 
 
 
-Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Transportregeln finden Sie unter [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md).
+Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Transportregeln finden Sie unter [Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 
@@ -139,7 +139,7 @@ Das Bereitstellen von Office 2010 Filter Pack besteht aus zwei Hauptschritten:
 
 Gehen Sie folgendermaßen vor, um zu überprüfen, ob Sie die IFilter von Microsoft Office 2010 Filter Pack erfolgreich registriert haben:
 
-1.  Erstellen Sie eine Transportregel mit den folgenden Eigenschaften. Genaue Anweisungen zum Erstellen von Transportregeln finden Sie unter [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md).
+1.  Erstellen Sie eine Transportregel mit den folgenden Eigenschaften. Genaue Anweisungen zum Erstellen von Transportregeln finden Sie unter [Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
     
       - Der Absender ist Ihr Postfach.
     

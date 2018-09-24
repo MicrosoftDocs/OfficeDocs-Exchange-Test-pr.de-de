@@ -97,7 +97,7 @@ Websitepostfächer unterstützen keine Aufbewahrung auf Elementebene. Die Aufbew
 
 ## Richtlinientreue
 
-Wenn Sie die eDiscovery-Konsole in SharePoint verwenden, können Sie Websitepostfächer in die Compliance-eDiscovery einschließen und Schlüsselwortsuchläufe in Benutzer- oder Websitepostfächern durchführen. Darüber hinaus können Sie ein Websitepostfach der gesetzlichen Aufbewahrungspflicht unterwerfen. Weitere Informationen finden Sie unter [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md).
+Wenn Sie die eDiscovery-Konsole in SharePoint verwenden, können Sie Websitepostfächer in die Compliance-eDiscovery einschließen und Schlüsselwortsuchläufe in Benutzer- oder Websitepostfächern durchführen. Darüber hinaus können Sie ein Websitepostfach der gesetzlichen Aufbewahrungspflicht unterwerfen. Weitere Informationen finden Sie unter [Compliance-eDiscovery](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
 
 
 > [!NOTE]

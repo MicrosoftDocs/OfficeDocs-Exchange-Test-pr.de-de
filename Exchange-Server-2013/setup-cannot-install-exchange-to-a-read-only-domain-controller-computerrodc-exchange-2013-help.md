@@ -1,5 +1,5 @@
 ﻿---
-title: 'Setup kann Exchange nicht auf einem schreibgeschützten Domänencontroller installieren_ComputerRODC: Exchange 2013 Help'
+title: 'Setup kann Exchange nicht auf schreibgesch. Domänencontroller installieren'
 TOCTitle: Setup kann Exchange nicht auf einem schreibgeschützten Domänencontroller installieren_ComputerRODC
 ms:assetid: 4934d755-65be-47e2-86b0-6ea1ab148a96
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.computerrodc(v=EXCHG.150)

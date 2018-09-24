@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Internetnachrichtenübermittlung über einen abonnierten Edge-Transport-Server: Exchange 2013 Help'
+title: 'Konfig. d. Internetnachrichtenüberm. über abonnierten Edge-Transport-Server'
 TOCTitle: Konfigurieren der Internetnachrichtenübermittlung über einen abonnierten Edge-Transport-Server
 ms:assetid: d12ea770-99ce-4ab4-a373-96f2554641fa
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb738158(v=EXCHG.150)

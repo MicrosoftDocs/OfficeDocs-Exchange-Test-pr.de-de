@@ -107,7 +107,7 @@ Die folgende Tabelle enthält eine Liste der Ebenen der Rollenzuweisungsrichtlin
 <tbody>
 <tr class="odd">
 <td><p>Postfach</p></td>
-<td><p><a href="manage-user-mailboxes-exchange-2013-help.md">Verwalten von Benutzerpostfächern</a></p>
+<td><p><a href="https://docs.microsoft.com/de-de/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Verwalten von Benutzerpostfächern</a></p>
 <p><a href="change-the-assignment-policy-on-a-mailbox-exchange-2013-help.md">Ändern der Zuweisungsrichtlinie für ein Postfach</a></p></td>
 </tr>
 <tr class="even">

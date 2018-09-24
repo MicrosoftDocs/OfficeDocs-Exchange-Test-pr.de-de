@@ -1,5 +1,5 @@
 ﻿---
-title: 'Szenario: Konfigurieren von Exchange zur Unterstützung von WOC-Geräten (WAN Optimization Controller): Exchange 2013 Help'
+title: 'Szenario: Konfigurieren von Exchange zur Unterstützung von WOC-Geräten'
 TOCTitle: 'Szenario: Konfigurieren von Exchange zur Unterstützung von WOC-Geräten (WAN Optimization Controller)'
 ms:assetid: 1f407698-0b71-45a3-867a-640ccf7351da
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee633456(v=EXCHG.150)

@@ -168,7 +168,7 @@ In der folgenden Tabelle sind die Inhalte und Aktionen aufgelistet, die im Ordne
 </table>
 
 
-In Exchange 2013 ist die Wiederherstellung einzelner Elemente für neue Postfächer oder Postfächer, die aus einer früheren Version von Exchange verschoben wurden, nicht standardmäßig aktiviert. Sie müssen die Exchange-Verwaltungsshell verwenden, um die Wiederherstellung einzelner Elemente für ein Postfach zu aktivieren, und dann die Aufbewahrungsdauer für gelöschte Elemente konfigurieren oder ändern. Ausführliche Informationen zur Wiederherstellung einzelner Elemente finden Sie unter [Wiederherstellen von gelöschten Nachrichten im Postfach eines Benutzers](recover-deleted-messages-in-a-user-s-mailbox-exchange-2013-help.md).
+In Exchange 2013 ist die Wiederherstellung einzelner Elemente für neue Postfächer oder Postfächer, die aus einer früheren Version von Exchange verschoben wurden, nicht standardmäßig aktiviert. Sie müssen die Exchange-Verwaltungsshell verwenden, um die Wiederherstellung einzelner Elemente für ein Postfach zu aktivieren, und dann die Aufbewahrungsdauer für gelöschte Elemente konfigurieren oder ändern. Ausführliche Informationen zur Wiederherstellung einzelner Elemente finden Sie unter [Wiederherstellen von gelöschten Nachrichten im Postfach eines Benutzers](https://technet.microsoft.com/de-de/library/Ff660637(v=EXCHG.150)).
 
 Zurück zum Seitenanfang
 
@@ -220,9 +220,9 @@ In der folgenden Tabelle sind die Inhalte und Aktionen aufgelistet, die im Ordne
 
 Weitere Informationen zur Compliance-eDiscovery, zum Compliance-Archiv und zum Beweissicherungsverfahren finden Sie in den folgenden Themen:
 
-  - [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md)
+  - [Compliance-eDiscovery](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
-  - [In-Place Hold and Litigation Hold](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [In-Place Hold and Litigation Hold](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 Zurück zum Seitenanfang
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Freigeben von Nachrichten unter Quarantäne aus dem Quarantänepostfach für Spam: Exchange 2013 Help'
+title: 'Freigeben von Nachrichten unter Quarantäne aus Quarantänepostfach für Spam'
 TOCTitle: Freigeben von Nachrichten unter Quarantäne aus dem Quarantänepostfach für Spam
 ms:assetid: 7a86bfde-f868-4689-bdec-5f01e52b510d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa998920(v=EXCHG.150)

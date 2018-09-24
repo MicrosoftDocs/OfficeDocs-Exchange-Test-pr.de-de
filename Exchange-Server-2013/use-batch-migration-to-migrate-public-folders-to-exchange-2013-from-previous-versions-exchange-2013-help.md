@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwenden der Batchmigration zum Migrieren von öffentlichen Ordnern zu Exchange 2013 aus vorherigen Versionen: Exchange 2013 Help'
+title: 'Batchmigration von öffentl. Ordnern zu Exchange 2013 aus vorherigen Versionen'
 TOCTitle: Verwenden der Batchmigration zum Migrieren von öffentlichen Ordnern zu Exchange 2013 aus vorherigen Versionen
 ms:assetid: da808e27-d2b7-4fbd-915c-a600751f526c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn912663(v=EXCHG.150)
@@ -83,7 +83,7 @@ Von Exchange 2003 können öffentliche Ordner nicht direkt migriert werden. Wen
 
   - In einer Umgebung mit mehreren Domänen funktionieren E-Mail-aktivierte öffentliche Ordner nach der Migration nach Exchange 2013 nicht mehr, wenn Exchange in einer untergeordneten Domäne ausgeführt wird. Dies liegt daran, dass sich E-Mail-aktivierte öffentliche Ordnerobjekte in Exchange 2013 unter der Stammdomäne befinden müssen. Um dieses Problem zu beheben, müssen Sie die E-Mail-Aktivierung Ihrer öffentlichen Ordner aufheben und sie dann erneut für E-Mail aktivieren; dies ermöglicht es Ihnen, sie zum korrekten Domänenort zu verschieben.
 
-  - Nach Abschluss der Migration muss dem Benutzer mit dem Status **Anonym** zumindest die Berechtigung zum **Erstellen von Objekten** erteilt werden, wenn Sie zulassen möchten, dass externe Absender E-Mails an die migrierten E-Mail-aktivierten öffentlichen Ordner senden können. Wenn Sie diese Berechtigung nicht erteilt haben, erhalten externe Absender eine Zustellungsfehlerbenachrichtigung, und die Nachrichten werden dem migrierten E-Mail-aktivierten öffentlichen Ordner nicht zugestellt. Weitere Informationen zum Festlegen der Berechtigungen für anonyme Benutzer finden Sie unter [E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+  - Nach Abschluss der Migration muss dem Benutzer mit dem Status **Anonym** zumindest die Berechtigung zum **Erstellen von Objekten** erteilt werden, wenn Sie zulassen möchten, dass externe Absender E-Mails an die migrierten E-Mail-aktivierten öffentlichen Ordner senden können. Wenn Sie diese Berechtigung nicht erteilt haben, erhalten externe Absender eine Zustellungsfehlerbenachrichtigung, und die Nachrichten werden dem migrierten E-Mail-aktivierten öffentlichen Ordner nicht zugestellt. Weitere Informationen zum Festlegen der Berechtigungen für anonyme Benutzer finden Sie unter [E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -256,7 +256,7 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
     
 
     > [!NOTE]
-    > Wenn der Name eines Öffentlichen Ordners einen umgekehrten Schrägstrich <STRONG>\</STRONG> enthält, werden die Öffentlichen Ordner im übergeordneten Öffentlichen Ordner erstellt. Es empfiehlt sich, die CSV-Datei zu prüfen und Namen zu bearbeiten, die einen umgekehrten Schrägstrich enthalten.
+    > Wenn der Name eines Öffentlichen Ordners einen umgekehrten Schrägstrich <STRONG>&#92;</STRONG> enthält, werden die Öffentlichen Ordner im übergeordneten Öffentlichen Ordner erstellt. Es empfiehlt sich, die CSV-Datei zu prüfen und Namen zu bearbeiten, die einen umgekehrten Schrägstrich enthalten.
 
     
         .\PublicFolderToMailboxMapGenerator.ps1 <Maximum mailbox size in bytes> <Folder to size map path> <Folder to mailbox map path>
@@ -419,7 +419,7 @@ Nachdem Sie die Migration Öffentlicher Ordner abgeschlossen haben, sollten Sie 
 
 6.  Dem Benutzer mit dem Status **Anonym** muss zumindest die Berechtigung **Objekte erstellen** erteilt werden, wenn Sie zulassen möchten, dass externe Absender E-Mails an migrierte E-Mail-aktivierte öffentliche Ordner senden können. Wenn Sie diese Berechtigung nicht erteilt haben, erhalten externe Absender eine Zustellungsfehlerbenachrichtigung, und die Nachrichten werden dem migrierten E-Mail-aktivierten öffentlichen Ordner nicht zugestellt.
     
-    Sie können die Shell oder Outlook verwenden, um die Berechtigungen für den anonymen Benutzer festzulegen. Weitere Informationen zum Festlegen der Berechtigungen für anonyme Benutzer finden Sie unter [E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+    Sie können die Shell oder Outlook verwenden, um die Berechtigungen für den anonymen Benutzer festzulegen. Weitere Informationen zum Festlegen der Berechtigungen für anonyme Benutzer finden Sie unter [E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 ## Woher weiß ich, dass der Vorgang erfolgreich war?
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'The local computer is responsible for expanding group membership_ServerIsGroupExpansionServer: Exchange 2013 Help'
+title: 'Lokaler Computer ist für Erweiterung der Gruppenmitgliedschaft zuständig'
 TOCTitle: The local computer is responsible for expanding group membership_ServerIsGroupExpansionServer
 ms:assetid: 52872561-60e6-4f3d-bbc6-6de0edf74b09
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.serverisgroupexpansionserver(v=EXCHG.150)

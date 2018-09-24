@@ -1,5 +1,5 @@
 ﻿---
-title: 'Überprüfen von Nachrichtenanlagen mithilfe von Transportregeln: Exchange 2013 Help'
+title: 'Überprüfen von Nachrichtenanlagen mit Transportregeln: Exchange 2013-Hilfe'
 TOCTitle: Überprüfen von Nachrichtenanlagen mithilfe von Transportregeln
 ms:assetid: c0de687e-e33c-4e8a-b253-771494678795
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ674307(v=EXCHG.150)
@@ -29,17 +29,17 @@ Sie können E-Mail-Anlagen in Ihrer Organisation überprüfen, indem Sie Transpo
 
   - Benachrichtigungen für Benutzer erstellen, falls sie eine Nachricht senden, die mit einer Transportregel übereinstimmt.
 
-  - Blockieren aller Nachrichten mit Anlagen. Beispiele finden Sie unter [Standardszenarien für Anlagensperre](common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md).
+  - Blockieren aller Nachrichten mit Anlagen. Beispiele finden Sie unter [Standardszenarien für Anlagensperre](https://technet.microsoft.com/de-de/library/Dn950026(v=EXCHG.150)).
 
 Exchange-Administratoren können Transportregeln über **Exchange Admin Center** \> **Nachrichtenfluss** \> **Regeln** erstellen. Bevor Sie dieses Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Nachdem Sie mit der Erstellung einer neuen Regel begonnen haben, können Sie die vollständige Liste anlagenbezogener Bedingungen anzeigen, indem Sie unter **Diese Regel anwenden** auf **Weitere Optionen** \> **Mindestens eine Anlage** klicken. Die anlagenbezogenen Optionen sind im folgenden Diagramm dargestellt.
 
 ![Dialogfeld zur Auswahl anlagenbezogener Regeln](images/JJ674307.2ae4a179-bfd2-4a0e-abe1-53ed4e9e3368(EXCHG.150).jpg "Dialogfeld zur Auswahl anlagenbezogener Regeln")
 
-Weitere Informationen zu Transportregeln, einschließlich sämtlicher zur Wahl stehender Bedingungen und Aktionen, finden Sie unter [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md). Exchange Online Protection (EOP)-Kunden und Kunden mit einer Hybridbereitstellung können von den unter [Bewährte Methoden für das Konfigurieren von EOP](https://technet.microsoft.com/de-de/library/jj723164\(v=exchg.150\)) angegebenen Best Practices für Transportregeln profitieren. Wenn Sie bereit sind, mit der Erstellung von Regeln zu beginnen, finden Sie unter [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md) entsprechende Informationen.
+Weitere Informationen zu Transportregeln, einschließlich sämtlicher zur Wahl stehender Bedingungen und Aktionen, finden Sie unter [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md). Exchange Online Protection (EOP)-Kunden und Kunden mit einer Hybridbereitstellung können von den unter [Bewährte Methoden für das Konfigurieren von EOP](https://technet.microsoft.com/de-de/library/jj723164\(v=exchg.150\)) angegebenen Best Practices für Transportregeln profitieren. Wenn Sie bereit sind, mit der Erstellung von Regeln zu beginnen, finden Sie unter [Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) entsprechende Informationen.
 
 ## Überprüfen des Anlageninhalts
 
-Sie können die Transportregelbedingungen in der folgenden Tabelle verwenden, um den Inhalt von Nachrichtenanlagen zu überprüfen. Bei diesen Bedingungen werden nur die ersten 150 KB einer Anlage überprüft. Um diese Bedingungen beim Überprüfen von Nachrichten nutzen zu können, müssen Sie sie zu einer Transportregel hinzufügen. Weitere Informationen zur Erstellung oder Änderung von Regeln finden Sie unter [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md).
+Sie können die Transportregelbedingungen in der folgenden Tabelle verwenden, um den Inhalt von Nachrichtenanlagen zu überprüfen. Bei diesen Bedingungen werden nur die ersten 150 KB einer Anlage überprüft. Um diese Bedingungen beim Überprüfen von Nachrichten nutzen zu können, müssen Sie sie zu einer Transportregel hinzufügen. Weitere Informationen zur Erstellung oder Änderung von Regeln finden Sie unter [Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 
 <table>
@@ -158,7 +158,7 @@ In der folgenden Tabelle werden die Dateitypen aufgelistet, die von Transportreg
 
 ## Überprüfen der Dateieigenschaften von Anlagen
 
-Die folgende Transportregelbedingung überprüft die Eigenschaften einer an eine Nachricht angehängten Datei. Um diese Bedingungen beim Überprüfen von Nachrichten nutzen zu können, müssen Sie sie zu einer Transportregel hinzufügen. Eine Liste der unterstützten Dateitypen mit ausführbarem Code, die im Kontext von Transportregeln überprüft werden können, finden Sie hier. Weitere Informationen zum Erstellen und Ändern von Regeln finden Sie unter [Verwalten von Nachrichtenflussregeln](manage-mail-flow-rules-exchange-2013-help.md).
+Die folgende Transportregelbedingung überprüft die Eigenschaften einer an eine Nachricht angehängten Datei. Um diese Bedingungen beim Überprüfen von Nachrichten nutzen zu können, müssen Sie sie zu einer Transportregel hinzufügen. Eine Liste der unterstützten Dateitypen mit ausführbarem Code, die im Kontext von Transportregeln überprüft werden können, finden Sie hier. Weitere Informationen zum Erstellen und Ändern von Regeln finden Sie unter [Verwalten von Nachrichtenflussregeln](https://docs.microsoft.com/de-de/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 
 <table>
@@ -312,11 +312,11 @@ Um Ihnen die Verwaltung wichtiger Geschäftsinformationen in E-Mails zu erleicht
 
   - Definieren Sie eine Aktion, die bei E-Mails ausgeführt wird, die Ausweisnummern enthalten, die sich nicht in der geschützten Datei befinden.
 
-DLP-Richtlinien und anlagenbezogene Bedingungen können Ihnen helfen, Ihren Geschäftsanforderungen gerecht zu werden, indem sie diese Anforderungen als Transportregelbedingungen, Ausnahmen und Aktionen definieren. Wenn Sie die Überprüfung vertraulicher Informationen in eine DLP-Richtlinie einschließen, werden Nachrichtenanlagen nur auf diese Informationen überprüft. Anlagenbezogene Bedingungen wie Größe oder Dateityp werden jedoch erst eingeschlossen, wenn Sie die in diesem Thema aufgeführten Bedingungen hinzufügen. DLP ist nicht in allen Versionen von Exchange verfügbar. Weitere Informationen finden Sie unter [Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
+DLP-Richtlinien und anlagenbezogene Bedingungen können Ihnen helfen, Ihren Geschäftsanforderungen gerecht zu werden, indem sie diese Anforderungen als Transportregelbedingungen, Ausnahmen und Aktionen definieren. Wenn Sie die Überprüfung vertraulicher Informationen in eine DLP-Richtlinie einschließen, werden Nachrichtenanlagen nur auf diese Informationen überprüft. Anlagenbezogene Bedingungen wie Größe oder Dateityp werden jedoch erst eingeschlossen, wenn Sie die in diesem Thema aufgeführten Bedingungen hinzufügen. DLP ist nicht in allen Versionen von Exchange verfügbar. Weitere Informationen finden Sie unter [Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150)).
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 
 [Nachrichtenfluss- oder Transportregeln](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)
 

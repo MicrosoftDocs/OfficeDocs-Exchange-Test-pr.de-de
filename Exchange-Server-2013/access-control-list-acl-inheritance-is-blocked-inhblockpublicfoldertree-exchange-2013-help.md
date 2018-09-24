@@ -1,5 +1,5 @@
 ﻿---
-title: 'Vererbung von Zugriffssteuerungslisten (Access Control List, ACL) ist blockiert_InhBlockPublicFolderTree: Exchange 2013 Help'
+title: 'Vererbung von Zugriffssteuerungslisten ist blockiert'
 TOCTitle: Vererbung von Zugriffssteuerungslisten (Access Control List, ACL) ist blockiert_InhBlockPublicFolderTree
 ms:assetid: e3b89c8a-d6f8-4864-8bf0-35a78ce87cc4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.inhblockpublicfoldertree(v=EXCHG.150)
@@ -81,7 +81,7 @@ Stellen Sie zum Beheben dieses Problems sicher, dass die Einstellung für die Ve
 
 
 
-> [!WARNING]
+> [!CAUTION]
 > Wenn Sie die ADSI-Bearbeitung, das LDP-Tool (<STRONG>ldp.exe</STRONG>) oder einen anderen LDAP-Client, Version&nbsp;3, verwenden und die Attribute der Active&nbsp;Directory-Objekte nicht ordnungsgemäß ändern, können schwerwiegende Probleme verursacht werden. Diese Probleme erfordern möglicherweise eine Neuinstallation von Microsoft&nbsp;Windows&nbsp;Server™&nbsp;2003, Exchange&nbsp;Server&nbsp;oder von beiden Anwendungen. Die Bearbeitung der Attribute von Active Directory-Objekten erfolgt auf eigene Gefahr.
 
 

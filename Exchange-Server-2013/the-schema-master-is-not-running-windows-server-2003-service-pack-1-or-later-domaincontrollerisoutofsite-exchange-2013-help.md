@@ -1,5 +1,5 @@
 ﻿---
-title: 'Auf dem Schemamaster wird nicht Windows Server 2003 Service Pack 1 oder höher ausgeführt_DomainControllerIsOutOfSite: Exchange 2013 Help'
+title: 'Auf dem Schemamaster wird nicht Windows Server 2003 SP1 oder höher ausgeführt'
 TOCTitle: Auf dem Schemamaster wird nicht Windows Server 2003 Service Pack 1 oder höher ausgeführt_DomainControllerIsOutOfSite
 ms:assetid: 5edbe0b8-7610-4a52-aaaa-38c6a99e7e53
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.domaincontrollerisoutofsite(v=EXCHG.150)

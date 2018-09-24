@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren des POP3-Zugriffs für einen Benutzer: Exchange 2013 Help'
+title: 'Aktiv. o. Deaktiv. des POP3-Zugriffs für einen Benutzer: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren des POP3-Zugriffs für einen Benutzer
 ms:assetid: 57e12f07-3b14-45bd-9a82-e6032d14214f
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb691018(v=EXCHG.150)
@@ -25,7 +25,7 @@ Sie können POP3 für einen Benutzer aktivieren oder deaktivieren.
 
 
 
-Weitere Informationen zum Verwalten von Benutzerpostfächern finden Sie unter [Verwalten von Benutzerpostfächern](manage-user-mailboxes-exchange-2013-help.md).
+Weitere Informationen zum Verwalten von Benutzerpostfächern finden Sie unter [Verwalten von Benutzerpostfächern](https://technet.microsoft.com/de-de/library/Bb123809(v=EXCHG.150)).
 
 Weitere Informationen zu POP3 und IMAP4 finden Sie unter [POP3 und IMAP4 in Exchange Server 2013](pop3-and-imap4-in-exchange-server-2013-exchange-2013-help.md).
 

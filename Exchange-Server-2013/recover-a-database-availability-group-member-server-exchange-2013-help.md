@@ -1,5 +1,5 @@
 ﻿---
-title: 'Wiederherstellen von Mitgliedsservern einer Datenbankverfügbarkeitsgruppe: Exchange 2013 Help'
+title: 'Wiederherst. v. Mitg.servern e. Datenbankverfüg.gruppe: Exchange 2013-Hilfe'
 TOCTitle: Wiederherstellen von Mitgliedsservern einer Datenbankverfügbarkeitsgruppe
 ms:assetid: eccd8f61-9706-4bb7-a62a-ec7c166f8019
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd638206(v=EXCHG.150)
@@ -89,13 +89,12 @@ Gehen Sie wie folgt vor, um sich zu vergewissern, dass Sie das DAG-Mitglied erfo
 
   - Führen Sie in der Shell folgenden Befehl aus, um die Integrität und den Status des wiederhergestellten DAG-Mitglieds zu überprüfen:
     
-```
-    Test-ReplicationHealth <ServerName>
-```
+    ```
+        Test-ReplicationHealth <ServerName>
+    ```
     
-```
-    Get-MailboxDatabaseCopyStatus -Server <ServerName>
-```
+    ```
+        Get-MailboxDatabaseCopyStatus -Server <ServerName>
+    ```
     
-Sämtliche Statustests für die Replikation müssen erfolgreich ausgeführt werden, und die Statusangaben der Datenbanken und ihrer Inhaltsindizes müssen fehlerfrei sein.
-
+    <p>Sämtliche Statustests für die Replikation müssen erfolgreich ausgeführt werden, und die Statusangaben der Datenbanken und ihrer Inhaltsindizes müssen fehlerfrei sein.</p>

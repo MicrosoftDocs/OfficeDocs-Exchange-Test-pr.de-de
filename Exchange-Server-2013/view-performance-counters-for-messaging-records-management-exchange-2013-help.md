@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anzeigen von Leistungsindikatoren für die Messaging-Datensatzverwaltung: Exchange 2013 Help'
+title: 'Anz. v. Leistungsindikat. für Messaging-Datensatzverw.: Exchange 2013-Hilfe'
 TOCTitle: Anzeigen von Leistungsindikatoren für die Messaging-Datensatzverwaltung
 ms:assetid: ec374d31-2797-4f8b-8c96-3839d01a662c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb397227(v=EXCHG.150)
@@ -19,9 +19,9 @@ _**Letztes Änderungsdatum des Themas:** 2009-12-09_
 
 Mithilfe der Windows-Zuverlässigkeits- und Leistungsüberwachung (**Perfmon.exe**) können Leistungsindikatoren für die Messaging-Datensatzverwaltung (Messaging Records Management, MRM) ausgewählt und angezeigt werden. Anhand von Leistungsindikatoren können Sie den Assistenten für verwaltete Ordner während der Ausführung ressourcenintensiver MRM-Prozesse überwachen.
 
-Eine Liste der Leistungsindikatoren für MRM finden Sie unter [Leistungsindikatoren für die Verwaltung von Nachrichtendatensätzen](performance-counters-for-messaging-records-management-exchange-2013-help.md).
+Eine Liste der Leistungsindikatoren für MRM finden Sie unter [Leistungsindikatoren für die Verwaltung von Nachrichtendatensätzen](performance-counters-for-https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
 
-Möchten Sie wissen, welche anderen Aufgaben es im Zusammenhang mit der MRM-Überwachung gibt? Weitere Informationen finden Sie hier: [Überwachen von messaging-datensatzverwaltung](monitoring-messaging-records-management-exchange-2013-help.md).
+Möchten Sie wissen, welche anderen Aufgaben es im Zusammenhang mit der MRM-Überwachung gibt? Weitere Informationen finden Sie hier: [Überwachen von messaging-datensatzverwaltung](monitoring-https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
 
 ## Verwenden der Windows-Zuverlässigkeits- und Leistungsüberwachung zum Anzeigen von Leistungsindikatoren für MRM
 

@@ -113,7 +113,7 @@ Nachdem Sie die Dateien kopiert und Ihr Design benannt haben, können Sie es anp
 
 ## Bilddateien
 
-Designbilder werden in zwei Ordnern unter "\\themes*\\\<Designname\>*\\images\\" gespeichert. Der Ordner \\images\\0 enthält Bilder, die in von links nach rechts gelesenen Sprachen (wie Deutsch) verwendet werden. Für Sprachen, die von rechts nach links gelesen werden, werden die Bilder im Ordner \\images\\rtl verwendet.
+Designbilder werden in zwei Ordnern unter &#34;\themes\<em>&lt;Designname&gt;</em>\images\&#34; gespeichert. Der Ordner \\images\\0 enthält Bilder, die in von links nach rechts gelesenen Sprachen (wie Deutsch) verwendet werden. Für Sprachen, die von rechts nach links gelesen werden, werden die Bilder im Ordner \\images\\rtl verwendet.
 
 
 > [!NOTE]

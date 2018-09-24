@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren der Verwaltung von Informationsrechten auf Clientzugriffsservern: Exchange 2013 Help'
+title: 'Aktiv. o. Deakt. d. Verwalt. v. Informationsrecht. auf Clientzugriffsservern'
 TOCTitle: Aktivieren oder Deaktivieren der Verwaltung von Informationsrechten auf Clientzugriffsservern
 ms:assetid: c7ce069b-a572-4755-90a3-7105472e4c83
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd876938(v=EXCHG.150)

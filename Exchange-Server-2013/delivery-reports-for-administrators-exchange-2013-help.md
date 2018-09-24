@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-09_
 
 Mit Zustellungsberichten für Administratoren können Sie Übermittlungsinformationen zu Nachrichten nachverfolgen, die von einem bestimmten Postfach in Ihrer Organisation gesendet oder empfangen wurden. Für Zustellungsberichte für Administratoren wird insbesondere die Exchange-Verwaltungskonsole genutzt, um eine zielgerichtete Durchsuchung der Nachrichtenverfolgungsprotokolle durchzuführen. Die Suche ist immer auf ein bestimmtes Postfach beschränkt. Sie können Nachrichten suchen, die vom oder an das Postfach gesendet wurden, und Suchergebnisse nach dem Nachrichtenbetreff filtern.
 
-Der Inhalt des Nachrichtentexts wird im Zustellungsbericht nicht zurückgegeben, die Betreffzeile wird in den Ergebnissen jedoch angezeigt. Informationen zum Durchsuchen der Postfächer Ihrer Organisation nach bestimmten E-Mail-Nachrichten basierend auf dem Nachrichteninhalt finden Sie unter [Compliance-eDiscovery](in-place-ediscovery-exchange-2013-help.md).
+Der Inhalt des Nachrichtentexts wird im Zustellungsbericht nicht zurückgegeben, die Betreffzeile wird in den Ergebnissen jedoch angezeigt. Informationen zum Durchsuchen der Postfächer Ihrer Organisation nach bestimmten E-Mail-Nachrichten basierend auf dem Nachrichteninhalt finden Sie unter [Compliance-eDiscovery](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
 
 Sie finden Zustellungsberichtssuchen möglicherweise in den folgenden Situationen nützlich:
 

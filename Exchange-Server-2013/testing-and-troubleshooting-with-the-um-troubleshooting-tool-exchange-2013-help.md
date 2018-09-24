@@ -1,5 +1,5 @@
 ﻿---
-title: 'Testen und Problembehandlung mit dem UM-Problembehandlungstool: Exchange 2013 Help'
+title: 'Testen und Problembehandlung mit dem UM-Problembehandlungstool'
 TOCTitle: Testen und Problembehandlung mit dem UM-Problembehandlungstool
 ms:assetid: 1fab2e52-bd2d-4e46-b222-53fee9d34cba
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg621148(v=EXCHG.150)

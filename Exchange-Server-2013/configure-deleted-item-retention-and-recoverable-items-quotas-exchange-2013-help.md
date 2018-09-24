@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Aufbewahrungszeit für gelöschte Elemente und Kontingente für wiederherstellbare Elemente: Exchange 2013 Help'
+title: 'Konf. d. Aufbewahrung f. gelösch. Elem. u. Kontingente für wiederherst. Elem.'
 TOCTitle: Konfigurieren der Aufbewahrungszeit für gelöschte Elemente und Kontingente für wiederherstellbare Elemente
 ms:assetid: de7d667a-1c93-4364-a4f9-2aa5e3678b12
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee364752(v=EXCHG.150)

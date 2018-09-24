@@ -1,5 +1,5 @@
 ﻿---
-title: 'Vorbereiten von Postfächern für eine standortübergreifende Verschiebung mit dem Skript „Prepare-MoveRequest.ps1&quot; in der Shell: Exchange 2013 Help'
+title: 'Vorb. v. Postf. f. standortüb. Versch. m. „Prepare-MoveRequest.ps1 in Shell'
 TOCTitle: Vorbereiten von Postfächern für eine standortübergreifende Verschiebung mit dem Skript „Prepare-MoveRequest.ps1“ in der Shell
 ms:assetid: 2cea59fb-69b7-4a2f-833f-de4d93cf1810
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ee861103(v=EXCHG.150)

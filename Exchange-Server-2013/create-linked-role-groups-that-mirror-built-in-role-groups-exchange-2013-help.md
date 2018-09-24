@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen verknüpfter Rollengruppen, die integrierte Rollengruppen spiegeln: Exchange 2013 Help'
+title: 'Erst. verkn. Rollengrupp., d. int. Rollengrupp. spiegeln: Exchange 2013-Hilfe'
 TOCTitle: Erstellen verknüpfter Rollengruppen, die integrierte Rollengruppen spiegeln
 ms:assetid: 89dfcbb3-0568-4bbf-a885-746b91ba307e
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd876918(v=EXCHG.150)

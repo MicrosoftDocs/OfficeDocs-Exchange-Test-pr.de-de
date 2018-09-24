@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren der Unterstützung für Transport-Agents einer Vorversion: Exchange 2013 Help'
+title: 'Aktiv. d. Unterst. für Transport-Agents einer Vorversion: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren der Unterstützung für Transport-Agents einer Vorversion
 ms:assetid: 00617e87-7199-406e-b4a3-94378f657f1f
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ591524(v=EXCHG.150)

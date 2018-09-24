@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Exchange für SharePoint eDiscovery Center: Exchange 2013 Help'
+title: 'Konfig. v. Exchange f. SharePoint eDiscovery Center: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von Exchange für SharePoint eDiscovery Center
 ms:assetid: 795c1a3b-295c-4ee5-ade9-52cf3fda3f19
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ218665(v=EXCHG.150)
@@ -60,7 +60,7 @@ Führen Sie diesen Befehl aus, um die SharePoint-Partneranwendung zu konfigurier
 
 ## Schritt 3: Hinzufügen von autorisierten Benutzern zur Rollengruppe "Discoveryverwaltung"
 
-Fügen Sie der Rollengruppe "Discoveryverwaltung" in Exchange 2013 Benutzer hinzu, die SharePoint 2013 verwenden müssen, um eDiscovery-Suchen durchzuführen. Weitere Informationen finden Sie unter [Zuweisen von eDiscovery-Berechtigungen in Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
+Fügen Sie der Rollengruppe "Discoveryverwaltung" in Exchange 2013 Benutzer hinzu, die SharePoint 2013 verwenden müssen, um eDiscovery-Suchen durchzuführen. Weitere Informationen finden Sie unter [Zuweisen von eDiscovery-Berechtigungen in Exchange](https://technet.microsoft.com/de-de/library/Dd298059(v=EXCHG.150)).
 
 
 > [!WARNING]

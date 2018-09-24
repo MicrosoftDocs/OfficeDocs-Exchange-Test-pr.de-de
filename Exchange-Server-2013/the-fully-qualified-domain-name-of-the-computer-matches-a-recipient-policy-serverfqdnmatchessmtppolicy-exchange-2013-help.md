@@ -1,5 +1,5 @@
 ﻿---
-title: 'Der vollqualifizierte Domänenname des Computers entspricht einer Empfängerrichtlinie_ServerFQDNMatchesSMTPPolicy: Exchange 2013 Help'
+title: 'Vollqualifizierter Domänenname des Computers entspricht Empfängerrichtlinie'
 TOCTitle: Der vollqualifizierte Domänenname des Computers entspricht einer Empfängerrichtlinie_ServerFQDNMatchesSMTPPolicy
 ms:assetid: f3ea61f8-1788-4cbf-814e-f7c088c1ac47
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.serverfqdnmatchessmtppolicy(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abrufen von Statistiken zum Ordner "Wiederherstellbare Elemente": Exchange 2013 Help'
+title: 'Abrufen v. Statistiken zum Ordner Wiederherst. Elemente: Exchange 2013-Hilfe'
 TOCTitle: Abrufen von Statistiken zum Ordner "Wiederherstellbare Elemente"
 ms:assetid: dee77958-ee87-4908-85e4-ad053bacd8b0
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff714343(v=EXCHG.150)
@@ -27,7 +27,7 @@ Weitere Informationen finden Sie unter den folgenden Themen:
 
   - [Ordner "Wiederherstellbare Elemente"](recoverable-items-folder-exchange-2013-help.md)
 
-  - [In-Place Hold and Litigation Hold](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [In-Place Hold and Litigation Hold](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 

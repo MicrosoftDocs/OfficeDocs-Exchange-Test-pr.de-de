@@ -1,5 +1,5 @@
 ﻿---
-title: 'Wonach die Typen von vertraulichen Informationen in Exchange suchen: Exchange Online Help'
+title: 'Wonach die Typen von vertraulichen Informationen in Exchange suchen'
 TOCTitle: Wonach die Typen von vertraulichen Informationen suchen
 ms:assetid: 98b81f9c-87bb-4905-8e53-04621c3ae74d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ150541(v=EXCHG.150)
@@ -1059,13 +1059,11 @@ Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange beinha
 <td><p>Format</p></td>
 <td><p>Registro Geral (altes Format)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Neun Ziffern</p>
 </dd>
 </dl>
 <p>Registro de Identidade (RIC) (neues Format)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>11 Ziffern</p>
 </dd>
 </dl></td>
@@ -3654,13 +3652,11 @@ Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange beinha
 <td><p>Format</p></td>
 <td><p>Seit 1. November 2010</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Neun Buchstaben und Ziffern</p>
 </dd>
 </dl>
 <p>Vom 1. April 1987 bis 31. October 2010</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>10 Ziffern</p>
 </dd>
 </dl></td>
@@ -4252,7 +4248,6 @@ Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange beinha
 </ul>
 <p>Das Format jedes Landes ist etwas anders. IBAN als Typ vertraulicher Informationen deckt folgende 60 Länder ab:</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk, sm, tn, tr, vg</p>
 </dd>
 </dl></td>
@@ -4392,13 +4387,11 @@ Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange beinha
 <td><p>Format</p></td>
 <td><p>Altes Format (bis zum 31. Dezember 2012)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Sieben Ziffern, gefolgt von 1-2 Buchstaben</p>
 </dd>
 </dl>
 <p>Neues Format (seit dem 1. Januar 2013)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Sieben Ziffern, gefolgt von zwei Buchstaben</p>
 </dd>
 </dl></td>
@@ -6494,13 +6487,11 @@ Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Exchange beinha
 <td><p>Format</p></td>
 <td><p>Biometrische Passnummer</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Neun Ziffern</p>
 </dd>
 </dl>
 <p>Nicht-Biometrische Passnummer</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Neun Ziffern</p>
 </dd>
 </dl></td>

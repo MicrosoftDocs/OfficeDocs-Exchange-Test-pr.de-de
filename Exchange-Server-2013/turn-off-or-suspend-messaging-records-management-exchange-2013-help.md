@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deaktivieren oder Anhalten der Messaging-Datensatzverwaltung: Exchange 2013 Help'
+title: 'Deaktiv. o. Anhalten der Messaging-Datensatzverwaltung: Exchange 2013-Hilfe'
 TOCTitle: Deaktivieren oder Anhalten der Messaging-Datensatzverwaltung
 ms:assetid: 631191aa-3bba-4ebf-a727-c48ed2ebe176
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa998580(v=EXCHG.150)
@@ -45,9 +45,9 @@ Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie d
 
 Sie können für Postfächer die Aufbewahrungszeit anhalten, um die Messaging-Datensatzverwaltung (beispielsweise während des Urlaubs der jeweiligen Benutzer) zu deaktivieren. Dadurch wird die Verarbeitung von Aufbewahrungsrichtlinien für das Postfach so lange unterbrochen, bis das Anhalten der Aufbewahrungszeit wieder aufgehoben wird. Dies unterscheidet sich von der Compliance-Archivierung oder dem Beweissicherungsverfahren für Postfächer.
 
-Ausführliche Informationen zum Anhalten der Aufbewahrungszeit für ein Postfach finden Sie unter [Anhalten der Aufbewahrungszeit für ein Postfach](place-a-mailbox-on-retention-hold-exchange-2013-help.md).
+Ausführliche Informationen zum Anhalten der Aufbewahrungszeit für ein Postfach finden Sie unter [Anhalten der Aufbewahrungszeit für ein Postfach](https://technet.microsoft.com/de-de/library/Dd335168(v=EXCHG.150)).
 
-Weitere Informationen zu Compliance-Archiv und Beweissicherungsverfahren finden Sie unter [In-Place Hold and Litigation Hold](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+Weitere Informationen zu Compliance-Archiv und Beweissicherungsverfahren finden Sie unter [In-Place Hold and Litigation Hold](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 ## Entfernen von Aufbewahrungstags aus Postfächern
 

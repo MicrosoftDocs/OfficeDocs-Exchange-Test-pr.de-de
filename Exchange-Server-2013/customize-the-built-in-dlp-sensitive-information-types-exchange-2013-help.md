@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anpassen der integrierten vertraulichen DLP-Informationstypen: Exchange Online Help'
+title: 'Anpassen d. integrierten vertr. DLP-Informationstypen: Exchange 2013-Hilfe'
 TOCTitle: Anpassen der integrierten vertraulichen DLP-Informationstypen
 ms:assetid: 3f8bf141-2e7c-4ea7-b102-dfd6c41539da
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn781122(v=EXCHG.150)
@@ -49,7 +49,7 @@ Um die XML-Datei zu exportieren, verwenden Sie die Exchange-Verwaltungsshell ode
     
 
     > [!IMPORTANT]
-    > Stellen Sie sicher, dass der Dateispeicherort verwendet wird, in dem das Regelpaket tatsächlich gespeichert ist. <STRONG>C:\custompath\</STRONG> ist ein Platzhalter.
+    > Stellen Sie sicher, dass der Dateispeicherort verwendet wird, in dem das Regelpaket tatsächlich gespeichert ist. <STRONG>C:\custompath&#92;</STRONG> ist ein Platzhalter.
 
 
 
@@ -263,9 +263,9 @@ Nachfolgend finden Sie Definitionen der Begriffe, die in diesem Verfahren vorkom
 
 ## Weitere Informationen
 
-  - [Anwenden von DLP-Regeln zur Auswertung von Nachrichten](how-dlp-rules-are-applied-to-evaluate-messages-exchange-2013-help.md)
+  - [Anwenden von DLP-Regeln zur Auswertung von Nachrichten](https://technet.microsoft.com/de-de/library/Dn329050(v=EXCHG.150))
 
-  - [Erstellen einer benutzerdefinierten DLP-Richtlinie](create-a-custom-dlp-policy-exchange-2013-help.md)
+  - [Erstellen einer benutzerdefinierten DLP-Richtlinie](https://docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/create-custom-dlp-policy)
 
   - [Wonach die Typen von vertraulichen Informationen in Exchange suchen](what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md)
 

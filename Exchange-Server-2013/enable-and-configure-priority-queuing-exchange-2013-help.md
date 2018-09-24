@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren und Konfigurieren von Warteschlangen nach Priorität: Exchange 2013 Help'
+title: 'Aktiv. u. Konfig. v. Warteschlangen nach Priorität: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren und Konfigurieren von Warteschlangen nach Priorität
 ms:assetid: 1975d85d-2f1d-4852-8d19-e74ba4ba3853
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ891104(v=EXCHG.150)

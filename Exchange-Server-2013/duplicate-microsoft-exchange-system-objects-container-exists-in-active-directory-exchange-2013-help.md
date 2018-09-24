@@ -1,5 +1,5 @@
 ﻿---
-title: 'Container "Microsoft Exchange-Systemobjekte" ist in Active Directory doppelt vorhanden: Exchange 2013 Help'
+title: 'Container Exchange-Systemobjekte ist in Active Directory doppelt vorhanden'
 TOCTitle: Container "Microsoft Exchange-Systemobjekte" ist in Active Directory doppelt vorhanden
 ms:assetid: cd0f45ab-89de-4653-b50d-c1157c2329d5
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.adiniterrorrule(v=EXCHG.150)

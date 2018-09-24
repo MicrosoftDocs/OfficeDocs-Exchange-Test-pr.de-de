@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Exchange 2013 für gemeinsame Berechtigungen: Exchange 2013 Help'
+title: 'Konfig. von Exchange 2013 für gemeinsame Berechtigungen: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von Exchange 2013 für gemeinsame Berechtigungen
 ms:assetid: 7d119977-b420-4b66-acf0-0a978b188cdd
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd638146(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Wiederherstellen von öffentlichen Ordnern und Postfächern für öffentliche Ordner aus fehlerhaften Verschiebungen: Exchange 2013 Help'
+title: 'Wiederhers. öfftl. Ordner und Postf. f. öfftl. Ordner aus fehlerhaft. Versch.'
 TOCTitle: Wiederherstellen von öffentlichen Ordnern und Postfächern für öffentliche Ordner aus fehlerhaften Verschiebungen
 ms:assetid: 2ade83c9-5f9b-4945-bf32-48fa8185b515
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ983802(v=EXCHG.150)

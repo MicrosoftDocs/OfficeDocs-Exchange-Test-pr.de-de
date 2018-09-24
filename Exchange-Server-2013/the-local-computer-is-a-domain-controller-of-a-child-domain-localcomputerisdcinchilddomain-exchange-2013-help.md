@@ -1,5 +1,5 @@
 ﻿---
-title: 'Der lokale Computer ist ein Domänencontroller einer untergeordneten Domäne_LocalComputerIsDCInChildDomain: Exchange 2013 Help'
+title: 'Lokaler Computer ist ein Domänencontroller einer untergeordneten Domäne'
 TOCTitle: Der lokale Computer ist ein Domänencontroller einer untergeordneten Domäne_LocalComputerIsDCInChildDomain
 ms:assetid: 7db1dcc0-d953-41b8-b081-2a47a70950c4
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.localcomputerisdcinchilddomain(v=EXCHG.150)

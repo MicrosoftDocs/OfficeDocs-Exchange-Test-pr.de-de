@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importieren von Adressumschreibungseinträgen auf Edge-Transport-Server: Exchange 2013 Help'
+title: 'Import v. Adressumschr.eintr. auf Edge-Transport-Server: Exchange 2013-Hilfe'
 TOCTitle: Importieren von Adressumschreibungseinträgen auf Edge-Transport-Server
 ms:assetid: bd0942c6-9c66-4b4c-b9bc-2f5f783def76
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb331966(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Einrichten einer virtuellen Zertifikatauflistung für die Überprüfung von S/MIME: Exchange 2013 Help'
+title: 'Einricht. virt. Zert.auflistung für Überpr. von S/MIME: Exchange 2013-Hilfe'
 TOCTitle: Einrichten einer virtuellen Zertifikatauflistung für die Überprüfung von S/MIME
 ms:assetid: 04a616e6-197c-490c-ae8c-c8d5f0f0b3dd
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn626155(v=EXCHG.150)

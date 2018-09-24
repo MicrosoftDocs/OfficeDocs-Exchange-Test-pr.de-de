@@ -430,7 +430,7 @@ Zur Behebung von Problemen mit Transport-Agents können Sie die folgenden Featur
 
   - **Get-TransportPipeline**   Dieses Cmdlet zeigt alle SMTP-Ereignisse sowie die entsprechenden Transport-Agents an, die Nachrichten auf dem Exchange-Server verarbeiten. Weitere Informationen finden Sie unter [Anzeigen von Transport-Agents in der Transportpipeline](view-transport-agents-in-the-transport-pipeline-exchange-2013-help.md).
 
-  - **Pipelineablaufverfolgung **  Die Pipelineablaufverfolgung ermöglicht das Erstellen eines genauen Snapshots einer Nachricht, bevor und nachdem sie auf die einzelnen Transport-Agents trifft. Dadurch können Sie nach Transport-Agents suchen, die unerwartete Ergebnisse herbeiführen. Weitere Informationen finden Sie unter [Pipelineablaufverfolgung](pipeline-tracing-exchange-2013-help.md).
+  - **Pipelineablaufverfolgung**  Die Pipelineablaufverfolgung ermöglicht das Erstellen eines genauen Snapshots einer Nachricht, bevor und nachdem sie auf die einzelnen Transport-Agents trifft. Dadurch können Sie nach Transport-Agents suchen, die unerwartete Ergebnisse herbeiführen. Weitere Informationen finden Sie unter [Pipelineablaufverfolgung](pipeline-tracing-exchange-2013-help.md).
 
 Zurück zum Seitenanfang
 

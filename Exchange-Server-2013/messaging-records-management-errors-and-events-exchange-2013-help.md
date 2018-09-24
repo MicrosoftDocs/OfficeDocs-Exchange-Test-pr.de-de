@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verwalten von Fehlern und Ereignissen für Messagingdatensätzen: Exchange 2013 Help'
+title: 'Verwalten v. Fehlern u. Ereign. f. Messagingdatensätzen: Exchange 2013-Hilfe'
 TOCTitle: Verwalten von Fehlern und Ereignissen für Messagingdatensätzen
 ms:assetid: 8bc3f5ae-403b-45af-86c1-b2fccab34e63
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb310783(v=EXCHG.150)

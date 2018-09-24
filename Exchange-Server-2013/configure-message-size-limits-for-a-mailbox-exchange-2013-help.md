@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Beschränkungen der Nachrichtengröße für ein Postfach: Exchange 2013 Help'
+title: 'Konfig. von Beschr. der Nachrichtengröße für Postfach: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von Beschränkungen der Nachrichtengröße für ein Postfach
 ms:assetid: d1220685-14c0-4c4f-abb2-3920f3046212
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124708(v=EXCHG.150)
@@ -21,7 +21,7 @@ Sie können mithilfe der Exchange-Verwaltungskonsole oder Shell für ein Benutze
 
 Beachten Sie, dass es in einer Exchange-Organisation andere Einstellungen gibt, welche die maximale Größe von Nachrichten bestimmen, die ein Postfach senden und empfangen kann (z. B. die auf einem Postfachserver konfigurierte maximale Nachrichtengröße). Weitere Informationen zu Einschränkungen der Nachrichtengröße in Exchange, einschließlich der Typen von Größenlimits von Nachrichten, Geltungsbereich und Prioritätsreihenfolge, finden Sie unter [Beschränkungen der Nachrichtengröße](message-size-limits-exchange-2013-help.md).
 
-Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Benutzerpostfächer finden Sie unter [Verwalten von Benutzerpostfächern](manage-user-mailboxes-exchange-2013-help.md).
+Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Benutzerpostfächer finden Sie unter [Verwalten von Benutzerpostfächern](https://technet.microsoft.com/de-de/library/Bb123809(v=EXCHG.150)).
 
 
 > [!NOTE]

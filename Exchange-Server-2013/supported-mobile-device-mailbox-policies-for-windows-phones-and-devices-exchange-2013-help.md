@@ -1,5 +1,5 @@
 ﻿---
-title: 'Unterstützte Postfachrichtlinien für mobile Geräte für Windows-Telefone und -Geräte: Exchange 2013 Help'
+title: 'Unterst. Postfachrichtl. für mobile Geräte für Windows Phones und -Geräte'
 TOCTitle: Unterstützte Postfachrichtlinien für mobile Geräte für Windows-Telefone und -Geräte
 ms:assetid: d76b1d4c-d1f6-4501-a7c9-854327aceda5
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ983805(v=EXCHG.150)

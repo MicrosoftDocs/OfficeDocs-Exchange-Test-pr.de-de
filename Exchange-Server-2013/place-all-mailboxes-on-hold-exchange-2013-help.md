@@ -23,7 +23,7 @@ _**Letztes Änderungsdatum des Themas:** 2017-01-18_
 
 
 
-In Ihrer Organisation kann es erforderlich sein, alle Postfachdaten eine bestimmte Zeit lang aufzubewahren. Sie können dazu ein Beweissicherungsverfahren oder Compliance-Archiv aktivieren. Nachdem Sie für ein Postfach ein Beweissicherungsverfahren oder einen In-Situ-Speicher aktiviert haben, werden Postfachelemente, die verändert oder gelöscht werden, dauerhaft im Ordner "Wiederherstellbare Elemente" beibehalten. Weitere Informationen finden Sie unter [In-Place Hold and Litigation Hold](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+In Ihrer Organisation kann es erforderlich sein, alle Postfachdaten eine bestimmte Zeit lang aufzubewahren. Sie können dazu ein Beweissicherungsverfahren oder Compliance-Archiv aktivieren. Nachdem Sie für ein Postfach ein Beweissicherungsverfahren oder einen In-Situ-Speicher aktiviert haben, werden Postfachelemente, die verändert oder gelöscht werden, dauerhaft im Ordner "Wiederherstellbare Elemente" beibehalten. Weitere Informationen finden Sie unter [In-Place Hold and Litigation Hold](https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 Berücksichtigen Sie Folgendes, bevor Sie für alle Postfächer in einer Organisation ein Beweissicherungsverfahren oder Compliance-Archiv aktivieren:
 
@@ -111,7 +111,7 @@ Im Beispiel werden das Cmdlet [Get-Mailbox](https://technet.microsoft.com/de-de/
 
 ## Aktivierung eines Compliance-Archivs für alle Postfächer
 
-Sie können mithilfe des EAC bis 500 Postfächer auswählen und im Archiv platzieren. Weitere Informationen finden Sie unter [Erstellen oder Entfernen eines Compliance-Archivs](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+Sie können mithilfe des EAC bis 500 Postfächer auswählen und im Archiv platzieren. Weitere Informationen finden Sie unter [Erstellen oder Entfernen eines Compliance-Archivs](https://docs.microsoft.com/de-de/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
 
 > [!TIP]
@@ -123,31 +123,30 @@ Sie können mithilfe des EAC bis 500 Postfächer auswählen und im Archiv platzi
 
   - Wenn Sie alle Postfächer in Ihrer Organisation archivieren, werden nur die Postfächer archiviert, die zum Zeitpunkt, an dem Sie den Befehl ausführen, vorhanden sind. Wenn Sie später neue Postfächer erstellen, führen Sie den Befehl erneut aus, um sie im Archiv zu platzieren. Wenn Sie häufig neue Postfächer erstellen, können Sie den Befehl als geplante Aufgabe so oft wie erforderlich ausführen.
 
-  - Das Platzieren von Postfächern im Archiv bewahrt die Daten, indem verhindert wird, dass Sie vor einem angegebenen Zeitraum gelöscht werden, und durch Speicherung der ursprünglichen Version einer Nachricht, bevor sie geändert wird. Dadurch werden Nachrichten nach Ablauf des angegebenen Zeitraums nicht automatisch gelöscht. Sie können das Beweissicherungsverfahren oder die Archivierung mit einer Aufbewahrungsrichtlinie kombinieren, wodurch Nachrichten nach Ablauf des angegebenen Zeitraums automatisch gelöscht werden, um die Anforderungen an die Nachrichtenaufbewahrung in Ihrer Organisation zu erfüllen. Weitere Informationen finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](retention-tags-and-retention-policies-exchange-2013-help.md).
+  - Das Platzieren von Postfächern im Archiv bewahrt die Daten, indem verhindert wird, dass Sie vor einem angegebenen Zeitraum gelöscht werden, und durch Speicherung der ursprünglichen Version einer Nachricht, bevor sie geändert wird. Dadurch werden Nachrichten nach Ablauf des angegebenen Zeitraums nicht automatisch gelöscht. Sie können das Beweissicherungsverfahren oder die Archivierung mit einer Aufbewahrungsrichtlinie kombinieren, wodurch Nachrichten nach Ablauf des angegebenen Zeitraums automatisch gelöscht werden, um die Anforderungen an die Nachrichtenaufbewahrung in Ihrer Organisation zu erfüllen. Weitere Informationen finden Sie unter [Aufbewahrungstags und Aufbewahrungsrichtlinien](https://technet.microsoft.com/de-de/library/Dd297955(v=EXCHG.150)).
 
   - Der in diesem Thema zum Aktivieren des Beweissicherungsverfahrens für alle Postfächer verwendete PowerShell-Befehl verwendet einen Empfängerfilter, der alle Benutzerpostfächer zurückgibt. Sie können andere Empfängereigenschaften zum Zurückgeben einer Liste von bestimmten Postfächern verwenden, die Sie an das Cmdlet **Set-Mailbox** umleiten können, um für diese Postfächer ein Beweissicherungsverfahren zu aktivieren.
     
     Hier sind einige Beispiele dafür, wie mit den Cmdlets **Get-Mailbox** und **Get-Recipient** eine Teilmenge an Postfächern basierend auf allgemeinen Benutzer- oder Postfacheigenschaften zurückgegeben wird. In diesen Beispielen wird davon ausgegangen, dass entsprechende Postfacheigenschaften (wie *CustomAttributeN* oder *Department*) aufgefüllt wurden.
     
-```
-    Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
-```
+    ```
+        Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
+    ```
 
-```
-    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
-```
+    ```
+        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+    ```
     
-```
-    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
-```
+    ```
+        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
+    ```
     
-```
-    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
-```
+    ```
+        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
+    ```
 
-```
-    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
-```
-    
-    Sie können andere Benutzerpostfacheigenschaften in einem Filter verwenden, um Postfächer einzubeziehen bzw. auszuschließen. Weitere Informationen finden Sie unter [Filterbare Eigenschaften für den Parameter „-Filter“](https://technet.microsoft.com/de-de/library/bb738155\(v=exchg.150\)).
+    ```
+        Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+    ```
 
+    <p>Sie können andere Benutzerpostfacheigenschaften in einem Filter verwenden, um Postfächer einzubeziehen bzw. auszuschließen. Weitere Informationen finden Sie unter <a href="https://technet.microsoft.com/de-de/library/bb738155\(v=exchg.150\)">Filterbare Eigenschaften für den Parameter „-Filter“</a>.</p>

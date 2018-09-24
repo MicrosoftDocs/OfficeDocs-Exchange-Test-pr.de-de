@@ -1,5 +1,5 @@
 ﻿---
-title: 'Failovercluster-Befehlsschnittstelle-Windows-Funktion nicht installiert: Exchange 2013 Help'
+title: 'Failovercluster-Befehlsschnittstellen-Windows-Funktion nicht installiert'
 TOCTitle: Failovercluster-Befehlsschnittstelle-Windows-Funktion nicht installiert
 ms:assetid: 0d839514-5ab7-497d-8945-41392b4c3980
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.rsatclusteringcmdinterfaceinstalled(v=EXCHG.150)

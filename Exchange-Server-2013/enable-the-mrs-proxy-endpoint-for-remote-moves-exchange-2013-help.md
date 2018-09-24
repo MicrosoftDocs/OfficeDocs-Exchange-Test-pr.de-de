@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren des Proxyendpunkts für den Postfachreplikationsdienst für Remoteverschiebungen: Exchange 2013 Help'
+title: 'Aktiv. d. Proxyendp. f. Postf.repl.dienst f. Rem.versch.: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren des Proxyendpunkts für den Postfachreplikationsdienst für Remoteverschiebungen
 ms:assetid: 9840f712-127e-4c2d-bfe5-1b35cdb2a31b
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn155787(v=EXCHG.150)

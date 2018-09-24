@@ -1,5 +1,5 @@
 ﻿---
-title: 'Testen der UM-Verbindung mit VoIP-Gateways und Nebenstellenanlagen: Exchange 2013 Help'
+title: 'Testen d. UM-Verb. m. VoIP-Gateways und Nebenstellenanl.: Exchange 2013-Hilfe'
 TOCTitle: Testen der UM-Verbindung mit VoIP-Gateways und Nebenstellenanlagen
 ms:assetid: 2aca8631-a99a-4e29-aff0-e462385f03b2
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa996906(v=EXCHG.150)

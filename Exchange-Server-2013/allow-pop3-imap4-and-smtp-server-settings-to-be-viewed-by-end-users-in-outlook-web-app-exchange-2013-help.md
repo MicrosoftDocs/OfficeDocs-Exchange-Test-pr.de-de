@@ -1,5 +1,5 @@
 ﻿---
-title: 'Zulassen der Anzeige von POP3-, IMAP4- und SMTP-Servereinstellungen durch Endbenutzer in Outlook Web App: Exchange 2013 Help'
+title: 'Zulassen der Anz. von POP3-, IMAP4- und SMTP-Servereinst. in Outlook Web App'
 TOCTitle: Zulassen der Anzeige von POP3-, IMAP4- und SMTP-Servereinstellungen durch Endbenutzer in Outlook Web App
 ms:assetid: bd22bf7e-3bf7-45e6-8790-919b780166f6
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg298947(v=EXCHG.150)

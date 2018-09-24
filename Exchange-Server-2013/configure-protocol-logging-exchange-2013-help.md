@@ -29,9 +29,6 @@ Protokollaufzeichnungen enthalten SMTP-Unterhaltungen, die zwischen Sende- und E
 
   - Die Protokollierung wird auf jedem Connector aktiviert oder deaktiviert. Für alle Empfangsconnectors auf dem Exchange-Server werden die gleichen Protokolldateien und Protokolloptionen verwenden. Diese Protokolleinstellungen sind unabhängig von den Protokolldateien und Protokolloptionen für Sendeconnector auf dem gleichen Server.
 
-  - 
-    
-
     > [!WARNING]
     > Führen Sie dieses Verfahren auf keinem Edge-Transport-Server aus, der mithilfe von "EdgeSync" die Exchange-Organisation abonniert hat. Nehmen Sie stattdessen die Änderungen im Transportdienst auf dem Postfachserver vor. Die Änderungen werden dann mit der nächsten EdgeSync-Synchronisierung auf den Edge-Transport-Server repliziert.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Weiterleiten von E-Mails zwischen Active Directory-Standorten: Exchange 2013 Help'
+title: 'Weiterleiten v. E-Mails zw. Active Directory-Standorten: Exchange 2013-Hilfe'
 TOCTitle: Weiterleiten von E-Mails zwischen Active Directory-Standorten
 ms:assetid: 86b423e3-7bec-4430-9a5a-4f84ce9d82ea
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ916681(v=EXCHG.150)

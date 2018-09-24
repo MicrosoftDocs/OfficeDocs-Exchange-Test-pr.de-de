@@ -49,7 +49,7 @@ Das Verwalten benutzerdefinierter Vorlagen und der damit verbundenen Richtlinien
 
 2.  Importieren Sie Ihre benutzerdefinierte Vorlage. Weitere Informationen finden Sie unter [Importieren einer benutzerdefinierten DLP-Richtlinienvorlage aus einer Datei](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md).
 
-3.  Erstellen Sie eine DLP-Richtlinie auf der Basis Ihrer benutzerdefinierten Vorlage. Weitere Informationen finden Sie unter [Erstellen einer DLP-Richtlinie aus einer Vorlage](how-to-new-dlp-data-loss-prevention-policy-template.md).
+3.  Erstellen Sie eine DLP-Richtlinie auf der Basis Ihrer benutzerdefinierten Vorlage. Weitere Informationen finden Sie unter [Erstellen einer DLP-Richtlinie aus einer Vorlage](https://technet.microsoft.com/de-de/library/JJ150515(v=EXCHG.150)).
 
 4.  Aktualisieren Sie Ihre benutzerdefinierte Vorlage, indem Sie die Schritte 1 und 2 wiederholen.
 
@@ -83,7 +83,7 @@ Mit den Regeln in einem Regelpaket wird der Prozess des Erkennens von genau fest
 
 ## Weitere Informationen
 
-[Verhinderung von Datenverlust](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Verhinderung von Datenverlust](https://technet.microsoft.com/de-de/library/JJ150527(v=EXCHG.150))
 
 [Importieren einer benutzerdefinierten DLP-Richtlinienvorlage aus einer Datei](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)
 

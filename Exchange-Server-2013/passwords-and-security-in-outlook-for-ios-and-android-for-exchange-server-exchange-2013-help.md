@@ -1,5 +1,5 @@
 ﻿---
-title: 'Passwords and Security in Outlook for iOS and Android for Exchange Server: Exchange 2013 Help'
+title: 'Kennwörter und Sicherheit in Outlook für iOS und Android für Exchange Server'
 TOCTitle: Passwords and Security in Outlook for iOS and Android for Exchange Server
 ms:assetid: e5565beb-7ef3-47c4-8daf-6d8f1d22dceb
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Mt465750(v=EXCHG.150)

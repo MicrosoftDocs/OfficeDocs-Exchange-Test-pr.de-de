@@ -1,5 +1,5 @@
 ﻿---
-title: 'Grundlegendes zum unwiderruflichen Löschen in Exchange 2013: Exchange 2013 Help'
+title: 'Grundlegendes z. unwiderr. Löschen in Exchange 2013: Exchange 2013-Hilfe'
 TOCTitle: Grundlegendes zum unwiderruflichen Löschen in Exchange 2013
 ms:assetid: 0ca7b188-efbc-4c0d-bcfe-5138cffc803c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg549096(v=EXCHG.150)

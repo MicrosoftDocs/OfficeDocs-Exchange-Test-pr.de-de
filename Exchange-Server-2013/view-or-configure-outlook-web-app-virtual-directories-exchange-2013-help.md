@@ -1,5 +1,5 @@
 ﻿---
-title: 'Anzeigen oder Konfigurieren der virtuellen Outlook Web App-Verzeichnisse: Exchange 2013 Help'
+title: 'Anz. o. Konfig. d. virt. Outlook Web App-Verzeichnisse: Exchange 2013-Hilfe'
 TOCTitle: Anzeigen oder Konfigurieren der virtuellen Outlook Web App-Verzeichnisse
 ms:assetid: 90babcf6-4486-4e01-9819-6d3ca4ed756c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd298140(v=EXCHG.150)
@@ -106,7 +106,7 @@ Wenn Sie die Exchange-Verwaltungskonsole zum Anzeigen der Eigenschaften eines vi
     
 
     > [!NOTE]
-    > Funktionseinstellungen für einzelne Benutzer setzen Einstellungen für das virtuelle Verzeichnis außer Kraft. Sie können die Segmentierungseinstellungen für einzelne Benutzer mithilfe des Cmdlets <STRONG>Set-CASMailbox</STRONG> oder über Outlook Web App-Postfachrichtlinien ändern. Weitere Informationen finden Sie unter <A href="outlook-web-app-mailbox-policies-exchange-2013-help.md">Outlook Web App-Postfachrichtlinien</A>.
+    > Funktionseinstellungen für einzelne Benutzer setzen Einstellungen für das virtuelle Verzeichnis außer Kraft. Sie können die Segmentierungseinstellungen für einzelne Benutzer mithilfe des Cmdlets <STRONG>Set-CASMailbox</STRONG> oder über Outlook Web App-Postfachrichtlinien ändern. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies">Outlook Web App-Postfachrichtlinien</A>.
 
     
     Verwenden Sie die Kontrollkästchen, um Funktionen zu aktivieren oder zu deaktivieren. Standardmäßig werden die gängigsten Funktionen angezeigt. Klicken Sie auf **Weitere Optionen**, um alle Funktionen anzuzeigen, die aktiviert oder deaktiviert werden können.

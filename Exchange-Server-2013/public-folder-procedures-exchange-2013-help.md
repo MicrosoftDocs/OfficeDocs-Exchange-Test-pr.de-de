@@ -21,33 +21,33 @@ _**Letztes Änderungsdatum des Themas:** 2017-08-02_
 
 Verwenden Sie eine oder mehrere der unten aufgeführten Vorgehensweisen, um Ihre Infrastruktur aus öffentlichen Ordnern zum Laufen zu bringen und um andere notwendige Aufgaben zum Verwalten von öffentlichen Ordnern durchzuführen.
 
-[Einrichten öffentlicher Ordner in einer neuen Organisation](set-up-public-folders-in-a-new-organization-exchange-2013-help.md)
+[Einrichten öffentlicher Ordner in einer neuen Organisation](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/set-up-public-folders)
 
-[Konfigurieren lokaler öffentlicher Ordner aus Vorversionen für eine Hybridbereitstellung](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Konfigurieren lokaler öffentlicher Ordner aus Vorversionen für eine Hybridbereitstellung](https://technet.microsoft.com/de-de/library/Dn249373(v=EXCHG.150))
 
-[Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Konfigurieren öffentlicher Exchange 2013-Ordner für eine Hybridbereitstellung](https://technet.microsoft.com/de-de/library/Dn986544(v=EXCHG.150))
 
-[Konfigurieren öffentlicher Exchange Online-Ordner für eine Hybridbereitstellung](configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Konfigurieren öffentlicher Exchange Online-Ordner für eine Hybridbereitstellung](https://technet.microsoft.com/de-de/library/Mt729076(v=EXCHG.150))
 
 [Konfigurieren älterer öffentlicher Ordner, wenn sich die Postfächer der Benutzer auf Exchange 2013-Servern befinden](configure-legacy-public-folders-where-user-mailboxes-are-on-exchange-2013-servers-exchange-2013-help.md)
 
 [Verwenden der Batchmigration zum Migrieren von öffentlichen Ordnern zu Exchange 2013 aus vorherigen Versionen](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md)
 
-[Verwenden der Stapelmigration zum Migrieren von öffentlichen Ordnern einer Vorgängerversion zu Office 365 und Exchange Online](use-batch-migration-to-migrate-legacy-public-folders-to-office-365-and-exchange-online-exchange-online-help.md)
+[Verwenden der Stapelmigration zum Migrieren von öffentlichen Ordnern einer Vorgängerversion zu Office 365 und Exchange Online](https://technet.microsoft.com/de-de/library/Dn874017(v=EXCHG.150))
 
-[Migrieren von Exchange 2013-basierten öffentlichen Ordnern zu Exchange Online mithilfe einer Batchmigration](use-batch-migration-to-migrate-exchange-2013-public-folders-to-exchange-online-exchange-online-help.md)
+[Migrieren von Exchange 2013-basierten öffentlichen Ordnern zu Exchange Online mithilfe einer Batchmigration](https://technet.microsoft.com/de-de/library/Mt798260(v=EXCHG.150))
 
-[Erstellen eines Postfachs für öffentliche Ordner](create-a-public-folder-mailbox-exchange-2013-help.md)
+[Erstellen eines Postfachs für öffentliche Ordner](https://technet.microsoft.com/de-de/library/JJ552410(v=EXCHG.150))
 
-[Erstellen eines öffentlichen Ordners](create-a-public-folder-exchange-2013-help.md)
+[Erstellen eines öffentlichen Ordners](https://technet.microsoft.com/de-de/library/Bb691104(v=EXCHG.150))
 
-[E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md)
+[E-Mail-Aktivierung oder E-Mail-Deaktivierung von öffentlichen Ordnern](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder)
 
-[Aktualisieren der Öffentliche Ordner-Hierarchie](update-the-public-folder-hierarchy-exchange-2013-help.md)
+[Aktualisieren der Öffentliche Ordner-Hierarchie](https://technet.microsoft.com/de-de/library/JJ945055(v=EXCHG.150))
 
-[Entfernen eines öffentlichen Ordners](remove-a-public-folder-exchange-2013-help.md)
+[Entfernen eines öffentlichen Ordners](https://technet.microsoft.com/de-de/library/Aa997202(v=EXCHG.150))
 
-[Verwenden bevorzugter öffentlicher Ordner in Outlook im Web](use-favorite-public-folders-in-outlook-on-the-web-exchange-2013-help.md)
+[Verwenden bevorzugter öffentlicher Ordner in Outlook im Web](https://docs.microsoft.com/de-de/exchange/collaboration-exo/public-folders/use-favorite-public-folders)
 
 [Verschieben eines Postfachs für öffentliche Ordner in eine andere Postfachdatenbank](move-a-public-folder-mailbox-to-a-different-mailbox-database-exchange-2013-help.md)
 
@@ -55,5 +55,5 @@ Verwenden Sie eine oder mehrere der unten aufgeführten Vorgehensweisen, um Ihre
 
 [Wiederherstellen von öffentlichen Ordnern und Postfächern für öffentliche Ordner aus fehlerhaften Verschiebungen](restore-public-folders-and-public-folder-mailboxes-from-failed-moves-exchange-2013-help.md)
 
-[Anzeigen von Statistiken für öffentliche Ordner und Elemente öffentlicher Ordner](view-statistics-for-public-folders-and-public-folder-items-exchange-2013-help.md)
+[Anzeigen von Statistiken für öffentliche Ordner und Elemente öffentlicher Ordner](https://technet.microsoft.com/de-de/library/Aa997949(v=EXCHG.150))
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren der Kerberos-Authentifizierung für Clientzugriffsserver mit Lastenausgleich: Exchange 2013 Help'
+title: 'Konfig. d. Kerberos-Auth. für Clientzugriffsserver mit Lastenausgleich'
 TOCTitle: Konfigurieren der Kerberos-Authentifizierung für Clientzugriffsserver mit Lastenausgleich
 ms:assetid: 8f4faeea-a825-438d-97dc-1c398ce7aba5
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Ff808312(v=EXCHG.150)

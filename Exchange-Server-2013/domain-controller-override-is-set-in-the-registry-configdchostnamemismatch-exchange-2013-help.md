@@ -1,5 +1,5 @@
 ﻿---
-title: 'In der Registrierung ist das Außerkraftsetzen des Domänencontrollers festgelegt_ConfigDCHostNameMismatch: Exchange 2013 Help'
+title: 'In Registrierung ist das Außerkraftsetzen des Domänencontrollers festgelegt'
 TOCTitle: In der Registrierung ist das Außerkraftsetzen des Domänencontrollers festgelegt_ConfigDCHostNameMismatch
 ms:assetid: 3aef5470-d510-4b59-a4b6-36d274a984ae
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/ms.exch.setupreadiness.configdchostnamemismatch(v=EXCHG.150)

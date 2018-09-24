@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren von Nachrichtenabrufformat-Optionen für POP3 und IMAP4: Exchange 2013 Help'
+title: 'Konfig. v. Nach.abrufformat-Opt. für POP3 und IMAP4: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren von Nachrichtenabrufformat-Optionen für POP3 und IMAP4
 ms:assetid: 481096e0-4492-46c2-8ca8-bdf84a84531e
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997869(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Leistungsindikatoren für die Verwaltung von Nachrichtendatensätzen: Exchange 2013 Help'
+title: 'Leistungsindikatoren f. Verw. von Nachrichtendatensätzen: Exchange 2013-Hilfe'
 TOCTitle: Leistungsindikatoren für die Verwaltung von Nachrichtendatensätzen
 ms:assetid: b59def6f-4249-4e0c-8057-8ae6eb7c5676
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb310790(v=EXCHG.150)
@@ -19,7 +19,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
 Mithilfe der in diesem Thema beschriebenen Leistungsindikatoren wird der Assistent für verwaltete Ordner beim Implementieren der Messaging-Datensatzverwaltung (Messaging Records Management, MRM) für Microsoft Exchange Server 2010 überwacht. Da es sich bei der Ausführung des Assistenten für verwaltete Ordner um einen ressourcenintensiven Vorgang handelt, sollten Sie ihn nur ausführen, wenn der Server die zusätzliche Auslastung abfangen kann. Sie müssen die Serverleistung auch überwachen, wenn der Assistent für verwaltete Ordner ausgeführt wird. Zusätzlich zu den in diesem Thema aufgeführten Leistungsindikatoren können Sie weitere Leistungsindikatoren verwenden, um u. a. die Datenträgerleistung und CPU-Auslastung zu überwachen.
 
-Weitere Informationen zum Überwachen von Computern, auf denen MRM ausgeführt wird, finden Sie unter [Überwachen von messaging-datensatzverwaltung](monitoring-messaging-records-management-exchange-2013-help.md).
+Weitere Informationen zum Überwachen von Computern, auf denen MRM ausgeführt wird, finden Sie unter [Überwachen von messaging-datensatzverwaltung](monitoring-https://docs.microsoft.com/de-de/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
 
 ## Leistungsindikatoren für MRM
 

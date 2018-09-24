@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aktivieren oder Deaktivieren von E-Mail für einen E-Mail-Kontakt: Exchange 2013 Help'
+title: 'Aktivieren o. Deaktivieren von E-Mail für E-Mail-Kontakt: Exchange 2013-Hilfe'
 TOCTitle: Aktivieren oder Deaktivieren von E-Mail für einen E-Mail-Kontakt
 ms:assetid: ca47441f-1aa4-4958-aba5-18d51e59837e
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Bb124552(v=EXCHG.150)
@@ -21,7 +21,7 @@ Sie können E-Mail für einen vorhandenen E-Mail-Kontakt in Ihrer Exchange-Organ
 
 Nachdem Sie E-Mail für einen E-Mail-Kontakt deaktiviert haben, können Sie den Kontakt mithilfe des Shell-Cmdlets **Enable-MailContact** wieder für E-Mail aktivieren. Mit diesem Cmdlet können Sie auch beliebige Active Directory-Kontakte für E-Mail aktivieren.
 
-Informationen zu weiteren Verwaltungsaufgaben in Bezug auf E-Mail-Kontakte finden Sie unter [Verwalten von E-Mail-Kontakten](manage-mail-contacts-exchange-2013-help.md).
+Informationen zu weiteren Verwaltungsaufgaben in Bezug auf E-Mail-Kontakte finden Sie unter [Verwalten von E-Mail-Kontakten](https://technet.microsoft.com/de-de/library/Aa998858(v=EXCHG.150)).
 
 ## Was sollten Sie wissen, bevor Sie beginnen?
 

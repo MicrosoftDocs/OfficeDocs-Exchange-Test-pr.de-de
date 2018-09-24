@@ -1,5 +1,5 @@
 ﻿---
-title: 'Using hybrid Modern Authentication with Outlook for iOS and Android: Exchange 2013 Help'
+title: 'Verwenden der hybriden modernen Auth. mit Outlook für iOS und Android'
 TOCTitle: Using hybrid Modern Authentication with Outlook for iOS and Android
 ms:assetid: 0e701643-1f18-4cc3-8595-4fd4b15caf6c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Mt846639(v=EXCHG.150)
@@ -333,7 +333,7 @@ Token können freigegeben und von anderen Microsoft-Apps (z. B. Word Mobile) in 
 
 2.  Wenn die Apps einmaliges Anmelden mit einer Broker-App nutzen oder unterstützen. Die Token werden innerhalb der Broker-App gespeichert. Microsoft Authenticator ist ein Beispiel für eine Broker-App. Im Broker-App-Szenario startet ADAL, nachdem Sie versucht haben, sich bei Outlook für iOS und Android anzumelden, die Microsoft Authenticator-App, die eine Verbindung zu Azure Active Directory zum Abrufen des Tokens herstellt. Dann wird das Token gespeichert und erneut für Authentifizierungsanforderungen von anderen Apps verwendet, solange die konfigurierte Token-Gültigkeitsdauer dies zulässt.
 
-Weitere Informationen finden Sie unter [Gewusst wie: Aktivieren von App-übergreifendem SSO unter iOS mit ADAL](https://docs.microsoft.com/de-de/azure/active-directory/develop/active-directory-sso-ios).
+Weitere Informationen finden Sie unter [Gewusst wie: Aktivieren von App-übergreifendem SSO unter iOS mit ADAL](https://review.docs.microsoft.com/de-de/azure/active-directory/develop/active-directory-sso-ios).
 
 **F.:**  Was ist die Gültigkeitsdauer der Token, die von der Active Directory-Authentifizierungsbibliothek (ADAL) in Outlook für iOS und Android generiert und verwendet werden?
 

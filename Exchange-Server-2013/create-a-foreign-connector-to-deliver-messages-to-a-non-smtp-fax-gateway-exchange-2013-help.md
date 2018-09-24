@@ -1,5 +1,5 @@
 ﻿---
-title: 'Erstellen eines fremden Connectors zum Übermitteln von Nachrichten an ein Nicht-SMTP-Faxgateway: Exchange 2013 Help'
+title: 'Erstellen fremder Connectors z. Übermitt. v. Nachr. an Nicht-SMTP-Faxgateway'
 TOCTitle: Erstellen eines fremden Connectors zum Übermitteln von Nachrichten an ein Nicht-SMTP-Faxgateway
 ms:assetid: 589db487-3c4c-409a-92e3-c78dd8f639b6
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ710163(v=EXCHG.150)

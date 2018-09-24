@@ -1,5 +1,5 @@
 ﻿---
-title: 'Entfernen von Postfach- und Clientzugriffs-Servern aus einem SIP-URI-Wählplan: Exchange 2013 Help'
+title: 'Entfernen von Postfach- und Clientzugriffs-Servern aus einem SIP-URI-Wählplan'
 TOCTitle: Entfernen von Postfach- und Clientzugriffs-Servern aus einem SIP-URI-Wählplan
 ms:assetid: 367441e1-1a0f-42c8-9fa8-8abe80b3d015
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Aa997238(v=EXCHG.150)
@@ -27,7 +27,7 @@ Zusätzliche Verwaltungsaufgaben im Zusammenhang mit UM-Wählplänen finden Sie 
 
   - Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "UM-Wähleinstellungen" im Thema [Unified Messaging-Berechtigungen](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein SIP-URI-UM-Wählplan erstellt wurde. Genaue Anweisungen finden Sie unter [Erstellen eines UM-Wählplans](create-a-um-dial-plan-exchange-2013-help.md).
+  - Vergewissern Sie sich vor dem Ausführen dieser Verfahren, dass ein SIP-URI-UM-Wählplan erstellt wurde. Genaue Anweisungen finden Sie unter [Erstellen eines UM-Wählplans](https://technet.microsoft.com/de-de/library/Bb123819(v=EXCHG.150)).
 
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

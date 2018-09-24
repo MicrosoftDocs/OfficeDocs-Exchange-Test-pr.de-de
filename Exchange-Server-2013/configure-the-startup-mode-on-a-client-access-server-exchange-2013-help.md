@@ -1,5 +1,5 @@
 ﻿---
-title: 'Konfigurieren des Startmodus auf einem Clientzugriffsserver: Exchange 2013 Help'
+title: 'Konfig. des Startmodus auf einem Clientzugriffsserver: Exchange 2013-Hilfe'
 TOCTitle: Konfigurieren des Startmodus auf einem Clientzugriffsserver
 ms:assetid: 71cc9061-9e3c-4b4a-8dbe-f590ca5bcee8
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ673533(v=EXCHG.150)
