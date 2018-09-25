@@ -95,7 +95,9 @@ Führen Sie die Schritte unter [Konfigurieren der Verbundfreigabe](configure-fed
         
         Um den Verfügbarkeitsadressraum zu konfigurieren, führen Sie auf dem Exchange 2010-Clientzugriffsserver in der Exchange 2007-Organisation den folgenden Befehl in der Exchange-Verwaltungsshell aus:
         
+        ```powershell
             Add-AvailabilityAddressSpace -AccessMethod InternalProxy -ProxyUrl https://<Exchange 2010 CAS server name>/ews/exchange.asmx -ForestName <SMTP domain of the remote Exchange organization> -UseServiceAccount $True
+        ```
         
         Ausführliche Syntax- und Parameterinformationen finden Sie unter [Add-AvailabilityAddressSpace](https://go.microsoft.com/fwlink/p/?linkid=268413)
 

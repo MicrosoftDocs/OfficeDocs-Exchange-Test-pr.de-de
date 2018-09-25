@@ -94,8 +94,8 @@ Führen Sie einen der folgenden Schritte aus, um das erfolgreiche Festlegen von 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
     ```powershell
-Get-PopSettings | format-list
-```
+    Get-PopSettings | format-list
+    ```
 
 2.  Überprüfen Sie, ob die Verbindungseinstellungen richtig sind.
 

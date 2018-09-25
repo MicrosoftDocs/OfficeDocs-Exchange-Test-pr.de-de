@@ -178,9 +178,9 @@ In diesem Beispiel wird der Zugriff auf Postfächer auf einem Clientzugriffsserv
 > [!IMPORTANT]
 > Die für den Parameter <EM>BlockedClientVersions</EM> verwendeten Werte sind Beispiele. Sie können die richtigen Versionen der Clientsoftware ermitteln, indem Sie die Protokolldateien für den RPC-Clientzugriff unter <CODE>%ExchangeInstallPath%Logging\RPC Client Access</CODE> analysieren.
 
-
-
+```powershell
     Set-RpcClientAccess -Server CAS01 -BlockedClientVersions "0.0.0-5.65535.65535;7.0.0;8.02.4-11.65535.65535"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-RpcClientAccess](https://technet.microsoft.com/de-de/library/dd351072\(v=exchg.150\)).
 

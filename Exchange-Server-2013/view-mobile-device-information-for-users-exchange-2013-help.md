@@ -50,6 +50,6 @@ Mit diesem Cmdlet Get-MobileDevice können Sie eine Liste der mobilen Geräte f�
 1.  Führen Sie den folgenden Befehl aus.
     
     ```powershell
-Get-MobileDevice -Mailbox useralias
-```
+    Get-MobileDevice -Mailbox useralias
+    ```
 

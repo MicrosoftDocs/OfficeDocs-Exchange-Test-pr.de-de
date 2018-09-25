@@ -58,6 +58,6 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Postfachserver finden
 2.  Geben Sie im Textfeld **Öffnen** die folgende Zeichenfolge ein, und drücken Sie dann die EINGABETASTE.
     
     ```powershell
-net start MSExchangeUM
-```
+    net start MSExchangeUM
+    ```
 

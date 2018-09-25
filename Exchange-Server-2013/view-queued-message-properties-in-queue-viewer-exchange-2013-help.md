@@ -117,7 +117,9 @@ Verwenden Sie die Warteschlangenanzeige in der Exchange Toolbox, um die Eigensch
 
 Mit dem Cmdlet **Get-Message** können Sie die Eigenschaften einer Nachricht anzeigen, die sich zurzeit in der Warteschlange für die Zustellung befindet. Im folgenden Beispiel wird für alle Nachrichten mit dem Status "Wiederholen" eine Tabelle mit der Absenderadresse, den Empfängern, dem Betreff und dem Empfangsdatum erstellt:
 
+```powershell
     Get-Message -IncludeRecipientInfo -Filter {Status -eq "Retry"} | Format-Table FromAddress,Recipients,Subject,DateReceived
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Message](https://technet.microsoft.com/de-de/library/bb124738\(v=exchg.150\)).
 

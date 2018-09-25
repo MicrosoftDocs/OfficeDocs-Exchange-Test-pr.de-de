@@ -43,10 +43,12 @@ Sie können Microsoft Outlook zum Anzeigen von Antispamstempeln verwenden, die v
 
 3.  Verwenden Sie im Dialogfeld **Eigenschaften** im Abschnitt **Internetkopfzeilen** die Bildlaufleiste, um Antispamstempel anzuzeigen. Beispiel.
     
+    ```powershell
         X-MS-Exchange-Organization-PCL:7
         X-MS-Exchange-Organization-SCL:6
         X-MS-Exchange-Organization-Antispam-Report: DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures
-
+    ```
+    
 ## Verwenden von Outlook 2007 zum Anzeigen von Antispamstempeln
 
 1.  Klicken Sie zum Öffnen einer Nachricht in Outlook 2007 auf einem Clientcomputer in der E-Mail-Ansicht auf eine Nachricht.
@@ -54,8 +56,9 @@ Sie können Microsoft Outlook zum Anzeigen von Antispamstempeln verwenden, die v
 2.  Kicken Sie auf der Registerkarte **Nachricht** unter **Optionen** auf **Nachrichtenoptionen**.
 
 3.  Verwenden Sie im Dialogfeld **Nachrichtenoptionen** im Abschnitt **Internetkopfzeilen** die Bildlaufleiste, um Antispamstempel anzuzeigen. Beispiel.
-    
+
+    ```powershell
         X-MS-Exchange-Organization-PCL:7
         X-MS-Exchange-Organization-SCL:6
         X-MS-Exchange-Organization-Antispam-Report: DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures
-
+    ```

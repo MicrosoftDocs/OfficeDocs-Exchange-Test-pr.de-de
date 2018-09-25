@@ -57,27 +57,27 @@ Get-SystemMessage
 ```
 
 Führen Sie den folgenden Befehl aus, um detaillierte Informationen für die benutzerdefinierte DSN-Meldung für den DSN-Code 5.1.2 anzuzeigen, die in englischer Sprache an interne Absender gesendet wird:
-
+```powershell
     Get-SystemMessage En\Internal\5.1.2 | Format-List
-
+```
 ## Erstellen einer benutzerdefinierten DSN-Meldung mithilfe der Shell
 
 Führen Sie den folgenden Befehl aus:
-
+```powershell
     New-SystemMessage -Internal <$true | $false> -Language <Locale> -DSNCode <x.y.z> -Text "<DSN text>"
-
+```
 In diesem Beispiel wird eine benutzerdefinierte DSN-Meldung (Nur-Text) für den DSN-Code 5.1.2 erstellt, die in englischer Sprache an interne Absender gesendet wird.
-
+```powershell
     New-SystemMessage -Internal $true -Language En -DSNCode 5.1.2 -Text "You tried to send a message to a disabled mailbox that's no longer accepting messages. Please contact the Help Desk at extension 123 for assistance."
-
+```
 In diesem Beispiel wird eine benutzerdefinierte DSN-Meldung (Nur-Text) für den DSN-Code 5.1.2 erstellt, die in englischer Sprache an externe Absender gesendet wird.
-
+```powershell
     New-SystemMessage -Internal $false -Language En -DSNCode 5.1.2 -Text "You tried to send a message to a disabled mailbox that's no longer accepting messages. Please contact your System Administrator for more information."
-
+```
 In diesem Beispiel wird eine benutzerdefinierte DSN-Meldung (HTML) für den DSN-Code 5.1.2 erstellt, die in englischer Sprache an interne Absender gesendet wird.
-
+```powershell
     New-SystemMessage -DSNCode 5.1.2 -Internal $true -Language En -Text 'You tried to send a message to a <B>disabled</B> mailbox. Please visit <A HREF="http://it.contoso.com">Internal Support</A> or contact &quot;InfoSec&quot; for more information.'
-
+```
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Gehen Sie folgendermaßen vor, um sicherzustellen, dass eine benutzerdefinierte DSN-Meldung erfolgreich erstellt wurde:
@@ -85,8 +85,8 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass eine benutzerdefinierte 
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
-```
+    Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 
@@ -95,33 +95,33 @@ Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
 ## Ändern des Texts einer benutzerdefinierten DSN-Nachricht mithilfe der Shell
 
 Führen Sie den folgenden Befehl aus, um den Text einer benutzerdefinierten DSN-Meldung zu ändern:
-
+```powershell
     Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> -Text "<DSN text>"
-
+```
 In diesem Beispiel wird der Text der benutzerdefinierten DSN-Meldung für den DSN-Code 5.1.2 geändert, die in englischer Sprache an interne Absender gesendet wird.
-
+```powershell
     Set-SystemMessage En\Internal\5.1.2 -Text "The mailbox you tried to send an e-mail message to is disabled and is no longer accepting messages. Please contact the Help Desk at extension 123 for assistance."
-
+```
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Gehen Sie folgendermaßen vor, um sicherzustellen, dass der Text einer benutzerdefinierten DSN-Meldung erfolgreich geändert wurde:
 
 1.  Führen Sie den folgenden Befehl aus: `Get-SystemMessage`.
-    
+    ```powershell
         Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> | Format-List -Text
-
+    ```
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
 ## Entfernen einer benutzerdefinierten DSN-Meldung mithilfe der Shell
 
 Führen Sie den folgenden Befehl aus:
-
+```powershell
     Remove-SystemMessage <Local>\<Internal | External>\<DSNcode>
-
+```
 In diesem Beispiel wird die benutzerdefinierte DSN-Meldung für den DSN-Code 5.1.2 entfernt, die in englischer Sprache an interne Absender gesendet wird.
-
+```powershell
     Remove-SystemMessage En\Internal\5.1.2
-
+```
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Gehen Sie folgendermaßen vor, um sicherzustellen, dass eine benutzerdefinierte DSN-Meldung erfolgreich entfernt wurde:
@@ -143,14 +143,14 @@ Führen Sie die folgenden Schritte aus, um dem Exchange-Empfänger ein Postfach 
 2.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
-```
+    Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
+    ```
     
     Wenn Sie dem Exchange-Empfänger z. B. das vorhandene Postfach "Contoso System Mailbox" zuweisen möchten, führen Sie den folgenden Befehl aus:
     
     ```powershell
-Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
-```
+    Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
+    ```
 
 ## Schritt 2: Geben Sie die DSN-Codes an, die überwacht werden sollen
 
@@ -175,8 +175,9 @@ Set-TransportConfig -GenerateCopyOfDSNFor 5.7.1,5.7.2,5.7.3
 ```
 
 Führen Sie folgenden Befehl aus, um Einträge hinzuzufügen bzw. zu entfernen, ohne vorhandene Werte zu ändern:
-
+```powershell
     Set-TransportConfig -GenerateCopyOfDSNFor @{Add="<x.y.z>","<x.y.z>"...; Remove="<x.y.z>","<x.y.z>"...}
+```
 
 In diesem Beispiel wird der DSN-Code 5.7.5 zur vorhandenen Liste der DSN-Meldungen hinzugefügt, die an den Exchange-Empfänger weitergeleitet werden, und der DSN-Code 5.7.1 wird aus dieser Liste entfernt.
 

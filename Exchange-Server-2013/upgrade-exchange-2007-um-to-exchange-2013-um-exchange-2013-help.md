@@ -55,7 +55,9 @@ Mithilfe des Befehls setup.exe oder durch das *\<UMLanguagePack\>*.exe-Installat
 
 In diesem Beispiel wird mit "Setup.exe" das UM-Sprachpaket für Japanisch (ja-JP) installiert.
 
+```powershell
     setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 ## Schritt 2: Verschieben der Exchange 2007-begrüßungen, ansagen, Menüs und fordert das Systempostfach Exchange 2013
 
@@ -130,8 +132,9 @@ Führen Sie die folgenden Schritte aus, um UM das Verschlüsseln von Daten zu er
     
     Erstellen Sie ein selbstsigniertes Exchange-Zertifikat, indem Sie in der Shell den folgenden Befehl ausführen.
     
+    ```powershell
         New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
-    
+    ```    
 
     > [!TIP]
     > Wenn Sie die zu aktivierenden Dienste mit dem Parameter <EM>Services</EM> angeben, werden Sie zur Aktivierung der Dienste für das erstellte Zertifikat aufgefordert. In diesem Beispiel werden Sie zur Aktivierung des Zertifikats für die UM- und UM-Anrufweiterleitungsdienste aufgefordert. Weitere Informationen zur Aktivierung eines Zertifikats für Dienste finden Sie unter <A href="assign-a-certificate-to-the-um-and-um-call-router-services-exchange-2013-help.md">Zuweisen eines Zertifikats an den UM-Dienst und den UM-Anrufrouterdienst</A>.
@@ -150,8 +153,10 @@ Führen Sie die folgenden Schritte aus, um UM das Verschlüsseln von Daten zu er
     
     Aktivieren Sie ein selbstsigniertes Exchange-Zertifikat, indem Sie in der Shell den folgenden Befehl ausführen.
     
+    ```powershell
         Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
-
+    ```
+    
   - Konfigurieren Sie alle neuen oder bestehenden UM-Wählpläne als "SIP-gesichert" oder "Gesichert".
 
   - Konfigurieren Sie den UM-Startmodus auf den Clientzugriffs- und Postfachservern in Ihrer Organisation als "TLS" oder "Dual"
@@ -214,7 +219,9 @@ Konfigurieren Sie den UM-Startmodus auf einem Exchange 2013-Postfachserver mit d
 
 Konfigurieren Sie den UM-Startmodus auf einem Exchange 2013-Postfachserver durch die Ausführung des folgenden Befehls in der Shell.
 
+```powershell
     Set-UMService -Identity MyUMServer -ExternalHostFqdn host.external.contoso.com -IPAddressFamily Any -UMStartupMode Dual
+```
 
 ## Schritt 6: Erstellen Sie oder konfigurieren Sie vorhandener um-Wählpläne
 
@@ -262,7 +269,9 @@ Falls erforderlich, können Sie einen vorhandenen UM-Wählplan mithilfe der Exch
 
 Falls erforderlich, können Sie einen vorhandenen UM-Wählplan mithilfe des folgenden Befehls in der Shell konfigurieren.
 
+```powershell
     Set-UMDialplan -Identity MyDialPlan -AccessTelephoneNumbers 4255551234 -AudioCodec Wma -CallAnsweringRulesEnabled $false -OutsideLineAccessCode 9 -VoIPSecurity SIPSecured
+```
 
 Wenn Sie Exchange 2007 Unified Messaging bereitgestellt haben, mussten Sie Hinzufügens von Unified Messaging-Servers zu einem um-Wählplan für die eingehende Anrufe entgegennehmen. Dies ist nicht mehr erforderlich. In Exchange 2013 Clientzugriffs-und Postfachservern können nicht verknüpft werden mit Durchwahl oder e. 164-Wählplan, aber mit SIP-URI-Wählpläne verknüpft sein. Clientzugriffs-und Postfachserver werden für alle Typen von Wählplänen alle eingehenden Anrufe beantworten.
 
@@ -306,7 +315,9 @@ Falls erforderlich, können Sie einer vorhandenen UM-IP-Gateways mithilfe der Ex
 
 Gegebenenfalls können Sie einen vorhandenen UM-IP-Gateways mithilfe des folgenden Befehls in der Shell konfigurieren.
 
+```powershell
     Set-UMIPGateway -Identity MyUMIPGateway -Address fe80::39bd:88f7:6969:d223%11 -IPAddressFamily Any -Status Disabled -OutcallsAllowed $false
+```
 
 ## Schritt 8: Erstellen eines um-Sammelanschlusses
 
@@ -331,8 +342,9 @@ Falls erforderlich, können Sie einen um-Sammelanschluss mithilfe der Exchange-V
 4.  Klicken Sie auf **Speichern**.
 
 Sie können gegebenenfalls einen UM-Sammelanschluss durch Ausführen des folgenden Befehls in der Shell erstellen.
-
+```powershell
     New-UMHuntGroup -Name MyUMHuntGroup -PilotIdentifier 5551234,55555 -UMDialPlan MyUMDialPlan -UMIPGateway MyUMIPGateway
+```
 
 
 > [!TIP]
@@ -370,7 +382,9 @@ Sie können gegebenenfalls eine automatische UM-Telefonzentrale mit der Exchange
 
 Sie können gegebenenfalls einen UM-Sammelanschluss durch Ausführen des folgenden Befehls in der Shell erstellen.
 
+```powershell
     New-UMAutoAttendant -Name MyUMAutoAttendant -UMDialPlan MyUMDialPlan -PilotIdentifierList 56000,56100 -SpeechEnabled $true -Status Enabled
+```
 
 Gegebenenfalls können Sie eine vorhandene automatische Telefonzentrale mithilfe der Exchange-Verwaltungskonsole konfigurieren:
 
@@ -380,7 +394,9 @@ Gegebenenfalls können Sie eine vorhandene automatische Telefonzentrale mithilfe
 
 Sie können gegebenenfalls eine vorhandene automatische Telefonzentrale durch Ausführen des folgenden Befehls in der Shell konfigurieren.
 
+```powershell
     Set-UMAutoAttendant -Identity MySpeechEnabledAA -DTMFFallbackAutoAttendant MyDTMFAA -OperatorExtension 50100 -AfterHoursTransferToOperatorEnabled $true -StaroutToDialPlanEnabled $true
+```
 
 ## Schritt 10: Erstellen oder Konfigurieren von UM-Postfachrichtlinien
 
@@ -422,7 +438,9 @@ Sie können gegebenenfalls eine vorhandenen UM-Postfachrichtlinie mit der Exchan
 
 Sie können gegebenenfalls eine vorhandene UM-Postfachrichtlinie durch Ausführen des folgenden Befehls in der Shell konfigurieren.
 
+```powershell
     Set-UMMailboxPolicy -Identity MyUMMailboxPolicy -LogonFailuresBeforePINReset 8 -MaxLogonAttempts 12 -MinPINLength 8 -PINHistoryCount 10 -PINLifetime 60 -ResetPINText "The PIN used to allow you access to your mailbox using Outlook Voice Access has been reset."
+```
 
 ## Schritt 11: Verschieben Sie vorhandene UM-aktivierte Postfächer nach Exchange 2013
 
@@ -490,7 +508,9 @@ So aktivieren Sie einen Benutzer mit der der Exchange-Verwaltungskonsole für UM
 
 Aktivieren Sie einen Benutzer für Unified Messaging in der Shell den folgenden Befehl ausführen.
 
+```powershell
     Enable-UMMailbox -Identity tonysmith@contoso.com -UMMailboxPolicy MyUMMailboxPolicy -Extensions 51234 -PIN 5643892 -NotifyEmail administrator@contoso.com -PINExpired $true
+```
 
 Sie können gegebenenfalls einen Benutzer konfigurieren, der mit der Exchange-Verwaltungskonsole für UM aktiviert wurde:
 
@@ -520,7 +540,9 @@ Sie können gegebenenfalls einen Benutzer konfigurieren, der mit der Exchange-Ve
 
 Sie können gegebenenfalls in der Shell mit dem folgenden Befehl einen Benutzer konfigurieren, der für UM aktiviert ist.
 
+```powershell
     Set-UMMailbox -Identity tony@contoso.com -CallAnsweringAudioCodec Wma -CallAnsweringRulesEnabled $false -FaxEnabled $false -UMSMSNotificationOption VoiceMail
+```
 
 ## Schritt 13: Konfigurieren der VoIP-Gateways, IP-PBX-Anlagen und SIP-aktivierten Nebenstellenanlagen für das Senden aller eingehenden Anrufe an die Exchange 2013-Clientzugriffsserver
 
@@ -588,10 +610,12 @@ So entfernen Sie einen Exchange 2007 UM-Server aus einem Wählplan mithilfe der 
 
 Führen Sie den folgenden Befehl, um eine Exchange 2007 Unified MESSAGING-Server mithilfe der Shell aus einem Wählplan zu entfernen.
 
+```powershell
     $dp= Get-UMDialPlan "MySIPDialPlan"
     $s=Get-UMServer -id MyUMServer
     $s.dialplans-=$dp.identity
     Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```
 
 In diesem Beispiel sind drei SIP-UIR-Wählpläne vorhanden: SipDP1, SipDP2 und SipDP3. In diesem Beispiel wird ein UM-Server mit dem Namen `MyUMServer` aus dem Wählplan "SipDP3" entfernt.
 

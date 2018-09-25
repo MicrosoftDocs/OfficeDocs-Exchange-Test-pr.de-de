@@ -68,7 +68,7 @@ Um eine Server-zu-Server-Authentifizierung für eine lokale Implementierung von 
     > [!WARNING]  
     > Kopieren und Fügen Sie den Code in einen Text-Editor wie Notepad ein, speichern Sie die Datei dann mit der Erweiterung .PS1, so wird das Ausführen von Shellskripts vereinfacht.
 
-    ```   
+    ```powershell   
     # Make sure to update the following $tenantDomain with your Office 365 tenant domain.
     
     $tenantDomain = "Fabrikam.com"
@@ -132,7 +132,7 @@ Um eine Server-zu-Server-Authentifizierung für eine lokale Implementierung von 
     
     Das erwartete Ergebnis sollte der folgenden Ausgabe ähnlich sein.
     
-    ```
+    ```powershell
         Configured Certificate Thumbprint is: 7595DBDEA83DACB5757441D44899BCDB9911253C
         Exporting certificate...
         Complete.
@@ -144,7 +144,7 @@ Um eine Server-zu-Server-Authentifizierung für eine lokale Implementierung von 
 
   - **Schritt 2 – Konfigurieren von Office 365 zum Kommunizieren mit lokalem Exchange 2013.** Den Office 365-Server so konfigurieren, dass er als Partneranwendung mit Exchange Server 2013 kommuniziert. Wenn beispielsweise ein lokaler Exchange Server 2013 mit Office 365 kommuniziert, müssen Sie den lokalen Exchange-Server als Partneranwendung konfigurieren. Bei einer Partneranwendung handelt es sich um eine Anwendung, die direkt Sicherheitstoken mit Exchange 2013 austauscht, ohne dafür einen Sicherheitstokenserver eines Drittanbieters verwenden zu müssen. Ein Administrator eines lokalen Exchange 2013-Servers muss folgendes Exchange-Verwaltungsshellskript verwenden, um den Office 365-Mandanten so zu konfigurieren, dass als Partneranwendung mit Exchange 2013 kommuniziert. Während der Ausführung erscheint eine Aufforderung zur Eingabe des Administrator-Benutzernamens und des Kennworts der Office 365-Mandantendomäne—z. B. administrator@fabrikam.com. Stellen Sie sicher, den Wert der *$CertFile* auf den Speicherort des Zertifikats zu aktualisieren, falls dies noch nicht mit dem vorherigen Skript geschehen ist. Dazu kopieren Sie und fügen Sie den folgenden Code ein.
     
-    ```
+    ```powershell
     # Make sure to update the following $CertFile with the path to the cert if not using the previous script.
     
     $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
@@ -179,7 +179,7 @@ Um eine Server-zu-Server-Authentifizierung für eine lokale Implementierung von 
     
     Das erwartete Ergebnis sollte wie folgt aussehen.
     
-    ```
+    ```powershell
     Please enter the administrator user name and password of the Office 365 tenant domain...
     Adding a key to Service Principal...
     Complete.
@@ -189,11 +189,14 @@ Um eine Server-zu-Server-Authentifizierung für eine lokale Implementierung von 
 
 Nachdem die OAuth-Authentifizierung erfolgreich mit den zuvor erläuterten Schritten eingerichtet wurde, muss ein lokaler Administrator die Proxyfunktion für Pushbenachrichtigungen mit folgendem Skript aktivieren. Stellen Sie sicher, den Wert der *$tenantDomain* entsprechend des Namens Ihrer Domäne zu aktualisieren. Dazu kopieren Sie und fügen Sie den folgenden Code ein.
 
+```powershell
     $tenantDomain = "Fabrikam.com"
     Enable-PushNotificationProxy -Organization:$tenantDomain
+```
 
 Das erwartete Ergebnis sollte der folgenden Ausgabe ähnlich sein.
 
+```powershell
     RunspaceId        : 4f2eb5cc-b696-482f-92bb-5b254cd19d60
     DisplayName       : On Premises Proxy app
     Enabled           : True
@@ -216,6 +219,8 @@ Das erwartete Ergebnis sollte der folgenden Ausgabe ähnlich sein.
     OriginatingServer : server.fabrikam.com
     ObjectState       : Unchanged
 
+```
+
 ## Prüfen Sie die Pushbenachrichtigungen
 
 Nachdem Sie die zuvor aufgeführten Schritte abgeschlossen haben, können Sie die Pushbenachrichtigungsfunktion folgendermaßen testen:
@@ -232,6 +237,7 @@ Nachdem Sie die zuvor aufgeführten Schritte abgeschlossen haben, können Sie di
 
   - **Aktivieren der Überwachung.** Hierbei handelt es sich um eine alternative Methode zum Testen von Pushbenachrichtigungen oder zum Untersuchen der Fehlerursache, falls keine Benachrichtigungen ankommen. Darüber wird die Überwachung eines Postfachservers in Ihrer Organisation aktiviert. Der Administrator eines lokalen Exchange 2013-Servers muss die Proxyüberwachung für Pushbenachrichtigungen mit folgendem Skript aufrufen. Dazu kopieren Sie und fügen Sie den folgenden Code ein.
     
+    ```powershell
         # Send a push notification to verify connectivity.
         
         $s = Get-ExchangeServer | ?{$_.ServerRole -match "Mailbox"}
@@ -253,10 +259,13 @@ Nachdem Sie die zuvor aufgeführten Schritte abgeschlossen haben, können Sie di
         {
             Write-Error "Cannot find a Mailbox server in the current site."
         }
+    ```
     
     Das erwartete Ergebnis sollte der folgenden Ausgabe ähnlich sein.
     
+    ```powershell
         ResultType : Succeeded
         Error      :
         Exception  :
-
+    ```
+    

@@ -66,8 +66,8 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Generierung von Gruppe
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
-```
+    Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+    ```
 
 2.  Überprüfen Sie, ob die angezeigte Einstellung der Einstellung entspricht, die Sie konfiguriert haben.
 

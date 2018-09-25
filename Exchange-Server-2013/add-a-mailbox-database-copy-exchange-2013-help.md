@@ -79,7 +79,9 @@ Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 
 
 In diesem Beispiel wird dem Postfachserver "MBX5" eine Kopie der Postfachdatenbank "DB3" hinzugefügt. Die Wiedergabeverzögerung wird auf 3 Tage festgelegt und die Abschneideverzögerung auf dem Standardwert 0 belassen, während die Aktivierungseinstellung mit dem Wert `4` konfiguriert wird.
 
+```powershell
     Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX5 -ReplayLagTime 3.00:00:00 -ActivationPreference 4
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -90,9 +92,9 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Erstellung einer Postfachdate
   - Führen Sie in der Shell den folgenden Befehl aus, um sicherzustellen, dass die Postfachdatenbankkopie erstellt wurde und sich in einem fehlerfreien Zustand befindet:
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
-```
-    
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```
+        
     Status und Inhaltsindexzustand sollten beide den Wert Fehlerfrei anzeigen.
 
 ## Weitere Informationen

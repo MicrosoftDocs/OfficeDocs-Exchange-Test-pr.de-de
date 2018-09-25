@@ -21,7 +21,7 @@ Sie können das Skript „RollAlternateserviceAccountCredential.ps1“ in Exchan
 
 
 > [!NOTE]
-> Skripts werden in der Exchange-Verwaltungshell nicht automatisch geladen. Sie müssen allen Skripts die Zeichen „<STRONG>.\</STRONG>“ voranstellen. Geben Sie z.&nbsp;B. <CODE>.\RollAlternateServiceAccountPassword.ps1</CODE> ein, um das Skript „RollAlternateserviceAccountCredential.ps1“ auszuführen.
+> Skripts werden in der Exchange-Verwaltungshell nicht automatisch geladen. Sie müssen allen Skripts die Zeichen „.\“ voranstellen. Geben Sie z.&nbsp;B. <CODE>.\RollAlternateServiceAccountPassword.ps1</CODE> ein, um das Skript „RollAlternateserviceAccountCredential.ps1“ auszuführen.
 
 
 
@@ -35,7 +35,9 @@ Weitere Informationen zum Verwenden und Schreiben von Skripts finden Sie unter [
 
 ## Syntax
 
+```powershell
     RollAlternateServiceAccountPassword.ps1 -Scope <Object> -Identity <Object> -Source <Object> -
+```
 
 ## Detaillierte Beschreibung
 
@@ -91,7 +93,9 @@ Sie sollten das Skript ausführen und sicherstellen, dass es im beaufsichtigten 
 
 Wenn Sie das Skript interaktiv mit dem Flag "-verbose" ausführen, sollte die Ausgabe angeben, welche Skriptoperationen erfolgreich waren. Zur Bestätigung, dass die Clientzugriffsserver aktualisiert wurden, können Sie den letzten geänderten Zeitstempel in den ASA-Anmeldeinformationen überprüfen. Im folgenden Beispiel wird eine Liste mit Clientzugriffsservern und dem letzten Zeitpunkt generiert, an dem das alternative Dienstkonto aktualisiert wurde.
 
+```powershell
     Get-ClientAccessServer -IncludeAlternateServiceAccountCredentialstatus |Fl Name, AlternateServiceAccountConfiguration
+```
 
 Sie können auch das Ereignisprotokoll auf dem Computer prüfen, auf dem das Skript ausgeführt wird. Die Ereignisprotokolleinträge für das Skript befinden sich im Anwendungsereignisprotokoll und stammen aus der Quell-*MSExchange Management Application*.In der folgenden Tabelle sind die protokollierten Ereignisse und ihre Bedeutung aufgelistet.
 
@@ -238,9 +242,9 @@ Sie können anhand des Protokolls erkennen, dass der Task erfolgreich ausgeführ
 ## Beispiel 1
 
 In diesem Beispiel wird das Skript verwendet, um die Anmeldeinformationen für das erste Setup per Push an alle Clientzugriffsserver in der Gesamtstruktur zu verteilen.
-
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToEntireForest -GenerateNewPasswordFor "Contoso\ComputerAccount$" -Verbose
-
+```
 ## Beispiel 2
 
 In diesem Beispiel wird ein neues Kennwort für ASA-Anmeldeinformationen eines Benutzerkontos generiert und das Kennwort an alle Mitglieder des Clientzugriffsserver-Arrays verteilt, bei deren Namen eine Übereinstimmung mit \*mailbox\* erkannt wird.
@@ -250,20 +254,21 @@ In diesem Beispiel wird ein neues Kennwort für ASA-Anmeldeinformationen eines B
 ## Beispiel 3
 
 In diesem Beispiel wird ein einmal pro Monat geplanter automatischer Task namens "Exchange-RollAsa" geplant. Er aktualisiert die ASA-Anmeldeinformationen für alle Clientzugriffsserver in der Gesamtstruktur anhand eines neuen, skriptgenerierten Kennworts. Der geplante Task wird erstellt, aber das Skript wird nicht ausgeführt. Wenn der geplante Task ausgeführt wird, wird das Skript im unbeaufsichtigten Modus ausgeführt.
-
+```powershell
     .\RollAlternateServiceAccountPassword.ps1 -CreateScheduledTask "Exchange-RollAsa" -ToEntireForest -GenerateNewPasswordFor 'contoso\computerAccount$'
-
+```
 ## Beispiel 4
 
 In diesem Beispiel werden die ASA-Anmeldeinformationen für alle Clientzugriffsserver im Clientzugriffsserver-Array "CAS01" aktualisiert. Die Anmeldeinformationen werden vom Active Directory-Computerkonto "ServiceAc1" in der Domäne "Contoso" abgerufen.
-
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers "CAS01" -GenerateNewPasswordFor "CONTOSO\ServiceAc1$" 
-
+```
 ## Beispiel 5
 
 In diesem Beispiel wird gezeigt, wie Sie das Skript verwenden können, um ASA-Anmeldeinformationen an einen neuen Computer zu verteilen oder an einen Computer, der wieder in Dienst genommen wird, wenn Sie beispielsweise Ihr Serverarray vergrößert haben oder Arraymitglieder nach der Wartung wieder zum Array hinzufügen.
 
 Sie müssen die ASA-Anmeldeinformationen aktualisieren, bevor der Clientzugriffsserver Datenverkehr empfängt. Kopieren Sie die freigegebenen ASA-Anmeldeinformationen von einem bereits richtig konfigurierten Clientzugriffsserver. Wenn Server A beispielsweise aktuell über funktionierende ASA-Anmeldeinformationen verfügt und Sie Server B gerade dem Array hinzugefügt haben, können Sie die Anmeldeinformationen (einschließlich Kennwort) mithilfe des Skripts von Server A nach Server B kopieren. Dies ist hilfreich, wenn Server B heruntergefahren oder bei der letzten Änderung des Kennworts noch kein Mitglied des Arrays war.
 
+```powershell
     .\RollAlternateServiceAccountPassword.ps1 -CopyFrom ServerA -ToSpecificServers ServerB -Verbose
-
+```

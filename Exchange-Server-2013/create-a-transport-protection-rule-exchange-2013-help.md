@@ -77,8 +77,8 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf die Verwaltung von In
   - In Ihrer AD RMS-Bereitstellung müssen RMS-Vorlagen vorhanden sein, um eine Transportschutzregel erstellen zu können. In diesem Beispiel werden die verfügbaren Vorlagen vom AD RMS-Cluster abgerufen.
     
     ```powershell
-Get-RMSTemplate | format-list
-```
+    Get-RMSTemplate | format-list
+    ```
     
     Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-RMSTemplate](https://technet.microsoft.com/de-de/library/dd297960\(v=exchg.150\)).
 
@@ -88,8 +88,9 @@ Get-RMSTemplate | format-list
     > [!NOTE]
     > In diesem Beispiel wird das Prädikat <CODE>SubjectContainsWords</CODE> verwendet. Sie können eine beliebige Kombination von Transportregelprädikaten verwenden, um Bedingungen und Ausnahmen für die Regel zu bilden. Informationen über die verfügbaren Prädikate finden Sie unter <A href="mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md">Transportregelbedingungen (Prädikate)</A>.
 
-    
+    ```powershell
         New-TransportRule -Name "Protect-BusinessCriticalProject" -SubjectContainsWords "Business Critical" -ApplyRightsProtectionTemplate "Do Not Forward"
+    ```
     
     Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-TransportRule](https://technet.microsoft.com/de-de/library/bb125138\(v=exchg.150\)).
 

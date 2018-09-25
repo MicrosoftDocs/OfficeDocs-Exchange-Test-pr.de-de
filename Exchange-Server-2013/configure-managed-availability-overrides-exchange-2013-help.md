@@ -49,12 +49,15 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit verwalteter Ve
 
 Verwenden Sie zu Erstellen einer lokalen Überschreibung die folgende Syntax.
 
+```powershell
     Add-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertyName> -PropertyValue <Value> -Duration <dd.hh:mm:ss>
+```
 
 Verwenden Sie zu Erstellen einer lokalen Überschreibung für eine bestimmte Version von Exchange die folgende Syntax.
 
+```powershell
     Add-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertyName> -PropertyValue <Value> -Version <15.01.xxxx.xxx>
-
+```
 
 > [!NOTE]
 > Beachten Sie beim Erstellen der Überschreibung die Groß-/Kleinschreibung in den im <EM>Identity</EM>-Parameter verwendeten Werten.
@@ -63,13 +66,17 @@ Verwenden Sie zu Erstellen einer lokalen Überschreibung für eine bestimmte Ver
 
 In diesem Beispiel wird eine lokale Überschreibung hinzugefügt, die den `ActiveDirectoryConnectivityConfigDCServerReboot`-Antwortdienst auf dem Server mit dem Namen „EXCH03“ für 20 Tage deaktiviert.
 
+```powershell
     Add-ServerMonitoringOverride -Server EXCH03 -Identity "AD\ActiveDirectoryConnectivityConfigDCServerReboot" -ItemType Responder -PropertyName Enabled -PropertyValue 0 -Duration 20.00:00:00
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Um zu überprüfen, ob die lokale Überschreibung erfolgreich erstellt wurde, verwenden Sie das **Get-ServerMonitoringOverride**-Cmdlet zum Anzeigen der Liste mit lokalen Überschreibungen:
 
+```powershell
     Get-ServerMonitoringOverride  -Server <ServerIdentity> | Format-List
+```
 
 Die Überschreibung sollte in der Liste angezeigt werden.
 
@@ -77,17 +84,23 @@ Die Überschreibung sollte in der Liste angezeigt werden.
 
 Verwenden Sie die folgende Syntax, um eine lokale Überschreibung zu entfernen.
 
+```powershell
     Remove-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <ExistingItemTypeValue> -PropertyName <PropertytoRemove>
+```
 
 In diesem Beispiel wird die vorhandene lokale Überschreibung des `ActiveDirectoryConnectivityConfigDCServerReboot`-Antwortdiensts im Exchange-Integritätssatz vom Server „EXCH01“ entfernt.
 
+```powershell
     Remove-ServerMonitoringOverride -Server EXCH01 -Identity Exchange\ActiveDirectoryConnectivityConfigDCServerReboot -ItemType Responder -PropertyName Enabled
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Um zu überprüfen, ob die lokale Überschreibung erfolgreich entfernt wurde, verwenden Sie das **Get-ServerMonitoringOverride**-Cmdlet zum Anzeigen der Liste mit lokalen Überschreibungen:
 
+```powershell
     Get-ServerMonitoringOverride  -Server <ServerIdentity> | Format-List
+```
 
 Die entfernte Überschreibung sollte nicht mehr in der Liste angezeigt werden.
 
@@ -95,11 +108,15 @@ Die entfernte Überschreibung sollte nicht mehr in der Liste angezeigt werden.
 
 Verwenden Sie zu Erstellen einer globalen Überschreibung die folgende Syntax.
 
+```powershell
     Add-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertytoOverride> -PropertyValue <NewPropertyValue> -Duration <dd.hh:mm:ss>
+```
 
 Verwenden Sie zu Erstellen einer globalen Überschreibung für eine bestimmte Version von Exchange die folgende Syntax.
 
+```powershell
     Add-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertytoOverride> -PropertyValue <NewPropertyValue> -ApplyVersion <15.01.xxxx.xxx>
+```
 
 
 > [!NOTE]
@@ -109,11 +126,15 @@ Verwenden Sie zu Erstellen einer globalen Überschreibung für eine bestimmte Ve
 
 In diesem Beispiel wird eine globale Überschreibung hinzugefügt, die den `OnPremisesInboundProxy`-Test für 30 Tage deaktiviert.
 
+```powershell
     Add-GlobalMonitoringOverride -Identity "FrontendTransport\OnPremisesInboundProxy" -ItemType Probe -PropertyName Enabled -PropertyValue 0 -Duration 30.00:00:00
+```
 
 In diesem Beispiel wird eine globale Überschreibung hinzugefügt, die den `StorageLogicalDriveSpaceEscalate`-Antwortdienst für alle Server mit Exchange Version 15.01.0225.042 deaktiviert.
 
+```powershell
     Add-GlobalMonitoringOverride -Identity "MailboxSpace\StorageLogicalDriveSpaceEscalate" -PropertyName Enabled -PropertyValue 0 -ItemType Responder -ApplyVersion "15.01.0225.042"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -129,11 +150,15 @@ Die Überschreibung sollte in der Liste angezeigt werden.
 
 Verwenden Sie die folgende Syntax, um eine globale Überschreibung zu entfernen.
 
+```powershell
     Remove-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <ExistingItemTypeValue> -PropertyName <OverriddenProperty>
+```
 
 In diesem Beispiel wird die vorhandene globale Überschreibung der `ExtensionAttributes`-Eigenschaft des `OnPremisesInboundProxy`-Tests im `FrontEndTransport`-Integritätssatz entfernt.
 
+```powershell
     Remove-GlobalMonitoringOverride -Identity FrontEndTransport\OnPremisesInboundProxy -ItemType Probe -PropertyName ExtensionAttributes
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

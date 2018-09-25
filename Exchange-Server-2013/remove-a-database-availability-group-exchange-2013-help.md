@@ -64,8 +64,8 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die DAG erfolgreich entf
   - Führen Sie in der Shell den folgenden Befehl aus, um zu überprüfen, ob die DAG weiterhin vorhanden ist:
     
     ```powershell
-Get-DatabaseAvailabilityGroup <DAGName>
-```
+    Get-DatabaseAvailabilityGroup <DAGName>
+    ```
     
     Wenn die DAG erfolgreich gelöscht wurde, werden Sie bei Ausführung dieses Befehls in einer Fehlermeldung darauf hingewiesen, dass das Objekt nicht gefunden wurde.
 

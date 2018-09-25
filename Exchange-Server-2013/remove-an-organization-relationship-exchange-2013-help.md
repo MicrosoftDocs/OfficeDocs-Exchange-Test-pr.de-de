@@ -58,8 +58,8 @@ Führen Sie eine der folgenden Aktionen aus, um zu überprüfen, dass Sie die Or
   - Führen Sie den folgenden Shell-Befehl aus, um zu überprüfen, dass die Organisationsbeziehung entfernt wurde.
     
     ```powershell
-Get-OrganizationRelationship | Format-List
-```
+    Get-OrganizationRelationship | Format-List
+    ```
 
 
 > [!TIP]

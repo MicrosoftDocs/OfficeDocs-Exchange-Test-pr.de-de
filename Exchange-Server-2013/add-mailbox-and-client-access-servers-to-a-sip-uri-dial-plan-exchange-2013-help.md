@@ -57,7 +57,9 @@ Zusätzliche Verwaltungsaufgaben im Zusammenhang mit UM-Wählplänen finden Sie 
 
 In diesem Beispiel wird der Postfachserver `MyMailboxServer` einem SIP-URI-Wählplan namens `MySIPDialPlan` hinzugefügt und für die Annahme neuer Anrufe gesperrt. Außerdem wird der Startmodus auf den Dualmodus festgelegt. Dies ermöglicht dem Postfachserver das Akzeptieren von TCP- und TLS-Anforderungen.
 
+```powershell
     Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan -Status Disabled -UMStartupMode Dual
+```
 
 In diesem Beispiel wird der Postfachserver `MyMailboxServer` zwei SIP-Wählplänen namens `MySIPDialPlan` und `MySIPDialPlan2` hinzugefügt. Ferner werden folgende Einstellungen festgelegt:
 
@@ -69,7 +71,9 @@ In diesem Beispiel wird der Postfachserver `MyMailboxServer` zwei SIP-Wählplän
 
 <!-- end list -->
 
+```powershell
     Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -MaxCallsAllowed 50 -SipAccessService northamerica.lyncpoolna.contoso.com
+```
 
 ## Mit der Exchange-Verwaltungskonsole einen Clientzugriffsserver zu einem SIP-URI-Wählplan hinzufügen
 
@@ -93,5 +97,6 @@ Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -
 
 In diesem Beispiel wird der Clientzugriffsserver `MyClientAccessServer` zu zwei SIP-Wählplänen mit der Bezeichnung `MySIPDialPlan` und `MySIPDialPlan2` hinzugefügt, und der Server kann IPv4- und IPv6-Addressen verwenden.
 
+```powershell
     Set-UMCallRouterSettings -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -Server MyClientAccessServer
-
+```

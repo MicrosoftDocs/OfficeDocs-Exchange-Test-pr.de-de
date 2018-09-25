@@ -116,7 +116,9 @@ Die folgende Abbildung zeigt die Beziehung zwischen dem verknüpften Benutzerkon
 
 In diese Beispiel wird ein verknüpftes Postfach für Ayla Kol in der Exchange-Ressourcengesamtstruktur CONTOSO erstellt. Die Domäne FABRIKAM befindet sich in der Kontogesamtstruktur. Das Administratorkonto "FABRIKAM \\administrator" wird für den Zugriff auf den verknüpften Domänencontroller verwendet.
 
+```powershell
     New-Mailbox -Name "Ayla Kol" -LinkedDomainController "DC1_FABRIKAM" -LinkedMasterAccount " FABRIKAM\aylak" -OrganizationalUnit Users -UserPrincipalName aylak@contoso.com -LinkedCredential:(Get-Credential FABRIKAM\administrator)
+```
 
 Informationen zu Syntax und Parametern finden Sie unter [New-Mailbox](https://technet.microsoft.com/de-de/library/aa997663\(v=exchg.150\)).
 
@@ -129,8 +131,8 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Erstellung ein
   - Führen Sie in der Shell den folgenden Befehl aus, um Informationen zum neuen verknüpften Postfach anzuzeigen.
     
     ```powershell
-Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
-```
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+    ```
 
 ## Ändern der Eigenschaften eines verknüpften Postfachs
 
@@ -378,15 +380,21 @@ Im Folgenden finden Sie einige Beispiele, wie Sie Eigenschaften von verknüpften
 
 In diesem Beispiel wird der Befehl **Get-Mailbox** verwendet, um alle verknüpften Postfächer in der Organisation zu finden.
 
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')}
+```
 
 In diesem Beispiel wird der Befehl **Set-Mailbox** verwendet, um die Anzahl von Empfängern in den Zeilen "An:", "Cc:" und "Bcc:" einer E-Mail auf 500 zu begrenzen. Diese Beschränkung gilt für alle verknüpften Postfächer in der Organisation.
 
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | Set-Mailbox -RecipientLimits 500
+```
 
 In diesem Beispiel wird das verknüpfte Hauptkonto in der Kontogesamtstruktur "fabrikam.com" geändert, das einem verknüpften Postfach in einer Exchange-Gesamtstruktur zugeordnet ist.
 
+```powershell
     Set-Mailbox -Identity "Ayla Kol" -LinkedDomainController DC1.fabrikam.com -LinkedMasterAccount "fabrikam\robinw" -LinkedCredential:(Get-Credential fabrikam\administrator)
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -396,11 +404,13 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Eigenschaften eines ve
 
   - In der Shell verwenden Sie das Cmdlet **Get-Mailbox**, um die Änderungen zu überprüfen. Ein Vorteil der Shell liegt darin, dass Sie mehrere Eigenschaften für mehrere verknüpfte Postfächer anzeigen können. Im oben stehenden Beispiel, in dem die Empfängergrenzwert geändert wurde, können Sie den neuen Wert mit folgenden Befehl überprüfen:
     
+    ```powershell
         Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | fl Name,RecipientLimits
+    ```
     
     Im oben stehenden Beispiel, in dem das verknüpfte Hauptkonto geändert wurde, können Sie den neuen Wert mit folgenden Befehl überprüfen.
     
     ```powershell
-Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
-```
+    Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```
 

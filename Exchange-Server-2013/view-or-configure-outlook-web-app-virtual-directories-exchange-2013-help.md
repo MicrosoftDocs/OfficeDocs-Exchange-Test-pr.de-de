@@ -133,7 +133,9 @@ Wenn Sie die Exchange-Verwaltungskonsole zum Anzeigen der Eigenschaften eines vi
 
 In diesem Beispiel wird die formularbasierte Authentifizierung im virtuellen Outlook Web App-Standardverzeichnis auf dem Server "Contoso" aktiviert.
 
+```powershell
     set-OwaVirtualDirectory -Identity "Contoso\owa (default web site)" -FormsAuthentication $true
+```
 
 Weitere Informationen zu Syntax und Parametern finden Sie unter [Set-OwaVirtualDirectory](https://technet.microsoft.com/de-de/library/bb123515\(v=exchg.150\)).
 
@@ -147,7 +149,9 @@ Get-OWAVirtualDirectory
 
 In diesem Beispiel können Sie die Eigenschaften für ein virtuelles Outlook Web App-Verzeichnis auf der IIS-Standardwebsite auf einem lokalen Exchange-Server anzeigen.
 
+```powershell
     Get-OWAVirtualDirectory -identity "<Exchange Server Name>\owa (default web site)"
+```
 
 In diesem Beispiel können Sie die Eigenschaften für alle virtuellen Outlook Web App-Verzeichnisse auf einer IIS-Website auf einem bestimmten Exchange-Server anzeigen.
 

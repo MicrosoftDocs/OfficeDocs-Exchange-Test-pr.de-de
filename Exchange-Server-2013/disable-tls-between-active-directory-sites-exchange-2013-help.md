@@ -79,7 +79,9 @@ Set-TransportService Mailbox01 -UseDowngradedExchangeServerAuth $true
 
 Führen Sie zum Erstellen eines Empfangsconnectors auf dem Postfachserver den folgenden Befehl aus:
 
+```powershell
     New-ReceiveConnector -Name <Name> -Server <ServerIdentity> -RemoteIPRanges <IPAddressRange> -Internal
+```
 
 In diesem Beispiel wird der Empfangsconnector namens "WAN" auf dem Server "Mailbox01" mit folgenden Einstellungen erstellt:
 
@@ -103,7 +105,9 @@ Set-ReceiveConnector <ReceiveConnectorIdentity> -SuppressXAnonymousTLS $true
 
 In diesem Beispiel wird TLS auf dem Empfangsconnector "WAN" auf dem Postfachserver "Mailbox01" deaktiviert.
 
+```powershell
     Set-ReceiveConnector Mailbox01\WAN -SuppressXAnonymousTLS $true
+```
 
 ## Schritt 4: Festlegen der Active Directory-Standorte als Hubstandorte mithilfe der Shell
 

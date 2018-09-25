@@ -83,7 +83,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailb
 
 In diesem Beispiel wird für das Postfach von April Stewart ein Kontingent für wiederherstellbare Elemente von 15 GB konfiguriert. Zudem wird festgelegt, dass bei einer Größe von 12 GB eine Warnung zu diesem Kontingent für wiederherstellbare Elemente angezeigt wird.
 
+```powershell
     Set-Mailbox -Identity "April Stewart" -RecoverableItemsWarningQuota 12GB -RecoverableItemsQuota 15GB -UseDatabaseQuotaDefaults $false
+```
 
 
 > [!NOTE]

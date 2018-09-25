@@ -79,7 +79,9 @@ Set-PopSettings -Identity CAS01 -MaxConnectionsFromSingleIP Value
 
 In diesem Beispiel wird das Verbindungslimit für einen Benutzer festgelegt.
 
+```powershell
     Set-PopSettings -MaxConnectionsPerUser Value 
+```
 
 In diesem Beispiel wird die maximale Größe eines Befehls festgelegt.
 
@@ -101,7 +103,7 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass die Verbindungslimits richtig 
 
 3.  Klicken Sie auf der Seite mit den Servereigenschaften auf **POP3**.
 
-4.  Führen Sie einen Bildlauf nach unten durch, und klicken Sie auf **Weitere Optionen**.
+4.  Führen Sie einen Bildlauf nach unten durch, und klicken Sie auf **Weitere Optionen**.\
 
 5.  Überprüfen Sie unter **Verbindungslimits**, ob die Verbindungseinstellungen korrekt sind.
 
@@ -110,8 +112,8 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass die Verbindungslimits richtig 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
     ```powershell
-Get-PopSettings | format-list
-```
+    Get-PopSettings | format-list
+    ```
 
 2.  Stellen Sie sicher, dass die Verbindungseinstellungen korrekt sind.
 

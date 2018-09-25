@@ -67,8 +67,10 @@ Wenn eine Verteilergruppe erstellt und im AD RMS-Cluster als Administratorengrup
     
     In diesem Beispiel wird das Verbundpostfach der Verteilergruppe "ADRMSSuperUsers" hinzugefügt.
     
+    ```powershell
         Add-DistributionGroupMember ADRMSSuperUsers -Member FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042
-
+    ```
+    
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Add-DistributionGroupMember](https://technet.microsoft.com/de-de/library/bb124340\(v=exchg.150\)).
 
 ## Schritt 2: Verwenden von AD RMS zum Einrichten einer Administratorengruppe
@@ -101,8 +103,8 @@ Nachdem Sie mithilfe von AD RMS eine Gruppe mit Administratorrechten eingericht
     > [!IMPORTANT]
     > Das PowerShell-Modul "ADRMSAdmin" ist unter Windows Server 2008 R2 oder neueren Versionen verfügbar.
 
-    
+    ```powershell    
         Import-Module ADRMSAdmin
         New-PSDrive -Name MyRmsAdmin -PsProvider AdRmsAdmin -Root https://localhost 
         Get-ItemProperty -Path MyRmsAdmin:\SecurityPolicy\SuperUser
-
+    ```

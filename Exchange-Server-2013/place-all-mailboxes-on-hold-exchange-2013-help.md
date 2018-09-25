@@ -105,7 +105,9 @@ Im Folgenden finden Sie einige Informationen, die berücksichtigt werden sollten
 
 Sie können mithilfe der Shell alle Postfächer schnell und einfach für einen bestimmten oder unbestimmten Zeitraum im Archiv platzieren. Mit diesem Befehl werden alle Postfächer für 2.555 Tage (etwa 7 Jahre) im Archiv platziert.
 
+```powershell
     Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```
 
 Im Beispiel werden das Cmdlet [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)) und ein Empfängerfilter zum Abrufen sämtlicher Benutzerpostfächer in der Organisation verwendet. Anschließend wird die Liste der Postfächer an das Cmdlet [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)) umgeleitet, um das Beweissicherungsverfahren zu aktivieren und um eine Dauer des Beweissicherungsverfahrens anzugeben. Weitere Informationen finden Sie unter [Aktivieren des Beweissicherungsverfahrens für ein Postfach](place-a-mailbox-on-litigation-hold-exchange-2013-help.md).
 
@@ -129,28 +131,27 @@ Sie können mithilfe des EAC bis 500 Postfächer auswählen und im Archiv platzi
     
     Hier sind einige Beispiele dafür, wie mit den Cmdlets **Get-Mailbox** und **Get-Recipient** eine Teilmenge an Postfächern basierend auf allgemeinen Benutzer- oder Postfacheigenschaften zurückgegeben wird. In diesen Beispielen wird davon ausgegangen, dass entsprechende Postfacheigenschaften (wie *CustomAttributeN* oder *Department*) aufgefüllt wurden.
     
-    ```
+    ```powershell
         Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
     ```
 
-    ```
+    
     ```powershell
-Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
-```
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
     ```
     
-    ```
+    ```powershell
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
     ```
     
-    ```
+    ```powershell
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
     ```
 
-    ```
+    
     ```powershell
-Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
-```
+    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
     ```
+    
 
     <p>Sie können andere Benutzerpostfacheigenschaften in einem Filter verwenden, um Postfächer einzubeziehen bzw. auszuschließen. Weitere Informationen finden Sie unter <a href="https://technet.microsoft.com/de-de/library/bb738155\(v=exchg.150\)">Filterbare Eigenschaften für den Parameter „-Filter“</a>.</p>

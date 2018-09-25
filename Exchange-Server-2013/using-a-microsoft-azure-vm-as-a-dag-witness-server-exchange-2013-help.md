@@ -189,6 +189,7 @@ Im Azure-Verwaltungsportal können Sie derzeit kein VPN mit mehreren Standorten 
 
 Öffnen Sie die exportierte Datei in einem beliebigen XML-Editor. Die Gatewayverbindungen zu Ihren lokalen Standorten sind im Abschnitt „ConnectionsToLocalNetwork“ aufgeführt. Suchen Sie in der XML-Datei nach diesem Begriff, um den Abschnitt zu finden. Dieser Abschnitt in der Konfigurationsdatei sieht wie folgt aus (vorausgesetzt, dass der Standortname, den Sie für Ihren lokalen Standort erstellt haben, „Site A“ lautet).
 
+```powershell
     <ConnectionsToLocalNetwork>
     
         <LocalNetworkSiteRef name="Site A">
@@ -196,9 +197,11 @@ Im Azure-Verwaltungsportal können Sie derzeit kein VPN mit mehreren Standorten 
             <Connection type="IPsec" />
     
     </LocalNetworkSiteRef>
+```
 
 Fügen Sie zum Konfigurieren des zweiten Standorts einen weiteren Abschnitt „LocalNetworkSiteRef“ unter dem Abschnitt „ConnectionsToLocalNetwork“ hinzu. Der Abschnitt in der aktualisierten Konfigurationsdatei sieht wie folgt aus (unter der Annahmen, dass der Standortname für den zweiten lokalen Standort „Site B“ lautet).
 
+```powershell
     <ConnectionsToLocalNetwork>
     
         <LocalNetworkSiteRef name="Site A">
@@ -210,6 +213,7 @@ Fügen Sie zum Konfigurieren des zweiten Standorts einen weiteren Abschnitt „L
             <Connection type="IPsec" />
     
     </LocalNetworkSiteRef>
+```
 
 Speichern Sie die aktualisierte Datei mit den Konfigurationseinstellungen.
 
@@ -227,9 +231,12 @@ Sie müssen PowerShell verwenden, um die vorinstallierten Schlüssel abzurufen. 
 
 Verwenden Sie das Cmdlet [Get-AzureVNetGatewayKey](http://msdn.microsoft.com/de-de/library/azure/dn495198.aspx), um die vorinstallierten Schlüssel zu extrahieren. Führen Sie dieses Cmdlet für jeden Tunnel einmal aus. Das folgende Beispiel zeigt die Befehle, die Sie ausführen, um die Schlüssel für Tunnel zwischen dem virtuellen Netzwerk „Azure Site“ und den Standorten „Site A“ und „Site B“ zu extrahieren. In diesem Beispiel werden die Ausgaben in separaten Dateien gespeichert. Alternativ können Sie diese Schlüssel an andere PowerShell-Cmdlets weiterleiten oder in einem Skript verwenden.
 
+```powershell
     Get-AzureVNETGatewayKey -VNetName "Azure Site" -LocalNetworkSiteName "Site A" > C:\Keys\KeysForTunnelToSiteA.txt 
-    
+```
+```powershell
     Get-AzureVNETGatewayKey -VNetName "Azure Site" -LocalNetworkSiteName "Site B" > C:\Keys\KeysForTunnelToSiteB.txt
+```
 
 ## Konfigurieren der lokalen VPN-Geräte
 
@@ -265,10 +272,13 @@ Für andere Geräte sind möglicherweise zusätzliche Überprüfungen erforderli
 
 An diesem Punkt sind beide Standorte über die VPN-Gateways mit Ihrem virtuellen Azure-Netzwerk verbunden. Sie können den Status des VPN mit mehreren Standorten mithilfe des folgenden Befehls in PowerShell überprüfen.
 
+```powershell
     Get-AzureVnetConnection -VNetName "Azure Site" | Format-Table LocalNetworkSiteName, ConnectivityState
+```
 
 Wenn beide Tunnel ausgeführt werden, sieht die Ausgabe dieses Befehls wie folgt aus.
 
+```powershell
     LocalNetworkSiteName    ConnectivityState
     
     --------------------    -----------------
@@ -276,6 +286,7 @@ Wenn beide Tunnel ausgeführt werden, sieht die Ausgabe dieses Befehls wie folgt
     Site A                  Connected
     
     Site B                  Connected
+```
 
 Sie können auch die Konnektivität überprüfen, indem Sie das Dashboard des virtuellen Netzwerks im Azure-Verwaltungsportal anzeigen. In der Spalte **STATUS** wird für beide Standorte **Verbunden** angezeigt.
 
@@ -293,10 +304,12 @@ Sie müssen mindestens zwei virtuelle Computer in Microsoft Azure für diese Ber
 
 2.  Geben Sie bevorzugte IP-Adressen für den Domänencontroller und den Dateiserver über Azure PowerShell an. Wenn Sie eine bevorzugte IP-Adresse für einen virtuellen Computer angeben, muss sie aktualisiert werden, wofür ein Neustart des virtuellen Computers erforderlich ist. Im folgenden Beispiel werden die IP-Adressen für Azure-DC und Azure-FSW auf 10.0.0.10 bzw. 10.0.0.11 festgelegt.
     
+    ```powershell
         Get-AzureVM Azure-DC | Set-AzureStaticVNetIP -IPAddress 10.0.0.10 | Update-AzureVM
-        
+    ```
+    ```powershell
         Get-AzureVM Azure-FSW | Set-AzureStaticVNetIP -IPAddress 10.0.0.11 | Update-AzureVM
-    
+    ```
 
     > [!NOTE]
     > Ein virtueller Computer mit einer bevorzugten IP-Adresse versucht, diese Adresse zu verwenden. Wenn die Adresse jedoch einer anderen VM zugewiesen wurde, wird die VM mit der Konfiguration für die bevorzugte IP-Adresse nicht gestartet. Um diese Situation zu vermeiden, stellen Sie sicher, dass die verwendete IP-Adresse keinem anderen virtuellen Computer zugeordnet ist. Weitere Informationen finden Sie unter <A href="http://msdn.microsoft.com/de-de/library/azure/dn630228.aspx">Konfigurieren einer statischen internen IP-Adresse für einen virtuellen Computer</A>.
@@ -330,8 +343,8 @@ Abschließend müssen Sie Ihre DAG für die Verwendung der neuen Zeugenservers k
 2.  Führen Sie den folgenden Befehl aus, um den Zeugenserver für Ihre DAGs zu konfigurieren.
     
     ```powershell
-Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessServer Azure-FSW
-```
+    Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessServer Azure-FSW
+    ```
 
 Weitere Informationen finden Sie in den folgenden Themen:
 
@@ -345,21 +358,23 @@ An diesem Punkt haben Sie die DAG für die Verwendung des Dateiservers in Azure 
 
 1.  Überprüfen Sie die DAG-Konfiguration mithilfe des folgenden Befehls.
     
+    ```powershell
         Get-DatabaseAvailabilityGroup -Identity DAG1 -Status | Format-List Name, WitnessServer, WitnessDirectory, WitnessShareInUse
-    
+    ```
+
     Überprüfen Sie, ob der Parameter *WitnessServer* auf den Dateiserver in Azure festgelegt ist, der Parameter *WitnessDirectory* auf den richtigen Pfad festgelegt ist und der Parameter *WitnessShareInUse* den Wert **Primary** anzeigt.
 
 2.  Wenn die DAG über eine gerade Anzahl von Knoten verfügt, wird der Dateifreigabenzeuge konfiguriert. Überprüfen Sie die Einstellung für den Dateifreigabenzeuge in den Clustereigenschaften mithilfe des folgenden Befehls. Der Wert für den Parameter *SharePath* muss auf den Dateiserver verweisen und den richtigen Pfad anzeigen.
     
     ```powershell
-Get-ClusterResource -Cluster MBX1 | Get-ClusterParameter | Format-List
-```
+    Get-ClusterResource -Cluster MBX1 | Get-ClusterParameter | Format-List
+    ```
 
 3.  Überprüfen Sie als Nächstes den Status der Clusterressource „File Share Witness“ mithilfe des folgenden Befehls. Der *State* der Clusterressource muss **Online** anzeigen.
     
     ```powershell
-Get-ClusterResource -Cluster MBX1
-```
+    Get-ClusterResource -Cluster MBX1
+    ```
 
 4.  Stellen Sie abschließend sicher, dass die Freigabe erfolgreich auf dem Dateiserver erstellt wurde, indem Sie den Ordner im Datei-Explorer und die Freigaben im Server-Manager überprüfen.
 

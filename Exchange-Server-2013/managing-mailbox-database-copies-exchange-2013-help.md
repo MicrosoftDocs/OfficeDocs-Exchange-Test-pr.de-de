@@ -628,7 +628,9 @@ RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference 
 
 In diesem Beispiel werden die aktiven Postfachdatenbankkopien in der DAG mithilfe von Aktivierungseinstellungen neu verteilt und ausgeglichen. Außerdem wird eine Zusammenfassung der Verteilung erstellt.
 
+```powershell
     RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -ShowFinalDatabaseDistribution
+```
 
 ## Überwachen von Datenbankkopien
 

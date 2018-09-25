@@ -64,13 +64,15 @@ Gehen Sie zum Erstellen einer verknüpften Rollengruppe und zum Zuordnen von Ver
 1.  Speichern Sie die Anmeldeinformationen für die fremde Active Directory-Gesamtstruktur in einer Variablen.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
+    ```
 
 2.  Erstellen Sie die verknüpfte Rollengruppe mit folgender Syntax.
     
+    ```powershell
         New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles <role1, role2, role3...>
-
+    ```
+    
 3.  Fügen Sie mit Active Directory-Benutzer und -Computer auf einem Computer in der fremden Active Directory-Gesamtstruktur Mitglieder der fremden universellen Sicherheitsgruppe hinzu, oder entfernen Sie sie daraus.
 
 In diesem Beispiel werden folgende Schritte ausgeführt:
@@ -88,7 +90,9 @@ In diesem Beispiel werden folgende Schritte ausgeführt:
 ```powershell
 $ForeignCredential = Get-Credential
 ```
-    New-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles "Transport Rules", "Journaling"
+```powershell
+New-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles "Transport Rules", "Journaling"
+```
 
 ## Erstellen einer verknüpften Rollengruppe mit einem benutzerdefinierten Verwaltungsbereich mithilfe der Shell
 
@@ -97,13 +101,15 @@ Sie können verknüpfte Rollengruppen mit benutzerdefinierten Empfängerverwaltu
 1.  Speichern Sie die Anmeldeinformationen für die fremde Active Directory-Gesamtstruktur in einer Variablen.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
+    ```
 
 2.  Erstellen Sie die verknüpfte Rollengruppe mit folgender Syntax.
     
+    ```powershell
         New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -CustomConfigWriteScope <name of configuration scope> -CustomRecipientWriteScope <name of recipient scope> -LinkedCredential $ForeignCredential -Roles <role1, role2, role3...>
-
+    ```
+    
 3.  Fügen Sie mit Active Directory-Benutzer und -Computer auf einem Computer in der fremden Active Directory-Gesamtstruktur Mitglieder der fremden universellen Sicherheitsgruppe hinzu, oder entfernen Sie sie daraus.
 
 In diesem Beispiel werden folgende Schritte ausgeführt:
@@ -121,7 +127,9 @@ In diesem Beispiel werden folgende Schritte ausgeführt:
 ```powershell
 $ForeignCredential = Get-Credential
 ```
-    New-RoleGroup "Seattle Compliance Role Group" -LinkedForeignGroup "Seattle Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -CustomRecipientWriteScope "Seattle Recipients" -Roles "Transport Rules", "Journaling"
+```powershell
+New-RoleGroup "Seattle Compliance Role Group" -LinkedForeignGroup "Seattle Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -CustomRecipientWriteScope "Seattle Recipients" -Roles "Transport Rules", "Journaling"
+```
 
 Weitere Informationen zu Verwaltungsbereichen finden Sie unter [Grundlegendes zu Verwaltungsrollenbereichen](understanding-management-role-scopes-exchange-2013-help.md).
 
@@ -132,13 +140,15 @@ Sie können verknüpfte Rollengruppen erstellen, die einen Organisationseinheite
 1.  Speichern Sie die Anmeldeinformationen für die fremde Active Directory-Gesamtstruktur in einer Variablen.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
+    ```
 
 2.  Erstellen Sie die verknüpfte Rollengruppe mit folgender Syntax.
     
+    ```powershell
         New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope <OU name> -Roles <role1, role2, role3...>
-
+    ```
+    
 3.  Fügen Sie mit Active Directory-Benutzer und -Computer auf einem Computer in der fremden Active Directory-Gesamtstruktur Mitglieder der fremden universellen Sicherheitsgruppe hinzu, oder entfernen Sie sie daraus.
 
 In diesem Beispiel werden folgende Schritte ausgeführt:
@@ -156,7 +166,9 @@ In diesem Beispiel werden folgende Schritte ausgeführt:
 ```powershell
 $ForeignCredential = Get-Credential
 ```
+```powershell
     New-RoleGroup "Executives Compliance Role Group" -LinkedForeignGroup "Executives Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope "Executives OU" -Roles "Transport Rules", "Journaling"
+```
 
 Weitere Informationen zu Verwaltungsbereichen finden Sie unter [Grundlegendes zu Verwaltungsrollenbereichen](understanding-management-role-scopes-exchange-2013-help.md).
 
@@ -169,13 +181,15 @@ Gehen Sie zum Ändern der fremden universellen Sicherheitsgruppe für eine verkn
 1.  Speichern Sie die Anmeldeinformationen für die fremde Active Directory-Gesamtstruktur in einer Variablen.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
+    ```
 
 2.  Ändern Sie die fremde universelle Sicherheitsgruppe für die vorhandene verknüpfte Rollengruppe mithilfe der folgenden Syntax.
     
+    ```powershell
         Set-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential 
-
+    ```
+    
 In diesem Beispiel werden folgende Schritte ausgeführt:
 
   - Ruft die Anmeldeinformationen für die fremde Active Directory-Gesamtstruktur "users.contoso.com" ab. Mit diesen Anmeldeinformationen wird eine Verbindung mit dem Domänencontroller "DC01.users.contoso.com" in der fremden Gesamtstruktur hergestellt.
@@ -187,5 +201,7 @@ In diesem Beispiel werden folgende Schritte ausgeführt:
 ```powershell
 $ForeignCredential = Get-Credential
 ```
+```powershell
     Set-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Regulatory Compliance Officers" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential
+```
 

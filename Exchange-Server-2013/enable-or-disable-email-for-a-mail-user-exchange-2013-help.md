@@ -82,16 +82,16 @@ Gehen Sie wie folgt vor, um die erfolgreiche Deaktivierung von E-Mails für eine
 3.  Führen Sie in der Shell den folgenden Befehl aus.
     
     ```powershell
-Get-MailUser
-```
-    
+    Get-MailUser
+    ```
+        
     Der E-Mail-Benutzer, für den Sie E-Mails deaktiviert haben, wird nicht in den Ergebnissen zurückgegeben, da mit diesem Cmdlet nur E-Mail-aktivierte Benutzer zurückgegeben werden.
 
 4.  Führen Sie in der Shell den folgenden Befehl aus.
     
     ```powershell
-Get-User
-```
+    Get-User
+    ```
     
     Der E-Mail-Benutzer, für den Sie E-Mails deaktiviert haben, wird in den Ergebnissen zurückgegeben, da mit diesem Cmdlet alle Active Directory-Benutzerobjekte zurückgegeben werden.
 
@@ -113,8 +113,11 @@ Wenn Sie mehrere Benutzer gleichzeitig für E-Mails aktivieren, exportieren Sie 
 
 1.  Führen Sie den folgenden Befehl aus, um eine Liste vorhandener Benutzer, die nicht E-Mail-aktiviert sind oder die nicht über ein Postfach in Ihrer Organisation verfügen, in eine Datei namens "UsersToMailEnable.csv" auf dem Desktop des Administrators zu exportieren.
     
+    ```powershell
         Get-User | Where { $_.RecipientType -eq "User" } | Out-File "C:\Users\Administrator\Desktop\UsersToMailEnable.csv"
+    ```
     
+    ```powershell
     Die resultierende Datei gleicht der folgenden Datei.
     
         Name            RecipientType
@@ -129,6 +132,7 @@ Wenn Sie mehrere Benutzer gleichzeitig für E-Mails aktivieren, exportieren Sie 
         Spencer Low     User
         Toni Poe        User
         ...
+    ```
 
 2.  Nehmen Sie in der CSV-Datei die folgenden Änderungen vor:
     
@@ -140,6 +144,7 @@ Wenn Sie mehrere Benutzer gleichzeitig für E-Mails aktivieren, exportieren Sie 
     
     Die aktualisierte CSV-Datei sollte nun wie die folgende Datei aussehen.
     
+    ```powershell
         Name,EmailAddress
         David Pelton,davidp@contoso.com
         Kim Akers,kakers@tailspintoys.com
@@ -148,10 +153,13 @@ Wenn Sie mehrere Benutzer gleichzeitig für E-Mails aktivieren, exportieren Sie 
         Spencer Low,spencerl@fouthcoffee.com
         Toni Poe,tonip@contoso.com
         ...
-
+    ```
+    
 3.  Führen Sie den folgenden Befehl aus, um mit den Daten in der CSV-Datei die in der Datei aufgeführten Benutzer für E-Mails zu aktivieren.
     
+    ```powershell
         Import-CSV "C:\Users\Administrator\Desktop\UsersToMailEnable.csv" | ForEach-Object {Enable-MailUser -Identity $_.Name -ExternalEmailAddress $_.EmailAddress}
+    ```
     
     In den Ergebnissen des Befehls werden Informationen über die neuen E-Mail-aktivierten Benutzer angezeigt.
 
@@ -170,6 +178,6 @@ Gehen Sie wie folgt vor, um die erfolgreiche E-Mail-Aktivierung von Active Direc
   - Führen Sie in der Shell den folgenden Befehl aus, um Informationen zu neuen E-Mail-Benutzern anzuzeigen.
     
     ```powershell
-Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
-```
+    Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```
 

@@ -55,7 +55,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf öffentliche Ordner f
 
 In diesem Beispiel wird der öffentliche Ordner "\\Dev\\CustomerEnagagements" im Zielpostfach für öffentliche Ordner "Development01" wiederhergestellt.
 
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox Development -SourceDatabase MBX_DB01 -TargetMailbox Development01 -AllowLegacyDNMismatch -IncludeFolders \Dev\CustomerEngagements
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829875\(v=exchg.150\)).
 
@@ -63,7 +65,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Mailb
 
 In diesem Beispiel wird das Postfach für öffentliche Ordner "PF\_Singapore" im neuen Postfach für öffentliche Ordner "PF\_Singapore\_Restore" wiederhergestellt.
 
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox PF_Singapore -SourceDatabase MBX_DB01 -TargetMailbox PF_Singapore_Restore -AllowLegacyDNMismatch
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829875\(v=exchg.150\)).
 

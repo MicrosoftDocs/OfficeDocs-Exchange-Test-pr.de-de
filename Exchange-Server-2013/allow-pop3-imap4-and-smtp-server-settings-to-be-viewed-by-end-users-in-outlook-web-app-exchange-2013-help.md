@@ -76,8 +76,8 @@ So überprüfen Sie, ob Sie Exchange so konfiguriert haben, dass Benutzer ihre P
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
     ```powershell
-Get-PopSettings | format-list
-```
+    Get-PopSettings | format-list
+    ```
 
 2.  Überprüfen Sie, ob die Eigenschaft *ExternalConnectionSettings* festgelegt ist.
 
@@ -86,8 +86,8 @@ So überprüfen Sie, ob Sie Exchange so konfiguriert haben, dass Benutzer ihre I
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
     ```powershell
-Get-ImapSettings | format-list
-```
+    Get-ImapSettings | format-list
+    ```
 
 2.  Überprüfen Sie, ob die Eigenschaft *ExternalConnectionSettings* festgelegt ist.
 
@@ -97,7 +97,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 Im folgenden Beispiel wird dem Endbenutzer erlaubt, interne und externe Servereinstellungen mithilfe von Outlook Web App anzuzeigen.
 
+```powershell
     Get-ReceiveConnector "*Client Frontend*" | Set-ReceiveConnector -Fqdn Server.Contoso.com -AdvertiseClientSettings $true 
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ReceiveConnector](https://technet.microsoft.com/de-de/library/bb125140\(v=exchg.150\)).
 
@@ -108,8 +110,8 @@ So überprüfen Sie, ob Sie Exchange so konfiguriert haben, dass Benutzer ihre S
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
     ```powershell
-Get-ReceiveConnector | format-list
-```
+    Get-ReceiveConnector | format-list
+    ```
 
 2.  Wenn die Eigenschaft *AdvertiseClientSettings* auf `true` festgelegt ist, können Benutzer ihre SMTP-Servereinstellungen in Outlook Web App anzeigen. Wenn *AdvertiseClientSettings* auf `false` festgelegt ist, können Benutzer ihre SMTP-Servereinstellungen nicht in Outlook Web App anzeigen.
 

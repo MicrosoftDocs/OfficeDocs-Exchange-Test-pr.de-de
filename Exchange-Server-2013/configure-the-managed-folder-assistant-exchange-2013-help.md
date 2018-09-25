@@ -57,7 +57,9 @@ Zum Überprüfen, ob der Assistent für verwaltete Ordner erfolgreich konfigurie
 
 Dieser Befehl ruft alle Postfachserver in der Organisation ab und gibt die Arbeitszykluseigenschaften des Assistenten für verwaltete Ordner von jedem Server in Tabellenformat zurück. Die Option *Auto* wird verwendet, um die Spaltenbreite automatisch anzupassen.
 
+```powershell
     Get-MailboxServer | Format-Table Name,ManagedFolderWorkCycle* -Auto
+```
 
 ## Verwenden der Shell zum Starten des Assistenten für verwaltete Ordner
 

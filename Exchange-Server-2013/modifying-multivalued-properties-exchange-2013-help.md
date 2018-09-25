@@ -107,9 +107,12 @@ Set-RecipientFilterConfig -BlockedRecipients @{Remove="david@adatum.com"}
 
 Komplexere Kombinationen sind möglich, beispielsweise das gleichzeitige Hinzufügen und Entfernen von Werten zu bzw. aus einer Eigenschaft. Hierzu fügen Sie ein Semikolon (`;`) zwischen `Add` und `Remove`-Aktionen ein. Beispiel:
 
+```powershell
     Set-RecipientFilterConfig -BlockedRecipients @{Add="carter@contoso.com", "sam@northwindtraders.com", "brian@adatum.com"; Remove="john@contoso.com"}
+```
 
 Wenn Sie den Befehl `Get-RecipientFilterConfig | Format-List BlockedRecipients` erneut ausführen, stellen Sie fest, dass die E-Mail-Adressen für Carter, Sam und Brian hinzugefügt wurden und dass die Adresse für John entfernt wurde.
 
+```powershell
     BlockedRecipients : {brian@adatum.com, sam@northwindtraders.com, carter@contoso.com, chris@contoso.com, kim@northwindtraders.com}
-
+```

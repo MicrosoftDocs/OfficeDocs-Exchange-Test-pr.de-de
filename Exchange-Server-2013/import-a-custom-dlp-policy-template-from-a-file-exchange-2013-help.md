@@ -65,7 +65,9 @@ Gehen Sie folgendermaßen vor, um eine benutzerdefinierte DLP-Richtlinienvorlage
 
 In diesem Beispiel wird eine benutzerdefinierte DLP-Richtlinienvorlagendatei aus der Datei "C:\\My Documents\\DLP Backup.xml" importiert. Durch Importieren einer DLP-Richtliniensammlung aus einer XML-Datei werden alle vorhandenen DLP-Richtlinien entfernt oder überschrieben, die in Ihrer Organisation definiert wurden. Stellen Sie vor dem Importieren sicher, dass Sie über eine Sicherungskopie der aktuellen DLP-Richtliniensammlung verfügen, bevor Sie diese überschreiben.
 
+```powershell
     Import-DlpPolicyCollection -FileData ([Byte[]]$(Get-Content -Path " C:\My Documents\DLP Backup.xml " -Encoding Byte -ReadCount 0))
+```
 
 ## Weitere Informationen
 

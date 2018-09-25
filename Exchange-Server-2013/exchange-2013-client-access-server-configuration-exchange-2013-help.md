@@ -33,11 +33,15 @@ Für die virtuellen Verzeichnisse für das Offlineadressbuch (OAB), die Exchange
     
     Für die Konfiguration von Outlook Anywhere mit einer einzelnen URL für die Verbindung müssen Sie den Hostnamen angeben, festlegen, ob SSL erforderlich ist, und mit dem folgenden Befehl in der Exchange-Verwaltungsshell ein AuthPackage angeben:
     
+    ```powershell
         Get-OutlookAnywhere | Set-OutlookAnywhere -InternalHostname "internalServer.contoso.com" -InternalClientAuthenticationMethod Ntlm -InternalClientsRequireSsl $true -IISAuthenticationMethods Negotiate,NTLM,Basic
+    ```
     
     Sie können außerdem mit dem folgenden Befehl in der Exchange-Verwaltungsshell einen extern erreichbaren Endpunkt angeben:
     
+    ```powershell
         Get-OutlookAnywhere | Set-OutlookAnywhere -InternalHostname "internalServer.contoso.com" -InternalClientAuthenticationMethod Ntlm -InternalClientsRequireSsl $true -ExternalHostname "externalServer.company.com" -ExternalClientAuthenticationMethod Basic -ExternalClientsRequireSsl $true -IISAuthenticationMethods Negotiate,NTLM,Basic
+    ```
     
 
     > [!TIP]
@@ -47,20 +51,28 @@ Für die virtuellen Verzeichnisse für das Offlineadressbuch (OAB), die Exchange
 
   - Zum Konfigurieren von Exchange ActiveSync führen Sie den folgenden Befehl aus.
     
+    ```powershell
         Set-ActiveSyncVirtualDirectory -Identity "<CAS2013>\Microsoft-Server-ActiveSync (Default Web Site)" -ExternalUrl "https://mail.contoso.com/Microsoft-Server-ActiveSync"
-
+    ```
+    
   - Zum Konfigurieren des virtuellen Verzeichnisses für die Exchange-Webdienste führen Sie den folgenden Befehl aus.
     
+    ```powershell
         Set-WebServicesVirtualDirectory -Identity "<CAS2013>\EWS (Default Web Site)" -ExternalUrl https://mail.contoso.com/EWS/Exchange.asmx
-
+    ```
+    
   - Zum Konfigurieren des Offlineadressbuchs führen Sie den folgenden Befehl aus.
     
+    ```powershell
         Set-OABVirtualDirectory -Identity "<CAS2013>\OAB (Default Web Site)" -ExternalUrl "https://mail.contoso.com/OAB"
-
+    ```
+    
   - Führen Sie zum Konfigurieren des Dienstverbindungspunkts den folgenden Befehl aus.
     
+    ```powershell
         Set-ClientAccessServer -Identity <CAS2013> -AutoDiscoverServiceInternalURI https://autodiscover.contoso.com/AutoDiscover/AutoDiscover.xml
-
+    ```
+    
 ## Upgrade von Exchange 2007- und 2010-Clientzugriff
 
 Dieser Abschnitt unterstützt Sie bei der Konfiguration des externen Zugriffs auf Protokolle auf dem Exchange 2013-Clientzugriffsserver. Führen Sie sowohl die im obigen Abschnitt zur Konfiguration virtueller Verzeichnisse aufgeführten Befehle der Exchange-Verwaltungsshell als auch die nachfolgenden Befehle aus.
@@ -69,34 +81,34 @@ Sie müssen folgende Befehle ausführen, um die virtuellen Verzeichnisse für Ex
 
 1.  Zur Konfiguration einer externen URL für Outlook Web App führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus.
     
-    ```
+    ```powershell
     Set-OwaVirtualDirectory "<CAS2013>\OWA (Default Web Site)" -ExternalUrl https://mail.contoso.com/OWA
     ```
     
     Führen Sie an einer Eingabeaufforderung die folgenden Befehle aus, nachdem Sie das virtuelle Outlook Web App-Verzeichnis festgelegt haben.
     
+        
+    ```powershell
+    Net stop IISAdmin /y
     ```
-```powershell
-Net stop IISAdmin /y
-```
-    ```
+        
 
+        
+    ```powershell
+    Net start W3SVC
     ```
-```powershell
-Net start W3SVC
-```
-    ```
+    
 
 
 2.  Führen Sie zum Konfigurieren des externen Zugriffs auf die Exchange-Verwaltungskonsole den folgenden Befehl in der Exchange-Verwaltungsshell aus.
     
-    ```
+    ```powershell
     Set-EcpVirtualDirectory "<CAS2013>\ECP (Default Web Site)" -ExternalUrl https://mail.contoso.com/ECP -InternalURL https://mail.contoso.com/ECP 
     ```
 
 3.  Führen Sie zum Konfigurieren des Verfügbarkeitsdiensts den folgenden Befehl in der Exchange-Verwaltungsshell aus.
     
-    ```
+    ```powershell
     Set-WebServicesVirtualDirectory -Identity "<CAS2013>\EWS (Default Web Site)" -ExternalURL https://mail.contoso.com/EWS/Exchange.asmx
     ```
 
@@ -112,8 +124,12 @@ Sie müssen folgende Befehle ausführen, um die virtuellen Verzeichnisse für Ex
 
   - Zum Konfigurieren der externen URL im virtuellen Exchange ActiveSync-Verzeichnis führen Sie in der Exchange-Verwaltungsshell den folgenden Befehl aus.
     
+    ```powershell
         Set-ActiveSyncVirtualDirectory -Identity "<CAS2007>\Microsoft-Server-ActiveSync (Default Web Site)" -ExternalUrl https://mail.contoso.com/Microsoft-Server-ActiveSync
+    ```
 
   - Zum Konfigurieren der externen URL im virtuellen Outlook Web App-Verzeichnis führen Sie in der Exchange-Verwaltungsshell den folgenden Befehl aus.
     
+    ```powershell
         Set-OwaVirtualDirectory -Identity "<CAS2007>\owa (Default Web Site)" -ExternalUrl https://legacy.contoso.com/owa
+    ```

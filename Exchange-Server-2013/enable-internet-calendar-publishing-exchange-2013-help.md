@@ -93,7 +93,9 @@ Get-ExchangeServer | format-list
 
 In diesem Beispiel wird das virtuelle Verzeichnis für die Veröffentlichung auf dem Clientzugriffsserver "CAS01" aktiviert.
 
+```powershell
     Set-OwaVirtualDirectory -Identity "CAS01\owa (Default Web Site)" -ExternalUrl "<URL for CAS01>" -CalendarEnabled $true
+```
 
 Dabei ist die Identität `CAS01\owa (Default Web Site)` sowohl der Servername als auch das virtuelle Verzeichnis von Outlook Web App.
 
@@ -149,7 +151,9 @@ Wenn Sie eine Freigaberichtlinie spezifisch für die Veröffentlichung von Kalen
 
 In diesem Beispiel wird eine Freigaberichtlinie für die Veröffentlichung von Kalenderinformationen im Internet mit dem Namen "Internet" erstellt, und die Richtlinie wird so konfiguriert, dass lediglich Verfügbarkeitsinformationen freigegeben werden dürfen. Die Richtlinie wird aktiviert.
 
+```powershell
     New-SharingPolicy -Name "Internet" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+```
 
 In diesem Beispiel wird die Freigaberichtlinie "Internet" zu einem Benutzerpostfach hinzugefügt.
 
@@ -203,7 +207,9 @@ Wenn Sie eine standardmäßige Freigaberichtlinie für die Veröffentlichung von
 
 In diesem Beispiel wird die Standardfreigaberichtlinie aktualisiert und die Richtlinie so konfiguriert, dass lediglich Verfügbarkeitsinformationen freigegeben werden dürfen. Die Richtlinie wird aktiviert.
 
+```powershell
     Set-SharingPolicy -Name "Default Sharing Policy" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)).
 

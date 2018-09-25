@@ -54,16 +54,16 @@ Sie müssen die folgenden zusätzlichen Schritte ausführen, um eines der in die
 1.  Öffnen Sie auf dem Clientzugriffsserver Windows PowerShell, und führen Sie dann den folgenden Befehl aus:
     
     ```powershell
-Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
-```
+    Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+    ```
 
 2.  Führen Sie den Befehl wie beschrieben aus, aber fügen Sie den folgenden Wert hinzu: `-TransportService FrontEnd`.
     
     Führen Sie z. B. den folgenden Befehl aus, um die Transport-Agents im Front-End-Transport-Dienst auf einem Clientzugriffsserver anzuzeigen:
     
     ```powershell
-Get-TransportAgent -TransportService FrontEnd
-```
+    Get-TransportAgent -TransportService FrontEnd
+    ```
 
 ## Installieren eines Transport-Agents mithilfe der Shell
 
@@ -75,11 +75,15 @@ Transport-Agents werden in deaktiviertem Zustand installiert, um sicherzustellen
 
 Verwenden Sie die folgende Syntax, um einen Transport-Agent zu installieren.
 
+```powershell
     Install-TransportAgent -Name <TransportAgentIdentity> -TransportAgentFactory <"TransportAgentFactory"> -AssemblyPath <"FilePath">
+```
 
 In diesem Beispiel wird der fiktive Transport-Agent namens "Contoso Transport Agent" im Transportdienst auf einem Postfachserver installiert.
 
+```powershell
     Install-TransportAgent -Name "Contoso Transport Agent" -TransportAgentFactory "vendor.exchange.ContosoTransportAgentfactory" -AssemblyPath "C:\Program Files\Vendor\TransportAgent\ContosoTransportAgentFactory.dll"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

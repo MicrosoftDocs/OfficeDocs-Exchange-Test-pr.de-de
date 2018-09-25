@@ -56,8 +56,8 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit P
 2.  Wenn die Umlaufprotokollierung für die Datenbank aktiviert ist, muss diese deaktiviert werden, bevor Sie den Vorgang fortsetzen. Sie können die Umlaufprotokollierung für eine Postfachdatenbank mithilfe des Cmdlets [Set-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb123971\(v=exchg.150\)) deaktivieren, wie in diesem Beispiel veranschaulicht.
     
     ```powershell
-Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
-```
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```
 
 3.  Entfernen Sie alle Postfachdatenbankkopien für die zu verschiebende Datenbank. Weitere Informationen finden Sie unter [Entfernen einer Postfachdatenbankkopie](remove-a-mailbox-database-copy-exchange-2013-help.md). Nachdem alle Kopien entfernt wurden, sichern Sie die Datenbank- und Transaktionsprotokolldateien von den einzelnen Servern, von denen die Datenbankkopie entfernt werden soll, indem Sie sie an einen anderen Speicherort verschieben. Diese Dateien bleiben erhalten, sodass für die Datenbankkopien nach dem erneuten Hinzufügen kein Seeding erforderlich ist.
 
@@ -77,19 +77,23 @@ Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
 
 8.  Führen Sie auf jedem Server, der eine Kopie der zu entfernenden Postfachdatenbank enthält, die folgenden Befehle aus, um die Inhaltsindexdienste zu beenden und neu zu starten.
     
+    ```powershell
         Net stop MSExchangeFastSearch
         Net start MSExchangeFastSearch
-
+    ```
+    
 9.  Aktivieren Sie optional die Umlaufprotokollierung mithilfe des Cmdlets [Set-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb123971\(v=exchg.150\)), wie in diesem Beispiel veranschaulicht.
     
     ```powershell
-Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
-```
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```
 
 10. Konfigurieren Sie alle zuvor festgelegten Werte für die Wiedergabeverzögerung und die Abschneideverzögerung mithilfe des Cmdlets [Set-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd298104\(v=exchg.150\)) erneut, wie in diesem Beispiel veranschaulicht.
     
+    ```powershell
         Set-MailboxDatabaseCopy DB1\MBX2 -ReplayLagTime 00:15:00
-
+    ```
+    
 11. Nachdem alle Kopien hinzugefügt wurden, empfehlen wir, dass Sie den Zustand und Status der Kopie überprüfen, bevor Sie die nächste Kopie hinzufügen. Sie können den Zustand und Status wie folgt überprüfen:
     
     1.  Untersuchen Sie das Ereignisprotokoll auf Fehler- oder Warnereignisse, die sich auf die Datenbank oder Datenbankkopie beziehen.
@@ -119,8 +123,8 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Verschiebung d
   - Führen Sie in der Shell den folgenden Befehl aus, um sicherzustellen, dass die Postfachdatenbankkopie erstellt wurde und sich in einem fehlerfreien Zustand befindet.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```
     
     Status und Inhaltsindexzustand sollten beide den Wert Fehlerfrei anzeigen.
 

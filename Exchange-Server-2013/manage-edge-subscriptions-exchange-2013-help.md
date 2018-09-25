@@ -74,26 +74,26 @@ Nach dem Entfernen des Edge-Abonnements wird die Synchronisierung der Informatio
 1.  Verwenden Sie die folgende Syntax, um das Edge-Abonnement vom Edge-Transport-Server zu entfernen.
     
     ```powershell
-Remove-EdgeSubscription <EdgeTransportServerIdentity>
-```
+    Remove-EdgeSubscription <EdgeTransportServerIdentity>
+    ```
     
     Führen Sie z. B. den folgenden Befehl aus, wenn Sie das Edge-Abonnement vom Edge-Transport-Server namens Edge01 löschen möchten.
     
     ```powershell
-Remove-EdgeSubscription Edge01
-```
+    Remove-EdgeSubscription Edge01
+    ```
 
 2.  Verwenden Sie die folgende Syntax, um das Edge-Abonnement vom Postfachserver zu entfernen.
     
     ```powershell
-Remove-EdgeSubscription <MailboxServerIdentity>
-```
+    Remove-EdgeSubscription <MailboxServerIdentity>
+    ```
     
     Führen Sie z. B. den folgenden Befehl aus, wenn Sie das Edge-Abonnement vom Postfachserver namens Mailbox01 löschen möchten.
     
     ```powershell
-Remove-EdgeSubscription Mailbox01
-```
+    Remove-EdgeSubscription Mailbox01
+    ```
 
 Sie müssen das Edge-Abonnement entfernen, wenn:
 
@@ -150,9 +150,9 @@ Es kann angebracht sein, EdgeSync manuell auszuführen, wenn Sie größere Ände
 Eine manuelle EdgeSync setzt den EdgeSync-Synchronisierungszeitplan zurück. Die nächste automatische Synchronisierung richtig sich danach, wann die letzte manuelle Synchronisierung stattgefunden hat,
 
 Verwenden Sie die folgende Syntax, um die EdgeSync manuell auszuführen:
-
+```powershell
     Start-EdgeSynchronization [-Server <MailboxServerIdentity>] [-TargetServer <EdgeTransportServerIdentity> [-ForceFullSync]
-
+```
 Das folgende Beispiel startet EdgeSync mit den folgenden Optionen:
 
   - Die Synchronisierung wird durch den Exchange 2013-Postfachserver mit dem Namen Mailbox01 initiiert.

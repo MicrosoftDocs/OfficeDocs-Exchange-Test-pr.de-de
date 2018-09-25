@@ -45,7 +45,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf IRM finden Sie unter 
 
 In diesem Beispiel wird die Outlook-Schutzregel "Project Contoso" erstellt. Mithilfe dieser Regel werden Nachrichten, die an die Verteilergruppe "ContosoPMs" gesendet werden, mit der AD RMS-Vorlage "Business Critical" geschützt.
 
+```powershell
     New-OutlookProtectionRule -Name "Project Contoso" -SentTo "DL-ContosoPMs@contoso.com" -ApplyRightsProtectionTemplate "Business Critical"
+```
 
 
 > [!NOTE]

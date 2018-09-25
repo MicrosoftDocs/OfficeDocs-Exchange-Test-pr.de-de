@@ -21,7 +21,9 @@ Das *SMTP-Banner* ist die SMTP-Verbindungsantwort, die ein SMTP-Remotemessagings
 
 Dies ist die Standardantwort, die ein SMTP-Remotemessagingserver erhält, nachdem er eine Verbindung mit dem Empfangsconnector hergestellt hat:
 
+```powershell
     220 <Servername> Microsoft ESMTP MAIL service ready at <RegionalDay-Date-24HourTimeFormat> <RegionalTimeZoneOffset>
+```
 
 Wenn Sie einen benutzerdefinierten Wert für das SMTP-Banner für einen Empfangsconnector angeben, empfängt ein SMTP-Remotemessagingserver, der eine Verbindung mit diesem SMTP-Empfangsconnector herstellt, die folgende Antwort.
 
@@ -76,8 +78,8 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass das SMTP-Banner für ein
 1.  Öffnen Sie einen Telnet-Client auf einem Computer, der auf den Empfangsconnector zugreifen kann, und führen Sie den folgenden Befehl aus:
     
     ```powershell
-open <Connector FQDN or IP address> <Port>
-```
+    open <Connector FQDN or IP address> <Port>
+    ```
 
 2.  Prüfen Sie, ob die Antwort des Empfangsconnectors das von Ihnen konfigurierte SMTP-Banner enthält.
 

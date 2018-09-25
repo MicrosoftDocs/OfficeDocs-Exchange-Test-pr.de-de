@@ -66,8 +66,9 @@ Auf welchem Clientzugriffsserver der MRS-Proxyendpunkt aktiviert werden muss, h�
 ## Aktivieren des MRS-Proxyendpunkts mithilfe der Shell
 
 Der folgende Befehl aktiviert den MRS-Proxyendpunkt auf einem Clientzugriffsserver mit dem Namen EXCH-SRV-01.
-
+```powershell
     Set-WebServicesVirtualDirectory -Identity "EXCH-SRV-01\EWS (Default Web Site)" -MRSProxyEnabled $true
+```
 
 Der folgende Befehl aktiviert den MRS-Proxyendpunkt auf allen Clientzugriffsservern in der Exchange-Organisation.
 
@@ -105,14 +106,12 @@ Eine andere Möglichkeit, die Aktivierung des MRS-Proxyendpunkts zu überprüfen
 
 Im folgenden Beispiel wird die Verbindung mit einem Server in der Gesamtstruktur **corp.contoso.com** getestet.
 
-```
+
 ```powershell
 $Credentials = Get-Credential
 ```
-```
-
-```
-    Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
+```powershell
+Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
 ```
 
 Damit dieser Befehl erfolgreich ausgeführt werden kann, muss der MRS-Proxyendpunkt aktiviert sein.

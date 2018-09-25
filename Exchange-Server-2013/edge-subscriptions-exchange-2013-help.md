@@ -117,7 +117,9 @@ Weitere Informationen zu ESRA-Konten und deren Verwendung zum Sichern des EdgeSy
 
 In diesem Beispiel wird ein Abonnement des Edge-Transport-Servers mit dem angegebenen Standort hergestellt. Gleichzeitig werden automatisch der Internet-Sendeconnector und der Sendeconnector vom Edge-Transport-Server zu den Postfachservern erstellt.
 
+```powershell
     New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -CreateInternetSendConnector $true -CreateInboundSendConnector $true -Site "Default-First-Site-Name" 
+```
 
 
 > [!NOTE]
@@ -127,7 +129,9 @@ In diesem Beispiel wird ein Abonnement des Edge-Transport-Servers mit dem angege
 
 In diesem Beispiel wird eine Edge-Abonnementdatei exportiert.
 
+```powershell
     New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
+```
 
 
 > [!NOTE]

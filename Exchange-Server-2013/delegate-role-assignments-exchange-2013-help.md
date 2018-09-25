@@ -69,11 +69,15 @@ Delegierende Rollenzuweisungen können anhand derselben vordefinierten Bereiche,
 
 In diesem Beispiel wird eine delegierende Rollenzuweisung erstellt, um Mitgliedern der Rollengruppe "Senior Admins" das Zuweisen der Rolle E-Mail-Empfänger zu einem beliebigen Rollenempfänger in der Exchange-Organisation zu ermöglichen.
 
+```powershell
     New-ManagementRoleAssignment -Role "Mail Recipients" -SecurityGroup "Senior Admins" -Name "Mail Recipients_Senior Admin - Delegate" -Delegating
+```
 
 In diesem Beispiel wird eine delegierende Rollenzuweisung erstellt, um Mitgliedern der Rollengruppe "Senior Admins" das Zuweisen der Rolle E-Mail-Empfänger nur zu Benutzern in der Organisationseinheit "Sales/Users" in der Domäne "contoso.com" zu ermöglichen.
 
+```powershell
     New-ManagementRoleAssignment -Role "Mail Recipients" -SecurityGroup "Senior Admins" -Name "Mail Recipients_Senior Admins - Delegate" -RecipientOrganizationalUnitScope contoso.com/sales/users -Delegating
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 

@@ -53,36 +53,45 @@ Beim Exportieren einer Nachricht aus einer Warteschlange in eine Datei wird die 
 
 Führen Sie den folgenden Befehl aus, um eine bestimmte Nachricht aus einer bestimmten Warteschlange zu exportieren:
 
+```powershell
     Export-Message -Identity <MessageIdentity> | AssembleMessage -Path <FilePath>\<FileName>.eml
+```
 
 In diesem Beispiel wird eine Kopie einer Nachricht mit dem **InternalMessageID**-Wert "1234", die sich in der Zustellungswarteschlange für "Contoso.com" auf dem Server "Mailbox01" befindet, in "D:\\Contoso Export\\export.eml" exportiert.
 
+```powershell
     Export-Message -Identity Exchange01\Contoso.com\1234 | AssembleMessage -Path "D:\Contoso Export\export.eml"
+```
 
 ## Verwenden der Shell zum Exportieren aller Nachrichten aus einer bestimmten Warteschlange
 
 Wenn Sie alle Nachrichten aus einer bestimmten Warteschlange exportieren und den **InternetMessageID**-Wert jeder Nachricht als Dateinamen verwenden möchten, wählen Sie die folgende Syntax.
 
+```powershell
     Get-Message -Queue <QueueIdentity> | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 Beachten Sie, dass der **InternetMessageID**-Wert eckige Klammern (\> und \<) enthält, die entfernt werden müssen, da sie in Dateinamen unzulässig sind.
 
 Dieser Beispielbefehl exportiert eine Kopie aller Nachrichten aus der Zustellungswarteschlange auf dem Server "Mailbox01" in das lokale Verzeichnis "D:\\Contoso Export".
-
+```powershell
     Get-Message -Queue Mailbox01\Contoso.com | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 ## Verwenden der Shell zum Exportieren bestimmter Nachrichten aus allen Warteschlangen auf einem Server
 
 Wenn Sie bestimmte Nachrichten aus allen Warteschlangen auf einem Server exportieren und den **InternetMessageID**-Wert jeder Nachricht als Dateinamen verwenden möchten, wählen Sie die folgende Syntax.
 
+```powershell
     Get-Message -Filter {<MessageFilter>} [-Server <ServerIdentity>] | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 Beachten Sie, dass der **InternetMessageID**-Wert eckige Klammern (\> und \<) enthält, die entfernt werden müssen, da sie in Dateinamen unzulässig sind.
 
 Dieser Beispielbefehl exportiert eine Kopie aller Nachrichten von Absendern in der Domäne "contoso.com" aus allen Warteschlangen auf dem Server "Mailbox01" in das lokale Verzeichnis "D:\\Contoso Export".
-
+```powershell
     Get-Message -Filter {FromAddress -like "*@contoso.com"} -Server Mailbox01 | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
-
+```
 
 > [!NOTE]
 > Wenn Sie den Parameter <EM>Server</EM> weglassen, wird der Befehl auf den lokalen Server angewendet.

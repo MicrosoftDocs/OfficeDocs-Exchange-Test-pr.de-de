@@ -78,7 +78,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Update-Ma
 
 In diesem Beispiel wird vom Postfachserver "MBX2" aus, der auch über eine Kopie der Datenbank verfügt, ein erneutes Seeding für den Inhaltsindexkatalog der Datenbankkopie "DB1" auf dem Postfachserver "MBX1" ausgeführt.
 
+```powershell
     Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2 -CatalogOnly
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Update-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd335201\(v=exchg.150\)).
 
@@ -88,17 +90,15 @@ Wenn nur eine Kopie der Postfachdatenbank vorhanden ist, müssen Sie ein erneute
 
 1.  Führen Sie die folgenden Befehle aus, um den Microsoft Exchange-Such- und den Microsoft Exchange-Suchhost-Controllerdienst anzuhalten.
     
+    
+    ```powershell
+    Stop-Service MSExchangeFastSearch
     ```
-```powershell
-Stop-Service MSExchangeFastSearch
-```
-	```
+        
+    ```powershell
+    Stop-Service HostControllerService
+    ```
 	
-    ```
-```powershell
-Stop-Service HostControllerService
-```
-	```
 
 2.  Löschen oder verschieben Sie den Ordner, der den Exchange-Inhaltsindexkatalog enthält, oder benennen Sie diesen um. Dieser Ordner heißt `%ExchangeInstallPath\Mailbox\<name of mailbox database>_Catalog\<GUID>12.1.Single`. Sie können den Ordner z. B. in `C:\Program Files\Microsoft\Exchange Server\V15\Mailbox\Mailbox Database 0657134726_Catalog\F0627A72-9F1D-494A-839A-D7C915C279DB12.1.Single_OLD` umbenennen.
     
@@ -110,17 +110,15 @@ Stop-Service HostControllerService
 
 3.  Führen Sie die folgenden Befehle aus, um den Microsoft Exchange-Such- und den Microsoft Exchange-Suchhost-Controllerdienst neu zu starten.
     
+    
+    ```powershell
+    Start-Service MSExchangeFastSearch
     ```
-```powershell
-Start-Service MSExchangeFastSearch
-```
+
+    ```powershell
+    Start-Service HostControllerService
     ```
 	
-	```
-```powershell
-Start-Service HostControllerService
-```
-	```
     
     Nachdem Sie diese Dienste neu gestartet haben, wird der Inhaltsindexkatalog von der Exchange-Suche neu erstellt.
 
@@ -128,7 +126,9 @@ Start-Service HostControllerService
 
 Es kann einige Zeit dauern, bis die Exchange-Suche ein erneutes Seeding für den Inhaltsindexkatalog ausgeführt hat. Führen Sie den folgenden Befehl aus, um den Status des erneuten Seeding-Vorgangs anzuzeigen.
 
+```powershell
     Get-MailboxDatabaseCopyStatus | FL Name,*Index*
+```
 
 Während des erneuten Seedings des Suchkatalogs lautet der Wert der *ContentIndexState*-Eigenschaft **Crawling**. Wenn das erneute Seeding abgeschlossen ist, wird dieser Wert in **Healthy** geändert.
 

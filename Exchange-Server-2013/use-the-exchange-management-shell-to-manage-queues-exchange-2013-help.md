@@ -516,13 +516,13 @@ Wenn Sie mithilfe des Parameters *Filter* einen Filterausdruck für Warteschlang
 Mithilfe des Vergleichsoperators **-and** können Sie einen Filter angeben, der mehrere Ausdrücke auswertet. Die Warteschlangen oder Nachrichten müssen alle Bedingungen des Filters erfüllen, um in die Ergebnisse aufgenommen zu werden.
 
 Dieses Beispiel zeigt eine Liste der Warteschlangen an, deren Ziel eine beliebige auf "Contoso.com" endende SMTP-Domäne ist und die gegenwärtig mehr als 500 Nachrichten enthalten.
-
+```powershell
     Get-Queue -Filter {Identity -like "*contoso.com*" -and MessageCount -gt 500}
-
+```
 Dieses Beispiel zeigt eine Liste von Nachrichten an, die von einer beliebigen E-Mail-Adresse in der Domäne "contoso.com" gesendet werden und deren SCL-Wert größer ist als 5.
-
+```powershell
     Get-Message -Filter {FromAddress -like "*Contoso.com*" -and SCL -gt 5}
-
+```
 Zurück zum Seitenanfang
 
 ## Erweiterte Pagingparameter
@@ -596,15 +596,16 @@ Im folgenden Beispiel wird ein Skript verwendet, um die erste Ergebnisseite abzu
 
 1.  Öffnen Sie die Shell, und geben Sie den folgenden Befehl ein, um die erste Ergebnisseite abzurufen.
     
+    ```powershell
         $Results=Get-message -Server mailbox01.contoso.com -ResultSize 500 -SortOrder +FromAddress,-Size
-
+    ```
 2.  Geben Sie zum Festlegen des Lesezeichenobjekts den folgenden Befehl ein, um das letzte Element der ersten Seite in einer Variablen zu speichern.
-    
+    ```powershell
         $temp=$results[$results.length-1]
-
+    ```
 3.  Geben Sie den folgenden Befehl ein, um die nächsten 500 Objekte auf dem angegebenen Server abzurufen und das Lesezeichenobjekt auszuschließen.
-    
+    ```powershell
         Get-message -Server mailbox01.contoso.com -BookmarkObject:$temp -IncludeBookmark $False -ResultSize 500 -SortOrder +FromAddress,-Size
-
+    ```
 Zurück zum Seitenanfang
 

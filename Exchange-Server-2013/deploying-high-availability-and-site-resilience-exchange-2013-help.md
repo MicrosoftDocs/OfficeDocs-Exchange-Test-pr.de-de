@@ -172,11 +172,15 @@ Der Administrator hat sich für die Erstellung eines Windows PowerShell-Befehls
 
 Die folgenden Befehle werden im Skript verwendet:
 
+```powershell
     New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer CAS1 -WitnessDirectory C:\DAGWitness\DAG1.contoso.com -DatabaseAvailabilityGroupIPAddresses 192.168.1.8,192.168.2.8
+```
 
 Mit dem obigen Befehl wird die DAG "DAG1" erstellt. "CAS1" wird als Zeugenserver konfiguriert, und es wird ein spezielles Zeugenverzeichnis ("C:\\DAGWitness\\DAG1.contoso.com") festgelegt. Für die DAG werden zwei IP-Adressen (eine für jedes Subnetz im MAPI-Netzwerk) konfiguriert.
 
+```powershell
     Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory C:\DAGWitness\DAG1.contoso.com -AlternateWitnessServer CAS4
+```
 
 Mit dem oben aufgeführten Befehl wird die DAG "DAG1" für die Verwendung eines alternativen Zeugenservers "CAS4" sowie eines alternativen Zeugenverzeichnisses auf "CAS4" konfiguriert, und zwar unter Verwendung des gleichen Pfads, der für "CAS1" konfiguriert wurde.
 
@@ -185,11 +189,12 @@ Mit dem oben aufgeführten Befehl wird die DAG "DAG1" für die Verwendung eines 
 > Es ist nicht unbedingt erforderlich, denselben Pfad zu verwenden; Contoso hat sich allerdings dafür entschieden, da die Konfiguration standardisiert werden sollte.
 
 
-
+```powershell
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX3
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX2
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX4
+```
 
 Mit den obigen Befehlen wird der DAG jeweils ein Postfachserver hinzugefügt. Mit diesen Befehlen wird auch die Failoverclusteringkomponente von Windows auf jedem Postfachserver installiert (falls noch nicht geschehen), ein Failovercluster erstellt und jeder Postfachserver mit dem neu erstellten Cluster verbunden.
 
@@ -217,39 +222,47 @@ Zum Erstellen dieser Konfiguration muss der Administrator mehrere Befehle ausfü
 
 Auf "MBX1":
 
+```powershell
     Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX2
     Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX4
     Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ReplayLagTime 3.00:00:00 -SeedingPostponed
     Suspend-MailboxDatabaseCopy -Identity DB1\MBX3 -SuspendComment "Seed from MBX4" -Confirm:$False
     Update-MailboxDatabaseCopy -Identity DB1\MBX3 -SourceServer MBX4
     Suspend-MailboxDatabaseCopy -Identity DB1\MBX3 -ActivationOnly
+```
 
 Auf "MBX2":
 
+```powershell
     Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX1
     Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX3
     Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ReplayLagTime 3.00:00:00 -SeedingPostponed
     Suspend-MailboxDatabaseCopy -Identity DB2\MBX4 -SuspendComment "Seed from MBX3" -Confirm:$False
     Update-MailboxDatabaseCopy -Identity DB2\MBX4 -SourceServer MBX3
     Suspend-MailboxDatabaseCopy -Identity DB2\MBX4 -ActivationOnly
+```
 
 Auf "MBX3":
 
+```powershell
     Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX4
     Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX2
     Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX1 -ReplayLagTime 3.00:00:00 -SeedingPostponed
     Suspend-MailboxDatabaseCopy -Identity DB3\MBX1 -SuspendComment "Seed from MBX2" -Confirm:$False
     Update-MailboxDatabaseCopy -Identity DB3\MBX1 -SourceServer MBX2
     Suspend-MailboxDatabaseCopy -Identity DB3\MBX1 -ActivationOnly
+```
 
 Auf "MBX4":
 
+```powershell
     Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX3
     Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX1
     Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX2 -ReplayLagTime 3.00:00:00 -SeedingPostponed
     Suspend-MailboxDatabaseCopy -Identity DB4\MBX2 -SuspendComment "Seed from MBX1" -Confirm:$False
     Update-MailboxDatabaseCopy -Identity DB4\MBX2 -SourceServer MBX1
     Suspend-MailboxDatabaseCopy -Identity DB4\MBX2 -ActivationOnly
+```
 
 Im obigen Beispiel wurde beim Cmdlet **Add-MailboxDatabaseCopy** der Parameter *ActivationPreference* nicht angegeben. Der Task inkrementiert automatisch bei jeder hinzugefügten Kopie die Aktivierungseinstellungsnummer. Die Originaldatenbank hat immer die Einstellungsnummer 1. Die erste mithilfe des Cmdlets **Add-MailboxDatabaseCopy** hinzugefügte Kopie erhält automatisch die Einstellungsnummer 2. Unter der Annahme, dass keine Kopien entfernt wurden, wird der nächsten hinzugefügten Kopie automatisch die Einstellungsnummer 3 zugeordnet usw. Daher hat in den obigen Beispielen die passive Kopie, die sich im selben Datencenter wie die aktive Kopie befindet, die Aktivierungseinstellungsnummer 2; die unverzögerte passive Kopie im Remotedatencenter hat die Aktivierungseinstellungsnummer 3 und die verzögerte passive Kopie im Remotedatencenter die Aktivierungseinstellungsnummer 4.
 

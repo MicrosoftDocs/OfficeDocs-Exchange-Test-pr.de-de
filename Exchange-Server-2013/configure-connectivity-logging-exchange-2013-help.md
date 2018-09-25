@@ -57,7 +57,9 @@ Bei der Konnektivitätsprotokollierung wird die Aktivität ausgehender Verbindun
 
 Führen Sie den folgenden Befehl aus, um die Konnektivitätsprotokollierung zu konfigurieren:
 
+```powershell
     <Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ConnectivityLogEnabled <$true | $false> -ConnectivityLogMaxAge <dd.hh:mm:ss> -ConnectivityLogMaxDirectorySize <Size> -ConnectivityLogMaxFileSize <Size> -ConnectivityLogPath <LocalFilePath>
+```
 
 In diesem Beispiel werden die Einstellungen für die Konnektivitätsprotokollierung im Transportdienst auf dem Postfachserver "Mailbox01" festgelegt:
 
@@ -71,7 +73,9 @@ In diesem Beispiel werden die Einstellungen für die Konnektivitätsprotokollier
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Mailbox01 -ConnectivityLogPath "D:\Hub Connectivity Log" -ConnectivityLogMaxFileSize 20MB -ConnectivityLogMaxDirectorySize 1.5GB -ConnectivityLogMaxAge 45.00:00:00
+```
 
 
 > [!NOTE]
@@ -91,7 +95,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Konnektivitätsproto
 
 1.  Führen Sie in der Shell den folgenden Befehl aus:
     
+    ```powershell
         <Get-TransportService | Get-FrontEndTransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List ConnectivityLog*
-
+    ```
+    
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 

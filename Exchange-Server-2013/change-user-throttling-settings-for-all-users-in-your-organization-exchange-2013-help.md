@@ -56,16 +56,16 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Einschränkungsricht
 1.  Führen Sie den folgenden Befehl aus.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    Get-ThrottlingPolicy | Format-List
+    ```
 
 2.  Überprüfen Sie, ob die Einschränkungsrichtlinie "Organization", die Sie zuvor erstellt haben, in der Spalte enthalten ist, die das Objekt "GlobalThrottlingPolicy" enthält.
 
 3.  Führen Sie den folgenden Befehl aus.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    Get-ThrottlingPolicy | Format-List
+    ```
 
 4.  Prüfen Sie, ob die Eigenschaften der neuen Richtlinie "Organization" Ihren konfigurierten Werten entspricht.
 

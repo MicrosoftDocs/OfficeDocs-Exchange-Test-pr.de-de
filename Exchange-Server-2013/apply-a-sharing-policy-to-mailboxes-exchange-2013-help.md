@@ -75,7 +75,9 @@ Get-Mailbox -Filter {Department -eq "Marketing"} | Set-Mailbox -SharingPolicy "C
 
 In diesem Beispiel werden alle Postfächer zurückgegeben, auf die die Freigaberichtlinie "Contoso" angewendet wird. Außerdem werden die Benutzer nur mit Alias und E-Mail-Adressen in einer Tabelle aufgelistet.
 
+```powershell
     Get-Mailbox -ResultSize unlimited | Where {$_.SharingPolicy -eq "Contoso" } | format-table Alias, EmailAddresses
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)) und [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)).
 
@@ -88,8 +90,8 @@ Führen Sie eine der folgenden Aktionen aus, um sich zu vergewissern, dass Sie d
   - Führen Sie folgenden Shell-Befehl aus, um zu überprüfen, ob die Freigaberichtlinie einem Benutzerpostfach zugewiesen wurde. Überprüfen Sie, ob die richtige Freigaberichtlinie im Parameter *SharingPolicy* aufgeführt wird.
     
     ```powershell
-Get-Mailbox <user name> | format-list
-```
+    Get-Mailbox <user name> | format-list
+    ```
 
 
 > [!TIP]

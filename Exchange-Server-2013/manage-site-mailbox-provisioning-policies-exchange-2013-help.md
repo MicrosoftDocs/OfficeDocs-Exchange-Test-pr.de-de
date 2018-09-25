@@ -53,7 +53,9 @@ In diesem Beispiel wird die Standardbereitstellungsrichtlinie "SM\_ProvisioningP
 
 <!-- end list -->
 
+```powershell
     New-SiteMailboxProvisioningPolicy -Name SM_ProvisioningPolicy -IsDefault -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB -MaxReceiveSize 50MB
+```
 
 ## Anzeigen der Einstellungen einer Bereitstellungsrichtlinie für Websitepostfächer
 
@@ -79,7 +81,9 @@ Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
 
 In diesem Beispiel wird das Kontingent, ab dem eine Warnmeldung gesendet wird, auf 9,5 GB und das Kontingent für das Sende- und Empfangsverbot auf 10 GB festgelegt.
 
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB
+```
 
 ## Konfigurieren eines Präfixes für einen Websitepostfachnamen
 
@@ -87,7 +91,9 @@ Wenn ein neues Websitepostfach erstellt wird, verfügt die zugehörige E-Mail-Ad
 
 In diesem Beispiel wird die Präfixbenennung deaktiviert, indem der Parameter *DefaultAliasPrefixEnabled* auf "$false" festgelegt wird.
 
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -DefaultAliasPrefixEnabled $false -AliasPrefix $null
+```
 
 In diesem Beispiel wird die Standardbereitstellungsrichtlinie geändert, und der Parameter *AliasPrefix* wird auf FOREST01 festgelegt.
 
@@ -96,8 +102,9 @@ In diesem Beispiel wird die Standardbereitstellungsrichtlinie geändert, und der
 > Für Bereitstellungen mit mehreren Gesamtstrukturen empfiehlt es sich, in jeder Gesamtstruktur ein anderes Präfix zu verwenden, um bei der gesamtstrukturübergreifenden Synchronisierung von Objekten Konflikte zu vermeiden, falls Websitepostfächer desselben Namens in mehreren Gesamtstrukturen erstellt wurden.
 
 
-
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -AliasPrefix FOREST01 -DefaultAliasPrefixEnabled $false
+```
 
 
 > [!NOTE]

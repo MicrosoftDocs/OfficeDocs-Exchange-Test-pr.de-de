@@ -42,56 +42,66 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Wiederherstellungsdat
 2.  Verwenden Sie Eseutil, um diese Datenbank in den Status "Clean Shutdown" zu versetzen. Im folgenden Beispiel stellt EXX das Protokollgenerierungspräfix für die Datenbank dar (z. B. E00, E01, E02 usw.).
     
     ```powershell
-Eseutil /R EXX /l <RDBLogFilePath> /d <RDBEdbFolder>
-```
+    Eseutil /R EXX /l <RDBLogFilePath> /d <RDBEdbFolder>
+    ```
     
     Das folgende Beispiel verwendet das Protokollgenerierungspräfix E01 und den Wiederherstellungsdatenbank- und Protokolldateipfad "E:\\Databases\\RDB1:
     
+    ```powershell
         Eseutil /R E01 /l E:\Databases\RDB1 /d E:\Databases\RDB1
-
+    ```
+    
 3.  Erstellen einer Wiederherstellungsdatenbank Geben Sie der Wiederherstellungsdatenbank einen eindeutigen Namen. Verwenden Sie aber den Namen und Pfad der Datenbankdatei für den Parameter "EdbFilePath" und den Speicherort der wiederhergestellten Protokolldateien für den Parameter "LogFolderPath".
     
+    ```powershell
         New-MailboxDatabase -Recovery -Name <RDBName> -Server <ServerName> -EdbFilePath <RDBPathandFileName> -LogFolderPath <LogFilePath>
+    ```
     
     Im folgenden Beispiel wird die Erstellung einer Wiederherstellungsdatenbank illustriert, die zur Wiederherstellung von "DB1.edb" und deren Protokolldateien verwendet wird, die unter "E:\\Databases\\RDB1" gespeichert sind.
     
+    ```powershell
         New-MailboxDatabase -Recovery -Name <RDBName> -Server <ServerName> -EdbFilePath "E:\Databases\RDB1\DB1.EDB" -LogFolderPath "E:\Databases\RDB1"
-
+    ```
+    
 4.  Starten Sie den Microsoft Exchange-Informationsspeicherdienst neu:
     
     ```powershell
-Restart-Service MSExchangeIS
-```
+    Restart-Service MSExchangeIS
+    ```
 
 5.  Binden Sie die Wiederherstellungsdatenbank ein:
     
     ```powershell
-Mount-database <RDBName>
-```
+    Mount-database <RDBName>
+    ```
 
 6.  Stellen Sie sicher, dass die eingebundene Datenbank das/die Postfach/Postfächer enthält, das/die Sie wiederherstellen möchten:
     
     ```powershell
-Get-MailboxStatistics -Database <RDBName> | ft -auto
-```
+    Get-MailboxStatistics -Database <RDBName> | ft -auto
+    ```
 
 7.  Verwenden Sie das Cmdlet "New-MailboxRestoreRequest", um ein Postfach oder Elemente aus der Wiederherstellungsdatenbank in einem Produktionspostfach wiederherzustellen.
     
     Im folgenden Beispiel wird das Quellpostfach mit MailboxGUID "1d20855f-fd54-4681-98e6-e249f7326ddd" in der Postfachdatenbank "DB1" im Zielpostfach mit dem Alias "Morris" wiederhergestellt.
     
+    ```powershell
         New-MailboxRestoreRequest -SourceDatabase DB1 -SourceStoreMailbox 1d20855f-fd54-4681-98e6-e249f7326ddd -TargetMailbox Morris
+    ```
     
     Im folgenden Beispiel wird der Inhalt des Quellpostfachs wiederhergestellt, das in der Postfachdatenbank "DB1" für das Archivpostfach von "Morris@contoso.com" den Anzeigenamen "Morris Cornejo" aufweist.
     
+    ```powershell
         New-MaiboxRestoreRequest -SourceDatabase DB1 -SourceStoreMailbox "Morris Cornejo" -TargetMailbox Morris@contoso.com -TargetIsArchive
-
+    ```
+    
 8.  Prüfen Sie mit [Get-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829907\(v=exchg.150\)) regelmäßig den Status der Postfachwiederherstellungsanforderung.
     
     Sobald die Wiederherstellung den Status "Abgeschlossen" aufweist, entfernen Sie die Wiederherstellungsanforderung mit [Remove-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829910\(v=exchg.150\)). Beispiel:
     
     ```powershell
-Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
-```
+    Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
+    ```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

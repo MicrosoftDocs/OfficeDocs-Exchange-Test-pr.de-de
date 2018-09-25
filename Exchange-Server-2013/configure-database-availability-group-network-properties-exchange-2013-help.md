@@ -55,7 +55,9 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
 
 In diesem Beispiel werden dem DAG-Netzwerk "MapiDagNetwork" in der DAG "DAG1" das Subnetz 10.0.0.0 und die Subnetzmaske 255.0.0.0 hinzugefügt.
 
+```powershell
     Set-DatabaseAvailabilityGroupNetwork -Subnets 10.0.0.0/8 -Identity DAG1\MapiDagNetwork
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -64,8 +66,8 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob das DAG-Netzwerk erfolgrei
   - Führen Sie in der Shell den folgenden Befehl aus, um die Konfigurationseinstellungen für das DAG-Netzwerk anzuzeigen und sicherzustellen, dass das DAG-Netzwerk erfolgreich konfiguriert wurde.
     
     ```powershell
-Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
-```
+    Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+    ```
 
 ## Weitere Informationen
 

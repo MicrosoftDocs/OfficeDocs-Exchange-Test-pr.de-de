@@ -53,11 +53,15 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit P
 
 In diesem Beispiel wird die Kopie der Datenbank "DB1" auf dem Server "MBX2" für die Aktivierung gesperrt.
 
+```powershell
     Suspend-MailboxDatabaseCopy -Identity DB1\MBX2 -ActivationOnly
+```
 
 In diesem Beispiel wird die Sperre der Aktivierung bei der Kopie der Datenbank "DB1" auf dem Server "MBX2" aufgehoben.
 
+```powershell
     Resume-MailboxDatabaseCopy -Identity DB1\MBX2
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd351074\(v=exchg.150\)) oder [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd335220\(v=exchg.150\)).
 
@@ -90,12 +94,12 @@ Gehen Sie wie folgt vor, um die erfolgreiche Konfiguration der Aktivierungsricht
   - Führen Sie in der Shell den folgenden Befehl aus, um die Aktivierungseinstellungen für eine Datenbankkopie zu überprüfen:
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
+    ```
 
   - Führen Sie in der Shell den folgenden Befehl aus, um die Aktivierungseinstellungen für ein DAG-Mitglied zu überprüfen:
     
     ```powershell
-Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
-```
+    Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
+    ```
 
