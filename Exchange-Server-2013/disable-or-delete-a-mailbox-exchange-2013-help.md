@@ -141,21 +141,21 @@ Wenn Sie diesen Befehl ausführen, müssen Sie in einer Meldung bestätigen, das
 
 Im Folgenden finden Sie einige Beispiele für Befehle zum Deaktivieren von Postfächern.
 
-```
+
 ```powershell
 Disable-Mailbox danj
 ```
+
+
+```powershell
+Disable-Mailbox "Conf Room 31/1234 (12)"
 ```
 
-```
-    Disable-Mailbox "Conf Room 31/1234 (12)"
-```
 
-```
 ```powershell
 Disable-Mailbox sharedmbx@contoso.com
 ```
-```
+
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -167,8 +167,10 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass Sie ein Postfach erfolgr
 
   - Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
-    
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
+    ```
+
     Mit dem Wert `Disabled` der Eigenschaft *DisconnectReason* wird angegeben, dass das Postfach deaktiviert wurde.
     
 
@@ -180,8 +182,8 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass Sie ein Postfach erfolgr
   - Führen Sie in der Shell den folgenden Befehl aus.
     
     ```powershell
-Get-User <identity>
-```
+    Get-User <identity>
+    ```
     
     Beachten Sie, dass die Eigenschaft *RecipientType* den Wert `User` aufweist, und nicht `UserMailbox`, dem Wert für Benutzer mit aktivierten Postfächern. Dadurch wird auch bestätigt, dass das Postfach deaktiviert wurde, das Benutzerkonto aber erhalten bleibt.
 
@@ -213,21 +215,21 @@ Wenn Sie diesen Befehl ausführen, müssen Sie in einer Meldung bestätigen, das
 
 Im Folgenden finden Sie einige Beispiele für Befehle zum Löschen von Postfächern.
 
-```
+
 ```powershell
 Remove-Mailbox pilarp@contoso.com
 ```
-```
+
 
 ```
-    Remove-Mailbox "Fleet Van (16)"
+Remove-Mailbox "Fleet Van (16)"
 ```
 
-```
+
 ```powershell
 Remove-Mailbox corpprint
 ```
-```
+
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -241,8 +243,10 @@ Führen Sie eines der folgenden Verfahren aus, um das erfolgreiche Löschen eine
 
 1.  Führen Sie den folgenden Befehl aus, um zu überprüfen, ob das Postfach gelöscht wurde.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
-    
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
+    ```
+
     Mit dem Wert `Disabled` der Eigenschaft *DisconnectReason* wird angegeben, dass das Postfach gelöscht wurde.
     
 
@@ -254,8 +258,8 @@ Führen Sie eines der folgenden Verfahren aus, um das erfolgreiche Löschen eine
 2.  Führen Sie den folgenden Befehl aus, um zu überprüfen, ob das Active Directory-Benutzerkonto gelöscht wurde.
     
     ```powershell
-Get-User <identity>
-```
+    Get-User <identity>
+    ```
     
     Der Befehl gibt einen Fehler zurück, der angibt, dass der Benutzer nicht gefunden wurde. So wird bestätigt, dass das Konto gelöscht wurde.
 

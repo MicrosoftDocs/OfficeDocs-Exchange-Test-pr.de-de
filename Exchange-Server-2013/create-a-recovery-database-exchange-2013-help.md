@@ -56,8 +56,8 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Wiederherstellungsdate
   - Führen Sie in der Shell den folgenden Befehl aus, um Konfigurationsinformationen zur Wiederherstellungsdatenbank anzuzeigen:
     
     ```powershell
-Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
-```
+    Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+    ```
 
 ## Weitere Aufgaben
 

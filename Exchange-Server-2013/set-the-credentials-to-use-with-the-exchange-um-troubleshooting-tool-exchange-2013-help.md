@@ -60,12 +60,13 @@ Wenn Sie das UM-Problembehandlungstool ausführen, verwendet es standardmäßig 
 2.  Geben Sie im Fenster **Microsoft Exchange 2010 UM-Problembehandlungstool** an der Eingabeaufforderung Folgendes ein, und drücken Sie die EINGABETASTE.
     
     ```powershell
-$cred=Get-Credential
-```
+    $cred=Get-Credential
+    ```
 
 3.  Geben Sie im Fenster **Bei Windows PowerShell anmelden** den Domänen-\\Benutzernamen und das Kennwort ein, und klicken Sie dann auf **OK**.
 
 4.  Geben Sie im Fenster **Microsoft Exchange 2010 UM-Problembehandlungstool** die erforderlichen Cmdlet-Parameter an, um den Anruffluss zu testen. Beispiel:
     
-        Test-ExchangeUMCallFlow -Mode SIPClient -CallingParty tonysmith@contoso.com - CalledParty jamiestark@contoso.com NextHop ocsfe.contoso.com -Credential $cred
-
+    ```powershell
+    Test-ExchangeUMCallFlow -Mode SIPClient -CallingParty tonysmith@contoso.com - CalledParty jamiestark@contoso.com NextHop ocsfe.contoso.com -Credential $cred
+    ```

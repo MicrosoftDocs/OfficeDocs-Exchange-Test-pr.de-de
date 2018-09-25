@@ -70,7 +70,9 @@ Verwenden Sie eines der folgenden Verfahren, wenn sich die Postfachdatenbank auf
 
 In diesem Beispiel wird von einem beliebigen Quellserver in der DAG aus, der über eine Kopie der Datenbank verfügt, ein erneutes Seeding des Inhaltsindexkatalogs der Datenbankkopie "DB1" auf dem Postfachserver "MBX1" ausgeführt.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Update-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd335201\(v=exchg.150\)).
 

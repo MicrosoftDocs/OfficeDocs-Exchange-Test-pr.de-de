@@ -98,7 +98,9 @@ New-DatabaseAvailabilityGroup -Name DAG2 -DatabaseAvailabilityGroupIPAddresses 1
 
 In diesem Beispiel wird die Database Availability Group "DAG3" erstellt. Die Datenbankverfügbarkeitsgruppe "DAG3" wird für die Verwendung des Zeugenservers "MBX2" und eines lokalen Verzeichnisses "C:\\DAG3" konfiguriert. "DAG3" werden mehrere statische IP-Adressen zugeordnet, da sich die DAG-Mitglieder im MAPI-Netzwerk in verschiedenen Subnetzen befinden.
 
-    New-DatabaseAvailabilityGroup -Name DAG3 -WitnessServer MBX2 -WitnessDirectory C:\DAG3 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,192.168.0.8
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG3 -WitnessServer MBX2 -WitnessDirectory C:\DAG3 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,192.168.0.8
+```
 
 In diesem Beispiel wird die DAG "DAG4" für die Verwendung von DHCP konfiguriert. Der Zeugenserver wird darüber hinaus durch das System automatisch ausgewählt, und das Standardzeugenverzeichnis wird erstellt.
 

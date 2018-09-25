@@ -33,8 +33,9 @@ Weitere Informationen zu Verbundvertrauensstellungen sowie zum Thema Verbund fin
 
   - Führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um herauszufinden, ob Ihr aktuelles Verbundzertifikat abgelaufen ist:
     
-        Get-ExchangeCertificate -Thumbprint (Get-FederationTrust).OrgCertificate.Thumbprint | Format-Table -Auto Thumbprint,NotAfter
-
+    ```powershell
+    Get-ExchangeCertificate -Thumbprint (Get-FederationTrust).OrgCertificate.Thumbprint | Format-Table -Auto Thumbprint,NotAfter
+    ```
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
@@ -165,9 +166,9 @@ Wenn das Verbundzertifikat bereits abgelaufen ist, müssen Sie zunächst alle Ve
     Get-FederatedOrganizationIdentifier | Format-List AccountNamespace,Domains
     ```
     
-    ```powershell
-    Der Wert der Eigenschaft **AccountNamespace** enthält die primäre freigegebene Domäne im Format `FYDIBOHF25SPDLT<primary shared domain>`. Beispiel: Im Wert `FYDIBOHF25SPDLT.contoso.com` ist „contoso.com“ die primäre freigegebene Domäne.
-    ```
+
+Der Wert der Eigenschaft **AccountNamespace** enthält die primäre freigegebene Domäne im Format `FYDIBOHF25SPDLT<primary shared domain>`. Beispiel: Im Wert `FYDIBOHF25SPDLT.contoso.com` ist „contoso.com“ die primäre freigegebene Domäne.
+    
 2.  Führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um alle Verbunddomänen außer der primären freigegebenen Domäne zu entfernen:
     
     ```powershell

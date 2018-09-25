@@ -123,7 +123,6 @@ Sie können außerdem Benutzerpostfächer für vorhandene Benutzer erstellen, di
         Wählen Sie in der Dropdownliste die Richtlinie aus, die diesem Postfach zugeordnet werden soll.
 
 7. 
-    
     Klicken Sie nach Abschluss dieses Vorgangs auf **Speichern**, um das Postfach zu erstellen.
 
 ## Erstellen eines Benutzerpostfachs mithilfe der Shell
@@ -144,7 +143,9 @@ In diesem Beispiel werden ein neues Benutzerkonto und Postfach mit den folgenden
 
 <!-- end list -->
 
-    New-Mailbox -Alias pilarp -Name "Pilar Pinilla" -FirstName Pilar -LastName Pinilla -DisplayName "Pilar Pinilla" -UserPrincipalName pilarp@contoso.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force)
+```powershell
+New-Mailbox -Alias pilarp -Name "Pilar Pinilla" -FirstName Pilar -LastName Pinilla -DisplayName "Pilar Pinilla" -UserPrincipalName pilarp@contoso.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force)
+```
 
 Informationen zu Syntax und Parametern finden Sie unter [New-Mailbox](https://technet.microsoft.com/de-de/library/aa997663\(v=exchg.150\)).
 
@@ -157,8 +158,8 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Erstellung ein
   - Führen Sie in der Shell den folgenden Befehl aus, um Informationen zum neuen Benutzerpostfach anzuzeigen.
     
     ```powershell
-Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
-```
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```
 
 ## Erstellen eines Postfachs für einen vorhandenen Benutzer
 
@@ -235,8 +236,8 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Erstellung ein
   - Führen Sie in der Shell den folgenden Befehl aus, um Informationen zum neuen Benutzer mit Postfachaktivierung anzuzeigen.
     
     ```powershell
-Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
-```
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```
     
     Beachten Sie, dass die Eigenschaft *RecipientTypeDetails* den Wert `UserMailbox` aufweist.
 

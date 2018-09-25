@@ -581,7 +581,9 @@ Sie können gegebenenfalls einen Benutzer konfigurieren, der mit der Exchange-Ve
 
 Sie können gegebenenfalls in der Shell mit dem folgenden Befehl einen Benutzer konfigurieren, der für UM aktiviert ist.
 
-    Set-UMMailbox -Identity tony@contoso.com -CallAnsweringAudioCodec Wma -CallAnsweringRulesEnabled $false -FaxEnabled $false -UMSMSNotificationOption VoiceMail
+```powershell
+Set-UMMailbox -Identity tony@contoso.com -CallAnsweringAudioCodec Wma -CallAnsweringRulesEnabled $false -FaxEnabled $false -UMSMSNotificationOption VoiceMail
+```
 
 ## Schritt 14: Konfigurieren Ihrer VoIP-Gateways, IP-PBX-Anlagen und SIP-fähigen PBX-Anlagen zum Senden aller eingehenden Anrufe an die Exchange 2013-Clientzugriffsserver
 
@@ -649,10 +651,12 @@ So entfernen Sie einen Exchange 2010-UM-Server mit der Exchange-Verwaltungskonso
 
 Führen Sie zur Entfernung eines Exchange 2010-UM-Servers aus einem Wählplan mithilfe der Shell folgenden Befehl aus.
 
-    $dp= Get-UMDialPlan "MySIPDialPlan"
-    $s=Get-UMServer -id MyUMServer
-    $s.dialplans-=$dp.identity
-    Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```poewrshell
+$dp= Get-UMDialPlan "MySIPDialPlan"
+$s=Get-UMServer -id MyUMServer
+$s.dialplans-=$dp.identity
+Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```
 
 In diesem Beispiel sind drei SIP-UIR-Wählpläne vorhanden: SipDP1, SipDP2 und SipDP3. In diesem Beispiel wird ein UM-Server mit dem Namen `MyUMServer` aus dem Wählplan "SipDP3" entfernt.
 

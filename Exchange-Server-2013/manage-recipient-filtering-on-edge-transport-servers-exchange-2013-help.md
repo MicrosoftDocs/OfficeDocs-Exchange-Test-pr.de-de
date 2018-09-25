@@ -38,8 +38,8 @@ Die Empfängerfilterung wird durch den Empfängerfilter-Agent bereitgestellt. We
   - Der Parameter *AddressBookEnabled* des Cmdlets **Set-AcceptedDomain** aktiviert oder deaktiviert die Empfängerfilterung für Empfänger in einer akzeptierten Domäne. Die Empfängerfilterung ist standardmäßig für autoritative Domänen aktiviert und für interne sowie externe Relaydomänen deaktiviert. Führen Sie den folgenden Befehl aus, um den Status des Parameters *AddressBookEnabled* für die akzeptierten Domänen in Ihrer Organisation anzuzeigen:
     
     ```powershell
-Get-AcceptedDomain | Format-List Name,AddressBookEnabled
-```
+    Get-AcceptedDomain | Format-List Name,AddressBookEnabled
+    ```
 
   - Wenn Sie die Empfängerfilterung mithilfe des Verfahrens in diesem Thema deaktivieren, werden die Funktionen zur Empfängerfilterung deaktiviert, aber der zugrunde liegende Empfängerfilter-Agent bleibt aktiviert.
 
@@ -80,8 +80,8 @@ Führen Sie die folgenden Aktionen aus, um zu überprüfen, ob Sie die Empfänge
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-RecipientFilterConfig | Format-List Enabled
-```
+    Get-RecipientFilterConfig | Format-List Enabled
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
@@ -106,8 +106,8 @@ Führen Sie die folgenden Aktionen aus, um zu überprüfen, ob Sie die Empfänge
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-RecipientFilterConfig | Format-List BlockListEnabled
-```
+    Get-RecipientFilterConfig | Format-List BlockListEnabled
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
@@ -127,11 +127,15 @@ Set-RecipientFilterConfig -BlockedRecipients mark@contoso.com,kim@contoso.com
 
 Führen Sie folgenden Befehl aus, um Einträge hinzuzufügen bzw. zu entfernen, ohne vorhandene Werte zu ändern:
 
-    Set-RecipientFilterConfig -BlockedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...}
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...}
+```
 
 In diesem Beispiel wird "chris@contoso.com" zur Empfängerliste hinzugefügt und "michelle@contoso.com" aus der Liste der Empfänger in der Empfängersperrliste entfernt:
 
-    Set-RecipientFilterConfig -BlockedRecipients @{Add="chris@contoso.com"; Remove="michelle@contoso.com"}
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients @{Add="chris@contoso.com"; Remove="michelle@contoso.com"}
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -140,8 +144,8 @@ Führen Sie die folgenden Aktionen aus, um zu überprüfen, ob Sie die Empfänge
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-RecipientFilterConfig | Format-List BlockedRecipients
-```
+    Get-RecipientFilterConfig | Format-List BlockedRecipients
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 
@@ -166,8 +170,8 @@ Führen Sie die folgenden Aktionen aus, um zu überprüfen, ob Sie die Empfänge
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-RecipientFilterConfig | Format-List RecipientValidationEnabled
-```
+    Get-RecipientFilterConfig | Format-List RecipientValidationEnabled
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 

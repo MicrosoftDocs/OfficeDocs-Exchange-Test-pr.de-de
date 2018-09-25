@@ -93,7 +93,9 @@ Das Wiederholungsintervall bei Fehlern ausgehender Verbindungen gibt das Wiederh
 
 Verwenden Sie die folgende Syntax zum Konfigurieren der Anzahl der Wiederholungsversuche bei vorübergehenden Fehlern, des Intervalls für Wiederholungsversuche bei vorübergehenden Fehlern und des Wiederholungsintervalls bei Fehlern ausgehender Verbindungen im Transportdienst auf einem Postfachserver oder einem Edge-Transport-Server.
 
-    Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
+```
 
 In diesem Beispiel werden die folgenden Werte auf dem Postfachserver "Mailbox01" geändert: auf dem Edge-Transport-Server "Exchange01".
 

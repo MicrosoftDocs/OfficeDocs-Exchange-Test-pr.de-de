@@ -48,6 +48,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
 <td>
+
 ```powershell
 -ContentFilter {All -like '*Ayla*'}
 ```
@@ -59,6 +60,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
 <td>
+
 ```powershell
 -ContentFilter {Attachment -like '*.jpg'}
 ```
@@ -73,6 +75,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>LegacyDN</p>
 <p>Platzhalter</p></td>
 <td>
+
 ```powershell
 -ContentFilter {(BCC -eq 'ayla@contoso.com') -or (BCC -eq 'tony@contoso.com')}
 ```
@@ -84,6 +87,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
 <td>
+
 ```powershell
 -ContentFilter {Body -like '*prospectus*'}
 ```
@@ -95,6 +99,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
 <td>
+
 ```powershell
 -ContentFilter {Category -like '*Blue*'}
 ```
@@ -109,6 +114,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>LegacyDN</p>
 <p>Platzhalter</p></td>
 <td>
+
 ```powershell
 -ContentFilter {(CC -eq 'ayla@contoso.com') -or (CC -eq 'tony@contoso.com')}
 ```
@@ -119,6 +125,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Diese Eigenschaft gibt Nachrichten mit einem Zeitstempel für den Ablauf zurück.</p></td>
 <td><p>Datums-/Uhrzeitstempel</p></td>
 <td>
+
 ```powershell
 -ContentFilter {Expires -lt '01/01/2013'}
 ```
@@ -130,6 +137,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Boolescher Wert</p>
 <p><code>$true</code> oder  <code>$false</code></p></td>
 <td>
+
 ```powershell
 -ContentFilter {HasAttachment -eq $true}
 ```
@@ -142,6 +150,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>1 oder &quot;Normal&quot;</p>
 <p>2 oder &quot;Hoch&quot;</p></td>
 <td>
+
 ```powershell
 -ContentFilter {Importance -eq 'high'}
 ```
@@ -158,6 +167,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Boolescher Wert</p>
 <p><code>$true</code> oder <code>$false</code></p></td>
 <td>
+
 ```powershell
 -ContentFilter {IsFlagged -eq $true}
 ```
@@ -169,6 +179,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Boolescher Wert</p>
 <p><code>$true</code> oder <code>$false</code></p></td>
 <td>
+
 ```powershell
 -ContentFilter {IsRead -eq $true}
 ```
@@ -190,6 +201,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>Aufgabe</p>
 <p>Voicemail</p></td>
 <td>
+
 ```powershell
 -ContentFilter {MessageKind -eq 'Calendar'}
 ```
@@ -205,6 +217,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Diese Eigenschaft gibt Nachrichten zurück, die das angegebene Gebietsschema aufweisen.</p></td>
 <td><p>CultureInfo</p></td>
 <td>
+
 ```powershell
 -ContentFilter {MessageLocale -ne 'en-US'}
 ```
@@ -224,6 +237,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>LegacyDN</p>
 <p>Platzhalter</p></td>
 <td>
+
 ```powershell
 -ContentFilter {(Participants -eq 'ayla@contoso.com') -or (Participants -eq 'tony@contoso.com')}
 ```
@@ -236,6 +250,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
 <td>
+
 ```powershell
 -ContentFilter {PolicyTag -ne '00000000-0000-0000-0000-000000000000'}
 ```
@@ -246,6 +261,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Diese Eigenschaft gibt empfangene Nachrichten mit dem angegebenen Empfangszeitstempel zurück.</p></td>
 <td><p>Datums-/Uhrzeitstempel</p></td>
 <td>
+
 ```powershell
 -ContentFilter {Received -lt '01/01/2013 9:00'}
 ```
@@ -265,6 +281,7 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>LegacyDN</p>
 <p>Platzhalter</p></td>
 <td>
+
 ```powershell
 ContentFilter {Sender -eq 'tony'}
 ```
@@ -275,6 +292,7 @@ ContentFilter {Sender -eq 'tony'}
 <td><p>Diese Eigenschaft gibt gesendete Nachrichten mit dem angegebenen Sendezeitstempel zurück.</p></td>
 <td><p>Datums-/Uhrzeitstempel</p></td>
 <td>
+
 ```powershell
 -ContentFilter {Sent -lt '01/01/2013 9:00'}
 ```
@@ -292,6 +310,7 @@ ContentFilter {Sender -eq 'tony'}
 <p>KB (Kilobytes)</p>
 <p>MB (Megabytes)</p></td>
 <td>
+
 ```powershell
 -ContentFilter {Size -gt '10KB'}
 ```
@@ -303,6 +322,7 @@ ContentFilter {Sender -eq 'tony'}
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
 <td>
+
 ```powershell
 -ContentFilter {Subject -like '*meeting*'}
 ```
@@ -317,6 +337,7 @@ ContentFilter {Sender -eq 'tony'}
 <p>LegacyDN</p>
 <p>Platzhalter</p></td>
 <td>
+
 ```powershell
 -ContentFilter {To -eq 'aylakol'}
 ```

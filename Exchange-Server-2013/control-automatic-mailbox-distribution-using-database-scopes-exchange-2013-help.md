@@ -87,7 +87,9 @@ New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
 
 In diesem Beispiel wird ein Bereich mit allen Datenbanken erstellt, deren Eigenschaft **Name** die Zeichenfolge "ACCT" enthält.
 
-    New-ManagementScope -Name "Accounting Databases" -DatabaseRestrictionFilter { Name -Like '*ACCT*' }
+```powershell
+New-ManagementScope -Name "Accounting Databases" -DatabaseRestrictionFilter { Name -Like '*ACCT*' }
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementScope](https://technet.microsoft.com/de-de/library/dd335137\(v=exchg.150\)).
 
@@ -105,12 +107,16 @@ Verwenden Sie dieses Verfahren, wenn Sie gerade eine Rollengruppe erstellt haben
 
 Verwenden Sie die folgende Syntax, um eine Rollenzuweisung zwischen der gewünschten Verwaltungsrolle und der neuen Rollengruppe mit dem neuen Datenbankbereich zu erstellen.
 
-    New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomConfigWriteScope <database scope name>
+```powershell
+New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomConfigWriteScope <database scope name>
+```
 
 In diesem Beispiel wird eine Rollenzuweisung zwischen den Rollen "Mail Recipients" und "Mail Recipient Creation" und der Rollengruppe "Accounting Administrators" erstellt; dabei wird der Datenbankbereich "Accounting Databases" verwendet.
 
-    New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipients" -CustomConfigWriteScope "Accounting Databases"
-    New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipient Creation" -CustomConfigWriteScope "Accounting Databases"
+```powershell
+New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipients" -CustomConfigWriteScope "Accounting Databases"
+New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipient Creation" -CustomConfigWriteScope "Accounting Databases"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -122,12 +128,15 @@ Bei diesem Verfahren wird das Pipelining verwendet. Weitere Informationen finden
 
 Verwenden Sie die folgende Syntax, um eine Rollenzuweisung zwischen der Verwaltungsrolle, auf die Sie den Datenbankbereich anwenden möchten, und einer vorhandenen Rollengruppe zu ändern.
 
-    Get-ManagementRoleAssignment -RoleAssignee <role group name> -Role <role name> | Set-ManagementRoleAssignment -CustomConfigWriteScope <database scope name>
-
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee <role group name> -Role <role name> | Set-ManagementRoleAssignment -CustomConfigWriteScope <database scope name>
+```
 In diesem Beispiel wird der Datenbankbereich "Accounting Databases" den Rollen "Mail Recipients" und "Mail Recipient Creation" hinzugefügt, die der Rollengruppe "Accounting Administrators" zugewiesen sind.
 
-    Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipients" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
-    Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipient Creation" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipients" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
+Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipient Creation" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd351024\(v=exchg.150\)) oder [Set-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335173\(v=exchg.150\)).
 
