@@ -109,7 +109,12 @@ In diesem Beispiel werden folgende Werte verwendet:
 > <LI>
 > <P>Bei den Befehlen im Telnet-Client wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die SMTP-Befehlsverben wurden aus Gründen der Klarheit als Großbuchstaben formatiert.</P>
 > <LI>
-> <P>Sie können die Rücktaste nicht verwenden, nachdem Sie in der Telnet-Sitzung eine Verbindung mit dem SMTP-Zielserver hergestellt haben. Wenn Ihnen beim Eingeben eines SMTP-Befehls ein Fehler unterläuft, müssen Sie die EINGABETASTE drücken und den Befehl dann erneut eingeben. SMTP-Befehle, die nicht erkannt werden, oder Syntaxfehler führen zu eine Fehlermeldung, die der folgenden Fehlermeldung ähnelt:</P><PRE><CODE>500 5.3.3 Unrecognized command</CODE></PRE></LI></UL>
+> <P>Sie können die Rücktaste nicht verwenden, nachdem Sie in der Telnet-Sitzung eine Verbindung mit dem SMTP-Zielserver hergestellt haben. Wenn Ihnen beim Eingeben eines SMTP-Befehls ein Fehler unterläuft, müssen Sie die EINGABETASTE drücken und den Befehl dann erneut eingeben. SMTP-Befehle, die nicht erkannt werden, oder Syntaxfehler führen zu eine Fehlermeldung, die der folgenden Fehlermeldung ähnelt:</P>
+> 
+> ```powershell
+> 500 5.3.3 Unrecognized command
+> ```
+> </LI></UL>
 
 
 
