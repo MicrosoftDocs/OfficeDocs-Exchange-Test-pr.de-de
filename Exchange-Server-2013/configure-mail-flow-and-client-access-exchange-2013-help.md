@@ -337,11 +337,12 @@ Weitere Informationen zu internen und externen URLs für virtuelle Verzeichnisse
 2.  Speichern Sie den Hostnamen Ihres Clientzugriffsservers in einer Variablen. Diese wird im nächsten Schritt verwendet. Beispiel: "Ex2013CAS".
     
     ```powershell
-$HostName = "Ex2013CAS"
-```
+    $HostName = "Ex2013CAS"
+    ```
 
 3.  Führen Sie die folgenden Befehle in der Shell aus, um die einzelnen internen URLs so zu konfigurieren, dass sie mit der externen URL des virtuellen Verzeichnisses übereinstimmen.
     
+    ```powershell
         Set-EcpVirtualDirectory "$HostName\ECP (Default Web Site)" -InternalUrl ((Get-EcpVirtualDirectory "$HostName\ECP (Default Web Site)").ExternalUrl)
         
         Set-WebServicesVirtualDirectory "$HostName\EWS (Default Web Site)" -InternalUrl ((get-WebServicesVirtualDirectory "$HostName\EWS (Default Web Site)").ExternalUrl)
@@ -353,10 +354,13 @@ $HostName = "Ex2013CAS"
         Set-OwaVirtualDirectory "$HostName\OWA (Default Web Site)" -InternalUrl ((Get-OwaVirtualDirectory "$HostName\OWA (Default Web Site)").ExternalUrl)
         
         Set-PowerShellVirtualDirectory "$HostName\PowerShell (Default Web Site)" -InternalUrl ((Get-PowerShellVirtualDirectory "$HostName\PowerShell (Default Web Site)").ExternalUrl)
-
+    ```
+    
 4.  Während wir in der Shell sind, lassen Sie uns auch das Offlineadressbuch (OAB) konfigurieren, sodass die automatische Erkennung das korrekte virtuelle Verzeichnis zum Verteilen des OABs auswählen kann. Führen Sie dazu die folgenden Befehle aus.
     
+    ```powershell
         Get-OfflineAddressBook | Set-OfflineAddressBook -GlobalWebDistributionEnabled $True -VirtualDirectories $Null
+    ```
 
 Nachdem Sie die interne URL in den virtuellen Verzeichnissen des Clientzugriffsservers konfiguriert haben, müssen Sie Ihre privaten DNS-Einträge für Outlook Web App und andere Konnektivität konfigurieren. Abhängig von Ihrer Konfiguration müssen Sie Ihre privaten DNS-Einträge so konfigurieren, dass sie auf die interne oder externe IP-Adresse bzw. auf den FQDN (Fully Qualified Domain Name, vollqualifizierter Domänenname) Ihres Clientzugriffsservers verweisen. Nachfolgend werden Beispiele für empfohlene DNS-Einträge gezeigt, die Sie zur Aktivierung der internen Clientkonnektivität erstellen sollten.
 
@@ -478,8 +482,10 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Konfiguration Ihrer 
 
 8.  Abschließend müssen wir die Shell öffnen und das Offlineadressbuch (OAB) konfigurieren, sodass die automatische Erkennung das korrekte virtuelle Verzeichnis zum Verteilen des OABs auswählen kann. Führen Sie dazu die folgenden Befehle aus.
     
+    ```powershell
         Get-OfflineAddressBook | Set-OfflineAddressBook -GlobalWebDistributionEnabled $True -VirtualDirectories $Null
-
+    ```
+    
 Nachdem Sie die interne URL in den virtuellen Verzeichnissen des Clientzugriffsservers konfiguriert haben, müssen Sie Ihre privaten DNS-Einträge für Outlook Web App und andere Konnektivität konfigurieren. Abhängig von Ihrer Konfiguration müssen Sie Ihre privaten DNS-Einträge so konfigurieren, dass sie auf die interne oder externe IP-Adresse bzw. auf den FQDN Ihres Clientzugriffsservers verweisen. Im Folgenden sehen Sie ein Beispiel für einen empfohlenen DNS-Eintrag, den Sie zum Ermöglichen der internen Clientkonnektivität erstellen sollten, wenn Sie die internen URLs der virtuellen Verzeichnisse als "internal.contoso.com" konfiguriert haben.
 
 

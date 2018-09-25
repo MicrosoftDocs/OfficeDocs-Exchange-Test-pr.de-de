@@ -66,8 +66,8 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Sender ID erfolgreich
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-SenderIDConfig | Format-List Enabled
-```
+    Get-SenderIDConfig | Format-List Enabled
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
@@ -92,8 +92,8 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Sender ID-Aktion für
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-SenderIDConfig | Format-List SpoofedDomainAction
-```
+    Get-SenderIDConfig | Format-List SpoofedDomainAction
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
@@ -120,8 +120,8 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Sender ID-Aktion für
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-SenderIDConfig | Format-List TempErrorAction
-```
+    Get-SenderIDConfig | Format-List TempErrorAction
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
@@ -129,15 +129,21 @@ Get-SenderIDConfig | Format-List TempErrorAction
 
 Führen Sie den folgenden Befehl aus, um die vorhandenen Werte zu ersetzen:
 
+```powershell
     Set-SenderIDConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenderDomains <domain1,domain2...>
+```
 
 In diesem Beispiel wird der Sender ID-Agent so konfiguriert, dass die Überprüfung der Sender ID für an kim@contoso.com und john@contoso.com gesendete Nachrichten sowie für aus der Domäne "fabrikam.com" gesendete Nachrichten umgangen wird.
 
+```powershell
     Set-SenderIDConfig -BypassedRecipients kim@contoso.com,john@contoso.com -BypassedSenderDomains fabrikam.com
+```
 
 Führen Sie folgenden Befehl aus, um Einträge hinzuzufügen bzw. zu entfernen, ohne vorhandene Werte zu ändern:
 
+```powershell
     Set-SenderIDConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```
 
 In diesem Beispiel wird der Sender ID-Agent mit den folgenden Informationen konfiguriert:
 
@@ -147,7 +153,9 @@ In diesem Beispiel wird der Sender ID-Agent mit den folgenden Informationen kon
 
 <!-- end list -->
 
+```powershell
     Set-SenderIDConfig -BypassedRecipients @{Add="chris@contoso.com","michelle@contoso.com"} -BypassedSenderDomains @{Remove="tailspintoys.com"}
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -156,8 +164,8 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Ausnahmen für die Emp
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
-```
+    Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 

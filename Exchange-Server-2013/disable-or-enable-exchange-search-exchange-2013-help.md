@@ -46,18 +46,20 @@ Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie d
 Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den von Ihnen benötigten Berechtigungen finden Sie unter "Exchange-Suche" im Thema [Empfängerberechtigungen](recipients-permissions-exchange-2013-help.md).
 
 
-> [!NOTE]
+> [!NOTE]  
 > Die Exchange-Verwaltungskonsole kann nicht zum Deaktivieren oder Aktivieren der Exchange-Suche für eine Postfachdatenbank verwendet werden.
-
-
 
 Dieser Befehl deaktiviert die Exchange-Suche für die Postfachdatenbank "EXCH01".
 
-    Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $false
+```powershell
+Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $false
+```    
 
 Dieser Befehl aktiviert die Exchange-Suche für die Postfachdatenbank "EXCH01".
 
-    Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $true
+```powershell
+Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb123971\(v=exchg.150\)).
 
@@ -76,7 +78,7 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 3.  Wählen Sie auf der Registerkarte **Allgemein** in der Liste **Starttyp** die Option **Deaktiviert** aus, um den Dienst zu deaktivieren, oder wählen Sie **Automatisch** aus, damit der Dienst automatisch gestartet wird.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Der Starttyp macht sich beim nächsten Versuch, den Dienst zu starten, bemerkbar: Der Dienst wird entweder automatisch nach einem Neustart des Servers oder manuell gestartet. Im nächsten Schritt wird der Dienst beendet oder manuell gestartet.
 
 
@@ -89,29 +91,21 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 Führen Sie die folgenden Befehle aus, um den Microsoft Exchange-Suchdienst anzuhalten und zu deaktivieren.
 
-```
+
 ```powershell
 Stop-Service MSExchangeFastSearch
 ```
-```
 
-```
 ```powershell
 Set-Service MSExchangeFastSearch -StartupType Disabled
-```
 ```
 
 Führen Sie die folgenden Befehle aus, um den Exchange-Suchdienst für den automatischen Start zu konfigurieren und den Dienst anschließend zu starten.
 
-```
 ```powershell
 Set-Service MSExchangeFastSearch -StartupType Automatic
 ```
-```
 
-```
 ```powershell
 Start-Service MSExchangeFastSearch
 ```
-```
-

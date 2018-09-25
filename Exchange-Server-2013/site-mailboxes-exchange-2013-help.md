@@ -91,7 +91,9 @@ Wenn eine Lebenszyklusanwendung in SharePoint ein Websitepostfach schließt, wir
 
 Mit folgendem Befehl können Sie nach Websitepostfächern suchen, die zum Löschen markiert wurden, und diese entfernen.
 
+```powershell
     Get-Mailbox MDEL:* | ?{$_.RecipientTypeDetails -eq "TeamMailbox"} | Remove-Mailbox -Confirm:$false
+```
 
 Websitepostfächer unterstützen keine Aufbewahrung auf Elementebene. Die Aufbewahrung für Websitepostfächer funktioniert auf Projektebene, wenn also das gesamte Websitepostfach gelöscht wird, werden auch die aufbewahrten Elemente gelöscht.
 

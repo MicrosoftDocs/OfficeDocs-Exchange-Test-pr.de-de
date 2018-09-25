@@ -34,7 +34,7 @@ Die Pipelineablaufverfolgung erfasst Kopien von E-Mails, während diese die Tran
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 
@@ -47,7 +47,9 @@ Die Pipelineablaufverfolgung erfasst Kopien von E-Mails, während diese die Tran
 
 Verwenden Sie die folgende Syntax, um die Absenderadresse für die Pipelineablaufverfolgung zu konfigurieren.
 
-    <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingSenderAddress <SMTPAddress | "<>">
+```powershell
+<Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingSenderAddress <SMTPAddress | "<>">
+```
 
 In diesem Beispiel wird die Pipelineablaufverfolgung so konfiguriert, dass Momentaufnahmen aller Nachrichten erfasst werden, die vom Absender "chris@contoso.com" im Transportdienst auf dem Postfachserver namens "Mailbox01" gesendet werden.
 
@@ -62,7 +64,7 @@ Set-TransportService Mailbox02 -PipelineTracingSenderAddress "<>"
 ```
 
 
-> [!WARNING]
+> [!WARNING]  
 > Durch das Konfigurieren der Pipelineablaufverfolgung für die Erfassung aller vom Server generierten Nachrichten in einem Transportdienst kann der Server erheblich belastet und der verfügbare Festplattenspeicher schnell aufgebraucht werden. Überwachen Sie bei aktivierter Pipelineablaufverfolgung immer den auf dem Datenträger verfügbaren Speicherplatz.
 
 
@@ -73,11 +75,15 @@ Der Standardordner für die Pipelineablaufverfolgung ist erst dann vorhanden, we
 
 Verwenden Sie die folgende Syntax, um den Ordner für die Pipelineablaufverfolgung zu konfigurieren.
 
-    <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingPath <LocalFilePath>
+```powershell
+<Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingPath <LocalFilePath>
+```
 
 In diesem Beispiel wird der Ordner für die Pipelineablaufverfolgung für den Transportdienst auf dem Postfachserver namens "Mailbox01" auf "D:\\Hub\\Pipeline Tracing" festgelegt.
 
-    Set-TransportService Mailbox01 -PipelineTracingPath "D:\Hub\Pipeline Tracing"
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingPath "D:\Hub\Pipeline Tracing"
+```
 
 ## Schritt 3: Verwenden der Shell zum Aktivieren der Pipelineablaufverfolgung
 
@@ -85,7 +91,9 @@ Die Pipelineablaufverfolgung ist standardmäßig auf allen Exchange-Servern deak
 
 Verwenden Sie die folgende Syntax, um die Pipelineablaufverfolgung zu aktivieren.
 
-    <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $true
+```powershell
+<Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $true
+```
 
 In diesem Beispiel wird die Pipelineablaufverfolgung im Transportdienst auf dem Postfachserver namens "Mailbox01" aktiviert.
 
@@ -99,7 +107,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Pipelineablaufverfol
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracing*
+    ```powershell
+    <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracing*
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 
@@ -111,7 +121,9 @@ Aufgrund der mit der Pipelineablaufverfolgung verbundenen Bedenken hinsichtlich 
 
 Verwenden Sie die folgende Syntax, um die Pipelineablaufverfolgung zu deaktivieren.
 
-    <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $false
+```powershell
+<Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $false
+```
 
 In diesem Beispiel wird die Pipelineablaufverfolgung im Transportdienst auf dem Postfachserver namens "Mailbox01" deaktiviert.
 
@@ -125,9 +137,10 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Pipelineablaufverfol
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracingEnabled
+    ```powershell
+    <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracingEnabled
+    ```
 
 2.  Stellen Sie sicher, dass der Wert des Parameters *PipelineTracingEnabled* "$false" lautet.
 
 3.  Prüfen Sie den Ordner für die Pipelineablaufverfolgung, und stellen Sie sicher, dass keine weiteren Nachrichten-Momentaufnahmendateien im Ordner erstellt werden.
-

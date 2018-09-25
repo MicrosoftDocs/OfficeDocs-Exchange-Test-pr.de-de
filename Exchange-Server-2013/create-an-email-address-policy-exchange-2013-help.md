@@ -152,7 +152,9 @@ Ausführliche Anweisungen zum Erstellen einer E-Mail-Adressrichtlinie finden Sie
 
 In diesem Beispiel wird eine E-Mail-Adressrichtlinie erstellt, die Postfachbenutzer in Niederlassungen im Südosten einschließt, die E-Mail-Adressen verwenden, die aus ihrem Nachnamen und den ersten beiden Buchstaben ihres Vornamens bestehen.
 
+```powershell
     New-EmailAddressPolicy -Name "southeast offices" -IncludedRecipients MailboxUsers -ConditionalStateorProvince "Georgia","Alabama","Louisiana" -EnabledEmailAddressTemplates "SMTP:%s%2g@southeast.contoso.com"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-EmailAddressPolicy](https://technet.microsoft.com/de-de/library/aa996800\(v=exchg.150\)).
 

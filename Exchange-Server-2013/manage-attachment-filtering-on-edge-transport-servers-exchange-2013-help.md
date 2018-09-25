@@ -70,8 +70,8 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Anlagenfilterung erfolgreich
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-TransportAgent "Attachment Filtering Agent"
-```
+    Get-TransportAgent "Attachment Filtering Agent"
+    ```
 
 2.  Wenn der Wert für **Enabled**`True` ist, dann ist die Anlagenfilterung aktiviert. Ist der Wert `False`, dann ist die Anlagenfilterung deaktiviert.
 
@@ -103,7 +103,9 @@ Get-AttachmentFilteringEntry FileName:<FileName or FileNameExtension>
 
 Führen Sie z. B. den folgenden Befehl aus, um den Dateinamenerweiterungseintrag für JPEG-Anlagen anzuzeigen:
 
+```powershell
     Get-AttachmentFilteringEntry FileName:*.jpg
+```
 
 ## Verwenden der Shell zum Hinzufügen von Anlagenfiltereinträgen
 
@@ -127,7 +129,9 @@ Add-AttachmentFilterEntry -Name <FileName or FileNameExtension> -Type FileName
 
 Im folgenden Beispiel werden Anlagen mit der JPG-Erweiterung gefiltert.
 
+```powershell
     Add-AttachmentFilterEntry -Name *.jpg -Type FileName
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -136,8 +140,8 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob der Anlagenfiltereintrag erfolgr
 1.  Führen Sie den folgenden Befehl aus, um sicherzustellen, dass der Filtereintrag vorhanden ist:
     
     ```powershell
-Get-AttachmentFilterEntry | Format-Table
-```
+    Get-AttachmentFilterEntry | Format-Table
+    ```
 
 2.  Senden Sie eine Testnachricht, die eine verbotene Anlage enthält, von einem externen Postfach an einen internen Empfänger, und vergewissern Sie sich, dass die Nachricht abgelehnt, gelöscht oder die Anlage entfernt wird.
 
@@ -163,7 +167,9 @@ Remove-AttachmentFilterEntry FileName:<FileName or FileNameExtension>
 
 Im folgenden Beispiel wird der Dateinameneintrag für die JPG-Erweiterung entfernt.
 
+```powershell
     Remove-AttachmentFilterEntry FileName:*.jpg
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -172,8 +178,8 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob der Anlagenfiltereintrag erfolgr
 1.  Führen Sie den folgenden Befehl aus, um sicherzustellen, dass der Filtereintrag entfernt wurde:
     
     ```powershell
-Get-AttachmentFilterEntry | Format-Table
-```
+    Get-AttachmentFilterEntry | Format-Table
+    ```
 
 2.  Senden Sie eine Testnachricht, die eine zulässige Anlage enthält, von einem externen Postfach an einen internen Empfänger, und vergewissern Sie sich, dass die Nachricht mit der Anlage erfolgreich zugestellt wird.
 
@@ -189,7 +195,9 @@ Get-AttachmentFilterListConfig
 
 Zum Konfigurieren der Anlagenfilteraktion, die verwendet wird, wenn eine verbotene Anlage in einer Nachricht erkannt wird, verwenden Sie die folgende Syntax:
 
+```powershell
     Set-AttachmentFilterListConfig [-Action <Reject | Strip | SilentDelete>] [-RejectResponse "<Message text>"] [-AdminMessage "<Replacement file text>"] [-ExceptionConnectors <ConnectorGUID>]
+```
 
 In diesem Beispiel werden folgende Änderungen an der Anlagenfilterkonfiguration vorgenommen:
 
@@ -199,7 +207,9 @@ In diesem Beispiel werden folgende Änderungen an der Anlagenfilterkonfiguration
 
 <!-- end list -->
 
+```powershell
     Set-AttachmentFilterListConfig -Action Reject -RejectResponse "This message contains a prohibited attachment. Your message can't be delivered. Please resend the message without the attachment."
+```
 
 Weitere Informationen finden Sie unter [Set-AttachmentFilterListConfig](https://technet.microsoft.com/de-de/library/bb123483\(v=exchg.150\)).
 

@@ -59,13 +59,16 @@ Erstellen Sie zum Aktivieren der GAL-Synchronisierung Verwaltungs-Agents, die E-
 
 In diesem Beispiel wird der Verfügbarkeitsdienst für das Abrufen von Frei/Gebucht-Informationen auf Benutzerbasis auf einem Postfachserver in der Zielgesamtstruktur konfiguriert.
 
+```powershell
     Get-MailboxServer | Add-ADPermission -Accessrights Extendedright -Extendedrights "ms-Exch-
     EPI-Token-Serialization" -User "<Remote Forest Domain>\Exchange servers"
+```
 
 In diesem Beispiel wird die Frei/Gebucht-Zugriffsmethode definiert, die der Verfügbarkeitsdienst auf dem lokalen Postfachserver in der Quellgesamtstruktur verwendet. Der lokale Postfachserver ist für den Zugriff auf Frei/Gebucht-Informationen auf Benutzerbasis von der Gesamtstruktur "ContosoForest.com" aus konfiguriert. In diesem Beispiel wird das Dienstkonto für das Abrufen von Frei/Gebucht-Informationen verwendet.
 
+```powershell
     Add-AvailabilityAddressSpace -Forestname ContosoForest.com -AccessMethod PerUserFB -UseServiceAccount:$true
-
+```
 
 > [!NOTE]
 > Um bidirektionale, gesamtstrukturübergreifende Verfügbarkeit zu konfigurieren, wiederholen Sie diese Schritte in der Zielgesamtstruktur.
@@ -78,7 +81,9 @@ Wenn Sie gesamtstrukturübergreifende Verfügbarkeit mit Vertrauensstellung konf
 
 In diesem Beispiel wird die vertrauenswürdige gesamtstrukturübergreifende Verfügbarkeit mit einem Dienstkonto konfiguriert.
 
+```powershell
     Get-MailboxServer | Add-ADPermission -Accessrights Extendedright -Extendedright "ms-Exch-EPI-Token-Serialization" -User "<Remote Forest Domain>\Exchange servers"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden Themen:
 
@@ -94,10 +99,13 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
 
 In diesem Beispiel wird das organisationsweite Konto des Verfügbarkeitskonfigurationsobjekts für das Konfigurieren der Zugriffsebene für Frei/Gebucht-Informationen in der Zielgesamtstruktur eingestellt.
 
+```powershell
     Set-AvailabilityConfig -OrgWideAccount "Contoso.com\User"
+```
 
 In diesem Beispiel wird das Verfügbarkeitsadressraum-Konfigurationsobjekt für die Quellgesamtstruktur hinzugefügt.
 
+```powershell
     $a = Get-Credential (Enter the credentials for organization-wide user in Contoso.com domain)
     Add-AvailabilityAddressspace -Forestname Contoso.com -Accessmethod OrgWideFB -Credential:$a
-
+```

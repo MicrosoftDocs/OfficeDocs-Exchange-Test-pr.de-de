@@ -49,31 +49,27 @@ Mithilfe der integrierten Cmdlets für die Integritätsberichterstellung können
 
 Führen Sie einen der folgenden Befehle aus, um die Integritätssätze und Integritätsinformationen zu einem Server anzuzeigen, auf dem Exchange 2013 ausgeführt wird.
 
-```
+
 ```powershell
 Get-HealthReport -Identity <ServerName>
 ```
-```
 
-```
+```powershell
     Get-ServerHealth -Identity <ServerName> | Format-Table Server,CurrentHealthSetState,Name,HealthSetName,AlertValue,HealthGroupName -Auto
 ```
 
 Führen Sie einen der folgenden Befehle aus, um die Integritätssätze zu einem Server oder einer Database Availability Group anzuzeigen, auf dem/in der Exchange 2013 ausgeführt wird.
 
-```
+
 ```powershell
 Get-ExchangeServer | Get-HealthReport -RollupGroup
 ```
-```
 
-```
 ```powershell
 Get-ExchangeServer | Get-HealthReport -RollupGroup -HealthSetName <HealthSet>
 ```
-```
 
-```
+```powershell
     (Get-DatabaseAvailabiltyGroup <DAGName>).Servers | Get-HealthReport -RollupGroup
 ```
 
@@ -97,7 +93,9 @@ Ein Integritätssatz ist eine Gruppe von Monitoren, Tests und Antwortdiensten f�
 
 Führen Sie den folgenden Befehl aus, um die zu einem Integritätssatz gehörigen Monitore, Tests und Antwortdienste auf einem Server mit ausgeführtem Exchange 2013 anzeigen.
 
+```powershell
     Get-MonitoringItemIdentity -Server <ServerName> -Identity <HealthSetName> | Format-Table Identity,ItemType,Name -Auto
+```
 
 ## Anzeigen einer Liste von Monitoren und ihrer aktuellen Integrität
 
@@ -107,5 +105,6 @@ Die Integrität eines Monitors wird mithilfe der "schlechtesten" Monitore im Int
 
 Führen Sie den folgenden Befehl aus, um die Liste der Monitore und ihrer aktuellen Integrität auf einem Server mit ausgeführtem Exchange 2013 anzeigen.
 
+```powershell
     Get-ServerHealth -HealthSet <HealthSetName> -Server <ServerName> | Format-Table Name, AlertValue -Auto
-
+```

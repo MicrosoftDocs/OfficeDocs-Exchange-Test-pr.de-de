@@ -55,7 +55,9 @@ Was geschieht, wenn Sie die verfügbaren Antispam-Agents im Transportdienst auf 
 
 Führen Sie den folgenden Befehl aus:
 
+```powershell
     & $env:ExchangeInstallPath\Scripts\Install-AntiSpamAgents.ps1
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 
@@ -96,8 +98,8 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass die IP-Adresse von mindestens 
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-TransportConfig | Format-List InternalSMTPServers
-```
+    Get-TransportConfig | Format-List InternalSMTPServers
+    ```
 
 2.  Vergewissern Sie sich, dass die IP-Adresse von mindestens einem gültigen internen SMTP-Server angezeigt wird.
 

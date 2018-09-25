@@ -61,7 +61,9 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
 
 In diesem Beispiel wird das Netzwerk "ReplicationDagNetwork02" erstellt. Das Subnetz lautet 10.0.0.0, die Bitmaske ist 8 und der Name der DAG ist "DAG1". Die Replikation ist für dieses Netzwerk aktiviert, und es wird eine optionale Beschreibung des Netzwerks hinzugefügt.
 
+```powershell
     New-DatabaseAvailabilityGroupNetwork -DatabaseAvailabilityGroup DAG1 -Name ReplicationDagNetwork02 -Description "Replication network 2" -Subnets 10.0.0.0/8 -ReplicationEnabled:$True
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -72,8 +74,8 @@ Gehen Sie wie folgt vor, um die erfolgreiche Erstellung eines DAG-Netzwerks zu �
   - Führen Sie in der Shell folgenden Befehl aus, um zu überprüfen, ob das DAG-Netzwerk erstellt wurde, und um Konfigurationsinformationen zum DAG-Netzwerk anzuzeigen:
     
     ```powershell
-Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
-```
+    Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+    ```
 
 ## Weitere Informationen
 

@@ -44,14 +44,14 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 1.  Führen Sie den folgenden Befehl aus, um zu überprüfen, ob der Inhaltsfilter-Agent auf dem Exchange-Server installiert und aktiviert ist:
     
     ```powershell
-Get-TransportAgent "Content Filter Agent"
-```
+    Get-TransportAgent "Content Filter Agent"
+    ```
 
 2.  Führen Sie den folgenden Befehl, um sicherzustellen, dass Content-Filterung aktiviert ist:
     
     ```powershell
-Get-ContentFilterConfig | Format-List Enabled
-```
+    Get-ContentFilterConfig | Format-List Enabled
+    ```
 
 Weitere Informationen finden Sie unter [Verwalten der Inhaltsfilterung](manage-content-filtering-exchange-2013-help.md).
 
@@ -96,8 +96,8 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass das Quarantänepostfach 
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-ContentFilterConfig | Format-List QuarantineMailbox
-```
+    Get-ContentFilterConfig | Format-List QuarantineMailbox
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 

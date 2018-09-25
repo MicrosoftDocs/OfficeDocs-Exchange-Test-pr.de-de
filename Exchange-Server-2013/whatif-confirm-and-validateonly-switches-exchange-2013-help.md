@@ -22,13 +22,10 @@ Sowohl für erfahrene Administratoren und Skriptschreiber als auch für Administ
 Die Optionen *WhatIf*, *Confirm* und *ValidateOnly* sind besonders nützlich, wenn Sie sie mit Befehlen zur Änderung von Objekten verwenden, die über einen Filter oder den Befehl **Get** in einer Pipeline zurückgegeben werden. In diesem Thema werden die einzelnen Parameter beschrieben und Beispielbefehle bereitgestellt.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Wenn Sie die Optionen <EM>WhatIf</EM>, <EM>Confirm</EM> und <EM>ValidateOnly</EM> mit Befehlen in einem Skript verwenden, müssen Sie die entsprechenden Optionen jedem einzelnen Befehl im Skript hinzufügen und nicht der Befehlszeile, die dieses Skript aufruft.
 
-
-
-
-> [!NOTE]
+> [!NOTE]  
 > <EM>WhatIf</EM>, <EM>Confirm</EM> und <EM>ValidateOnly</EM> werden als Optionsparameter bezeichnet. Weitere Informationen zu Schalterparametern finden Sie unter <A href="https://technet.microsoft.com/de-de/library/bb124388(v=exchg.150)">Parameter</A>.
 
 
@@ -39,7 +36,9 @@ Die Option *WhatIf* weist den jeweiligen Befehl an, die Objekte, auf die sich de
 
 Wenn Sie einen Befehl mit dem Parameter *WhatIf* ausführen, fügen Sie den Parameter *WhatIf* am Ende des Befehls ein, wie in folgendem Beispiel gezeigt:
 
-    New-AcceptedDomain -Name "Contoso Domain" -DomainName "contoso.com" -WhatIf 
+  ```powershell
+  New-AcceptedDomain -Name "Contoso Domain" -DomainName "contoso.com" -WhatIf 
+  ```
 
 Wenn Sie diesen Beispielbefehl ausführen, wird der folgende Text von der Shell zurückgegeben:
 
@@ -79,11 +78,13 @@ Get-JournalRule | Enable-JournalRule -Confirm
 
 Wenn Sie diesen Beispielbefehl ausführen, wird die folgende Bestätigungsaufforderung von der Shell zurückgegeben:
 
-    Confirm
-    Are you sure you want to perform this action?
-    Enabling journal rule "Litigation Journal Rule".
-    [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
-    (default is "Y"):
+```powershell
+Confirm
+Are you sure you want to perform this action?
+Enabling journal rule "Litigation Journal Rule".
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
+(default is "Y"):
+```
 
 Die Bestätigungsaufforderung bietet folgende Auswahlmöglichkeiten:
 
@@ -108,10 +109,8 @@ Get-JournalRule | Disable-JournalRule -Confirm:$False
 In diesem Fall wird keine Bestätigungsaufforderung angezeigt.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Der Standardwert für die Option <EM>Confirm</EM> lautet <CODE>$True</CODE>. Die Shell zeigt standardmäßig automatisch eine Bestätigungsaufforderung an. Wenn Sie dieses Standardverhalten unterdrücken, weisen Sie den Befehl an, alle Bestätigungsaufforderungen für die Dauer des Befehls zu unterdrücken. Der Befehl verarbeitet alle Objekte, die den Befehlskriterien entsprechen, ohne Bestätigung.
-
-
 
 ## Option "ValidateOnly"
 

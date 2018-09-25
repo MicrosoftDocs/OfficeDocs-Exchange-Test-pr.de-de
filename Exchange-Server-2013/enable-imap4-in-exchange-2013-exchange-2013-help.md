@@ -62,26 +62,26 @@ Auf dem Computer, auf dem die Postfachserverrolle ausgeführt wird:
 1.  Geben Sie an, dass der Microsoft Exchange-IMAP4-Dienst automatisch gestartet wird.
     
     ```powershell
-Set-service msExchangeIMAP4 -startuptype automatic
-```
+    Set-service msExchangeIMAP4 -startuptype automatic
+    ```
 
 2.  Starten Sie den Microsoft Exchange-IMAP4-Dienst.
     
     ```powershell
-Start-service msExchangeIMAP4
-```
+    Start-service msExchangeIMAP4
+    ```
 
 3.  Geben Sie an, dass der Microsoft Exchange-IMAP4-Back-End-Dienst automatisch gestartet werden soll.
     
     ```powershell
-Set-service msExchangeIMAP4BE -startuptype automatic
-```
+    Set-service msExchangeIMAP4BE -startuptype automatic
+    ```
 
 4.  Starten Sie den Microsoft Exchange-IMAP4-Back-End-Dienst.
     
     ```powershell
-Start-service msExchangeIMAP4BE
-```
+    Start-service msExchangeIMAP4BE
+    ```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

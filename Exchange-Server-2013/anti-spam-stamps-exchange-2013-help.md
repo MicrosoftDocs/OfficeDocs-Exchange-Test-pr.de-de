@@ -29,7 +29,9 @@ Sie können Antispamstempel mithilfe von Microsoft Outlook anzeigen. Weitere Inf
 
 Der Antispambericht ist ein Zusammenfassungsbericht der Ergebnisse der Antispamfilter, die auf eine E-Mail angewendet wurden. Der Inhaltsfilter-Agent wendet diesen Stempel auf den Nachrichtenumschlag in Form einer X-Header wie folgt an.
 
+```powershell
     X-MS-Exchange-Organization-Antispam-Report: DV:<DATVersion>;CW:CustomList;PCL:PhishingVerdict <verdict>;P100:PhishingBlock;PP:Presolve;SID:SenderIDStatus <status>;TIME:<SendReceiveDelta>;MIME:MimeCompliance 
+```
 
 In der folgenden Tabelle sind die Filterinformationen beschrieben, die in einem Antispambericht angezeigt werden können.
 

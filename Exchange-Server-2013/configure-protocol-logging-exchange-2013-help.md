@@ -88,7 +88,9 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, ob Sie die Protokoll
 
 Führen Sie den folgenden Befehl aus, um die Protokollierung für einen Sende- oder Empfangsconnector zu aktivieren oder zu deaktivieren:
 
+```powershell
     <Set-SendConnector |Set-ReceiveConnector> <ConnectorIdentity> -ProtocolLoggingLevel <Verbose | None>
+```
 
 In diesem Beispiel wird die Protokollierung für den Empfangsconnector "Connection from Contoso.com" aktiviert.
 
@@ -103,8 +105,8 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie die Protokollierun
 1.  Führen Sie in der Shell den folgenden Befehl aus:
     
     ```command line
-<Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
-```
+    <Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 
@@ -112,7 +114,9 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie die Protokollierun
 
 Führen Sie den folgenden Befehl aus, um die Protokollierung für den impliziten und unsichtbaren organisationsinternen Sendeconnector, der im Transportdienst auf einem Postfachserver und im Front-End-Transportdienst auf einem Clientzugriffsserver vorhanden ist, zu aktivieren oder zu deaktivieren:
 
+```powershell
     <Set-TransportService | Set-FrontEndTransportService> -IntraOrgConnectorProtocolLoggingLevel <Verbose | None>
+```
 
 In diesem Beispiel wird die Protokollierung für den organisationsinternen Sendeconnector im Transportdienst auf dem Postfachserver "Mailbox01" aktiviert.
 
@@ -126,8 +130,10 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie die Protokollierun
 
 1.  Führen Sie in der Shell den folgenden Befehl aus:
     
+    ```powershell
         <Get-TransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List IntraOrgConnectorProtocolLoggingLevel
-
+    ```
+    
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
 ## Aktivieren oder Deaktivieren der Protokollierung für den Postfachzustellungs-Sendeconnector mithilfe der Shell
@@ -150,15 +156,19 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie die Protokollierun
 
 1.  Führen Sie in der Shell den folgenden Befehl aus:
     
+    ```powershell
         Get-MailboxTransportService <ServerIdentity> | Format-List MailboxDeliveryConnectorProtocolLoggingLevel
-
+    ```
+    
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
 ## Konfigurieren der Protokolleinstellungen mithilfe der Shell
 
 Führen Sie den folgenden Befehl aus, um die Protokolleinstellungen zu konfigurieren:
 
+```powershell
     <Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ReceiveProtocolLogPath <LocalFilePath> -SendProtocolLogPath <LocalFilePath> -ReceiveProtocolLogMaxFileSize <Size> -SendProtocolLogMaxFileSize <Size> -ReceiveProtocolLogMaxDirectorySize <Size> -SendProtocolLogMaxDirectorySize <Size> -ReceiveProtocolLogMaxAge <dd.hh:mm:ss> -SendProtocolLogMaxAge <dd.hh:mm:ss>
+```
 
 In diesem Beispiel werden die folgenden Protokolleinstellungen im Transportdienst auf dem Postfachserver "Mailbox01" festgelegt:
 
@@ -172,8 +182,9 @@ In diesem Beispiel werden die folgenden Protokolleinstellungen im Transportdiens
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Mailbox01 -ReceiveProtocolLogPath "D:\Hub Receive SMTP Log" -SendProtocolLogPath "D:\Hub Send SMTP Log" -ReceiveProtocolLogMaxFileSize 20MB -SendProtocolLogMaxFileSize 20MB -ReceiveProtocolLogMaxDirectorySize 400MB -SendProtocolLogMaxDirectorySize 400MB -ReceiveProtocolLogMaxAge 45.00:00:00 -SendProtocolLogMaxAge 45.00:00:00
-
+```
 
 > [!NOTE]
 > <UL>
@@ -192,7 +203,9 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie die Protokolleinst
 
 1.  Führen Sie in der Shell den folgenden Befehl aus:
     
+    ```powershell
         <Get-TransportService | Get-MailboxTransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List SendConnectorProtocolLog*,ReceiveConnectorProtocolLog*
-
+    ```
+    
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 

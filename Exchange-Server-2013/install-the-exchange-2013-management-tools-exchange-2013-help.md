@@ -126,8 +126,8 @@ Weitere Informationen zum Verwalten von Exchange 2013 finden Sie unter [Exchange
 
     
     ```powershell
-Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
-```
+    Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
+    ```
 
 Weitere Informationen finden Sie unter [Installieren von Exchange 2013 im unbeaufsichtigten Modus](install-exchange-2013-using-unattended-mode-exchange-2013-help.md).
 

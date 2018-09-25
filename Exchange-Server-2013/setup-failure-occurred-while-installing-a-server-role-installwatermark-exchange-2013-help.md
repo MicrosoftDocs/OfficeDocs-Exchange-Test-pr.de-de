@@ -34,8 +34,8 @@ Um dieses Problem zu beheben, installieren Sie die fehlerhaften Serverrollen neu
 2.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Setup /roles:<Failed Server Role>
-```
+    Setup /roles:<Failed Server Role>
+    ```
     
     Wählen Sie mindestens eine der folgenden Rollen aus, und geben Sie sie in einer durch Trennzeichen getrennten Liste an:
     
@@ -44,12 +44,12 @@ Setup /roles:<Failed Server Role>
     EdgeTransport (oder ET oder E)
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Die Serverrolle Edge-Transport darf nicht auf dem gleichen Computer wie eine der anderen Serverrollen vorhanden sein.
 
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Sie müssen die Edge-Transport-Serverrolle im Umkreisnetzwerk und außerhalb der Active Directory-Gesamtstruktur bereitstellen.
 
     
@@ -62,14 +62,14 @@ Setup /roles:<Failed Server Role>
     ManagementTools (oder MT oder T)
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Wenn Sie "ManagementTools" angeben, installieren Sie die Exchange-Verwaltungskonsole, die Exchange-Cmdlets für die Exchange-Verwaltungsshell, die Exchange-Hilfedatei, das Tool Exchange Best Practices Analyzer und den Exchange-Problembehandlungs-Assistenten. Wenn Sie eine andere Serverrolle installieren, werden die Verwaltungstools automatisch installiert.
 
     
     Um einem vorhandenen Postfachserver die Serverrolle "Hub-Transport" hinzuzufügen, geben Sie z. B. Folgendes ein: **%LocalExchangeInstallationDir%\\bin\\Setup.com /role:HubTransport /Mode:Install**
 
 
-> [!NOTE]
+> [!NOTE]  
 > Wenn eine der Exchange Server&nbsp;2007-Serverrollen zuvor erfolgreich installiert wurde, wird der Setup-Assistent im Wartungsmodus ausgeführt. Wenn keine der Exchange Server&nbsp;2007-Serverrollen zuvor erfolgreich installiert wurde, fährt der Setup-Assistent dort fort, wo er beendet wurde.
 
 
@@ -87,17 +87,17 @@ Setup /roles:<Failed Server Role>
 5.  Aktivieren Sie auf der Seite **Auswahl von Serverrollen** die Kontrollkästchen für die Serverrollen, die installiert werden sollen, und klicken Sie dann auf **Weiter**.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Die Serverrolle Edge-Transport darf nicht auf dem gleichen Computer wie eine der anderen Serverrollen vorhanden sein.
 
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Sie müssen die Edge-Transport-Serverrolle im Umkreisnetzwerk und außerhalb der Active Directory-Gesamtstruktur bereitstellen.
 
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Wenn Sie "ManagementTools" auswählen, installieren Sie die Exchange-Verwaltungskonsole, die Exchange-Cmdlets für die Exchange-Verwaltungsshell und die Exchange-Hilfedatei. Die Verwaltungstools werden bei der Installation jeder anderen Serverrolle automatisch installiert.
 
 

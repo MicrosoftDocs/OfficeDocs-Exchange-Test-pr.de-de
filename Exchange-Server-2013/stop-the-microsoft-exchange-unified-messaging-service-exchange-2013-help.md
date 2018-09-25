@@ -32,7 +32,7 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit Postfachserver
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -56,6 +56,6 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit Postfachserver
 2.  Geben Sie im Textfeld **Öffnen** den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE.
     
     ```powershell
-net stop MSExchangeUM
-```
+    net stop MSExchangeUM
+    ```
 

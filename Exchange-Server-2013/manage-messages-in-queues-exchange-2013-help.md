@@ -61,7 +61,9 @@ Eine Nachricht, die an mehrere Empfänger gesendet wird, kann sich in mehreren W
 
 Verwenden Sie die folgende Syntax, um Nachrichten aus Warteschlangen zu entfernen.
 
+```powershell
     Remove-Message <-Identity MessageIdentity | -Filter {MessageFilter}> -WithNDR <$true | $false>
+```
 
 In diesem Beispiel werden Nachrichten in den Warteschlangen entfernt, die den Betreff "Win Big" aufweisen, ohne dass ein Unzustellbarkeitsbericht gesendet wird.
 
@@ -71,7 +73,9 @@ Remove-Message -Filter {Subject -eq "Win Big"} -WithNDR $false
 
 In diesem Beispiel wird die Nachricht mit der Nachrichten-ID 3 in der Nicht-erreichbar-Warteschlange auf dem Server "Mailbox01" angehalten und ein Unzustellbarkeitsbericht gesendet.
 
+```powershell
     Remove-Message -Identity Mailbox01\Unreachable\3 -WithNDR $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -115,11 +119,15 @@ Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
 
 In diesem Beispiel werden alle Nachrichten fortgesetzt, die von beliebigen Absendern in der Domäne "Contoso.com" gesendet wurden.
 
+```powershell
     Resume-Message -Filter {FromAddress -eq "*contoso.com"}
+```
 
 In diesem Beispiel wird die Nachricht mit der Nachrichten-ID 3 in der Nicht-erreichbar-Warteschlange auf dem Server "Hub01" fortgesetzt.
 
+```powershell
     Resume-Message -Identity Hub01\Unreachable\3
+```
 
 Um Nachrichten aus der Warteschlange für nicht verarbeitbare Nachrichten erneut zu übermitteln, führen Sie die folgenden Schritte aus:
 
@@ -159,11 +167,15 @@ Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
 
 Im folgenden Beispiel werden alle Nachrichten in der Warteschlange angehalten, die von einem beliebigen Absender in der Domäne "contoso.com" stammen:
 
+```powershell
     Suspend-Message -Filter {FromAddress -eq "*contoso.com"}
+```
 
 In diesem Beispiel wird die Nachricht mit der Nachrichten-ID 3 in der Nicht-erreichbar-Warteschlange auf dem Server "Mailbox01" angehalten:
 
+```powershell
     Suspend-Message -Identity Mailbox01\Unreachable\3
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

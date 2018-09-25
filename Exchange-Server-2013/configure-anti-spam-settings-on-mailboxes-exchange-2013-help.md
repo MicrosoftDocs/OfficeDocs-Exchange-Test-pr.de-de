@@ -51,7 +51,9 @@ Sie können für einzelne Postfächer bestimmte Antispameinstellungen konfigurie
 
 Verwenden Sie folgende Syntax, um die Antispameinstellungen für ein einzelnes Postfach zu konfigurieren.
 
+```powershell
     Set-Mailbox <MailboxIdentity> -AntispamBypassEnabled <$true | $false> -RequireSenderAuthenticationEnabled <$true | $false> -SCLDeleteEnabled <$true | $false | $null> -SCLDeleteThreshold <0-9 | $null> -SCLJunkEnabled <$true | $false | $null > -SCLJunkThreshold <0-9 | $null> -SCLQuarantineEnabled <$true | $false | $null > -SCLQuarantineThreshold <0-9 | $null> -SCLRejectEnabled <$true | $false | $null > -SCLRejectThreshold <0-9 | $null>
+```
 
 In diesem Beispiel wird das Postfach eines Benutzers namens Jeff Phillips so konfiguriert, dass alle Antispamfilter umgangen werden und Nachrichten, die einen SCL-Schwellenwert von 5 für den Junk-E-Mail-Ordner erreichen oder überschreiten, an seinen Junk-E-Mail-Ordner in Microsoft Outlook zugestellt werden.
 
@@ -65,19 +67,25 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Antispamfunktionen f
 
 1.  Führen Sie den folgenden Befehl aus:
     
+    ```powershell
         Get-Mailbox <MailboxIdentity> | Format-List SCL*,Bypass*,*SenderAuth*
-
+    ```
+    
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
 ## Konfigurieren von Antispamfunktionen für mehrere Postfächer mithilfe der Shell
 
 Verwenden Sie folgende Syntax, um alle Antispameinstellungen für mehrere Postfächer zu konfigurieren.
 
+```powershell
     Get-Mailbox [<Filter>]| Set-Mailbox <Anti-Spam Settings>
+```
 
 In diesem Beispiel wird für alle Postfächer im Container "Benutzer" der Domäne "Contoso.com" der SCL-Isolierungsschwellenwert mit einem Wert von 7 aktiviert.
 
+```powershell
     Get-Mailbox -OrganizationalUnit Contoso.com/Users | Set-Mailbox -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -85,8 +93,10 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Antispamfunktionen f
 
 1.  Führen Sie den folgenden Befehl aus:
     
+    ```powershell
         Get-Mailbox [<Filter>] | Format-List Name,SCL*,*SenderAuth*
-
+    ```
+    
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 
 ## Konfigurieren des Junk-E-Mail-Schwellenwerts für alle Postfächer in Ihrer Organisation mithilfe der Shell
@@ -110,8 +120,8 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass der Junk-E-Mail-Schwelle
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-OrganizationConfig | Format-List SCLJunkThreshold
-```
+    Get-OrganizationConfig | Format-List SCLJunkThreshold
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 

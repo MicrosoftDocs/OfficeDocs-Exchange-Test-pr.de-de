@@ -63,16 +63,20 @@ Weitere Verwaltungsaufgaben im Zusammenhang mit der Messaging-Datensatzverwaltun
 
 1.  Führen Sie diesen Exchange-Verwaltungsshell-Befehl aus, um das Verzeichnis in das Unterverzeichnis **Skripts** im Exchange-Installationspfad zu ändern.
     
-        Cd $Env:ExchangeInstallPath\Scripts
+    ```powershell
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Führen Sie das Skript „Export-RetentionTags.ps1“ aus, um Aufbewahrungstags in eine XML-Datei zu exportieren.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Wenn Sie Aufbewahrungstags und Aufbewahrungsrichtlinien nach Exchange Online importieren oder daraus exportieren, müssen Sie Ihre Windows PowerShell-Sitzung mit Exchange Online verbinden. Weitere Informationen finden Sie unter <A href="https://technet.microsoft.com/de-de/library/jj984289(v=exchg.150)">Herstellen einer Verbindung mit Exchange Online mithilfe der Remote-PowerShell</A>.
 
     
-        .\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```powershell
+    .\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -86,21 +90,23 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass Aufbewahrungstags und -r
 
 1.  Führen Sie diesen Exchange-Verwaltungsshell-Befehl aus, um das Verzeichnis in das Unterverzeichnis **Skripts** im Exchange-Installationspfad zu ändern.
     
-        Cd $Env:ExchangeInstallPath\Scripts
+    ```powershell
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Führen Sie das Skript „Import-RetentionTags.ps1“ aus, um Aufbewahrungstags aus einer zuvor exportierten XML-Datei zu importieren.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Wenn Sie Aufbewahrungstags und Aufbewahrungsrichtlinien nach Exchange Online importieren oder daraus exportieren, müssen Sie Ihre Windows PowerShell-Sitzung mit Exchange Online verbinden. Weitere Informationen finden Sie unter <A href="https://technet.microsoft.com/de-de/library/jj984289(v=exchg.150)">Herstellen einer Verbindung mit Exchange Online mithilfe der Remote-PowerShell</A>.
 
-    
-
-    > [!NOTE]
+    > [!NOTE]  
     > Wenn dieses Skript inExchange Online ausgeführt wird, werden Sie möglicherweise aufgefordert, zu bestätigen, dass Sie Software eines nicht vertrauenswürdigen Herausgebers ausführen möchten. Überprüfen Sie, ob der Name des Herausgebers <CODE>CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</CODE> lautet, und klicken Sie auf <STRONG>R</STRONG>, um zuzulassen, dass das Skript einmal ausgeführt wird, oder auf <STRONG>A</STRONG>, um zuzulassen, dass es immer ausgeführt wird.
 
     
-        .\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```powershell
+    .\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ````
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

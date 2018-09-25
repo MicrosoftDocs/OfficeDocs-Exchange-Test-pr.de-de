@@ -83,8 +83,10 @@ In-Situ-Archive unterstützten Sie dabei, die Kontrolle über die Messagingdaten
 
 In diesem Beispiel wird der Benutzer "Chris Ashton" in Active Directory erstellt, in der Postfachdatenbank "DB01" wird ein Postfach erstellt, und es wird ein Archiv aktiviert. Das Kennwort muss bei der nächsten Anmeldung neu festgelegt werden. Um das anfängliche Kennwort festzulegen, erstellt dieses Beispiel eine Variable ($password), fordert Sie zur Eingabe eines Kennworts auf und weist dieses Kennwort der Variablen als SecureString-Objekt zu.
 
+```powershell
     $password = Read-Host "Enter password" -AsSecureString
     New-Mailbox -UserPrincipalName chris@contoso.com -Alias chris -Archive -Database "DB01" -Name ChrisAshton -OrganizationalUnit Users -Password $password -FirstName Chris -LastName Ashton -DisplayName "Chris Ashton" 
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Mailbox](https://technet.microsoft.com/de-de/library/aa997663\(v=exchg.150\)).
 
@@ -96,8 +98,10 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Erstellung ein
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Informationen zum neuen Benutzerpostfach und -archiv anzuzeigen.
     
+    ```powershell
         Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress,*Archive*
-
+    ```
+    
   - Verwenden Sie in der Shell das Cmdlet **Test-ArchiveConnectivity**, um die Konnektivität mit dem Archiv zu testen. Ein Beispiel für die Vorgehensweise zum Testen der Archivkonnektivität finden Sie im Abschnitt "Beispiele" unter [Test-ArchiveConnectivity](https://technet.microsoft.com/de-de/library/hh529914\(v=exchg.150\)).
 
 ## Aktivieren eines lokalen Archivs für ein vorhandenes Postfach
@@ -130,7 +134,9 @@ Enable-Mailbox "Tony Smith" -Archive
 
 In diesem Beispiel werden Postfächer in der Datenbank "DB01" abgerufen, für die weder ein lokales noch ein cloudbasiertes Archiv aktiviert ist und deren Name nicht mit "DiscoverySearchMailbox" beginnt. Das Ergebnis wird mittels Pipe an das Cmdlet **Enable-Mailbox** übergeben, um ein Archiv für alle Postfächer in der Postfachdatenbank "DB01" zu aktivieren.
 
+```powershell
     Get-Mailbox -Database DB01 -Filter {ArchiveGuid -Eq $null -AND ArchiveDomain -eq $null -AND Name -NotLike "DiscoverySearchMailbox*"} | Enable-Mailbox -Archive
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Enable-Mailbox](https://technet.microsoft.com/de-de/library/aa998251\(v=exchg.150\)) und [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)).
 
@@ -142,7 +148,9 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Aktivierung ei
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Informationen zum neuen Archiv anzuzeigen.
     
+    ```powershell
         Get-Mailbox <Name> | FL Name,*Archive*
+    ```
 
   - Verwenden Sie in der Shell das Cmdlet **Test-ArchiveConnectivity**, um die Konnektivität mit dem Archiv zu testen. Beispiele für die Vorgehensweise zum Testen der Archivkonnektivität finden Sie unter [Test-ArchiveConnectivity](https://technet.microsoft.com/de-de/library/hh529914\(v=exchg.150\)).
 
@@ -190,7 +198,9 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Deaktivierung des Archivs zu 
 
   - Verwenden Sie in der Shell den folgenden Befehl, um die Archiveigenschaften für den Postfachbenutzer zu überprüfen.
     
+    ```powershell
         Get-Mailbox -Identity "Chris Ashton" | Format-List *Archive*
+    ```
     
     Wenn das Archiv deaktiviert ist, werden für archivbezogene Eigenschaften die folgenden Werte zurückgegeben.
     
@@ -247,11 +257,15 @@ Wenn Sie ein Archivpostfach deaktivieren, wird die Verbindung getrennt. Ein getr
 
 1.  Wenn Sie den Namen des Archivs nicht kennen, können Sie diesen in der Shell anzeigen, indem Sie den folgenden Befehl ausführen. In diesem Beispiel wird die Postfachdatenbank "DB01" abgerufen und mittels Pipe an das Cmdlet **Get-MailboxStatistics** übergeben, um Postfachstatistiken für alle Postfächer in der Datenbank abzurufen. Dann wird das Cmdlet **Where-Object** zur Filterung der Ergebnisse und zum Abrufen einer Liste der getrennten Archive verwendet. Der Befehl zeigt zusätzliche Informationen zu jedem Archiv sowie die GUID und die Elementanzahl an.
     
+    ```powershell
         Get-MailboxDatabase "DB01" | Get-MailboxStatistics | Where {($_.DisconnectDate -ne $null) -and ($_.IsArchiveMailbox -eq $true)} | Format-List
+    ```
 
 2.  Verbinden Sie das Archiv mit dem primären Postfach. In diesem Beispiel wird das Archiv von Chris Ashton mit dem primären Postfach von Chris Ashton verbunden. Hierbei wird die GUID als Identität des Archivs verwendet.
     
+    ```powershell
         Enable-Mailbox -ArchiveGuid "8734c04e-981e-4ccf-a547-1c1ac7ebf3e2" -ArchiveDatabase "DB01" -Identity "Chris Ashton"
+    ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden Themen:
 
@@ -265,5 +279,6 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
 
 Zur Überprüfung der erfolgreichen Verbindung eines getrennten Archivs mit einem Postfachbenutzer führen Sie den folgenden Shell-Befehl auf, um die Archiveigenschaften für den Postfachbenutzer abzurufen und die zurückgegebenen Werte für die Eigenschaften *ArchiveGuid* und *ArchiveDatabase* zu überprüfen:
 
+```powershell
     Get-Mailbox -Identity "Chris Ashton" | Format-List *Archive*
-
+```

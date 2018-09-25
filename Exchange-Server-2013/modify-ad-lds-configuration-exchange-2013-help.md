@@ -85,7 +85,9 @@ Die Parameter in der folgenden Tabelle sind für das Skript **ConfigureAdam.ps1*
 
 In diesem Beispiel wird der von AD LDS verwendete LDAP-Port in 5000 geändert. Das kaufmännischen Und-Zeichen (&) ist Teil der Befehlssyntax.
 
+```powershell
     & $env:ExchangeInstallPath\Scripts\ConfigureAdam.ps1 -LdapPort:5000
+```
 
 In diesem Beispiel werden folgende Änderungen an der AD LDS-Konfiguration vorgenommen. Das kaufmännischen Und-Zeichen (&) ist Teil der Befehlssyntax. Beachten Sie den Doppelpunkt (:) zwischen jedem Parameter und seinem Wert:
 
@@ -99,5 +101,7 @@ In diesem Beispiel werden folgende Änderungen an der AD LDS-Konfiguration vorg
 
 <!-- end list -->
 
+```powershell
     & $env:ExchangeInstallPath\Scripts\ConfigureAdam.ps1 -LdapPort:5000 -SslPort:5001 -LogPath:"D:\Exchange Server\Data\ADLDS" -DataPath:"D:\Exchange Server\Data\ADLDS"
+```
 

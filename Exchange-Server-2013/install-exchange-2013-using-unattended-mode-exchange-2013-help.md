@@ -95,7 +95,7 @@ Die folgenden Informationen gelten für die Exchange 2013-Edge-Transport-Serverr
     > [!IMPORTANT]
     > Wenn die Benutzerkontensteuerung aktiviert ist, müssen Sie <CODE>Setup.exe</CODE> über eine Eingabeaufforderung mit erhöhten Rechten ausführen.
 
-    
+    ```powershell
         Setup.exe [/Mode:<setup mode>] [/IAcceptExchangeServerLicenseTerms]
         [/Roles:<server roles to install>] [/InstallWindowsComponents] 
         [/OrganizationName:<name for the new Exchange organization>] 
@@ -110,7 +110,7 @@ Die folgenden Informationen gelten für die Exchange 2013-Edge-Transport-Serverr
         [/MdbName:<mailbox database name>] [/DbFilePath:<Edb file path>] 
         [/LogFolderPath:<log folder path>] [/ActiveDirectorySplitPermissions:<True | False>]
         [/TenantOrganizationConfig:<path>]
-
+    ```
 4.  Die Installationsdateien werden lokal auf den Computer kopiert, auf dem Exchange 2013 installiert wird.
 
 5.  Setup überprüft die Voraussetzungen einschließlich aller Voraussetzungen, die für die Serverrollen spezifisch sind, die Sie installieren. Wenn nicht alle Voraussetzungen erfüllt sind, tritt bei der Installation ein Fehler auf, und eine Fehlermeldung wird zurückgegeben, in der die Ursache des Fehlers erläutert wird. Wenn alle Voraussetzungen erfüllt sind, wird Exchange 2013 installiert.

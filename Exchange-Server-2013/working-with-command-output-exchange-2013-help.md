@@ -51,33 +51,40 @@ Darüber hinaus kann auch ein Platzhalterzeichen (\*) mit einem Teil eines Eigen
 
 In den folgenden Beispiele wird gezeigt, wie dieselben von dem Cmdlet **Get-Mailbox** zurückgegebenen Daten auf unterschiedliche Weise angezeigt werden können.
 
+```powershell
     Get-Mailbox TestUser1
     
     Name                      Alias                ServerName       ProhibitSendQuo
                                                                     ta
     ----                      -----                ----------       ---------------
     TestUser1                 TestUser1            mbx              unlimited
+```
 
 Im ersten Beispiel wird das Cmdlet **Get-Mailbox** ohne spezielle Formatierung aufgerufen, sodass die Standardausgabe im Tabellenformat erfolgt und einen vordefinierten Satz von Eigenschaften enthält.
 
+```powershell
     Get-Mailbox TestUser1 | Format-List -Property Name,Alias,EmailAddresses
     
     Name           : TestUser1
     Alias          : TestUser1
     EmailAddresses : {SMTP:TestUser1@contoso.com}
+```
 
 Im zweiten Beispiel wird die Ausgabe des Cmdlets **Get-Mailbox** zusammen mit bestimmten Eigenschaften mittels Pipe an das Cmdlet **Format-List** übergeben. Format und Inhalt der Ausgabe sind bei diesem Beispiel völlig anders.
 
+```powershell
     Get-Mailbox TestUser1 | Format-List -Property Name, Alias, Email*
     Name                      : Test User
     Alias                     : TestUser1
     EmailAddresses            : {SMTP:TestUser1@contoso.com}
     EmailAddressPolicyEnabled : True
+```
 
 Im letzten Beispiel wird die Ausgabe des Cmdlets **Get-Mailbox** wie im zweiten Beispiel mittels Pipe an das Cmdlet **Format-List** übergeben. Bei dem letzten Beispiel wird jedoch ein Platzhalterzeichen verwendet, um alle Eigenschaften zuzuordnen, die mit `Email` beginnen.
 
 Wenn mehrere Objekte an das Cmdlet **Format-List** übergeben werden, werden alle für ein Objekt angegebenen Eigenschaften nach Objekt gruppiert und angezeigt. Die Anzeigereihenfolge richtet sich nach dem Standardparameter für das Cmdlet. Standardparameter ist meist der Parameter *Name* oder der Parameter *Identity*. Beispiel: Wenn das Cmdlet **Get-Childitem** aufgerufen wird, werden die Dateinamen in der Standardanzeige in alphabetischer Reihenfolge angezeigt. Damit dieses Verhalten geändert werden kann, muss das Cmdlet **Format-List** zusammen mit dem Parameter *GroupBy* und einem Eigenschaftswert, nach dem die Ausgabe gruppiert werden soll, aufgerufen werden. Im folgenden Befehl werden zum Beispiel alle Dateien in einem Verzeichnis aufgelistet und anschließend nach ihrer Dateierweiterung gruppiert.
 
+```powershell
     Get-Childitem | Format-List Name,Length -GroupBy Extension
     
         Extension: .xml
@@ -105,6 +112,7 @@ Wenn mehrere Objekte an das Cmdlet **Format-List** übergeben werden, werden all
     
     Name   : Text_02.txt
     Length : 9835
+```
 
 In diesem Beispiel hat das Cmdlet **Format-List** die Elemente nach der Eigenschaft *Extension* gruppiert, die vom Parameter *GroupBy* angegeben wird. Der Parameter *GroupBy* kann mit jeder gültigen Eigenschaft für die Objekte im Pipelinestream verwendet werden.
 
@@ -116,14 +124,17 @@ In Verbindung mit dem Cmdlet **Format-Table** wird auch der Parameter *Wrap* ver
 
 Im ersten Beispiel werden bei Verwendung des Cmdlets **Get-Command** zum Anzeigen der Befehlsinformationen für das Cmdlet **Get-Process** die Informationen zur Eigenschaft *Definition* abgeschnitten.
 
+```powershell
     Get-Command Get-Process | Format-Table Name,Definition
     
     Name                                    Definition
     ----                                    ----------
     get-process                             get-process [[-ProcessName] String[]...
+```
 
 Im zweiten Beispiel erhält der Befehl den Parameter *Wrap*, um die vollständige Anzeige des Inhalts der Eigenschaft *Definition* zu erzwingen.
 
+```powershell
     Get-Command Get-Process | Format-Table Name,Definition -Wrap
     
     Get-Process                             Get-Process [[-Name] <String[]>] [-Comp
@@ -149,6 +160,7 @@ Im zweiten Beispiel erhält der Befehl den Parameter *Wrap*, um die vollständig
                                             ble <String>] [-WarningVariable <String
                                             >] [-OutVariable <String>] [-OutBuffer
                                             <Int32>]
+```
 
 Wie bei dem Cmdlet **Format-List** können Sie auch hier ein Platzhalterzeichen (`*`) zusammen mit einem Teil eines Eigenschaftennamens angeben. Durch Angabe eines Platzhalterzeichens können mehrere Eigenschaften zugeordnet werden, ohne dass die Eigenschaften einzeln eingegeben werden müssen.
 
@@ -158,6 +170,7 @@ Das Cmdlet **Format-Wide** ermöglicht eine wesentlich einfachere Ausgabesteueru
 
 Wird das Cmdlet **Format-Wide** in seiner einfachsten Form ganz ohne Parameter aufgerufen, wird die Ausgabe in so vielen Spalten angeordnet, wie auf die Seite passen. Beispiel: Wenn das Cmdlet **Get-Childitem** ausgeführt und dessen Ausgabe mittels Pipe an das Cmdlet **Format-Wide** übergeben wird, werden die Informationen wie folgt dargestellt:
 
+```powershell
     Get-ChildItem | Format-Wide
     
         Directory: FileSystem::C:\WorkingFolder
@@ -176,9 +189,11 @@ Wird das Cmdlet **Format-Wide** in seiner einfachsten Form ganz ohne Parameter a
     Text_08.txt                             Text_09.txt
     Text_10.txt                             Text_11.txt
     Text_12.txt
+```
 
 Im Allgemeinen werden bei Aufruf des Cmdlets **Get-Childitem** ohne Parameter die Namen aller Dateien in dem Verzeichnis in einer Tabelle mit Eigenschaften angezeigt. Da in diesem Beispiel die Ausgabe des Cmdlets **Get-Childitem** mittels Pipe an das Cmdlet **Format-Wide** übergeben wurde, wurde die Ausgabe in zwei Spalten mit Namen angezeigt. Beachten Sie, dass zur gleichen Zeit jeweils nur ein Eigenschaftentyp angezeigt werden kann, der durch einen Eigenschaftennamen gemäß dem Cmdlet **Format-Wide** angegeben wurde. Durch Hinzufügen des Parameters *Autosize* wird die Ausgabe von zwei Spalten in so viele Spalten geändert, wie die Bildschirmbreite zulässt.
 
+```powershell
     Get-ChildItem | Format-Wide -AutoSize
     
         Directory: FileSystem::C:\WorkingFolder
@@ -189,9 +204,11 @@ Im Allgemeinen werden bei Aufruf des Cmdlets **Get-Childitem** ohne Parameter di
     Text_01.txt     Text_02.txt     Text_03.txt     Text_04.txt     Text_05.txt
     Text_06.txt     Text_07.txt     Text_08.txt     Text_09.txt     Text_10.txt
     Text_11.txt     Text_12.txt
+```
 
 In diesem Beispiel enthält die Tabelle nicht zwei, sondern fünf Spalten. Der Parameter *Column* bietet weitergehende Steuermöglichkeiten. Mit diesem Parameter können Sie die maximale Spaltenanzahl für die Anzeige von Informationen folgendermaßen angeben:
 
+```powershell
     Get-ChildItem | Format-Wide -Column 4
     
         Directory: FileSystem::C:\WorkingFolder
@@ -203,6 +220,7 @@ In diesem Beispiel enthält die Tabelle nicht zwei, sondern fünf Spalten. Der P
     Text_02.txt         Text_03.txt         Text_04.txt         Text_05.txt
     Text_06.txt         Text_07.txt         Text_08.txt         Text_09.txt
     Text_10.txt         Text_11.txt         Text_12.txt
+```
 
 In diesem Beispiel wird die vierspaltige Ansicht durch den Parameter *Column* erzwungen.
 
@@ -212,11 +230,15 @@ In diesem Beispiel wird die vierspaltige Ansicht durch den Parameter *Column* er
 
 Bei dem Cmdlet **Out-Host** handelt es sich um ein nicht angezeigtes Standard-Cmdlet am Ende der Pipeline. Nachdem sämtliche Formatierungen angewendet wurden, sendet das Cmdlet **Out-Host** die finale Ausgabe zur Anzeige an das Konsolenfenster. Das Cmdlet **Out-Host** muss nicht explizit aufgerufen werden, da es sich hierbei um die Standardausgabe handelt. Das Senden der Ausgabe an das Konsolenfenster kann außer Kraft gesetzt werden, indem das Cmdlet **Out-File** als letztes Cmdlet im Befehl aufgerufen wird. Das Cmdlet **Out-File** schreibt dann die Ausgabe in die Datei, die in dem Befehl angegeben wurde (siehe folgendes Beispiel):
 
+```powershell
     Get-ChildItem | Format-Wide -Column 4 | Out-File c:\OutputFile.txt
+```
 
 In diesem Beispiel werden vom Cmdlet **Out-File** die mit dem Befehl **Get-ChildItem | Format-Wide -Column 4** angezeigten Informationen in die Datei "`OutputFile.txt`" geschrieben. Die Ausgabe einer Pipeline kann auch mit dem Umleitungsoperator, also der spitzen Klammer rechts (`>`), in eine Datei umgeleitet werden. Zum Anfügen der Pipelineausgabe eines Befehls an eine vorhandene Datei, ohne dass die Originaldatei ersetzt wird, verwenden Sie die doppelten spitzen Klammern rechts (`>>`), wie im folgenden Beispiel dargestellt:
 
+```powershell
     Get-ChildItem | Format-Wide -Column 4 >> C:\OutputFile.txt
+```
 
 In diesem Beispiel wird die Ausgabe des Cmdlets **Get-Childitem** mittels Pipe zur Formatierung an das Cmdlet **Format-Wide** übergeben und dann an das Ende der Datei "`OutputFile.txt`" geschrieben. Wenn die Datei "`OutputFile.txt`" nicht vorhanden ist, wird sie bei Verwendung doppelter spitzer Klammern rechts (`>>`) erstellt.
 
@@ -230,6 +252,7 @@ Aufgrund der Flexibilität und Unkompliziertheit von Skripts in der Exchange-Ver
 
 Im folgenden Beispiel wird gezeigt, wie die von einem Befehl zurückgegebenen Daten mithilfe eines einfachen Skripts ausgegeben und in Internet Explorer angezeigt werden können. Dieses Skript verwendet die mittels Pipe übergebenen Objekte, öffnet ein Internet Explorer-Fenster und zeigt die Daten anschließend in Internet Explorer an:
 
+```powershell
     $Ie = New-Object -Com InternetExplorer.Application
     $Ie.Navigate("about:blank")
     While ($Ie.Busy) { Sleep 1 }
@@ -238,6 +261,7 @@ Im folgenden Beispiel wird gezeigt, wie die von einem Befehl zurückgegebenen Da
     # If the previous line doesn't work on your system, uncomment the line below.
     # $Ie.Document.IHtmlDocument2_Write("$Input")
     $Ie
+```
 
 Zur Verwendung des Skripts speichern Sie dieses auf dem Computer, auf dem es ausgeführt werden soll, im Verzeichnis "`C:\Program Files\Microsoft\Exchange Server\V15\Scripts`". Legen Sie für die Datei den Namen "`Out-Ie.ps1`" fest. Nachdem die Datei gespeichert wurde, kann das Skript als reguläres Cmdlet verwendet werden.
 
@@ -331,12 +355,14 @@ Wenn Daten die Pipeline durchlaufen, empfängt das Cmdlet **Where** die Daten vo
 
 Das Cmdlet **Clear-Host** dient zum Löschen des Inhalts des Konsolenfensters. In diesem Beispiel werden alle definierten Aliase für das Cmdlet **Clear-Host** angezeigt, wenn Sie den folgenden Befehl ausführen:
 
+```powershell
     Get-Alias | Where {$_.Definition -eq "Clear-Host"}
     
     CommandType     Name                            Definition
     -----------     ----                            ----------
     Alias           clear                           clear-host
     Alias           cls                             clear-host
+```
 
 Das Cmdlet **Get-Alias** und der Befehl **Where** werden zusammen verwendet, um die Liste der Aliase zurückzugeben, die nur für das Cmdlet **Clear-Host** definiert sind. Die folgende Tabelle enthält die einzelnen Elemente des im Beispiel verwendeten Befehls **Where**.
 

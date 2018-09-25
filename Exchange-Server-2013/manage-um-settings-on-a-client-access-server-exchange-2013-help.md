@@ -60,8 +60,9 @@ Set-UMCallRouterSettings -DialPlans MySIPDialPlan -MaxCalls 150 -Server MyClient
 ```
 
 In diesem Beispiel wird auf einem Clientzugriffsserver mit dem Namen `MyClientAccessServer` der SIP-TCP-Überwachungsport auf 5077 und der Startmodus auf den Dualmodus festgelegt.
-
+```powershell
     Set-UMCallRouterSettings  -Server MyClientAccessServer-SipTCPListeningPort 5077 -UMStartUpMode -Dual 
+```
 
 ## Verwenden der Shell zum Anzeigen von Clientzugriffsserver-Eigenschaften
 

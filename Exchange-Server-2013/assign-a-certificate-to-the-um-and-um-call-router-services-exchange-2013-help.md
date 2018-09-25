@@ -59,5 +59,7 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit der Verwaltung
 
 In diesem Beispiel wird dem Unified Messaging-Dienst und dem UM-Anrufrouterdienst ein Zertifikat zugewiesen.
 
+```powershell
     Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
+```
 

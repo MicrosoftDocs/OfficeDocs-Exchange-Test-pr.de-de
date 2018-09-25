@@ -51,7 +51,9 @@ Weitere Informationen zu Detailvorlagen finden Sie unter [Detailvorlagen](detail
 
 In diesem Beispiel wird die Kontaktdetailvorlage für "Englisch USA" wiederhergestellt.
 
+```powershell
     Restore-DetailsTemplate -Identity "en-US\Contact"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Restore-DetailsTemplate](https://technet.microsoft.com/de-de/library/bb125188\(v=exchg.150\)).
 

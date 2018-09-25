@@ -73,25 +73,29 @@ Das Microsoft Exchange 2010 UM-Problembehandlungstool ist ein Cmdlet der Exchang
 
 3.  Wechseln Sie an der Windows PowerShell-Eingabeaufforderung zu dem Ordner, in dem das UM-Problembehandlungstool installiert wurde, und führen Sie den folgenden Befehl aus:
     
+    ```powershell
         C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -psconsolefile .\Microsoft.Exchange.UM.TroubleshootingToolsnapin.psc1 -noexit -command ". '.\Microsoft.Exchange.UM.TroubleshootingTool.ps1' "
-
+    ```
+    
 4.  Wenn Sie das UM-Problembehandlungstool unter Windows Vista, Windows 7 oder Windows 8 ausführen, müssen Sie an der Windows PowerShell-Eingabeaufforderung den folgenden Befehl ausführen:
     
     ```powershell
-Set-ExecutionPolicy RemoteSigned
-```
+    Set-ExecutionPolicy RemoteSigned
+    ```
 
 5.  Öffnen Sie im Menü **Start** das **Microsoft Exchange 2010 UM-Problembehandlungstool**.
 
 6.  Geben Sie im Fenster **Microsoft Exchange 2010 UM-Problembehandlungstool** an der Eingabeaufforderung Folgendes ein, und drücken Sie die EINGABETASTE.
     
     ```powershell
-$cred=Get-Credential
-```
+    $cred=Get-Credential
+    ```
 
 7.  Geben Sie im Fenster **Bei Windows PowerShell anmelden** den Domänen-\\Benutzernamen und das Kennwort ein, und klicken Sie dann auf **OK**.
 
 8.  Geben Sie im Fenster **Microsoft Exchange 2010 UM-Problembehandlungstool** die erforderlichen Cmdlet-Parameter an, um den Anruffluss zu testen. Beispiel:
     
+    ```powershell
         Test-ExchangeUMCallFlow -Mode SIPClient -CallingParty tonysmith@contoso.com - CalledParty jamiestark@contoso.com NextHop ocsfe.contoso.com -Credential $cred
-
+    ```
+    

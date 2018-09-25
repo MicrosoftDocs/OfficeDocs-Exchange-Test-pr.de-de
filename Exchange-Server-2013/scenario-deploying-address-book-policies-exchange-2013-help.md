@@ -231,8 +231,10 @@ Beachten Sie Folgendes, wenn Sie Adressbuchrichtlinien in Ihrer Organisation ver
 
   - Durch die Bereitstellung von Adressbuchrichtlinien wird nicht verhindert, dass Benutzer aus einer virtuellen Organisation E-Mails an Benutzer in einer anderen virtuellen Organisation senden. Wenn Sie das organisationsübergreifende Senden von E-Mails unterbinden möchten, empfiehlt sich die Erstellung einer Transportregel. Zur Erstellung einer Transportregel, die verhindert, dass Contoso-Benutzer E-Mails von Fabrikam-Benutzern erhalten, jedoch zulässt, dass die Geschäftsleitung von Fabrikam Nachrichten an Contoso-Benutzer sendet, führen Sie folgenden Shellbefehl aus:
     
+    ```powershell
         New-TransportRule -Name "StopFabrikamtoContosoMail" -FromMemberOf "AllFabrikamEmployees" -SentToMemberOf "AllContosoEmployees" -DeleteMessage -ExceptIfFrom seniorleadership@fabrikam.com
-
+    ```
+    
   - Wenn Sie ein Feature wie Adressbuchrichtlinie im Lync-Client erzwingen möchten, können Sie das Attribut `msRTCSIP-GroupingID` für bestimmte Benutzerobjekte festlegen. Weitere Informationen finden Sie im Thema ["PartitionByOU" ersetzt durch "msRTCSIP-GroupingID"](https://go.microsoft.com/fwlink/p/?linkid=232306).
 
 ## Allgemeine Bereitstellungsschritte
@@ -287,21 +289,29 @@ Beim Erstellen der Adressbuchrichtlinie erstellen Sie mehrere Adresslisten, je n
 
 In diesem Beispiel wird die Adressliste AL\_TAIL\_Benutzer\_DGs erstellt. Die Adressliste enthält alle Benutzer und Verteilergruppen, für die gilt: "CustomAttribute15" ist gleich "TAIL".
 
+```powershell
     New-AddressList -Name "AL_TAIL_Users_DGs" -RecipientFilter {((RecipientType -eq 'UserMailbox') -or (RecipientType -eq "MailUniversalDistributionGroup") -or (RecipientType -eq "DynamicDistributionGroup")) -and (CustomAttribute15 -eq "TAIL")}
+```
 
 Weitere Informationen zum Erstellen von Adresslisten unter Verwendung von Empfängerfiltern finden Sie unter [Erstellen einer Adressliste mithilfe von Empfängerfiltern](https://technet.microsoft.com/de-de/library/Bb123718(v=EXCHG.150)).
 
 Zum Erstellen einer Adressbuchrichtlinie müssen Sie eine Raumadressliste bereitstellen. Wenn Ihre Organisation nicht über Ressourcenpostfächer (wie zum Beispiel Raum- oder Gerätepostfächer) verfügt, empfiehlt es sich, eine leere Raumadressliste zu erstellen. Im folgenden Beispiel wird eine leere Raumadressliste erstellt, da in der Organisation keine Raumpostfächer vorhanden sind.
 
+```powershell
     New-AddressList -Name AL_BlankRoom -RecipientFilter {(Alias -ne $null) -and ((RecipientDisplayType -eq 'ConferenceRoomMailbox') -or (RecipientDisplayType -eq 'SyncedConferenceRoomMailbox'))}
+```
 
 In diesem Szenario verfügen jedoch sowohl Fabrikam als auch Contoso über Raumpostfächer. In diesem Beispiel wird eine Raumliste für Fabrikam erstellt. Dabei wird ein Empfängerfilter verwendet, für den gilt: "CustomAttribute15" ist gleich "FAB".
 
+```powershell
     New-AddressList -Name AL_FAB_Room -RecipientFilter {(Alias -ne $null) -and (CustomAttribute15 -eq "FAB")-and (RecipientDisplayType -eq 'ConferenceRoomMailbox') -or (RecipientDisplayType -eq 'SyncedConferenceRoomMailbox')}
+```
 
 Bei der in einer Adressbuchrichtlinie verwendeten globalen Adressliste muss es sich um die Obermenge aller Adresslisten handeln. Erstellen Sie keine globale Adressliste mit weniger Objekten als in einer oder allen Adresslisten in der Adressbuchrichtlinie. In diesem Beispiel wird die globale Adressliste für Tailspin Toys erstellt. Diese umfasst alle Empfänger, die in den Adresslisten und der Raumadressliste vorhanden sind.
 
+```powershell
     New-GlobalAddressList -Name "GAL_TAIL" -RecipientFilter {(CustomAttribute15 -eq "TAIL")}
+```
 
 Weitere Informationen finden Sie unter [Erstellen einer globalen Adressliste](https://technet.microsoft.com/de-de/library/Bb232063(v=EXCHG.150)).
 
@@ -319,7 +329,9 @@ Weitere Informationen finden Sie unter [Erstellen eines Offlineadressbuchs](http
 
 Nachdem Sie alle erforderlichen Objekte erstellt haben, können Sie die Adressbuchrichtlinie erstellen. In diesem Beispiel wird die Adressbuchrichtlinie "ABP\_TAIL" erstellt.
 
+```powershell
     New-AddressBookPolicy -Name "ABP_TAIL" -AddressLists "AL_TAIL_Users_DGs"," AL_TAIL_Contacts" -OfflineAddressBook "\OAB_TAIL" -GlobalAddressList "\GAL_TAIL" -RoomList "\AL_TAIL_Rooms"
+```
 
 Weitere Informationen finden Sie unter [Erstellen einer Adressbuchrichtlinie](https://technet.microsoft.com/de-de/library/Hh529931(v=EXCHG.150)).
 
@@ -329,7 +341,9 @@ Das Zuweisen der Adressbuchrichtlinien zu Benutzern ist der letzte Schritt in di
 
 In diesem Beispiel wird "ABP\_FAB" allen Postfächern zugewiesen, bei denen gilt: "CustomAttribute15" ist gleich "FAB".
 
+```powershell
     Get-Mailbox -resultsize unlimited | where {$_.CustomAttribute15 -eq "TAIL"} | Set-Mailbox -AddressBookPolicy "ABP_TAIL"
+```
 
 Weitere Informationen finden Sie unter [Zuweisen einer Adressbuchrichtlinie zu E-Mail-Benutzern](https://technet.microsoft.com/de-de/library/Hh529942(v=EXCHG.150)).
 

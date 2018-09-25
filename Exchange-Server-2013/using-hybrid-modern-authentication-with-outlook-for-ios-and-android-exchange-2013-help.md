@@ -50,7 +50,7 @@ Diese neue Architektur weist insbesondere die folgenden Verbesserungen auf:
 5.  **Freischaltung neuer Features unter iOS und Android:**  Mit diesem Update kann die Outlook-App native Office 365-Features nutzen, die im lokalen Exchange heute noch nicht unterstützt werden, z. B. können die vollständige Exchange Online-Suche und der Posteingang mit Fokus genutzt werden. Diese Features stehen nur zur Verfügung, wenn Sie Outlook für iOS und Android verwenden.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Die Geräteverwaltung über das lokale Exchange Admin Center ist nicht möglich. Intune ist erforderlich, um mobile Geräte zu verwalten.
 
 
@@ -166,7 +166,7 @@ Sobald sich Ihre Organisation entschlossen hat, den Benutzerzugriff auf Exchange
 Die Richtlinien nutzen das Gewährungssteuerelement [Genehmigte Client-App erfordern](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-technical-reference), durch das sichergestellt wird, dass nur Microsoft-Apps, in die das Intune SDK integriert ist, Zugriff gewährt wird.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Um die App-basierten Richtlinien für bedingten Zugriff zu verwenden, muss die Microsoft Authenticator-App auf iOS-Geräten installiert werden. Für Android-Geräte wird die App für das Intune-Unternehmensportal verwendet. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/intune/app-based-conditional-access-intune">App-basierter bedingter Zugriff mit Intune</A>.
 
 
@@ -175,14 +175,14 @@ Um die Verbindung anderer mobiler Geräteclients (z. B. des nativen E-Mail-Clien
 
 1.  Sie können die integrierten Exchange-Zugriffsregeln für Mobilgeräte nutzen und die Verbindung aller Mobilgeräte blockieren, indem Sie in der Exchange-Verwaltungsshell Folgendes festlegen:
     
-    ```powershell
-Set-ActiveSyncOrganizationSettings -DefaultAccessLevel Block
-```
+      ```powershell
+      Set-ActiveSyncOrganizationSettings -DefaultAccessLevel Block
+      ```
 
 2.  Sie können nach der Installation des lokalen Exchange Connectors eine lokale Richtlinie für bedingten Zugriff in Intune nutzen. Weitere Informationen finden Sie unter [Erstellen einer Richtlinie für bedingten Zugriff auf eine lokale Installation von Exchange und auf das ältere Exchange Online Dedicated](https://docs.microsoft.com/intune/conditional-access-exchange-create#configure-exchange-on-premises-access).
 
 
-> [!NOTE]
+> [!NOTE]  
 > Wenn Sie eine der oben aufgeführten lokalen Optionen implementieren, beachten Sie, dass dies Benutzer daran hindern kann, eine Verbindung mit Exchange auf ihren mobilen Geräten herzustellen.
 
 
@@ -208,7 +208,7 @@ Erstellen Sie Intune-App-Schutzrichtlinien für iOS und Android anhand der Schri
 Zusätzlich zu den oben genannten minimalen Richtlinienanforderungen, sollten Sie in Erwägung ziehen, Richtlinieneinstellungen für erweiterten Schutz bereitzustellen, z. B. **Ausschneiden, Kopieren und Einfügen mit anderen Apps einschränken**, um Datenlecks weiter zu verhindern. Weitere Informationen zu den verfügbaren Einstellungen finden Sie unter [Einstellungen für Android-App-Schutzrichtlinien in Microsoft Intune](https://docs.microsoft.com/intune/app-protection-policy-settings-android) und [Einstellungen für App-Schutzrichtlinien für iOS](https://docs.microsoft.com/intune/app-protection-policy-settings-ios).
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Um Intune-App-Schutzrichtlinien für Apps auf Android-Geräten anzuwenden, die nicht in Intune registriert sind, muss der Benutzer auch das Intune-Unternehmensportal installieren. Weitere Informationen finden Sie unter<A href="https://docs.microsoft.com/de-de/intune/app-protection-enabled-apps-android">Das passiert, wenn Ihre Android-App von App-Schutzrichtlinien verwaltet wird</A>.
 
 
@@ -221,16 +221,20 @@ Wenn Sie die moderne Hybridauthentifizierung bereits aktiviert haben, um andere 
 
 1.  Erstellen Sie eine Exchange-Zulassungsregel für den Gerätezugriff, um Exchange Online zu ermöglichen, eine Verbindung mit Ihrer lokalen Umgebung mithilfe des ActiveSync-Protokolls herzustellen:
     
-        If ((Get-ActiveSyncOrganizationSettings).DefaultAccessLevel -ne "Allow") {New-ActiveSyncDeviceAccessRule -Characteristic DeviceType -QueryString "OutlookService" -AccessLevel Allow}
+      ```powershell
+      If ((Get-ActiveSyncOrganizationSettings).DefaultAccessLevel -ne "Allow") {New-ActiveSyncDeviceAccessRule -Characteristic DeviceType -QueryString "OutlookService" -AccessLevel Allow}
+      ```
     
     Beachten Sie, dass die Geräteverwaltung über das lokale Exchange Admin Center nicht möglich ist. Intune ist erforderlich, um mobile Geräte zu verwalten.
 
 2.  Erstellen Sie eine Exchange-Gerätezugriffsregel, die verhindert, dass Benutzer mit Outlook für iOS und Android mit Standardauthentifizierung eine Verbindung mit der lokalen Umgebung über das Exchange ActiveSync-Protokoll herstellen:
     
-        New-ActiveSyncDeviceAccessRule -Characteristic DeviceModel -QueryString "Outlook for iOS and Android" -AccessLevel Block
+      ```powershell
+      New-ActiveSyncDeviceAccessRule -Characteristic DeviceModel -QueryString "Outlook for iOS and Android" -AccessLevel Block
+      ```
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Nachdem diese Regel erstellt wurde, werden Benutzer, die Outlook für iOS und Android mit Standardauthentifizierung verwenden, blockiert.
 
 
@@ -290,7 +294,7 @@ Die folgenden Features werden für lokale Postfächer mit moderner Hybridauthent
 Mit ExpressRoute gibt es keinen privaten IP-Adressraum für ExpressRoute-Verbindungen noch kann eine „private“ DNS-Auflösung erfolgen. Das bedeutet, dass jeder Endpunkt, den Ihr Unternehmen über ExpressRoute nutzen möchte, im öffentlichen DNS aufgelöst werden muss. Wenn dieser Endpunkt zu einer IP-Adresse aufgelöst wird, die in den angekündigten der ExpressRoute-Leitung zugeordneten Präfixen enthalten ist (Ihr Unternehmen muss diese Präfixe im Azure-Portal konfigurieren, wenn Sie Microsoft-Peering für die ExpressRoute-Verbindung aktivieren), wird die ausgehende Verbindung von Exchange Online zu Ihrer lokalen Umgebung über die ExpressRoute-Leitung weitergeleitet. Ihr Unternehmen muss sicherstellen, dass der zurückkommende Datenverkehr im Zusammenhang mit diesen Verbindungen über die ExpressRoute-Leitung geleitet wird (Vermeiden asymmetrischen Routings).
 
 
-> [!NOTE]
+> [!NOTE]  
 > Da Ihr Unternehmen den Exchange ActiveSync-Namespace den angekündigten Präfixen in der ExpressRoute-Leitung hinzufügt, kann der Exchange ActiveSync-Endpunkt nur noch über die ExpressRoute erreicht werden. Somit ist Outlook für iOS und Android das einzige Mobilgerät, das eine Verbindung mit der lokalen Umgebung über den ActiveSync-Namespace herstellen kann. Alle anderen ActiveSync-Clients (z. B. native E-Mail-Clients mobiler Geräte) werden nicht mit der lokalen Umgebung verbunden, da von der Microsoft-Cloud keine Verbindung hergestellt wird. Der Grund ist, dass es keine Überlappungen des öffentlichen IP-Adressraums, der Microsoft auf der ExpressRoute-Leitung angekündigt wurde, mit dem öffentlichen IP-Adressraum, der auf Ihren Internetleitungen angekündigt wurde, geben kann.
 
 
@@ -359,7 +363,6 @@ Bei Ablauf des Tokens versucht der Client, das Aktualisierungstoken zu verwenden
 
 **A:**  Ja, ein Benutzer kann AutoDetect jederzeit umgehen und die Verbindung mit der Standardauthentifizierung über das Exchange ActiveSync-Protokoll manuell konfigurieren. Um sicherzustellen, dass der Benutzer keine Verbindung mit Ihrer lokalen Umgebung über einen Mechanismus herstellt, der Azure Active Directory-Richtlinien für bedingten Zugriff oder Intune-App-Schutzrichtlinien nicht unterstützt, muss der lokale Exchange-Administrator eine Exchange-Gerätezugriffsregel konfigurieren, die die ActiveSync-Verbindung blockiert. Geben Sie hierzu den folgenden Befehl in der Exchange-Verwaltungsshell ein:
 
-``` 
- New-ActiveSyncDeviceAccessRule -Characteristic DeviceModel -QueryString "Outlook for iOS and Android" -AccessLevel Block
+```powershell 
+New-ActiveSyncDeviceAccessRule -Characteristic DeviceModel -QueryString "Outlook for iOS and Android" -AccessLevel Block
 ```
-

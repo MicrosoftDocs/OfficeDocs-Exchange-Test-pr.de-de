@@ -48,7 +48,7 @@ Um die XML-Datei zu exportieren, verwenden Sie die Exchange-Verwaltungsshell ode
 3.  Erstellen Sie eine formatierte XML-Datei mit all diesen Daten, indem Sie **Set-Content -path "C:\\custompath\\exportedRules.xml" -Encoding Byte -Value $ruleCollections.SerializedClassificationRuleCollection** eingeben. (**Set-content** ist der Teil des Cmdlets, das den XML-Code in die Datei schreibt.)
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Stellen Sie sicher, dass der Dateispeicherort verwendet wird, in dem das Regelpaket tatsächlich gespeichert ist. <STRONG>C:\custompath&#92;</STRONG> ist ein Platzhalter.
 
 
@@ -63,17 +63,19 @@ Mit den obigen Cmdlets wurde die gesamte *Regelsammlung* exportiert, die die 51�
 
 3.  Suchen Sie nach **Func\_credit\_card**, um die Regeldefinition für die Kreditkartennummer zu suchen. (In der XML-Datei dürfen Regelnamen keine Leerzeichen enthalten, sodass die Leerzeichen üblicherweise durch Unterstriche ersetzt und die Regelnamen manchmal abgekürzt werden. Ein Beispiel hierfür ist die Regel für die US-Sozialversicherungsnummer, die als "SSN" abgekürzt wird. Die XML-Datei der Kreditkartennummer-Regel sollte wie das folgende Codebeispiel aussehen.
     
-        <Entity id="50842eb7-edc8-4019-85dd-5a5c1f2bb085"
-               patternsProximity="300" recommendedConfidence="85">
-              <Pattern confidenceLevel="85">
-               <IdMatch idRef="Func_credit_card" />
-                <Any minMatches="1">
-                  <Match idRef="Keyword_cc_verification" />
-                  <Match idRef="Keyword_cc_name" />
-                  <Match idRef="Func_expiration_date" />
-                </Any>
-              </Pattern>
-            </Entity>
+    ```powershell
+    <Entity id="50842eb7-edc8-4019-85dd-5a5c1f2bb085"
+            patternsProximity="300" recommendedConfidence="85">
+          <Pattern confidenceLevel="85">
+            <IdMatch idRef="Func_credit_card" />
+            <Any minMatches="1">
+              <Match idRef="Keyword_cc_verification" />
+              <Match idRef="Keyword_cc_name" />
+              <Match idRef="Func_expiration_date" />
+            </Any>
+          </Pattern>
+        </Entity>
+    ````
 
 Nachdem Sie die Regeldefinition für die Kreditkartennummer in der XML-Datei ermittelt haben, können Sie die XML-Datei der Regel an Ihre Anforderungen anpassen. (Eine Wiederholung zu den XML-Definitionen finden Sie am Ende dieses Themas unter Term glossary.)
 
@@ -83,108 +85,116 @@ Zuerst müssen Sie einen neuen vertraulichen Informationstyp erstellen, da Sie d
 
 Alle XML-Regeldefinitionen werden anhand der folgenden allgemeinen Vorlage erstellt. Sie müssen die XML-Definition der Kreditkartennummer in der Vorlage kopieren und einfügen, einige Werte ändern (beachten Sie die Platzhalter ". . .” im folgenden Beispiel) und anschließend die geänderte XML-Datei als neue Regel hochladen, die in Richtlinien verwendet werden kann.
 
-    <?xml version="1.0" encoding="utf-16"?>
-    <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
-      <RulePack id=". . .">
-        <Version major="1" minor="0" build="0" revision="0" />
-        <Publisher id=". . ." /> 
-        <Details defaultLangCode=". . .">
-          <LocalizedDetails langcode=" . . . ">
-             <PublisherName>. . .</PublisherName>
-             <Name>. . .</Name>
-             <Description>. . .</Description>
-          </LocalizedDetails>
-        </Details>
-      </RulePack>
+  ```powershell
+  <?xml version="1.0" encoding="utf-16"?>
+      <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
+        <RulePack id=". . .">
+          <Version major="1" minor="0" build="0" revision="0" />
+          <Publisher id=". . ." /> 
+          <Details defaultLangCode=". . .">
+            <LocalizedDetails langcode=" . . . ">
+              <PublisherName>. . .</PublisherName>
+              <Name>. . .</Name>
+              <Description>. . .</Description>
+            </LocalizedDetails>
+          </Details>
+        </RulePack>
+        
+      <Rules>
+        <!-- Paste the Credit Card Number rule definition here.--> 
       
-     <Rules>
-       <!-- Paste the Credit Card Number rule definition here.--> 
-    
-          <LocalizedStrings>
-             <Resource idRef=". . .">
-               <Name default="true" langcode=" . . . ">. . .</Name>
-               <Description default="true" langcode=". . ."> . . .</Description>
-             </Resource>
-          </LocalizedStrings>
-    
-       </Rules>
-    </RulePackage>
+            <LocalizedStrings>
+              <Resource idRef=". . .">
+                <Name default="true" langcode=" . . . ">. . .</Name>
+                <Description default="true" langcode=". . ."> . . .</Description>
+              </Resource>
+            </LocalizedStrings>
+      
+        </Rules>
+      </RulePackage>
+  ```
 
 Sie verfügen nun über eine XML-Datei, die der Folgenden ähnelt. Da Regelpakete und Regeln anhand ihrer eindeutigen GUIDs identifiziert werden, müssen Sie zwei GUIDs generieren: eine für das Regelpaket und eine zum Ersetzen der GUID für die Kreditkartennummer-Regel. (Die GUID für die Entitäts-ID im folgenden Codebeispiel ist die für unsere integrierte Regeldefinition, die Sie durch eine neue GUID ersetzen müssen.) Es gibt verschiedene Wege zum Generieren von GUIDs. Sie können dies jedoch unkompliziert in PowerShell bewerkstelligen, indem Sie **\[guid\]::NewGuid()** eingeben.
 
-    <?xml version="1.0" encoding="utf-16"?>
-    <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
-      <RulePack id="8aac8390-e99f-4487-8d16-7f0cdee8defc">
-        <Version major="1" minor="0" build="0" revision="0" />
-        <Publisher id="8d34806e-cd65-4178-ba0e-5d7d712e5b66" />
-        <Details defaultLangCode="en">
-          <LocalizedDetails langcode="en">
-            <PublisherName>Contoso Ltd.</PublisherName>
-            <Name>Financial Information</Name>
-            <Description>Modified versions of the Microsoft rule package</Description>
-          </LocalizedDetails>
-        </Details>
-      </RulePack>
+  ```powershell
+  <?xml version="1.0" encoding="utf-16"?>
+      <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
+        <RulePack id="8aac8390-e99f-4487-8d16-7f0cdee8defc">
+          <Version major="1" minor="0" build="0" revision="0" />
+          <Publisher id="8d34806e-cd65-4178-ba0e-5d7d712e5b66" />
+          <Details defaultLangCode="en">
+            <LocalizedDetails langcode="en">
+              <PublisherName>Contoso Ltd.</PublisherName>
+              <Name>Financial Information</Name>
+              <Description>Modified versions of the Microsoft rule package</Description>
+            </LocalizedDetails>
+          </Details>
+        </RulePack>
+        
+      <Rules>
+          <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f"
+            patternsProximity="300" recommendedConfidence="85">
+            <Pattern confidenceLevel="85">
+              <IdMatch idRef="Func_credit_card" />
+              <Any minMatches="1">
+                <Match idRef="Keyword_cc_verification" />
+                <Match idRef="Keyword_cc_name" />
+                <Match idRef="Func_expiration_date" />
+              </Any>
+            </Pattern>
+          </Entity>
       
-     <Rules>
-        <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f"
-           patternsProximity="300" recommendedConfidence="85">
-          <Pattern confidenceLevel="85">
-            <IdMatch idRef="Func_credit_card" />
-            <Any minMatches="1">
-              <Match idRef="Keyword_cc_verification" />
-              <Match idRef="Keyword_cc_name" />
-              <Match idRef="Func_expiration_date" />
-            </Any>
-          </Pattern>
-        </Entity>
-    
-          <LocalizedStrings>
-             <Resource idRef="db80b3da-0056-436e-b0ca-1f4cf7080d1f"> 
-    <!-- This is the GUID for the preceding Credit Card Number entity because the following text is for that Entity. -->
-               <Name default="true" langcode="en-us">Modified Credit Card Number</Name>
-               <Description default="true" langcode="en-us">Credit Card Number that looks for additional keywords, and another version of Credit Card Number that doesn't require keywords (but has a lower confidence level)</Description>
-             </Resource>
-          </LocalizedStrings>
-    
-       </Rules>
-    </RulePackage>
+            <LocalizedStrings>
+              <Resource idRef="db80b3da-0056-436e-b0ca-1f4cf7080d1f"> 
+      <!-- This is the GUID for the preceding Credit Card Number entity because the following text is for that Entity. -->
+                <Name default="true" langcode="en-us">Modified Credit Card Number</Name>
+                <Description default="true" langcode="en-us">Credit Card Number that looks for additional keywords, and another version of Credit Card Number that doesn't require keywords (but has a lower confidence level)</Description>
+              </Resource>
+            </LocalizedStrings>
+      
+        </Rules>
+      </RulePackage>
+  ```
 
 ## Entfernen der Anforderung für einen bestätigenden Nachweis von einem vertraulichen Informationstyp
 
 Nachdem ein neuer vertraulicher Informationstyp erstellt wurde, den Sie in Ihre Exchange-Umgebung hochladen können, besteht der nächste Schritte darin, spezifischere Angaben für die Regel festzulegen. Ändern Sie die Regel so, dass sie nur nach einer 16-stelligen Zahl sucht, die die Prüfsummenprüfung passiert, für die aber kein weiterer (bestätigender) Nachweis erforderlich ist (beispielsweise Schlüsselwörter). Hierfür müssen Sie den Teil der XML-Datei entfernen, der nach dem bestätigenden Nachweis sucht. Der bestätigende Nachweis ist sehr hilfreich bei der Verringerung falsch positiver Ergebnisse, da sich üblicherweise bestimmte Schlüsselwörter oder ein Ablaufdatum in der Nähe der Kreditkartennummer befinden. Wenn Sie den Nachweis entfernen, sollten Sie auch anpassen, wie sicher Sie sind, dass Sie eine Kreditkartennummer gefunden haben, indem Sie das **confidenceLevel** senken (in dem Beispiel ist dies 85).
 
-    <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f" patternsProximity="300"
-          <Pattern confidenceLevel="85">
-            <IdMatch idRef="Func_credit_card" />
-          </Pattern>
-        </Entity>
+  ```powershell
+  <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f" patternsProximity="300"
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_credit_card" />
+        </Pattern>
+      </Entity>
+  ```
 
 ## Suchen nach Schlüsselwörtern speziell für Ihre Organisation
 
 Sie möchten möglicherweise festlegen, dass der bestätigende Nachweis erforderlich ist, aber andere oder zusätzliche Schlüsselwörter angeben. Möglicherweise möchten Sie auch ändern, wo nach diesem Nachweis gesucht werden soll. Sie können das Attribut **patternsProximity** anpassen, um das Fenster für den bestätigenden Nachweis um die 16-stellige Zahl herum zu erweitern oder zu verkleinern. Um Ihre eigenen Schlüsselwörter hinzuzufügen, müssen Sie eine Schlüsselwortliste definieren und in Ihrer Regel darauf verweisen. Mit der folgenden XML-Datei werden die Schlüsselwörter "company card" (Firmenkarte) und "Contoso card" (Contoso-Karte) hinzugefügt, sodass jede Nachricht, die diese Phrasen im Umkreis von 150 Zeichen von einer Kreditkartennummer enthält, als Kreditkartennummer erkannt wird.
 
-    <Rules>
-    <! -- Modify the patternsProximity to be "150" rather than "300." -->
-        <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f" patternsProximity="150" recommendedConfidence="85">
-          <Pattern confidenceLevel="85">
-            <IdMatch idRef="Func_credit_card" />
-            <Any minMatches="1">
-              <Match idRef="Keyword_cc_verification" />
-              <Match idRef="Keyword_cc_name" />
-    <!-- Add the following XML, which references the keywords at the end of the XML sample. -->
-              <Match idRef="My_Additional_Keywords" />
-              <Match idRef="Func_expiration_date" />
-            </Any>
-          </Pattern>
-        </Entity>
-    <!-- Add the following XML, and update the information inside the <Term> tags with the keywords that you want to detect. -->
-        <Keyword id="My_Additional_Keywords">
-          <Group matchStyle="word">
-            <Term caseSensitive="false">company card</Term>
-            <Term caseSensitive="false">Contoso card</Term>
-          </Group>
-        </Keyword>
+  ```powershell
+  <Rules>
+  <! -- Modify the patternsProximity to be "150" rather than "300." -->
+      <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f" patternsProximity="150" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_credit_card" />
+          <Any minMatches="1">
+            <Match idRef="Keyword_cc_verification" />
+            <Match idRef="Keyword_cc_name" />
+  <!-- Add the following XML, which references the keywords at the end of the XML sample. -->
+            <Match idRef="My_Additional_Keywords" />
+            <Match idRef="Func_expiration_date" />
+          </Any>
+        </Pattern>
+      </Entity>
+  <!-- Add the following XML, and update the information inside the <Term> tags with the keywords that you want to detect. -->
+      <Keyword id="My_Additional_Keywords">
+        <Group matchStyle="word">
+          <Term caseSensitive="false">company card</Term>
+          <Term caseSensitive="false">Contoso card</Term>
+        </Group>
+      </Keyword>
+  ```
 
 ## Hochladen der Regel
 
@@ -197,8 +207,8 @@ Zum Hochladen der Regel müssen Sie wie folgt vorgehen.
 3.  Geben Sie in der Exchange-Verwaltungsshell- oder der Exchange Online-PowerShell **New-ClassificationRuleCollection -FileData (Get-Content -Path "C:\\custompath\\MyNewRulePack.xml " -Encoding Byte)** ein.
     
 
-    > [!IMPORTANT]
-    > Stellen Sie sicher, dass der Dateispeicherort verwendet wird, in dem das Regelpaket tatsächlich gespeichert ist. <STRONG>C:\custompath\</STRONG> ist ein Platzhalter.
+    > [!IMPORTANT]  
+    > Stellen Sie sicher, dass der Dateispeicherort verwendet wird, in dem das Regelpaket tatsächlich gespeichert ist. <STRONG>C:\custompath\ </STRONG> ist ein Platzhalter.
 
 
 
@@ -268,4 +278,3 @@ Nachfolgend finden Sie Definitionen der Begriffe, die in diesem Verfahren vorkom
   - [Erstellen einer benutzerdefinierten DLP-Richtlinie](https://docs.microsoft.com/de-de/exchange/security-and-compliance/data-loss-prevention/create-custom-dlp-policy)
 
   - [Wonach die Typen von vertraulichen Informationen in Exchange suchen](what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md)
-

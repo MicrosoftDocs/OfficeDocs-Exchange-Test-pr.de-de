@@ -113,10 +113,13 @@ Um mithilfe der Shell zu prüfen, ob Sie den Server erfolgreich als Standard Edi
 1.  Öffnen Sie die Shell.
 
 2.  Führen Sie den folgenden Befehl aus, um den Lizenzierungsstatus eines bestimmten Exchange-Servers anzuzeigen.
-    
+
+    ```powershell
         Get-ExchangeServer ExServer01 | Format-Table Edition,*Trial*
+    ```
 
 3.  (Optional) Führen Sie den folgenden Befehl aus, um den Lizenzierungsstatus aller Exchange-Server in Ihrer Organisation anzuzeigen.
-    
-        Get-ExchangeServer | Format-Table Name, Edition, *Trial* -Auto
 
+    ```powershell
+        Get-ExchangeServer | Format-Table Name, Edition, *Trial* -Auto
+    ```

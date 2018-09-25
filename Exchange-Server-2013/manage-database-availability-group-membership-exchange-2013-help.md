@@ -88,8 +88,8 @@ Führen Sie eine der folgenden Aktionen aus, um zu überprüfen, dass Sie die DA
   - Führen Sie den folgenden Befehl in der Shell aus, um DAG-Mitgliedschaftsinformationen anzuzeigen:
     
     ```powershell
-Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
-```
+    Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+    ```
 
 ## Weitere Informationen
 

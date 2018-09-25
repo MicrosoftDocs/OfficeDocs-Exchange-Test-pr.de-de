@@ -81,9 +81,10 @@ Führen Sie zum Konfigurieren von gemeinsamen Berechtigungen in der Rollengruppe
 
 1.  Fügen Sie mithilfe der folgenden Befehle eine delegierende Rollenzuweisung für die Rolle "Erstellung von E-Mail-Empfängern" und die Rolle "Sicherheitsgruppenerstellung und -mitgliedschaft" zur Organisationsverwaltung-Rollengruppe hinzu.
     
+    ```powershell
         New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Organization Management" -Delegating
         New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management" -Delegating
-    
+    ```
 
     > [!NOTE]
     > Der Rollengruppe (in diesem Verfahren die Rollengruppe "Active Directory-Administratoren"), die über delegierende Rollenzuweisungen für die Rolle "Erstellung von E-Mail-Empfängern" und für die Rolle "Sicherheitsgruppenerstellung und -mitgliedschaft" verfügt, muss die Rolle "Rollenverwaltung" zugeordnet werden, um das Cmdlet <STRONG>New-ManagementRoleAssignment</STRONG> auszuführen. Der Rollenempfänger, der die Rolle "Rollenverwaltung" delegieren kann, muss diese Rolle der Rollengruppe "Active Directory-Administratoren" zuweisen.
@@ -92,12 +93,15 @@ Führen Sie zum Konfigurieren von gemeinsamen Berechtigungen in der Rollengruppe
 
 2.  Fügen Sie mit den folgenden Befehlen den Rollengruppen Organisationsverwaltung und Empfängerverwaltung reguläre Rollenzuweisungen für die Rolle "Erstellung von E-Mail-Empfängern" hinzu.
     
+    ```powershell
         New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Organization Management"
         New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Recipient Management"
-
+    ```
 3.  Fügen Sie mit dem folgenden Befehl der Rollengruppe Organisationsverwaltung eine reguläre Rollenzuweisung für die Rolle "Sicherheitsgruppenerstellung und -mitgliedschaft" hinzu.
     
+    ```powershell
         New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management"
+    ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -115,11 +119,14 @@ Gehen Sie zum Entfernen von Exchange-bezogenen geteilten Berechtigungen von Acti
 
 1.  Entfernen Sie mit dem folgenden Befehl die regulären und delegierenden Rollenzuweisungen, die die Rolle "Erstellung von E-Mail-Empfängern" der Rollengruppe oder der universellen Sicherheitsgruppe (Universal Security Group, USG) zuweisen, in der die Active Directory-Administratoren Mitglied sind. In diesem Befehl wird die Rollengruppe "Active Directory-Administratoren" als Beispiel verwendet. Mithilfe der Option *WhatIf* können Sie anzeigen, welche Rollenzuweisungen entfernt werden. Entfernen Sie die Option *WhatIf*, und führen Sie den Befehl dann erneut aus, um die Rollenzuweisungen zu entfernen.
     
+    ```powershell
         Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Where { $_.RoleAssigneeName -EQ "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
-
-2.  Entfernen Sie mit dem folgenden Befehl die regulären und delegierenden Rollenzuweisungen, die die Rolle "Sicherheitsgruppenerstellung und -mitgliedschaft" der Rollengruppe oder der USG zuweisen, in der die Active Directory-Administratoren Mitglied sind. In diesem Befehl wird die Rollengruppe "Active Directory-Administratoren" als Beispiel verwendet. Mithilfe der Option *WhatIf* können Sie anzeigen, welche Rollenzuweisungen entfernt werden. Entfernen Sie die Option *WhatIf*, und führen Sie den Befehl dann erneut aus, um die Rollenzuweisungen zu entfernen.
+    ```
     
+2.  Entfernen Sie mit dem folgenden Befehl die regulären und delegierenden Rollenzuweisungen, die die Rolle "Sicherheitsgruppenerstellung und -mitgliedschaft" der Rollengruppe oder der USG zuweisen, in der die Active Directory-Administratoren Mitglied sind. In diesem Befehl wird die Rollengruppe "Active Directory-Administratoren" als Beispiel verwendet. Mithilfe der Option *WhatIf* können Sie anzeigen, welche Rollenzuweisungen entfernt werden. Entfernen Sie die Option *WhatIf*, und führen Sie den Befehl dann erneut aus, um die Rollenzuweisungen zu entfernen.
+    ```powershell
         Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Where { $_.RoleAssigneeName -EQ "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+    ```
 
 3.  Optional. Falls Sie alle Exchange-Berechtigungen der Active Directory-Administratoren entfernen möchten, können Sie die Rollengruppe oder USG entfernen, in der diese Mitglied sind. Weitere Informationen zum Entfernen einer Rollengruppe finden Sie unter [Verwalten von Rollengruppen](manage-role-groups-exchange-2013-help.md).
 
@@ -142,15 +149,17 @@ Gehen Sie wie folgt vor, um von geteilten Active Directory-Berechtigungen zu gem
 1.  Führen Sie über eine Windows-Befehlsshell den folgendem Befehl auf dem Exchange 2013-Installationsmedium aus, um geteilte Active Directory-Berechtigungen zu deaktivieren.
     
     ```powershell
-setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
-```
+    setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+    ```
 
 2.  Führen Sie über die Exchange-Verwaltungsshell die folgenden Befehle aus, um reguläre Rollenzuweisungen zwischen der Rolle "Erstellung von E-Mail-Empfängern" und der Rolle "Sicherheitsgruppenerstellung und -mitgliedschaft" sowie den Rollengruppen Organisationsverwaltung und Empfängerverwaltung hinzuzufügen.
     
+    ```powershell
         New-ManagementRoleAssignment "Mail Recipient Creation_Organization Management" -Role "Mail Recipient Creation" -SecurityGroup "Organization Management"
         New-ManagementRoleAssignment "Security Group Creation and Membership_Org Management" -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management"
         New-ManagementRoleAssignment "Mail Recipient Creation_Recipient Management" -Role "Mail Recipient Creation" -SecurityGroup "Recipient Management"
-
+    ```
+    
 3.  Starten Sie die Exchange 2013-Server im Unternehmen neu.
     
 

@@ -49,7 +49,9 @@ Weitere Informationen zu getrennten Postfächern und zum Durchführen anderer da
 
   - Um sicherzustellen, dass das gelöschte Postfach, das Sie mit einem Benutzerkonto verbinden möchten, in der Postfachdatenbank vorhanden und nicht ein vorläufig gelöschtes Postfach ist, führen Sie den folgenden Befehl aus.
     
+    ```powershell
         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
+    ```
     
     Das gelöschte Postfach muss in der Postfachdatenbank vorhanden sein, und der Wert der Eigenschaft *DisconnectReason* muss `Disabled` sein. Wenn das Postfach endgültig aus der Datenbank gelöscht wurde, gibt der Befehl keine Ergebnisse zurück.
 
@@ -113,19 +115,27 @@ Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Al
 
 In diesem Beispiel wird ein verknüpftes Postfach verbunden. Der Parameter *Identity* gibt das gelöschte Postfach in der Postfachdatenbank MBXDB02 an. Der Parameter *LinkedMasterAccount* gibt das Active Directory-Benutzerkonto in der Kontogesamtstruktur an, mit dem Sie das Postfach verbinden möchten. Der Parameter *LinkedDomainController* gibt einen Domänencontroller in der Kontogesamtstruktur an.
 
+```powershell
     Connect-Mailbox -Identity "Temp User" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount danpark@fabrikam.com -Alias dpark
+```
 
 In diesem Beispiel wird ein Raumpostfach verbunden.
 
+```powershell
     Connect-Mailbox -Identity "rm2121" -Database "MBXResourceDB" -User "Conference Room 2121" -Alias ConfRm2121 -Room
+```
 
 In diesem Beispiel wird ein Gerätepostfach verbunden.
 
+```powershell
     Connect-Mailbox -Identity "MotorPool01" -Database "MBXResourceDB" -User "Van01 (12 passengers)" -Alias van01 -Equipment
+```
 
 In diesem Beispiel wird ein freigegebenes Postfach verbunden.
 
+```powershell
     Connect-Mailbox -Identity "Printer Support" -Database MBXDB01 -User "Corp Printer Support" -Alias corpprint -Shared
+```
 
 
 > [!NOTE]
@@ -146,8 +156,8 @@ Führen Sie einen der folgenden Schritte aus, um zu überprüfen, ob Sie ein gel
   - Führen Sie in der Shell den folgenden Befehl aus.
     
     ```powershell
-Get-User <identity>
-```
+    Get-User <identity>
+    ```
     
     Der Wert **UserMailbox** der Eigenschaft *RecipientType* gibt an, dass das Benutzerkonto und das Postfach verbunden sind. Sie können auch den Befehl **Get-Mailbox \<identity\>** ausführen, um zu prüfen, ob das Postfach verbunden wurde.
 
@@ -167,15 +177,21 @@ Nachdem eine Anforderung einer Postfachwiederherstellung erfolgreich erfüllt wu
 
 Zum Erstellen einer Anforderung einer Postfachwiederherstellung müssen Sie den Anzeigenamen, Legacy-DN (Distinguished Name) oder die Postfach-GUID des gelöschten Postfachs angeben. Mit dem Cmdlet **Get-MailboxStatistics** können Sie die Werte der Eigenschaften `DisplayName`, `MailboxGuid` und `LegacyDN` des gelöschten Postfachs anzeigen, das Sie wiederherstellen möchten. Führen Sie beispielsweise den folgenden Befehl aus, um diese Informationen für alle deaktivierten und gelöschten Postfächer in Ihrer Organisation zurückzugeben.
 
+```powershell
     Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "Disabled"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```
 
 In diesem Beispiel wird das gelöschte Postfach, das vom Parameter *SourceStoreMailbox* bestimmt wird und in der Postfachdatenbank MBXDB01 enthalten ist, im Zielpostfach "Debra Garcia" wiederhergestellt. Der Parameter *AllowLegacyDNMismatch* wird verwendet, damit das Quellpostfach in einem anderen Postfach wiederhergestellt werden kann, das nicht über denselben Legacy-DN-Wert verfügt.
 
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox e4890ee7-79a2-4f94-9569-91e61eac372b -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```
 
 In diesem Beispiel wird das gelöschte Archivpostfach von Pilar Pinilla in ihrem aktuellen Archivpostfach wiederhergestellt. Der Parameter *AllowLegacyDNMismatch* ist nicht erforderlich, da ein primäres Postfach und sein dazugehöriges Archivpostfach denselben Legacy-DN haben.
 
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox "Personal Archive - Pilar Pinilla" -SourceDatabase "MDB01" -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829875\(v=exchg.150\)).
 
@@ -188,8 +204,8 @@ Sie benötigen die GUID des gelöschten Postfachs auf einem öffentlichen Ordner
 1.  Rufen Sie die Active Directory-Gesamtstruktur und den vollqualifizierten Domänennamen (FQDN) des Domänencontrollers ab, indem Sie das folgende Cmdlet ausführen:
     
     ```powershell
-Get-OrganizationConfig | fl OriginatingServer
-```
+    Get-OrganizationConfig | fl OriginatingServer
+    ```
 
 2.  Suchen Sie anhand der in Schritt 1 zurückgegebenen Informationen im Container für gelöschte Objekte in Active Directory nach der GUID des Postfachs für öffentliche Ordner sowie nach der GUID bzw. nach dem Namen der Postfachdatenbank, in der das Postfach für öffentliche Ordner enthalten war.
     
@@ -203,16 +219,21 @@ Wenn Sie die GUID des Postfachs für öffentliche Ordner und den Namen bzw. die 
 
 1.  Erstellen Sie ein neues Active Directory-Objekt, indem Sie die folgenden Befehle ausführen (Sie werden möglicherweise aufgefordert, entsprechende Anmeldeinformationen einzugeben):
     
+    ```powershell
         New-MailUser <mailUserName> -ExternalEmailAddress <emailAddress> 
-        
-        Get-MailUser <mailUserName> | Disable-MailUser
+    ```
     
+    ```powershell
+        Get-MailUser <mailUserName> | Disable-MailUser
+    ```
+
     `<mailUserName>`, `<emailAddress>`, und `<mailUserName>` sind dabei Werte, die Sie auswählen. Im nächsten Schritt müssen Sie denselben `<mailUserName>`-Wert verwenden.
 
 2.  Verbinden Sie das Postfach für öffentliche Ordner mit dem soeben erstellten Active Directory-Objekt, indem Sie den folgenden Befehl ausführen:
     
+    ```powershell
         Connect-Mailbox -Identity <public folder mailbox GUID> -Database <database name or GUID> -User <mailUserName>
-    
+    ```
 
     > [!NOTE]
     > Der <CODE>Identity</CODE>-Parameter gibt das Postfacobjekt in der Exchange-Datenbank an, das mit einem Active Directory-Benutzerobjekt verbunden werden soll. In dem Beispiel oben wird die GUID für das Postfach für öffentliche Ordner angegeben, Sie können jedoch auch den Wert für den Anzeigenamen oder den LegacyExchangeDN-Wert verwenden.
@@ -221,7 +242,9 @@ Wenn Sie die GUID des Postfachs für öffentliche Ordner und den Namen bzw. die 
 
 3.  Führen Sie `Update-StoreMailboxState` in dem Postfach für öffentliche Ordner aus, wie in dem folgenden Beispiel dargestellt:
     
+    ```powershell
         Update-StoreMailboxState -Identity <public folder mailbox GUID> -Database <database name or GUID>
+    ```
     
     Wie in Schritt 2 akzeptiert der `Identity`-Parameter die Werte für die GUID, den Anzeigenamen oder LegacyExchangeDN für das Postfach für öffentliche Ordner.
 

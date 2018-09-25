@@ -81,7 +81,9 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit Zertifikaten f
 
 In diesem Beispiel wird eine neue Exchange-Zertifikatsanforderung für den Postfachserver `MyMailboxServer` mit dem Anzeigenamen `CertUM` erstellt.
 
+```powershell
     New-ExchangeCertificate -FriendlyName 'CertUM' -GenerateRequest -PrivateKeyExportable $true -KeySize '2048' -DomainName '*.northwindtraders.com' -SubjectName 'C=US,S=wa,L=redmond,O=northwindtraders,OU=servers,CN= northwindtraders.com' -Server 'MyMailboxServer'
+```
 
 ## Verwenden des EAC zum Erstellen eines selbstsignierten Zertifikats für UM
 
@@ -106,8 +108,9 @@ In diesem Beispiel wird eine neue Exchange-Zertifikatsanforderung für den Postf
 ## Verwenden der Shell zum Erstellen eines selbstsignierten Zertifikats für UM
 
 In diesem Beispiel wird ein neues selbstsigniertes Exchange-Zertifikat für den Postfachserver `MyMailboxServer` mit dem Anzeigenamen `UMCert` erstellt.
-
+```powershell
     New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
+```
 
 
 > [!TIP]

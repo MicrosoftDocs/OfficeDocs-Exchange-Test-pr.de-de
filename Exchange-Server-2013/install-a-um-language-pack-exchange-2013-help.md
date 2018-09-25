@@ -63,11 +63,15 @@ Weitere Informationen zu Aufgaben im Zusammenhang mit UM-Sprachen finden Sie unt
 
 In diesem Beispiel wird das japanische (ja-JP) UM-Sprachpaket installiert, das in den Ordner "D:\\Exchange\\UMLanguagePacks" auf einem Postfachserver heruntergeladen wurde.
 
+```powershell
     setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 In diesem Beispiel werden die UM-Sprachpakete für Spanisch (Mexiko) (es-MX) und Deutsch (de-DE) installiert, die in den Ordner "D:\\Exchange\\UMLanguagePacks" auf einem Postfachserver heruntergeladen wurden.
 
+```powershell
     setup.exe /AddUmLanguagePack:es-MX,de-DE /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 
 > [!WARNING]

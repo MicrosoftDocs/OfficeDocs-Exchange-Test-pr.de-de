@@ -100,8 +100,8 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Aktivierung einer Postfachdat
   - Führen Sie in der Shell den folgenden Befehl aus, um Statusinformationen zu einer Datenbankkopie anzuzeigen.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 
 ## Weitere Informationen
 

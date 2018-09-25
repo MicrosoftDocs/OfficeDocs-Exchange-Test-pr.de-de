@@ -71,11 +71,15 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Manag
 
 Um einen bestimmten Benutzer zu ermitteln, dem über eine Verwaltungsrolle Berechtigungen gewährt wurden, müssen Sie das Cmdlet **Get-ManagementRoleAssignment** zum Abrufen einer Liste aller effektiven Benutzer verwenden und die Ausgabe des Cmdlets mittels Pipelining an das Cmdlet **Where** umleiten. Das Cmdlet **Where** filtert die Ausgabe und gibt nur die angegebenen Benutzer zurück. Verwenden Sie die folgende Syntax.
 
+```powershell
     Get-ManagementRoleAssignment -Role <role name> -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "<name of user>" }
+```
 
 In diesem Beispiel wird der Benutzer David Strome für die Journal-Rolle ermittelt.
 
+```powershell
     Get-ManagementRoleAssignment -Role Journaling -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "David Strome" }
+```
 
 Weitere Informationen zum Ändern, welche Eigenschaften in der Liste zurückgegeben werden, oder zum Exportieren der Liste in eine CSV-Datei finden Sie unter Anpassen und Anzeigen der Ausgabe mithilfe der Shell weiter unten in diesem Thema.
 
@@ -85,7 +89,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Manag
 
 Um alle Rollen zu ermitteln, über die einem Benutzer Berechtigungen gewährt werden, müssen Sie das Cmdlet **Get-ManagementRoleAssignment** zum Abrufen aller effektiven Benutzer für alle Verwaltungsrollen verwenden und anschließend die Ausgabe des Cmdlets mittels Pipelining an das Cmdlet **Where** umleiten. Das Cmdlet **Where** filtert die Ausgabe und gibt nur die Rollenzuweisungen zurück, die dem Benutzer Berechtigungen gewähren.
 
+```powershell
     Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "<name of user>" }
+```
 
 In diesem Beispiel werden alle Rollenzuweisungen ermittelt, die dem Benutzer Kim Akers Berechtigungen gewähren.
 
@@ -143,11 +149,15 @@ Weitere Informationen zu den Cmdlets **Format-Table** und **Select-Object** find
 
 3.  Verwenden Sie die folgende Syntax, um die Liste anzuzeigen.
     
+    ```powershell
         <command to retrieve list > | Format-Table <property 1>, <property 2>, <property ...>
-
+    ```
+    
 In diesem Beispiel wird der Benutzer David Strome in allen Rollen gefunden, und es werden die Eigenschaften `EffectiveUserName`, `Role`, `CustomRecipientWriteScope` und `CustomConfigWriteScope` angezeigt.
 
+```powershell
     Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "David Strome" } | Format-Table EffectiveUserName, Role, CustomRecipientWriteScope, CustomConfigWriteScope
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd351024\(v=exchg.150\)).
 
@@ -167,11 +177,15 @@ Um eine Liste in eine CSV-Datei zu exportieren, müssen Sie die Ergebnisse des B
 
 3.  Verwenden Sie die folgende Syntax, um die Liste in eine CSV-Datei zu exportieren.
     
+    ```powershell
         <command to retrieve list > | Select-Object <property 1>, <property 2>, <property ...> | Export-CSV <filename>
-
+    ```
+    
 In diesem Beispiel wird der Benutzer David Strome in allen Rollen gefunden, und es werden die Eigenschaften `EffectiveUserName`, `Role`, `CustomRecipientWriteScope` und `CustomConfigWriteScope` angezeigt.
 
+```powershell
     Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "David Strome" } | Select-Object EffectiveUserName, Role, CustomRecipientWriteScope, CustomConfigWriteScope | Export-CSV c:\output.csv
+```
 
 Sie können die CSV-Datei nun in einem Viewer Ihrer Wahl anzeigen.
 

@@ -88,6 +88,7 @@ DLP-Richtlinienvorlagen werden als XML-Dokumente dargestellt. Ein einzelnes XML-
 
 DLP-Richtlinienvorlagen werden als XML-Dokumente dargestellt, die dem folgenden Schema entsprechen. Bei XML wird zwischen Groß- und Kleinschreibung unterschieden. `dlpPolicyTemplates` funktioniert beispielsweise, `DlpPolicyTemplates` dagegen nicht.
 
+```XML
     <?xml version="1.0" encoding="UTF-8"?>
     <dlpPolicyTemplates>
       <dlpPolicyTemplate id="F7C29AEC-A52D-4502-9670-141424A83FAB" mode="Audit" state="Enabled" version="15.0.2.0">
@@ -114,10 +115,13 @@ DLP-Richtlinienvorlagen werden als XML-Dokumente dargestellt, die dem folgenden 
         <policyCommandsResources></policyCommandsResources>
       </dlpPolicyTemplate>
     </dlpPolicyTemplates>
+```
 
 Wenn ein Parameter, den Sie in Ihre XML-Datei für ein Element aufnehmen, ein Leerzeichen enthält, muss der Parameter in doppelte Anführungszeichen eingeschlossen sein, um ordnungsgemäß zu funktionieren. Im nachfolgenden Beispiel ist der Parameter nach `-SentToScope` zulässig und benötigt keine doppelten Anführungszeichen, weil es sich um eine durchgängige Zeichenfolge ohne Leerzeichen handelt. Der für –`Comments` bereitgestellte Parameter wird in der Exchange-Verwaltungskonsole hingegen nicht angezeigt, weil er Leerzeichen enthält und nicht in Anführungszeichen eingeschlossen ist.
 
+```XML
     <CommandBlock><![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Within" -DlpPolicy "PCI-DSS" -Comments Monitors payment card information sent inside the organization -SentToScope InOrganization -SetAuditSeverity Low -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } ]]> </CommandBlock>
+```
 
 ## localizedString Element
 
@@ -225,15 +229,17 @@ Untergeordnete Elemente enthalten die nachstehende Abfolge von Elementen.
 
 Dieser Bestandteil der Richtlinienvorlage enthält die Liste der Befehle für die Exchange-Verwaltungsshell, die zum Instanziieren der Richtliniendefinition verwendet werden. Der Importvorgang führt jeden der Befehle als Bestandteil der Instanziierung aus. Nachfolgend finden Sie einige Beispielbefehle für Richtlinien.
 
+```XML
     <PolicyCommands>
         <!-- The contents below are applied/executed as rules directly in PS - -->
           <CommandBlock> <![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Outside" -DlpPolicy "PCI-DSS" -SentToScope NotInOrganization -SetAuditSeverity High -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } -Comments "Monitors payment card information sent to outside the organization as part of the PCI-DSS DLP policy."]]></CommandBlock>
           <CommandBlock><![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Within" -DlpPolicy "PCI-DSS" -Comments "Monitors payment card information sent inside the organization as part of the PCI-DSS DLP policy." -SentToScope InOrganization -SetAuditSeverity Low -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } ]]> </CommandBlock>
       </PolicyCommands> 
+```
 
 Das Format der Cmdlets entspricht der Standardsyntax für Cmdlets der Exchange-Verwaltungsshell. Die Befehle werden nacheinander ausgeführt. Jeder Befehlsknoten kann einen Skriptblock umfassen, der mehrere Befehle enthalten kann. Das nachstehende Beispiel zeigt, wie ein Klassifikationsregelpaket in eine DLP-Richtlinienvorlage eingebettet und das Regelpaket im Rahmen der Richtlinienerstellung installiert wird. Das Klassifikationsregelpaket wird in die Richtlinienvorlage eingebettet und anschließend als Parameter an das Cmdlet in der Vorlage übergeben:
 
-``` 
+```XML
 <CommandBlock>
   <![CDATA[
 $rulePack = [system.Text.Encoding]::Unicode.GetBytes('<?xml version="1.0" encoding="utf-16"?>

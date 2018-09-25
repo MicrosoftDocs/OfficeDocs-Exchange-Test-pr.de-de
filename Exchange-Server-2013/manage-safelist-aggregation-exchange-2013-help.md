@@ -47,7 +47,9 @@ Sie können die maximale Anzahl sicherer und blockierter Absender konfigurieren,
 
 Führen Sie den folgenden Befehl aus, um die maximale Anzahl von sicheren und blockierten Absendern zu konfigurieren:
 
-    Set-Mailbox <MailboxIdentity> -MaxSafeSenders <Integer> -MaxBlockedSenders <Integer>
+```powershell
+Set-Mailbox <MailboxIdentity> -MaxSafeSenders <Integer> -MaxBlockedSenders <Integer>
+```
 
 In diesem Beispiel wird für das Postfach "john@contoso.com" ein Maximum von 2.000 sicheren Absendern und 200 blockierten Absendern konfiguriert.
 
@@ -61,7 +63,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Grenzwerten für die
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-Mailbox <Identity> | Format-List Name,Max*Senders
+    ```powershell
+    Get-Mailbox <Identity> | Format-List Name,Max*Senders
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 
@@ -86,14 +90,14 @@ Führen Sie die folgenden Schritte aus, um die erfolgreiche Konfiguration der Ag
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-ContentFilterConfig | Format-List Enabled
-```
+    Get-ContentFilterConfig | Format-List Enabled
+    ```
 
 2.  Wenn die Ausgabe den Parameter *Enabled* mit dem Wert `True` zeigt, ist die Inhaltsfilterung aktiviert. Andernfalls führen Sie den folgenden Befehl aus, um die Inhaltsfilterung und den Inhaltsfilter-Agent auf dem Exchange-Server zu aktivieren:
     
     ```powershell
-Set-ContentFilterConfig -Enabled $true
-```
+    Set-ContentFilterConfig -Enabled $true
+    ```
 
 ## Schritt 2: (Optional) Überprüfen der Replikation der Daten zur Aggregation von Listen sicherer Adressen auf die Edge-Transport-Server mithilfe von ADSI Edit
 

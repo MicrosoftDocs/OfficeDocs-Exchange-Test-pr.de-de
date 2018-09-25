@@ -50,18 +50,20 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
 ## Verwenden von Setup /m:RecoverServer zur Wiederherstellung eines Servers
 
 1.  Abrufen von Wiedergabeverzögerungs- oder Abschneideverzögerungseinstellungen für Postfachdatenbankkopien auf dem wiederhergestellten Server mithilfe des Cmdlets [Get-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb124924\(v=exchg.150\)):
-    
+    ```powershell
         Get-MailboxDatabase DB1 | Format-List *lag*
-
-2.  Entfernen von Postfachdatenbankkopien auf dem wiederhergestellten Server mithilfe des Cmdlets [Remove-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd335119\(v=exchg.150\)):
+    ```
     
+2.  Entfernen von Postfachdatenbankkopien auf dem wiederhergestellten Server mithilfe des Cmdlets [Remove-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd335119\(v=exchg.150\)):
+    ```powershell
         Remove-MailboxDatabaseCopy DB1\MBX1
-
+    ```
+    
 3.  Entfernen der Konfiguration des fehlerhaften Servers aus der DAG mithilfe des Cmdlets [Remove-DatabaseAvailabilityGroupServer](https://technet.microsoft.com/de-de/library/dd297956\(v=exchg.150\)):
     
     ```powershell
-Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
-```
+    Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+    ```
     
 
     > [!NOTE]
@@ -74,37 +76,36 @@ Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
 5.  Öffnen Sie ein Eingabeaufforderungsfenster. Führen Sie unter Verwendung der ursprünglichen Setupmedien den folgenden Befehl aus:
     
     ```powershell
-Setup /m:RecoverServer
-```
+    Setup /m:RecoverServer
+    ```
 
 6.  Verwenden Sie nach Abschluss des Setupwiederherstellungsvorgangs das Cmdlet [Add-DatabaseAvailabilityGroupServer](https://technet.microsoft.com/de-de/library/dd298049\(v=exchg.150\)), um den wiederhergestellten Server der DAG hinzuzufügen:
     
     ```powershell
-Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
-```
+    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+    ```
 
 7.  Nachdem der Server der DAG wieder hinzugefügt wurde, können Sie die Postfachdatenbankkopien mithilfe des Cmdlets [Add-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd298105\(v=exchg.150\)) neu konfigurieren. Wenn zuvor hinzugefügte Datenbankkopien über eine Wiedergabe- oder Abschneideverzögerung von mehr als 0 verfügten, können Sie diese Einstellungen mithilfe der Parameter *ReplayLagTime* und *TruncationLagTime* des Cmdlets [Add-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd298105\(v=exchg.150\)) neu konfigurieren:
     
+    ```powershell
         Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX1
         Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX1 -ReplayLagTime 3.00:00:00
         Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX1 -ReplayLagTime 3.00:00:00 -TruncationLagTime 3.00:00:00
-
+    ```
+    
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Gehen Sie wie folgt vor, um sich zu vergewissern, dass Sie das DAG-Mitglied erfolgreich wiederhergestellt haben:
 
   - Führen Sie in der Shell folgenden Befehl aus, um die Integrität und den Status des wiederhergestellten DAG-Mitglieds zu überprüfen:
     
-    ```
+    
     ```powershell
-Test-ReplicationHealth <ServerName>
-```
+    Test-ReplicationHealth <ServerName>
     ```
     
-    ```
     ```powershell
-Get-MailboxDatabaseCopyStatus -Server <ServerName>
-```
+    Get-MailboxDatabaseCopyStatus -Server <ServerName>
     ```
     
     <p>Sämtliche Statustests für die Replikation müssen erfolgreich ausgeführt werden, und die Statusangaben der Datenbanken und ihrer Inhaltsindizes müssen fehlerfrei sein.</p>

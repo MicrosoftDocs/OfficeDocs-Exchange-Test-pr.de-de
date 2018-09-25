@@ -79,7 +79,9 @@ Get-Mailbox -OrganizationalUnit Sales | Set-Mailbox CustomAttribute1 "SalesOU"
 
 Nun können Sie eine E-Mail-Adressrichtlinie für alle Empfänger erstellen, deren Eigenschaft *CustomAttribute1* den Wert "SalesOU" hat, wie in diesem Beispiel dargestellt.
 
+```powershell
     New-EmailAddressPolicy -Name "Sales" -RecipientFilter { CustomAttribute1 -eq "SalesOU"} -EnabledEmailAddressTemplates "SMTP:%s%2g@sales.contoso.com"
+```
 
 ## Beispiel für benutzerdefiniertes Attribut mit dem Parameter "ConditionalCustomAttributes"
 
@@ -87,7 +89,9 @@ Sie müssen beim Erstellen von dynamischen Verteilergruppen, E-Mail-Adressrichtl
 
 In diesem Beispiel wird eine dynamische Verteilergruppe basierend auf den Empfängern erstellt, deren *CustomAttribute1* auf "SalesOU" festgelegt ist.
 
+```powershell
     New-DynamicDistributionGroup -Name "Sales Users and Contacts" -IncludedRecipients "MailboxUsers,MailContacts" -ConditionalCustomAttribute1 "SalesOU"
+```
 
 
 > [!NOTE]
@@ -105,7 +109,9 @@ Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 MATH307,ECON202,ENGL300
 
 Anschließend wird eine dynamische Verteilergruppe für alle Studierenden des Kurses MATH307 erstellt. Hierbei wird der Parameter *RecipientFilter* verwendet, dessen *ExtensionCustomAttribute1* "MATH307" lautet. In den Parametern für *ExtentionCustomAttributes* können Sie den Operator `-eq` anstelle des Operators `-like` verwenden.
 
+```powershell
     New-DynamicDistributionGroup -Name Students_MATH307 -RecipientFilter {ExtensionCustomAttribute1 -eq "MATH307"}
+```
 
 In diesem Beispiel werden die *ExtensionCustomAttribute1*-Werte für Kewku aktualisiert, um anzuzeigen, dass er den Kurs ENGL210 hinzugefügt und den Kurs "ECON202" abgewählt hat.
 

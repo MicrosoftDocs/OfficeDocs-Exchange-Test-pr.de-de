@@ -12,7 +12,6 @@ ms.translationtype: MT
 # Ermöglichen oder verhindern, dass die Anrufbeantwortung auf einem Postfachserver
 
  
-
 _**Gilt für:** Exchange Server 2013, Exchange Server 2016_
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-18_
@@ -24,7 +23,7 @@ Für einen Postfachserver Wartungsmodus konfigurieren, können Sie den Server au
 In Exchange 2007 und Exchange 2010 gab es ein Statusparameter, der zum Steuern der Betriebsstatus des Unified Messaging-Servers verwendet werden konnte. In Exchange 2013 ist kein Statusparameter für diesen Zweck im **Set-UMService** -Cmdlet für einen Postfachserver verfügbar.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Sie müssen Clientzugriffsserver und Postfachserver nur dann zum Verarbeiten von UM-Anrufen einem UM-Wählplan hinzufügen, wenn Sie UM mit Microsoft Office Communications Server 2007 R2 oder Microsoft Lync Server integrieren. Standardmäßig stehen alle Clientzugriffs- und Postfachserver zum Beantworten eingehender Anrufe zur Verfügung.
 
 
@@ -46,7 +45,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Postfachserver finden
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -55,9 +54,12 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Postfachserver finden
 
 In diesem Beispiel wird ein Postfach Server `UMMBXr-05x.contoso.com` Beantworten eingehender Sprach-, Fax-, automatische Telefonzentrale aktiviert, und Outlook Voice Access Aufrufe von VoIP-Gateways, IP-PBX-Anlagen, SIP-aktivierte Nebenstellenanlagen und SBCs, und schreibt die Änderung der Registrierung auf die UMMBX-05 x Server.
 
-    Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```powershell
+Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```
 
 In diesem Beispiel wird verhindert, dass ein Postfach Server `UMMBX-05x.contoso.com` aus antwortenden eingehende Sprach-, Fax-, automatische Telefonzentrale und Outlook Voice Access-Anrufe von VoIP-Gateways, IP-PBX-Anlagen, SIP-aktivierte Nebenstellenanlagen und SBCs, und schreibt die Änderung nur in Active Directory.
 
-    Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
-
+```powershell
+Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
+```

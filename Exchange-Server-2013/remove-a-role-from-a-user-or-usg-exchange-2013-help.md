@@ -53,9 +53,13 @@ Remove-ManagementRoleAssignment "Tier 2 Help Desk Assignment"
 
 Wenn Sie den Namen der Rollenzuweisung nicht kennen, können Sie die folgende Syntax verwenden.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <user or USG> -Role <role name> -Delegating <$true | $false> | Remove-ManagementRoleAssignment 
+```
 
 Um beispielsweise die reguläre Rollenzuweisung "Mail Recipients" von dem Benutzer "davids" zu entfernen, verwenden Sie den folgenden Befehl.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee davids -Role "Mail Recipients" -Delegating $false | Remove-ManagementRoleAssignment
+```
 

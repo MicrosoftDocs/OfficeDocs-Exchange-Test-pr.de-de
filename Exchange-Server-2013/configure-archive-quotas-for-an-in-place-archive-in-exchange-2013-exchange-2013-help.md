@@ -75,5 +75,7 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Aktivierung ei
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Kontingentinformationen zum neuen Archiv anzuzeigen.
     
+    ```powershell
         Get-Mailbox <Name> | FL Name,Archive*Quota
-
+    ```
+    

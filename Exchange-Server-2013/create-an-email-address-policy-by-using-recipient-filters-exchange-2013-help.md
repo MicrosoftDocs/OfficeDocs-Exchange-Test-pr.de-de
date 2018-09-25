@@ -55,7 +55,9 @@ New-EmailAddressPolicy -Name <String> -RecipientFilter <String>
 
 In diesem Beispiel wird eine E-Mail-Adressrichtlinie erstellt, die für alle Führungskräfte gilt und bei der der lokale Teil der E-Mail-Adresse aus den ersten beiden Buchstaben des Vornamens und dem vollständigen Nachnamen besteht.
 
+```powershell
     New-EmailAddressPolicy -Name 'Execs' -EnabledEmailAddressTemplates 'SMTP:%2g%s@contoso.com' -RecipientFilter {((RecipientType -eq 'UserMailbox') -and (Title -like 'executive'))}
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-EmailAddressPolicy](https://technet.microsoft.com/de-de/library/aa996800\(v=exchg.150\)).
 

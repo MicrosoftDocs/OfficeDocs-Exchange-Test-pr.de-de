@@ -257,7 +257,9 @@ Weitere Informationen zum Verwalten der Rollengruppenmitgliedschaft finden Sie u
 
 Wie bereits erwähnt, besteht eine Rollengruppe aus mehreren Ebenen. Das Erstellen einer neuen Rollengruppe wird im folgenden Beispiel veranschaulicht.
 
+```powershell
     New-RoleGroup -Name "Seattle Recipient Management" -Roles "Mail Recipients", "Distribution Groups", "Move Mailboxes", "UM Mailboxes" -CustomRecipientWriteScope "Seattle Users", -ManagedBy "Brian", "David", "Katie" -Members "Ray", "Jenn", "Maria", "Chris", "Maija", "Carter", "Jenny", "Sam", "Lukas", "Isabel", "Katie"
+```
 
 Wenn der obige Befehl ausgeführt wird, geschieht Folgendes:
 

@@ -61,17 +61,21 @@ Während der Erstellung erhält die DAG einen eindeutigen Namen und ihr wird min
 
 In diesem Beispiel wird gezeigt, wie über die Shell eine DAG mit Cluster-Administratorzugriffspunkt erstellt werden kann, die drei Server hat. Zwei der Server (EX1 und EX2) befinden sich im selben Subnetz (10.0.0.0), der dritte Server (EX3) befindet sich in einem anderen Subnetz (192.168.0.0).
 
+```powershell
     New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer EX4 -DatabaseAvailabilityGroupIPAddresses 10.0.0.5,192.168.0.5
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX1
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX2
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX3
+```
 
 Die Befehle, um eine DAG ohne Cluster-Administratorzugriffspunkt zu erstellen, sind ähnlich:
 
+```powershell
     New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer EX4 -DatabaseAvailabilityGroupIPAddresses ([System.Net.IPAddress])::None
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX1
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX2
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX3
+```
 
 Der Cluster für DAG1 wird erstellt, wenn EX1 der DAG hinzugefügt wird. Während der Clustererstellung ruft das Cmdlet **Add-DatabaseAvailabilityGroupServer** die für die DAG konfigurierten IP-Adressen ab und ignoriert dabei alle Adressen, die nicht mit einem der Subnetze auf EX1 übereinstimmen. Im ersten Beispiel wird der Cluster für DAG1 mit der IP-Adresse 10.0.0.5 erstellt, die Adresse 192.168.0.5 wird ignoriert. Im zweiten Beispiel oben weist der Wert des *DatabaseAvailabilityGroupIPAddresses*-Parameters die Aufgabe an, ein Failovercluster für die DAG zu erstellen, die keinen Administratorzugriffspunkt hat. Daher wird der Cluster mit einer IP-Adresse oder Netzwerknamensressource in der Cluster-Hauptressourcengruppe erstellt.
 

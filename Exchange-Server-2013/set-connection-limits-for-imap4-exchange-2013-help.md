@@ -112,8 +112,8 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Festlegung von
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
     ```powershell
-Get-ImapSettings | format-list
-```
+    Get-ImapSettings | format-list
+    ```
 
 2.  Prüfen Sie, ob die Verbindungslimits ordnungsgemäß sind.
 

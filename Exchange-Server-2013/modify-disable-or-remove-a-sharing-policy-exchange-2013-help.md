@@ -32,7 +32,7 @@ Informationen zum Erstellen einer Freigaberichtlinie finden Sie unter [Erstellen
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 
@@ -72,10 +72,8 @@ Informationen zum Erstellen einer Freigaberichtlinie finden Sie unter [Erstellen
 ## Entfernen einer Freigaberichtlinie mithilfe der Exchange-Verwaltungskonsole
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Bevor Sie eine Freigaberichtlinie entfernen, muss sie aus allen Benutzerpostfächern entfernt werden.
-
-
 
 1.  Navigieren Sie zu **Organisation** \> **Freigabe**.
 
@@ -88,38 +86,35 @@ Informationen zum Erstellen einer Freigaberichtlinie finden Sie unter [Erstellen
   - In diesem Beispiel wird die Freigaberichtlinie "Contoso" für die Domäne "contoso.com" geändert, die sich außerhalb der Organisation befindet. Mithilfe dieser Richtlinie können Benutzer in der Domäne "Contoso" nur Frei/Gebucht-Informationen anzeigen.
     
     ```powershell
-Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
-```
+    Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+    ```
 
   - In diesem Beispiel wird der Freigaberichtlinie "Contoso" eine zweite Domäne hinzugefügt. Wenn Sie einer vorhandenen Richtlinie eine Domäne hinzufügen, müssen Sie sämtliche zuvor eingeschlossenen Domänen auch einschließen.
     
-        Set-SharingPolicy -Identity Contoso -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'atlanta.contoso.com: CalendarSharingFreeBusyReviewer', 'beijing.contoso.com: CalendarSharingFreeBusyReviewer'
+      ```powershell
+      Set-SharingPolicy -Identity Contoso -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'atlanta.contoso.com: CalendarSharingFreeBusyReviewer', 'beijing.contoso.com: CalendarSharingFreeBusyReviewer'
+      ```
 
   - In diesem Beispiel wird die Freigaberichtlinie "Contoso" als Standardfreigaberichtlinie festgelegt.
     
     ```powershell
-Set-SharingPolicy -Identity Contoso -Default $True
-```
+    Set-SharingPolicy -Identity Contoso -Default $True
+    ```
 
   - In diesem Beispiel wird die Freigaberichtlinie "Contoso" deaktiviert.
     
     ```powershell
-Set-SharingPolicy -Identity "Contoso" -Enabled $False
-```
+    Set-SharingPolicy -Identity "Contoso" -Enabled $False
+    ```
 
   - Im ersten Beispiel wird die Freigaberichtlinie "Contoso" entfernt. Im zweiten Beispiel wird die Freigaberichtlinie "Contoso" entfernt und die Bestätigung unterdrückt, dass die Richtlinie wirklich entfernt werden soll.
     
-```
-```powershell
-Remove-SharingPolicy -Identity Contoso
-```
-```
+    ```powershell
+    Remove-SharingPolicy -Identity Contoso
+    ```
 
-```
-```powershell
-Remove-SharingPolicy -Identity Contoso -Confirm
-```
-```
+    ```powershell
+    Remove-SharingPolicy -Identity Contoso -Confirm
+    ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-SharingPolicy](https://technet.microsoft.com/de-de/library/dd297931\(v=exchg.150\)) und [Remove-SharingPolicy](https://technet.microsoft.com/de-de/library/dd351071\(v=exchg.150\)).
-

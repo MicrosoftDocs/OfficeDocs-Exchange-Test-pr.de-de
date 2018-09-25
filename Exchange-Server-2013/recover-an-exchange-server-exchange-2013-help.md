@@ -75,8 +75,8 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit d
 6.  Navigieren Sie zu den Installationsdateien von Exchange 2013, und führen Sie den folgenden Befehl aus:
     
     ```powershell
-Setup /m:RecoverServer /IAcceptExchangeServerLicenseTerms
-```
+    Setup /m:RecoverServer /IAcceptExchangeServerLicenseTerms
+    ```
 
 7.  Nach Abschluss des Setupprogramms, jedoch bevor der wiederhergestellte Server in der Produktionsumgebung in Betrieb genommen wird, müssen Sie erneut alle benutzerdefinierten Einstellungen konfigurieren, die zuvor auf dem Server konfiguriert waren. Starten Sie anschließend den Server neu.
 

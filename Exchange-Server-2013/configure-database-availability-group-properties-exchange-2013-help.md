@@ -75,11 +75,15 @@ Sie können die Exchange-Verwaltungskonsole oder die Shell verwenden, um die Eig
 
 In diesem Beispiel wird das Zeugenverzeichnis für die DAG "DAG1" auf "C:\\DAG1DIR" festgelegt.
 
+```powershell
     Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessDirectory C:\DAG1DIR
+```
 
 In diesem Beispiel werden der alternative Zeugenserver "CAS3" und das alternative Zeugenverzeichnis "C:\\DAGFileShareWitnesses\\DAG1.contoso.com" für die DAG "DAG1" vorkonfiguriert.
 
+```powershell
     Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory C:\DAGFileShareWitnesses\DAG1.contoso.com -AlternateWitnessServer CAS3
+```
 
 In diesem Beispiel wird die DAG "DAG1" zur Verwendung von Dynamic Host Configuration-Protokoll (DHCP) zum Abrufen einer IP-Adresse konfiguriert.
 
@@ -124,8 +128,8 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass die Konfiguration der DAG erfo
   - Führen Sie in der Shell den folgenden Befehl aus, um die DAG-Konfigurationseinstellungen anzuzeigen und sicherzustellen, dass die DAG erfolgreich konfiguriert wurde.
     
     ```powershell
-Get-DatabaseAvailabilityGroup <DAGName> | Format-List
-```
+    Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```
 
 ## Weitere Informationen
 

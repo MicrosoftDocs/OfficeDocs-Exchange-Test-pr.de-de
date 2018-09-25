@@ -268,15 +268,21 @@ Sie können das Cmdlet **Get-AgentLog** und das Skript **Get-AntiSpamFilteringRe
 
 Das Skript **Get-AntiSpamFilteringReport.ps1** befindet sich in `%ExchangeInstallPath%Scripts`. Sie müssen das Skript im Ordner **Scripts** in der Shell ausführen. Führen Sie den folgenden Befehl aus, um den Speicherort der Shell in den Ordner **Scripts** zu ändern.
 
+```powershell
     Cd $env:ExchangeInstallPath\Scripts
+```
 
 Um das Skript im Ordner **Scripts** auszuführen, verwenden Sie folgende Syntax:
 
+```powershell
     .\Get-AntiSpamFilteringReport.ps1 -report <ReportValue> [<OptionalParameters>]
+```
 
 Führen Sie den folgenden Befehl aus, um Einzelheiten zum Verwenden des Skripts zu erfahren:
 
+```powershell
     Get-Help -Detailed .\Get-AntiSpamFilteringReport.ps1
+```
 
 Zurück zum Seitenanfang
 

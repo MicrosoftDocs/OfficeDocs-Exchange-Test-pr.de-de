@@ -41,15 +41,21 @@ Microsoft Exchange Server 2013-Administratoren können manuell das Antischadsof
 
 Um Modul-und Definitionsupdates herunterzuladen, führen Sie folgenden Befehl aus:
 
+```powershell
     & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity <FQDN of server>
+```
 
 In diesem Beispiel werden die Modul-und Definitionsupdates manuell auf einen Server mit dem Namen "mailbox01.contoso.com" heruntergeladen:
 
+```powershell
     & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity mailbox01.contoso.com
+```
 
 Optional können Sie den Parameter "–EngineUpdatePath" angeben, mit dem Sie Updates von einem anderen Speicherort als dem standardmäßigen http://forefrontdl.microsoft.com/server/scanengineupdate herunterladen können. Dabei kann es sich um eine HTTP-Adresse oder einen UNC-Pfad handeln. Bei letzterem benötigt der Netzwerkdienst Zugriff auf den Pfad. In diesem Beispiel werden die Modul-und Definitionsupdates aus einem lokalen Verzeichnis auf einen Server mit dem Namen "mailbox01.contoso.com" heruntergeladen:
 
+```powershell
     & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity mailbox01.contoso.com -EngineUpdatePath \\Server\sharename
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

@@ -93,5 +93,6 @@ Zur Sicherstellung, dass Sie die Postfachüberwachungsprotokollierung für ein P
 
 In diesem Beispiel werden die Postfacheinstellungen von Ben Smith abgerufen, und die angegebenen Überwachungseinstellungen einschließlich des Höchstalters werden an das Cmdlet **Format-List** übergeben.
 
+```powershell
     Get-Mailbox "Ben Smith" | Format-List *audit*
-
+```

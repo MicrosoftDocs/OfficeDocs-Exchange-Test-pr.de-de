@@ -369,13 +369,17 @@ Das Skript unterstützt Parameter, mit denen Sie das Verhalten und die Ausgabe d
 
 Im folgenden Beispiel werden Metriken für alle Datenbanken erfasst, die "DB\*" (mit Platzhalterzeichen) in der Datenbankverfügbarkeitsgruppe "DAG1" entsprechen. Nachdem die Metriken erfasst wurden, wird ein HTML-Bericht generiert und angezeigt.
 
+```powershell
     CollectOverMetrics.ps1 -DatabaseAvailabilityGroup DAG1 -Database:"DB*" -GenerateHTMLReport -ShowHTMLReport
+```
 
 Die folgenden Beispiele veranschaulichen Möglichkeiten zum Filtern des HTML-Zusammenfassungsberichts. Im ersten wird der Parameter *Database* genutzt, der eine Liste mit Datenbanken verwendet. Der Zusammenfassungsbericht enthält anschließend nur Daten zu diesen Datenbanken. In den folgenden beiden Beispielen wird der Parameter *ReportFilter* verwendet. Im letzten Beispiel werden alle Standarddatenbanken herausgefiltert.
 
+```powershell
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -Database MailboxDatabase123,MailboxDatabase456
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { $_.DatabaseName -notlike "Mailbox Database*" }
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { ($_.ActiveOnStart -like "ServerXYZ*") -and ($_.ActiveOnEnd -notlike "ServerXYZ*") }
+```
 
 ## Skript "CollectReplicationMetrics.ps1"
 
@@ -462,5 +466,7 @@ CollectReplicationMetrics.ps1 -DagName DAG1 -Duration "01:00:00" -Frequency "00:
 
 Im folgenden Beispiel werden Daten aus allen mit "CounterData\*" übereinstimmenden Dateien gelesen und in einem Zusammenfassungsbericht ausgegeben.
 
+```powershell
     CollectReplicationMetrics.ps1 -SummariseFiles (dir CounterData*) -Mode ProcessOnly -ReportPath
+```
 

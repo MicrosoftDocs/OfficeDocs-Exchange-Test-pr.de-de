@@ -110,29 +110,32 @@ Sie können die standardmäßige Freigaberichtlinie bearbeiten, um zu ermöglich
   - In diesem Beispiel wird die Freigaberichtlinie "Contoso" für die externe Verbunddomäne "contoso.com" erstellt. Mithilfe dieser Richtlinie können Benutzer in der Domäne "contoso.com" ausführliche Verfügbarkeitsinformationen aus Kalendern (Frei/Gebucht-Informationen) Ihrer Benutzer anzeigen. Diese Richtlinie ist standardmäßig aktiviert.
     
     ```powershell
-New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
-```
+    New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+    ```
 
   - In diesem Beispiel wird die Freigaberichtlinie "ContosoWoodgrove" für zwei verschiedene Verbunddomänen ("contoso.com" und "woodgrovebank.com") mit unterschiedlichen Freigabeaktionen für jede Domäne konfiguriert. Die Richtlinie wird deaktiviert.
     
+    ```powershell
         New-SharingPolicy -Name "ContosoWoodgrove" -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'woodgrovebank.com: CalendarSharingFreeBusyDetail -Enabled $false
-
+    ```
+    
   - In diesem Beispiel wird die Freigaberichtlinie "Anonymous" für eine Exchange-Organisation mit dem Clientzugriffsserver "CAS01" und dem Postfachserver "MAIL01" mit der für eingeschränkte Verfügbarkeitsinformationen aus Kalendern konfigurierten Freigabeaktion erstellt. Diese Richtlinie ermöglicht es Benutzern in Ihrer Exchange-Organisation, Benutzer mit Internetzugriff zum Anzeigen ihrer Kalenderverfügbarkeitsinformationen einzuladen, indem sie diesen Benutzern einen Link senden. Die Richtlinie wird aktiviert.
     
     1.  Festlegen der Webproxy-URL für "MAIL01".
         
         ```powershell
-Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
-```
+        Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+        ```
     
     2.  Aktivieren des virtuellen Verzeichnisses für die Veröffentlichung auf "CAS01".
-        
+        ```powershell
             Set-OwaVirtualDirectory -Identity "CAS01" -ExternalURL "<URL for CAS01>" -CalendarPublishingEnabled $true
-    
+        ```
     3.  Erstellen der Freigaberichtlinie "Anonymous" und Konfigurieren der eingeschränkten Freigabe von Kalenderinformationen.
-        
+        ```powershell
             New-SharingPolicy -Name "Anonymous" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
-
+        ```
+        
 Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden Themen:
 
   - [New-SharingPolicy](https://technet.microsoft.com/de-de/library/dd298186\(v=exchg.150\))

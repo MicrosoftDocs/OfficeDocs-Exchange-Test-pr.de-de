@@ -59,23 +59,28 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Manag
 
 Verwenden Sie die folgende Syntax, um eine Liste aller Rolleneinträge für eine bestimmte Rolle anzuzeigen.
 
+```powershell
     Get-ManagementRoleEntry <role name>\*
+```
 
 In diesem Beispiel werden alle Rolleneinträge für die Rolle `Recipient Administrators` abgerufen.
-
+```powershell
     Get-ManagementRole "Recipient Administrators\*"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRoleEntry](https://technet.microsoft.com/de-de/library/dd335210\(v=exchg.150\)).
 
 ## Anzeigen einer Liste mit Rollen, die einen bestimmten Rolleneintrag enthalten
 
 Verwenden Sie die folgende Syntax, um eine Liste aller Rollen anzuzeigen, die einen bestimmen Rolleneintrag enthalten.
-
+```powershell
     Get-ManagementRoleEntry *\<cmdlet name>
+```
 
 In diesem Beispiel werden alle Rollen mit dem Rolleneintrag **Set-Mailbox** abgerufen.
-
+```powershell
     Get-ManagementRoleEntry *\Set-Mailbox
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRoleEntry](https://technet.microsoft.com/de-de/library/dd335210\(v=exchg.150\)).
 
@@ -83,11 +88,15 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Manag
 
 Verwenden Sie die folgende Syntax, um eine Liste mit Rollen anzuzeigen, die Cmdlets mit ähnlichen Namen enthalten.
 
+```powershell
     Get-ManagementRoleEntry *<partial role name>*\*<partial cmdlet name>*
+```
 
 In diesem Beispiel wird eine Liste mit Rolleneinträgen mit der Zeichenfolge `Mailbox` zurückgegeben, die Rollen mit der Zeichenfolge `Tier 1` zugeordnet sind.
 
+```powershell
     Get-ManagementRoleEntry "*Tier 1*\*Mailbox*"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRoleEntry](https://technet.microsoft.com/de-de/library/dd335210\(v=exchg.150\)).
 
@@ -95,11 +104,15 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Manag
 
 Verwenden Sie die folgende Syntax, um die Details eines einzelnen Rolleneintrags anzuzeigen.
 
+```powershell
     Get-ManagementRoleEntry <role name>\<cmdlet name> | Format-List
+```
 
 In diesem Beispiel werden die Details des Rolleneintrags **Set-Mailbox** für die Rolle `Recipient Administrators` abgerufen.
 
+```powershell
     Get-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" | Format-List
+```
 
 Wenn der anzuzeigende Rolleneintrag mehr Parameter umfasst, als mit dem Cmdlet **Format-List** angezeigt werden können, finden Sie unter "Anzeigen der Parameter für einen einzelnen Rolleneintrag" weiter unten in diesem Thema zusätzliche Informationen.
 
@@ -111,11 +124,15 @@ Einige Rolleneinträge verfügen über eine größere Anzahl von Parametern, als
 
 Verwenden Sie die folgende Syntax, um die in der Eigenschaft **Parameters** eines Rolleneintragobjekts gespeicherten Parameter anzuzeigen.
 
+```powershell
     (Get-ManagementRoleEntry <role name>\<cmdlet name>).Parameters
+```
 
 In diesem Beispiel werden die Parameter für den Rolleneintrag **Set-Mailbox** der Rolle "Mail Recipients" abgerufen.
 
+```powershell
     (Get-ManagementRoleEntry "Mail Recipients\Set-Mailbox").Parameters
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRoleEntry](https://technet.microsoft.com/de-de/library/dd335210\(v=exchg.150\)).
 

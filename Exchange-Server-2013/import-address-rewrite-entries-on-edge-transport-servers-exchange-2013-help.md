@@ -116,20 +116,26 @@ Wenn Sie die CSV-Datei erstellen, berücksichtigen Sie Folgendes:
 
 Im folgenden Beispiel wird dargestellt, wie eine CSV-Datei mit den optionalen Parametern *ExceptionList* und *OutboundOnly* mit Werten aufgefüllt werden kann:
 
+```powershell
     Name,InternalAddress,ExternalAddress,ExceptionList,OutboundOnly
     "Wingtip UK",*.wingtiptoys.co.uk,tailspintoys.com,"legal.wingtiptoys.co.uk,finance.wingtiptoys.co.uk,support.wingtiptoys.co.uk",True
     "Wingtip USA",*.wingtiptoys.com,tailspintoys.com,"legal.wingtiptoys.com,finance.wingtiptoys.com,support.wingtiptoys.com,corp.wingtiptoys.com",True
     "Wingtip Canada",*.wingtiptoys.ca,tailspintoys.com,"legal.wingtiptoys.ca,finance.wingtiptoys.ca,support.wingtiptoys.ca",True
+```
 
 ## Schritt 2: Importieren Sie die CSV-Datei.
 
 Verwenden Sie die folgende Syntax, um die CSV-Datei zu importieren:
 
+```powershell
     Import-Csv <FileNameAndPath> | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
+```
 
 Dieses Beispiel importiert die Einträge für die Adressenumschreibung von C:\\Eigene Dateien\\ImportAddressRewriteEntries.csv.
 
+```powershell
     Import-Csv "C:\My Documents\ImportAddressRewriteEntries.csv" | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 

@@ -53,7 +53,9 @@ Get-TransportPipeline | Format-List
 
 Führen Sie den folgenden Befehl aus, um die Ergebnisse in die Textdatei "C:\\My Documents\\Transport Agents.txt" zu exportieren:
 
+```powershell
     Get-TransportPipeline | Format-List > "C:\My Documents\Transport Agents.txt"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

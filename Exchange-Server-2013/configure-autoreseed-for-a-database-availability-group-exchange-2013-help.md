@@ -53,17 +53,23 @@ Der erste Schritt umfasst das Konfigurieren der Stammverzeichnisse für die Date
 
 In diesem Beispiel wird die Konfiguration des Stammpfads für die Datenbanken veranschaulicht.
 
+```powershell
     Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabasesRootFolderPath "C:\ExchDbs"
+```
 
 In diesem Beispiel wird die Konfiguration des Stammpfads für die Speichervolumes veranschaulicht.
 
+```powershell
     Set-DatabaseAvailabilityGroup DAG1 -AutoDagVolumesRootFolderPath "C:\ExchVols"
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 
 Führen Sie den folgenden Befehl aus, um die erfolgreiche Konfiguration der Stammpfade für Datenbanken und Volumes zu überprüfen:
 
+```powershell
     Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+```
 
 Die Ausgabe von *AutoDagDatabasesRootFolderPath* und *AutoDagVolumesRootFolderPath* sollte die konfigurierten Pfade zeigen.
 
@@ -81,7 +87,9 @@ Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabaseCopiesPerVolume 4
 
 Führen Sie den folgenden Befehl aus, um die erfolgreiche Konfiguration der Anzahl von Datenbanken pro Volume zu überprüfen:
 
+```powershell
     Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+```
 
 Die Ausgabe für *AutoDagDatabaseCopiesPerVolume* sollte den konfigurierten Wert zeigen.
 
@@ -89,14 +97,18 @@ Die Ausgabe für *AutoDagDatabaseCopiesPerVolume* sollte den konfigurierten Wert
 
 Als Nächstes erstellen Sie die Verzeichnisse, die den in Schritt 1 konfigurierten Stammverzeichnissen entsprechen. Im folgenden Beispiel wird gezeigt, wie Sie die Standardverzeichnisse mithilfe der Eingabeaufforderung erstellen.
 
+```powershell
     md C:\ExchangeDatabases
     md C:\ExchangeVolumes
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 
 Führen Sie den folgenden Befehl aus, um die erfolgreiche Konfiguration der Stammverzeichnisse für Datenbanken und Volumes zu überprüfen:
 
+```powershell
     Dir C:\
+```
 
 Die erstellten Verzeichnisse werden in der Ausgabeliste angezeigt.
 
@@ -116,7 +128,9 @@ Als Namen für die bereitgestellten Ordner kann jeder beliebige Name verwendet w
 
 Führen Sie den folgenden Befehl aus, um die erfolgreiche Bereitstellung der Volumeordner zu überprüfen:
 
+```powershell
     Dir C:\
+```
 
 Die bereitgestellten Volumes sollten in der Ausgabeliste angezeigt werden.
 
@@ -124,19 +138,19 @@ Die bereitgestellten Volumes sollten in der Ausgabeliste angezeigt werden.
 
 Im nächsten Schritt erstellen Sie die Datenbankverzeichnisse unterhalb des Stammpfads "C:\\ExchangeDatabases". Mit diesem Beispiel wird veranschaulicht, wie in jedem Datenträger Verzeichnisse für eine Speicherkonfiguration mit vier Datenbanken erstellt werden können.
 
-```
+```powershell
     md c:\ExchangeDatabases\db001
 ```
 
-```
+```powershell
     md c:\ExchangeDatabases\db002
 ```
 
-```
+```powershell
     md c:\ExchangeDatabases\db003
 ```
 
-```
+```powershell
     md c:\ExchangeDatabases\db004
 ```
 
@@ -144,7 +158,9 @@ Im nächsten Schritt erstellen Sie die Datenbankverzeichnisse unterhalb des Stam
 
 Führen Sie den folgenden Befehl aus, um die erfolgreiche Bereitstellung der Datenbankordner zu überprüfen:
 
+```powershell
     Dir C:\ExchangeDatabases
+```
 
 Die erstellten Verzeichnisse werden in der Ausgabeliste angezeigt.
 
@@ -152,13 +168,17 @@ Die erstellten Verzeichnisse werden in der Ausgabeliste angezeigt.
 
 Erstellen Sie die Bereitstellungspunkte für jede Datenbank, und verknüpften Sie den Bereitstellungspunkt mit dem richtigen Volume. Beispielsweise sollte sich der bereitgestellte Ordner für "db001" im Verzeichnis "C:\\ExchangeDatabases\\db001" befinden. Sie können zur Ausführung dieser Aufgabe "diskmgmt.msc" oder "mountvol.exe" verwenden. In diesem Beispiel wird veranschaulicht, wie "db001" mithilfe von "mountvol.exe" in "C:\\ExchangeDatabases\\db001" bereitgestellt wird.
 
+```powershell
     Mountvol.exe c:\ExchangeDatabases\db001 \\?\Volume (GUID)
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 
 Führen Sie den folgenden Befehl aus, um die erfolgreiche Erstellung der Bereitstellungspunkte für die Datenbank zu überprüfen:
 
+```powershell
     Mountvol.exe C:\ExchangeDatabases\db001 /L
+```
 
 Das bereitgestellte Volume sollte in der Liste der Bereitstellungspunkte angezeigt werden.
 
@@ -172,35 +192,35 @@ C:\\\< *Datenbankordnername*\>\\*Datenbankname*\\\<*Datenbankname*\>.db
 
 In diesem Beispiel wird gezeigt, wie Sie Verzeichnisse für 4 Datenbanken erstellen, die auf Volume 1 gespeichert werden:
 
-```
+```powershell
     md c:\ExchangeDatabases\db001\db001.db
 ```
 
-```
+```powershell
     md c:\ExchangeDatabases\db001\db001.log
 ```
 
-```
+```powershell
     md c:\ExchangeDatabases\db002\db002.db
 ```
 
-```
+```powershell
     md c:\ExchangeDatabases\db002\db002.log
 ```
 
-```
+```powershell
     md c:\ExchangeDatabases\db003\db003.db
 ```
 
-```
+```powershell
     md c:\ExchangeDatabases\db003\db003.log
 ```
 
-```
+```powershell
     md c:\ExchangeDatabases\db004\db004.db
 ```
 
-```
+```powershell
     md c:\ExchangeDatabases\db004\db004.log
 ```
 
@@ -210,7 +230,9 @@ Führen Sie die obigen Befehle für die Datenbanken auf jedem Volume aus.
 
 Führen Sie den folgenden Befehl aus, um die erfolgreiche Erstellung der Datenbankverzeichnisstruktur zu überprüfen:
 
+```powershell
     Dir C:\ExchangeDatabases /s
+```
 
 Die erstellten Verzeichnisse werden in der Ausgabeliste angezeigt.
 
@@ -218,13 +240,17 @@ Die erstellten Verzeichnisse werden in der Ausgabeliste angezeigt.
 
 Erstellen Sie Datenbanken mit Protokoll- und Datenbankpfaden, die mit den entsprechenden Ordnern konfiguriert sind. In diesem Beispiel wird gezeigt, wie Sie eine Datenbank erstellen, die im neu erstellten Verzeichnis und in der Bereitstellungspunktstruktur gespeichert wird.
 
+```powershell
     New-MailboxDatabase -Name db001 -Server MBX1 -LogFolderPath C:\ExchangeDatabases\db001\db001.log -EdbFilePath C:\ExchangeDatabases\db001\db001.db\db001.edb
+```
 
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 
 Führen Sie den folgenden Befehl aus, um die erfolgreiche Erstellung der Datenbanken im entsprechenden Ordner zu überprüfen:
 
+```powershell
     Get-MailboxDatabase db001 | Format List *path*
+```
 
 Die zurückgegebenen Datenbankeigenschaften sollten anzeigen, dass Datenbankdatei und -protokolldateien in den obigen Ordnern gespeichert werden.
 
@@ -234,15 +260,17 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Konfiguration der AutoReseed-
 
 1.  Führen Sie den folgenden Befehl aus, um die ordnungsgemäße Konfiguration der DAG zu überprüfen:
     
+    ```powershell
         Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
-
+    ```
+    
 2.  Führen Sie den folgenden Befehl aus, um die ordnungsgemäße Konfiguration der Verzeichnisstruktur zu überprüfen (nachfolgend werden die Standardpfade angezeigt; ersetzen Sie die Pfade ggf. durch die von Ihnen verwendeten Pfade):
     
-```
-	Dir c:\ExchangeDatabases /s
-```
+    ```powershell
+        Dir c:\ExchangeDatabases /s
+    ```
 
-```
-	Dir c:\ExchangeVolumes /s
-```
+    ```powershell
+        Dir c:\ExchangeVolumes /s
+    ```
 

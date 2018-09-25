@@ -72,13 +72,13 @@ Die folgenden Beispiele beschreiben Szenarien, in denen Ihre Exchange-Organisati
 ## Erstellen einer autoritativen Domäne mithilfe der Shell
 
 Verwenden Sie folgende Syntax, um eine neue autoritative Domäne zu erstellen.
-
+```powershell
     New-AcceptedDomain -Name "<Unique Name>" -DomainName <SMTP domain> -DomainType Authoritative
-
+```
 Beispielsweise erstellen Sie eine neue autoritative Domäne namens "Fourth Coffee subsidiary" für die Domäne "fourthcoffee.com" mithilfe des folgenden Befehls:
-
+```powershell
     New-AcceptedDomain -Name "Fourth Coffee subsidiary" -DomainName fourthcoffee.com -DomainType Authoritative
-
+```
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 
 Gehen Sie folgendermaßen vor, um sicherzustellen, dass eine autoritative Domäne erfolgreich erstellt wurde:
@@ -118,13 +118,13 @@ Führen Sie die folgenden Schritte aus, um die den Empfängern zugeordnete prim�
 In der Shell verwenden Sie zwei separate Befehle: einen Befehl zum Ändern der vorhandenen E-Mail-Adressrichtlinie und einen weiteren Befehl zum Anwenden der aktualisierten E-Mail-Adressrichtlinie auf die Empfänger in Ihrer Organisation.
 
 Führen Sie den folgenden Befehl aus, um die vorhandene primäre E-Mail-Adresse zu ändern und die alte primäre E-Mail-Adresse als Proxyadresse beizubehalten:
-
+```powershell
     Set-EmailAddressPolicy <EmailAddressPolicyIdentity> -EnabledEmailAddressTemplates SMTP:<NewPrimaryEmailAddress>,smtp:<OldPrimaryEmailAddress>
-
+```
 Nehmen Sie beispielsweise an, die E-Mail-Adressrichtlinie in Ihrer Organisation verwendet das E-Mail-Adressformat *useralias*`@contoso.com`. In diesem Beispiel wird die Domäne der primären Adresse (Antwortadresse) in der E-Mail-Adressrichtlinie namens "Default Policy" in `@fourthcoffee.com` geändert und die alte primäre Antwortadresse in der Domäne `@contoso.com` als (sekundäre) Proxyadresse beibehalten.
-
+```powershell
     Set-EmailAddressPolicy "Default Policy" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com,smtp:@contoso.com
-
+```
 
 > [!NOTE]
 > Der <CODE>SMTP</CODE>-Qualifizierer in Großbuchstaben gibt die primäre Adresse (Antwortadresse) an. Der <CODE>smtp</CODE>-Qualifizierer in Kleinbuchstaben gibt eine (sekundäre) Proxyadresse an.
@@ -190,13 +190,13 @@ Führen Sie diese Schritte aus, um weitere E-Mail-Adressen zu erstellen, die als
 ## Ersetzen der vorhandenen primären E-Mail-Adresse für eine gefilterte Auswahl von Empfängern mithilfe der Shell
 
 Verwenden Sie den folgenden Befehl, um die primäre E-Mail-Adresse für eine gefilterte Auswahl von Empfängern zu ersetzen:
-
+```powershell
     New-EmailAddressPolicy -Name <Policy Name> -Priority <Integer> -IncludedRecipients <RecipientTypes> <Conditional Recipient Properties> -EnabledEmailAddressTemplates SMTP:@<NewPrimaryEmailAddress>
-
+```
 In diesem Beispiel wird eine E-Mail-Adressrichtlinie namens "Fourth Coffee Recipients" erstellt und Postfachbenutzern in der Abteilung "Fourth Coffee" zugewiesen. Ferner wird für diese E-Mail-Adressrichtlinie die höchste Priorität festgelegt, sodass die Richtlinie als Erste angewendet wird. Beachten Sie, dass die alte primäre E-Mail-Adresse für diese Empfänger nicht beibehalten wird, sodass sie unter ihrer alten primären E-Mail-Adresse keine weitere E-Mail empfangen können.
-
+```powershell
     New-EmailAddressPolicy -Name "Fourth Coffee Recipients" -Priority 1 -IncludedRecipients MailboxUsers -ConditionalDepartment "Fourth Coffee" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com
-
+```
 Führen Sie den folgenden Befehl aus, um die neue E-Mail-Adressrichtlinie auf die betreffenden Empfänger anzuwenden:
 
 ```powershell

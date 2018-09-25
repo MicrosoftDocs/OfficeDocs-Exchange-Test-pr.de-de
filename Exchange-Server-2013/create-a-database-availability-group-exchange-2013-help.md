@@ -44,7 +44,7 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
       - Sie können einen Namen für die DAG angeben, das Feld **Zeugenserver** leer lassen und das Verzeichnis angeben, das Sie auf dem Zeugenserver erstellen und freigeben möchten. In diesem Szenario sucht der Assistent nach einem Clientzugriffsserver, auf dem die Postfachserverrolle nicht installiert ist, und erstellt automatisch das angegebene Zeugenverzeichnis auf diesem Server. Er gibt das Verzeichnis frei und konfiguriert die DAG für die Verwendung dieses Clientzugriffsservers als Zeugenserver.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Wenn der von Ihnen angegebene Zeugenserver kein Exchange 2013- oder Exchange 2010-Server ist, müssen Sie der lokalen Administratorgruppe auf dem Zeugenserver die universelle Exchange-Sicherheitsgruppe "Vertrauenswürdiges Subsystem" hinzufügen. Diese Sicherheitsrechte sind erforderlich, um sicherzustellen, dass mithilfe von Exchange ein Verzeichnis und eine Freigabe auf dem Zeugenserver bei Bedarf erstellt werden kann. Wenn die erforderlichen Berechtigungen nicht ordnungsgemäß konfiguriert werden, wird der folgende Fehler zurückgegeben:<BR><CODE>Error: An error occurred during discovery of the database availability group topology. Error: An error occurred while attempting a cluster operation. Error: Cluster API "AddClusterNode() (MaxPercentage=12) failed with 0x80070005. Error: Access is denied."</CODE>
 
 
@@ -52,7 +52,7 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -72,7 +72,7 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
       - **Zeugenserver**   Geben Sie in diesem Feld einen Zeugenserver für die DAG an. Wenn Sie dieses Feld leer lassen, versucht das System, automatisch einen Clientzugriffsserver im lokalen Active Directory-Standort auszuwählen, der nicht auf einem Computer mit dem als Zeugenserver zu verwendenden Postfachserver installiert ist.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Bei Angabe eines Zeugenservers müssen Sie einen Hostnamen oder einen vollqualifizierten Domänennamen angeben. Die Verwendung einer IP-Adresse oder eines Platzhalternamens wird nicht unterstützt. Ferner darf der angegebene Server kein Mitglied der DAG sein.
 
     
@@ -86,7 +86,9 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit D
 
 In diesem Beispiel wird eine DAG namens "DAG1" erstellt, die für die Verwendung des Zeugenservers "FILESRV1" und des lokalen Verzeichnisses "C:\\DAG1" konfiguriert ist. Die Datenbankverfügbarkeitsgruppe "DAG1" wird zudem für die Verwendung von DHCP für ihre IP-Adressen konfiguriert.
 
-    New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer FILESRV1 -WitnessDirectory C:\DAG1
+  ```powershell
+  New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer FILESRV1 -WitnessDirectory C:\DAG1
+  ```
 
 In diesem Beispiel wird die Database Availability Group "DAG2" erstellt. Das System wählt automatisch einen Clientzugriffsserver im lokalen Active Directory-Standort aus, der die Postfachserverrolle nicht als Zeugenserver der DAG enthält. "DAG2" wird eine einzelne statische IP-Adresse zugewiesen, da sich in diesem Beispiel das MAPI-Netzwerk aller DAG-Mitglieder im selben Subnetz befindet.
 
@@ -106,7 +108,9 @@ New-DatabaseAvailabilityGroup -Name DAG4
 
 In diesem Beispiel wird die DAG "DAG5" erstellt, die keinen Administratorzugriffspunkt aufweist (nur für DAGs mit Windows Server 2012 R2 gültig). Darüber hinaus wird "MBX4" als Zeugenserver für die DAG verwendet, und das Standardzeugenverzeichnis wird erstellt.
 
-    New-DatabaseAvailabilityGroup -Name DAG5 -DatabaseAvailabilityGroupIPAddresses ([System.Net.IPAddress]::None) -WitnessServer MBX4
+  ```powershell
+  New-DatabaseAvailabilityGroup -Name DAG5 -DatabaseAvailabilityGroupIPAddresses ([System.Net.IPAddress]::None) -WitnessServer MBX4
+  ```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -117,8 +121,8 @@ Führen Sie eine der folgenden Aktionen aus, um sich zu vergewissern, dass Sie e
   - Führen Sie in der Shell folgenden Befehl aus, um zu überprüfen, ob die DAG erstellt wurde, und um die DAG-Eigenschaftsinformationen anzuzeigen:
     
     ```powershell
-Get-DatabaseAvailabilityGroup <DAGName> | Format-List
-```
+    Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```
 
 ## Weitere Informationen
 
@@ -133,4 +137,3 @@ Get-DatabaseAvailabilityGroup <DAGName> | Format-List
 [New-DatabaseAvailabilityGroupNetwork](https://technet.microsoft.com/de-de/library/dd335225\(v=exchg.150\))
 
 [Add-DatabaseAvailabilityGroupServer](https://technet.microsoft.com/de-de/library/dd298049\(v=exchg.150\))
-

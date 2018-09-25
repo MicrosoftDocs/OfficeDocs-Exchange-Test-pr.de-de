@@ -44,8 +44,8 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit getrennten Pos
   - Führen Sie den folgenden Befehl aus, um den Wert der Eigenschaft *Identity* für alle Anforderungen zur Postfachwiederherstellung anzuzeigen.
     
     ```powershell
-Get-MailboxRestoreRequest | Format-Table Identity
-```
+    Get-MailboxRestoreRequest | Format-Table Identity
+    ```
     
     Anhand dieses Identitätswerts können Sie beim Durchführen der Verfahren in diesem Thema eine bestimmte Anforderung zur Postfachwiederherstellung angeben.
 
@@ -73,11 +73,15 @@ Get-MailboxRestoreRequest | Format-Table Identity
 
 In diesem Beispiel wird der Status der Wiederherstellungsanforderung "Pilar Pinilla\\MailboxRestore" mit dem Parameter *Identity* zurückgegeben.
 
+```powershell
     Get-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore"
+```
 
 Dieses Beispiel gibt alle Informationen zur zweiten Anforderung zur Postfachwiederherstellung für das Zielpostfach "Pilar Pinilla" zurück.
 
+```powershell
     Get-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1" | Format-List
+```
 
 In diesem Beispiel werden die Status von Wiederherstellungsanforderungen zurückgegeben, die aus der Quelldatenbank "MBD01" wiederhergestellt werden.
 
@@ -160,19 +164,25 @@ Sie können die Statistiken zu einer Anforderung zur Postfachwiederherstellung a
 
 In diesem Beispiel werden die Standardstatistiken für die Wiederherstellungsanforderung "danp\\MailboxRestore1" zurückgegeben. Standardmäßig enthalten die zurückgegebenen Informationen den Namen, das Postfach, den Status und den Prozentsatz der Fertigstellung.
 
+```powershell
     Get-MailboxRestoreRequestStatistics -Identity danp\MailboxRestore1
+```
 
 In diesem Beispiel werden Statistiken für das Postfach von Dan Park zurückgegeben, und der Bericht wird in eine CSV-Datei exportiert.
 
+```powershell
     Get-MailboxRestoreRequestStatistics -Identity "Dan Park\MailboxRestore" | Export-CSV \\SERVER01\RestoreRequest_Reports\DanPark_Restorestats.csv
+```
 
 In diesem Beispiel werden zusätzliche Informationen zur Wiederherstellungsanforderung für das Postfach von Pilar Pinilla zurückgegeben, indem der Parameter *IncludeReport* verwendet und die Ergebnisse an das Cmdlet **Format-List** weitergeleitet werden.
-
+```powershell
     Get-MailboxRestoreRequestStatistics -Identity "Pilar Pinilla\MailboxRestore" -IncludeReport | Format-List 
+```
 
 In diesem Beispiel werden zusätzliche Informationen für alle Wiederherstellungsanforderungen mit dem Status `Failed` zurückgegeben. Zu diesem Zweck wird der Parameter *IncludeReport* verwendet, und die Informationen werden in der Textdatei "AllExportReports.txt" in dem Ordner gespeichert, in dem der Befehl ausgeführt wird.
-
+```powershell
     Get-MailboxRestoreRequest -Status Failed | Get-MailboxRestoreRequestStatistics -IncludeReport | Format-List > AllRestoreReports.txt
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-MailboxRestoreRequestStatistics](https://technet.microsoft.com/de-de/library/ff829912\(v=exchg.150\)) und [Get-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829907\(v=exchg.150\)).
 
@@ -411,11 +421,15 @@ Wenn eine Anforderung zur Postfachwiederherstellung keinen Erfolg hat, können S
 
 In diesem Beispiel wird festgelegt, dass die Wiederherstellungsanforderung "MailboxRestore1" für das Postfach von Debra Garcia zehn beschädigte Postfachelemente überspringt.
 
+```powershell
     Set-MailboxRestoreRequest -Identity "Debra Garcia\MailboxRestore1" -BadItemLimit 10
+```
 
 In diesem Beispiel wird festgelegt, dass die Wiederherstellungsanforderung "MailboxRestore1" für Florence Flipo Postfach 100 beschädigte Elemente überspringt. Da der Wert für *BadItemLimit* über 50 liegt, muss der Parameter *AcceptLargeDataLoss* angegeben werden.
 
+```powershell
     Set-MailboxRestoreRequest -Identity "Florence Flipo\MailboxRestore1" -BadItemLimit 100 -AcceptLargeDataLoss
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829909\(v=exchg.150\)).
 
@@ -431,11 +445,15 @@ Sie können eine Wiederherstellungsanforderung jederzeit anhalten, nachdem die A
 
 In diesem Beispiel wird die Wiederherstellungsanforderung MailboxRestore1 für das Postfach von Pilar Pinilla fortgesetzt.
 
+```powershell
     Suspend-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1"
+```
 
 In diesem Beispiel werden alle aktiven Wiederherstellungsanforderungen angehalten. Dazu werden zuerst alle Anforderungen mit dem Status `InProgress` abgerufen. Die Ausgabe wird dann mit dem Kommentar "Resume after FY13Q2 Maintenance" an das Cmdlet **Suspend-MailboxRestoreRequest** weitergeleitet.
 
+```powershell
     Get-MailboxRestoreRequest -Status InProgress | Suspend-MailboxRestoreRequest -SuspendComment "Resume after FY13Q2 Maintenance"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829906\(v=exchg.150\)).
 
@@ -455,7 +473,9 @@ Verwenden Sie das Cmdlet **Resume-MailboxRestoreRequest**, um eine Wiederherstel
 
 In diesem Beispiel wird die Wiederherstellungsanforderung "Pilar Pinilla\\MailboxRestore1" fortgesetzt.
 
+```powershell
     Resume-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1"
+```
 
 In diesem Beispiel werden alle Wiederherstellungsanforderungen mit dem Status "Failed" fortgesetzt.
 
@@ -487,7 +507,9 @@ Verwenden Sie das Cmdlet **Remove-MailboxRestoreRequest**, um Wiederherstellungs
 
 In diesem Beispiel wird die Wiederherstellungsanforderung "Pilar Pinilla\\MailboxRestore1" entfernt.
 
+```powershell
     Remove-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1"
+```
 
 In diesem Beispiel werden alle Wiederherstellungsanforderungen mit dem Status "Completed" entfernt.
 

@@ -41,14 +41,18 @@ Weitere Informationen zu vorläufig gelöschten Postfächern und zum Ausführen 
 
   - Führen Sie den folgenden Befehl aus, um sicherzustellen, dass das vorläufig gelöschte Postfach, das Sie mit einem Benutzerkonto verbinden möchten, noch in der Postfachdatenbank vorhanden ist und es sich nicht um ein deaktiviertes Postfach handelt.
     
+    ```powershell
         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,DisconnectReason,DisconnectDate
+    ```
     
     Das vorläufig gelöschte Postfach muss sich in der Postfachdatenbank befinden, und der Wert der Eigenschaft *DisconnectReason* muss `SoftDeleted` lauten. Falls das Postfach endgültig aus der Datenbank gelöscht wurde, werden nach Ausführen des Befehls keine Ergebnisse zurückgegeben.
     
     Alternativ können Sie zum Anzeigen aller vorläufig gelöschten Postfächer in Ihrer Organisation den folgenden Befehl ausführen.
     
+    ```powershell
         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | fl DisplayName,DisconnectReason,DisconnectDate
-
+    ```
+    
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
   - Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542) oder [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=285351)..
@@ -61,15 +65,19 @@ Nach der Wiederherstellung eines vorläufig gelöschten Postfachs wird das Postf
 
 Zum Erstellen einer Postfachwiederherstellungsanforderung müssen Sie den Anzeigenamen, die Postfach-GUID oder den Legacy-DN (Distinguished Name) des vorläufig gelöschten Postfachs verwenden. Verwenden Sie das Cmdlet **Get-MailboxStatistics**, um die Werte der Eigenschaften **DisplayName**, **MailboxGuid**- und **LegacyDN** für das vorläufig gelöschte Postfach anzuzeigen, das Sie wiederherstellen möchten. Führen Sie beispielsweise den folgenden Befehl aus, um diese Informationen für alle deaktivierten und vorläufig gelöschten Postfächer in Ihrer Organisation zurückzugeben.
 
+```powershell
     Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "SoftDeleted"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```
 
 In diesem Beispiel wird ein vorläufig gelöschtes Postfach im Zielpostfach "Debra Garcia" wiederhergestellt, das anhand des Anzeigenamens im Parameter *SourceStoreMailbox* identifiziert wird und sich in der Postfachdatenbank "MBXDB01" befindet. Der Parameter *AllowLegacyDNMismatch* wird verwendet, damit das Quellpostfach in einem Postfach wiederhergestellt werden kann, das nicht denselben Legacy-DN-Wert aufweist wie das vorläufig gelöschte Postfach.
-
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox "Debra Garcia" -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```
 
 In diesem Beispiel wird das vorläufig gelöschte Postfach von Pilar Pinilla, das anhand der Postfach-GUID identifiziert wurde, in ihrem aktuellen Archivpostfach wiederhergestellt. Der Parameter *AllowLegacyDNMismatch* ist nicht erforderlich, da ein primäres Postfach und das zugehörige Archivpostfach denselben Legacy-DN aufweisen.
-
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox dc35895a-a628-4bba-9aa9-650f5cdb9ae7 -SourceDatabase MBXDB02 -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MailboxRestoreRequest](https://technet.microsoft.com/de-de/library/ff829875\(v=exchg.150\)).
 

@@ -59,7 +59,9 @@ New-RemoteDomain -Name Contoso -DomainName contoso.com
 
 In diesem Beispiel wird ein Remotedomäneneintrag für Nachrichten erstellt, die an die Domäne "fabrikam.com" und alle Unterdomänen gesendet werden.
 
+```powershell
     New-RemoteDomain -Name Fabrikam -DomainName *.fabrikam.com
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

@@ -87,14 +87,17 @@ Eine Nachrichtendatei, die in das PICKUP-Verzeichnis kopiert wird, muss die folg
 
 Dieses Beispiel zeigt eine Nur-Text-Nachricht, die eine akzeptable Formatierung für das PICKUP-Verzeichnis verwendet.
 
+```powershell
     To: mary@contoso.com
     From: bob@fabrikam.com
     Subject: Message subject
     
     This is the body of the message.
+```
 
 In Nachrichtendateien des PICKUP-Verzeichnisses werden auch MIME-Inhalte unterstützt. MIME definiert eine breite Palette von Nachrichteninhalten, wozu auch Sprachen gehören, die nicht als 7-Bit-ASCII-Text darstellbar sind, sowie HTML und andere Multimediainhalte. Eine vollständige Beschreibung von MIME und den für diesen Standard geltenden Voraussetzungen würde den Rahmen dieses Themas jedoch sprengen. Dieses Beispiel zeigt eine einfache MIME-Nachricht, die eine akzeptable Formatierung für das PICKUP-Verzeichnis verwendet.
 
+```powershell
     To: mary@contoso.com
     From: bob@fabrikam.com
     Subject: Message subject
@@ -109,6 +112,7 @@ In Nachrichtendateien des PICKUP-Verzeichnisses werden auch MIME-Inhalte unterst
     </TABLE>
 
     </BODY></HTML>
+```
 
 Zurück zum Seitenanfang
 
@@ -130,7 +134,9 @@ Das PICKUP-Verzeichnis entfernt die folgenden Felder aus dem Nachrichtenkopf:
 
 Im PICKUP-Verzeichnis wird einer Nachricht das eigene `Received`-Kopfzeilenfeld im Rahmen des Nachrichtenübermittlungsprozesses hinzugefügt. Das `Received`-Nachrichtenkopffeld wird im folgenden Format angewendet
 
+```powershell
     Received: from localhost by Pickup with Microsoft SMTP Server id <ExchangeServerVersion><datetime>
+```
 
 Das PICKUP-Verzeichnis ändert die folgenden Nachrichtenkopffelder, falls diese fehlen oder fehlerhaft sind:
 
@@ -161,8 +167,8 @@ Die in der folgenden Liste beschriebenen X-Header sind für Nachrichten im Wiede
   - **X-Sender**   Diese X-Kopfzeile ersetzt die Anforderung eines `From`-Nachrichtenkopffelds in einer typischen SMTP-Nachricht. Es muss ein `X-Sender`-Feld vorhanden sein, das eine E-Mail-Adresse enthält. Das Wiedergabeverzeichnis ignoriert ein eventuell vorhandenes `From`-Nachrichtenkopffeld, obwohl der Wert des `From`-Nachrichtenkopffelds im E-Mail-Client des Empfängers als Absender der Nachricht angezeigt wird. Normalerweise sind noch andere Parameter im `X-Sender`-Feld vorhanden, wie im folgenden Beispiel dargestellt.
     
     ```powershell
-X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
-```
+    X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+    ```
     
 
     > [!NOTE]
@@ -173,8 +179,8 @@ X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
   - **X-Receiver**   Diese X-Kopfzeile ersetzt die Anforderung eines `To`-Nachrichtenkopffelds in einer typischen SMTP-Nachricht. Mindestens ein `X-Receiver`-Feld, das eine E-Mail-Adresse enthält, muss vorhanden sein. Für mehrere Empfänger sind mehrere `X-Receiver`-Kopfzeilenfelder zulässig. Das Wiedergabeverzeichnis ignoriert eventuell vorhandene `To`-Nachrichtenkopffelder, obwohl die Werte der `To`-Nachrichtenkopffelder im E-Mail-Client des Empfängers als Empfänger der Nachricht angezeigt werden. Wie im folgenden Beispiel dargestellt, können weitere Parameter in den `X-Receiver`-Feldern vorhanden sein.
     
     ```powershell
-X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
-```
+    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+    ```
     
 
     > [!NOTE]
@@ -201,16 +207,21 @@ Dieses Beispiel zeigt eine Nur-Text-Nachricht, die eine akzeptable Formatierung 
 ```powershell
 X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
 ```
+
+```powershell
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345AB auth=<someAuth>
     Subject: Optional message subject
     
     This is the body of the message.
+```
 
 In Nachrichtendateien des Wiedergabeverzeichnisses werden auch MIME-Inhalte unterstützt. MIME definiert eine breite Palette von Nachrichteninhalten, wozu auch Sprachen gehören, die nicht als 7-Bit-ASCII-Text darstellbar sind, sowie HTML und andere Multimediainhalte. Eine vollständige Beschreibung von MIME und den für diesen Standard geltenden Voraussetzungen würde den Rahmen dieses Themas jedoch sprengen. Dieses Beispiel zeigt eine einfache MIME-Nachricht, die eine akzeptable Formatierung für das Wiedergabeverzeichnis verwendet.
 
 ```powershell
 X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
 ```
+
+```powershell
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345ABCD auth=<someAuth>
     To: mary@contoso.com
     From: bob@fabrikam.com
@@ -226,6 +237,7 @@ X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
     </TABLE>
 
     </BODY></HTML>
+```
 
 Zurück zum Seitenanfang
 
@@ -235,7 +247,9 @@ Im Wiedergabeverzeichnis wird das `Bcc`-Nachrichten-Kopfzeilenfeld aus der Nachr
 
 Im Wiedergabeverzeichnis wird einer Nachricht das eigene `Received`-Nachrichten-Kopfzeilenfeld im Rahmen des Nachrichtenübermittlungsprozesses hinzugefügt. Das Received-Nachrichtenkopffeld wird im folgenden Format angewendet.
 
+```powershell
     Received: from <ReceivingServerName> by Replay with <ExchangeServerVersion><DateTime>
+```
 
 Im Wiedergabeverzeichnis werden die folgenden Nachrichtenkopffelder im Nachrichtenkopf geändert:
 

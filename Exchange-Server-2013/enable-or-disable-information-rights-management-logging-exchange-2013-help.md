@@ -74,6 +74,6 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Trans
 Rufen Sie mithilfe des Cmdlets [Get-TransportService](https://technet.microsoft.com/de-de/library/jj215746\(v=exchg.150\)) die IRM-Einstellungen ab, um zu überprüfen, ob die IRM-Protokollierung auf einem Server erfolgreich aktiviert bzw. deaktiviert wurde.
 
 In diesem Beispiel werden alle IRM-Protokollierungseigenschaften auf dem Server EXCH01 abgerufen.
-
+```powershell
     Get-TransportService -Identity EXCH01 | Format-List IRMLog*
-
+```
