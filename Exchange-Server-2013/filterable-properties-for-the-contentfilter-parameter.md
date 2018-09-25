@@ -47,14 +47,22 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>Diese Eigenschaft gibt sämtliche Nachrichten mit einer bestimmten Zeichenfolge in einer indizierten Eigenschaft zurück. Verwenden Sie diese Eigenschaft z. B. zum Exportieren aller Nachrichten mit dem Namen &quot;Ayla&quot; als Empfänger, Absender oder im Nachrichtentext.</p></td>
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
-<td><pre><code>-ContentFilter {All -like &#39;*Ayla*&#39;}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {All -like '*Ayla*'}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Attachment</p></td>
 <td><p>Diese Eigenschaft gibt Nachrichten mit der angegebenen Zeichenfolge im Inhalt einer Anlage oder im Dateinamen der Anlage zurück.</p></td>
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
-<td><pre><code>-ContentFilter {Attachment -like &#39;*.jpg&#39;}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {Attachment -like '*.jpg'}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>BCC</p></td>
@@ -64,21 +72,33 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>SMTP-Adresse</p>
 <p>LegacyDN</p>
 <p>Platzhalter</p></td>
-<td><pre><code>-ContentFilter {(BCC -eq &#39;ayla@contoso.com&#39;) -or (BCC -eq &#39;tony@contoso.com&#39;)}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {(BCC -eq 'ayla@contoso.com') -or (BCC -eq 'tony@contoso.com')}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Body</p></td>
 <td><p>Diese Eigenschaft gibt Nachrichten mit der angegebenen Zeichenfolge im Nachrichtentext zurück.</p></td>
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
-<td><pre><code>-ContentFilter {Body -like &#39;*prospectus*&#39;}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {Body -like '*prospectus*'}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Category</p></td>
 <td><p>Diese Eigenschaft gibt Nachrichten mit einer übereinstimmenden Kategorie zurück. Kategorien werden durch Benutzer oder Postfachregeln festgelegt.</p></td>
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
-<td><pre><code>-ContentFilter {Category -like &#39;*Blue*&#39;}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {Category -like '*Blue*'}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>CC</p></td>
@@ -88,20 +108,32 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>SMTP-Adresse</p>
 <p>LegacyDN</p>
 <p>Platzhalter</p></td>
-<td><pre><code>-ContentFilter {(CC -eq &#39;ayla@contoso.com&#39;) -or (CC -eq &#39;tony@contoso.com&#39;)}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {(CC -eq 'ayla@contoso.com') -or (CC -eq 'tony@contoso.com')}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Expires</p></td>
 <td><p>Diese Eigenschaft gibt Nachrichten mit einem Zeitstempel für den Ablauf zurück.</p></td>
 <td><p>Datums-/Uhrzeitstempel</p></td>
-<td><pre><code>-ContentFilter {Expires -lt &#39;01/01/2013&#39;}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {Expires -lt '01/01/2013'}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>HasAttachment</p></td>
 <td><p>Diese Eigenschaft gibt Nachrichten mit oder ohne Anlagen zurück.</p></td>
 <td><p>Boolescher Wert</p>
 <p><code>$true</code> oder  <code>$false</code></p></td>
-<td><pre><code>-ContentFilter {HasAttachment -eq $true}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {HasAttachment -eq $true}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Importance</p></td>
@@ -109,22 +141,38 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>0 oder &quot;Niedrig&quot;</p>
 <p>1 oder &quot;Normal&quot;</p>
 <p>2 oder &quot;Hoch&quot;</p></td>
-<td><pre><code>-ContentFilter {Importance -eq &#39;high&#39;}</code></pre>
-<pre><code>-ContentFilter {Importance -eq 2}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {Importance -eq 'high'}
+```
+
+
+```powershell
+-ContentFilter {Importance -eq 2}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>IsFlagged</p></td>
 <td><p>Diese Eigenschaft gibt Nachrichten zurück, die von einem Benutzer oder einer Postfachregel gekennzeichnet wurden.</p></td>
 <td><p>Boolescher Wert</p>
 <p><code>$true</code> oder <code>$false</code></p></td>
-<td><pre><code>-ContentFilter {IsFlagged -eq $true}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {IsFlagged -eq $true}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>IsRead</p></td>
 <td><p>Diese Eigenschaft gibt Nachrichten zurück, die vom Benutzer gelesen bzw. nicht gelesen wurden.</p></td>
 <td><p>Boolescher Wert</p>
 <p><code>$true</code> oder <code>$false</code></p></td>
-<td><pre><code>-ContentFilter {IsRead -eq $true}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {IsRead -eq $true}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>MessageKind</p></td>
@@ -141,15 +189,31 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>RSSFeed</p>
 <p>Aufgabe</p>
 <p>Voicemail</p></td>
-<td><pre><code>-ContentFilter {MessageKind -eq &#39;Calendar&#39;}</code></pre>
-<pre><code>-ContentFilter {MessageKind -ne &#39;Email&#39;}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {MessageKind -eq 'Calendar'}
+```
+
+
+```powershell
+-ContentFilter {MessageKind -ne 'Email'}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>MessageLocalee</p></td>
 <td><p>Diese Eigenschaft gibt Nachrichten zurück, die das angegebene Gebietsschema aufweisen.</p></td>
 <td><p>CultureInfo</p></td>
-<td><pre><code>-ContentFilter {MessageLocale -ne &#39;en-US&#39;}</code></pre>
-<pre><code>-ContentFilter {MessageLocale -eq &#39;tr-TR&#39;}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {MessageLocale -ne 'en-US'}
+```
+
+
+```powershell
+-ContentFilter {MessageLocale -eq 'tr-TR'}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Participants</p></td>
@@ -159,7 +223,11 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>SMTP-Adresse</p>
 <p>LegacyDN</p>
 <p>Platzhalter</p></td>
-<td><pre><code>-ContentFilter {(Participants -eq &#39;ayla@contoso.com&#39;) -or (Participants -eq &#39;tony@contoso.com&#39;)}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {(Participants -eq 'ayla@contoso.com') -or (Participants -eq 'tony@contoso.com')}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>PolicyTag</p></td>
@@ -167,14 +235,26 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>Wenn es sich bei dem angegebenen Wert nicht um eine GUID handelt, verwendet der Befehl zum Auflösen der Namen in GUIDs Active Directory-Informationen.</p></td>
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
-<td><pre><code>-ContentFilter {PolicyTag -ne &#39;00000000-0000-0000-0000-000000000000&#39;}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {PolicyTag -ne '00000000-0000-0000-0000-000000000000'}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Received</p></td>
 <td><p>Diese Eigenschaft gibt empfangene Nachrichten mit dem angegebenen Empfangszeitstempel zurück.</p></td>
 <td><p>Datums-/Uhrzeitstempel</p></td>
-<td><pre><code>-ContentFilter {Received -lt &#39;01/01/2013 9:00&#39;}</code></pre>
-<pre><code>-ContentFilter {(Received -lt &#39;01/01/2013&#39;) -and (Received -gt &#39;01/01/2012&#39;)}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {Received -lt '01/01/2013 9:00'}
+```
+
+
+```powershell
+-ContentFilter {(Received -lt '01/01/2013') -and (Received -gt '01/01/2012')}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Sender</p></td>
@@ -184,14 +264,26 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>SMTP-Adresse</p>
 <p>LegacyDN</p>
 <p>Platzhalter</p></td>
-<td><pre><code>ContentFilter {Sender -eq &#39;tony&#39;}</code></pre></td>
+<td>
+```powershell
+ContentFilter {Sender -eq 'tony'}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Sent</p></td>
 <td><p>Diese Eigenschaft gibt gesendete Nachrichten mit dem angegebenen Sendezeitstempel zurück.</p></td>
 <td><p>Datums-/Uhrzeitstempel</p></td>
-<td><pre><code>-ContentFilter {Sent -lt &#39;01/01/2013 9:00&#39;}</code></pre>
-<pre><code>-ContentFilter {(Sent -lt &#39;01/01/2013&#39;) -and (Sent -gt &#39;01/01/2012&#39;)}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {Sent -lt '01/01/2013 9:00'}
+```
+
+
+```powershell
+-ContentFilter {(Sent -lt '01/01/2013') -and (Sent -gt '01/01/2012')}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Size</p></td>
@@ -199,14 +291,22 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <td><p>B (Bytes)</p>
 <p>KB (Kilobytes)</p>
 <p>MB (Megabytes)</p></td>
-<td><pre><code>-ContentFilter {Size -gt &#39;10KB&#39;}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {Size -gt '10KB'}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Subject</p></td>
 <td><p>Diese Eigenschaft gibt Nachrichten mit der angegebenen Zeichenfolge im Nachrichtenbetreff zurück.</p></td>
 <td><p>Zeichenfolge</p>
 <p>Platzhalter</p></td>
-<td><pre><code>-ContentFilter {Subject -like &#39;*meeting*&#39;}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {Subject -like '*meeting*'}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>To</p></td>
@@ -216,7 +316,11 @@ Die folgende Tabelle zeigt eine Liste der filterbaren Eigenschaften für den Par
 <p>SMTP-Adresse</p>
 <p>LegacyDN</p>
 <p>Platzhalter</p></td>
-<td><pre><code>-ContentFilter {To -eq &#39;aylakol&#39;}</code></pre></td>
+<td>
+```powershell
+-ContentFilter {To -eq 'aylakol'}
+```
+</td>
 </tr>
 </tbody>
 </table>
