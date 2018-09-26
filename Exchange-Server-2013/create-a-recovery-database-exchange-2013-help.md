@@ -30,7 +30,7 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit W
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -45,7 +45,9 @@ New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
 
 In diesem Beispiel wird die Wiederherstellungsdatenbank "RDB2" auf dem Postfachserver "MBX1" mithilfe eines benutzerdefinierten Pfads für die Datenbankdatei und den Protokollordner erstellt.
 
-    New-MailboxDatabase -Recovery -Name RDB2 -Server MBX1 -EdbFilePath "C:\Recovery\RDB2\RDB2.EDB" -LogFolderPath "C:\Recovery\RDB2"
+```powershell
+New-MailboxDatabase -Recovery -Name RDB2 -Server MBX1 -EdbFilePath "C:\Recovery\RDB2\RDB2.EDB" -LogFolderPath "C:\Recovery\RDB2"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-MailboxDatabase](https://technet.microsoft.com/de-de/library/aa997976\(v=exchg.150\)).
 

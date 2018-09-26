@@ -221,7 +221,7 @@ Remove-Mailbox pilarp@contoso.com
 ```
 
 
-```
+```powershell
 Remove-Mailbox "Fleet Van (16)"
 ```
 
