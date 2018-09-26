@@ -63,23 +63,31 @@ Zusätzliche Verwaltungstasks im Zusammenhang mit automatischen UM-Telefonzentra
 
 In diesem Beispiel wird die Begrüßungsdatei "welcomegreeting.wav" aus "D:\\UMPrompts" in den UM-Wählplan `MyUMDialPlan` importiert.
 
-    [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
-    Import-UMPrompt -UMDialPlan MyUMDialPlan -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```PowerShell
+[byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
+Import-UMPrompt -UMDialPlan MyUMDialPlan -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 In diesem Beispiel wird die Begrüßungsdatei "welcomegreeting.wav" aus "D:\\UMPrompts" in die automatische UM-Telefonzentrale `MyUMAutoAttendant` importiert.
 
-    [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
-    Import-UMPrompt -UMAutoAttendant MyUMAutoAttendant -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```PowerShell
+[byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
+Import-UMPrompt -UMAutoAttendant MyUMAutoAttendant -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 ## Exportieren von benutzerdefinierten Begrüßungen, Informationsansagen, Menüs und Menüansagen aus UM-Wählplänen und automatischen Telefonzentralen mithilfe der Shell
 
 In diesem Beispiel wird die Begrüßung für den UM-Wählplan `MyUMDialPlan` exportiert, und die Datei wird unter dem Namen "welcomegreeting.wav" gespeichert.
 
-    $prompt = Export-UMPrompt -PromptFileName "customgreeting.wav�? -UMDialPlan MyUMDialPlan
-    set-content -Path "d:\DialPlanPrompts\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```PowerShell
+$prompt = Export-UMPrompt -PromptFileName "customgreeting.wav�? -UMDialPlan MyUMDialPlan
+set-content -Path "d:\DialPlanPrompts\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```
 
 In diesem Beispiel wird die Begrüßung während der Geschäftszeit exportiert, die für die automatische UM-Telefonzentrale `MYUMAutoAttendant` verwendet wird, und die Datei wird unter dem Namen "BusinessHoursWelcomeGreeting.wav" gespeichert.
 
-    $prompt = Export-UMPrompt -BusinessHoursWelcomeGreeting -UMAutoAttendant MyUMAutoAttendant
-    set-content -Path "d:\UMPrompts\BusinessHoursWelcomeGreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```PowerShell
+$prompt = Export-UMPrompt -BusinessHoursWelcomeGreeting -UMAutoAttendant MyUMAutoAttendant
+set-content -Path "d:\UMPrompts\BusinessHoursWelcomeGreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```
 
