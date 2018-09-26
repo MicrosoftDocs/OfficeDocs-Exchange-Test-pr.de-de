@@ -95,7 +95,9 @@ In Ihrer Organisation ist es möglicherweise erforderlich, dass alle Postfachdat
 
 In diesem Beispiel wird für alle Benutzerpostfächer in der Organisation für ein Jahr (365 Tage) das Beweissicherungsverfahren aktiviert.
 
-    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -LitigationHoldEnabled $true -LitigationHoldDuration 365
+```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -LitigationHoldEnabled $true -LitigationHoldDuration 365
+```
 
 Im Beispiel wird das Cmdlet [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)) verwendet, um alle Postfächer in der Organisation abzurufen. Es wird ein Empfängerfilter angegeben, um alle Benutzerpostfächer einzubeziehen. Anschließend wird die Liste der Postfächer an das [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\))-Cmdlet umgeleitet, um das Beweissicherungsverfahren und die Aufbewahrungsdauer zu aktivieren.
 
@@ -131,12 +133,15 @@ Führen Sie eine der folgenden Aktionen aus, um sicherzustellen, dass Sie das Be
 
   - Führen Sie in der Shell einen der folgenden Befehle aus:
     
-        Get-Mailbox <name of mailbox> | FL LitigationHold*
-    
+    ```powershell
+    Get-Mailbox <name of mailbox> | FL LitigationHold*
+    ```
     oder
     
-        Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | FL Name,LitigationHold*
-    
+    ```powershell
+    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | FL Name,LitigationHold*
+    ```
+
     Wenn das unbegrenzte Beweissicherungsverfahren für ein Postfach aktiviert ist, ist der Wert für die Eigenschaft *LitigationHoldDuration* des Postfachs auf `Unlimited` festgelegt.
 
 ## Weitere Informationen
@@ -155,23 +160,23 @@ Führen Sie eine der folgenden Aktionen aus, um sicherzustellen, dass Sie das Be
     
     Hier sind einige Beispiele dafür, wie mit den Cmdlets **Get-Mailbox** und **Get-Recipient** eine Teilmenge an Postfächern basierend auf allgemeinen Benutzer- oder Postfacheigenschaften zurückgegeben wird. In diesen Beispielen wird davon ausgegangen, dass entsprechende Postfacheigenschaften (wie *CustomAttributeN* oder *Department*) aufgefüllt wurden.
     
-    ```
+    ```powershell
 	Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
     ```
 
-    ```
+    ```powershell
 	Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
     ```
 
-    ```
+    ```powershell
 	Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
     ```
 
-    ```
+    ```powershell
 	Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
     ```
 
-    ```
+    ```powershell
 	Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
     ```    
 

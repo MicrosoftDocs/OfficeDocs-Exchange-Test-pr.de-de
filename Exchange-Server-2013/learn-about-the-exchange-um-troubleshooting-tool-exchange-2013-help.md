@@ -201,7 +201,9 @@ Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 
 
 Wenn der SIPClient-Modus verwendet wird, kann das UM-Problembehandlungstool in lokalen oder standortübergreifenden Bereitstellungen verwendet werden, die Office Communications Server 2007 R2 oder Microsoft Lync Server umfassen. Im folgenden Beispiel wird der SIPClient-Modus verwendet, und es wird der Anruffluss mit gesicherten UM-Wähleinstellungen in einer Umgebung getestet, die Server mit Office Communications Server 2007 R2 oder mit Lync Server enthält. Wenn Sie das UM-Problembehandlungstool ausführen, verwendet es standardmäßig die Anmeldeinformationen des Benutzers, der momentan beim Computer angemeldet ist. Wenn Sie das folgende Beispiel ausführen, werden Sie zur Eingabe der Anmeldeinformationen aufgefordert, die Sie für das Ausführen des UM-Problembehandlungstools verwenden möchten. Weitere Informationen finden Sie unter [Festlegen der Anmeldeinformationen zur Verwendung mit dem Exchange UM-Problembehandlungstool](set-the-credentials-to-use-with-the-exchange-um-troubleshooting-tool-exchange-2013-help.md).
 
-    Test-ExchangeUMCallFlow -Mode SIPClient -VoIPSecurity Secured -CallingParty tony@contoso.com -CalledParty david@contoso.com -Credential $get
+```powershell
+Test-ExchangeUMCallFlow -Mode SIPClient -VoIPSecurity Secured -CallingParty tony@contoso.com -CalledParty david@contoso.com -Credential $get
+```
 
 ## Installieren des UM-Problembehandlungstools
 

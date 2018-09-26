@@ -77,11 +77,23 @@ Das Ändern mehrwertiger Eigenschaften ähnelt der Änderung einwertiger Eigensc
 <tbody>
 <tr class="odd">
 <td><p>Hinzufügen eines oder mehrerer Werte zu einer mehrwertigen Eigenschaft</p></td>
-<td><pre><code>@{Add=&quot;&lt;value1&gt;&quot;, &quot;&lt;value2&gt;&quot;, &quot;&lt;value3&gt;&quot;}</code></pre></td>
+<td>
+
+```powershell
+@{Add="<value1>", "<value2>", "<value3>"}
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Entfernen eines oder mehrerer Werte aus einer mehrwertigen Eigenschaft</p></td>
-<td><pre><code>@{Remove=&quot;&lt;value1&gt;&quot;, &quot;&lt;value2&gt;&quot;, &quot;&lt;value3&gt;&quot;}</code></pre></td>
+<td>
+
+```powershell
+@{Remove="<value1>", "<value2>", "<value3>"}
+```
+
+</td>
 </tr>
 </tbody>
 </table>

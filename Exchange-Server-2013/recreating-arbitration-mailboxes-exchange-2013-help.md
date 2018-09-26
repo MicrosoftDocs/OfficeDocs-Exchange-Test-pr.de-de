@@ -177,9 +177,9 @@ So erstellen Sie das Vermittlungspostfach SystemMailbox{bb558c35-97f1-4cb9-8ff7-
     
 Wenn Sie anschließend den Befehl `$OABMBX = Get-Mailbox "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}" -Arbitration (Get-ADUser $OABMBX.SamAccountName -Properties *).msExchCapabilityIdentifiers` ausführen, werden Sie sehen, dass 46, 47 und 51 fehlen. Führen Sie den folgenden Befehl aus, um alle Funktionen wieder hinzuzufügen:
 
-    ```powershell
-    Set-ADUser $OABMBX.SamAccountName -Add @{"msExchCapabilityIdentifiers"="40","42","43","44","47","51","52","46"}
-    ```
+```powershell
+Set-ADUser $OABMBX.SamAccountName -Add @{"msExchCapabilityIdentifiers"="40","42","43","44","47","51","52","46"}
+```
     
 ## Woher weiß ich, dass der Vorgang erfolgreich war?
 

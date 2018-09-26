@@ -67,7 +67,9 @@ New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign>
 
 In diesem Beispiel wird die explizite Zuweisungsrichtlinie "Limited Mailbox Configuration" erstellt und den Rollen `MyBaseOptions`, `MyAddressInformation` und `MyDisplayName` zugeordnet.
 
-    New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName
+```powershell
+New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-RoleAssignmentPolicy](https://technet.microsoft.com/de-de/library/dd638101\(v=exchg.150\)).
 
@@ -81,7 +83,9 @@ New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign> -IsDe
 
 In diesem Beispiel wird die standardmäßige Zuweisungsrichtlinie "Limited Mailbox Configuration" erstellt und den Rollen `MyBaseOptions`, `MyAddressInformation` und `MyDisplayName` zugeordnet.
 
-    New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName -IsDefault
+```powershell
+New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName -IsDefault
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-RoleAssignmentPolicy](https://technet.microsoft.com/de-de/library/dd638101\(v=exchg.150\)).
 
@@ -275,11 +279,15 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-RoleA
 
 Verwenden Sie zum Erstellen einer Verwaltungsrollenzuweisung zwischen einer Rolle und einer Zuweisungsrichtlinie die folgende Syntax.
 
-    New-ManagementRoleAssignment -Name <role assignment name> -Role <role name> -Policy <assignment policy name>
+```powershell
+New-ManagementRoleAssignment -Name <role assignment name> -Role <role name> -Policy <assignment policy name>
+```
 
 In diesem Beispiel wird die Rollenzuweisung "Seattle Users - Voicemail" zwischen der Rolle "MyVoicemail" und der Zuweisungsrichtlinie "Seattle Users" erstellt.
 
-    New-ManagementRoleAssignment -Name "Seattle Users - Voicemail" -Role MyVoicemail -Policy "Seattle Users"
+```powershell
+New-ManagementRoleAssignment -Name "Seattle Users - Voicemail" -Role MyVoicemail -Policy "Seattle Users"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -307,11 +315,15 @@ Bei diesem Verfahren wird das Pipelining verwendet. Weitere Informationen zum Pi
 
 Verwenden Sie die folgende Syntax, um eine Rolle aus einer Zuweisungsrichtlinie zu entfernen.
 
-    Get-ManagementRoleAssignment -RoleAssignee <assignment policy name> -Role <role name> | Remove-ManagementRoleAssignment
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee <assignment policy name> -Role <role name> | Remove-ManagementRoleAssignment
+```
 
 In diesem Beispiel wird die Verwaltungsrolle "MyVoicemail", welche Benutzern die Verwaltung ihrer Voicemailoptionen ermöglicht, aus der Zuweisungsrichtlinie "Seattle Users" entfernt.
 
-    Get-ManagementRoleAssignment -RoleAssignee "Seattle Users" -Role MyVoicemail | Remove-ManagementRoleAssignment
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee "Seattle Users" -Role MyVoicemail | Remove-ManagementRoleAssignment
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd351205\(v=exchg.150\)).
 

@@ -68,8 +68,8 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Absenderfilterung erfolgreic
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-SenderFilterConfig | Format-List Enabled
-```
+    Get-SenderFilterConfig | Format-List Enabled
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
@@ -77,15 +77,21 @@ Get-SenderFilterConfig | Format-List Enabled
 
 Führen Sie den folgenden Befehl aus, um die vorhandenen Werte zu ersetzen:
 
-    Set-SenderFilterConfig -BlockedSenders <sender1,sender2...> -BlockedDomains <domain1,domain2...> -BlockedDomainsAndSubdomains <domain1,domain2...>
+```powershell
+Set-SenderFilterConfig -BlockedSenders <sender1,sender2...> -BlockedDomains <domain1,domain2...> -BlockedDomainsAndSubdomains <domain1,domain2...>
+```
 
 In diesem Beispiel wird der Absenderfilter-Agent so konfiguriert, dass Nachrichten von "kim@contoso.com" und "john@contoso.com", Nachrichten von der Domäne "fabrikam.com" sowie Nachrichten von der Domäne "northwindtraders.com" und allen zugehörigen Unterdomänen blockiert werden.
 
-    Set-SenderFilterConfig -BlockedSenders kim@contoso.com,john@contoso.com -BlockedDomains fabrikam.com -BlockedDomainsAndSubdomains northwindtraders.com
+```powershell
+Set-SenderFilterConfig -BlockedSenders kim@contoso.com,john@contoso.com -BlockedDomains fabrikam.com -BlockedDomainsAndSubdomains northwindtraders.com
+```
 
 Führen Sie folgenden Befehl aus, um Einträge hinzuzufügen bzw. zu entfernen, ohne vorhandene Werte zu ändern:
 
-    Set-SenderFilterConfig -BlockedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BlockedDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...} -BlockedDomainsAndSubdomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```powershell
+Set-SenderFilterConfig -BlockedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BlockedDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...} -BlockedDomainsAndSubdomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```
 
 In diesem Beispiel wird der Absenderfilter-Agent mit den folgenden Informationen konfiguriert:
 
@@ -97,7 +103,9 @@ In diesem Beispiel wird der Absenderfilter-Agent mit den folgenden Informationen
 
 <!-- end list -->
 
-    Set-SenderFilterConfig -BlockedSenders @{Add="chris@contoso.com","michelle@contoso.com"} -BlockedDomains @{Remove="tailspintoys.com"} -BlockedDomainsAndSubdomains @{Add="blueyonderairlines.com"}
+```powershell
+Set-SenderFilterConfig -BlockedSenders @{Add="chris@contoso.com","michelle@contoso.com"} -BlockedDomains @{Remove="tailspintoys.com"} -BlockedDomainsAndSubdomains @{Add="blueyonderairlines.com"}
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -106,8 +114,8 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob blockierte Absender erfolgreich 
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
-```
+    Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 
@@ -132,8 +140,8 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Blockierung von Nachrichten 
 1.  Führen Sie den folgenden Befehl aus:
     
     ```powershell
-Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
-```
+    Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 

@@ -63,7 +63,8 @@ Die Regeldefinition setzt sich aus drei Hauptkomponenten zusammen:
 
 Es werden drei weitere unterstützende Elemente verwendet, mit denen die Details der Verarbeitung definiert werden und auf die in den Hauptkomponenten verwiesen wird: Schlüsselwort, RegEx und Funktion. Mithilfe von Verweisen kann eine einzige Definition der unterstützenden Elemente, wie eine Sozialversicherungsnummer, in mehreren Entitäts- oder Affinitätsregeln verwendet werden. Die grundlegende Regelstruktur im XML-Format kann wie folgt beschrieben werden.
 
-    <?xml version="1.0" encoding="utf-8"?>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
     <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
     
       <RulePack id="DAD86A92-AB18-43BB-AB35-96F7C594ADAA">
@@ -111,6 +112,7 @@ Es werden drei weitere unterstützende Elemente verwendet, mit denen die Details
         </LocalizedStrings>
       </Rules>
     </RulePackage>
+```
 
 ## Entitätsregeln
 
@@ -136,7 +138,8 @@ Ein anderes optionales untergeordnete Element des Elements Muster ist das Match-
 
 Die Details dazu, welche Inhalte verglichen werden müssen, werden weder im IdMatch- noch im Match-Element definiert, sondern es wird über das idRef-Attribut darauf verwiesen. Dies fördert die Wiederverwendbarkeit von Definitionen in mehreren Pattern-Konstrukten.
 
-    <Entity id="..." patternsProximity="300" > 
+```xml
+<Entity id="..." patternsProximity="300" > 
         <Pattern confidenceLevel="85">
             <IdMatch idRef="FormattedSSN" />
             <Any minMatches="1">
@@ -156,6 +159,7 @@ Die Details dazu, welche Inhalte verglichen werden müssen, werden weder im IdMa
             </Any>
         </Pattern>
     </Entity> 
+```    
 
 Das Element "Entity id", das in der vorherigen XML von "..." repräsentiert wurde, sollte eine GUID sein, und es wird im Abschnitt "LocalizedStrings" darauf verwiesen.
 
@@ -211,7 +215,8 @@ Jede Affinitätsregel enthält mindestens ein untergeordnetes Evidence-Element, 
 
 Evidence-Elemente weisen ein oder mehrere untergeordnete Match- oder Any-Elemente auf. Wenn es eine Übereinstimmung mit allen untergeordneten Match- und Any-Elementen gibt, gilt der Nachweis als erbracht, und die Zuverlässigkeitsstufe geht in die Berechnung der Zuverlässigkeitsstufe der Regel ein. Für die Match- oder Any-Elemente in Affinitätsregeln gilt dieselbe Beschreibung wie bei Entitätsregeln.
 
-    <Affinity id="..." 
+```xml
+<Affinity id="..." 
               evidencesProximity="1000"
               thresholdConfidenceLevel="65">
         <Evidence confidenceLevel="40">
@@ -231,6 +236,7 @@ Evidence-Elemente weisen ein oder mehrere untergeordnete Match- oder Any-Element
             </Any> 
         </Evidence>
     </Affinity>
+```    
 
 ## Näherungsfenster für Affinität
 
@@ -327,7 +333,8 @@ Optimieren Sie im nächsten Schritt die Zuverlässigkeitsstufe für jedes Muster
 
 Das Regelschema unterstützt die Speicherung von lokalisierten Namen und Beschreibungen für alle Entity- und Affinity-Elemente. Für jedes Entity- und Affinity-Element muss es ein entsprechendes Element im Abschnitt "LocalizedStrings" geben. Zum Lokalisieren der einzelnen Elemente schließen Sie ein Resource-Element als untergeordnetes Element des LocalizedStrings-Elements ein, um den Namen und die Beschreibungen für mehrere Gebietsschemas für jedes Element zu speichern. Das Resource-Element enthält ein erforderliches idRef-Attribut, das dem zugehörigen idRef-Attribut jedes lokalisierten Elements entspricht. Die untergeordneten Elemente "Locale" des Elements "Resource" enthalten den lokalisierten Namen und die Beschreibungen für jedes angegebene Gebietsschema.
 
-    <LocalizedStrings>
+```xml
+<LocalizedStrings>
         <Resource idRef="guid">
             <Locale langcode="en-US" default="true"> 
                 <Name>affinity name en-us</Name> 
@@ -343,10 +350,12 @@ Das Regelschema unterstützt die Speicherung von lokalisierten Namen und Beschre
             </Locale> 
         </Resource>
     </LocalizedStrings>
+```    
 
 ## XML-Schema-Definition des Klassifizierungsregelpakets
 
-    <?xml version="1.0" encoding="utf-8"?>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
     <xs:schema xmlns:mce="http://schemas.microsoft.com/office/2011/mce"
                targetNamespace="http://schemas.microsoft.com/office/2011/mce" 
                xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -621,6 +630,7 @@ Das Regelschema unterstützt die Speicherung von lokalisierten Namen und Beschre
         </xs:simpleContent>
       </xs:complexType>
     </xs:schema>
+```    
 
 ## Weitere Informationen
 

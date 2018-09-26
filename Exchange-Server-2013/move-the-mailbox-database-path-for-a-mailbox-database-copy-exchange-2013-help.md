@@ -51,8 +51,9 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit P
 
 1.  Notieren Sie sich alle Einstellungen für die Wiedergabe- oder Abschneideverzögerung für sämtliche Kopien der zu verschiebenden Postfachdatenbank. Die entsprechenden Informationen können mithilfe des Cmdlets [Get-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb124924\(v=exchg.150\)) abgerufen werden, wie in diesem Beispiel veranschaulicht.
     
-        Get-MailboxDatabase DB1 | Format-List *lag*
-
+    ```powershell
+    Get-MailboxDatabase DB1 | Format-List *lag*
+    ```
 2.  Wenn die Umlaufprotokollierung für die Datenbank aktiviert ist, muss diese deaktiviert werden, bevor Sie den Vorgang fortsetzen. Sie können die Umlaufprotokollierung für eine Postfachdatenbank mithilfe des Cmdlets [Set-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb123971\(v=exchg.150\)) deaktivieren, wie in diesem Beispiel veranschaulicht.
     
     ```powershell
@@ -78,8 +79,8 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit P
 8.  Führen Sie auf jedem Server, der eine Kopie der zu entfernenden Postfachdatenbank enthält, die folgenden Befehle aus, um die Inhaltsindexdienste zu beenden und neu zu starten.
     
     ```powershell
-        Net stop MSExchangeFastSearch
-        Net start MSExchangeFastSearch
+       Net stop MSExchangeFastSearch
+       Net start MSExchangeFastSearch
     ```
     
 9.  Aktivieren Sie optional die Umlaufprotokollierung mithilfe des Cmdlets [Set-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb123971\(v=exchg.150\)), wie in diesem Beispiel veranschaulicht.

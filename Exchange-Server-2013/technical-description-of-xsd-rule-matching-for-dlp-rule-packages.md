@@ -312,7 +312,7 @@ In diesem Abschnitt finden Sie eine Einführung in die Erstellung einer Regel zu
 
 Übersetzen Sie die Beschreibung anschließend in eine Regelschemadarstellung:
 
-```
+```xml
     <Entity id="a44669fe-0d48-453d-a9b1-2cc83f2cba77"
              patternsProximity="300" RecommendedConfidence="85">
         <Pattern confidenceLevel="85">

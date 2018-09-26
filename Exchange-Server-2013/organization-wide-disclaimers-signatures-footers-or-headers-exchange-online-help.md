@@ -116,24 +116,44 @@ Hier sehen Sie einige Beispiele für die Bedingungen und Ausnahmen, die Sie verw
 <td><p>Außerhalb Ihrer Organisation, wenn die ursprüngliche Nachricht keinen Text aus Ihrem Haftungsausschluss enthält, wie “CONTOSO LEGAL NOTICE”</p></td>
 <td><p>Bedingung: <strong>Der Absender befindet sich</strong> &gt; <strong>Innerhalb der Organisation</strong>.</p>
 <p>Ausnahme: <strong>Betreff oder Nachrichtentext</strong> &gt; <strong>Betreff oder Nachrichtentext entspricht diesen Textmustern</strong> &gt; <strong>CONTOSO LEGAL NOTICE</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -ExceptIf -SubjectOrBodyMatches &quot;CONTOSO LEGAL NOTICE&quot;</code></pre></td>
+<td>
+
+```powershell
+-FromScope NotInOrganization -ExceptIf -SubjectOrBodyMatches "CONTOSO LEGAL NOTICE"
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Eingehende Nachrichten mit ausführbaren Anhängen</p></td>
 <td><p>Bedingung 1: <strong>Der Absender befindet sich</strong> &gt; <strong>Außerhalb der Organisation</strong>.</p>
 <p>Bedingung 2: <strong>Eine Anlage</strong> &gt; <strong>hat ausführbaren Inhalt</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -AttachmentHasExecutableContent</code></pre></td>
+<td>
+
+```powershell
+-FromScope NotInOrganization -AttachmentHasExecutableContent
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Absender befindet sich in der Marketing-Abteilung</p></td>
 <td><p>Bedingung: <strong>Absender</strong> &gt; <strong>ist Mitglied dieser Gruppe</strong> &gt; <strong>group name</strong></p></td>
-<td><pre><code>-FromMemberOf &quot;Marketing Team&quot;</code></pre></td>
+<td>
+
+```powershell
+-FromMemberOf "Marketing Team"
+```
+</td>
 </tr>
 <tr class="even">
-<td><p>Jede Nachricht, die von einem externen Absender an die Diskussionsgruppe &quot;Vertrieb&quot; gesendet wird</p></td>
+<td><p>Jede Nachricht, die von einem externen Absender an die Diskussionsgruppe "Vertrieb" gesendet wird</p></td>
 <td><p>Bedingung 1: <strong>Der Absender befindet sich</strong> &gt; <strong>Außerhalb der Organisation</strong>.</p>
 <p>Bedingung 2: <strong>Die Nachricht</strong> &gt; <strong>Feld „An“ oder „Cc“ enthält diese Person</strong> &gt; <strong>group name</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -SentTo &quot;Sales Discussion Group&quot; -PrependSubject &quot;Sent to Sales Discussion Group: &quot;</code></pre></td>
+<td>
+
+```powershell
+-FromScope NotInOrganization -SentTo "Sales Discussion Group" -PrependSubject "Sent to Sales Discussion Group: "
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Voranstellen einer Werbung in ausgehenden Nachrichten für einen Monat</p></td>
@@ -181,7 +201,7 @@ Sie können Ihren Haftungsausschluss nach Bedarf formatieren. Folgende Elemente 
 </tr>
 <tr class="odd">
 <td><p>Hinzufügen von Bildern</p></td>
-<td><p>Verwenden Sie den Tag <code>&lt;IMG&gt;</code>, um auf ein Bild im Internet zu verweisen. Beispiel, <code>&lt;IMG src=&quot;http://contoso.com/images/companylogo.gif&quot; alt=&quot;Contoso logo&quot;&gt;</code></p>
+<td><p>Verwenden Sie den Tag <code>&lt;IMG&gt;</code>, um auf ein Bild im Internet zu verweisen. Beispiel, <code>&lt;IMG src="http://contoso.com/images/companylogo.gif" alt="Contoso logo"&gt;</code></p>
 <p>Denken Sie daran, dass Outlook Web App und Outlook externe Webinhalte, darunter Bilder, standardmäßig blockieren. Die Benutzer müssen möglicherweise eine bestimmte Aktion ausführen, wenn Sie den blockierten externen Inhalt anzeigen möchten. Das bedeutet, dass Bilder, die mithilfe des Tags <code>IMG</code> hinzugefügt wurden, eventuell standardmäßig nicht sichtbar sind. Es wird empfohlen, einen Haftungsausschluss mit <code>IMG</code>-Tags auf den E-Mail-Clients zu testen, die Ihre Empfänger wahrscheinlich verwenden. So können Sie sicherstellen, dass der Haftungsausschluss korrekt angezeigt wird.</p></td>
 </tr>
 <tr class="even">

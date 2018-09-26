@@ -242,6 +242,7 @@ Sie können anhand des Protokolls erkennen, dass der Task erfolgreich ausgeführ
 ## Beispiel 1
 
 In diesem Beispiel wird das Skript verwendet, um die Anmeldeinformationen für das erste Setup per Push an alle Clientzugriffsserver in der Gesamtstruktur zu verteilen.
+
 ```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToEntireForest -GenerateNewPasswordFor "Contoso\ComputerAccount$" -Verbose
 ```
@@ -249,17 +250,21 @@ In diesem Beispiel wird das Skript verwendet, um die Anmeldeinformationen für d
 
 In diesem Beispiel wird ein neues Kennwort für ASA-Anmeldeinformationen eines Benutzerkontos generiert und das Kennwort an alle Mitglieder des Clientzugriffsserver-Arrays verteilt, bei deren Namen eine Übereinstimmung mit \*mailbox\* erkannt wird.
 
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers *mailbox* -GenerateNewPasswordFor "Contoso\UserAccount" -Verbose
+```
 
 ## Beispiel 3
 
 In diesem Beispiel wird ein einmal pro Monat geplanter automatischer Task namens "Exchange-RollAsa" geplant. Er aktualisiert die ASA-Anmeldeinformationen für alle Clientzugriffsserver in der Gesamtstruktur anhand eines neuen, skriptgenerierten Kennworts. Der geplante Task wird erstellt, aber das Skript wird nicht ausgeführt. Wenn der geplante Task ausgeführt wird, wird das Skript im unbeaufsichtigten Modus ausgeführt.
+
 ```powershell
     .\RollAlternateServiceAccountPassword.ps1 -CreateScheduledTask "Exchange-RollAsa" -ToEntireForest -GenerateNewPasswordFor 'contoso\computerAccount$'
 ```
 ## Beispiel 4
 
 In diesem Beispiel werden die ASA-Anmeldeinformationen für alle Clientzugriffsserver im Clientzugriffsserver-Array "CAS01" aktualisiert. Die Anmeldeinformationen werden vom Active Directory-Computerkonto "ServiceAc1" in der Domäne "Contoso" abgerufen.
+
 ```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers "CAS01" -GenerateNewPasswordFor "CONTOSO\ServiceAc1$" 
 ```
