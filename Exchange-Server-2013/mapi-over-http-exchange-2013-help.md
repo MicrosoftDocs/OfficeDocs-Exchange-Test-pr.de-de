@@ -179,8 +179,10 @@ Führen Sie die folgenden Schritte aus, um MAPI über HTTP für Ihre Organisatio
     
     Führen Sie beispielsweise folgenden Befehl aus, um das virtuelle Standard-MAPI-Verzeichnis auf dem lokalen Exchange-Server durch Festlegen des internen URL-Wertes auf "https://contoso.com/mapi" und `Negotiate` als Authentifizierungsmethode zu konfigurieren:
     
+    ```powershell
         Set-MapiVirtualDirectory -Identity "Contoso\mapi (Default Web Site)" -InternalUrl https://Contoso.com/mapi -IISAuthenticationMethods Negotiate
-
+    ```
+    
 2.  **Zertifikatkonfiguration**   Das von der Exchange-Umgebung verwendete Zertifikat muss dieselben Werte für *InternalURL* und *ExternalURL* enthalten, die im virtuellen MAPI-Verzeichnis definiert sind. Weitere Informationen zur Exchange 2013-Zertifikatverwaltung finden Sie unter [Digitale Zertifikate und SSL](digital-certificates-and-ssl-exchange-2013-help.md). Stellen Sie sicher, dass das Exchange-Zertifikat auf der Outlook-Clientarbeitsstation vertrauenswürdig ist und dass keine Zertifikatfehler vorliegen, vor allem wenn Sie die im virtuellen MAPI-Verzeichnis konfigurierten URLs aufrufen.
 
 3.  **Aktualisieren der Serverregeln**   Stellen Sie sicher, dass der Lastenausgleich, Reverse-Proxyserver und Firewalls für den Zugriff auf das virtuelle MAPI über HTTP-Verzeichnis konfiguriert sind.
@@ -189,7 +191,9 @@ Führen Sie die folgenden Schritte aus, um MAPI über HTTP für Ihre Organisatio
     
     Führen Sie den folgenden Befehl aus:
     
-        Set-OrganizationConfig -MapiHttpEnabled $true
+    ```powershell
+    Set-OrganizationConfig -MapiHttpEnabled $true
+    ```
 
 ## Testen von MAPI über HTTP-Verbindungen
 
@@ -197,13 +201,17 @@ Sie können die End-to-End-Verbindung mit MAPI über HTTP mithilfe des Cmdlets *
 
 Im folgenden Beispiel wird die MAPI über HTTP-Verbindung von einem Exchange-Server namens ContosoMail getestet.
 
-    Test-OutlookConnectivity -RunFromServerId ContosoMail -ProbeIdentity OutlookMapiHttpSelfTestProbe
+```powershell
+Test-OutlookConnectivity -RunFromServerId ContosoMail -ProbeIdentity OutlookMapiHttpSelfTestProbe
+```
 
 Wenn der Test erfolgreich ist, ähnelt die Ausgabe dem folgenden Beispiel:
 
+```powershell
     MonitorIdentity                                          StartTime              EndTime                Result      Error     Exception
     ---------------                                          ---------              -------                ------      -----     ---------
     OutlookMapiHttp.Protocol\OutlookMapiHttpSelfTestProbe    2/14/2014 7:15:00 AM   2/14/2014 7:15:10 AM   Succeeded
+```
 
 Weitere Informationen finden Sie unter [Test-OutlookConnectivity](https://technet.microsoft.com/de-de/library/dd638082\(v=exchg.150\)).
 

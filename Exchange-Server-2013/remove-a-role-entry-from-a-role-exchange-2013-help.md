@@ -45,11 +45,15 @@ Wenn Sie einen Rolleneintrag aus einer Rolle entfernen, entziehen Sie den dieser
 
 Verwenden Sie die folgende Syntax, um einen einzelnen Verwaltungsrolleneintrag aus einer Rolle zu entfernen.
 
+```powershell
     Remove-ManagementRoleEntry <management role>\<management role entry>
+```
 
 In diesem Beispiel wird das Cmdlet **Enable-MailUser** aus der Rolle "Seattle Server Administrators" entfernt.
 
+```powershell
     Remove-ManagementRoleEntry "Seattle Server Administrators\Enable-MailUser"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-ManagementRoleEntry](https://technet.microsoft.com/de-de/library/dd351187\(v=exchg.150\)).
 
@@ -59,15 +63,21 @@ Wenn Sie mehrere Rolleneinträge aus einer Rolle entfernen, entziehen Sie den di
 
 Um mehrere Rolleneinträge aus einer Rolle zu entfernen, müssen Sie die Liste der zu entfernenden Rolleneinträge mit dem Cmdlet **Get-ManagementRoleEntry** abrufen. Anschließend müssen Sie die Ausgabe mittels Pipe an das Cmdlet **Remove-ManagementRoleEntry** umleiten. Sie können Platzhalterzeichen mit dem Cmdlet **Get-ManagementRoleEntry** verwenden, um mehrere Rolleneinträge zu ermitteln. Stellen Sie mithilfe der Option *WhatIf* sicher, dass die richtigen Rolleneinträge entfernt werden. Verwenden Sie die folgende Syntax.
 
+```powershell
     Get-ManagementRoleEntry <management role>\<role entry with wildcard character> | Remove-ManagementRoleEntry -WhatIf
+```
 
 In diesem Beispiel werden alle Rolleneinträge aus der Rolle "Seattle Server Administrators" entfernt, die das Wort "journal" enthalten.
 
+```powershell
     Get-ManagementRoleEntry "Seattle Server Administrators\*Journal*" | Remove-ManagementRoleEntry -WhatIf
+```
 
 Wenn Sie den Befehl mit der Option *WhatIf* ausführen, gibt das Cmdlet eine Liste aller Rolleneinträge zurück, die entfernt würden. Wenn die Liste die richtigen Einträge enthält, führen Sie den Befehl ohne die Option *WhatIf* erneut aus, um die Rolleneinträge zu entfernen.
 
+```powershell
     Get-ManagementRoleEntry "Seattle Server Administrators\*Journal*" | Remove-ManagementRoleEntry
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementRoleEntry](https://technet.microsoft.com/de-de/library/dd335210\(v=exchg.150\)) und [Remove-ManagementRoleEntry](https://technet.microsoft.com/de-de/library/dd351187\(v=exchg.150\)).
 
@@ -76,12 +86,14 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Manag
 Wenn Sie Parameter aus einem Rolleneintrag für eine Rolle entfernen, stehen diese Parameter den dieser Rolle zugewiesenen Benutzern nicht länger zur Verfügung.
 
 Verwenden Sie die folgende Syntax, um Parameter aus einem Rolleneintrag zu entfernen.
-
+```powershell
     Set-ManagementRoleEntry <management role>\<role entry> -Parameters <parameter 1>,<parameter 2...> -RemoveParameter
+```
 
 In diesem Beispiel werden die Parameter *MaxSafeSenders*, *MaxSendSize*, *SecondaryAddress* und *UseDatabaseQuotaDefaults* aus dem Rolleneintrag **Set-Mailbox** für die Rolle "Seattle Server Administrators" entfernt.
-
+```powershell
     Set-ManagementRoleEntry "Seattle Server Administrators\Set-Mailbox" -Parameters MaxSafeSenders,MaxSendSize,SecondaryAddress,UseDatabaseQuotaDefaults -RemoveParameter
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementRoleEntry](https://technet.microsoft.com/de-de/library/dd351162\(v=exchg.150\)).
 

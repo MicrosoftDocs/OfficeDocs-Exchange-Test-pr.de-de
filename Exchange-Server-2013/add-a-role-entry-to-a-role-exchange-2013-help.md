@@ -55,11 +55,15 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit R
 
 Sie können einen Rolleneintrag mithilfe der folgenden Syntax genau so zu einer Rolle hinzufügen, wie dieser in der übergeordneten Rolle angezeigt wird.
 
+```powershell
     Add-ManagementRoleEntry <child role name>\<cmdlet>
+```
 
 In diesem Beispiel wird das Cmdlet **Set-Mailbox** der Rolle "Recipient Administrators" hinzugefügt.
 
+```powershell
     Add-ManagementRoleEntry "Recipient Administrators\Set-Mailbox"
+```
 
 Dieser Befehl überprüft die übergeordnete Rolle und fügt den Rolleneintrag zur untergeordneten Rolle hinzu, wenn dieser vorhanden ist. Wenn der Rolleneintrag in der untergeordneten Rolle bereits vorhanden ist, können Sie den Parameter *Overwrite* einbeziehen, um den vorhandenen Rolleneintrag zu überschreiben.
 
@@ -69,11 +73,15 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Add-Manag
 
 Wenn Sie einen Rolleneintrag aus einer übergeordneten Rolle hinzufügen, aber nur spezifische Parameter in den Rolleneintrag der untergeordneten Rolle übernehmen möchten, verwenden Sie die folgende Syntax.
 
+```powershell
     Add-ManagementRoleEntry <child role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...>
+```
 
 In diesem Beispiel wird das Cmdlet **Set-Mailbox** der Rolle "Help Desk" hinzugefügt, aber nur die Parameter *DisplayName* und *EmailAddresses* werden in den Eintrag für die untergeordnete Rolle übernommen.
 
+```powershell
     Add-ManagementRoleEntry "Help Desk\Set-Mailbox" -Parameters DisplayName, EmailAddresses
+```
 
 Dieser Befehl überprüft die übergeordnete Rolle und fügt den Rolleneintrag zur untergeordneten Rolle hinzu, wenn dieser vorhanden ist. Wenn der Rolleneintrag in der untergeordneten Rolle bereits vorhanden ist, können Sie den Parameter *Overwrite* einbeziehen, um den vorhandenen Rolleneintrag zu überschreiben.
 
@@ -85,11 +93,15 @@ Wenn Sie einer Rolle mehrere Rolleneinträge hinzufügen möchten, müssen Sie e
 
 Verwenden Sie die folgende Syntax, um mehrere Einträge aus einer übergeordneten Rolle zu einer untergeordneten Rolle hinzuzufügen.
 
+```powershell
     Get-ManagementRoleEntry <parent role name>\*<partial cmdlet name>* | Add-ManagementRoleEntry -Role <child role name>
+```
 
 In diesem Beispiel werden alle Rolleneinträge, die die Zeichenfolge `Mailbox` im Cmdlet-Namen der übergeordneten Rolle "Mail Recipients" enthalten, der untergeordneten Rolle "Seattle Mail Recipients" hinzugefügt.
 
+```powershell
     Get-ManagementRoleEntry "Mail Recipients\*Mailbox*" | Add-ManagementRoleEntry -Role "Seattle Mail Recipients"
+```
 
 Wenn die Rolleneinträge in der untergeordneten Rolle bereits vorhanden sind, können Sie den Parameter *Overwrite* einbeziehen, um die vorhandenen Rolleneinträge zu überschreiben.
 

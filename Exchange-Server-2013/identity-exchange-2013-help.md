@@ -35,12 +35,16 @@ Der Parameter *Identity* ist außerdem ein Positionsparameter. Wenn keine Parame
 
 Das folgende Beispiel zeigt die Verwendung des Parameters *Identity* unter Verwendung des eindeutigen Parameterwerts *Name* des Empfangsconnectors. Das Beispiel zeigt außerdem, wie der Parametername *Identity* ausgelassen werden kann, weil *Identity* ein Positionsparameter ist.
 
-    Get-ReceiveConnector -Identity "From the Internet"
-    Get-ReceiveConnector "From the Internet"
+```powershell
+Get-ReceiveConnector -Identity "From the Internet"
+Get-ReceiveConnector "From the Internet"
+```
 
 Wie auf alle Objekte in Exchange 2013 kann auf diesen Empfangsconnector auch durch seine eindeutige GUID verwiesen werden. Wenn dem Empfangsconnector namens `"From the Internet"` auch die GUID `63d64005-42c5-4f8f-b310-14f6cb125bf3` zugewiesen wurde, können Sie den Empfangsconnector z. B. auch über den folgenden Befehl abrufen:
 
-    Get-ReceiveConnector 63d64005-42c5-4f8f-b310-14f6cb125bf3
+```powershell
+Get-ReceiveConnector 63d64005-42c5-4f8f-b310-14f6cb125bf3
+```
 
 Zurück zum Seitenanfang
 
@@ -66,11 +70,15 @@ Die in diesem Thema beschriebenen Beispiele zeigen, wie der Parameter *Identity*
 
 Die Beispiele in diesem Abschnitt beziehen sich auf die Benachrichtigungen über den Übermittlungsstatus (Delivery Status Notification, DSN), die in einer Exchange 2013-Organisation konfiguriert werden können. Das erste Beispiel zeigt, wie DSN 5.4.1 mithilfe des Cmdlets **Get-SystemMessage** abgerufen werden kann. Im Cmdlet **Get-SystemMessage** besteht der Parameter *Identity* aus mehreren Datenelementen, die für jedes DSN-Nachrichtenobjekt konfiguriert sind. Diese Datenelemente umfassen die Sprache, in denen die Benachrichtigung geschrieben ist, ob der Bereich der Benachrichtigung intern oder extern ist, und den DSN-Nachrichtencode, wie im folgenden Beispiel gezeigt wird:
 
-    Get-SystemMessage en\internal\5.4.1
+```powershell
+Get-SystemMessage en\internal\5.4.1
+```
 
 Sie können diese DSN-Nachricht auch mithilfe ihrer GUID abrufen, wie das folgende Beispiel zeigt, weil alle Objekte in Exchange 2013 eine GUID besitzen:
 
-    Get-SystemMessage 82ca7bde-1c2d-4aa1-97e1-f298a6f10222
+```powershell
+Get-SystemMessage 82ca7bde-1c2d-4aa1-97e1-f298a6f10222
+```
 
 Weitere Informationen zum Parameter *Identity* und seine Verwendung mit den **SystemMessage**-Cmdlets finden Sie unter [DSN-Nachrichtenidentität](dsn-message-identity-exchange-2013-help.md).
 
@@ -78,23 +86,30 @@ Weitere Informationen zum Parameter *Identity* und seine Verwendung mit den **Sy
 
 Die Beispiele in diesem Abschnitt beziehen sich auf Verwaltungsrolleneinträge, aus denen die Verwaltungsrollen in Exchange 2013 zusammengesetzt sind. Anhand von Verwaltungsrollen werden die Berechtigungen gesteuert, die Administratoren und Endbenutzern erteilt werden. Verwaltungsrolleneinträge bestehen aus zwei Teilen: der Verwaltungsrolle, der sie zugeordnet sind, und einem Cmdlet. Der Parameter Identity besteht ebenfalls sowohl aus dem Verwaltungsrollennamen als auch aus dem Namen des Cmdlets. Im Folgenden wird beispielsweise der Rolleneintrag für das Cmdlet **Set-Mailbox** für die Rolle `Mail Recipients` gezeigt:
 
-    Mail Recipients\Set-Mailbox
+```powershell
+Mail Recipients\Set-Mailbox
+```
 
 Der Rolleneintrag `Mail Recipients\Set-Mailbox` ist einer von mehreren hundert Einträgen für die Rolle `Mail Recipients`. Um alle Rolleneinträge für die Rolle `Mail Recipients` anzuzeigen, verwenden Sie den folgenden Befehl:
 
-    Get-ManagementRoleEntry "Mail Recipients\*"
+```powershell
+Get-ManagementRoleEntry "Mail Recipients\*"
+```
 
 Um alle Rolleneinträge für die Rolle `Mail Recipients` anzuzeigen, die die Zeichenfolge "`Mailbox`" enthalten, verwenden Sie den folgenden Befehl:
 
-    Get-ManagementRoleEntry "Mail Recipients\*Mailbox*"
+```powershell
+Get-ManagementRoleEntry "Mail Recipients\*Mailbox*"
+```
 
 Um alle Verwaltungsrollen anzeigen, die den Rolleneintrag **Set-Mailbox** enthalten, verwenden Sie den folgenden Befehl:
 
-    Get-ManagementRoleEntry *\Set-Mailbox
+```powershell
+Get-ManagementRoleEntry *\Set-Mailbox
+```
 
 Mit Rolleneinträgen können Sie das Platzhalterzeichen vielfältig einsetzen, um die für Sie relevanten Informationen aus Exchange 2013 abzurufen.
 
 Weitere Informationen zu Verwaltungsrollen finden Sie unter [Grundlegendes zu Verwaltungsrollen](understanding-management-roles-exchange-2013-help.md).
 
 Zurück zum Seitenanfang
-

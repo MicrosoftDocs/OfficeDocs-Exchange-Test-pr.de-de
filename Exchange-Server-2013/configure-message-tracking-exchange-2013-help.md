@@ -57,7 +57,9 @@ Die Nachrichtenverfolgung zeichnet die SMTP-Transportaktivitäten aller Nachrich
 
 Führen Sie den folgenden Befehl aus, um die Nachrichtenverfolgung zu konfigurieren:
 
+```powershell
     Set-TransportService <ServerIdentity> -MessageTrackingLogEnabled <$true | $false> -MessageTrackingLogMaxAge <dd.hh:mm:ss> -MessageTrackingLogMaxDirectorySize <Size> -MessageTrackingLogMaxFileSize <Size> -MessageTrackingLogPath <LocalFilePath> -MessageTrackingLogSubjectLoggingEnabled <$true|$false>
+```
 
 In diesem Beispiel werden folgende Einstellungen für das Nachrichtenverfolgungsprotokoll auf dem Postfachserver "Mailbox01" festgelegt:
 
@@ -71,7 +73,9 @@ In diesem Beispiel werden folgende Einstellungen für das Nachrichtenverfolgungs
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Mailbox01 -MessageTrackingLogPath "D:\Hub Message Tracking Log" -MessageTrackingLogMaxFileSize 20MB -MessageTrackingLogMaxDirectorySize 1.5GB -MessageTrackingLogMaxAge 45.00:00:00
+```
 
 
 > [!NOTE]
@@ -87,11 +91,15 @@ In diesem Beispiel werden folgende Einstellungen für das Nachrichtenverfolgungs
 
 In diesem Beispiel wird die Nachrichtenbetreffprotokollierung im Nachrichtenverfolgungsprotokoll auf dem Postfachserver "Mailbox01" deaktiviert:
 
-    Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```
 
 In diesem Beispiel wird die Nachrichtenverfolgung auf dem Postfachserver namens "Mailbox01" deaktiviert:
 
-    Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -99,7 +107,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Nachrichtenverfolgun
 
 1.  Führen Sie in der Shell den folgenden Befehl aus:
     
+    ```powershell
         Get-TransportService <ServerIdentity> | Format-List MessageTrackingLog*
-
+    ```
+    
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 

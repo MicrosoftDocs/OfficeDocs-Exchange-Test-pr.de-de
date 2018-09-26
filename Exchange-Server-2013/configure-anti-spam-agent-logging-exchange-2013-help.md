@@ -41,7 +41,9 @@ Die Agent-Protokollierung zeichnet die Aktionen auf, die von bestimmten Exchange
 
 Führen Sie den folgenden Befehl aus:
 
-    Set-TransportService <ServerIdentity> -AgentLogEnabled <$true | $false> -AgentLogMaxAge <dd.hh:mm:ss> -AgentLogMaxDirectorySize <Size> -AgentLogMaxFileSize <Size> -AgentLogPath <LocalFilePath>
+  ```powershell
+  Set-TransportService <ServerIdentity> -AgentLogEnabled <$true | $false> -AgentLogMaxAge <dd.hh:mm:ss> -AgentLogMaxDirectorySize <Size> -AgentLogMaxFileSize <Size> -AgentLogPath <LocalFilePath>
+  ```
 
 In diesem Beispiel werden folgende Agent-Protokolleinstellungen auf dem Postfachserver "Mailbox01" festgelegt:
 
@@ -55,7 +57,9 @@ In diesem Beispiel werden folgende Agent-Protokolleinstellungen auf dem Postfach
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -AgentLogPath "D:\Anti-Spam Agent Log" -AgentLogMaxFileSize 20MB -AgentLogMaxDirectorySize 400MB -AgentLogMaxAge 14.00:00:00
+  ```powershell
+  Set-TransportService Mailbox01 -AgentLogPath "D:\Anti-Spam Agent Log" -AgentLogMaxFileSize 20MB -AgentLogMaxDirectorySize 400MB -AgentLogMaxAge 14.00:00:00
+  ```
 
 
 > [!NOTE]
@@ -65,8 +69,6 @@ In diesem Beispiel werden folgende Agent-Protokolleinstellungen auf dem Postfach
 > <LI>
 > <P>Wenn Sie den Parameter <EM>AgentLogMaxAge</EM> auf den Wert <CODE>00:00:00</CODE> festlegen, wird verhindert, dass Agent-Protokolldateien aufgrund ihres Alters automatisch gelöscht werden.</P></LI></UL>
 
-
-
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter den *AgentLog*-Parametern in [Set-TransportService](https://technet.microsoft.com/de-de/library/jj215682\(v=exchg.150\)).
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
@@ -75,7 +77,7 @@ Gehen Sie wie folgt vor, um sich zu vergewissern, dass Sie die Antispam-Agent-Pr
 
 1.  Führen Sie in der Shell den folgenden Befehl aus:
     
-        Get-TransportService <ServerIdentity> | Format-List AgentLog*
-
+    ```powershell
+    Get-TransportService <ServerIdentity> | Format-List AgentLog*
+    ```
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
-

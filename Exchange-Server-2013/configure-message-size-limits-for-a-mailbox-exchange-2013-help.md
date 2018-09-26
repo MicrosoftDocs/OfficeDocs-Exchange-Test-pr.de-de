@@ -65,7 +65,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Benutzerpostfächer f
 
 Bei diesem Beispiel wird für das Postfach von Debra Garcia die maximale Größe gesendeter Nachricht auf 25 MB und empfangener Nachrichten auf 35 MB festgelegt.
 
-    Set-Mailbox "Debra Garcia" -MaxSendSize 25mb -MaxReceiveSize 35mb
+```powershell
+Set-Mailbox "Debra Garcia" -MaxSendSize 25mb -MaxReceiveSize 35mb
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)).
 
@@ -85,5 +87,7 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Konfiguration 
 
 Führen Sie folgenden Befehl in der Shell aus.
 
-    Get-Mailbox <identity> | fl MaxSendSize,MaxReceiveSize
+```powershell
+Get-Mailbox <identity> | fl MaxSendSize,MaxReceiveSize
+```
 

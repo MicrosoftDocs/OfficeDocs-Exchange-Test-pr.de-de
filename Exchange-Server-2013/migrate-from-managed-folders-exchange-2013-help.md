@@ -262,6 +262,7 @@ Es gibt zwei Methoden, die Sie für diesen Schritt verwenden können:
 
 In diesem Beispiel werden Aufbewahrungstags auf der Grundlage der entsprechenden Einstellungen für verwaltete Inhalte in der Contoso-Postfachrichtlinie für verwalteten Ordner erstellt.
 
+```powershell
     New-RetentionPolicyTag Corp-DeletedItems -ManagedFolderToUpgrade Corp-DeletedItems
     New-RetentionPolicyTag Corp-SentItems -ManagedFolderToUpgrade Corp-SentItems
     New-RetentionPolicyTag Corp-JunkMail -ManagedFolderToUpgrade Corp-JunkMail
@@ -269,6 +270,7 @@ In diesem Beispiel werden Aufbewahrungstags auf der Grundlage der entsprechenden
     New-RetentionPolicyTag 30Days -ManagedFolderToUpgrade 30Days
     New-RetentionPolicyTag 5Years -ManagedFolderToUpgrade 5Years
     New-RetentionPolicyTag NeverExpire -ManagedFolderToUpgrade NeverExpire
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-RetentionPolicyTag](https://technet.microsoft.com/de-de/library/dd335226\(v=exchg.150\)).
 
@@ -282,6 +284,7 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Reten
 
 In diesem Beispiel werden Aufbewahrungstags auf der Grundlage der verwalteten Ordner und entsprechenden Einstellungen für verwaltete Inhalte in der Contoso-Postfachrichtlinie für verwalteten Ordner erstellt. Die Aufbewahrungseinstellungen werden manuell ohne Verwendung des Parameters *ManagedFolderToUpgrade* angegeben.
 
+```powershell
     New-RetentionPolicyTag Corp-DeletedItems -Type DeletedItems -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction DeleteAndAllowRecovery
     New-RetentionPolicyTag Corp-SentItems -Type SentItems -RetentionEnabled $true -AgeLimitforRetention 1825 -RetentionAction MoveToDeletedItems
     New-RetentionPolicyTag Corp-JunkMail -Type JunkMail -RetentionEnabled $true -AgeLimitforRetention 30 -RetentionAction PermanentlyDelete
@@ -289,6 +292,7 @@ In diesem Beispiel werden Aufbewahrungstags auf der Grundlage der verwalteten Or
     New-RetentionPolicyTag 30Days -Type Personal -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction MoveToDeletedItems
     New-RetentionPolicyTag 5Years -Type Personal -RetentionEnabled $true -AgeLimitForRetention 1825 -RetentionAction MoveToDeletedItems
     New-RetentionPolicyTag NeverExpire -Type Personal -RetentionEnabled $false
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-RetentionPolicyTag](https://technet.microsoft.com/de-de/library/dd335226\(v=exchg.150\)).
 
@@ -304,7 +308,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 In diesem Beispiel wird die Aufbewahrungsrichtlinie "RC-Corp" erstellt, und die neu erstellten Aufbewahrungstags werden mit der Richtlinie verknüpft.
 
+```powershell
     New-RetentionPolicy RP-Corp -RetentionPolicyTagLinks Corp-DeletedItems,Corp-SentItems,Corp-JunkMail,Corp-EntireMailbox,30Days,NeverExpire
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-RetentionPolicy](https://technet.microsoft.com/de-de/library/dd297970\(v=exchg.150\)).
 
@@ -314,7 +320,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 In diesem Beispiel werden die Postfachrichtlinie für verwaltete Ordner sowie alle verwalteten Ordner aus dem Postfach von Ken Kwok entfernt. Verwaltete Ordner, die Nachrichten enthalten, werden nicht entfernt.
 
-    Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```
 
 ## Schritt 4: Wenden Sie die Aufbewahrungsrichtlinie auf Benutzerpostfächer an
 
@@ -328,7 +336,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 In diesem Beispiel wird die neu erstellte Aufbewahrungsrichtlinie "RP-Corp" auf den Postfachbenutzer "Ken Kwok" angewendet.
 
-    Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)).
 
@@ -340,11 +350,15 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Migration von verwal
     
     Dieser Befehl ruft die für alle Postfächer in einer Organisation geltende Aufbewahrungsrichtlinie und den Aufbewahrungsstatus ab.
     
+    ```powershell
         Get-Mailbox -ResultSize unlimited -Filter {Name -NotLike "DiscoverySearch*�?} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
-
+    ```
+    
   - Nachdem der Assistenten für verwaltete Ordner ein Postfach mit einer Aufbewahrungsrichtlinie verarbeitet hat, rufen Sie mit dem Cmdlet [Get-RetentionPolicyTag](https://technet.microsoft.com/de-de/library/dd298009\(v=exchg.150\)) die im Benutzerpostfach bereitgestellten Aufbewahrungstags ab.
     
     Dieser Befehl ruft die Aufbewahrungstags ab, die dem Postfach von April Stewart zugeordnet sind.
     
-        Get-RetentionPolicyTag -Mailbox astewart
+    ```powershell
+    Get-RetentionPolicyTag -Mailbox astewart
+    ```
 

@@ -49,7 +49,9 @@ Sie interessieren sich für Szenarien, in denen dieses Verfahren verwendet wird?
 
 1.  Führen Sie den folgenden Befehl aus, um den fremden Connector zu erstellen:
     
+    ```powershell
         New-ForeignConnector -Name "Contoso Foreign Connector" -AddressSpaces "X400:c=US;a=Fabrikam;P=Contoso;5" -SourceTransportServers Hub01,Hub02
+    ```
     
     In diesem Beispiel sind "Hub01" und "Hub02" Quellserver in Ihrer Organisation, die Sie zur Nachrichtenzustellung an das fremde System einsetzen. Die Verwendung von mehr als einem Quellserver bietet Fehlertoleranz.
 
@@ -59,7 +61,9 @@ Nachdem Sie den fremden Connector erstellt haben, können Sie basierend auf den 
 
 Führen Sie den folgenden Befehl aus, um sicherzustellen, dass der fremde Connector erfolgreich erstellt wurde:
 
-    Get-ForeignConnector | Format-List Name
+```powershell
+Get-ForeignConnector | Format-List Name
+```
 
 Überprüfen Sie, ob der Name des erstellten fremden Connectors angezeigt wird.
 
@@ -71,13 +75,17 @@ Sie erstellen das Verzeichnis, das als Ablageverzeichnis verwendet werden soll, 
 
 1.  Führen Sie das folgende Skript aus, um das Ablageverzeichnis für Ihren fremden Connector anzugeben (ändern Sie den Wert für den Parameter *DropDirectory* in einen geeigneten Pfad für Ihre Umgebung):
     
+    ```powershell
         Set-ForeignConnector "Contoso Foreign Connector" -DropDirectory "C:\Drop Directory"
-
+    ```
+    
 ## Woher wissen Sie, dass dieser Schritt erfolgreich war?
 
 Sie können das folgende Cmdlet-Skript ausführen und den Wert des Parameters *DropDirectory* überprüfen, um die ordnungsgemäße Einrichtung des Ablageverzeichnisses zu überprüfen:
 
-    Get-ForeignConnector "Contoso Foreign Connector" | Format-List
+```powershell
+Get-ForeignConnector "Contoso Foreign Connector" | Format-List
+```
 
 Nachdem Sie den fremden Connector erstellt und das Ablageverzeichnis angegeben haben, können Sie über den Postfachserver, auf dem Sie den fremden Connector erstellt haben, eine Nachricht senden und überprüfen, ob eine Datei an das Ablageverzeichnis zugestellt wurde.
 
@@ -91,7 +99,9 @@ Ausführliche Anweisungen zum Konfigurieren Ihres PICKUP-Verzeichnisses finden S
 
 Sie können den folgenden Befehl ausführen und den Wert des Parameters *PickupDirectoryPath* überprüfen, um die ordnungsgemäße Einrichtung des PICKUP-Verzeichnisses zu überprüfen:
 
-    Get-TransportService | Format-List PickupDirectoryPath
+```powershell
+Get-TransportService | Format-List PickupDirectoryPath
+```
 
 ## Schritt 4: Konfigurieren des Wiedergabeverzeichnisses für den Transportdienst auf einem Postfachserver mithilfe der Shell
 
@@ -103,7 +113,9 @@ Ausführliche Anweisungen zum Konfigurieren Ihres PICKUP-Verzeichnisses finden S
 
 Sie können den folgenden Befehl ausführen und den Wert des Parameters *ReplayDirectoryPath* überprüfen, um die ordnungsgemäße Einrichtung des Wiedergabeverzeichnisses zu überprüfen:
 
-    Get-TransportService | Format-List ReplayDirectoryPath
+```powershell
+Get-TransportService | Format-List ReplayDirectoryPath
+```
 
 ## Weitere Informationen
 

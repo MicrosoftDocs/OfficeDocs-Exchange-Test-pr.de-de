@@ -47,11 +47,15 @@ Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie d
 
 In diesem Beispiel werden Statistiken für den Ordner **Wiederherstellbare Elemente** von Soumya Singhi abgerufen, und die Ausgabe wird im Listenformat angezeigt.
 
-    Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```powershell
+Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```
 
 In diesem Beispiel werden Statistiken für den Ordner **Wiederherstellbare Elemente** von Soumya Singhi abgerufen, und der Ordnername, der Ordnerpfad, die Anzahl von Elementen innerhalb des Ordners sowie die Ordnergröße werden im Tabellenformat angezeigt.
 
-    Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-Table Name,FolderPath,ItemsInFolder,FolderAndSubfolderSize
+```powershell
+Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-Table Name,FolderPath,ItemsInFolder,FolderAndSubfolderSize
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-MailboxFolderStatistics](https://technet.microsoft.com/de-de/library/aa996762\(v=exchg.150\)).
 
@@ -59,7 +63,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Mailb
 
 In diesem Beispiel wird eine Liste aller Postfächer abgerufen, die einem Beweissicherungsverfahren unterliegen. Zudem werden für die einzelnen Postfächer Postfachordnerstatistiken für den Ordner "Wiederherstellbare Elemente" und seine Unterordner abgerufen. Die Eigenschaften **Identity** (Postfachordneridentität) und **FolderAndSubfolderSize** werden im Tabellenformat angezeigt.
 
-    Get-Mailbox -ResultSize Unlimited -Filter {LitigationHoldEnabled -eq $true} | Get-MailboxFolderStatistics | Format-Table Identity,FolderAndSubfolderSize
+```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {LitigationHoldEnabled -eq $true} | Get-MailboxFolderStatistics | Format-Table Identity,FolderAndSubfolderSize
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)) und [Get-MailboxFolderStatistics](https://technet.microsoft.com/de-de/library/aa996762\(v=exchg.150\)).
 
@@ -67,9 +73,12 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Mailb
 
 In diesem Beispiel wird das Kontingent und der Warngrenzwert für den Ordner "Wiederherstellbare Elemente" für ein Benutzerpostfach veranschaulicht. In diesem Beispiel werden außerdem Informationen abgerufen, ob für das Postfach ein Beweissicherungsverfahren aktiviert ist oder es im Compliance-Archiv platziert ist.
 
-    Get-Mailbox -Identity <identity of mailbox> | Format-List RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
+```powershell
+Get-Mailbox -Identity <identity of mailbox> | Format-List RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
+```
 
 In diesem Beispiel wird das Kontingent und der Warngrenzwert für den Ordner "Wiederherstellbare Elemente" für alle Benutzerpostfächer in Ihrer Organisation veranschaulicht. In dem Beispiel werden außerdem Archiv-Informationen abgerufen.
 
-    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Format-List Name,RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
-
+```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Format-List Name,RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
+```

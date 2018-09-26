@@ -65,12 +65,15 @@ Weitere Informationen zu Verwaltungsbereichsfiltern finden Sie unter [Grundlegen
 
 Verwenden Sie zum Erstellen eines Einschränkungsfilterbereichs für Domänen mit einer Basisorganisationseinheit die folgende Syntax.
 
+```powershell
     New-ManagementScope -Name <scope name> -RecipientRestrictionFilter <filter query> [-RecipientRoot <OU>]
+```
 
 In diesem Beispiel wird ein Bereich mit allen Postfächern innerhalb von "contoso.com/Sales OU" erstellt.
 
+```powershell
     New-ManagementScope -Name "Mailboxes in Sales OU" -RecipientRestrictionFilter { RecipientType -eq 'UserMailbox' } -RecipientRoot "contoso.com/Sales OU"
-
+```
 
 > [!NOTE]
 > Der Parameter <EM>RecipientRoot</EM> kann ausgelassen werden, wenn der Filter nicht nur innerhalb einer bestimmten Organisationseinheit, sondern auf den gesamten impliziten Lesebereich der Verwaltungsrolle angewendet werden soll.
@@ -87,11 +90,15 @@ Weitere Informationen zu Verwaltungsbereichsfiltern und eine Liste filterbarer S
 
 Verwenden Sie zum Erstellen eines Serverfilterbereichs die folgende Syntax.
 
-    New-ManagementScope -Name <scope name> -ServerRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -ServerRestrictionFilter <filter query>
+```
 
 In diesem Beispiel wird ein Bereich erstellt, der alle Server im Active Directory-Standort "CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com'" umfasst.
 
+```powershell
     New-ManagementScope -Name "Servers in Seattle AD site" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementScope](https://technet.microsoft.com/de-de/library/dd335137\(v=exchg.150\)).
 
@@ -101,11 +108,15 @@ Listenbasierte Serverkonfigurationsbereiche werden unter Verwendung des Paramete
 
 Verwenden Sie zum Erstellen eines listenbasierten Serverbereichs die folgende Syntax.
 
-    New-ManagementScope -Name <scope name> -ServerList <server 1>, <server 2...>
+```powershell
+New-ManagementScope -Name <scope name> -ServerList <server 1>, <server 2...>
+```
 
 In diesem Beispiel wird ein Bereich erstellt, der nur auf "MBX1", "MBX3" und "MBX5" angewendet wird.
 
-    New-ManagementScope -Name "Mailbox servers" -ServerList MBX1,MBX3,MBX5
+```powershell
+New-ManagementScope -Name "Mailbox servers" -ServerList MBX1,MBX3,MBX5
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementScope](https://technet.microsoft.com/de-de/library/dd335137\(v=exchg.150\)).
 
@@ -123,11 +134,15 @@ Weitere Informationen zu Verwaltungsbereichsfiltern und eine Liste filterbarer D
 
 Verwenden Sie zum Erstellen eines Datenbankeinschränkungsfilters die folgende Syntax.
 
-    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```
 
 In diesem Beispiel wird ein Bereich mit allen Datenbanken erstellt, deren Eigenschaft **Name** die Zeichenfolge "Executive" enthält.
 
+```powershell
     New-ManagementScope -Name "Executive Databases" -DatabaseRestrictionFilter { Name -Like '*Executive*' }
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementScope](https://technet.microsoft.com/de-de/library/dd335137\(v=exchg.150\)).
 
@@ -143,11 +158,15 @@ Listenbasierte Datenbankkonfigurationsbereiche werden unter Verwendung des Param
 
 Verwenden Sie zum Erstellen eines listenbasierten Datenbankbereichs die folgende Syntax.
 
-    New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```
 
 In diesem Beispiel wird ein Bereich erstellt, der nur auf die Datenbanken "Database 1", "Database 2" und "Database 3" angewendet wird.
 
-    New-ManagementScope -Name "Primary databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```powershell
+New-ManagementScope -Name "Primary databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementScope](https://technet.microsoft.com/de-de/library/dd335137\(v=exchg.150\)).
 
@@ -163,11 +182,15 @@ Sämtliche mit dem Cmdlet **New-ManagementScope** erstellten Bereiche können al
 
 In diesem Beispiel wird ein exklusiver filterbasierter Empfängerbereich für alle Benutzer in der Abteilung "Executives" erstellt.
 
+```powershell
     New-ManagementScope "Executive Users Exclusive Scope" -RecipientRestrictionFilter { Department -Eq "Executives" } -Exclusive
+```
 
 Bei der Erstellung eines exklusiven Bereichs müssen Sie standardmäßig bestätigen, dass Sie einen exklusiven Bereich erstellt haben und sich der Auswirkungen eines exklusiven Bereichs auf vorhandene Rollenzuweisungen bewusst sind, die nicht exklusiv sind. Zum Unterdrücken der Warnmeldung können Sie die Option *Force* verwenden. In diesem Beispiel wird derselbe Bereich wie im vorherigen Beispiel erstellt, jedoch ohne die Warnmeldung.
 
+```powershell
     New-ManagementScope "Executive Users Exclusive Scope" -RecipientRestrictionFilter { Department -Eq "Executives" } -Exclusive -Force
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementScope](https://technet.microsoft.com/de-de/library/dd335137\(v=exchg.150\)).
 

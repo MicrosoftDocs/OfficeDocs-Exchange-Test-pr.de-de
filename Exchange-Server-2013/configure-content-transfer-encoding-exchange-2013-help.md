@@ -107,21 +107,29 @@ Weitere Informationen zu Remotedomänen finden Sie unter [Remotedomänen](remote
 
 Führen Sie zum Konfigurieren der Methode für die Inhaltsübertragungscodierung den folgenden Befehl aus:
 
-    Set-OrganizationConfig -ByteEncoderTypeFor7BitCharsets <Integer>
+```powershell
+Set-OrganizationConfig -ByteEncoderTypeFor7BitCharsets <Integer>
+```
 
 Führen Sie z. B. folgenden Befehl aus, um die Codierungsmethode für die Inhaltsübertragung auf Base64 festzulegen:
 
-    Set-OrganizationConfig -ByteEncoderTypeFor7BitCharsets 2
+```powershell
+Set-OrganizationConfig -ByteEncoderTypeFor7BitCharsets 2
+```
 
 ## Konfigurieren der Methode für die Inhaltsübertragungscodierung für eine Remotedomäne mit der Shell
 
 Führen Sie zum Konfigurieren der Methode für die Inhaltsübertragungscodierung für alle Empfänger in einer Remotedomäne den folgenden Befehl aus:
 
-    Set-RemoteDomain -ByteEncoderTypeFor7BitCharsets <Value>
+```powershell
+Set-RemoteDomain -ByteEncoderTypeFor7BitCharsets <Value>
+```
 
 Führen Sie z. B. folgenden Befehl aus, um die Codierungsmethode für die Inhaltsübertragung auf Base64 festzulegen:
 
-    Set- RemoteDomain -ByteEncoderTypeFor7BitCharsets UseBase64
+```powershell
+Set- RemoteDomain -ByteEncoderTypeFor7BitCharsets UseBase64
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

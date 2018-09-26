@@ -77,19 +77,23 @@ Nachdem Sie mithilfe des Cmdlets **New-MailboxSearch** eine Compliance-eDiscover
 
 Sie würden z. B. den folgenden Befehl ausführen, um eine eDiscovery-Suche namens *Fabrikam Investigation* zu starten und die Suchergebnisse in das angegebene Discoverypostfach zu kopieren.
 
-    Start-MailboxSearch "Fabrikam Investigation"
+```powershell
+Start-MailboxSearch "Fabrikam Investigation"
+```
 
 Wenn Sie die Option *EstimateOnly* verwenden, um eine Schätzung der Suchergebnisse zu erhalten, müssen Sie die Option entfernen, bevor Sie die Suchergebnisse kopieren können. Sie müssen auch ein Discoverypostfach angeben, in das die Suchergebnisse kopiert werden sollen. Sie könnten z. B. eine nur auf Schätzung beruhende Suche mithilfe des folgenden Befehls erstellen:
 
+```powershell
     New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeUnsearchableItems
+```
 
 Um die Ergebnisse dieser Suche in ein Discoverypostfach zu kopieren, würden Sie dann die folgenden Befehle ausführen:
 
-  ```
+  ```powershell
   Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
   ```
 
-  ```
+  ```powershell
   Start-MailboxSearch "FY13 Q2 Financial Results"
   ```
 

@@ -43,11 +43,15 @@ Die Inhaltsfilterung wird durch den Inhaltsfilter-Agent bereitgestellt. Der Inha
 
 Führen Sie zum Deaktivieren der Inhaltsfilterung folgenden Befehl aus:
 
-    Set-ContentFilterConfig -Enabled $false
+```powershell
+Set-ContentFilterConfig -Enabled $false
+```
 
 Führen Sie den folgenden Befehl aus, um die Inhaltsfilterung zu aktivieren:
 
-    Set-ContentFilterConfig -Enabled $true
+```powershell
+Set-ContentFilterConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -61,7 +65,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Inhaltsfilterung erf
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+    Get-ContentFilterConfig | Format-List Enabled
+    ```
 
 2.  Überprüfen Sie den angezeigten Wert der Eigenschaft *Enabled*.
 
@@ -71,11 +77,15 @@ Standardmäßig ist die Funktionalität zur Inhaltsfilterung für externe Nachri
 
 Führen Sie den folgenden Befehl aus, um die Inhaltsfilterung für externe Nachrichten zu deaktivieren:
 
-    Set-ContentFilterConfig -ExternalMailEnabled $false
+```powershell
+Set-ContentFilterConfig -ExternalMailEnabled $false
+```
 
 Führen Sie den folgenden Befehl aus, um die Inhaltsfilterung für externe Nachrichten zu aktivieren:
 
-    Set-ContentFilterConfig -ExternalMailEnabled $true
+```powershell
+Set-ContentFilterConfig -ExternalMailEnabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -83,7 +93,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Inhaltsfilterung fü
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List ExternalMailEnabled
+    ```powershell
+    Get-ContentFilterConfig | Format-List ExternalMailEnabled
+    ```
 
 2.  Überprüfen Sie den angezeigten Wert der Eigenschaft *ExternalMailEnabled*.
 
@@ -93,11 +105,15 @@ Als bewährte Methode hat sich herausgestellt, Nachrichten von vertrauenswürdig
 
 Führen Sie den folgenden Befehl aus, um die Inhaltsfilterung für interne Nachrichten zu aktivieren:
 
-    Set-ContentFilterConfig -InternalMailEnabled $true
+```powershell
+Set-ContentFilterConfig -InternalMailEnabled $true
+```
 
 Führen Sie den folgenden Befehl aus, um die Inhaltsfilterung für interne Nachrichten zu deaktivieren:
 
-    Set-ContentFilterConfig -InternalMailEnabled $false
+```powershell
+Set-ContentFilterConfig -InternalMailEnabled $false
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -105,7 +121,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Inhaltsfilterung fü
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List InternalMailEnabled
+    ```powershell
+    Get-ContentFilterConfig | Format-List InternalMailEnabled
+    ```
 
 2.  Überprüfen Sie den angezeigten Wert der Eigenschaft *InternalMailEnabled*.
 
@@ -113,7 +131,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Inhaltsfilterung fü
 
 Führen Sie den folgenden Befehl aus, um die vorhandenen Werte zu ersetzen:
 
-    Set-ContentFilterConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenders <sender1,sender2...> -BypassedSenderDomains <domain1,domain2...>
+```powershell
+Set-ContentFilterConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenders <sender1,sender2...> -BypassedSenderDomains <domain1,domain2...>
+```
 
 In diesem Beispiel werden die folgenden Ausnahmen für die Inhaltsfilterung konfiguriert:
 
@@ -125,11 +145,15 @@ In diesem Beispiel werden die folgenden Ausnahmen für die Inhaltsfilterung konf
 
 <!-- end list -->
 
-    Set-ContentFilterConfig -BypassedRecipients laura@contoso.com,julia@contoso.com -BypassedSenders steve@fabrikam.com,cindy@fabrikam.com -BypassedSenderDomains *.nwtraders.com
+```powershell
+Set-ContentFilterConfig -BypassedRecipients laura@contoso.com,julia@contoso.com -BypassedSenders steve@fabrikam.com,cindy@fabrikam.com -BypassedSenderDomains *.nwtraders.com
+```
 
 Führen Sie folgenden Befehl aus, um Einträge hinzuzufügen bzw. zu entfernen, ohne vorhandene Werte zu ändern:
 
-    Set-ContentFilterConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```powershell
+Set-ContentFilterConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```
 
 In diesem Beispiel werden die folgenden Ausnahmen für die Inhaltsfilterung konfiguriert:
 
@@ -143,7 +167,9 @@ In diesem Beispiel werden die folgenden Ausnahmen für die Inhaltsfilterung konf
 
 <!-- end list -->
 
-    Set-ContentFilterConfig -BypassedRecipients @{Add="tiffany@contoso.com","chris@contoso.com"} -BypassedSenders @{Add="joe@fabrikam.com","michelle@fabrikam.com"} -BypassedSenderDomains @{Add="blueyonderairlines.com"; Remove="*.woodgrovebank.com"}
+```powershell
+Set-ContentFilterConfig -BypassedRecipients @{Add="tiffany@contoso.com","chris@contoso.com"} -BypassedSenders @{Add="joe@fabrikam.com","michelle@fabrikam.com"} -BypassedSenderDomains @{Add="blueyonderairlines.com"; Remove="*.woodgrovebank.com"}
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -151,7 +177,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Ausnahmen für Empf�
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List Bypassed*
+    ```powershell
+    Get-ContentFilterConfig | Format-List Bypassed*
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Einstellungen entsprechen, die Sie angegeben haben.
 
@@ -159,23 +187,33 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Ausnahmen für Empf�
 
 Führen Sie den folgenden Befehl aus, um zulässige und blockierte Wörter und Ausdrücke hinzuzufügen:
 
-    Add-ContentFilterPhrase -Influence GoodWord -Phrase <Phrase> -Influence BadWord -Phrase <Phrase>
+```powershell
+Add-ContentFilterPhrase -Influence GoodWord -Phrase <Phrase> -Influence BadWord -Phrase <Phrase>
+```
 
 In diesem Beispiel werden alle Nachrichten mit dem Text "customer feedback" zugelassen.
 
-    Add-ContentFilterPhrase -Influence GoodWord -Phrase "customer feedback"
+```powershell
+Add-ContentFilterPhrase -Influence GoodWord -Phrase "customer feedback"
+```
 
 In diesem Beispiel werden alle Nachrichten mit dem Text "stock tip" blockiert.
 
-    Add-ContentFilterPhrase -Influence BadWord -Phrase "stock tip"
+```powershell
+Add-ContentFilterPhrase -Influence BadWord -Phrase "stock tip"
+```
 
 Führen Sie den folgenden Befehl aus, um zulässige oder blockierte Ausdrücke zu entfernen:
 
-    Remove-ContentFilterPhrase -Phrase <Phrase>
+```powershell
+Remove-ContentFilterPhrase -Phrase <Phrase>
+```
 
 In diesem Beispiel wird der Ausdruck "stock tip" entfernt:
 
-    Remove-ContentFilterPhrase -Phrase "stock tip"
+```powershell
+Remove-ContentFilterPhrase -Phrase "stock tip"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -183,7 +221,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die zulässigen und bloc
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterPhrase | Format-List Influence,Phrase
+    ```powershell
+    Get-ContentFilterPhrase | Format-List Influence,Phrase
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Einstellungen entsprechen, die Sie angegeben haben.
 
@@ -191,13 +231,12 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die zulässigen und bloc
 
 Führen Sie den folgenden Befehl aus, um die SCL (Spam Confidence Level)-Schwellenwerte und -Aktionen zu konfigurieren:
 
-    Set-ContentFilterConfig -SCLDeleteEnabled <$true | $false> -SCLDeleteThreshold <Value> -SCLRejectEnabled <$true | $false> -SCLRejectThreshold <Value> -SCLQuarantineEnabled <$true | $false> -SCLQuarantineThreshold <Value>
+```powershell
+Set-ContentFilterConfig -SCLDeleteEnabled <$true | $false> -SCLDeleteThreshold <Value> -SCLRejectEnabled <$true | $false> -SCLRejectThreshold <Value> -SCLQuarantineEnabled <$true | $false> -SCLQuarantineThreshold <Value>
+```
 
-
-> [!NOTE]
+> [!NOTE]  
 > Die Löschaktion hat Vorrang vor der Zurückweisungsaktion, und die Zurückweisungsaktion hat Vorrang vor der Isolieraktion. Daher muss der SCL-Schwellenwert für die Löschaktion größer sein als der SCL-Schwellenwert für die Zurückweisungsaktion, deren SCL-Schwellenwert wiederum größer als der der Isolieraktion sein muss. Standardmäßig ist nur die Zurückweisungsaktion aktiviert. Für diese Aktion ist der SCL-Schwellenwert&nbsp;7 festgelegt.
-
-
 
 In diesem Beispiel werden die folgenden Werte für die SCL-Schwellenwerte konfiguriert:
 
@@ -209,7 +248,9 @@ In diesem Beispiel werden die folgenden Werte für die SCL-Schwellenwerte konfig
 
 <!-- end list -->
 
-    Set-ContentFilterConfig -SCLDeleteEnabled $true -SCLDeleteThreshold 9 -SCLRejectEnabled $true -SCLRejectThreshold 8 -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
+```powershell
+Set-ContentFilterConfig -SCLDeleteEnabled $true -SCLDeleteThreshold 9 -SCLRejectEnabled $true -SCLRejectThreshold 8 -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -217,7 +258,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die SCL-Schwellenwerte e
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List SCL*
+    ```powershell
+    Get-ContentFilterConfig | Format-List SCL*
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Einstellungen entsprechen, die Sie angegeben haben.
 
@@ -227,11 +270,15 @@ Wenn die Zurückweisungsaktion aktiviert ist, können Sie die Zurückweisungsant
 
 Führen Sie den folgenden Befehl aus, um eine benutzerdefinierte Zurückweisungsantwort zu konfigurieren:
 
-    Set-ContentFilterConfig -RejectionResponse "<Custom Text>"
+```powershell
+Set-ContentFilterConfig -RejectionResponse "<Custom Text>"
+```
 
 In diesem Beispiel wird der Inhaltsfilter-Agent so konfiguriert, dass eine angepasste Zurückweisungsantwort gesendet wird.
 
-    Set-ContentFilterConfig -RejectionResponse "Your message was rejected because it appears to be SPAM."
+```powershell
+Set-ContentFilterConfig -RejectionResponse "Your message was rejected because it appears to be SPAM."
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -239,7 +286,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Zurückweisungsantwo
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List *Reject*
+    ```powershell
+    Get-ContentFilterConfig | Format-List *Reject*
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Einstellungen entsprechen, die Sie angegeben haben.
 
@@ -249,11 +298,15 @@ Bei der *E-Mail-Poststempelüberprüfung von Outlook* handelt es sich um einen r
 
 Führen Sie den folgenden Befehl aus, um Outlook-E-Mail-Poststempel zu deaktivieren:
 
-    Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $false
+```powershell
+Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $false
+```
 
 Führen Sie den folgenden Befehl aus, um Outlook-E-Mail-Poststempel zu aktivieren:
 
-    Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $true
+```powershell
+Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -261,7 +314,8 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Outlook-E-Mail-Posts
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
+    ```powershell
+    Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert der Einstellung entspricht, die Sie angegeben haben.
-

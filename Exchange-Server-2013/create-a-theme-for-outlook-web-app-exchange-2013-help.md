@@ -167,7 +167,9 @@ Wenn alle Benutzer das Standarddesign verwenden sollen, müssen Sie ein Standard
 
 In diesem Beispiel wird das Standarddesign für Outlook Web App festgelegt. Dabei lautet der Servername `fourthcoffee`, der Name des virtuellen Verzeichnisses `owa`, der Websitename `default web site`, und das Design befindet sich im Ordner `Custom`.
 
+```powershell
     set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -defaulttheme Custom 
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-OwaVirtualDirectory](https://technet.microsoft.com/de-de/library/bb123515\(v=exchg.150\)).
 
@@ -175,11 +177,15 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-OwaVi
 
 In diesem Beispiel wird die Designauswahl in Outlook Web App deaktiviert, wobei der Servername `fourthcoffee`, der Name des virtuellen Verzeichnisses `owa` und der Websitename `default web site` lautet.
 
+```powershell
     set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -themeselectionenabled $false 
+```
 
 Sie können auch beide Befehle gleichzeitig ausführen, wie im folgenden Beispiel gezeigt:
 
+```powershell
     set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -defaulttheme Custom -themeselectionenabled $false
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-OwaVirtualDirectory](https://technet.microsoft.com/de-de/library/bb123515\(v=exchg.150\)).
 

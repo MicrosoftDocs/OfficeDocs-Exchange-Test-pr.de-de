@@ -61,11 +61,15 @@ Das Skript muss sich im Microsoft Exchange Server 2013-Installationspfad im Ver
 
 Nachdem Sie das Skript auf die entsprechenden Exchange 2013-Server kopiert und entschieden haben, welche Parameter verwendet werden sollen, erstellen Sie den Rolleneintrag mithilfe der folgenden Syntax.
 
+```powershell
     Add-ManagementRoleEntry <unscoped top-level role name>\<script filename> -Parameters <parameter 1, parameter 2, parameter...> -Type Script -UnscopedTopLevel
+```
 
 In diesem Beispiel wird das Skript "BulkProvisionUsers.ps1" mit den Parametern *Name* und *Location* zur Rolle "IT Scripts" hinzugefügt.
 
+```powershell
     Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
+```
 
 
 > [!NOTE]
@@ -83,12 +87,15 @@ Wenn Sie der neuen Rolle Nicht-Exchange-Cmdlets hinzufügen, müssen die Cmdlets
 
 Nachdem Sie das Windows PowerShell-Snap-In, das die Cmdlets enthält, auf den entsprechenden Servern mit Exchange 2013 installiert haben und nun entscheiden, welche Cmdlet-Parameter verwendet werden sollen, können Sie den Rolleneintrag mithilfe der folgenden Syntax erstellen.
 
+```powershell
     Add-ManagementRoleEntry <unscoped top-level role name>\<cmdlet name> -PSSnapinName <snap-in name> -Parameters <parameter 1, parameter 2, parameter...> -Type Cmdlet -UnscopedTopLevel
+```
 
 In diesem Beispiel wird das Cmdlet **Set-WidgetConfiguration** zum Snap-In "Contoso.Admin.Cmdlets" zur Rolle "Widget Cmdlets" mit den Parametern *Database* und *Size* hinzugefügt.
 
+```powershell
     Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
-
+```
 
 > [!NOTE]
 > Das Cmdlet <STRONG>Add-ManagementRoleEntry</STRONG> führt die Standardüberprüfung aus, um sicherzustellen, dass Sie nur die Parameter hinzufügen, die im Cmdlet vorhanden sind. Es erfolgt jedoch keine weitere Überprüfung, nachdem der Rolleneintrag hinzugefügt wurde. Wenn das Cmdlet später geändert wird und Parameter hinzugefügt oder entfernt werden, müssen Sie die Rolleneinträge manuell aktualisieren, die das Cmdlet enthalten.

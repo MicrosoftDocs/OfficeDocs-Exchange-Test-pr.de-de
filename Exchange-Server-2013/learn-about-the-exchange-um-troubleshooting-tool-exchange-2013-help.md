@@ -191,7 +191,9 @@ Mit dem UM-Problembehandlungstool können Sie Konfigurationsprobleme in einer st
 
 Im folgenden Beispiel wird der Gateway-Modus verwendet, um den Anruffluss in einer Umgebung ohne Office Communications Server 2007 R2 oder Lync Server zu testen. In diesem Beispiel werden die Telefonieausrüstung (VoIP-Gateways, PBX- und IP-PBX-Anlagen) sowie die Unified Messaging-Komponenten getestet. In dem Beispiel wird der VoIP-Sicherheitsmodus (Voice over IP) auf "Ungesichert" festgelegt, wird die IP-Adresse 10.1.1.1 als nächster Hop festgelegt und wird eine Durchwahlnummer in die Umleitungsinformationen eingefügt.
 
-    Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```powershell
+Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```
 
 Übersicht
 
@@ -199,7 +201,9 @@ Im folgenden Beispiel wird der Gateway-Modus verwendet, um den Anruffluss in ein
 
 Wenn der SIPClient-Modus verwendet wird, kann das UM-Problembehandlungstool in lokalen oder standortübergreifenden Bereitstellungen verwendet werden, die Office Communications Server 2007 R2 oder Microsoft Lync Server umfassen. Im folgenden Beispiel wird der SIPClient-Modus verwendet, und es wird der Anruffluss mit gesicherten UM-Wähleinstellungen in einer Umgebung getestet, die Server mit Office Communications Server 2007 R2 oder mit Lync Server enthält. Wenn Sie das UM-Problembehandlungstool ausführen, verwendet es standardmäßig die Anmeldeinformationen des Benutzers, der momentan beim Computer angemeldet ist. Wenn Sie das folgende Beispiel ausführen, werden Sie zur Eingabe der Anmeldeinformationen aufgefordert, die Sie für das Ausführen des UM-Problembehandlungstools verwenden möchten. Weitere Informationen finden Sie unter [Festlegen der Anmeldeinformationen zur Verwendung mit dem Exchange UM-Problembehandlungstool](set-the-credentials-to-use-with-the-exchange-um-troubleshooting-tool-exchange-2013-help.md).
 
-    Test-ExchangeUMCallFlow -Mode SIPClient -VoIPSecurity Secured -CallingParty tony@contoso.com -CalledParty david@contoso.com -Credential $get
+```powershell
+Test-ExchangeUMCallFlow -Mode SIPClient -VoIPSecurity Secured -CallingParty tony@contoso.com -CalledParty david@contoso.com -Credential $get
+```
 
 ## Installieren des UM-Problembehandlungstools
 

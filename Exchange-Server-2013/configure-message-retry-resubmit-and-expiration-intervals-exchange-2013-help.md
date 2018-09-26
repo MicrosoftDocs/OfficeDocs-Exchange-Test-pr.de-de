@@ -43,28 +43,36 @@ Zum Konfigurieren des Zählers für Wiederholungsversuche für Warteschlangen, d
 
 1.  Öffnen Sie die Datei "EdgeTransport.exe.config" im Editor, indem Sie in einem Eingabeaufforderungsfenster auf dem Postfachserver oder Edge-Transport-Server den folgenden Befehl eingeben:
     
+    ```powershell
         Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Suchen Sie im Abschnitt `<appSettings>` die folgenden Schlüssel.
     
+    ```powershell
         <add key="QueueGlitchRetryCount" value="<Integer>" />
         <add key="QueueGlitchRetryInterval" value="<hh:mm:ss>" />
         <add key="MailboxDeliveryQueueRetryInterval" value="<hh:mm:ss>" />
         <add key="MaxIdleTimeBeforeResubmit" value="<hh:mm:ss>" />
+    ```
     
     In diesem Beispiel wird der Zähler für Wiederholungsversuche für Warteschlangen auf 6, das Wiederholungsintervall für Warteschlangen auf 30 Sekunden, das Wiederholungsintervall für eine Postfachzustellungswarteschlange auf 3 Minuten und die maximale Leerlaufzeit vor dem Intervall für die erneute Übermittlung auf 6 Stunden gesetzt.
     
+    ```powershell
         <add key="QueueGlitchRetryCount" value="6" />
         <add key="QueueGlitchRetryInterval" value="00:00:30" />
         <add key="MailboxDeliveryQueueRetryInterval" value="00:03:00" />
         <add key="MaxIdleTimeBeforeResubmit" value="6:00:00" />
-
+    ```
+    
 3.  Speichern und schließen Sie die Datei "EdgeTransport.exe.config" nach Abschluss des Vorgangs.
 
 4.  Starten Sie den Microsoft Exchange-Transportdienst neu, indem Sie folgenden Befehl ausführen:
     
+    ```powershell
         net stop MSExchangeTransport && net start MSExchangeTransport
-
+    ```
+    
 ## Konfigurieren der Wiederholungsversuche bei vorübergehenden Fehlern, des Intervalls für Wiederholungsversuche bei vorübergehenden Fehlern und des Wiederholungsintervalls bei Fehlern ausgehender Verbindungen
 
 Die Wiederholungsversuche bei vorübergehenden Fehlern geben die Anzahl der Verbindungsversuche an, die nach dem Scheitern von Verbindungsversuchen durchgeführt werden, die durch die Schlüssel `QueueGlitchRetryCount` und `QueueGlitchRetryInterval` gesteuert werden. Der Standardwert für die Anzahl der Wiederholungsversuche bei vorübergehenden Fehlern beträgt 6. Der gültige Eingabebereich für diesen Parameter reicht von 0 bis 15. Wenn Sie die Anzahl der Wiederholungsversuche bei vorübergehenden Fehlern auf 0 setzen, wird der nächste Verbindungsversuch vom *Wiederholungsintervall bei Fehlern ausgehender Verbindungen* gesteuert.
@@ -85,7 +93,9 @@ Das Wiederholungsintervall bei Fehlern ausgehender Verbindungen gibt das Wiederh
 
 Verwenden Sie die folgende Syntax zum Konfigurieren der Anzahl der Wiederholungsversuche bei vorübergehenden Fehlern, des Intervalls für Wiederholungsversuche bei vorübergehenden Fehlern und des Wiederholungsintervalls bei Fehlern ausgehender Verbindungen im Transportdienst auf einem Postfachserver oder einem Edge-Transport-Server.
 
-    Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
+```
 
 In diesem Beispiel werden die folgenden Werte auf dem Postfachserver "Mailbox01" geändert: auf dem Edge-Transport-Server "Exchange01".
 
@@ -97,8 +107,9 @@ In diesem Beispiel werden die folgenden Werte auf dem Postfachserver "Mailbox01"
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
-
+```
 
 > [!NOTE]
 > Die Parameter <EM>TransientFailureRetryCount</EM> und <EM>TransientFailureRetryInterval</EM> stehen auch im Cmdlet <STRONG>Set-FrontEndTransportService</STRONG> für den Front-End-Transport-Dienst auf Clientzugriffsservern zur Verfügung.
@@ -119,7 +130,9 @@ In diesem Beispiel werden die folgenden Werte auf dem Postfachserver "Mailbox01"
 
 Verwenden Sie die folgende Syntax zum Konfigurieren der Anzahl der Wiederholungsversuche bei vorübergehenden Fehlern, des Intervalls für Wiederholungsversuche bei vorübergehenden Fehlern und des Wiederholungsintervalls bei Fehlern ausgehender Verbindungen im Transportdienst auf einem Postfachserver oder einem Edge-Transport-Server.
 
+```powershell
     Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
+```
 
 In diesem Beispiel werden die folgenden Werte auf dem Postfachserver "Mailbox01" geändert: auf dem Edge-Transport-Server "Exchange01".
 
@@ -131,8 +144,9 @@ In diesem Beispiel werden die folgenden Werte auf dem Postfachserver "Mailbox01"
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
-
+```
 
 > [!NOTE]
 > Die Parameter <EM>TransientFailureRetryCount</EM> und <EM>TransientFailureRetryInterval</EM> stehen auch im Cmdlet <STRONG>Set-FrontEndTransportService</STRONG> für den Front-End-Transport-Dienst auf Clientzugriffsservern zur Verfügung.
@@ -145,11 +159,15 @@ Für das Wiederholungsintervall für Nachrichten ist standardmäßig `00:15:00` 
 
 Verwenden Sie folgende Syntax, um das Wiederholungsintervall für Nachrichten festzulegen.
 
-    Set-TransportService <ServerIdentity> -MessageRetryInterval <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -MessageRetryInterval <dd.hh:mm:ss>
+```
 
 In diesem Beispiel wird das Nachrichtenwiederholungsintervall auf dem Postfachserver "Mailbox01" auf 20 Minuten festgelegt.
 
-    Set-TransportService Mailbox01 -MessageRetryInterval 00:20:00
+```powershell
+Set-TransportService Mailbox01 -MessageRetryInterval 00:20:00
+```
 
 ## Konfigurieren der Timeouteinstellungen für DNS-Verzögerungen
 
@@ -173,25 +191,35 @@ Das Timeoutintervall für DSN-Verzögerungsbenachrichtigungen kann mithilfe der 
 
 Verwenden Sie folgende Syntax, um das Wiederholungsintervall für Nachrichten festzulegen.
 
-    Set-TransportService <ServerIdentity> -DelayNotificationTimeout <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -DelayNotificationTimeout <dd.hh:mm:ss>
+```
 
 In diesem Beispiel wird das Timeoutintervall für DSN-Verzögerungsbenachrichtigungen auf dem Postfachserver "Mailbox01" auf 6 Stunden geändert.
 
-    Set-TransportService Mailbox01 -DelayNotificationTimeout 06:00:00
+```powershell
+Set-TransportService Mailbox01 -DelayNotificationTimeout 06:00:00
+```
 
 ## Aktivieren oder Deaktivieren des Versands von DSN-Verzögerungsbenachrichtigungen an externe oder interne Nachrichtenabsender mithilfe der Shell
 
 Verwenden Sie folgende Syntax, um die Einstellungen von DSN-Verzögerungsbenachrichtigungen zu konfigurieren.
 
+```powershell
     Set-TransportConfig -ExternalDelayDSNEnabled <$true | $false> -InternalDelayDSNEnabled <$true |$false>
+```
 
 In diesem Beispiel wird das Senden von DNS-Verzögerungsbenachrichtigungen an externe Absender deaktiviert.
 
-    Set-TransportConfig -ExternalDelayDSNEnabled $false
+```powershell
+Set-TransportConfig -ExternalDelayDSNEnabled $false
+```
 
 In diesem Beispiel wird das Senden von DNS-Verzögerungsbenachrichtigungen an interne Absender deaktiviert.
 
-    Set-TransportConfig -InternalDelayDSNEnabled $false
+```powershell
+Set-TransportConfig -InternalDelayDSNEnabled $false
+```
 
 ## Konfigurieren des Timeoutintervalls für den Nachrichtenablauf
 
@@ -207,9 +235,13 @@ In diesem Beispiel wird das Senden von DNS-Verzögerungsbenachrichtigungen an in
 
 Verwenden Sie die folgende Syntax, um das Timeoutintervall für den Nachrichtenablauf zu konfigurieren.
 
-    Set-TransportService <ServerIdentity> -MessageExpirationTimeout <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -MessageExpirationTimeout <dd.hh:mm:ss>
+```
 
 In diesem Beispiel wird das Timeoutintervall für den Nachrichtenablauf auf dem Exchange-Server "Mailbox01" in 4 Tage geändert.
 
-    Set-TransportService Mailbox01 -MessageExpirationTimeout 4.00:00:00
+```powershell
+Set-TransportService Mailbox01 -MessageExpirationTimeout 4.00:00:00
+```
 

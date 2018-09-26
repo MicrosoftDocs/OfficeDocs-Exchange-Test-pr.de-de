@@ -44,7 +44,9 @@ Mithilfe von Datenbankportabilität können Sie eine Microsoft Exchange Server 
     
     Führen Sie den folgenden Befehl an einer Eingabeaufforderung aus, um einen Commit für alle nicht übergebenen Protokolldateien in die Datenbank auszuführen.
     
-        ESEUTIL /R <Enn>
+    ```powershell
+    ESEUTIL /R <Enn>
+    ```
     
 
     > [!NOTE]
@@ -54,25 +56,34 @@ Mithilfe von Datenbankportabilität können Sie eine Microsoft Exchange Server 
 
 2.  Erstellen Sie eine Datenbank auf einem Server mit der folgenden Syntax:
     
+    ```powershell
         New-MailboxDatabase -Name <DatabaseName> -Server <ServerName> -EdbFilePath <DatabaseFileNameandPath> -LogFolderPath <LogFilesPath>
-
+    ```
+    
 3.  Legen Sie das Attribut *This database can be over written by restore* mithilfe der folgenden Syntax fest:
     
-        Set-MailboxDatabase <DatabaseName> -AllowFileRestore $true
+    ```powershell
+    Set-MailboxDatabase <DatabaseName> -AllowFileRestore $true
+    ```
 
 4.  Verschieben Sie die Datenbankdateien (EDB-Datei, Protokolldateien und Exchange-Suchkatalog) in den Datenbankordner, die Sie bei der Erstellung der neuen Datenbank oben angegeben haben.
 
 5.  Binden Sie die Datenbank mithilfe der folgenden Syntax ein:
     
-        Mount-Database <DatabaseName>
+    ```powershell
+    Mount-Database <DatabaseName>
+    ```
 
 6.  Nachdem die Datenbank eingebunden wurde, ändern Sie die Benutzerkonteneinstellungen mit dem Cmdlet [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)) so, dass das Konto auf das Postfach auf dem neuen Postfachserver verweist. Verwenden Sie die folgende Syntax, um alle Benutzer aus der alten in die neue Datenbank zu verschieben.
-    
+    ```powershell
         Get-Mailbox -Database <SourceDatabase> |where {$_.ObjectClass -NotMatch '(SystemAttendantMailbox|ExOleDbSystemMailbox)'}| Set-Mailbox -Database <TargetDatabase>
-
+    ```
+    
 7.  Sendeauslöser für Nachrichten mithilfe der folgenden Syntax.
     
-        Get-Queue <QueueName> | Retry-Queue -Resubmit $true
+    ```powershell
+    Get-Queue <QueueName> | Retry-Queue -Resubmit $true
+    ```
 
 Nach dem Abschluss der Active Directory-Replikation können alle Benutzer auf ihre Postfächer auf dem neuen Exchange-Server zugreifen. Die meisten Clients werden über AutoErmittlung umgeleitet. Microsoft Office Outlook Web App-Benutzer werden ebenfalls automatisch umgeleitet.
 

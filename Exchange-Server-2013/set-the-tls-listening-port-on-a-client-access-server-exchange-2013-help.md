@@ -67,5 +67,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Unified Messaging und
 
 In diesem Beispiel wird der TLS-Überwachungsport für einen Clientzugriffsserver namens `MyClientAccessServer` auf 5561 festgelegt.
 
-    Set-UMCallRouterSettings -Server MyClientAccessServer -SipTlsListeningPort 5561
+```powershell
+Set-UMCallRouterSettings -Server MyClientAccessServer -SipTlsListeningPort 5561
+```
 

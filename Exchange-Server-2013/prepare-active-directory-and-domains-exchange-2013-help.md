@@ -87,7 +87,9 @@ Wenn Sie bereit sind, gehen Sie wie folgt vor, um Ihr Active Directory-Schema zu
 
 3.  Führen Sie den folgenden Befehl aus, um das Schema zu erweitern.
     
-        Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+    ```powershell
+    Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+    ```
 
 Wenn Setup die Erweiterung des Schemas abgeschlossen hat, müssen Sie warten, während Active Directory die Änderungen auf alle Domänencontroller repliziert. Sie können das Tool `repadmin` verwenden, um zu prüfen, wie die Replikation verläuft. `Repadmin` ist Bestandteil des Tools für die Active Directory-Domänendienste in Windows Server 2012 R2, Windows Server 2012 und Windows Server 2008 R2. Weitere Informationen zur Verwendung des Tools finden Sie unter [Repadmin](https://go.microsoft.com/fwlink/p/?linkid=257879).
 
@@ -123,7 +125,9 @@ Wenn Sie bereit sind, gehen Sie wie folgt vor, um Active Directory für Exchange
 
 2.  Führen Sie den folgenden Befehl aus:
     
-        Setup.exe /PrepareAD /OrganizationName:"<organization name>" /IAcceptExchangeServerLicenseTerms
+    ```powershell
+    Setup.exe /PrepareAD /OrganizationName:"<organization name>" /IAcceptExchangeServerLicenseTerms
+    ```
 
 Wenn Setup die Vorbereitung von Active Directory für Exchange abgeschlossen hat, müssen Sie warten, während Active Directory die Änderungen auf alle Domänencontroller repliziert. Sie können das Tool `repadmin` verwenden, um zu prüfen, wie die Replikation verläuft. `repadmin` ist Bestandteil des Tools für die Active Directory-Domänendienste in Windows Server 2012 R2, Windows Server 2012 und Windows Server 2008 R2. Weitere Informationen zur Verwendung des Tools finden Sie unter [Repadmin](https://go.microsoft.com/fwlink/p/?linkid=257879).
 
@@ -149,7 +153,9 @@ Wenn Sie bereit sind, gehen Sie wie folgt vor, um alle Domänen in Ihrer Active 
 
 2.  Führen Sie den folgenden Befehl aus:
     
-        Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+    ```powershell
+    Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+    ```
 
 ## Selber auswählen, welche Active Directory-Domänen vorbereitet werden
 
@@ -175,7 +181,9 @@ Wenn Sie bereit sind, gehen Sie wie folgt vor, um eine einzelne Domänen in Ihre
 
 2.  Führen Sie den folgenden Befehl aus. Schließen Sie den FQDN der Domäne ein, die Sie vorbereiten möchten. Wenn Sie die Domäne vorbereiten möchten, in der Sie den Befehl ausführen, müssen Sie den FQDN nicht einschließen.
     
-        Setup.exe /PrepareDomain:<FQDN of the domain you want to prepare> /IAcceptExchangeServerLicenseTerms
+    ```powershell
+    Setup.exe /PrepareDomain:<FQDN of the domain you want to prepare> /IAcceptExchangeServerLicenseTerms
+    ```
 
 3.  Wiederholen Sie die Schritte für jede Active Directory-Domäne, in der Sie einen Exchange-Server installieren oder sich E-Mail-aktivierte Benutzer befinden.
 
@@ -184,7 +192,7 @@ Wenn Sie bereit sind, gehen Sie wie folgt vor, um eine einzelne Domänen in Ihre
 Nachdem Sie alle oben beschriebenen Schritte abgeschlossen haben, können Sie überprüfen, ob alles reibungslos abgelaufen ist. Dafür verwenden Sie das Tool Active Directory-Dienstschnittstellen-Editor (ADSI-Editor). ADSI-Editor ist Bestandteil des Tools für die Active Directory-Domänendienste in Windows Server 2012 R2, Windows Server 2012 und Windows Server 2008 R2. Weitere Informationen zu dem Tool finden Sie unter [ADSI Edit (adsiedit.msc)](https://go.microsoft.com/fwlink/p/?linkid=294644).
 
 
-> [!WARNING]
+> [!WARNING]  
 > Ändern Sie Werte in ADSI-Editor nur, wenn Sie vom Microsoft-Support dazu angewiesen werden. Das Ändern von Werten in ADSI-Editor kann zu irreparablen Schäden an Ihrer Exchange-Organisation und Active Directory führen.
 
 
@@ -321,4 +329,3 @@ In der folgenden Tabelle sind die Exchange 2013-Objekte in Active Directory aufg
 </tr>
 </tbody>
 </table>
-

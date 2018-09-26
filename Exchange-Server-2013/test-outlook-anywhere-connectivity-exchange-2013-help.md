@@ -43,8 +43,9 @@ Verwenden Sie das Cmdlet **Test-OutlookConnectivity**, wenn Sie mit der Shell di
 
 Führen Sie den folgenden Befehl aus.
 
-    Test-OutlookConnectivity -ProbeIdentity 'OutlookMailboxDeepTestProbe' -MailboxId tony@contoso.com -Hostname contoso.com
-
+```powershell
+Test-OutlookConnectivity -ProbeIdentity 'OutlookMailboxDeepTestProbe' -MailboxId tony@contoso.com -Hostname contoso.com
+```
 
 > [!NOTE]
 > Der Parameterwert <EM>OutlookMailboxDeepTestProbe</EM> testet die Konnektivität des Postfachservers. Verwenden Sie <EM>OutlookMailboxCTPProbe</EM> für den Parameterwert <EM>ProbeIdentity</EM>, um die Konnektivität des Clientzugriffsservers zu testen.

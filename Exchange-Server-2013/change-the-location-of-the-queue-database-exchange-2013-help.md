@@ -93,23 +93,31 @@ Der Speicherort der Warteschlangendatenbank und der zugehörigen Transaktionspro
 
 2.  Geben Sie in einem Eingabeaufforderungsfenster den folgenden Befehl ein, um die Datei "EdgeTransport.exe.config" in Notepad zu öffnen:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 3.  Ändern Sie im Abschnitt `<appSettings>` die folgenden Schlüssel.
     
-        <add key="QueueDatabasePath" value="<LocalPath>" />
-        <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+    ```powershell
+    <add key="QueueDatabasePath" value="<LocalPath>" />
+    <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+    ```
     
     Wenn Sie beispielsweise eine neue Warteschlangendatenbank in "D:\\Queue\\QueueDB" und neue Transaktionsprotokolle in "D:\\Queue\\QueueLogs" erstellen möchten, verwenden Sie folgende Werte:
     
-        <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
-        <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+    ```powershell
+    <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
+    <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+    ```
 
 4.  Speichern und schließen Sie die Datei "EdgeTransport.exe.config" nach Abschluss des Vorgangs.
 
 5.  Starten Sie den Microsoft Exchange-Transportdienst neu, indem Sie folgenden Befehl ausführen:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
+    ```powershell
+    net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -137,23 +145,31 @@ Gehen Sie wie folgt vor, um eine vorhandene Warteschlangendatenbank und die zuge
 
 2.  Geben Sie in einem Eingabeaufforderungsfenster den folgenden Befehl ein, um die Datei "EdgeTransport.exe.config" in Notepad zu öffnen:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 3.  Ändern Sie im Abschnitt `<appSettings>` die folgenden Schlüssel:
     
-        <add key="QueueDatabasePath" value="<LocalPath>" />
-        <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+    ```powershell
+    <add key="QueueDatabasePath" value="<LocalPath>" />
+    <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+    ```
     
     Wenn Sie beispielsweise den Speicherort der Warteschlangendatenbank in "D:\\Queue\\QueueDB" und den Speicherort der Transaktionsprotokolle in "D:\\Queue\\QueueLogs" ändern möchten, verwenden Sie folgende Werte:
     
-        <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
-        <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+    ```powershell
+    <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
+    <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+    ```
 
 4.  Speichern und schließen Sie die Datei "EdgeTransport.exe.config" nach Abschluss des Vorgangs.
 
 5.  Beenden Sie den Microsoft Exchange-Transportdienst, indem Sie folgenden Befehl ausführen:
     
-        net stop MSExchangeTransport
+    ```powershell
+    net stop MSExchangeTransport
+    ```
 
 6.  Verschieben Sie die vorhandenen Datenbankdateien "Mail.que" und "Trn.chk" von dem ursprünglichen an den neuen Speicherort.
 
@@ -161,7 +177,9 @@ Gehen Sie wie folgt vor, um eine vorhandene Warteschlangendatenbank und die zuge
 
 8.  Starten Sie den Microsoft Exchange-Transportdienst, indem Sie folgenden Befehl ausführen:
     
-        net start MSExchangeTransport
+    ```powershell
+    net start MSExchangeTransport
+    ```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -176,4 +194,3 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob das Verschieben der vorhandenen 
 Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542) oder [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=285351).
 
 Was möchten Sie machen?
-

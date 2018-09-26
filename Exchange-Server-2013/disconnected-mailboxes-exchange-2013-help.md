@@ -30,19 +30,23 @@ Bei einem *getrennten Postfach* handelt es sich um ein Postfachobjekt in der Pos
     Deaktivierte und gelöschte Postfächer werden in der Postfachdatenbank bis zum Ablauf des Aufbewahrungszeitraum für gelöschte Postfächer aufbewahrt, also standardmäßig 30 Tage. Nach Ablauf des Aufbewahrungszeitraums wird das Postfach *endgültig gelöscht*. Wird ein Postfach mithilfe des Cmdlets **Remove-Mailbox** gelöscht, erfolgt ebenfalls eine Aufbewahrung bis zum Ablauf des Aufbewahrungszeitraums.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Wird ein Postfach mithilfe des Cmdlets <STRONG>Remove-Mailbox</STRONG> und mit dem Parameter <EM>Permanent</EM> oder <EM>StoreMailboxIdentity</EM> gelöscht, dann wird das Postfach umgehend aus der Postfachdatenbank gelöscht.
 
     
     Führen Sie zum Ermitteln der deaktivierten Postfächer in Ihrer Organisation den folgenden Befehl in der Shell aus:
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "Disabled" } | ft DisplayName,Database,DisconnectDate
+      ```powershell
+      Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "Disabled" } | ft DisplayName,Database,DisconnectDate
+      ```
 
   - **Vorläufig gelöschte Postfächer**   Wenn ein Postfach in eine andere Postfachdatenbank verschoben wird, löscht Exchange das Postfach nach Abschluss des Vorgangs nicht vollständig aus der Quelldatenbank. Stattdessen wird das Postfach in der Quellpostfachdatenbank in einen Zustand *vorläufiger Löschung* versetzt. Wie deaktivierte Postfächer werden vorläufig gelöschte Postfächer in der Quelldatenbank aufbewahrt, bis der Aufbewahrungszeitraum für gelöschte Postfächer abgelaufen ist oder das Postfach mit dem Cmdlet **Remove-StoreMailbox** endgültig gelöscht wird.
     
     Führen Sie den folgenden Befehl aus, um die in Ihrer Organisation vorläufig gelöschten Postfächer zu ermitteln:
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | ft DisplayName,Database,DisconnectDate
+      ```powershell
+      Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | ft DisplayName,Database,DisconnectDate
+      ```
 
 **Inhalt**
 
@@ -103,7 +107,7 @@ Sie können zwei Vorgänge für ein deaktiviertes Archivpostfach ausführen:
   - **Verbinden mit einem vorhandenen Postfach**   Wie getrennte primäre Postfächer werden getrennte Archivpostfächer in der Postfachdatenbank aufbewahrt, bis der Aufbewahrungszeitraum für gelöschte Postfächer abgelaufen ist. Der Standardaufbewahrungszeitraum beträgt 30 Tage. Während dieses Zeitraums können Sie das Archivpostfach wiederherstellen, indem Sie es mit demselben Benutzerkonto verbinden, mit dem es vor der Deaktivierung verbunden war.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Wenn Sie ein Archivpostfach für ein Benutzerpostfach deaktivieren und anschließend ein Archivpostfach für denselben Benutzer aktivieren, erhält das Benutzerpostfach ein neues Archivpostfach. Während Sie das Cmdlet <STRONG>Connect-Mailbox</STRONG> zum Verbinden eines primären Postfachs mit einem Benutzer verwenden können, müssen Sie das Cmdlet <STRONG>Enable-Mailbox</STRONG> verwenden, um ein deaktiviertes Archivpostfach mit einem vorhandenen Postfach zu verbinden.
 
     
@@ -258,4 +262,3 @@ Die folgende Tabelle enthält Links zu Themen, die Sie beim Verwalten getrennter
 
 
 Arbeiten mit deaktivierten Postfächern
-

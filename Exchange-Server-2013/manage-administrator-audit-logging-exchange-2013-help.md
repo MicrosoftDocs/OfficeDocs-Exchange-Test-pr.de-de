@@ -47,7 +47,9 @@ Die Administrator-Überwachungsprotokollierung in Microsoft Exchange Server 201
 
 Standardmäßig wird bei der Überwachungsprotokollierung für jedes ausgeführt Cmdlet ein Protokolleintrag erstellt. Wenn Sie die Überwachungsprotokollierung zum ersten Mal aktivieren und dieses Verhalten wünschen, müssen Sie die Überwachungsliste für Cmdlets nicht ändern. Wenn Sie zuvor zu überwachende Cmdlets angegeben haben und jetzt alle Cmdlets überwachen möchten, können Sie das Platzhalterzeichen (\*) im Parameter *AdminAuditLogCmdlets* für das Cmdlet **Set-AdminAuditLogConfig** wie im folgenden Befehl gezeigt verwenden.
 
+```powershell
     Set-AdminAuditLogConfig -AdminAuditLogCmdlets *
+```
 
 Sie können angeben, welche Cmdlets überwacht werden sollen, indem Sie mit dem Parameter *AdminAuditLogCmdlets* eine Liste von Cmdlets bereitstellen. In der Liste der zu überwachenden Cmdlets können Sie einzelne Cmdlets, Cmdlets mit Sternchen (\*) oder eine Kombination bereitstellen. Die Einträge in der Liste sind durch Kommas getrennt. Folgende Werte sind gültig:
 
@@ -61,7 +63,9 @@ Sie können angeben, welche Cmdlets überwacht werden sollen, indem Sie mit dem 
 
 In diesem Beispiel werden die Cmdlets in der obigen Liste überwacht.
 
+```powershell
     Set-AdminAuditLogConfig -AdminAuditLogCmdlets New-Mailbox, *TransportRule, *Management*, Set-Transport*
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-AdminAuditLogConfig](https://technet.microsoft.com/de-de/library/dd298169\(v=exchg.150\)).
 
@@ -69,7 +73,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Admin
 
 Standardmäßig wird bei der Überwachungsprotokollierung für jedes ausgeführte Cmdlet ein Protokolleintrag erstellt, unabhängig von den angegebenen Parametern. Wenn Sie die Überwachungsprotokollierung zum ersten Mal aktivieren und dieses Verhalten wünschen, müssen Sie die Überwachungsliste für Parameter nicht ändern. Wenn Sie zuvor zu überwachende Parameter angegeben haben und jetzt alle Parameter überwachen möchten, können Sie das Platzhalterzeichen (\*) im Parameter *AdminAuditLogParameters* für das Cmdlet **Set-AdminAuditLogConfig** wie im folgenden Befehl gezeigt verwenden.
 
+```powershell
     Set-AdminAuditLogConfig -AdminAuditLogParameters *
+```
 
 Mit dem Parameter *AdminAuditLogParameters* kann festgelegt werden, welche Parameter überwacht werden. In der Liste der zu überwachenden Parameter können Sie einzelne Parameter, Parameter mit Sternchen (\*) oder eine Kombination bereitstellen. Die Einträge in der Liste sind durch Kommas getrennt. Folgende Werte sind gültig:
 
@@ -89,7 +95,9 @@ Mit dem Parameter *AdminAuditLogParameters* kann festgelegt werden, welche Param
 
 In diesem Beispiel werden die Parameter in der obigen Liste überwacht.
 
+```powershell
     Set-AdminAuditLogConfig -AdminAuditLogParameters Database, *Address*, Custom*, *Region
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-AdminAuditLogConfig](https://technet.microsoft.com/de-de/library/dd298169\(v=exchg.150\)).
 
@@ -115,7 +123,9 @@ Sie können die Anzahl der Tage, Stunden, Minuten und Sekunden angeben, die Übe
 
 In diesem Beispiel wird eine Verfallszeit von zwei Jahren und sechs Monaten angegeben.
 
-    Set-AdminAuditLogConfig -AdminAuditLogAgeLimit 913.00:00:00
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogAgeLimit 913.00:00:00
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-AdminAuditLogConfig](https://technet.microsoft.com/de-de/library/dd298169\(v=exchg.150\)).
 
@@ -125,11 +135,15 @@ Cmdlets, die mit dem Verb **Test** beginnen, werden nicht standardmäßig protok
 
 Mit diesem Befehl können Sie die Protokollierung von **Test**-Cmdlets aktivieren.
 
-    Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $True
+```powershell
+Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $True
+```
 
 Mit diesem Befehl können Sie die Protokollierung von **Test**-Cmdlets deaktivieren.
 
-    Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $False
+```powershell
+Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $False
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-AdminAuditLogConfig](https://technet.microsoft.com/de-de/library/dd298169\(v=exchg.150\)).
 
@@ -137,17 +151,23 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Admin
 
 Verwenden Sie den folgenden Befehl, um die Administrator-Überwachungsprotokollierung zu deaktivieren.
 
-    Set-AdminAuditLogConfig -AdminAuditLogEnabled $False
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogEnabled $False
+```
 
 ## Aktivieren der Administratorüberwachungsprotokollierung
 
 Verwenden Sie den folgenden Befehl, um die Administrator-Überwachungsprotokollierung zu aktivieren.
 
-    Set-AdminAuditLogConfig -AdminAuditLogEnabled $True
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogEnabled $True
+```
 
 ## Anzeigen der Einstellungen für die Administrator-Überwachungsprotokollierung
 
 Verwenden Sie den folgenden Befehl, um die für Ihre Organisation konfigurierten Einstellungen für die Administrator-Überwachungsprotokollierung anzuzeigen.
 
-    Get-AdminAuditLogConfig
+```powershell
+Get-AdminAuditLogConfig
+```
 

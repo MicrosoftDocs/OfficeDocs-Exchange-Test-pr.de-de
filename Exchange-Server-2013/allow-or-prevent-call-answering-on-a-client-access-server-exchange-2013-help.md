@@ -55,9 +55,12 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Clientzugriffsserver 
 
 Dieses Beispiel ermöglicht dem Clientzugriffsserver `UMCallRouter-05x.contoso.com` das Beantworten von Sprach-, Fax- und Outlook Voice Access-Anrufen sowie von Anrufen der automatischen Telefonzentrale von VoIP-Gateways, IP-Nebenstellenanlagen, SIP-fähigen Nebenstellenanlagen und SBCs und schreibt die Änderung in die Registrierung auf dem Server "UMCallRouter-05x".
 
-    Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```powershell
+Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```
 
 Dieses Beispiel hindert den Clientzugriffsserver `UMCallRouter-05x.contoso.com` am Beantworten von Sprach-, Fax- und Outlook Voice Access-Anrufen sowie von Anrufen der automatischen Telefonzentrale von VoIP-Gateways, IP-Nebenstellenanlagen, SIP-fähigen Nebenstellenanlagen und SBCs und schreibt die Änderung nur in Active Directory.
 
-    Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
-
+```powershell
+Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
+```

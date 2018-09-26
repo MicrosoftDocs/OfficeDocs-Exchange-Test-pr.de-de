@@ -59,21 +59,29 @@ So starten Sie die POP3-Dienste:
 
 1.  Führen Sie auf dem Computer, auf dem die Clientzugriffs-Serverrolle ausgeführt wird, in der Shell den folgenden Befehl aus, um den Microsoft Exchange-POP3-Dienst zu starten.
     
-        Start-service MSExchangePOP3
+    ```powershell
+    Start-service MSExchangePOP3
+    ```
 
 2.  Führen Sie auf dem Computer, auf dem die Postfachserverrolle ausgeführt wird, in der Shell den folgenden Befehl aus, um den Microsoft Exchange-POP3-Back-End-Dienst zu starten.
     
-        Start-service MSExchangePOP3BE
+    ```powershell
+    Start-service MSExchangePOP3BE
+    ```
 
 So beenden Sie die POP3-Dienste:
 
 1.  Führen Sie auf dem Computer, auf dem die Clientzugriffs-Serverrolle ausgeführt wird, in der Shell den folgenden Befehl aus, um den Microsoft Exchange-POP3-Dienst zu beenden.
     
-        Stop-service MSExchangePOP3
+    ```powershell
+    Stop-service MSExchangePOP3
+    ```
 
 2.  Führen Sie auf dem Computer, auf dem die Postfachserverrolle ausgeführt wird, in der Shell den folgenden Befehl aus, um den Microsoft Exchange-POP3-Back-End-Dienst zu beenden.
     
-        Stop-service MSExchangePOP3BE
+    ```powershell
+    Stop-service MSExchangePOP3BE
+    ```
 
 ## Starten oder Beenden der POP3-Dienste mithilfe von "net start"
 
@@ -81,21 +89,29 @@ So starten Sie die POP3-Dienste:
 
 1.  Führen Sie auf dem Computer, auf dem die Clientzugriffs-Serverrolle ausgeführt wird, an der Eingabeaufforderung den folgenden Befehl aus, um den Microsoft Exchange-POP3-Dienst zu starten.
     
-        Net Start msExchangePOP3
+    ```powershell
+    Net Start msExchangePOP3
+    ```
 
 2.  Führen Sie auf dem Computer, auf dem die Postfachserverrolle ausgeführt wird, an der Eingabeaufforderung den folgenden Befehl aus, um den Microsoft Exchange-POP3-Back-End-Dienst zu starten.
     
-        Net Start msExchangePOP3BE
+    ```powershell
+    Net Start msExchangePOP3BE
+    ```
 
 So beenden Sie die POP3-Dienste:
 
 1.  Führen Sie auf dem Computer, auf dem die Clientzugriffs-Serverrolle ausgeführt wird, an der Eingabeaufforderung den folgenden Befehl aus, um den Microsoft Exchange-POP3-Dienst zu beenden.
     
-        Net Stop MSExchangePOP3
+    ```powershell
+    Net Stop MSExchangePOP3
+    ```
 
 2.  Führen Sie auf dem Computer, auf dem die Postfachserverrolle ausgeführt wird, an der Eingabeaufforderung den folgenden Befehl aus, um den Microsoft Exchange-POP3-Back-End-Dienst zu beenden.
     
-        Net Stop MSExchangePOP3BE
+    ```powershell
+    Net Stop MSExchangePOP3BE
+    ```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

@@ -67,11 +67,15 @@ Zum Erstellen einer Rolle oberster Ebene ohne Bereichseinschränkung sind folgen
 
 Rollen oberster Ebene ohne Bereichseinschränkung haben keine übergeordnete Rolle. Zum Erstellen einer Rolle ohne übergeordnete Rolle müssen Sie die Option *UnscopedTopLevel* angeben. Verwenden Sie die folgende Syntax, um eine neue Rolle zu erstellen.
 
-    New-ManagementRole <name of new role> -UnscopedTopLevel
+```powershell
+New-ManagementRole <name of new role> -UnscopedTopLevel
+```
 
 In diesem Beispiel wird eine Rolle oberster Ebene ohne Bereichseinschränkung erstellt, die den Namen "IT Scripts" erhält.
 
-    New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```powershell
+New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```
 
 Nachdem die Rolle erstellt wurde, ist sie leer, bis Sie ihr Skripts oder Exchange-fremde Cmdlets hinzufügen.
 
@@ -87,11 +91,15 @@ Das Skript muss sich im Microsoft Exchange Server 2013-Installationspfad im Ver
 
 Nachdem Sie das Skript auf die entsprechenden Exchange 2013-Server kopiert und entschieden haben, welche Parameter verwendet werden sollen, erstellen Sie den Rolleneintrag mithilfe der folgenden Syntax.
 
+```powershell
     Add-ManagementRoleEntry <unscoped top-level role name>\<script filename> -Parameters <parameter 1, parameter 2, parameter...> -Type Script -UnscopedTopLevel
+```
 
 In diesem Beispiel wird das Skript "BulkProvisionUsers.ps1" mit den Parametern *Name* und *Location* zur Rolle "IT Scripts" hinzugefügt.
 
+```powershell
     Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
+```
 
 
 > [!NOTE]
@@ -109,11 +117,15 @@ Wenn Sie der neuen Rolle Nicht-Exchange-Cmdlets hinzufügen, müssen die Cmdlets
 
 Nachdem Sie das Windows PowerShell-Snap-In, das die Cmdlets enthält, auf den entsprechenden Servern mit Exchange 2013 installiert haben und nun entscheiden, welche Cmdlet-Parameter verwendet werden sollen, können Sie den Rolleneintrag mithilfe der folgenden Syntax erstellen.
 
+```powershell
     Add-ManagementRoleEntry <unscoped top-level role name>\<cmdlet name> -PSSnapinName <snap-in name> -Parameters <parameter 1, parameter 2, parameter...> -Type Cmdlet -UnscopedTopLevel
+```
 
 In diesem Beispiel wird das Cmdlet **Set-WidgetConfiguration** zum Snap-In "Contoso.Admin.Cmdlets" zur Rolle "Widget Cmdlets" mit den Parametern *Database* und *Size* hinzugefügt.
 
+```powershell
     Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
+```
 
 
 > [!NOTE]
@@ -155,11 +167,15 @@ Neue untergeordnete Rollen ohne Bereichseinschränkung können auf vorhandenen R
 
 Verwenden Sie die folgende Syntax, um eine neue Rolle zu erstellen.
 
+```powershell
     New-ManagementRole -Parent <existing unscoped role to copy> -Name <name of new unscoped role>
+```
 
 Im folgenden Beispiel werden die Rolle "IT Global Scripts" und die zugehörigen Verwaltungsrolleneinträge in die Rolle "Diagnostic IT Scripts" kopiert.
 
-    New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```powershell
+New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRole](https://technet.microsoft.com/de-de/library/dd298073\(v=exchg.150\)).
 

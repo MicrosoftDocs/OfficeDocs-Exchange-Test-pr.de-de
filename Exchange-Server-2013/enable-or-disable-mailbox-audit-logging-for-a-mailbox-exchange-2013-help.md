@@ -51,11 +51,15 @@ Mithilfe der Shell können Sie die Postfachüberwachungsprotokollierung für ein
 
 In diesem Beispiel wird die Überwachungsprotokollierung für das Postfach von "Ben Smith" aktiviert.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditEnabled $true
+```
 
 In diesem Beispiel wird die Überwachungsprotokollierung für das Postfach von "Ben Smith" deaktiviert.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditEnabled $false
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditEnabled $false
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)).
 
@@ -65,15 +69,21 @@ Wenn die Postfachüberwachungsprotokollierung für ein Postfach aktiviert ist, w
 
 In diesem Beispiel wird festgelegt, dass die von Stellvertretern ausgeführten Aktionen `SendAs` oder `SendOnBehalf` für das Postfach von "Ben Smith" protokolliert werden.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditDelegate SendAs,SendOnBehalf -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditDelegate SendAs,SendOnBehalf -AuditEnabled $true
+```
 
 In diesem Beispiel wird festgelegt, dass die von Administratoren ausgeführten Aktionen `MessageBind` und `FolderBind` für das Postfach von "Ben Smith" protokolliert werden.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditAdmin MessageBind,FolderBind -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditAdmin MessageBind,FolderBind -AuditEnabled $true
+```
 
 In diesem Beispiel wird festgelegt, dass die vom Postfachbesitzer ausgeführte Aktion `HardDelete` für das Postfach von "Ben Smith" protokolliert wird.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditOwner HardDelete -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditOwner HardDelete -AuditEnabled $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)).
 
@@ -83,5 +93,6 @@ Zur Sicherstellung, dass Sie die Postfachüberwachungsprotokollierung für ein P
 
 In diesem Beispiel werden die Postfacheinstellungen von Ben Smith abgerufen, und die angegebenen Überwachungseinstellungen einschließlich des Höchstalters werden an das Cmdlet **Format-List** übergeben.
 
+```powershell
     Get-Mailbox "Ben Smith" | Format-List *audit*
-
+```

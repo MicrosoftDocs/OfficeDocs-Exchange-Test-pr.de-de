@@ -78,7 +78,9 @@ Nachdem Sie eine Compliance-eDiscovery-Suche erstellt haben, können Sie diese m
 
 In diesem Beispiel wird die Compliance-eDiscovery-Suche "Search-Project Contoso" geändert, um Postfächer zu durchsuchen, die Mitgliedern der Verteilergruppe "DG-ProjectManagers" gehören.
 
-    Set-MailboxSearch -Identity "Search-Project Contoso" -SourceMailboxes "DG-ProjectManagers"
+```powershell
+Set-MailboxSearch -Identity "Search-Project Contoso" -SourceMailboxes "DG-ProjectManagers"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

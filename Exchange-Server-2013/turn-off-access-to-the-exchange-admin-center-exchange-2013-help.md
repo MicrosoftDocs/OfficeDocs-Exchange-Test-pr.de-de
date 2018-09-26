@@ -51,7 +51,9 @@ Aus Sicherheitsgründen möchten einige Organisation den Zugriff auf die Exchang
 
 In diesem Beispiel wird der Zugriff auf die Exchange-Verwaltungskonsole auf dem Server "CAS01" deaktiviert.
 
+```powershell
     Set-ECPVirtualDirectory -Identity "CAS01\ecp (default web site)" -AdminEnabled $false
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-EcpVirtualDirectory](https://technet.microsoft.com/de-de/library/dd297991\(v=exchg.150\)).
 

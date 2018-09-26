@@ -47,6 +47,7 @@ Standardmäßig können Sie diese Felder in Microsoft Outlook nicht auswählen. 
 
 1.  Öffnen Sie Editor, und kopieren Sie den folgenden Code in das Dokument.
     
+    ```powershell
         [Description]
         MessageClass=IPM.Note
         CLSID={00020D31-0000-0000-C000-000000000046}
@@ -117,7 +118,8 @@ Standardmäßig können Sie diese Felder in Microsoft Outlook nicht auswählen. 
         NmidPropset={00020D0C-0000-0000-C000-000000000046}
         NmidInteger=1
         Value=1000000000000000
-
+    ```
+    
 2.  Speichern Sie die Datei im Ordner "Office Forms" mit den folgenden Werten:
     
       - **Pfad** *\<Office-Installationspfad\>*\\\<*OfficeVersion\>*\\Forms\\*\<LCID\>*
@@ -132,7 +134,9 @@ Standardmäßig können Sie diese Felder in Microsoft Outlook nicht auswählen. 
     
     Wenn Sie beispielsweise über eine 32-Bit-Version von Outlook 2013 auf US-Englisch verfügen, die unter einer 64-Bit-Version von Windows installiert ist, speichern Sie die Datei als:
     
+    ```powershell
         "C:\Program Files (x86)\Microsoft Office\Office15\Forms\1033\QTNE.cfg"
+    ```
     
 
     > [!NOTE]

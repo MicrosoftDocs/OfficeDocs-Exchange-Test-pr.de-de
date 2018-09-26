@@ -61,7 +61,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf IRM finden Sie unter 
 
 In diesem Beispiel wird die Transportentschlüsselung für die Exchange 2013-Organisation aktiviert. Nachrichten, die nicht entschlüsselt werden können, werden zurückgewiesen, und an den Absender wird ein Unzustellbarkeitsbericht gesendet.
 
-    Set-IRMConfiguration -TransportDecryptionSetting Mandatory
+```powershell
+Set-IRMConfiguration -TransportDecryptionSetting Mandatory
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-IRMConfiguration](https://technet.microsoft.com/de-de/library/dd979792\(v=exchg.150\)).
 
@@ -69,7 +71,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-IRMCo
 
 In diesem Beispiel wird die Transportentschlüsselung für die Microsoft Exchange 2013-Organisation deaktiviert.
 
-    Set-IRMConfiguration -TransportDecryptionSetting Disabled
+```powershell
+Set-IRMConfiguration -TransportDecryptionSetting Disabled
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-IRMConfiguration](https://technet.microsoft.com/de-de/library/dd979792\(v=exchg.150\)).
 

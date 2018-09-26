@@ -61,7 +61,9 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit K
 
 In diesem Beispiel wird eine Kopie der Postfachdatenbank "DB1" vom Postfachserver "MBX1" entfernt.
 
+```powershell
     Remove-MailboxDatabaseCopy -Identity DB1\MBX1 -Confirm:$False
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -71,7 +73,9 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Entfernung einer Postfachdate
 
   - Führen Sie in der Shell den folgenden Befehl aus, um das Entfernen der Kopie zu bestätigen.
     
-        Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+    ```powershell
+    Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+    ```
     
     Die entfernte passive Kopie wird nicht mehr aufgeführt.
 

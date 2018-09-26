@@ -43,7 +43,9 @@ Webbasierte Verteilung
 
 In Exchange 2007 und Exchange 2010 wurde das Cmdlet **Move-OfflineAddressBook** verwendet, um die OAB-Generierung auf einen anderen Postfachserver zu verlagern. Exchange 2013 unterstützt nur OAB (Version 4). Dies ist die gleiche OAB-Version, die standardmäßig in Exchange 2010 verwendet wurde. In Exchange 2013 können keine anderen OAB-Versionen generiert werden, und die OAB-Generierung erfolgt auf dem Postfachserver, auf dem sich das Organisationspostfach befindet. Daher müssen Sie in Exchange 2013 das Organisationspostfach verschieben, um die OAB-Generierung zu verlagern. Sie können die OAB-Generierung nur in eine andere Exchange 2013-Postfachdatenbank verlagern. Die OAB-Generierung kann nicht in eine Version von Exchange verlagert werden. Führen Sie folgenden Shell-Befehl aus, um das Exchange 2013-Organisationspostfach zu finden:
 
+```powershell
     Get-Mailbox -Arbitration | where {$_.PersistedCapabilities -like "*oab*"}
+```
 
 Anschließend können Sie das Cmdlet **MoveRequest**, verwenden, um das Postfach zu verschieben.
 

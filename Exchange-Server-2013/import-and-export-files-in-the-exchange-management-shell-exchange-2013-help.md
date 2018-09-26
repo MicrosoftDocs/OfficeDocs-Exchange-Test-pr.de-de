@@ -49,11 +49,15 @@ Die Syntax zum Importieren von Dateien in Exchange 2013 wird immer dann verwende
 
 Die Shell muss wissen, welche Datei Sie an das Exchange 2013-Cmdlet senden und welcher Parameter Daten akzeptiert. Verwenden Sie zu diesem Zweck die folgende Syntax.
 
+```powershell
     <Cmdlet> -FileData ([Byte[]]$(Get-Content -Path <local path to file> -Encoding Byte -ReadCount 0))
+```
 
 Über den folgenden Befehl wird z. B. die Datei C:\\MyData.dat in den Parameter *FileData* des fiktionalen Cmdlets **Import-SomeData** importiert.
 
+```powershell
     Import-SomeData -FileData (Byte[]]$(Get-Content -Path "C:\MyData.dat" -Encoding Byte -ReadCount 0))
+```
 
 Wenn der Befehl ausgeführt wird, werden folgende Aktionen ausgeführt:
 
@@ -71,8 +75,10 @@ Wenn der Befehl ausgeführt wird, werden folgende Aktionen ausgeführt:
 
 Einige Cmdlets verwenden die folgende alternative Syntax, mit der dieselben Aktionen ausgeführt werden wie bei Verwendung der vorhergehenden Syntax.
 
+```powershell
     [Byte[]]$Data = Get-Content -Path <local path to file> -Encoding Byte -ReadCount 0
     Import-SomeData -FileData $Data
+```
 
 Mit dieser alternativen Syntax wird derselbe Vorgang ausgeführt. Der einzige Unterschied besteht darin, dass nicht umgehend der gesamte Vorgang ausgeführt wird. Die aus der lokalen Datei abgerufenen Daten werden in einer Variablen gespeichert, die nach der Erstellung referenziert werden kann. Die Variable wird anschließend im Importbefehl verwendet, um die Inhalte der lokalen Datei an das Cmdlet **Import-SomeData** zu übergeben. Dieser zwei Schritte umfassende Vorgang ist nützlich, wenn Sie die Daten aus der lokalen Datei in mehreren Befehlen verwenden möchten.
 
@@ -142,7 +148,9 @@ Die Syntax zum Exportieren von Dateien in Exchange 2013 wird immer dann verwende
 
 Die Shell muss wissen, dass Sie die in der Eigenschaft **FileData** gespeicherten Daten auf Ihrem lokalen Computer speichern möchten. Verwenden Sie zu diesem Zweck die folgende Syntax.
 
-    <cmdlet> | ForEach { $_.FileData | Add-Content <local path to file> -Encoding Byte }
+```command line
+<cmdlet> | ForEach {     <cmdlet> | ForEach { $_.FileData | Add-Content <local path to file> -Encoding Byte }.FileData | Add-Content <local path to file> -Encoding Byte }
+```
 
 Über den folgenden Befehl werden die in der Eigenschaft **FileData** gespeicherten Daten für das Objekt exportiert, das über das fiktionale Cmdlet **Export-SomeData** erstellt wurde. Die exportierten Daten werden in einer von Ihnen angegebenen Datei auf dem lokalen Computer gespeichert, in diesem Fall MyData.dat.
 
@@ -151,8 +159,9 @@ Die Shell muss wissen, dass Sie die in der Eigenschaft **FileData** gespeicherte
 > Für dieses Verfahren werden das Cmdlet <STRONG>ForEach</STRONG>, Objekte und das Pipelining verwendet. Weitere Informationen zu diesen Cmdlets finden Sie unter <A href="https://technet.microsoft.com/de-de/library/aa998260(v=exchg.150)">Pipelining</A> und <A href="https://technet.microsoft.com/de-de/library/aa996386(v=exchg.150)">Strukturierte Daten</A>.
 
 
-
+```powershell
     Export-SomeData | ForEach { $_.FileData | Add-Content C:\MyData.dat -Encoding Byte }
+```
 
 Wenn der Befehl ausgeführt wird, werden folgende Aktionen ausgeführt:
 

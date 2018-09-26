@@ -87,7 +87,9 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Sicherung der Daten zu überp
 
   - Führen Sie den folgenden Befehl in der Exchange-Verwaltungsshell aus, um zu überprüfen, ob alle Datenbanken auf dem/n ausgewählten Volume(s) erfolgreich gesichert wurden:
     
+    ```powershell
         Get-MailboxDatabase -Server <ServerName> -Status | fl Name,*FullBackup
+    ```
     
     Die Eigenschaften *SnapshotLastFullBackup* und *LastFullBackup* der Datenbank geben an, wann die letzte erfolgreiche Sicherung durchgeführt wurde, und ob es sich um eine vollständige VSS-Sicherung handelte.
 

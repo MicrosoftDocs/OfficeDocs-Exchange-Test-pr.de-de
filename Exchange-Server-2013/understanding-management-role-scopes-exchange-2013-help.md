@@ -964,7 +964,9 @@ Für einige Cmdlets werden möglicherweise Konfigurationsbereiche verwendet, die
 
 Datenbankbereiche wurden erstmalig in Microsoft Exchange 2010 Service Pack 1 (SP1) eingeführt und werden in Exchange 2013 weiterhin unterstützt. Exchange-Versionen vor Exchange 2010 SP1 unterstützen lediglich Empfängerbereiche und Serverkonfigurationsbereiche. Wenn Sie einen neuen Datenbankbereich auf einem Server mit Exchange 2010 SP1 oder höher erstellen, wird die folgende Warnung angezeigt:
 
-    WARNING: Database management scopes will only be applied when a user connects to a server running Exchange 2010 SP1 or later. Servers running a version of Exchange prior to Exchange 2010 SP1 won't apply any roles from a role assignment linked to a database scope. Database management scopes also won't be visible to the Get-ManagementScope cmdlet when it's run from a pre-Exchange 2010 SP1 server.
+```PowerShell
+WARNING: Database management scopes will only be applied when a user connects to a server running Exchange 2010 SP1 or later. Servers running a version of Exchange prior to Exchange 2010 SP1 won't apply any roles from a role assignment linked to a database scope. Database management scopes also won't be visible to the Get-ManagementScope cmdlet when it's run from a pre-Exchange 2010 SP1 server.
+```
 
 Wenn Sie einen Datenbankbereich erstellen, wird er nur auf Benutzer angewendet, die Verbindungen mit Servern mit Exchange 2010 SP1 oder höher herstellen. Auf Benutzer, die Verbindungen mit Servern vor Exchange 2010 SP1 herstellen, werden keine Rollenzuweisungen mit Datenbankbereichen angewendet. Dies bedeutet, dass jegliche Berechtigungen, die von diesen Rollenzuweisungen bereitgestellt werden, Benutzern mit Servern vor Exchange 2010 SP1 bei der Verbindungsherstellung nicht erteilt werden. Datenbankbereiche können von Servern vor Exchange 2010 SP1 nicht erstellt, entfernt, geändert oder angezeigt werden.
 

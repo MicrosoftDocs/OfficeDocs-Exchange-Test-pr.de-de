@@ -47,15 +47,21 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit Clientzugriffs
 
 In diesem Beispiel werden Verbindungs- und Betriebstests für den lokalen Postfachserver ausgeführt und dann VoIP-Verbindungsinformationen (Voice over IP) angezeigt.
 
-    Test-UMConnectivity
+```powershell
+Test-UMConnectivity
+```
 
 In diesem Beispiel wird die Möglichkeit des lokalen Clientzugriffsservers getestet, den TCP-Port 5060 auf eingehende, nicht verschlüsselte SIP-Anforderungen abzuhören.
 
-    Test-UMConnectivity -ListenPort 5060
+```powershell
+Test-UMConnectivity -ListenPort 5060
+```
 
 In diesem Beispiel wird die Möglichkeit des lokalen Clientzugriffsservers getestet, den TCP-Port 5061 auf eingehende, verschlüsselte SIP-Anforderungen abzuhören.
 
-    Test-UMConnectivity -ListenPort 5061
+```powershell
+Test-UMConnectivity -ListenPort 5061
+```
 
 
 > [!NOTE]

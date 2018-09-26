@@ -53,11 +53,15 @@ Sie können die Details eines Bereichs anzeigen, indem Sie die Ausgabe des Cmdle
 
 Verwenden Sie die folgende Syntax, um die Details eines bestimmten Bereichs anzuzeigen.
 
-    Get-ManagementScope <scope name> | Format-List
+```powershell
+Get-ManagementScope <scope name> | Format-List
+```
 
 In diesem Beispiel werden die Details des Bereichs "Seattle Servers" abgerufen.
 
-    Get-ManagementScope "Seattle Servers" | Format-List
+```powershell
+Get-ManagementScope "Seattle Servers" | Format-List
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementScope](https://technet.microsoft.com/de-de/library/dd298180\(v=exchg.150\)).
 
@@ -65,7 +69,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Manag
 
 In diesem Beispiel wird eine Liste mit Bereichen in Ihrer Organisation abgerufen.
 
-    Get-ManagementScope
+```powershell
+Get-ManagementScope
+```
 
 Dieses Cmdlet ruft exklusive und reguläre Bereiche ab. Wenn Sie nur exklusive oder nur reguläre Bereiche zurückgeben möchten, lesen Sie "Ausschließliches Auflisten aller exklusiven oder aller regulären Bereiche" weiter unten in diesem Thema.
 
@@ -77,7 +83,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Manag
 
 In diesem Beispiel wird eine Liste verwaister Bereiche abgerufen.
 
-    Get-ManagementScope -Orphan
+```powershell
+Get-ManagementScope -Orphan
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementScope](https://technet.microsoft.com/de-de/library/dd298180\(v=exchg.150\)).
 
@@ -85,15 +93,21 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Manag
 
 Standardmäßig gibt das Cmdlet **Get-ManagementScope** eine Liste von Bereichen zurück, die exklusive und reguläre Bereiche enthält. Verwenden Sie die folgende Syntax, wenn Sie nur exklusive oder nur reguläre Bereiche zurückgeben möchten.
 
-    Get-ManagementScope -Exclusive < $true | $false >
+```powershell
+Get-ManagementScope -Exclusive < $true | $false >
+```
 
 In diesem Beispiel werden nur exklusive Bereiche zurückgegeben.
 
-    Get-ManagementScope -Exclusive $true
+```powershell
+Get-ManagementScope -Exclusive $true
+```
 
 In diesem Beispiel wird eine Liste nur regulärer Bereiche zurückgegeben.
 
-    Get-ManagementScope -Exclusive $false
+```powershell
+Get-ManagementScope -Exclusive $false
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-ManagementScope](https://technet.microsoft.com/de-de/library/dd298180\(v=exchg.150\)).
 

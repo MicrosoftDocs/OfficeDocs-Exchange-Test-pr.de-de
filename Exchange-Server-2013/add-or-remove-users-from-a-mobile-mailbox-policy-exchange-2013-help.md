@@ -66,9 +66,10 @@ Sie ändern die Postfachrichtlinie für mobile Geräte für einen einzelnen Benu
 Sie können die Postfachrichtlinie für mobile Geräte für einen einzelnen Benutzer ändern, indem Sie das Cmdlet **Get-CASMailbox** in der Shell verwenden.
 
 1.  Führen Sie in der Shell den folgenden Befehl aus.
-    
-        Get-CASMailbox -Identity tony@contoso.com -ActiveSyncMailboxPolicy "Sales" 
 
+    ```powershell
+        Get-CASMailbox -Identity tony@contoso.com -ActiveSyncMailboxPolicy "Sales" 
+     ```
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Führen Sie eine der folgenden Aktionen aus, um zu überprüfen, ob Sie die Postfachrichtlinie für mobile Geräte eines Benutzers erfolgreich geändert haben:
@@ -76,9 +77,10 @@ Führen Sie eine der folgenden Aktionen aus, um zu überprüfen, ob Sie die Post
 1.  Klicken Sie in der Exchange-Verwaltungskonsole auf **Empfänger** \> **Postfächer**, und wählen Sie einen Empfänger aus. Führen Sie im Detailbereich einen Bildlauf bis **Telefon- und Sprachfunktionen** durch, und klicken Sie auf **Details anzeigen**.
 
 2.  Führen Sie in der Shell den folgenden Befehl aus.
-    
-        Get-CASMailbox -Identity tony@contoso.com 
 
+    ```powershell
+        Get-CASMailbox -Identity tony@contoso.com 
+    ```
 ## Ändern der Postfachrichtlinie für mobile Geräte für mehrere Benutzer in einem Arbeitsschritt
 
 Wenn Sie die Postfachrichtlinie für mobile Geräte für mehrere Benutzer gleichzeitig ändern möchten, können Sie die Funktion zur Massenbearbeitung in der Exchange-Verwaltungskonsole verwenden oder die Postfachrichtlinie für mobile Geräte mithilfe der Shell für einen gefilterten Satz an Benutzern ändern.
@@ -102,9 +104,11 @@ Sie können die Postfachrichtlinie für mobile Geräte für mehrere Benutzer gle
 Sie können mithilfe der Shell die Postfachrichtlinie für mobile Geräte für einen gefilterten Satz an Benutzern ändern. Sie können Benutzer basierend auf einer Vielzahl von Attributen filtern.
 
 1.  Führen Sie in der Shell den folgenden Befehl aus.
-    
+
+    ```powershell
         Get-Mailbox | where { $_.CustomAttribute1 -match "Manager"
          } | Set-CASMailbox -activesyncmailboxpolicy(Get-ActiveSyncMailboxPolicy "Contoso").Identity
+    ```
     
 
     > [!NOTE]
@@ -120,5 +124,7 @@ Führen Sie eine der folgenden Aktionen aus, um zu überprüfen, ob Sie die Post
 
 2.  Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-CASMailbox -Identity tony@contoso.com
+    ```powershell
+    Get-CASMailbox -Identity tony@contoso.com
+    ```
 

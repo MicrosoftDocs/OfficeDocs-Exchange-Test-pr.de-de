@@ -51,7 +51,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Adresslisten finden S
 
 In diesem Beispiel wird die Adressliste "Sales Department" entfernt, die keine untergeordneten Adresslisten enthält.
 
-    Remove-AddressList -Identity "Sales Department"
+```powershell
+Remove-AddressList -Identity "Sales Department"
+```
 
 Geben Sie **J** ein, um das Entfernen dieser Adressliste zu bestätigen, und drücken Sie dann die EINGABETASTE.
 
@@ -61,7 +63,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-Ad
 
 In diesem Beispiel wird die übergeordnete Adressliste "Departments" mit allen untergeordneten Adresslisten entfernt.
 
-    Remove-AddressList -Identity Departments -Recursive
+```powershell
+Remove-AddressList -Identity Departments -Recursive
+```
 
 Geben Sie **J** ein, um das Entfernen der über- und untergeordneten Adresslisten zu bestätigen, und drücken Sie dann die EINGABETASTE.
 

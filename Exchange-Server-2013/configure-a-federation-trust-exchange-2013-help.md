@@ -20,7 +20,7 @@ _**Letztes Änderungsdatum des Themas:** 2017-07-26_
 Mit einer Verbundvertrauensstellung wird eine Vertrauensstellung zwischen einer Microsoft Exchange 2013-Organisation und dem Azure Active Directory-Authentifizierungssystem erstellt. Durch Konfigurieren einer Verbundvertrauensstellung können Sie Verbundfreigaben mit anderen Exchange-Verbundorganisationen erstellen, damit Benutzer Frei/Gebucht-Informationen gemeinsam nutzen können. Verbundfreigaben können zwischen zwei Exchange 2013-Verbundorganisationen oder zwischen einer Exchange 2013-Verbundorganisation und Exchange 2010-Verbundorganisationen konfiguriert werden. Sie können die gemeinsame Nutzung auch mit einer Office 365-Organisation einrichten.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Das Erstellen einer Verbundvertrauensstellung ist einer von mehreren Schritten, die zum Einrichten von Verbundfreigaben in Ihrer Exchange-Organisation ausgeführt werden müssen. Eine Liste aller Schritte finden Sie unter <A href="configure-federated-sharing-exchange-2013-help.md">Konfigurieren der Verbundfreigabe</A>.
 
 
@@ -28,7 +28,7 @@ Mit einer Verbundvertrauensstellung wird eine Vertrauensstellung zwischen einer 
 Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund finden Sie unter [Verbundverfahren](federation-procedures-exchange-2013-help.md).
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Diese Funktion von Exchange Server 2013 ist nicht vollständig kompatibel mit dem von 21Vianet in China betriebenen Office 365. Möglicherweise sind einige Funktionseinschränkungen vorhanden. Weitere Informationen finden Sie unter <A href="https://go.microsoft.com/fwlink/?linkid=313640">Verwenden von Office 365 mit 21Vianet</A>.
 
 
@@ -63,7 +63,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
     
     Es wird empfohlen, für sämtliche Exchange-Organisationen die Business-Instanz des Azure AD-Authentifizierungssystems für Verbundvertrauensstellungen zu verwenden. Vor der Konfiguration der Verbundfreigabe zwischen den zwei Exchange-Organisationen müssen Sie überprüfen, welche Azure AD-Authentifizierungssysteminstanz die Exchange-Organisationen jeweils für vorhandene Verbundvertrauensstellungen verwenden. Zum Ermitteln, welche Azure AD-Authentifizierungssysteminstanz eine Exchange-Organisation für eine vorhandene Verbundvertrauensstellung verwendet, führen Sie den folgenden Shellbefehl aus.
     
-        Get-FederationInformation -DomainName <hosted Exchange domain namespace>
+    ```powershell
+    Get-FederationInformation -DomainName <hosted Exchange domain namespace>
+    ```
     
     Die Business-Instanz gibt für den Parameter *TokenIssuerURIs* den Wert `<uri:federation:MicrosoftOnline>` zurück.
     
@@ -88,7 +90,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
 6.  Wählen Sie in **Akzeptierte Domänen auswählen** die primäre freigegebene Domäne aus der Liste, und klicken Sie auf **OK**.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Die ausgewählte Domäne wird zur Konfiguration der Organisations-ID für die Verbundvertrauensstellung verwendet. Weitere Informationen zur Organisations-ID finden Sie unter <A href="federation-exchange-2013-help.md">Verbund</A>.
 
 
@@ -96,7 +98,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
 7.  Notieren Sie sich den Nachweis für die Verbunddomäne, der für die primäre freigegebene Domäne generiert wird. Sie benötigen diese Zeichenfolge, um einen TXT-Eintrag auf Ihrem öffentlichen DNS-Server zu erstellen.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Die Zeichenfolge des Nachweises für die Verbunddomäne besteht aus alphanumerischen Zeichen. Zur Vermeidung von Eingabefehlern empfiehlt es sich, die Zeichenfolge aus der Exchange-Verwaltungskonsole zu kopieren und in einen Text-Editor wie Editor einzufügen. Zum Erstellen des TXT-Eintrags können Sie die Zeichenfolge aus dem Text-Editor in die Zwischenablage und dann in das Feld <STRONG>Text</STRONG> einfügen. Wenn der TXT-Eintrag mit einer falschen Zeichenfolge des Nachweises für die Verbunddomäne erstellt wird, kann das Azure AD-Authentifizierungssystem den Nachweis der Domäneneigentümerschaft nicht überprüfen, und Sie können sie nicht der Verbundorganisations-ID hinzufügen.
 
 
@@ -117,31 +119,45 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
 
 1.  Führen Sie diesen Befehl aus, um eine Schlüssel-ID des Antragstellers für das Zertifikat für die Verbundvertrauensstellung zu erstellen:
     
-        $ski = [System.Guid]::NewGuid().ToString("N")
+    ```powershell
+    $ski = [System.Guid]::NewGuid().ToString("N")
+    ```
 
 2.  Verwenden Sie diese Syntax, um ein selbstsigniertes Zertifikat für die Verbundvertrauensstellung zu erstellen:
     
-        New-ExchangeCertificate -FriendlyName "<Descriptive Name>" -DomainName <domain> -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
+    ```powershell
+    New-ExchangeCertificate -FriendlyName "<Descriptive Name>" -DomainName <domain> -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
+    ```
     
     In diesem Beispiel wird ein selbstsigniertes Zertifikat für die Verbundvertrauensstellung mit dem Azure AD-Authentifizierungssystem erstellt. Das Zertifikat verwendet den Anzeigenamen „Exchange-Verbundfreigabe“, und der Domänenwert wird von der **USERDNSDOMAIN**-Umgebungsvariablen abgerufen.
     
-        New-ExchangeCertificate -FriendlyName "Exchange Federated Sharing" -DomainName $env:USERDNSDOMAIN -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
+    ```powershell
+    New-ExchangeCertificate -FriendlyName "Exchange Federated Sharing" -DomainName $env:USERDNSDOMAIN -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
+    ```
 
 3.  Verwenden Sie die folgende Syntax, um die Verbundvertrauensstellung zu erstellen und das selbstsignierte Zertifikat, das Sie im vorherigen Schritt für die Exchange-Server in Ihrer Organisation erstellt haben, automatisch bereitzustellen:
     
-        Get-ExchangeCertificate | ?{$_.FriendlyName -eq "<FriendlyName>"} | New-FederationTrust -Name "<Descriptive Name>"
+    ```powershell
+    Get-ExchangeCertificate | ?{$_.FriendlyName -eq "<FriendlyName>"} | New-FederationTrust -Name "<Descriptive Name>"
+    ```
     
     In diesem Beispiel werden die Verbundvertrauensstellung „Azure AD-Authentifizierung“ erstellt und das selbstsignierte Zertifikat mit dem Namen „Exchange-Verbundfreigabe“ bereitgestellt.
     
-        Get-ExchangeCertificate | ?{$_.FriendlyName -eq "Exchange Federated Sharing"} | New-FederationTrust -Name "Azure AD Authentication"
+    ```powershell
+    Get-ExchangeCertificate | ?{$_.FriendlyName -eq "Exchange Federated Sharing"} | New-FederationTrust -Name "Azure AD Authentication"
+    ```
 
 4.  Verwenden Sie diese Syntax, um den Nachweis des Domänenbesitzes anhand eines TXT-Eintrags zurückzugeben, der für jede Domäne erforderlich ist, die Sie für die Verbundvertrauensstellung konfigurieren.
     
-        Get-FederatedDomainProof -DomainName <domain>
+    ```powershell
+    Get-FederatedDomainProof -DomainName <domain>
+    ```
     
     In diesem Beispiel wird der Nachweis des Domänenbesitzes anhand eines TXT-Eintrags zurückgegeben, der für die primäre freigegebene Domäne „contoso.com“ erforderlich ist.
     
-        Get-FederatedDomainProof -DomainName contoso.com
+    ```powershell
+    Get-FederatedDomainProof -DomainName contoso.com
+    ```
     
     **Hinweise:** 
     
@@ -153,23 +169,33 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf den Partnerverbund fi
 
 6.  Führen Sie diesen Befehl zum Abrufen der Metadaten und des Zertifikats von Azure AD aus:
     
-        Set-FederationTrust -RefreshMetadata -Identity "Azure AD authentication"
+    ```powershell
+    Set-FederationTrust -RefreshMetadata -Identity "Azure AD authentication"
+    ```
 
 7.  Verwenden Sie diese Syntax, um die primäre freigegebene Domäne für die Verbundvertrauensstellung zu konfigurieren, die Sie in Schritt 3 erstellt haben. Die Domäne, die Sie angeben, wird zum Konfigurieren der Organisations-ID (OrgID) für die Verbundvertrauensstellung verwendet. Weitere Informationen zu der Organisations-ID finden Sie unter [Federated organization identifier](federation-exchange-2013-help.md).
     
-        Set-FederatedOrganizationIdentifier -DelegationFederationTrust "<Federation Trust Name>" -AccountNamespace <Accepted Domain> -Enabled $true
+    ```powershell
+    Set-FederatedOrganizationIdentifier -DelegationFederationTrust "<Federation Trust Name>" -AccountNamespace <Accepted Domain> -Enabled $true
+    ```
     
     In diesem Beispiel wird die akzeptierte Domäne „contoso.com“ als die primäre freigegebene Domäne für die Verbundvertrauensstellung mit dem Namen „Azure Active Directory-Authentifizierung“ konfiguriert.
     
-        Set-FederatedOrganizationIdentifier -DelegationFederationTrust "Azure AD authentication" -AccountNamespace contoso.com -Enabled $true
+    ```powershell
+    Set-FederatedOrganizationIdentifier -DelegationFederationTrust "Azure AD authentication" -AccountNamespace contoso.com -Enabled $true
+    ```
 
 8.  Verwenden Sie zum Hinzufügen anderer Domänen die folgende Syntax:
     
-        Add-FederatedDomain -DomainName <AdditionalDomain>
+    ```powershell
+    Add-FederatedDomain -DomainName <AdditionalDomain>
+    ```
     
     In diesem Beispiel wird die Unterdomäne „sales.contoso.com“ der Verbundvertrauensstellung hinzugefügt, da Benutzer mit E-Mail-Adressen in der Domäne „sales.contoso.com“ Verbundfreigabefunktionen benötigen.
     
-        Add-FederatedDomain -DomainName sales.contoso.com
+    ```powershell
+    Add-FederatedDomain -DomainName sales.contoso.com
+    ```
     
     Denken Sie daran, dass für jede der Verbundvertrauensstellung hinzugefügte Domäne oder Unterdomäne ein Nachweis des Domänenbesitzes anhand eines TXT-Eintrags erforderlich ist.
 
@@ -183,16 +209,20 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Verbundvertrauensste
 
 1.  Führen Sie den folgenden Shellbefehl aus, um die Informationen der Verbundvertrauensstellung zu überprüfen.
     
-        Get-FederationTrust | Format-List
+    ```powershell
+    Get-FederationTrust | Format-List
+    ```
 
 2.  Ersetzen Sie *\<PrimarySharedDomain\>* durch die primäre freigegebene Domäne, und führen Sie den folgenden Shellbefehl aus, um zu überprüfen, ob die Verbundinformationen von Ihrer Organisation abgerufen werden können.
     
-        Get-FederationInformation -DomainName <PrimarySharedDomain>
+    ```powershell
+    Get-FederationInformation -DomainName <PrimarySharedDomain>
+    ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-FederationTrust](https://technet.microsoft.com/de-de/library/dd351262\(v=exchg.150\)) und [Get-FederationInformation](https://technet.microsoft.com/de-de/library/dd351221\(v=exchg.150\)).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 

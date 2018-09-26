@@ -41,9 +41,13 @@ Verwaltungsrollenbereiche legen fest, welche Objekte für einen Benutzer verfüg
 
 Verwenden Sie die folgende Syntax, um einen Bereich zu entfernen.
 
-    Remove-ManagementScope <scope name>
+```powershell
+Remove-ManagementScope <scope name>
+```
 
 Um beispielsweise den Bereich "Dublin Servers" zu entfernen, verwenden Sie den folgenden Befehl.
 
-    Remove-ManagementScope "Dublin Servers"
+```powershell
+Remove-ManagementScope "Dublin Servers"
+```
 

@@ -42,8 +42,10 @@ Wird das Discoverysystempostfach aber dennoch unbeabsichtigt gelöscht, können 
     
     Führen Sie den folgenden Befehl, um das Systempostfach Discovery neu zu erstellen:
     
+    ```powershell
         .\Setup /preparead /IAcceptExchangeServerLicenseTerms
-
+    ```
+    
 ## Woher weiß ich, dass der Vorgang erfolgreich war?
 
 Verwenden Sie das Cmdlet **Get-Mailbox** mit der Option *Arbitration* zum Abrufen von Systempostfächern, um die erfolgreiche Neuerstellung des Discoverysystempostfachs zu überprüfen. Zeigen Sie die Ergebnisse des Befehls an, um sicherzustellen, dass das Systempostfach `SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}` neu erstellt wurde.

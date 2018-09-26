@@ -390,8 +390,9 @@ Attributwerte in der CSV-Datei überschreiben den Wert des entsprechenden Parame
 
 Beispiel: Angenommen, Sie erstellen in der Exchange-Verwaltungsshell mit dem folgenden Exchange-Verwaltungsshell-Befehl einen Batch für eine gesamtstrukturübergreifende Unternehmensverschiebung, um das primäre und Archivpostfach der Benutzer in die Zielgesamtstruktur zu verschieben.
 
+```powershell
     New-MigrationBatch -Name CrossForestBatch1 -SourceEndpoint ForestEndpoint1 -TargetDeliveryDomain forest2.contoso.com -TargetDatabases @(EXCH-MBX-02,EXCH-MBX-03) -TargetArchiveDatabases @(EXCH-MBX-A02,EXCH-MBX-A03) -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\CrossForestBatch1.csv")) -AutoStart
-
+```
 
 > [!NOTE]
 > Da primäre und Archivpostfächer standardmäßig verschoben werden, müssen Sie dies im Exchange-Verwaltungsshell-Befehl nicht explizit angeben.
@@ -400,26 +401,32 @@ Beispiel: Angenommen, Sie erstellen in der Exchange-Verwaltungsshell mit dem fol
 
 Ein Teil der Datei "CrossForestBatch1.csv" für diesen Migrationsbatch sieht folgendermaßen aus:
 
+```powershell
     EmailAddress,TargetDatabase,TargetArchiveDatabase
     user1@contoso.com,EXCH-MBX-01,EXCH-MBX-A01
     user2@contoso.com,,
     user3@contoso.com,EXCH-MBX-01,
     ...
+```
 
 Da die Werte in der CSV-Datei die Werte für den Migrationsbatch überschreiben, werden das primäre und das Archivpostfach für Benutzer1 auf EXCH-MBX-01 bzw. EXCH-MBX-A01 in der Zielgesamtstruktur verschoben. Das primäre und das Archivpostfach für Benutzer2 werden auf EXCH-MBX-02 oder EXCH-MBX-03 verschoben. Das primäre Postfach für Benutzer3 wird auf EXCH-MBX-01 verschoben, und das Archivpostfach wird auf EXCH-MBX-A02 oder EXCH-MBX-A03 verschoben.
 
 Ein weiteres Beispiel: Angenommen, Sie erstellen mit dem folgenden Befehl einen Batch für eine Onboarding-Remoteverschiebungsmigration in einer Hybridbereitstellung, um Archivpostfächer zu Exchange Online zu verschieben.
 
+```powershell
     New-MigrationBatch -Name OnBoarding1 -SourceEndpoint RemoteEndpoint1 -TargetDeliveryDomain cloud.contoso.com -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\OnBoarding1.csv")) -MailboxType ArchiveOnly -AutoStart
+```
 
 Sie möchte allerdings für ausgewählte Benutzer auch die primären Postfächer verschieben. Somit würde ein Teil der Datei "OnBoarding1.csv" für diesen Migrationsbatch wie folgt aussehen:
 
+```powershell
     EmailAddress,MailboxType
     user1@contoso.com,
     user2@contoso.com,
     user3@cloud.contoso.com,PrimaryAndArchive
     user4@cloud.contoso.com,PrimaryAndArchive
     ...
+```
 
 Da der Wert für den Postfachtyp in der CSV-Datei die Werte für den Parameter *MailboxType* im Befehl zur Erstellung des Batch überschreibt, wird bei Benutzer1 und Benutzer2 nur das Archivpostfach zu Exchange Online migriert. Bei Benutzer3 und Benutzer4 werden hingegen das primäre und das Archivpostfach zu Exchange Online verschoben.
 

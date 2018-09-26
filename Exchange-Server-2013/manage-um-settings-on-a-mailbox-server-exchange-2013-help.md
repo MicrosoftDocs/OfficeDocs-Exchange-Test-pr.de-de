@@ -51,23 +51,33 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit Unified Messag
 
 Dieses Beispiel entfernt einen Postfachserver mit dem Namen `MyMailboxServer` aus allen Wählplänen von Session Initiation Protocol (SIP).
 
-    Set-UMService -Identity MyMailboxServer -DialPlans $null
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans $null
+```
 
 Dieses Beispiel fügt den Postfachserver namens `MyMailboxServer` zu einem UM-SIP-Wählplan mit dem Namen `MySIPDialPlanName` und wird auch die maximale Anzahl der eingehenden Sprachanrufe.
 
+```powershell
     Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -MaxCalls 150 
+```
 
 In diesem Beispiel wird den Startmodus Dualmodus auf einem Postfachserver mit dem Namen `MyUMServer`.
 
+```powershell
     Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -UMStartUpMode -Dual 
+```
 
 ## Verwenden der Shell zum Anzeigen der Postfach-Servereigenschaften
 
 In diesem Beispiel wird eine Liste aller Postfachserver.
 
-    Get-UMService
+```powershell
+Get-UMService
+```
 
 In diesem Beispiel wird eine formatierte Liste der Eigenschaften für den Postfachserver mit dem Namen `MyMailboxServer`.
 
-    Get-UMService -Identity MyMailboxServer | Format-List
+```powershell
+Get-UMService -Identity MyMailboxServer | Format-List
+```
 

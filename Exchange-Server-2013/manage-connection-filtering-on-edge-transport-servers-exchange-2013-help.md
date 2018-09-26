@@ -53,21 +53,29 @@ Um die Verbindungsfilterung vollständig zu aktivieren oder zu deaktivieren, mü
 
 Führen Sie zum Deaktivieren der Verbindungsfilterung den folgenden Befehl aus:
 
-    Disable-TransportAgent "Connection Filtering Agent"
+```powershell
+Disable-TransportAgent "Connection Filtering Agent"
+```
 
 Führen Sie zum Aktivieren der Verbindungsfilterung den folgenden Befehl aus:
 
-    Enable-TransportAgent "Connection Filtering Agent"
+```powershell
+Enable-TransportAgent "Connection Filtering Agent"
+```
 
 Damit die Änderung wirksam wird, starten Sie den Microsoft Exchange-Transportdienst mit dem folgenden Befehl neu:
 
-    Restart-Service MSExchangeTransport
+```powershell
+Restart-Service MSExchangeTransport
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie die Verbindungsfilterung erfolgreich aktiviert oder deaktiviert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der angezeigte Wert der von Ihnen konfigurierte Wert ist.
 
-    Get-TransportAgent "Connection Filtering Agent" | Format-List Enabled
+```powershell
+Get-TransportAgent "Connection Filtering Agent" | Format-List Enabled
+```
 
 ## Verfahren für IP-Sperrlisten
 
@@ -79,29 +87,39 @@ Mit den Cmdlets **IPBlockListConfig** können Sie anzeigen und konfigurieren, wi
 
 Führen Sie den folgenden Befehl aus, um die Konfiguration der IP-Sperrliste anzuzeigen:
 
+```powershell
     Get-IPBlockListConfig | Format-List *Enabled,*Response
+```
 
 ## Aktivieren oder Deaktivieren der IP-Sperrliste mithilfe der Shell
 
 Führen Sie den folgenden Befehl aus, um die IP-Sperrliste zu deaktivieren:
 
-    Set-IPBlockListConfig -Enabled $false
+```powershell
+Set-IPBlockListConfig -Enabled $false
+```
 
 Führen Sie den folgenden Befehl aus, um die IP-Sperrliste zu aktivieren:
 
-    Set-IPBlockListConfig -Enabled $true
+```powershell
+Set-IPBlockListConfig -Enabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie die IP-Sperrliste erfolgreich aktiviert oder deaktiviert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der angezeigte Wert der von Ihnen konfigurierte Wert ist.
 
-    Get-IPBlockListConfig | Format-List Enabled
+```powershell
+Get-IPBlockListConfig | Format-List Enabled
+```
 
 ## Konfigurieren der IP-Sperrliste mithilfe der Shell
 
 Verwenden Sie folgende Syntax, um die IP-Sperrliste zu konfigurieren.
 
+```powershell
     Set-IPBlockListConfig [-ExternalMailEnabled <$true | $false>] [-InternalMailEnabled <$true | $false> -MachineEntryRejectionResponse "<Custom response text>"] [-StaticEntryRejectionResponse "<Custom response text>"]
+```
 
 Bei diesem Beispiel wird die IP-Sperrliste mit den folgenden Einstellungen konfiguriert:
 
@@ -113,29 +131,39 @@ Bei diesem Beispiel wird die IP-Sperrliste mit den folgenden Einstellungen konfi
 
 <!-- end list -->
 
+```powershell
     Set-IPBlockListConfig -InternalMailEnabled $true -MachineEntryRejectionResponse "Connection from IP address {0} was rejected by sender reputation." -StaticEntryRejectionResponse "Connection from IP address {0} was rejected by connection filtering."
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie die IP-Sperrliste erfolgreich konfiguriert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass die angezeigten Werte die von Ihnen konfigurierten Werte sind.
 
+```powershell
     Get-IPBlockListConfig | Format-List *MailEnabled,*Response
+```
 
 ## Verwenden der Shell zum Anzeigen der Einträge in der IP-Sperrliste
 
 Führen Sie den folgenden Befehl aus, um alle Einträge in der IP-Sperrliste anzuzeigen:
 
-    Get-IPBlockListEntry
+```powershell
+Get-IPBlockListEntry
+```
 
 Jeder Eintrag in der IP-Sperrliste wird durch einen ganzzahligen Wert angegeben. Wenn Sie der IP-Sperr- und IP-Zulassungsliste Einträge hinzufügen, wird die ganze Zahl zur Kennzeichnung in aufsteigender Reihenfolge zugewiesen.
 
 Verwenden Sie die folgende Syntax, um einen bestimmten Eintrag in der IP-Sperrliste anzuzeigen:
 
-    Get-IPBlockListEntry <-Identity IdentityInteger | -IPAddress IPAddress>
+```powershell
+Get-IPBlockListEntry <-Identity IdentityInteger | -IPAddress IPAddress>
+```
 
 Führen Sie z. B. den folgenden Befehl aus, um den Eintrag in der IP-Sperrliste mit der IP-Adresse 192.168.1.13 anzuzeigen:
 
-    Get-IPBlockListEntry -IPAddress 192.168.1.13
+```powershell
+Get-IPBlockListEntry -IPAddress 192.168.1.13
+```
 
 
 > [!NOTE]
@@ -147,37 +175,51 @@ Führen Sie z. B. den folgenden Befehl aus, um den Eintrag in der IP-Sperrliste
 
 Verwenden Sie folgende Syntax, um der IP-Sperrliste Einträge hinzuzufügen:
 
+```powershell
     Add-IPBlockListEntry <-IPAddress IPAddress | -IPRange IP range or CIDR IP> [-ExpirationTime <DateTime>] [-comment "<Descriptive Comment>"]
+```
 
 Das folgende Beispiel fügt den IP-Sperrlisteneintrag für den IP-Adressbereich 192.168.1.10 bis 192.168.1.15 hinzu und konfiguriert den IP-Sperrlisteneintrag für einen Ablauf am 4. Juli 2014 um 15:00 Uhr.
 
-    Add-IPBlockListEntry -IPRange 192.168.1.10-192.168.1.15 -ExpirationTime "7/4/2014 15:00"
+```powershell
+Add-IPBlockListEntry -IPRange 192.168.1.10-192.168.1.15 -ExpirationTime "7/4/2014 15:00"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie einen IP-Sperrlisteneintrag erfolgreich hinzugefügt haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der IP-Sperrlisteneintrag angezeigt wird.
 
-    Get-IPBlockListEntry
+```powershell
+Get-IPBlockListEntry
+```
 
 ## Verwenden der Shell zum Entfernen von Einträgen aus der IP-Sperrliste
 
 Verwenden Sie folgende Syntax, um aus der IP-Sperrliste Einträge zu entfernen:
 
-    Remove-IPBlockListEntry <IdentityInteger>
+```powershell
+Remove-IPBlockListEntry <IdentityInteger>
+```
 
 Im folgenden Beispiel wird der IP-Sperrlisteneintrag mit dem Wert 3 für *Identity* entfernt.
 
-    Remove-IPBlockListEntry 3
+```powershell
+Remove-IPBlockListEntry 3
+```
 
 Im folgenden Beispiel wird der IP-Sperrlisteneintrag mit der IP-Adresse 192.168.1.12 entfernt, ohne den Ganzzahlwert von *Identity* zu verwenden. Ein IP-Sperrlisteneintrag kann eine einzelne IP-Adresse oder ein IP-Adressbereich sein.
 
-    Get-IPBlockListEntry -IPAddress 192.168.1.12 | Remove-IPBlockListEntry
+```powershell
+Get-IPBlockListEntry -IPAddress 192.168.1.12 | Remove-IPBlockListEntry
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie einen IP-Sperrlisteneintrag erfolgreich entfernt haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der IP-Sperrlisteneintrag, den Sie entfernt haben, nicht mehr vorhanden ist.
 
-    Get-IPBlockListEntry
+```powershell
+Get-IPBlockListEntry
+```
 
 ## Verfahren für IP-Sperrlistenanbieter
 
@@ -189,29 +231,39 @@ Mit den Cmdlets **IPBlockListProvidersConfig** können Sie anzeigen und konfigur
 
 Führen Sie den folgenden Befehl aus, um anzuzeigen, wie für die Verbindungsfilterung alle IP-Sperrlistenanbieter verwendet werden:
 
+```powershell
     Get-IPBlockListProvidersConfig | Format-List *Enabled,Bypassed*
+```
 
 ## Aktivieren oder Deaktivieren aller IP-Sperrlistenanbieter mithilfe der Shell
 
 Führen Sie den folgenden Befehl aus, um alle IP-Sperrlistenanbieter zu deaktivieren:
 
-    Set-IPBlockListProvidersConfig -Enabled $false
+```powershell
+Set-IPBlockListProvidersConfig -Enabled $false
+```
 
 Führen Sie den folgenden Befehl aus, um alle IP-Sperrlistenanbieter zu aktivieren:
 
-    Set-IPBlockListProvidersConfig -Enabled $true
+```powershell
+Set-IPBlockListProvidersConfig -Enabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie alle IP-Sperrlistenanbieter erfolgreich aktiviert oder deaktiviert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der angezeigte Wert der von Ihnen konfigurierte Wert ist.
 
-    Get-IPBlockListProvidersConfig | Format-List Enabled
+```powershell
+Get-IPBlockListProvidersConfig | Format-List Enabled
+```
 
 ## Konfigurieren aller IP-Sperrlistenanbieter mithilfe der Shell
 
 Verwenden Sie die folgende Syntax, um zu konfigurieren, wie für die Verbindungsfilterung alle IP-Sperrlistenanbieter verwendet werden:
 
+```powershell
     Set-IPBlockListProvidersConfig [-BypassedRecipients <recipient1,recipient2...>] [-ExternalMailEnabled <$true | $false>] [-InternalMailEnabled <$true | $false>]
+```
 
 Bei diesem Beispiel werden alle IP-Sperrlistenanbieter mit den folgenden Einstellungen konfiguriert:
 
@@ -221,7 +273,9 @@ Bei diesem Beispiel werden alle IP-Sperrlistenanbieter mit den folgenden Einstel
 
 <!-- end list -->
 
+```powershell
     Set-IPBlockListProvidersConfig -BypassedRecipients chris@fabrikam.com,michelle@fabrikam.com -InternalMailEnabled $true
+```
 
 Weitere Informationen finden Sie unter [Set-IPBlockListProvidersConfig](https://technet.microsoft.com/de-de/library/aa998543\(v=exchg.150\)).
 
@@ -229,27 +283,37 @@ Weitere Informationen finden Sie unter [Set-IPBlockListProvidersConfig](https://
 
 Zum Bestätigen, dass Sie alle IP-Sperrlistenanbieter erfolgreich konfiguriert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass die angezeigten Werte die von Ihnen konfigurierten Werte sind.
 
+```powershell
     Get-IPBlockListProvidersConfig | Format-List *MailEnabled,Bypassed*
+```
 
 ## Verwenden der Shell zum Anzeigen aller IP-Sperrlistenbieter
 
 Führen Sie den folgenden Befehl aus, um die Übersichtsliste aller IP-Sperrlistenanbieter anzuzeigen:
 
-    Get-IPBlockListProvider
+```powershell
+Get-IPBlockListProvider
+```
 
 Verwenden Sie die folgende Syntax, um die Details eines bestimmten Anbieters anzuzeigen:
 
-    Get-IPBlockListProvider <IPBlockListProviderIdentity>
+```powershell
+Get-IPBlockListProvider <IPBlockListProviderIdentity>
+```
 
 Das folgende Beispiel zeigt die Details des Anbieters Contoso IP Block List Provider.
 
+```powershell
     Get-IPBlockListProvider "Contoso IP Block List Provider" | Format-List Name,Enabled,Priority,LookupDomain,*Match,*Response
+```
 
 ## Verwenden der Shell zum Hinzufügen eines IP-Sperrlistenbieters
 
 Verwenden Sie folgende Syntax, um einen IP-Sperrlistenanbieter hinzuzufügen:
 
+```powershell
     Add-IPBlockListProvider -Name "<Descriptive Name>" -LookupDomain <FQDN> [-Priority <Integer>] [-Enabled <$true | $false>] [-AnyMatch <$true | $false>] [-BitmaskMatch <IPAddress>] [-IPAddressesMatch <IPAddressStatusCode1,IPAddressStatusCode2...>] [-RejectionResponse "<Custom Text>"]
+```
 
 Bei diesem Beispiel wird der IP-Sperrlistenanbieter "Contoso IP Block List Provider" mit den folgenden Optionen erstellt:
 
@@ -259,7 +323,9 @@ Bei diesem Beispiel wird der IP-Sperrlistenanbieter "Contoso IP Block List Provi
 
 <!-- end list -->
 
+```powershell
     Add-IPBlockListProvider -Name "Contoso IP Block List Provider" -LookupDomain rbl.contoso.com -BitmaskMatch 127.0.0.1
+```
 
 
 > [!NOTE]
@@ -273,27 +339,37 @@ Weitere Informationen finden Sie unter [Add-IPBlockListProvider](https://technet
 
 Zum Bestätigen, dass Sie einen IP-Sperrlistenanbieter erfolgreich hinzugefügt haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der IP-Sperrlistenanbieter angezeigt wird.
 
-    Get-IPBlockListProvider
+```powershell
+Get-IPBlockListProvider
+```
 
 ## Aktivieren oder Deaktivieren eines IP-Sperrlistenanbieters mithilfe der Shell
 
 Verwenden Sie die folgende Syntax, um einen bestimmten IP-Sperrlistenanbieter zu aktivieren oder zu deaktivieren:
 
-    Set-IPBlockListProvider <IPBlockListProviderIdentity> -Enabled <$true | $false>
+```powershell
+Set-IPBlockListProvider <IPBlockListProviderIdentity> -Enabled <$true | $false>
+```
 
 Das folgende Beispiel deaktiviert den Anbieter Contoso IP Block List Provider.
 
-    Set-IPBlockListProvider "Contoso IP Block List Provider" -Enabled $false
+```powershell
+Set-IPBlockListProvider "Contoso IP Block List Provider" -Enabled $false
+```
 
 Das folgende Beispiel aktiviert den Anbieter Contoso IP Block List Provider.
 
-    Set-IPBlockListProvider "Contoso IP Block List Provider" -Enabled $true
+```powershell
+Set-IPBlockListProvider "Contoso IP Block List Provider" -Enabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie einen IP-Sperrlistenanbieter erfolgreich aktiviert oder deaktiviert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der angezeigte Wert der von Ihnen konfigurierte Wert ist.
 
-    Get-IPBlockListProvider <IPBlockListProviderIdentity> | Format-List Enabled
+```powershell
+Get-IPBlockListProvider <IPBlockListProviderIdentity> | Format-List Enabled
+```
 
 ## Verwenden der Shell zum Konfigurieren eines IP-Sperrlistenbieters
 
@@ -301,11 +377,15 @@ Die Konfigurationsoptionen, die für das Cmdlet **Set-IPBlockListProvider** zur 
 
 Verwenden Sie folgende Syntax, um einen vorhandenen IP-Sperrlistenanbieter zu konfigurieren:
 
+```powershell
     Set-IPBlockListProvider <IPBlockListProviderIdentity> -Name "<Descriptive Name>" -LookupDomain <FQDN> [-Priority <Integer>] [-AnyMatch <$true | $false>] [-BitmaskMatch <IPAddress>] [-IPAddressesMatch <IPAddressStatusCode1,IPAddressStatusCode2...>] [-RejectionResponse "<Custom Text>"]
+```
 
 Führen Sie beispielsweise den folgenden Befehl aus, um den IP-Adressstatuscode 127.0.0.1 der Liste der vorhandenen Statuscodes für den Anbieter Contoso IP Block List Provider hinzuzufügen:
 
-    Set-IPBlockListProvider "Contoso IP Block List Provider" -IPAddressesMatch @{Add="127.0.0.1"}
+```powershell
+Set-IPBlockListProvider "Contoso IP Block List Provider" -IPAddressesMatch @{Add="127.0.0.1"}
+```
 
 Weitere Informationen finden Sie unter [Set-IPBlockListProvider](https://technet.microsoft.com/de-de/library/bb124979\(v=exchg.150\)).
 
@@ -313,33 +393,45 @@ Weitere Informationen finden Sie unter [Set-IPBlockListProvider](https://technet
 
 Zum Bestätigen, dass Sie einen IP-Sperrlistenanbieter erfolgreich konfiguriert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass die angezeigten Werte die von Ihnen konfigurierten Werte sind.
 
-    Get-IPBlockListProvider <IPBlockListProviderIdentity> | Format-List
+```powershell
+Get-IPBlockListProvider <IPBlockListProviderIdentity> | Format-List
+```
 
 ## Verwenden der Shell zum Testen eines IP-Sperrlistenbieters
 
 Verwenden Sie folgende Syntax, um einen IP-Sperrlistenanbieter zu testen:
 
-    Test-IPBlockListProvider <IPBlockListProviderIdentity> -IPAddress <IPAddressToTest>
+```powershell
+Test-IPBlockListProvider <IPBlockListProviderIdentity> -IPAddress <IPAddressToTest>
+```
 
 Das folgende Beispiel testet den Anbieter Contoso IP Block List Provider, indem die IP-Adresse 192.168.1.1 nachgeschlagen wird.
 
-    Test-IPBlockListProvider "Contoso IP Block List Provider" -IPAddress 192.168.1.1
+```powershell
+Test-IPBlockListProvider "Contoso IP Block List Provider" -IPAddress 192.168.1.1
+```
 
 ## Verwenden der Shell zum Entfernen eines IP-Sperrlistenbieters
 
 Verwenden Sie folgende Syntax, um einen IP-Sperrlistenanbieter zu entfernen:
 
-    Remove-IPBlockListProvider <IPBlockListProviderIdentity>
+```powershell
+Remove-IPBlockListProvider <IPBlockListProviderIdentity>
+```
 
 Das folgende Beispiel entfernt den IP-Sperrlistenanbieter Contoso IP Block List Provider.
 
-    Remove-IPBlockListProvider "Contoso IP Block list Provider"
+```powershell
+Remove-IPBlockListProvider "Contoso IP Block list Provider"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie einen IP-Sperrlistenanbieter erfolgreich entfernt haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der IP-Sperrlistenanbieter, den Sie entfernt haben, nicht mehr vorhanden ist.
 
-    Get-IPBlockListProvider
+```powershell
+Get-IPBlockListProvider
+```
 
 ## Verfahren für IP-Zulassungslisten
 
@@ -351,55 +443,75 @@ Mit den Cmdlets **IPAllowListConfig** können Sie anzeigen und konfigurieren, wi
 
 Führen Sie den folgenden Befehl aus, um die Konfiguration der IP-Zulassungsliste anzuzeigen:
 
+```powershell
     Get-IPAllowListConfig | Format-List *Enabled
+```
 
 ## Aktivieren oder Deaktivieren der IP-Zulassungsliste mithilfe der Shell
 
 Führen Sie den folgenden Befehl aus, um die IP-Zulassungsliste zu deaktivieren:
 
-    Set-IPAllowListConfig -Enabled $false
+```powershell
+Set-IPAllowListConfig -Enabled $false
+```
 
 Führen Sie den folgenden Befehl aus, um die IP-Zulassungsliste zu aktivieren:
 
-    Set-IPAllowListConfig -Enabled $true
+```powershell
+Set-IPAllowListConfig -Enabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie die IP-Zulassungsliste erfolgreich aktiviert oder deaktiviert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der angezeigte Wert der von Ihnen konfigurierte Wert ist.
 
-    Get-IPAllowListConfig | Format-List Enabled
+```powershell
+Get-IPAllowListConfig | Format-List *Enabled
+```
 
 ## Konfigurieren der IP-Zulassungsliste mithilfe der Shell
 
 Verwenden Sie folgende Syntax, um die IP-Zulassungsliste zu konfigurieren.
 
+```powershell
     Set-IPAllowListConfig [-ExternalMailEnabled <$true | $false>] [-InternalMailEnabled <$true | $false>
+```
 
 Bei diesem Beispiel wird die IP-Zulassungsliste so konfiguriert, dass von internen und externen Mailservern eingehende Verbindungen gefiltert werden. Standardmäßig werden nur von externen Mailservern eingehende Verbindungen gefiltert (*ExternalMailEnabled* ist auf `$true` und *InternalMailEnabled* auf `$false` festgelegt). Nicht authentifizierte Verbindungen und authentifizierte Verbindungen von externen Partnern werden als extern eingestuft.
 
-    Set-IPAllowListConfig -InternalMailEnabled $true
+```powershell
+Set-IPAllowListConfig -InternalMailEnabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie die IP-Zulassungsliste erfolgreich konfiguriert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass die angezeigten Werte die von Ihnen konfigurierten Werte sind.
 
+```powershell
     Get-IPAllowListConfig | Format-List *MailEnabled
+```
 
 ## Verwenden der Shell zum Anzeigen der Einträge in der IP-Zulassungsliste
 
 Führen Sie den folgenden Befehl aus, um alle Einträge in der IP-Zulassungsliste anzuzeigen:
 
-    Get-IPAllowListEntry
+```powershell
+Get-IPAllowListEntry
+```
 
 Jeder Eintrag in der IP-Zulassungsliste wird durch einen ganzzahligen Wert angegeben. Wenn Sie der IP-Sperr- und IP-Zulassungsliste Einträge hinzufügen, wird die ganze Zahl zur Kennzeichnung in aufsteigender Reihenfolge zugewiesen.
 
 Verwenden Sie die folgende Syntax, um einen bestimmten Eintrag in der IP-Zulassungsliste anzuzeigen:
 
-    Get-IPAllowListEntry <-Identity IdentityInteger | -IPAddress IPAddress>
+```powershell
+Get-IPAllowListEntry <-Identity IdentityInteger | -IPAddress IPAddress>
+```
 
 Führen Sie z. B. den folgenden Befehl aus, um den Eintrag in der IP-Zulassungsliste mit der IP-Adresse 192.168.1.13 anzuzeigen:
 
-    Get-IPAllowListEntry -IPAddress 192.168.1.13
+```powershell
+Get-IPAllowListEntry -IPAddress 192.168.1.13
+```
 
 
 > [!NOTE]
@@ -411,37 +523,51 @@ Führen Sie z. B. den folgenden Befehl aus, um den Eintrag in der IP-Zulassungs
 
 Verwenden Sie folgende Syntax, um der IP-Zulassungsliste Einträge hinzuzufügen:
 
+```powershell
     Add-IPAllowListEntry <-IPAddress IPAddress | -IPRange IP range or CIDR IP> [-ExpirationTime <DateTime>] [-Comment "<Descriptive Comment>"]
+```
 
 Dieses Beispiel fügt den IP-Zulassungslisteneintrag für den IP-Adressbereich 192.168.1.10 bis 192.168.1.15 hinzu und konfiguriert den IP-Zulassungslisteneintrag für einen Ablauf am 4. Juli 2014 um 15:00 Uhr.
 
-    Add-IPAllowListEntry -IPRange 192.168.1.10-192.168.1.15 -ExpirationTime "7/4/2014 15:00"
+```powershell
+Add-IPAllowListEntry -IPRange 192.168.1.10-192.168.1.15 -ExpirationTime "7/4/2014 15:00"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie einen IP-Zulassungslisteneintrag erfolgreich hinzugefügt haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der IP-Zulassungslisteneintrag angezeigt wird.
 
-    Get-IPAllowListEntry
+```powershell
+Get-IPAllowListEntry
+```
 
 ## Verwenden der Shell zum Entfernen der Einträge aus der IP-Zulassungsliste
 
 Verwenden Sie folgende Syntax, um Einträge aus der IP-Zulassungsliste zu entfernen:
 
-    Remove-IPAllowListEntry <IdentityInteger>
+```powershell
+Remove-IPAllowListEntry <IdentityInteger>
+```
 
 Im folgenden Beispiel wird der IP-Zulassungslisteneintrag mit dem Wert 3 für *Identity* entfernt.
 
-    Remove-IPAllowListEntry 3
+```powershell
+Remove-IPAllowListEntry 3
+```
 
 Im folgenden Beispiel wird der IP-Zulassungslisteneintrag mit der IP-Adresse 192.168.1.12 entfernt, ohne den Ganzzahlwert von *Identity* zu verwenden. Ein IP-Zulassungslisteneintrag kann eine einzelne IP-Adresse oder ein IP-Adressbereich sein.
 
-    Get-IPAllowListEntry -IPAddress 192.168.1.12 | Remove-IPAllowListEntry
+```powershell
+Get-IPAllowListEntry -IPAddress 192.168.1.12 | Remove-IPAllowListEntry
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie einen IP-Zulassungslisteneintrag erfolgreich entfernt haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der IP-Zulassungslisteneintrag, den Sie entfernt haben, nicht mehr vorhanden ist.
 
-    Get-IPAllowListEntry
+```powershell
+Get-IPAllowListEntry
+```
 
 ## Verfahren für Anbieter für zugelassene IP-Adressen
 
@@ -453,33 +579,45 @@ Mit den Cmdlets **IPAllowListProvidersConfig** können Sie anzeigen und konfigur
 
 Führen Sie den folgenden Befehl aus, um anzuzeigen, wie für die Verbindungsfilterung alle Anbieter für zugelassene IP-Adressen verwendet werden:
 
+```powershell
     Get-IPAllowListProvidersConfig | Format-List *Enabled
+```
 
 ## Aktivieren oder Deaktivieren aller Anbieter für zugelassene IP-Adressen mithilfe der Shell
 
 Führen Sie den folgenden Befehl aus, um alle Anbieter für zugelassene IP-Adressen zu deaktivieren:
 
-    Set-IPAllowListProvidersConfig -Enabled $false
+```powershell
+Set-IPAllowListProvidersConfig -Enabled $false
+```
 
 Führen Sie den folgenden Befehl aus, um alle Anbieter für zugelassene IP-Adressen zu aktivieren:
 
-    Set-IPAllowListProvidersConfig -Enabled $true
+```powershell
+Set-IPAllowListProvidersConfig -Enabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie alle Anbieter für zugelassene IP-Adressen erfolgreich aktiviert oder deaktiviert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der angezeigte Wert der von Ihnen konfigurierte Wert ist.
 
-    Get-IPAllowListProvidersConfig | Format-List Enabled
+```powershell
+Get-IPAllowListProvidersConfig | Format-List Enabled
+```
 
 ## Konfigurieren aller Anbieter für zugelassene IP-Adressen mithilfe der Shell
 
 Verwenden Sie die folgende Syntax, um zu konfigurieren, wie für die Verbindungsfilterung alle Anbieter für zugelassene IP-Adressen verwendet werden:
 
+```powershell
     Set-IPAllowListProvidersConfig [-ExternalMailEnabled <$true | $false>] [-InternalMailEnabled <$true | $false>]
+```
 
 Bei diesem Beispiel werden alle Anbieter für zugelassene IP-Adressen so konfiguriert, dass von internen und externen Mailservern eingehende Verbindungen gefiltert werden. Standardmäßig werden nur von externen Mailservern eingehende Verbindungen gefiltert (*ExternalMailEnabled* ist auf `$true` und *InternalMailEnabled* auf `$false` festgelegt). Nicht authentifizierte Verbindungen und authentifizierte Verbindungen von externen Partnern werden als extern eingestuft.
 
-    Set-IPAllowListProvidersConfig -InternalMailEnabled $true
+```powershell
+Set-IPAllowListProvidersConfig -InternalMailEnabled $true
+```
 
 Weitere Informationen finden Sie unter [Set-IPBlockListProvidersConfig](https://technet.microsoft.com/de-de/library/aa998543\(v=exchg.150\)).
 
@@ -487,27 +625,37 @@ Weitere Informationen finden Sie unter [Set-IPBlockListProvidersConfig](https://
 
 Zum Bestätigen, dass Sie alle Anbieter für zugelassene IP-Adressen erfolgreich konfiguriert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass die angezeigten Werte die von Ihnen konfigurierten Werte sind.
 
+```powershell
     Get-IPAllowListProvidersConfig | Format-List *MailEnabled
+```
 
 ## Verwenden der Shell zum Anzeigen aller Anbieter für zugelassene IP-Adressen
 
 Führen Sie den folgenden Befehl aus, um die Übersichtsliste aller Anbieter für zugelassene IP-Adressen anzuzeigen:
 
-    Get-IPAllowListProvider
+```powershell
+Get-IPAllowListProvider
+```
 
 Verwenden Sie die folgende Syntax, um die Details eines bestimmten Anbieters anzuzeigen:
 
-    Get-IPAllowListProvider <IPAllowListProviderIdentity>
+```powershell
+Get-IPAllowListProvider <IPAllowListProviderIdentity>
+```
 
 Dieses Beispiel zeigt die Details des Anbieters Contoso IP Allow List Provider.
 
+```powershell
     Get-IPAllowListProvider "Contoso IP Allow List Provider" | Format-List Name,Enabled,Priority,LookupDomain,*Match
+```
 
 ## Verwenden der Shell zum Hinzufügen eines Anbieters für zugelassene IP-Adressen
 
 Verwenden Sie folgende Syntax, um einen Anbieter für zugelassene IP-Adressen hinzuzufügen:
 
+```powershell
     Add-IPAllowListProvider -Name "<Descriptive Name>" -LookupDomain <FQDN> [-Priority <Integer>] [-Enabled <$true | $false>] [-AnyMatch <$true | $false>] [-BitmaskMatch <IPAddress>] [-IPAddressesMatch <IPAddressStatusCode1,IPAddressStatusCode2...>]
+```
 
 Bei diesem Beispiel wird der Anbieter für zugelassene IP-Adressen "Contoso IP Allow List Provider" mit den folgenden Optionen erstellt:
 
@@ -517,8 +665,9 @@ Bei diesem Beispiel wird der Anbieter für zugelassene IP-Adressen "Contoso IP A
 
 <!-- end list -->
 
+```powershell
     Add-IPAllowListProvider -Name "Contoso IP Allow List Provider" -LookupDomain allow.contoso.com -BitmaskMatch 127.0.0.1
-
+```
 
 > [!NOTE]
 > Wenn Sie einen neuen Anbieter für zugelassene IP-Adressen hinzufügen, ist dieser standardmäßig aktiviert (der Wert <EM>Enabled</EM> ist <CODE>$true</CODE>), und der Prioritätswert wird erhöht (der erste Wert von <EM>Priority</EM> ist 1).
@@ -531,27 +680,37 @@ Weitere Informationen finden Sie unter [Add-IPBlockListProvider](https://technet
 
 Zum Bestätigen, dass Sie einen Anbieter für zugelassene IP-Adressen erfolgreich hinzugefügt haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der Anbieter für zugelassene IP-Adressen angezeigt wird.
 
-    Get-IPAllowListProvider
+```powershell
+Get-IPAllowListProvider
+```
 
 ## Aktivieren oder Deaktivieren eines Anbieters für zugelassene IP-Adressen mithilfe der Shell
 
 Verwenden Sie die folgende Syntax, um einen bestimmten Anbieter für zugelassene IP-Adressen zu aktivieren oder zu deaktivieren:
 
-    Set-IPAllowListProvider <IPAllowListProviderIdentity> -Enabled <$true | $false>
+```powershell
+Set-IPAllowListProvider <IPAllowListProviderIdentity> -Enabled <$true | $false>
+```
 
 Das folgende Beispiel deaktiviert den Anbieter Contoso IP Allow List Provider.
 
-    Set-IPAllowListProvider "Contoso IP Allow List Provider" -Enabled $false
+```powershell
+Set-IPAllowListProvider "Contoso IP Allow List Provider" -Enabled $false
+```
 
 Das folgende Beispiel aktiviert den Anbieter Contoso IP Allow List Provider.
 
-    Set-IPAllowListProvider "Contoso IP Allow List Provider" -Enabled $true
+```powershell
+Set-IPAllowListProvider "Contoso IP Allow List Provider" -Enabled $true
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie einen Anbieter für zugelassene IP-Adressen erfolgreich aktiviert oder deaktiviert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der angezeigte Wert der von Ihnen konfigurierte Wert ist.
 
-    Get-IPAllowListProvider <IPAllowListProviderIdentity> | Format-List Enabled
+```powershell
+Get-IPAllowListProvider <IPAllowListProviderIdentity> | Format-List Enabled
+```
 
 ## Verwenden der Shell zum Konfigurieren eines Anbieters für zugelassene IP-Adressen
 
@@ -559,11 +718,15 @@ Die Konfigurationsoptionen, die für das Cmdlet **Set-IPAllowListProvider** zur 
 
 Verwenden Sie folgende Syntax, um einen vorhandenen Anbieter für zugelassene IP-Adressen zu konfigurieren:
 
+```powershell
     Set-IPAllowListProvider <IPAllowListProviderIdentity> -Name "<Descriptive Name>" -LookupDomain <FQDN> [-Priority <Integer>] [-AnyMatch <$true | $false>] [-BitmaskMatch <IPAddress>] [-IPAddressesMatch <IPAddressStatusCode1,IPAddressStatusCode2...>]
+```
 
 Führen Sie beispielsweise den folgenden Befehl aus, um den IP-Adressstatuscode 127.0.0.1 der Liste der vorhandenen Statuscodes für den Anbieter Contoso IP Allow List Provider hinzuzufügen:
 
-    Set-IPAllowListProvider "Contoso IP Allow List Provider" -IPAddressesMatch @{Add="127.0.0.1"}
+```powershell
+Set-IPAllowListProvider "Contoso IP Allow List Provider" -IPAddressesMatch @{Add="127.0.0.1"}
+```
 
 Weitere Informationen finden Sie unter [Set-IPBlockListProvider](https://technet.microsoft.com/de-de/library/bb124979\(v=exchg.150\)).
 
@@ -571,31 +734,43 @@ Weitere Informationen finden Sie unter [Set-IPBlockListProvider](https://technet
 
 Zum Bestätigen, dass Sie einen Anbieter für zugelassene IP-Adressen erfolgreich konfiguriert haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass die angezeigten Werte die von Ihnen konfigurierten Werte sind.
 
-    Get-IPAllowListProvider <IPAllowListProviderIdentity> | Format-List
+```powershell
+Get-IPAllowListProvider <IPAllowListProviderIdentity> | Format-List
+```
 
 ## Verwenden der Shell zum Testen eines Anbieters für zugelassene IP-Adressen
 
 Verwenden Sie folgende Syntax, um einen Anbieter für zugelassene IP-Adressen zu testen:
 
-    Test-IPAllowListProvider <IPAllowListProviderIdentity> -IPAddress <IPAddressToTest>
+```powershell
+Test-IPAllowListProvider <IPAllowListProviderIdentity> -IPAddress <IPAddressToTest>
+```
 
 Das folgende Beispiel testet den Anbieter Contoso IP Allow List Provider, indem die IP-Adresse 192.168.1.1 nachgeschlagen wird.
 
-    Test-IPAllowListProvider "Contoso IP Allow List Provider" -IPAddress 192.168.1.1
+```powershell
+Test-IPAllowListProvider "Contoso IP Allow List Provider" -IPAddress 192.168.1.1
+```
 
 ## Verwenden der Shell zum Entfernen eines Anbieters für zugelassene IP-Adressen
 
 Verwenden Sie folgende Syntax, um einen Anbieter für zugelassene IP-Adressen zu entfernen:
 
-    Remove-IPAllowListProvider <IPAllowListProviderIdentity>
+```powershell
+Remove-IPAllowListProvider <IPAllowListProviderIdentity>
+```
 
 Dieses Beispiel entfernt den Anbieter für zugelassene IP-Adressen Contoso IP Allow List Provider.
 
-    Remove-IPAllowListProvider "Contoso IP Allow List Provider"
+```powershell
+Remove-IPAllowListProvider "Contoso IP Allow List Provider"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Zum Bestätigen, dass Sie einen Anbieter für zugelassene IP-Adressen erfolgreich entfernt haben, führen Sie den folgenden Befehl aus, und vergewissern Sie sich, dass der Anbieter für zugelassene IP-Adressen, den Sie entfernt haben, nicht mehr vorhanden ist.
 
-    Get-IPAllowListProvider
+```powershell
+Get-IPAllowListProvider
+```
 

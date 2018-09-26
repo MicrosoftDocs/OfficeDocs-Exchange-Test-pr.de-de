@@ -61,7 +61,9 @@ Weitere Informationen zu Compliance-Archiven finden Sie unter [In-Situ-Archivier
 
 In diesem Beispiel wird das Archivierungskontingent des Postfachs von "Chris Ashton" auf 10 GB festgelegt. Danach erhält der Benutzer eine Warnmeldung, dass das Compliance-Archiv voll ist und er keine weiteren Elemente in das Archiv verschieben kann. Außerdem wird in diesem Beispiel das Archivierungskontingent, ab dem eine Warnung ausgegeben wird, auf 9,5 GB festgelegt. Danach erhält der Benutzer eine Warnmeldung, dass das Compliance-Kontingent beinahe voll ausgeschöpft ist.
 
-    Set-Mailbox -Identity "Chris Ashton" -ArchiveQuota 10GB -ArchiveWarningQuota 9.5GB
+```powershell
+Set-Mailbox -Identity "Chris Ashton" -ArchiveQuota 10GB -ArchiveWarningQuota 9.5GB
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)).
 
@@ -73,5 +75,7 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Aktivierung ei
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Kontingentinformationen zum neuen Archiv anzuzeigen.
     
+    ```powershell
         Get-Mailbox <Name> | FL Name,Archive*Quota
-
+    ```
+    

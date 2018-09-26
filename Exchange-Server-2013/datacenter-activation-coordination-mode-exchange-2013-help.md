@@ -63,7 +63,9 @@ Bei Datencenterswitchovern für DAGs, die sich nicht im DAC-Modus befinden, muss
 
 Der DAC-Modus kann nur mithilfe der Exchange-Verwaltungsshell aktiviert werden. Zum Aktivieren des DAC-Modus wird speziell das Cmdlet [Set-DatabaseAvailabilityGroup](https://technet.microsoft.com/de-de/library/dd297934\(v=exchg.150\)) verwendet (siehe Abbildung).
 
-    Set-DatabaseAvailabilityGroup -Identity DAG2 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG2 -DatacenterActivationMode DagOnly
+```
 
 Im vorherigen Beispiel wurde die DAG "DAG2" für den DAC-Modus aktiviert.
 

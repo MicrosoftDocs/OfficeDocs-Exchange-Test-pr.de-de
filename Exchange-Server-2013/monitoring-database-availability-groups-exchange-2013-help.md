@@ -113,15 +113,21 @@ In den folgenden Beispielen wird das Cmdlet **Get-MailboxDatabaseCopyStatus** ve
 
 In diesem Beispiel werden Statusinformationen für alle Kopien der Datenbank "DB2" zurückgegeben.
 
-    Get-MailboxDatabaseCopyStatus -Identity DB2 | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Identity DB2 | Format-List
+```
 
 In diesem Beispiel wird der Status aller Datenbankkopien auf dem Postfachserver "MBX2" zurückgegeben.
 
-    Get-MailboxDatabaseCopyStatus -Server MBX2 | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Server MBX2 | Format-List
+```
 
 In diesem Beispiel wird der Status aller Datenbankkopien auf dem lokalen Postfachserver zurückgegeben.
 
-    Get-MailboxDatabaseCopyStatus -Local | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Local | Format-List
+```
 
 Weitere Informationen zur Verwendung des Cmdlets **Get-MailboxDatabaseCopyStatus** finden Sie unter [Get-MailboxDatabaseCopyStatus](https://technet.microsoft.com/de-de/library/dd298044\(v=exchg.150\)).
 
@@ -225,7 +231,9 @@ Das Cmdlet **Test-ReplicationHealth** wurde für die proaktive Überwachung der 
 
 In diesem Beispiel wird das Cmdlet **Test-ReplicationHealth** zum Testen des Replikationsstatus für den Postfachserver "MBX1" verwendet.
 
-    Test-ReplicationHealth -Identity MBX1
+```powershell
+Test-ReplicationHealth -Identity MBX1
+```
 
 ## Crimson-Kanal-Ereignisprotokollierung
 
@@ -361,13 +369,17 @@ Das Skript unterstützt Parameter, mit denen Sie das Verhalten und die Ausgabe d
 
 Im folgenden Beispiel werden Metriken für alle Datenbanken erfasst, die "DB\*" (mit Platzhalterzeichen) in der Datenbankverfügbarkeitsgruppe "DAG1" entsprechen. Nachdem die Metriken erfasst wurden, wird ein HTML-Bericht generiert und angezeigt.
 
+```powershell
     CollectOverMetrics.ps1 -DatabaseAvailabilityGroup DAG1 -Database:"DB*" -GenerateHTMLReport -ShowHTMLReport
+```
 
 Die folgenden Beispiele veranschaulichen Möglichkeiten zum Filtern des HTML-Zusammenfassungsberichts. Im ersten wird der Parameter *Database* genutzt, der eine Liste mit Datenbanken verwendet. Der Zusammenfassungsbericht enthält anschließend nur Daten zu diesen Datenbanken. In den folgenden beiden Beispielen wird der Parameter *ReportFilter* verwendet. Im letzten Beispiel werden alle Standarddatenbanken herausgefiltert.
 
+```powershell
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -Database MailboxDatabase123,MailboxDatabase456
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { $_.DatabaseName -notlike "Mailbox Database*" }
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { ($_.ActiveOnStart -like "ServerXYZ*") -and ($_.ActiveOnEnd -notlike "ServerXYZ*") }
+```
 
 ## Skript "CollectReplicationMetrics.ps1"
 
@@ -448,9 +460,13 @@ Das Skript CollectReplicationMetrics.ps1 unterstützt Parameter, mit denen Sie d
 
 Im folgenden Beispiel werden Daten über eine Stunde von allen Servern in der DAG namens "DAG1" in einminütigen Abständen in einem Zusammenfassungsbericht erfasst. Darüber hinaus wird der Parameter *ReportPath* angegeben, der bewirkt, dass das Skript alle Dateien im aktuellen Verzeichnis ablegt.
 
-    CollectReplicationMetrics.ps1 -DagName DAG1 -Duration "01:00:00" -Frequency "00:01:00" -ReportPath
+```powershell
+CollectReplicationMetrics.ps1 -DagName DAG1 -Duration "01:00:00" -Frequency "00:01:00" -ReportPath
+```
 
 Im folgenden Beispiel werden Daten aus allen mit "CounterData\*" übereinstimmenden Dateien gelesen und in einem Zusammenfassungsbericht ausgegeben.
 
+```powershell
     CollectReplicationMetrics.ps1 -SummariseFiles (dir CounterData*) -Mode ProcessOnly -ReportPath
+```
 

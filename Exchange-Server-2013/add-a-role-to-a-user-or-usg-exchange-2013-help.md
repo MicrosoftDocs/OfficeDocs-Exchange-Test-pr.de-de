@@ -69,11 +69,15 @@ Sie können eine Rollenzuweisung ohne Bereich erstellen. Wenn Sie dies machen, g
 
 Verwenden Sie die folgende Syntax, um einer universellen Sicherheitsgruppe eine Rolle ohne Bereich zuzuweisen.
 
+```powershell
     New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name>
+```
 
 In diesem Beispiel wird die Rolle "Exchange Servers" der universellen Sicherheitsgruppe "SeattleAdmins" zugewiesen.
 
+```powershell
     New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -83,11 +87,15 @@ Wenn ein vordefinierter relativer Bereich Ihren Geschäftsanforderungen entspric
 
 Verwenden Sie die folgende Syntax, um einer universellen Sicherheitsgruppe eine Rolle mit einem vordefinierten Bereich zuzuweisen.
 
+```powershell
     New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -RecipientRelativeWriteScope < MyDistributionGroups | Organization | Self >
+```
 
 In diesem Beispiel wird die Rolle "Exchange Servers" der universellen Sicherheitsgruppe "SeattleAdmins" zugewiesen und der vordefinierte Bereich "Organization" angewendet.
 
+```powershell
     New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers" -RecipientRelativeWriteScope Organization
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -99,11 +107,15 @@ Bevor Sie einer Rollenzuweisung einen Bereich hinzufügen können, müssen Sie e
 
 Verwenden Sie die folgende Syntax, um einer universellen Sicherheitsgruppe eine Rolle mit filterbasiertem Empfängerbereich zuzuweisen.
 
+```powershell
     New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -CustomRecipientWriteScope <role scope name>
+```
 
 In diesem Beispiel wird die Rolle "Mail Recipients" der universellen Sicherheitsgruppe "Seattle Recipient Admins" zugewiesen und der Bereich "Seattle Recipients" angewendet.
 
+```powershell
     New-ManagementRoleAssignment -Name "Mail Recipients_Seattle Recipient Admins" -SecurityGroup "Seattle Recipient Admins" -Role "Mail Recipients" -CustomRecipientWriteScope "Seattle Recipients"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -115,11 +127,15 @@ Bevor Sie einer Rollenzuweisung einen Bereich hinzufügen können, müssen Sie e
 
 Verwenden Sie die folgende Syntax, um einer universellen Sicherheitsgruppe eine Rolle mit einem Konfigurationsbereich zuzuweisen.
 
+```powershell
     New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -CustomConfigWriteScope <role scope name>
+```
 
 In diesem Beispiel wird die Rolle "Exchange Servers" der universellen Sicherheitsgruppe "MailboxAdmins" zugewiesen und der Bereich "Mailbox Servers" angewendet.
 
+```powershell
     New-ManagementRoleAssignment -Name "Exchange Servers_MailboxAdmins" -SecurityGroup MailboxAdmins -Role "Exchange Servers" -CustomConfigWriteScope "Mailbox Servers"
+```
 
 Das vorstehende Beispiel zeigt, wie eine Rollenzuweisung mit einem Serverkonfigurationsbereich hinzugefügt werden kann. Die Syntax zum Hinzufügen eines Datenbankkonfigurationsbereich ist identisch. Anstelle eines Serverbereichs geben Sie den Namen eines Datenbankbereichs an.
 
@@ -131,11 +147,15 @@ Wenn Sie den Schreibbereich einer Rolle auf eine Organisationseinheit (Organizat
 
 Verwenden Sie die folgende Syntax, um einer universellen Sicherheitsgruppe eine Rolle zuzuweisen und den Schreibbereich einer Rolle auf eine spezifische OU zu beschränken.
 
+```powershell
     New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -RecipientOrganizationalUnitScope <OU>
+```
 
 In diesem Beispiel wird die Rolle "Mail Recipients" der universellen Sicherheitsgruppe "SalesRecipientAdmins" zugewiesen und der Bereich auf die OU "sales/user" in der Domäne "contoso.com" festgelegt.
 
+```powershell
     New-ManagementRoleAssignment -Name "Mail Recipients_SalesRecipientAdmins" -SecurityGroup SalesRecipientAdmins -Role "Mail Recipients" -RecipientOrganizationalUnitScope contoso.com/sales/users
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -153,7 +173,9 @@ Eine Rollenzuweisung kann nicht sowohl mit exklusiven als auch mit regulären Be
 
 In diesem Beispiel wird die Rolle "Mail Recipients" der universellen Sicherheitsgruppe "Protected User Admins" zugewiesen und der exklusive Bereich "Protected Users" angewendet.
 
+```powershell
     New-ManagementRoleAssignment -Name "Mail Recipients_Protected User Admins" -SecurityGroup "Protected User Admins" -Role "Mail Recipients" -ExclusiveRecipientWriteScope "Protected Users"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 

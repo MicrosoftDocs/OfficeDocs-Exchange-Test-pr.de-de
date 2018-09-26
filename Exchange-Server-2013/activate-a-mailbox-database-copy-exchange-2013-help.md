@@ -51,31 +51,45 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit K
 
 Bei diesem Beispiel wird eine Kopie der auf MBX3 gehosteten Datenbank DB4 als neue aktive Postfachdatenbank aktiviert und bereitgestellt. Über diesen Befehl wird DB4 die neue aktive Postfachdatenbank, und die Wähleinstellungen für die Datenbankeinbindung auf MBX3 werden nicht außer Kraft gesetzt.
 
-    Move-ActiveMailboxDatabase DB4 -ActivateOnServer MBX3 -MountDialOverride:None
+```powershell
+Move-ActiveMailboxDatabase DB4 -ActivateOnServer MBX3 -MountDialOverride:None
+```
 
 In diesem Beispiel wird ein Switchover der Datenbank DB2 auf den Postfachserver MBX1 ausgeführt. Wenn der Befehl abgeschlossen ist, hostet MBX1 die aktive Kopie von DB2. Da der Parameter *MountDialOverride* auf `None` festgelegt ist, bindet MBX1 die Datenbank mit den eigenen definierten AutoDatabaseMountDial-Einstellungen ein.
 
-    Move-ActiveMailboxDatabase DB2 -ActivateOnServer MBX1 -MountDialOverride:None
+```powershell
+Move-ActiveMailboxDatabase DB2 -ActivateOnServer MBX1 -MountDialOverride:None
+```
 
 In diesem Beispiel wird ein Switchover der Datenbank DB1 auf den Postfachserver MBX3 ausgeführt. Wenn der Befehl abgeschlossen ist, hostet MBX3 die aktive Kopie von DB1. Da für den Parameter *MountDialOverride* der Wert `Good Availability` angegeben ist, bindet MBX3 die Datenbank mit der AutoDatabaseMountDial-Einstellung *GoodAvailability* ein.
 
-    Move-ActiveMailboxDatabase DB1 -ActivateOnServer MBX3 -MountDialOverride:GoodAvailability
+```powershell
+Move-ActiveMailboxDatabase DB1 -ActivateOnServer MBX3 -MountDialOverride:GoodAvailability
+```
 
 In diesem Beispiel wird ein Switchover der Datenbank DB3 auf den Postfachserver MBX4 ausgeführt. Wenn der Befehl abgeschlossen ist, hostet MBX4 die aktive Kopie von DB3. Da der Parameter *MountDialOverride* nicht angegeben ist, bindet MBX4 die Datenbank mit der AutoDatabaseMountDial-Einstellung *Lossless* ein.
 
-    Move-ActiveMailboxDatabase DB3 -ActivateOnServer MBX4
+```powershell
+Move-ActiveMailboxDatabase DB3 -ActivateOnServer MBX4
+```
 
 In diesem Beispiel wird ein Serverswitchover für den Postfachserver MBX1 ausgeführt. Alle aktiven Postfachdatenbankkopien auf MBX1 werden auf einem oder mehreren anderen Postfachservern mit fehlerfreien Kopien der aktiven Datenbanken auf MBX1 aktiviert.
 
-    Move-ActiveMailboxDatabase -Server MBX1
+```powershell
+Move-ActiveMailboxDatabase -Server MBX1
+```
 
 In diesem Beispiel wird ein Switchover der Datenbank DB4 auf den Postfachserver MBX5 ausgeführt. In diesem Beispiel verfügt die Datenbankkopie auf MBX5 über eine Wiedergabewarteschlange mit mehr als sechs Elementen. Folglich muss der Parameter *SkipLagChecks* angegeben werden, um die Datenbankkopie auf MBX5 zu aktivieren.
 
-    Move-ActiveMailboxDatabase DB4 MBX5 -SkipLagChecks
+```powershell
+Move-ActiveMailboxDatabase DB4 MBX5 -SkipLagChecks
+```
 
 In diesem Beispiel wird ein Switchover der Datenbank DB5 auf den Postfachserver MBX6 ausgeführt. In diesem Beispiel weist der Parameter *ContentIndexState* der Datenbankkopie auf MBX6 den Wert Failed auf. Folglich muss der Parameter *SkipClientExperienceChecks* angegeben werden, um die Datenbankkopie auf MBX6 zu aktivieren.
 
-    Move-ActiveMailboxDatabase DB5 MBX6 -SkipClientExperienceChecks
+```powershell
+Move-ActiveMailboxDatabase DB5 MBX6 -SkipClientExperienceChecks
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -85,7 +99,9 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Aktivierung einer Postfachdat
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Statusinformationen zu einer Datenbankkopie anzuzeigen.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 
 ## Weitere Informationen
 

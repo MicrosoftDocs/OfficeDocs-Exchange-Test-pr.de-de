@@ -59,21 +59,29 @@ In Microsoft Exchange Server 2013 ist das Nachrichtenverfolgungsprotokoll eine 
 
 Wählen Sie zum Durchsuchen der Einträge in den Nachrichtenverfolgungsprotokollen auf bestimmte Ereignisse die folgende Syntax.
 
+```powershell
     Get-MessageTrackingLog [-Server <ServerIdentity.] [-ResultSize <Integer> | Unlimited] [-Start <DateTime>] [-End <DateTime>] [-EventId <EventId>] [-InternalMessageId <InternalMessageId>] [-MessageId <MessageId>] [-MessageSubject <Subject>] [-Recipients <RecipientAddress1,RecipientAddress2...>] [-Reference <Reference>] [-Sender <SenderAddress>]
+```
 
 Führen Sie den folgenden Befehl aus, um die 1000 neuesten Nachrichtenverfolgungsprotokoll-Einträge auf dem Server anzuzeigen:
 
-    Get-MessageTrackingLog
+```powershell
+Get-MessageTrackingLog
+```
 
 Dieses Beispiel durchsucht die Nachrichtenverfolgungsprotokolle auf dem lokalen Server nach allen Einträgen vom 28.03.2013 8:00 Uhr bis 28.03.2013 17:00 Uhr nach Ereignissen vom Typ **FAIL**, bei denen der Absender der Nachricht "pat@contoso.com" war.
 
+```powershell
     Get-MessageTrackingLog -ResultSize Unlimited -Start "3/28/2013 8:00AM" -End "3/28/2013 5:00PM" -EventId "Fail" -Sender "pat@contoso.com"
+```
 
 ## Verwenden der Shell zum Steuern der Ausgabe der Suche in einem Nachrichtenverfolgungsprotokoll
 
 Verwenden Sie die folgende Syntax.
 
+```powershell
     Get-MessageTrackingLog <SearchFilters> | <Format-Table | Format-List> [<FieldNames>] [<OutputFileOptions>]
+```
 
 In diesem Beispiel werden die Nachrichtenverfolgungsprotokolle mithilfe der folgenden Suchkriterien durchsucht:
 
@@ -87,7 +95,9 @@ In diesem Beispiel werden die Nachrichtenverfolgungsprotokolle mithilfe der folg
 
 <!-- end list -->
 
+```powershell
     Get-MessageTrackingLog -EventId Send | Format-List Send*,Recipient* > "D:\Send Search.txt"
+```
 
 ## Verwenden der Shell zum Durchsuchen der Nachrichtenverfolgungsprotokolle nach Nachrichteneinträgen auf mehreren Servern
 
@@ -95,7 +105,9 @@ In der Regel bleibt der Wert im Kopfzeilenfeld **MessageID:**  unverändert, wä
 
 Wählen Sie zum Durchsuchen aller Einträge in den Nachrichtenverfolgungsprotokollen nach einer bestimmten Nachricht auf allen Postfachservern die folgende Syntax.
 
+```powershell
     Get-ExchangeServer | where {$_.isHubTransportServer -eq $true -or $_.isMailboxServer -eq $true} | Get-MessageTrackingLog -MessageId <MessageID> | Select-Object <CommaSeparatedFieldNames> | Sort-Object -Property <FieldName>
+```
 
 In diesem Beispiel werden die Nachrichtenverfolgungsprotokolle auf allen Exchange 2013-Postfachservern mithilfe der folgenden Suchkriterien durchsucht:
 
@@ -107,7 +119,9 @@ In diesem Beispiel werden die Nachrichtenverfolgungsprotokolle auf allen Exchang
 
 <!-- end list -->
 
+```powershell
     Get-ExchangeServer | where {$_.isHubTransportServer -eq $true -or $_.isMailboxServer -eq $true} | Get-MessageTrackingLog -MessageId ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com | Select-Object Timestamp,ServerHostname,ClientHostname,Source,EventId,Recipients | Sort-Object -Property Timestamp
+```
 
 ## Durchsuchen der Nachrichtenverfolgungsprotokolle mithilfe der Exchange-Verwaltungskonsole
 

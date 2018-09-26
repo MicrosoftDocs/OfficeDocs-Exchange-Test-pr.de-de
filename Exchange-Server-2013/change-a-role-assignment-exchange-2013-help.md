@@ -51,15 +51,21 @@ Rollenzuweisungen sind standardmäßig aktiviert. Dies bedeutet, dass die zugeor
 
 Verwenden Sie die folgende Syntax, um eine Rollenzuweisung zu aktivieren.
 
-    Set-ManagementRoleAssignment <role assignment> -Enabled $true
+```powershell
+Set-ManagementRoleAssignment <role assignment> -Enabled $true
+```
 
 Verwenden Sie die folgende Syntax, um eine Rollenzuweisung zu deaktivieren.
 
-    Set-ManagementRoleAssignment <role assignment> -Enabled $false
+```powershell
+Set-ManagementRoleAssignment <role assignment> -Enabled $false
+```
 
 In diesem Beispiel wird die Rollenzuweisung "Help Desk Assignment" deaktiviert.
 
-    Set-ManagementRoleAssignment "Help Desk Assignment" -Enabled $false
+```powershell
+Set-ManagementRoleAssignment "Help Desk Assignment" -Enabled $false
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335173\(v=exchg.150\)).
 
@@ -79,11 +85,15 @@ Sie können einen vordefinierten relativen Bereich für eine Rollenzuweisung än
 
 Verwenden Sie die folgende Syntax, um einen vordefinierten Bereich für eine Rollenzuweisung zu ändern oder hinzuzufügen.
 
+```powershell
     Set-ManagementRoleAssignment <assignment name> -RecipientRelativeWriteScope < MyDistributionGroups | Organization | Self >
+```
 
 In diesem Beispiel wird der vordefinierte Bereich für die Rollenzuweisung "John's Assignment" zu "MyDistributionGroups" geändert.
 
-    Set-ManagementRoleAssignment "John's Assignment" - RecipientRelativeWriteScope MyDistributionGroups
+```powershell
+Set-ManagementRoleAssignment "John's Assignment" - RecipientRelativeWriteScope MyDistributionGroups
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335173\(v=exchg.150\)).
 
@@ -93,11 +103,15 @@ Sie können einen neuen empfängerfilterbasierten Bereich angeben oder den filte
 
 Verwenden Sie die folgende Syntax, um einen neuen filterbasierten Empfängerbereich anzugeben oder einen vorhandenen zu ersetzen.
 
+```powershell
     Set-ManagementRoleAssignment <assignment name> -CustomRecipientWriteScope <role scope name>
+```
 
 In diesem Beispiel wird der filterbasierten Empfängerbereich "Redmond Recipients" hinzugefügt, oder der Bereich wird in "Redmond Recipients" geändert.
 
+```powershell
     Set-ManagementRoleAssignment "Redmond Recipient Administrators Assignment" -CustomRecipientWriteScope "Redmond Recipients"
+```
 
 Wenn Sie den filterbasierten Empfängerbereich beibehalten möchten, der auf die Rollenzuweisung angewendet wird, aber den Empfängerfilter ändern möchten, mit dem passende Empfängerobjekte ermittelt werden, müssen Sie den Empfängerfilter für den Bereich ändern. Weitere Informationen zum Ändern von Bereichen finden Sie unter [Ändern eines Rollenbereichs](change-a-role-scope-exchange-2013-help.md).
 
@@ -109,11 +123,15 @@ Sie können einen neuen serverfilter- oder listenbasierten Konfigurationsbereich
 
 Verwenden Sie die folgende Syntax, um einen neuen Konfigurationsbereich anzugeben oder einen vorhandenen zu ersetzen.
 
-    Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```
 
 In diesem Beispiel wird der Konfigurationsbereich "Redmond Servers" hinzugefügt, oder der Konfigurationsbereich wird in "Redmond Servers" geändert.
 
+```powershell
     Set-ManagementRoleAssignment "Redmond Administrators Assignment" -CustomConfigWriteScope "Redmond Servers"
+```
 
 Wenn Sie den Konfigurationsbereich beibehalten möchten, der auf die Rollenzuweisung angewendet wird, aber den Serverfilter oder die Serverliste für den Bereich ändern möchten, müssen Sie den Konfigurationsbereich ändern. Weitere Informationen zum Ändern von Bereichen finden Sie unter [Ändern eines Rollenbereichs](change-a-role-scope-exchange-2013-help.md).
 
@@ -125,11 +143,15 @@ Sie können einen neuen datenbankfilter- oder listenbasierten Konfigurationsbere
 
 Verwenden Sie die folgende Syntax, um einen neuen Konfigurationsbereich anzugeben oder einen vorhandenen zu ersetzen.
 
-    Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```
 
 In diesem Beispiel wird der Konfigurationsbereich "Redmond Databases" hinzugefügt, oder der Konfigurationsbereich wird in "Redmond Databases" geändert.
 
-    Set-ManagementRoleAssignment "Redmond Database Admins" -CustomConfigWriteScope "Redmond Databases"
+```powershell
+Set-ManagementRoleAssignment "Redmond Database Admins" -CustomConfigWriteScope "Redmond Databases"
+```
 
 Wenn Sie den Konfigurationsbereich beibehalten möchten, der auf die Rollenzuweisung angewendet wird, aber den Datenbankfilter oder die Datenbankliste für den Bereich ändern möchten, müssen Sie den Konfigurationsbereich ändern. Weitere Informationen zum Ändern von Bereichen finden Sie unter [Ändern eines Rollenbereichs](change-a-role-scope-exchange-2013-help.md).
 
@@ -141,11 +163,15 @@ Sie können eine neue Organisationseinheit hinzufügen oder eine Organisationsei
 
 Verwenden Sie die folgende Syntax, um eine OU für eine Rollenzuweisung zu ändern oder eine neue hinzuzufügen.
 
-    Set-ManagementRoleAssignment <assignment name> -RecipientOrganizationalUnitScope <OU>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -RecipientOrganizationalUnitScope <OU>
+```
 
 In diesem Beispiel wird die OU "Engineering\\Users" in der Domäne "contoso.com" der Rollenzuweisung "Engineering Help Desk" hinzugefügt.
 
+```powershell
     Set-ManagementRoleAssignment "Engineering Help Desk" -RecipientOrganizationalUnitScope contoso.com/Engineering/Users
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335173\(v=exchg.150\)).
 
@@ -161,7 +187,9 @@ Wie bei regulären Empfänger- und Konfigurationsbereichen werden beim Hinzufüg
 
 In diesem Beispiel wird ein exklusiver Empfängerschreibbereich geändert.
 
+```powershell
     Set-ManagementRoleAssignment "Exclusive Executive Users" -ExclusiveRecipientWriteScope "Exclusive Executives"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335173\(v=exchg.150\)).
 

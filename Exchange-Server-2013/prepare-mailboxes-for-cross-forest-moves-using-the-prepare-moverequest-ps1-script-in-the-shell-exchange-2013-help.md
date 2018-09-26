@@ -59,12 +59,16 @@ Sie müssen zunächst das Windows PowerShell-Cmdlet **Get-Credential** ausführe
 
 1.  Führen Sie die folgenden Befehle aus, um die Anmeldeinformationen der lokalen Gesamtstruktur und der Remotegesamtstruktur abzurufen.
     
+    ```powershell
         $LocalCredentials = Get-Credential
         $RemoteCredentials = Get-Credential
-
-2.  Führen Sie die folgenden Befehle aus, um die Anmeldeinformationen an die Parameter *LocalForestCredential* und *RemoteForestCredential* im Skript "Prepare-MoveRequest.ps1" zu übergeben.
+    ```
     
+2.  Führen Sie die folgenden Befehle aus, um die Anmeldeinformationen an die Parameter *LocalForestCredential* und *RemoteForestCredential* im Skript "Prepare-MoveRequest.ps1" zu übergeben.
+
+    ```powershell
         Prepare-MoveRequest.ps1 -Identity JohnSmith@Fabrikan.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials
+    ```
 
 ## Parametersatz des Skripts
 
@@ -173,26 +177,34 @@ Dieser Abschnitt enthält mehrere Beispiele zur Verwendung des Skripts "Prepare-
 In diesem Beispiel wird ein einzelner, verknüpfter E-Mail-aktivierter Benutzer in der lokalen Gesamtstruktur bereitgestellt, wobei eine Gesamtstruktur-Vertrauensstellung zwischen der Remotegesamtstruktur und der lokalen Gesamtstruktur besteht.
 
 1.  Führen Sie die folgenden Befehle aus, um die Anmeldeinformationen der lokalen Gesamtstruktur und der Remotegesamtstruktur abzurufen.
-    
+
+    ```powershell
         $LocalCredentials = Get-Credential
         $RemoteCredentials = Get-Credential
-
-2.  Führen Sie den folgenden Befehl aus, um die Anmeldeinformationen an die Parameter *LocalForestCredential* und *RemoteForestCredential* im Skript "Prepare-MoveRequest.ps1" zu übergeben.
+    ```
     
-        Prepare-MoveRequest.ps1 -Identity JamesAlvord@Contoso.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials -LinkedMailUser 
+2.  Führen Sie den folgenden Befehl aus, um die Anmeldeinformationen an die Parameter *LocalForestCredential* und *RemoteForestCredential* im Skript "Prepare-MoveRequest.ps1" zu übergeben.
 
+    ```powershell
+        Prepare-MoveRequest.ps1 -Identity JamesAlvord@Contoso.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials -LinkedMailUser 
+    ```
+    
 ## Beispiel: Pipelining
 
 In diesem Beispiel wird Pipelining unterstützt, wenn Sie eine Liste von Postfachidentitäten angeben.
 
 1.  Führen Sie den folgenden Befehl aus.
     
-        $UserCredentials = Get-Credential
+    ```powershell
+    $UserCredentials = Get-Credential
+    ```
 
 2.  Führen Sie den folgenden Befehl aus, um die Anmeldeinformationen an den Parameter *RemoteForestCredential* im Skript "Prepare-MoveRequest.ps1" zu übergeben.
-    
-        "IanP@Contoso.com", "JoeAn@Contoso.com" | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
 
+    ```powershell
+        "IanP@Contoso.com", "JoeAn@Contoso.com" | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
+    ```
+    
 ## Beispiel: Erstellen von E-Mail-aktivierten Benutzern per Massenvorgang mithilfe einer CSV-Datei
 
 Sie können eine CSV-Datei mit einer Liste von Postfachidentitäten aus der Quellgesamtstruktur generieren, mit der Sie den Inhalt dieser Datei mittels Pipe an das Skript übergeben können, um die E-Mail-aktivierten Zielbenutzer per Massenvorgang zu erstellen.
@@ -211,12 +223,16 @@ In diesem Beispiel wird eine CSV-Datei aufgerufen, um die E-Mail-aktivierten Zie
 
 1.  Führen Sie den folgenden Befehl aus, um die Anmeldeinformationen der Remotegesamtstruktur abzurufen.
     
-        $UserCredentials = Get-Credential
+    ```powershell
+    $UserCredentials = Get-Credential
+    ```
 
 2.  Führen Sie den folgenden Befehl aus, um die Anmeldeinformationen an den Parameter *RemoteForestCredential* im Skript "Prepare-MoveRequest.ps1" zu übergeben.
-    
-        Import-Csv Test.csv | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
 
+    ```powershell
+        Import-Csv Test.csv | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
+    ```
+    
 ## Verhalten des Skripts für jedes Zielobjekt
 
 In diesem Abschnitt wird das Verhalten des Skripts im Hinblick auf verschiedene Szenarien für Zielobjekte beschrieben.

@@ -47,7 +47,9 @@ Weitere Informationen zur Exchange-Verwaltungskonsole finden Sie unter [Exchange
 
 In diesem Beispiel werden der Name des virtuellen ECP-Verzeichnisses, die interne URL und die externe URL in einer formatierten Liste zurückgegeben.
 
-    Get-ECPVirtualDirectory | Format-List Name,InternalURL,ExternalURL
+```powershell
+Get-ECPVirtualDirectory | Format-List Name,InternalURL,ExternalURL
+```
 
 Verwenden Sie nach Ausführung des Befehls die Werte von *InternalURL* oder *ExternalURL* im Webbrowser, um die Exchange-Verwaltungskonsole zu starten.
 

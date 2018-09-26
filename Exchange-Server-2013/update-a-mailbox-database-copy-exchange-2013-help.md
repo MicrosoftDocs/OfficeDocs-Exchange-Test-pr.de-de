@@ -95,45 +95,63 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit K
 
 In diesem Beispiel wird das Seeding einer Kopie der Datenbank "DB1" auf "MBX1" veranschaulicht.
 
+```powershell
     Update-MailboxDatabaseCopy -Identity DB1\MBX1
+```
 
 In diesem Beispiel wird das Seeding einer Kopie der Datenbank "DB1" auf "MBX1" veranschaulicht, wobei "MBX2" als Quellpostfachserver für den Seedingvorgang verwendet wird.
 
+```powershell
     Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2
+```
 
 In diesem Beispiel wird das Seeding einer Kopie der Datenbank "DB1" auf "MBX1" veranschaulicht, ohne dass ein Seeding des Inhaltsindexkatalogs erfolgt.
 
+```powershell
     Update-MailboxDatabaseCopy -Identity DB1\MBX1 -DatabaseOnly
+```
 
 In diesem Beispiel wird das Seeding des Inhaltsindexkatalogs der Kopie der Datenbank "DB1" auf "MBX1" veranschaulicht, ohne dass ein Seeding der Datenbankdatei erfolgt.
 
+```powershell
     Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```
 
 ## Manuelles Kopieren einer Offlinedatenbank
 
 1.  Wenn die Umlaufprotokollierung für die Datenbank aktiviert ist, muss diese deaktiviert werden, bevor Sie den Vorgang fortsetzen. Sie können die Umlaufprotokollierung für eine Postfachdatenbank mithilfe des Cmdlets [Set-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb123971\(v=exchg.150\)) deaktivieren, wie in diesem Beispiel veranschaulicht.
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```powershell
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```
 
 2.  Heben Sie die Einbindung der Datenbank auf. Wie in diesem Beispiel gezeigt, können Sie hierzu das Cmdlet [Dismount-Database](https://technet.microsoft.com/de-de/library/bb124936\(v=exchg.150\)) verwenden.
     
-        Dismount-Database DB1 -Confirm $false
+    ```powershell
+    Dismount-Database DB1 -Confirm $false
+    ```
 
 3.  Kopieren Sie die Datenbankdateien (die Datenbankdateien sowie alle Protokolldateien) manuell an einen anderen Speicherort, z. B. auf ein externes Laufwerk oder auf eine Netzwerkfreigabe.
 
 4.  Binden Sie die Datenbank ein. Wie in diesem Beispiel gezeigt, können Sie hierzu das Cmdlet [Mount-Database](https://technet.microsoft.com/de-de/library/aa998871\(v=exchg.150\)) verwenden.
     
-        Mount-Database DB1
+    ```powershell
+    Mount-Database DB1
+    ```
 
 5.  Kopieren Sie auf dem Server, der die Kopie hosten wird, die Datenbankdateien vom externen Laufwerk oder der Netzwerkfreigabe in denselben Pfad wie die aktive Datenbankkopie. Wenn beispielsweise der Pfad zur aktiven Datenbankkopie **D:\\DB1\\DB1.edb** und der Pfad zur Protokolldatei **D:\\DB1** lautet, müssen Sie die Datenbankdateien in das Verzeichnis **D:\\DB1** auf dem Server kopieren, der die Kopie hostet.
 
 6.  Fügen Sie die Kopie der Postfachdatenbank über das Cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd298105\(v=exchg.150\)) mit dem Parameter *SeedingPostponed* hinzu, wie in diesem Beispiel gezeigt.
     
-        Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
+    ```powershell
+    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
+    ```
 
 7.  Wenn für die Datenbank die Umlaufprotokollierung aktiviert ist, aktivieren Sie sie mit dem Cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb123971\(v=exchg.150\)) erneut (siehe Beispiel).
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```powershell
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -143,7 +161,9 @@ Gehen Sie folgendermaßen vor, um das erfolgreiche Seeding einer Postfachdatenba
 
   - Führen Sie in der Shell den folgenden Befehl aus, um sicherzustellen, dass das Seeding der Postfachdatenbankkopie erfolgreich war und dass sie sich in einem fehlerfreien Zustand befindet.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```powershell
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```
     
     **Status** und **Inhaltsindexzustand** sollten beide den Wert **Fehlerfrei** anzeigen.
 

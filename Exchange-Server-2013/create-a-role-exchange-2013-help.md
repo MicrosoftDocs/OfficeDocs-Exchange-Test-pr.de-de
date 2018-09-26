@@ -53,11 +53,15 @@ Neue Verwaltungsrollen basieren auf vorhandenen Rollen. Wenn Sie eine Rolle erst
 
 Verwenden Sie die folgende Syntax, um eine neue Rolle zu erstellen.
 
-    New-ManagementRole -Parent <existing role to copy> -Name <name of new role>
+```powershell
+New-ManagementRole -Parent <existing role to copy> -Name <name of new role>
+```
 
 In diesem Beispiel werden die Rolle **E-Mail-Empfänger** und die zugehörigen Verwaltungsrolleneinträge in die Rolle "Seattle Mail Recipients" kopiert.
 
-    New-ManagementRole -Parent "Mail Recipients" -Name "Seattle Mail Recipients"
+```powershell
+New-ManagementRole -Parent "Mail Recipients" -Name "Seattle Mail Recipients"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRole](https://technet.microsoft.com/de-de/library/dd298073\(v=exchg.150\)).
 

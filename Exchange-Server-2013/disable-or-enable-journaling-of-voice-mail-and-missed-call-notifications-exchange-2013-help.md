@@ -41,11 +41,15 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit d
 
 In diesem Beispiel wird die Journalfunktion für Voicemails und Benachrichtigungen über verpasste Anrufe deaktiviert, indem der Parameter *VoicemailJournalingEnabled* auf `$false` festgelegt wird.
 
-    Set-TransportConfig -VoicemailJournalingEnabled $false
+```powershell
+Set-TransportConfig -VoicemailJournalingEnabled $false
+```
 
 In diesem Beispiel wird die Journalfunktion für Voicemails und Benachrichtigungen über verpasste Anrufe aktiviert, indem derselbe Parameter auf `$true` festgelegt wird.
 
-    Set-TransportConfig -VoicemailJournalingEnabled $true
+```powershell
+Set-TransportConfig -VoicemailJournalingEnabled $true
+```
 
 Ausführliche Informationen zur Syntax und zu den Parametern finden Sie unter [Set-TransportConfig](https://technet.microsoft.com/de-de/library/bb124151\(v=exchg.150\)).
 

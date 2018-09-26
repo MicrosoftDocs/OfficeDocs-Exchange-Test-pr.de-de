@@ -63,7 +63,9 @@ Ein Benutzer kann über mehrere Proxy-E-Mail-Adressen für dasselbe E-Mail-Konto
 
 In diesem Beispiel wird die E-Mail-Adressrichtlinie "South East Offices", die zurzeit Empfänger in Georgia, Alabama und Louisiana enthält, so bearbeitet, dass auch Empfänger in Texas berücksichtigt werden.
 
+```powershell
     Set-EmailAddressPolicy -Identity "South East Offices" -ConditionalStateorProvince "Georgia","Alabama","Louisiana","Texas"
+```
 
 
 > [!NOTE]

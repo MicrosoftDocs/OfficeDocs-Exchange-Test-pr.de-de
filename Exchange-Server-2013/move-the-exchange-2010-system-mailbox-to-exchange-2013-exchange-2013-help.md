@@ -41,7 +41,9 @@ Weitere Informationen zum Upgrade auf Exchange 2013 finden Sie in den folgenden 
 
   - Führen Sie den folgenden Befehl in Exchange 2013 aus, um die Identität und Version des Exchange-Servers und der Postfachdatenbanken abzufragen, welche die Systempostfächer in Ihrer Organisation enthalten.
     
-        Get-Mailbox -Arbitration | FL Name,DisplayName,ServerName,Database,AdminDisplayVersion
+    ```powershell
+    Get-Mailbox -Arbitration | FL Name,DisplayName,ServerName,Database,AdminDisplayVersion
+    ```
     
     Die Eigenschaft **AdminDisplayVersion** gibt die Exchange-Version an, die auf dem Server ausgeführt wird. Der Wert `Version 14.x` gibt Exchange 2010 an; der Wert `Version 15.x` gibt Exchange 2013 an.
 
@@ -83,17 +85,23 @@ Weitere Informationen zum Upgrade auf Exchange 2013 finden Sie in den folgenden 
 
 Führen Sie zuerst den folgenden Befehl in Exchange 2013 aus, um die Namen und Versionen aller Postfachdatenbanken in Ihrer Organisation abzurufen.
 
-    Get-MailboxDatabase -IncludePreExchange2013 | FL Name,Server,AdminDisplayVersion
+```powershell
+Get-MailboxDatabase -IncludePreExchange2013 | FL Name,Server,AdminDisplayVersion
+```
 
 Nachdem Sie die Namen der Postfachdatenbanken in Ihrer Organisation bestimmt haben, führen Sie den folgenden Befehl in Exchange 2013 aus, um das Microsoft Exchange-Systempostfach in eine Postfachdatenbank auf einem Exchange 2013-Server zu verschieben.
 
-    Get-Mailbox -Arbitration -Identity "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}" | New-MoveRequest -TargetDatabase <name of Exchange 2013 database>
+```powershell
+Get-Mailbox -Arbitration -Identity "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}" | New-MoveRequest -TargetDatabase <name of Exchange 2013 database>
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Um sicherzustellen, dass Sie das Microsoft Exchange-Systempostfach erfolgreich in eine Postfachdatenbank auf einem Exchange 2013-Server verschoben haben, führen Sie den folgenden Befehl in der Shell aus.
 
-    Get-Mailbox -Arbitration -Identity "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}" | FL Database,ServerName,AdminDisplayVersion
+```powershell
+Get-Mailbox -Arbitration -Identity "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}" | FL Database,ServerName,AdminDisplayVersion
+```
 
 Entspricht der Wert der **AdminDisplayVersion**-Eigenschaft **Version 15.x (Build xxx.x)**, ist sichergestellt, dass sich das Systempostfach in einer Postfachdatenbank auf einem Exchange 2013-Server befindet.
 

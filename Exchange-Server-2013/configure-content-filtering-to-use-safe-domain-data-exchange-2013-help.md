@@ -45,18 +45,23 @@ Wir empfehlen, die Standardeinstellungen in den meisten Fällen nicht zu ändern
 
 1.  Geben Sie in einem Eingabeaufforderungsfenster den folgenden Befehl ein, um die Datei "MSExchangeMailboxAssistants.exe.config" in Notepad zu öffnen:
     
+    ```powershell
         Notepad %ExchangeInstallPath%Bin\MSExchangeMailboxAssistants.exe.config
-
+    ```
 2.  Navigieren Sie zum Schlüssel *\</appsettings\>* am Ende der Datei, und fügen Sie vor dem Schlüssel *\</appsettings\>* den folgenden Schlüssel ein:
     
-        <add key="IncludeSafeDomains" value="true" />
+    ```command line
+    <add key="IncludeSafeDomains" value="true" />
+    ```
 
 3.  Speichern und schließen Sie die Datei "MSExchangeMailboxAssistants.exe.config" nach Abschluss des Vorgangs.
 
 4.  Starten Sie den Microsoft Exchange-Postfach-Assistentendienst neu, indem Sie folgenden Befehl ausführen:
     
+    ```powershell
         net stop MSExchangeMailboxAssistants && net start MSExchangeMailboxAssistants
-
+    ```
+    
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Gehen Sie wie folgt vor, um zu überprüfen, ob Sie die Inhaltsfilterung erfolgreich für eine Verwendung sicherer Domänendaten konfiguriert haben:

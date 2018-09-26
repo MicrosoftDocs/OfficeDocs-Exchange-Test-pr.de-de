@@ -63,7 +63,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf IRM finden Sie unter 
 
 In diesem Beispiel wird IRM auf Clientzugriffsservern für eine Exchange-Organisation aktiviert.
 
-    Set-IRMConfiguration -ClientAccessServerEnabled $true
+```powershell
+Set-IRMConfiguration -ClientAccessServerEnabled $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-IRMConfiguration](https://technet.microsoft.com/de-de/library/dd979792\(v=exchg.150\)).
 
@@ -71,7 +73,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-IRMCo
 
 In diesem Beispiel wird IRM auf Clientzugriffsservern für eine Exchange-Organisation deaktiviert.
 
-    Set-IRMConfiguration -ClientAccessServerEnabled $false
+```powershell
+Set-IRMConfiguration -ClientAccessServerEnabled $false
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-IRMConfiguration](https://technet.microsoft.com/de-de/library/dd979792\(v=exchg.150\)).
 

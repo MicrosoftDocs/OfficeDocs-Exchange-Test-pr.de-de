@@ -41,9 +41,13 @@ Sie können das Cmdlet **Set-RemoteDomain** verwenden, um die Eigenschaften eine
 
 In diesem Beispiel werden Zustellungsberichte an die Remotedomäne "Contoso" deaktiviert. Diese Einstellung ist standardmäßig aktiviert.
 
-    Set-RemoteDomain Contoso -DeliveryReportEnabled $false
+```powershell
+Set-RemoteDomain Contoso -DeliveryReportEnabled $false
+```
 
 In diesem Beispiel werden Unzustellbarkeitsberichte an die Remotedomäne deaktiviert. Diese Einstellung ist standardmäßig aktiviert.
 
-    Set-RemoteDomain Contoso -NDREnabled $false
+```powershell
+Set-RemoteDomain Contoso -NDREnabled $false
+```
 

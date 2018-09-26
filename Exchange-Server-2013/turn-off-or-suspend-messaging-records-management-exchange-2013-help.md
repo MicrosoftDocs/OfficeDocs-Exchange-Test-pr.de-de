@@ -57,9 +57,11 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 Im folgenden Beispiel mit der Shell wird das Aufbewahrungstag "Delete - 3 Days" aus der Aufbewahrungsrichtlinie "Corp-Users" entfernt.
 
+```powershell
     $tags = (Get-RetentionPolicy "Corp-Users").RetentionPolicyTagLinks
     $tags -= "Deleted Items - 3 Days"
     Set-RetentionPolicy "Corp-Users" -RetentionPolicyTagLinks $tags
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-RetentionPolicy](https://technet.microsoft.com/de-de/library/dd298086\(v=exchg.150\)) und [Set-RetentionPolicy](https://technet.microsoft.com/de-de/library/dd335196\(v=exchg.150\)).
 
@@ -71,15 +73,21 @@ Sie können das Anwenden einer Aufbewahrungsrichtlinie auf ein Postfach beenden,
 
 Im folgenden Beispiel mit der Shell wird die Aufbewahrungsrichtlinie aus dem Postfach "jpeoples" entfernt.
 
-    Set-Mailbox jpeoples -RetentionPolicy $null.
+```powershell
+Set-Mailbox jpeoples -RetentionPolicy $null.
+```
 
 Im folgenden Beispiel mit der Shell wird die Aufbewahrungsrichtlinie aus allen Postfächern in der Exchange-Organisation entfernt.
 
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -ne $null} | Set-Mailbox -RetentionPolicy $null
+```
 
 Im folgenden Beispiel mit der Shell wird die Aufbewahrungsrichtlinie "Corp-Finance" von allen Postfachbenutzern entfernt, bei denen die Richtlinie angewendet wurde.
 
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -eq "Corp-Finance"} | Set-Mailbox -RetentionPolicy $null
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)) und [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)).
 
@@ -103,15 +111,21 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 In diesem Beispiel werden alle Löschen-Tags aus einer Exchange-Organisation entfernt mit Ausnahme des Tags "Nie löschen", welches in der vom Exchange-Setupprogramm erstellten Richtlinie "ArbitrationMailbox" verwendet wird.
 
+```powershell
     Get-RetentionPolicyTag | ? {$_.RetentionAction -ne "MoveToArchive" -and $_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
+```
 
 In diesem Beispiel werden alle Aufbewahrungstags außer dem Tag "Nie löschen" entfernt.
 
+```powershell
     Get-RetentionPolicyTag | ? {$_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
+```
 
 Dieser Befehl entfernt die Aufbewahrungsrichtlinie "Corp-Benutzer" aus einer Exchange-Organisation.
 
-    Remove-RetentionPolicy Corp-Users
+```powershell
+Remove-RetentionPolicy Corp-Users
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden Themen:
 

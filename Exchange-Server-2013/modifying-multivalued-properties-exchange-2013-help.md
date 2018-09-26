@@ -33,19 +33,27 @@ Weitere Informationen zu Objekten finden Sie unter [Strukturierte Daten](https:/
 
 Das Ändern einer mehrwertigen Eigenschaft unterscheidet sich geringfügig vom Ändern einer Eigenschaft, die nur einen Wert akzeptiert. Wenn Sie eine Eigenschaft ändern, die nur einen einzigen Wert akzeptiert, können Sie dieser Eigenschaft einen Wert direkt zuweisen, wie im folgenden Befehl dargestellt.
 
-    Set-TransportConfig -MaxSendSize 12MB
+```powershell
+Set-TransportConfig -MaxSendSize 12MB
+```
 
 Wenn Sie der Eigenschaft **MaxSendSize** mit diesem Befehl einen neuen Wert zuweisen, wird der gespeicherte Wert überschrieben. Bei einwertigen Eigenschaften ist dies unproblematisch. Bei mehrwertigen Eigenschaften stellt dies jedoch ein Problem dar. Angenommen, die Eigenschaft **BlockedRecipients** des Objekts **RecipientFilterConfig** ist mit den drei Werten konfiguriert, die im vorherigen Abschnitt aufgeführt sind. Wenn Sie den Befehl `Get-RecipientFilterConfig | Format-List BlockedRecipients` ausführen, wird Folgendes angezeigt.
 
-    BlockedRecipients : {david@adatum.com, kim@northwindtraders.com, john@contoso.com}
+```powershell
+BlockedRecipients : {david@adatum.com, kim@northwindtraders.com, john@contoso.com}
+```
 
 Angenommen, Sie werden nun gebeten, eine neue SMTP-Adresse zur Liste der blockierten Empfänger hinzuzufügen. Um die neue SMTP-Adresse hinzuzufügen, führen Sie den folgenden Befehl aus.
 
-    Set-RecipientFilterConfig -BlockedRecipients chris@contoso.com
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients chris@contoso.com
+```
 
 Wenn Sie den Befehl `Get-RecipientFilterConfig | Format-List BlockedRecipients` erneut ausführen, wird Folgendes angezeigt.
 
-    BlockedRecipients : {chris@contoso.com}
+```powershell
+BlockedRecipients : {chris@contoso.com}
+```
 
 Dies ist nicht, was Sie erwartet haben. Sie wollten die neue SMTP-Adresse zur vorhandenen Liste der blockierten Empfänger hinzufügen, stattdessen wurde die vorhandene Liste der blockierten Empfänger jedoch durch die neue SMTP-Adresse ersetzt. Dieses unbeabsichtigte Ergebnis zeigt den Unterschied beim Ändern mehrwertiger und einwertiger Eigenschaften. Wenn Sie eine mehrwertige Eigenschaft ändern, müssen Sie sicherstellen, dass Werte hinzugefügt bzw. einzelne Werte entfernt werden und nicht die gesamte Werteliste überschrieben wird. In den folgenden Abschnitten wird veranschaulicht, die Sie genau dies tun.
 
@@ -69,11 +77,23 @@ Das Ändern mehrwertiger Eigenschaften ähnelt der Änderung einwertiger Eigensc
 <tbody>
 <tr class="odd">
 <td><p>Hinzufügen eines oder mehrerer Werte zu einer mehrwertigen Eigenschaft</p></td>
-<td><pre><code>@{Add=&quot;&lt;value1&gt;&quot;, &quot;&lt;value2&gt;&quot;, &quot;&lt;value3&gt;&quot;}</code></pre></td>
+<td>
+
+```powershell
+@{Add="<value1>", "<value2>", "<value3>"}
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Entfernen eines oder mehrerer Werte aus einer mehrwertigen Eigenschaft</p></td>
-<td><pre><code>@{Remove=&quot;&lt;value1&gt;&quot;, &quot;&lt;value2&gt;&quot;, &quot;&lt;value3&gt;&quot;}</code></pre></td>
+<td>
+
+```powershell
+@{Remove="<value1>", "<value2>", "<value3>"}
+```
+
+</td>
 </tr>
 </tbody>
 </table>
@@ -81,21 +101,30 @@ Das Ändern mehrwertiger Eigenschaften ähnelt der Änderung einwertiger Eigensc
 
 Die Syntax, die Sie in der Syntaxtabelle für mehrwertige Eigenschaften auswählen, wird als Parameterwert für ein Cmdlet angegeben. Der folgende Befehl fügt einer mehrwertigen Eigenschaft beispielsweise mehrere Werte hinzu:
 
-    Set-ExampleCmdlet -Parameter @{Add="Red", "Blue", "Green"}
+```powershell
+Set-ExampleCmdlet -Parameter @{Add="Red", "Blue", "Green"}
+```
 
 Wenn Sie diese Syntax verwenden, werden die von Ihnen angegebenen Werte der Liste von Werten hinzugefügt bzw. daraus entfernt, die für die Eigenschaft bereits vorhanden sind. Um das **BlockedRecipients**-Beispiel weiter oben in diesem Thema aufzugreifen, können Sie jetzt "chris@contoso.com" hinzufügen, ohne die übrigen Werte dieser Eigenschaft zu überschreiben. Dazu verwenden Sie folgenden Befehl:
 
-    Set-RecipientFilterConfig -BlockedRecipients @{Add="chris@contoso.com"}
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients @{Add="chris@contoso.com"}
+```
 
 Wenn Sie "david@adatum.com" aus der Werteliste entfernen möchten, verwenden Sie folgenden Befehl:
 
-    Set-RecipientFilterConfig -BlockedRecipients @{Remove="david@adatum.com"}
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients @{Remove="david@adatum.com"}
+```
 
 Komplexere Kombinationen sind möglich, beispielsweise das gleichzeitige Hinzufügen und Entfernen von Werten zu bzw. aus einer Eigenschaft. Hierzu fügen Sie ein Semikolon (`;`) zwischen `Add` und `Remove`-Aktionen ein. Beispiel:
 
+```powershell
     Set-RecipientFilterConfig -BlockedRecipients @{Add="carter@contoso.com", "sam@northwindtraders.com", "brian@adatum.com"; Remove="john@contoso.com"}
+```
 
 Wenn Sie den Befehl `Get-RecipientFilterConfig | Format-List BlockedRecipients` erneut ausführen, stellen Sie fest, dass die E-Mail-Adressen für Carter, Sam und Brian hinzugefügt wurden und dass die Adresse für John entfernt wurde.
 
+```powershell
     BlockedRecipients : {brian@adatum.com, sam@northwindtraders.com, carter@contoso.com, chris@contoso.com, kim@northwindtraders.com}
-
+```

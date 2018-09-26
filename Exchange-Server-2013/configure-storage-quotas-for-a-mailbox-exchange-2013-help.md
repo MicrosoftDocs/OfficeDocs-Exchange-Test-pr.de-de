@@ -40,7 +40,7 @@ In diesem Thema wird beschrieben, wie Sie die Speichereinstellungen für ein bes
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -60,7 +60,7 @@ In diesem Thema wird beschrieben, wie Sie die Speichereinstellungen für ein bes
       - **Warnmeldung senden ab (GB)**   In diesem Feld wird der maximale Speichergrenzwert angezeigt, der erreicht werden muss, damit eine Warnung an den Benutzer ausgegeben wird. Wenn die Größe des Postfachs den angegebenen Wert erreicht oder übersteigt, sendet Exchange eine Warnmeldung an den Benutzer.
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > Die dem Kontingent <STRONG>Warnmeldung senden</STRONG> zugeordnete Nachricht wird erst an den Benutzer gesendet, wenn der Wert für diese Einstellung mehr als 50 % des im Kontingent <STRONG>Senden verbieten</STRONG> angegebenen Werts ausmacht. Wenn Sie beispielsweise das Kontingent <STRONG>Senden verbieten</STRONG> auf 8 MB festlegen, müssen Sie das Kontingent <STRONG>Warnmeldung senden</STRONG> auf mindestens 4 MB einstellen. Andernfalls wird die Meldung des Kontingents <STRONG>Warnmeldung senden</STRONG> nicht gesendet.
 
     
@@ -75,16 +75,18 @@ In diesem Thema wird beschrieben, wie Sie die Speichereinstellungen für ein bes
 In diesem Beispiel werden die Grenzwerte für Warnungen, Sendeverbote sowie Sende- und Empfangskontingente für das Postfach von Joe Healy auf 24,5 GB, 24,75 GB bzw. 25 GB festgelegt.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Damit sichergestellt ist, dass die benutzerdefinierten Einstellungen für das Postfach anstelle der Standardeinstellungen der Postfachdatenbank verwendet werden, müssen Sie den Parameter <EM>UseDatabaseQuotaDefaults</EM> auf <CODE>$false</CODE> festlegen.
 
-
-
-    Set-Mailbox -Identity "Joe Healy" -IssueWarningQuota 24.5gb -ProhibitSendQuota 24.75gb -ProhibitSendReceiveQuota 25gb -UseDatabaseQuotaDefaults $false
+   ```powershell
+   Set-Mailbox -Identity "Joe Healy" -IssueWarningQuota 24.5gb -ProhibitSendQuota 24.75gb -ProhibitSendReceiveQuota 25gb -UseDatabaseQuotaDefaults $false
+   ````
 
 In diesem Beispiel werden die Grenzwerte für Warnungen, Sendeverbote sowie Sende- und Empfangskontingente für das Postfach von Ayla Kol auf 900 MB, 950 MB bzw. 1 GB festgelegt, und das Postfach wird zur Verwendung der benutzerdefinierten Einstellungen konfiguriert.
 
-    Set-Mailbox -Identity "Ayla Kol" -IssueWarningQuota 900mb -ProhibitSendQuota 950mb -ProhibitSendReceiveQuota 1gb -UseDatabaseQuotaDefaults $false
+```powershell
+Set-Mailbox -Identity "Ayla Kol" -IssueWarningQuota 900mb -ProhibitSendQuota 950mb -ProhibitSendReceiveQuota 1gb -UseDatabaseQuotaDefaults $false
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)).
 
@@ -106,5 +108,7 @@ Oder
 
 Führen Sie folgenden Befehl in der Shell aus.
 
-    Get-Mailbox <identity> | fl IssueWarningQuota,ProhibitSendQuota,ProhibitSendReceiveQuota,UseDatabaseQuotaDefaults
+```powershell
+Get-Mailbox <identity> | fl IssueWarningQuota,ProhibitSendQuota,ProhibitSendReceiveQuota,UseDatabaseQuotaDefaults
+```
 

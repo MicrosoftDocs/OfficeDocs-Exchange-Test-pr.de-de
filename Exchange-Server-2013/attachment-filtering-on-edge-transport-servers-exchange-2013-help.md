@@ -29,7 +29,9 @@ Folgende Arten der Anlagenfilterung können zur Steuerung der Anlagen, die in Ih
     
     Führen Sie den auf dem Edge-Transport-Server folgenden Befehl aus, um eine vollständige Liste aller Dateinamenerweiterungen und Inhaltstypen anzuzeigen, auf die die Anlagenfilterung angewendet werden kann:
     
-        Get-AttachmentFilterEntry | Format-List
+    ```powershell
+    Get-AttachmentFilterEntry | Format-List
+    ```
 
 Nachdem Sie die zu suchenden Dateien definiert haben, können Sie die Aktion festlegen, die für Nachrichten mit diesen Anlagen durchgeführt werden soll. Sie können keine unterschiedlichen Aktionen für unterschiedliche Arten von Anlagen angeben. Sie können eine der folgenden Aktionen für alle Nachrichten konfigurieren, die den Anlagenfiltern entsprechen:
 

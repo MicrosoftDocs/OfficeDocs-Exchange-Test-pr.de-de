@@ -49,11 +49,15 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit B
 
 Verwenden Sie zum Ändern der Zuweisungsrichtlinie für ein Postfach die folgende Syntax.
 
-    Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```powershell
+Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```
 
 In diesem Beispiel wird die Zuweisungsrichtlinie für das Postfach "Brian" auf "Unified Messaging Users" festgelegt.
 
-    Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```powershell
+Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```
 
 ## Verwenden der Shell zum Ändern der Zuweisungsrichtlinie für eine Gruppe von Postfächern, denen eine bestimmte Zuweisungsrichtlinie zugewiesen ist
 
@@ -73,15 +77,21 @@ In diesem Verfahren werden Kenntnisse zum Pipelining, zum Cmdlet **Where** und z
 
 Verwenden Sie die folgende Syntax, um die Zuweisungsrichtlinie für eine Gruppe von Postfächern zu ändern, denen eine bestimmte Zuweisungsrichtlinie zugewiesen ist.
 
+```powershell
     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<assignment policy to find>" } | Set-Mailbox -RoleAssignmentPolicy <assignment policy to set>
+```
 
 In diesem Beispiel werden alle Postfächer gesucht, die "Redmond Users - No Voicemail" zugewiesen sind, und die Zuweisungsrichtlinie wird in "Redmond Users - Voicemail Enabled" geändert.
 
+```powershell
     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Redmond Users - No Voicemail" } | Set-Mailbox -RoleAssignmentPolicy "Redmond Users - Voicemail Enabled"
+```
 
 In diesem Beispiel ist der Parameter *WhatIf* enthalten, sodass Sie ohne tatsächliches Anwenden von Änderungen anzeigen können, welche Postfächer geändert würden.
 
+```powershell
     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Redmond Users - No Voicemail" } | Set-Mailbox -RoleAssignmentPolicy "Redmond Users - Voicemail Enabled" -WhatIf
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\)) oder [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)).
 

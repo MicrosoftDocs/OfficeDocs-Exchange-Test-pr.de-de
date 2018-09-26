@@ -51,13 +51,17 @@ Nach der Konfiguration der OAuth-Authentifizierung mit Exchange kann die Partner
 
 In diesem Beispiel wird die OAuth-Authentifizierung für SharePoint 2013 konfiguriert.
 
+```powershell
     Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
     Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://sharepoint.contoso.com/_layouts/15/metadata/json/1 -ApplicationType SharePoint
+```
 
 In diesem Beispiel wird die OAuth-Authentifizierung für Lync Server 2013 konfiguriert.
 
+```powershell
     Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
     Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://lync.contoso.com/metadata/json/1 -ApplicationType Lync
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

@@ -43,11 +43,15 @@ Die Funktion der Sender ID wird durch den Sender ID-Agent bereitgestellt. Die S
 
 Führen Sie zum Deaktivieren von Sender ID den folgenden Befehl aus:
 
-    Set-SenderIDConfig -Enabled $false
+```powershell
+Set-SenderIDConfig -Enabled $false
+```
 
 Führen Sie zum Aktivieren von Sender ID den folgenden Befehl aus:
 
-    Set-SenderIDConfig -Enabled $true
+```powershell
+Set-SenderIDConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -61,7 +65,9 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Sender ID erfolgreich
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-SenderIDConfig | Format-List Enabled
+    ```powershell
+    Get-SenderIDConfig | Format-List Enabled
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
@@ -69,11 +75,15 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Sender ID erfolgreich
 
 Führen Sie den folgenden Befehl aus, um die Sender ID-Aktion für gefälschte Nachrichten zu konfigurieren:
 
-    Set-SenderIDConfig -SpoofedDomainAction <StampStatus | Reject | Delete>
+```powershell
+Set-SenderIDConfig -SpoofedDomainAction <StampStatus | Reject | Delete>
+```
 
 In diesem Beispiel wird der Sender ID-Agent so konfiguriert, dass alle Nachrichten zurückgewiesen werden, bei denen die IP-Adresse des sendenden Servers nicht als autoritativer SMTP-Server im DNS-SPF-Eintrag (Sender Policy Framework) für die sendende Domäne aufgeführt ist.
 
-    Set-SenderIDConfig -SpoofedDomainAction Reject
+```powershell
+Set-SenderIDConfig -SpoofedDomainAction Reject
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -81,7 +91,9 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Sender ID-Aktion für
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-SenderIDConfig | Format-List SpoofedDomainAction
+    ```powershell
+    Get-SenderIDConfig | Format-List SpoofedDomainAction
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
@@ -89,11 +101,15 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Sender ID-Aktion für
 
 Führen Sie den folgenden Befehl aus, um die Sender ID-Aktion für vorübergehende Fehler zu konfigurieren:
 
-    Set-SenderIDConfig -TempErrorAction <StampStatus | Reject | Delete>
+```powershell
+Set-SenderIDConfig -TempErrorAction <StampStatus | Reject | Delete>
+```
 
 In diesem Beispiel wird der Sender ID-Agent so konfiguriert, dass Nachrichten gestempelt werden, deren Sender ID-Status aufgrund eines temporären DNS-Serverfehlers nicht ermittelt werden kann. Die Nachricht wird durch weitere Antispam-Agents verarbeitet, und der Inhaltsfilter-Agent verwendet die Markierung beim Ermitteln des SCL-Werts für die Nachricht.
 
-    Set-SenderIDConfig -TempErrorAction StampStatus
+```powershell
+Set-SenderIDConfig -TempErrorAction StampStatus
+```
 
 Beachten Sie, dass `StampStatus` der Standardwert für den Parameter *TempErrorAction* ist.
 
@@ -103,7 +119,9 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Sender ID-Aktion für
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-SenderIDConfig | Format-List TempErrorAction
+    ```powershell
+    Get-SenderIDConfig | Format-List TempErrorAction
+    ```
 
 2.  Überprüfen Sie, ob der angezeigte Wert dem Wert entspricht, den Sie konfiguriert haben.
 
@@ -111,15 +129,21 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Sender ID-Aktion für
 
 Führen Sie den folgenden Befehl aus, um die vorhandenen Werte zu ersetzen:
 
+```powershell
     Set-SenderIDConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenderDomains <domain1,domain2...>
+```
 
 In diesem Beispiel wird der Sender ID-Agent so konfiguriert, dass die Überprüfung der Sender ID für an kim@contoso.com und john@contoso.com gesendete Nachrichten sowie für aus der Domäne "fabrikam.com" gesendete Nachrichten umgangen wird.
 
+```powershell
     Set-SenderIDConfig -BypassedRecipients kim@contoso.com,john@contoso.com -BypassedSenderDomains fabrikam.com
+```
 
 Führen Sie folgenden Befehl aus, um Einträge hinzuzufügen bzw. zu entfernen, ohne vorhandene Werte zu ändern:
 
+```powershell
     Set-SenderIDConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```
 
 In diesem Beispiel wird der Sender ID-Agent mit den folgenden Informationen konfiguriert:
 
@@ -129,7 +153,9 @@ In diesem Beispiel wird der Sender ID-Agent mit den folgenden Informationen kon
 
 <!-- end list -->
 
+```powershell
     Set-SenderIDConfig -BypassedRecipients @{Add="chris@contoso.com","michelle@contoso.com"} -BypassedSenderDomains @{Remove="tailspintoys.com"}
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -137,7 +163,9 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Ausnahmen für die Emp
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+    ```powershell
+    Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+    ```
 
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 

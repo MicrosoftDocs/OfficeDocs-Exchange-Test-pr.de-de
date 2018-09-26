@@ -315,7 +315,9 @@ Als bewährte Methode sollten Sie die Anzahl von Zertifikaten minimieren, die f�
 
 Für Outlook Anywhere-Clients wird empfohlen, dass Sie für jedes Datencenter ein einzelnes SAN-Zertifikat (Subject Alternative Name) verwenden und mehrere Hostnamen in das Zertifikat einbeziehen. Damit die Outlook Anywhere-Konnektivität nach einem Datenbank-, Server- oder Datencenterswitchover sichergestellt ist, müssen Sie für jedes Zertifikat denselben Zertifikatprinzipalnamen verwenden und das Outlook-Anbieterkonfigurationsobjekt in Active Directory mit demselben Prinzipalnamen im Microsoft-Standardformular (msstd) konfigurieren. Wenn Sie z. B. den Zertifikatprinzipalnamen "mail.contoso.com" verwenden, würden Sie die Attribute wie folgt konfigurieren:
 
-    Set-OutlookProvider EXPR -CertPrincipalName "msstd:mail.contoso.com"
+```powershell
+Set-OutlookProvider EXPR -CertPrincipalName "msstd:mail.contoso.com"
+```
 
 Einige Anwendungen, die mit Exchange integriert werden, weisen bestimmte Zertifikatanforderungen auf, die möglicherweise die Verwendung zusätzlicher Zertifikate erfordern. Exchange 2013 kann gleichzeitig mit Office Communications Server (OCS) installiert sein. OCS erfordert Zertifikate mit 1024-Bit oder stärkerer Verschlüsselung, die den OCS-Servernamen als Zertifikatprinzipalnamen verwenden. Da bei Verwendung eines OCS-Servernamens als Zertifikatprinzipalnamen Outlook Anywhere nicht ordnungsgemäß ausgeführt werden kann, müssten Sie ein zusätzliches und separates Zertifikat für die OCS-Umgebung verwenden.
 

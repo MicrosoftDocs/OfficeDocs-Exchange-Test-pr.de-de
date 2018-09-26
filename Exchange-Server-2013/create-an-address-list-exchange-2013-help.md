@@ -73,11 +73,14 @@ Informationen zu anderen Verwaltungsaufgaben, die sich auf Adresslisten beziehen
 
 In diesem Beispiel wird die Adressliste "MyAddressList" erstellt. Hierzu wird der Parameter *RecipientFilter* verwendet und es werden Empfänger eingeschlossen, bei denen es sich um Postfachbenutzer handelt, für die `StateOrProvince` auf `Washington` oder `Oregon` festgelegt wurde.
 
-    New-AddressList -Name MyAddressList -RecipientFilter {((RecipientType -eq 'UserMailbox') -and ((StateOrProvince -eq 'Washington') -or (StateOrProvince -eq 'Oregon')))}
+```powershell
+New-AddressList -Name MyAddressList -RecipientFilter {((RecipientType -eq 'UserMailbox') -and ((StateOrProvince -eq 'Washington') -or (StateOrProvince -eq 'Oregon')))}
+```
 
 In diesem Beispiel wird durch die Verwendung vordefinierter Bedingungen eine untergeordnete Adressliste mit dem Namen "Building 34 Meeting Rooms" im übergeordneten Container "All Rooms" erstellt.
 
-    New-AddressList -Name "Building 34 Meeting Rooms" -Container "\All Rooms" -IncludedRecipients Resources -ConditionalCustomAttribute1 "Building 34"
+```powershell
+New-AddressList -Name "Building 34 Meeting Rooms" -Container "\All Rooms" -IncludedRecipients Resources -ConditionalCustomAttribute1 "Building 34"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-AddressList](https://technet.microsoft.com/de-de/library/aa996912\(v=exchg.150\)).
-

@@ -59,7 +59,9 @@ Der E-Mail-Kontakt wird aus der Kontaktliste entfernt.
 
 In diesem Beispiel wird E-Mail für den E-Mail-Kontakt Neil Black deaktiviert.
 
-    Disable-MailContact -Identity "Neil Black"
+```powershell
+Disable-MailContact -Identity "Neil Black"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Disable-MailContact](https://technet.microsoft.com/de-de/library/aa997465\(v=exchg.150\)).
 
@@ -73,13 +75,17 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Deaktivierung 
 
 3.  Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-MailContact
+    ```powershell
+    Get-MailContact
+    ```
     
     Der Kontakt, für den Sie E-Mail deaktiviert haben, wird in den Ergebnissen nicht zurückgegeben, da dieses Cmdlet nur für E-Mail aktivierte Kontakte zurückgibt.
 
 4.  Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-Contact
+    ```powershell
+    Get-Contact
+    ```
     
     Der Kontakt, für den Sie E-Mail deaktiviert haben, wird in den Ergebnissen zurückgegeben, da dieses Cmdlet alle Active Directory-Kontaktobjekte zurückgibt.
 
@@ -91,7 +97,9 @@ Verwenden Sie das Cmdlet **Enable-MailContact**, um vorhandene Active Directory-
 
 In diesem Beispiel wird der Kontakt Rene Valdes für E-Mail aktiviert. Sie müssen eine externe E-Mail-Adresse angeben.
 
-    Enable-MailContact -Identity "Rene Valdes" -ExternalEmailAddress renev@tailspintoys.com
+```powershell
+Enable-MailContact -Identity "Rene Valdes" -ExternalEmailAddress renev@tailspintoys.com
+```
 
 ## Aktivieren mehrerer Kontakte für E-Mail mithilfe der Shell und einer CSV-Datei
 
@@ -99,10 +107,13 @@ Wenn Sie zahlreiche Kontakte für E-Mail aktivieren möchten, müssen Sie zunäc
 
 1.  Führen Sie den folgenden Befehl aus, um eine Liste vorhandener nicht für E-Mail aktivierter Kontakte in eine Datei auf dem Desktop des Administrators mit dem Namen **Contacts.csv** zu exportieren.
     
+    ```powershell
         Get-Contact | Where { $_.RecipientType -eq "Contact" } | Out-File "C:\Users\Administrator\Desktop\Contacts.csv"
+    ```
     
     Die resultierende Datei ähnelt der folgenden Datei:
     
+    ```powershell
         Name
         Walter Harp
         James Alvord
@@ -110,9 +121,11 @@ Wenn Sie zahlreiche Kontakte für E-Mail aktivieren möchten, müssen Sie zunäc
         Susan Burk
         Ian Tien
         ...
+    ```
 
 2.  Fügen Sie die Spaltenüberschrift **E-Mail-Adresse** und anschließend eine E-Mail-Adresse für jeden Kontakt in der Datei hinzu. Der Name und die externe E-Mail-Adresse jedes Kontakts müssen durch ein Komma getrennt werden. Die aktualisierte CSV-Datei sollte nun ungefähr so aussehen:
     
+    ```powershell
         Name,EmailAddress
         James Alvord,james@contoso.com
         Susan Burk,sburk@tailspintoys.com
@@ -120,10 +133,13 @@ Wenn Sie zahlreiche Kontakte für E-Mail aktivieren möchten, müssen Sie zunäc
         Ian Tien,iant@tailspintoys.com
         Rainer Witt,rainerw@fourthcoffee.com
         ...
-
+    ```
+    
 3.  Führen Sie den folgenden Befehl aus, um mithilfe der Daten in der CSV-Datei die Kontakte in der Datei für E-Mail zu aktivieren.
     
+    ```powershell
         Import-CSV C:\Users\Administrator\Desktop\Contacts.csv | ForEach-Object {Enable-MailContact -Identity $_.Name -ExternalEmailAddress $_.EmailAddress}
+    ```
     
     Die Befehlsergebnisse zeigen Informationen zu den neu für E-Mail aktivierten Kontakten.
 
@@ -141,5 +157,7 @@ Gehen Sie folgendermaßen vor, um die erfolgreiche Aktivierung von Active Direct
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Informationen zu neuen E-Mail-Kontakten anzuzeigen.
     
-        Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```powershell
+    Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```
 

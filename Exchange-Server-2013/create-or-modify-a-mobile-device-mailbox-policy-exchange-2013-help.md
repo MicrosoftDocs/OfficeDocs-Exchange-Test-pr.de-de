@@ -77,8 +77,9 @@ Zum Erstellen einer neuen Postfachrichtlinie für mobile Geräte verwenden Sie d
 
 1.  Führen Sie in der Shell den folgenden Befehl aus.
     
+    ```powershell
         New-MobileDeviceMailboxPolicy -Name:"Management" -AllowBluetooth:$true -AllowBrowser:$true -AllowCamera:$true -AllowPOPIMAPEmail:$false -PasswordEnabled:$true -AlphanumericPasswordRequired:$true -PasswordRecoveryEnabled:$true -MaxEmailAgeFilter:10 -AllowWiFi:$true -AllowStorageCard:$true -AllowPOPIMAPEmail:$false
-
+    ```
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Erstellung einer Postfachrichtlinie für mobile Geräte zu überprüfen:
@@ -86,9 +87,9 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Erstellung ein
 1.  Klicken Sie in der Exchange-Verwaltungskonsole auf **Mobil** \> **Postfachrichtlinien für mobile Geräte**, und vergewissern Sie sich, dass die neue Richtlinie in der Listenansicht angezeigt wird.
 
 2.  Führen Sie in der Shell den folgenden Befehl aus.
-    
+    ```powershell
         Get-MobileDeviceMailboxPolicy -Identity <PolicyName> 
-
+    ```
 ## Bearbeiten einer vorhandenen Postfachrichtlinie für mobile Geräte
 
 Sie können eine Postfachrichtlinie für mobile Geräte mit der Exchange-Verwaltungskonsole oder mit der Shell bearbeiten.
@@ -124,9 +125,9 @@ Sie können eine Postfachrichtlinie für mobile Geräte mit der Shell bearbeiten
 
 
 1.  Führen Sie in der Shell den folgenden Befehl aus.
-    
+    ```powershell
         Set-MobileDeviceMailboxPolicy -Identity:Default -DevicePasswordEnabled:$true -AlphanumericDevicePasswordRequired:$true -PasswordRecoveryEnabled:$true -MaxEmailAgeFilter:ThreeDays -AllowWiFi:$false -AllowStorageCard:$true -AllowPOPIMAPEmail:$false -IsDefault:$true -AllowTextMessaging:$true -Confirm:$true
-
+    ```
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Bearbeitung einer Postfachrichtlinie für mobile Geräte zu überprüfen:
@@ -135,5 +136,7 @@ Führen Sie einen der folgenden Schritte aus, um die erfolgreiche Bearbeitung ei
 
 2.  Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+    ```powershell
+    Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+    ```
 

@@ -65,25 +65,33 @@ Wenn Sie die Verarbeitung eingehender und ausgehender Nachrichten zwischen zwei 
 
   - Für den Edge-Transport-Server, der für die Verarbeitung der ausgehenden Nachrichtenübermittlung zuständig ist, führen Sie den folgenden Befehl auf dem Postfachserver aus.
     
+    ```powershell
         New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInboundSendConnector $false -CreateInternetSendConnector $true
-
+    ```
+    
   - Für den Edge-Transport-Server, der für die Verarbeitung der eingehenden Nachrichtenübermittlung zuständig ist, führen Sie den folgenden Befehl auf dem Postfachserver aus.
     
+    ```powershell
         New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInboundSendConnector $true -CreateInternetSendConnector $false
-
+    ```
+    
 ## Weiterleiten von ausgehenden E-Mails an einen Smarthost
 
 Wenn Ihre Exchange-Organisation die gesamten ausgehenden E-Mails über einen Smarthost weiterleitet, weist der automatisch erstellte Sendeconnector nicht die richtige Konfiguration auf.
 
 Führen Sie den folgenden Befehl auf dem Postfachserver aus, um die automatische Erstellung des Sendeconnectors in das Internet zu unterdrücken.
 
+```powershell
     New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInternetSendConnector $false
+```
 
 Nachdem der Edge-Abonnementprozess abgeschlossen ist, erstellen Sie manuell einen Sendeconnector in das Internet. Erstellen Sie den Sendeconnector innerhalb der Exchange-Organisation, und wählen Sie das Edge-Abonnement als Quellserver für den Connector aus. Wählen Sie den Verwendungstyp `Custom` (Benutzerdefiniert) aus, und konfigurieren Sie mindestens einen Smarthost. Dieser neue Sendeconnector wird bei der nächsten Synchronisierung der Konfigurationsdaten durch EdgeSync in die AD LDS-Instanz auf dem Edge-Transport-Server repliziert. Sie können die sofortige EdgeSync-Synchronisierung erzwingen, indem Sie das Cmdlet **Start-EdgeSynchronization** auf einem Postfachserver ausführen.
 
 Beispiel: Das Verwenden der Shell zum Konfigurieren eines Sendeconnectors für einen abonnierten Edge-Transport-Server, der die Nachrichten für alle Internetadressräume durch einen Smarthost weiterleitet. Führen Sie diese Aufgabe auf einem Postfachserver innerhalb der Exchange-Organisation und nicht auf dem Edge-Transport-Server aus.
 
+```powershell
     New-SendConnector -Name "EdgeSync - Site-A to Internet" -Usage Custom -AddressSpaces SMTP:*;100 -DNSRoutingEnabled $false -SmartHosts 192.168.10.1 -SmartHostAuthMechanism None -SourceTransportServers EdgeSubscriptionName
+```
 
 
 > [!IMPORTANT]

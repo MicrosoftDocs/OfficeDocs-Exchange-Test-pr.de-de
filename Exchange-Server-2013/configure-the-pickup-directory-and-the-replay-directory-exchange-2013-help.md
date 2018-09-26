@@ -45,7 +45,9 @@ Die PICKUP- und Wiedergabeverzeichnisse werden vom Transportdienst auf Postfachs
 
 Verwenden Sie folgende Syntax, um das PICKUP-Verzeichnis zu konfigurieren.
 
+```powershell
     Set-TransportService <ServerIdentity> -PickupDirectoryPath <LocalFilePath> -PickupDirectoryMaxHeaderSize <Size> -PickupDirectoryMaxRecipientsPerMessage <Integer> -PickupDirectoryMaxMessagesPerMinute <Integer>
+```
 
 In diesem Beispiel werden die folgenden Änderungen am PICKUP-Verzeichnis auf dem Postfachserver "Exchange01" vorgenommen:
 
@@ -59,8 +61,9 @@ In diesem Beispiel werden die folgenden Änderungen am PICKUP-Verzeichnis auf de
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Exchange01 -PickupDirectoryPath "D:\Pickup Directory" -PickupDirectoryMaxHeaderSize 96KB -PickupDirectoryMaxRecipientsPerMessage 250 -PickupDirectoryMaxMessagesPerMinute 200
-
+```
 
 > [!NOTE]
 > <UL>
@@ -75,7 +78,9 @@ In diesem Beispiel werden die folgenden Änderungen am PICKUP-Verzeichnis auf de
 
 Verwenden Sie folgende Syntax, um das Wiedergabeverzeichnis zu konfigurieren.
 
+```powershell
     Set-TransportService <ServerIdentity> -ReplayDirectoryPath "C:\Replay Directory" <LocalFilePath> -PickupDirectoryMaxMessagesPerMinute <Integer>
+```
 
 In diesem Beispiel werden die folgenden Änderungen am Wiedergabeverzeichnis auf dem Postfachserver "Exchange01" vorgenommen:
 
@@ -85,8 +90,9 @@ In diesem Beispiel werden die folgenden Änderungen am Wiedergabeverzeichnis auf
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Exchange01 -ReplayDirectoryPath "D:\Replay Directory" -PickupDirectoryMaxMessagesPerMinute 200
-
+```
 
 > [!NOTE]
 > <UL>
@@ -103,7 +109,9 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie die PICKUP- und Wi
 
 1.  Führen Sie den folgenden Befehl aus:
     
+    ```powershell
         Get-TransportService <ServerIdentity> | Format-List Pickup*,Replay*
-
+    ```
+    
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 

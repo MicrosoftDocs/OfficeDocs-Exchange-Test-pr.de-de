@@ -49,11 +49,15 @@ Diese Thema stellt Schrittanleitungen zum Konfigurieren des Transportdiensts in 
 
 Führen Sie den folgenden Befehl aus, um den Transportdienst auf einem Postfachserver für die Verwendung der heruntergestuften Exchange Server-Authentifizierung zu konfigurieren:
 
-    Set-TransportService <ServerIdentity> -UseDowngradedExchangeServerAuth $true
+```powershell
+Set-TransportService <ServerIdentity> -UseDowngradedExchangeServerAuth $true
+```
 
 In diesem Beispiel wird diese Konfigurationsänderung auf dem Server "Mailbox01" vorgenommen.
 
-    Set-TransportService Mailbox01 -UseDowngradedExchangeServerAuth $true
+```powershell
+Set-TransportService Mailbox01 -UseDowngradedExchangeServerAuth $true
+```
 
 ## Schritt 2: Erstellen eines dedizierten Empfangsconnectors auf dem Postfachserver für den Active Directory-Zielstandort
 
@@ -75,7 +79,9 @@ In diesem Beispiel wird diese Konfigurationsänderung auf dem Server "Mailbox01"
 
 Führen Sie zum Erstellen eines Empfangsconnectors auf dem Postfachserver den folgenden Befehl aus:
 
+```powershell
     New-ReceiveConnector -Name <Name> -Server <ServerIdentity> -RemoteIPRanges <IPAddressRange> -Internal
+```
 
 In diesem Beispiel wird der Empfangsconnector namens "WAN" auf dem Server "Mailbox01" mit folgenden Einstellungen erstellt:
 
@@ -85,39 +91,53 @@ In diesem Beispiel wird der Empfangsconnector namens "WAN" auf dem Server "Mailb
 
 <!-- end list -->
 
-    New-ReceiveConnector -Name WAN -Server Hub01 -RemoteIPRanges 10.0.2.0/24 -Internal
+```powershell
+New-ReceiveConnector -Name WAN -Server Hub01 -RemoteIPRanges 10.0.2.0/24 -Internal
+```
 
 ## Schritt 3: Deaktivieren von TLS auf dem dedizierten Empfangsconnector mithilfe der Shell
 
 Führen Sie zum Deaktivieren von TLS auf dem Empfangsconnector den folgenden Befehl aus:
 
-    Set-ReceiveConnector <ReceiveConnectorIdentity> -SuppressXAnonymousTLS $true
+```powershell
+Set-ReceiveConnector <ReceiveConnectorIdentity> -SuppressXAnonymousTLS $true
+```
 
 In diesem Beispiel wird TLS auf dem Empfangsconnector "WAN" auf dem Postfachserver "Mailbox01" deaktiviert.
 
+```powershell
     Set-ReceiveConnector Mailbox01\WAN -SuppressXAnonymousTLS $true
+```
 
 ## Schritt 4: Festlegen der Active Directory-Standorte als Hubstandorte mithilfe der Shell
 
 Führen Sie folgenden Befehl aus, um einen Active Directory-Standort als Hubstandort festzulegen:
 
-    Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```powershell
+Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```
 
 Diesen Vorgang müssen Sie einmal für jeden Active Directory-Standort ausführen, der über Postfachserver verfügt, die für unverschlüsselten Datenverkehr verwendet werden.
 
 In diesem Beispiel wird der Active Directory-Standort "Central Office Site 1" als Hubstandort konfiguriert.
 
-    Set-AdSite "Central Office Site 1" -HubSiteEnabled $true
+```powershell
+Set-AdSite "Central Office Site 1" -HubSiteEnabled $true
+```
 
 ## Schritt 5: Konfigurieren des kostengünstigsten Routingpfads über die WAN-Verbindung mithilfe der Shell
 
 Je nach Konfiguration der Kosten für IP-Standortverknüpfungen in Active Directory kann dieser Schritt ggf. ausgelassen werden. Sie müssen sicherstellen, dass die Netzwerkverbindung mit den bereitgestellten WOC-Geräten sich auf dem kostengünstigsten Routingpfad befindet. Führen Sie den folgenden Befehl aus, um die Kosten für Active Directory-Standortverknüpfungen und die Exchange-spezifischen Kosten für Standortverknüpfungen anzuzeigen:
 
-    Get-AdSiteLink
+```powershell
+Get-AdSiteLink
+```
 
 Wenn die Netzwerkverknüpfung mit den bereitgestellten WOC-Geräten sich nicht auf dem kostengünstigsten Routingpfad befindet, müssen Sie der jeweiligen IP-Standortverknüpfung Exchange-spezifische Kosten zuweisen, um eine ordnungsgemäße Weiterleitung der Nachrichten zu gewährleisten. Informationen zu diesem speziellen Aspekt finden Sie im Abschnitt "Konfigurieren Exchange-spezifischer Active Directory-Standortverknüpfungskosten" unter [Szenario: Konfigurieren von Exchange zur Unterstützung von WOC-Geräten (WAN Optimization Controller)](scenario-configure-exchange-to-support-wan-optimization-controllers-exchange-2013-help.md).
 
 In diesem Beispiel werden Exchange-spezifische Kosten von 15 für die IP-Standortverknüpfung "Branch Office 2-Branch Office 1" konfiguriert.
 
-    Set-AdSiteLink "Branch Office 2-Branch Office 1" -ExchangeCost 15
+```powershell
+Set-AdSiteLink "Branch Office 2-Branch Office 1" -ExchangeCost 15
+```
 

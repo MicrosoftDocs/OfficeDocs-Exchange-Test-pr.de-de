@@ -51,11 +51,15 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit R
 
 Verwenden Sie die folgende Syntax, um den Namen eines Bereichs zu ändern.
 
-    Set-ManagementScope <current scope name> -Name <new scope name>
+```powershell
+Set-ManagementScope <current scope name> -Name <new scope name>
+```
 
 In diesem Beispiel wird der Bereich "Seattle Servers" in "Seattle Exchange Servers" geändert.
 
-    Set-ManagementScope "Seattle Servers" -Name "Seattle Exchange Servers"
+```powershell
+Set-ManagementScope "Seattle Servers" -Name "Seattle Exchange Servers"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementScope](https://technet.microsoft.com/de-de/library/dd297996\(v=exchg.150\)).
 
@@ -63,11 +67,15 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Manag
 
 Verwenden Sie die folgende Syntax, um den Empfängerfilter für einen Bereich zu ändern.
 
-    Set-ManagementScope <scope name> -RecipientRestrictionFilter { <new recipient filter> }
+```powershell
+Set-ManagementScope <scope name> -RecipientRestrictionFilter { <new recipient filter> }
+```
 
 In diesem Beispiel wird der Empfängerfilter so geändert, dass alle Empfängerobjekte ermittelt werden, bei denen die Eigenschaft **Company** auf "contoso" festgelegt ist.
 
-    Set-ManagementScope "Company Scope" -RecipientRestrictionFilter { Company -eq 'contoso' }
+```powershell
+Set-ManagementScope "Company Scope" -RecipientRestrictionFilter { Company -eq 'contoso' }
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementScope](https://technet.microsoft.com/de-de/library/dd297996\(v=exchg.150\)).
 
@@ -77,11 +85,15 @@ Weitere Informationen zu Empfängerfiltern sowie eine Liste der filterbaren Empf
 
 Verwenden Sie die folgende Syntax, um die oberste Ebene der Organisationseinheit für einen Bereich zu ändern.
 
-    Set-ManagementScope <scope name> -RecipientRoot <OU>
+```powershell
+Set-ManagementScope <scope name> -RecipientRoot <OU>
+```
 
 In diesem Beispiel wird die oberste Ebene der Organisationseinheit auf die Organisationseinheit "North America/Sales" des Bereichs "Sales Users" unter der Domäne "contoso.com" gesetzt.
 
-    Set-ManagementScope "Sales Users" -RecipientRoot "contoso.com/North America/Sales"
+```powershell
+Set-ManagementScope "Sales Users" -RecipientRoot "contoso.com/North America/Sales"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementScope](https://technet.microsoft.com/de-de/library/dd297996\(v=exchg.150\)).
 
@@ -89,11 +101,15 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Manag
 
 Verwenden Sie die folgende Syntax, um den Serverfilter für einen Bereich zu ändern.
 
-    Set-ManagementScope <scope name> -ServerRestrictionFilter { <new server filter> }
+```powershell
+Set-ManagementScope <scope name> -ServerRestrictionFilter { <new server filter> }
+```
 
 In diesem Beispiel wird der Serverfilter so geändert, dass er mit allen Serverobjekten übereinstimmt, deren Eigenschaft **ServerSite** festgelegt ist auf 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com'.
 
-    Set-ManagementScope "Company Scope" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+  ```powershell
+  Set-ManagementScope "Company Scope" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+  ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementScope](https://technet.microsoft.com/de-de/library/dd297996\(v=exchg.150\)).
 
@@ -115,11 +131,15 @@ Sie können die Serverliste für einen Bereich nicht ändern. Wenn Sie die Serve
 
 Verwenden Sie die folgende Syntax, um den Datenbankfilter für einen Bereich zu ändern.
 
-    Set-ManagementScope <scope name> -DatabaseRestrictionFilter { <new database filter> }
+```powershell
+Set-ManagementScope <scope name> -DatabaseRestrictionFilter { <new database filter> }
+```
 
 In diesem Beispiel wird der Datenbankfilter so geändert, dass alle Datenbankobjekte ermittelt werden, bei denen die Eigenschaft **Name** die Zeichenfolge "Executive" enthält.
 
-    Set-ManagementScope "Database Executive Scope" -DatabaseRestrictionFilter { Name -Like "*Executive*" }
+  ```powershell
+  Set-ManagementScope "Database Executive Scope" -DatabaseRestrictionFilter { Name -Like "*Executive*" }
+  ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-ManagementScope](https://technet.microsoft.com/de-de/library/dd297996\(v=exchg.150\)).
 
@@ -136,4 +156,3 @@ Sie können die Datenbankliste für einen Bereich nicht ändern. Wenn Sie die Da
 3.  Ändern Sie alle Verwaltungsrollenzuweisungen, die den alten Bereich verwenden, dahingehend, dass sie jetzt den neuen Bereich verwenden, indem Sie das unter dem Thema [Ändern einer Rollenzuweisung](change-a-role-assignment-exchange-2013-help.md) beschriebene Verfahren "Verwenden der Shell zum Ändern des Datenbankfilters oder listenbasierten Bereichs für eine Rollenzuweisung" ausführen.
 
 4.  Entfernen Sie den alten Bereich, indem Sie das unter dem Thema [Entfernen eines Bereichs Rolle](remove-a-role-scope-exchange-2013-help.md) beschriebene Verfahren ausführen.
-

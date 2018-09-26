@@ -175,7 +175,7 @@ Das folgende Beispiel zeigt einen typischen Überwachungsprotokolleintrag. Basie
   - Der Vorgang wurde erfolgreich ohne Fehler abgeschlossen.
 
 <!-- end list -->
-
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <SearchResults>
     
@@ -189,4 +189,4 @@ Das folgende Beispiel zeigt einen typischen Überwachungsprotokolleintrag. Basie
         </ModifiedProperties>
       </Event>
     </SearchResults>
-
+```

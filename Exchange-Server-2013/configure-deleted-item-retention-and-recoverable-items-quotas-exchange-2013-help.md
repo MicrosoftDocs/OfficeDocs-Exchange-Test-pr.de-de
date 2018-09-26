@@ -67,7 +67,9 @@ Weitere Informationen zur Aufbewahrung von gelöschten Elementen, zum Ordner **W
 
 In diesem Beispiel wird für das Postfach von April Stewart eine Aufbewahrungszeit von gelöschten Elementen von 30 Tagen konfiguriert.
 
-    Set-Mailbox -Identity - "April Stewart" -RetainDeletedItemsFor 30
+```powershell
+Set-Mailbox -Identity - "April Stewart" -RetainDeletedItemsFor 30
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)).
 
@@ -81,7 +83,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailb
 
 In diesem Beispiel wird für das Postfach von April Stewart ein Kontingent für wiederherstellbare Elemente von 15 GB konfiguriert. Zudem wird festgelegt, dass bei einer Größe von 12 GB eine Warnung zu diesem Kontingent für wiederherstellbare Elemente angezeigt wird.
 
+```powershell
     Set-Mailbox -Identity "April Stewart" -RecoverableItemsWarningQuota 12GB -RecoverableItemsQuota 15GB -UseDatabaseQuotaDefaults $false
+```
 
 
 > [!NOTE]
@@ -101,7 +105,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailb
 
 In diesem Beispiel wird eine Aufbewahrungszeit von gelöschten Elementen von 10 Tagen für die Postfachdatenbank "MDB2" konfiguriert.
 
-    Set-MailboxDatabase -Identity MDB2 -DeletedItemRetention 10
+```powershell
+Set-MailboxDatabase -Identity MDB2 -DeletedItemRetention 10
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb123971\(v=exchg.150\)).
 
@@ -115,7 +121,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-Mailb
 
 In diesem Beispiel wird für die Postfachdatenbank "MDB2" ein Kontingent für wiederherstellbare Elemente von 20 GB konfiguriert. Zudem wird festgelegt, dass bei einer Größe von 15 GB eine Warnung zu diesem Kontingent für wiederherstellbare Elemente angezeigt wird.
 
-    Set-MailboxDatabase -Identity MDB2 -RecoverableItemsWarningQuota 15GB -RecoverableItemsQuota 20GB
+```powershell
+Set-MailboxDatabase -Identity MDB2 -RecoverableItemsWarningQuota 15GB -RecoverableItemsQuota 20GB
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb123971\(v=exchg.150\)).
 

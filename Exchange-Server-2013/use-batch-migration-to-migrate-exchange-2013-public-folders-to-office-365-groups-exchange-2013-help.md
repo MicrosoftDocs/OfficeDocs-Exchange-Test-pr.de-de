@@ -93,7 +93,9 @@ Die folgenden Schritte sind erforderlich, um Ihre Organisation für die Migratio
 
 4.  Die Migrationsfunktion **PAW** muss für Ihren Office 365-Mandanten aktiviert sein. Führen Sie den folgenden Befehl in Exchange Online PowerShell aus, um dies zu überprüfen:
     
-        Get-MigrationConfig
+    ```powershell
+    Get-MigrationConfig
+    ```
     
     Wenn in der Ausgabe unter **Features** der Eintrag **PAW** aufgeführt ist, ist die Funktion aktiviert und Sie können mit *Schritt 3: Generieren der CSV-Datei* fortfahren.
     
@@ -109,13 +111,17 @@ Die CSV-Datei muss die folgenden Spalten enthalten:
 
   - **TargetGroupMailbox**. Die SMTP-Adresse der Zielgruppe in Office 365. Sie können den folgenden Befehl ausführen, um die primäre SMTP-Adresse anzuzeigen.
     
-        Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+    ```powershell
+    Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+    ```
 
 CSV-Beispieldatei:
 
+```powershell
     "FolderPath","TargetGroupMailbox"
     "\Sales","sales@contoso.onmicrosoft.com"
     "\Sales\EMEA","emeasales@contoso.onmicrosoft.com"
+```
 
 Beachten Sie, dass ein E-Mail-Ordner und ein Kalenderordner in einer einzigen Gruppe in Office 365 zusammengeführt werden können. Alle anderen Szenarien, bei denen mehrere öffentliche Ordnern in einer einzigen Gruppe zusammenführt werden, werden in einem einzigen Migrationsbatch nicht unterstützt. Wenn Sie mehrere öffentliche Ordner der gleichen Office 365-Gruppe zuordnen müssen, können Sie zu diesem Zweck unterschiedliche Migrationsbatches fortlaufend und nacheinander ausführen. Jedes Migrationsbatch kann bis zu 500 Einträge umfassen.
 
@@ -131,17 +137,23 @@ In diesem Schritt sammeln Sie Informationen aus Ihrer Exchange-Umgebung. Dann ve
     
     1.  Übergeben Sie die Anmeldeinformationen eines Benutzers, der in der Exchange 2013-Umgebung über Administratorberechtigungen verfügt, an die Variable `$Source_Credential`. Wenn Sie die Migrationsanforderung schließlich in Exchange Online ausführen, verwenden Sie diese Anmeldeinformationen, um über Outlook Anywhere auf Ihre Exchange 2013-Server zuzugreifen und die Inhalte nach Exchange Online zu kopieren.
         
+        ```powershell
             $Source_Credential = Get-Credential
             <source_domain>\<PublicFolder_Administrator_Account>
-    
+        ```
+        
     2.  Übergeben Sie die Informationen zum MRS-Proxyserver in der Exchange 2013-Umgebung, die Sie in Schritt 1 oben ermittelt haben, an die Variable `$Source_RemoteServer`.
         
-            $Source_RemoteServer = "<MRS proxy endpoint>"
+        ```powershell
+        $Source_RemoteServer = "<MRS proxy endpoint>"
+        ```
 
 3.  Führen Sie in Exchange Online PowerShell den folgenden Befehl aus, um einen Migrationsendpunkt zu erstellen:
     
+    ```powershell
         $PfEndpoint = New-MigrationEndpoint -PublicFolderToUnifiedGroup -Name PFToGroupEndpoint -RemoteServer $Source_RemoteServer -Credentials $Source_Credential
-
+    ```
+    
 4.  Führen Sie den folgenden Befehl aus, um einen neuen öffentlichen Ordner im Office- 365-Gruppen-Migrationsbatch zu erstellen. Dabei gilt Folgendes:
     
       - **CSVData** ist die CSV-Datei, die Sie unter *Schritt 3: Generieren der CSV-Datei* generiert haben. Achten Sie darauf, den vollständigen Pfad anzugeben. Falls die Zuordnungsdatei aus irgendeinem Grund verschoben wurde, müssen Sie unbedingt den neuen Speicherort angeben.
@@ -154,11 +166,15 @@ In diesem Schritt sammeln Sie Informationen aus Ihrer Exchange-Umgebung. Dann ve
     
     <!-- end list -->
     
+    ```powershell
         New-MigrationBatch -Name PublicFolderToGroupMigration -CSVData (Get-Content <path to .csv file> -Encoding Byte) -PublicFolderToUnifiedGroup -SourceEndpoint $PfEndpoint.Identity [-NotificationEmails <email addresses for migration notifications>] [-AutoStart]
-
+    ```
+    
 5.  Starten Sie die Migration mit dem folgenden Befehl Exchange Online PowerShell. Beachten Sie, dass dieser Schritt nur erforderlich ist, wenn der `-AutoStart`-Parameter beim Erstellen des Batches in Schritt 4 nicht verwendet wird.
     
-        Start-MigrationBatch PublicFolderToGroupMigration
+    ```powershell
+    Start-MigrationBatch PublicFolderToGroupMigration
+    ```
 
 Batchmigrationen müssen zwar mit `New-MigrationBatch` Cmdlet in Exchange Online PowerShell erstellt werden, der Fortschritt der Migration wird jedoch in Exchange-Verwaltungskonsole angezeigt und verwaltet. Sie können den Fortschritt der Migration auch anzeigen, indem Sie die Cmdlets [Get-MigrationBatch](https://technet.microsoft.com/de-de/library/jj219164\(v=exchg.150\)) und [Get-MigrationUser](https://technet.microsoft.com/de-de/library/jj218702\(v=exchg.150\)) ausführen. Das Cmdlet `New-MigrationBatch` initiiert eines Migrationsbenutzer für jedes Postfach der Office 365-Gruppe, und Sie können den Status dieser Anfragen auf der Seite der Postfachmigration anzeigen.
 
@@ -188,7 +204,9 @@ Hinweise zum folgenden Befehl:
 
 <!-- end list -->
 
+```powershell
     .\AddMembersToGroups.ps1 -MappingCsv <path to .csv file> -BackupDir <path to backup directory> -ArePublicFoldersOnPremises $true -Credential (Get-Credential)
+```
 
 Sobald Benutzer zu einer Gruppe in Office 365 hinzugefügt wurden, können sie diese verwenden.
 
@@ -214,13 +232,17 @@ Hinweise zum folgenden Befehl:
 
 <!-- end list -->
 
+```powershell
     .\LockAndSavePublicFolderProperties.ps1 -MappingCsv <path to .csv file> -BackupDir <path to backup directory> -ArePublicFoldersOnPremises $true -Credential (Get-Credential)
+```
 
 ## Schritt 7: Fertigstellen des öffentlichen Ordners für die Migration in Office 365-Gruppen
 
 Nachdem Sie Ihre öffentliche Ordner mit einem Schreibschutz versehen haben, müssen Sie die Migration erneut ausführen. Dies ist für eine endgültige inkrementelle Kopie der Daten erforderlich. Bevor Sie die Migration erneut ausführen können, müssen Sie den vorhandenen Batch entfernen, indem Sie den folgenden Befehl ausführen:
 
-    Remove-MigrationBatch <name of migration batch>
+```powershell
+Remove-MigrationBatch <name of migration batch>
+```
 
 Erstellen Sie anschließen einen neuen Batch mit der gleichen CSV-Datei, indem Sie den folgenden Befehl ausführen. Dabei gilt Folgendes:
 
@@ -232,11 +254,15 @@ Erstellen Sie anschließen einen neuen Batch mit der gleichen CSV-Datei, indem S
 
 <!-- end list -->
 
+```powershell
     New-MigrationBatch -Name PublicFolderToGroupMigration -CSVData (Get-Content <path to .csv file> -Encoding Byte) -PublicFolderToUnifiedGroup -SourceEndpoint $PfEndpoint.Identity [-NotificationEmails <email addresses for migration notifications>] [-AutoStart]
+```
 
 Nachdem der neue Batch erstellt wurde, starten Sie die Migration mit dem folgenden Befehl Exchange Online PowerShell. Beachten Sie, dass dieser Schritt nur notwendig ist, wenn der `-AutoStart`-Parameter nicht im vorstehenden Befehl verwendet wurde.
 
-    Start-MigrationBatch PublicFolderToGroupMigration
+```powershell
+Start-MigrationBatch PublicFolderToGroupMigration
+```
 
 Nachdem Sie diesen Schritt abgeschlossen haben (der Batchstatus lautet **Abgeschlossen**), stellen Sie sicher, dass alle Daten in die Office 365-Gruppen kopiert wurden. Wenn Sie mit der Gruppen-Erfahrung zufrieden sind, können Sie nun beginnen, die migrierten öffentlichen Ordner aus Ihrer Exchange Server 2013-Umgebung zu löschen.
 
@@ -416,7 +442,9 @@ Führen Sie auf dem Exchange 2013-Server den folgenden Befehl aus. Dabei gilt Fo
 
 <!-- end list -->
 
+```powershell
     .\UnlockAndRestorePublicFolderProperties.ps1 -BackupDir <path to backup directory> -ArePublicFoldersOnPremises $true -Credential (Get-Credential)
+```
 
 Beachten Sie, dass alle zu Gruppen in Office 365 hinzugefügte Elemente oder in den Gruppen durchgeführte Bearbeitungsvorgänge nicht zurück in die öffentlichen Ordner kopiert werden. Deshalb gehen Daten verloren, unter der Voraussetzung, dass neue Daten hinzugefügt wurden, als der öffentliche Ordner eine Gruppe war.
 

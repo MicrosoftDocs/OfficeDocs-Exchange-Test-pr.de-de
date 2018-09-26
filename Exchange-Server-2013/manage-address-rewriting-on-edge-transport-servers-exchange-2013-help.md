@@ -59,13 +59,17 @@ Um die Adressumschreibung komplett zu aktivieren oder zu deaktivieren, müssen S
 
 Führen Sie die folgenden Befehle aus, um die Adressumschreibung zu deaktivieren:
 
+```powershell
     Disable-TransportAgent "Address Rewriting Inbound Agent"
     Disable-TransportAgent "Address Rewriting Outbound Agent"
+```
 
 Führen Sie die folgenden Befehle aus, um die Adressumschreibung zu aktivieren:
 
+```powershell
     Enable-TransportAgent "Address Rewriting Inbound Agent"
     Enable-TransportAgent "Address Rewriting Outbound Agent"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -73,7 +77,9 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Adressumschreibung erfolgrei
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-TransportAgent
+    ```powershell
+    Get-TransportAgent
+    ```
 
 2.  Überprüfen Sie, ob die Werte der Eigenschaft **Enabled** für den eingehenden Adressumschreibungs-Agent und den ausgehenden Adressumschreibungs-Agent den von Ihnen konfigurierten Werten entsprechen.
 
@@ -81,15 +87,21 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Adressumschreibung erfolgrei
 
 Führen Sie zum Anzeigen einer Zusammenfassungsliste aller Adressumschreibungseinträge den folgenden Befehl aus:
 
-    Get-AddressRewriteEntry
+```powershell
+Get-AddressRewriteEntry
+```
 
 Verwenden Sie die folgende Syntax, um die Details eines Adressumschreibungseintrags anzuzeigen:
 
-    Get-AddressRewriteEntry <AddressRewriteEntryIdentity> | Format-List
+```powershell
+Get-AddressRewriteEntry <AddressRewriteEntryIdentity> | Format-List
+```
 
 Im folgenden Beispiel werden die Details des Adressumschreibungseintrags "Rewrite Contoso.com to Northwindtraders.com" angezeigt:
 
-    Get-AddressRewriteEntry "Rewrite Contoso.com to Northwindtraders.com" | Format-List
+```powershell
+Get-AddressRewriteEntry "Rewrite Contoso.com to Northwindtraders.com" | Format-List
+```
 
 ## Verwenden der Shell zum Erstellen von Adressumschreibungseinträgen
 
@@ -97,39 +109,55 @@ Im folgenden Beispiel werden die Details des Adressumschreibungseintrags "Rewrit
 
 Verwenden Sie folgende Syntax, um die E-Mail-Adresse eines einzelnen Empfängers umzuschreiben:
 
+```powershell
     New-AddressRewriteEntry -Name "<Descriptive Name>" -InternalAddress <internal email address> -ExternalAddress <external email address> [-OutboundOnly <$true | $false>]
+```
 
 Im folgenden Beispiel wird die E-Mail-Adresse aller Nachrichten umgeschrieben, die in der Exchange-Organisation für den Empfänger "joe@contoso.com" ein- und ausgehen. Ausgehende Nachrichten werden so umgeschrieben, dass sie scheinbar von "support@nortwindtraders.com" kommen. Eingehende Nachrichten, die an "support@northwindtraders.com" gesendet wurden, werden zur Lieferung an den Empfänger in "joe@contoso.com" umgeschrieben (der Parameter *OutboundOnly* ist standardmäßig `$false`).
 
+```powershell
     New-AddressRewriteEntry -Name "joe@contoso.com to support@northwindtraders.com" -InternalAddress joe@contoso.com -ExternalAddress support@northwindtraders.com
+```
 
 ## Umschreiben von E-Mail-Adressen für Empfänger in einer bestimmten Domäne oder Unterdomäne
 
 Verwenden Sie folgende Syntax, um die E-Mail-Adressen für Empfänger in einer bestimmten Domäne oder Unterdomäne umzuschreiben:
 
+```powershell
     New-AddressRewriteEntry -Name "<Descriptive Name>" -InternalAddress <domain or subdomain> -ExternalAddress <domain> [-OutboundOnly <$true | $false>]
+```
 
 Im folgenden Beispiel werden die E-Mail-Adressen aller Nachrichten umgeschrieben, die in der Exchange-Organisation für Empfänger in der Domäne "contoso.com" ein- und ausgehen. Ausgehende Nachrichten werden so umgeschrieben, dass sie scheinbar von der Domäne "fabrikam.com" kommen. Eingehende Nachrichten, die an E-Mail-Adressen unter "fabrikam.com" gesendet wurden, werden zur Lieferung an die Empfänger in "contoso.com" umgeschrieben (der Parameter *OutboundOnly* ist standardmäßig `$false`).
 
+```powershell
     New-AddressRewriteEntry -Name "Contoso to Fabrikam" -InternalAddress contoso.com -ExternalAddress fabrikam.com
+```
 
 Im folgenden Beispiel werden die E-Mail-Adressen aller ausgehenden Nachrichten in der Exchange-Organisation umgeschrieben, die von Empfängern in der Unterdomäne "sales.contoso.com" gesendet wurden. Ausgehende Nachrichten werden so umgeschrieben, dass sie scheinbar von der Domäne "contoso.com" kommen. Eingehende Nachrichten an die E-Mail-Adressen unter "contoso.com" werden nicht umgeschrieben.
 
+```powershell
     New-AddressRewriteEntry -Name "sales.contoso.com to contoso.com" -InternalAddress sales.contoso.com -ExternalAddress contoso.com -OutboundOnly $true
+```
 
 ## Umschreiben von E-Mail-Adressen für Empfänger in mehreren Unterdomänen
 
 Verwenden Sie folgende Syntax, um die E-Mail-Adressen für Empfänger in einer Domäne und allen ihren Unterdomänen umzuschreiben:
 
+```powershell
     New-AddressRewriteEntry -Name "<Descriptive Name>" -InternalAddress *.<domain> -ExternalAddress <domain> -OutboundOnly $true [-ExceptionList <domain1,domain2...>]
+```
 
 Im folgenden Beispiel werden die E-Mail-Adressen aller ausgehenden Nachrichten in der Exchange-Organisation umgeschrieben, die von Empfängern in der Domäne "contoso.com" und allen ihren Unterdomänen gesendet wurden. Ausgehende Nachrichten werden so umgeschrieben, dass sie scheinbar von der Domäne "contoso.com" kommen. Eingehende Nachrichten, die an Empfänger unter "contoso.com" gesendet wurden, können nicht umgeschrieben werden, da ein Platzhalterzeichen im Parameter *InternalAddress* verwendet wurde.
 
+```powershell
     New-AddressRewriteEntry -Name "Rewrite all contoso.com subdomains" -InternalAddress *.contoso.com -ExternalAddress contoso.com -OutboundOnly $true
+```
 
 Das folgende Beispiel ist ähnlich wie das vorherige, nur dass Nachrichten, die von Empfängern in den Unterdomänen "legal.contoso.com" und "corp.contoso.com" gesendet wurden, nicht umgeschrieben werden:
 
+```powershell
     New-AddressRewriteEntry -Name "Rewrite all contoso.com subdomains except legal.contoso.com and corp.contoso.com" -InternalAddress *.contoso.com -ExternalAddress contoso.com -OutboundOnly $true -ExceptionList legal.contoso.com,corp.contoso.com
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -149,7 +177,9 @@ Die verfügbaren Konfigurationsoptionen zum Ändern eines vorhandenen Adressumsc
 
 Verwenden Sie folgende Syntax, um einen Adressumschreibungseintrag zu ändern, der die E-Mail-Adresse eines einzelnen Empfängers umschreibt:
 
+```powershell
     Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress <internal email address> -ExternalAddress <external email address> -OutboundOnly <$true | $false>
+```
 
 Im folgenden Beispiel werden verschiedene Eigenschaften des Adressumschreibungseintrags "joe@contoso.com to support@nortwindtraders.com" für einen einzelnen Empfänger geändert:
 
@@ -161,39 +191,55 @@ Im folgenden Beispiel werden verschiedene Eigenschaften des Adressumschreibungse
 
 <!-- end list -->
 
+```powershell
     Set-AddressRewriteEntry "joe@contoso.com to support@nortwindtraders.com" -Name "joe@contoso.com to support@northwindtraders.net" -ExternalAddress support@northwindtraders.net -OutboundOnly $true
+```
 
 ## Ändern von Adressumschreibungseinträgen für Empfänger in einzelnen Domänen oder Unterdomänen
 
 Verwenden Sie folgende Syntax, um einen Adressumschreibungseintrag zu ändern, der die E-Mail-Adressen von Empfängern in einer einzelnen Domäne oder Unterdomäne umschreibt:
 
+```powershell
     Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress <domain or subdomain> -ExternalAddress <domain> -OutboundOnly <$true | $false>
+```
 
 Im folgenden Beispiel wird der interne Adresswert des Adressumschreibungseintrags "Northwind Traders to Contoso" für eine einzelne Domäne geändert.
 
-    Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```powershell
+Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```
 
 ## Ändern von Adressumschreibungseinträgen für Empfänger in mehreren Unterdomänen
 
 Verwenden Sie folgende Syntax, um einen Adressumschreibungseintrag zu ändern, der die E-Mail-Adressen von Empfängern in einer Domäne und allen ihren Unterdomänen umschreibt:
 
+```powershell
     Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress *.<domain> -ExternalAddress <domain> -ExceptionList <list of domains>
+```
 
 Verwenden Sie folgende Syntax, um die vorhandenen Ausnahmelistenwerte eines Adressumschreibungseintrags für mehrere Unterdomänen zu ersetzen:
 
+```powershell
     Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -ExceptionList <domain1,domain2,...>
+```
 
 Im folgenden Beispiel wird die vorhandene Ausnahmeliste des Adressumschreibungseintrags "Contoso to Northwind Traders" für mehrere Unterdomänen durch die Werte "marketing.contoso.com" und "legal.contoso.com" ersetzt:
 
+```powershell
     Set-AddressRewriteEntry "Contoso to Northwind Traders" -ExceptionList sales.contoso.com,legal.contoso.com
+```
 
 Verwenden Sie folgende Syntax, um ausgewählte Ausnahmelistenwerte eines Adressumschreibungseintrags für mehrere Unterdomänen hinzuzufügen oder zu entfernen, ohne die vorhandenen Ausnahmelistenwerte zu ändern:
 
+```powershell
     Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -ExceptionList @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```
 
 Im folgenden Beispiel wird "finanace.contoso.com" in der Ausnahmeliste des Adressumschreibungseintrags "Contoso to Northwind Traders" für mehrere Unterdomänen hinzugefügt und "marketing.contoso.com" daraus entfernt:
 
+```powershell
     Set-AddressRewriteEntry "Contoso to Northwind Traders" -ExceptionList @{Add="finanace.contoso.com"; Remove="marketing.contoso.com"}
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -209,27 +255,39 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob der Adressumschreibungseintrag e
 
 Verwenden Sie die folgende Syntax, um einen einzelnen Adressumschreibungseintrag zu entfernen:
 
-    Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```powershell
+Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```
 
 Im folgenden Beispiel wird der Adressumschreibungseintrag "Contoso.com to Northwindtraders.com" entfernt:
 
-    Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```powershell
+Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```
 
 Verwenden Sie die folgende Syntax, um mehrere Adressumschreibungseinträge zu entfernen:
 
+```powershell
     Get-AddressRewriteEntry [<search criteria>] | Remove-AddressRewriteEntry [-WhatIf]
+```
 
 Das folgende Beispiel entfernt alle Adressumschreibungseinträge:
 
-    Get-AddressRewriteEntry | Remove-AddressRewriteEntry
+```powershell
+Get-AddressRewriteEntry | Remove-AddressRewriteEntry
+```
 
 Im folgenden Beispiel wird das Entfernen von Adressumschreibungseinträgen simuliert, die den Text "to contoso.com" im Namen enthalten. Mit der Option *WhatIf* können Sie das Ergebnis als Vorschau anzeigen, ohne die Änderungen tatsächlich anzuwenden.
 
+```powershell
     Get-AddressRewriteEntry "*to contoso.com" | Remove-AddressRewriteEntry -WhatIf
+```
 
 Wenn Sie mit dem Ergebnis zufrieden sind, führen Sie den Befehl erneut ohne die Option *WhatIf* aus, um die Adressumschreibungseinträge zu entfernen.
 
+```powershell
     Get-AddressRewriteEntry "*to contoso.com" | Remove-AddressRewriteEntry
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

@@ -45,7 +45,9 @@ In Routingtabellenprotokollen wird regelmäßig eine Momentaufnahme der Routingt
 
 Führen Sie den folgenden Befehl aus:
 
+```powershell
     Set-TransportService <ServerIdentity> -RoutingTableLogMaxAge <dd.hh:mm:ss> -RoutingTableLogMaxDirectorySize <Size>  -RoutingTableLogPath <LocalFilePath>
+```
 
 In diesem Beispiel werden folgende Einstellungen für Routingtabellenprotokolle auf dem Postfachserver "Mailbox01" festgelegt:
 
@@ -57,7 +59,9 @@ In diesem Beispiel werden folgende Einstellungen für Routingtabellenprotokolle 
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Mailbox01 -RoutingTableLogPath "D:\Routing Table Log" -RoutingTableLogMaxDirectorySize 70MB -RoutingTableLogMaxAge 45.00:00:00
+```
 
 
 > [!NOTE]
@@ -71,30 +75,38 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Routingtabellenproto
 
 1.  Führen Sie in der Shell den folgenden Befehl aus:
     
+    ```powershell
         Get-TransportService <ServerIdentity> | Format-List RoutingTableLog*
-
+    ```
+    
 2.  Überprüfen Sie, ob die angezeigten Werte den Werten entsprechen, die Sie konfiguriert haben.
 
 ## Konfigurieren des Zeitintervalls für die automatische Neuberechnung der Routingtabelle in der Datei "EdgeTransport.exe.config" mithilfe der Eingabeaufforderung
 
 1.  Führen Sie an einer Eingabeaufforderung folgenden Befehl aus, um die Anwendungskonfigurationsdatei "EdgeTransport.exe.config" im Editor zu öffnen:
     
+    ```powershell
         Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
-
+    ```powershel
+    
 2.  Ändern Sie im Abschnitt `<appSettings>` folgenden Schlüssel.
     
-        <add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+    ```command line
+    <add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+    ```
     
     Verwenden Sie z. B. folgenden Wert, um das Intervall für die automatische Neuberechnung der Routingtabelle in 10 Stunden zu ändern:
     
-        <add key="RoutingConfigReloadInterval" value="10:00:00" />
+    ```command line
+    <add key="RoutingConfigReloadInterval" value="10:00:00" />
+    ```
 
 3.  Speichern und schließen Sie die Datei "EdgeTransport.exe.config" nach Abschluss des Vorgangs.
 
 4.  Starten Sie den Microsoft Exchange-Transportdienst neu, indem Sie folgenden Befehl ausführen:
-    
+    ```powershell
         net stop MSExchangeTransport && net start MSExchangeTransport
-
+    ```
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Wenn Sie überprüfen möchten, ob das Intervall für die automatische Neuberechnung der Routingtabelle erfolgreich konfiguriert wurde, vergewissern Sie sich, dass das Routingtabellenprotokoll im angegebenen Zeitintervall aktualisiert wird.

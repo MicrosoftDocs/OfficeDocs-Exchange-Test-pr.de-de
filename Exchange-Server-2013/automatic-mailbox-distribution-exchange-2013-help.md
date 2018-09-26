@@ -59,7 +59,9 @@ Der *IsExcludedFromProvisioning*-Parameter verfügt über zwei gültige Werte, `
 
 Verwenden Sie den folgenden Befehl, um eine Postfachdatenbank aus der automatischen Verteilung auszuschließen:
 
-    Set-MailboxDatabase <database name> -IsExcludedFromProvisioning $True
+```powershell
+Set-MailboxDatabase <database name> -IsExcludedFromProvisioning $True
+```
 
 Wenn eine Postfachdatenbank aus der automatischen Verteilung ausgeschlossen ist, muss der Parameter *Database* mit den Cmdlets **New-Mailbox** und **Enable-Mailbox** oder der Parameter *TargetDatabase* mit dem Cmdlet **New-MoveRequest** verwendet werden, um eine Postfach in der Datenbank zu erstellen bzw. in diese zu verschieben.
 

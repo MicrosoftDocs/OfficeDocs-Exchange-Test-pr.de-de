@@ -29,7 +29,9 @@ Sie können Antispamstempel mithilfe von Microsoft Outlook anzeigen. Weitere Inf
 
 Der Antispambericht ist ein Zusammenfassungsbericht der Ergebnisse der Antispamfilter, die auf eine E-Mail angewendet wurden. Der Inhaltsfilter-Agent wendet diesen Stempel auf den Nachrichtenumschlag in Form einer X-Header wie folgt an.
 
+```powershell
     X-MS-Exchange-Organization-Antispam-Report: DV:<DATVersion>;CW:CustomList;PCL:PhishingVerdict <verdict>;P100:PhishingBlock;PP:Presolve;SID:SenderIDStatus <status>;TIME:<SendReceiveDelta>;MIME:MimeCompliance 
+```
 
 In der folgenden Tabelle sind die Filterinformationen beschrieben, die in einem Antispambericht angezeigt werden können.
 
@@ -66,7 +68,12 @@ In der folgenden Tabelle sind die Filterinformationen beschrieben, die in einem 
 <li><p><strong>PermError</strong>   Der DNS-Datensatz ist ungültig, z. B. ein Fehler im Datensatzformat.</p></li>
 </ul>
 <p>Der Sender ID-Stempel wird wie folgt als X-Header im Nachrichtenumschlag angezeigt:</p>
-<pre><code>X-MS-Exchange-Organization-SenderIdResult:&lt;status&gt;</code></pre>
+
+```powershell
+X-MS-Exchange-Organization-SenderIdResult:<status>
+```
+
+
 <p>Weitere Informationen zur Sender ID finden Sie unter <a href="sender-id-exchange-2013-help.md">Absender-ID</a>.</p></td>
 </tr>
 <tr class="even">
@@ -91,13 +98,23 @@ In der folgenden Tabelle sind die Filterinformationen beschrieben, die in einem 
 <p>Der PCL-Wert liegt zwischen 1 und 8. Eine PCL-Bewertung von 1 bis 3 gibt den Status <code>Neutral</code> zurück. Das bedeutet, der Inhalt der Nachricht wird wahrscheinlich nicht zum Phishing genutzt. Eine PCL-Bewertung zwischen 4 und 8 gibt den Status <code>Suspicious</code> zurück. Das bedeutet, der Inhalt der Nachricht wird wahrscheinlich zum Phishing genutzt.</p>
 <p>Anhand dieser Werte wird ermittelt, welche Aktion Outlook für die Nachrichten ausführt. Outlook verwendet den PCL-Stempel, um den Inhalt von verdächtigen Nachrichten zu blockieren.</p>
 <p>Der PCL-Stempel wird wie folgt als X-Header im Nachrichtenumschlag angezeigt:</p>
-<pre><code>X-MS-Exchange-Organization-PCL:&lt;status&gt;</code></pre></td>
+
+```powershell
+X-MS-Exchange-Organization-PCL:<status>
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>SCL (Spam Confidence Level)</p></td>
 <td><p>Der SCL-Stempel der Nachricht zeigt die Bewertung der Nachricht auf Grundlage ihres Inhalts an. Der Inhaltsfilter-Agent verwendet Microsoft SmartScreen-Technologie für die Bewertung des Inhalts einer Nachricht sowie zum Zuweisen einer SCL-Bewertung zu jeder Nachricht. Der SCL-Wert liegt zwischen 0 und 9, wobei 0 mit geringerer Wahrscheinlichkeit und 9 mit höherer Wahrscheinlichkeit als Spam angesehen wird. Die von Exchange und Outlook eingeleiteten Maßnahmen hängen von Ihren Einstellungen für den SCL-Schwellenwert ab.</p>
 <p>Der SCL-Stempel wird wie folgt als X-Header im Nachrichtenumschlag angezeigt:</p>
-<pre><code>X-MS-Exchange-Organization-SCL:&lt;status&gt;</code></pre>
+
+```powershell
+X-MS-Exchange-Organization-SCL:<status>
+```
+
+
 <p>Weitere Informationen zu SCL-Schwellenwerten und Maßnahmen finden Sie unter <a href="spam-confidence-level-threshold-exchange-2013-help.md">SCL-Schwellenwert</a>.</p></td>
 </tr>
 <tr class="odd">

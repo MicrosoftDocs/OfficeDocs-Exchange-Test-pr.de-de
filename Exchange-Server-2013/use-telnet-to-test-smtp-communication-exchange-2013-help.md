@@ -70,10 +70,12 @@ Um mithilfe von Telnet an Port 25 eine Verbindung mit einem SMTP-Zielserver her
     
     Die Ausgabe des Befehls ähnelt der folgenden Ausgabe:
     
+    ```powershell
         fabrikam.com mx preference=10, mail exchanger = mail1.fabrikam.com
         fabrikam.com mx preference=20, mail exchanger = mail2.fabrikam.com
         mail1.fabrikam.com internet address = 192.168.1.10
         mail2 fabrikam.com internet address = 192.168.1.20
+    ```
     
     Sie können jeden beliebigen Hostnamen oder jede beliebige IP-Adresse verwenden, der bzw. die den MX-Datensätzen als SMTP-Zielserver zugeordnet ist. Ein niedrigerer Präferenzwert gibt einen bevorzugten SMTP-Server an. Sie können mehrere MX-Datensätze und unterschiedliche Präferenzwerte für Lastenausgleich und Fehlertoleranz verwenden.
 
@@ -107,7 +109,12 @@ In diesem Beispiel werden folgende Werte verwendet:
 > <LI>
 > <P>Bei den Befehlen im Telnet-Client wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die SMTP-Befehlsverben wurden aus Gründen der Klarheit als Großbuchstaben formatiert.</P>
 > <LI>
-> <P>Sie können die Rücktaste nicht verwenden, nachdem Sie in der Telnet-Sitzung eine Verbindung mit dem SMTP-Zielserver hergestellt haben. Wenn Ihnen beim Eingeben eines SMTP-Befehls ein Fehler unterläuft, müssen Sie die EINGABETASTE drücken und den Befehl dann erneut eingeben. SMTP-Befehle, die nicht erkannt werden, oder Syntaxfehler führen zu eine Fehlermeldung, die der folgenden Fehlermeldung ähnelt:</P><PRE><CODE>500 5.3.3 Unrecognized command</CODE></PRE></LI></UL>
+> <P>Sie können die Rücktaste nicht verwenden, nachdem Sie in der Telnet-Sitzung eine Verbindung mit dem SMTP-Zielserver hergestellt haben. Wenn Ihnen beim Eingeben eines SMTP-Befehls ein Fehler unterläuft, müssen Sie die EINGABETASTE drücken und den Befehl dann erneut eingeben. SMTP-Befehle, die nicht erkannt werden, oder Syntaxfehler führen zu eine Fehlermeldung, die der folgenden Fehlermeldung ähnelt:</P>
+> 
+> ```powershell
+> 500 5.3.3 Unrecognized command
+> ```
+> </LI></UL>
 
 
 
@@ -127,7 +134,9 @@ In diesem Beispiel werden folgende Werte verwendet:
 
 8.  Geben Sie **DATA** ein, und drücken Sie die EINGABETASTE. Sie erhalten die folgende oder eine ähnliche Antwort:
     
-        354 Start mail input; end with <CLRF>.<CLRF>
+    ```powershell
+    354 Start mail input; end with <CLRF>.<CLRF>
+    ```
 
 9.  Geben Sie **Betreff: Test von Contoso** ein, und drücken Sie die EINGABETASTE.
 
@@ -137,11 +146,15 @@ In diesem Beispiel werden folgende Werte verwendet:
 
 12. Drücken Sie die EINGABETASTE, geben Sie einen Punkt (**.**) ein, und drücken Sie dann die EINGABETASTE. Sie erhalten die folgende oder eine ähnliche Antwort:
     
-        250 2.6.0 <GUID> Queued mail for delivery
+    ```powershell
+    250 2.6.0 <GUID> Queued mail for delivery
+    ```
 
 13. Um die Verbindung mit dem SMTP-Zielserver zu trennen, geben Sie **QUIT** ein, und drücken Sie dann die EINGABETASTE. Sie erhalten die folgende oder eine ähnliche Antwort:
     
-        221 2.0.0 Service closing transmission channel
+    ```powershell
+    221 2.0.0 Service closing transmission channel
+    ```
 
 14. Um Ihre Telnet-Sitzung zu schließen, geben Sie **quit** ein und drücken dann die EINGABETASTE.
 

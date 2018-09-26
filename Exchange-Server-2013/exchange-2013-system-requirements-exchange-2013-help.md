@@ -283,9 +283,13 @@ In der folgenden Tabelle sind die unterstützten Betriebssysteme für Exchange 2
 > <LI>
 > <P><STRONG>Windows Server 2008 R2</STRONG>&nbsp;&nbsp;&nbsp;Installieren Sie Windows Server neu, und wählen Sie die Option <STRONG>Vollständige Installation</STRONG> aus.</P>
 > <LI>
-> <P><STRONG>Windows Server 2012 R2</STRONG> oder <STRONG>Windows Server 2012</STRONG>&nbsp;&nbsp;&nbsp;Wandeln Sie Ihren im Windows Server Core-Modus ausgeführten Server mithilfe des folgenden Befehls in eine vollständige Installation um.</P><PRE><CODE>Install-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart</CODE></PRE></LI></UL>
-
-
+> <P><STRONG>Windows Server 2012 R2</STRONG> oder <STRONG>Windows Server 2012</STRONG>&nbsp;&nbsp;&nbsp;Wandeln Sie Ihren im Windows Server Core-Modus ausgeführten Server mithilfe des folgenden Befehls in eine vollständige Installation um.</P>
+>
+> ```powershell
+> Install-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart
+> ```
+> </LI>
+> </UL>
 
 **Unterstützte Betriebssysteme für Exchange 2013**
 

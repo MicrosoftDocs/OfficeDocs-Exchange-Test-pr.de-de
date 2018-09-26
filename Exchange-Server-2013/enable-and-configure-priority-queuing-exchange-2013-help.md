@@ -34,7 +34,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-12-16_
   - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> oder <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 
@@ -43,25 +43,31 @@ _**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 1.  Führen Sie an einer Eingabeaufforderung folgenden Befehl aus, um die Anwendungskonfigurationsdatei "EdgeTransport.exe.config" im Editor zu öffnen:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Suchen Sie im Abschnitt `<appSettings>` die folgenden Schlüssel.
     
-        <add key="PriorityQueuingEnabled" value="false" />
-        <add key="MaxPerDomainHighPriorityConnections" value="3" />
-        <add key="MaxPerDomainNormalPriorityConnections" value="15" />
-        <add key="MaxPerDomainLowPriorityConnections" value="2" />
-        <add key="HighPriorityMessageExpirationTimeout" value="8:00:00" />
-        <add key="NormalPriorityMessageExpirationTimeout" value="2.00:00:00" />
-        <add key="LowPriorityMessageExpirationTimeout" value="2.00:00:00" />
-        <add key="HighPriorityDelayNotificationTimeout" value="00:30:00" />
-        <add key="NormalPriorityDelayNotificationTimeout" value="4:00:00" />
-        <add key="LowPriorityDelayNotificationTimeout" value="8:00:00" />
-        <add key="MaxHighPriorityMessageSize" value="250KB" />
+    ```command&nbsp;line
+    <add key="PriorityQueuingEnabled" value="false" />
+    <add key="MaxPerDomainHighPriorityConnections" value="3" />
+    <add key="MaxPerDomainNormalPriorityConnections" value="15" />
+    <add key="MaxPerDomainLowPriorityConnections" value="2" />
+    <add key="HighPriorityMessageExpirationTimeout" value="8:00:00" />
+    <add key="NormalPriorityMessageExpirationTimeout" value="2.00:00:00" />
+    <add key="LowPriorityMessageExpirationTimeout" value="2.00:00:00" />
+    <add key="HighPriorityDelayNotificationTimeout" value="00:30:00" />
+    <add key="NormalPriorityDelayNotificationTimeout" value="4:00:00" />
+    <add key="LowPriorityDelayNotificationTimeout" value="8:00:00" />
+    <add key="MaxHighPriorityMessageSize" value="250KB" />
+    ```
     
     Verwenden Sie zum Aktivieren der Prioritätswarteschlange im Transportdienst auf dem Postfachserver den folgenden Wert:
     
-        <add key="PriorityQueuingEnabled" value="true" />
+    ```command&nbsp;line
+    <add key="PriorityQueuingEnabled" value="true" />
+     ```
     
     Konfigurieren Sie die übrigen Werte für Prioritätswarteschlangen, oder behalten Sie die Standardwerte bei.
 
@@ -69,7 +75,9 @@ _**Letztes Änderungsdatum des Themas:** 2014-12-16_
 
 4.  Starten Sie den Microsoft Exchange-Transportdienst neu, indem Sie folgenden Befehl ausführen:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
+       ```powershell
+       net stop MSExchangeTransport && net start MSExchangeTransport
+       ```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -80,4 +88,3 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die Prioritätswarteschl
 2.  Erstellen Sie in Outlook eine Testnachricht mit hoher Priorität, deren Größe den im Schlüssel **MaxHighPriorityMessageSize** angegebenen Wert übersteigt, und prüfen Sie, ob die Nachricht mit normaler Priorität zugestellt wird.
 
 3.  Versuchen Sie zu ermitteln, ob Nachrichten höherer Priorität vor den Nachrichten niedrigerer Priorität an denselben Empfänger oder dasselbe Ziel zugestellt werden. Sie können versuchen, mehrere ähnliche Testnachrichten mit unterschiedlichen Prioritätswerten über mehrere Postfächer gleichzeitig an denselben Empfänger zu senden.
-

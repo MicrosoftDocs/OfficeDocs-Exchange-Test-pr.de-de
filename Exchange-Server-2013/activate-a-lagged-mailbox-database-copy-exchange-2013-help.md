@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Aktivieren einer verzögerten Kopie einer Postfachdatenbank: Exchange 2013 Help'
 TOCTitle: Aktivieren einer verzögerten Kopie einer Postfachdatenbank
 ms:assetid: 493d9c40-644d-49d6-9291-949acbcfdcb6
@@ -57,7 +57,9 @@ Benötigen Sie weitere Informationen zu verzögerten Postfachdatenbankkopien? We
 
 1.  In diesem Beispiel wird die Replikation für die verzögerte Kopie durch Verwendung des Cmdlets [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd351074\(v=exchg.150\)) aktiviert.
     
-        Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
+    ```powershell
+    Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
+    ```
 
 2.  Erstellen Sie optional (zur Beibehaltung einer verzögerten Kopie) eine Kopie der Datenbankkopie und ihrer Protokolldateien.
     
@@ -73,7 +75,9 @@ Benötigen Sie weitere Informationen zu verzögerten Postfachdatenbankkopien? We
 
 5.  In diesem Beispiel wird "Eseutil" zum Ausführen des Wiederherstellungsvorgangs verwendet.
     
-        Eseutil.exe /r eXX /a
+    ```powershell
+       Eseutil.exe /r eXX /a
+    ```
     
 
     > [!NOTE]
@@ -90,8 +94,10 @@ Benötigen Sie weitere Informationen zu verzögerten Postfachdatenbankkopien? We
 
 7.  In diesem Beispiel wird nach Abschluss der Wiederherstellung die Replikation für die Datenbank fortgesetzt, die im Rahmen der Wiederherstellung verwendet wurde.
     
+    ```powershell
         Resume-MailboxDatabaseCopy DB1\EX3
-
+    ```
+    
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd351074\(v=exchg.150\)) oder [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd335220\(v=exchg.150\)).
 
 ## Aktivieren einer verzögerten Postfachdatenbankkopie durch Wiedergabe aller Protokolldateien ohne Commit mithilfe der Shell
@@ -100,7 +106,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-M
     
     1.  In diesem Beispiel wird die Replikation für die verzögerte Kopie durch Verwendung des Cmdlets [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd351074\(v=exchg.150\)) aktiviert.
         
-            Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
+        ```powershell
+        Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
+        ```
     
     2.  Erstellen Sie optional (zur Beibehaltung einer verzögerten Kopie) eine Kopie der Datenbankkopie und ihrer Protokolldateien.
         
@@ -112,7 +120,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-M
 
 2.  In diesem Beispiel wird die verzögerte Postfachdatenbankkopie mithilfe des Cmdlets [Move-ActiveMailboxDatabase](https://technet.microsoft.com/de-de/library/dd298068\(v=exchg.150\)) mit dem Parameter *SkipLagChecks* aktiviert.
     
-        Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+    ```powershell
+       Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+    ```
 
 ## Aktivieren der verzögerten Postfachdatenbankkopie mithilfe der SafetyNet-Wiederherstellung und der Shell
 
@@ -120,19 +130,23 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-M
     
     1.  In diesem Beispiel wird die Replikation für die verzögerte Kopie durch Verwendung des Cmdlets [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/de-de/library/dd351074\(v=exchg.150\)) aktiviert.
         
-            Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
+        ```powershell
+        Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
+        ```
     
     2.  Erstellen Sie optional (zur Beibehaltung einer verzögerten Kopie) eine Kopie der Datenbankkopie und ihrer Protokolldateien.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Wenn Sie nun mit diesem Verfahren für das vorhandene Volume fortfahren, würde dies eine Beeinträchtigung der Copy-on-Write-Leistung (Kopie bei Schreibvorgang) nach sich ziehen. Falls dies nicht gewünscht ist, können Sie die Datenbank und die Protokolldateien auf ein anderes Volume kopieren, um die Wiederherstellung vorzunehmen.
 
 
 
 2.  Ermitteln Sie die erforderlichen Protokolle für die verzögerte Datenbankkopie, indem Sie nach dem Wert "Log Required:" in der ESEUTIL-Datenbankkopfzeilenausgabe suchen.
     
-        Eseutil /mh <DBPath> | findstr /c:"Log Required"
+    ```powershell
+    Eseutil /mh <DBPath> | findstr /c:"Log Required"
+    ```
     
     Notieren Sie die Hexadezimalzahlen in Klammern. Der erste Wert ist die erforderliche niedrigste Generation (als LowGeneration bezeichnet) und der zweite Wert ist die erforderliche höchste Generation (als HighGeneration bezeichnet). Verschieben Sie alle Protokollgenerationsdateien, die über eine Generationssequenz größer als HighGeneration verfügen, an einen anderen Speicherort, damit sie nicht erneut in die Datenbank wiedergegeben werden.
 
@@ -140,7 +154,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Suspend-M
 
 4.  Führen Sie ein Datenbankswitchover durch, und aktivieren Sie die verzögerte Kopie. In diesem Beispiel wird die Datenbank mithilfe des Cmdlets [Move-ActiveMailboxDatabase](https://technet.microsoft.com/de-de/library/dd298068\(v=exchg.150\)) mit verschiedenen Parametern aktiviert.
     
-        Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -MountDialOverride BestEffort -SkipActiveCopyChecks -SkipClientExperienceChecks -SkipHealthChecks -SkipLagChecks
+    ```powershell
+    Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -MountDialOverride BestEffort -SkipActiveCopyChecks -SkipClientExperienceChecks -SkipHealthChecks -SkipLagChecks
+    ```
 
 5.  An dieser Stelle wird die Datenbank automatisch eingebunden und die erneute Zustellung fehlender Nachrichten von SafetyNet angefordert.
 
@@ -152,5 +168,7 @@ Gehen Sie wie folgt vor, um die erfolgreiche Aktivierung einer verzögerten Post
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Statusinformationen zu einer Datenbankkopie anzuzeigen.
     
+    ```powershell
         Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 

@@ -51,15 +51,21 @@ In Microsoft Exchange Server 2013 können Sie die Warteschlangenanzeige in der 
 
 Verwenden Sie die folgende Syntax, um Warteschlangen anzuzeigen.
 
+```powershell
     Get-Queue [-Filter <Filter> -Server <ServerIdentity> -Include <Internal | External | Empty | DeliveryType> -Exclude <Internal | External | Empty | DeliveryType>]
+```
 
 In diesem Beispiel werden grundlegende Informationen zu allen nicht leeren Warteschlangen auf dem Exchange 2013-Postfachserver namens "Mailbox01" angezeigt.
 
-    Get-Queue -Server Mailbox01 -Exclude Empty
+```powershell
+Get-Queue -Server Mailbox01 -Exclude Empty
+```
 
 In diesem Beispiel werden detaillierte Informationen zu allen Warteschlangen mit mehr als 100 Nachrichten auf dem Postfachserver angezeigt, auf dem der Befehl ausgeführt wird.
 
-    Get-Queue -Filter {MessageCount -gt 100} | Format-List
+```powershell
+Get-Queue -Filter {MessageCount -gt 100} | Format-List
+```
 
 ## Anzeigen zusammenfassender Warteschlangeninformationen auf mehreren Exchange-Servern mithilfe der Shell
 
@@ -73,15 +79,21 @@ Das Cmdlet **Get-QueueDigest** bietet eine aggregierte Übersicht der Warteschla
 
 Führen Sie den folgenden Befehl aus, um zusammenfassende Informationen zu Warteschlangen auf mehreren Exchange-Servern anzuzeigen:
 
+```powershell
     Get-QueueDigest <-Server <ServerIdentity1,ServerIdentity2,..> | -Dag <DagIdentity1,DagIdentity2...> | -Site <ADSiteIdentity1,ADSiteIdentity2...> | -Forest> [-Filter <Filter>]
+```
 
 In diesem Beispiel werden zusammenfassende Informationen zu den Warteschlangen auf allen Exchange 2013-Postfachservern am Active Directory-Standort "FirstSite" angezeigt, in denen die Anzahl der Nachrichten 100 übersteigt.
 
-    Get-QueueDigest -Site FirstSite -Filter {MessageCount -gt 100}
+```powershell
+Get-QueueDigest -Site FirstSite -Filter {MessageCount -gt 100}
+```
 
 In diesem Beispiel werden zusammenfassende Informationen zu den Warteschlangen auf allen Exchange 2013-Postfachservern in der Database Availability Group (DAG) namens "DAG01" angezeigt, deren Warteschlangenstatus den Wert **Retry** aufweist.
 
-    Get-QueueDigest -Dag DAG01 -Filter {Status -eq "Retry"}
+```powershell
+Get-QueueDigest -Dag DAG01 -Filter {Status -eq "Retry"}
+```
 
 ## Fortsetzen von Warteschlangen
 
@@ -111,15 +123,20 @@ Durch das Fortsetzen einer Warteschlange werden ausgehende Aktivitäten in einer
 
 Verwenden Sie die folgende Syntax, um Warteschlangen fortzusetzen.
 
+```powershell
     Resume-Queue <-Identity QueueIdentity | -Filter {QueueFilter} [-Server ServerIdentity]>
+```
 
 In diesem Beispiel werden alle Warteschlangen auf dem lokalen Server fortgesetzt, die den Status "Angehalten" aufweisen.
 
-    Resume-Queue -Filter {Status -eq "Suspended"}
+```powershell
+Resume-Queue -Filter {Status -eq "Suspended"}
+```
 
 In diesem Beispiel wird die angehaltene Zustellungswarteschlange "contoso.com" auf dem Server "Mailbox01" fortgesetzt.
-
+```powershell
     Resume-Queue -Identity Mailbox01\contoso.com
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -157,15 +174,21 @@ Wenn ein Transportserver keine Verbindung mit dem nächsten Hop herstellen kann,
 
 Verwenden Sie die folgende Syntax, um Warteschlangen zu wiederholen.
 
+```powershell
     Retry-Queue <-Identity QueueIdentity | -Filter QueueFilter [-Server ServerIdentity]>
+```
 
 In diesem Beispiel wird für alle Warteschlangen auf dem lokalen Server, die den Status "Wiederholen" aufweisen, ein Wiederholungsversuch ausgeführt.
 
-    Retry-Queue -Filter {status -eq "retry"}
+```powershell
+Retry-Queue -Filter {status -eq "retry"}
+```
 
 In diesem Beispiel wird für die Warteschlange "contoso.com", die sich auf dem Server "Mailbox01" im Zustand `Retry` befindet, ein Wiederholungsversuch durchgeführt.
 
+```powershell
     Retry-Queue -Identity Mailbox01\contoso.com
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -189,15 +212,21 @@ Die erneute Übermittlung einer Warteschlange ähnelt der Wiederholung einer War
 
 Verwenden Sie die folgende Syntax, um Nachrichten erneut zu übermitteln.
 
+```powershell
     Retry-Queue <-Identity QueueIdentity | -Filter {Status -eq "Retry"} -Server ServerIdentity> -Resubmit $true
+```
 
 In diesem Beispiel werden alle Nachrichten erneut übermittelt, die sich in einer beliebigen Zustellungswarteschlange mit dem Status "Wiederholen" auf dem Server "Mailbox01" befinden.
 
-    Retry-Queue -Filter {Status -eq "Retry"} -Server Mailbox01 -Resubmit $true
+```powershell
+Retry-Queue -Filter {Status -eq "Retry"} -Server Mailbox01 -Resubmit $true
+```
 
 In diesem Beispiel werden alle Nachrichten erneut übermittelt, die sich in der Nicht-erreichbar-Warteschlange auf dem Server "Mailbox01" befinden.
 
+```powershell
     Retry-Queue -Identity Mailbox01\Unreachable -Resubmit $true
+```
 
 ## Erneutes Übermitteln von Nachrichten in der Warteschlange für nicht verarbeitbare Nachrichten
 
@@ -227,15 +256,21 @@ Führen Sie die folgenden Schritte durch, um eine Nachricht aus der Warteschlang
 
 1.  Finden Sie die Identität der Nachricht, indem Sie den folgenden Befehl ausführen.
     
-        Get-Message -Queue Poison | Format-Table Identity
+    ```powershell
+    Get-Message -Queue Poison | Format-Table Identity
+    ```
 
 2.  Verwenden Sie die Identität der Nachricht aus dem vorherigen Schritt im folgenden Befehl.
     
-        Resume-Message <PoisonMessageIdentity>
-    
+    ```powershell
+    Resume-Message <PoisonMessageIdentity>
+    ```
+        
     In diesem Beispiel wird die Nachricht mit dem Identitätswert 222 aus der Warteschlange für potenziell schädliche Nachrichten fortgesetzt.
     
-        Resume-Message 222
+    ```powershell
+    Resume-Message 222
+    ```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -267,15 +302,21 @@ Wenn die Nicht-erreichbar-Warteschlange angehalten wird, werden bei Eingang von 
 
 Verwenden Sie die folgende Syntax, um eine Warteschlange anzuhalten.
 
+```powershell
     Suspend-Queue <-Identity QueueIdentity | -Filter {QueueFilter} [-Server ServerIdentity]>
+```
 
 In diesem Beispiel werden alle Warteschlangen auf dem lokalen Server angehalten, die 1.000 oder mehr Nachrichten enthalten und den Status "Wiederholen" aufweisen.
 
-    Suspend-Queue -Filter {MessageCount -ge 1000 -and Status -eq "Retry"}
+```powershell
+Suspend-Queue -Filter {MessageCount -ge 1000 -and Status -eq "Retry"}
+```
 
 In diesem Beispiel wird die Warteschlange "contoso.com" auf dem Server "Mailbox01" angehalten.
 
+```powershell
     Suspend-Queue -Identity Mailbox01\contoso.com
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

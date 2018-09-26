@@ -49,7 +49,9 @@ In diesem Beispiel wird eine globale Adressliste für das Unternehmen "Fourth Co
 
 
 
-    Update-GlobalAddressList -Identity "Fourth Coffee"
+```powershell
+Update-GlobalAddressList -Identity "Fourth Coffee"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Update-GlobalAddressList](https://technet.microsoft.com/de-de/library/aa998806\(v=exchg.150\)).
 

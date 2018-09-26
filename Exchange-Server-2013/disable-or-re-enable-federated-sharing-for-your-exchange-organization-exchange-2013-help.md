@@ -49,11 +49,15 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf die Verbundfreigabe f
 
 In diesem Beispiel wird die Organisations-ID deaktiviert, und es werden der Verbund und die Verbundfreigabe für die Exchange-Organisation deaktiviert.
 
-    Set-FederatedOrganizationIdentifier -Enabled $false
+```powershell
+Set-FederatedOrganizationIdentifier -Enabled $false
+```
 
 In diesem Beispiel wird die Organisations-ID wieder aktiviert, und es werden der Verbund und die Verbundfreigabe für die Exchange-Organisation wieder aktiviert.
 
-    Set-FederatedOrganizationIdentifier -Enabled $true
+```powershell
+Set-FederatedOrganizationIdentifier -Enabled $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-FederatedOrganizationIdentifier](https://technet.microsoft.com/de-de/library/dd351037\(v=exchg.150\)).
 
@@ -63,7 +67,9 @@ Die erfolgreiche Ausführung des Cmdlets **Set-OrganizationIdentifier** ist ein 
 
 Für eine weitere Prüfung können Sie den folgenden Shell-Befehl ausführen und den für den Parameter *Enabled* zurückgegebenen Wert überprüfen
 
-    Get-FederatedOrganizationIdentifier
+```powershell
+Get-FederatedOrganizationIdentifier
+```
 
 
 > [!TIP]

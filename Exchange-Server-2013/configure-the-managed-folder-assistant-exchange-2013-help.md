@@ -45,7 +45,9 @@ Weitere Verwaltungsaufgaben im Zusammenhang mit der Messaging-Datensatzverwaltun
 
 In diesem Beispiel wird der Assistent für verwaltete Ordner so konfiguriert, dass alle Postfächer innerhalb eines Tags verarbeitet werden.
 
-    Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-MailboxServer](https://technet.microsoft.com/de-de/library/aa998651\(v=exchg.150\)).
 
@@ -55,13 +57,17 @@ Zum Überprüfen, ob der Assistent für verwaltete Ordner erfolgreich konfigurie
 
 Dieser Befehl ruft alle Postfachserver in der Organisation ab und gibt die Arbeitszykluseigenschaften des Assistenten für verwaltete Ordner von jedem Server in Tabellenformat zurück. Die Option *Auto* wird verwendet, um die Spaltenbreite automatisch anzupassen.
 
+```powershell
     Get-MailboxServer | Format-Table Name,ManagedFolderWorkCycle* -Auto
+```
 
 ## Verwenden der Shell zum Starten des Assistenten für verwaltete Ordner
 
 In diesem Beispiel wird eine sofortige Verarbeitung des Postfachs von Morris Cornejo durch den Assistenten für verwaltete Ordner ausgelöst.
 
-    Start-ManagedFolderAssistant -Identity morris.cornejo@contoso.com
+```powershell
+Start-ManagedFolderAssistant -Identity morris.cornejo@contoso.com
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Start-ManagedFolderAssistant](https://technet.microsoft.com/de-de/library/aa998864\(v=exchg.150\)).
 

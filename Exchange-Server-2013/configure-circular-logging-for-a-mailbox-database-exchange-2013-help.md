@@ -49,11 +49,15 @@ Weitere Informationen zu Umlaufprotokollierung und CRCL finden Sie unter [Exchan
 
 In diesem Beispiel wird die Umlaufprotokollierung für Datenbank DB1 aktiviert.
 
-    Set-MailboxDatabase DB1 -CircularLoggingEnabled $True
+```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $True
+```
 
 In diesem Beispiel wird die Umlaufprotokollierung für Datenbank DB1 deaktiviert.
 
-    Set-MailboxDatabase DB1 -CircularLoggingEnabled $False
+```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $False
+```
 
 Unter [Set-MailboxDatabase](https://technet.microsoft.com/de-de/library/bb123971\(v=exchg.150\)) finden Sie weitere Postfachdatenbankparameter, die Sie konfigurieren können.
 

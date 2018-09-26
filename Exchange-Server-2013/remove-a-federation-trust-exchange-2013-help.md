@@ -53,7 +53,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Verbundvertrauensstel
 
 In diesem Beispiel wird die Verbundvertrauensstellung entfernt.
 
-    Remove-FederationTrust
+```powershell
+Remove-FederationTrust
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-FederationTrust](https://technet.microsoft.com/de-de/library/dd351153\(v=exchg.150\)).
 
@@ -65,7 +67,9 @@ Führen Sie eine der folgenden Aktionen aus, um sich zu vergewissern, dass Sie d
 
   - Führen Sie in der Shell folgenden Befehl aus, um zu überprüfen, dass keine Informationen der Verbundvertrauensstellung für Ihre Exchange-Organisation zurückgegeben werden.
     
-        Get-FederationTrust
+    ```powershell
+    Get-FederationTrust
+    ```
     
     Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-FederationTrust](https://technet.microsoft.com/de-de/library/dd351262\(v=exchg.150\)).
 

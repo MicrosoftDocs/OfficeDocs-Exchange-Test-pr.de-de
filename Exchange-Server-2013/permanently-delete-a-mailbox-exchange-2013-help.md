@@ -59,7 +59,9 @@ Weitere Informationen zu getrennten Postfächern und zum Durchführen anderer da
 
 Führen Sie den folgenden Befehl aus, um ein aktives Postfach und das dazugehörige Active Directory-Benutzerkonto endgültig zu löschen.
 
-    Remove-Mailbox -Identity <identity> -Permanent $true
+```powershell
+Remove-Mailbox -Identity <identity> -Permanent $true
+```
 
 
 > [!NOTE]
@@ -79,7 +81,9 @@ Um sicherzustellen, dass Sie ein aktives Postfach endgültig gelöscht haben, ge
 
 3.  Führen Sie den folgenden Befehl aus, um zu prüfen, ob das Postfach endgültig aus der Exchange-Postfachdatenbank gelöscht wurde.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where {         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+    ```
     
     Wenn Sie das Postfach erfolgreich endgültig gelöscht haben, gibt der Befehl keine Ergebnisse zurück. Wenn das Postfach nicht endgültig gelöscht wurde, gibt der Befehl Informationen zum Postfach zurück.
 
@@ -90,14 +94,17 @@ Um sicherzustellen, dass Sie ein aktives Postfach endgültig gelöscht haben, ge
 Es gibt zwei Typen von getrennten Postfächern: deaktivierte und vorläufig gelöschte Postfächer. Sie müssen beim Ausführen des Cmdlets einen dieser Typen angeben, um das Postfach endgültig zu löschen. Stimmt der von Ihnen angegebene Typ nicht mit dem tatsächlichen Typ des getrennten Postfachs überein, wird der Befehl nicht ausgeführt.
 
 Führen Sie den folgenden Befehl aus, um zu prüfen, ob ein getrenntes Postfach deaktiviert ist oder vorläufig gelöscht wurde.
-
+```powershell
     Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,MailboxGuid,Database,DisconnectReason
+```
 
 Der Wert der Eigenschaft *DisconnectReason* bei getrennten Postfächern ist entweder `Disabled` oder `SoftDeleted`.
 
 Sie können den folgenden Befehl ausführen, um den Typ aller getrennten Postfächer in Ihrer Organisation anzuzeigen.
 
+```powershell
     Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -ne $null } | fl DisplayName,MailboxGuid,Database,DisconnectReason
+```
 
 
 > [!WARNING]
@@ -107,15 +114,21 @@ Sie können den folgenden Befehl ausführen, um den Typ aller getrennten Postfä
 
 In diesem Beispiel wird das deaktivierte Postfach mit der GUID "2ab32ce3-fae1-4402-9489-c67e3ae173d3" endgültig aus der Postfachdatenbank "MBD01" gelöscht.
 
+```powershell
     Remove-StoreMailbox -Database MBD01 -Identity "2ab32ce3-fae1-4402-9489-c67e3ae173d3" -MailboxState Disabled
+```
 
 In diesem Beispiel wird das vorläufig gelöschte Postfach Dan Jump Ayla endgültig aus der Postfachdatenbank MBD01 gelöscht.
 
-    Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```powershell
+Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```
 
 In diesem Beispiel werden alle vorläufig gelöschten Postfächer endgültig aus der Postfachdatenbank "MBD01" gelöscht.
 
+```powershell
     Get-MailboxStatistics -Database MBD01 | where {$_.DisconnectReason -eq "SoftDeleted"} | ForEach {Remove-StoreMailbox -Database $_.Database -Identity $_.MailboxGuid -MailboxState SoftDeleted}
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-StoreMailbox](https://technet.microsoft.com/de-de/library/ff829913\(v=exchg.150\)) und [Get-MailboxStatistics](https://technet.microsoft.com/de-de/library/bb124612\(v=exchg.150\)).
 
@@ -123,7 +136,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-St
 
 Zum Prüfen, ob ein getrenntes Postfach endgültig auch aus der Exchange-Postfachdatenbank gelöscht wurde, führen Sie den folgenden Befehl aus.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {     Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+```
 
 Wenn Sie das Postfach erfolgreich endgültig gelöscht haben, gibt der Befehl keine Ergebnisse zurück. Wenn das Postfach nicht endgültig gelöscht wurde, gibt der Befehl Informationen zum Postfach zurück.
 

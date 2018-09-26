@@ -118,12 +118,10 @@ Weitere Informationen zur Installation von Exchange 2013 finden Sie unter [Planu
     Führen Sie auf dem Clientzugriffsserver, der verwaltet werden soll, die folgenden Schritte aus, um Transport-Agents auf diesem Server zu installieren, zu deinstallieren oder zu verwalten:
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Das Laden des <CODE>Microsoft.Exchange.Management.PowerShell.SnapIn</CODE>Windows PowerShell-Snap-Ins und das Ausführen von anderen Cmdlets als den <STRONG>*-TransportAgent</STRONG>-Cmdlets wird nicht unterstützt und kann irreparable Schäden an der Exchange-Bereitstellung zur Folge haben.<BR>Sie müssen Mitglied der lokalen Administratorgruppe auf dem Clientzugriffsserver sein, auf dem Transport-Agents installiert, deinstalliert oder verwaltet werden sollen. Änderungen an Zugriffssteuerungslisten für Exchange-Dateien, Verzeichnisse oder Active Directory-Objekte werden nicht unterstützt.
 
-    
-
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Führen Sie die folgenden Schritte ausschließlich auf einem Clientzugriffsserver aus. Das ExchangeWindows PowerShell-Snap-In muss nicht geladen werden, wenn Transport-Agents auf Postfachservern verwaltet werden sollen.
 
     
@@ -131,7 +129,9 @@ Weitere Informationen zur Installation von Exchange 2013 finden Sie unter [Planu
     
     2.  Führen Sie den folgenden Befehl aus.
         
-            Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+        ```powershell
+        Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+        ```
     
     3.  Führen Sie die Verwaltungsaufgaben für Transport-Agents wie gewohnt aus.
     
@@ -161,12 +161,14 @@ Weitere Informationen zur Installation von Exchange 2013 finden Sie unter [Planu
     
     Zum Beheben dieses Problems müssen Sie die Authentifizierungsmethode `Integrated` aus dem Clientempfangsconnector für Ihre Exchange 2013-Clientzugriffsserver entfernen. Führen Sie zum Entfernen der Authentifizierungsmethode `Integrated` aus einem Clientempfangsconnector auf allen Exchange 2013-Clientzugriffsservern, die Verbindungen von Computern empfangen können, mithilfe des Cmdlets **Send-MailMessage** den folgenden Befehl aus:
     
-        Set-ReceiveConnector "<server name>\Client Frontend <server name>" -AuthMechanism Tls, BasicAuth, BasicAuthRequireTLS
+      ```powershell
+      Set-ReceiveConnector "<server name>\Client Frontend <server name>" -AuthMechanism Tls, BasicAuth, BasicAuthRequireTLS
+      ```
 
   - **Nach einem Upgrade auf Exchange 2013 SP1 kann es zu einer schlechten Leistung von MAPI über HTTP kommen**   Wenn Sie ein Upgrade von einem kumulativen Update für Exchange 2013 auf Exchange 2013 SP1 durchführen und MAPI über HTTP aktivieren, kann es zu schlechter Leistung kommen, wenn Clients über dieses Protokoll eine Verbindung mit einem Exchange 2013 SP1-Server herstellen. Der Grund dafür ist, dass erforderliche Einstellungen bei einem Upgrade von einem kumulativen Update auf Exchange 2013 SP1 nicht konfiguriert werden. Dieses Problem tritt nicht auf, wenn Sie ein Upgrade von Exchange 2013 RTM auf Exchange 2013 SP1 durchführen oder einen neuen Server mit Exchange 2013 SP1 oder höher installieren.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Dies ist nur dann ein Problem, wenn das Protokoll MAPI über HTTP auf Ihren Client Access-Servern aktiviert ist. Es ist standardmäßig deaktiviert. Wenn MAPI über HTTP deaktiviert ist, verwenden Clients stattdessen das Protokoll RPC über HTTP.
 
     
@@ -174,22 +176,32 @@ Weitere Informationen zur Installation von Exchange 2013 finden Sie unter [Planu
     
     1.  Führen Sie auf Servern, auf denen die Clientzugriffs-Serverrolle installiert ist, in einer Windows-Eingabeaufforderung die folgenden Befehle aus:
         
-            set AppCmdLocation=%windir%\System32\inetsrv
-            set ExchangeLocation=%ProgramFiles%\Microsoft\Exchange Server\V15
-            
-            %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiFrontEndAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiFrontEndAppPool_CLRConfig.config"
-            %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiFrontEndAppPool"
+        ```powershell
+        set AppCmdLocation=%windir%\System32\inetsrv
+        set ExchangeLocation=%ProgramFiles%\Microsoft\Exchange Server\V15
+        ```
+        
+        ```powershell
+        %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiFrontEndAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiFrontEndAppPool_CLRConfig.config"
+        %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiFrontEndAppPool"
+        ```
     
     2.  Führen Sie auf Servern, auf denen die Serverrolle Mailbox installiert ist, in einer Windows-Eingabeaufforderung die folgenden Befehle aus:
         
-            set AppCmdLocation=%windir%\System32\inetsrv
-            set ExchangeLocation=%ProgramFiles%\Microsoft\Exchange Server\V15
-            
-            %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiMailboxAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiMailboxAppPool_CLRConfig.config"
-            %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiMailboxAppPool"
-            
-            %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiAddressBookAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiAddressBookAppPool_CLRConfig.config"
-            %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiAddressBookAppPool"
+        ```powershell
+        set AppCmdLocation=%windir%\System32\inetsrv
+        set ExchangeLocation=%ProgramFiles%\Microsoft\Exchange Server\V15
+        ```
+        
+        ```powershell
+        %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiMailboxAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiMailboxAppPool_CLRConfig.config"
+        %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiMailboxAppPool"
+        ```
+        
+        ```powershell
+        %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiAddressBookAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiAddressBookAppPool_CLRConfig.config"
+        %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiAddressBookAppPool"
+        ```
 
 ## Exchange 2010-Koexistenz
 
@@ -208,4 +220,3 @@ Weitere Informationen zur Installation von Exchange 2013 finden Sie unter [Planu
     Falls alle voranstehenden Bedingungen zutreffen, kann der Benutzer nicht auf die Exchange 2010Outlook Web App-Optionen eines anderen Benutzers zugreifen, und es erscheint ggf. eine leere Seite.
     
     Installieren Sie zum Beheben dieses Problems auf allen Exchange 2010-Servern das Exchange 2010 SP3 Updaterollup 1 oder höher.
-

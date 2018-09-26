@@ -81,11 +81,15 @@ In diesem Beispiel wird eine Organisationsbeziehung mit Contoso, Ltd. erstellt, 
 
 <!-- end list -->
 
+```powershell
     New-OrganizationRelationship -Name "Contoso" -DomainNames "contoso.com","northamerica.contoso.com","europe.contoso.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel LimitedDetails
+```
 
 In diesem Beispiel wird versucht, unter Verwendung der im Cmdlet **Get-FederationInformation** bereitgestellten Domänennamen automatisch Konfigurationsinformationen von der externen Exchange-Organisation "Contoso.com" zu ermitteln. Wenn Sie diese Methode zum Erstellen Ihrer Organisationsbeziehung einsetzen, müssen Sie zunächst sicherstellen, dass mit dem Cmdlet **Set-FederatedOrganizationIdentifier** eine Organisations-ID erstellt wurde.
 
+```powershell
     Get-FederationInformation -DomainName Contoso.com | New-OrganizationRelationship -Name "Contoso" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel -LimitedDetails
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-FederationInformation](https://technet.microsoft.com/de-de/library/dd351221\(v=exchg.150\)) und [New-OrganizationRelationship](https://technet.microsoft.com/de-de/library/ee332357\(v=exchg.150\)).
 
@@ -103,7 +107,9 @@ In diesem Beispiel wird eine Organisationsbeziehung mit "Fourth Coffee" erstellt
 
 <!-- end list -->
 
+```powershell
     New-OrganizationRelationship -Name "Fourth Coffee" -DomainNames "fourthcoffee.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel -AvailabilityOnly -TargetAutodiscoverEpr "https://mail.fourthcoffee.com/autodiscover/autodiscover.svc/wssecurity" -TargetApplicationUri "mail.fourthcoffee.com"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-OrganizationRelationship](https://technet.microsoft.com/de-de/library/ee332357\(v=exchg.150\)).
 
@@ -113,7 +119,9 @@ Der erfolgreiche Abschluss des Assistenten für neue Organisationsbeziehungen is
 
 Führen Sie den folgenden Shell-Befehl aus, um die Informationen zur Organisationsbeziehung zu überprüfen und die erfolgreiche Erstellung der Organisationsbeziehung sicherzustellen:
 
-    Get-OrganizationRelationship | format-list
+```powershell
+Get-OrganizationRelationship | format-list
+```
 
 
 > [!TIP]

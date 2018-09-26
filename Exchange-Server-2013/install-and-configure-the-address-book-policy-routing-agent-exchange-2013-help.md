@@ -47,7 +47,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 Installieren Sie den Routing-Agent für Adressbuchrichtlinien durch Ausführen des folgenden Befehls. Dies sind der genaue Befehl und die Syntax, die Sie verwenden müssen.
 
+```powershell
     Install-TransportAgent -Name "ABP Routing Agent" -TransportAgentFactory "Microsoft.Exchange.Transport.Agent.AddressBookPolicyRoutingAgent.AddressBookPolicyRoutingAgentFactory" -AssemblyPath $env:ExchangeInstallPath\TransportRoles\agents\AddressBookPolicyRoutingAgent\Microsoft.Exchange.Transport.Agent.AddressBookPolicyRoutingAgent.dll
+```
 
 Sie erhalten eine Warnung, dass der Transportdienst neu gestartet werden muss, damit Ihre Änderungen in Kraft treten. Führen Sie jedoch zuerst Schritt 2 durch, damit Sie den Transportdienst nur einmal neu starten müssen.
 
@@ -59,7 +61,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 Nachdem Sie den Routing-Agent für Adressbuchrichtlinien installiert haben, müssen Sie ihn mithilfe des folgenden Befehls aktivieren:
 
-    Enable-TransportAgent "ABP Routing Agent"
+```powershell
+Enable-TransportAgent "ABP Routing Agent"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Enable-TransportAgent](https://technet.microsoft.com/de-de/library/bb124921\(v=exchg.150\)).
 
@@ -69,11 +73,15 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 1.  Führen Sie den folgenden Befehl aus, um den Transportdienst neu zu starten.
     
-        Restart-Service MSExchangeTransport
+    ```powershell
+    Restart-Service MSExchangeTransport
+    ```
 
 2.  Nach dem Neustart des Diensts prüfen Sie durch Ausführen des folgenden Cmdlets, ob der Routing-Agent für Adressbuchrichtlinien installiert und aktiviert wurde.
     
-        Get-TransportAgent
+    ```powershell
+    Get-TransportAgent
+    ```
     
     Wenn der Routing-Agent für Adressbuchrichtlinien aufgeführt wird, wurde der Agent ordnungsgemäß installiert.
 
@@ -85,7 +93,9 @@ Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden B
 
 Der letzte Schritt in diesem Verfahren besteht darin, das Adressbuchrichtlinien-Routing für die Organisation zu aktivieren. Führen Sie den folgenden Befehl aus.
 
-    Set-TransportConfig -AddressBookPolicyRoutingEnabled $true
+```powershell
+Set-TransportConfig -AddressBookPolicyRoutingEnabled $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-TransportConfig](https://technet.microsoft.com/de-de/library/bb124151\(v=exchg.150\)).
 

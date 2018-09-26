@@ -253,7 +253,9 @@ In Exchange 2010 stand das Seitenpatching nicht für verzögerte Kopien zur Verf
 
 Die Wiedergabe für verzögerte Kopien ist standardmäßig deaktiviert und kann durch Ausführung des folgenden Befehls aktiviert werden:
 
-    Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```
 
 Nach der Aktivierung wird eine Wiedergabe durchgeführt, wenn weniger als drei Kopien zur Verfügung stehen. Sie können den Standardwert 3 ändern, indem Sie den folgenden DWORD-Registrierungswert bearbeiten.
 

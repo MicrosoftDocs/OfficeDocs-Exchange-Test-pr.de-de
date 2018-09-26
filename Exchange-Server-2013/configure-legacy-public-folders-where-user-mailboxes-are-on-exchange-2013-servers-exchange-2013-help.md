@@ -43,12 +43,15 @@ Benutzer, deren Postfächer auf Exchange Server 2013 oder Exchange Server 2016 s
     
     Führen Sie bei Exchange 2010 den folgenden Befehl aus: Durch diesen Befehl wird die Postfachdatenbank vom Lastenausgleich für Postfachbereitstellung ausgeschlossen. Dadurch wird verhindert, dass neue Postfächer automatisch zu dieser Datenbank hinzugefügt werden.
     
+    ```powershell
         New-MailboxDatabase -Server <PFServerName_with_CASRole> -Name <NewMDBforPFs> -IsExcludedFromProvisioning $true 
-    
+    ```
+
     Führen Sie bei Exchange 2007 den folgenden Befehl aus:
     
+    ```powershell
         New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
-    
+    ```
 
     > [!NOTE]
     > Es wird empfohlen, dass Sie nur das Proxypostfach, das Sie in Schritt&nbsp;3 erstellen, zu dieser Datenbank hinzufügen. In dieser Postfachdatenbank sollten keine anderen Postfächer erstellt werden.
@@ -57,17 +60,19 @@ Benutzer, deren Postfächer auf Exchange Server 2013 oder Exchange Server 2016 s
 
 3.  Erstellen Sie in der neuen Postfachdatenbank ein Proxypostfach, und blenden Sie das Postfach im Adressbuch aus. Das SMTP dieses Postfachs wird von der AutoErmittlung als das *DefaultPublicFolderMailbox*-SMTP zurückgegeben, sodass der Client durch Auflösung dieses SMTP den Exchange-Legacyserver erreichen kann, um Zugriff auf öffentliche Ordner zu erhalten.
     
-	```
+	```powershell
 		New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
 	```
 
-	```
+	```powershell
 		Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
 	```
 
 4.  Aktivieren Sie bei Exchange 2010 die AutoErmittlung, um die Proxypostfächer für öffentliche Ordner zurückzugeben. Dieser Schritt ist bei Exchange 2007 nicht erforderlich.
     
-        Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+    ```powershell
+    Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+    ```
 
 5.  Wiederholen Sie die vorhergehenden Schritte für jeden Server für öffentliche Ordner in Ihrer Organisation.
 
@@ -77,8 +82,9 @@ Beim letzten Schritt dieses Verfahren werden die Benutzerpostfächer konfigurier
 
 Aktivieren Sie die lokalen Exchange Server 2013-Benutzer für den Zugriff auf die älteren öffentlichen Ordner. Sie zeigen auf alle Proxypostfächer für öffentliche Ordne, die Sie in [Step 2: Make remote public folders discoverable](https://technet.microsoft.com/de-de/library/Dn249373(v=EXCHG.150)) erstellt haben. Führen Sie den folgenden Befehl auf einem Exchange 2013-Server mit dem Update CU5 oder höher aus.
 
+```powershell
     Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
-
+```
 
 > [!NOTE]
 > Die Änderungen werden erst angezeigt, wenn die Active Directory-Synchronisierung abgeschlossen ist. Dieser Vorgang kann mehrere Stunden in Anspruch nehmen.

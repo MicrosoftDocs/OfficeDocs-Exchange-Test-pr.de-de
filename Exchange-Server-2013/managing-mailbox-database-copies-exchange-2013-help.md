@@ -165,7 +165,9 @@ Das Seitenpatching kann über die automatische Wiedergabefunktion für verzöger
 
 Die Wiedergabe für verzögerte Kopien ist standardmäßig deaktiviert und kann durch Ausführung des folgenden Befehls aktiviert werden:
 
-    Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```
 
 Nach der Aktivierung wird eine Wiedergabe durchgeführt, wenn weniger als drei Kopien zur Verfügung stehen. Sie können den Standardwert 3 ändern, indem Sie den folgenden DWORD-Registrierungswert bearbeiten.
 
@@ -614,15 +616,21 @@ In der folgenden Tabelle sind die verfügbaren Parameter für das Skript "Redist
 
 In diesem Beispiel wird die aktuelle Datenbankverteilung für eine DAG, einschließlich der Anzahl von Datenbanken mit diesen Einstellungen, veranschaulicht.
 
-    RedistributeActiveDatabases.ps1 -DagName DAG1 -ShowDatabaseDistributionByServer | Format-Table
+```powershell
+RedistributeActiveDatabases.ps1 -DagName DAG1 -ShowDatabaseDistributionByServer | Format-Table
+```
 
 In diesem Beispiel werden die aktiven Postfachdatenbankkopien in einer DAG mithilfe von Aktivierungseinstellungen neu verteilt und ausgeglichen, ohne dass eine Eingabe erforderlich ist.
 
-    RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -Confirm:$False
+```powershell
+RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -Confirm:$False
+```
 
 In diesem Beispiel werden die aktiven Postfachdatenbankkopien in der DAG mithilfe von Aktivierungseinstellungen neu verteilt und ausgeglichen. Außerdem wird eine Zusammenfassung der Verteilung erstellt.
 
+```powershell
     RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -ShowFinalDatabaseDistribution
+```
 
 ## Überwachen von Datenbankkopien
 

@@ -41,9 +41,13 @@ Sie können das Cmdlet **Set-RemoteDomain** verwenden, um die Eigenschaften eine
 
 In diesem Beispiel werden Abwesenheitsbenachrichtigungen für die Remotedomäne "Contoso" deaktiviert.
 
-    Set-RemoteDomain Contoso -AllowedOOFType None
+```powershell
+Set-RemoteDomain Contoso -AllowedOOFType None
+```
 
 In diesem Beispiel werden nur externe Abwesenheitsnachrichten zugelassen.
 
-    Set-RemoteDomain Contoso -AllowedOOFType External
+```powershell
+Set-RemoteDomain Contoso -AllowedOOFType External
+```
 

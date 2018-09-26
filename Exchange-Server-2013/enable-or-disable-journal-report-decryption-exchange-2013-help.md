@@ -49,7 +49,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf die Verwaltung von In
 
 In diesem Beispiel wird die Journalberichtentschlüsselung für die Exchange-Organisation aktiviert.
 
-    Set-IRMConfiguration -JournalReportDecryptionEnabled $true
+```powershell
+Set-IRMConfiguration -JournalReportDecryptionEnabled $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-IRMConfiguration](https://technet.microsoft.com/de-de/library/dd979792\(v=exchg.150\)).
 
@@ -57,7 +59,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-IRMCo
 
 In diesem Beispiel wird die Journalberichtentschlüsselung für die Exchange-Organisation deaktiviert.
 
-    Set-IRMConfiguration -JournalReportDecryptionEnabled $false
+```powershell
+Set-IRMConfiguration -JournalReportDecryptionEnabled $false
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-IRMConfiguration](https://technet.microsoft.com/de-de/library/dd979792\(v=exchg.150\)).
 

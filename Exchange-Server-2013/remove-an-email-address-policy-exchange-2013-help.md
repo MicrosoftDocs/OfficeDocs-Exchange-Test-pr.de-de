@@ -55,7 +55,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf E-Mail-Adressrichtlin
 
 In diesem Beispiel wird die E-Mail-Adressrichtlinie "South East Offices" entfernt.
 
-    Remove-EmailAddressPolicy -Identity "South East Offices"
+```powershell
+Remove-EmailAddressPolicy -Identity "South East Offices"
+```
 
 Geben Sie **Y** ein, um das Entfernen der Richtlinie zu bestätigen, und drücken Sie dann die EINGABETASTE.
 

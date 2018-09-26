@@ -43,17 +43,21 @@ Ermitteln Sie den Namen der IP-Standortverknüpfung in Active Directory, für de
 
 Führen Sie folgenden Befehl aus, um die Exchange-spezifischen Kosten für einen Active Directory-Standortlink festzulegen:
 
-``` 
+```powershell
  Set-AdSiteLink <ADSiteLinkIdentity> -ExchangeCost <Integer | $null>
 ```
 
 In diesem Beispiel werden Exchange-spezifische Kosten mit dem Wert 10 dem IP-Standortlink "IPSiteLinkAB" hinzugefügt.
 
-    Set-AdSiteLink IPSiteLinkAB -ExchangeCost 10
+```powershell
+Set-AdSiteLink IPSiteLinkAB -ExchangeCost 10
+```
 
 In diesem Beispiel werden die Exchange-Kosten des IP-Standortlinks "IPSiteLinkAB" gelöscht.
 
-    Set-AdSiteLink IPSiteLinkAB -ExchangeCost $null
+```powershell
+Set-AdSiteLink IPSiteLinkAB -ExchangeCost $null
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -61,7 +65,9 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie erfolgreich Exchan
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-AdSiteLink | Format-List Name,ExchangeCost
+    ```powershell
+    Get-AdSiteLink | Format-List Name,ExchangeCost
+    ```
 
 2.  Stellen Sie sicher, dass die Exchange-Kosten für den Active Directory-Standortlink konfiguriert sind.
 
@@ -71,15 +77,21 @@ Wenn entlang des kostengünstigsten Routingpfads für eine Nachricht ein Hubstan
 
 Führen Sie folgenden Befehl aus, um einen Active Directory-Standort als Hubstandort zu konfigurieren:
 
-    Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```powershell
+Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```
 
 In diesem Beispiel wird der Active Directory-Standort "Site A" als Hubstandort konfiguriert.
 
-    Set-AdSite "Site A" -HubSiteEnabled $true
+```powershell
+Set-AdSite "Site A" -HubSiteEnabled $true
+```
 
 In diesem Beispiel wird das Hubstandortattribut vom Active Directory-Standort "Site B" entfernt.
 
-    Set-AdSite "Site B" -HubSiteEnabled $false
+```powershell
+Set-AdSite "Site B" -HubSiteEnabled $false
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -87,7 +99,9 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob Sie erfolgreich einen 
 
 1.  Führen Sie den folgenden Befehl aus:
     
-        Get-AdSite | Format-List Name,HubSiteEnabled
+    ```powershell
+    Get-AdSite | Format-List Name,HubSiteEnabled
+    ```
 
 2.  Überprüfen Sie, ob der Wert *HubSiteEnabled* für den Active Directory-Standort `True` ist.
 

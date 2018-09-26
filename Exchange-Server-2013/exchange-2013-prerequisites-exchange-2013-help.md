@@ -85,11 +85,15 @@ Nach der Installation der oben aufgeführten Software führen Sie die folgenden 
     
       - Führen Sie auf einem Computer mit Windows Server 2012 R2 oder Windows Server 2012 den folgenden Befehl aus.
         
-            Install-WindowsFeature RSAT-ADDS
+        ```powershell
+        Install-WindowsFeature RSAT-ADDS
+        ```
     
       - Führen Sie auf einem Computer mit Windows Server 2008 R2 SP1 den folgenden Befehl aus.
         
-            Add-WindowsFeature RSAT-ADDS
+        ```powershell
+        Add-WindowsFeature RSAT-ADDS
+        ```
 
 ## Voraussetzungen für Windows Server 2012 R2 und Windows Server 2012
 
@@ -111,7 +115,9 @@ Gehen Sie folgendermaßen vor, um die erforderlichen Windows-Rollen und -Feature
 
 2.  Führen Sie den folgenden Befehl aus, um die erforderlichen Windows-Komponenten zu installieren.
     
-        Install-WindowsFeature AS-HTTP-Activation, Desktop-Experience, NET-Framework-45-Features, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Clustering-CmdInterface, RSAT-Clustering-Mgmt, RSAT-Clustering-PowerShell, Web-Mgmt-Console, WAS-Process-Model, Web-Asp-Net45, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Lgcy-Mgmt-Console, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext45, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content, Web-Windows-Auth, Web-WMI, Windows-Identity-Foundation, RSAT-ADDS
+    ```powershell
+    Install-WindowsFeature AS-HTTP-Activation, Desktop-Experience, NET-Framework-45-Features, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Clustering-CmdInterface, RSAT-Clustering-Mgmt, RSAT-Clustering-PowerShell, Web-Mgmt-Console, WAS-Process-Model, Web-Asp-Net45, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Lgcy-Mgmt-Console, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext45, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content, Web-Windows-Auth, Web-WMI, Windows-Identity-Foundation, RSAT-ADDS
+    ```
 
 Nach der Installation der Betriebssystemrollen und -features installieren Sie folgende Softwareprodukte in der angegebenen Reihenfolge:
 
@@ -137,7 +143,9 @@ Gehen Sie folgendermaßen vor, um die erforderlichen Windows-Rollen und -Feature
 
 2.  Führen Sie den folgenden Befehl aus, um die erforderlichen Windows-Komponenten zu installieren.
     
-        Install-WindowsFeature ADLDS
+    ```powershell
+    Install-WindowsFeature ADLDS
+    ```
 
 Installieren Sie die Version von Microsoft .NET Framework, die jener Version von Exchange 2013 entspricht, welche Sie installieren.
 
@@ -171,12 +179,15 @@ Gehen Sie folgendermaßen vor, um die erforderlichen Windows-Rollen und -Feature
 
 2.  Führen Sie den folgenden Befehl aus, um das Server-Manager-Modul zu laden.
     
-        Import-Module ServerManager
+    ```powershell
+    Import-Module ServerManager
+    ```
 
 3.  Führen Sie den folgenden Befehl aus, um die erforderlichen Windows-Komponenten zu installieren.
     
-        Add-WindowsFeature Desktop-Experience, NET-Framework, NET-HTTP-Activation, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Web-Server, WAS-Process-Model, Web-Asp-Net, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Lgcy-Mgmt-Console, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content, Web-Windows-Auth, Web-WMI, RSAT-ADDS
-
+    ```powershell
+    Add-WindowsFeature Desktop-Experience, NET-Framework, NET-HTTP-Activation, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Web-Server, WAS-Process-Model, Web-Asp-Net, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Lgcy-Mgmt-Console, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content, Web-Windows-Auth, Web-WMI, RSAT-ADDS
+    ```
 Nach der Installation der Betriebssystemrollen und -features installieren Sie folgende Softwareprodukte in der angegebenen Reihenfolge:
 
 1.  [.NET Framework 4.6.2](https://go.microsoft.com/fwlink/p/?linkid=808659)
@@ -213,11 +224,15 @@ Gehen Sie folgendermaßen vor, um die erforderlichen Windows-Rollen und -Feature
 
 2.  Führen Sie den folgenden Befehl aus, um das Server-Manager-Modul zu laden.
     
-        Import-Module ServerManager
+    ```powershell
+    Import-Module ServerManager
+    ```
 
 3.  Führen Sie den folgenden Befehl aus, um die erforderlichen Windows-Komponenten zu installieren.
     
-        Add-WindowsFeature NET-Framework, ADLDS
+    ```powershell
+    Add-WindowsFeature NET-Framework, ADLDS
+    ```
 
 Nach der Installation der Betriebssystemrollen und -features installieren Sie folgende Softwareprodukte in der angegebenen Reihenfolge:
 

@@ -77,7 +77,9 @@ Nachdem Sie Ihren Sendeconnector erstellt haben, erstellen Sie einen Sendeconnec
 
 In diesem Beispiel wird das Skript "Enable-CrossForestConnector.ps1" in der Shell verwendet, um Berechtigungen für den Sendeconnector für den Einsatz in einer gesamtstrukturübergreifenden Topologie festzulegen.
 
+```powershell
     .\Enable-CrossForestConnector.ps1 -Connector "Cross-Forest" -user "ANONYMOUS LOGON"
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 

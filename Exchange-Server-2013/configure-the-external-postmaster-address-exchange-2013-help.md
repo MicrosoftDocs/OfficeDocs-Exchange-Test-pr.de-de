@@ -51,15 +51,21 @@ Standardmäßig ist der Einstellungswert der externen Postmasteradresse leer. Di
 
 Verwenden Sie folgende Syntax, um die externe Postmasteradresse zu konfigurieren.
 
-    Set-TransportConfig -ExternalPostmasterAddress <postmaster address>
+```powershell
+Set-TransportConfig -ExternalPostmasterAddress <postmaster address>
+```
 
 Um beispielsweise die externe Postmasteradresse auf den Wert `postmaster@contoso.com` festzulegen, führen Sie den folgenden Befehl aus:
 
-    Set-TransportConfig -ExternalPostmasterAddress postmaster@contoso.com
+```powershell
+Set-TransportConfig -ExternalPostmasterAddress postmaster@contoso.com
+```
 
 Um die externe Postmasteradresse auf den Standardwert festzulegen, führen Sie den folgenden Befehl aus:
 
-    Set-TransportConfig -ExternalPostmasterAddress $null
+```powershell
+Set-TransportConfig -ExternalPostmasterAddress $null
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -67,9 +73,10 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass die externe Postmasterad
 
 1.  Führen Sie zum Überprüfen des Werts der externen Postmasteradresse auf einem Postfachserver den folgenden Befehl aus:
     
-        Get-TransportConfig | Format-List ExternalPostmasterAddress
+    ```powershell
+    Get-TransportConfig | Format-List ExternalPostmasterAddress
+    ```
 
 2.  Senden Sie von einem externen E-Mail-Konto eine Nachricht an Ihre Exchange-Organisation, die eine Benachrichtigung über den Zustellungsstatus verursacht. Sie können beispielsweise eine Transportregel für das Senden eines Unzustellbarkeitsberichts bei einer Nachrichten von diesem Absender konfigurieren, die bestimmte Schlüsselwörter enthält. Prüfen Sie, ob die E-Mail-Adresse des Absenders in der Benachrichtigung über den Zustellungsstatus dem angegebenen Wert entspricht.
 
 Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie die Foren unter [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542) oder [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=285351).
-

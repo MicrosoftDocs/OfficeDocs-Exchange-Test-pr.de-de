@@ -67,24 +67,34 @@ Um die Rollengruppe Organisationsverwaltung als verknüpfte Rollengruppe neu zu 
 
 2.  Speichern Sie die Anmeldeinformationen für die fremde Active Directory-Gesamtstruktur in einer Variablen.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+    $ForeignCredential = Get-Credential
+    ```
 
 3.  Speichern Sie alle Rollenzuweisungen der Rollengruppe Organisationsverwaltung in einer Variablen.
     
+    ```powershell
         $OrgMgmt  = Get-RoleGroup "Organization Management"
-
+    ```
+    
 4.  Erstellen Sie die verknüpfte Rollengruppe Organisationsverwaltung, und fügen Sie ihr die Rollen hinzu, die der integrierten Rollengruppe Organisationsverwaltung zugewiesen sind.
     
+    ```powershell
         New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
+    ```
 
 5.  Entfernen Sie alle regulären Zuweisungen zwischen der neuen verknüpften Rollengruppe Organisationsverwaltung und den "My\*"-Endbenutzerrollen.
     
+    ```powershell
         Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
-
+    ```
+    
 6.  Fügen Sie delegierende Rollenzuweisungen zwischen der neuen verknüpften Rollengruppe Organisationsverwaltung und allen Verwaltungsrollen hinzu.
     
+    ```powershell
         Get-ManagementRole | New-ManagementRoleAssignment -SecurityGroup "Organization Management - Linked" -Delegating
-
+    ```
+    
 In diesem Beispiel wird angenommen, dass die folgenden Werte für die einzelnen Parameter verwendet werden:
 
   - **LinkedForeignGroup** `Organization Management Administrators`
@@ -93,11 +103,16 @@ In diesem Beispiel wird angenommen, dass die folgenden Werte für die einzelnen 
 
 Unter Verwendung der oben aufgeführten Werte wird in diesem Beispiel die Rollengruppe Organisationsverwaltung als verknüpfte Rollengruppe neu erstellt.
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
+
+```powershell
     $OrgMgmt  = Get-RoleGroup "Organization Management"
     New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup "Organization Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
     Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
     Get-ManagementRole | New-ManagementRoleAssignment -SecurityGroup "Organization Management - Linked" -Delegating
+```
 
 ## Alle anderen verknüpften Rollengruppen erstellen
 
@@ -107,17 +122,22 @@ Um alle anderen integrierten Rollengruppen, die neben der Rollengruppe Organisat
 
 2.  Speichern Sie die Anmeldeinformationen für die fremde Active Directory-Gesamtstruktur in einer Variablen. Dieser Schritt muss nur einmal ausgeführt werden.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+    $ForeignCredential = Get-Credential
+    ```
 
 3.  Rufen Sie eine Liste von Rollengruppen ab, indem Sie das folgende Cmdlet verwenden.
     
-        Get-RoleGroup
+    ```powershell
+    Get-RoleGroup
+    ```
 
 4.  Gehen Sie für jede Rollengruppe mit Ausnahme der Rollengruppe Organisationsverwaltung folgendermaßen vor.
     
+    ```powershell
         $RoleGroup = Get-RoleGroup <name of role group to re-create>
         New-RoleGroup "<role group name> - Linked" -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
-
+    ```
 5.  Wiederholen Sie den vorherigen Schritt für jede integrierte Rollengruppe, die als verknüpfte Rollengruppe neu erstellt werden soll.
 
 In diesem Beispiel wird angenommen, dass die folgenden Werte für die einzelnen Parameter verwendet werden:
@@ -132,12 +152,18 @@ In diesem Beispiel wird angenommen, dass die folgenden Werte für die einzelnen 
 
 Unter Verwendung der oben aufgeführten Werte werden in diesem Beispiel die Rollengruppen Empfängerverwaltung und "Serververwaltung" als verknüpfte Rollengruppen neu erstellt.
 
-    $ForeignCredential = Get-Credential
-    Get-RoleGroup
+```powershell
+$ForeignCredential = Get-Credential
+```
+```powershell
+Get-RoleGroup
+```
+```powershell
     $RoleGroup = Get-RoleGroup "Recipient Management"
     New-RoleGroup "Recipient Management - Linked" -LinkedForeignGroup "Recipient Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
     $RoleGroup = Get-RoleGroup "Server Management"
     New-RoleGroup "Server Management - Linked" -LinkedForeignGroup "Server Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
+```
 
 ## Weitere Aufgaben
 

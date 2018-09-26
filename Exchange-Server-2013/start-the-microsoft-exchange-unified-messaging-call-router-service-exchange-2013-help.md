@@ -57,5 +57,7 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf Clientzugriffsserver 
 
 2.  Geben Sie im Textfeld **Öffnen** die folgende Zeichenfolge ein, und drücken Sie dann die EINGABETASTE.
     
-        net start MSExchangeUMCR
+    ```powershell
+    net start MSExchangeUMCR
+    ```
 

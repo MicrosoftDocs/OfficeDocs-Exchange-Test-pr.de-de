@@ -39,7 +39,9 @@ Mithilfe der Exchange-Verwaltungsshell können Sie verschiedene Einstellungen ko
 
 Sie können das Cmdlet **Set-OrganizationConfig** zum Aktivieren oder Deaktivieren von E-Mail-Infos in Ihrer Organisation verwenden. E-Mail-Infos sind standardmäßig aktiviert, wenn Sie eine neue Exchange-Organisation installieren. In diesem Beispiel wird veranschaulicht, wie Sie E-Mail-Infos in Ihrer Organisation aktivieren.
 
-    Set-OrganizationConfig -MailTipsAllTipsEnabled $true
+```powershell
+Set-OrganizationConfig -MailTipsAllTipsEnabled $true
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-OrganizationConfig](https://technet.microsoft.com/de-de/library/aa997443\(v=exchg.150\)).
 

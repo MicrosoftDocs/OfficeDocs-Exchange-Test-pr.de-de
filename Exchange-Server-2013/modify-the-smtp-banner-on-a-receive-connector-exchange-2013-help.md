@@ -21,11 +21,15 @@ Das *SMTP-Banner* ist die SMTP-Verbindungsantwort, die ein SMTP-Remotemessagings
 
 Dies ist die Standardantwort, die ein SMTP-Remotemessagingserver erhält, nachdem er eine Verbindung mit dem Empfangsconnector hergestellt hat:
 
+```powershell
     220 <Servername> Microsoft ESMTP MAIL service ready at <RegionalDay-Date-24HourTimeFormat> <RegionalTimeZoneOffset>
+```
 
 Wenn Sie einen benutzerdefinierten Wert für das SMTP-Banner für einen Empfangsconnector angeben, empfängt ein SMTP-Remotemessagingserver, der eine Verbindung mit diesem SMTP-Empfangsconnector herstellt, die folgende Antwort.
 
-    220 <Banner Text>
+```powershell
+220 <Banner Text>
+```
 
 Sie können das SMTP-Banner für SMTP-Empfangsconnectors mit Internetverbindung ändern, damit das SMTP-Banner den Servernamen und die Messagingserversoftware nicht preisgibt.
 
@@ -51,15 +55,21 @@ Sie können das SMTP-Banner für SMTP-Empfangsconnectors mit Internetverbindung 
 
 Führen Sie den folgenden Befehl aus:
 
-    Set-ReceiveConnector <ConnectorIdentity> -Banner "220 <Banner Text>"
+```powershell
+Set-ReceiveConnector <ConnectorIdentity> -Banner "220 <Banner Text>"
+```
 
 In diesem Beispiel wird das SMTP-Banner für den vorhandenen Empfangsconnector "From the Internet" so geändert, dass das SMTP-Banner `220 Contoso Corporation` anzeigt.
 
-    Set-ReceiveConnector "From the Internet" -Banner "220 Contoso Corporation"
+```powershell
+Set-ReceiveConnector "From the Internet" -Banner "220 Contoso Corporation"
+```
 
 In diesem Beispiel wird das SMTP-Banner für den Empfangsconnector "From the Internet" entfernt, wodurch das SMTP-Banner auf den Standardwert zurückgesetzt wird.
 
-    Set-ReceiveConnector "From the Internet" -Banner $null
+```powershell
+Set-ReceiveConnector "From the Internet" -Banner $null
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -67,7 +77,9 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass das SMTP-Banner für ein
 
 1.  Öffnen Sie einen Telnet-Client auf einem Computer, der auf den Empfangsconnector zugreifen kann, und führen Sie den folgenden Befehl aus:
     
-        open <Connector FQDN or IP address> <Port>
+    ```powershell
+    open <Connector FQDN or IP address> <Port>
+    ```
 
 2.  Prüfen Sie, ob die Antwort des Empfangsconnectors das von Ihnen konfigurierte SMTP-Banner enthält.
 

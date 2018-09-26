@@ -53,7 +53,9 @@ Informationen zu weiteren Verwaltungsaufgaben in Bezug auf öffentliche Ordner f
 
 Dieses Beispiel startet die Verschiebungsanforderung für den öffentlichen Ordner "\\CustomerEnagagements" aus dem Postfach für öffentliche Ordner "DeveloperReports" in das Postfach "DeveloperReports01"
 
+```powershell
     New-PublicFolderMoveRequest -Folders \DeveloperReports\CustomerEngagements -TargetMailbox DeveloperReports01
+```
 
 
 > [!NOTE]
@@ -67,8 +69,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Publi
 
 Dieses Beispiel startet die Verschiebungsanforderung für öffentlichen Ordner unter der Verzweigung "\\Dev public" in das Zielpostfach "DeveloperReports01". Bei diesem Beispiel wird der öffentlichen Ordner "\\Dev" nicht verschoben.
 
+```powershell
     New-PublicFolderMoveRequest -Folders \Dev\CustomerEngagements,\Dev\RequestsforChange,\Dev\Usability -TargetMailbox DeveloperReports01
-
+```
 
 > [!NOTE]
 > Das Zielpostfach für öffentliche Ordner ist gesperrt, während die Verschiebungsanforderung aktiv ist.
@@ -81,15 +84,21 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Publi
 
 In diesem Beispiel wird das Skript `Move-PublicFolderBranch.ps1` zum Verschieben einer Verzweigung öffentlicher Ordner verwendet. Dieses Beispiel startet die Verschiebungsanforderung für den öffentlichen Ordner "\\Dev" und alle seine Unterordner aus dem Postfach für öffentliche Ordner "DeveloperReports01". Das Skript befindet sich im Ordner "scripts" und muss an diesem Speicherort ausgeführt werden.
 
+```powershell
     CD $env:ExchangeInstallPath\scripts
-    
+```
+
+```powershell
     .\Move-PublicFolderBranch.ps1 -FolderRoot \Dev -TargetPublicFolderMailbox DeveloperReports01
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
 Führen Sie den folgenden Befehl aus, um sicherzustellen, dass die Verschiebungsanforderung für öffentliche Ordner erfolgreich war:
 
-    Get-PublicFolderMoveRequest | Format-List Status
+```powershell
+Get-PublicFolderMoveRequest | Format-List Status
+```
 
 Der Status `Completed` bedeutet, dass die Verschiebungsanforderung erfolgreich war.
 

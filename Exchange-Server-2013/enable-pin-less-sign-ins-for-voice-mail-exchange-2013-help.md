@@ -65,11 +65,15 @@ Weitere Informationen zu Aufgaben im Zusammenhang mit UM-Postfächern finden Sie
 
 In diesem Beispiel wir der Voicemailzugriff ohne PIN für eine UM-Postfachrichtlinie mit dem Namen `MyUMMailboxPolicy` für Benutzer ermöglicht, die der Postfachrichtlinie zugeordnet sind und die sich bei Outlook Voice Access einwählen.
 
-    Set-UMMailboxPolicy -id MyUMMailboxPolicy -AllowPinlessVoiceMailAccess $true
+```powershell
+Set-UMMailboxPolicy -id MyUMMailboxPolicy -AllowPinlessVoiceMailAccess $true
+```
 
 ## Ermöglichen des Zugriffs auf Voicemail ohne PIN für das Postfach eines UM-aktivierten Benutzers mithilfe der Shell
 
 In diesem Beispiel wird der Voicemailzugriff ohne PIN für den Benutzer ermöglicht, der sich bei Outlook Voice Access einwählt, um das Postfach mit dem Namen `tonys@contoso.com` zu erreichen.
 
-    Set-UMMailbox -id tonys@contoso.com -PinlessAccessToVoiceMailEnabled $true
+```powershell
+Set-UMMailbox -id tonys@contoso.com -PinlessAccessToVoiceMailEnabled $true
+```
 

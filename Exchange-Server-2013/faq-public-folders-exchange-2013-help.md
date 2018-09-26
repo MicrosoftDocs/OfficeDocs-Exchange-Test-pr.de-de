@@ -53,7 +53,9 @@ Anhand der CSV-Datei wird die Zuordnung zwischen der Quellhierarchie und dem Zie
 
 Sie können vor dem Abschluss der Migration (vor dem Sperren der Quelle) eine Deltasynchronisierung erzwingen, indem Sie den folgenden Befehl in der Shell ausführen:
 
-    Resume-PublicFolderMigrationRequest \PublicFolderMigration
+  ```powershell
+  Resume-PublicFolderMigrationRequest \PublicFolderMigration
+  ```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Resume-PublicFolderMigrationRequest](https://technet.microsoft.com/de-de/library/jj218689\(v=exchg.150\)).
 
@@ -63,7 +65,9 @@ Als Teil der Migration wird eine CSV-Datei generiert (mit dem Skript `publicfold
 
 Die CSV-Eingabedatei kann mithilfe des Skripts `AggregatePFData.ps1` generiert werden, das sich im Verzeichnis "\<*Exchange-Installationsverzeichnis*\>\\V15\\Scripts" befindet. Führen Sie das Skript wie folgt aus:
 
-    .\AggregatePFData.ps1 | Select-Object -property @{Name="FolderName"; Expression = {$_.Identity}}, @{Name="FolderSize"; Expression = {$_.TotalItemSize.Value.ToBytes()}} | Export-CSV -Path <Path followed by the name of the CSV>
+  ```powershell
+  .\AggregatePFData.ps1 | Select-Object -property @{Name="FolderName"; Expression = {$_.Identity}}, @{Name="FolderSize"; Expression = {$_.TotalItemSize.Value.ToBytes()}} | Export-CSV -Path <Path followed by the name of the CSV>
+  ```
 
 ## Werden vorhandene Berechtigungen für öffentliche Ordner migriert?
 
@@ -103,7 +107,9 @@ Weitere Informationen über Speichergrenzwerte öffentlicher Ordner finden Sie u
 
 Führen Sie den folgenden Befehl aus:
 
-    Get-OrganizationConfig | Format-List RootPublicFolderMailbox
+```powershell
+Get-OrganizationConfig | Format-List RootPublicFolderMailbox
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-OrganizationConfig](https://technet.microsoft.com/de-de/library/aa997571\(v=exchg.150\)).
 
@@ -111,7 +117,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-Organ
 
 Führen Sie den folgenden Befehl aus, um das erste Haupthierarchiepostfach für öffentliche Ordner und die sekundären Hierarchiepostfächer zu erstellen.
 
-    New-Mailbox -PublicFolder -Name <name of public folder>
+```powershell
+New-Mailbox -PublicFolder -Name <name of public folder>
+```
 
 Weitere Informationen finden Sie unter [Erstellen eines öffentlichen Ordners](https://technet.microsoft.com/de-de/library/Bb691104(v=EXCHG.150)).
 
@@ -147,7 +155,9 @@ Wie in früheren Versionen von Exchange können Sie Aufbewahrungslimits für Ele
 
 In Exchange 2007 und Exchange 2010 konnten Sie angeben, welche Benutzer Zugriff auf bestimmte öffentliche Ordner hatten. In Exchange 2013 kann das standardmäßige Postfach für öffentliche Ordner auf Benutzerbasis angegeben werden. Führen Sie dazu das Cmdlet [Set-Mailbox](https://technet.microsoft.com/de-de/library/bb123981\(v=exchg.150\)) mit dem Parameter *DefaultPublicFolderMailbox* aus.
 
-    Set-Mailbox -Identity kweku@contoso.com -DefaultPublicFolderMailbox "PF_Administration"
+```powershell
+Set-Mailbox -Identity kweku@contoso.com -DefaultPublicFolderMailbox "PF_Administration"
+```
 
 ## Wie wirkt sich ein Ausfall der Haupthierarchie auf die Benutzer aus?
 

@@ -111,43 +111,58 @@ Führen Sie vor Beginn der Migration die folgenden erforderlichen Schritte durch
     
       - Führen Sie den folgenden Befehl aus, um eine Momentaufnahme der ursprünglichen Quellordnerstruktur zu erstellen:
         
+        ```powershell
             Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Legacy_PFStructure.xml
-    
+        ```
+        
       - Führen Sie den folgenden Befehl aus, um eine Momentaufnahme der Statistikdaten von öffentlichen Ordnern (wie Anzahl von Elementen, Größe und Besitzer) zu erstellen:
         
+        ```powershell
             Get-PublicFolderStatistics | Export-CliXML C:\PFMigration\Legacy_PFStatistics.xml
-    
+        ```
+        
       - Führen Sie den folgenden Befehl aus, um eine Momentaufnahme der Berechtigungen zu erstellen:
         
+        ```powershell
             Get-PublicFolder -Recurse | Get-PublicFolderClientPermission | Select-Object Identity,User -ExpandProperty AccessRights | Export-CliXML C:\PFMigration\Legacy_PFPerms.xml
-    
+        ```
+        
     Speichern Sie die Informationen der vorangehenden Befehle für Vergleichszwecke nach Abschluss Ihrer Migration.
 
 2.  Wenn der Name eines Öffentlichen Ordners einen umgekehrten Schrägstrich **\\** enthält, werden die Öffentlichen Ordner bei der Migration im übergeordneten Öffentlichen Ordner erstellt. Es wird empfohlen, vor der Migration alle Öffentlichen Ordner umzubenennen, deren Namen einen Schrägstrich aufweist.
     
     1.  Führen Sie in Exchange 2010 den folgenden Befehl aus, um Öffentliche Ordner zu finden, deren Name einen Schrägstrich aufweist:
         
+        ```powershell
             Get-PublicFolderStatistics -ResultSize Unlimited | Where {($_.Name -like "*\*") -or ($_.Name -like "*/*") } | Format-List Name, Identity
-    
+        ```
     2.  Führen Sie in Exchange 2007 den folgenden Befehl aus, um Öffentliche Ordner zu finden, deren Name einen Schrägstrich aufweist:
         
+        ```powershell
             Get-PublicFolderDatabase | ForEach {Get-PublicFolderStatistics -Server $_.Server | Where {$_.Name -like "*\*"}}
-    
+        ```
+        
     3.  Wenn Öffentliche Ordner zurückgegeben werden, können Sie sie durch Ausführung des folgenden Befehls umbenennen:
         
-            Set-PublicFolder -Identity <public folder identity> -Name <new public folder name>
+        ```powershell
+        Set-PublicFolder -Identity <public folder identity> -Name <new public folder name>
+        ```
 
 3.  Achten Sie darauf, dass kein vorheriger Datensatz einer erfolgreichen Migration vorhanden ist.
     
     1.  Im folgenden Beispiel wird der Migrationsstatus der Öffentlichen Ordner überprüft.
         
-            Get-OrganizationConfig | Format-List PublicFoldersLockedforMigration, PublicFolderMigrationComplete
+        ```powershell
+        Get-OrganizationConfig | Format-List PublicFoldersLockedforMigration, PublicFolderMigrationComplete
+        ```
         
         Wenn zuvor eine erfolgreiche Migration erfolgt ist, lautet der Wert der *PublicFoldersLockedforMigration*- oder *PublicFolderMigrationComplete*-Eigenschaften `$true`. Verwenden Sie den Befehl in Schritt 3b, um den Wert auf `$false` festzulegen. Wenn der Wert auf `$true` festgelegt ist, tritt bei der Migrationsanforderung ein Fehler auf.
     
     2.  Wenn für den Status der Eigenschaft *PublicFoldersLockedforMigration* oder der Eigenschaft *PublicFolderMigrationComplete* der Wert `$true` angezeigt wird, führen Sie den folgenden Befehl aus, um den Wert auf `$false` festzulegen.
         
-            Set-OrganizationConfig -PublicFoldersLockedforMigration:$false -PublicFolderMigrationComplete:$false
+        ```powershell
+        Set-OrganizationConfig -PublicFoldersLockedforMigration:$false -PublicFolderMigrationComplete:$false
+        ```
     
 
     > [!WARNING]
@@ -184,29 +199,41 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
     
     Im folgenden Beispiel werden vorhandene serielle Migrationsanforderungen ermittelt.
     
+    ```powershell
         Get-PublicFolderMigrationRequest | Get-PublicFolderMigrationRequestStatistics -IncludeReport | Format-List
+    ```
     
     Im folgenden Beispiel werden alle vorhandenen seriellen Migrationsanforderungen für öffentliche Ordner entfernt.
     
-        Get-PublicFolderMigrationRequest | Remove-PublicFolderMigrationRequest
+    ```powershell
+    Get-PublicFolderMigrationRequest | Remove-PublicFolderMigrationRequest
+    ```
     
     Im folgenden Beispiel werden vorhandene Batchmigrationsanforderungen ermittelt.
     
+    ```powershell
         $batch = Get-MigrationBatch | ?{$_.MigrationType.ToString() -eq "PublicFolder"}
+    ```
     
     Im folgenden Beispiel werden alle vorhandenen Batchmigrationsanforderungen für öffentliche Ordner entfernt.
     
-        $batch | Remove-MigrationBatch -Confirm:$false
+    ```powershell
+    $batch | Remove-MigrationBatch -Confirm:$false
+    ```
 
 2.  Stellen Sie sicher, dass weder öffentliche Ordner noch Postfächer für öffentliche Ordner auf den Exchange 2013-Servern vorhanden sind.
     
     1.  Führen Sie den folgenden Befehl aus, um anzuzeigen, ob Postfächer für öffentliche Ordner vorhanden sind.
         
+        ```powershell
             Get-Mailbox -PublicFolder 
-    
+        ```
+        
     2.  Wenn der Befehl keine Öffentliche Ordner-Postfächer zurückgibt, fahren Sie mit Schritt 3: Generieren der CSV-Dateien fort. Wenn der Befehl öffentliche Ordner zurückgibt, führen Sie den folgenden Befehl aus, um herauszufinden, ob öffentliche Ordner vorhanden sind:
         
-            Get-PublicFolder
+        ```powershell
+        Get-PublicFolder
+        ```
     
     3.  Wenn öffentliche Ordner vorliegen, führen Sie die folgenden PowerShell-Befehle aus, um sie zu entfernen. Stellen Sie sicher, dass Sie die in den öffentlichen Ordnern verfügbaren Informationen gespeichert haben.
         
@@ -214,13 +241,14 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
         > [!NOTE]
         > Alle in den öffentlichen Ordnern enthaltenen Informationen werden dauerhaft gelöscht, wenn Sie sie entfernen.
 
-        ```
+        ```powershell
             Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
 		```
-        
-		```
-            Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
-		```
+
+        ```powershell
+        Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+        ```
+		
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden Themen:
 
@@ -246,7 +274,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
 
 1.  Führen Sie auf dem Exchange-Legacyserver das Skript `Export-PublicFolderStatistics.ps1` aus, um die Zuordnungsdatei für Ordnernamen zur Ordnergröße zu erstellen. Dieses Skript muss von einem lokalen Administrator ausgeführt werden. Die Datei enthält zwei Spalten: **FolderName** und **FolderSize**. Die Werte für die Spalte **FolderSize** werden in Byte angezeigt. Beispiel: **\\PublicFolder01,10000**.
     
+    ```powershell
         .\Export-PublicFolderStatistics.ps1  <Folder to size map path> <FQDN of source server>
+    ```
     
       - *FQDN of source server* entspricht dem vollqualifizierten Domänennamen des Postfachservers, auf dem die Hierarchie Öffentlicher Ordner gehostet wird.
     
@@ -258,8 +288,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
     > [!NOTE]
     > Wenn der Name eines Öffentlichen Ordners einen umgekehrten Schrägstrich <STRONG>&#92;</STRONG> enthält, werden die Öffentlichen Ordner im übergeordneten Öffentlichen Ordner erstellt. Es empfiehlt sich, die CSV-Datei zu prüfen und Namen zu bearbeiten, die einen umgekehrten Schrägstrich enthalten.
 
-    
+    ```powershell
         .\PublicFolderToMailboxMapGenerator.ps1 <Maximum mailbox size in bytes> <Folder to size map path> <Folder to mailbox map path>
+    ```
     
       - *Maximum mailbox size in bytes* entspricht der maximalen Größe, die Sie für neue Postfächer für Öffentliche Ordner festlegen möchten. Wenn Sie diese Einstellung angeben, müssen Sie eine Zunahme einplanen, damit das Postfach für öffentliche Ordner vergrößert werden kann.
     
@@ -271,7 +302,9 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden
 
 1.  Führen Sie den folgenden Befehl aus, um die Zielpostfächer für öffentliche Ordner zu erstellen. Mit dem Skript wird ein Zielpostfach für jedes Postfach in der CSV-Datei erstellt, die Sie in Schritt 3 durch Ausführen des „PublicFoldertoMailboxMapGenerator.ps1„-Skripts generiert haben.
     
+    ```powershell
         .\Create-PublicFolderMailboxesForMigration.ps1 -FolderMappingCsv Mapping.csv -EstimatedNumberOfConcurrentUsers:<estimate>
+    ```
     
     *Mapping.csv* ist die Datei, die durch Ausführen des Skripts „PublicFoldertoMailboxMapGenerator.ps1“ in Schritt 3 generiert wurde. Die geschätzte Anzahl der gleichzeitigen Benutzerverbindungen beim Durchsuchen einer Hierarchie öffentlicher Ordner ist in der Regel kleiner als die Gesamtzahl der Benutzer in einer Organisation.
 
@@ -289,33 +322,41 @@ Die Schritte für die Migration von öffentlichen Exchange 2007-Ordnern untersch
 
 1.  Öffentliche Ordner des Legacysystems wie OWAScratchPad und die Schemastammordner-Unterstruktur in Exchange 2007 werden nicht von Exchange 2013 erkannt und als ungültige Elemente behandelt. Dies führt dazu, dass die Migration nicht erfolgreich ist. Im Rahmen der Migrationsanforderung müssen Sie einen Wert für den `BadItemLimit`-Parameter angeben. Dieser Wert variiert je nach Anzahl der vorhandenen Datenbanken für Öffentliche Ordner. Die folgenden Befehle bestimmen, über wie viele Datenbanken für öffentliche Ordner Sie verfügen, und sie berechnen den `BadItemLimit`-Parameter für die Migrationsanforderung.
     
-    ```
+    ```powershell
 		$PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
 	```
     
-	```
+	```powershell
         $BadItemLimitCount = 5 + ($PublicFolderDatabasesInOrg.Count -1)
 	```
 
 2.  Führen Sie auf dem Exchange 2013-Server den folgenden Befehl aus:
     
+    ```powershell
         New-MigrationBatch -Name PFMigration -SourcePublicFolderDatabase (Get-PublicFolderDatabase -Server <Source server name>) -CSVData (Get-Content <Folder to mailbox map path> -Encoding Byte) -NotificationEmails <email addresses for migration notifications> -BadItemLimit $BadItemLimitCount 
-
+    ```
+    
 3.  Starten Sie die Migration mit dem folgenden Befehl:
     
-        Start-MigrationBatch PFMigration
+    ```powershell
+    Start-MigrationBatch PFMigration
+    ```
 
 **Migrieren von öffentlichen Exchange 2010-Ordnern**
 
 1.  Führen Sie auf dem Exchange 2013-Server den folgenden Befehl aus.
     
+    ```powershell
         New-MigrationBatch -Name PFMigration -SourcePublicFolderDatabase (Get-PublicFolderDatabase -Server <Source server name>) -CSVData (Get-Content <Folder to mailbox map path> -Encoding Byte) -NotificationEmails <email addresses for migration notifications> 
+    ```
     
     Der Parameter `NotificationEmails` ist optional.
 
 2.  Starten Sie die Migration mit dem folgenden Befehl:
     
-        Start-MigrationBatch PFMigration
+    ```powershell
+    Start-MigrationBatch PFMigration
+    ```
     
     – oder –
     
@@ -355,7 +396,9 @@ Bevor Sie den Befehl `PublicFoldersLockedForMigration` wie unten beschrieben aus
 
 Führen Sie auf dem Exchange-Legacyserver den folgenden Befehl aus, um die älteren Öffentlichen Ordner bis zum Abschluss des Vorgangs zu sperren.
 
-    Set-OrganizationConfig -PublicFoldersLockedForMigration:$true
+```powershell
+Set-OrganizationConfig -PublicFoldersLockedForMigration:$true
+```
 
 
 > [!NOTE]
@@ -371,11 +414,15 @@ Wenn Ihre Organisation über mehrere Datenbanken für Öffentliche Ordner verfü
 
 Führen Sie zuerst das folgende Cmdlet aus, um den Typ der Exchange 2013-Bereitstellung zu **Remote** zu ändern:
 
-    Set-OrganizationConfig -PublicFoldersEnabled Remote
+```powershell
+Set-OrganizationConfig -PublicFoldersEnabled Remote
+```
 
 Nachdem dies erfolgt ist, können Sie die Migration öffentlicher Ordner abschließen, indem Sie den folgenden Befehl ausführen:
 
-    Complete-MigrationBatch PublicFolderMigration
+```powershell
+Complete-MigrationBatch PublicFolderMigration
+```
 
 Alternativ können Sie die Migration in EAC abschließen, indem Sie auf **Migrationsbatch abschließen** klicken.
 
@@ -387,8 +434,10 @@ Nachdem Sie die Migration Öffentlicher Ordner abgeschlossen haben, sollten Sie 
 
 1.  Führen Sie in der PowerShell folgenden Befehl aus, um einige Testpostfächer zuzuweisen und ein beliebiges neu migriertes Postfach für öffentliche Ordner als Standardpostfach für öffentliche Ordner zu verwenden.
     
+    ```powershell
         Set-Mailbox -Identity <Test User> -DefaultPublicFolderMailbox <Public Folder Mailbox Identity>
-
+    ```
+    
 2.  Melden Sie sich mit dem im vorherigen Schritt identifizierten Testbenutzer bei Outlook 2007 oder höher an, und führen Sie denn die folgenden Öffentliche Ordner-Tests durch:
     
       - Zeigen Sie die Hierarchie an.
@@ -401,8 +450,10 @@ Nachdem Sie die Migration Öffentlicher Ordner abgeschlossen haben, sollten Sie 
 
 3.  Wenn Probleme auftreten, lesen Sie Durchführen eines Rollbacks der Migration weiter unten in diesem Thema. Wenn der Inhalt und die Hierarchie des Öffentlichen Ordners akzeptabel sind und wie erwartet funktionieren, führen Sie folgenden Befehl aus, um die Öffentlichen Ordner für alle anderen Benutzer zu entsperren.
     
-        Get-Mailbox -PublicFolder | Set-Mailbox -PublicFolder -IsExcludedFromServingHierarchy $false
-    
+    ```powershell
+    Get-Mailbox -PublicFolder | Set-Mailbox -PublicFolder -IsExcludedFromServingHierarchy $false
+    ```
+        
 
     > [!IMPORTANT]
     > Verwenden Sie nach Abschluss der anfänglichen Migrationsüberprüfung nicht den Parameter <EM>IsExcludedFromServingHierarchy</EM>, da dieser Parameter vom automatisierten Speicherverwaltungsdienst für Exchange Online verwendet wird.
@@ -411,11 +462,15 @@ Nachdem Sie die Migration Öffentlicher Ordner abgeschlossen haben, sollten Sie 
 
 4.  Führen Sie auf dem Exchange-Legacyserver den folgenden Befehl aus, um anzugeben, dass die Migration der Öffentlichen Ordner abgeschlossen ist.
     
-        Set-OrganizationConfig -PublicFolderMigrationComplete:$true
+    ```powershell
+    Set-OrganizationConfig -PublicFolderMigrationComplete:$true
+    ```
 
 5.  Nachdem Sie überprüft haben, dass die Migration abgeschlossen ist, führen Sie den folgenden Befehl aus:
     
-        Set-OrganizationConfig -PublicFoldersEnabled Local
+    ```powershell
+    Set-OrganizationConfig -PublicFoldersEnabled Local
+    ```
 
 6.  Dem Benutzer mit dem Status **Anonym** muss zumindest die Berechtigung **Objekte erstellen** erteilt werden, wenn Sie zulassen möchten, dass externe Absender E-Mails an migrierte E-Mail-aktivierte öffentliche Ordner senden können. Wenn Sie diese Berechtigung nicht erteilt haben, erhalten externe Absender eine Zustellungsfehlerbenachrichtigung, und die Nachrichten werden dem migrierten E-Mail-aktivierten öffentlichen Ordner nicht zugestellt.
     
@@ -427,16 +482,22 @@ Unter Schritt 2: Vorbereiten der Migration wurden Sie aufgefordert, Momentaufnah
 
 1.  Führen Sie den folgenden Befehl aus, um eine Momentaufnahme der neuen Ordnerstruktur zu erstellen.
     
+    ```powershell
         Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Cloud_PFStructure.xml
+    ```
 
 2.  Führen Sie den folgenden Befehl aus, um eine Momentaufnahme der Statistikdaten von öffentlichen Ordnern (wie Anzahl von Elementen, Größe und Besitzer) zu erstellen.
     
+    ```powershell
         Get-PublicFolderStatistics -ResultSize Unlimited | Export-CliXML C:\PFMigration\Cloud_PFStatistics.xml
-
+    ```
+    
 3.  Führen Sie den folgenden Befehl aus, um eine Momentaufnahme der Berechtigungen zu erstellen.
     
+    ```powershell
         Get-PublicFolder -Recurse | Get-PublicFolderClientPermission | Select-Object Identity,User -ExpandProperty AccessRights | Export-CliXML  C:\PFMigration\Cloud_PFPerms.xml
-
+    ```
+    
 ## Entfernen von Datenbanken für Öffentliche Ordner von den Exchange-Legacyservern
 
 Sobald die Migration abgeschlossen ist und Sie sichergestellt haben, dass die öffentlichen Exchange 2013-Ordner erwartungsgemäß funktionieren, sollten Sie die Datenbanken für Öffentliche Ordner auf den Exchange-Legacyservern entfernen.
@@ -457,15 +518,23 @@ Wenn bei der Migration Probleme auftreten und Sie die Öffentlichen Ordner von e
 
 1.  Führen Sie auf dem Exchange-Legacyserver den folgenden Befehl aus, um die älteren Öffentlichen Exchange-Ordner zu entsperren. Dieser Vorgang kann mehrere Stunden in Anspruch nehmen.
     
-        Set-OrganizationConfig -PublicFoldersLockedForMigration:$False
+    ```powershell
+    Set-OrganizationConfig -PublicFoldersLockedForMigration:$False
+    ```
 
 2.  Führen Sie auf dem Exchange 2013-Server folgende Befehle aus, um die Postfächer für öffentliche Ordner zu löschen.
     
+    ```powershell
         Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
-        
-        Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+    ```
+    
+    ```powershell
+    Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+    ```
 
 3.  Führen Sie auf dem Exchange-Legacyserver den folgenden Befehl aus, um die `PublicFolderMigrationComplete`-Kennzeichnung auf `$false` festzulegen.
     
-        Set-OrganizationConfig -PublicFolderMigrationComplete:$False
+    ```powershell
+    Set-OrganizationConfig -PublicFolderMigrationComplete:$False
+    ```
 

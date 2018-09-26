@@ -23,6 +23,7 @@ In diesem Thema werden Verfahren beschrieben, um einen Abgleich für Muster- und
 
 Das Element `Match` wird innerhalb der Elemente `Pattern` und `Evidence` zur Darstellung der zugrunde liegenden Schlüsselworte, regulären Ausdrücke oder Funktionen verwendet, für die ein Abgleich durchgeführt werden soll. Die Definition des Abgleichs selbst wird außerhalb des Elements `Rule` gespeichert und über das erforderliche Attribut `idRef` referenziert. In einer Musterdefinition können mehrere Elemente vom Typ `Match` enthalten sein. Diese können direkt in das Element `Pattern` aufgenommen werden oder mithilfe des Elements `Any` kombiniert werden, um eine Semantik für den Abgleich zu definieren.
 
+```XML
     <?xml version="1.0" encoding="utf-8"?>
     <Rules packageId="...">
             ...
@@ -40,6 +41,7 @@ Das Element `Match` wird innerhalb der Elemente `Pattern` und `Evidence` zur Dar
             ...
     
     </Rules>
+```
 
 ## Definieren eines schlüsselwortbasierten Abgleichs
 
@@ -52,7 +54,7 @@ Beim Abgleich kann mit einer genauen Übereinstimmung oder Word Übereinstimmung
 > Damit eine bessere Effizienz und Leistung erzielt werden, sollten Sie das konstantenbasierte Format für Übereinstimmungen über RegEx verwenden. Verwenden Sie RegEx-Übereinstimmungen nur dann, wenn konstantenbasierte Übereinstimmungen nicht ausreichen und die Flexibilität von regulären Ausdrücken erforderlich ist.
 
 
-
+```XML
     <Keyword id="Word_Example">
         <Group matchStyle="word">
            <Term>card verification</Term>
@@ -72,6 +74,7 @@ Beim Abgleich kann mit einer genauen Übereinstimmung oder Word Übereinstimmung
            <Term>security</Term>
         </Group>
     </Keyword>
+```
 
 ## Definieren eines Abgleichs auf Basis regulärer Ausdrücke
 
@@ -198,6 +201,7 @@ Eine weitere gängige Methode für den Abgleich basiert auf regulären Ausdrück
 
 Das Element "Regex" verfügt über ein Attribut "id", das in den zugehörigen Regeln vom Typ "Entity" oder "Affinity" als Referenz verwendet wird. Ein einzelnes Element "Regex" kann in mehreren Regeln vom Typ "Entity" und "Affinity" referenziert werden. Der RegEx-Ausdruck wird als Wert des Elements "Regex" definiert.
 
+```powershell
     <Regex id="CCRegex">
          \bcc\#\s|\bcc\#\:\s
     </Regex>
@@ -209,6 +213,7 @@ Das Element "Regex" verfügt über ein Attribut "id", das in den zugehörigen Re
     <Regex id="NorthCarolinaDriversLicenseNumber">
         (^|\s|\:)(\d{1,8})($|\s|\.\s)
     </Regex>
+```
 
 ## Kombinieren mehrerer Elemente für den Abgleich
 
@@ -224,7 +229,7 @@ Das optionale minMatches-Attribut kann verwendet werden (Standardwert = 1), um d
 
 <!-- end list -->
 
-```
+```XML
     <Any minMatches="3" maxMatches="3">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
@@ -232,7 +237,7 @@ Das optionale minMatches-Attribut kann verwendet werden (Standardwert = 1), um d
     </Any>
 ```
 
-```
+```XML
     <Any maxMatches="0">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
@@ -240,7 +245,7 @@ Das optionale minMatches-Attribut kann verwendet werden (Standardwert = 1), um d
     </Any>
 ```
 
-```
+```XML
     <Any minMatches="1" maxMatches="1">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
@@ -260,6 +265,7 @@ Für Entity-basierte Regeln kann die Zuverlässigkeitsstufe außerdem erhöht we
 
 <!-- end list -->
 
+```XML
     <Entity id="..." patternsProximity="300" >
         <Pattern confidenceLevel="65">
             <IdMatch idRef="UnformattedSSN" />
@@ -286,6 +292,7 @@ Für Entity-basierte Regeln kann die Zuverlässigkeitsstufe außerdem erhöht we
             </Any>
         </Pattern>
     </Entity>
+```
 
 ## Beispiel: Regel für den Abgleich von Sozialversicherungsnummern der USA (Social Security Number, SSN)
 
@@ -305,6 +312,7 @@ In diesem Abschnitt finden Sie eine Einführung in die Erstellung einer Regel zu
 
 Übersetzen Sie die Beschreibung anschließend in eine Regelschemadarstellung:
 
+```xml
     <Entity id="a44669fe-0d48-453d-a9b1-2cc83f2cba77"
              patternsProximity="300" RecommendedConfidence="85">
         <Pattern confidenceLevel="85">
@@ -317,6 +325,7 @@ In diesem Abschnitt finden Sie eine Einführung in die Erstellung einer Regel zu
           </Any>
         </Pattern>
     </Entity>
+```
 
 ## Weitere Informationen
 

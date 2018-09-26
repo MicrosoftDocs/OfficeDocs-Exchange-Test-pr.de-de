@@ -61,11 +61,15 @@ Nachdem Sie die Grenzwerte für Verbindungstimeouts für IMAP4 eingerichtet habe
 
 In diesem Beispiel wird der Grenzwert für Verbindungstimeouts für inaktive authentifizierte Verbindungen festgelegt.
 
+```powershell
     Set -ImapSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```
 
 In diesem Beispiel wird der Grenzwert für Verbindungstimeouts für inaktive nicht authentifizierte Verbindungen festgelegt.
 
+```powershell
     Set -ImapSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```
 
 Nachdem Sie die Grenzwerte für Verbindungstimeouts für IMAP4 eingerichtet haben, müssen Sie die IMAP4-Dienste neu starten, damit die Einstellungen wirksam werden. Informationen zum Neustarten der IMAP4-Dienste finden Sie unter [Starten und Stoppen der IMAP4-Dienste](start-and-stop-the-imap4-services-exchange-2013-help.md).
 
@@ -89,8 +93,10 @@ Gehen Sie wie folgt vor, um das erfolgreiche Einstellen der Grenzwerte für Verb
 
 1.  Führen Sie folgenden Befehl in der Shell aus.
     
+    ```powershell
         Get-ImapSettings | format-list
-
+    ```
+    
 2.  Überprüfen Sie, ob die Verbindungseinstellungen richtig sind.
 
 ## Weitere Informationen

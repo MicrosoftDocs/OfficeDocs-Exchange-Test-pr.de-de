@@ -65,21 +65,29 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit K
 
 In diesem Beispiel die fortlaufende Replikation für eine Kopie der Datenbank "DB1" auf dem Server "MBX1" angehalten. Es wurde auch ein optionaler Kommentar angegeben.
 
+```powershell
     Suspend-MailboxDatabaseCopy -Identity DB1\MBX1 -SuspendComment "Maintenance on MBX1" -Confirm:$False
+```
 
 In diesem Beispiel wird die Aktivierung für eine Kopie der Datenbank "DB2" auf dem Server "MBX2" angehalten.
 
+```powershell
     Suspend-MailboxDatabaseCopy -Identity DB2\MBX2 -ActivationOnly -Confirm:$False
+```
 
 ## Verwenden der Shell zum Fortsetzen einer Postfachdatenbankkopie
 
 In diesem Beispiel wird eine Kopie der Datenbank "DB1" auf dem Server "MBX1" fortgesetzt.
 
+```powershell
     Resume-MailboxDatabaseCopy -Identity DB1\MBX1
+```
 
 In diesem Beispiel wird eine Kopie der Datenbank "DB2" auf dem Server "MBX2" ausschließlich zur Replikation fortgesetzt.
 
+```powershell
     Resume-MailboxDatabaseCopy -Identity DB2\MBX2 -ReplicationOnly
+```
 
 ## Woher wissen Sie, dass dieses Verfahren erfolgreich war?
 
@@ -89,5 +97,7 @@ Gehen Sie folgendermaßen vor, um das erfolgreiche Anhalten oder Fortsetzen eine
 
   - Führen Sie in der Shell den folgenden Befehl aus, um Statusinformationen zu einer Datenbankkopie anzuzeigen.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 

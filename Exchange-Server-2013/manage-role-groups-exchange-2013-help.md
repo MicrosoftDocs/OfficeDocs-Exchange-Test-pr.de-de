@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass eine Rollengruppe erfolgreich 
 Wenn Sie eine Rollengruppe mit den Berechtigungen haben, die Sie Benutzern erteilen möchten, Sie aber einen anderen Verwaltungsbereich anwenden oder ein oder zwei Verwaltungsrollen hinzufügen bzw. entfernen möchten, ohne alle anderen Rollen manuell hinzufügen zu müssen, können Sie die vorhandene Rollengruppe kopieren.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Die Exchange-Verwaltungskonsole kann nicht zum Kopieren einer Rollengruppe verwendet werden, wenn Sie für die Rollengruppe mit der Exchange-Verwaltungsshell mehrere Verwaltungsrollenbereiche oder exklusive Bereiche konfiguriert haben. Wenn Sie mehrere Bereiche oder exklusive Bereiche für die Rollengruppe konfiguriert haben, müssen Sie die Rollengruppe mithilfe der Verfahren für die Shell weiter unten in diesem Thema kopieren. Weitere Informationen zu Verwaltungsrollenbereichen finden Sie unter <A href="understanding-management-role-scopes-exchange-2013-help.md">Grundlegendes zu Verwaltungsrollenbereichen</A>.
 
 
@@ -97,16 +97,22 @@ Wenn Sie eine Rollengruppe mit den Berechtigungen haben, die Sie Benutzern ertei
 
 1.  Verwenden Sie die folgende Syntax, um die Rollengruppe, die Sie kopieren möchten, in einer Variablen zu speichern.
     
-        $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```powershell
+    $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```
 
 2.  Verwenden Sie die folgende Syntax, um die neue Rollengruppe zu erstellen, der Rollengruppe Mitglieder hinzuzufügen und anzugeben, wer die neue Rollengruppe an andere Benutzer delegieren kann.
     
-        New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -Members <member1, member2, member3...> -ManagedBy <user1, user2, user3...>
+    ```powershell
+    New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -Members <member1, member2, member3...> -ManagedBy <user1, user2, user3...>
+    ```
 
 Mithilfe der folgenden Befehle können Sie z. B. die Rollengruppe "Organization Management" kopieren und die neue Rollengruppe "Limited Organization Management" nennen. Hinzugefügt werden die Mitglieder Isabelle, Carter und Lukas, zugewiesen werden kann sie von Jenny und Katie.
 
-    $RoleGroup = Get-RoleGroup "Organization Management"
-    New-RoleGroup "Limited Organization Management" -Roles $RoleGroup.Roles -Members Isabelle, Carter, Lukas -ManagedBy Jenny, Katie
+```powershell
+$RoleGroup = Get-RoleGroup "Organization Management"
+New-RoleGroup "Limited Organization Management" -Roles $RoleGroup.Roles -Members Isabelle, Carter, Lukas -ManagedBy Jenny, Katie
+```
 
 Nach dem Erstellen einer neuen Rollengruppe können Sie u. a. Rollen hinzufügen oder entfernen und den Bereich von Rollenzuweisungen für die Rolle ändern.
 
@@ -116,16 +122,22 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-RoleG
 
 1.  Verwenden Sie die folgende Syntax, um die Rollengruppe, die Sie kopieren möchten, in einer Variablen zu speichern.
     
-        $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```powershell
+    $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```
 
 2.  Verwenden Sie die folgende Syntax, um die neue Rollengruppe mit einem benutzerdefinierten Bereich zu erstellen.
     
-        New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuraiton scope name>
+    ```powershell
+    New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuraiton scope name>
+    ```
 
 Mithilfe der folgenden Befehle können Sie beispielsweise die Rollengruppe "Organization Management" kopieren und eine neue Rollengruppe namens "Vancouver Organization Management" mit dem Empfängerbereich "Vancouver Users" und dem Konfigurationsbereich "Vancouver Servers" erstellen.
 
-    $RoleGroup = Get-RoleGroup "Organization Management"
-    New-RoleGroup "Vancouver Organization Management" -Roles $RoleGroup.Roles -CustomRecipientWriteScope "Vancouver Users" -CustomConfigWriteScope "Vancouver Servers"
+```powershell
+$RoleGroup = Get-RoleGroup "Organization Management"
+New-RoleGroup "Vancouver Organization Management" -Roles $RoleGroup.Roles -CustomRecipientWriteScope "Vancouver Users" -CustomConfigWriteScope "Vancouver Servers"
+```
 
 Sie können der Rollengruppe auch Mitglieder hinzufügen, wenn Sie sie mit dem Parameter *Members* erstellen, wie unter Verwenden der Shell zum Kopieren einer Rollengruppe ohne Bereich weiter oben in diesem Thema veranschaulicht. Weitere Informationen zu Verwaltungsbereichen finden Sie unter [Grundlegendes zu Verwaltungsrollenbereichen](understanding-management-role-scopes-exchange-2013-help.md).
 
@@ -137,16 +149,22 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Get-RoleG
 
 1.  Verwenden Sie die folgende Syntax, um die Rollengruppe, die Sie kopieren möchten, in einer Variablen zu speichern.
     
-        $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```powershell
+    $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```
 
 2.  Verwenden Sie die folgende Syntax, um die neue Rollengruppe mit einem benutzerdefinierten Bereich zu erstellen.
     
-        New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -RecipientOrganizationalUnitScope <OU name>
+    ```powershell
+    New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -RecipientOrganizationalUnitScope <OU name>
+    ```
 
 Mithilfe der folgenden Befehle können Sie beispielsweise die Rollengruppe "Recipient Management" kopieren und eine neue Rollengruppe namens "Toronto Recipient Management" erstellen, die nur die Verwaltung von Benutzern in der Organisationseinheit "Toronto Users" zulässt.
 
-    $RoleGroup = Get-RoleGroup "Recipient Management"
-    New-RoleGroup "Toronto Recipient Management" -Roles $RoleGroup.Roles -RecipientOrganizationalUnitScope "contoso.com/Toronto Users"
+```powershell
+$RoleGroup = Get-RoleGroup "Recipient Management"
+New-RoleGroup "Toronto Recipient Management" -Roles $RoleGroup.Roles -RecipientOrganizationalUnitScope "contoso.com/Toronto Users"
+```
 
 Sie können der Rollengruppe auch Mitglieder hinzufügen, wenn Sie sie mit dem Parameter *Members* erstellen, wie unter Verwenden der Shell zum Kopieren einer Rollengruppe ohne Bereich weiter oben in diesem Thema veranschaulicht. Weitere Informationen zu Verwaltungsbereichen finden Sie unter [Grundlegendes zu Verwaltungsrollenbereichen](understanding-management-role-scopes-exchange-2013-help.md).
 
@@ -201,10 +219,8 @@ Das Hinzufügen einer Verwaltungsrolle zu einer Rollengruppe ist die beste und e
 ## Hinzufügen einer Verwaltungsrolle zu einer Rollengruppe mithilfe der Exchange-Verwaltungskonsole
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]    
 > Die Exchange-Verwaltungskonsole kann nicht zum Hinzufügen von Rollen zu einer Rollengruppe verwendet werden, wenn Sie für die Rollengruppe mit der Shell mehrere Verwaltungsrollenbereiche oder exklusive Bereiche konfiguriert haben. Wenn Sie mehrere Bereiche oder exklusive Bereiche für die Rollengruppe konfiguriert haben, müssen Sie die weiter unten in diesem Thema beschriebenen Shellverfahren nutzen, um Rollen zur Rollengruppe hinzuzufügen. Weitere Informationen zu Verwaltungsrollenbereichen finden Sie unter <A href="understanding-management-role-scopes-exchange-2013-help.md">Grundlegendes zu Verwaltungsrollenbereichen</A>.
-
-
 
 1.  Navigieren Sie in der Exchange-Verwaltungskonsole zu **Berechtigungen** \> **Administratorrollen**.
 
@@ -220,11 +236,15 @@ Sie können eine Rollenzuweisung ohne Bereich zwischen einer Rolle und einer Rol
 
 Verwenden Sie die folgende Syntax zum Zuweisen einer Rolle ohne Bereich zu einer Rollengruppe. Wenn Sie keinen Namen für die Rollenzuweisung angeben, wird automatisch ein Name erstellt.
 
-    New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name>
+```powershell
+New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name>
+```
 
 In diesem Beispiel wird die Verwaltungsrolle Transportregeln der Rollengruppe "Seattle Compliance" zugewiesen.
 
-    New-ManagementRoleAssignment -SecurityGroup "Seattle Compliance" -Role "Transport Rules"
+```powershell
+New-ManagementRoleAssignment -SecurityGroup "Seattle Compliance" -Role "Transport Rules"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -236,11 +256,15 @@ Weitere Informationen zu Rollenzuweisungen finden Sie unter [Grundlegendes zu Ve
 
 Anhand der folgenden Syntax weisen Sie einer Rollengruppe eine Rolle mit vordefiniertem Bereich zu. Wenn Sie keinen Namen für die Rollenzuweisung angeben, wird automatisch ein Name erstellt.
 
-    New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -RecipientRelativeWriteScope < MyGAL | MyDistributionGroups | Organization | Self >
+```powershell
+New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -RecipientRelativeWriteScope < MyGAL | MyDistributionGroups | Organization | Self >
+```
 
 In diesem Beispiel wird die Rolle Nachrichtenverfolgung der Rollengruppe "Enterprise Support" zugewiesen und der vordefinierte Bereich Organisation angewendet.
 
-    New-ManagementRoleAssignment -SecurityGroup "Enterprise Support" -Role "Message Tracking" -RecipientRelativeWriteScope Organization
+```powershell
+New-ManagementRoleAssignment -SecurityGroup "Enterprise Support" -Role "Message Tracking" -RecipientRelativeWriteScope Organization
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -258,11 +282,15 @@ Weitere Informationen zu Rollenzuweisungen und Bereichen finden Sie unter den fo
 
 Verwenden Sie die folgenden Syntax, um eine Rolle einer Rollengruppe mit einem filterbasierten Empfängerbereich zuzuweisen. Wenn Sie keinen Namen für die Rollenzuweisung angeben, wird automatisch ein Name erstellt.
 
-    New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomRecipientWriteScope <role scope name>
+```powershell
+New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomRecipientWriteScope <role scope name>
+```
 
 In diesem Beispiel wird die Rolle Nachrichtenverfolgung der Rollengruppe "Seattle Recipient Admins" zugewiesen und der Bereich "Seattle Recipients" angewendet.
 
-    New-ManagementRoleAssignment -SecurityGroup "Seattle Recipient Admins" -Role "Message Tracking" -CustomRecipientWriteScope "Seattle Recipients"
+```powershell
+New-ManagementRoleAssignment -SecurityGroup "Seattle Recipient Admins" -Role "Message Tracking" -CustomRecipientWriteScope "Seattle Recipients"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -280,11 +308,15 @@ Weitere Informationen zu Rollenzuweisungen und Verwaltungsbereichen finden Sie i
 
 Verwenden Sie die folgende Syntax, um eine Rolle einer Rollengruppe mit einem Konfigurationsbereich zuzuweisen. Wenn Sie keinen Namen für die Rollenzuweisung angeben, wird automatisch ein Name erstellt.
 
-    New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomConfigWriteScope <role scope name>
+```powershell
+New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomConfigWriteScope <role scope name>
+```
 
 In diesem Beispiel wird die Rolle Datenbanken der Rollengruppe "Seattle Server Admins" zugewiesen und der Bereich "Seattle Servers" angewendet.
 
-    New-ManagementRoleAssignment -SecurityGroup "Seattle Server Admins" -Role "Databases" -CustomConfigWriteScope "Seattle Servers"
+```powershell
+New-ManagementRoleAssignment -SecurityGroup "Seattle Server Admins" -Role "Databases" -CustomConfigWriteScope "Seattle Servers"
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -300,11 +332,15 @@ Weitere Informationen zu Rollenzuweisungen und Verwaltungsbereichen finden Sie i
 
 Verwenden Sie den folgenden Befehl, um einer Rollengruppe eine Rolle zuzuweisen und den Schreibbereich einer Rolle auf eine bestimmte Organisationseinheit zu beschränken. Wenn Sie keinen Namen für die Rollenzuweisung angeben, wird automatisch ein Name erstellt.
 
-    New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -RecipientOrganizationalUnitScope <OU>
+```powershell
+New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -RecipientOrganizationalUnitScope <OU>
+```
 
 In diesem Beispiel wird die Rolle "Mail Recipients" der Rollengruppe "Seattle Recipient Admins" zugewiesen und der Bereich der Zuweisung auf die Organisationseinheit "Sales\\Users" in der Domäne "Contoso.com" festgelegt.
 
-    New-ManagementRoleAssignment -SecurityGroup "Seattle Recipient Admins" -Role "Mail Recipients" -RecipientOrganizationalUnitScope contoso.com/sales/users
+```powershell
+New-ManagementRoleAssignment -SecurityGroup "Seattle Recipient Admins" -Role "Mail Recipients" -RecipientOrganizationalUnitScope contoso.com/sales/users
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd335193\(v=exchg.150\)).
 
@@ -321,7 +357,7 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass Rollen erfolgreich zu einer Ro
 Das Entfernen einer Rolle aus einer Verwaltungsrollengruppe ist die beste und einfachste Methode, einer Gruppe von Administratoren oder spezialisierten Benutzern erteilte Berechtigungen zu entziehen. Wenn Sie Administratoren oder spezialisierten Benutzern keine Berechtigungen zum Verwalten einer Funktion erteilen möchten, entfernen Sie die Verwaltungsrolle aus der Verwaltungsrollengruppe, über welche die Berechtigungen verwaltet werden. Nachdem die Rolle entfernt wurde, besitzen die Mitglieder der Rollengruppe nicht länger Berechtigungen zum Verwalten der Funktion.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Einige Rollengruppen – beispielsweise die Rollengruppe Organisationsverwaltung – beschränken, welche Rollen aus einer Rollengruppe entfernt werden können. Weitere Informationen finden Sie unter <A href="understanding-management-role-groups-exchange-2013-help.md">Grundlegendes zu Verwaltungsrollengruppen</A>.<BR>Wenn ein Administrator Mitglied einer weiteren Rollengruppe mit Verwaltungsrollen ist, die das Verwalten der Funktion ermöglichen, müssen Sie den Administrator entweder auch aus diesen Rollengruppen entfernen oder die Rolle aus den weiteren Rollengruppen entfernen, die das Verwalten der Funktion ermöglicht.
 
 
@@ -329,7 +365,7 @@ Das Entfernen einer Rolle aus einer Verwaltungsrollengruppe ist die beste und ei
 ## Entfernen einer Verwaltungsrolle aus einer Rollengruppe mithilfe der Exchange-Verwaltungskonsole
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Die Exchange-Verwaltungskonsole kann nicht zum Entfernen von Rollen aus einer Rollengruppe verwendet werden, wenn Sie für die Rollengruppe mit der Shell mehrere Bereiche oder exklusive Bereiche konfiguriert haben. Wenn Sie mehrere Bereiche oder exklusive Bereiche für die Rollengruppe konfiguriert haben, müssen Sie die weiter unten in diesem Thema beschriebenen Shellverfahren nutzen, um Rollen aus der Rollengruppe zu entfernen. Weitere Informationen zu Verwaltungsrollenbereichen finden Sie unter <A href="understanding-management-role-scopes-exchange-2013-help.md">Grundlegendes zu Verwaltungsrollenbereichen</A>.
 
 
@@ -352,11 +388,15 @@ Bei diesem Verfahren wird das Pipelining verwendet. Weitere Informationen zum Pi
 
 Verwenden Sie die folgende Syntax, um eine Rolle aus einer Rollengruppe zu entfernen.
 
-    Get-ManagementRoleAssignment -RoleAssignee <role group name> -Role <role name> -Delegating <$true | $false> | Remove-ManagementRoleAssignment
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee <role group name> -Role <role name> -Delegating <$true | $false> | Remove-ManagementRoleAssignment
+```
 
 In diesem Beispiel wird die Rolle "Distribution Groups", die Administratoren das Verwalten von Verteilergruppen ermöglicht, aus der Rollengruppe "Seattle Recipient Administrators" entfernt. Da die Rollenzuweisung entfernt werden soll, mit der Berechtigungen zum Verwalten von Verteilergruppen gewährt werden, wird der Parameter *Delegating* auf `$False` festgelegt, sodass nur reguläre Rollenzuweisungen zurückgegeben werden.
 
-    Get-ManagementRoleAssignment -RoleAssignee "Seattle Recipient Administrators" -Role "Distribution Groups" -Delegating $false | Remove-ManagementRoleAssignment
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee "Seattle Recipient Administrators" -Role "Distribution Groups" -Delegating $false | Remove-ManagementRoleAssignment
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Remove-ManagementRoleAssignment](https://technet.microsoft.com/de-de/library/dd351205\(v=exchg.150\)).
 
@@ -385,7 +425,7 @@ Weitere Informationen zu Verwaltungsrollenbereichen und -zuweisungen in Exchange
 Wenn Sie die Exchange-Verwaltungskonsole verwenden, um den Bereich für eine Rollengruppe zu ändern, dann ändern Sie tatsächlich den Bereich für alle Rollenzuweisungen zwischen der Rollengruppe und jeder der Verwaltungsrollen, die der Rollengruppe zugewiesen sind. Wenn Sie den Bereich für bestimmte Rollenzuweisungen ändern möchten, müssen Sie die später in diesem Thema folgenden Shell-Verfahren verwenden.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Die Exchange-Verwaltungskonsole kann nicht zum Verwalten von Bereichen für Rollenzuweisungen zwischen Rollen und einer Rollengruppe verwendet werden, wenn Sie mehrere Bereiche oder exklusive Bereiche für diese Rollenzuweisungen mithilfe der Shell konfiguriert haben. Wenn Sie mehrere Bereiche oder exklusive Bereiche für diese Rollenzuweisungen konfiguriert haben, müssen Sie die Bereiche mithilfe der später in diesem Thema folgenden Verfahren für die Shell verwalten. Weitere Informationen zu Verwaltungsrollenbereichen finden Sie unter <A href="understanding-management-role-scopes-exchange-2013-help.md">Grundlegendes zu Verwaltungsrollenbereichen</A>.
 
 
@@ -418,17 +458,19 @@ Dieses Verfahren verwendet Pipelining und die Option *WhatIf*. Weitere Informati
 
 Verwenden Sie die folgende Syntax, um den Bereich aller Rollenzuweisungen für eine Rollengruppe gleichzeitig zu ändern.
 
-    Get-ManagementRoleAssignment -RoleAssignee <name of role group> | Set-ManagementRoleAssignment -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuration scope name> -RecipientRelativeScopeWriteScope < MyDistributionGroups | Organization | Self> -ExclusiveRecipientWriteScope <exclusive recipient scope name> -ExclusiveConfigWriteScope <exclusive configuration scope name> -RecipientOrganizationalUnitScope <organizational unit>
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee <name of role group> | Set-ManagementRoleAssignment -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuration scope name> -RecipientRelativeScopeWriteScope < MyDistributionGroups | Organization | Self> -ExclusiveRecipientWriteScope <exclusive recipient scope name> -ExclusiveConfigWriteScope <exclusive configuration scope name> -RecipientOrganizationalUnitScope <organizational unit>
+```
 
 Sie verwenden nur die zum Konfigurieren des zu verwendenden Bereichs erforderlichen Parameter. Wenn Sie beispielsweise den Empfängerbereich für alle Rollenzuweisungen der Rollengruppe "Sales Recipient Management" in "Direct Sales Employees" ändern möchten, müssen Sie den folgenden Befehl verwenden.
 
-    Get-ManagementRoleAssignment -RoleAssignee "Sales Recipient Management" | Set-ManagementRoleAssignment -CustomRecipientWriteScope "Direct Sales Employees"
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee "Sales Recipient Management" | Set-ManagementRoleAssignment -CustomRecipientWriteScope "Direct Sales Employees"
+```
 
 
-> [!NOTE]
+> [!NOTE]  
 > Mit der Option <EM>WhatIf</EM> können Sie sicherstellen, dass nur die Rollenzuweisungen geändert werden, die Sie tatsächlich ändern möchten. Führen Sie den oben beschriebenen Befehl mit der Option <EM>WhatIf</EM> aus, um die Ergebnisse zu überprüfen, und entfernen Sie die Option <EM>WhatIf</EM> anschließend, um die Änderungen anzuwenden.
-
-
 
 Weitere Informationen zum Ändern von Verwaltungsrollenzuweisungen finden Sie unter [Ändern einer Rollenzuweisung](change-a-role-assignment-exchange-2013-help.md).
 
@@ -450,17 +492,23 @@ Wenn Sie den Bereich einer Rollenzuweisung zwischen einer Rollengruppe und einer
 
 1.  Verwenden Sie den folgenden Befehl, um die Namen aller Rollenzuweisungen für eine Rollengruppe zu ermitteln. Indem Sie die Verwaltungsrollenzuweisungen mithilfe des Pipelinings an das Cmdlet **Format-List** übergeben, können Sie den vollständigen Namen der Zuweisung anzeigen.
     
-        Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-List Name
+    ```powershell
+    Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-List Name
+    ```
 
 2.  Ermitteln Sie den Namen der Rollenzuweisung, die Sie ändern möchten. Verwenden Sie den Namen der Rollenzuweisung im nächsten Schritt.
 
 3.  Verwenden Sie die folgende Syntax, um den Bereich einer einzelnen Zuweisung festzulegen.
     
-        Set-ManagementRoleAssignment <role assignment name> -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuration scope name> -RecipientRelativeScopeWriteScope < MyDistributionGroups | Organization | Self> -ExclusiveRecipientWriteScope <exclusive recipient scope name> -ExclusiveConfigWriteScope <exclusive configuration scope name> -RecipientOrganizationalUnitScope <organizational unit>
+    ```powershell
+    Set-ManagementRoleAssignment <role assignment name> -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuration scope name> -RecipientRelativeScopeWriteScope < MyDistributionGroups | Organization | Self> -ExclusiveRecipientWriteScope <exclusive recipient scope name> -ExclusiveConfigWriteScope <exclusive configuration scope name> -RecipientOrganizationalUnitScope <organizational unit>
+    ```
 
 Sie verwenden nur die zum Konfigurieren des zu verwendenden Bereichs erforderlichen Parameter. Wenn Sie beispielsweise den Empfängerbereich für die Rollenzuweisung "Mail Recipients\_Sales Recipient Management" in "All Sales Employees" ändern möchten, müssen Sie den folgenden Befehl verwenden.
 
-    Set-ManagementRoleAssignment "Mail Recipients_Sales Recipient Management" -CustomRecipientWriteScope "All Sales Employees"
+```powershell
+Set-ManagementRoleAssignment "Mail Recipients_Sales Recipient Management" -CustomRecipientWriteScope "All Sales Employees"
+```
 
 Weitere Informationen zum Ändern von Verwaltungsrollenzuweisungen finden Sie unter [Ändern einer Rollenzuweisung](change-a-role-assignment-exchange-2013-help.md).
 
@@ -480,7 +528,9 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass der Bereich einer Rollenzuweis
     
     1.  Führen Sie folgenden Befehl in der Shell aus.
         
-            Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-Table *WriteScope
+        ```powershell
+        Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-Table *WriteScope
+        ```
     
     2.  Vergewissern Sie sich, dass der Schreibbereich für die Rollenzuweisungen in den Bereich geändert wurde, den Sie angegeben haben.
 
@@ -489,16 +539,11 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass der Bereich einer Rollenzuweis
 Rollengruppenstellvertretungen sind Benutzer oder universelle Sicherheitsgruppen (Universal Security Groups, USGs), die Mitglieder zu Rollengruppen hinzufügen oder aus ihnen entfernen sowie die Eigenschaften einer Rollengruppe ändern können. Durch Hinzufügen oder Entfernen von Rollengruppenstellvertretern können Sie steuern, welche Personen eine Rollengruppe verwalten dürfen.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Nachdem Sie einen Stellvertreter zu einer Rollengruppe hinzugefügt haben, kann die Rollengruppe nur von den Stellvertretern der Gruppe oder von Benutzern, denen entweder direkt oder indirekt die Verwaltungsrolle "Rollenverwaltung" zugewiesen wurde, verwaltet werden.<BR>Falls einem Benutzer entweder direkt oder indirekt die Verwaltungsrolle "Rollenverwaltung" zugewiesen wurden, dieser jedoch nicht als Stellvertreter der Rollengruppe hinzugefügt wurde, muss er bei den Cmdlets <STRONG>Add-RoleGroupMember</STRONG>, <STRONG>Remove-RoleGroupMember</STRONG>, <STRONG>Update-RoleGroupMember</STRONG> und <STRONG>Set-RoleGroup</STRONG> jeweils die Option <EM>BypassSecurityGroupManagerCheck</EM> verwenden, um die Rollengruppe verwalten zu können.
 
-
-
-
-> [!NOTE]
+> [!NOTE]  
 > Die Exchange-Verwaltungskonsole kann nicht dazu verwendet werden, eine Stellvertretung zu einer Rollengruppe hinzuzufügen.
-
-
 
 ## Verwenden der Shell zum Hinzufügen eines Stellvertreters zu einer Rollengruppe
 
@@ -506,14 +551,17 @@ Sie verwenden den Parameter *ManagedBy* für das Cmdlet **Set-RoleGroup**, um di
 
 1.  Speichern Sie die Rollengruppe mit dem folgenden Befehl in einer Variablen.
     
-        $RoleGroup = Get-RoleGroup <role group name>
+    ```powershell
+    $RoleGroup = Get-RoleGroup <role group name>
+    ```
 
 2.  Fügen Sie mit dem folgenden Befehl den Stellvertreter zu der in der Variablen gespeicherten Rollengruppe hinzu.
     
-        $RoleGroup.ManagedBy += (Get-User <user to add>).Identity
+    ```powershell
+    $RoleGroup.ManagedBy += (Get-User <user to add>).Identity
+    ```
     
-
-    > [!NOTE]
+    > [!NOTE]  
     > Verwenden Sie das Cmdlet <STRONG>Get-Group</STRONG>, wenn Sie eine USG hinzufügen möchten.
 
 
@@ -522,13 +570,17 @@ Sie verwenden den Parameter *ManagedBy* für das Cmdlet **Set-RoleGroup**, um di
 
 4.  Wenden Sie die neue Liste der Stellvertreter mithilfe des folgenden Befehls auf die eigentliche Rollengruppe an.
     
-        Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```powershell
+    Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```
 
 In diesem Beispiel wird der Benutzer David Strome als Stellvertreter der Rollengruppe Organisationsverwaltung hinzugefügt.
 
-    $RoleGroup = Get-RoleGroup "Organization Management"
-    $RoleGroup.ManagedBy += (Get-User "David Strome").Identity
-    Set-RoleGroup "Organization Management" -ManagedBy $RoleGroup.ManagedBy
+```powershell
+$RoleGroup = Get-RoleGroup "Organization Management"
+$RoleGroup.ManagedBy += (Get-User "David Strome").Identity
+Set-RoleGroup "Organization Management" -ManagedBy $RoleGroup.ManagedBy
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-RoleGroup](https://technet.microsoft.com/de-de/library/dd638182\(v=exchg.150\)).
 
@@ -538,29 +590,35 @@ Sie verwenden den Parameter *ManagedBy* für das Cmdlet **Set-RoleGroup**, um di
 
 1.  Speichern Sie die Rollengruppe mit dem folgenden Befehl in einer Variablen.
     
-        $RoleGroup = Get-RoleGroup <role group name>
+    ```powershell
+    $RoleGroup = Get-RoleGroup <role group name>
+    ```
 
 2.  Entfernen Sie mit dem folgenden Befehl den Stellvertreter aus der in der Variablen gespeicherten Rollengruppe.
     
-        $RoleGroup.ManagedBy -= (Get-User <user to remove>).Identity
+    ```powershell
+    $RoleGroup.ManagedBy -= (Get-User <user to remove>).Identity
+    ```
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Verwenden Sie das Cmdlet <STRONG>Get-Group</STRONG>, wenn Sie eine USG entfernen möchten.
-
-
 
 3.  Wiederholen Sie Schritt 2 für jeden Stellvertreter, den Sie entfernen möchten.
 
 4.  Wenden Sie die neue Liste der Stellvertreter mithilfe des folgenden Befehls auf die eigentliche Rollengruppe an.
     
-        Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```powershell
+    Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```
 
 In diesem Beispiel wird der Benutzer David Strome als Stellvertreter der Rollengruppe Organisationsverwaltung entfernt.
 
-    $RoleGroup = Get-RoleGroup "Organization Management"
-    $RoleGroup.ManagedBy -= (Get-User "David Strome").Identity
-    Set-RoleGroup "Organization Management" -ManagedBy $RoleGroup.ManagedBy
+```powershell
+$RoleGroup = Get-RoleGroup "Organization Management"
+$RoleGroup.ManagedBy -= (Get-User "David Strome").Identity
+Set-RoleGroup "Organization Management" -ManagedBy $RoleGroup.ManagedBy
+```
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-RoleGroup](https://technet.microsoft.com/de-de/library/dd638182\(v=exchg.150\)).
 
@@ -570,7 +628,8 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass die Stellvertretungsliste für
 
 1.  Führen Sie in der Shell den folgenden Befehl aus.
     
-        Get-RoleGroup <role group name> | Format-List ManagedBy
+    ```powershell
+    Get-RoleGroup <role group name> | Format-List ManagedBy
+    ```
 
 2.  Vergewissern Sie sich, dass in der Liste, die für die Eigenschaft *ManagedBy* erstellt wurde, nur Stellvertretungen enthalten sind, die die Rollengruppe verwalten dürfen.
-

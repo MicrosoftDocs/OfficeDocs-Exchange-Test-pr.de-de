@@ -106,12 +106,14 @@ Die Nachrichten-Snapshotdateien können mithilfe eines Text-Editors wie Editor g
 
 Jede Nachrichten-Snapshotdatei beginnt mit Kopfzeilen, die dem Nachrichteninhalt hinzugefügt werden, und listet das SMTP-Ereignis zusammen mit dem Transport-Agent auf, auf die sich die Nachrichtensnapshotdatei bezieht. Diese Kopfzeilen beginnen mit `X-CreatedBy: MessageSnapshot-Begin injected headers` und enden mit `X-EndOfInjectedXHeaders: MessageSnapshot-End injected headers`. Sie werden in jeder Nachrichten-Snapshotdatei durch die des nachfolgenden Transport-Agents und SMTP-Ereignisses ersetzt. Es folgt ein Beispiel der Kopfzeilen, die einer E-Mail-Nachrichtendatei hinzugefügt werden:
 
+```powershell
     X-CreatedBy: MessageSnapshot-Begin injected headers
     X-MessageSnapshot-UTC-Time: 2013-01-23T23:20:18.138Z
     X-MessageSnapshot-Record-Id: 21474836486
     X-MessageSnapshot-Source: OnSubmittedMessageX-Sender: michelle@nwtraders.com
     X-Receiver: chris@contoso.com
     X-EndOfInjectedXHeaders: MessageSnapshot-End injected headers
+```
 
 Hinter den Nachrichtensnapshot-Kopfzeilen befindet sich der Inhalt der Nachricht, einschließlich aller ursprünglichen Nachrichtenkopfzeilen. Wenn ein Transport-Agent den Inhalt der Nachricht ändert, werden die Änderungen in die Nachricht integriert angezeigt. Während die Nachricht von jedem Transport-Agent verarbeitet wird, werden die Änderungen des jeweiligen Agents an dem Nachrichteninhalt vorgenommen. Wenn ein Transport-Agent keine Änderungen am Nachrichteninhalt vornimmt, ist der Nachrichtensnapshot, der von diesem Agent erstellt wird, mit dem Nachrichtensnapshot identisch, der von dem vorangehenden Transport-Agent erstellt wurde.
 

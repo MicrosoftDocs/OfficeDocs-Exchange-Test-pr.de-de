@@ -67,9 +67,13 @@ Informationen zu weiteren Verwaltungsaufgaben im Zusammenhang mit Unified Messag
 
 In diesem Beispiel wird der Dualmodus als Startmodus für den Postfachserver `MyUMServer1` festgelegt.
 
-    Set-UMService -Identity MyUMServer1 -UMStartUpMode Dual
+```powershell
+Set-UMService -Identity MyUMServer1 -UMStartUpMode Dual
+```
 
 In diesem Beispiel wird der TLS-Modus als Startmodus für einen Postfachserver namens `MyUMServer1` festgelegt.
 
-    Set-UMService -Identity MyUMServer1 -UMStartUpMode TLS
+```powershell
+Set-UMService -Identity MyUMServer1 -UMStartUpMode TLS
+```
 

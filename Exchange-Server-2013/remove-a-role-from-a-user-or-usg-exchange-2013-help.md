@@ -41,17 +41,25 @@ Möchten Sie wissen, welche anderen Verwaltungsaufgaben es im Zusammenhang mit R
 
 Wenn Sie den Namen der zu entfernenden Rollenzuweisung kennen, verwenden Sie die folgende Syntax.
 
-    Remove-ManagementRoleAssignment <assignment name>
+```powershell
+Remove-ManagementRoleAssignment <assignment name>
+```
 
 Um beispielsweise die Rollenzuweisung "Tier 2 Help Desk Assignment" zu entfernen, verwenden Sie den folgenden Befehl.
 
-    Remove-ManagementRoleAssignment "Tier 2 Help Desk Assignment"
+```powershell
+Remove-ManagementRoleAssignment "Tier 2 Help Desk Assignment"
+```
 
 Wenn Sie den Namen der Rollenzuweisung nicht kennen, können Sie die folgende Syntax verwenden.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <user or USG> -Role <role name> -Delegating <$true | $false> | Remove-ManagementRoleAssignment 
+```
 
 Um beispielsweise die reguläre Rollenzuweisung "Mail Recipients" von dem Benutzer "davids" zu entfernen, verwenden Sie den folgenden Befehl.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee davids -Role "Mail Recipients" -Delegating $false | Remove-ManagementRoleAssignment
+```
 

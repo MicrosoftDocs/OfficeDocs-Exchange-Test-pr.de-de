@@ -41,7 +41,9 @@ Weitere Informationen zu Aufgaben im Zusammenhang mit UM-Sprachen finden Sie unt
 
 Führen Sie an einer Eingabeaufforderung den folgenden Befehl aus.
 
-    Setup.exe /RemoveUmLanguagePack:<UmLanguagePackName>
+```powershell
+Setup.exe /RemoveUmLanguagePack:<UmLanguagePackName>
+```
 
 Im vorangehenden Befehl stellt *\<UmLanguagePackName\>* den Namen des UM-Sprachpakets dar, z. B. fr-FR.
 

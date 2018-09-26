@@ -55,7 +55,9 @@ Liegt ein Problem vor? Bitten Sie in den Exchange-Foren um Hilfe. Besuchen Sie d
 
 In diesem Beispiel werden Elemente dauerhaft aus dem Ordner "Wiederherstellbare Elemente" von Gurinder Singh gelöscht, und die Elemente werden in den Ordner "GurinderSingh-RecoverableItems" im Discoverysuchpostfach (einem vom Exchange-Setup erstellten Discoverypostfach) kopiert.
 
+```powershell
     Search-Mailbox -Identity "Gurinder Singh" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
+```
 
 
 > [!NOTE]
@@ -95,32 +97,45 @@ Bei diesem Vorgang werden Elemente aus dem Ordner "Wiederherstellbare Elemente" 
     > [!NOTE]
     > Wenn der Parameter <EM>UseDatabaseQuotaDefaults</EM> auf <CODE>$true</CODE> festgelegt ist, werden die vorigen Kontingenteinstellungen nicht angewendet. Die entsprechenden für die Mailboxdatenbank konfigurierten Kontingenteinstellungen werden angewendet, auch wenn einzelne Postfacheinstellungen Werte enthalten.
 
-    
+    ```powershell    
         Get-Mailbox "Gurinder Singh" | Format-List RecoverableItemsQuota, RecoverableItemsWarningQuota, ProhibitSendQuota, ProhibitSendReceiveQuota, UseDatabaseQuotaDefaults, RetainDeletedItemsFor, UseDatabaseRetentionDefaults
-
+    ```
+    
 2.  Rufen Sie die Zugriffseinstellungen für das Postfach ab. Notieren Sie sich diese Einstellungen zur späteren Verwendung.
     
+    ```powershell
         Get-CASMailbox "Gurinder Singh" | Format-List EwsEnabled, ActiveSyncEnabled, MAPIEnabled, OWAEnabled, ImapEnabled, PopEnabled
-
+    ```
+    
 3.  Rufen Sie die aktuelle Größe des Ordners "Wiederherstellbare Elemente" ab. Notieren Sie sich die Größe, damit Sie in Schritt 6 die Kontingente erhöhen können.
     
+    ```powershell
         Get-MailboxFolderStatistics "Gurinder Singh" -FolderScope RecoverableItems | Format-List Name,FolderAndSubfolderSize
-
+    ```
+    
 4.  Rufen Sie die aktuelle Arbeitszykluskonfiguration für den Assistenten für verwaltete Ordner ab. Notieren Sie sich die Einstellung zur späteren Verwendung.
     
-        Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+    ```powershell
+    Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+    ```
 
 5.  Deaktivieren Sie den Clientzugriff auf das Postfach, um sicherzustellen, dass während dieses Verfahrens keine Änderungen an Postfachdaten vorgenommen werden können.
     
+    ```powershell
         Set-CASMailbox "Gurinder Singh" -EwsEnabled $false -ActiveSyncEnabled $false -MAPIEnabled $false -OWAEnabled $false -ImapEnabled $false -PopEnabled $false
-
+    ```
+    
 6.  Um sicherzustellen, dass keine Elemente aus dem Ordner "Wiederherstellbare Elemente" gelöscht werden, erhöhen Sie das Kontingent für wiederherstellbare Elemente, erhöhen Sie das Warnungskontingent für wiederherstellbare Elemente, und legen Sie den Aufbewahrungszeitraum für gelöschte Elemente auf einen Wert fest, der größer ist als die aktuelle Größe des Ordners "Wiederherstellbare Elemente" des Benutzers. Dies ist besonders wichtig, um Nachrichten für Postfächer aufzubewahren, die der Aufbewahrung im Compliance-Archiv oder für ein Beweissicherungsverfahren unterliegen. Sie sollten den Wert dieser Einstellungen verdoppeln.
     
+    ```powershell
         Set-Mailbox "Gurinder Singh" -RecoverableItemsQuota 50Gb -RecoverableItemsWarningQuota 50Gb -RetainDeletedItemsFor 3650 -ProhibitSendQuota 50Gb -ProhibitSendRecieveQuota 50Gb -UseDatabaseQuotaDefaults $false -UseDatabaseRetentionDefaults $false
-
+    ```
+    
 7.  Deaktivieren Sie den Assistenten für verwaltete Ordner auf dem Postfachserver.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+    ```powershell
+    Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+    ```
     
 
     > [!IMPORTANT]
@@ -130,7 +145,9 @@ Bei diesem Vorgang werden Elemente aus dem Ordner "Wiederherstellbare Elemente" 
 
 8.  Deaktivieren Sie die Wiederherstellung einzelner Elemente, und heben Sie für das Postfach die Aufbewahrung für das Beweissicherungsverfahren auf.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+    ```powershell
+    Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+    ```
     
 
     > [!IMPORTANT]
@@ -140,12 +157,15 @@ Bei diesem Vorgang werden Elemente aus dem Ordner "Wiederherstellbare Elemente" 
 
 9.  Kopieren Sie Elemente aus dem Ordner "Wiederherstellbare Elemente" in einen Ordner im Discoverysuchpostfach, und löschen Sie die Inhalte aus dem Quellpostfach.
     
+    ```powershell
         Search-Mailbox -Identity "Gurinder Singh" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
+    ```
     
     Wenn Sie nur Nachrichten löschen möchten, die bestimmte Bedingungen erfüllen, geben Sie die Bedingungen mit dem Parameter *SearchQuery* an. In diesem Beispiel werden Nachrichten gelöscht, in deren Feld **Subject** die Zeichenfolge "Your bank statement" enthalten ist.
     
+    ```powershell
         Search-Mailbox -Identity "Gurinder Singh" -SearchQuery "Subject:'Your bank statement'" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
-    
+    ```
 
     > [!NOTE]
     > Sie müssen Elemente nicht in das Discoverysuchpostfach kopieren. Sie können Nachrichten in ein beliebiges Postfach kopieren. Um jedoch den Zugriff auf potenziell vertrauliche Postfachdaten zu verhindern, sollten Sie die Nachrichten in ein Postfach kopieren, auf das ausschließlich autorisierte Datensatzmanager zugreifen können. Standardmäßig können auf das Discoverysuchpostfach ausschließlich Mitglieder der Rollengruppe "Discoveryverwaltung" zugreifen. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/de-de/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">Compliance-eDiscovery</A>.
@@ -154,7 +174,9 @@ Bei diesem Vorgang werden Elemente aus dem Ordner "Wiederherstellbare Elemente" 
 
 10. Wenn für das Postfach zuvor die Aufbewahrung für das Beweissicherungsverfahren festgelegt oder die Wiederherstellung einzelner Elemente aktiviert wurde, aktivieren Sie diese Funktionen erneut.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+    ```powershell
+    Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+    ```
     
 
     > [!IMPORTANT]
@@ -180,16 +202,22 @@ Bei diesem Vorgang werden Elemente aus dem Ordner "Wiederherstellbare Elemente" 
     
     In diesem Beispiel wird für das Postfach das Anhalten der Aufbewahrungszeit deaktiviert, die Aufbewahrungszeit für gelöschte Elemente wird auf den Standardwert von 14 Tagen zurückgesetzt, und für das Kontingent für wiederherstellbare Elemente wird die Verwendung desselben Werts konfiguriert wie für die Postfachdatenbank. Wenn die in Schritt 1 notierten Werte davon abweichen, müssen Sie die einzelnen Werte mithilfe der vorstehenden Parameter angeben und den Parameter *UseDatabaseQuotaDefaults* auf `$false` festlegen. Wenn die Parameter *RetainDeletedItemsFor* und *and UseDatabaseRetentionDefaults* zuvor auf einen anderen Wert festgelegt waren, müssen Sie sie auch auf die in Schritt 1 angegebenen Werte zurücksetzen.
     
+    ```powershell
         Set-Mailbox "Gurinder Singh" -RetentionHoldEnabled $false -RetainDeletedItemsFor 14 -RecoverableItemsQuota unlimited -UseDatabaseQuotaDefaults $true
-
+    ```
+    
 12. Aktivieren Sie den Assistenten für verwaltete Ordner, indem Sie den Arbeitszyklus auf den in Schritt 4 notierten Wert zurücksetzen. In diesem Beispiel wird der Arbeitszyklus auf einen Tag festgelegt.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+    ```powershell
+    Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+    ```
 
 13. Aktivieren Sie den Clientzugriff.
     
+    ```powershell
         Set-CASMailbox -ActiveSyncEnabled $true -EwsEnabled $true -MAPIEnabled $true -OWAEnabled $true -ImapEnabled $true -PopEnabled $true
-
+    ```
+    
 Ausführliche Informationen zu Syntax und Parametern finden Sie in den folgenden Themen:
 
   - [Get-Mailbox](https://technet.microsoft.com/de-de/library/bb123685\(v=exchg.150\))
@@ -214,5 +242,7 @@ Führen Sie zum Bestätigen, dass Sie den Ordner "Wiederherstellbare Elemente" e
 
 Bei diesem Beispiel wird die Größe des Ordners "Wiederherstellbare Elemente" und seiner Unterordner sowie die Anzahl der Elemente im Ordner und den einzelnen Unterordnern abgerufen.
 
+```powershell
     Get-MailboxFolderStatistics -Identity "Gurinder Singh" -FolderScope RecoverableItems | Format-Table Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders -Auto
+```
 
